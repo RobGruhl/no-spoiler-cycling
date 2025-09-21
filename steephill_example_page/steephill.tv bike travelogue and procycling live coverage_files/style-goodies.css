@@ -1,0 +1,79 @@
+.article {
+background-image:url(http://www.steephill.tv/img/pages.gif);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 2px 0px;
+}
+.video {
+background-image:url(http://www.steephill.tv/img/video-red-16.png);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.startlist {
+background-image:url(http://www.steephill.tv/img/green-start-flag.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;background-position: 0px 0px;
+}
+.results {
+background-image:url(http://www.steephill.tv/img/results-14.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;background-position: 0px 0px;
+}
+.photos {
+background-image:url(http://www.steephill.tv/img/camera.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;background-position: 0px 1px;
+}
+.map {
+background-image:url(http://www.steephill.tv/img/map_icon2.gif);background-repeat: no-repeat;padding: 0 0px 0 22px;background-position: 0px 0px;
+}
+.audio {
+background-image:url(http://www.steephill.tv/img/audio.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.pdf {
+background-image:url(http://www.steephill.tv/img/pdf.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.profile {
+background-image:url(http://www.steephill.tv/img/profile.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.calendar {
+background-image:url(http://www.steephill.tv/img/calendar-16.png);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.steephill {
+background-image:url(http://www.steephill.tv/img/steephill-16.png);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.wiki {
+background-image:url(http://www.steephill.tv/img/wikipedia-16.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.twitter {
+background-image:url(http://www.steephill.tv/smilies/twitter-bird-16.gif);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.quotes {
+background-image:url(http://www.steephill.tv/img/quote-16.png);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.streetview {
+background-image:url(http://steephill.tv/img/streetview-16.jpg);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+.google-earth {
+background-image:url(http://www.steephill.tv/img/gelogoicon.gif);background-repeat: no-repeat;padding: 0 0px 0 22px;
+background-position: 0px 0px;
+}
+
+
+        a.rider:link {
+            text-decoration: none;
+            color: black;
+        }
+        a.rider:hover {
+            text-decoration: underline;
+            color:blue;
+        }
+        a.rider:not(:hover) {
+        	color:black;
+        }
+
+
+
+
+span.update {color:red;font-weight:bold}
+span.caption {display: inline-block;font: 12.0px Arial;font-weight:bold;line-height:1.2;margin: 2px 0 3px 0}
