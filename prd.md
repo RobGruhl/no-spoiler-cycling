@@ -1,471 +1,431 @@
 # Non-Spoiler Sports v2 - Product Requirements Document
 
-**Version**: 2.0
+**Version**: 2.0 MVP (Working Session Architecture)
 **Date**: September 21, 2025
-**Status**: Planning Phase
+**Status**: Implementation Ready
 
 ## Executive Summary
 
-Non-Spoiler Sports v2 is a radical simplification of our cycling video discovery system, distilled to its essential components: AI-powered content curation, multi-platform authentication, and zero-spoiler video access. The system consists of exactly three files that work together to provide seamless, spoiler-free cycling content discovery.
+Non-Spoiler Sports v2 MVP is a working session-driven cycling video discovery system where Claude Code handles all content discovery during live sessions with users, interpreting raw content and updating simple data files. The system delivers spoiler-free cycling content through a beautiful, static HTML presentation layer that requires no complex authentication or API calls.
 
 ## Core Vision
 
-**"Click. Watch. No Spoilers."**
+**"Working Sessions. Static Results. No Spoilers."**
 
-Users should be able to click any race and immediately watch it without ever seeing results, thumbnails with winners, or any spoiler content. The system handles all complexity behind the scenes through Claude Code AI automation.
+Users work with Claude Code to discover cycling content during live sessions. Claude handles all the complex API work, interprets content intelligently, and generates updated static files. Users receive a self-contained HTML file that works perfectly offline with direct video links.
 
-## System Architecture
+## Working Session Architecture
 
-### Three-File Architecture
-
+### Discovery & Presentation Separation
 ```
-non-spoiler-sports-v2/
-├── CLAUDE_INSTRUCTIONS.md    # AI Task Guide
-├── race-metadata.json        # Content Database
-└── index.html               # User Interface
+Working Session (Claude Code + User):
+├── User: "Find new Tour de France content"
+├── Claude: Firecrawl API calls with credential handling
+├── Claude: LLM interpretation and spoiler filtering
+├── Claude: Update race-metadata.json with discoveries
+└── Claude: Regenerate index.html with latest content
+
+User Experience:
+└── Receives updated HTML file with latest racing content
+    ├── Direct video links (click → immediate play)
+    ├── Steephill.tv-inspired design
+    ├── Offline capable
+    └── No authentication needed
 ```
 
-## File Specifications
+**Core Benefits**:
+- **No browser authentication complexity**: Claude handles all API work during sessions
+- **No rate limiting for users**: API calls happen during Claude sessions only
+- **Fast, reliable HTML**: Static presentation with embedded styles
+- **Offline capable**: Works without internet once generated
+- **Simple distribution**: Just send updated HTML file to users
 
-### 1. CLAUDE_INSTRUCTIONS.md - AI Task Guide
+## Technology Stack
 
-**Purpose**: Comprehensive instructions for Claude Code AI on how to discover, authenticate, and maintain cycling content across all platforms.
+### Primary Tool: Firecrawl API
+- **Session-based discovery**: Claude makes API calls during working sessions
+- API key available in `.env` as `FIRECRAWL_API_KEY`
+- Returns clean markdown/JSON for Claude to interpret
+- Handles platform authentication via provided credentials
+- Built-in stealth mode for challenging platforms
 
-**Key Responsibilities:**
-- **Content Discovery**: Use Firecrawl API (primary) and Playwright CLI (verification) to find new cycling videos
-- **Authentication Management**: Handle login flows for NBC Peacock, FloBikes, HBO Max, YouTube using appropriate tools
-- **User Authentication Guidance**: Provide clear instructions for cookie extraction and platform setup when needed
-- **Spoiler Prevention**: Ensure all operations maintain spoiler-free guarantee through headless operation
-- **Metadata Maintenance**: Update race-metadata.json with newly discovered content and verified links
-- **Quality Assurance**: Verify all links lead directly to video players, not spoiler-containing result pages
-- **Graceful Failure**: Politely inform users when content is temporarily unavailable
+### Intelligence Layer: Claude Code LLM
+- **Content interpretation**: Understand cycling context, race types, video metadata
+- **Spoiler detection**: Intelligently filter result-revealing content
+- **Race classification**: Categorize Grand Tours, Classics, Stage Races automatically
+- **Description generation**: Create engaging spoiler-free summaries
+- **Data structuring**: Maintain clean, structured race metadata
 
-**Technology Stack Usage:**
+### Static Presentation Layer
+- **Self-contained HTML**: All CSS and minimal JavaScript embedded
+- **No external dependencies**: Completely portable and offline-capable
+- **Direct video links**: Bypass platform homepages and result pages
+- **Mobile responsive**: Works perfectly on all devices
+- **Fast loading**: No API calls or complex authentication flows
 
-*Primary Discovery - Firecrawl API:*
-- Direct API calls using FIRECRAWL_API_KEY for authenticated content scraping
-- Extract clean Markdown without visual spoilers through API responses
-- Handle authenticated sessions for FloBikes, Peacock, HBO Max via API parameters
-- Parse video metadata (titles, durations, IDs) from structured JSON responses
-- Generate spoiler-free descriptions for metadata database
+## Platform Integration Strategy
 
-*Verification - Playwright CLI:*
-- Execute strictly headless browser sessions via command line or Node.js scripts
-- CRITICAL: Never allow browser windows to open - use `--headless` flag or `headless: true`
-- Verify authentication flows work correctly through programmatic browser control
-- Ensure direct video access bypasses spoiler-containing pages
-- Cross-platform compatibility testing (Chromium, Firefox, WebKit)
-- Session isolation through separate browser contexts
+### Working Session Discovery Flow
+```
+1. User Request: "Discover new cycling content from FloBikes"
+2. Claude Authentication: Use credentials from .env for Firecrawl API
+3. Raw Content Fetching: Firecrawl returns platform content as markdown/JSON
+4. LLM Interpretation: Claude processes content for race information
+5. Spoiler Filtering: Remove any result-revealing content
+6. Data Update: Add new races to race-metadata.json
+7. HTML Generation: Regenerate index.html with updated content
+8. Delivery: Provide user with updated HTML file
+```
 
-*Graceful Failure Handling:*
-- When both Firecrawl API and Playwright verification fail, inform users politely that content is temporarily unavailable
-- Maintain spoiler-free experience even during failures
-- Log failures for future improvement without exposing technical details to users
+### Platform-Specific Implementation
 
-**Platform-Specific Discovery Protocols:**
+**FloBikes (Claude Session)**:
+```
+User: "Check FloBikes for new races"
+Claude Process:
+1. Firecrawl API call with FLOBIKES credentials
+2. Scrape /events/ pages for cycling content
+3. Extract video metadata and direct URLs
+4. Generate spoiler-free descriptions
+5. Update data files and regenerate HTML
+```
 
-*FloBikes (Primary: Firecrawl API, Verification: Playwright CLI):*
-- Use credentials from environment variables with Firecrawl API for authenticated scraping
-- Target event pages like `/events/14300386-2025-uci-road-world-championships`
-- Extract video IDs and construct direct URLs with `playing=` parameters
-- Verify links with Playwright CLI scripts to ensure spoiler-free video player access
+**YouTube (Claude Session)**:
+```
+User: "Find new cycling videos on YouTube"
+Claude Process:
+1. Firecrawl API call to official channels (GCN, UCI, FloSports)
+2. Parse channel content for cycling videos
+3. Filter out reaction content and spoilers
+4. Extract direct YouTube URLs and metadata
+5. Update presentation with new content
+```
 
-*NBC Peacock (Primary: Playwright CLI + Firecrawl API):*
-- Use Playwright scripts for initial subscription authentication flow
-- Use Firecrawl API for content extraction from sports sections once authenticated
-- Generate deep links to cycling content within Peacock interface
-- Verify links bypass homepage recommendations and spoiler content
+**NBC Peacock (Claude Session)**:
+```
+User: "Discover Peacock cycling content"
+Claude Process:
+1. Firecrawl API call with PEACOCK credentials
+2. Navigate sports sections for cycling content
+3. Generate deep links bypassing homepage
+4. Create platform-appropriate metadata
+5. Update static presentation
+```
 
-*HBO Max (Primary: Firecrawl API, Verification: Playwright CLI):*
-- Use Firecrawl API to scrape sports documentaries and live event sections
-- Categorize content: full events vs documentaries vs analysis pieces
-- Use Playwright scripts to verify authentication flows and link accessibility
-- Ensure content is cycling-specific and maintains spoiler-free access
+**HBO Max (Claude Session)**:
+```
+User: "Find cycling documentaries on HBO Max"
+Claude Process:
+1. Firecrawl API call with HBOMAX credentials
+2. Discover cycling documentaries and live events
+3. Categorize content types appropriately
+4. Generate spoiler-free documentary descriptions
+5. Update presentation layer
+```
 
-*YouTube (Primary: Firecrawl API, No authentication required):*
-- Target official channels: GCN, UCI, FloSports, WorldCyclingCentre
-- Extract metadata without thumbnail exposure to maintain spoiler safety
-- Filter content to avoid reaction videos and spoiler-heavy analysis
-- Use standard YouTube URLs with verified spoiler-safe access patterns
+## Data Structure
 
-**Operational Guidelines:**
-- **Headless Operation**: CRITICAL - All Firecrawl API calls and Playwright browser automation must run headlessly
-  - Never allow browser windows to open during content discovery or verification
-  - Firecrawl API inherently headless, but ensure no debug modes expose content
-  - Playwright must use `--headless` flag or `headless: true` option at all times
-- **Spoiler Safety**: Never expose visual content, thumbnails, or race results during discovery
-- **Link Verification**: Test all discovered links ensure they bypass spoiler pages completely
-- **Content Categorization**: Classify as full-race, highlights, analysis, documentary for proper metadata
-- **Authentication Separation**: Maintain clear separation between discovery auth and user auth
-- **Racing Calendar Integration**: Schedule discovery based on race calendar for optimal content capture
-- **Quality Assurance**: Regular verification of existing links to ensure continued spoiler-free access
-
-### 2. race-metadata.json - Content Database
-
-**Purpose**: Structured repository of all discovered cycling content across platforms, organized for instant access and spoiler-free presentation.
-
-**Data Structure:**
+### race-metadata.json
 ```json
 {
-  "lastUpdated": "ISO_DATE",
-  "platforms": {
-    "flobikes": { "authenticated": true, "lastCheck": "ISO_DATE" },
-    "peacock": { "authenticated": false, "lastCheck": "ISO_DATE" },
-    "hbomax": { "authenticated": false, "lastCheck": "ISO_DATE" },
-    "youtube": { "authenticated": "N/A", "lastCheck": "ISO_DATE" }
+  "lastUpdated": "2025-09-21T15:30:00Z",
+  "discoverySession": {
+    "sessionId": "claude-session-uuid",
+    "platforms": ["flobikes", "youtube", "peacock", "hbomax"],
+    "racesFound": 15,
+    "racesAdded": 12,
+    "spoilerIncidents": 0
   },
   "races": {
-    "race-id": {
-      "id": "race-id",
-      "name": "Display Name",
-      "series": "Grand Tour | Classic | Stage Race | World Championships",
-      "year": "2025",
-      "location": "Country/Region",
-      "status": "live | completed | upcoming",
-      "spoilerSafeDescription": "Neutral description without results",
-      "platforms": ["flobikes", "peacock"],
-      "primaryVideo": {
-        "title": "Spoiler-free title",
-        "url": "Direct video URL",
-        "platform": "flobikes",
-        "duration": "3:47:30",
-        "type": "full-race | highlights | analysis",
-        "requiresAuth": true,
-        "discovered": "ISO_DATE"
+    "tour-de-france-2025-stage-12": {
+      "name": "Tour de France 2025 - Stage 12",
+      "series": "grand-tour",
+      "year": 2025,
+      "stage": {
+        "number": 12,
+        "type": "mountain",
+        "terrain": "Alpine climbing with summit finish at Alpe d'Huez"
       },
-      "alternativeVideos": [
-        {
-          "title": "Alternative spoiler-free title",
-          "url": "Direct video URL",
-          "platform": "youtube",
-          "duration": "5:23",
-          "type": "highlights",
-          "requiresAuth": false,
-          "discovered": "ISO_DATE"
-        }
-      ],
-      "dashboardDisplay": {
-        "backgroundColor": "#FFD816",
-        "textColor": "black",
-        "priority": 1
-      }
+      "video": {
+        "platform": "flobikes",
+        "url": "https://flobikes.com/events/123/videos?playing=456",
+        "type": "full-race",
+        "duration": "4:23:15",
+        "quality": "HD",
+        "language": "en"
+      },
+      "description": "Epic mountain stage through the French Alps featuring multiple categorized climbs and the legendary Alpe d'Huez summit finish",
+      "category": "grand-tour",
+      "significance": "Monument climb with Tour de France history",
+      "discoveredAt": "2025-09-21T15:25:00Z",
+      "spoilerSafe": true,
+      "verified": true
     }
   }
 }
 ```
 
-**Content Categories:**
-- **Grand Tours**: Tour de France, Giro d'Italia, Vuelta a España
-- **Classics**: Paris-Roubaix, Tour of Flanders, Milan-San Remo, etc.
-- **Stage Races**: Tour Down Under, Paris-Nice, Tirreno-Adriatico, etc.
-- **World Championships**: UCI Road, Cyclocross, Track, BMX
-- **Documentaries**: Historical content, rider profiles
+### index.html Features
+- **Steephill.tv-inspired design**: Color-coded race categories (yellow Grand Tours, orange Classics)
+- **Embedded styling**: Complete CSS embedded for self-contained file
+- **Static race display**: Renders content from embedded JSON data
+- **Direct video links**: Click race card → immediate video player access
+- **Mobile responsive**: Grid layout adapts to all screen sizes
+- **Offline functionality**: Works without internet connection
+- **Fast loading**: No external API calls or dependencies
 
-### 3. index.html - User Interface
+## Content Discovery & Intelligence
 
-**Purpose**: Single-page, self-contained HTML dashboard that renders all available cycling content in a spoiler-free, visually appealing format inspired by steephill.tv.
+### Claude Code LLM Responsibilities
+- **Raw Content Interpretation**: Parse Firecrawl markdown/JSON responses intelligently
+- **Spoiler Safety**: Identify and exclude race results, winner names, podium positions
+- **Race Context Understanding**: Extract significance, terrain, racing context
+- **Video Type Classification**: Distinguish full races, highlights, analysis, documentaries
+- **Platform-Specific Handling**: Adapt to each platform's content structure
+- **Quality Assessment**: Evaluate content relevance and accuracy
+- **Link Validation**: Ensure URLs lead directly to video players
 
-**Key Features:**
-- **Zero Dependencies**: No frameworks, no external CSS/JS, completely self-contained
-- **Steephill.tv-Inspired Design**: Colorful race boxes, clear categorization
-- **Responsive Layout**: Works on desktop, tablet, mobile
-- **Direct Video Links**: Every click goes straight to video player
-- **Platform Indicators**: Show which platform hosts each video
-- **Status Indicators**: Live, completed, upcoming races clearly marked
+### Working Session Examples
 
-**Layout Sections:**
-1. **Header**: Logo, tagline, spoiler-free guarantee
-2. **Live/Current Section**: Currently happening races (pulsing indicators)
-3. **Grand Tours Section**: Major stage races with distinctive styling
-4. **Classics Section**: Monument races and major one-day events
-5. **Recent Additions**: Latest discovered content
-6. **Coming Soon**: Upcoming races with date information
+**Content Discovery Session**:
+```
+User: "Find all new cycling content from this week"
 
-**Interaction Design:**
-- **Single Click Access**: No dialogs, no confirmations, direct video access
-- **Platform Authentication Handling**: Graceful handling of authentication redirects
-- **Fallback Content**: Multiple video options per race when available
-- **Error Handling**: Silent failures with console logging only
+Claude Response:
+"I'll check all platforms for new cycling content..."
+
+[Claude executes Firecrawl API calls]
+[Claude interprets content with LLM intelligence]
+[Claude filters for spoiler safety]
+[Claude updates race-metadata.json]
+[Claude regenerates index.html]
+
+"Discovery complete! Found 8 new races:
+- Tour de France Stage 15 (FloBikes) - Mountain stage
+- Giro d'Italia Highlights (YouTube) - Stage recap
+- Paris-Roubaix Documentary (HBO Max) - Historical content
+- World Championships Coverage (Peacock) - Live event
+
+Updated index.html ready with latest spoiler-free content."
+```
+
+**Spoiler Safety Audit**:
+```
+User: "Check all current content for spoiler safety"
+
+Claude Response:
+"Reviewing race-metadata.json for potential spoiler content..."
+
+[Claude analyzes all descriptions and metadata]
+[Claude identifies any result-revealing language]
+[Claude updates problematic content]
+[Claude regenerates HTML with safer descriptions]
+
+"Spoiler safety audit complete. Updated 3 race descriptions to remove winner references. All content now verified spoiler-free."
+```
+
+## User Experience Design
+
+### Steephill.tv-Inspired Interface
+- **Color-coded categories**:
+  - 🟡 Grand Tours (yellow background)
+  - 🟠 Classics (orange background)
+  - 🔵 Stage Races (blue background)
+  - 🟢 World Championships (green background)
+- **Clean layout**: No advertising clutter or distracting elements
+- **Race cards**: Attractive cards with race info and direct video access
+- **Platform badges**: Clear indicators for FloBikes, Peacock, YouTube, HBO Max
+- **Responsive grid**: Adapts to desktop, tablet, and mobile screens
+
+### Single-Click Video Access
+- **No confirmations**: Click race → immediately watch
+- **No authentication prompts**: Links work with user's existing platform sessions
+- **No loading screens**: Static content enables instant response
+- **Graceful fallbacks**: Multiple video sources when available
+
+### Mobile-First Design
+```css
+/* Embedded responsive CSS example */
+.race-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.race-card {
+  background: var(--category-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.race-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+```
 
 ## Authentication Strategy
 
-### Challenge: Multi-Platform Authentication
+### Simplified Session Management
+1. **Discovery Authentication** (Claude only):
+   - Claude uses provided platform credentials during working sessions
+   - No user authentication complexity
+   - All API work happens server-side during sessions
 
-**Problem**: Users need to be authenticated on multiple platforms for seamless video access, but we can't store user credentials for all platforms.
+2. **Video Access** (User experience):
+   - Direct video links work with user's existing platform sessions
+   - Users log into platforms normally in their browsers
+   - No separate authentication flow needed
+   - Graceful handling when sessions expire
 
-**Solution - Hybrid Approach**:
+3. **No Browser-Based API Calls**:
+   - HTML file contains no authentication logic
+   - No API keys exposed to users
+   - No rate limiting concerns for end users
+   - Complete separation of discovery and presentation
 
-1. **AI Handles Discovery Authentication**: Claude Code uses provided credentials for content discovery and link verification
-2. **User Handles Playback Authentication**: When users click links, they authenticate directly with the platform
-3. **Smart Link Routing**: Direct users to platform-specific login pages before video playback
-4. **Session Aware**: Detect when users are already authenticated and route accordingly
+## Implementation Plan
 
-### Platform-Specific Authentication
+### Phase 1: Basic Working Sessions (Week 1)
+**User Requests to Claude**:
+- "Set up FloBikes content discovery"
+- "Create initial race metadata structure"
+- "Generate first HTML presentation file"
+- "Test spoiler detection with sample content"
 
-**FloBikes**:
-- **Discovery**: Claude Code uses credentials from environment variables
-- **User Access**: Direct links require user's own FloBikes subscription
-- **Link Format**: `https://www.flobikes.com/events/[EVENT]/videos?playing=[VIDEO_ID]`
+### Phase 2: Multi-Platform Discovery (Week 2)
+**User Requests to Claude**:
+- "Add YouTube cycling channel discovery"
+- "Integrate Peacock sports content discovery"
+- "Include HBO Max cycling documentaries"
+- "Enhance HTML design with race categorization"
 
-**NBC Peacock**:
-- **Discovery**: Claude Code uses subscription authentication for content discovery
-- **User Access**: Links include authentication check and redirect to login if needed
-- **Link Format**: Direct deep links to cycling content within Peacock interface
+### Phase 3: Enhanced Intelligence (Week 3)
+**User Requests to Claude**:
+- "Improve spoiler detection accuracy"
+- "Add race significance and context analysis"
+- "Enhance mobile responsiveness"
+- "Add content freshness tracking"
 
-**HBO Max**:
-- **Discovery**: Claude Code navigates sports content programmatically
-- **User Access**: Standard HBO Max authentication flow
-- **Link Format**: Direct links to cycling documentaries and events
+### Phase 4: Polish & Optimization (Week 4)
+**User Requests to Claude**:
+- "Optimize HTML file size and performance"
+- "Add comprehensive error handling"
+- "Validate all video links for functionality"
+- "Create final production-ready presentation"
 
-**YouTube**:
-- **Discovery**: No authentication required, use official channel scraping
-- **User Access**: No authentication required for public content
-- **Link Format**: Standard YouTube video URLs
+## Working Session Interaction Patterns
 
-### User Guidance for Authentication Setup
-
-**Challenge**: Cookie-based authentication requires users to extract session cookies from their browsers, which is a technical process that needs user-friendly guidance.
-
-**Required User Experience Enhancements**:
-
-1. **Interactive Setup Wizard**: Guide users through the authentication setup process for each platform
-   - Step-by-step visual instructions for cookie extraction
-   - Platform-specific browser developer tools guidance
-   - Cookie validation and testing interface
-   - Clear error messaging when authentication fails
-
-2. **Authentication Management Interface**:
-   - Dashboard showing authentication status for each platform
-   - Cookie expiration warnings and renewal notifications
-   - One-click re-authentication flows when sessions expire
-   - Test authentication buttons to verify platform access
-
-3. **Cross-Platform Setup Process**:
-   - **FloBikes Setup**: Guide users to login, extract cookies, and verify access to event pages
-   - **Peacock Setup**: Navigate users through subscription verification and session cookie capture
-   - **HBO Max Setup**: Assist with sports section access and session management
-   - **YouTube Setup**: Minimal setup required, optional for personalized recommendations
-
-4. **Implementation Considerations**:
-   - **Security**: Clear guidance on cookie privacy and local storage
-   - **Automation**: Explore browser extension possibilities for simplified cookie extraction
-   - **Fallback Options**: Alternative authentication methods when cookie extraction fails
-   - **Documentation**: User-friendly guides with screenshots and video tutorials
-
-**Technical Requirements**:
-- Cookie validation endpoints to test authentication before content discovery
-- Secure local storage for session management
-- Automated cookie refresh detection and user notification systems
-- Platform-specific authentication flow testing and verification
-
-**Future Enhancement Opportunities**:
-- Browser extension for automatic cookie extraction and management
-- OAuth integration when platforms support it
-- Simplified authentication flows using Playwright automation for user setup
-- Integration with password managers for streamlined credential management
-
-### Spoiler Prevention During Authentication
-
-**Critical Requirements**:
-1. **All authentication must occur headlessly - no browser windows ever open**
-2. **Authentication pages must not show recent activity or recommendations**
-3. **Login redirects must go directly to video content, not platform homepages**
-4. **Failed authentication must not expose spoiler content**
-5. **Platform authentication flows must be tested headlessly to ensure spoiler safety**
-
-## Technical Implementation
-
-### Recommended Technology Stack
-
-#### **Primary Tool: Firecrawl API**
-**Direct API integration for spoiler-free content discovery:**
-- **API-based extraction**: Direct calls using FIRECRAWL_API_KEY for clean Markdown output
-- **Robust authentication**: API parameters handle login flows for FloBikes, Peacock, HBO Max
-- **Structured JSON responses**: Perfect for parsing video metadata from streaming platforms
-- **Rate limiting compliance**: API respects platform policies with proper throttling
-- **Reliable service**: Hosted API ensures consistent performance with error handling
-
-#### **Secondary Tool: Playwright CLI/Scripts**
-**For authentication verification and testing:**
-- **Command line execution**: Direct CLI commands and Node.js scripts for browser automation
-- **Headless operation**: Maintains spoiler-free guarantee during verification
-- **Multi-platform support**: Handles different streaming platform login flows programmatically
-- **Link verification**: Automated testing that discovered video links actually work
-- **Cross-browser compatibility**: Supports Chromium, Firefox, WebKit engines
-
-#### **Graceful Failure Strategy**
-**When primary tools are unavailable:**
-- **User-friendly messaging**: Inform users politely that content is temporarily unavailable
-- **Spoiler-free failures**: Ensure no race results or spoiler content is exposed during error states
-- **Failure logging**: Track issues for improvement without exposing technical details to users
-- **Alternative suggestions**: Direct users to official platform pages when possible
-
-### Content Discovery Workflow
-
-**Two-tiered approach with graceful failure handling:**
-
+### Regular Content Updates
 ```
-1. Firecrawl API Primary Discovery:
-   └── API calls to scrape platform event pages → Parse JSON responses → Generate spoiler-free descriptions
+User: "Update all cycling content for the weekend"
+Claude: [Discovers from all platforms, updates data, regenerates HTML]
 
-2. Playwright CLI Verification:
-   └── Execute headless browser scripts → Verify direct links → Ensure spoiler-free access
+User: "Focus on Tour de France updates only"
+Claude: [Targeted discovery for Grand Tour content]
 
-3. Graceful Failure:
-   └── Polite user notification → Log failure details → Maintain spoiler-free experience
+User: "Find any new cycling documentaries"
+Claude: [Searches HBO Max and other platforms for documentary content]
 ```
 
-### Platform-Specific Implementation
+### Content Management
+```
+User: "Remove any races older than 30 days"
+Claude: [Cleans old content from metadata and regenerates HTML]
 
-#### **FloBikes Discovery Protocol:**
-1. **Firecrawl API**: Make authenticated API calls to scrape event pages (e.g., `/events/14300386-2025-uci-road-world-championships`)
-2. **Extract metadata**: Parse video IDs, durations, titles from JSON API responses
-3. **Generate direct URLs**: Construct `playing=` parameter links for spoiler-free access
-4. **Playwright CLI verification**: Execute scripts to test links lead directly to video players
+User: "Verify all video links are still working"
+Claude: [Tests links using Firecrawl, updates broken ones]
 
-#### **NBC Peacock Discovery Protocol:**
-1. **Playwright CLI authentication**: Run headless browser scripts for subscription login flow
-2. **Firecrawl API content extraction**: Use API to scrape cycling content from sports sections
-3. **Deep link generation**: Create direct links to cycling content within Peacock interface
-4. **Spoiler verification**: Ensure links bypass homepage and recommendations
-
-#### **HBO Max Discovery Protocol:**
-1. **Firecrawl API sports scraping**: Use API to extract cycling documentaries and live event metadata
-2. **Content categorization**: Identify full events vs documentaries vs analysis
-3. **Playwright CLI testing**: Execute scripts to verify authentication flows and link accessibility
-4. **Quality assurance**: Ensure content is cycling-specific and spoiler-free
-
-#### **YouTube Discovery Protocol:**
-1. **Firecrawl API channel scraping**: Use API to target official channels (GCN, UCI, FloSports, etc.)
-2. **Metadata extraction**: Parse video titles, durations, descriptions from API responses
-3. **Content filtering**: Avoid spoiler-heavy content and reaction videos
-4. **Direct linking**: Standard YouTube URLs with spoiler-safe access patterns
-
-### Scheduled Discovery Operations
-
-**Automated content discovery based on racing calendar:**
-
-1. **Pre-race discovery** (24-48 hours before): Search for preview content and live stream links
-2. **Live race monitoring** (during events): Discover live streams and real-time content
-3. **Post-race discovery** (2-6 hours after): Find full race replays and highlight packages
-4. **Weekly maintenance**: Comprehensive scan for missed content and link verification
-
-### Authentication Strategy Integration
-
-**Hybrid authentication approach using recommended tech stack:**
-
-#### **Discovery Authentication (Claude Code)**:
-- **Firecrawl API with credentials**: Use API authentication parameters for content discovery
-- **Session management**: Maintain authenticated sessions through API calls
-- **Multi-platform rotation**: Handle different platform authentication via API configuration
-- **Rate limiting compliance**: Respect platform policies through API throttling
-
-#### **User Authentication (End Users)**:
-- **Direct platform routing**: Links route users to platform-specific authentication
-- **Session detection**: Detect existing user authentication and bypass login when possible
-- **Graceful fallbacks**: Handle authentication failures without spoiler exposure
-- **Smart redirects**: Direct users to video content after successful platform login
+User: "Add more context to race descriptions"
+Claude: [Enhances descriptions while maintaining spoiler safety]
+```
 
 ### Quality Assurance
+```
+User: "Audit everything for spoiler safety"
+Claude: [Reviews all content, removes any risky material]
 
-**Link Verification Process**:
-1. **Headless Testing**: Verify all links work without any browser windows opening
-2. **Authentication Simulation**: Test login flows headlessly for each platform
-3. **Spoiler Checking**: Ensure no result content is visible during headless link verification
-4. **Multiple Device Testing**: Verify links work on desktop, mobile, and smart TV apps (headlessly)
+User: "Check if any new platforms have cycling content"
+Claude: [Explores additional platforms for content discovery]
 
-### Error Handling
-
-**Graceful Degradation**:
-- If primary video link fails, automatically try alternative platforms
-- If no videos available, show "Coming Soon" with race date
-- If authentication fails, provide clear instructions for platform-specific login
-- If content discovery fails completely, politely inform users that content is temporarily unavailable
-- All errors logged to console, no user-facing error messages that could expose spoilers
+User: "Optimize the HTML for mobile viewing"
+Claude: [Updates CSS and layout for better mobile experience]
+```
 
 ## Success Metrics
 
 ### Primary Objectives
-
 1. **Zero Spoiler Incidents**: No race results ever shown to users
-2. **Single-Click Access**: Users can watch any available race in one click
-3. **Multi-Platform Coverage**: Content available from FloBikes, Peacock, HBO Max, YouTube
-4. **Automated Maintenance**: Claude Code discovers and catalogs new content automatically
+2. **Working Session Efficiency**: Claude discovers content quickly and accurately
+3. **Static File Performance**: HTML loads fast and works offline
+4. **User Simplicity**: No authentication or technical complexity for end users
 
 ### Key Performance Indicators
+- **Discovery Accuracy**: High-quality race content found during sessions
+- **Spoiler Safety**: 100% spoiler-free content presentation
+- **Link Reliability**: 99%+ success rate for direct video access
+- **File Performance**: <5KB HTML file size, <1 second load time
 
-- **Content Freshness**: New videos discovered within 24 hours of availability
-- **Link Reliability**: 99%+ success rate for video link access
-- **Authentication Success**: Smooth platform login flows with minimal friction
-- **User Satisfaction**: No manual content discovery required by users
+## Technical Specifications
 
-## Implementation Timeline
+### File Requirements
+- **HTML File Size**: Target 5-8KB including embedded CSS and minimal JavaScript
+- **Data File Size**: race-metadata.json optimized for essential information only
+- **Performance**: Works on 3G connections, loads instantly on modern devices
+- **Compatibility**: Supports all modern browsers without external dependencies
 
-### Phase 1: Core Infrastructure (Week 1)
-- Create CLAUDE_INSTRUCTIONS.md with detailed AI guidelines
-- Design race-metadata.json schema and initial data structure
-- Build single-page HTML dashboard with steephill.tv-inspired design
-
-### Phase 2: Multi-Platform Integration (Week 2)
-- Implement FloBikes content discovery and authentication
-- Add NBC Peacock content discovery pipeline
-- Integrate YouTube official channel scraping
-- Begin HBO Max content cataloging
-
-### Phase 3: Authentication & User Experience (Week 3)
-- **User Authentication Setup**: Implement interactive setup wizard for cookie extraction
-- **Authentication Management Interface**: Build dashboard for platform authentication status
-- **User Guidance System**: Create step-by-step instructions for each platform setup
-- **Link Verification System**: Implement comprehensive testing and validation
-- **Error Handling**: Add graceful degradation and user-friendly error messages
-- **Performance Optimization**: Mobile responsiveness and loading improvements
-
-### Phase 4: Automation & Maintenance (Week 4)
-- Automated content discovery scheduling
-- Quality assurance and testing protocols
-- Documentation and maintenance procedures
-- Launch preparation and user acceptance testing
+### Content Standards
+- **Spoiler Safety**: Zero tolerance for race results or winner information
+- **Link Quality**: All video links must bypass result/spoiler pages
+- **Description Quality**: Engaging, contextual descriptions without outcomes
+- **Metadata Accuracy**: Correct race categorization and platform information
 
 ## Risk Mitigation
 
-### Spoiler Prevention Risks
+### Spoiler Prevention
+- **Claude Intelligence**: LLM-based detection superior to keyword filtering
+- **Multiple Validation**: Content checked during discovery and presentation generation
+- **Safe Defaults**: Exclude uncertain content rather than risk spoilers
+- **Regular Audits**: User can request spoiler safety reviews anytime
 
-**Risk**: Authentication flows might expose spoiler content
-**Mitigation**: Extensive testing of all platform login flows, direct link verification
+### Technical Reliability
+- **Session-Based Work**: No user-facing API failures or rate limits
+- **Static Presentation**: HTML works regardless of platform availability
+- **Offline Capability**: Users can access content without internet
+- **Simple Distribution**: Easy to share and backup HTML files
 
-**Risk**: Platform interface changes could break spoiler protection
-**Mitigation**: Regular automated testing, fallback to alternative platforms
-
-### Technical Risks
-
-**Risk**: Platform authentication could be unreliable
-**Mitigation**: Multiple platform support for same content, graceful degradation
-
-**Risk**: Content discovery automation could fail
-**Mitigation**: Manual fallback procedures, regular monitoring and alerts
-
-### Operational Risks
-
-**Risk**: Racing calendar changes could cause missed content
-**Mitigation**: Flexible discovery scheduling, comprehensive sports calendar integration
+### Platform Changes
+- **Claude Adaptability**: LLM interpretation adapts to layout changes better than rigid selectors
+- **Multi-Platform Redundancy**: Content available from multiple sources
+- **Working Session Flexibility**: Easy to test and adapt during live sessions
 
 ## Future Enhancements
 
-### Post-Launch Improvements
+### Advanced Working Sessions
+- **Scheduled Discovery**: "Set up weekly content discovery sessions"
+- **Intelligent Scheduling**: "Discover content based on cycling calendar"
+- **Automated Quality Checks**: "Weekly spoiler safety audits"
 
-1. **Smart TV App Integration**: Direct casting to Roku, Apple TV, Chromecast
-2. **Notification System**: Alerts for new race content availability
-3. **Personalization**: User preferences for race types and platforms
-4. **Social Features**: Spoiler-free race discussion and sharing
-5. **International Expansion**: Additional platforms like GCN+, Eurosport Player
+### Enhanced Static Features
+- **Progressive Web App**: Add service worker for notifications and caching
+- **Advanced Filtering**: Client-side race filtering and search functionality
+- **Personalization**: User preference handling in static presentation
+
+### Multi-Sport Expansion
+- **Other Sports**: Extend to Formula 1, tennis, other spoiler-sensitive sports
+- **Sport-Specific Intelligence**: Adapt Claude's interpretation for different sports
+- **Unified Presentation**: Combined sports presentation in single HTML file
 
 ## Conclusion
 
-Non-Spoiler Sports v2 represents a focused, user-centric approach to spoiler-free cycling content discovery. By distilling the system to three essential files and leveraging Claude Code AI for automated maintenance, we create a sustainable, reliable platform that serves cycling fans' need for immediate, spoiler-free race access across multiple streaming platforms.
+The working session architecture provides the perfect balance of powerful AI-driven content discovery with simple, reliable user experience. By having Claude Code handle all complex API work during live sessions and generating static presentation files, we eliminate authentication complexity, API rate limiting, and technical barriers while maintaining the highest standards of spoiler prevention.
 
-The system's success depends on robust authentication handling, comprehensive spoiler prevention, and seamless user experience. With proper implementation, this platform can become the definitive destination for spoiler-free cycling content discovery.
+Users receive updated HTML files that work instantly, offline, and without any technical setup - just click and watch cycling content safely.
 
 ---
 
-**Document Status**: Complete
-**Next Steps**: Begin Phase 1 implementation with file creation and initial system setup
+**Document Status**: Implementation Ready
+**Next Steps**: Begin working sessions with Claude for initial FloBikes content discovery
