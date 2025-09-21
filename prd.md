@@ -32,11 +32,13 @@ non-spoiler-sports-v2/
 **Purpose**: Comprehensive instructions for Claude Code AI on how to discover, authenticate, and maintain cycling content across all platforms.
 
 **Key Responsibilities:**
-- **Content Discovery**: Use Firecrawl API (primary), Playwright CLI (verification), direct web scraping (fallback) to find new cycling videos
+- **Content Discovery**: Use Firecrawl API (primary) and Playwright CLI (verification) to find new cycling videos
 - **Authentication Management**: Handle login flows for NBC Peacock, FloBikes, HBO Max, YouTube using appropriate tools
+- **User Authentication Guidance**: Provide clear instructions for cookie extraction and platform setup when needed
 - **Spoiler Prevention**: Ensure all operations maintain spoiler-free guarantee through headless operation
 - **Metadata Maintenance**: Update race-metadata.json with newly discovered content and verified links
 - **Quality Assurance**: Verify all links lead directly to video players, not spoiler-containing result pages
+- **Graceful Failure**: Politely inform users when content is temporarily unavailable
 
 **Technology Stack Usage:**
 
@@ -48,17 +50,17 @@ non-spoiler-sports-v2/
 - Generate spoiler-free descriptions for metadata database
 
 *Verification - Playwright CLI:*
-- Execute headless browser sessions via command line or Node.js scripts
+- Execute strictly headless browser sessions via command line or Node.js scripts
+- CRITICAL: Never allow browser windows to open - use `--headless` flag or `headless: true`
 - Verify authentication flows work correctly through programmatic browser control
 - Ensure direct video access bypasses spoiler-containing pages
 - Cross-platform compatibility testing (Chromium, Firefox, WebKit)
 - Session isolation through separate browser contexts
 
-*Fallback - Direct Web Scraping:*
-- Use Node.js libraries (axios, cheerio) when Firecrawl API hits rate limits
-- Handle JavaScript-heavy pages with headless Chrome via Playwright
-- Provide secondary content discovery capabilities through custom scraping logic
-- Full control over scraping policies and spoiler prevention measures
+*Graceful Failure Handling:*
+- When both Firecrawl API and Playwright verification fail, inform users politely that content is temporarily unavailable
+- Maintain spoiler-free experience even during failures
+- Log failures for future improvement without exposing technical details to users
 
 **Platform-Specific Discovery Protocols:**
 
@@ -87,7 +89,11 @@ non-spoiler-sports-v2/
 - Use standard YouTube URLs with verified spoiler-safe access patterns
 
 **Operational Guidelines:**
-- **Spoiler Safety**: Always operate headlessly, never expose visual content during discovery
+- **Headless Operation**: CRITICAL - All Firecrawl API calls and Playwright browser automation must run headlessly
+  - Never allow browser windows to open during content discovery or verification
+  - Firecrawl API inherently headless, but ensure no debug modes expose content
+  - Playwright must use `--headless` flag or `headless: true` option at all times
+- **Spoiler Safety**: Never expose visual content, thumbnails, or race results during discovery
 - **Link Verification**: Test all discovered links ensure they bypass spoiler pages completely
 - **Content Categorization**: Classify as full-race, highlights, analysis, documentary for proper metadata
 - **Authentication Separation**: Maintain clear separation between discovery auth and user auth
@@ -216,13 +222,56 @@ non-spoiler-sports-v2/
 - **User Access**: No authentication required for public content
 - **Link Format**: Standard YouTube video URLs
 
+### User Guidance for Authentication Setup
+
+**Challenge**: Cookie-based authentication requires users to extract session cookies from their browsers, which is a technical process that needs user-friendly guidance.
+
+**Required User Experience Enhancements**:
+
+1. **Interactive Setup Wizard**: Guide users through the authentication setup process for each platform
+   - Step-by-step visual instructions for cookie extraction
+   - Platform-specific browser developer tools guidance
+   - Cookie validation and testing interface
+   - Clear error messaging when authentication fails
+
+2. **Authentication Management Interface**:
+   - Dashboard showing authentication status for each platform
+   - Cookie expiration warnings and renewal notifications
+   - One-click re-authentication flows when sessions expire
+   - Test authentication buttons to verify platform access
+
+3. **Cross-Platform Setup Process**:
+   - **FloBikes Setup**: Guide users to login, extract cookies, and verify access to event pages
+   - **Peacock Setup**: Navigate users through subscription verification and session cookie capture
+   - **HBO Max Setup**: Assist with sports section access and session management
+   - **YouTube Setup**: Minimal setup required, optional for personalized recommendations
+
+4. **Implementation Considerations**:
+   - **Security**: Clear guidance on cookie privacy and local storage
+   - **Automation**: Explore browser extension possibilities for simplified cookie extraction
+   - **Fallback Options**: Alternative authentication methods when cookie extraction fails
+   - **Documentation**: User-friendly guides with screenshots and video tutorials
+
+**Technical Requirements**:
+- Cookie validation endpoints to test authentication before content discovery
+- Secure local storage for session management
+- Automated cookie refresh detection and user notification systems
+- Platform-specific authentication flow testing and verification
+
+**Future Enhancement Opportunities**:
+- Browser extension for automatic cookie extraction and management
+- OAuth integration when platforms support it
+- Simplified authentication flows using Playwright automation for user setup
+- Integration with password managers for streamlined credential management
+
 ### Spoiler Prevention During Authentication
 
 **Critical Requirements**:
-1. **Authentication pages must not show recent activity or recommendations**
-2. **Login redirects must go directly to video content, not platform homepages**
-3. **Failed authentication must not expose spoiler content**
-4. **Platform authentication flows must be tested to ensure spoiler safety**
+1. **All authentication must occur headlessly - no browser windows ever open**
+2. **Authentication pages must not show recent activity or recommendations**
+3. **Login redirects must go directly to video content, not platform homepages**
+4. **Failed authentication must not expose spoiler content**
+5. **Platform authentication flows must be tested headlessly to ensure spoiler safety**
 
 ## Technical Implementation
 
@@ -244,16 +293,16 @@ non-spoiler-sports-v2/
 - **Link verification**: Automated testing that discovered video links actually work
 - **Cross-browser compatibility**: Supports Chromium, Firefox, WebKit engines
 
-#### **Tertiary Tool: Direct Web Scraping**
-**For backup and fallback scenarios:**
-- **Node.js libraries**: Use axios, cheerio, puppeteer when Firecrawl API hits limits
-- **Custom JavaScript execution**: Handle dynamic content with full control over execution
-- **Self-hosted approach**: Complete control over scraping behavior and spoiler prevention
-- **Flexible implementation**: Custom logic for platform-specific requirements
+#### **Graceful Failure Strategy**
+**When primary tools are unavailable:**
+- **User-friendly messaging**: Inform users politely that content is temporarily unavailable
+- **Spoiler-free failures**: Ensure no race results or spoiler content is exposed during error states
+- **Failure logging**: Track issues for improvement without exposing technical details to users
+- **Alternative suggestions**: Direct users to official platform pages when possible
 
 ### Content Discovery Workflow
 
-**Three-tiered approach for maximum reliability and spoiler safety:**
+**Two-tiered approach with graceful failure handling:**
 
 ```
 1. Firecrawl API Primary Discovery:
@@ -262,8 +311,8 @@ non-spoiler-sports-v2/
 2. Playwright CLI Verification:
    └── Execute headless browser scripts → Verify direct links → Ensure spoiler-free access
 
-3. Direct Scraping Fallback:
-   └── Custom Node.js scraping logic → Handle JavaScript-heavy pages → Backup content extraction
+3. Graceful Failure:
+   └── Polite user notification → Log failure details → Maintain spoiler-free experience
 ```
 
 ### Platform-Specific Implementation
@@ -320,10 +369,10 @@ non-spoiler-sports-v2/
 ### Quality Assurance
 
 **Link Verification Process**:
-1. **Headless Testing**: Verify all links work without browser interaction
-2. **Authentication Simulation**: Test login flows for each platform
-3. **Spoiler Checking**: Ensure no result content is visible during link verification
-4. **Multiple Device Testing**: Verify links work on desktop, mobile, and smart TV apps
+1. **Headless Testing**: Verify all links work without any browser windows opening
+2. **Authentication Simulation**: Test login flows headlessly for each platform
+3. **Spoiler Checking**: Ensure no result content is visible during headless link verification
+4. **Multiple Device Testing**: Verify links work on desktop, mobile, and smart TV apps (headlessly)
 
 ### Error Handling
 
@@ -331,7 +380,8 @@ non-spoiler-sports-v2/
 - If primary video link fails, automatically try alternative platforms
 - If no videos available, show "Coming Soon" with race date
 - If authentication fails, provide clear instructions for platform-specific login
-- All errors logged to console, no user-facing error messages
+- If content discovery fails completely, politely inform users that content is temporarily unavailable
+- All errors logged to console, no user-facing error messages that could expose spoilers
 
 ## Success Metrics
 
@@ -362,11 +412,13 @@ non-spoiler-sports-v2/
 - Integrate YouTube official channel scraping
 - Begin HBO Max content cataloging
 
-### Phase 3: Authentication & Polish (Week 3)
-- Refine authentication flows for seamless user experience
-- Implement comprehensive link verification system
-- Add error handling and graceful degradation
-- Performance optimization and mobile responsiveness
+### Phase 3: Authentication & User Experience (Week 3)
+- **User Authentication Setup**: Implement interactive setup wizard for cookie extraction
+- **Authentication Management Interface**: Build dashboard for platform authentication status
+- **User Guidance System**: Create step-by-step instructions for each platform setup
+- **Link Verification System**: Implement comprehensive testing and validation
+- **Error Handling**: Add graceful degradation and user-friendly error messages
+- **Performance Optimization**: Mobile responsiveness and loading improvements
 
 ### Phase 4: Automation & Maintenance (Week 4)
 - Automated content discovery scheduling
