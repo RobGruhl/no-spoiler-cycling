@@ -17,13 +17,13 @@
 ### Working Session Flow:
 1. **User**: "Find UCI World Championships race content"
 2. **Claude**: Generates intelligent search terms using native understanding
-3. **Utilities**: Execute Firecrawl API calls (search, scrape)
+3. **Claude**: Uses Bash tool to execute Node.js commands calling firecrawl-utils.js functions
 4. **Claude**: Analyzes results, identifies race content, filters spoilers
 5. **Claude**: Deduplicates and structures data using intelligence
-6. **Utilities**: Write clean data to race-data.json
-7. **Claude**: Regenerates HTML with verified spoiler-free content
+6. **Claude**: Uses Edit tool to update race-data.json with verified content
+7. **Claude**: Regenerates HTML with npm run build
 
-The utilities (lib/firecrawl-utils.js) provide only basic API wrappers. All intelligence, analysis, and decision-making happens in the Claude Code working session.
+The utilities (lib/firecrawl-utils.js) provide only basic API wrappers called via Node.js commands. All intelligence, analysis, and decision-making happens in the Claude Code working session.
 
 ## Technical Architecture
 
@@ -32,11 +32,11 @@ The utilities (lib/firecrawl-utils.js) provide only basic API wrappers. All inte
 Working Session (Claude Code + User):
 ├── User: "Find UCI World Championships race recordings"
 ├── Claude: Generate intelligent search terms
-├── Claude: Platform-specific searches (YouTube, FloBikes, Peacock)
-├── Claude: Analyze results for actual race content
-├── Claude: Scrape promising candidates to verify race footage
-├── Claude: Add verified race content to race-data.json
-└── Claude: Generate updated HTML with new races
+├── Claude: Execute Node.js commands via Bash tool for platform searches
+├── Claude: Analyze results for actual race content using natural language understanding
+├── Claude: Execute Node.js scraping commands to verify race footage
+├── Claude: Use Edit tool to add verified race content to race-data.json
+└── Claude: Run npm run build via Bash tool to regenerate HTML
 
 User Experience:
 └── Static HTML file with embedded CSS and race links
@@ -57,13 +57,13 @@ User Experience:
 
 ### Intelligence Layer: Claude Code LLM
 - **Two-Stage Content Discovery**:
-  1. **Search**: Use Firecrawl `/search` to find candidate URLs
-  2. **Scrape & Analyze**: Use Firecrawl `/scrape` to read full content and verify race footage
+  1. **Search**: Execute Node.js commands via Bash tool to call firecrawl-utils.js search functions
+  2. **Scrape & Analyze**: Execute Node.js commands via Bash tool to scrape and verify race footage
 - **Content interpretation**: Parse Firecrawl responses using natural language understanding
 - **Race content detection**: Intelligently identify actual race footage vs preview content
 - **Race classification**: Categorize as Grand Tour, Classic, Stage Race, World Championships
 - **Metadata extraction**: Pull titles, durations, platform info, video types
-- **Data structuring**: Update race-data.json with discovered content
+- **Data structuring**: Use Edit tool to update race-data.json with discovered content
 
 ### Static Presentation Layer
 - **Self-contained HTML**: All CSS and minimal JavaScript embedded
@@ -439,51 +439,42 @@ function generateRaceCard(race) {
 ## Claude Working Session Workflow
 
 ### Claude's 7-Step Process
-```javascript
-// Example Claude session implementation
-async function claudeDiscoverySession(userQuery) {
-  console.log(`🏁 Claude Discovery Session: ${userQuery}`);
+```bash
+# Example Claude session implementation via Bash tool
 
-  // Step 1: Generate intelligent search terms
-  const searchTerms = generateSearchTerms(userQuery);
-  console.log('Generated search terms:', searchTerms);
+# Step 1: Claude generates intelligent search terms using natural language understanding
 
-  // Step 2: Platform-specific searches
-  const allCandidates = [];
-  for (const term of searchTerms) {
-    const youtubeCandidates = await youtubeSearch(term, { limit: 3 });
-    const flobikeCandidates = await flobikeSearch(term, { limit: 3 });
-    allCandidates.push(...youtubeCandidates, ...flobikeCandidates);
-  }
-
-  // Step 3: Candidate analysis (Claude's intelligent filtering)
-  const raceContentCandidates = filterForRaceContent(allCandidates);
-
-  // Step 4: Scrape promising candidates
-  const verifiedRaceContent = [];
-  for (const candidate of raceContentCandidates) {
-    const scrapedContent = await scrapeContent(candidate.url);
-    if (scrapedContent && isActualRaceContent(scrapedContent)) {
-      const raceEntry = createRaceEntry({
-        url: candidate.url,
-        content: scrapedContent,
-        searchMetadata: candidate
-      }, {
-        type: determineRaceType(scrapedContent, candidate.title),
-        name: cleanRaceTitle(candidate.title)
-      });
-      verifiedRaceContent.push(raceEntry);
-    }
-  }
-
-  // Step 5: Update data files
-  updateRaceData(verifiedRaceContent);
-
-  // Step 6: Generate updated HTML
-  generateHTML();
-
-  return verifiedRaceContent;
+# Step 2: Platform-specific searches via Node.js commands
+node -e "
+import { youtubeSearch, flobikeSearch } from './lib/firecrawl-utils.js';
+async function searchMultiplePlatforms() {
+  const term = 'UCI World Championships 2025 Rwanda';
+  const youtubeCandidates = await youtubeSearch(term, { limit: 3 });
+  const flobikeCandidates = await flobikeSearch(term, { limit: 3 });
+  console.log('YouTube results:', youtubeCandidates.length);
+  console.log('FloBikes results:', flobikeCandidates.length);
 }
+searchMultiplePlatforms().catch(console.error);
+"
+
+# Step 3: Claude analyzes results using natural language understanding
+
+# Step 4: Scrape promising candidates via Node.js commands
+node -e "
+import { scrapeContent } from './lib/firecrawl-utils.js';
+async function verifyRaceContent() {
+  const scrapedContent = await scrapeContent('https://example-race-url.com');
+  if (scrapedContent && scrapedContent.markdown) {
+    console.log('Content verification complete');
+  }
+}
+verifyRaceContent().catch(console.error);
+"
+
+# Step 5: Claude uses Edit tool to update race-data.json with verified content
+
+# Step 6: Generate updated HTML via npm run build
+npm run build
 ```
 
 ## Performance Optimization
