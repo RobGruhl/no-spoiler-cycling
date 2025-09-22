@@ -1,11 +1,55 @@
 {
   "lastUpdated": "2025-09-21T21:00:00Z",
   "event": {
-    "name": "UCI Men's Elite Road Calendar 2025",
+    "name": "UCI Men's Elite Cycling Calendar 2025",
     "location": "Worldwide",
     "year": 2025
   },
   "races": [
+    {
+      "id": "uci-cyclocross-world-championships-2025-men-elite-tbd",
+      "name": "Men Elite Race | 2025 UCI Cyclo-cross World Championships",
+      "description": "Men's elite cyclo-cross race at the UCI World Championships in Liévin, France featuring technical course with barriers and climbs",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-02-02",
+      "raceDay": "Sunday",
+      "discoveredAt": "2025-09-21T22:30:00Z"
+    },
+    {
+      "id": "uci-bmx-racing-world-championships-2025-men-elite-tbd",
+      "name": "Men Elite Race | 2025 UCI BMX Racing World Championships",
+      "description": "Men's elite BMX racing finals at the UCI World Championships in Copenhagen, Denmark with explosive sprint racing",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-08-03",
+      "raceDay": "Sunday",
+      "discoveredAt": "2025-09-21T22:30:00Z"
+    },
+    {
+      "id": "uci-mtb-world-championships-2025-men-xco-tbd",
+      "name": "Men Elite Cross-Country Olympic | 2025 UCI Mountain Bike World Championships",
+      "description": "Men's elite cross-country Olympic race at the UCI Mountain Bike World Championships in Valais, Switzerland",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-09-14",
+      "raceDay": "Sunday",
+      "discoveredAt": "2025-09-21T22:30:00Z"
+    },
+    {
+      "id": "uci-mtb-world-championships-2025-men-downhill-tbd",
+      "name": "Men Elite Downhill | 2025 UCI Mountain Bike World Championships",
+      "description": "Men's elite downhill race at the UCI Mountain Bike World Championships in Champéry, Valais, Switzerland",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-09-07",
+      "raceDay": "Sunday",
+      "discoveredAt": "2025-09-21T22:30:00Z"
+    },
     {
       "id": "women-elite-individual-time-trial",
       "name": "Women Elite Individual Time Trial | 2025 UCI Road World Championships",
@@ -77,6 +121,50 @@
       "raceDate": "2025-10-14",
       "raceDay": "Tuesday",
       "discoveredAt": "2025-09-21T21:00:00Z"
+    },
+    {
+      "id": "uci-track-world-championships-2025-men-sprint-tbd",
+      "name": "Men's Sprint | 2025 UCI Track World Championships",
+      "description": "Men's elite sprint competition at the UCI Track World Championships in Santiago, Chile",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-10-22",
+      "raceDay": "Wednesday",
+      "discoveredAt": "2025-09-21T22:00:00Z"
+    },
+    {
+      "id": "uci-track-world-championships-2025-men-keirin-tbd",
+      "name": "Men's Keirin | 2025 UCI Track World Championships",
+      "description": "Men's elite keirin racing at the UCI Track World Championships in Santiago, Chile",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-10-23",
+      "raceDay": "Thursday",
+      "discoveredAt": "2025-09-21T22:00:00Z"
+    },
+    {
+      "id": "uci-track-world-championships-2025-men-omnium-tbd",
+      "name": "Men's Omnium | 2025 UCI Track World Championships",
+      "description": "Men's elite omnium multi-event competition at the UCI Track World Championships in Santiago, Chile",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-10-24",
+      "raceDay": "Friday",
+      "discoveredAt": "2025-09-21T22:00:00Z"
+    },
+    {
+      "id": "uci-track-world-championships-2025-men-madison-tbd",
+      "name": "Men's Madison | 2025 UCI Track World Championships",
+      "description": "Men's elite madison team racing at the UCI Track World Championships in Santiago, Chile",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2025-10-25",
+      "raceDay": "Saturday",
+      "discoveredAt": "2025-09-21T22:00:00Z"
     }
   ]
 }
