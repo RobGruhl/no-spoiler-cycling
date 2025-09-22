@@ -139,14 +139,49 @@ Action: Include only ✅ safe content in race-data.json
       "id": "unique-race-id",
       "name": "Race Title (spoiler-free)",
       "description": "Spoiler-free description of race content",
-      "platform": "YouTube|FloBikes|Peacock",
+      "platform": "YouTube|FloBikes|Peacock|TBD",
+      "channel": "UCI",
+      "verified": true,
       "url": "direct-link-to-race-footage",
-      "type": "full-race|highlights|extended-highlights",
+      "type": "full-race|highlights|extended-highlights|live",
+      "duration": "2:45:30",
+      "raceDate": "2025-09-21",
+      "raceDay": "Sunday",
       "discoveredAt": "2025-09-22T01:00:00Z"
     }
   ]
 }
 ```
+
+### Field Descriptions
+- **channel** (optional): For YouTube videos, store channel name (e.g., "UCI", "GCN", "Eurosport")
+- **verified** (optional): True for official channels, helps users identify authoritative sources
+- **duration** (optional): Video length in "HH:MM:SS" or "MM:SS" format
+- **raceDate**: Actual race date in ISO format (YYYY-MM-DD)
+- **raceDay**: Day of week for user-friendly display
+- **platform**: "TBD" for future events awaiting content discovery
+
+### Standardized TBD Race Format
+For races that haven't occurred yet or lack discovered content:
+```json
+{
+  "id": "race-women-elite-road-race-tbd",
+  "name": "Women Elite Road Race | 2025 UCI Road World Championships",
+  "description": "Women's elite road race featuring 11 laps of the challenging Kigali circuit (164.6km, 3,350m elevation)",
+  "platform": "TBD",
+  "url": "TBD",
+  "type": "full-race",
+  "raceDate": "2025-09-27",
+  "raceDay": "Saturday",
+  "discoveredAt": "2025-09-22T01:15:00.000Z"
+}
+```
+
+**TBD Standards:**
+- Remove date references from descriptions (date shown separately via raceDate/raceDay)
+- Keep technical details (distance, elevation, course info)
+- Use standardized platform: "TBD" and url: "TBD"
+- Always include actual raceDate and raceDay for chronological ordering
 
 ## Quality Assurance
 

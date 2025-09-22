@@ -44,6 +44,18 @@ function generateHTML(raceData) {
     };
 
     const platformColor = platformColors[race.platform] || '#6B7280';
+
+    // Format race date for display (avoiding timezone issues)
+    const formatRaceDate = (raceDate, raceDay) => {
+      if (!raceDate) return '';
+      // Parse ISO date string directly to avoid timezone offset issues
+      const [year, month, day] = raceDate.split('-').map(Number);
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      return `${raceDay}, ${months[month - 1]} ${day}`;
+    };
+
+    const raceDateDisplay = formatRaceDate(race.raceDate, race.raceDay);
     
     const typeLabels = {
       'full-race': 'FULL RACE',
@@ -80,7 +92,7 @@ function generateHTML(raceData) {
       <div class="${cardClass}">
         <div class="race-header">
           <span class="race-type ${typeClass}">${typeLabel}</span>
-          ${race.duration ? `<span class="race-duration">⏱ ${race.duration}</span>` : ''}
+          ${raceDateDisplay ? `<span class="race-date">📅 ${raceDateDisplay}</span>` : ''}
         </div>
         <h3 class="race-title">${race.name}</h3>
         <p class="race-description">${description}</p>
@@ -97,7 +109,10 @@ function generateHTML(raceData) {
     <a href="${race.url}" target="_blank" rel="noopener" class="${cardClass}">
       <div class="race-header">
         <span class="race-type ${typeClass}">${typeLabel}</span>
-        ${race.duration ? `<span class="race-duration">⏱ ${race.duration}</span>` : ''}
+        <div class="race-meta">
+          ${raceDateDisplay ? `<span class="race-date">📅 ${raceDateDisplay}</span>` : ''}
+          ${race.duration ? `<span class="race-duration">⏱ ${race.duration}</span>` : ''}
+        </div>
       </div>
       <h3 class="race-title">${race.name}</h3>
       <p class="race-description">${description}</p>
@@ -284,8 +299,17 @@ function generateHTML(raceData) {
     .race-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .race-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
     }
 
     .race-type {
@@ -309,9 +333,14 @@ function generateHTML(raceData) {
       50% { opacity: 0.7; }
     }
 
-    .race-duration {
-      font-size: 0.875rem;
+    .race-duration, .race-date {
+      font-size: 0.75rem;
       color: #6b7280;
+      font-weight: 500;
+    }
+
+    .race-date {
+      color: #8b5cf6;
     }
 
     .race-title {
