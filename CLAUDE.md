@@ -14,7 +14,7 @@ The project uses a clean separation between discovery and presentation:
 Working Session (Claude Code + User):
 ├── Firecrawl API calls for content discovery
 ├── LLM interpretation and spoiler filtering
-├── Data layer updates (race-metadata.json)
+├── Data layer updates (race-data.json)
 └── Static presentation updates (index.html)
 
 User Experience:
@@ -27,7 +27,7 @@ User Experience:
 - **User Request**: "Discover new cycling content from FloBikes"
 - **Claude Action**: Use Firecrawl API with provided credentials
 - **Claude Processing**: Interpret raw content using LLM intelligence
-- **Claude Output**: Update race-metadata.json with new discoveries
+- **Claude Output**: Update race-data.json with new discoveries
 - **Final Step**: Regenerate index.html with updated content
 
 ### 2. User Experience (Static Files)
@@ -46,12 +46,17 @@ User Experience:
 - Built-in stealth mode for anti-bot protection
 
 ### Intelligence Layer: Claude Code LLM
+- **Two-Stage Content Discovery**:
+  1. **Search**: Use Firecrawl `/search` to find candidate URLs
+  2. **Scrape & Analyze**: Use Firecrawl `/scrape` to read full content and verify spoiler safety
 - **Content interpretation**: Parse Firecrawl responses using natural language understanding
-- **Spoiler detection**: Intelligently identify and filter result-revealing content
+- **Spoiler detection**: Intelligently identify and filter result-revealing content by reading actual page content
 - **Race classification**: Categorize as Grand Tour, Classic, Stage Race, World Championships
 - **Metadata extraction**: Pull titles, durations, platform info, video types
 - **Description generation**: Create engaging spoiler-free summaries
-- **Data structuring**: Update race-metadata.json with discovered content
+- **Data structuring**: Update race-data.json with discovered content
+
+**CRITICAL**: Never add content to race-data.json based solely on search results. Always use Claude's intelligence to analyze content and verify spoiler safety before adding to data file.
 
 ### Platform Credentials
 Authentication credentials for Claude's content discovery stored in `.env`:
@@ -61,24 +66,28 @@ Authentication credentials for Claude's content discovery stored in `.env`:
 
 ## Core Principles
 
-### Spoiler Prevention (Critical)
-- **Claude-powered detection**: Use LLM intelligence to identify spoiler content
-- Never expose race results, winner names, or podium positions
-- Avoid thumbnails or images that might show race outcomes
-- Focus on race context and significance, not outcomes
-- If uncertain about spoiler safety, exclude content rather than risk exposure
+### Content Focus (Critical)
+- **Race Content Only**: Focus exclusively on live events, full race recordings, extended highlights, or regular highlights
+- **Priority Order**:
+  1. Live events (currently in progress)
+  2. Full race recordings (complete coverage)
+  3. Extended highlights (30+ minutes)
+  4. Regular highlights (shorter versions)
+- **Exclude**: Preview content, analysis, speculation, pre-race shows, post-race interviews
+- **Goal**: Direct links to actual race footage for immediate viewing
 
 ### Working Session Content Discovery
-1. **User Request**: Ask Claude to discover content from specific platforms
-2. **Firecrawl Execution**: Claude makes authenticated API calls
-3. **LLM Interpretation**: Claude processes raw content for race information
-4. **Spoiler Filtering**: Intelligent removal of result-revealing content
-5. **Data Updates**: Claude updates race-metadata.json with new findings
-6. **HTML Generation**: Claude regenerates index.html with updated content
+1. **Generate Search Terms**: Claude creates multiple intelligent search queries optimized for each platform
+2. **Platform-Specific Search**: Use platform-specific search functions (youtubeSearch, flobikeSearch, etc.)
+3. **Candidate Analysis**: Claude analyzes search results to identify actual race content (not previews/analysis)
+4. **Content Scraping**: Scrape most promising candidates to verify they contain race footage
+5. **Content Verification**: Confirm scraped content matches criteria (live/recorded races or highlights)
+6. **Data Updates**: Add verified race content directly to race-data.json
+7. **HTML Generation**: Run generate-page.js to update the presentation
 
 ## Data Structure
 
-### race-metadata.json Schema
+### race-data.json Schema
 ```json
 {
   "lastUpdated": "2025-09-21T15:30:00Z",
@@ -116,7 +125,7 @@ Authentication credentials for Claude's content discovery stored in `.env`:
 ### index.html Features
 - **Steephill.tv-inspired design**: Color-coded race categories, clean layout
 - **Embedded CSS**: No external dependencies, complete self-contained file
-- **Static content**: Displays races from race-metadata.json data
+- **Static content**: Displays races from race-data.json data
 - **Direct links**: Click race → immediate video player access
 - **Mobile responsive**: Works on all devices
 - **Fast loading**: No JavaScript API calls or authentication
@@ -133,7 +142,7 @@ Claude Process:
 3. Interpret event listings and extract video metadata
 4. Generate direct URLs with playing= parameters
 5. Create spoiler-free descriptions
-6. Update race-metadata.json with new races
+6. Update race-data.json with new races
 7. Regenerate index.html with updated content
 ```
 
@@ -167,38 +176,60 @@ Claude Process:
 
 ### Content Discovery Session
 ```
-User: "Find new cycling races from all platforms"
+User: "Find UCI World Championships 2025 race recordings and highlights"
+
+Claude Workflow:
+1. Generate intelligent search terms:
+   - "UCI World Championships 2025 Rwanda full race"
+   - "UCI Road Worlds 2025 complete coverage"
+   - "UCI World Championships 2025 extended highlights"
+   - "Rwanda World Championships 2025 race recording"
+
+2. Platform-specific searches:
+   [Claude uses youtubeSearch, flobikeSearch, peacockSearch with each term]
+   [Claude analyzes search results for: live races, recordings, extended highlights]
+
+3. Scrape promising candidates:
+   [Claude uses scrapeContent on most relevant URLs]
+   [Claude analyzes content to confirm it's actual race footage/highlights]
+
+4. Update data and generate page:
+   [Claude adds verified race content to race-data.json]
+   [Claude runs generate-page.js to update HTML]
 
 Claude Response:
-"I'll discover content from FloBikes, YouTube, Peacock, and HBO Max using Firecrawl API..."
+"Discovery complete! Found race content:
+- UCI Worlds 2025 Men's Road Race - Full Recording (FloBikes) - 4:23:15
+- UCI Worlds 2025 Women's Road Race - Extended Highlights (YouTube) - 45:12
+- UCI Worlds 2025 Time Trial Coverage (Peacock) - 2:15:30
 
-[Claude uses Firecrawl API calls]
-[Claude interprets content with LLM]
-[Claude updates race-metadata.json]
-[Claude regenerates index.html]
-
-"Discovery complete! Found 8 new races:
-- Tour de France Stage 15 (FloBikes)
-- Giro d'Italia Highlights (YouTube)
-- Paris-Roubaix Documentary (HBO Max)
-- World Championships Coverage (Peacock)
-- [etc...]
-
-Updated index.html ready for use with latest content."
+Updated index.html with 3 new race recordings. Check out the page!"
 ```
 
-### Spoiler Safety Validation
+### Platform-Specific Race Discovery
 ```
-User: "Check if any current content has spoiler risks"
+User: "Find Tour de France 2025 stage recordings on FloBikes"
+
+Claude Workflow:
+1. Generate FloBikes-specific search terms:
+   - "Tour de France 2025 stage full recording"
+   - "TdF 2025 complete stage coverage"
+   - "Tour de France 2025 full broadcast"
+
+2. FloBikes search and analysis:
+   [Claude uses flobikeSearch with intelligent terms]
+   [Claude filters for full race recordings vs highlights vs analysis]
+
+3. Content verification:
+   [Claude scrapes candidate pages to confirm race duration and type]
+   [Claude identifies full stage recordings (3-5 hours) vs shorter content]
 
 Claude Response:
-"Reviewing all content in race-metadata.json for spoiler safety..."
-
-[Claude analyzes descriptions and metadata]
-[Claude checks for result-revealing language]
-[Claude updates any problematic content]
-
-"Spoiler safety audit complete. Removed 2 race descriptions that mentioned podium positions. All content now verified spoiler-free."
+"Found 8 Tour de France stage recordings on FloBikes:
+- Stage 12: Mountain Stage - Full Recording (4:23:15)
+- Stage 15: Alpine Stage - Full Recording (5:12:30)
+- Stage 18: Time Trial - Full Recording (2:45:18)
+[Added all to race-data.json and updated HTML]"
 ```
 
 ### Platform-Specific Updates

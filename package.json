@@ -1,0 +1,17 @@
+{
+  "name": "no-spoiler-cycling",
+  "version": "1.0.0",
+  "description": "Non-Spoiler Cycling v2 MVP - Working session-driven cycling video discovery system",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generate-page.js",
+    "search": "node search-content.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["cycling", "firecrawl", "spoiler-free", "content-discovery"],
+  "author": "Rob Gruhl",
+  "license": "MIT"
+}

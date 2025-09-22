@@ -1,0 +1,54 @@
+{
+  "lastUpdated": "2025-09-22T01:02:00.000Z",
+  "event": {
+    "name": "UCI Road World Championships 2025",
+    "location": "Rwanda",
+    "year": 2025
+  },
+  "races": [
+    {
+      "id": "race-uci-highlights-1",
+      "name": "HIGHLIGHTS: Men Elite Individual Time Trial || 2025 UCI Road World Championships",
+      "description": "Official highlights from the men's elite individual time trial featuring the challenging course through Kigali, Rwanda",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=16opcg-xJfU&vl=pa",
+      "type": "highlights",
+      "discoveredAt": "2025-09-22T01:02:00.000Z"
+    },
+    {
+      "id": "race-uci-tt-replay-1",
+      "name": "Replay: 2025 UCI Road Worlds - Men Elite Time Trial",
+      "description": "Complete replay of the men's elite time trial from the 2025 UCI Road World Championships in Rwanda",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=cgnFsv7_P1s",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:02:00.000Z"
+    },
+    {
+      "id": "race-uci-raw-video-1",
+      "name": "Individual Time Trial Raw Video | 2025 UCI Road World Championships",
+      "description": "Raw footage from the women's and men's elite individual time trials at the 2025 UCI Road World Championships in Kigali, Rwanda",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=_dxAUQJ2SZ8",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:02:00.000Z"
+    },
+    {
+      "id": "race-flobikes-highlights-1",
+      "name": "2025 UCI Road World Championships Men Elite Time Trial Highlights",
+      "description": "Professional highlights from the men's elite time trial featuring key sections of the technical Rwanda course",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/video/14567218-2025-uci-road-world-championships-men-elite-time-trial-highlights",
+      "type": "highlights",
+      "discoveredAt": "2025-09-22T01:02:00.000Z"
+    }
+  ],
+  "claudeFiltering": {
+    "method": "claude-intelligence-analysis",
+    "originalCount": 12,
+    "spoilersFiltred": 8,
+    "cleanRaces": 4,
+    "filteredAt": "2025-09-22T01:02:00.000Z",
+    "spoilerGuarantee": "All content verified to contain no race results or outcomes"
+  }
+}
