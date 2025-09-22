@@ -29,11 +29,22 @@ User Receives: Spoiler-free HTML with direct race links
 ## Available Tools & Utilities
 
 ### Content Discovery Tools (lib/firecrawl-utils.js)
+**IMPORTANT**: Always use the local utilities in `lib/firecrawl-utils.js` for all web discovery operations. These functions are called via Node.js, NOT through MCP tools.
+
 - `youtubeSearch(query)` - Search YouTube for cycling content
 - `flobikeSearch(query)` - Search FloBikes for race footage
 - `peacockSearch(query)` - Search Peacock for cycling coverage
 - `scrapeContent(url)` - Extract content from specific URLs
 - `searchAndScrape(query)` - Two-stage discovery: search then scrape
+- `searchContent(query)` - General web search for any content
+
+**Usage**: Call these functions using Node.js commands in Bash tool:
+```bash
+node -e "
+import { youtubeSearch, scrapeContent } from './lib/firecrawl-utils.js';
+// Your search logic here
+"
+```
 
 ### Platform Credentials (.env)
 - `FLOBIKES_EMAIL` and `FLOBIKES_PASSWORD` - For authenticated FloBikes access
@@ -76,15 +87,15 @@ Your Process:
    - "Tour de France stage replay"
 
 2. SEARCH PLATFORMS: Use utilities to find candidates
-   youtubeSearch("Tour de France 2025 stage recording")
-   flobikeSearch("TdF 2025 full coverage")
+   node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('Tour de France 2025 stage recording')"
+   node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('TdF 2025 full coverage')"
 
 3. REPEAT SEARCHES: Try additional terms if needed
-   youtubeSearch("Tour de France stage replay")
+   node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('Tour de France stage replay')"
 
 4. SCRAPE BEST RESULTS: Extract content from promising URLs
-   scrapeContent("https://youtube.com/promising-tdf-video")
-   scrapeContent("https://flobikes.com/tdf-stage-coverage")
+   node -e "import { scrapeContent } from './lib/firecrawl-utils.js'; scrapeContent('https://youtube.com/promising-tdf-video')"
+   node -e "import { scrapeContent } from './lib/firecrawl-utils.js'; scrapeContent('https://flobikes.com/tdf-stage-coverage')"
 
 5. REVIEW & ANALYZE: Check scraped content for race footage
    - Verify actual race content vs preview/analysis
@@ -153,17 +164,17 @@ Action: Include only ✅ safe content in race-data.json
 ## Working Session Commands
 
 ```bash
-# Discover content (your tools)
-youtubeSearch("UCI World Championships 2025")
-flobikeSearch("Tour de France stage recording")
-scrapeContent("https://specific-race-url")
+# Discover content (using lib/firecrawl-utils.js)
+node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('UCI World Championships 2025')"
+node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('Tour de France stage recording')"
+node -e "import { scrapeContent } from './lib/firecrawl-utils.js'; scrapeContent('https://specific-race-url')"
 
 # Update data (your actions)
-# Edit race-data.json with verified content
+# Edit race-data.json with verified content using Edit tool
 npm run build  # Regenerate HTML
 
 # Validate results (your verification)
-# Review generated index.html for spoiler safety
+# Review generated index.html for spoiler safety using Read tool
 ```
 
 ## Success Metrics

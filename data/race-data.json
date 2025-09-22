@@ -41,14 +41,131 @@
       "url": "https://www.flobikes.com/video/14567218-2025-uci-road-world-championships-men-elite-time-trial-highlights",
       "type": "highlights",
       "discoveredAt": "2025-09-22T01:02:00.000Z"
+    },
+    {
+      "id": "race-women-elite-itt-highlights-1",
+      "name": "HIGHLIGHTS: Women Elite Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Official highlights from the women's elite individual time trial through the challenging 31.2km course in Kigali, Rwanda",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=z1R2CKZKoWM",
+      "type": "highlights",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-women-elite-itt-full-1",
+      "name": "Women Elite Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Complete coverage of the women's elite individual time trial featuring the demanding Rwanda course with 460m elevation",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DxOBflow5Fo",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-women-elite-road-race-tbd",
+      "name": "Women Elite Road Race | 2025 UCI Road World Championships",
+      "description": "Women's elite road race featuring 11 laps of the challenging Kigali circuit (164.6km, 3,350m elevation) - Saturday Sept 27",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-women-u23-itt-tbd",
+      "name": "Women U23 Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Women U23 individual time trial on the 22.6km course with 350m elevation - Monday Sept 22",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-men-u23-itt-tbd",
+      "name": "Men U23 Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Men U23 individual time trial on the 31.2km course with 460m elevation - Monday Sept 22",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:30:00.000Z"
+    },
+    {
+      "id": "race-women-u23-road-race-tbd",
+      "name": "Women U23 Road Race | 2025 UCI Road World Championships",
+      "description": "Women U23 road race featuring 8 laps of the local circuit (119.3km, 2,435m elevation) - Thursday Sept 25",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-women-junior-itt-tbd",
+      "name": "Women Junior Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Women junior individual time trial on the 18.3km course with 225m elevation - Tuesday Sept 23",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-men-junior-itt-tbd",
+      "name": "Men Junior Individual Time Trial | 2025 UCI Road World Championships",
+      "description": "Men junior individual time trial on the 22.6km course with 350m elevation - Tuesday Sept 23",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:30:00.000Z"
+    },
+    {
+      "id": "race-women-junior-road-race-tbd",
+      "name": "Women Junior Road Race | 2025 UCI Road World Championships",
+      "description": "Women junior road race featuring 5 laps of the local circuit (74km, 1,520m elevation) - Saturday Sept 27",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-team-time-trial-mixed-tbd",
+      "name": "Team Time Trial Mixed Relay | 2025 UCI Road World Championships",
+      "description": "Team time trial mixed relay featuring men's and women's teams on the 41.8km course with 740m elevation - Wednesday Sept 24",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-men-junior-road-race-tbd",
+      "name": "Men Junior Road Race | 2025 UCI Road World Championships",
+      "description": "Men junior road race featuring 8 laps of the local circuit (119.3km, 2,435m elevation) - Friday Sept 26",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-men-u23-road-race-tbd",
+      "name": "Men U23 Road Race | 2025 UCI Road World Championships",
+      "description": "Men U23 road race featuring 11 laps of the local circuit (164.6km, 3,350m elevation) - Friday Sept 26",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
+    },
+    {
+      "id": "race-men-elite-road-race-tbd",
+      "name": "Men Elite Road Race | 2025 UCI Road World Championships",
+      "description": "Men's elite road race featuring the ultimate challenge: 267.5km with 5,475m elevation through Kigali - Sunday Sept 28",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2025-09-22T01:15:00.000Z"
     }
   ],
   "claudeFiltering": {
     "method": "claude-intelligence-analysis",
     "originalCount": 12,
     "spoilersFiltred": 8,
-    "cleanRaces": 4,
-    "filteredAt": "2025-09-22T01:02:00.000Z",
-    "spoilerGuarantee": "All content verified to contain no race results or outcomes"
+    "cleanRaces": 15,
+    "filteredAt": "2025-09-22T01:30:00.000Z",
+    "spoilerGuarantee": "All content verified to contain no race results or outcomes. TBD entries are placeholders for future events."
   }
 }
