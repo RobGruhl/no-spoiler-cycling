@@ -48,7 +48,7 @@ User Experience:
 └── Receives updated HTML file with direct race links
     ├── Click race → immediately watch
     ├── No authentication complexity
-    ├── Steephill.tv-inspired design
+    ├── Modern responsive design with gradient backgrounds
     └── Offline capable presentation
 ```
 
@@ -115,12 +115,12 @@ hboSearch(query, options)       // HBO Max site-specific search
 
 ## User Experience
 
-### Steephill.tv-Inspired Design:
-- Color-coded race categories (Grand Tours, Classics, World Championships)
-- Clean table-based layout without clutter
-- Direct video links with no intermediate pages
-- Mobile responsive grid design
-- Embedded CSS for complete self-contained files
+### Modern Card-Based Design:
+- Color-coded platform badges (YouTube red, FloBikes green, TBD gray)
+- Professional card layout with gradient backgrounds and hover animations
+- Content organization by type (Live Events, Full Race, Extended Highlights, Highlights)
+- Channel transparency with verified badges for official sources
+- Mobile responsive grid design with embedded CSS for complete self-contained files
 
 ### Single-Click Access:
 - Click race card → immediate video player
