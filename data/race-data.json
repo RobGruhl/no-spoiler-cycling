@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-21T23:00:00Z",
+  "lastUpdated": "2025-10-17T03:50:00Z",
   "event": {
     "name": "UCI Men's Elite Cycling Calendar 2025",
     "location": "Worldwide",
@@ -219,15 +219,80 @@
       "discoveredAt": "2025-09-21T21:00:00Z"
     },
     {
-      "id": "tour-of-guangxi-2025-tbd",
-      "name": "Tour of Guangxi 2025",
-      "description": "Final UCI WorldTour stage race of the season through the scenic mountains of Guangxi Province, China (6 stages)",
-      "platform": "TBD",
-      "url": "TBD",
+      "id": "tour-guangxi-2025-stage-1",
+      "name": "Stage 1 | 2025 Tour of Guangxi - Men",
+      "description": "Opening stage of the 2025 Tour of Guangxi featuring the men's UCI WorldTour peloton racing through Guangxi province",
+      "platform": "FloBikes",
+      "verified": true,
+      "url": "https://www.flobikes.com/events/13694232-2025-tour-of-guangxi-men/videos?playing=14623929",
       "type": "full-race",
+      "duration": "1:20:00",
       "raceDate": "2025-10-14",
+      "raceDay": "Monday",
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
+    },
+    {
+      "id": "tour-guangxi-2025-stage-2",
+      "name": "Stage 2 | 2025 Tour of Guangxi - Men",
+      "description": "Stage 2 of the 2025 Tour of Guangxi continuing the UCI WorldTour action through China's scenic Guangxi region",
+      "platform": "FloBikes",
+      "verified": true,
+      "url": "https://www.flobikes.com/events/13694232-2025-tour-of-guangxi-men/videos?playing=14625042",
+      "type": "full-race",
+      "duration": "2:26:48",
+      "raceDate": "2025-10-15",
       "raceDay": "Tuesday",
-      "discoveredAt": "2025-09-21T21:00:00Z"
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
+    },
+    {
+      "id": "tour-guangxi-2025-stage-3",
+      "name": "Stage 3 | 2025 Tour of Guangxi - Men",
+      "description": "Stage 3 of the 2025 Tour of Guangxi featuring more exciting racing from the UCI WorldTour peloton",
+      "platform": "FloBikes",
+      "verified": true,
+      "url": "https://www.flobikes.com/events/13694232-2025-tour-of-guangxi-men/videos?playing=14626354",
+      "type": "full-race",
+      "duration": "1:34:18",
+      "raceDate": "2025-10-16",
+      "raceDay": "Wednesday",
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
+    },
+    {
+      "id": "tour-guangxi-2025-stage-1-highlights",
+      "name": "Stage 1 Final Kilometers | 2025 Tour of Guangxi - Men",
+      "description": "Final kilometers from Stage 1 featuring the exciting sprint finish on the opening stage in Guangxi",
+      "platform": "YouTube",
+      "channel": "TNT Sports Cycling",
+      "verified": true,
+      "url": "https://www.youtube.com/watch?v=OKCMlLux_Mg",
+      "type": "highlights",
+      "raceDate": "2025-10-14",
+      "raceDay": "Monday",
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
+    },
+    {
+      "id": "tour-guangxi-2025-stage-2-highlights",
+      "name": "Stage 2 Final Kilometers | 2025 Tour of Guangxi - Men",
+      "description": "Final kilometers from Stage 2 showcasing the decisive moments from the second stage of racing",
+      "platform": "YouTube",
+      "channel": "TNT Sports Cycling",
+      "verified": true,
+      "url": "https://www.youtube.com/watch?v=UDX22g8gUSY",
+      "type": "highlights",
+      "raceDate": "2025-10-15",
+      "raceDay": "Tuesday",
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
+    },
+    {
+      "id": "tour-guangxi-2025-women-tbd",
+      "name": "Women's Race | 2025 Tour of Guangxi",
+      "description": "Women's UCI WorldTour race featuring top international riders competing in China's Tour of Guangxi",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/13694234-2025-tour-of-guangxi-women",
+      "type": "full-race",
+      "raceDate": "2025-10-18",
+      "raceDay": "Friday",
+      "discoveredAt": "2025-10-17T03:50:00.000Z"
     },
     {
       "id": "uci-track-world-championships-2025-men-sprint-tbd",

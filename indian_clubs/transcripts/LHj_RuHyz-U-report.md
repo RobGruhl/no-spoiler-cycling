@@ -1,0 +1,27 @@
+# Mace club warm up - grab a club and join us. This weather is ...
+
+**Video URL**: https://www.youtube.com/watch?v=LHj_RuHyz-U
+**Video ID**: LHj_RuHyz-U
+**Extracted**: 2025-09-22T17:44:56.419Z
+**Success**: true
+**Transcript Lines**: 2
+**Word Count**: 832
+
+## Video Information
+
+**Description**: Go to channel · My favorite 10 Pahlavandle Indian club exercises to loosen up the whole body. Heroic Sport - Indian clubs workouts•55K views · 9:32 · Go to ...
+
+**Duration**: PT9M25S
+
+**Series**: general
+
+
+## Transcript
+
+The mace club had been a great addition to my training. I really like it for dynamic stretching and for shoulder mobility. I am slowly learning to start off our workouts using the clubs and a routine. I try to alternate between upper and lower body moves. I got pretty winded half way through this one.
+
+We'll do a couple of 360s. Right hand on top. Dump it over your left shoulder. It should, if you do it right, it should just sort of flip right back on front. They can't really see you. Okay. Now, what we're going to do is catch it with your left hand at the handle and then just curl it five times. Keep your right hand still bent. Four. Then when you come back down, your right left hand's on top and you dump over your right shoulder. We'll do five of those. Two. Three. Four. And then on the fifth one, take your right hand out and grab it. And then do your curls. Two. At least there's a bridge. That is nice. Okay, now we're going to alternate. Okay, so go this way and then do a curl and then flip it back. So you get a little bit of a flow going. Okay, last one. Oh, that was not right. Okay, park it in the middle. Hold straight out. Just try to hold it there for a few seconds. Count of five. One, two, three, four, five. Now squat down. Raise up on your toes if you can. Do five of those. Should be My arms are burning. Five. That burns. My arms. Okay, now we're going to do um um the two hand press. So, put starting position here. Dump it over your left shoulder. And then what you want is your, you know, my palms backwards. Okay. And then straight up. two five of those. It gets harder if you get in further away from the head. Now put your left hand on top. Dump it on your right shoulder. Okay. Now one, two. This right shoulder is kind of messed up on me for Okay, parked it. Now we're going to do that um kneeling backwards. So you right hand should be on top. Dump your left shoulder. Catch it. So then the head goes back. So your right hand should be on your left knee. Then you slide your left hand down. right shoulder grabs it and then come down. Okay, we'll do five of those. One. Wait. Two. I guess this would be two. Once you get into the feel of it, three, man. Okay, we need a second. That's good. It's getting me winded. I want to do a one arm press instead of a two arm press. The closer your hand is by the head, the easier. But what you'll do when you flip like a bice the first one. Now what you want is we're going to have it like like this. So the head's in front of you. So when you lift up, it rotates out. Try that. Pull them up. Now move your hand in a little. Okay. Grab this other one. Well, that's why I was trying to get the right weight. This one's almost too heavy for me. You want this one? No, this is okay. I got it. And we'll start ourselves here. There he is. And left shoulder. Wait a minute. It's in the wrong. I didn't feel right. Something's wrong. Well, that's all right. You just want that way. It's on the That way it kind of flows. That's good. Then you drop your left hand on top right shoulder and catch it. That's all right. Well, you feel that. So, that hand should be the one that's pressing up. Yeah. It's like the bicep curl, but take it on up and rotate it around. Do it. You hear that? I do. I thought it was Hillary for a minute, man. Okay, now we want to do our side lunge. Okay. Oh man. So, right out. There you go. Keep your back kind of up. Don't bend over. You want to really feel it in your hamstring. Oh man. I guess some people will hold it up top, too. I don't I like putting it down. You guys feel that in your hamstring? Yeah, it feels amazing. It's a good stretch. Oh man. One more to the other side. Okay, this one's going to be um I think like this, catch it, and then I think take it too far instead of bend it down. Say some sort of a warp thing. Okay. So, you flip it around real slow. Grab it and Man, that really feels it in my back. Wow. Okay, we'll do one more leg. We're going to do the curtsy, which is another stretch, but loop it around and then cross behind and over. Come back. I think that's pretty good, guys. Good one.
+
+---
+
+*Extracted using Firecrawl browser automation*

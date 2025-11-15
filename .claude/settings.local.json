@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/robgruhl/.config/**)",
+      "Read(//Users/robgruhl/.claude/**)",
+      "Bash(npx @youtube/mcp@latest:*)",
+      "Bash(npm search:*)",
+      "Read(///**)",
+      "Bash(claude mcp:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)",
+      "Bash(npm run build:*)",
+      "Bash(node:*)",
+      "Bash(xargs:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
