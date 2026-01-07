@@ -111,6 +111,72 @@ node -e "import { searchStagePreviewSafe } from './lib/perplexity-utils.js'; sea
 node -e "import { searchRaceMultiLanguage } from './lib/perplexity-utils.js'; searchRaceMultiLanguage('Tour of Flanders', '2026-04-05', 2026, ['en', 'fr', 'nl']).then(r => console.log(JSON.stringify(r, null, 2)))"
 ```
 
+### Broadcast Discovery Tools
+
+YouTube is a **primary source** for race content - licensed broadcasters often have YouTube channels, and extended highlights are frequently the most interesting content.
+
+#### Reference Data
+- `/data/broadcasters.json` - Broadcaster reference by geo + YouTube channel mappings (grows over time)
+
+#### YouTube Discovery (lib/youtube-utils.js)
+**Tiered search strategy:** Official channels → Trusted channels → Broad search
+
+- `discoverYouTubeContent(raceName, year)` - Full tiered discovery workflow
+- `searchYouTubeChannel(handle, query)` - Search specific channel
+- `getChannelTrustLevel(channelId)` - Look up channel trust level
+- `addEmergingChannel(handle, name)` - Add newly discovered channel
+- `promoteToTrusted(handle, data)` - Promote channel to trusted
+- `blockChannel(handle, reason)` - Block spoiler-heavy channel
+
+**Year Fallback:** If 2026 content not available, automatically searches 2025 to identify reliable channels.
+
+#### Broadcaster Research (lib/perplexity-utils.js)
+- `searchBroadcastersByGeo(geo, year)` - Research which platforms broadcast cycling in a region
+- `searchRaceBroadcastMultiGeo(raceName, year, geos)` - Find race broadcast across US, CA, UK
+- `verifyBroadcasterRace(broadcaster, raceName, year)` - Verify specific broadcaster carries race
+
+#### Broadcaster Site Search (lib/firecrawl-utils.js)
+- `searchBroadcasterSite(domain, raceName, year)` - Search specific broadcaster site
+- `searchMultipleBroadcasters(domains, raceName, year)` - Search multiple sites
+- `discoverBroadcastUrls(broadcasters, raceName, year, geos)` - Full discovery using reference
+
+**Usage:**
+```bash
+# YouTube discovery (tiered strategy)
+node -e "import { discoverYouTubeContent } from './lib/youtube-utils.js'; discoverYouTubeContent('Paris-Roubaix', 2024).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+# Research broadcasters by geo
+node -e "import { searchBroadcastersByGeo } from './lib/perplexity-utils.js'; searchBroadcastersByGeo('US', 2026).then(r => console.log(r.answer))"
+
+# Multi-geo broadcast search
+node -e "import { searchRaceBroadcastMultiGeo } from './lib/perplexity-utils.js'; searchRaceBroadcastMultiGeo('Tour de France', 2026, ['US', 'CA', 'UK']).then(r => console.log(r.answer))"
+
+# Full broadcast URL discovery
+node -e "
+import { discoverBroadcastUrls } from './lib/firecrawl-utils.js';
+import { readFileSync } from 'fs';
+const broadcasters = JSON.parse(readFileSync('./data/broadcasters.json'));
+discoverBroadcastUrls(broadcasters, 'Paris-Roubaix', 2024, ['US', 'CA', 'UK']).then(r => console.log(JSON.stringify(r, null, 2)))
+"
+```
+
+### YouTube Channel Curation
+
+The `broadcasters.json` channel mappings grow over time as reliable sources are discovered:
+
+| Category | Criteria | Action |
+|----------|----------|--------|
+| `officialChannels` | Rights holders (UCI, GCN, Eurosport) | Pre-populated |
+| `trustedChannels` | Consistent quality, spoiler-conscious | Promote from emerging |
+| `emergingChannels` | Promising but needs validation | Auto-add on discovery |
+| `blockedChannels` | Spoiler-heavy titles | Manual block |
+
+**Channel Discovery Workflow:**
+1. Broad search finds unknown channel with good content
+2. Run youtube-cycling-analyzer on 3-5 sample videos
+3. If spoiler-safe rate ≥80%: Add to emergingChannels
+4. After 5+ successful uses: Promote to trustedChannels
+
 ### Platform Credentials (.env)
 - `FLOBIKES_EMAIL` and `FLOBIKES_PASSWORD` - For authenticated FloBikes access
 - `PEACOCK_EMAIL` and `PEACOCK_PASSWORD` - For Peacock sports content

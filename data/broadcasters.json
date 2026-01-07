@@ -1,0 +1,278 @@
+{
+  "lastUpdated": "2026-01-07T00:00:00Z",
+  "version": "1.0",
+
+  "officialChannels": {
+    "UCI": {
+      "name": "UCI - Union Cycliste Internationale",
+      "youtubeHandle": "@UCIcycling",
+      "youtubeChannelId": "UCloqTh1nPpW13LCntQglWdQ",
+      "trustLevel": "official",
+      "contentTypes": ["full-race", "highlights", "extended-highlights"],
+      "coverageScope": ["world-championships", "world-tour", "cyclocross-world-cup"],
+      "typicalDelay": "same-day",
+      "geoRestrictions": "Some content geo-blocked",
+      "notes": "Official UCI channel - primary source for World Championships and World Cup events"
+    },
+    "GCN": {
+      "name": "Global Cycling Network",
+      "youtubeHandle": "@gcn",
+      "youtubeChannelId": "UCuTaETsuCOkJ0H_GAztWt0Q",
+      "trustLevel": "official",
+      "contentTypes": ["highlights", "extended-highlights", "analysis", "how-to"],
+      "coverageScope": ["grand-tours", "monuments", "classics"],
+      "typicalDelay": "24-48h",
+      "notes": "Quality extended highlights, excellent production. Part of Warner Bros Discovery."
+    },
+    "GCNRacing": {
+      "name": "GCN Racing",
+      "youtubeHandle": "@GCNRacing",
+      "youtubeChannelId": "UC7BoGtwB2yOMLkIZuJNprpw",
+      "trustLevel": "official",
+      "contentTypes": ["race-coverage", "highlights", "news"],
+      "coverageScope": ["grand-tours", "monuments", "classics", "world-tour"],
+      "typicalDelay": "same-day",
+      "notes": "Race-focused GCN channel with more timely race coverage"
+    },
+    "Eurosport": {
+      "name": "Eurosport Cycling",
+      "youtubeHandle": "@eurosportcycling",
+      "youtubeChannelId": "UCVot7r1M0VmGPnU3hHkXS5w",
+      "trustLevel": "official",
+      "contentTypes": ["highlights", "extended-highlights"],
+      "coverageScope": ["grand-tours", "monuments", "classics", "world-tour"],
+      "typicalDelay": "same-day",
+      "notes": "European broadcaster - Warner Bros Discovery. Good for European races."
+    },
+    "FloBikes": {
+      "name": "FloBikes",
+      "youtubeHandle": "@flobikes",
+      "youtubeChannelId": "UCBGfMXhHBP6Y51PGXa2a5Hw",
+      "trustLevel": "official",
+      "contentTypes": ["highlights", "live-clips", "news"],
+      "coverageScope": ["world-championships", "flanders-classics", "world-tour", "us-racing"],
+      "typicalDelay": "same-day",
+      "notes": "US/Canada focused. Full races require FloBikes subscription."
+    },
+    "NBCSportsCycling": {
+      "name": "NBC Sports",
+      "youtubeHandle": "@NBCSports",
+      "youtubeChannelId": null,
+      "trustLevel": "official",
+      "contentTypes": ["highlights"],
+      "coverageScope": ["tour-de-france"],
+      "typicalDelay": "same-day",
+      "notes": "Limited cycling YouTube presence. Tour de France highlights may appear on main channel."
+    },
+    "TourDeFrance": {
+      "name": "Tour de France Official",
+      "youtubeHandle": "@tourdefrance",
+      "youtubeChannelId": "UCrVPGN7KhQYpPbvgPfzZ9JA",
+      "trustLevel": "official",
+      "contentTypes": ["highlights", "extended-highlights", "stage-summaries"],
+      "coverageScope": ["tour-de-france", "tour-de-france-femmes"],
+      "typicalDelay": "same-day",
+      "notes": "Official ASO channel for Tour de France"
+    },
+    "Giro": {
+      "name": "Giro d'Italia Official",
+      "youtubeHandle": "@gaboracing",
+      "youtubeChannelId": null,
+      "trustLevel": "official",
+      "contentTypes": ["highlights", "stage-summaries"],
+      "coverageScope": ["giro-ditalia"],
+      "typicalDelay": "same-day",
+      "notes": "Official RCS Sport channel"
+    }
+  },
+
+  "trustedChannels": {
+    "LanterneRouge": {
+      "name": "Lanterne Rouge",
+      "youtubeHandle": "@lanternerouge",
+      "youtubeChannelId": null,
+      "trustLevel": "trusted",
+      "contentTypes": ["extended-highlights", "race-analysis"],
+      "specialty": "Grand Tour extended highlights with commentary",
+      "spoilerRisk": "low",
+      "quality": "high",
+      "addedAt": "2026-01-07",
+      "notes": "Excellent extended highlights, thoughtful commentary, spoiler-conscious"
+    },
+    "CyclingNews": {
+      "name": "Cyclingnews",
+      "youtubeHandle": "@cyclingnewsvideos",
+      "youtubeChannelId": null,
+      "trustLevel": "trusted",
+      "contentTypes": ["highlights", "news", "interviews"],
+      "specialty": "Race highlights and news clips",
+      "spoilerRisk": "medium",
+      "quality": "high",
+      "addedAt": "2026-01-07",
+      "notes": "News outlet - titles may sometimes contain spoilers"
+    },
+    "VeloNews": {
+      "name": "VeloNews",
+      "youtubeHandle": "@velonews",
+      "youtubeChannelId": null,
+      "trustLevel": "trusted",
+      "contentTypes": ["highlights", "interviews", "podcasts"],
+      "specialty": "American cycling news and coverage",
+      "spoilerRisk": "medium",
+      "quality": "high",
+      "addedAt": "2026-01-07",
+      "notes": "Good US race coverage and analysis"
+    }
+  },
+
+  "emergingChannels": [],
+
+  "blockedChannels": [],
+
+  "licensedBroadcasters": {
+    "US": {
+      "primary": [
+        {
+          "name": "Peacock",
+          "id": "peacock",
+          "type": "streaming",
+          "url": "https://www.peacocktv.com",
+          "searchDomain": "peacocktv.com",
+          "properties": ["tour-de-france"],
+          "subscription": true,
+          "notes": "NBC Universal streaming - Tour de France live coverage"
+        },
+        {
+          "name": "FloBikes",
+          "id": "flobikes",
+          "type": "streaming",
+          "url": "https://www.flobikes.com",
+          "searchDomain": "flobikes.com",
+          "properties": ["world-championships", "flanders-classics", "world-tour"],
+          "subscription": true,
+          "notes": "Extensive race catalog including live and replay"
+        },
+        {
+          "name": "Max",
+          "id": "max",
+          "type": "streaming",
+          "url": "https://www.max.com",
+          "searchDomain": "max.com",
+          "properties": ["grand-tours", "monuments"],
+          "subscription": true,
+          "notes": "HBO Max - Eurosport content via Warner Bros Discovery"
+        }
+      ],
+      "secondary": [
+        {
+          "name": "YouTube",
+          "id": "youtube",
+          "type": "free",
+          "url": "https://www.youtube.com",
+          "searchDomain": "youtube.com",
+          "properties": ["highlights", "extended-highlights"],
+          "subscription": false,
+          "notes": "Official channel highlights - UCI, GCN, race organizers"
+        }
+      ]
+    },
+    "CA": {
+      "primary": [
+        {
+          "name": "FloBikes",
+          "id": "flobikes",
+          "type": "streaming",
+          "url": "https://www.flobikes.com",
+          "searchDomain": "flobikes.com",
+          "properties": ["world-championships", "flanders-classics", "world-tour", "grand-tours"],
+          "subscription": true,
+          "notes": "Primary cycling platform for Canada"
+        },
+        {
+          "name": "GCN+",
+          "id": "gcn-plus",
+          "type": "streaming",
+          "url": "https://www.gcn.com",
+          "searchDomain": "gcn.com",
+          "properties": ["world-tour", "classics"],
+          "subscription": true,
+          "notes": "Global Cycling Network streaming service"
+        }
+      ],
+      "secondary": [
+        {
+          "name": "YouTube",
+          "id": "youtube",
+          "type": "free",
+          "url": "https://www.youtube.com",
+          "searchDomain": "youtube.com",
+          "properties": ["highlights", "extended-highlights"],
+          "subscription": false
+        }
+      ]
+    },
+    "UK": {
+      "primary": [
+        {
+          "name": "Discovery+",
+          "id": "discovery-plus",
+          "type": "streaming",
+          "url": "https://www.discoveryplus.com",
+          "searchDomain": "discoveryplus.com",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": true,
+          "notes": "Primary cycling broadcaster for UK via Eurosport"
+        },
+        {
+          "name": "Eurosport",
+          "id": "eurosport",
+          "type": "tv",
+          "url": "https://www.eurosport.com",
+          "searchDomain": "eurosport.com",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": true,
+          "notes": "TV channel available via cable/satellite and streaming"
+        },
+        {
+          "name": "GCN+",
+          "id": "gcn-plus",
+          "type": "streaming",
+          "url": "https://www.gcn.com",
+          "searchDomain": "gcn.com",
+          "properties": ["world-tour", "classics"],
+          "subscription": true
+        }
+      ],
+      "secondary": [
+        {
+          "name": "ITV4",
+          "id": "itv4",
+          "type": "free-to-air",
+          "url": "https://www.itv.com",
+          "searchDomain": "itv.com",
+          "properties": ["tour-de-france-highlights"],
+          "subscription": false,
+          "notes": "Free-to-air Tour de France highlights in UK"
+        },
+        {
+          "name": "YouTube",
+          "id": "youtube",
+          "type": "free",
+          "url": "https://www.youtube.com",
+          "searchDomain": "youtube.com",
+          "properties": ["highlights", "extended-highlights"],
+          "subscription": false
+        }
+      ]
+    }
+  },
+
+  "propertyMappings": {
+    "grand-tours": ["Tour de France", "Giro d'Italia", "Vuelta a Espana"],
+    "monuments": ["Milan-San Remo", "Tour of Flanders", "Paris-Roubaix", "Liege-Bastogne-Liege", "Il Lombardia"],
+    "world-championships": ["UCI Road World Championships", "UCI Track World Championships"],
+    "flanders-classics": ["Tour of Flanders", "Gent-Wevelgem", "Dwars door Vlaanderen", "E3 Saxo Classic"],
+    "world-tour": ["All UCI WorldTour races"],
+    "classics": ["Spring classics", "Ardennes classics", "Belgian classics"]
+  }
+}
