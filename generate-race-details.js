@@ -262,6 +262,94 @@ function generateRaceDetailsHTML(race, options = {}) {
     `;
   };
 
+  // Generate broadcast/where to watch HTML
+  const generateBroadcastHTML = () => {
+    if (!race.broadcast || !race.broadcast.geos) return '';
+
+    const geoLabels = {
+      'US': '🇺🇸 United States',
+      'CA': '🇨🇦 Canada',
+      'UK': '🇬🇧 United Kingdom',
+      'EU': '🇪🇺 Europe',
+      'AU': '🇦🇺 Australia'
+    };
+
+    const geoOrder = ['US', 'CA', 'UK', 'EU', 'AU'];
+    const availableGeos = geoOrder.filter(geo => race.broadcast.geos[geo]);
+
+    if (availableGeos.length === 0) return '';
+
+    const geosHTML = availableGeos.map(geo => {
+      const geoData = race.broadcast.geos[geo];
+      const primary = geoData.primary;
+      const alternatives = geoData.alternatives || [];
+
+      // Primary broadcaster
+      const primaryHTML = primary ? `
+        <div class="broadcast-primary">
+          <a href="${primary.url}" target="_blank" rel="noopener" class="broadcast-link primary">
+            <span class="broadcast-name">${primary.broadcaster}</span>
+            <span class="broadcast-meta">
+              ${primary.coverage === 'live' ? '🔴 Live' : primary.coverage === 'extended-highlights' ? '📺 Extended Highlights' : '📺 ' + (primary.coverage || 'Coverage')}
+              ${primary.subscription ? '<span class="sub-badge">Subscription</span>' : '<span class="free-badge">Free</span>'}
+            </span>
+          </a>
+          ${primary.notes ? `<p class="broadcast-notes">${primary.notes}</p>` : ''}
+        </div>
+      ` : '';
+
+      // Alternative options
+      const alternativesHTML = alternatives.length > 0 ? `
+        <div class="broadcast-alternatives">
+          <span class="alt-label">Also available:</span>
+          ${alternatives.map(alt => `
+            <a href="${alt.url}" target="_blank" rel="noopener" class="broadcast-link alt">
+              <span class="broadcast-name">${alt.broadcaster}</span>
+              <span class="broadcast-meta">
+                ${alt.coverage === 'extended-highlights' ? 'Extended Highlights' : alt.coverage === 'highlights' ? 'Highlights' : alt.coverage || ''}
+                ${alt.subscription === false ? '<span class="free-badge">Free</span>' : ''}
+              </span>
+            </a>
+          `).join('')}
+        </div>
+      ` : '';
+
+      return `
+        <div class="broadcast-geo">
+          <h3 class="geo-label">${geoLabels[geo] || geo}</h3>
+          ${primaryHTML}
+          ${alternativesHTML}
+        </div>
+      `;
+    }).join('');
+
+    // YouTube channels section
+    const youtubeHTML = race.broadcast.youtubeChannels && race.broadcast.youtubeChannels.length > 0 ? `
+      <div class="youtube-channels">
+        <h3 class="youtube-label">📺 YouTube Channels</h3>
+        <div class="youtube-list">
+          ${race.broadcast.youtubeChannels.map(ch => `
+            <a href="https://youtube.com/${ch.handle}" target="_blank" rel="noopener" class="youtube-chip">
+              ${ch.channel}
+              <span class="yt-type">${ch.contentType === 'extended-highlights' ? 'Extended' : ch.contentType || 'Highlights'}</span>
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    ` : '';
+
+    return `
+      <section class="details-section broadcast-section">
+        <h2 class="section-title">📡 Where to Watch</h2>
+        <div class="broadcast-grid">
+          ${geosHTML}
+        </div>
+        ${youtubeHTML}
+        ${race.broadcast.notes ? `<p class="broadcast-footer-notes">${race.broadcast.notes}</p>` : ''}
+      </section>
+    `;
+  };
+
   // Main HTML template
   return `<!DOCTYPE html>
 <html lang="en">
@@ -601,6 +689,201 @@ function generateRaceDetailsHTML(race, options = {}) {
       line-height: 1.7;
     }
 
+    /* Broadcast / Where to Watch */
+    .broadcast-section {
+      background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+      border: 2px solid #0ea5e9;
+    }
+
+    .broadcast-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .broadcast-geo {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .geo-label {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0c4a6e;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e0f2fe;
+    }
+
+    .broadcast-primary {
+      margin-bottom: 12px;
+    }
+
+    .broadcast-link {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 12px;
+      background: #f8fafc;
+      border-radius: 8px;
+      text-decoration: none;
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s;
+    }
+
+    .broadcast-link:hover {
+      background: #f1f5f9;
+      border-color: #0ea5e9;
+      transform: translateY(-1px);
+    }
+
+    .broadcast-link.primary {
+      background: linear-gradient(135deg, #0ea5e9, #0284c7);
+      border: none;
+    }
+
+    .broadcast-link.primary .broadcast-name {
+      color: white;
+      font-weight: 600;
+    }
+
+    .broadcast-link.primary .broadcast-meta {
+      color: rgba(255,255,255,0.9);
+    }
+
+    .broadcast-name {
+      font-weight: 500;
+      color: #1e293b;
+      font-size: 0.95rem;
+    }
+
+    .broadcast-meta {
+      font-size: 0.8rem;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .sub-badge {
+      background: #fef3c7;
+      color: #92400e;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    .broadcast-link.primary .sub-badge {
+      background: rgba(255,255,255,0.2);
+      color: white;
+    }
+
+    .free-badge {
+      background: #d1fae5;
+      color: #065f46;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    .broadcast-link.primary .free-badge {
+      background: rgba(255,255,255,0.2);
+      color: white;
+    }
+
+    .broadcast-notes {
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-top: 8px;
+      padding-left: 12px;
+    }
+
+    .broadcast-alternatives {
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .alt-label {
+      display: block;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .broadcast-link.alt {
+      margin-bottom: 8px;
+    }
+
+    .broadcast-link.alt:last-child {
+      margin-bottom: 0;
+    }
+
+    .youtube-channels {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .youtube-label {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #dc2626;
+      margin-bottom: 12px;
+    }
+
+    .youtube-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .youtube-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #fee2e2, #fecaca);
+      color: #991b1b;
+      padding: 8px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      border: 1px solid #fca5a5;
+    }
+
+    .youtube-chip:hover {
+      background: linear-gradient(135deg, #fecaca, #fca5a5);
+      transform: translateY(-1px);
+    }
+
+    .yt-type {
+      font-size: 0.7rem;
+      background: rgba(255,255,255,0.6);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #b91c1c;
+    }
+
+    .broadcast-footer-notes {
+      margin-top: 16px;
+      padding: 12px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 8px;
+      color: #0369a1;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
     /* Empty State */
     .empty-state {
       background: rgba(255, 255, 255, 0.98);
@@ -638,8 +921,13 @@ function generateRaceDetailsHTML(race, options = {}) {
       }
 
       .sectors-grid,
-      .favorites-grid {
+      .favorites-grid,
+      .broadcast-grid {
         grid-template-columns: 1fr;
+      }
+
+      .youtube-list {
+        justify-content: center;
       }
     }
   </style>
@@ -682,6 +970,8 @@ function generateRaceDetailsHTML(race, options = {}) {
         <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>
       </div>
     `}
+
+    ${generateBroadcastHTML()}
 
     <footer class="footer">
       <p>No Spoiler Cycling | Race details are spoiler-safe</p>
