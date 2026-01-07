@@ -67,6 +67,16 @@ Use Perplexity AI Search API for researching race details, stage information, an
 - `searchRaceBroadcast(raceName, year)` - TV/streaming coverage by region
 - `searchRaceComprehensive(raceName, year)` - Multi-query parallel research (5 queries)
 
+**Spoiler-Safe Race Details (for Race Details Pages):**
+- `searchRacePreview(raceName, raceDate, year)` - Course preview (auto-filters for past races)
+- `searchRaceSectors(raceName, year)` - Detailed sector/climb breakdown
+- `searchRaceFavorites(raceName, raceDate, year)` - Pre-race favorites (spoiler-safe)
+- `searchRaceNarratives(raceName, raceDate, year)` - Storylines to watch (pre-race only)
+- `searchRaceHistory(raceName, year)` - Historical context (excludes current year)
+- `searchRaceDetailsSafe(raceName, raceDate, year)` - Comprehensive search (runs all above in parallel)
+- `searchStagePreviewSafe(tour, stageNumber, stageDate, year)` - Grand Tour stage preview
+- `searchRaceMultiLanguage(raceName, raceDate, year, languages)` - Multi-language search
+
 **Options for perplexitySearch:**
 - `maxResults` - Results per query (1-20, default 10)
 - `allowDomains` - Allowlist domains (e.g., ['cyclingnews.com', 'uci.org'])
@@ -90,6 +100,15 @@ node -e "import { searchClimbDetails } from './lib/perplexity-utils.js'; searchC
 
 # Find broadcast info
 node -e "import { searchRaceBroadcast } from './lib/perplexity-utils.js'; searchRaceBroadcast('Tour de France', 2026).then(r => console.log(r.answer))"
+
+# Spoiler-safe race details (for race details pages)
+node -e "import { searchRaceDetailsSafe } from './lib/perplexity-utils.js'; searchRaceDetailsSafe('Paris-Roubaix', '2026-04-12', 2026).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+# Spoiler-safe stage preview
+node -e "import { searchStagePreviewSafe } from './lib/perplexity-utils.js'; searchStagePreviewSafe('tdf', 15, '2026-07-18', 2026).then(r => console.log(r.answer))"
+
+# Multi-language search (English, French, Dutch)
+node -e "import { searchRaceMultiLanguage } from './lib/perplexity-utils.js'; searchRaceMultiLanguage('Tour of Flanders', '2026-04-05', 2026, ['en', 'fr', 'nl']).then(r => console.log(JSON.stringify(r, null, 2)))"
 ```
 
 ### Platform Credentials (.env)
@@ -100,8 +119,19 @@ node -e "import { searchRaceBroadcast } from './lib/perplexity-utils.js'; search
 
 ### Data Management
 - `race-data.json` - Stores verified spoiler-free race content
-- `generate-page.js` - Creates static HTML presentation
+- `generate-page.js` - Creates static HTML calendar presentation
+- `generate-race-details.js` - Creates individual race/stage detail pages
 - `npm run build` - Regenerates index.html from race data
+
+### Race Details Page Generation
+```bash
+# Generate all race detail pages (for races with raceDetails populated)
+node generate-race-details.js --all
+
+# Generate single race detail page
+node generate-race-details.js --race paris-roubaix-2026
+```
+Output: `./race-details/<race-id>.html`
 
 ## Content Focus: Race Footage Only
 
@@ -120,6 +150,41 @@ node -e "import { searchRaceBroadcast } from './lib/perplexity-utils.js'; search
 ## Spoiler Detection Using Your Intelligence
 
 **CRITICAL**: Use your natural language understanding to identify spoiler content. Never rely on keyword matching or programmatic parsing.
+
+## Spoiler Safety for Race Details Pages
+
+**CRITICAL FOR PAST RACES**: The spoiler-safe search functions automatically handle this, but understand the mechanism:
+
+### How Spoiler Protection Works
+1. **Date Detection**: Functions check if `raceDate` is before today
+2. **Content Filtering**: For past races, searches use `endDate` parameter set to the race date
+3. **Result**: Only content published BEFORE the race is returned - no results can leak through
+
+### When Populating raceDetails for Past Races:
+```
+✅ SAFE: Course description, sector details, climb gradients (timeless data)
+✅ SAFE: Pre-race favorites and predictions (date-filtered)
+✅ SAFE: Historical context from previous years
+✅ SAFE: Race narratives published before race day
+
+❌ DANGEROUS: Post-race analysis (could reveal winner)
+❌ DANGEROUS: "X wins" or "X claims victory" content
+❌ DANGEROUS: Podium photos or celebrations
+❌ DANGEROUS: Stage classification/GC standings
+```
+
+### Language Considerations for Spoiler Safety
+When searching in non-English languages, be extra careful:
+- Local news sites often lead with results in headlines
+- Always verify date-filtering is working
+- Review AI-synthesized answers for any result leakage
+- If uncertain, manually verify the content source dates
+
+### Domains Automatically Blocked
+These domains are auto-blocked to reduce spoiler risk:
+- `wikipedia.org` - Often has results in summaries
+- `sporza.be` - Belgian sports news with results
+- `nos.nl` - Dutch news with results
 
 ## Working Session Examples
 
@@ -168,6 +233,57 @@ Search Results Analysis:
 ❌ "How Evenepoel Won Stage 15" - Contains spoiler (outcome revealed)
 
 Action: Include only ✅ safe content in race-data.json
+```
+
+### Race Details Page Session
+```
+User: "Create a race details page for Paris-Roubaix 2026"
+
+Your Process:
+1. SEARCH SPOILER-SAFE: Use spoiler-safe search functions
+   node -e "import { searchRaceDetailsSafe } from './lib/perplexity-utils.js';
+   searchRaceDetailsSafe('Paris-Roubaix', '2026-04-12', 2026).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+2. REVIEW RESULTS: Analyze the returned data
+   - preview.answer → courseSummary
+   - sectors.answer → extract keySectors array
+   - favorites.answer → extract favorites object
+   - narratives.answer → extract narratives array
+
+3. POPULATE DATA: Add raceDetails to race in race-data.json
+   {
+     "id": "paris-roubaix-2026",
+     "raceDetails": {
+       "lastFetched": "2026-01-07T...",
+       "spoilerSafe": true,
+       "courseSummary": "...",
+       "keySectors": [...],
+       ...
+     }
+   }
+
+4. GENERATE PAGE: Create the HTML page
+   node generate-race-details.js --race paris-roubaix-2026
+
+5. VERIFY: Check ./race-details/paris-roubaix-2026.html
+```
+
+### Multi-Language Search Session
+For races where English content is limited, search in relevant languages:
+```
+User: "Find details for Ronde van Vlaanderen in Dutch and French"
+
+Your Process:
+1. MULTI-LANGUAGE SEARCH:
+   node -e "import { searchRaceMultiLanguage } from './lib/perplexity-utils.js';
+   searchRaceMultiLanguage('Ronde van Vlaanderen', '2026-04-05', 2026, ['en', 'nl', 'fr']).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+2. COMBINE RESULTS: Merge best content from each language
+   - Dutch (nl): Local blogs often have best sector details
+   - French (fr): L'Equipe, La Dernière Heure for favorites
+   - English (en): Cycling News, VeloNews for narratives
+
+3. POPULATE & GENERATE: Same as above
 ```
 
 ## Data Structure
@@ -229,6 +345,63 @@ For races that haven't occurred yet or lack discovered content:
 - Keep technical details (distance, elevation, course info)
 - Use standardized platform: "TBD" and url: "TBD"
 - Always include actual raceDate and raceDay for chronological ordering
+
+### Race Details Schema (raceDetails field)
+For single-race or stage detail pages, add a `raceDetails` object to the race:
+```json
+{
+  "raceDetails": {
+    "lastFetched": "2026-01-07T00:00:00Z",
+    "spoilerSafe": true,
+    "courseSummary": "Course description focusing on character and features",
+    "keySectors": [
+      {
+        "name": "Sector 15 - Carrefour de l'Arbre",
+        "kmFromFinish": 18.5,
+        "length": 2.1,
+        "surface": "cobbles",
+        "difficulty": 5,
+        "description": "Five-star cobbled sector, often decisive"
+      }
+    ],
+    "keyClimbs": [
+      {
+        "name": "Col du Galibier",
+        "category": "HC",
+        "length": 17.7,
+        "avgGradient": "6.9%",
+        "maxGradient": "12.1%",
+        "kmFromFinish": 35,
+        "summit": 2642
+      }
+    ],
+    "favorites": {
+      "climbers": ["Rider A", "Rider B"],
+      "sprinters": ["Rider C"],
+      "puncheurs": ["Rider D"],
+      "allRounders": ["Rider E"],
+      "gcContenders": ["Rider F"],
+      "cobbleSpecialists": ["Rider G"]
+    },
+    "narratives": [
+      "Can Pogacar add another monument to his collection?",
+      "Van Aert returns after injury - can he recapture winning form?"
+    ],
+    "historicalContext": "Notable past editions without spoiling current year",
+    "watchNotes": "Key moments to watch for during the race"
+  }
+}
+```
+
+**Race Details Fields:**
+- **spoilerSafe**: Always `true` - confirms content was fetched with spoiler protection
+- **courseSummary**: Overall race character without results
+- **keySectors**: Cobbled/gravel/technical sectors with difficulty (1-5 stars)
+- **keyClimbs**: Climbs with category (HC, 1-4), gradients, and position in race
+- **favorites**: Pre-race favorites by rider type (NEVER include results)
+- **narratives**: Storylines and rivalries heading into the race
+- **historicalContext**: Race history (excludes current year)
+- **watchNotes**: What to look for when watching
 
 ## Quality Assurance
 
