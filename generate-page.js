@@ -114,7 +114,9 @@ function generateHTML(raceData) {
     const categoryColor = categoryColors[race.category] || '#6b7280';
 
     // Determine if this is a TBD/future event
-    const isTBD = race.url === 'TBD' || race.platform === 'TBD';
+    // Not TBD if we have broadcast info (even without direct video link)
+    const hasBroadcast = race.broadcast && race.broadcast.geos && Object.keys(race.broadcast.geos).length > 0;
+    const isTBD = !hasBroadcast && (race.url === 'TBD' || race.platform === 'TBD');
 
     // Generate icons
     const formatIcon = formatIcons[race.raceFormat] || '🏁';
