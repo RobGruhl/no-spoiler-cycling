@@ -910,6 +910,15 @@ function generateRaceDetailsHTML(race, options = {}) {
       font-size: 0.85rem;
     }
 
+    .footer a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       .race-title {
@@ -976,6 +985,7 @@ function generateRaceDetailsHTML(race, options = {}) {
     <footer class="footer">
       <p>No Spoiler Cycling | Race details are spoiler-safe</p>
       ${details.lastFetched ? `<p>Last updated: ${new Date(details.lastFetched).toLocaleDateString()}</p>` : ''}
+      <p><a href="../index.html">Calendar</a> · <a href="../about.html">About</a></p>
     </footer>
   </div>
 </body>

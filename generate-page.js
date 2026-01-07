@@ -799,6 +799,15 @@ function generateHTML(raceData) {
       font-size: 0.875rem;
     }
 
+    .footer a {
+      color: rgba(255,255,255,0.9);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
     /* Stage Badge */
     .stage-badge {
       background: linear-gradient(135deg, #3b82f6, #8b5cf6);
@@ -1127,7 +1136,8 @@ function generateHTML(raceData) {
 
     <!-- Footer -->
     <footer class="footer">
-      <p>2026 Pro Cycling Calendar • Powered by Claude Code</p>
+      <p>2026 Pro Cycling Calendar • Built with <a href="https://claude.ai/download" target="_blank" rel="noopener">Claude Code</a></p>
+      <p><a href="about.html">About This Project</a></p>
     </footer>
   </div>
 

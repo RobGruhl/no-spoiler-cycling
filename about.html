@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About No-Spoiler Cycling - An AI-assisted content curation system for cycling fans">
+  <title>About | No-Spoiler Cycling</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+      min-height: 100vh;
+      padding: 20px;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      transition: background 0.2s;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .content-card {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #1e3a5f;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      color: #374151;
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #374151;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .lead {
+      font-size: 1.15rem;
+      color: #4b5563;
+      margin-bottom: 24px;
+    }
+
+    ul, ol {
+      color: #374151;
+      line-height: 1.8;
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+      font-size: 0.9em;
+      color: #dc2626;
+    }
+
+    pre {
+      background: #1f2937;
+      color: #e5e7eb;
+      padding: 20px;
+      border-radius: 12px;
+      overflow-x: auto;
+      margin-bottom: 16px;
+      font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #f9fafb;
+      font-weight: 600;
+      color: #1e3a5f;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border-left: 4px solid #3b82f6;
+      padding: 20px;
+      border-radius: 0 12px 12px 0;
+      margin: 24px 0;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      color: #1e40af;
+    }
+
+    .architecture-diagram {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+      font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      overflow-x: auto;
+      white-space: pre;
+      color: #475569;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .badge-blue {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .badge-green {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .badge-purple {
+      background: #ede9fe;
+      color: #5b21b6;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      color: rgba(255,255,255,0.6);
+      padding: 30px 0;
+      font-size: 0.85rem;
+    }
+
+    .footer a {
+      color: rgba(255,255,255,0.8);
+    }
+
+    @media (max-width: 768px) {
+      .content-card {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      pre {
+        font-size: 0.75rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-button">← Back to Calendar</a>
+
+    <div class="content-card">
+      <h1>No-Spoiler Cycling: An AI-Assisted Content Curation System</h1>
+
+      <h2>The Problem</h2>
+      <p class="lead">Cycling fans who can't watch races live face a frustrating dilemma: finding race recordings online means risking spoilers.</p>
+      <p>A single glance at a YouTube thumbnail, video title, or search result can reveal race outcomes. This ruins the experience of watching a 5-hour Grand Tour stage or a nail-biting Monument classic.</p>
+
+      <h2>The Solution</h2>
+      <p><strong>No-Spoiler Cycling</strong> is a curated, spoiler-free calendar of professional cycling races with direct links to watch content. What makes it interesting isn't just what it does—it's <em>how</em> it's built and maintained.</p>
+
+      <h2>How It Works: Human-AI Collaboration</h2>
+      <p>This system is built and maintained through <strong>conversational collaboration with Claude Code</strong>, Anthropic's AI coding assistant. Rather than writing code manually, the human describes what they want, and Claude Code:</p>
+      <ol>
+        <li><strong>Researches</strong> race schedules, broadcaster licensing, and content availability</li>
+        <li><strong>Discovers</strong> video content across YouTube, FloBikes, Peacock, and other platforms</li>
+        <li><strong>Analyzes</strong> content for spoiler safety using natural language understanding</li>
+        <li><strong>Generates</strong> static HTML pages with verified, safe links</li>
+        <li><strong>Deploys</strong> via Git commits to GitHub Pages</li>
+      </ol>
+      <p>The entire workflow happens through natural language conversation. Commands like <em>"Find broadcast links for Tour Down Under for US, Canada, and UK"</em> trigger Claude Code to orchestrate multiple API calls, evaluate results, update data files, regenerate HTML, and commit the changes.</p>
+
+      <h2>Core Technologies</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Claude Code</strong></td>
+              <td>AI agent that orchestrates the entire workflow—research, discovery, code generation, and deployment</td>
+            </tr>
+            <tr>
+              <td><strong>Firecrawl API</strong></td>
+              <td>Web search and scraping for content discovery across video platforms</td>
+            </tr>
+            <tr>
+              <td><strong>Perplexity API</strong></td>
+              <td>AI-powered research with citations for race details, broadcaster info, and course profiles</td>
+            </tr>
+            <tr>
+              <td><strong>Node.js</strong></td>
+              <td>Runtime for utility scripts and static site generation</td>
+            </tr>
+            <tr>
+              <td><strong>GitHub Pages</strong></td>
+              <td>Free static hosting—no backend server needed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Architecture</h2>
+      <p>Static site with an AI-powered data pipeline:</p>
+      <div class="architecture-diagram">┌─────────────────────────────────────────────────────────────────┐
+│                     CLAUDE CODE (AI Agent)                       │
+│  Orchestrates all tasks via natural language conversation        │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        ▼                     ▼                     ▼
+┌───────────────┐    ┌───────────────┐    ┌───────────────┐
+│  Perplexity   │    │   Firecrawl   │    │   YouTube     │
+│  (Research)   │    │   (Scraping)  │    │   (Search)    │
+└───────────────┘    └───────────────┘    └───────────────┘
+        │                     │                     │
+        └─────────────────────┼─────────────────────┘
+                              ▼
+                    ┌───────────────────┐
+                    │  race-data.json   │
+                    │  broadcasters.json│
+                    └───────────────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  generate-page.js │
+                    └───────────────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   GitHub Pages    │
+                    └───────────────────┘</div>
+
+      <h2>What Makes This Interesting</h2>
+
+      <h3>1. Agentic AI in Action</h3>
+      <p>This isn't a chatbot answering questions—it's an AI agent that <em>does work</em>. Claude Code reads files, calls APIs, writes code, makes decisions, and executes shell commands. The CLAUDE.md file (22KB of instructions) teaches Claude Code how to be a "spoiler-safe content researcher."</p>
+
+      <h3>2. Tool Use & Orchestration</h3>
+      <p>Claude Code coordinates multiple external services:</p>
+      <ul>
+        <li>Searches Perplexity for "Tour Down Under 2026 broadcaster licensing by region"</li>
+        <li>Calls Firecrawl to scrape FloBikes for race URLs</li>
+        <li>Uses tiered YouTube search (official channels → trusted channels → broad search)</li>
+        <li>Writes results to JSON, regenerates HTML, commits to Git</li>
+      </ul>
+
+      <h3>3. Natural Language as the Interface</h3>
+      <p>The "codebase" includes a 22KB instruction file (CLAUDE.md) that's essentially a detailed prompt teaching Claude Code the domain:</p>
+      <pre>CRITICAL: Use your natural language understanding to identify spoiler
+content. Never rely on keyword matching or programmatic parsing.</pre>
+
+      <h3>4. Spoiler Safety via AI Judgment</h3>
+      <p>Filtering spoilers isn't a regex problem—it requires understanding context. "Pogacar wins Stage 15" is a spoiler. "Stage 15 Summit Finish Full Coverage" is safe. Claude Code makes these judgment calls using language understanding.</p>
+
+      <h3>5. Growing Knowledge Base</h3>
+      <p>The system maintains a <code>broadcasters.json</code> file that grows over time as Claude Code discovers reliable YouTube channels. Unknown channels get evaluated, added to "emerging," and potentially promoted to "trusted."</p>
+
+      <h2>Key Files</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>File</th>
+              <th>Lines</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>CLAUDE.md</code></td>
+              <td>500+</td>
+              <td>Instructions for Claude Code—how to research, discover, and curate</td>
+            </tr>
+            <tr>
+              <td><code>race-data.json</code></td>
+              <td>5,200+</td>
+              <td>225 races with metadata, ratings, broadcast info</td>
+            </tr>
+            <tr>
+              <td><code>generate-page.js</code></td>
+              <td>1,000+</td>
+              <td>Static site generator with filtering UI</td>
+            </tr>
+            <tr>
+              <td><code>lib/perplexity-utils.js</code></td>
+              <td>840</td>
+              <td>AI-powered research functions</td>
+            </tr>
+            <tr>
+              <td><code>lib/youtube-utils.js</code></td>
+              <td>487</td>
+              <td>Tiered YouTube discovery with channel trust levels</td>
+            </tr>
+            <tr>
+              <td><code>lib/firecrawl-utils.js</code></td>
+              <td>400+</td>
+              <td>Web scraping and broadcaster site search</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Try It Yourself</h2>
+      <p>The system is fully open source. To see AI-assisted development in action:</p>
+      <ol>
+        <li>Install <a href="https://claude.ai/download" target="_blank" rel="noopener">Claude Code</a> (Anthropic's CLI)</li>
+        <li>Clone the <a href="https://github.com/RobGruhl/no-spoiler-cycling" target="_blank" rel="noopener">repo</a></li>
+        <li>Ask Claude Code: <em>"Research broadcast info for Paris-Roubaix 2026"</em></li>
+      </ol>
+      <p>Watch as it calls Perplexity, searches YouTube channels, evaluates results, and updates the data files—all through conversation.</p>
+
+      <div class="highlight-box">
+        <p><strong>Key Takeaway:</strong> AI agents can do real work, not just answer questions. Human-AI collaboration is more powerful than either alone—humans provide judgment and direction, AI provides speed and tireless execution.</p>
+      </div>
+
+      <h2>Source Code</h2>
+      <p>
+        <a href="https://github.com/RobGruhl/no-spoiler-cycling" target="_blank" rel="noopener">github.com/RobGruhl/no-spoiler-cycling</a>
+      </p>
+    </div>
+
+    <footer class="footer">
+      <p>No-Spoiler Cycling | Built with Claude Code</p>
+      <p><a href="index.html">Calendar</a> · <a href="about.html">About</a></p>
+    </footer>
+  </div>
+</body>
+</html>
