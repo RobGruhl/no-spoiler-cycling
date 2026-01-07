@@ -308,6 +308,88 @@
       color: #6b7280;
     }
 
+    /* Top Riders Section */
+    .race-riders {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 8px 0;
+    }
+
+    .riders-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .rider-avatars {
+      display: flex;
+      gap: 4px;
+    }
+
+    .rider-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      cursor: help;
+      transition: transform 0.2s;
+    }
+
+    .rider-avatar:hover {
+      transform: scale(1.1);
+      z-index: 10;
+    }
+
+    .rider-initials {
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .rider-avatar.more-riders {
+      background: #e5e7eb;
+      color: #6b7280;
+      font-size: 0.65rem;
+      font-weight: 600;
+    }
+
+    .rank-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      font-size: 0.55rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid white;
+    }
+
+    .rank-badge.rank-1 {
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: white;
+    }
+
+    .rank-badge.rank-2 {
+      background: linear-gradient(135deg, #9ca3af, #6b7280);
+      color: white;
+    }
+
+    .rank-badge.rank-3 {
+      background: linear-gradient(135deg, #d97706, #b45309);
+      color: white;
+    }
+
     .race-footer {
       display: flex;
       justify-content: space-between;
@@ -643,7 +725,7 @@
     <header class="header">
       <div class="header-top">
         <h1 class="site-title">🚴 2026 Pro Cycling Calendar</h1>
-        <div class="last-updated">Updated: January 6, 2026</div>
+        <div class="last-updated">Updated: January 7, 2026</div>
       </div>
 
       <div class="event-info">
@@ -784,6 +866,7 @@
         <span class="race-date">📅 Jan 17-22</span>
         <span class="race-location">📍 El Salvador</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -804,6 +887,7 @@
         <span class="race-date">📅 Jan 20-25</span>
         <span class="race-location">📍 Australia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -824,6 +908,7 @@
         <span class="race-date">📅 Jan 23-24</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -844,6 +929,7 @@
         <span class="race-date">📅 Jan 24-25</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -864,6 +950,7 @@
         <span class="race-date">📅 Jan 25-26</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -884,6 +971,7 @@
         <span class="race-date">📅 Jan 26-27</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -904,6 +992,7 @@
         <span class="race-date">📅 Jan 28-29</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -924,6 +1013,7 @@
         <span class="race-date">📅 Jan 29-30</span>
         <span class="race-location">📍 Australia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -943,6 +1033,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Jan 29-30</span>
         <span class="race-location">📍 Spain</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -964,6 +1065,7 @@
         <span class="race-date">📅 Jan 30-31</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -984,6 +1086,7 @@
         <span class="race-date">📅 Jan 31 - Feb 1</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1010,6 +1113,7 @@
         <span class="race-date">📅 Feb 1-2</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1030,6 +1134,7 @@
         <span class="race-date">📅 Feb 1-2</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1050,6 +1155,7 @@
         <span class="race-date">📅 Feb 1-2</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1070,6 +1176,7 @@
         <span class="race-date">📅 Feb 1-2</span>
         <span class="race-location">📍 Australia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1090,6 +1197,7 @@
         <span class="race-date">📅 Feb 4-9</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1109,6 +1217,23 @@
       <div class="race-meta">
         <span class="race-date">📅 Feb 4-9</span>
         <span class="race-location">📍 Spain</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1130,6 +1255,7 @@
         <span class="race-date">📅 Feb 6-7</span>
         <span class="race-location">📍 Oman</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1150,6 +1276,7 @@
         <span class="race-date">📅 Feb 7-12</span>
         <span class="race-location">📍 Oman</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1170,6 +1297,7 @@
         <span class="race-date">📅 Feb 8-9</span>
         <span class="race-location">📍 Portugal</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1190,6 +1318,7 @@
         <span class="race-date">📅 Feb 8-9</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1210,6 +1339,7 @@
         <span class="race-date">📅 Feb 8-9</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1229,6 +1359,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Feb 13-16</span>
         <span class="race-location">📍 France</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1250,6 +1391,7 @@
         <span class="race-date">📅 Feb 13-15</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1269,6 +1411,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Feb 14-15</span>
         <span class="race-location">📍 Portugal</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1290,6 +1443,7 @@
         <span class="race-date">📅 Feb 15-16</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1310,6 +1464,7 @@
         <span class="race-date">📅 Feb 16-17</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1329,6 +1484,20 @@
       <div class="race-meta">
         <span class="race-date">📅 Feb 16-23</span>
         <span class="race-location">📍 United Arab Emirates</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1350,6 +1519,20 @@
         <span class="race-date">📅 Feb 18-23</span>
         <span class="race-location">📍 Portugal</span>
       </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1370,6 +1553,7 @@
         <span class="race-date">📅 Feb 18-23</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1390,6 +1574,7 @@
         <span class="race-date">📅 Feb 21-22</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1410,6 +1595,7 @@
         <span class="race-date">📅 Feb 22-23</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1430,6 +1616,7 @@
         <span class="race-date">📅 Feb 22-23</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1450,6 +1637,7 @@
         <span class="race-date">📅 Feb 22-23</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1470,6 +1658,7 @@
         <span class="race-date">📅 Feb 22-23</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1490,6 +1679,7 @@
         <span class="race-date">📅 Feb 22 - Mar 2</span>
         <span class="race-location">📍 Rwanda</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1510,6 +1700,7 @@
         <span class="race-date">📅 Feb 25 - Mar 2</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1530,6 +1721,7 @@
         <span class="race-date">📅 Feb 28 - Mar 1</span>
         <span class="race-location">📍 Greece</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1556,6 +1748,7 @@
         <span class="race-date">📅 Mar 1-2</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1576,6 +1769,7 @@
         <span class="race-date">📅 Mar 1-2</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1595,6 +1789,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Mar 1-2</span>
         <span class="race-location">📍 Belgium</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          
+          <span class="rider-initials">MP</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1616,6 +1821,7 @@
         <span class="race-date">📅 Mar 1-2</span>
         <span class="race-location">📍 Greece</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1636,6 +1842,7 @@
         <span class="race-date">📅 Mar 3-4</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1656,6 +1863,7 @@
         <span class="race-date">📅 Mar 4-5</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1675,6 +1883,20 @@
       <div class="race-meta">
         <span class="race-date">📅 Mar 7-8</span>
         <span class="race-location">📍 Italy</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1696,6 +1918,23 @@
         <span class="race-date">📅 Mar 8-16</span>
         <span class="race-location">📍 France</span>
       </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1715,6 +1954,23 @@
       <div class="race-meta">
         <span class="race-date">📅 Mar 9-16</span>
         <span class="race-location">📍 Italy</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1736,6 +1992,7 @@
         <span class="race-date">📅 Mar 11-12</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1756,6 +2013,7 @@
         <span class="race-date">📅 Mar 15-20</span>
         <span class="race-location">📍 Taiwan</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1776,6 +2034,7 @@
         <span class="race-date">📅 Mar 18-19</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1796,6 +2055,7 @@
         <span class="race-date">📅 Mar 18-19</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1816,6 +2076,7 @@
         <span class="race-date">📅 Mar 18-19</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1836,6 +2097,7 @@
         <span class="race-date">📅 Mar 19-20</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1856,6 +2118,7 @@
         <span class="race-date">📅 Mar 20-21</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1875,6 +2138,29 @@
       <div class="race-meta">
         <span class="race-date">📅 Mar 21-22</span>
         <span class="race-location">📍 Italy</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
+          
+          <span class="rider-initials">PJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1896,6 +2182,7 @@
         <span class="race-date">📅 Mar 24-30</span>
         <span class="race-location">📍 Thailand</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1916,6 +2203,7 @@
         <span class="race-date">📅 Mar 24-29</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1936,6 +2224,7 @@
         <span class="race-date">📅 Mar 25-26</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1955,6 +2244,20 @@
       <div class="race-meta">
         <span class="race-date">📅 Mar 27-28</span>
         <span class="race-location">📍 Belgium</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          
+          <span class="rider-initials">MP</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -1976,6 +2279,20 @@
         <span class="race-date">📅 Mar 29-30</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1996,6 +2313,7 @@
         <span class="race-date">📅 Mar 29-30</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2016,6 +2334,7 @@
         <span class="race-date">📅 Mar 29-30</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2036,6 +2355,7 @@
         <span class="race-date">📅 Mar 31 - Apr 1</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2062,6 +2382,20 @@
         <span class="race-date">📅 Apr 1-2</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          
+          <span class="rider-initials">MP</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2082,6 +2416,7 @@
         <span class="race-date">📅 Apr 3-4</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2102,6 +2437,7 @@
         <span class="race-date">📅 Apr 4-5</span>
         <span class="race-location">📍 Netherlands</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2121,6 +2457,23 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 5-6</span>
         <span class="race-location">📍 Belgium</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
+          
+          <span class="rider-initials">PJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2142,6 +2495,7 @@
         <span class="race-date">📅 Apr 6-7</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2161,6 +2515,23 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 6-12</span>
         <span class="race-location">📍 Spain</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2182,6 +2553,7 @@
         <span class="race-date">📅 Apr 7-11</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2202,6 +2574,7 @@
         <span class="race-date">📅 Apr 8-9</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2222,6 +2595,7 @@
         <span class="race-date">📅 Apr 8-9</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2242,6 +2616,7 @@
         <span class="race-date">📅 Apr 10-11</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2262,6 +2637,7 @@
         <span class="race-date">📅 Apr 12-17</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2281,6 +2657,26 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 12-13</span>
         <span class="race-location">📍 France</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
+          
+          <span class="rider-initials">PJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2302,6 +2698,7 @@
         <span class="race-date">📅 Apr 14-19</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2322,6 +2719,7 @@
         <span class="race-date">📅 Apr 15-16</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2342,6 +2740,7 @@
         <span class="race-date">📅 Apr 17-18</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2362,6 +2761,7 @@
         <span class="race-date">📅 Apr 17-18</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2382,6 +2782,7 @@
         <span class="race-date">📅 Apr 18-19</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2401,6 +2802,23 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 19-20</span>
         <span class="race-location">📍 Netherlands</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          
+          <span class="rider-initials">CG</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2422,6 +2840,7 @@
         <span class="race-date">📅 Apr 19-20</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2442,6 +2861,7 @@
         <span class="race-date">📅 Apr 20-22</span>
         <span class="race-location">📍 Uzbekistan</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2462,6 +2882,7 @@
         <span class="race-date">📅 Apr 20-25</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2481,6 +2902,26 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 22-23</span>
         <span class="race-location">📍 Belgium</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          
+          <span class="rider-initials">CG</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2502,6 +2943,7 @@
         <span class="race-date">📅 Apr 23-27</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2522,6 +2964,7 @@
         <span class="race-date">📅 Apr 26-27</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2541,6 +2984,29 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 26-27</span>
         <span class="race-location">📍 Belgium</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          
+          <span class="rider-initials">CG</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2562,6 +3028,7 @@
         <span class="race-date">📅 Apr 26 - May 4</span>
         <span class="race-location">📍 Türkiye</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2581,6 +3048,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Apr 28 - May 4</span>
         <span class="race-location">📍 Switzerland</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2608,6 +3086,7 @@
         <span class="race-date">📅 May 1-2</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2628,6 +3107,7 @@
         <span class="race-date">📅 May 1-4</span>
         <span class="race-location">📍 Portugal</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2648,6 +3128,7 @@
         <span class="race-date">📅 May 1-2</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2668,6 +3149,7 @@
         <span class="race-date">📅 May 2-4</span>
         <span class="race-location">📍 Luxembourg</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2688,6 +3170,7 @@
         <span class="race-date">📅 May 3-4</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2708,6 +3191,7 @@
         <span class="race-date">📅 May 3-4</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2728,6 +3212,7 @@
         <span class="race-date">📅 May 6-11</span>
         <span class="race-location">📍 Greece</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2747,6 +3232,29 @@
       <div class="race-meta">
         <span class="race-date">📅 May 8 - Jun 1</span>
         <span class="race-location">📍 Italy</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          
+          <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          
+          <span class="rider-initials">CG</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          
+          <span class="rider-initials">SC</span>
+        </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          
+          <span class="rider-initials">MJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -2768,6 +3276,7 @@
         <span class="race-date">📅 May 8-9</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2788,6 +3297,7 @@
         <span class="race-date">📅 May 9-10</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2808,6 +3318,7 @@
         <span class="race-date">📅 May 10-15</span>
         <span class="race-location">📍 Azerbaijan</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2828,6 +3339,7 @@
         <span class="race-date">📅 May 10-11</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2848,6 +3360,7 @@
         <span class="race-date">📅 May 10-11</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2868,6 +3381,7 @@
         <span class="race-date">📅 May 13-18</span>
         <span class="race-location">📍 Luxembourg</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2888,6 +3402,7 @@
         <span class="race-date">📅 May 13-18</span>
         <span class="race-location">📍 Hungary</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2908,6 +3423,7 @@
         <span class="race-date">📅 May 14-15</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2928,6 +3444,7 @@
         <span class="race-date">📅 May 16-17</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2948,6 +3465,7 @@
         <span class="race-date">📅 May 17-18</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2968,6 +3486,7 @@
         <span class="race-date">📅 May 17-18</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2988,6 +3507,7 @@
         <span class="race-date">📅 May 19-20</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3008,6 +3528,7 @@
         <span class="race-date">📅 May 19-20</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3028,6 +3549,7 @@
         <span class="race-date">📅 May 20-25</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3048,6 +3570,7 @@
         <span class="race-date">📅 May 20-25</span>
         <span class="race-location">📍 Portugal</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3068,6 +3591,7 @@
         <span class="race-date">📅 May 22-24</span>
         <span class="race-location">📍 Netherlands</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3088,6 +3612,7 @@
         <span class="race-date">📅 May 24-25</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3108,6 +3633,7 @@
         <span class="race-date">📅 May 25-26</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3128,6 +3654,7 @@
         <span class="race-date">📅 May 25-26</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3148,6 +3675,7 @@
         <span class="race-date">📅 May 28 - Jun 1</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3168,6 +3696,7 @@
         <span class="race-date">📅 May 31 - Jun 1</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3194,6 +3723,7 @@
         <span class="race-date">📅 Jun 1-6</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3214,6 +3744,7 @@
         <span class="race-date">📅 Jun 3-4</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3234,6 +3765,7 @@
         <span class="race-date">📅 Jun 4-7</span>
         <span class="race-location">📍 Estonia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3254,6 +3786,7 @@
         <span class="race-date">📅 Jun 6-7</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3274,6 +3807,7 @@
         <span class="race-date">📅 Jun 7-8</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3294,6 +3828,7 @@
         <span class="race-date">📅 Jun 7-8</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3314,6 +3849,7 @@
         <span class="race-date">📅 Jun 7-8</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3333,6 +3869,26 @@
       <div class="race-meta">
         <span class="race-date">📅 Jun 7-15</span>
         <span class="race-location">📍 France</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -3354,6 +3910,7 @@
         <span class="race-date">📅 Jun 10-11</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3374,6 +3931,7 @@
         <span class="race-date">📅 Jun 12-15</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3394,6 +3952,7 @@
         <span class="race-date">📅 Jun 13-14</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3414,6 +3973,7 @@
         <span class="race-date">📅 Jun 14-15</span>
         <span class="race-location">📍 Denmark</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3434,6 +3994,7 @@
         <span class="race-date">📅 Jun 14-15</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3454,6 +4015,7 @@
         <span class="race-date">📅 Jun 14-15</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3474,6 +4036,7 @@
         <span class="race-date">📅 Jun 14-15</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3494,6 +4057,7 @@
         <span class="race-date">📅 Jun 17-22</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3513,6 +4077,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Jun 17-22</span>
         <span class="race-location">📍 Switzerland</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -3534,6 +4109,7 @@
         <span class="race-date">📅 Jun 17-22</span>
         <span class="race-location">📍 Slovenia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3554,6 +4130,7 @@
         <span class="race-date">📅 Jun 18-21</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3574,6 +4151,7 @@
         <span class="race-date">📅 Jun 21-22</span>
         <span class="race-location">📍 Andorra</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3600,6 +4178,7 @@
         <span class="race-date">📅 Jul 1-4</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3620,6 +4199,7 @@
         <span class="race-date">📅 Jul 4-8</span>
         <span class="race-location">📍 Romania</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3639,6 +4219,29 @@
       <div class="race-meta">
         <span class="race-date">📅 Jul 4-26</span>
         <span class="race-location">📍 France</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-1">1</span>
+          <span class="rider-initials">PT</span>
+        </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-2">2</span>
+          <span class="rider-initials">DT</span>
+        </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          
+          <span class="rider-initials">ER</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          <div class="rider-avatar more-riders">+3</div>
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -3660,6 +4263,7 @@
         <span class="race-date">📅 Jul 5-6</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3680,6 +4284,7 @@
         <span class="race-date">📅 Jul 5-13</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3700,6 +4305,7 @@
         <span class="race-date">📅 Jul 7-13</span>
         <span class="race-location">📍 Austria</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3720,6 +4326,7 @@
         <span class="race-date">📅 Jul 19-20</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3740,6 +4347,7 @@
         <span class="race-date">📅 Jul 25-26</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3760,6 +4368,7 @@
         <span class="race-date">📅 Jul 26-27</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3780,6 +4389,7 @@
         <span class="race-date">📅 Jul 28-31</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3800,6 +4410,7 @@
         <span class="race-date">📅 Jul 29 - Aug 3</span>
         <span class="race-location">📍 Denmark</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3826,6 +4437,7 @@
         <span class="race-date">📅 Aug 1-2</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3846,6 +4458,7 @@
         <span class="race-date">📅 Aug 2-7</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3866,6 +4479,7 @@
         <span class="race-date">📅 Aug 2-3</span>
         <span class="race-location">📍 Spain</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3886,6 +4500,7 @@
         <span class="race-date">📅 Aug 3-10</span>
         <span class="race-location">📍 Poland</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3905,6 +4520,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Aug 4-9</span>
         <span class="race-location">📍 Spain</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -3926,6 +4552,7 @@
         <span class="race-date">📅 Aug 5-17</span>
         <span class="race-location">📍 Portugal</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3946,6 +4573,7 @@
         <span class="race-date">📅 Aug 13-17</span>
         <span class="race-location">📍 Norway</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3966,6 +4594,7 @@
         <span class="race-date">📅 Aug 13-17</span>
         <span class="race-location">📍 Czechia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -3986,6 +4615,7 @@
         <span class="race-date">📅 Aug 15-16</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4006,6 +4636,7 @@
         <span class="race-date">📅 Aug 16-17</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4026,6 +4657,7 @@
         <span class="race-date">📅 Aug 16-17</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4046,6 +4678,7 @@
         <span class="race-date">📅 Aug 18-22</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4066,6 +4699,7 @@
         <span class="race-date">📅 Aug 19-24</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4086,6 +4720,7 @@
         <span class="race-date">📅 Aug 19-24</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4106,6 +4741,7 @@
         <span class="race-date">📅 Aug 20-21</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4126,6 +4762,7 @@
         <span class="race-date">📅 Aug 21-22</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4145,6 +4782,17 @@
       <div class="race-meta">
         <span class="race-date">📅 Aug 22 - Sep 14</span>
         <span class="race-location">📍 Spain</span>
+      </div>
+      
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AJ</span>
+        </div>
+          
+        </div>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
@@ -4166,6 +4814,7 @@
         <span class="race-date">📅 Aug 25-29</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4186,6 +4835,7 @@
         <span class="race-date">📅 Aug 26-27</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4206,6 +4856,7 @@
         <span class="race-date">📅 Aug 27-28</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4226,6 +4877,7 @@
         <span class="race-date">📅 Aug 30-31</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4246,6 +4898,7 @@
         <span class="race-date">📅 Aug 30-31</span>
         <span class="race-location">📍 Slovenia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4266,6 +4919,7 @@
         <span class="race-date">📅 Aug 30-31</span>
         <span class="race-location">📍 United States</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4286,6 +4940,7 @@
         <span class="race-date">📅 Aug 31 - Sep 5</span>
         <span class="race-location">📍 South Korea</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4312,6 +4967,7 @@
         <span class="race-date">📅 Sep 2-7</span>
         <span class="race-location">📍 United Kingdom</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4332,6 +4988,7 @@
         <span class="race-date">📅 Sep 2-7</span>
         <span class="race-location">📍 Netherlands</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4352,6 +5009,7 @@
         <span class="race-date">📅 Sep 5-8</span>
         <span class="race-location">📍 United States</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4372,6 +5030,7 @@
         <span class="race-date">📅 Sep 8-10</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4392,6 +5051,7 @@
         <span class="race-date">📅 Sep 9-10</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4412,6 +5072,7 @@
         <span class="race-date">📅 Sep 10-11</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4432,6 +5093,7 @@
         <span class="race-date">📅 Sep 11-12</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4452,6 +5114,7 @@
         <span class="race-date">📅 Sep 12-13</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4472,6 +5135,7 @@
         <span class="race-date">📅 Sep 12-13</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4492,6 +5156,7 @@
         <span class="race-date">📅 Sep 12-17</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4512,6 +5177,7 @@
         <span class="race-date">📅 Sep 13-14</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4532,6 +5198,7 @@
         <span class="race-date">📅 Sep 13-14</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4552,6 +5219,7 @@
         <span class="race-date">📅 Sep 13-14</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4572,6 +5240,7 @@
         <span class="race-date">📅 Sep 13-14</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4592,6 +5261,7 @@
         <span class="race-date">📅 Sep 15-19</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4612,6 +5282,7 @@
         <span class="race-date">📅 Sep 16-17</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4632,6 +5303,7 @@
         <span class="race-date">📅 Sep 16-17</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4652,6 +5324,7 @@
         <span class="race-date">📅 Sep 16-21</span>
         <span class="race-location">📍 Slovakia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4672,6 +5345,7 @@
         <span class="race-date">📅 Sep 17-18</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4692,6 +5366,7 @@
         <span class="race-date">📅 Sep 18-19</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4712,6 +5387,7 @@
         <span class="race-date">📅 Sep 18-21</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4732,6 +5408,7 @@
         <span class="race-date">📅 Sep 19-20</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4752,6 +5429,7 @@
         <span class="race-date">📅 Sep 19-20</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4772,6 +5450,7 @@
         <span class="race-date">📅 Sep 20-21</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4792,6 +5471,7 @@
         <span class="race-date">📅 Sep 20-21</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4812,6 +5492,7 @@
         <span class="race-date">📅 Sep 20-21</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4832,6 +5513,7 @@
         <span class="race-date">📅 Sep 22-23</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4852,6 +5534,7 @@
         <span class="race-date">📅 Sep 23-24</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4872,6 +5555,7 @@
         <span class="race-date">📅 Sep 27-28</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4892,6 +5576,7 @@
         <span class="race-date">📅 Sep 27 - Oct 5</span>
         <span class="race-location">📍 Malaysia</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4912,6 +5597,7 @@
         <span class="race-date">📅 Sep 27-28</span>
         <span class="race-location">📍 Canada</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4938,6 +5624,7 @@
         <span class="race-date">📅 Oct 3-4</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4958,6 +5645,7 @@
         <span class="race-date">📅 Oct 3-4</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4978,6 +5666,7 @@
         <span class="race-date">📅 Oct 3-4</span>
         <span class="race-location">📍 Germany</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -4998,6 +5687,7 @@
         <span class="race-date">📅 Oct 4-5</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5018,6 +5708,7 @@
         <span class="race-date">📅 Oct 4-5</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5038,6 +5729,7 @@
         <span class="race-date">📅 Oct 5-6</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5058,6 +5750,7 @@
         <span class="race-date">📅 Oct 6-7</span>
         <span class="race-location">📍 Belgium</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5078,6 +5771,7 @@
         <span class="race-date">📅 Oct 6-7</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5098,6 +5792,7 @@
         <span class="race-date">📅 Oct 8-9</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5118,6 +5813,7 @@
         <span class="race-date">📅 Oct 10-11</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5138,6 +5834,7 @@
         <span class="race-date">📅 Oct 10-13</span>
         <span class="race-location">📍 Japan</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5158,6 +5855,7 @@
         <span class="race-date">📅 Oct 11-12</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5178,6 +5876,7 @@
         <span class="race-date">📅 Oct 11-12</span>
         <span class="race-location">📍 Hong Kong</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5198,6 +5897,7 @@
         <span class="race-date">📅 Oct 11-12</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5218,6 +5918,7 @@
         <span class="race-date">📅 Oct 13-19</span>
         <span class="race-location">📍 China</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5238,6 +5939,7 @@
         <span class="race-date">📅 Oct 13-19</span>
         <span class="race-location">📍 Netherlands</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5258,6 +5960,7 @@
         <span class="race-date">📅 Oct 14-15</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5278,6 +5981,7 @@
         <span class="race-date">📅 Oct 18-19</span>
         <span class="race-location">📍 France</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5298,6 +6002,7 @@
         <span class="race-date">📅 Oct 18-19</span>
         <span class="race-location">📍 Japan</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5318,6 +6023,7 @@
         <span class="race-date">📅 Oct 18-19</span>
         <span class="race-location">📍 Italy</span>
       </div>
+      
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -5382,7 +6088,7 @@
       <div class="stage-header">
         <span class="stage-icon">⏱️</span>
         <span class="stage-type" style="color: #8b5cf6">ITT</span>
-        <span class="stage-date">Mon, Jan 19</span>
+        <span class="stage-date">Tue, Jan 20</span>
       </div>
       <h3 class="stage-title">Prologue: Adelaide → Adelaide (ITT)</h3>
       
@@ -5410,7 +6116,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
-        <span class="stage-date">Tue, Jan 20</span>
+        <span class="stage-date">Wed, Jan 21</span>
       </div>
       <h3 class="stage-title">Stage 1: Tanunda → Tanunda</h3>
       
@@ -5438,7 +6144,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN</span>
-        <span class="stage-date">Wed, Jan 21</span>
+        <span class="stage-date">Thu, Jan 22</span>
       </div>
       <h3 class="stage-title">Stage 2: Norwood → Uraidla</h3>
       
@@ -5466,7 +6172,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
-        <span class="stage-date">Thu, Jan 22</span>
+        <span class="stage-date">Fri, Jan 23</span>
       </div>
       <h3 class="stage-title">Stage 3: Henley Beach → Nairne</h3>
       
@@ -5494,7 +6200,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Fri, Jan 23</span>
+        <span class="stage-date">Sat, Jan 24</span>
       </div>
       <h3 class="stage-title">Stage 4: Brighton → Willunga Hill</h3>
       
@@ -5522,7 +6228,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY 🔄</span>
-        <span class="stage-date">Sat, Jan 24</span>
+        <span class="stage-date">Sun, Jan 25</span>
       </div>
       <h3 class="stage-title">Stage 5: Stirling → Stirling</h3>
       
@@ -5566,7 +6272,7 @@
       <div class="stage-header">
         <span class="stage-icon">👥</span>
         <span class="stage-type" style="color: #8b5cf6">TTT 🔄</span>
-        <span class="stage-date">Fri, Jul 3</span>
+        <span class="stage-date">Sat, Jul 4</span>
       </div>
       <h3 class="stage-title">Stage 1: Barcelona → Barcelona</h3>
       
@@ -5592,7 +6298,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY 🔝</span>
-        <span class="stage-date">Sat, Jul 4</span>
+        <span class="stage-date">Sun, Jul 5</span>
       </div>
       <h3 class="stage-title">Stage 2: Tarragona → Barcelona</h3>
       
@@ -5618,7 +6324,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Sun, Jul 5</span>
+        <span class="stage-date">Mon, Jul 6</span>
       </div>
       <h3 class="stage-title">Stage 3: Granollers → Les Angles</h3>
       
@@ -5644,7 +6350,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
-        <span class="stage-date">Mon, Jul 6</span>
+        <span class="stage-date">Tue, Jul 7</span>
       </div>
       <h3 class="stage-title">Stage 4: Carcassonne → Foix</h3>
       
@@ -5670,7 +6376,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Tue, Jul 7</span>
+        <span class="stage-date">Wed, Jul 8</span>
       </div>
       <h3 class="stage-title">Stage 5: Lannemezan → Pau</h3>
       
@@ -5696,7 +6402,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Wed, Jul 8</span>
+        <span class="stage-date">Thu, Jul 9</span>
       </div>
       <h3 class="stage-title">Stage 6: Pau → Gavarnie-Gèdre</h3>
       
@@ -5722,7 +6428,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Thu, Jul 9</span>
+        <span class="stage-date">Fri, Jul 10</span>
       </div>
       <h3 class="stage-title">Stage 7: Hagetmau → Bordeaux</h3>
       
@@ -5748,7 +6454,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Fri, Jul 10</span>
+        <span class="stage-date">Sat, Jul 11</span>
       </div>
       <h3 class="stage-title">Stage 8: Périgueux → Bergerac</h3>
       
@@ -5774,7 +6480,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
-        <span class="stage-date">Sat, Jul 11</span>
+        <span class="stage-date">Sun, Jul 12</span>
       </div>
       <h3 class="stage-title">Stage 9: Malemort → Ussel</h3>
       
@@ -5800,7 +6506,7 @@
       <div class="stage-header">
         <span class="stage-icon">😴</span>
         <span class="stage-type" style="color: #6b7280">REST-DAY</span>
-        <span class="stage-date">Sun, Jul 12</span>
+        <span class="stage-date">Mon, Jul 13</span>
       </div>
       <h3 class="stage-title">Rest Day 1: Cantal</h3>
       
@@ -5812,7 +6518,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Mon, Jul 13</span>
+        <span class="stage-date">Tue, Jul 14</span>
       </div>
       <h3 class="stage-title">Stage 10: Aurillac → Le Lioran</h3>
       
@@ -5838,7 +6544,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Tue, Jul 14</span>
+        <span class="stage-date">Wed, Jul 15</span>
       </div>
       <h3 class="stage-title">Stage 11: Vichy → Nevers</h3>
       
@@ -5864,7 +6570,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Wed, Jul 15</span>
+        <span class="stage-date">Thu, Jul 16</span>
       </div>
       <h3 class="stage-title">Stage 12: Magny-Cours → Chalon-sur-Saône</h3>
       
@@ -5890,7 +6596,7 @@
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
-        <span class="stage-date">Thu, Jul 16</span>
+        <span class="stage-date">Fri, Jul 17</span>
       </div>
       <h3 class="stage-title">Stage 13: Dole → Belfort</h3>
       
@@ -5916,7 +6622,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Fri, Jul 17</span>
+        <span class="stage-date">Sat, Jul 18</span>
       </div>
       <h3 class="stage-title">Stage 14: Mulhouse → Le Markstein</h3>
       
@@ -5942,7 +6648,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Sat, Jul 18</span>
+        <span class="stage-date">Sun, Jul 19</span>
       </div>
       <h3 class="stage-title">Stage 15: Champagnole → Plateau de Solaison</h3>
       
@@ -5968,7 +6674,7 @@
       <div class="stage-header">
         <span class="stage-icon">😴</span>
         <span class="stage-type" style="color: #6b7280">REST-DAY</span>
-        <span class="stage-date">Sun, Jul 19</span>
+        <span class="stage-date">Mon, Jul 20</span>
       </div>
       <h3 class="stage-title">Rest Day 2: Haute-Savoie</h3>
       
@@ -5980,7 +6686,7 @@
       <div class="stage-header">
         <span class="stage-icon">⏱️</span>
         <span class="stage-type" style="color: #8b5cf6">ITT</span>
-        <span class="stage-date">Mon, Jul 20</span>
+        <span class="stage-date">Tue, Jul 21</span>
       </div>
       <h3 class="stage-title">Stage 16: Évian-les-Bains → Thonon-les-Bains</h3>
       
@@ -6006,7 +6712,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
-        <span class="stage-date">Tue, Jul 21</span>
+        <span class="stage-date">Wed, Jul 22</span>
       </div>
       <h3 class="stage-title">Stage 17: Chambéry → Voiron</h3>
       
@@ -6032,7 +6738,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Wed, Jul 22</span>
+        <span class="stage-date">Thu, Jul 23</span>
       </div>
       <h3 class="stage-title">Stage 18: Voiron → Orcières-Merlette</h3>
       
@@ -6058,7 +6764,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Thu, Jul 23</span>
+        <span class="stage-date">Fri, Jul 24</span>
       </div>
       <h3 class="stage-title">Stage 19: Gap → Alpe d'Huez</h3>
       
@@ -6084,7 +6790,7 @@
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
-        <span class="stage-date">Fri, Jul 24</span>
+        <span class="stage-date">Sat, Jul 25</span>
       </div>
       <h3 class="stage-title">Stage 20: Le Bourg-d'Oisans → Alpe d'Huez</h3>
       
@@ -6110,7 +6816,7 @@
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT 🔄</span>
-        <span class="stage-date">Sat, Jul 25</span>
+        <span class="stage-date">Sun, Jul 26</span>
       </div>
       <h3 class="stage-title">Stage 21: Thoiry → Paris</h3>
       
