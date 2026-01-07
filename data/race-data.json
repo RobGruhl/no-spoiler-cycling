@@ -35,7 +35,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-01-20",
-      "endDate": "2026-01-26",
+      "endDate": "2026-01-25",
       "raceDay": "Tuesday",
       "location": "Australia",
       "category": "2.UWT",
@@ -44,9 +44,241 @@
       "raceFormat": "stage-race",
       "terrain": [
         "flat",
-        "hilly"
+        "hilly",
+        "mountain"
       ],
-      "distance": 1200
+      "distance": 758.9,
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue: Adelaide → Adelaide (ITT)",
+          "stageType": "itt",
+          "terrain": ["itt", "flat"],
+          "distance": 3.6,
+          "date": "2026-01-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Short 3.6km individual time trial from the City of Adelaide Tour Village to Victoria Park. Flat run-out with a twisting conclusion - a sharp wake-up call for legs after the off-season.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "A 3.6km twilight time trial through Adelaide's heart - only the second prologue in TDU history. Starting from the City of Adelaide Tour Village in the CBD, riders face a straight, flat run-out before a twisting technical conclusion in Victoria Park. Race Director Stuart O'Grady calls it 'a violent effort and stark wake-up call for riders' legs after months away from competition.'",
+            "keyClimbs": [],
+            "watchNotes": "The prologue shakes up race dynamics from day one - riders 10-20 seconds behind will need to attack later in the week. TT specialists and GC contenders will be fighting for every second. Watch for the technical corners in Victoria Park where time can be gained or lost."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Tanunda → Tanunda",
+          "stageType": "hilly",
+          "terrain": ["hilly", "sprint"],
+          "distance": 120.6,
+          "date": "2026-01-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Circuit through Barossa wine country with three ascents of Menglers Hill. Flat finish after a fast descent suits the sprinters, but breakaways could survive.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The first road stage circles through the stunning Barossa wine country, starting and finishing in Tanunda. Three ascents of Menglers Hill provide the climbing challenge, but this year's direction makes the climb gentler than previous editions. A wickedly fast descent leads to a flat run-in of 13km to the finish.",
+            "keyClimbs": [
+              {
+                "name": "Menglers Hill",
+                "category": "4",
+                "length": 2.5,
+                "avgGradient": "5%",
+                "maxGradient": "8%",
+                "kmFromFinish": 13,
+                "notes": "Climbed 3 times - gentler direction than 2025"
+              }
+            ],
+            "watchNotes": "Sprinters' teams will control the peloton on the flat finish, but breakaways have a chance if they survive the Menglers Hill circuits. Watch for white-knuckle moments on the fast descent before the final 13km. Last year Sam Welsford won the sprint here despite a late crash."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Norwood → Uraidla",
+          "stageType": "mountain",
+          "terrain": ["mountain", "climb"],
+          "distance": 148.1,
+          "date": "2026-01-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "The feared Corkscrew Road (9.7% avg) features twice - midway and 14km from the finish. Also includes Norton Summit and Mount Lofty climbs. A true GC shaker.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The queen stage of the Adelaide Hills - a true GC shaker with two ascents of the feared Corkscrew Road. Starting in Norwood, riders tempo through Norton Summit and tackle Mount Lofty before the first Corkscrew assault at mid-stage. The second Corkscrew comes with 14km to go, followed by an undulating approach to Uraidla. A downhill run-in offers one last chance for the peloton to catch escapees.",
+            "keyClimbs": [
+              {
+                "name": "Norton Summit",
+                "category": "3",
+                "length": 4.2,
+                "avgGradient": "5.5%",
+                "maxGradient": "9%",
+                "kmFromFinish": 95
+              },
+              {
+                "name": "Mount Lofty",
+                "category": "2",
+                "length": 3.8,
+                "avgGradient": "6.5%",
+                "maxGradient": "10%",
+                "kmFromFinish": 80
+              },
+              {
+                "name": "Corkscrew Road (1st)",
+                "category": "2",
+                "length": 2.1,
+                "avgGradient": "9.7%",
+                "maxGradient": "14%",
+                "kmFromFinish": 60,
+                "notes": "First of two ascents"
+              },
+              {
+                "name": "Corkscrew Road (2nd)",
+                "category": "2",
+                "length": 2.1,
+                "avgGradient": "9.7%",
+                "maxGradient": "14%",
+                "kmFromFinish": 14,
+                "notes": "Final climb - decisive moment"
+              }
+            ],
+            "watchNotes": "The Corkscrew's 9.7% average gradient is brutal - expect attacks on both ascents. The undulating 14km after the final Corkscrew will test any solo riders' wills. GC contenders will show their cards here. This is where the race for the ochre jersey truly begins."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Henley Beach → Nairne",
+          "stageType": "hilly",
+          "terrain": ["hilly", "climb"],
+          "distance": 140.8,
+          "date": "2026-01-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Starting at the beach but no holiday - Wickham Hill (3km at 7%, max 11%) comes early. Mount Barker climb at 115km is short but tough, possibly not enough to drop sprinters.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Starting at idyllic seaside suburb Henley Beach (hosting a stage start for the first time), this is no holiday - punchy climbs await. Wickham Hill comes early at 32km, followed by Chandlers Hill. Mount Barker Summit with less than 5km to the finish provides the final test. First-ever stage finish in the Mount Barker Council town of Nairne.",
+            "keyClimbs": [
+              {
+                "name": "Wickham Hill",
+                "category": "3",
+                "length": 3.0,
+                "avgGradient": "7%",
+                "maxGradient": "11%",
+                "kmFromFinish": 108,
+                "summit": 207,
+                "notes": "207m elevation gain - too early for GC attacks"
+              },
+              {
+                "name": "Chandlers Hill",
+                "category": "3",
+                "length": 2.5,
+                "avgGradient": "6%",
+                "maxGradient": "9%",
+                "kmFromFinish": 85
+              },
+              {
+                "name": "Mount Barker Summit",
+                "category": "4",
+                "length": 1.8,
+                "avgGradient": "5%",
+                "maxGradient": "8%",
+                "kmFromFinish": 5,
+                "notes": "Short but tough - may not drop sprinters"
+              }
+            ],
+            "watchNotes": "This is the Adelaide Epic Ride route for public participants. Wickham Hill's 11% max gradient is punishing early on. The Mount Barker climb is short but could still cause damage on tired legs. Sprinters may survive if their teams control the pace - watch for a potential bunch sprint in Nairne."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Brighton → Willunga Hill",
+          "stageType": "mountain",
+          "terrain": ["mountain", "summit-finish", "climb"],
+          "distance": 176.0,
+          "date": "2026-01-24",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage with 2,500m+ climbing. Three ascents of iconic Willunga Hill including two in the final 26km. The longest and hardest day - a climber's paradise.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The longest and hardest day - the iconic queen stage with over 2,500m of climbing. Starting in Brighton, Chandlers Hill comes in the first 15km. Then three ascents of the legendary Willunga Hill: first topping out after 50km, then two more in the final 26km via McLaren Flat and McLaren Vale. A climber's paradise with a summit finish on Australia's most famous cycling climb.",
+            "keyClimbs": [
+              {
+                "name": "Chandlers Hill",
+                "category": "3",
+                "length": 2.8,
+                "avgGradient": "6%",
+                "maxGradient": "10%",
+                "kmFromFinish": 161,
+                "notes": "Early warm-up for legs"
+              },
+              {
+                "name": "Willunga Hill (1st)",
+                "category": "2",
+                "length": 3.0,
+                "avgGradient": "7.5%",
+                "maxGradient": "12%",
+                "kmFromFinish": 126,
+                "notes": "First ascent after 50km"
+              },
+              {
+                "name": "Willunga Hill (2nd)",
+                "category": "2",
+                "length": 3.0,
+                "avgGradient": "7.5%",
+                "maxGradient": "12%",
+                "kmFromFinish": 26,
+                "notes": "Second ascent - attacks begin"
+              },
+              {
+                "name": "Willunga Hill (Final)",
+                "category": "2",
+                "length": 3.0,
+                "avgGradient": "7.5%",
+                "maxGradient": "12%",
+                "kmFromFinish": 0,
+                "notes": "Summit finish - decisive for GC"
+              }
+            ],
+            "watchNotes": "Willunga Hill is TDU's most iconic climb - expect huge crowds lining the road. The triple ascent in 2026 is a new twist on the classic. GC contenders must attack here or lose the race. Race Director O'Grady: 'It's certainly going to be a day for the climbers and the winner will really have to earn it.'"
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Stirling → Stirling",
+          "stageType": "hilly",
+          "terrain": ["hilly", "circuit", "climb"],
+          "distance": 169.8,
+          "date": "2026-01-25",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Eight laps of a punchy 21km circuit with saw-blade profile. Four classified climbs plus Mount Barker Road finish (2km, 4% avg but 11% max). World championship-style finale where anything can happen.",
+          "stageDetails": {
+            "lastFetched": "2026-01-07T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "A revolutionary finale for the Tour Down Under - the final day moves from a sprint-friendly city stage to an aggressive world championship-style circuit. Eight laps of a punchy 21km circuit around Stirling with a saw-blade profile. Four classified climbs per lap before the finishing ascent on Mount Barker Road. Race Director O'Grady calls it 'the best final stage we've ever had.'",
+            "keyClimbs": [
+              {
+                "name": "Mount Barker Road (per lap)",
+                "category": "4",
+                "length": 2.0,
+                "avgGradient": "4%",
+                "maxGradient": "11%",
+                "kmFromFinish": 0,
+                "summit": 78,
+                "notes": "78m elevation gain - deceptive average hides 11% pitches"
+              }
+            ],
+            "watchNotes": "This is a whole new ball game for TDU. O'Grady: 'Even if you're within a minute of the lead, if the racing is hard and smart enough, you have the potential to destroy the ochre jersey.' Eight laps means repeated attacks and no hiding. Watch for aggressive racing on the punchy climbs and the decisive 11% gradients of Mount Barker Road. Stirling offers a perfect viewing platform with great food, drink options and shade."
+          }
+        }
+      ]
     },
     {
       "id": "classica-camp-de-morvedre-2026",

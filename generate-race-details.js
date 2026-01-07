@@ -777,6 +777,35 @@ const args = process.argv.slice(2);
 if (args.includes('--all')) {
   // Generate all race details pages
   generateAllRaceDetailsPages();
+} else if (args.includes('--stages') && args.length >= 2) {
+  // Generate all stage pages for a race
+  const raceId = args[args.indexOf('--stages') + 1];
+  const data = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8'));
+  const race = data.races.find(r => r.id === raceId);
+
+  if (!race) {
+    console.error(`❌ Race not found: ${raceId}`);
+    process.exit(1);
+  }
+
+  if (!race.stages || race.stages.length === 0) {
+    console.error(`❌ Race ${raceId} has no stages`);
+    process.exit(1);
+  }
+
+  console.log(`\n📋 Generating stage pages for: ${race.name}\n`);
+
+  let generated = 0;
+  race.stages.forEach(stage => {
+    if (stage.stageDetails && Object.keys(stage.stageDetails).length > 0) {
+      generateStageDetailsPage(race, stage.stageNumber);
+      generated++;
+    } else {
+      console.log(`⏭️  Skipping stage ${stage.stageNumber} (no stageDetails)`);
+    }
+  });
+
+  console.log(`\n📊 Generated ${generated} stage detail pages for ${race.name}`);
 } else if (args.includes('--race') && args.length >= 2) {
   // Generate single race details page
   const raceId = args[args.indexOf('--race') + 1];
@@ -794,11 +823,13 @@ if (args.includes('--all')) {
 Race Details Page Generator
 
 Usage:
-  node generate-race-details.js --all           Generate pages for all races with details
-  node generate-race-details.js --race <id>     Generate page for specific race
-  node generate-race-details.js --help          Show this help
+  node generate-race-details.js --all             Generate pages for all races with details
+  node generate-race-details.js --race <id>       Generate page for specific race
+  node generate-race-details.js --stages <id>     Generate all stage pages for a multi-stage race
+  node generate-race-details.js --help            Show this help
 
 Output: ./race-details/<race-id>.html
+        ./race-details/<race-id>-stage-<num>.html
 `);
 } else {
   console.log('No arguments provided. Use --help for usage information.');
