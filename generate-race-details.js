@@ -1052,7 +1052,8 @@ function generateStageDetailsPage(race, stageNumber, outputDir = './race-details
     location: race.location,
     distance: stage.distance,
     category: race.category,
-    raceDetails: stage.stageDetails || {}
+    raceDetails: stage.stageDetails || {},
+    broadcast: race.broadcast  // Inherit broadcast info from parent race
   };
 
   return generateRaceDetailsPage(stageAsRace, outputDir);
