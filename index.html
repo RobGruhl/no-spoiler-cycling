@@ -338,6 +338,33 @@
       font-size: 0.8rem;
     }
 
+    .status-details {
+      color: #3b82f6;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .stage-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .stage-card.has-details {
+      cursor: pointer;
+      border-left-width: 4px;
+    }
+
+    .stage-card.has-details:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+      border-left-color: #3b82f6 !important;
+    }
+
+    .stage-card.has-details:hover .status-details {
+      text-decoration: underline;
+    }
+
     /* Legend */
     .legend {
       background: rgba(255,255,255,0.98);
@@ -653,7 +680,7 @@
               <button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="mountain">
         <span class="chip-icon">⛰️</span>
         <span>Mountain</span>
-        <span class="chip-count">27</span>
+        <span class="chip-count">28</span>
       </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="hilly">
         <span class="chip-icon">〰️</span>
         <span>Hilly</span>
@@ -757,23 +784,23 @@
         
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-down-under-2026">
+    <div class="race-card tbd has-stages" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-down-under-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
-        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour Down Under</h3>
       <div class="race-meta">
-        <span class="race-date">📅 Jan 20-26</span>
+        <span class="race-date">📅 Jan 20-25</span>
         <span class="race-location">📍 Australia</span>
       </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
         </span>
+        <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
-        <span class="status-tbd">Awaiting Coverage</span>
         
       </div>
     </div>
@@ -5325,6 +5352,191 @@
 
     <!-- Stage Detail Views -->
     
+    <section class="stage-detail-view" id="stage-view-tour-down-under-2026" style="display: none;">
+      <div class="stage-view-header">
+        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-info">
+          <h1 class="stage-view-title">Tour Down Under</h1>
+          <div class="stage-view-meta">
+            5 stages • 0 rest days • 758.9 km total
+          </div>
+          <div class="stage-view-types">
+            1 itt • 3 hilly • 2 mountain
+          </div>
+        </div>
+      </div>
+      <div class="stage-grid">
+        
+    <a href="race-details/tour-down-under-2026-stage-0.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #8b5cf6">
+        
+      <div class="stage-header">
+        <span class="stage-icon">⏱️</span>
+        <span class="stage-type" style="color: #8b5cf6">ITT</span>
+        <span class="stage-date">Mon, Jan 19</span>
+      </div>
+      <h3 class="stage-title">Prologue: Adelaide → Adelaide (ITT)</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 2.0454545454545454%; background-color: #8b5cf6"></div>
+        </div>
+        <span class="distance-value">3.6 km</span>
+      </div>
+      
+      <p class="stage-description">Short 3.6km individual time trial from the City of Adelaide Tour Village to Victoria Park. Flat run-out with a twisting conclusion - a sharp wake-up call for legs after the off-season.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+    <a href="race-details/tour-down-under-2026-stage-1.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #f59e0b">
+        
+      <div class="stage-header">
+        <span class="stage-icon">〰️</span>
+        <span class="stage-type" style="color: #f59e0b">HILLY</span>
+        <span class="stage-date">Tue, Jan 20</span>
+      </div>
+      <h3 class="stage-title">Stage 1: Tanunda → Tanunda</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 68.52272727272727%; background-color: #f59e0b"></div>
+        </div>
+        <span class="distance-value">120.6 km</span>
+      </div>
+      
+      <p class="stage-description">Circuit through Barossa wine country with three ascents of Menglers Hill. Flat finish after a fast descent suits the sprinters, but breakaways could survive.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+    <a href="race-details/tour-down-under-2026-stage-2.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #ef4444">
+        
+      <div class="stage-header">
+        <span class="stage-icon">⛰️</span>
+        <span class="stage-type" style="color: #ef4444">MOUNTAIN</span>
+        <span class="stage-date">Wed, Jan 21</span>
+      </div>
+      <h3 class="stage-title">Stage 2: Norwood → Uraidla</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 84.14772727272727%; background-color: #ef4444"></div>
+        </div>
+        <span class="distance-value">148.1 km</span>
+      </div>
+      
+      <p class="stage-description">The feared Corkscrew Road (9.7% avg) features twice - midway and 14km from the finish. Also includes Norton Summit and Mount Lofty climbs. A true GC shaker.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+    <a href="race-details/tour-down-under-2026-stage-3.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #f59e0b">
+        
+      <div class="stage-header">
+        <span class="stage-icon">〰️</span>
+        <span class="stage-type" style="color: #f59e0b">HILLY</span>
+        <span class="stage-date">Thu, Jan 22</span>
+      </div>
+      <h3 class="stage-title">Stage 3: Henley Beach → Nairne</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 80%; background-color: #f59e0b"></div>
+        </div>
+        <span class="distance-value">140.8 km</span>
+      </div>
+      
+      <p class="stage-description">Starting at the beach but no holiday - Wickham Hill (3km at 7%, max 11%) comes early. Mount Barker climb at 115km is short but tough, possibly not enough to drop sprinters.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+    <a href="race-details/tour-down-under-2026-stage-4.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #ef4444">
+        
+      <div class="stage-header">
+        <span class="stage-icon">⛰️</span>
+        <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
+        <span class="stage-date">Fri, Jan 23</span>
+      </div>
+      <h3 class="stage-title">Stage 4: Brighton → Willunga Hill</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 100%; background-color: #ef4444"></div>
+        </div>
+        <span class="distance-value">176 km</span>
+      </div>
+      
+      <p class="stage-description">Queen stage with 2,500m+ climbing. Three ascents of iconic Willunga Hill including two in the final 26km. The longest and hardest day - a climber's paradise.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+    <a href="race-details/tour-down-under-2026-stage-5.html" class="stage-card-link">
+      <div class="stage-card has-details tbd" style="border-left-color: #f59e0b">
+        
+      <div class="stage-header">
+        <span class="stage-icon">〰️</span>
+        <span class="stage-type" style="color: #f59e0b">HILLY 🔄</span>
+        <span class="stage-date">Sat, Jan 24</span>
+      </div>
+      <h3 class="stage-title">Stage 5: Stirling → Stirling</h3>
+      
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: 96.47727272727273%; background-color: #f59e0b"></div>
+        </div>
+        <span class="distance-value">169.8 km</span>
+      </div>
+      
+      <p class="stage-description">Eight laps of a punchy 21km circuit with saw-blade profile. Four classified climbs plus Mount Barker Road finish (2km, 4% avg but 11% max). World championship-style finale where anything can happen.</p>
+      
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: #6b7280">
+          TBD
+        </span>
+        <span class="status-details">View Details →</span>
+      </div>
+      
+      </div>
+    </a>
+      </div>
+    </section>
     <section class="stage-detail-view" id="stage-view-tour-de-france-2026" style="display: none;">
       <div class="stage-view-header">
         <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
@@ -5341,6 +5553,7 @@
       <div class="stage-grid">
         
     <div class="stage-card  tbd" style="border-left-color: #8b5cf6">
+      
       <div class="stage-header">
         <span class="stage-icon">👥</span>
         <span class="stage-type" style="color: #8b5cf6">TTT 🔄</span>
@@ -5366,6 +5579,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #f59e0b">
+      
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY 🔝</span>
@@ -5391,6 +5605,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5416,6 +5631,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #f59e0b">
+      
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
@@ -5441,6 +5657,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5466,6 +5683,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5491,6 +5709,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5516,6 +5735,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5541,6 +5761,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #f59e0b">
+      
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
@@ -5566,6 +5787,7 @@
       
     </div>
     <div class="stage-card rest-day " style="border-left-color: #6b7280">
+      
       <div class="stage-header">
         <span class="stage-icon">😴</span>
         <span class="stage-type" style="color: #6b7280">REST-DAY</span>
@@ -5577,6 +5799,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5602,6 +5825,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5627,6 +5851,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5652,6 +5877,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #f59e0b">
+      
       <div class="stage-header">
         <span class="stage-icon">〰️</span>
         <span class="stage-type" style="color: #f59e0b">HILLY</span>
@@ -5677,6 +5903,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5702,6 +5929,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5727,6 +5955,7 @@
       
     </div>
     <div class="stage-card rest-day " style="border-left-color: #6b7280">
+      
       <div class="stage-header">
         <span class="stage-icon">😴</span>
         <span class="stage-type" style="color: #6b7280">REST-DAY</span>
@@ -5738,6 +5967,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #8b5cf6">
+      
       <div class="stage-header">
         <span class="stage-icon">⏱️</span>
         <span class="stage-type" style="color: #8b5cf6">ITT</span>
@@ -5763,6 +5993,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT</span>
@@ -5788,6 +6019,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5813,6 +6045,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5838,6 +6071,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #ef4444">
+      
       <div class="stage-header">
         <span class="stage-icon">⛰️</span>
         <span class="stage-type" style="color: #ef4444">MOUNTAIN 🔝</span>
@@ -5863,6 +6097,7 @@
       
     </div>
     <div class="stage-card  tbd" style="border-left-color: #3b82f6">
+      
       <div class="stage-header">
         <span class="stage-icon">➡️</span>
         <span class="stage-type" style="color: #3b82f6">FLAT 🔄</span>

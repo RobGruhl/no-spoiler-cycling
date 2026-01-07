@@ -162,7 +162,7 @@ function generateHTML(raceData) {
   };
 
   // Generate stage card for stage detail view
-  const generateStageCard = (stage, maxDistance) => {
+  const generateStageCard = (stage, maxDistance, raceId) => {
     const stageTypeIcons = {
       'flat': '➡️',
       'hilly': '〰️',
@@ -187,6 +187,8 @@ function generateHTML(raceData) {
     const color = stageTypeColors[stage.stageType] || '#6b7280';
     const isRestDay = stage.stageType === 'rest-day';
     const isTBD = stage.url === 'TBD' || stage.platform === 'TBD';
+    const hasDetails = stage.stageDetails && Object.keys(stage.stageDetails).length > 0;
+    const detailsUrl = hasDetails ? `race-details/${raceId}-stage-${stage.stageNumber}.html` : null;
 
     // Distance bar (normalized to max distance)
     const distancePercent = maxDistance > 0 ? (stage.distance / maxDistance) * 100 : 0;
@@ -203,8 +205,7 @@ function generateHTML(raceData) {
       return icons[t] || '';
     }).filter(Boolean).join('');
 
-    return `
-    <div class="stage-card ${isRestDay ? 'rest-day' : ''} ${isTBD && !isRestDay ? 'tbd' : ''}" style="border-left-color: ${color}">
+    const cardContent = `
       <div class="stage-header">
         <span class="stage-icon">${icon}</span>
         <span class="stage-type" style="color: ${color}">${stage.stageType.toUpperCase()}${terrainIcons ? ' ' + terrainIcons : ''}</span>
@@ -225,9 +226,24 @@ function generateHTML(raceData) {
         <span class="platform-badge" style="background-color: ${stage.platform === 'TBD' ? '#6b7280' : '#FF0000'}">
           ${stage.platform || 'TBD'}
         </span>
-        ${isTBD ? '<span class="status-tbd">Awaiting Coverage</span>' : '<span class="status-ready">Watch Now →</span>'}
+        ${hasDetails ? '<span class="status-details">View Details →</span>' :
+          (isTBD ? '<span class="status-tbd">Awaiting Coverage</span>' : '<span class="status-ready">Watch Now →</span>')}
       </div>
-      ` : ''}
+      ` : ''}`;
+
+    // Wrap in link if details page exists
+    if (hasDetails && !isRestDay) {
+      return `
+    <a href="${detailsUrl}" class="stage-card-link">
+      <div class="stage-card has-details ${isTBD ? 'tbd' : ''}" style="border-left-color: ${color}">
+        ${cardContent}
+      </div>
+    </a>`;
+    }
+
+    return `
+    <div class="stage-card ${isRestDay ? 'rest-day' : ''} ${isTBD && !isRestDay ? 'tbd' : ''}" style="border-left-color: ${color}">
+      ${cardContent}
     </div>`;
   };
 
@@ -266,7 +282,7 @@ function generateHTML(raceData) {
         </div>
       </div>
       <div class="stage-grid">
-        ${race.stages.map(stage => generateStageCard(stage, maxDistance)).join('')}
+        ${race.stages.map(stage => generateStageCard(stage, maxDistance, race.id)).join('')}
       </div>
     </section>`;
   };
@@ -702,6 +718,33 @@ function generateHTML(raceData) {
       color: #10b981;
       font-weight: 600;
       font-size: 0.8rem;
+    }
+
+    .status-details {
+      color: #3b82f6;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .stage-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .stage-card.has-details {
+      cursor: pointer;
+      border-left-width: 4px;
+    }
+
+    .stage-card.has-details:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+      border-left-color: #3b82f6 !important;
+    }
+
+    .stage-card.has-details:hover .status-details {
+      text-decoration: underline;
     }
 
     /* Legend */
