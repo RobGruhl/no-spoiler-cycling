@@ -3,6 +3,35 @@
 // Generate modern, clean HTML page from race data with star filtering
 import fs from 'fs';
 
+// ============================================
+// ICON MAPPINGS
+// ============================================
+
+const formatIcons = {
+  'one-day': '🏁',
+  'stage-race': '📅',
+  'itt': '⏱️',
+  'ttt': '👥'
+};
+
+const terrainIcons = {
+  'flat': '➡️',
+  'hilly': '〰️',
+  'mountain': '⛰️',
+  'cobbles': '🪨',
+  'gravel': '🟤',
+  'summit-finish': '🔝',
+  'crosswind-risk': '💨',
+  'circuit': '🔄',
+  'itt': '⏱️'
+};
+
+const prestigeIcons = {
+  'grand-tour': '🏆',
+  'monument': '🗿',
+  'world-championship': '🌍'
+};
+
 function loadRaceData() {
   const data = fs.readFileSync('./data/race-data.json', 'utf8');
   return JSON.parse(data);
@@ -87,10 +116,25 @@ function generateHTML(raceData) {
     // Determine if this is a TBD/future event
     const isTBD = race.url === 'TBD' || race.platform === 'TBD';
 
+    // Generate icons
+    const formatIcon = formatIcons[race.raceFormat] || '🏁';
+    const terrainIconList = (race.terrain || []).map(t => terrainIcons[t] || '').filter(Boolean);
+    const prestigeIconList = (race.prestige || []).map(p => prestigeIcons[p] || '').filter(Boolean);
+    const allIcons = [...prestigeIconList, ...terrainIconList].join('');
+
+    // Data attributes for filtering
+    const dataAttrs = [
+      `data-rating="${rating}"`,
+      `data-format="${race.raceFormat || 'one-day'}"`,
+      `data-terrain="${(race.terrain || []).join(',')}"`,
+      `data-prestige="${(race.prestige || []).join(',')}"`
+    ].join(' ');
+
     return `
-    <div class="race-card ${isTBD ? 'tbd' : ''}" data-rating="${rating}">
+    <div class="race-card ${isTBD ? 'tbd' : ''}" ${dataAttrs}>
       <div class="race-header">
         <div class="rating-stars" title="${rating} star${rating !== 1 ? 's' : ''}">${generateStars(rating)}</div>
+        <span class="race-icons" title="${race.raceFormat}${race.terrain ? ', ' + race.terrain.join(', ') : ''}">${formatIcon}${allIcons}</span>
         <span class="category-badge" style="background-color: ${categoryColor}">${race.category}</span>
       </div>
       <h3 class="race-title">${race.name}</h3>
@@ -124,6 +168,78 @@ function generateHTML(raceData) {
   // Rating distribution for stats
   const ratingCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
   races.forEach(r => ratingCounts[r.rating || 1]++);
+
+  // Count races by format, terrain, and prestige for filter chips
+  const formatCounts = {};
+  const terrainCounts = {};
+  const prestigeCounts = {};
+
+  races.forEach(r => {
+    // Format counts
+    const format = r.raceFormat || 'one-day';
+    formatCounts[format] = (formatCounts[format] || 0) + 1;
+
+    // Terrain counts
+    (r.terrain || []).forEach(t => {
+      terrainCounts[t] = (terrainCounts[t] || 0) + 1;
+    });
+
+    // Prestige counts
+    (r.prestige || []).forEach(p => {
+      prestigeCounts[p] = (prestigeCounts[p] || 0) + 1;
+    });
+  });
+
+  // Generate filter chips HTML
+  const generateFormatChips = () => {
+    const formats = [
+      { key: 'one-day', label: 'One-Day' },
+      { key: 'stage-race', label: 'Stage Race' },
+      { key: 'itt', label: 'ITT' },
+      { key: 'ttt', label: 'TTT' }
+    ];
+    return formats
+      .filter(f => formatCounts[f.key])
+      .map(f => `<button class="icon-filter-chip" data-filter-type="format" data-filter-value="${f.key}">
+        <span class="chip-icon">${formatIcons[f.key]}</span>
+        <span>${f.label}</span>
+        <span class="chip-count">${formatCounts[f.key]}</span>
+      </button>`).join('');
+  };
+
+  const generateTerrainChips = () => {
+    const terrains = [
+      { key: 'mountain', label: 'Mountain' },
+      { key: 'hilly', label: 'Hilly' },
+      { key: 'flat', label: 'Flat' },
+      { key: 'cobbles', label: 'Cobbles' },
+      { key: 'gravel', label: 'Gravel' },
+      { key: 'itt', label: 'Time Trial' },
+      { key: 'circuit', label: 'Circuit' }
+    ];
+    return terrains
+      .filter(t => terrainCounts[t.key])
+      .map(t => `<button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="${t.key}">
+        <span class="chip-icon">${terrainIcons[t.key]}</span>
+        <span>${t.label}</span>
+        <span class="chip-count">${terrainCounts[t.key]}</span>
+      </button>`).join('');
+  };
+
+  const generatePrestigeChips = () => {
+    const prestiges = [
+      { key: 'grand-tour', label: 'Grand Tours' },
+      { key: 'monument', label: 'Monuments' },
+      { key: 'world-championship', label: 'Worlds' }
+    ];
+    return prestiges
+      .filter(p => prestigeCounts[p.key])
+      .map(p => `<button class="icon-filter-chip" data-filter-type="prestige" data-filter-value="${p.key}">
+        <span class="chip-icon">${prestigeIcons[p.key]}</span>
+        <span>${p.label}</span>
+        <span class="chip-count">${prestigeCounts[p.key]}</span>
+      </button>`).join('');
+  };
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -356,6 +472,68 @@ function generateHTML(raceData) {
       text-transform: uppercase;
     }
 
+    .race-icons {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+
+    /* Icon Filters */
+    .icon-filter-section {
+      margin-bottom: 16px;
+    }
+
+    .icon-filter-group {
+      margin-bottom: 12px;
+    }
+
+    .icon-filter-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .icon-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .icon-filter-chip {
+      padding: 6px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      background: white;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .icon-filter-chip:hover {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+
+    .icon-filter-chip.active {
+      border-color: #3b82f6;
+      background: #dbeafe;
+    }
+
+    .icon-filter-chip .chip-icon {
+      font-size: 1rem;
+    }
+
+    .icon-filter-chip .chip-count {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      margin-left: 2px;
+    }
+
     .race-title {
       font-size: 1rem;
       font-weight: 600;
@@ -497,6 +675,28 @@ function generateHTML(raceData) {
       </div>
 
       <div class="filter-section">
+        <!-- Icon Filters -->
+        <div class="icon-filter-section">
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Format</span>
+            <div class="icon-filters">
+              ${generateFormatChips()}
+            </div>
+          </div>
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Terrain</span>
+            <div class="icon-filters">
+              ${generateTerrainChips()}
+            </div>
+          </div>
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Prestige</span>
+            <div class="icon-filters">
+              ${generatePrestigeChips()}
+            </div>
+          </div>
+        </div>
+
         <label class="filter-label">Filter by Interest Rating:</label>
         <div class="star-filters">
           <button class="star-filter-btn active" data-min="1" onclick="filterByStars(1)">
@@ -565,20 +765,133 @@ function generateHTML(raceData) {
   </div>
 
   <script>
+    // Active filters state
+    const activeFilters = {
+      minRating: 1,
+      format: new Set(),
+      terrain: new Set(),
+      prestige: new Set()
+    };
+
+    // Toggle chip filter
+    function toggleChipFilter(chip) {
+      const type = chip.dataset.filterType;
+      const value = chip.dataset.filterValue;
+
+      if (activeFilters[type].has(value)) {
+        activeFilters[type].delete(value);
+        chip.classList.remove('active');
+      } else {
+        activeFilters[type].add(value);
+        chip.classList.add('active');
+      }
+
+      applyFilters();
+    }
+
+    // Set star filter
     function filterByStars(minRating) {
-      let visibleCount = 0;
+      activeFilters.minRating = minRating;
 
       // Update button states
       document.querySelectorAll('.star-filter-btn').forEach(btn => {
         btn.classList.toggle('active', parseInt(btn.dataset.min) === minRating);
       });
 
-      // Filter cards
+      applyFilters();
+    }
+
+    // Check if a card matches a specific filter configuration
+    function cardMatchesFilterConfig(card, config) {
+      const rating = parseInt(card.dataset.rating);
+      const format = card.dataset.format;
+      const terrain = card.dataset.terrain.split(',').filter(Boolean);
+      const prestige = card.dataset.prestige.split(',').filter(Boolean);
+
+      // Check star rating
+      if (rating < config.minRating) return false;
+
+      // Check format filter (must match one of selected formats)
+      if (config.format.size > 0 && !config.format.has(format)) {
+        return false;
+      }
+
+      // Check terrain filter (OR logic - must have at least one selected terrain)
+      if (config.terrain.size > 0) {
+        if (!terrain.some(t => config.terrain.has(t))) return false;
+      }
+
+      // Check prestige filter (OR logic - must have at least one selected prestige)
+      if (config.prestige.size > 0) {
+        if (!prestige.some(p => config.prestige.has(p))) return false;
+      }
+
+      return true;
+    }
+
+    // Simple check against current active filters
+    function cardMatchesFilters(card) {
+      return cardMatchesFilterConfig(card, activeFilters);
+    }
+
+    // Update chip counts based on current filters
+    // Shows: "Of currently visible races, how many have this attribute?"
+    function updateChipCounts() {
+      // Get currently visible races
+      const visibleCards = Array.from(document.querySelectorAll('.race-card:not(.hidden)'));
+
+      // Update icon filter chips
+      document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+        const type = chip.dataset.filterType;
+        const value = chip.dataset.filterValue;
+        const isActive = chip.classList.contains('active');
+
+        // Count visible cards that have this attribute
+        const count = visibleCards.filter(card => {
+          if (type === 'format') {
+            return card.dataset.format === value;
+          } else if (type === 'terrain') {
+            return card.dataset.terrain.split(',').includes(value);
+          } else if (type === 'prestige') {
+            return card.dataset.prestige.split(',').includes(value);
+          }
+          return false;
+        }).length;
+
+        // Update the count display
+        const countEl = chip.querySelector('.chip-count');
+        if (countEl) countEl.textContent = count;
+
+        // Dim chips with 0 matches (only if not active)
+        chip.style.opacity = (!isActive && count === 0) ? '0.4' : '1';
+      });
+
+      // Update star filter counts
+      document.querySelectorAll('.star-filter-btn').forEach(btn => {
+        const minRating = parseInt(btn.dataset.min);
+
+        // Count visible cards at or above this rating
+        const count = visibleCards.filter(card =>
+          parseInt(card.dataset.rating) >= minRating
+        ).length;
+
+        // Update the count display
+        const countEl = btn.querySelector('.filter-count');
+        if (countEl) countEl.textContent = '(' + count + ')';
+      });
+    }
+
+    // Apply all filters
+    function applyFilters() {
+      let visibleCount = 0;
+
       document.querySelectorAll('.race-card').forEach(card => {
-        const rating = parseInt(card.dataset.rating);
-        const visible = rating >= minRating;
-        card.classList.toggle('hidden', !visible);
-        if (visible) visibleCount++;
+        if (cardMatchesFilters(card)) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
       });
 
       // Update month sections (hide if no visible cards)
@@ -593,7 +906,15 @@ function generateHTML(raceData) {
 
       // Update total count
       document.getElementById('visible-count').textContent = visibleCount;
+
+      // Update chip counts dynamically
+      updateChipCounts();
     }
+
+    // Initialize chip click handlers
+    document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+      chip.addEventListener('click', () => toggleChipFilter(chip));
+    });
   </script>
 </body>
 </html>`;

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T06:49:05.082Z",
+  "lastUpdated": "2026-01-07T07:47:31.376Z",
   "event": {
     "name": "UCI Men's Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -19,7 +19,13 @@
       "location": "El Salvador",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.075Z"
+      "discoveredAt": "2026-01-07T06:49:05.075Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-down-under-2026",
@@ -34,7 +40,13 @@
       "location": "Australia",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1200
     },
     {
       "id": "classica-camp-de-morvedre-2026",
@@ -49,7 +61,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-marratxi-felanitx-2026",
@@ -64,7 +81,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "clasica-comunitat-valenciana-2026",
@@ -79,7 +101,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-binissalem-andratx-2026",
@@ -94,7 +121,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-calvia-2026",
@@ -109,7 +141,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "surf-coast-classic-men-2026",
@@ -124,7 +161,12 @@
       "location": "Australia",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "trofeo-ses-salines-2026",
@@ -139,7 +181,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-serra-tramuntana-2026",
@@ -154,7 +201,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-andratx-pollenca-2026",
@@ -169,7 +221,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-la-marseillaise-2026",
@@ -184,7 +241,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "pionera-race-2026",
@@ -199,7 +261,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-palma-2026",
@@ -214,7 +281,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "cadel-evans-great-ocean-road-race-2026",
@@ -229,7 +301,12 @@
       "location": "Australia",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 220
     },
     {
       "id": "etoile-de-besseges-2026",
@@ -244,7 +321,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "volta-comunitat-valenciana-2026",
@@ -259,7 +342,13 @@
       "location": "Spain",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "muscat-classic-2026",
@@ -274,7 +363,12 @@
       "location": "Oman",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "tour-of-oman-2026",
@@ -289,7 +383,13 @@
       "location": "Oman",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
@@ -304,7 +404,12 @@
       "location": "Portugal",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-oro-in-euro-2026",
@@ -319,7 +424,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "vuelta-cv-feminas-2026",
@@ -334,7 +444,12 @@
       "location": "Spain",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "tour-de-la-provence-2026",
@@ -349,7 +464,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "vuelta-a-murcia-2026",
@@ -364,7 +485,13 @@
       "location": "Spain",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "figueira-champions-classic-2026",
@@ -379,7 +506,12 @@
       "location": "Portugal",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "clasica-de-almeria-2026",
@@ -394,7 +526,12 @@
       "location": "Spain",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "clasica-jaen-2026",
@@ -409,7 +546,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "uae-tour-2026",
@@ -424,7 +566,15 @@
       "location": "United Arab Emirates",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "volta-ao-algarve-2026",
@@ -439,7 +589,14 @@
       "location": "Portugal",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "itt"
+      ],
+      "distance": 1000
     },
     {
       "id": "vuelta-a-andalucia-ruta-del-sol-2026",
@@ -454,7 +611,13 @@
       "location": "Spain",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "classic-var-2026",
@@ -469,7 +632,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "classica-de-almeria-2026",
@@ -484,7 +652,12 @@
       "location": "Spain",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "gp-jean-pierre-monsere-2026",
@@ -499,7 +672,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 180
     },
     {
       "id": "midwest-cycling-classic-2026",
@@ -514,7 +692,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-des-alpes-maritimes-2026",
@@ -529,7 +712,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-du-rwanda-2026",
@@ -544,7 +732,13 @@
       "location": "Rwanda",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "giro-di-sardegna-2026",
@@ -559,7 +753,13 @@
       "location": "Italy",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "visit-south-aegean-gp-2026",
@@ -574,7 +774,12 @@
       "location": "Greece",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "faun-drome-classic-2026",
@@ -589,7 +794,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "kuurne-brussels-kuurne-2026",
@@ -604,7 +814,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 200
     },
     {
       "id": "omloop-van-het-hageland-2026",
@@ -619,7 +834,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -634,7 +854,12 @@
       "location": "Greece",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "le-samyn-2026",
@@ -649,7 +874,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-laigueglia-2026",
@@ -664,7 +894,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "strade-bianche-2026",
@@ -679,7 +914,12 @@
       "location": "Italy",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "distance": 184
     },
     {
       "id": "paris-nice-2026",
@@ -694,7 +934,15 @@
       "location": "France",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "tirreno-adriatico-2026",
@@ -709,7 +957,15 @@
       "location": "Italy",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -724,7 +980,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "tour-de-taiwan-2026",
@@ -739,7 +1000,13 @@
       "location": "Taiwan",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "milano-torino-2026",
@@ -754,7 +1021,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "noekere-koerse-2026",
@@ -769,7 +1041,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 200
     },
     {
       "id": "nokere-koerse-2026",
@@ -784,7 +1061,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 200
     },
     {
       "id": "gp-de-denain-2026",
@@ -799,7 +1081,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "koksijde-classic-2026",
@@ -814,7 +1101,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "milano-sanremo-2026",
@@ -829,7 +1121,15 @@
       "location": "Italy",
       "category": "1.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 293,
+      "prestige": [
+        "monument"
+      ]
     },
     {
       "id": "princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026",
@@ -844,7 +1144,13 @@
       "location": "Thailand",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "settimana-coppi-e-bartali-2026",
@@ -859,7 +1165,13 @@
       "location": "Italy",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "ronde-van-brugge-2026",
@@ -874,7 +1186,12 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 220
     },
     {
       "id": "e3-saxo-classic-2026",
@@ -889,7 +1206,12 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 204
     },
     {
       "id": "gent-wevelgem-2026",
@@ -904,7 +1226,12 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 260
     },
     {
       "id": "gp-emilia-2026",
@@ -919,7 +1246,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "la-roue-tourangelle-2026",
@@ -934,7 +1266,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "paris-camembert-2026",
@@ -949,7 +1286,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "dwars-door-vlaanderen-2026",
@@ -964,7 +1306,12 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 183
     },
     {
       "id": "la-route-adelie-de-vitre-2026",
@@ -979,7 +1326,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "nxt-classic-2026",
@@ -994,7 +1346,12 @@
       "location": "Netherlands",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "ronde-van-vlaanderen-2026",
@@ -1009,7 +1366,15 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 270,
+      "prestige": [
+        "monument"
+      ]
     },
     {
       "id": "cholet-agglo-tour-2026",
@@ -1024,7 +1389,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "itzulia-basque-country-2026",
@@ -1039,7 +1409,13 @@
       "location": "Spain",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1200
     },
     {
       "id": "region-pays-de-la-loire-tour-2026",
@@ -1054,7 +1430,13 @@
       "location": "France",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "region-pays-de-la-loire-tour-feminin-2026",
@@ -1069,7 +1451,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "scheldeprijs-2026",
@@ -1084,7 +1471,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 200
     },
     {
       "id": "giro-di-reggio-calabria-2026",
@@ -1099,7 +1491,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "giro-della-magna-grecia-2026",
@@ -1114,7 +1511,13 @@
       "location": "Italy",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "paris-roubaix-2026",
@@ -1129,7 +1532,15 @@
       "location": "France",
       "category": "1.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 257,
+      "prestige": [
+        "monument"
+      ]
     },
     {
       "id": "o-gran-camino-2026",
@@ -1144,7 +1555,13 @@
       "location": "Spain",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "ronde-van-limburg-2026",
@@ -1159,7 +1576,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "brabantse-pijl-2026",
@@ -1174,7 +1596,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "classic-grand-bescancon-doubs-2026",
@@ -1189,7 +1616,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-du-jura-2026",
@@ -1204,7 +1636,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "amstel-gold-race-2026",
@@ -1219,7 +1656,12 @@
       "location": "Netherlands",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 254
     },
     {
       "id": "gp-feminin-de-chambery-2026",
@@ -1234,7 +1676,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-samarkand-2026",
@@ -1249,7 +1696,13 @@
       "location": "Uzbekistan",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-of-the-alps-2026",
@@ -1264,7 +1717,13 @@
       "location": "Italy",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "mountain",
+        "itt"
+      ],
+      "distance": 1000
     },
     {
       "id": "la-fleche-wallonne-2026",
@@ -1279,7 +1738,12 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 202
     },
     {
       "id": "vuelta-asturias-2026",
@@ -1294,7 +1758,13 @@
       "location": "Spain",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "gp-della-liberazione-donne-2026",
@@ -1309,7 +1779,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "liege-bastogne-liege-2026",
@@ -1324,7 +1799,15 @@
       "location": "Belgium",
       "category": "1.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 258,
+      "prestige": [
+        "monument"
+      ]
     },
     {
       "id": "tour-of-turkiye-2026",
@@ -1339,7 +1822,14 @@
       "location": "Türkiye",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1000
     },
     {
       "id": "tour-de-romandie-2026",
@@ -1354,7 +1844,14 @@
       "location": "Switzerland",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "eschborn-frankfurt-2026",
@@ -1369,7 +1866,12 @@
       "location": "Germany",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 183
     },
     {
       "id": "gp-anicolor-2026",
@@ -1384,7 +1886,13 @@
       "location": "Portugal",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "gp-immo-zone-vloer-en-chapewerken-2026",
@@ -1399,7 +1907,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "festival-elsy-jacobs-2026",
@@ -1414,7 +1927,12 @@
       "location": "Luxembourg",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "famenne-ardenne-classic-2026",
@@ -1429,7 +1947,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "giro-dell-appennino-2026",
@@ -1444,7 +1967,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-hellas-2026",
@@ -1459,7 +1987,13 @@
       "location": "Greece",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "giro-d-italia-2026",
@@ -1474,7 +2008,18 @@
       "location": "Italy",
       "category": "2.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 3400,
+      "prestige": [
+        "grand-tour"
+      ]
     },
     {
       "id": "la-classique-morbihan-2026",
@@ -1489,7 +2034,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-du-morbihan-2026",
@@ -1504,7 +2054,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "baku-khankendi-azerbaijan-2026",
@@ -1519,7 +2074,13 @@
       "location": "Azerbaijan",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tro-bro-leon-2026",
@@ -1534,7 +2095,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "trofee-maarten-wynants-2026",
@@ -1549,7 +2115,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "fleche-du-sud-2026",
@@ -1564,7 +2135,13 @@
       "location": "Luxembourg",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-de-hongrie-2026",
@@ -1579,7 +2156,13 @@
       "location": "Hungary",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "circuit-de-wallonie-2026",
@@ -1594,7 +2177,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-du-finistere-2026",
@@ -1609,7 +2197,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "boucles-de-l-aulne-2026",
@@ -1624,7 +2217,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "rund-um-koln-2026",
@@ -1639,7 +2237,12 @@
       "location": "Germany",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "circuit"
+      ],
+      "distance": 180
     },
     {
       "id": "classique-dunkerque-2026",
@@ -1654,7 +2257,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "emakumeen-saria-2026",
@@ -1669,7 +2277,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "4-jours-de-dunkerque-2026",
@@ -1684,7 +2297,13 @@
       "location": "France",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "gp-beiras-e-serra-da-estrela-2026",
@@ -1699,7 +2318,13 @@
       "location": "Portugal",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "veenendaal-veenendaal-2026",
@@ -1714,7 +2339,12 @@
       "location": "Netherlands",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-criquelion-2026",
@@ -1729,7 +2359,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "antwerp-port-epic-sels-trophy-2026",
@@ -1744,7 +2379,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "cobbles"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-mazda-2026",
@@ -1759,7 +2399,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "boucles-de-la-mayenne-2026",
@@ -1774,7 +2419,13 @@
       "location": "France",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "gp-ciudad-de-eibar-2026",
@@ -1789,7 +2440,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-de-wallonie-2026",
@@ -1804,7 +2460,13 @@
       "location": "Belgium",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "mercan-tour-classic-alpes-maritimes-2026",
@@ -1819,7 +2481,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-estonia-2026",
@@ -1834,7 +2501,13 @@
       "location": "Estonia",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "heistse-pijl-2026",
@@ -1849,7 +2522,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "alpes-gresivaudan-classic-2026",
@@ -1864,7 +2542,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "brussels-cycling-classic-2026",
@@ -1879,7 +2562,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "dwars-door-de-westhoek-2026",
@@ -1894,7 +2582,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-auvergne-rhone-alpes-2026",
@@ -1909,7 +2602,13 @@
       "location": "France",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1200
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -1924,7 +2623,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "tour-feminin-international-des-pyrenees-2026",
@@ -1939,7 +2643,13 @@
       "location": "France",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "dwars-door-het-hageland-2026",
@@ -1954,7 +2664,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "copenhagen-sprint-2026",
@@ -1969,7 +2684,12 @@
       "location": "Denmark",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 220
     },
     {
       "id": "elfstedenronde-2026",
@@ -1984,7 +2704,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "flanders-diamond-tour-2026",
@@ -1999,7 +2724,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-gippingen-2026",
@@ -2014,7 +2744,12 @@
       "location": "Germany",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "baloise-belgium-tour-2026",
@@ -2029,7 +2764,14 @@
       "location": "Belgium",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "itt"
+      ],
+      "distance": 1000
     },
     {
       "id": "tour-de-suisse-2026",
@@ -2044,7 +2786,14 @@
       "location": "Switzerland",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "tour-of-slovenia-2026",
@@ -2059,7 +2808,13 @@
       "location": "Slovenia",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1000
     },
     {
       "id": "la-route-d-occitanie-2026",
@@ -2074,7 +2829,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "andorra-classic-2026",
@@ -2089,7 +2850,12 @@
       "location": "Andorra",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "lyon-torino-2026",
@@ -2104,7 +2870,13 @@
       "location": "Italy",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "sibiu-tour-2026",
@@ -2119,7 +2891,13 @@
       "location": "Romania",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-de-france-2026",
@@ -2134,7 +2912,18 @@
       "location": "France",
       "category": "2.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 3400,
+      "prestige": [
+        "grand-tour"
+      ]
     },
     {
       "id": "argenta-classic-deurne-2026",
@@ -2149,7 +2938,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-magnificent-qinghai-2026",
@@ -2164,7 +2958,13 @@
       "location": "China",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "tour-of-austria-2026",
@@ -2179,7 +2979,13 @@
       "location": "Austria",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "la-picto-en-nouvelle-aquitaine-2026",
@@ -2194,7 +3000,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "clasica-de-ordizia-2026",
@@ -2209,7 +3020,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "clasica-castilla-y-leon-2026",
@@ -2224,7 +3040,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-de-l-ain-2026",
@@ -2239,7 +3060,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-of-denmark-2026",
@@ -2254,7 +3081,13 @@
       "location": "Denmark",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
@@ -2269,7 +3102,12 @@
       "location": "Spain",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 220
     },
     {
       "id": "china-xizang-trans-himalaya-2026",
@@ -2284,7 +3122,13 @@
       "location": "China",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "circuito-de-getxo-2026",
@@ -2299,7 +3143,12 @@
       "location": "Spain",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-de-pologne-2026",
@@ -2314,7 +3163,14 @@
       "location": "Poland",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1200
     },
     {
       "id": "vuelta-a-burgos-2026",
@@ -2329,7 +3185,13 @@
       "location": "Spain",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1000
     },
     {
       "id": "volta-a-portugal-2026",
@@ -2344,7 +3206,13 @@
       "location": "Portugal",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "arctic-race-of-norway-2026",
@@ -2359,7 +3227,13 @@
       "location": "Norway",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1000
     },
     {
       "id": "czech-tour-2026",
@@ -2374,7 +3248,13 @@
       "location": "Czechia",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "gp-yvonne-reynders-2026",
@@ -2389,7 +3269,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "adac-cyclassics-2026",
@@ -2404,7 +3289,12 @@
       "location": "Germany",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 220
     },
     {
       "id": "la-polynormande-2026",
@@ -2419,7 +3309,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-du-limousin-2026",
@@ -2434,7 +3329,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "deutschland-tour-2026",
@@ -2449,7 +3350,14 @@
       "location": "Germany",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain"
+      ],
+      "distance": 1000
     },
     {
       "id": "renewi-tour-2026",
@@ -2464,7 +3372,14 @@
       "location": "Belgium",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "itt"
+      ],
+      "distance": 1200
     },
     {
       "id": "gp-lucien-van-impe-2026",
@@ -2479,7 +3394,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "konvert-kortrijk-koerse-2026",
@@ -2494,7 +3414,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "vuelta-a-espana-2026",
@@ -2509,7 +3434,18 @@
       "location": "Spain",
       "category": "2.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly",
+        "mountain",
+        "itt"
+      ],
+      "distance": 3300,
+      "prestige": [
+        "grand-tour"
+      ]
     },
     {
       "id": "tour-du-poitou-charentes-en-nouvelle-aquitaine-2026",
@@ -2524,7 +3460,13 @@
       "location": "France",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "muur-classic-geraardsbergen-2026",
@@ -2539,7 +3481,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "kreiz-breizh-feminin-2026",
@@ -2554,7 +3501,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "bretagne-classic-ouest-france-2026",
@@ -2569,7 +3521,12 @@
       "location": "France",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 254
     },
     {
       "id": "gp-kranj-2026",
@@ -2584,7 +3541,12 @@
       "location": "Slovenia",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "philadelphia-cycling-classic-2026",
@@ -2599,7 +3561,12 @@
       "location": "United States",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-de-korea-2026",
@@ -2614,7 +3581,13 @@
       "location": "South Korea",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-of-britain-men-2026",
@@ -2629,7 +3602,13 @@
       "location": "United Kingdom",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "zlm-tour-2026",
@@ -2644,7 +3623,13 @@
       "location": "Netherlands",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "maryland-cycling-classic-2026",
@@ -2659,7 +3644,13 @@
       "location": "United States",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "tour-of-binzhou-2026",
@@ -2674,7 +3665,13 @@
       "location": "China",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "giro-della-toscana-memorial-alfredo-martini-2026",
@@ -2689,7 +3686,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "coppa-sabatini-2026",
@@ -2704,7 +3706,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "gp-de-quebec-2026",
@@ -2719,7 +3726,12 @@
       "location": "Canada",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 201
     },
     {
       "id": "a-travers-les-hauts-de-france-2026",
@@ -2734,7 +3746,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "memorial-marco-pantani-2026",
@@ -2749,7 +3766,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-taihu-lake-2026",
@@ -2764,7 +3786,13 @@
       "location": "China",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "gp-de-fourmies-la-voix-du-nord-2026",
@@ -2779,7 +3807,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "gp-de-montreal-2026",
@@ -2794,7 +3827,12 @@
       "location": "Canada",
       "category": "1.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 221
     },
     {
       "id": "la-choralis-fourmies-feminine-2026",
@@ -2809,7 +3847,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 200
     },
     {
       "id": "trofeo-matteotti-2026",
@@ -2824,7 +3867,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "il-giro-d-abruzzo-2026",
@@ -2839,7 +3887,13 @@
       "location": "Italy",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "chrono-feminin-du-gatineau-2026",
@@ -2854,7 +3908,12 @@
       "location": "Canada",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "gp-de-wallonie-2026",
@@ -2869,7 +3928,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 200
     },
     {
       "id": "okolo-slovenska-2026",
@@ -2884,7 +3948,13 @@
       "location": "Slovakia",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "tour-du-gatineau-2026",
@@ -2899,7 +3969,12 @@
       "location": "Canada",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "kampioenscap-van-vlaanderen-2026",
@@ -2914,7 +3989,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-huangshan-2026",
@@ -2929,7 +4009,13 @@
       "location": "China",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "gp-del-lazio-2026",
@@ -2944,7 +4030,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "super-8-classic-2026",
@@ -2959,7 +4050,12 @@
       "location": "Belgium",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "giro-della-romagna-2026",
@@ -2974,7 +4070,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "gooikske-pijl-2026",
@@ -2989,7 +4090,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "world-championships-men-s-tt-2026",
@@ -3004,7 +4110,15 @@
       "location": "Canada",
       "category": "WC",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "itt",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 45,
+      "prestige": [
+        "world-championship"
+      ]
     },
     {
       "id": "world-championships-mixed-relay-tt-2026",
@@ -3019,7 +4133,15 @@
       "location": "Canada",
       "category": "WC",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "ttt",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 45,
+      "prestige": [
+        "world-championship"
+      ]
     },
     {
       "id": "omloop-van-het-houtland-2026",
@@ -3034,7 +4156,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "paris-chauny-2026",
@@ -3049,7 +4176,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-de-langkawi-2026",
@@ -3064,7 +4196,13 @@
       "location": "Malaysia",
       "category": "2.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1000
     },
     {
       "id": "world-championships-men-s-road-race-2026",
@@ -3079,7 +4217,15 @@
       "location": "Canada",
       "category": "WC",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 270,
+      "prestige": [
+        "world-championship"
+      ]
     },
     {
       "id": "giro-dell-emilia-2026",
@@ -3094,7 +4240,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 200
     },
     {
       "id": "giro-dell-emilia-donne-2026",
@@ -3109,7 +4260,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 200
     },
     {
       "id": "sparkassen-munsterland-giro-2026",
@@ -3124,7 +4280,12 @@
       "location": "Germany",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "circuit"
+      ],
+      "distance": 200
     },
     {
       "id": "coppa-agostoni-2026",
@@ -3139,7 +4300,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-vendee-2026",
@@ -3154,7 +4320,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "coppa-bernocchi-2026",
@@ -3169,7 +4340,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "binche-chimay-binche-2026",
@@ -3184,7 +4360,12 @@
       "location": "Belgium",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tre-valle-varesine-2026",
@@ -3199,7 +4380,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 200
     },
     {
       "id": "gran-piemonte-2026",
@@ -3214,7 +4400,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 200
     },
     {
       "id": "il-lombardia-2026",
@@ -3229,7 +4420,15 @@
       "location": "Italy",
       "category": "1.UWT",
       "rating": 5,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "mountain"
+      ],
+      "distance": 252,
+      "prestige": [
+        "monument"
+      ]
     },
     {
       "id": "tour-de-kyushu-2026",
@@ -3244,7 +4443,13 @@
       "location": "Japan",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "paris-tours-2026",
@@ -3259,7 +4464,12 @@
       "location": "France",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 213
     },
     {
       "id": "sun-hung-kai-hong-kong-cyclothon-2026",
@@ -3274,7 +4484,12 @@
       "location": "Hong Kong",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "trofeo-tessile-moda-2026",
@@ -3289,7 +4504,12 @@
       "location": "Italy",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 180
     },
     {
       "id": "tour-of-guangxi-2026",
@@ -3304,7 +4524,13 @@
       "location": "China",
       "category": "2.UWT",
       "rating": 4,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 1200
     },
     {
       "id": "tour-of-holland-2026",
@@ -3319,7 +4545,13 @@
       "location": "Netherlands",
       "category": "2.1",
       "rating": 2,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "flat",
+        "hilly"
+      ],
+      "distance": 800
     },
     {
       "id": "giro-del-veneto-2026",
@@ -3334,7 +4566,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     },
     {
       "id": "chrono-des-nations-2026",
@@ -3349,7 +4586,12 @@
       "location": "France",
       "category": "1.1",
       "rating": 1,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "itt",
+      "terrain": [
+        "flat"
+      ],
+      "distance": 180
     },
     {
       "id": "utsunomiya-japan-cup-2026",
@@ -3364,7 +4606,12 @@
       "location": "Japan",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "circuit"
+      ],
+      "distance": 200
     },
     {
       "id": "veneto-classic-2026",
@@ -3379,7 +4626,12 @@
       "location": "Italy",
       "category": "1.Pro",
       "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z"
+      "discoveredAt": "2026-01-07T06:49:05.076Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 200
     }
   ]
 }

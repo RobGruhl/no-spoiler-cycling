@@ -229,6 +229,68 @@
       text-transform: uppercase;
     }
 
+    .race-icons {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+
+    /* Icon Filters */
+    .icon-filter-section {
+      margin-bottom: 16px;
+    }
+
+    .icon-filter-group {
+      margin-bottom: 12px;
+    }
+
+    .icon-filter-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .icon-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .icon-filter-chip {
+      padding: 6px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      background: white;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .icon-filter-chip:hover {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+
+    .icon-filter-chip.active {
+      border-color: #3b82f6;
+      background: #dbeafe;
+    }
+
+    .icon-filter-chip .chip-icon {
+      font-size: 1rem;
+    }
+
+    .icon-filter-chip .chip-count {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      margin-left: 2px;
+    }
+
     .race-title {
       font-size: 1rem;
       font-weight: 600;
@@ -370,6 +432,84 @@
       </div>
 
       <div class="filter-section">
+        <!-- Icon Filters -->
+        <div class="icon-filter-section">
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Format</span>
+            <div class="icon-filters">
+              <button class="icon-filter-chip" data-filter-type="format" data-filter-value="one-day">
+        <span class="chip-icon">🏁</span>
+        <span>One-Day</span>
+        <span class="chip-count">148</span>
+      </button><button class="icon-filter-chip" data-filter-type="format" data-filter-value="stage-race">
+        <span class="chip-icon">📅</span>
+        <span>Stage Race</span>
+        <span class="chip-count">74</span>
+      </button><button class="icon-filter-chip" data-filter-type="format" data-filter-value="itt">
+        <span class="chip-icon">⏱️</span>
+        <span>ITT</span>
+        <span class="chip-count">2</span>
+      </button><button class="icon-filter-chip" data-filter-type="format" data-filter-value="ttt">
+        <span class="chip-icon">👥</span>
+        <span>TTT</span>
+        <span class="chip-count">1</span>
+      </button>
+            </div>
+          </div>
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Terrain</span>
+            <div class="icon-filters">
+              <button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="mountain">
+        <span class="chip-icon">⛰️</span>
+        <span>Mountain</span>
+        <span class="chip-count">27</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="hilly">
+        <span class="chip-icon">〰️</span>
+        <span>Hilly</span>
+        <span class="chip-count">122</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="flat">
+        <span class="chip-icon">➡️</span>
+        <span>Flat</span>
+        <span class="chip-count">141</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="cobbles">
+        <span class="chip-icon">🪨</span>
+        <span>Cobbles</span>
+        <span class="chip-count">13</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="gravel">
+        <span class="chip-icon">🟤</span>
+        <span>Gravel</span>
+        <span class="chip-count">1</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="itt">
+        <span class="chip-icon">⏱️</span>
+        <span>Time Trial</span>
+        <span class="chip-count">12</span>
+      </button><button class="icon-filter-chip" data-filter-type="terrain" data-filter-value="circuit">
+        <span class="chip-icon">🔄</span>
+        <span>Circuit</span>
+        <span class="chip-count">3</span>
+      </button>
+            </div>
+          </div>
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Prestige</span>
+            <div class="icon-filters">
+              <button class="icon-filter-chip" data-filter-type="prestige" data-filter-value="grand-tour">
+        <span class="chip-icon">🏆</span>
+        <span>Grand Tours</span>
+        <span class="chip-count">3</span>
+      </button><button class="icon-filter-chip" data-filter-type="prestige" data-filter-value="monument">
+        <span class="chip-icon">🗿</span>
+        <span>Monuments</span>
+        <span class="chip-count">5</span>
+      </button><button class="icon-filter-chip" data-filter-type="prestige" data-filter-value="world-championship">
+        <span class="chip-icon">🌍</span>
+        <span>Worlds</span>
+        <span class="chip-count">3</span>
+      </button>
+            </div>
+          </div>
+        </div>
+
         <label class="filter-label">Filter by Interest Rating:</label>
         <div class="star-filters">
           <button class="star-filter-btn active" data-min="1" onclick="filterByStars(1)">
@@ -404,9 +544,10 @@
       <h2 class="month-title">January 2026 <span class="month-count">11</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour El Salvador</h3>
@@ -421,9 +562,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour Down Under</h3>
@@ -438,9 +580,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Classica Camp de Morvedre</h3>
@@ -455,9 +598,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Marratxi - Felanitx</h3>
@@ -472,9 +616,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Clàsica Comunitat Valenciana</h3>
@@ -489,9 +634,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Binissalem - Andratx</h3>
@@ -506,9 +652,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Calvià</h3>
@@ -523,9 +670,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Surf Coast Classic Men</h3>
@@ -540,9 +688,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Ses Salines</h3>
@@ -557,9 +706,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Serra Tramuntana</h3>
@@ -574,9 +724,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Andratx - Pollença</h3>
@@ -597,9 +748,10 @@
       <h2 class="month-title">February 2026 <span class="month-count">27</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP La Marseillaise</h3>
@@ -614,9 +766,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Pionera Race</h3>
@@ -631,9 +784,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Palma</h3>
@@ -648,9 +802,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Cadel Evans Great Ocean Road Race</h3>
@@ -665,9 +820,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Etoile de Bessèges</h3>
@@ -682,9 +838,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Volta Comunitat Valenciana</h3>
@@ -699,9 +856,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Muscat Classic</h3>
@@ -716,9 +874,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Oman</h3>
@@ -733,9 +892,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Aveiro Fegion Champions Classic</h3>
@@ -750,9 +910,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Oro in Euro</h3>
@@ -767,9 +928,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Vuelta CV Feminas</h3>
@@ -784,9 +946,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour de La Provence</h3>
@@ -801,9 +964,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Vuelta a Murcia</h3>
@@ -818,9 +982,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Figueira Champions Classic</h3>
@@ -835,9 +1000,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Clasica de Almeria</h3>
@@ -852,9 +1018,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Clásica Jaén</h3>
@@ -869,9 +1036,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">UAE Tour</h3>
@@ -886,9 +1054,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, itt">📅➡️〰️⏱️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Volta ao Algarve</h3>
@@ -903,9 +1072,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Vuelta a Andalucia - Ruta del Sol</h3>
@@ -920,9 +1090,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Classic Var</h3>
@@ -937,9 +1108,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Classica de Almeria</h3>
@@ -954,9 +1126,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Jean-Pierre Monseré</h3>
@@ -971,9 +1144,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Midwest Cycling Classic</h3>
@@ -988,9 +1162,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Tour des Alpes-Maritimes</h3>
@@ -1005,9 +1180,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour du Rwanda</h3>
@@ -1022,9 +1198,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Giro di Sardegna</h3>
@@ -1039,9 +1216,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Visit South Aegean GP</h3>
@@ -1062,9 +1240,10 @@
       <h2 class="month-title">March 2026 <span class="month-count">25</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Faun Drôme Classic</h3>
@@ -1079,9 +1258,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Kuurne-Brussels-Kuurne</h3>
@@ -1096,9 +1276,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Omloop Van Het Hageland</h3>
@@ -1113,9 +1294,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Region On Dodecanese GP</h3>
@@ -1130,9 +1312,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Le Samyn</h3>
@@ -1147,9 +1330,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Trofeo Laigueglia</h3>
@@ -1164,9 +1348,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="gravel" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, gravel">🏁🟤</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Strade Bianche</h3>
@@ -1181,9 +1366,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Paris-Nice</h3>
@@ -1198,9 +1384,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tirreno-Adriatico</h3>
@@ -1215,9 +1402,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Ixina Leeuw-Oetingen</h3>
@@ -1232,9 +1420,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour de Taiwan</h3>
@@ -1249,9 +1438,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Milano-Torino</h3>
@@ -1266,9 +1456,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Noekere Koerse</h3>
@@ -1283,9 +1474,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Nokere Koerse</h3>
@@ -1300,9 +1492,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">GP de Denain</h3>
@@ -1317,9 +1510,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Koksijde Classic</h3>
@@ -1334,9 +1528,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="monument">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, flat">🏁🗿➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Milano-Sanremo</h3>
@@ -1351,9 +1546,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Princess Maha Chakri Sirindhorn's Cup Tour of Thailand</h3>
@@ -1368,9 +1564,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Settimana Coppi e Bartali</h3>
@@ -1385,9 +1582,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Ronde Van Brugge</h3>
@@ -1402,9 +1600,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">E3 Saxo Classic</h3>
@@ -1419,9 +1618,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Gent-Wevelgem</h3>
@@ -1436,9 +1636,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Emilia</h3>
@@ -1453,9 +1654,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">La Roue Tourangelle</h3>
@@ -1470,9 +1672,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Paris-Camembert</h3>
@@ -1493,9 +1696,10 @@
       <h2 class="month-title">April 2026 <span class="month-count">27</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Dwars Door Vlaanderen</h3>
@@ -1510,9 +1714,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">La Route Adélie de Vitré</h3>
@@ -1527,9 +1732,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">NXT Classic</h3>
@@ -1544,9 +1750,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🗿🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Ronde Van Vlaanderen</h3>
@@ -1561,9 +1768,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Cholet Agglo Tour</h3>
@@ -1578,9 +1786,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Itzulia Basque Country</h3>
@@ -1595,9 +1804,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Région Pays de La Loire Tour</h3>
@@ -1612,9 +1822,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Région Pays de la Loire Tour Féminin</h3>
@@ -1629,9 +1840,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Scheldeprijs</h3>
@@ -1646,9 +1858,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Giro di Reggio Calabria</h3>
@@ -1663,9 +1876,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Giro della Magna Grecia</h3>
@@ -1680,9 +1894,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🗿🪨</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Paris-Roubaix</h3>
@@ -1697,9 +1912,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">O Gran Camiño</h3>
@@ -1714,9 +1930,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Ronde Van Limburg</h3>
@@ -1731,9 +1948,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Brabantse Pijl</h3>
@@ -1748,9 +1966,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Classic Grand Bescançon Doubs</h3>
@@ -1765,9 +1984,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Tour du Jura</h3>
@@ -1782,9 +2002,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Amstel Gold Race</h3>
@@ -1799,9 +2020,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Féminin de Chambéry</h3>
@@ -1816,9 +2038,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">GP Samarkand</h3>
@@ -1833,9 +2056,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, mountain, itt">📅⛰️⏱️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of the Alps</h3>
@@ -1850,9 +2074,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">La Flèche Wallonne</h3>
@@ -1867,9 +2092,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Vuelta Asturias</h3>
@@ -1884,9 +2110,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP della Liberazione Donne</h3>
@@ -1901,9 +2128,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁🗿⛰️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Liège-Bastogne-Liège</h3>
@@ -1918,9 +2146,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Türkiye</h3>
@@ -1935,9 +2164,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain, itt">📅〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour de Romandie</h3>
@@ -1958,9 +2188,10 @@
       <h2 class="month-title">May 2026 <span class="month-count">29</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Eschborn-Frankfurt</h3>
@@ -1975,9 +2206,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">GP Anicolor</h3>
@@ -1992,9 +2224,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Immo Zone Vloer-en-Chapewerken</h3>
@@ -2009,9 +2242,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Festival Elsy Jacobs</h3>
@@ -2026,9 +2260,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Famenne Ardenne Classic</h3>
@@ -2043,9 +2278,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Giro dell'Appennino</h3>
@@ -2060,9 +2296,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Hellas</h3>
@@ -2077,9 +2314,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅🏆➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Giro d'Italia</h3>
@@ -2094,9 +2332,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">La Classique Morbihan</h3>
@@ -2111,9 +2350,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">GP du Morbihan</h3>
@@ -2128,9 +2368,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Baku-Khankendi Azerbaijan</h3>
@@ -2145,9 +2386,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Tro-Bro Léon</h3>
@@ -2162,9 +2404,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofee Maarten Wynants</h3>
@@ -2179,9 +2422,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Flèche du Sud</h3>
@@ -2196,9 +2440,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour de Hongrie</h3>
@@ -2213,9 +2458,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Circuit de Wallonie</h3>
@@ -2230,9 +2476,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Tour du Finistère</h3>
@@ -2247,9 +2494,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Boucles de l'Aulne</h3>
@@ -2264,9 +2512,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="circuit" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, circuit">🏁🔄</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Rund um Köln</h3>
@@ -2281,9 +2530,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Classique Dunkerque</h3>
@@ -2298,9 +2548,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Emakumeen Saria</h3>
@@ -2315,9 +2566,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">4 Jours de Dunkerque</h3>
@@ -2332,9 +2584,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">GP Beiras e Serra da Estrela</h3>
@@ -2349,9 +2602,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Veenendaal-Veenendaal</h3>
@@ -2366,9 +2620,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Criquelion</h3>
@@ -2383,9 +2638,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Antwerp Port Epic - Sels Trophy</h3>
@@ -2400,9 +2656,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Mazda</h3>
@@ -2417,9 +2674,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Boucles de la Mayenne</h3>
@@ -2434,9 +2692,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Ciudad de Eibar</h3>
@@ -2457,9 +2716,10 @@
       <h2 class="month-title">June 2026 <span class="month-count">20</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour de Wallonie</h3>
@@ -2474,9 +2734,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Mercan'tour Classic Alpes-Maritimes</h3>
@@ -2491,9 +2752,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Estonia</h3>
@@ -2508,9 +2770,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Heistse Pijl</h3>
@@ -2525,9 +2788,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Alpes Grésivaudan Classic</h3>
@@ -2542,9 +2806,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Brussels Cycling Classic</h3>
@@ -2559,9 +2824,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Dwars Door De Westhoek</h3>
@@ -2576,9 +2842,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour Auvergne-Rhône-Alpes</h3>
@@ -2593,9 +2860,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Circuit Franco-Belge</h3>
@@ -2610,9 +2878,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour Féminin International des Pyrénées</h3>
@@ -2627,9 +2896,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Dwars Door Het Hageland</h3>
@@ -2644,9 +2914,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Copenhagen Sprint</h3>
@@ -2661,9 +2932,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Elfstedenronde</h3>
@@ -2678,9 +2950,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Flanders Diamond Tour</h3>
@@ -2695,9 +2968,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Gippingen</h3>
@@ -2712,9 +2986,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, itt">📅➡️〰️⏱️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Baloise Belgium Tour</h3>
@@ -2729,9 +3004,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain, itt">📅〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour de Suisse</h3>
@@ -2746,9 +3022,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Slovenia</h3>
@@ -2763,9 +3040,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">La Route d'Occitanie</h3>
@@ -2780,9 +3058,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Andorra Classic</h3>
@@ -2803,9 +3082,10 @@
       <h2 class="month-title">July 2026 <span class="month-count">11</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Lyon-Torino</h3>
@@ -2820,9 +3100,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Sibiu Tour</h3>
@@ -2837,9 +3118,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅🏆➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour de France</h3>
@@ -2854,9 +3136,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Argenta Classic - Deurne</h3>
@@ -2871,9 +3154,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Magnificent Qinghai</h3>
@@ -2888,9 +3172,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Austria</h3>
@@ -2905,9 +3190,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">La Picto en Nouvelle-Aquitaine</h3>
@@ -2922,9 +3208,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Clásica de Ordizia</h3>
@@ -2939,9 +3226,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Clasica Castilla y Leon</h3>
@@ -2956,9 +3244,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour de l'Ain</h3>
@@ -2973,9 +3262,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Denmark</h3>
@@ -2996,9 +3286,10 @@
       <h2 class="month-title">August 2026 <span class="month-count">24</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Donostia San Sebastian Klasikoa</h3>
@@ -3013,9 +3304,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">China Xizang Trans-Himalaya</h3>
@@ -3030,9 +3322,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Circuito de Getxo</h3>
@@ -3047,9 +3340,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour de Pologne</h3>
@@ -3064,9 +3358,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Vuelta a Burgos</h3>
@@ -3081,9 +3376,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Volta a Portugal</h3>
@@ -3098,9 +3394,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Arctic Race of Norway</h3>
@@ -3115,9 +3412,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Czech Tour</h3>
@@ -3132,9 +3430,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Yvonne Reynders</h3>
@@ -3149,9 +3448,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">ADAC Cyclassics</h3>
@@ -3166,9 +3466,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">La Polynormande</h3>
@@ -3183,9 +3484,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour du Limousin</h3>
@@ -3200,9 +3502,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Deutschland Tour</h3>
@@ -3217,9 +3520,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, itt">📅➡️〰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Renewi Tour</h3>
@@ -3234,9 +3538,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">GP Lucien Van Impe</h3>
@@ -3251,9 +3556,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Konvert Kortrijk Koerse</h3>
@@ -3268,9 +3574,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅🏆➡️〰️⛰️⏱️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Vuelta a España</h3>
@@ -3285,9 +3592,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour du Poitou-Charentes en Nouvelle-Aquitaine</h3>
@@ -3302,9 +3610,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Muur Classic Geraardsbergen</h3>
@@ -3319,9 +3628,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Kreiz Breizh Féminin</h3>
@@ -3336,9 +3646,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Bretagne Classic - Ouest France</h3>
@@ -3353,9 +3664,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP Kranj</h3>
@@ -3370,9 +3682,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Philadelphia Cycling Classic</h3>
@@ -3387,9 +3700,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour de Korea</h3>
@@ -3410,9 +3724,10 @@
       <h2 class="month-title">September 2026 <span class="month-count">31</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour of Britain Men</h3>
@@ -3427,9 +3742,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">ZLM Tour</h3>
@@ -3444,9 +3760,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Maryland Cycling Classic</h3>
@@ -3461,9 +3778,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Binzhou</h3>
@@ -3478,9 +3796,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Giro della Toscana - Memorial Alfredo Martini</h3>
@@ -3495,9 +3814,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Coppa Sabatini</h3>
@@ -3512,9 +3832,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">GP de Québec</h3>
@@ -3529,9 +3850,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">A Travers Les Hauts de France</h3>
@@ -3546,9 +3868,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Memorial Marco Pantani</h3>
@@ -3563,9 +3886,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Taihu Lake</h3>
@@ -3580,9 +3904,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">GP de Fourmies - La Voix du Nord</h3>
@@ -3597,9 +3922,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">GP de Montréal</h3>
@@ -3614,9 +3940,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">La Choralis Fourmies Féminine</h3>
@@ -3631,9 +3958,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Matteotti</h3>
@@ -3648,9 +3976,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Il Giro d'Abruzzo</h3>
@@ -3665,9 +3994,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Chrono Féminin du Gatineau</h3>
@@ -3682,9 +4012,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">GP de Wallonie</h3>
@@ -3699,9 +4030,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Okolo Slovenska</h3>
@@ -3716,9 +4048,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Tour du Gatineau</h3>
@@ -3733,9 +4066,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Kampioenscap Van Vlaanderen</h3>
@@ -3750,9 +4084,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Huangshan</h3>
@@ -3767,9 +4102,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">GP del Lazio</h3>
@@ -3784,9 +4120,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Super 8 Classic</h3>
@@ -3801,9 +4138,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Giro della Romagna</h3>
@@ -3818,9 +4156,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Gooikske Pijl</h3>
@@ -3835,9 +4174,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="itt" data-terrain="flat" data-prestige="world-championship">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="itt, flat">⏱️🌍➡️</span>
         <span class="category-badge" style="background-color: #f59e0b">WC</span>
       </div>
       <h3 class="race-title">World Championships: Men's TT</h3>
@@ -3852,9 +4192,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="ttt" data-terrain="flat" data-prestige="world-championship">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="ttt, flat">👥🌍➡️</span>
         <span class="category-badge" style="background-color: #f59e0b">WC</span>
       </div>
       <h3 class="race-title">World Championships: Mixed Relay TT</h3>
@@ -3869,9 +4210,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Omloop Van Het Houtland</h3>
@@ -3886,9 +4228,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Paris-Chauny</h3>
@@ -3903,9 +4246,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
       </div>
       <h3 class="race-title">Tour de Langkawi</h3>
@@ -3920,9 +4264,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="world-championship">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, flat">🏁🌍➡️</span>
         <span class="category-badge" style="background-color: #f59e0b">WC</span>
       </div>
       <h3 class="race-title">World Championships: Men's Road Race</h3>
@@ -3943,9 +4288,10 @@
       <h2 class="month-title">October 2026 <span class="month-count">20</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Giro dell'Emilia</h3>
@@ -3960,9 +4306,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Giro dell'Emilia Donne</h3>
@@ -3977,9 +4324,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, circuit">🏁🔄</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Sparkassen Münsterland Giro</h3>
@@ -3994,9 +4342,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Coppa Agostoni</h3>
@@ -4011,9 +4360,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Tour of Vendée</h3>
@@ -4028,9 +4378,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Coppa Bernocchi</h3>
@@ -4045,9 +4396,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Binche-Chimay-Binche</h3>
@@ -4062,9 +4414,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Tre Valle Varesine</h3>
@@ -4079,9 +4432,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Gran Piemonte</h3>
@@ -4096,9 +4450,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="5">
+    <div class="race-card tbd" data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="race-icons" title="one-day, mountain">🏁🗿⛰️</span>
         <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
       </div>
       <h3 class="race-title">Il Lombardia</h3>
@@ -4113,9 +4468,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour de Kyushu</h3>
@@ -4130,9 +4486,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Paris-Tours</h3>
@@ -4147,9 +4504,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, flat">🏁➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Sun Hung Kai Hong Kong Cyclothon</h3>
@@ -4164,9 +4522,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Trofeo Tessile & Moda</h3>
@@ -4181,9 +4540,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="4">
+    <div class="race-card tbd" data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
       </div>
       <h3 class="race-title">Tour of Guangxi</h3>
@@ -4198,9 +4558,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="2">
+    <div class="race-card tbd" data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
         <span class="category-badge" style="background-color: #14b8a6">2.1</span>
       </div>
       <h3 class="race-title">Tour of Holland</h3>
@@ -4215,9 +4576,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Giro del Veneto</h3>
@@ -4232,9 +4594,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="1">
+    <div class="race-card tbd" data-rating="1" data-format="itt" data-terrain="flat" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="race-icons" title="itt, flat">⏱️➡️</span>
         <span class="category-badge" style="background-color: #6b7280">1.1</span>
       </div>
       <h3 class="race-title">Chrono des Nations</h3>
@@ -4249,9 +4612,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, circuit">🏁🔄</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Utsunomiya Japan Cup</h3>
@@ -4266,9 +4630,10 @@
         <span class="status-tbd">Awaiting Coverage</span>
       </div>
     </div>
-    <div class="race-card tbd" data-rating="3">
+    <div class="race-card tbd" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="race-icons" title="one-day, hilly">🏁〰️</span>
         <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
       </div>
       <h3 class="race-title">Veneto Classic</h3>
@@ -4321,20 +4686,133 @@
   </div>
 
   <script>
+    // Active filters state
+    const activeFilters = {
+      minRating: 1,
+      format: new Set(),
+      terrain: new Set(),
+      prestige: new Set()
+    };
+
+    // Toggle chip filter
+    function toggleChipFilter(chip) {
+      const type = chip.dataset.filterType;
+      const value = chip.dataset.filterValue;
+
+      if (activeFilters[type].has(value)) {
+        activeFilters[type].delete(value);
+        chip.classList.remove('active');
+      } else {
+        activeFilters[type].add(value);
+        chip.classList.add('active');
+      }
+
+      applyFilters();
+    }
+
+    // Set star filter
     function filterByStars(minRating) {
-      let visibleCount = 0;
+      activeFilters.minRating = minRating;
 
       // Update button states
       document.querySelectorAll('.star-filter-btn').forEach(btn => {
         btn.classList.toggle('active', parseInt(btn.dataset.min) === minRating);
       });
 
-      // Filter cards
+      applyFilters();
+    }
+
+    // Check if a card matches a specific filter configuration
+    function cardMatchesFilterConfig(card, config) {
+      const rating = parseInt(card.dataset.rating);
+      const format = card.dataset.format;
+      const terrain = card.dataset.terrain.split(',').filter(Boolean);
+      const prestige = card.dataset.prestige.split(',').filter(Boolean);
+
+      // Check star rating
+      if (rating < config.minRating) return false;
+
+      // Check format filter (must match one of selected formats)
+      if (config.format.size > 0 && !config.format.has(format)) {
+        return false;
+      }
+
+      // Check terrain filter (OR logic - must have at least one selected terrain)
+      if (config.terrain.size > 0) {
+        if (!terrain.some(t => config.terrain.has(t))) return false;
+      }
+
+      // Check prestige filter (OR logic - must have at least one selected prestige)
+      if (config.prestige.size > 0) {
+        if (!prestige.some(p => config.prestige.has(p))) return false;
+      }
+
+      return true;
+    }
+
+    // Simple check against current active filters
+    function cardMatchesFilters(card) {
+      return cardMatchesFilterConfig(card, activeFilters);
+    }
+
+    // Update chip counts based on current filters
+    // Shows: "Of currently visible races, how many have this attribute?"
+    function updateChipCounts() {
+      // Get currently visible races
+      const visibleCards = Array.from(document.querySelectorAll('.race-card:not(.hidden)'));
+
+      // Update icon filter chips
+      document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+        const type = chip.dataset.filterType;
+        const value = chip.dataset.filterValue;
+        const isActive = chip.classList.contains('active');
+
+        // Count visible cards that have this attribute
+        const count = visibleCards.filter(card => {
+          if (type === 'format') {
+            return card.dataset.format === value;
+          } else if (type === 'terrain') {
+            return card.dataset.terrain.split(',').includes(value);
+          } else if (type === 'prestige') {
+            return card.dataset.prestige.split(',').includes(value);
+          }
+          return false;
+        }).length;
+
+        // Update the count display
+        const countEl = chip.querySelector('.chip-count');
+        if (countEl) countEl.textContent = count;
+
+        // Dim chips with 0 matches (only if not active)
+        chip.style.opacity = (!isActive && count === 0) ? '0.4' : '1';
+      });
+
+      // Update star filter counts
+      document.querySelectorAll('.star-filter-btn').forEach(btn => {
+        const minRating = parseInt(btn.dataset.min);
+
+        // Count visible cards at or above this rating
+        const count = visibleCards.filter(card =>
+          parseInt(card.dataset.rating) >= minRating
+        ).length;
+
+        // Update the count display
+        const countEl = btn.querySelector('.filter-count');
+        if (countEl) countEl.textContent = '(' + count + ')';
+      });
+    }
+
+    // Apply all filters
+    function applyFilters() {
+      let visibleCount = 0;
+
       document.querySelectorAll('.race-card').forEach(card => {
-        const rating = parseInt(card.dataset.rating);
-        const visible = rating >= minRating;
-        card.classList.toggle('hidden', !visible);
-        if (visible) visibleCount++;
+        if (cardMatchesFilters(card)) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
       });
 
       // Update month sections (hide if no visible cards)
@@ -4349,7 +4827,15 @@
 
       // Update total count
       document.getElementById('visible-count').textContent = visibleCount;
+
+      // Update chip counts dynamically
+      updateChipCounts();
     }
+
+    // Initialize chip click handlers
+    document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+      chip.addEventListener('click', () => toggleChipFilter(chip));
+    });
   </script>
 </body>
 </html>
