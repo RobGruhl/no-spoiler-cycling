@@ -51,6 +51,107 @@
         "circuit"
       ],
       "distance": 758.9,
+      "broadcast": {
+        "lastUpdated": "2026-01-07T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/events/11606908-2026-santos-tour-down-under",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "NBC Sports (YouTube)",
+                "broadcasterId": "youtube-nbcsports",
+                "type": "free",
+                "url": "https://www.youtube.com/@NBCSports",
+                "coverage": "extended-highlights",
+                "subscription": false,
+                "notes": "Extended stage highlights posted after each stage"
+              }
+            ]
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/events/11606908-2026-santos-tour-down-under",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "GCN+ YouTube",
+                "broadcasterId": "youtube-gcn",
+                "type": "free",
+                "url": "https://www.youtube.com/@gcn",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights and analysis"
+              }
+            ]
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage via Eurosport"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurosport YouTube",
+                "broadcasterId": "youtube-eurosport",
+                "type": "free",
+                "url": "https://www.youtube.com/@eurosportcycling",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights"
+              },
+              {
+                "broadcaster": "GCN+ YouTube",
+                "broadcasterId": "youtube-gcn",
+                "type": "free",
+                "url": "https://www.youtube.com/@gcn",
+                "coverage": "extended-highlights",
+                "subscription": false,
+                "notes": "Extended highlights and race analysis"
+              }
+            ]
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "extended-highlights",
+            "example2025": "https://www.youtube.com/watch?v=XbDCo67cUXA"
+          },
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights",
+            "example2025": "https://www.youtube.com/watch?v=r4bnmhJU6z0"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights",
+            "example2025": "https://www.youtube.com/watch?v=wbkY5XPWPus"
+          }
+        ],
+        "notes": "Race starts Jan 20, 2026. YouTube highlights typically posted same day after each stage."
+      },
       "stages": [
         {
           "stageNumber": 0,
