@@ -46,10 +46,42 @@ import { youtubeSearch, scrapeContent } from './lib/firecrawl-utils.js';
 "
 ```
 
+### Race Research Tools (lib/perplexity-utils.js)
+Use Perplexity AI Search API for researching race details, stage information, and course profiles. Returns AI-synthesized answers with citations.
+
+- `perplexitySearch(query, options)` - General search with full options
+- `searchRaceInfo(query)` - Pre-configured for cycling content
+- `searchTourStage(stageNumber, year)` - Tour de France stage details
+- `searchWorldChampionships(raceType, year)` - UCI Worlds race details
+- `searchGrandTourStage(tour, stageNumber, year)` - Any grand tour stage (tdf/giro/vuelta)
+- `searchClassicRace(raceName, year)` - Monument and classic race details
+- `searchRaceComprehensive(raceName, year)` - Multi-query parallel research
+- `extractRaceDetails(result)` - Parse common race metrics from results
+
+**Options for perplexitySearch:**
+- `maxResults` - Results per query (1-20, default 10)
+- `allowDomains` - Allowlist domains (e.g., ['cyclingnews.com', 'uci.org'])
+- `blockDomains` - Blocklist domains
+- `recency` - Filter: 'day' | 'week' | 'month' | 'year'
+- `startDate` / `endDate` - Date range (MM/DD/YYYY format)
+
+**Usage**:
+```bash
+# Research a specific stage
+node -e "import { searchTourStage } from './lib/perplexity-utils.js'; searchTourStage(15, 2026).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+# Research a classic race
+node -e "import { searchClassicRace } from './lib/perplexity-utils.js'; searchClassicRace('Paris-Roubaix', 2026).then(r => console.log(r.answer))"
+
+# Comprehensive race research (5 parallel queries)
+node -e "import { searchRaceComprehensive } from './lib/perplexity-utils.js'; searchRaceComprehensive('Tour de France', 2026).then(r => console.log(r.answer))"
+```
+
 ### Platform Credentials (.env)
 - `FLOBIKES_EMAIL` and `FLOBIKES_PASSWORD` - For authenticated FloBikes access
 - `PEACOCK_EMAIL` and `PEACOCK_PASSWORD` - For Peacock sports content
 - `FIRECRAWL_API_KEY` - Powers all web discovery operations
+- `PERPLEXITY_API_KEY` - Powers race research and detail lookups
 
 ### Data Management
 - `race-data.json` - Stores verified spoiler-free race content
