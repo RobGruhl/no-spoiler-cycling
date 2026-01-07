@@ -46,10 +46,57 @@ import { youtubeSearch, scrapeContent } from './lib/firecrawl-utils.js';
 "
 ```
 
+### Race Research Tools (lib/perplexity-utils.js)
+Use Perplexity AI Search API for researching race details, stage information, and course profiles. Returns AI-synthesized answers with citations. Queries request structured/tabular output - Claude handles extraction.
+
+**Core Functions:**
+- `perplexitySearch(query, options)` - General search with full options
+- `searchRaceInfo(query)` - Pre-configured for cycling content with detailed prompts
+
+**Grand Tour Research:**
+- `searchGrandTourStages(tour, year)` - Complete stage table (all 21 stages with types, features, climbs)
+- `searchGrandTourStage(tour, stageNumber, year)` - Deep dive on single stage (climbs, cobbles, gradients)
+
+**One-Day Races:**
+- `searchClassicRace(raceName, year)` - Monument/classic details (sectors, bergs, decisive points)
+- `searchOneDayRaces(category, year)` - Calendar overview ('monuments', 'classics', 'ardennes', 'cobbles')
+
+**Other Research:**
+- `searchWorldChampionships(raceType, year)` - UCI Worlds race details
+- `searchClimbDetails(climbName)` - Individual climb profiles (gradients, history, Strava data)
+- `searchRaceBroadcast(raceName, year)` - TV/streaming coverage by region
+- `searchRaceComprehensive(raceName, year)` - Multi-query parallel research (5 queries)
+
+**Options for perplexitySearch:**
+- `maxResults` - Results per query (1-20, default 10)
+- `allowDomains` - Allowlist domains (e.g., ['cyclingnews.com', 'uci.org'])
+- `blockDomains` - Blocklist domains
+- `recency` - Filter: 'day' | 'week' | 'month' | 'year'
+- `startDate` / `endDate` - Date range (MM/DD/YYYY format)
+
+**Usage**:
+```bash
+# Get complete Tour de France stage table
+node -e "import { searchGrandTourStages } from './lib/perplexity-utils.js'; searchGrandTourStages('tdf', 2026).then(r => console.log(r.answer))"
+
+# Deep dive on a specific stage
+node -e "import { searchGrandTourStage } from './lib/perplexity-utils.js'; searchGrandTourStage('tdf', 15, 2026).then(r => console.log(r.answer))"
+
+# Research a classic race with sector details
+node -e "import { searchClassicRace } from './lib/perplexity-utils.js'; searchClassicRace('Paris-Roubaix', 2026).then(r => console.log(r.answer))"
+
+# Get climb profile
+node -e "import { searchClimbDetails } from './lib/perplexity-utils.js'; searchClimbDetails('Alpe d\\'Huez').then(r => console.log(r.answer))"
+
+# Find broadcast info
+node -e "import { searchRaceBroadcast } from './lib/perplexity-utils.js'; searchRaceBroadcast('Tour de France', 2026).then(r => console.log(r.answer))"
+```
+
 ### Platform Credentials (.env)
 - `FLOBIKES_EMAIL` and `FLOBIKES_PASSWORD` - For authenticated FloBikes access
 - `PEACOCK_EMAIL` and `PEACOCK_PASSWORD` - For Peacock sports content
 - `FIRECRAWL_API_KEY` - Powers all web discovery operations
+- `PERPLEXITY_API_KEY` - Powers race research and detail lookups
 
 ### Data Management
 - `race-data.json` - Stores verified spoiler-free race content
