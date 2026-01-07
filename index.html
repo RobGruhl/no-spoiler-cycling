@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Spoiler-free cycling coverage of UCI Men's Elite Cycling Calendar 2026 - watch races without results">
-  <title>🚴 Non-Spoiler Cycling | UCI Men's Elite Cycling Calendar 2026</title>
+  <meta name="description" content="2026 UCI Pro Cycling Calendar - 225 races with interest ratings">
+  <title>🚴 2026 Pro Cycling Calendar</title>
   <style>
     * {
       margin: 0;
@@ -14,7 +14,7 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
       min-height: 100vh;
       padding: 20px;
     }
@@ -30,13 +30,13 @@
       border-radius: 20px;
       padding: 30px;
       margin-bottom: 30px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
     }
 
     .header-top {
       display: flex;
       justify-content: space-between;
-      align-items: start;
+      align-items: center;
       flex-wrap: wrap;
       gap: 20px;
       margin-bottom: 20px;
@@ -45,7 +45,7 @@
     .site-title {
       font-size: 2.5rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -63,49 +63,107 @@
       background: #f9fafb;
       padding: 20px;
       border-radius: 12px;
-      border-left: 4px solid #667eea;
+      border-left: 4px solid #3b82f6;
+      margin-bottom: 20px;
     }
 
     .event-name {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-weight: 700;
       color: #111827;
-      margin-bottom: 8px;
     }
 
-    .event-details {
+    .event-stats {
       color: #6b7280;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
+      margin-top: 8px;
     }
 
-    .spoiler-warning {
-      background: #10b981;
-      color: white;
-      padding: 12px 20px;
+    /* Star Filter */
+    .filter-section {
+      background: #f0f9ff;
+      padding: 20px;
       border-radius: 12px;
-      margin-top: 20px;
+      border: 1px solid #bae6fd;
+    }
+
+    .filter-label {
+      font-weight: 600;
+      color: #0369a1;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .star-filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .star-filter-btn {
+      padding: 10px 16px;
+      border: 2px solid #e5e7eb;
+      border-radius: 10px;
+      background: white;
+      cursor: pointer;
+      font-size: 0.9rem;
       font-weight: 500;
+      transition: all 0.2s;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 6px;
     }
 
-    /* Race Sections */
-    .race-section {
+    .star-filter-btn:hover {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+
+    .star-filter-btn.active {
+      border-color: #3b82f6;
+      background: #3b82f6;
+      color: white;
+    }
+
+    .star-filter-btn .stars {
+      color: #fbbf24;
+    }
+
+    .star-filter-btn.active .stars {
+      color: #fef3c7;
+    }
+
+    .filter-count {
+      font-size: 0.75rem;
+      opacity: 0.7;
+    }
+
+    .visible-count {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    /* Month Sections */
+    .month-section {
       margin-bottom: 40px;
     }
 
-    .section-title {
+    .month-section.hidden {
+      display: none;
+    }
+
+    .month-title {
       color: white;
       font-size: 1.5rem;
       font-weight: 700;
       margin-bottom: 20px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
     }
 
-    .count {
+    .month-count {
       background: rgba(255,255,255,0.2);
       padding: 4px 12px;
       border-radius: 20px;
@@ -116,200 +174,157 @@
     /* Race Grid */
     .race-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
     }
 
     /* Race Cards */
     .race-card {
       background: white;
-      border-radius: 16px;
-      padding: 20px;
-      text-decoration: none;
-      color: inherit;
+      border-radius: 12px;
+      padding: 16px;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       display: flex;
       flex-direction: column;
-      position: relative;
-      overflow: hidden;
+      border-left: 4px solid #3b82f6;
+    }
+
+    .race-card.hidden {
+      display: none;
     }
 
     .race-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     }
 
-    .race-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, #667eea, #764ba2);
-      transform: scaleX(0);
-      transition: transform 0.3s ease;
-    }
-
-    .race-card:hover::before {
-      transform: scaleX(1);
+    .race-card.tbd {
+      opacity: 0.7;
+      border-left-color: #9ca3af;
     }
 
     .race-header {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 12px;
-      flex-wrap: wrap;
-      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .rating-stars {
+      font-size: 1rem;
+    }
+
+    .stars {
+      color: #fbbf24;
+      letter-spacing: 1px;
+    }
+
+    .category-badge {
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+
+    .race-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 8px;
+      line-height: 1.3;
     }
 
     .race-meta {
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 4px;
-    }
-
-    .race-type {
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 6px;
-      letter-spacing: 0.5px;
-      background: #e5e7eb;
-      color: #4b5563;
-    }
-
-    .type-live {
-      background: #ef4444;
-      color: white;
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.7; }
-    }
-
-    .race-duration, .race-date {
-      font-size: 0.75rem;
-      color: #6b7280;
-      font-weight: 500;
-    }
-
-    .race-date {
-      color: #8b5cf6;
-    }
-
-    .race-title {
-      font-size: 1.125rem;
-      font-weight: 600;
-      color: #111827;
+      flex-wrap: wrap;
+      gap: 12px;
       margin-bottom: 12px;
-      line-height: 1.4;
-    }
-
-    .race-description {
+      font-size: 0.8rem;
       color: #6b7280;
-      font-size: 0.875rem;
-      line-height: 1.5;
-      margin-bottom: 16px;
-      flex-grow: 1;
     }
 
     .race-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 16px;
+      padding-top: 12px;
       border-top: 1px solid #e5e7eb;
+      margin-top: auto;
     }
 
     .platform-badge {
       color: white;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 700;
-      padding: 6px 12px;
-      border-radius: 8px;
+      padding: 4px 10px;
+      border-radius: 6px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
 
-    .watch-cta {
-      color: #667eea;
-      font-weight: 600;
-      font-size: 0.875rem;
-    }
-
-    /* TBD/Future Events Styling */
-    .race-card.tbd {
-      opacity: 0.7;
-      pointer-events: none;
-      cursor: default;
-    }
-
-    .race-card.tbd:hover {
-      transform: none;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    }
-
-    .race-card.tbd .watch-cta {
+    .status-tbd {
       color: #9ca3af;
+      font-size: 0.8rem;
+      font-style: italic;
     }
 
-    /* Info Box */
-    .info-box {
+    .status-ready {
+      color: #10b981;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    /* Legend */
+    .legend {
       background: rgba(255,255,255,0.98);
-      border-radius: 20px;
-      padding: 30px;
+      border-radius: 16px;
+      padding: 24px;
       margin-top: 40px;
       box-shadow: 0 10px 40px rgba(0,0,0,0.1);
     }
 
-    .info-title {
-      font-size: 1.25rem;
+    .legend-title {
+      font-size: 1.1rem;
       font-weight: 700;
       color: #111827;
       margin-bottom: 16px;
     }
 
-    .info-grid {
+    .legend-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
+      gap: 12px;
     }
 
-    .info-item {
-      padding: 16px;
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
       background: #f9fafb;
-      border-radius: 12px;
-      border: 1px solid #e5e7eb;
+      border-radius: 8px;
     }
 
-    .info-item-title {
-      font-weight: 600;
-      color: #111827;
-      margin-bottom: 8px;
-      font-size: 0.95rem;
+    .legend-stars {
+      font-size: 0.9rem;
     }
 
-    .info-item-content {
-      color: #6b7280;
-      font-size: 0.875rem;
-      line-height: 1.4;
+    .legend-text {
+      font-size: 0.85rem;
+      color: #374151;
     }
 
     /* Footer */
     .footer {
       text-align: center;
-      color: rgba(255,255,255,0.9);
+      color: rgba(255,255,255,0.8);
       padding: 40px 0 20px;
       font-size: 0.875rem;
     }
 
-    /* Mobile Responsive */
+    /* Mobile */
     @media (max-width: 768px) {
       .site-title {
         font-size: 1.75rem;
@@ -319,8 +334,8 @@
         grid-template-columns: 1fr;
       }
 
-      .info-grid {
-        grid-template-columns: 1fr;
+      .star-filters {
+        justify-content: center;
       }
 
       .header {
@@ -338,65 +353,4003 @@
     <!-- Header -->
     <header class="header">
       <div class="header-top">
-        <h1 class="site-title">🚴 Non-Spoiler Cycling</h1>
-        <div class="last-updated">Updated: January 5, 2026 at 04:00 PM</div>
-      </div>
-      
-      <div class="event-info">
-        <div class="event-name">UCI Men's Elite Cycling Calendar 2026</div>
-        <div class="event-details">📍 Worldwide • 2026</div>
+        <h1 class="site-title">🚴 2026 Pro Cycling Calendar</h1>
+        <div class="last-updated">Updated: January 6, 2026</div>
       </div>
 
-      <div class="spoiler-warning">
-        <span>✓</span>
-        <span>100% Spoiler-Free: All content verified to contain only race footage - no results, no outcomes, no speculation</span>
+      <div class="event-info">
+        <div class="event-name">UCI Men's Elite Cycling Calendar 2026</div>
+        <div class="event-stats">
+          225 races •
+          ⭐⭐⭐⭐⭐ 9 •
+          ⭐⭐⭐⭐ 28 •
+          ⭐⭐⭐ 61 •
+          ⭐⭐ 37 •
+          ⭐ 90
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <label class="filter-label">Filter by Interest Rating:</label>
+        <div class="star-filters">
+          <button class="star-filter-btn active" data-min="1" onclick="filterByStars(1)">
+            <span>All Races</span>
+            <span class="filter-count">(225)</span>
+          </button>
+          <button class="star-filter-btn" data-min="2" onclick="filterByStars(2)">
+            <span class="stars">★★</span><span>+</span>
+            <span class="filter-count">(135)</span>
+          </button>
+          <button class="star-filter-btn" data-min="3" onclick="filterByStars(3)">
+            <span class="stars">★★★</span><span>+</span>
+            <span class="filter-count">(98)</span>
+          </button>
+          <button class="star-filter-btn" data-min="4" onclick="filterByStars(4)">
+            <span class="stars">★★★★</span><span>+</span>
+            <span class="filter-count">(37)</span>
+          </button>
+          <button class="star-filter-btn" data-min="5" onclick="filterByStars(5)">
+            <span class="stars">★★★★★</span>
+            <span class="filter-count">(9)</span>
+          </button>
+        </div>
+        <div class="visible-count">Showing <span id="visible-count">225</span> of 225 races</div>
       </div>
     </header>
 
     <!-- Main Content -->
     <main>
       
-      
-      
-      
+    <section class="month-section" data-month="2026-01">
+      <h2 class="month-title">January 2026 <span class="month-count">11</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour El Salvador</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 17-22</span>
+        <span class="race-location">📍 El Salvador</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour Down Under</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 20-26</span>
+        <span class="race-location">📍 Australia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Classica Camp de Morvedre</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 23-24</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Marratxi - Felanitx</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 24-25</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Clàsica Comunitat Valenciana</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 25-26</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Binissalem - Andratx</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 26-27</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Calvià</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 28-29</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Surf Coast Classic Men</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 29-30</span>
+        <span class="race-location">📍 Australia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Ses Salines</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 29-30</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Serra Tramuntana</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 30-31</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Andratx - Pollença</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jan 31 - Feb 1</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-02">
+      <h2 class="month-title">February 2026 <span class="month-count">27</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP La Marseillaise</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 1-2</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Pionera Race</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 1-2</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Palma</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 1-2</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Cadel Evans Great Ocean Road Race</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 1-2</span>
+        <span class="race-location">📍 Australia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Etoile de Bessèges</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 4-9</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Volta Comunitat Valenciana</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 4-9</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Muscat Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 6-7</span>
+        <span class="race-location">📍 Oman</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Oman</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 7-12</span>
+        <span class="race-location">📍 Oman</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Aveiro Fegion Champions Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 8-9</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Oro in Euro</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 8-9</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Vuelta CV Feminas</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 8-9</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour de La Provence</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 13-16</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Vuelta a Murcia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 13-15</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Figueira Champions Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 14-15</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Clasica de Almeria</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 15-16</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Clásica Jaén</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 16-17</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">UAE Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 16-23</span>
+        <span class="race-location">📍 United Arab Emirates</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Volta ao Algarve</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 18-23</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Vuelta a Andalucia - Ruta del Sol</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 18-23</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Classic Var</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 21-22</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Classica de Almeria</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 22-23</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Jean-Pierre Monseré</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 22-23</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Midwest Cycling Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 22-23</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Tour des Alpes-Maritimes</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 22-23</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour du Rwanda</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 22 - Mar 2</span>
+        <span class="race-location">📍 Rwanda</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Giro di Sardegna</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 25 - Mar 2</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Visit South Aegean GP</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Feb 28 - Mar 1</span>
+        <span class="race-location">📍 Greece</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-03">
+      <h2 class="month-title">March 2026 <span class="month-count">25</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Faun Drôme Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 1-2</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Kuurne-Brussels-Kuurne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 1-2</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Omloop Van Het Hageland</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 1-2</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Region On Dodecanese GP</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 1-2</span>
+        <span class="race-location">📍 Greece</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Le Samyn</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 3-4</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Trofeo Laigueglia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 4-5</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Strade Bianche</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 7-8</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Paris-Nice</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 8-16</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tirreno-Adriatico</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 9-16</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Ixina Leeuw-Oetingen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 11-12</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour de Taiwan</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 15-20</span>
+        <span class="race-location">📍 Taiwan</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Milano-Torino</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 18-19</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Noekere Koerse</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 18-19</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Nokere Koerse</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 18-19</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">GP de Denain</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 19-20</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Koksijde Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 20-21</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Milano-Sanremo</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 21-22</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Princess Maha Chakri Sirindhorn's Cup Tour of Thailand</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 24-30</span>
+        <span class="race-location">📍 Thailand</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Settimana Coppi e Bartali</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 24-29</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Ronde Van Brugge</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 25-26</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">E3 Saxo Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 27-28</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Gent-Wevelgem</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 29-30</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Emilia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 29-30</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">La Roue Tourangelle</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 29-30</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Paris-Camembert</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Mar 31 - Apr 1</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-04">
+      <h2 class="month-title">April 2026 <span class="month-count">27</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Dwars Door Vlaanderen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 1-2</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">La Route Adélie de Vitré</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 3-4</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">NXT Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 4-5</span>
+        <span class="race-location">📍 Netherlands</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Ronde Van Vlaanderen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 5-6</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Cholet Agglo Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 6-7</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Itzulia Basque Country</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 6-12</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Région Pays de La Loire Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 7-11</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Région Pays de la Loire Tour Féminin</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 8-9</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Scheldeprijs</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 8-9</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Giro di Reggio Calabria</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 10-11</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Giro della Magna Grecia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 12-17</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Paris-Roubaix</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 12-13</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">O Gran Camiño</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 14-19</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Ronde Van Limburg</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 15-16</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Brabantse Pijl</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 17-18</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Classic Grand Bescançon Doubs</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 17-18</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Tour du Jura</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 18-19</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Amstel Gold Race</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 19-20</span>
+        <span class="race-location">📍 Netherlands</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Féminin de Chambéry</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 19-20</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">GP Samarkand</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 20-22</span>
+        <span class="race-location">📍 Uzbekistan</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of the Alps</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 20-25</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">La Flèche Wallonne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 22-23</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Vuelta Asturias</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 23-27</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP della Liberazione Donne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 26-27</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Liège-Bastogne-Liège</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 26-27</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Türkiye</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 26 - May 4</span>
+        <span class="race-location">📍 Türkiye</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour de Romandie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Apr 28 - May 4</span>
+        <span class="race-location">📍 Switzerland</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-05">
+      <h2 class="month-title">May 2026 <span class="month-count">29</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Eschborn-Frankfurt</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 1-2</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">GP Anicolor</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 1-4</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Immo Zone Vloer-en-Chapewerken</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 1-2</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Festival Elsy Jacobs</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 2-4</span>
+        <span class="race-location">📍 Luxembourg</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Famenne Ardenne Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 3-4</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Giro dell'Appennino</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 3-4</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Hellas</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 6-11</span>
+        <span class="race-location">📍 Greece</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Giro d'Italia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 8 - Jun 1</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">La Classique Morbihan</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 8-9</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">GP du Morbihan</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 9-10</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Baku-Khankendi Azerbaijan</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 10-15</span>
+        <span class="race-location">📍 Azerbaijan</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Tro-Bro Léon</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 10-11</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofee Maarten Wynants</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 10-11</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Flèche du Sud</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 13-18</span>
+        <span class="race-location">📍 Luxembourg</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour de Hongrie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 13-18</span>
+        <span class="race-location">📍 Hungary</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Circuit de Wallonie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 14-15</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Tour du Finistère</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 16-17</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Boucles de l'Aulne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 17-18</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Rund um Köln</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 17-18</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Classique Dunkerque</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 19-20</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Emakumeen Saria</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 19-20</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">4 Jours de Dunkerque</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 20-25</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">GP Beiras e Serra da Estrela</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 20-25</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Veenendaal-Veenendaal</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 22-24</span>
+        <span class="race-location">📍 Netherlands</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Criquelion</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 24-25</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Antwerp Port Epic - Sels Trophy</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 25-26</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Mazda</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 25-26</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Boucles de la Mayenne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 28 - Jun 1</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Ciudad de Eibar</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 May 31 - Jun 1</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-06">
+      <h2 class="month-title">June 2026 <span class="month-count">20</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour de Wallonie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 1-6</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Mercan'tour Classic Alpes-Maritimes</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 3-4</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Estonia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 4-7</span>
+        <span class="race-location">📍 Estonia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Heistse Pijl</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 6-7</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Alpes Grésivaudan Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 7-8</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Brussels Cycling Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 7-8</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Dwars Door De Westhoek</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 7-8</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour Auvergne-Rhône-Alpes</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 7-15</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Circuit Franco-Belge</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 10-11</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour Féminin International des Pyrénées</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 12-15</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Dwars Door Het Hageland</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 13-14</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Copenhagen Sprint</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 14-15</span>
+        <span class="race-location">📍 Denmark</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Elfstedenronde</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 14-15</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Flanders Diamond Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 14-15</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Gippingen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 14-15</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Baloise Belgium Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 17-22</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour de Suisse</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 17-22</span>
+        <span class="race-location">📍 Switzerland</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Slovenia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 17-22</span>
+        <span class="race-location">📍 Slovenia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">La Route d'Occitanie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 18-21</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Andorra Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jun 21-22</span>
+        <span class="race-location">📍 Andorra</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-07">
+      <h2 class="month-title">July 2026 <span class="month-count">11</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Lyon-Torino</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 1-4</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Sibiu Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 4-8</span>
+        <span class="race-location">📍 Romania</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour de France</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 4-27</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Argenta Classic - Deurne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 5-6</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Magnificent Qinghai</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 5-13</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Austria</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 7-13</span>
+        <span class="race-location">📍 Austria</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">La Picto en Nouvelle-Aquitaine</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 19-20</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Clásica de Ordizia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 25-26</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Clasica Castilla y Leon</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 26-27</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour de l'Ain</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 28-31</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Denmark</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Jul 29 - Aug 3</span>
+        <span class="race-location">📍 Denmark</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-08">
+      <h2 class="month-title">August 2026 <span class="month-count">24</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Donostia San Sebastian Klasikoa</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 1-2</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">China Xizang Trans-Himalaya</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 2-7</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Circuito de Getxo</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 2-3</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour de Pologne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 3-10</span>
+        <span class="race-location">📍 Poland</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Vuelta a Burgos</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 4-9</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Volta a Portugal</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 5-17</span>
+        <span class="race-location">📍 Portugal</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Arctic Race of Norway</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 13-17</span>
+        <span class="race-location">📍 Norway</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Czech Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 13-17</span>
+        <span class="race-location">📍 Czechia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Yvonne Reynders</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 15-16</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">ADAC Cyclassics</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 16-17</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">La Polynormande</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 16-17</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour du Limousin</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 18-22</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Deutschland Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 19-24</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Renewi Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 19-24</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">GP Lucien Van Impe</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 20-21</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Konvert Kortrijk Koerse</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 21-22</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Vuelta a España</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 22 - Sep 14</span>
+        <span class="race-location">📍 Spain</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour du Poitou-Charentes en Nouvelle-Aquitaine</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 25-29</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Muur Classic Geraardsbergen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 26-27</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Kreiz Breizh Féminin</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 27-28</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Bretagne Classic - Ouest France</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 30-31</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP Kranj</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 30-31</span>
+        <span class="race-location">📍 Slovenia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Philadelphia Cycling Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 30-31</span>
+        <span class="race-location">📍 United States</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour de Korea</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Aug 31 - Sep 5</span>
+        <span class="race-location">📍 South Korea</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-09">
+      <h2 class="month-title">September 2026 <span class="month-count">31</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour of Britain Men</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 2-7</span>
+        <span class="race-location">📍 United Kingdom</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">ZLM Tour</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 2-7</span>
+        <span class="race-location">📍 Netherlands</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Maryland Cycling Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 5-8</span>
+        <span class="race-location">📍 United States</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Binzhou</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 8-10</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Giro della Toscana - Memorial Alfredo Martini</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 9-10</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Coppa Sabatini</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 10-11</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">GP de Québec</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 11-12</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">A Travers Les Hauts de France</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 12-13</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Memorial Marco Pantani</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 12-13</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Taihu Lake</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 12-17</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">GP de Fourmies - La Voix du Nord</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 13-14</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">GP de Montréal</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 13-14</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">La Choralis Fourmies Féminine</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 13-14</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Matteotti</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 13-14</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Il Giro d'Abruzzo</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 15-19</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Chrono Féminin du Gatineau</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 16-17</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">GP de Wallonie</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 16-17</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Okolo Slovenska</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 16-21</span>
+        <span class="race-location">📍 Slovakia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Tour du Gatineau</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 17-18</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Kampioenscap Van Vlaanderen</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 18-19</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Huangshan</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 18-21</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">GP del Lazio</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 19-20</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Super 8 Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 19-20</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Giro della Romagna</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 20-21</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Gooikske Pijl</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 20-21</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #f59e0b">WC</span>
+      </div>
+      <h3 class="race-title">World Championships: Men's TT</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 20-21</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #f59e0b">WC</span>
+      </div>
+      <h3 class="race-title">World Championships: Mixed Relay TT</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 22-23</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Omloop Van Het Houtland</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 23-24</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Paris-Chauny</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 27-28</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #3b82f6">2.Pro</span>
+      </div>
+      <h3 class="race-title">Tour de Langkawi</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 27 - Oct 5</span>
+        <span class="race-location">📍 Malaysia</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #f59e0b">WC</span>
+      </div>
+      <h3 class="race-title">World Championships: Men's Road Race</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Sep 27-28</span>
+        <span class="race-location">📍 Canada</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="month-section" data-month="2026-10">
+      <h2 class="month-title">October 2026 <span class="month-count">20</span></h2>
+      <div class="race-grid">
+        
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Giro dell'Emilia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 3-4</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Giro dell'Emilia Donne</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 3-4</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Sparkassen Münsterland Giro</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 3-4</span>
+        <span class="race-location">📍 Germany</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Coppa Agostoni</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 4-5</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Tour of Vendée</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 4-5</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Coppa Bernocchi</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 5-6</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Binche-Chimay-Binche</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 6-7</span>
+        <span class="race-location">📍 Belgium</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Tre Valle Varesine</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 6-7</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Gran Piemonte</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 8-9</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="5">
+      <div class="race-header">
+        <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
+        <span class="category-badge" style="background-color: #8b5cf6">1.UWT</span>
+      </div>
+      <h3 class="race-title">Il Lombardia</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 10-11</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour de Kyushu</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 10-13</span>
+        <span class="race-location">📍 Japan</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Paris-Tours</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 11-12</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Sun Hung Kai Hong Kong Cyclothon</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 11-12</span>
+        <span class="race-location">📍 Hong Kong</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Trofeo Tessile & Moda</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 11-12</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="4">
+      <div class="race-header">
+        <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
+        <span class="category-badge" style="background-color: #6366f1">2.UWT</span>
+      </div>
+      <h3 class="race-title">Tour of Guangxi</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 13-19</span>
+        <span class="race-location">📍 China</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="2">
+      <div class="race-header">
+        <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #14b8a6">2.1</span>
+      </div>
+      <h3 class="race-title">Tour of Holland</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 13-19</span>
+        <span class="race-location">📍 Netherlands</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Giro del Veneto</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 14-15</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="1">
+      <div class="race-header">
+        <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
+        <span class="category-badge" style="background-color: #6b7280">1.1</span>
+      </div>
+      <h3 class="race-title">Chrono des Nations</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 18-19</span>
+        <span class="race-location">📍 France</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Utsunomiya Japan Cup</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 18-19</span>
+        <span class="race-location">📍 Japan</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+    <div class="race-card tbd" data-rating="3">
+      <div class="race-header">
+        <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
+        <span class="category-badge" style="background-color: #0ea5e9">1.Pro</span>
+      </div>
+      <h3 class="race-title">Veneto Classic</h3>
+      <div class="race-meta">
+        <span class="race-date">📅 Oct 18-19</span>
+        <span class="race-location">📍 Italy</span>
+      </div>
+      <div class="race-footer">
+        <span class="platform-badge" style="background-color: #6B7280">
+          TBD
+        </span>
+        <span class="status-tbd">Awaiting Coverage</span>
+      </div>
+    </div>
+      </div>
+    </section>
     </main>
 
-    <!-- Info Box -->
-    <div class="info-box">
-      <h2 class="info-title">📖 About This Page</h2>
-      <div class="info-grid">
-        <div class="info-item">
-          <div class="info-item-title">What You'll Find</div>
-          <div class="info-item-content">
-            Direct links to actual race footage only. No previews, predictions, or post-race analysis. Click any card to watch immediately.
-          </div>
+    <!-- Legend -->
+    <div class="legend">
+      <h2 class="legend-title">⭐ Rating Guide</h2>
+      <div class="legend-grid">
+        <div class="legend-item">
+          <span class="legend-stars stars">★★★★★</span>
+          <span class="legend-text">Can't miss - Grand Tours, Monuments, WC Road</span>
         </div>
-        <div class="info-item">
-          <div class="info-item-title">Content Sources</div>
-          <div class="info-item-content">
-            YouTube (free highlights), FloBikes (premium full races), Peacock (NBC coverage), TBD (To Be Determined platform)
-          </div>
+        <div class="legend-item">
+          <span class="legend-stars stars">★★★★☆</span>
+          <span class="legend-text">Major events - World Tour races</span>
         </div>
-        <div class="info-item">
-          <div class="info-item-title">How It Works</div>
-          <div class="info-item-content">
-            Content discovered via Claude Code sessions using the Firecrawl API. Every link manually verified to be spoiler-free race footage.
-          </div>
+        <div class="legend-item">
+          <span class="legend-stars stars">★★★☆☆</span>
+          <span class="legend-text">Good racing - Pro Series</span>
         </div>
-        <div class="info-item">
-          <div class="info-item-title">Platform Access</div>
-          <div class="info-item-content">
-            Some platforms require subscriptions. Links open directly to video players when you're logged in to those services.
-          </div>
+        <div class="legend-item">
+          <span class="legend-stars stars">★★☆☆☆</span>
+          <span class="legend-text">Nice to catch - Continental stage</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-stars stars">★☆☆☆☆</span>
+          <span class="legend-text">Completionist - Minor one-days</span>
         </div>
       </div>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-      <p>Non-Spoiler Cycling • Powered by Claude Code + Firecrawl API</p>
-      <p style="margin-top: 8px; opacity: 0.8;">Watch the races. Skip the spoilers.</p>
+      <p>2026 Pro Cycling Calendar • Powered by Claude Code</p>
     </footer>
   </div>
+
+  <script>
+    function filterByStars(minRating) {
+      let visibleCount = 0;
+
+      // Update button states
+      document.querySelectorAll('.star-filter-btn').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.min) === minRating);
+      });
+
+      // Filter cards
+      document.querySelectorAll('.race-card').forEach(card => {
+        const rating = parseInt(card.dataset.rating);
+        const visible = rating >= minRating;
+        card.classList.toggle('hidden', !visible);
+        if (visible) visibleCount++;
+      });
+
+      // Update month sections (hide if no visible cards)
+      document.querySelectorAll('.month-section').forEach(section => {
+        const visibleCards = section.querySelectorAll('.race-card:not(.hidden)').length;
+        section.classList.toggle('hidden', visibleCards === 0);
+
+        // Update month count
+        const countEl = section.querySelector('.month-count');
+        if (countEl) countEl.textContent = visibleCards;
+      });
+
+      // Update total count
+      document.getElementById('visible-count').textContent = visibleCount;
+    }
+  </script>
 </body>
 </html>
