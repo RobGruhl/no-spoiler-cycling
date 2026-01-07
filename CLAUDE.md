@@ -78,17 +78,17 @@ import { youtubeSearch, scrapeContent } from './lib/firecrawl-utils.js';
 
 ### Content Discovery Session
 ```
-User: "Find Tour de France 2025 stage recordings"
+User: "Find Tour de France 2026 stage recordings"
 
 Your Process:
 1. CREATE SEARCH TERMS: Generate intelligent queries
-   - "Tour de France 2025 stage recording"
-   - "TdF 2025 full coverage"
+   - "Tour de France 2026 stage recording"
+   - "TdF 2026 full coverage"
    - "Tour de France stage replay"
 
 2. SEARCH PLATFORMS: Use utilities to find candidates
-   node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('Tour de France 2025 stage recording')"
-   node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('TdF 2025 full coverage')"
+   node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('Tour de France 2026 stage recording')"
+   node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('TdF 2026 full coverage')"
 
 3. REPEAT SEARCHES: Try additional terms if needed
    node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('Tour de France stage replay')"
@@ -128,11 +128,11 @@ Action: Include only ✅ safe content in race-data.json
 ### race-data.json Schema
 ```json
 {
-  "lastUpdated": "2025-09-22T01:00:00Z",
+  "lastUpdated": "2026-09-22T01:00:00Z",
   "event": {
-    "name": "UCI Road World Championships 2025",
+    "name": "UCI Road World Championships 2026",
     "location": "Rwanda",
-    "year": 2025
+    "year": 2026
   },
   "races": [
     {
@@ -145,9 +145,9 @@ Action: Include only ✅ safe content in race-data.json
       "url": "direct-link-to-race-footage",
       "type": "full-race|highlights|extended-highlights|live",
       "duration": "2:45:30",
-      "raceDate": "2025-09-21",
+      "raceDate": "2026-09-21",
       "raceDay": "Sunday",
-      "discoveredAt": "2025-09-22T01:00:00Z"
+      "discoveredAt": "2026-09-22T01:00:00Z"
     }
   ]
 }
@@ -166,14 +166,14 @@ For races that haven't occurred yet or lack discovered content:
 ```json
 {
   "id": "race-women-elite-road-race-tbd",
-  "name": "Women Elite Road Race | 2025 UCI Road World Championships",
+  "name": "Women Elite Road Race | 2026 UCI Road World Championships",
   "description": "Women's elite road race featuring 11 laps of the challenging Kigali circuit (164.6km, 3,350m elevation)",
   "platform": "TBD",
   "url": "TBD",
   "type": "full-race",
-  "raceDate": "2025-09-27",
+  "raceDate": "2026-09-27",
   "raceDay": "Saturday",
-  "discoveredAt": "2025-09-22T01:15:00.000Z"
+  "discoveredAt": "2026-09-22T01:15:00.000Z"
 }
 ```
 
@@ -200,7 +200,7 @@ For races that haven't occurred yet or lack discovered content:
 
 ```bash
 # Discover content (using lib/firecrawl-utils.js)
-node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('UCI World Championships 2025')"
+node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch('UCI World Championships 2026')"
 node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('Tour de France stage recording')"
 node -e "import { scrapeContent } from './lib/firecrawl-utils.js'; scrapeContent('https://specific-race-url')"
 
