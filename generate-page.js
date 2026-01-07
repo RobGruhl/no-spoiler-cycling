@@ -1137,7 +1137,7 @@ function generateHTML(raceData) {
     <!-- Footer -->
     <footer class="footer">
       <p>2026 Pro Cycling Calendar • Built with <a href="https://claude.ai/download" target="_blank" rel="noopener">Claude Code</a></p>
-      <p><a href="about.html">About This Project</a></p>
+      <p><a href="riders.html">Top Riders</a> · <a href="about.html">About This Project</a></p>
     </footer>
   </div>
 

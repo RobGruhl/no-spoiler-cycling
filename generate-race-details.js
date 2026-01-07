@@ -101,7 +101,8 @@ const difficultyStars = (rating) => {
 function generateRaceDetailsHTML(race, options = {}) {
   const {
     backLink = '../index.html',
-    backText = 'Back to Calendar'
+    backText = 'Back to Calendar',
+    riders = []
   } = options;
 
   const details = race.raceDetails || {};
@@ -346,6 +347,63 @@ function generateRaceDetailsHTML(race, options = {}) {
         </div>
         ${youtubeHTML}
         ${race.broadcast.notes ? `<p class="broadcast-footer-notes">${race.broadcast.notes}</p>` : ''}
+      </section>
+    `;
+  };
+
+  // Generate Key Riders HTML
+  const generateKeyRidersHTML = () => {
+    if (!riders || riders.length === 0) return '';
+
+    // Find riders whose race program includes this race
+    const raceSlug = race.id.replace(/-2026$/, '').toLowerCase();
+
+    const competingRiders = riders.filter(rider => {
+      if (!rider.raceProgram?.races) return false;
+      return rider.raceProgram.races.some(r => {
+        const programSlug = r.raceSlug?.toLowerCase() || '';
+        return programSlug === raceSlug ||
+               programSlug.includes(raceSlug) ||
+               raceSlug.includes(programSlug);
+      });
+    });
+
+    if (competingRiders.length === 0) return '';
+
+    const nationalityFlags = {
+      'SL': '🇸🇮', 'SI': '🇸🇮', 'DE': '🇩🇪', 'DK': '🇩🇰', 'BE': '🇧🇪',
+      'NL': '🇳🇱', 'FR': '🇫🇷', 'IT': '🇮🇹', 'ES': '🇪🇸', 'GB': '🇬🇧',
+      'UK': '🇬🇧', 'US': '🇺🇸', 'AU': '🇦🇺', 'CO': '🇨🇴', 'PO': '🇵🇹',
+      'PT': '🇵🇹', 'ME': '🇲🇽', 'MX': '🇲🇽', 'XX': '🏳️'
+    };
+
+    const ridersHTML = competingRiders.map(rider => {
+      const flag = nationalityFlags[rider.nationalityCode] || '🏳️';
+      const photoSrc = rider.photoUrl?.startsWith('riders/')
+        ? `../${rider.photoUrl}`
+        : rider.photoUrl || '../riders/photos/placeholder.jpg';
+
+      return `
+        <a href="../riders/${rider.slug}.html" class="key-rider-card">
+          <img src="${photoSrc}" alt="${rider.name}" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#${rider.ranking}</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">${flag}</span>
+            <span class="key-rider-name">${rider.name}</span>
+            <span class="key-rider-team">${rider.team}</span>
+          </div>
+        </a>
+      `;
+    }).join('');
+
+    return `
+      <section class="details-section key-riders-section">
+        <h2 class="section-title">🚴 Key Riders</h2>
+        <p class="key-riders-intro">Top-ranked riders with this race in their 2026 program</p>
+        <div class="key-riders-grid">
+          ${ridersHTML}
+        </div>
+        <a href="../riders.html" class="view-all-riders">View all riders →</a>
       </section>
     `;
   };
@@ -884,6 +942,106 @@ function generateRaceDetailsHTML(race, options = {}) {
       text-align: center;
     }
 
+    /* Key Riders Section */
+    .key-riders-section {
+      background: linear-gradient(135deg, #fefce8, #fef9c3);
+      border: 2px solid #eab308;
+    }
+
+    .key-riders-intro {
+      color: #854d0e;
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    .key-riders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .key-rider-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: relative;
+    }
+
+    .key-rider-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    .key-rider-photo {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      object-position: top;
+      background: #e5e7eb;
+    }
+
+    .key-rider-rank {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 10px;
+    }
+
+    .key-rider-info {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .key-rider-flag {
+      font-size: 1rem;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .key-rider-name {
+      display: block;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: #1f2937;
+      line-height: 1.2;
+      margin-bottom: 2px;
+    }
+
+    .key-rider-team {
+      display: block;
+      font-size: 0.7rem;
+      color: #6b7280;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .view-all-riders {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: #854d0e;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .view-all-riders:hover {
+      background: #fef9c3;
+    }
+
     /* Empty State */
     .empty-state {
       background: rgba(255, 255, 255, 0.98);
@@ -980,12 +1138,14 @@ function generateRaceDetailsHTML(race, options = {}) {
       </div>
     `}
 
+    ${generateKeyRidersHTML()}
+
     ${generateBroadcastHTML()}
 
     <footer class="footer">
       <p>No Spoiler Cycling | Race details are spoiler-safe</p>
       ${details.lastFetched ? `<p>Last updated: ${new Date(details.lastFetched).toLocaleDateString()}</p>` : ''}
-      <p><a href="../index.html">Calendar</a> · <a href="../about.html">About</a></p>
+      <p><a href="../index.html">Calendar</a> · <a href="../riders.html">Riders</a> · <a href="../about.html">About</a></p>
     </footer>
   </div>
 </body>
@@ -997,18 +1157,36 @@ function generateRaceDetailsHTML(race, options = {}) {
 // ============================================
 
 /**
+ * Load riders data for Key Riders section
+ */
+function loadRidersData(ridersDataPath = './data/riders.json') {
+  try {
+    const data = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
+    return data.riders || [];
+  } catch {
+    console.warn('⚠️ Could not load riders.json, Key Riders section will be skipped');
+    return [];
+  }
+}
+
+/**
  * Generate race details page for a single race
  */
-function generateRaceDetailsPage(race, outputDir = './race-details') {
+function generateRaceDetailsPage(race, outputDir = './race-details', riders = null) {
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  // Load riders if not provided
+  if (riders === null) {
+    riders = loadRidersData();
+  }
+
   const filename = `${race.id}.html`;
   const filepath = path.join(outputDir, filename);
 
-  const html = generateRaceDetailsHTML(race);
+  const html = generateRaceDetailsHTML(race, { riders });
   fs.writeFileSync(filepath, html);
 
   console.log(`✅ Generated: ${filepath}`);
@@ -1020,6 +1198,7 @@ function generateRaceDetailsPage(race, outputDir = './race-details') {
  */
 function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', outputDir = './race-details') {
   const data = JSON.parse(fs.readFileSync(raceDataPath, 'utf8'));
+  const riders = loadRidersData();
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -1030,7 +1209,7 @@ function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', out
 
   data.races.forEach(race => {
     if (race.raceDetails && Object.keys(race.raceDetails).length > 0) {
-      generateRaceDetailsPage(race, outputDir);
+      generateRaceDetailsPage(race, outputDir, riders);
       generated++;
     }
   });

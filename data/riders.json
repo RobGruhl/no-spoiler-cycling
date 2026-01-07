@@ -1,0 +1,976 @@
+{
+  "lastUpdated": "2026-01-07T22:25:18.977Z",
+  "riders": [
+    {
+      "id": "tadej-pogacar",
+      "slug": "tadej-pogacar",
+      "name": "POGAČAR Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 1,
+      "points": 4921,
+      "nationality": "Slovenia",
+      "nationalityCode": "SL",
+      "dateOfBirth": "1998-09-21",
+      "weight": 66,
+      "height": 1.76,
+      "specialties": [
+        "climber",
+        "one-day",
+        "gc-contender"
+      ],
+      "photoUrl": "riders/photos/tadej-pogacar.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/tadej-pogacar",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:13:22.098Z",
+        "races": [
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de Romandie",
+            "raceSlug": "tour-de-romandie",
+            "raceDate": "2026-04-28",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isaac-del-toro",
+      "slug": "isaac-del-toro",
+      "name": "DEL TORO Isaac",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 2,
+      "points": 2755,
+      "nationality": "Mexico",
+      "nationalityCode": "ME",
+      "dateOfBirth": "2003-11-27",
+      "weight": 64,
+      "height": 1.8,
+      "specialties": [
+        "one-day",
+        "climber",
+        "gc-contender"
+      ],
+      "photoUrl": "riders/photos/isaac-del-toro.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/isaac-del-toro",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:13:27.239Z",
+        "races": [
+          {
+            "raceName": "UAE Tour",
+            "raceSlug": "uae-tour",
+            "raceDate": "2026-02-16",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Itzulia Basque Country",
+            "raceSlug": "itzulia-basque-country",
+            "raceDate": "2026-04-06",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jonas-vingegaard",
+      "slug": "jonas-vingegaard",
+      "name": "VINGEGAARD Jonas",
+      "team": "Team Visma \\| Lease a Bike",
+      "ranking": 3,
+      "points": 2399,
+      "nationality": "Denmark",
+      "nationalityCode": "DE",
+      "dateOfBirth": "1996-12-10",
+      "weight": 58,
+      "height": 1.75,
+      "specialties": [
+        "gc-contender",
+        "climber",
+        "time-trialist"
+      ],
+      "photoUrl": "riders/photos/jonas-vingegaard.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/jonas-vingegaard",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:13:33.335Z",
+        "races": []
+      }
+    },
+    {
+      "id": "joao-almeida",
+      "slug": "joao-almeida",
+      "name": "ALMEIDA João",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 4,
+      "points": 2270,
+      "nationality": "Portugal",
+      "nationalityCode": "PO",
+      "dateOfBirth": "1998-08-05",
+      "weight": 63,
+      "height": 1.78,
+      "specialties": [
+        "gc-contender",
+        "climber",
+        "time-trialist"
+      ],
+      "photoUrl": "riders/photos/joao-almeida.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/joao-almeida",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:13:38.783Z",
+        "races": [
+          {
+            "raceName": "Volta Comunitat Valenciana",
+            "raceSlug": "vuelta-a-la-comunidad-valenciana",
+            "raceDate": "2026-02-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Figueira Champions Classic",
+            "raceSlug": "figueira-champions-classic",
+            "raceDate": "2026-02-14",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Volta ao Algarve em Bicicleta",
+            "raceSlug": "volta-ao-algarve",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Paris-Nice",
+            "raceSlug": "paris-nice",
+            "raceDate": "2026-03-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Volta Ciclista a Catalunya",
+            "raceSlug": "volta-a-catalunya",
+            "raceDate": "2026-03-23",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Vuelta a Burgos",
+            "raceSlug": "vuelta-a-burgos",
+            "raceDate": "2026-08-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mads-pedersen",
+      "slug": "mads-pedersen",
+      "name": "PEDERSEN Mads",
+      "team": "Lidl - Trek",
+      "ranking": 5,
+      "points": 2233,
+      "nationality": "Denmark",
+      "nationalityCode": "DE",
+      "dateOfBirth": "1995-12-18",
+      "weight": 76,
+      "height": 1.8,
+      "specialties": [
+        "one-day",
+        "puncheur",
+        "sprinter"
+      ],
+      "photoUrl": "riders/photos/mads-pedersen.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/mads-pedersen",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:18:56.780Z",
+        "races": [
+          {
+            "raceName": "Volta Comunitat Valenciana",
+            "raceSlug": "vuelta-a-la-comunidad-valenciana",
+            "raceDate": "2026-02-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Tour de la Provence",
+            "raceSlug": "tour-cycliste-international-la-provence",
+            "raceDate": "2026-02-13",
+            "raceClass": null
+          },
+          {
+            "raceName": "Paris-Nice",
+            "raceSlug": "paris-nice",
+            "raceDate": "2026-03-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "E3 Saxo Classic",
+            "raceSlug": "e3-harelbeke",
+            "raceDate": "2026-03-27",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "remco-evenepoel",
+      "slug": "remco-evenepoel",
+      "name": "EVENEPOEL Remco",
+      "team": "Soudal Quick-Step",
+      "ranking": 6,
+      "points": 2117,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2000-01-25",
+      "weight": 63,
+      "height": 1.71,
+      "specialties": [
+        "time-trialist",
+        "climber",
+        "gc-contender"
+      ],
+      "photoUrl": "riders/photos/remco-evenepoel.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/remco-evenepoel",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:19:25.923Z",
+        "races": [
+          {
+            "raceName": "Trofeo Ses Salines",
+            "raceSlug": "trofeo-ses-salines-felanitx",
+            "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Volta Comunitat Valenciana",
+            "raceSlug": "vuelta-a-la-comunidad-valenciana",
+            "raceDate": "2026-02-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Volta Ciclista a Catalunya",
+            "raceSlug": "volta-a-catalunya",
+            "raceDate": "2026-03-23",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Amstel Gold Race",
+            "raceSlug": "amstel-gold-race",
+            "raceDate": "2026-04-19",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thomas-pidcock",
+      "slug": "thomas-pidcock",
+      "name": "PIDCOCK Thomas",
+      "team": "INEOS Grenadiers",
+      "ranking": 7,
+      "points": 1810,
+      "nationality": "Great Britain",
+      "nationalityCode": "GR",
+      "dateOfBirth": "1999-07-30",
+      "weight": 58,
+      "height": 1.7,
+      "specialties": [
+        "one-day",
+        "climber",
+        "puncheur"
+      ],
+      "photoUrl": "riders/photos/thomas-pidcock.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/thomas-pidcock",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:19:55.201Z",
+        "races": []
+      }
+    },
+    {
+      "id": "mathieu-van-der-poel",
+      "slug": "mathieu-van-der-poel",
+      "name": "VAN DER POEL Mathieu",
+      "team": "Alpecin-Premier Tech",
+      "ranking": 8,
+      "points": 1689,
+      "nationality": "Netherlands",
+      "nationalityCode": "NE",
+      "dateOfBirth": "1995-01-19",
+      "weight": 75,
+      "height": 1.84,
+      "specialties": [
+        "one-day",
+        "puncheur",
+        "sprinter"
+      ],
+      "photoUrl": "riders/photos/mathieu-van-der-poel.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/mathieu-van-der-poel",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:20:55.009Z",
+        "races": []
+      }
+    },
+    {
+      "id": "oscar-onley",
+      "slug": "oscar-onley",
+      "name": "ONLEY Oscar",
+      "team": "Team Picnic PostNL",
+      "ranking": 9,
+      "points": 1438,
+      "nationality": "Great Britain",
+      "nationalityCode": "GR",
+      "dateOfBirth": "2002-10-13",
+      "weight": 62,
+      "height": 1.73,
+      "specialties": [
+        "gc-contender",
+        "climber",
+        "puncheur"
+      ],
+      "photoUrl": "riders/photos/oscar-onley.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/oscar-onley",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:21:26.265Z",
+        "races": []
+      }
+    },
+    {
+      "id": "arnaud-de-lie",
+      "slug": "arnaud-de-lie",
+      "name": "DE LIE Arnaud",
+      "team": "Lidl - Trek",
+      "ranking": 10,
+      "points": 1383,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2002-03-16",
+      "weight": 78,
+      "height": 1.82,
+      "specialties": [
+        "one-day",
+        "sprinter",
+        "puncheur"
+      ],
+      "photoUrl": "riders/photos/arnaud-de-lie.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/arnaud-de-lie",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:21:55.173Z",
+        "races": []
+      }
+    },
+    {
+      "id": "paul-magnier",
+      "slug": "paul-magnier",
+      "name": "MAGNIER Paul",
+      "team": "Soudal Quick-Step",
+      "ranking": 11,
+      "points": 1372,
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2004-04-14",
+      "weight": 70,
+      "height": 1.87,
+      "specialties": [
+        "one-day",
+        "sprinter"
+      ],
+      "photoUrl": "riders/photos/paul-magnier.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/paul-magnier",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:22:25.021Z",
+        "races": [
+          {
+            "raceName": "Omloop Nieuwsblad",
+            "raceSlug": "omloop-het-nieuwsblad",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "E3 Saxo Classic",
+            "raceSlug": "e3-harelbeke",
+            "raceDate": "2026-03-27",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "juan-ayuso-pesquera",
+      "slug": "juan-ayuso-pesquera",
+      "name": "AYUSO Juan",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 12,
+      "points": 1324,
+      "nationality": "Spain",
+      "nationalityCode": "SP",
+      "dateOfBirth": "2002-09-16",
+      "weight": 65,
+      "height": 1.83,
+      "specialties": [
+        "climber",
+        "gc-contender",
+        "one-day"
+      ],
+      "photoUrl": "riders/photos/juan-ayuso-pesquera.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/juan-ayuso-pesquera",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:22:43.358Z",
+        "races": [
+          {
+            "raceName": "Volta ao Algarve em Bicicleta",
+            "raceSlug": "volta-ao-algarve",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Paris-Nice",
+            "raceSlug": "paris-nice",
+            "raceDate": "2026-03-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Itzulia Basque Country",
+            "raceSlug": "itzulia-basque-country",
+            "raceDate": "2026-04-06",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "giulio-ciccone",
+      "slug": "giulio-ciccone",
+      "name": "CICCONE Giulio",
+      "team": "Lidl - Trek",
+      "ranking": 13,
+      "points": 1316,
+      "nationality": "Italy",
+      "nationalityCode": "IT",
+      "dateOfBirth": "1994-12-20",
+      "weight": 58,
+      "height": 1.76,
+      "specialties": [
+        "climber",
+        "gc-contender",
+        "one-day"
+      ],
+      "photoUrl": "riders/photos/giulio-ciccone.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/giulio-ciccone",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:23:12.333Z",
+        "races": [
+          {
+            "raceName": "Amstel Gold Race",
+            "raceSlug": "amstel-gold-race",
+            "raceDate": "2026-04-19",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "christian-scaroni",
+      "slug": "christian-scaroni",
+      "name": "SCARONI Christian",
+      "team": "INEOS Grenadiers",
+      "ranking": 14,
+      "points": 1312,
+      "nationality": "Italy",
+      "nationalityCode": "IT",
+      "dateOfBirth": "1997-10-16",
+      "weight": 63,
+      "height": 1.75,
+      "specialties": [
+        "one-day",
+        "climber"
+      ],
+      "photoUrl": "riders/photos/christian-scaroni.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/christian-scaroni",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:23:42.388Z",
+        "races": [
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Itzulia Basque Country",
+            "raceSlug": "itzulia-basque-country",
+            "raceDate": "2026-04-06",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Amstel Gold Race",
+            "raceSlug": "amstel-gold-race",
+            "raceDate": "2026-04-19",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brandon-mcnulty",
+      "slug": "brandon-mcnulty",
+      "name": "MCNULTY Brandon",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 15,
+      "points": 1295,
+      "nationality": "United States",
+      "nationalityCode": "UN",
+      "dateOfBirth": "1998-04-02",
+      "weight": 69,
+      "height": 1.83,
+      "specialties": [
+        "gc-contender",
+        "time-trialist",
+        "climber"
+      ],
+      "photoUrl": "riders/photos/brandon-mcnulty.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/brandon-mcnulty",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:24:11.629Z",
+        "races": [
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kevin-vauquelin",
+      "slug": "kevin-vauquelin",
+      "name": "VAUQUELIN Kévin",
+      "team": "Arkéa - B&B Hotels",
+      "ranking": 16,
+      "points": 1287,
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2001-04-26",
+      "weight": 69,
+      "height": 1.76,
+      "specialties": [
+        "gc-contender",
+        "time-trialist",
+        "climber"
+      ],
+      "photoUrl": "riders/photos/kevin-vauquelin.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/kevin-vauquelin",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:24:40.979Z",
+        "races": []
+      }
+    },
+    {
+      "id": "tim-merlier",
+      "slug": "tim-merlier",
+      "name": "MERLIER Tim",
+      "team": "Soudal Quick-Step",
+      "ranking": 17,
+      "points": 1275,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1992-10-30",
+      "weight": 76,
+      "height": 1.88,
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
+      "photoUrl": "riders/photos/tim-merlier.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/tim-merlier",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:14:12.433Z",
+        "races": [
+          {
+            "raceName": "AlUla Tour",
+            "raceSlug": "alula-tour",
+            "raceDate": "2026-01-27",
+            "raceClass": "2.Pro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wout-van-aert",
+      "slug": "wout-van-aert",
+      "name": "VAN AERT Wout",
+      "team": "Team Visma \\| Lease a Bike",
+      "ranking": 18,
+      "points": 1274,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1994-09-15",
+      "weight": 78,
+      "height": 1.9,
+      "specialties": [
+        "one-day",
+        "puncheur",
+        "time-trialist"
+      ],
+      "photoUrl": "riders/photos/wout-van-aert.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/wout-van-aert",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-01-07T22:14:18.389Z",
+        "races": []
+      }
+    },
+    {
+      "id": "jonathan-milan",
+      "slug": "jonathan-milan",
+      "name": "MILAN Jonathan",
+      "team": "Lidl - Trek",
+      "ranking": 19,
+      "points": 1268,
+      "nationality": "Italy",
+      "nationalityCode": "IT",
+      "dateOfBirth": "2000-10-01",
+      "weight": 84,
+      "height": 1.94,
+      "specialties": [
+        "sprinter",
+        "puncheur"
+      ],
+      "photoUrl": "riders/photos/jonathan-milan.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/jonathan-milan",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:14:23.259Z",
+        "races": [
+          {
+            "raceName": "AlUla Tour",
+            "raceSlug": "alula-tour",
+            "raceDate": "2026-01-27",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "UAE Tour",
+            "raceSlug": "uae-tour",
+            "raceDate": "2026-02-16",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jasper-philipsen",
+      "slug": "jasper-philipsen",
+      "name": "PHILIPSEN Jasper",
+      "team": "Alpecin-Premier Tech",
+      "ranking": 20,
+      "points": 1248,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1998-03-02",
+      "weight": 75,
+      "height": 1.76,
+      "specialties": [
+        "sprinter",
+        "one-day",
+        "puncheur"
+      ],
+      "photoUrl": "riders/photos/jasper-philipsen.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/jasper-philipsen",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-07T22:14:28.327Z",
+        "races": [
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    }
+  ]
+}
