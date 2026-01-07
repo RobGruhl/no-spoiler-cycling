@@ -123,15 +123,23 @@ function generateHTML(raceData) {
     const allIcons = [...prestigeIconList, ...terrainIconList].join('');
 
     // Data attributes for filtering
+    const hasStages = race.stages && race.stages.length > 0;
+    const stageCount = hasStages ? race.stages.filter(s => s.stageNumber > 0).length : 0;
     const dataAttrs = [
       `data-rating="${rating}"`,
       `data-format="${race.raceFormat || 'one-day'}"`,
       `data-terrain="${(race.terrain || []).join(',')}"`,
-      `data-prestige="${(race.prestige || []).join(',')}"`
+      `data-prestige="${(race.prestige || []).join(',')}"`,
+      `data-race-id="${race.id}"`
     ].join(' ');
 
+    // Stage badge for races with stage data
+    const stageBadge = hasStages
+      ? `<span class="stage-badge" title="Click to view stages">${stageCount} stages →</span>`
+      : '';
+
     return `
-    <div class="race-card ${isTBD ? 'tbd' : ''}" ${dataAttrs}>
+    <div class="race-card ${isTBD ? 'tbd' : ''} ${hasStages ? 'has-stages' : ''}" ${dataAttrs}>
       <div class="race-header">
         <div class="rating-stars" title="${rating} star${rating !== 1 ? 's' : ''}">${generateStars(rating)}</div>
         <span class="race-icons" title="${race.raceFormat}${race.terrain ? ', ' + race.terrain.join(', ') : ''}">${formatIcon}${allIcons}</span>
@@ -146,9 +154,121 @@ function generateHTML(raceData) {
         <span class="platform-badge" style="background-color: ${platformColor}">
           ${race.platform}
         </span>
-        ${isTBD ? '<span class="status-tbd">Awaiting Coverage</span>' : '<span class="status-ready">Watch Now →</span>'}
+        ${stageBadge}
+        ${isTBD && !hasStages ? '<span class="status-tbd">Awaiting Coverage</span>' : ''}
+        ${!isTBD && !hasStages ? '<span class="status-ready">Watch Now →</span>' : ''}
       </div>
     </div>`;
+  };
+
+  // Generate stage card for stage detail view
+  const generateStageCard = (stage, maxDistance) => {
+    const stageTypeIcons = {
+      'flat': '➡️',
+      'hilly': '〰️',
+      'mountain': '⛰️',
+      'itt': '⏱️',
+      'ttt': '👥',
+      'rest-day': '😴',
+      'prologue': '⏱️'
+    };
+
+    const stageTypeColors = {
+      'flat': '#3b82f6',
+      'hilly': '#f59e0b',
+      'mountain': '#ef4444',
+      'itt': '#8b5cf6',
+      'ttt': '#8b5cf6',
+      'rest-day': '#6b7280',
+      'prologue': '#8b5cf6'
+    };
+
+    const icon = stageTypeIcons[stage.stageType] || '🚴';
+    const color = stageTypeColors[stage.stageType] || '#6b7280';
+    const isRestDay = stage.stageType === 'rest-day';
+    const isTBD = stage.url === 'TBD' || stage.platform === 'TBD';
+
+    // Distance bar (normalized to max distance)
+    const distancePercent = maxDistance > 0 ? (stage.distance / maxDistance) * 100 : 0;
+
+    // Format date
+    const stageDate = new Date(stage.date);
+    const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const dateStr = `${dayNames[stageDate.getDay()]}, ${monthNames[stageDate.getMonth()]} ${stageDate.getDate()}`;
+
+    // Terrain icons for stage
+    const terrainIcons = (stage.terrain || []).map(t => {
+      const icons = { 'summit-finish': '🔝', 'cobbles': '🪨', 'gravel': '🟤', 'circuit': '🔄' };
+      return icons[t] || '';
+    }).filter(Boolean).join('');
+
+    return `
+    <div class="stage-card ${isRestDay ? 'rest-day' : ''} ${isTBD && !isRestDay ? 'tbd' : ''}" style="border-left-color: ${color}">
+      <div class="stage-header">
+        <span class="stage-icon">${icon}</span>
+        <span class="stage-type" style="color: ${color}">${stage.stageType.toUpperCase()}${terrainIcons ? ' ' + terrainIcons : ''}</span>
+        <span class="stage-date">${dateStr}</span>
+      </div>
+      <h3 class="stage-title">${stage.name}</h3>
+      ${!isRestDay ? `
+      <div class="stage-distance">
+        <div class="distance-bar-container">
+          <div class="distance-bar" style="width: ${distancePercent}%; background-color: ${color}"></div>
+        </div>
+        <span class="distance-value">${stage.distance} km</span>
+      </div>
+      ` : ''}
+      <p class="stage-description">${stage.description}</p>
+      ${!isRestDay ? `
+      <div class="stage-footer">
+        <span class="platform-badge" style="background-color: ${stage.platform === 'TBD' ? '#6b7280' : '#FF0000'}">
+          ${stage.platform || 'TBD'}
+        </span>
+        ${isTBD ? '<span class="status-tbd">Awaiting Coverage</span>' : '<span class="status-ready">Watch Now →</span>'}
+      </div>
+      ` : ''}
+    </div>`;
+  };
+
+  // Generate stage detail view for a race
+  const generateStageDetailView = (race) => {
+    if (!race.stages || race.stages.length === 0) return '';
+
+    const maxDistance = Math.max(...race.stages.map(s => s.distance || 0));
+    const stageCount = race.stages.filter(s => s.stageNumber > 0).length;
+    const restDays = race.stages.filter(s => s.stageType === 'rest-day').length;
+
+    // Count stage types
+    const typeCounts = {};
+    race.stages.forEach(s => {
+      if (s.stageType !== 'rest-day') {
+        typeCounts[s.stageType] = (typeCounts[s.stageType] || 0) + 1;
+      }
+    });
+
+    const typeStats = Object.entries(typeCounts)
+      .map(([type, count]) => `${count} ${type}`)
+      .join(' • ');
+
+    return `
+    <section class="stage-detail-view" id="stage-view-${race.id}" style="display: none;">
+      <div class="stage-view-header">
+        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-info">
+          <h1 class="stage-view-title">${race.name}</h1>
+          <div class="stage-view-meta">
+            ${stageCount} stages • ${restDays} rest days • ${race.distance} km total
+          </div>
+          <div class="stage-view-types">
+            ${typeStats}
+          </div>
+        </div>
+      </div>
+      <div class="stage-grid">
+        ${race.stages.map(stage => generateStageCard(stage, maxDistance)).join('')}
+      </div>
+    </section>`;
   };
 
   // Generate month sections
@@ -164,6 +284,9 @@ function generateHTML(raceData) {
       </div>
     </section>`;
   };
+
+  // Get all races with stages for stage detail views
+  const racesWithStages = races.filter(r => r.stages && r.stages.length > 0);
 
   // Rating distribution for stats
   const ratingCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
@@ -629,6 +752,197 @@ function generateHTML(raceData) {
       font-size: 0.875rem;
     }
 
+    /* Stage Badge */
+    .stage-badge {
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stage-badge:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+    }
+
+    .race-card.has-stages {
+      cursor: pointer;
+    }
+
+    .race-card.has-stages:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
+    /* Stage Detail View */
+    .stage-detail-view {
+      margin-bottom: 40px;
+    }
+
+    .stage-view-header {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 20px;
+      padding: 24px 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+
+    .back-button {
+      background: #f3f4f6;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #374151;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 16px;
+    }
+
+    .back-button:hover {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .stage-view-title {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .stage-view-meta {
+      color: #6b7280;
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+
+    .stage-view-types {
+      color: #9ca3af;
+      font-size: 0.875rem;
+    }
+
+    /* Stage Grid */
+    .stage-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    /* Stage Cards */
+    .stage-card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-left: 4px solid #3b82f6;
+      transition: all 0.3s ease;
+    }
+
+    .stage-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .stage-card.rest-day {
+      background: #f9fafb;
+      opacity: 0.8;
+    }
+
+    .stage-card.tbd {
+      opacity: 0.7;
+    }
+
+    .stage-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .stage-icon {
+      font-size: 1.25rem;
+    }
+
+    .stage-type {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stage-date {
+      margin-left: auto;
+      font-size: 0.75rem;
+      color: #6b7280;
+    }
+
+    .stage-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .stage-description {
+      font-size: 0.8rem;
+      color: #6b7280;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    /* Distance Bar */
+    .stage-distance {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .distance-bar-container {
+      flex: 1;
+      height: 8px;
+      background: #e5e7eb;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .distance-bar {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+
+    .distance-value {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #374151;
+      min-width: 55px;
+      text-align: right;
+    }
+
+    .stage-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    /* Calendar View (shown/hidden) */
+    .calendar-view.hidden {
+      display: none;
+    }
+
     /* Mobile */
     @media (max-width: 768px) {
       .site-title {
@@ -724,39 +1038,45 @@ function generateHTML(raceData) {
       </div>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      ${Object.entries(racesByMonth).map(([monthKey, monthRaces]) =>
-        generateMonthSection(monthKey, monthRaces)
-      ).join('')}
-    </main>
+    <!-- Calendar View (main view) -->
+    <div class="calendar-view" id="calendar-view">
+      <!-- Main Content -->
+      <main>
+        ${Object.entries(racesByMonth).map(([monthKey, monthRaces]) =>
+          generateMonthSection(monthKey, monthRaces)
+        ).join('')}
+      </main>
 
-    <!-- Legend -->
-    <div class="legend">
-      <h2 class="legend-title">⭐ Rating Guide</h2>
-      <div class="legend-grid">
-        <div class="legend-item">
-          <span class="legend-stars stars">★★★★★</span>
-          <span class="legend-text">Can't miss - Grand Tours, Monuments, WC Road</span>
-        </div>
-        <div class="legend-item">
-          <span class="legend-stars stars">★★★★☆</span>
-          <span class="legend-text">Major events - World Tour races</span>
-        </div>
-        <div class="legend-item">
-          <span class="legend-stars stars">★★★☆☆</span>
-          <span class="legend-text">Good racing - Pro Series</span>
-        </div>
-        <div class="legend-item">
-          <span class="legend-stars stars">★★☆☆☆</span>
-          <span class="legend-text">Nice to catch - Continental stage</span>
-        </div>
-        <div class="legend-item">
-          <span class="legend-stars stars">★☆☆☆☆</span>
-          <span class="legend-text">Completionist - Minor one-days</span>
+      <!-- Legend -->
+      <div class="legend">
+        <h2 class="legend-title">⭐ Rating Guide</h2>
+        <div class="legend-grid">
+          <div class="legend-item">
+            <span class="legend-stars stars">★★★★★</span>
+            <span class="legend-text">Can't miss - Grand Tours, Monuments, WC Road</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-stars stars">★★★★☆</span>
+            <span class="legend-text">Major events - World Tour races</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-stars stars">★★★☆☆</span>
+            <span class="legend-text">Good racing - Pro Series</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-stars stars">★★☆☆☆</span>
+            <span class="legend-text">Nice to catch - Continental stage</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-stars stars">★☆☆☆☆</span>
+            <span class="legend-text">Completionist - Minor one-days</span>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Stage Detail Views -->
+    ${racesWithStages.map(race => generateStageDetailView(race)).join('')}
 
     <!-- Footer -->
     <footer class="footer">
@@ -915,6 +1235,73 @@ function generateHTML(raceData) {
     document.querySelectorAll('.icon-filter-chip').forEach(chip => {
       chip.addEventListener('click', () => toggleChipFilter(chip));
     });
+
+    // ========================================
+    // STAGE VIEW NAVIGATION
+    // ========================================
+
+    // Show stage detail view for a race
+    function showStageView(raceId) {
+      // Hide calendar view and header filters
+      document.getElementById('calendar-view').classList.add('hidden');
+      document.querySelector('.header').style.display = 'none';
+
+      // Show the stage view
+      const stageView = document.getElementById('stage-view-' + raceId);
+      if (stageView) {
+        stageView.style.display = 'block';
+      }
+
+      // Update URL hash
+      history.pushState({ raceId }, '', '#' + raceId);
+
+      // Scroll to top
+      window.scrollTo(0, 0);
+    }
+
+    // Hide stage view and return to calendar
+    function hideStageView() {
+      // Hide all stage views
+      document.querySelectorAll('.stage-detail-view').forEach(view => {
+        view.style.display = 'none';
+      });
+
+      // Show calendar view and header
+      document.getElementById('calendar-view').classList.remove('hidden');
+      document.querySelector('.header').style.display = 'block';
+
+      // Update URL
+      history.pushState({}, '', window.location.pathname);
+
+      // Scroll to top
+      window.scrollTo(0, 0);
+    }
+
+    // Handle clicks on race cards with stages
+    document.querySelectorAll('.race-card.has-stages').forEach(card => {
+      card.addEventListener('click', () => {
+        const raceId = card.dataset.raceId;
+        showStageView(raceId);
+      });
+    });
+
+    // Handle browser back/forward
+    window.addEventListener('popstate', (event) => {
+      if (event.state && event.state.raceId) {
+        showStageView(event.state.raceId);
+      } else {
+        hideStageView();
+      }
+    });
+
+    // Check URL hash on page load
+    if (window.location.hash) {
+      const raceId = window.location.hash.slice(1);
+      const stageView = document.getElementById('stage-view-' + raceId);
+      if (stageView) {
+        showStageView(raceId);
+      }
+    }
   </script>
 </body>
 </html>`;

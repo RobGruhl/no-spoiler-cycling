@@ -99,9 +99,30 @@ Prestige: [🏆 Grand Tours 3] [🗿 Monuments 5] [🌍 Worlds 3]
 
 ---
 
-## Phase 2: Stage Architecture (Schema + UI Patterns)
+## Phase 2: Stage Architecture (Schema + UI Patterns) — IN PROGRESS
 
 **Goal:** Lay groundwork for stage-level data without expanding all races yet.
+
+### 2.1 Tour de France 2026 Stages ✅
+
+First implementation of stage-level data:
+- 21 racing stages + 2 rest days added to `race-data.json`
+- Stage types: 8 mountain, 7 flat, 4 hilly, 1 ITT, 1 TTT
+- Route: Barcelona (TTT) → Paris (Champs-Élysées)
+- 3,333 km total, ~54,450m elevation
+
+**Stage card features:**
+- Type icon + color-coded border (red=mountain, blue=flat, orange=hilly, purple=TT)
+- Distance bar normalized to longest stage
+- Terrain badges (summit-finish, circuit)
+- Date display
+- Platform + watch status
+
+**Navigation:**
+- Stage badge on race card: `[21 stages →]`
+- Click → Stage detail view (grid of stage cards)
+- Hash-based routing: `index.html#tour-de-france-2026`
+- Back button returns to calendar
 
 ### 2.1 Extended Schema for Stages
 
@@ -264,10 +285,10 @@ Stage 14 ████░░░░░░░░░░░░░░░░ 62km (ITT)
 | 1.2 | Emoji icons defined | ✅ Done |
 | 1.3 | Filter UI + logic | ✅ Done |
 | 1.4 | Tag all 225 races | ✅ Done |
-| 2.1 | Stages schema | Pending |
-| 2.2 | Two-level UI | Pending |
-| 2.3 | Distance bars | Pending |
-| 3.x | Populate stage data | Ongoing |
+| 2.1 | TdF stages + stage view UI | ✅ Done |
+| 2.2 | Distance bars | ✅ Done |
+| 2.3 | Hash-based routing | ✅ Done |
+| 3.x | Populate more stage data | Pending |
 | 4.x | Custom SVG icons | Future |
 
 ---
