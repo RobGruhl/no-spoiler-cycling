@@ -164,7 +164,7 @@ function generateHTML(raceData) {
   };
 
   // Generate stage card for stage detail view
-  const generateStageCard = (stage, maxDistance, raceId) => {
+  const generateStageCard = (stage, maxDistance, raceId, raceBroadcast) => {
     const stageTypeIcons = {
       'flat': '➡️',
       'hilly': '〰️',
@@ -188,7 +188,9 @@ function generateHTML(raceData) {
     const icon = stageTypeIcons[stage.stageType] || '🚴';
     const color = stageTypeColors[stage.stageType] || '#6b7280';
     const isRestDay = stage.stageType === 'rest-day';
-    const isTBD = stage.url === 'TBD' || stage.platform === 'TBD';
+    // Not TBD if parent race has broadcast info
+    const hasBroadcast = raceBroadcast && raceBroadcast.geos && Object.keys(raceBroadcast.geos).length > 0;
+    const isTBD = !hasBroadcast && (stage.url === 'TBD' || stage.platform === 'TBD');
     const hasDetails = stage.stageDetails && Object.keys(stage.stageDetails).length > 0;
     const detailsUrl = hasDetails ? `race-details/${raceId}-stage-${stage.stageNumber}.html` : null;
 
@@ -284,7 +286,7 @@ function generateHTML(raceData) {
         </div>
       </div>
       <div class="stage-grid">
-        ${race.stages.map(stage => generateStageCard(stage, maxDistance, race.id)).join('')}
+        ${race.stages.map(stage => generateStageCard(stage, maxDistance, race.id, race.broadcast)).join('')}
       </div>
     </section>`;
   };
