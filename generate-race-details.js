@@ -217,6 +217,50 @@ function generateRaceDetailsHTML(race, options = {}) {
     `;
   };
 
+  // Generate top riders HTML (from race.topRiders)
+  const generateTopRidersHTML = () => {
+    if (!race.topRiders || race.topRiders.length === 0) return '';
+
+    const specialtyIcons = {
+      'climber': '⛰️',
+      'sprinter': '⚡',
+      'puncheur': '💪',
+      'gc-contender': '🎯',
+      'time-trialist': '⏱️',
+      'one-day': '🏁'
+    };
+
+    const ridersHTML = race.topRiders.map(rider => {
+      const specialties = (rider.specialties || [])
+        .map(s => specialtyIcons[s] || '')
+        .filter(Boolean)
+        .join(' ');
+
+      const rankClass = rider.ranking <= 3 ? `top-${rider.ranking}` : '';
+
+      return `
+        <a href="../riders/${rider.id}.html" class="top-rider-card ${rankClass}">
+          <div class="rider-rank">#${rider.ranking}</div>
+          <div class="rider-info">
+            <div class="rider-name">${rider.name}</div>
+            <div class="rider-team">${rider.team}</div>
+          </div>
+          <div class="rider-specialties">${specialties}</div>
+        </a>
+      `;
+    }).join('');
+
+    return `
+      <section class="details-section">
+        <h2 class="section-title">🚴 Confirmed Top Riders</h2>
+        <p class="section-subtitle">UCI ranked riders confirmed for this race</p>
+        <div class="top-riders-grid">
+          ${ridersHTML}
+        </div>
+      </section>
+    `;
+  };
+
   // Generate narratives HTML
   const generateNarrativesHTML = () => {
     if (!details.narratives || details.narratives.length === 0) return '';
@@ -712,6 +756,87 @@ function generateRaceDetailsHTML(race, options = {}) {
       text-align: center;
     }
 
+    /* Top Riders Grid */
+    .section-subtitle {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+
+    .top-riders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .top-rider-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #f9fafb;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+    }
+
+    .top-rider-card:hover {
+      background: #f3f4f6;
+      border-color: #d1d5db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .top-rider-card.top-1 {
+      background: linear-gradient(135deg, #fef3c7, #fde68a);
+      border-color: #fbbf24;
+    }
+
+    .top-rider-card.top-2 {
+      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+      border-color: #9ca3af;
+    }
+
+    .top-rider-card.top-3 {
+      background: linear-gradient(135deg, #fef3c7, #fed7aa);
+      border-color: #d97706;
+    }
+
+    .rider-rank {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #6b7280;
+      min-width: 28px;
+    }
+
+    .top-rider-card.top-1 .rider-rank,
+    .top-rider-card.top-2 .rider-rank,
+    .top-rider-card.top-3 .rider-rank {
+      color: #1f2937;
+    }
+
+    .rider-info {
+      flex: 1;
+    }
+
+    .rider-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .rider-team {
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    .rider-specialties {
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+
     /* Narratives List */
     .narratives-list {
       list-style: none;
@@ -1128,10 +1253,12 @@ function generateRaceDetailsHTML(race, options = {}) {
       ${generateSectorsHTML()}
       ${generateClimbsHTML()}
       ${generateFavoritesHTML()}
+      ${generateTopRidersHTML()}
       ${generateNarrativesHTML()}
       ${generateHistoryHTML()}
       ${generateWatchNotesHTML()}
     ` : `
+      ${generateTopRidersHTML()}
       <div class="empty-state">
         <h2>📝 Details Coming Soon</h2>
         <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>

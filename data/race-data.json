@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T07:56:36.380Z",
+  "lastUpdated": "2026-01-07T23:20:22.597Z",
   "event": {
     "name": "UCI Men's Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -157,7 +157,10 @@
           "stageNumber": 0,
           "name": "Prologue: Adelaide → Adelaide (ITT)",
           "stageType": "itt",
-          "terrain": ["itt", "flat"],
+          "terrain": [
+            "itt",
+            "flat"
+          ],
           "distance": 3.6,
           "date": "2026-01-20",
           "platform": "TBD",
@@ -175,7 +178,10 @@
           "stageNumber": 1,
           "name": "Stage 1: Tanunda → Tanunda",
           "stageType": "hilly",
-          "terrain": ["hilly", "sprint"],
+          "terrain": [
+            "hilly",
+            "sprint"
+          ],
           "distance": 120.6,
           "date": "2026-01-21",
           "platform": "TBD",
@@ -203,7 +209,10 @@
           "stageNumber": 2,
           "name": "Stage 2: Norwood → Uraidla",
           "stageType": "mountain",
-          "terrain": ["mountain", "climb"],
+          "terrain": [
+            "mountain",
+            "climb"
+          ],
           "distance": 148.1,
           "date": "2026-01-22",
           "platform": "TBD",
@@ -256,7 +265,10 @@
           "stageNumber": 3,
           "name": "Stage 3: Henley Beach → Nairne",
           "stageType": "hilly",
-          "terrain": ["hilly", "climb"],
+          "terrain": [
+            "hilly",
+            "climb"
+          ],
           "distance": 140.8,
           "date": "2026-01-23",
           "platform": "TBD",
@@ -270,7 +282,7 @@
               {
                 "name": "Wickham Hill",
                 "category": "3",
-                "length": 3.0,
+                "length": 3,
                 "avgGradient": "7%",
                 "maxGradient": "11%",
                 "kmFromFinish": 108,
@@ -302,8 +314,12 @@
           "stageNumber": 4,
           "name": "Stage 4: Brighton → Willunga Hill",
           "stageType": "mountain",
-          "terrain": ["mountain", "summit-finish", "climb"],
-          "distance": 176.0,
+          "terrain": [
+            "mountain",
+            "summit-finish",
+            "climb"
+          ],
+          "distance": 176,
           "date": "2026-01-24",
           "platform": "TBD",
           "url": "TBD",
@@ -325,7 +341,7 @@
               {
                 "name": "Willunga Hill (1st)",
                 "category": "2",
-                "length": 3.0,
+                "length": 3,
                 "avgGradient": "7.5%",
                 "maxGradient": "12%",
                 "kmFromFinish": 126,
@@ -334,7 +350,7 @@
               {
                 "name": "Willunga Hill (2nd)",
                 "category": "2",
-                "length": 3.0,
+                "length": 3,
                 "avgGradient": "7.5%",
                 "maxGradient": "12%",
                 "kmFromFinish": 26,
@@ -343,7 +359,7 @@
               {
                 "name": "Willunga Hill (Final)",
                 "category": "2",
-                "length": 3.0,
+                "length": 3,
                 "avgGradient": "7.5%",
                 "maxGradient": "12%",
                 "kmFromFinish": 0,
@@ -357,7 +373,11 @@
           "stageNumber": 5,
           "name": "Stage 5: Stirling → Stirling",
           "stageType": "hilly",
-          "terrain": ["hilly", "circuit", "climb"],
+          "terrain": [
+            "hilly",
+            "circuit",
+            "climb"
+          ],
           "distance": 169.8,
           "date": "2026-01-25",
           "platform": "TBD",
@@ -371,7 +391,7 @@
               {
                 "name": "Mount Barker Road (per lap)",
                 "category": "4",
-                "length": 2.0,
+                "length": 2,
                 "avgGradient": "4%",
                 "maxGradient": "11%",
                 "kmFromFinish": 0,
@@ -522,7 +542,22 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "trofeo-serra-tramuntana-2026",
@@ -684,7 +719,48 @@
         "flat",
         "hilly"
       ],
-      "distance": 1000
+      "distance": 1000,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "muscat-classic-2026",
@@ -806,7 +882,22 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-murcia-2026",
@@ -847,7 +938,22 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        }
+      ]
     },
     {
       "id": "clasica-de-almeria-2026",
@@ -910,7 +1016,34 @@
         "mountain",
         "itt"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "volta-ao-algarve-2026",
@@ -932,7 +1065,35 @@
         "hilly",
         "itt"
       ],
-      "distance": 1000
+      "distance": 1000,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-andalucia-ruta-del-sol-2026",
@@ -1175,7 +1336,21 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "topRiders": [
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -1255,7 +1430,35 @@
       "terrain": [
         "gravel"
       ],
-      "distance": 184
+      "distance": 184,
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "paris-nice-2026",
@@ -1278,7 +1481,48 @@
         "mountain",
         "itt"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "tirreno-adriatico-2026",
@@ -1301,7 +1545,46 @@
         "mountain",
         "itt"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -1465,6 +1748,72 @@
       "distance": 293,
       "prestige": [
         "monument"
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -1547,7 +1896,34 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 204
+      "distance": 204,
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "gent-wevelgem-2026",
@@ -1567,7 +1943,34 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 260
+      "distance": 260,
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-emilia-2026",
@@ -1647,7 +2050,34 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 183
+      "distance": 183,
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "la-route-adelie-de-vitre-2026",
@@ -1710,6 +2140,47 @@
       "distance": 270,
       "prestige": [
         "monument"
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -1751,7 +2222,47 @@
         "hilly",
         "mountain"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "region-pays-de-la-loire-tour-2026",
@@ -1876,6 +2387,59 @@
       "distance": 257,
       "prestige": [
         "monument"
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -1997,7 +2561,47 @@
       "terrain": [
         "mountain"
       ],
-      "distance": 254
+      "distance": 254,
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-feminin-de-chambery-2026",
@@ -2079,7 +2683,60 @@
       "terrain": [
         "mountain"
       ],
-      "distance": 202
+      "distance": 202,
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-asturias-2026",
@@ -2143,6 +2800,72 @@
       "distance": 258,
       "prestige": [
         "monument"
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        }
       ]
     },
     {
@@ -2187,7 +2910,22 @@
         "mountain",
         "itt"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "eschborn-frankfurt-2026",
@@ -2355,6 +3093,70 @@
       "distance": 3400,
       "prestige": [
         "grand-tour"
+      ],
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "INEOS Grenadiers",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -2944,7 +3746,61 @@
         "flat",
         "hilly"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -3129,7 +3985,22 @@
         "mountain",
         "itt"
       ],
-      "distance": 1200
+      "distance": 1200,
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-of-slovenia-2026",
@@ -3568,6 +4439,112 @@
           "url": "TBD",
           "description": "Ceremonial finale with multiple ascents of Rue Lepic/Montmartre before Champs-Élysées sprint"
         }
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Soudal Quick-Step",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "brandon-mcnulty",
+          "name": "MCNULTY Brandon",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 15,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "time-trialist",
+            "climber"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -3836,7 +4813,22 @@
         "hilly",
         "mountain"
       ],
-      "distance": 1000
+      "distance": 1000,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        }
+      ]
     },
     {
       "id": "volta-a-portugal-2026",
@@ -4090,6 +5082,21 @@
       "distance": 3300,
       "prestige": [
         "grand-tour"
+      ],
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        }
       ]
     },
     {

@@ -140,6 +140,44 @@ function generateHTML(raceData) {
       ? `<span class="stage-badge" title="Click to view stages">${stageCount} stages →</span>`
       : '';
 
+    // Generate top riders section
+    const generateRidersSection = (topRiders) => {
+      if (!topRiders || topRiders.length === 0) return '';
+
+      // Show up to 5 riders with photos/initials
+      const displayRiders = topRiders.slice(0, 5);
+      const moreCount = topRiders.length - 5;
+
+      const riderAvatars = displayRiders.map(rider => {
+        const initials = rider.name.split(' ')
+          .filter(n => n.length > 0)
+          .map(n => n[0])
+          .slice(0, 2)
+          .join('')
+          .toUpperCase();
+        const rankBadge = rider.ranking <= 3 ? `<span class="rank-badge rank-${rider.ranking}">${rider.ranking}</span>` : '';
+        return `<div class="rider-avatar" title="${rider.name} (#${rider.ranking}) - ${rider.team}">
+          ${rankBadge}
+          <span class="rider-initials">${initials}</span>
+        </div>`;
+      }).join('');
+
+      const moreIndicator = moreCount > 0
+        ? `<div class="rider-avatar more-riders">+${moreCount}</div>`
+        : '';
+
+      return `
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          ${riderAvatars}
+          ${moreIndicator}
+        </div>
+      </div>`;
+    };
+
+    const ridersSection = generateRidersSection(race.topRiders);
+
     return `
     <div class="race-card ${isTBD ? 'tbd' : ''} ${hasStages ? 'has-stages' : ''}" ${dataAttrs}>
       <div class="race-header">
@@ -152,6 +190,7 @@ function generateHTML(raceData) {
         <span class="race-date">📅 ${raceDateDisplay}</span>
         <span class="race-location">📍 ${race.location}</span>
       </div>
+      ${ridersSection}
       <div class="race-footer">
         <span class="platform-badge" style="background-color: ${platformColor}">
           ${race.platform}
@@ -692,6 +731,88 @@ function generateHTML(raceData) {
       margin-bottom: 12px;
       font-size: 0.8rem;
       color: #6b7280;
+    }
+
+    /* Top Riders Section */
+    .race-riders {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 8px 0;
+    }
+
+    .riders-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .rider-avatars {
+      display: flex;
+      gap: 4px;
+    }
+
+    .rider-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      cursor: help;
+      transition: transform 0.2s;
+    }
+
+    .rider-avatar:hover {
+      transform: scale(1.1);
+      z-index: 10;
+    }
+
+    .rider-initials {
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .rider-avatar.more-riders {
+      background: #e5e7eb;
+      color: #6b7280;
+      font-size: 0.65rem;
+      font-weight: 600;
+    }
+
+    .rank-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      font-size: 0.55rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid white;
+    }
+
+    .rank-badge.rank-1 {
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: white;
+    }
+
+    .rank-badge.rank-2 {
+      background: linear-gradient(135deg, #9ca3af, #6b7280);
+      color: white;
+    }
+
+    .rank-badge.rank-3 {
+      background: linear-gradient(135deg, #d97706, #b45309);
+      color: white;
     }
 
     .race-footer {
