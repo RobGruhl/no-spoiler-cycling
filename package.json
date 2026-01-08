@@ -8,7 +8,9 @@
     "build": "node generate-page.js",
     "build:riders": "node generate-riders-index.js",
     "build:riders-women": "node generate-riders-women-index.js",
-    "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js"
+    "build:rider-details": "node generate-rider-details.js --all",
+    "build:rider-details-women": "node generate-rider-details.js --all --gender women",
+    "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js && node generate-rider-details.js --all && node generate-rider-details.js --all --gender women"
   },
   "dependencies": {
     "dotenv": "^16.0.0"

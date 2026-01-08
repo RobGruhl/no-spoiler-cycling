@@ -50,14 +50,39 @@ const nationalityFlags = {
   'CH': '🇨🇭',  // Switzerland
   'IE': '🇮🇪',  // Ireland
   'CA': '🇨🇦',  // Canada
+  'NZ': '🇳🇿',  // New Zealand
   'XX': '🏳️'   // Unknown
+};
+
+// Gender-specific configuration
+const genderConfig = {
+  men: {
+    ridersDataPath: './data/riders.json',
+    outputDir: './riders',
+    backLink: '../riders.html',
+    backLabel: 'Back to Riders',
+    photoPrefix: '../'  // Photos are in riders/photos/, from ./riders/ it's ../riders/photos/ but template uses riders/photos/
+  },
+  women: {
+    ridersDataPath: './data/riders-women.json',
+    outputDir: './riders-women',
+    backLink: '../riders-women.html',
+    backLabel: 'Back to Riders',
+    photoPrefix: '../'  // Photos are in riders/photos/, from ./riders-women/ it's ../riders/photos/
+  }
 };
 
 // ============================================
 // HTML GENERATION
 // ============================================
 
-function generateRiderDetailsHTML(rider, raceData = null) {
+function generateRiderDetailsHTML(rider, raceData = null, options = {}) {
+  const {
+    backLink = '../riders.html',
+    backLabel = 'Back to Riders',
+    gender = 'men'
+  } = options;
+
   const flag = nationalityFlags[rider.nationalityCode] || nationalityFlags['XX'];
   const hasProgram = rider.raceProgram?.status === 'announced' && rider.raceProgram?.races?.length > 0;
 
@@ -543,7 +568,7 @@ function generateRiderDetailsHTML(rider, raceData = null) {
 </head>
 <body>
   <div class="container">
-    <a href="../riders.html" class="back-button">← Back to Riders</a>
+    <a href="${backLink}" class="back-button">← ${backLabel}</a>
 
     <div class="rider-header">
       <img src="${photoSrc}" alt="${rider.name}" class="rider-photo" onerror="this.style.display='none'">
@@ -601,7 +626,7 @@ function generateRiderDetailsHTML(rider, raceData = null) {
     <footer class="footer">
       <p>No Spoiler Cycling | Rider profiles are spoiler-safe</p>
       ${rider.raceProgram?.lastFetched ? `<p>Program last updated: ${new Date(rider.raceProgram.lastFetched).toLocaleDateString()}</p>` : ''}
-      <p><a href="../index.html">Calendar</a> · <a href="../riders.html">Riders</a> · <a href="../about.html">About</a></p>
+      <p><a href="../index.html">Calendar</a> · <a href="${backLink}">Riders</a> · <a href="../about.html">About</a></p>
     </footer>
   </div>
 </body>
@@ -612,7 +637,10 @@ function generateRiderDetailsHTML(rider, raceData = null) {
 // FILE GENERATION
 // ============================================
 
-function generateRiderDetailsPage(rider, raceData, outputDir = './riders') {
+function generateRiderDetailsPage(rider, raceData, options = {}) {
+  const { outputDir = './riders', gender = 'men' } = options;
+  const config = genderConfig[gender] || genderConfig.men;
+
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -620,19 +648,22 @@ function generateRiderDetailsPage(rider, raceData, outputDir = './riders') {
   const filename = `${rider.slug}.html`;
   const filepath = path.join(outputDir, filename);
 
-  const html = generateRiderDetailsHTML(rider, raceData);
+  const html = generateRiderDetailsHTML(rider, raceData, {
+    backLink: config.backLink,
+    backLabel: config.backLabel,
+    gender
+  });
   fs.writeFileSync(filepath, html);
 
   console.log(`✅ Generated: ${filepath}`);
   return filepath;
 }
 
-function generateAllRiderDetailsPages(
-  ridersDataPath = './data/riders.json',
-  raceDataPath = './data/race-data.json',
-  outputDir = './riders'
-) {
-  const ridersData = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
+function generateAllRiderDetailsPages(options = {}) {
+  const { gender = 'men', raceDataPath = './data/race-data.json' } = options;
+  const config = genderConfig[gender] || genderConfig.men;
+
+  const ridersData = JSON.parse(fs.readFileSync(config.ridersDataPath, 'utf8'));
 
   let raceData = null;
   try {
@@ -641,18 +672,18 @@ function generateAllRiderDetailsPages(
     console.warn('⚠️ Could not load race-data.json, race links will be disabled');
   }
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  if (!fs.existsSync(config.outputDir)) {
+    fs.mkdirSync(config.outputDir, { recursive: true });
   }
 
   let generated = 0;
 
   for (const rider of ridersData.riders) {
-    generateRiderDetailsPage(rider, raceData, outputDir);
+    generateRiderDetailsPage(rider, raceData, { outputDir: config.outputDir, gender });
     generated++;
   }
 
-  console.log(`\n📊 Generated ${generated} rider detail pages`);
+  console.log(`\n📊 Generated ${generated} ${gender} rider detail pages in ${config.outputDir}`);
   return generated;
 }
 
@@ -662,11 +693,24 @@ function generateAllRiderDetailsPages(
 
 const args = process.argv.slice(2);
 
+// Parse gender option (defaults to 'men')
+const genderIndex = args.indexOf('--gender');
+const gender = genderIndex !== -1 && args[genderIndex + 1]
+  ? args[genderIndex + 1]
+  : 'men';
+
+if (!['men', 'women'].includes(gender)) {
+  console.error(`❌ Invalid gender: ${gender}. Use 'men' or 'women'.`);
+  process.exit(1);
+}
+
+const config = genderConfig[gender];
+
 if (args.includes('--all')) {
-  generateAllRiderDetailsPages();
+  generateAllRiderDetailsPages({ gender });
 } else if (args.includes('--rider') && args.length >= 2) {
   const riderSlug = args[args.indexOf('--rider') + 1];
-  const ridersData = JSON.parse(fs.readFileSync('./data/riders.json', 'utf8'));
+  const ridersData = JSON.parse(fs.readFileSync(config.ridersDataPath, 'utf8'));
   const rider = ridersData.riders.find(r => r.slug === riderSlug);
 
   if (rider) {
@@ -674,7 +718,7 @@ if (args.includes('--all')) {
     try {
       raceData = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8'));
     } catch {}
-    generateRiderDetailsPage(rider, raceData);
+    generateRiderDetailsPage(rider, raceData, { outputDir: config.outputDir, gender });
   } else {
     console.error(`❌ Rider not found: ${riderSlug}`);
     process.exit(1);
@@ -684,11 +728,20 @@ if (args.includes('--all')) {
 Rider Details Page Generator
 
 Usage:
-  node generate-rider-details.js --all              Generate pages for all riders
-  node generate-rider-details.js --rider <slug>     Generate page for specific rider
-  node generate-rider-details.js --help             Show this help
+  node generate-rider-details.js --all                        Generate pages for all men riders
+  node generate-rider-details.js --all --gender women         Generate pages for all women riders
+  node generate-rider-details.js --rider <slug>               Generate page for specific man rider
+  node generate-rider-details.js --rider <slug> --gender women  Generate page for specific woman rider
+  node generate-rider-details.js --help                       Show this help
 
-Output: ./riders/<rider-slug>.html
+Options:
+  --gender <men|women>  Specify gender (default: men)
+                        men: uses riders.json, outputs to ./riders/
+                        women: uses riders-women.json, outputs to ./riders-women/
+
+Output:
+  Men: ./riders/<rider-slug>.html
+  Women: ./riders-women/<rider-slug>.html
 `);
 } else {
   console.log('No arguments provided. Use --help for usage information.');
