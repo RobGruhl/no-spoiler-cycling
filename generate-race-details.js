@@ -222,6 +222,9 @@ function generateRaceDetailsHTML(race, options = {}) {
   const generateTopRidersHTML = () => {
     if (!race.topRiders || race.topRiders.length === 0) return '';
 
+    // Determine rider path based on race gender
+    const ridersPath = race.gender === 'women' ? '../riders-women' : '../riders';
+
     const specialtyIcons = {
       'climber': '⛰️',
       'sprinter': '⚡',
@@ -240,7 +243,7 @@ function generateRaceDetailsHTML(race, options = {}) {
       const rankClass = rider.ranking <= 20 ? `top-${rider.ranking}` : '';
 
       return `
-        <a href="../riders/${rider.id}.html" class="top-rider-card ${rankClass}">
+        <a href="${ridersPath}/${rider.id}.html" class="top-rider-card ${rankClass}">
           <div class="rider-rank">#${rider.ranking}</div>
           <div class="rider-info">
             <div class="rider-name">${rider.name}</div>
@@ -457,6 +460,10 @@ function generateRaceDetailsHTML(race, options = {}) {
   const generateKeyRidersHTML = () => {
     if (!riders || riders.length === 0) return '';
 
+    // Determine rider paths based on race gender
+    const ridersPath = race.gender === 'women' ? '../riders-women' : '../riders';
+    const ridersIndexPath = race.gender === 'women' ? '../riders-women.html' : '../riders.html';
+
     // Find riders whose race program includes this race
     const raceSlug = race.id.replace(/-2026$/, '').toLowerCase();
 
@@ -483,10 +490,10 @@ function generateRaceDetailsHTML(race, options = {}) {
       const flag = nationalityFlags[rider.nationalityCode] || '🏳️';
       const photoSrc = rider.photoUrl?.startsWith('riders/')
         ? `../${rider.photoUrl}`
-        : rider.photoUrl || '../riders/photos/placeholder.jpg';
+        : rider.photoUrl || `${ridersPath}/photos/placeholder.jpg`;
 
       return `
-        <a href="../riders/${rider.slug}.html" class="key-rider-card">
+        <a href="${ridersPath}/${rider.slug}.html" class="key-rider-card">
           <img src="${photoSrc}" alt="${rider.name}" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
           <div class="key-rider-rank">#${rider.ranking}</div>
           <div class="key-rider-info">
@@ -505,7 +512,7 @@ function generateRaceDetailsHTML(race, options = {}) {
         <div class="key-riders-grid">
           ${ridersHTML}
         </div>
-        <a href="../riders.html" class="view-all-riders">View all riders →</a>
+        <a href="${ridersIndexPath}" class="view-all-riders">View all riders →</a>
       </section>
     `;
   };
@@ -1518,13 +1525,18 @@ function generateRaceDetailsHTML(race, options = {}) {
 
 /**
  * Load riders data for Key Riders section
+ * @param {string} gender - 'men', 'women', or 'mixed' (defaults to 'men')
  */
-function loadRidersData(ridersDataPath = './data/riders.json') {
+function loadRidersData(gender = 'men') {
+  const ridersDataPath = gender === 'women'
+    ? './data/riders-women.json'
+    : './data/riders.json';
+
   try {
     const data = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
     return data.riders || [];
   } catch {
-    console.warn('⚠️ Could not load riders.json, Key Riders section will be skipped');
+    console.warn(`⚠️ Could not load ${ridersDataPath}, Key Riders section will be skipped`);
     return [];
   }
 }
@@ -1538,9 +1550,9 @@ function generateRaceDetailsPage(race, outputDir = './race-details', riders = nu
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Load riders if not provided
+  // Load riders based on race gender if not provided
   if (riders === null) {
-    riders = loadRidersData();
+    riders = loadRidersData(race.gender || 'men');
   }
 
   const filename = `${race.id}.html`;
@@ -1558,7 +1570,10 @@ function generateRaceDetailsPage(race, outputDir = './race-details', riders = nu
  */
 function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', outputDir = './race-details') {
   const data = JSON.parse(fs.readFileSync(raceDataPath, 'utf8'));
-  const riders = loadRidersData();
+
+  // Pre-load both men's and women's riders for efficiency
+  const menRiders = loadRidersData('men');
+  const womenRiders = loadRidersData('women');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -1569,6 +1584,8 @@ function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', out
 
   data.races.forEach(race => {
     if (race.raceDetails && Object.keys(race.raceDetails).length > 0) {
+      // Select correct riders based on race gender
+      const riders = race.gender === 'women' ? womenRiders : menRiders;
       generateRaceDetailsPage(race, outputDir, riders);
       generated++;
     }
@@ -1625,9 +1642,9 @@ function generateStageDetailsPage(race, stageNumber, outputDir = './race-details
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Load riders if not provided
+  // Load riders based on race gender if not provided
   if (riders === null) {
-    riders = loadRidersData();
+    riders = loadRidersData(race.gender || 'men');
   }
 
   // Create stage as a "race" object for the template
@@ -1638,6 +1655,7 @@ function generateStageDetailsPage(race, stageNumber, outputDir = './race-details
     location: race.location,
     distance: stage.distance,
     category: race.category,
+    gender: race.gender,        // Inherit gender from parent race
     raceDetails: stage.stageDetails || {},
     broadcast: race.broadcast,  // Inherit broadcast info from parent race
     topRiders: race.topRiders   // Inherit top riders from parent race
