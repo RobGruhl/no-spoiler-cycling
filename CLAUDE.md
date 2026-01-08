@@ -736,6 +736,34 @@ node -e "import { searchStagePreviewSafe } from './lib/perplexity-utils.js';
 searchStagePreviewSafe('tdu', 4, '2026-01-24', 2026).then(r => console.log(r.answer))"
 ```
 
+### Practical Tips for Batch Populating
+
+**Finding races to update:**
+```bash
+# Find races by criteria (rating field stores stars)
+node -e "
+const d=require('./data/race-data.json');
+d.races.filter(r => r.gender==='women' && r.rating>=3 && r.raceDate?.startsWith('2026-01'))
+  .forEach(r => console.log(r.id, r.name, r.raceDate, 'rating:'+r.rating));
+"
+```
+
+**Editing workflow:**
+1. Use Grep to find exact line number: `grep -n "race-id" data/race-data.json`
+2. Read ~30 lines around that location to see full race object
+3. Use Edit tool to replace the race object, adding new fields
+
+**Perplexity API notes:**
+- Functions often return `answer: null` - extract info from `results[].snippet` fields
+- Run raceDetails and broadcast searches in parallel for efficiency
+- Results are AI-synthesized - verify key facts match multiple sources
+
+**Stage race checklist:**
+- [ ] Race-level `raceDetails` (GC context, overall favorites, narratives)
+- [ ] `stages[]` array with stageNumber, name, stageType, terrain, distance, date
+- [ ] Per-stage `stageDetails` inside each stage object
+- [ ] `broadcast` info
+
 ## Data Management Best Practices
 
 ### Data Management Scripts (Never Edit race-data.json Directly)
