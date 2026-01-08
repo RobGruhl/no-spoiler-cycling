@@ -18,7 +18,7 @@ const data = JSON.parse(readFileSync(dataPath, 'utf-8'));
 // RACE CLASSIFICATION KNOWLEDGE BASE
 // ============================================
 
-// Grand Tours
+// Grand Tours (Men's)
 const GRAND_TOURS = [
   'tour de france',
   'giro d\'italia',
@@ -26,7 +26,13 @@ const GRAND_TOURS = [
   'vuelta a espana'
 ];
 
-// The 5 Monuments
+// Women's Grand Tours
+const WOMEN_GRAND_TOURS = [
+  'tour de france femmes',
+  "giro d'italia women"
+];
+
+// The 5 Monuments (Men's)
 const MONUMENTS = [
   'milano-sanremo',
   'ronde van vlaanderen',
@@ -36,7 +42,24 @@ const MONUMENTS = [
   'il lombardia'
 ];
 
-// Cobblestone races (pavé)
+// Women's Monuments (matching men's but with women's editions)
+const WOMEN_MONUMENTS = [
+  'milano-sanremo donne',
+  'ronde van vlaanderen (women)',
+  'ronde van vlaanderen women',
+  'paris-roubaix (women)',
+  'paris-roubaix women',
+  'liège-bastogne-liège (women)',
+  'liège-bastogne-liège women',
+  'liege-bastogne-liege women',
+  'la flèche wallonne (women)',
+  'la flèche wallonne women',
+  'la fleche wallonne women',
+  'strade bianche (women)',
+  'strade bianche women'
+];
+
+// Cobblestone races (pavé) - includes both men's and women's editions
 const COBBLES_RACES = [
   'paris-roubaix',
   'ronde van vlaanderen',
@@ -45,6 +68,7 @@ const COBBLES_RACES = [
   'dwars door vlaanderen',
   'kuurne-brussels-kuurne',
   'omloop het nieuwsblad',
+  'omloop nieuwsblad',
   'le samyn',
   'nokere koerse',
   'noekere koerse',
@@ -126,10 +150,12 @@ const CIRCUIT_RACES = [
   'utsunomiya japan cup'
 ];
 
-// Time trials
+// Time trials (men's and women's)
 const TIME_TRIAL_RACES = [
   'chrono des nations',
+  'chrono féminin',
   'world championships: men\'s tt',
+  'world championships: women\'s tt',
   'world championships: mixed relay tt'
 ];
 
@@ -205,13 +231,23 @@ function getPrestige(race) {
   const nameLower = normalizeRaceName(race.name);
   const prestige = [];
 
-  // Grand Tours
+  // Grand Tours (Men's)
   if (GRAND_TOURS.some(gt => nameLower.includes(normalizeRaceName(gt)))) {
     prestige.push('grand-tour');
   }
 
-  // Monuments
+  // Women's Grand Tours
+  if (WOMEN_GRAND_TOURS.some(gt => nameLower.includes(normalizeRaceName(gt)))) {
+    prestige.push('grand-tour');
+  }
+
+  // Monuments (Men's)
   if (MONUMENTS.some(m => nameLower.includes(normalizeRaceName(m)))) {
+    prestige.push('monument');
+  }
+
+  // Women's Monuments
+  if (WOMEN_MONUMENTS.some(m => nameLower.includes(normalizeRaceName(m)))) {
     prestige.push('monument');
   }
 
@@ -256,7 +292,20 @@ const STAGE_RACE_TERRAINS = {
   'baloise belgium tour': ['flat', 'hilly', 'itt'],
   'tour of slovenia': ['hilly', 'mountain'],
   'tour of turkey': ['flat', 'hilly', 'mountain'],
-  'tour of türkiye': ['flat', 'hilly', 'mountain']
+  'tour of türkiye': ['flat', 'hilly', 'mountain'],
+
+  // Women's Stage Races
+  'tour de france femmes': ['flat', 'hilly', 'mountain'],
+  "giro d'italia women": ['flat', 'hilly', 'mountain'],
+  'tour de suisse women': ['hilly', 'mountain'],
+  'tour de romandie féminin': ['hilly', 'mountain'],
+  'vuelta españa femenina': ['hilly', 'mountain'],
+  'vuelta a burgos feminas': ['hilly', 'mountain'],
+  'itzulia women': ['hilly', 'mountain'],
+  'tour of britain women': ['flat', 'hilly'],
+  'tour down under women': ['flat', 'hilly'],
+  'uae tour women': ['flat', 'hilly'],
+  'baloise ladies tour': ['flat', 'hilly']
 };
 
 function getTerrain(race) {

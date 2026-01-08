@@ -33,6 +33,12 @@ const prestigeIcons = {
   'world-championship': '🌍'
 };
 
+const genderIcons = {
+  'men': '♂',
+  'women': '♀',
+  'mixed': '⚥'
+};
+
 function loadRaceData() {
   const data = fs.readFileSync('./data/race-data.json', 'utf8');
   return JSON.parse(data);
@@ -134,6 +140,7 @@ function generateHTML(raceData) {
       `data-format="${race.raceFormat || 'one-day'}"`,
       `data-terrain="${(race.terrain || []).join(',')}"`,
       `data-prestige="${(race.prestige || []).join(',')}"`,
+      `data-gender="${race.gender || 'men'}"`,
       `data-race-id="${race.id}"`
     ].join(' ');
 
@@ -357,10 +364,11 @@ function generateHTML(raceData) {
   const ratingCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
   races.forEach(r => ratingCounts[r.rating || 1]++);
 
-  // Count races by format, terrain, and prestige for filter chips
+  // Count races by format, terrain, prestige, and gender for filter chips
   const formatCounts = {};
   const terrainCounts = {};
   const prestigeCounts = {};
+  const genderCounts = {};
 
   races.forEach(r => {
     // Format counts
@@ -376,6 +384,10 @@ function generateHTML(raceData) {
     (r.prestige || []).forEach(p => {
       prestigeCounts[p] = (prestigeCounts[p] || 0) + 1;
     });
+
+    // Gender counts
+    const gender = r.gender || 'men';
+    genderCounts[gender] = (genderCounts[gender] || 0) + 1;
   });
 
   // Generate filter chips HTML
@@ -426,6 +438,21 @@ function generateHTML(raceData) {
         <span class="chip-icon">${prestigeIcons[p.key]}</span>
         <span>${p.label}</span>
         <span class="chip-count">${prestigeCounts[p.key]}</span>
+      </button>`).join('');
+  };
+
+  const generateGenderChips = () => {
+    const genders = [
+      { key: 'men', label: "Men's" },
+      { key: 'women', label: "Women's" },
+      { key: 'mixed', label: 'Mixed' }
+    ];
+    return genders
+      .filter(g => genderCounts[g.key])
+      .map(g => `<button class="icon-filter-chip" data-filter-type="gender" data-filter-value="${g.key}">
+        <span class="chip-icon">${genderIcons[g.key]}</span>
+        <span>${g.label}</span>
+        <span class="chip-count">${genderCounts[g.key]}</span>
       </button>`).join('');
   };
 
@@ -569,10 +596,36 @@ function generateHTML(raceData) {
       opacity: 0.7;
     }
 
-    .visible-count {
+    .filter-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-top: 12px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .visible-count {
       font-size: 0.9rem;
       color: #6b7280;
+    }
+
+    .clear-filters-btn {
+      padding: 8px 16px;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      background: white;
+      color: #64748b;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .clear-filters-btn:hover {
+      border-color: #ef4444;
+      color: #ef4444;
+      background: #fef2f2;
     }
 
     /* Month Sections */
@@ -1223,6 +1276,12 @@ function generateHTML(raceData) {
         <!-- Icon Filters -->
         <div class="icon-filter-section">
           <div class="icon-filter-group">
+            <span class="icon-filter-label">Gender</span>
+            <div class="icon-filters">
+              ${generateGenderChips()}
+            </div>
+          </div>
+          <div class="icon-filter-group">
             <span class="icon-filter-label">Format</span>
             <div class="icon-filters">
               ${generateFormatChips()}
@@ -1265,7 +1324,10 @@ function generateHTML(raceData) {
             <span class="filter-count">(${ratingCounts[5]})</span>
           </button>
         </div>
-        <div class="visible-count">Showing <span id="visible-count">${races.length}</span> of ${races.length} races</div>
+        <div class="filter-footer">
+          <div class="visible-count">Showing <span id="visible-count">${races.length}</span> of ${races.length} races</div>
+          <button class="clear-filters-btn" onclick="clearAllFilters()">Clear Filters</button>
+        </div>
       </div>
     </header>
 
@@ -1322,8 +1384,71 @@ function generateHTML(raceData) {
       minRating: 3,
       format: new Set(),
       terrain: new Set(),
-      prestige: new Set()
+      prestige: new Set(),
+      gender: new Set()
     };
+
+    // localStorage persistence
+    function saveFiltersToStorage() {
+      const filtersToSave = {
+        minRating: activeFilters.minRating,
+        format: Array.from(activeFilters.format),
+        terrain: Array.from(activeFilters.terrain),
+        prestige: Array.from(activeFilters.prestige),
+        gender: Array.from(activeFilters.gender)
+      };
+      localStorage.setItem('cyclingCalendarFilters', JSON.stringify(filtersToSave));
+    }
+
+    function loadFiltersFromStorage() {
+      const stored = localStorage.getItem('cyclingCalendarFilters');
+      if (!stored) return false;
+
+      try {
+        const filters = JSON.parse(stored);
+        activeFilters.minRating = filters.minRating || 3;
+        activeFilters.format = new Set(filters.format || []);
+        activeFilters.terrain = new Set(filters.terrain || []);
+        activeFilters.prestige = new Set(filters.prestige || []);
+        activeFilters.gender = new Set(filters.gender || []);
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function updateFilterUIFromState() {
+      // Update star filter buttons
+      document.querySelectorAll('.star-filter-btn').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.min) === activeFilters.minRating);
+      });
+
+      // Update icon filter chips
+      document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+        const type = chip.dataset.filterType;
+        const value = chip.dataset.filterValue;
+        chip.classList.toggle('active', activeFilters[type].has(value));
+      });
+    }
+
+    function clearAllFilters() {
+      activeFilters.minRating = 1;
+      activeFilters.format.clear();
+      activeFilters.terrain.clear();
+      activeFilters.prestige.clear();
+      activeFilters.gender.clear();
+
+      // Update UI
+      document.querySelectorAll('.star-filter-btn').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.min) === 1);
+      });
+      document.querySelectorAll('.icon-filter-chip').forEach(chip => {
+        chip.classList.remove('active');
+      });
+
+      applyFilters();
+      localStorage.removeItem('cyclingCalendarFilters');
+    }
 
     // Toggle chip filter
     function toggleChipFilter(chip) {
@@ -1339,6 +1464,7 @@ function generateHTML(raceData) {
       }
 
       applyFilters();
+      saveFiltersToStorage();
     }
 
     // Set star filter
@@ -1351,6 +1477,7 @@ function generateHTML(raceData) {
       });
 
       applyFilters();
+      saveFiltersToStorage();
     }
 
     // Check if a card matches a specific filter configuration
@@ -1359,6 +1486,7 @@ function generateHTML(raceData) {
       const format = card.dataset.format;
       const terrain = card.dataset.terrain.split(',').filter(Boolean);
       const prestige = card.dataset.prestige.split(',').filter(Boolean);
+      const gender = card.dataset.gender || 'men';
 
       // Check star rating
       if (rating < config.minRating) return false;
@@ -1376,6 +1504,18 @@ function generateHTML(raceData) {
       // Check prestige filter (OR logic - must have at least one selected prestige)
       if (config.prestige.size > 0) {
         if (!prestige.some(p => config.prestige.has(p))) return false;
+      }
+
+      // Check gender filter (mixed events show when men OR women is selected)
+      if (config.gender.size > 0) {
+        if (gender === 'mixed') {
+          // Mixed events show when men, women, or mixed is explicitly selected
+          if (!config.gender.has('mixed') && !config.gender.has('men') && !config.gender.has('women')) {
+            return false;
+          }
+        } else if (!config.gender.has(gender)) {
+          return false;
+        }
       }
 
       return true;
@@ -1406,6 +1546,13 @@ function generateHTML(raceData) {
             return card.dataset.terrain.split(',').includes(value);
           } else if (type === 'prestige') {
             return card.dataset.prestige.split(',').includes(value);
+          } else if (type === 'gender') {
+            const cardGender = card.dataset.gender || 'men';
+            // For mixed, count it for men and women as well
+            if (value === 'mixed') {
+              return cardGender === 'mixed';
+            }
+            return cardGender === value || cardGender === 'mixed';
           }
           return false;
         }).length;
@@ -1543,7 +1690,11 @@ function generateHTML(raceData) {
       }
     }
 
-    // Apply default filter on page load (3★+)
+    // Load filters from localStorage or use defaults
+    const hasStoredFilters = loadFiltersFromStorage();
+    if (hasStoredFilters) {
+      updateFilterUIFromState();
+    }
     applyFilters();
   </script>
 </body>
