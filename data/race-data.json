@@ -548,9 +548,79 @@
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
         "flat",
-        "hilly"
+        "circuit"
       ],
-      "distance": 200
+      "distance": 94,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Women's One-Day Race is a fast 94.2km criterium-style event held in Tanunda, the heart of South Australia's Barossa Valley wine country. Racing takes place on a 8km circuit, with riders completing approximately 12 laps through the historic town streets. The flat to rolling terrain with six intermediate sprints favors fast finishers and sprinters who can handle the repetitive circuit racing.",
+        "keyClimbs": [],
+        "keySectors": [],
+        "favorites": {
+          "sprinters": ["Fast finishers who thrive in circuit racing"],
+          "puncheurs": ["Riders who can accelerate out of corners"],
+          "allRounders": ["Strong all-rounders fresh from Women's Tour Down Under"]
+        },
+        "narratives": [
+          "Season-opening ProSeries event provides valuable UCI points opportunity",
+          "Held immediately after the 3-stage Women's Tour Down Under, testing riders' recovery",
+          "Circuit racing in Tanunda's wine country offers unique atmosphere",
+          "Australian home riders look to extend strong January form"
+        ],
+        "historicalContext": "The Women's One-Day Race in Tanunda was added to the Santos Tour Down Under festival to give riders an additional competitive opportunity during the Australian summer racing block. The fast circuit racing provides a different test to the climbing-focused Women's Tour Down Under stages.",
+        "watchNotes": "Watch for breakaway attempts on the early laps as teams test each other. The six intermediate sprints keep the race animated throughout. In the closing laps, expect positioning battles as sprinters' teams try to control the front for a bunch kick. The flat circuit rewards tactical racing and good pack positioning."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage via Eurosport channels"
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "7plus",
+              "broadcasterId": "7plus",
+              "type": "streaming",
+              "url": "https://7plus.com.au",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Free-to-air coverage in Australia"
+            }
+          }
+        },
+        "notes": "Part of the Santos Tour Down Under festival week. Local Australian coverage typically includes pre and post-race interviews."
+      }
     },
     {
       "id": "classica-camp-de-morvedre-2026",
@@ -693,9 +763,88 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "flat"
+        "hilly",
+        "crosswind-risk"
       ],
-      "distance": 200
+      "distance": 118,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Women's Surf Coast Classic is a challenging 118km race from Lorne to Torquay along Victoria's spectacular Great Ocean Road coastline. The race features rolling terrain with a significant 10km climb at the start that immediately puts pressure on the peloton. Coastal winds and exposed roads create unpredictable racing conditions, while the scenic route through surf coast communities provides a stunning backdrop.",
+        "keyClimbs": [
+          {
+            "name": "Opening Climb",
+            "category": "3",
+            "length": 10,
+            "kmFromFinish": 108,
+            "notes": "10km climb at race start, puts weaker riders on the back foot immediately"
+          }
+        ],
+        "keySectors": [],
+        "favorites": {
+          "puncheurs": ["Riders who can handle the early climb and coastal winds"],
+          "allRounders": ["Strong all-rounders who thrive in unpredictable conditions"],
+          "sprinters": ["Fast finishers who can survive the early climb"]
+        },
+        "narratives": [
+          "Mid-week warm-up race before Saturday's WorldTour Cadel Evans Great Ocean Road Race",
+          "First ever women's edition of the Surf Coast Classic - a milestone for equality in Australian cycling",
+          "Teams use this as final preparation for the marquee weekend WorldTour event",
+          "Coastal winds and exposed roads can split the peloton unexpectedly"
+        ],
+        "historicalContext": "The Surf Coast Classic was established as part of the Cadel Evans Great Ocean Road Race festival week. The women's edition was added to provide parity with the men's race, giving riders an additional competitive opportunity on the Victoria coastline before the weekend's WorldTour action.",
+        "watchNotes": "The early 10km climb immediately sets the tone - watch for aggressive racing from teams looking to shed pure sprinters. Coastal crosswinds on exposed sections can cause splits. Teams with WorldTour ambitions will use this as a tactical rehearsal for Saturday's bigger prize."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage via Eurosport channels"
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "7plus",
+              "broadcasterId": "7plus",
+              "type": "streaming",
+              "url": "https://7plus.com.au",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Free-to-air coverage in Australia"
+            }
+          }
+        },
+        "notes": "Part of the Cadel Evans Great Ocean Road Race festival week."
+      }
     },
     {
       "id": "surf-coast-classic-men-2026",
@@ -854,7 +1003,7 @@
     {
       "id": "cadel-evans-great-ocean-road-race-women-2026",
       "name": "Cadel Evans Great Ocean Road Race (Women)",
-      "description": "1.WWT women's cycling race in Australia",
+      "description": "First one-day race of the Women's WorldTour - 141km through Victoria's Bellarine Peninsula with the decisive Challambra Crescent climb",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -867,9 +1016,91 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "flat"
+        "hilly",
+        "crosswind-risk"
       ],
-      "distance": 200
+      "distance": 141,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Mapei Cadel Evans Great Ocean Road Race – Women is the first one-day race of the Women's WorldTour season. The 141km course winds through the Bellarine Peninsula and Surf Coast, featuring more than 1,500 metres of elevation gain and stunning coastal scenery. The decisive Challambra Crescent climb, topping out 9km from the finish, is the key selection point before the fast finish on the Geelong waterfront.",
+        "keyClimbs": [
+          {
+            "name": "Challambra Crescent",
+            "category": "4",
+            "length": 1.5,
+            "avgGradient": "8%",
+            "maxGradient": "12%",
+            "kmFromFinish": 9,
+            "notes": "The decisive climb - punchy gradient tests sprinters and often creates the winning selection"
+          }
+        ],
+        "keySectors": [],
+        "favorites": {
+          "puncheurs": ["Strong riders who can accelerate on Challambra and finish fast"],
+          "sprinters": ["Fast finishers who can survive the climb and contest the reduced bunch sprint"],
+          "allRounders": ["Versatile riders who can handle the undulating terrain and wind"]
+        },
+        "narratives": [
+          "Opening Women's WorldTour one-day race of the season attracts top global field",
+          "Unpredictable race history - no rider has ever won back-to-back editions",
+          "Australian home riders have strong record - domestic talent always competitive",
+          "Equal prize money and prestige with the men's race demonstrates parity commitment",
+          "Final test of the Australian January racing block before teams head to Europe"
+        ],
+        "historicalContext": "Named after Australian cycling legend Cadel Evans, the race was first held in 2015 and elevated to Women's WorldTour status in 2020. The race has earned a reputation for unpredictability, often producing surprise winners and close finishes. Australian riders have historically performed well on home soil.",
+        "watchNotes": "The Challambra Crescent climb 9km from the finish is where the race explodes. Watch for attacks on the steeper gradients - the climb isn't long but it's punchy enough to shed pure sprinters. Coastal winds throughout can cause echelons and surprise splits. The fast descent and run-in to the Geelong waterfront favors riders who can recover quickly from the climb effort."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage via Eurosport channels"
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "Channel 7",
+              "broadcasterId": "7plus",
+              "type": "tv",
+              "url": "https://7plus.com.au",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Free-to-air broadcast on Channel 7 in Australia"
+            }
+          }
+        },
+        "notes": "First Women's WorldTour one-day race of the season. Full TV production with helicopter coverage."
+      }
     },
     {
       "id": "gp-la-marseillaise-2026",
@@ -1263,12 +1494,12 @@
     {
       "id": "uae-tour-women-2026",
       "name": "UAE Tour Women",
-      "description": "2.WWT women's cycling race in United Arab Emirates",
+      "description": "4-stage Women's WorldTour race in the UAE featuring desert sprints and the decisive Jebel Hafeet summit finish",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-02-05",
-      "endDate": "2026-02-09",
+      "endDate": "2026-02-08",
       "raceDay": "Thursday",
       "location": "United Arab Emirates",
       "category": "2.WWT",
@@ -1278,11 +1509,168 @@
       "discoveredAt": "2026-01-08T18:18:21.637Z",
       "terrain": [
         "flat",
-        "hilly",
         "mountain",
-        "itt"
+        "summit-finish",
+        "crosswind-risk"
       ],
-      "distance": 200
+      "distance": 540,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The UAE Tour Women is the only Women's WorldTour race in the Middle East, featuring four stages across the United Arab Emirates. The race typically includes three flat sprint stages with potential for echelon action in desert crosswinds, and one decisive summit finish to Jebel Hafeet. The mountain finish, averaging 8-9% gradient over the final 10km, has defined the overall classification in every edition.",
+        "keyClimbs": [
+          {
+            "name": "Jebel Hafeet",
+            "category": "1",
+            "length": 10,
+            "avgGradient": "8.5%",
+            "maxGradient": "11%",
+            "summit": 1025,
+            "stage": 3,
+            "notes": "The decisive climb - one of the longest and hardest summit finishes in women's cycling. GC is typically won or lost here."
+          }
+        ],
+        "favorites": {
+          "gcContenders": ["Strong climbers who can time trial and survive sprint stages"],
+          "stageHunters": ["Breakaway specialists looking for stage glory"],
+          "sprinters": ["Fast finishers for the three flat stages"],
+          "climbers": ["Pure climbers targeting Jebel Hafeet stage victory"]
+        },
+        "narratives": [
+          "UAE home team ADQ brings strong roster for prestigious home race",
+          "Jebel Hafeet summit finish typically decisive for GC - expect aggressive climbing",
+          "Desert winds create unpredictable echelon situations on flat stages",
+          "Early-season form indicator before European classics campaign",
+          "Top-tier WorldTour teams compete with equal vehicles and accommodation"
+        ],
+        "historicalContext": "The UAE Tour Women launched in 2023 as the first Women's WorldTour race in the Middle East. Organized by RCS Sport for the Abu Dhabi Sports Council, the race has quickly established itself as a significant early-season test. The Jebel Hafeet climb has become iconic, with the summit finish deciding the overall classification in every edition.",
+        "watchNotes": "Stages 1, 2, and 4 typically finish in bunch sprints, but desert crosswinds can create echelons and time gaps. Stage 3 to Jebel Hafeet is the queen stage where the GC is decided. Watch for attacks on the steeper sections of the 10km climb. Recovery and positioning through the flat stages is crucial for GC contenders.",
+        "gcDynamics": "Flat stages → maintain position and bonus seconds → Stage 3 Jebel Hafeet decisive → Final stage survival"
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Dubai Police Officer's Club → Dubai Harbour",
+          "stageType": "flat",
+          "terrain": ["flat", "crosswind-risk"],
+          "distance": 149,
+          "date": "2026-02-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening flat stage through Dubai with sprint finish at Dubai Harbour",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Pan-flat opening stage from Dubai Police Officer's Club to Dubai Harbour. Desert roads offer potential for crosswind action. Sprint finish expected.",
+            "keyClimbs": [],
+            "watchNotes": "Watch for sprint teams organizing lead-out trains. Desert crosswinds can split the peloton unexpectedly."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Al Dhafra Fort → Al Mirfa",
+          "stageType": "flat",
+          "terrain": ["flat", "crosswind-risk"],
+          "distance": 111,
+          "date": "2026-02-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Desert stage through Western UAE with coastal finish in Al Mirfa",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Desert duel starting from Al Dhafra Fort, heading through desert terrain to the coastal city of Al Mirfa. Exposed roads create high echelon potential.",
+            "keyClimbs": [],
+            "watchNotes": "The most exposed stage for crosswind echelons. GC teams must stay alert. Breakaway opportunities if peloton is nervous."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Al Ain → Jebel Hafeet",
+          "stageType": "mountain",
+          "terrain": ["flat", "mountain", "summit-finish"],
+          "distance": 152,
+          "date": "2026-02-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage with summit finish atop Jebel Hafeet - the decisive GC day",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The queen stage starting in Al Ain, traversing desert terrain on Truck Road E30, before the final 10km climb to Jebel Hafeet summit. This is where the GC is decided.",
+            "keyClimbs": [
+              {
+                "name": "Jebel Hafeet",
+                "category": "1",
+                "length": 10,
+                "avgGradient": "8.5%",
+                "maxGradient": "11%",
+                "kmFromFinish": 0,
+                "summit": 1025,
+                "notes": "The decisive climb - averaging 8-9% for 10km. Young talents often emerge here."
+              }
+            ],
+            "watchNotes": "The GC is won or lost on Jebel Hafeet. Watch for early attacks to test rivals. The final 3km are the steepest. This climb has produced breakout performances from young climbers."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Abu Dhabi → Abu Dhabi Breakwater",
+          "stageType": "flat",
+          "terrain": ["flat", "circuit"],
+          "distance": 128,
+          "date": "2026-02-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage around Abu Dhabi islands with sprint finish at Breakwater",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The finale winds through Abu Dhabi, passing through Khalifa City and Yas Marina before island-hopping across Saadiyat, Al Maryah, Al Reem and Yifenah islands. Wide final 5km set up a sprint finish.",
+            "keyClimbs": [],
+            "watchNotes": "Typically a celebration stage for GC leader unless gaps are small. Sprint teams will contest the final stage win. Abu Dhabi waterfront provides spectacular backdrop."
+          }
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage via Eurosport channels"
+            }
+          }
+        },
+        "notes": "Only Women's WorldTour race in the Middle East. Premium production quality with helicopter coverage."
+      }
     },
     {
       "id": "muscat-classic-2026",
@@ -1567,7 +1955,7 @@
     {
       "id": "setmana-volta-femenina-comunitat-valenciana-2026",
       "name": "Setmana Volta Femenina Comunitat Valenciana",
-      "description": "2.Pro women's cycling race in Spain",
+      "description": "4-stage ProSeries race through Spain's Valencia region featuring sprint stages and key summit finishes",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -1581,10 +1969,175 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "flat",
-        "hilly"
+        "hilly",
+        "mountain"
       ],
-      "distance": 1000
+      "distance": 450,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Setmana Ciclista Volta Femenina de la Comunitat Valenciana is a four-stage race through Spain's eastern Valencia region. The race typically features a mix of sprint stages and hilly terrain with categorized climbs that can shake up the general classification. Key summit finishes like the Alto de Barx have decided past editions, making this an important early-season test for all-rounders.",
+        "keyClimbs": [
+          {
+            "name": "Alto de Barx",
+            "category": "3",
+            "length": 4.6,
+            "avgGradient": "5.7%",
+            "notes": "Often the race-deciding climb with summit near finish"
+          },
+          {
+            "name": "Alto de Serra Grossa",
+            "category": "3",
+            "length": 2,
+            "avgGradient": "5%",
+            "notes": "Early selection point on hilly stages"
+          },
+          {
+            "name": "Alto de Barxeta",
+            "category": "3",
+            "length": 1.9,
+            "avgGradient": "5.2%",
+            "notes": "Punchy mid-race climb"
+          }
+        ],
+        "favorites": {
+          "gcContenders": ["Versatile riders who can climb and time trial"],
+          "stageHunters": ["Attackers looking for breakaway stage wins"],
+          "sprinters": ["Fast finishers for the flatter stages"],
+          "climbers": ["Punchy climbers targeting summit finishes"]
+        },
+        "narratives": [
+          "Key early-season tune-up race before European classics campaign",
+          "Spanish regional teams challenge WorldTour squads on home roads",
+          "Mediterranean climate offers respite from northern European cold",
+          "Intermediate bonus seconds can be decisive in close GC battles"
+        ],
+        "historicalContext": "The Setmana Ciclista Volta Valenciana is one of Spain's most important women's stage races, providing an early-season racing opportunity in the warm Mediterranean climate. The race attracts a mix of WorldTour teams and Spanish continental squads, creating entertaining racing dynamics.",
+        "watchNotes": "The hilly stages with summit finishes like Alto de Barx typically decide the overall classification. Sprint stages can see echelon action in crosswinds along the coast. Watch for attacks on the categorized climbs - gaps established here can be decisive.",
+        "gcDynamics": "Sprint stages for positioning → Hilly stages for GC selection → Final stage survival"
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": ["hilly"],
+          "distance": 112,
+          "date": "2026-02-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening hilly stage with multiple categorized climbs",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Hilly opening stage through the Valencia region featuring several categorized climbs that will test riders' early-season form.",
+            "keyClimbs": [],
+            "watchNotes": "First GC test of the race. Teams will establish positioning for stages to come."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": ["flat", "hilly"],
+          "distance": 134,
+          "date": "2026-02-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling stage with sprint finish potential",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Undulating stage that may come down to a reduced sprint depending on how the climbs split the peloton.",
+            "keyClimbs": [],
+            "watchNotes": "Intermediate sprints offer bonus seconds. Sprint teams will contest the stage if peloton stays together."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": ["hilly", "mountain"],
+          "distance": 110,
+          "date": "2026-02-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage with summit finish - typically GC decisive",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The queen stage featuring a summit finish that typically decides the overall classification.",
+            "keyClimbs": [
+              {
+                "name": "Alto de Barx",
+                "category": "3",
+                "length": 4.6,
+                "avgGradient": "5.7%",
+                "kmFromFinish": 17,
+                "notes": "Often the decisive climb for GC"
+              }
+            ],
+            "watchNotes": "The GC will likely be decided here. Watch for attacks on the steeper sections. Teams with climbing leaders will control the pace."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "flat",
+          "terrain": ["flat"],
+          "distance": 94,
+          "date": "2026-02-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage - likely sprint finish",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Final stage that typically ends in a bunch sprint unless GC gaps are tight.",
+            "keyClimbs": [],
+            "watchNotes": "Celebration stage for the leader unless small time gaps. Sprint teams will contest the final win."
+          }
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage via Eurosport channels"
+            }
+          }
+        },
+        "notes": "Spanish ProSeries stage race. Coverage may vary by stage."
+      }
     },
     {
       "id": "tour-de-la-provence-2026",
@@ -2703,12 +3256,12 @@
     {
       "id": "omloop-nieuwsblad-women-2026",
       "name": "Omloop Nieuwsblad Women",
-      "description": "1.WWT women's cycling race in Belgium",
+      "description": "Opening Weekend classic through the Flemish Ardennes featuring iconic bergs like the Muur van Geraardsbergen and Bosberg",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
-      "raceDate": "2026-02-26",
-      "raceDay": "Thursday",
+      "raceDate": "2026-02-28",
+      "raceDay": "Saturday",
       "location": "Belgium",
       "category": "1.WWT",
       "rating": 4,
@@ -2716,9 +3269,145 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "cobbles"
+        "cobbles",
+        "hilly"
       ],
-      "distance": 200
+      "distance": 130,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Omloop Het Nieuwsblad Women is the first major cobbled classic of the European season, traditionally marking the start of 'Opening Weekend' alongside the men's race and Kuurne-Brussel-Kuurne. The 130km route from Ghent to Ninove takes riders through the heart of the Flemish Ardennes, tackling the same iconic bergs (hellingen) and cobbled sectors that define the Tour of Flanders. The decisive Muur van Geraardsbergen and Bosberg climbs come inside the final 15km.",
+        "keyClimbs": [
+          {
+            "name": "Muur van Geraardsbergen (Kapelmuur)",
+            "category": "4",
+            "length": 1.1,
+            "avgGradient": "7.2%",
+            "maxGradient": "20%",
+            "kmFromFinish": 15,
+            "surface": "cobbles",
+            "notes": "The iconic 'Chapel Wall' - steep cobbles through woodland to the chapel at the top. Often race-deciding."
+          },
+          {
+            "name": "Bosberg",
+            "category": "4",
+            "length": 0.9,
+            "avgGradient": "6.1%",
+            "maxGradient": "11%",
+            "kmFromFinish": 9,
+            "surface": "cobbles",
+            "notes": "Final climb with 9km to the finish. Long enough for attackers, close enough for chasers."
+          },
+          {
+            "name": "Molenberg",
+            "category": "4",
+            "length": 0.5,
+            "avgGradient": "6.4%",
+            "kmFromFinish": 40,
+            "surface": "cobbles",
+            "notes": "Sharp berg that can trigger early selection"
+          },
+          {
+            "name": "Berendries",
+            "category": "4",
+            "length": 0.9,
+            "avgGradient": "6.9%",
+            "kmFromFinish": 25,
+            "notes": "Technical berg before the final showdown"
+          }
+        ],
+        "keySectors": [
+          {
+            "name": "Paddestraat",
+            "length": 1.5,
+            "kmFromFinish": 100,
+            "surface": "cobbles",
+            "difficulty": 3,
+            "description": "First cobbled sector, sets the rhythm"
+          },
+          {
+            "name": "Lange Munte",
+            "length": 2.5,
+            "kmFromFinish": 90,
+            "surface": "cobbles",
+            "difficulty": 3,
+            "description": "Long cobbled section through farmland"
+          },
+          {
+            "name": "Haaghoek",
+            "length": 2.0,
+            "kmFromFinish": 35,
+            "surface": "cobbles",
+            "difficulty": 4,
+            "description": "Rough cobbles that can cause splits before the finale"
+          }
+        ],
+        "favorites": {
+          "cobbleSpecialists": ["Riders who thrive on the rough cobbled bergs"],
+          "puncheurs": ["Explosive attackers who can power over the Muur"],
+          "sprinters": ["Strong sprinters who can survive the hellingen"],
+          "allRounders": ["Versatile riders who can attack and sprint"]
+        },
+        "narratives": [
+          "Opening Weekend marks the start of the 'real' European racing season",
+          "First test on the iconic Flemish climbs before Tour of Flanders",
+          "Belgian home riders seek glory on familiar roads",
+          "Cold, wet February conditions add to the challenge",
+          "Form indicator for the entire Spring Classics campaign"
+        ],
+        "historicalContext": "Omloop Het Nieuwsblad has traditionally marked the opening of the Spring Classics since 1945. Named after the Flemish newspaper Het Nieuwsblad, the race takes place in the heart of cycling country, on many of the same cobbles and bergs used in the Tour of Flanders. The women's edition has become a major WorldTour event, often producing surprise winners and dramatic racing.",
+        "watchNotes": "The Muur van Geraardsbergen is where the race explodes - the steep cobbles shed pure sprinters and force attackers to play their cards. The Bosberg 9km from the finish is the last chance to escape. After the Bosberg, a 9km run-in to Ninove often comes down to a reduced group sprint. Cold conditions and tired legs from winter training can produce unexpected results."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports",
+              "broadcasterId": "tnt-sports",
+              "type": "tv",
+              "url": "https://www.tntsports.co.uk",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live coverage on TNT Sports (formerly BT Sport)"
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "broadcasterId": "sporza",
+              "type": "tv",
+              "url": "https://sporza.be",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Free-to-air in Belgium on VRT/Een"
+            }
+          }
+        },
+        "notes": "Opening Weekend is a major event in Belgium with extensive local TV coverage. Women's race runs alongside the men's event."
+      }
     },
     {
       "id": "visit-south-aegean-gp-2026",
