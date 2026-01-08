@@ -301,6 +301,87 @@
       text-align: center;
     }
 
+    /* Top Riders Grid */
+    .section-subtitle {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+
+    .top-riders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .top-rider-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #f9fafb;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+    }
+
+    .top-rider-card:hover {
+      background: #f3f4f6;
+      border-color: #d1d5db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .top-rider-card.top-1 {
+      background: linear-gradient(135deg, #fef3c7, #fde68a);
+      border-color: #fbbf24;
+    }
+
+    .top-rider-card.top-2 {
+      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+      border-color: #9ca3af;
+    }
+
+    .top-rider-card.top-3 {
+      background: linear-gradient(135deg, #fef3c7, #fed7aa);
+      border-color: #d97706;
+    }
+
+    .rider-rank {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #6b7280;
+      min-width: 28px;
+    }
+
+    .top-rider-card.top-1 .rider-rank,
+    .top-rider-card.top-2 .rider-rank,
+    .top-rider-card.top-3 .rider-rank {
+      color: #1f2937;
+    }
+
+    .rider-info {
+      flex: 1;
+    }
+
+    .rider-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .rider-team {
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    .rider-specialties {
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+
     /* Narratives List */
     .narratives-list {
       list-style: none;
@@ -531,6 +612,243 @@
       text-align: center;
     }
 
+    /* Stage Overview Section */
+    .stage-overview-section {
+      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+      border: 2px solid #8b5cf6;
+    }
+
+    .stage-overview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stage-overview-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stage-overview-card:hover {
+      background: #faf5ff;
+      border-color: #a78bfa;
+      transform: translateX(4px);
+    }
+
+    .stage-overview-card.no-details {
+      opacity: 0.7;
+    }
+
+    .stage-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      border: 3px solid;
+      background: #f9fafb;
+    }
+
+    .stage-num {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      line-height: 1;
+    }
+
+    .stage-icon {
+      font-size: 0.7rem;
+      line-height: 1;
+    }
+
+    .stage-info {
+      flex: 1;
+    }
+
+    .stage-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .stage-meta {
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      gap: 12px;
+    }
+
+    .details-badge {
+      background: #8b5cf6;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Stage Navigation */
+    .stage-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stage-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-link:hover {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .stage-nav-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .stage-nav-parent {
+      padding: 10px 20px;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-parent:hover {
+      background: #7c3aed;
+    }
+
+    /* Key Riders Section */
+    .key-riders-section {
+      background: linear-gradient(135deg, #fefce8, #fef9c3);
+      border: 2px solid #eab308;
+    }
+
+    .key-riders-intro {
+      color: #854d0e;
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    .key-riders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .key-rider-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: relative;
+    }
+
+    .key-rider-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    }
+
+    .key-rider-photo {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      object-position: top;
+      background: #e5e7eb;
+    }
+
+    .key-rider-rank {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 10px;
+    }
+
+    .key-rider-info {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .key-rider-flag {
+      font-size: 1rem;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .key-rider-name {
+      display: block;
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: #1f2937;
+      line-height: 1.2;
+      margin-bottom: 2px;
+    }
+
+    .key-rider-team {
+      display: block;
+      font-size: 0.7rem;
+      color: #6b7280;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .view-all-riders {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: #854d0e;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .view-all-riders:hover {
+      background: #fef9c3;
+    }
+
     /* Empty State */
     .empty-state {
       background: rgba(255, 255, 255, 0.98);
@@ -592,10 +910,12 @@
   <div class="container">
     <a href="../index.html" class="back-button">← Back to Calendar</a>
 
+    
+
     <div class="race-header-card">
       <div class="race-badges">
         <span class="badge badge-category">2.UWT</span>
-        
+        <span class="badge badge-spoiler-safe">Spoiler Safe</span>
         
       </div>
       <h1 class="race-title">Tour Down Under</h1>
@@ -607,12 +927,245 @@
     </div>
 
     
+      <div class="course-summary">
+        <h2>🗺️ Course Overview</h2>
+        <p>The Tour Down Under opens the WorldTour season each January in South Australia. This 6-stage race (including prologue) features two decisive mountain stages in the Adelaide Hills - Stage 2 on the feared Corkscrew Road and Stage 4 featuring the iconic triple ascent of Willunga Hill. The format creates multiple GC opportunities: the prologue establishes early gaps, Corkscrew Road on Stage 2 provides the first major test, and Willunga Hill typically decides the ochre jersey on Stage 4. The final stage now features a circuit finish rather than a traditional sprint, adding drama to the finale.</p>
+      </div>
+    
 
     
-      <div class="empty-state">
-        <h2>📝 Details Coming Soon</h2>
-        <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>
+      <section class="details-section stage-overview-section">
+        <h2 class="section-title">📋 Stage Overview</h2>
+        <p class="section-subtitle">Click a stage for detailed course information</p>
+        <div class="stage-overview-grid">
+          
+        <a href="tour-down-under-2026-stage-0.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #8b5cf6">
+            <span class="stage-num">0</span>
+            <span class="stage-icon">⏱️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Prologue: Adelaide → Adelaide (ITT)</div>
+            <div class="stage-meta">
+              <span>Jan 19</span>
+              <span>3.6 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-down-under-2026-stage-1.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #f97316">
+            <span class="stage-num">1</span>
+            <span class="stage-icon">〰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 1: Tanunda → Tanunda</div>
+            <div class="stage-meta">
+              <span>Jan 20</span>
+              <span>120.6 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-down-under-2026-stage-2.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #ef4444">
+            <span class="stage-num">2</span>
+            <span class="stage-icon">⛰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 2: Norwood → Uraidla</div>
+            <div class="stage-meta">
+              <span>Jan 21</span>
+              <span>148.1 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-down-under-2026-stage-3.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #f97316">
+            <span class="stage-num">3</span>
+            <span class="stage-icon">〰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 3: Henley Beach → Nairne</div>
+            <div class="stage-meta">
+              <span>Jan 22</span>
+              <span>140.8 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-down-under-2026-stage-4.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #ef4444">
+            <span class="stage-num">4</span>
+            <span class="stage-icon">⛰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 4: Brighton → Willunga Hill</div>
+            <div class="stage-meta">
+              <span>Jan 23</span>
+              <span>176 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-down-under-2026-stage-5.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #f97316">
+            <span class="stage-num">5</span>
+            <span class="stage-icon">〰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 5: Stirling → Stirling</div>
+            <div class="stage-meta">
+              <span>Jan 24</span>
+              <span>169.8 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        </div>
+      </section>
+    
+
+    
+      
+      
+      <section class="details-section">
+        <h2 class="section-title">⛰️ Key Climbs</h2>
+        <div class="climbs-list">
+          
+      <div class="climb-card">
+        <div class="climb-header">
+          <span class="climb-category 2">🟡 2</span>
+          <span class="climb-name">Willunga Hill</span>
+        </div>
+        <div class="climb-stats">
+          
+          
+          
+          
+        </div>
+        
       </div>
+    
+      <div class="climb-card">
+        <div class="climb-header">
+          <span class="climb-category 2">🟡 2</span>
+          <span class="climb-name">Corkscrew Road</span>
+        </div>
+        <div class="climb-stats">
+          
+          
+          
+          
+        </div>
+        
+      </div>
+    
+      <div class="climb-card">
+        <div class="climb-header">
+          <span class="climb-category 3">🟢 3</span>
+          <span class="climb-name">Norton Summit</span>
+        </div>
+        <div class="climb-stats">
+          
+          
+          
+          
+        </div>
+        
+      </div>
+    
+      <div class="climb-card">
+        <div class="climb-header">
+          <span class="climb-category 4">🔵 4</span>
+          <span class="climb-name">Menglers Hill</span>
+        </div>
+        <div class="climb-stats">
+          
+          
+          
+          
+        </div>
+        
+      </div>
+    
+        </div>
+      </section>
+    
+      
+      <section class="details-section">
+        <h2 class="section-title">🌟 Pre-Race Favorites</h2>
+        <div class="favorites-grid">
+          
+        <div class="favorites-category">
+          <h3 class="category-label">🎯 GC Contenders</h3>
+          <div class="riders-list">
+            <span class="rider-chip">Prologue TT specialists with climbing ability</span><span class="rider-chip">Previous TDU winners returning</span><span class="rider-chip">WorldTour GC contenders using TDU as season opener</span>
+          </div>
+        </div>
+      
+        <div class="favorites-category">
+          <h3 class="category-label">⛰️ Climbers</h3>
+          <div class="riders-list">
+            <span class="rider-chip">Pure climbers for Willunga and Corkscrew stages</span>
+          </div>
+        </div>
+      
+        <div class="favorites-category">
+          <h3 class="category-label">⚡ Sprinters</h3>
+          <div class="riders-list">
+            <span class="rider-chip">Fast finishers for Stage 1 and potential bunch kicks</span>
+          </div>
+        </div>
+      
+        </div>
+        
+      </section>
+    
+      
+      
+      <section class="details-section">
+        <h2 class="section-title">📖 Storylines to Watch</h2>
+        <ul class="narratives-list">
+          
+      <li class="narrative-item">The ochre jersey battle intensifies on Willunga Hill - who can handle the triple ascent?</li>
+    
+      <li class="narrative-item">New circuit finale on Stage 5 adds uncertainty to traditional sprint-friendly closing day</li>
+    
+      <li class="narrative-item">Corkscrew Road on Stage 2 provides first major GC shakeup - attacks expected on 16% ramps</li>
+    
+      <li class="narrative-item">Adelaide twilight prologue sets early time gaps - TT specialists vs pure climbers</li>
+    
+      <li class="narrative-item">Heat and wind in South Australia can reshape any stage unexpectedly</li>
+    
+        </ul>
+      </section>
+    
+      
+      <section class="details-section">
+        <h2 class="section-title">📜 Historical Context</h2>
+        <div class="history-content">
+          <p>The Tour Down Under has been the traditional WorldTour season opener since 1999, held annually in the Adelaide region of South Australia. Willunga Hill became a TDU staple in 2008 and has since become one of the most iconic climbs in Australian cycling, consistently producing exciting racing and GC drama. Past champions include a who's who of Grand Tour winners and classics specialists.</p>
+        </div>
+      </section>
+    
+      
+      <section class="details-section watch-notes">
+        <h2 class="section-title">👀 What to Watch For</h2>
+        <div class="watch-content">
+          <p>The race is won and lost in the Adelaide Hills. Focus on Corkscrew Road (Stage 2) for early GC moves, then Willunga Hill (Stage 4) for the decisive battle. The prologue gaps can prove crucial - even 10-15 seconds provides valuable buffer for mountain stages. Watch for heat-related tactics and the new circuit finale format on Stage 5.</p>
+        </div>
+      </section>
+    
+    
+
     
 
     
@@ -748,8 +1301,8 @@
 
     <footer class="footer">
       <p>No Spoiler Cycling | Race details are spoiler-safe</p>
-      
-      <p><a href="../index.html">Calendar</a> · <a href="../about.html">About</a></p>
+      <p>Last updated: 1/6/2026</p>
+      <p><a href="../index.html">Calendar</a> · <a href="../riders.html">Riders</a> · <a href="../about.html">About</a></p>
     </footer>
   </div>
 </body>

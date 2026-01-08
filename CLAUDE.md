@@ -506,13 +506,7 @@ Stage races include a `stages` array with individual stage details:
       "platform": "TBD",
       "url": "TBD",
       "description": "Opening sprint stage through the desert",
-      "stageDetails": {
-        "lastFetched": "2026-01-07T00:00:00Z",
-        "spoilerSafe": true,
-        "courseSummary": "Detailed course description...",
-        "keyClimbs": [...],
-        "watchNotes": "What to look for..."
-      }
+      "stageDetails": { ... }
     }
   ]
 }
@@ -527,8 +521,6 @@ Stage races include a `stages` array with individual stage details:
 | `itt` | ⏱️ | Purple |
 | `ttt` | 👥 | Purple |
 | `rest-day` | 😴 | Gray |
-
-**stageDetails** is optional - when populated, generates individual stage detail pages.
 
 ### Standardized TBD Race Format
 For races that haven't occurred yet or lack discovered content:
@@ -552,62 +544,126 @@ For races that haven't occurred yet or lack discovered content:
 - Use standardized platform: "TBD" and url: "TBD"
 - Always include actual raceDate and raceDay for chronological ordering
 
-### Race Details Schema (raceDetails field)
-For single-race or stage detail pages, add a `raceDetails` object to the race:
+### Race Details Schema (Unified)
+
+**IMPORTANT**: Stage races should have BOTH `raceDetails` (race-level context) AND `stages[].stageDetails` (per-stage details). One-day races only need `raceDetails`.
+
+#### One-Day Race raceDetails
 ```json
 {
   "raceDetails": {
-    "lastFetched": "2026-01-07T00:00:00Z",
+    "lastFetched": "ISO-timestamp",
     "spoilerSafe": true,
-    "courseSummary": "Course description focusing on character and features",
-    "keySectors": [
-      {
-        "name": "Sector 15 - Carrefour de l'Arbre",
-        "kmFromFinish": 18.5,
-        "length": 2.1,
-        "surface": "cobbles",
-        "difficulty": 5,
-        "description": "Five-star cobbled sector, often decisive"
-      }
-    ],
-    "keyClimbs": [
-      {
-        "name": "Col du Galibier",
-        "category": "HC",
-        "length": 17.7,
-        "avgGradient": "6.9%",
-        "maxGradient": "12.1%",
-        "kmFromFinish": 35,
-        "summit": 2642
-      }
-    ],
+    "courseSummary": "Overall race character and route description",
+    "keySectors": [{
+      "name": "Sector 15 - Carrefour de l'Arbre",
+      "kmFromFinish": 18.5,
+      "length": 2.1,
+      "surface": "cobbles|gravel|dirt",
+      "difficulty": 5,
+      "description": "Five-star cobbled sector, often decisive"
+    }],
+    "keyClimbs": [{
+      "name": "Col du Galibier",
+      "category": "HC|1|2|3|4",
+      "length": 17.7,
+      "avgGradient": "6.9%",
+      "maxGradient": "12.1%",
+      "kmFromFinish": 35,
+      "summit": 2642,
+      "notes": "Optional context"
+    }],
     "favorites": {
-      "climbers": ["Rider A", "Rider B"],
-      "sprinters": ["Rider C"],
-      "puncheurs": ["Rider D"],
-      "allRounders": ["Rider E"],
-      "gcContenders": ["Rider F"],
-      "cobbleSpecialists": ["Rider G"]
+      "sprinters": ["Rider names"],
+      "puncheurs": ["Rider names"],
+      "climbers": ["Rider names"],
+      "cobbleSpecialists": ["Rider names"],
+      "allRounders": ["Rider names"]
     },
-    "narratives": [
-      "Can Pogacar add another monument to his collection?",
-      "Van Aert returns after injury - can he recapture winning form?"
-    ],
-    "historicalContext": "Notable past editions without spoiling current year",
-    "watchNotes": "Key moments to watch for during the race"
+    "narratives": ["Pre-race storylines and rivalries"],
+    "historicalContext": "Race history (excludes current year results)",
+    "watchNotes": "What to watch for during the race"
   }
 }
 ```
 
-**Race Details Fields:**
-- **spoilerSafe**: Always `true` - confirms content was fetched with spoiler protection
-- **courseSummary**: Overall race character without results
-- **keySectors**: Cobbled/gravel/technical sectors with difficulty (1-5 stars)
-- **keyClimbs**: Climbs with category (HC, 1-4), gradients, and position in race
-- **favorites**: Pre-race favorites by rider type (NEVER include results)
-- **narratives**: Storylines and rivalries heading into the race
-- **historicalContext**: Race history (excludes current year)
-- **watchNotes**: What to look for when watching
+#### Stage Race raceDetails (race-level context)
+For GC context, overall favorites, and race-wide storylines:
+```json
+{
+  "raceDetails": {
+    "lastFetched": "ISO-timestamp",
+    "spoilerSafe": true,
+    "courseSummary": "Overall race format and character across all stages",
+    "keyClimbs": [{
+      "name": "Willunga Hill",
+      "category": "2",
+      "stage": 4,
+      "notes": "Triple ascent on queen stage - decisive for GC"
+    }],
+    "favorites": {
+      "gcContenders": ["Riders who could win overall"],
+      "stageHunters": ["Riders targeting stage wins"],
+      "sprinters": ["Sprint stage contenders"],
+      "climbers": ["Mountain stage animators"]
+    },
+    "narratives": ["GC storylines, team strategies, comeback stories"],
+    "historicalContext": "Race history and notable past editions",
+    "watchNotes": "What makes this race special overall",
+    "gcDynamics": "How the GC typically evolves (optional)"
+  }
+}
+```
+
+#### Stage Race stageDetails (per-stage)
+For individual stage details - placed on each stage in the `stages` array:
+```json
+{
+  "stageDetails": {
+    "lastFetched": "ISO-timestamp",
+    "spoilerSafe": true,
+    "courseSummary": "This stage's route and character",
+    "keyClimbs": [{
+      "name": "Menglers Hill",
+      "category": "4",
+      "length": 2.5,
+      "avgGradient": "5%",
+      "maxGradient": "8%",
+      "kmFromFinish": 13,
+      "notes": "Climbed 3 times"
+    }],
+    "keySectors": [{...}],
+    "watchNotes": "What to watch on this specific stage"
+  }
+}
+```
+
+#### Field Responsibility Matrix
+| Field | Race-Level (stage races) | Stage-Level | One-Day |
+|-------|-------------------------|-------------|---------|
+| courseSummary | Overall race format | Stage route | Full race route |
+| keyClimbs | GC-decisive only + stage # | All climbs this stage | All climbs |
+| keySectors | Rarely used | If cobbles/gravel | All sectors |
+| favorites | gcContenders, stageHunters | Not used | Rider types |
+| narratives | GC battles, rivalries | Not used | Race storylines |
+| historicalContext | Race history | Not used | Race history |
+| watchNotes | Race-level viewing guide | Stage-level viewing | Race viewing guide |
+| gcDynamics | How GC unfolds | Not used | Not used |
+
+#### Research Functions by Race Type
+```bash
+# One-day race - comprehensive details
+node -e "import { searchRaceDetailsSafe } from './lib/perplexity-utils.js';
+searchRaceDetailsSafe('Paris-Roubaix', '2026-04-12', 2026).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+# Stage race - race-level context (GC favorites, narratives)
+node -e "import { searchRaceDetailsSafe } from './lib/perplexity-utils.js';
+searchRaceDetailsSafe('Tour Down Under', '2026-01-21', 2026).then(r => console.log(JSON.stringify(r, null, 2)))"
+
+# Stage race - individual stage details
+node -e "import { searchStagePreviewSafe } from './lib/perplexity-utils.js';
+searchStagePreviewSafe('tdu', 4, '2026-01-24', 2026).then(r => console.log(r.answer))"
+```
 
 ## Data Management Best Practices
 

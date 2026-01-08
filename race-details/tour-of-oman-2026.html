@@ -612,6 +612,143 @@
       text-align: center;
     }
 
+    /* Stage Overview Section */
+    .stage-overview-section {
+      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+      border: 2px solid #8b5cf6;
+    }
+
+    .stage-overview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stage-overview-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stage-overview-card:hover {
+      background: #faf5ff;
+      border-color: #a78bfa;
+      transform: translateX(4px);
+    }
+
+    .stage-overview-card.no-details {
+      opacity: 0.7;
+    }
+
+    .stage-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      border: 3px solid;
+      background: #f9fafb;
+    }
+
+    .stage-num {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      line-height: 1;
+    }
+
+    .stage-icon {
+      font-size: 0.7rem;
+      line-height: 1;
+    }
+
+    .stage-info {
+      flex: 1;
+    }
+
+    .stage-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .stage-meta {
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      gap: 12px;
+    }
+
+    .details-badge {
+      background: #8b5cf6;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Stage Navigation */
+    .stage-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stage-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-link:hover {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .stage-nav-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .stage-nav-parent {
+      padding: 10px 20px;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-parent:hover {
+      background: #7c3aed;
+    }
+
     /* Key Riders Section */
     .key-riders-section {
       background: linear-gradient(135deg, #fefce8, #fef9c3);
@@ -773,6 +910,8 @@
   <div class="container">
     <a href="../index.html" class="back-button">← Back to Calendar</a>
 
+    
+
     <div class="race-header-card">
       <div class="race-badges">
         <span class="badge badge-category">2.Pro</span>
@@ -792,6 +931,91 @@
         <h2>🗺️ Course Overview</h2>
         <p>The Tour of Oman is a five-stage race showcasing the varied terrain of the Sultanate - from coastal flat roads to desert landscapes and the dramatic Green Mountain. The race typically features sprint stages, hilly tests, and culminates with a decisive summit finish atop Jebel al Akhdhar.</p>
       </div>
+    
+
+    
+      <section class="details-section stage-overview-section">
+        <h2 class="section-title">📋 Stage Overview</h2>
+        <p class="section-subtitle">Click a stage for detailed course information</p>
+        <div class="stage-overview-grid">
+          
+        <a href="tour-of-oman-2026-stage-1.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #3b82f6">
+            <span class="stage-num">1</span>
+            <span class="stage-icon">➡️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 1: Flat Stage</div>
+            <div class="stage-meta">
+              <span>Feb 6</span>
+              <span>178 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-of-oman-2026-stage-2.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #f97316">
+            <span class="stage-num">2</span>
+            <span class="stage-icon">〰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 2: Hilly Stage</div>
+            <div class="stage-meta">
+              <span>Feb 7</span>
+              <span>203 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-of-oman-2026-stage-3.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #f97316">
+            <span class="stage-num">3</span>
+            <span class="stage-icon">〰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 3: Hilly Stage</div>
+            <div class="stage-meta">
+              <span>Feb 8</span>
+              <span>181 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-of-oman-2026-stage-4.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #3b82f6">
+            <span class="stage-num">4</span>
+            <span class="stage-icon">➡️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 4: Flat Stage</div>
+            <div class="stage-meta">
+              <span>Feb 9</span>
+              <span>182 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        <a href="tour-of-oman-2026-stage-5.html" class="stage-overview-card has-details">
+          <div class="stage-number" style="border-color: #ef4444">
+            <span class="stage-num">5</span>
+            <span class="stage-icon">⛰️</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">Stage 5: Jebel al Akhdhar (Green Mountain)</div>
+            <div class="stage-meta">
+              <span>Feb 10</span>
+              <span>139 km</span>
+            </div>
+          </div>
+          <span class="details-badge">Details</span>
+        </a>
+      
+        </div>
+      </section>
     
 
     

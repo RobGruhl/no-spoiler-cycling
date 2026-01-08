@@ -612,6 +612,143 @@
       text-align: center;
     }
 
+    /* Stage Overview Section */
+    .stage-overview-section {
+      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+      border: 2px solid #8b5cf6;
+    }
+
+    .stage-overview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stage-overview-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stage-overview-card:hover {
+      background: #faf5ff;
+      border-color: #a78bfa;
+      transform: translateX(4px);
+    }
+
+    .stage-overview-card.no-details {
+      opacity: 0.7;
+    }
+
+    .stage-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      border: 3px solid;
+      background: #f9fafb;
+    }
+
+    .stage-num {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      line-height: 1;
+    }
+
+    .stage-icon {
+      font-size: 0.7rem;
+      line-height: 1;
+    }
+
+    .stage-info {
+      flex: 1;
+    }
+
+    .stage-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .stage-meta {
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      gap: 12px;
+    }
+
+    .details-badge {
+      background: #8b5cf6;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Stage Navigation */
+    .stage-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stage-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-link:hover {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .stage-nav-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .stage-nav-parent {
+      padding: 10px 20px;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-parent:hover {
+      background: #7c3aed;
+    }
+
     /* Key Riders Section */
     .key-riders-section {
       background: linear-gradient(135deg, #fefce8, #fef9c3);
@@ -773,6 +910,8 @@
   <div class="container">
     <a href="../index.html" class="back-button">← Back to Calendar</a>
 
+    
+
     <div class="race-header-card">
       <div class="race-badges">
         <span class="badge badge-category">1.Pro</span>
@@ -792,6 +931,8 @@
         <h2>🗺️ Course Overview</h2>
         <p>The Clásica de Almería is a 189km one-day race in Spain's southern Andalusia region. The course includes several category 3 and 4 climbs (Alto de Celin, Alto de La Alqueria, Alto de Fuente Marbella) but these are positioned far enough from the finish that the race typically concludes in a bunch sprint in Roquetas de Mar.</p>
       </div>
+    
+
     
 
     

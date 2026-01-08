@@ -301,6 +301,87 @@
       text-align: center;
     }
 
+    /* Top Riders Grid */
+    .section-subtitle {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+
+    .top-riders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .top-rider-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #f9fafb;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+    }
+
+    .top-rider-card:hover {
+      background: #f3f4f6;
+      border-color: #d1d5db;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .top-rider-card.top-1 {
+      background: linear-gradient(135deg, #fef3c7, #fde68a);
+      border-color: #fbbf24;
+    }
+
+    .top-rider-card.top-2 {
+      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+      border-color: #9ca3af;
+    }
+
+    .top-rider-card.top-3 {
+      background: linear-gradient(135deg, #fef3c7, #fed7aa);
+      border-color: #d97706;
+    }
+
+    .rider-rank {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #6b7280;
+      min-width: 28px;
+    }
+
+    .top-rider-card.top-1 .rider-rank,
+    .top-rider-card.top-2 .rider-rank,
+    .top-rider-card.top-3 .rider-rank {
+      color: #1f2937;
+    }
+
+    .rider-info {
+      flex: 1;
+    }
+
+    .rider-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .rider-team {
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    .rider-specialties {
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+
     /* Narratives List */
     .narratives-list {
       list-style: none;
@@ -531,6 +612,143 @@
       text-align: center;
     }
 
+    /* Stage Overview Section */
+    .stage-overview-section {
+      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+      border: 2px solid #8b5cf6;
+    }
+
+    .stage-overview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stage-overview-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stage-overview-card:hover {
+      background: #faf5ff;
+      border-color: #a78bfa;
+      transform: translateX(4px);
+    }
+
+    .stage-overview-card.no-details {
+      opacity: 0.7;
+    }
+
+    .stage-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      border: 3px solid;
+      background: #f9fafb;
+    }
+
+    .stage-num {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      line-height: 1;
+    }
+
+    .stage-icon {
+      font-size: 0.7rem;
+      line-height: 1;
+    }
+
+    .stage-info {
+      flex: 1;
+    }
+
+    .stage-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .stage-meta {
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      gap: 12px;
+    }
+
+    .details-badge {
+      background: #8b5cf6;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Stage Navigation */
+    .stage-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stage-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-link:hover {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .stage-nav-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .stage-nav-parent {
+      padding: 10px 20px;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-parent:hover {
+      background: #7c3aed;
+    }
+
     /* Key Riders Section */
     .key-riders-section {
       background: linear-gradient(135deg, #fefce8, #fef9c3);
@@ -690,7 +908,15 @@
 </head>
 <body>
   <div class="container">
-    <a href="../index.html" class="back-button">← Back to Calendar</a>
+    <a href="tour-down-under-2026.html" class="back-button">← Back to Tour Down Under</a>
+
+    
+    <div class="stage-navigation">
+      <a href="tour-down-under-2026-stage-4.html" class="stage-nav-link">← Stage 4</a>
+      <a href="tour-down-under-2026.html" class="stage-nav-parent">All Stages</a>
+      <span class="stage-nav-link disabled">Next →</span>
+    </div>
+  
 
     <div class="race-header-card">
       <div class="race-badges">
@@ -711,6 +937,8 @@
         <h2>🗺️ Course Overview</h2>
         <p>A revolutionary finale for the Tour Down Under - the final day moves from a sprint-friendly city stage to an aggressive world championship-style circuit. Eight laps of a punchy 21km circuit around Stirling with a saw-blade profile. Four classified climbs per lap before the finishing ascent on Mount Barker Road. Race Director O'Grady calls it 'the best final stage we've ever had.'</p>
       </div>
+    
+
     
 
     
@@ -737,6 +965,7 @@
         </div>
       </section>
     
+      
       
       
       

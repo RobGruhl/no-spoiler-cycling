@@ -152,6 +152,65 @@
         ],
         "notes": "Race starts Jan 20, 2026. YouTube highlights typically posted same day after each stage."
       },
+      "raceDetails": {
+        "lastFetched": "2026-01-07T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Tour Down Under opens the WorldTour season each January in South Australia. This 6-stage race (including prologue) features two decisive mountain stages in the Adelaide Hills - Stage 2 on the feared Corkscrew Road and Stage 4 featuring the iconic triple ascent of Willunga Hill. The format creates multiple GC opportunities: the prologue establishes early gaps, Corkscrew Road on Stage 2 provides the first major test, and Willunga Hill typically decides the ochre jersey on Stage 4. The final stage now features a circuit finish rather than a traditional sprint, adding drama to the finale.",
+        "keyClimbs": [
+          {
+            "name": "Willunga Hill",
+            "category": "2",
+            "stage": 4,
+            "notes": "Triple ascent on queen stage - decisive for GC. 3km at 7.5% avg, final ascent to finish line."
+          },
+          {
+            "name": "Corkscrew Road",
+            "category": "2",
+            "stage": 2,
+            "notes": "Double ascent - early GC shaker. 2.5km at 9.7% avg, up to 16% max. First serious test of legs."
+          },
+          {
+            "name": "Norton Summit",
+            "category": "3",
+            "stage": 2,
+            "notes": "Opening climb on Stage 2, sets up Corkscrew attacks."
+          },
+          {
+            "name": "Menglers Hill",
+            "category": "4",
+            "stage": 1,
+            "notes": "Triple ascent in Barossa Valley, opener for punchy riders."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Prologue TT specialists with climbing ability",
+            "Previous TDU winners returning",
+            "WorldTour GC contenders using TDU as season opener"
+          ],
+          "stageHunters": [
+            "Sprinters targeting flat stages",
+            "Breakaway specialists for hilly stages",
+            "Puncheurs for Willunga Hill"
+          ],
+          "climbers": [
+            "Pure climbers for Willunga and Corkscrew stages"
+          ],
+          "sprinters": [
+            "Fast finishers for Stage 1 and potential bunch kicks"
+          ]
+        },
+        "narratives": [
+          "The ochre jersey battle intensifies on Willunga Hill - who can handle the triple ascent?",
+          "New circuit finale on Stage 5 adds uncertainty to traditional sprint-friendly closing day",
+          "Corkscrew Road on Stage 2 provides first major GC shakeup - attacks expected on 16% ramps",
+          "Adelaide twilight prologue sets early time gaps - TT specialists vs pure climbers",
+          "Heat and wind in South Australia can reshape any stage unexpectedly"
+        ],
+        "historicalContext": "The Tour Down Under has been the traditional WorldTour season opener since 1999, held annually in the Adelaide region of South Australia. Willunga Hill became a TDU staple in 2008 and has since become one of the most iconic climbs in Australian cycling, consistently producing exciting racing and GC drama. Past champions include a who's who of Grand Tour winners and classics specialists.",
+        "watchNotes": "The race is won and lost in the Adelaide Hills. Focus on Corkscrew Road (Stage 2) for early GC moves, then Willunga Hill (Stage 4) for the decisive battle. The prologue gaps can prove crucial - even 10-15 seconds provides valuable buffer for mountain stages. Watch for heat-related tactics and the new circuit finale format on Stage 5.",
+        "gcDynamics": "Prologue creates initial gaps → Stage 2 Corkscrew provides first serious selection → Stage 3 transitional day with breakaway potential → Stage 4 Willunga typically decides GC → Stage 5 circuit finale can produce late attacks"
+      },
       "stages": [
         {
           "stageNumber": 0,
@@ -861,7 +920,13 @@
           "date": "2026-02-04",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Opening team time trial to set the GC hierarchy"
+          "description": "Opening team time trial to set the GC hierarchy",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.374Z",
+            "spoilerSafe": true,
+            "courseSummary": "Opening team time trial to set the GC hierarchy",
+            "watchNotes": "Team effort - consistency is key. Watch for teams pacing for their GC leader vs going all-out. Gaps can be substantial between top and bottom teams."
+          }
         },
         {
           "stageNumber": 2,
@@ -874,7 +939,13 @@
           "date": "2026-02-05",
           "platform": "TBD",
           "url": "TBD",
-          "description": "First mountain stage with summit finish - key GC day"
+          "description": "First mountain stage with summit finish - key GC day",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.374Z",
+            "spoilerSafe": true,
+            "courseSummary": "First mountain stage with summit finish - key GC day",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 3,
@@ -887,7 +958,13 @@
           "date": "2026-02-06",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Second mountain test through challenging terrain"
+          "description": "Second mountain test through challenging terrain",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.374Z",
+            "spoilerSafe": true,
+            "courseSummary": "Second mountain test through challenging terrain",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 4,
@@ -900,7 +977,13 @@
           "date": "2026-02-07",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Undulating stage that could favor puncheurs or breakaways"
+          "description": "Undulating stage that could favor puncheurs or breakaways",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.374Z",
+            "spoilerSafe": true,
+            "courseSummary": "Undulating stage that could favor puncheurs or breakaways",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 5,
@@ -913,7 +996,13 @@
           "date": "2026-02-08",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat finale into Valencia for the sprinters"
+          "description": "Flat finale into Valencia for the sprinters",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.374Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat finale into Valencia for the sprinters",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         }
       ],
       "raceDetails": {
@@ -1054,7 +1143,13 @@
           "date": "2026-02-07",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Opening flat stage through the desert - likely sprint finish"
+          "description": "Opening flat stage through the desert - likely sprint finish",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Opening flat stage through the desert - likely sprint finish",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 2,
@@ -1067,7 +1162,13 @@
           "date": "2026-02-08",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Undulating stage with punchy hills - could favor breakaway or puncheurs"
+          "description": "Undulating stage with punchy hills - could favor breakaway or puncheurs",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Undulating stage with punchy hills - could favor breakaway or puncheurs",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 3,
@@ -1080,7 +1181,13 @@
           "date": "2026-02-09",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Another hilly day through the Omani interior"
+          "description": "Another hilly day through the Omani interior",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Another hilly day through the Omani interior",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 4,
@@ -1093,7 +1200,13 @@
           "date": "2026-02-10",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat stage likely for the sprinters"
+          "description": "Flat stage likely for the sprinters",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat stage likely for the sprinters",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 5,
@@ -1107,7 +1220,13 @@
           "date": "2026-02-11",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Queen stage with summit finish atop the iconic Green Mountain - decisive for GC"
+          "description": "Queen stage with summit finish atop the iconic Green Mountain - decisive for GC",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Queen stage with summit finish atop the iconic Green Mountain - decisive for GC",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         }
       ],
       "raceDetails": {
@@ -1506,7 +1625,13 @@
           "date": "2026-02-16",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Opening sprint stage through the desert - flat with possible uphill kick to finish"
+          "description": "Opening sprint stage through the desert - flat with possible uphill kick to finish",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Opening sprint stage through the desert - flat with possible uphill kick to finish",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 2,
@@ -1520,7 +1645,13 @@
           "date": "2026-02-17",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Fast flat time trial for the TT specialists"
+          "description": "Fast flat time trial for the TT specialists",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Fast flat time trial for the TT specialists",
+            "watchNotes": "Pure time trial - every second counts. Watch for aero positions and pacing strategy. TT specialists can gain significant time on pure climbers."
+          }
         },
         {
           "stageNumber": 3,
@@ -1534,7 +1665,23 @@
           "date": "2026-02-18",
           "platform": "TBD",
           "url": "TBD",
-          "description": "First mountain stage with summit finish atop Jebel Jais - 20km climb at 5% average"
+          "description": "First mountain stage with summit finish atop Jebel Jais - 20km climb at 5% average",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "First mountain stage with summit finish atop Jebel Jais - 20km climb at 5% average",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs.",
+            "keyClimbs": [
+              {
+                "name": "Jebel Jais",
+                "category": "HC",
+                "length": 20,
+                "avgGradient": "5%",
+                "kmFromFinish": 0,
+                "notes": "Summit finish - decisive for GC"
+              }
+            ]
+          }
         },
         {
           "stageNumber": 4,
@@ -1547,7 +1694,13 @@
           "date": "2026-02-19",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat stage through the desert - beware of crosswinds"
+          "description": "Flat stage through the desert - beware of crosswinds",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat stage through the desert - beware of crosswinds",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 5,
@@ -1560,7 +1713,13 @@
           "date": "2026-02-20",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Another flat day in Dubai - sprint opportunity"
+          "description": "Another flat day in Dubai - sprint opportunity",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Another flat day in Dubai - sprint opportunity",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 6,
@@ -1573,7 +1732,13 @@
           "date": "2026-02-21",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat stage to Abu Dhabi - final sprint opportunity before finale"
+          "description": "Flat stage to Abu Dhabi - final sprint opportunity before finale",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat stage to Abu Dhabi - final sprint opportunity before finale",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 7,
@@ -1587,7 +1752,13 @@
           "date": "2026-02-22",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Queen stage and finale with summit finish atop Jebel Hafeet - decisive for GC"
+          "description": "Queen stage and finale with summit finish atop Jebel Hafeet - decisive for GC",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Queen stage and finale with summit finish atop Jebel Hafeet - decisive for GC",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         }
       ],
       "raceDetails": {
@@ -1757,7 +1928,13 @@
           "date": "2026-02-18",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Opening stage - typically flat for the sprinters"
+          "description": "Opening stage - typically flat for the sprinters",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Opening stage - typically flat for the sprinters",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 2,
@@ -1771,7 +1948,13 @@
           "date": "2026-02-19",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Mountain stage to Alto da Fóia - first GC test at Algarve's highest point"
+          "description": "Mountain stage to Alto da Fóia - first GC test at Algarve's highest point",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Mountain stage to Alto da Fóia - first GC test at Algarve's highest point",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 3,
@@ -1784,7 +1967,13 @@
           "date": "2026-02-20",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat stage through the Algarve - sprint opportunity"
+          "description": "Flat stage through the Algarve - sprint opportunity",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat stage through the Algarve - sprint opportunity",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 4,
@@ -1797,7 +1986,13 @@
           "date": "2026-02-21",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Undulating stage - could favor breakaway or reduced bunch sprint"
+          "description": "Undulating stage - could favor breakaway or reduced bunch sprint",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Undulating stage - could favor breakaway or reduced bunch sprint",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 5,
@@ -1812,7 +2007,13 @@
           "date": "2026-02-22",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Decisive uphill time trial to Alto do Malhão - final GC decider"
+          "description": "Decisive uphill time trial to Alto do Malhão - final GC decider",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Decisive uphill time trial to Alto do Malhão - final GC decider",
+            "watchNotes": "Pure time trial - every second counts. Watch for aero positions and pacing strategy. TT specialists can gain significant time on pure climbers."
+          }
         }
       ],
       "raceDetails": {
@@ -1936,7 +2137,13 @@
           "date": "2026-02-18",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Opening stage through mountainous Andalusian terrain - first test for GC riders"
+          "description": "Opening stage through mountainous Andalusian terrain - first test for GC riders",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Opening stage through mountainous Andalusian terrain - first test for GC riders",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 2,
@@ -1949,7 +2156,13 @@
           "date": "2026-02-19",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Punchy stage with uphill finish - favors attackers"
+          "description": "Punchy stage with uphill finish - favors attackers",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Punchy stage with uphill finish - favors attackers",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 3,
@@ -1962,7 +2175,13 @@
           "date": "2026-02-20",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Rolling terrain - sprint possible if fast men survive"
+          "description": "Rolling terrain - sprint possible if fast men survive",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Rolling terrain - sprint possible if fast men survive",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 4,
@@ -1975,7 +2194,13 @@
           "date": "2026-02-21",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Longest stage of the race - attrition through distance and terrain"
+          "description": "Longest stage of the race - attrition through distance and terrain",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Longest stage of the race - attrition through distance and terrain",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 5,
@@ -1988,7 +2213,13 @@
           "date": "2026-02-22",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Final stage through Andalusian mountains - last chance to reshape GC"
+          "description": "Final stage through Andalusian mountains - last chance to reshape GC",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:32:17.375Z",
+            "spoilerSafe": true,
+            "courseSummary": "Final stage through Andalusian mountains - last chance to reshape GC",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         }
       ],
       "raceDetails": {
@@ -2189,7 +2420,24 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "raceDetails": {
+        "lastFetched": "2026-01-07T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Faun Drôme Classic is a French one-day race held in the Drôme department of southeastern France. Starting and finishing in Étoile-sur-Rhône, the 200km route traverses the rolling terrain between the Rhône Valley and the Vercors foothills. Despite its 'flat' classification, the parcours features several short climbs that can break up the peloton before the finale.",
+        "favorites": {
+          "sprinters": ["Fast finishers capable of surviving selective climbs"],
+          "puncheurs": ["Riders who can attack on late climbs"],
+          "allRounders": ["Strong all-rounders using this as spring season opener"]
+        },
+        "narratives": [
+          "Early-season test for sprinters ahead of spring classics",
+          "French teams looking for home soil victories",
+          "Form indicator race for Paris-Nice preparation"
+        ],
+        "historicalContext": "Formerly known as the Classic Sud Ardèche, the race was rebranded as the Drôme Classic and has grown in stature as a key early-season race in France. It serves as preparation for both sprinters targeting Milan-San Remo and classics specialists.",
+        "watchNotes": "Watch for breakaways on the final climbs trying to stay away from the bunch sprint. If the race comes together, expect a bunch sprint where positioning through the final kilometers is crucial."
+      }
     },
     {
       "id": "kuurne-brussels-kuurne-2026",
@@ -2209,7 +2457,41 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 200
+      "distance": 200,
+      "raceDetails": {
+        "lastFetched": "2026-01-07T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Kuurne-Brussels-Kuurne is a classic Belgian one-day race held on the day after Omloop Het Nieuwsblad as part of the 'Opening Weekend' of Belgian cycling. The 200km race starts and finishes in Kuurne, West Flanders, traversing through Brussels and tackling multiple bergs and cobbled sectors. The race features the famous hellingen (short steep hills) of Flanders and selective cobbled sections that test spring classics fitness.",
+        "keySectors": [
+          {
+            "name": "Oude Kwaremont",
+            "surface": "cobbles",
+            "difficulty": 4,
+            "length": 2.2,
+            "description": "Classic Flemish cobbled climb - selective but not decisive at this point"
+          },
+          {
+            "name": "Koppenberg",
+            "surface": "cobbles",
+            "difficulty": 5,
+            "length": 0.6,
+            "description": "Short but brutal 22% gradient cobbles - often causes splits"
+          }
+        ],
+        "favorites": {
+          "cobbleSpecialists": ["Flanders specialists using this as Tour prep"],
+          "puncheurs": ["Riders who can handle the hellingen"],
+          "sprinters": ["Fast finishers with cobble survival skills"]
+        },
+        "narratives": [
+          "Second day of Opening Weekend tests tired legs from Omloop",
+          "Flandrien classics specialists fine-tuning form before Tour of Flanders",
+          "Weather often plays a major role - wind, rain, and cold add to difficulty",
+          "Can sprinters survive the cobbles for a bunch sprint?"
+        ],
+        "historicalContext": "First held in 1901, Kuurne-Brussels-Kuurne is one of the oldest races in Belgium. The race gained prominence as the companion event to Omloop Het Nieuwsblad, together forming the unofficial 'Opening Weekend' that kicks off the Belgian spring classics season. Many riders use it as final preparation before the Spring Classics block.",
+        "watchNotes": "The race can go multiple ways: breakaway success on the bergs, late attacks on the final climbs, or a reduced bunch sprint. Watch for the Koppenberg and Oude Kwaremont to create selection. Tired legs from Omloop the day before often leads to surprises."
+      }
     },
     {
       "id": "omloop-van-het-hageland-2026",
@@ -5025,6 +5307,66 @@
       "prestige": [
         "grand-tour"
       ],
+      "raceDetails": {
+        "lastFetched": "2026-01-07T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The 2026 Tour de France starts in Barcelona, Spain for the first time in history, featuring 21 stages over 23 days covering approximately 3,333km. The Grand Départ begins with a team time trial up Montjuïc, followed by three stages in Catalonia before crossing into France. The race features eight mountain stages including summit finishes at iconic climbs, two individual time trials, and rest days in key positions. The third week features a demanding finale through the Alps with classic climbs including Mont Ventoux and the Galibier region.",
+        "keyClimbs": [
+          {
+            "name": "Mont Ventoux",
+            "category": "HC",
+            "stage": 17,
+            "notes": "The Beast of Provence - legendary summit finish. 21.5km at 7.5% via Bédoin."
+          },
+          {
+            "name": "Col du Galibier",
+            "category": "HC",
+            "stage": 19,
+            "notes": "Classic Alpine giant, often decisive for GC. 18km at 6.9% to 2642m."
+          },
+          {
+            "name": "Alpe d'Huez",
+            "category": "HC",
+            "stage": 20,
+            "notes": "Iconic 21 hairpins to Dutch Corner. 13.8km at 8.1%, penultimate stage."
+          },
+          {
+            "name": "Montjuïc",
+            "category": "3",
+            "stage": 1,
+            "notes": "TTT opener - short punchy climb through Barcelona park, ridden twice."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Previous Tour winners",
+            "Grand Tour specialists",
+            "Rising talents from past Vueltas/Giros"
+          ],
+          "stageHunters": [
+            "Breakaway specialists for medium mountain stages",
+            "Sprinters for flat stages",
+            "TT specialists for both time trials"
+          ],
+          "climbers": [
+            "Pure climbers for high mountain stages",
+            "Punchy finishers for hilly stages"
+          ],
+          "sprinters": [
+            "Fast finishers for 7 flat stages"
+          ]
+        },
+        "narratives": [
+          "Barcelona Grand Départ brings Spanish crowds and a historic first for Catalunya",
+          "Third week Alps gauntlet: Mont Ventoux, Galibier, and Alpe d'Huez in final 5 stages",
+          "Two time trials (TTT + ITT) create significant time gaps for TT specialists",
+          "Can the yellow jersey survive three consecutive mountain stages before Paris?",
+          "New generation of GC riders challenging established order"
+        ],
+        "historicalContext": "The Tour de France is cycling's most prestigious race, first held in 1903. This will be the first Grand Départ from Barcelona. Previous Spanish starts have come from Bilbao (2023) and San Sebastian. The race has shaped legends from Coppi and Merckx to Indurain and modern champions. The yellow jersey (maillot jaune) has been the symbol of race leadership since 1919.",
+        "watchNotes": "The TTT opener will set early time gaps between teams. First mountain summit finish creates initial GC selection. Watch for the first rest day as recovery point before the second major mountain block. The final week's consecutive mountain stages (Ventoux, Alps) typically decide the race. Paris finale is traditionally processional until the Champs-Élysées sprints.",
+        "gcDynamics": "TTT creates early team gaps → First mountains establish GC hierarchy → Second week mountain stages refine gaps → Final week Alps make-or-break for contenders → ITT as final GC test before Paris"
+      },
       "stages": [
         {
           "stageNumber": 1,
@@ -5037,7 +5379,13 @@
           "date": "2026-07-04",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Team time trial with two climbs of Montjuïc; technical city-center course"
+          "description": "Team time trial with two climbs of Montjuïc; technical city-center course",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.817Z",
+            "spoilerSafe": true,
+            "courseSummary": "Team time trial with two climbs of Montjuïc; technical city-center course",
+            "watchNotes": "Team effort - consistency is key. Watch for teams pacing for their GC leader vs going all-out. Gaps can be substantial between top and bottom teams."
+          }
         },
         {
           "stageNumber": 2,
@@ -5051,7 +5399,13 @@
           "date": "2026-07-05",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Repeated short climb to Montjuïc Castle (1.6 km at up to 13%), punchy circuit-style finish"
+          "description": "Repeated short climb to Montjuïc Castle (1.6 km at up to 13%), punchy circuit-style finish",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Repeated short climb to Montjuïc Castle (1.6 km at up to 13%), punchy circuit-style finish",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 3,
@@ -5065,7 +5419,13 @@
           "date": "2026-07-06",
           "platform": "TBD",
           "url": "TBD",
-          "description": "First summit finish at high Pyrenean ski station Les Angles"
+          "description": "First summit finish at high Pyrenean ski station Les Angles",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "First summit finish at high Pyrenean ski station Les Angles",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 4,
@@ -5078,7 +5438,13 @@
           "date": "2026-07-07",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Hilly transition stage through the Pyrenean foothills"
+          "description": "Hilly transition stage through the Pyrenean foothills",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Hilly transition stage through the Pyrenean foothills",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 5,
@@ -5091,7 +5457,13 @@
           "date": "2026-07-08",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat sprinters' stage"
+          "description": "Flat sprinters' stage",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat sprinters' stage",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 6,
@@ -5105,7 +5477,13 @@
           "date": "2026-07-09",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Classic Pyrenean giants: Col d'Aspin and Col du Tourmalet before summit finish at Gavarnie-Gèdre"
+          "description": "Classic Pyrenean giants: Col d'Aspin and Col du Tourmalet before summit finish at Gavarnie-Gèdre",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Classic Pyrenean giants: Col d'Aspin and Col du Tourmalet before summit finish at Gavarnie-Gèdre",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 7,
@@ -5118,7 +5496,13 @@
           "date": "2026-07-10",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat sprinters' stage through the Landes forest"
+          "description": "Flat sprinters' stage through the Landes forest",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat sprinters' stage through the Landes forest",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 8,
@@ -5131,7 +5515,13 @@
           "date": "2026-07-11",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat sprinters' stage in the Dordogne"
+          "description": "Flat sprinters' stage in the Dordogne",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat sprinters' stage in the Dordogne",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 9,
@@ -5144,7 +5534,13 @@
           "date": "2026-07-12",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Hilly breakaway terrain in the Corrèze"
+          "description": "Hilly breakaway terrain in the Corrèze",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Hilly breakaway terrain in the Corrèze",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 0,
@@ -5155,7 +5551,13 @@
           "date": "2026-07-13",
           "platform": null,
           "url": null,
-          "description": "First rest day in the Cantal region"
+          "description": "First rest day in the Cantal region",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "First rest day in the Cantal region",
+            "watchNotes": "Watch for tactical racing throughout the stage."
+          }
         },
         {
           "stageNumber": 10,
@@ -5169,7 +5571,13 @@
           "date": "2026-07-14",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Bastille Day mountain stage in the Massif Central with summit finish at Le Lioran"
+          "description": "Bastille Day mountain stage in the Massif Central with summit finish at Le Lioran",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Bastille Day mountain stage in the Massif Central with summit finish at Le Lioran",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 11,
@@ -5182,7 +5590,13 @@
           "date": "2026-07-15",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat transition stage"
+          "description": "Flat transition stage",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat transition stage",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 12,
@@ -5195,7 +5609,13 @@
           "date": "2026-07-16",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat stage starting from the Magny-Cours racing circuit"
+          "description": "Flat stage starting from the Magny-Cours racing circuit",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat stage starting from the Magny-Cours racing circuit",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 13,
@@ -5208,7 +5628,13 @@
           "date": "2026-07-17",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Long hilly stage through the Jura foothills"
+          "description": "Long hilly stage through the Jura foothills",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Long hilly stage through the Jura foothills",
+            "watchNotes": "Punchy terrain will test the sprinters. Breakaways have a chance if they build enough gap over the climbs. GC teams may use the hills to put pressure on rivals."
+          }
         },
         {
           "stageNumber": 14,
@@ -5222,7 +5648,13 @@
           "date": "2026-07-18",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Vosges mountain stage: Grand Ballon, Col du Page, Ballon d'Alsace, Col du Haag"
+          "description": "Vosges mountain stage: Grand Ballon, Col du Page, Ballon d'Alsace, Col du Haag",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Vosges mountain stage: Grand Ballon, Col du Page, Ballon d'Alsace, Col du Haag",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 15,
@@ -5236,7 +5668,13 @@
           "date": "2026-07-19",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Very steep summit finish at Plateau de Solaison; includes Le Salève at ~11% avg over 4.7 km"
+          "description": "Very steep summit finish at Plateau de Solaison; includes Le Salève at ~11% avg over 4.7 km",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Very steep summit finish at Plateau de Solaison; includes Le Salève at ~11% avg over 4.7 km",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 0,
@@ -5247,7 +5685,13 @@
           "date": "2026-07-20",
           "platform": null,
           "url": null,
-          "description": "Second rest day before the Alpine finale"
+          "description": "Second rest day before the Alpine finale",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Second rest day before the Alpine finale",
+            "watchNotes": "Watch for tactical racing throughout the stage."
+          }
         },
         {
           "stageNumber": 16,
@@ -5260,7 +5704,13 @@
           "date": "2026-07-21",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Individual time trial along Lake Geneva"
+          "description": "Individual time trial along Lake Geneva",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Individual time trial along Lake Geneva",
+            "watchNotes": "Pure time trial - every second counts. Watch for aero positions and pacing strategy. TT specialists can gain significant time on pure climbers."
+          }
         },
         {
           "stageNumber": 17,
@@ -5273,7 +5723,13 @@
           "date": "2026-07-22",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Flat transition stage before the Alpine finale"
+          "description": "Flat transition stage before the Alpine finale",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Flat transition stage before the Alpine finale",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         },
         {
           "stageNumber": 18,
@@ -5287,7 +5743,13 @@
           "date": "2026-07-23",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Mountain stage with summit finish at the ski station Orcières-Merlette"
+          "description": "Mountain stage with summit finish at the ski station Orcières-Merlette",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Mountain stage with summit finish at the ski station Orcières-Merlette",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 19,
@@ -5301,7 +5763,13 @@
           "date": "2026-07-24",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Short but brutal mountain stage finishing atop the legendary Alpe d'Huez"
+          "description": "Short but brutal mountain stage finishing atop the legendary Alpe d'Huez",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Short but brutal mountain stage finishing atop the legendary Alpe d'Huez",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 20,
@@ -5315,7 +5783,13 @@
           "date": "2026-07-25",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Queen stage: Col de la Croix de Fer, Col du Télégraphe, Col du Galibier (roof of the Tour), Col de Sarenne, Alpe d'Huez. ~5,600m elevation gain"
+          "description": "Queen stage: Col de la Croix de Fer, Col du Télégraphe, Col du Galibier (roof of the Tour), Col de Sarenne, Alpe d'Huez. ~5,600m elevation gain",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Queen stage: Col de la Croix de Fer, Col du Télégraphe, Col du Galibier (roof of the Tour), Col de Sarenne, Alpe d'Huez. ~5,600m elevation gain",
+            "watchNotes": "Key GC day. Expect attacks on the final climb. Teams will set tempo to drop sprinters before the decisive section. Watch for long-range moves if multiple major climbs."
+          }
         },
         {
           "stageNumber": 21,
@@ -5329,7 +5803,13 @@
           "date": "2026-07-26",
           "platform": "TBD",
           "url": "TBD",
-          "description": "Ceremonial finale with multiple ascents of Rue Lepic/Montmartre before Champs-Élysées sprint"
+          "description": "Ceremonial finale with multiple ascents of Rue Lepic/Montmartre before Champs-Élysées sprint",
+          "stageDetails": {
+            "lastFetched": "2026-01-08T06:33:23.818Z",
+            "spoilerSafe": true,
+            "courseSummary": "Ceremonial finale with multiple ascents of Rue Lepic/Montmartre before Champs-Élysées sprint",
+            "watchNotes": "Sprint teams will control the pace. Watch for crosswinds that can split the peloton on exposed roads. Late attacks possible if finale includes any punchy sections."
+          }
         }
       ],
       "topRiders": [

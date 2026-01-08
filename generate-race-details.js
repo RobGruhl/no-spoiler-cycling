@@ -102,7 +102,8 @@ function generateRaceDetailsHTML(race, options = {}) {
   const {
     backLink = '../index.html',
     backText = 'Back to Calendar',
-    riders = []
+    riders = [],
+    stageNavigation = ''  // Optional stage navigation HTML
   } = options;
 
   const details = race.raceDetails || {};
@@ -391,6 +392,63 @@ function generateRaceDetailsHTML(race, options = {}) {
         </div>
         ${youtubeHTML}
         ${race.broadcast.notes ? `<p class="broadcast-footer-notes">${race.broadcast.notes}</p>` : ''}
+      </section>
+    `;
+  };
+
+  // Generate Stage Overview HTML (for stage races)
+  const generateStageOverviewHTML = () => {
+    if (!race.stages || race.stages.length === 0) return '';
+
+    const stageTypeIcons = {
+      'flat': '➡️',
+      'hilly': '〰️',
+      'mountain': '⛰️',
+      'itt': '⏱️',
+      'ttt': '👥',
+      'rest-day': '😴'
+    };
+
+    const stageTypeColors = {
+      'flat': '#3b82f6',
+      'hilly': '#f97316',
+      'mountain': '#ef4444',
+      'itt': '#8b5cf6',
+      'ttt': '#8b5cf6',
+      'rest-day': '#9ca3af'
+    };
+
+    const stagesHTML = race.stages.map(stage => {
+      const icon = stageTypeIcons[stage.stageType] || '🚴';
+      const color = stageTypeColors[stage.stageType] || '#6b7280';
+      const hasDetails = stage.stageDetails && Object.keys(stage.stageDetails).length > 0;
+      const stageDate = stage.date ? new Date(stage.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+
+      return `
+        <a href="${race.id}-stage-${stage.stageNumber}.html" class="stage-overview-card ${hasDetails ? 'has-details' : 'no-details'}">
+          <div class="stage-number" style="border-color: ${color}">
+            <span class="stage-num">${stage.stageNumber}</span>
+            <span class="stage-icon">${icon}</span>
+          </div>
+          <div class="stage-info">
+            <div class="stage-name">${stage.name}</div>
+            <div class="stage-meta">
+              ${stageDate ? `<span>${stageDate}</span>` : ''}
+              ${stage.distance ? `<span>${stage.distance} km</span>` : ''}
+            </div>
+          </div>
+          ${hasDetails ? '<span class="details-badge">Details</span>' : ''}
+        </a>
+      `;
+    }).join('');
+
+    return `
+      <section class="details-section stage-overview-section">
+        <h2 class="section-title">📋 Stage Overview</h2>
+        <p class="section-subtitle">Click a stage for detailed course information</p>
+        <div class="stage-overview-grid">
+          ${stagesHTML}
+        </div>
       </section>
     `;
   };
@@ -1067,6 +1125,143 @@ function generateRaceDetailsHTML(race, options = {}) {
       text-align: center;
     }
 
+    /* Stage Overview Section */
+    .stage-overview-section {
+      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+      border: 2px solid #8b5cf6;
+    }
+
+    .stage-overview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .stage-overview-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stage-overview-card:hover {
+      background: #faf5ff;
+      border-color: #a78bfa;
+      transform: translateX(4px);
+    }
+
+    .stage-overview-card.no-details {
+      opacity: 0.7;
+    }
+
+    .stage-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      border: 3px solid;
+      background: #f9fafb;
+    }
+
+    .stage-num {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1f2937;
+      line-height: 1;
+    }
+
+    .stage-icon {
+      font-size: 0.7rem;
+      line-height: 1;
+    }
+
+    .stage-info {
+      flex: 1;
+    }
+
+    .stage-name {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    .stage-meta {
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      gap: 12px;
+    }
+
+    .details-badge {
+      background: #8b5cf6;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Stage Navigation */
+    .stage-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stage-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-link:hover {
+      background: #e5e7eb;
+      color: #1f2937;
+    }
+
+    .stage-nav-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .stage-nav-parent {
+      padding: 10px 20px;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .stage-nav-parent:hover {
+      background: #7c3aed;
+    }
+
     /* Key Riders Section */
     .key-riders-section {
       background: linear-gradient(135deg, #fefce8, #fef9c3);
@@ -1228,6 +1423,8 @@ function generateRaceDetailsHTML(race, options = {}) {
   <div class="container">
     <a href="${backLink}" class="back-button">← ${backText}</a>
 
+    ${stageNavigation}
+
     <div class="race-header-card">
       <div class="race-badges">
         ${race.category ? `<span class="badge badge-category">${race.category}</span>` : ''}
@@ -1249,6 +1446,8 @@ function generateRaceDetailsHTML(race, options = {}) {
       </div>
     ` : ''}
 
+    ${generateStageOverviewHTML()}
+
     ${hasDetails ? `
       ${generateSectorsHTML()}
       ${generateClimbsHTML()}
@@ -1259,10 +1458,12 @@ function generateRaceDetailsHTML(race, options = {}) {
       ${generateWatchNotesHTML()}
     ` : `
       ${generateTopRidersHTML()}
-      <div class="empty-state">
-        <h2>📝 Details Coming Soon</h2>
-        <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>
-      </div>
+      ${!race.stages || race.stages.length === 0 ? `
+        <div class="empty-state">
+          <h2>📝 Details Coming Soon</h2>
+          <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>
+        </div>
+      ` : ''}
     `}
 
     ${generateKeyRidersHTML()}
@@ -1346,9 +1547,36 @@ function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', out
 }
 
 /**
+ * Generate stage navigation HTML
+ */
+function generateStageNavigationHTML(race, currentStageNumber) {
+  const stages = race.stages || [];
+  const currentIndex = stages.findIndex(s => s.stageNumber === currentStageNumber);
+
+  const prevStage = currentIndex > 0 ? stages[currentIndex - 1] : null;
+  const nextStage = currentIndex < stages.length - 1 ? stages[currentIndex + 1] : null;
+
+  const prevLink = prevStage
+    ? `<a href="${race.id}-stage-${prevStage.stageNumber}.html" class="stage-nav-link">← Stage ${prevStage.stageNumber}</a>`
+    : `<span class="stage-nav-link disabled">← Previous</span>`;
+
+  const nextLink = nextStage
+    ? `<a href="${race.id}-stage-${nextStage.stageNumber}.html" class="stage-nav-link">Stage ${nextStage.stageNumber} →</a>`
+    : `<span class="stage-nav-link disabled">Next →</span>`;
+
+  return `
+    <div class="stage-navigation">
+      ${prevLink}
+      <a href="${race.id}.html" class="stage-nav-parent">All Stages</a>
+      ${nextLink}
+    </div>
+  `;
+}
+
+/**
  * Generate stage details page for a Grand Tour stage
  */
-function generateStageDetailsPage(race, stageNumber, outputDir = './race-details') {
+function generateStageDetailsPage(race, stageNumber, outputDir = './race-details', riders = null) {
   if (!race.stages) {
     console.error(`❌ Race ${race.id} has no stages`);
     return null;
@@ -1360,6 +1588,16 @@ function generateStageDetailsPage(race, stageNumber, outputDir = './race-details
     return null;
   }
 
+  // Ensure output directory exists
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  // Load riders if not provided
+  if (riders === null) {
+    riders = loadRidersData();
+  }
+
   // Create stage as a "race" object for the template
   const stageAsRace = {
     id: `${race.id}-stage-${stageNumber}`,
@@ -1369,10 +1607,24 @@ function generateStageDetailsPage(race, stageNumber, outputDir = './race-details
     distance: stage.distance,
     category: race.category,
     raceDetails: stage.stageDetails || {},
-    broadcast: race.broadcast  // Inherit broadcast info from parent race
+    broadcast: race.broadcast,  // Inherit broadcast info from parent race
+    topRiders: race.topRiders   // Inherit top riders from parent race
   };
 
-  return generateRaceDetailsPage(stageAsRace, outputDir);
+  // Generate HTML with stage navigation
+  const html = generateRaceDetailsHTML(stageAsRace, {
+    backLink: `${race.id}.html`,
+    backText: `Back to ${race.name}`,
+    riders,
+    stageNavigation: generateStageNavigationHTML(race, stageNumber)
+  });
+
+  const filename = `${race.id}-stage-${stageNumber}.html`;
+  const filepath = path.join(outputDir, filename);
+  fs.writeFileSync(filepath, html);
+
+  console.log(`✅ Generated: ${filepath}`);
+  return filepath;
 }
 
 // ============================================
