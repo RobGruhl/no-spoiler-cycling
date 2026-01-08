@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T18:53:01.978Z",
+  "lastUpdated": "2026-01-08T19:09:13.626Z",
   "riders": [
     {
       "id": "demi-vollering",
@@ -17,8 +17,16 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/demi-vollering",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:19.355Z",
+        "races": [
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/demi-vollering.jpg",
       "dateOfBirth": "1996-11-15",
@@ -63,8 +71,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/marlen-reusser",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:25.756Z",
+        "races": [
+          {
+            "raceName": "Tour de Suisse Women",
+            "raceSlug": "tour-de-suisse-women",
+            "raceDate": "2026-06-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/marlen-reusser.jpg",
       "dateOfBirth": "1991-09-20",
@@ -87,8 +109,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/elisa-longo-borghini",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:30.086Z",
+        "races": [
+          {
+            "raceName": "Giro d'Italia Women",
+            "raceSlug": "giro-d-italia-women",
+            "raceDate": "2026-05-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/elisa-longo-borghini.jpg",
       "dateOfBirth": "1991-12-10",
@@ -110,8 +146,28 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/elisa-balsamo",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:33.152Z",
+        "races": [
+          {
+            "raceName": "Milano-Sanremo Donne",
+            "raceSlug": "milano-sanremo-donne",
+            "raceDate": "2026-03-21",
+            "raceClass": null
+          },
+          {
+            "raceName": "Paris-Roubaix Femmes avec Zwift",
+            "raceSlug": "paris-roubaix-we",
+            "raceDate": "2026-04-12",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/elisa-balsamo.jpg",
       "dateOfBirth": "1998-02-27",
@@ -244,8 +300,16 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/niamh-fisher-black",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:53.634Z",
+        "races": [
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/niamh-fisher-black.jpg",
       "dateOfBirth": "2000-08-12",
@@ -289,8 +353,28 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/pauline-ferrand-prevot",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:06:59.908Z",
+        "races": [
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen-we",
+            "raceDate": "2026-04-05",
+            "raceClass": null
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège Femmes",
+            "raceSlug": "liege-bastogne-liege-femmes",
+            "raceDate": "2026-04-26",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/pauline-ferrand-prevot.jpg",
       "dateOfBirth": "1992-02-10",
@@ -354,8 +438,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/ally-wollaston",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:07:10.735Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/ally-wollaston.jpg",
       "dateOfBirth": "2001-01-04"
@@ -422,8 +520,16 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/cat-ferguson",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:07:20.568Z",
+        "races": [
+          {
+            "raceName": "Giro d'Italia Women",
+            "raceSlug": "giro-d-italia-women",
+            "raceDate": "2026-05-30",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/cat-ferguson.jpg",
       "dateOfBirth": "2006-04-27",
@@ -445,8 +551,52 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/noemi-ruegg",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:07:23.849Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Strade Bianche Donne",
+            "raceSlug": "strade-bianche-donne",
+            "raceDate": "2026-03-07",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Alfredo Binda - Comune di Cittiglio",
+            "raceSlug": "trofeo-alfredo-binda",
+            "raceDate": "2026-03-15",
+            "raceClass": null
+          },
+          {
+            "raceName": "Milano-Sanremo Donne",
+            "raceSlug": "milano-sanremo-donne",
+            "raceDate": "2026-03-21",
+            "raceClass": null
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen-we",
+            "raceDate": "2026-04-05",
+            "raceClass": null
+          },
+          {
+            "raceName": "Vuelta España Femenina by Carrefour.es",
+            "raceSlug": "vuelta-espana-femenina",
+            "raceDate": "2026-05-03",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/noemi-ruegg.jpg",
       "dateOfBirth": "2001-04-19"
@@ -512,8 +662,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/mavi-garcia",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:07:34.081Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/mavi-garcia.jpg",
       "dateOfBirth": "1984-01-02",
@@ -579,8 +743,46 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/linda-zanetti",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:07:45.475Z",
+        "races": [
+          {
+            "raceName": "Trofeo Marratxi-Felanitx",
+            "raceSlug": "trofeo-felanitx-femina",
+            "raceDate": "2026-01-24",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma Femina",
+            "raceSlug": "trofeo-palma-femina",
+            "raceDate": "2026-01-25",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Binissalem-Andratx",
+            "raceSlug": "trofeo-binissalem-andratx",
+            "raceDate": "2026-01-26",
+            "raceClass": null
+          },
+          {
+            "raceName": "UAE Tour Women",
+            "raceSlug": "uae-tour-women",
+            "raceDate": "2026-02-05",
+            "raceClass": null
+          },
+          {
+            "raceName": "Milano-Sanremo Donne",
+            "raceSlug": "milano-sanremo-donne",
+            "raceDate": "2026-03-21",
+            "raceClass": null
+          },
+          {
+            "raceName": "Paris-Roubaix Femmes avec Zwift",
+            "raceSlug": "paris-roubaix-we",
+            "raceDate": "2026-04-12",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/linda-zanetti.jpg",
       "dateOfBirth": "2002-03-10",
@@ -711,8 +913,16 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/liane-lippert",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:07.134Z",
+        "races": [
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/liane-lippert.jpg",
       "dateOfBirth": "1998-01-13",
@@ -734,8 +944,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/dominika-wlodarczyk",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:11.120Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/dominika-wlodarczyk.jpg",
       "dateOfBirth": "2001-01-27",
@@ -802,8 +1026,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/sarah-van-dam",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:21.699Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/sarah-van-dam.jpg",
       "dateOfBirth": "2001-12-04",
@@ -848,8 +1086,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/paula-blasi",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:28.225Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/paula-blasi.jpg",
       "dateOfBirth": "2003-02-19",
@@ -893,8 +1145,16 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/barbara-malcotti",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:35.263Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/barbara-malcotti.jpg",
       "dateOfBirth": "2000-02-19",
@@ -936,8 +1196,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/amanda-spratt",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:08:42.380Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/amanda-spratt.jpg",
       "dateOfBirth": "1987-09-17",
@@ -1028,8 +1302,52 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/magdeleine-vallieres",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:09:00.406Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Amstel Gold Race Ladies Edition",
+            "raceSlug": "amstel-gold-race-we",
+            "raceDate": "2026-04-19",
+            "raceClass": null
+          },
+          {
+            "raceName": "La Flèche Wallonne Féminine",
+            "raceSlug": "la-fleche-wallonne-feminine",
+            "raceDate": "2026-04-22",
+            "raceClass": null
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège Femmes",
+            "raceSlug": "liege-bastogne-liege-femmes",
+            "raceDate": "2026-04-26",
+            "raceClass": null
+          },
+          {
+            "raceName": "Giro d'Italia Women",
+            "raceSlug": "giro-d-italia-women",
+            "raceDate": "2026-05-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de France Femmes avec Zwift",
+            "raceSlug": "tour-de-france-femmes",
+            "raceDate": "2026-08-01",
+            "raceClass": null
+          }
+        ]
       },
       "photoUrl": "riders/photos/magdeleine-vallieres.jpg",
       "dateOfBirth": "2001-08-10"
@@ -1070,8 +1388,22 @@
       ],
       "pcsUrl": "https://www.procyclingstats.com/rider/chloe-dygert",
       "raceProgram": {
-        "status": "not-announced",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-08T19:09:07.417Z",
+        "races": [
+          {
+            "raceName": "Santos Tour Down Under",
+            "raceSlug": "santos-women-s-tour",
+            "raceDate": "2026-01-17",
+            "raceClass": null
+          },
+          {
+            "raceName": "Santos Tour Down Under - Women's One Day Race",
+            "raceSlug": "schwalbe-womens-one-day-classic",
+            "raceDate": "2026-01-21",
+            "raceClass": "1.Pro"
+          }
+        ]
       },
       "photoUrl": "riders/photos/chloe-dygert.jpg",
       "dateOfBirth": "1997-01-01",
