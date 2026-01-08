@@ -389,10 +389,28 @@ Your Process:
 - **raceDate**: Actual race date in ISO format (YYYY-MM-DD)
 - **raceDay**: Day of week for user-friendly display
 - **platform**: "TBD" for future events awaiting content discovery
+- **gender**: Race gender category: `men`, `women`, or `mixed`
 - **terrain**: Array of terrain types for icon display (see Terrain Icons below)
 - **topRiders**: Array of confirmed top riders (see Top Riders section below)
 - **broadcast**: Broadcast info by geography (see Broadcast Schema below)
 - **stages**: Array of stage objects for stage races (see Stages Schema below)
+
+### Gender Field
+All races have a `gender` field indicating the race category:
+
+| Value | Icon | Description |
+|-------|------|-------------|
+| `men` | ♂ | Men's races (default) |
+| `women` | ♀ | Women's races (WWT, women's editions) |
+| `mixed` | ⚥ | Mixed events (e.g., Mixed Relay TTT) |
+
+**Women's Race Detection:**
+- Category codes: `2.WWT`, `1.WWT`
+- Name patterns: Women, Femmes, Feminas, Donne, Ladies, Féminin
+
+**Mixed Events:**
+- Show in UI when Men's, Women's, or Mixed filter is selected
+- Currently only: World Championships Mixed Relay TTT
 
 ### Terrain Icons
 Use these standardized terrain values to display icons on race cards:
@@ -439,15 +457,18 @@ Race cards display confirmed top riders with initials and world ranking badges.
 
 **Populating Top Riders:**
 ```bash
-# Run the populate script to link riders to races based on PCS race programs
+# Men's riders - link to men's races
 node populate-race-riders.js
 
-# This reads from data/riders.json and matches riders to races they're confirmed for
+# Women's riders - link to women's races
+node scripts/populate-riders-women.js
 ```
 
 **Data Sources:**
-- `data/riders.json` - Top 20 world-ranked riders with their race programs
-- `populate-race-riders.js` - Script to match riders to races
+- `data/riders.json` - Top 50 men's world-ranked riders with their race programs
+- `data/riders-women.json` - Top 50 women's world-ranked riders with their race programs
+- `populate-race-riders.js` - Script to match men's riders to races
+- `scripts/populate-riders-women.js` - Script to match women's riders to races
 
 ### Broadcast Schema
 Store where/how to watch each race by geography:
@@ -667,6 +688,45 @@ searchStagePreviewSafe('tdu', 4, '2026-01-24', 2026).then(r => console.log(r.ans
 
 ## Data Management Best Practices
 
+### Data Management Scripts (Never Edit race-data.json Directly)
+
+**CRITICAL**: Always use scripts to modify race-data.json. Never edit it directly.
+
+**Race Data Scripts:**
+```bash
+# Add gender field to existing races (men/women/mixed detection)
+node scripts/add-gender-field.js
+
+# Add women's races from calendar data
+node scripts/add-women-races.js
+
+# Tag all races with format, terrain, distance, prestige
+node scripts/tag-races.js
+
+# Populate men's riders to men's races
+node populate-race-riders.js
+
+# Populate women's riders to women's races
+node scripts/populate-riders-women.js
+
+# Regenerate UI
+npm run build
+```
+
+**Script Descriptions:**
+| Script | Purpose |
+|--------|---------|
+| `scripts/add-gender-field.js` | Detects and adds gender field to races |
+| `scripts/add-women-races.js` | Parses and adds women's races with star ratings |
+| `scripts/tag-races.js` | Tags races with format, terrain, prestige, distance |
+| `populate-race-riders.js` | Links men's riders to men's races |
+| `scripts/populate-riders-women.js` | Links women's riders to women's races |
+
+**Current Race Counts (275 total):**
+- Men's races: 221
+- Women's races: 53
+- Mixed events: 1
+
 ### Managing race-data.json (Large File ~72K tokens)
 
 The file exceeds Claude's read limit. Use these strategies:
@@ -726,6 +786,25 @@ node generate-race-details.js --all
 # Or single race
 node generate-race-details.js --race paris-roubaix-2026
 ```
+
+### UI Filter Features
+
+**Filter Categories:**
+- **Gender**: Men's (♂), Women's (♀), Mixed (⚥)
+- **Format**: One-Day, Stage Race, ITT, TTT
+- **Terrain**: Mountain, Hilly, Flat, Cobbles, Gravel, Time Trial, Circuit
+- **Prestige**: Grand Tours, Monuments, Worlds
+- **Star Rating**: 1★ through 5★
+
+**localStorage Persistence:**
+- All filter settings automatically saved to `cyclingCalendarFilters` key
+- Filters persist across page reloads and browser sessions
+- Clear Filters button removes saved preferences
+
+**Filter Logic:**
+- Within category: OR logic (selecting Mountain OR Cobbles shows both)
+- Across categories: AND logic (Mountain + One-Day shows only mountain one-day races)
+- Mixed events show when Men's, Women's, or Mixed is selected
 
 ### Verifying Data Integrity
 ```bash

@@ -200,6 +200,50 @@ Stage 14 ████░░░░░░░░░░░░░░░░ 62km (ITT)
 
 ---
 
+## Phase 2.4-2.7: Women's Cycling & UI Enhancements ✅ COMPLETE
+
+### 2.4 Women's Cycling Support
+**Race Data:**
+- 53 women's races added (275 total races)
+- Women's Grand Tours: Giro d'Italia Women, Tour de France Femmes
+- Women's Monuments: Strade Bianche, Milano-Sanremo, Ronde, Paris-Roubaix, Flèche Wallonne, Liège-Bastogne-Liège
+- Categories: 2.WWT (stage), 1.WWT (one-day)
+
+**Rider Data:**
+- `data/riders-women.json` - Top 50 women's world-ranked cyclists
+- Same schema as men's `riders.json`
+- Source: procyclingstats.com women's rankings
+
+**Scripts Created:**
+- `scripts/add-gender-field.js` - Add gender to existing races
+- `scripts/add-women-races.js` - Parse and add women's races
+- `scripts/populate-riders-women.js` - Link women riders to races
+- Updated `scripts/tag-races.js` with women's monuments/grand tours
+
+### 2.5 Gender Filter UI
+```javascript
+const genderIcons = {
+  'men': '♂',
+  'women': '♀',
+  'mixed': '⚥'
+};
+```
+- Gender chips at top of filter section
+- data-gender attribute on race cards
+- Mixed events show when Men's OR Women's OR Mixed selected
+
+### 2.6 localStorage Persistence
+- Filter state saved to `cyclingCalendarFilters` key
+- Persists: minRating, format, terrain, prestige, gender
+- Loads on page init, applies to UI
+
+### 2.7 Clear Filters Button
+- Resets all filters to defaults (show all)
+- Removes localStorage entry
+- Updates UI state
+
+---
+
 ## Phase 3: Stage Data Population
 
 **Goal:** Populate stage details for major races.
@@ -284,10 +328,14 @@ Stage 14 ████░░░░░░░░░░░░░░░░ 62km (ITT)
 | 1.1 | Schema fields added | ✅ Done |
 | 1.2 | Emoji icons defined | ✅ Done |
 | 1.3 | Filter UI + logic | ✅ Done |
-| 1.4 | Tag all 225 races | ✅ Done |
+| 1.4 | Tag all 275 races | ✅ Done |
 | 2.1 | TdF stages + stage view UI | ✅ Done |
 | 2.2 | Distance bars | ✅ Done |
 | 2.3 | Hash-based routing | ✅ Done |
+| 2.4 | Women's cycling support | ✅ Done |
+| 2.5 | Gender filter UI | ✅ Done |
+| 2.6 | localStorage persistence | ✅ Done |
+| 2.7 | Clear Filters button | ✅ Done |
 | 3.x | Populate more stage data | Pending |
 | 4.x | Custom SVG icons | Future |
 
@@ -295,9 +343,15 @@ Stage 14 ████░░░░░░░░░░░░░░░░ 62km (ITT)
 
 ## Critical Files
 
-- `data/race-data.json` — All schema changes
-- `generate-page.js` — Icon display, filters, stage views, distance bars
-- `scripts/tag-races.js` — Race tagging script
+- `data/race-data.json` — All schema changes (275 races: 221 men, 53 women, 1 mixed)
+- `data/riders.json` — Top 50 men's world-ranked riders
+- `data/riders-women.json` — Top 50 women's world-ranked riders
+- `generate-page.js` — Icon display, filters, stage views, distance bars, localStorage
+- `scripts/tag-races.js` — Race tagging script (format, terrain, prestige)
+- `scripts/add-gender-field.js` — Gender field detection script
+- `scripts/add-women-races.js` — Women's race import script
+- `scripts/populate-riders-women.js` — Women's rider-race linking
+- `populate-race-riders.js` — Men's rider-race linking
 - `index.html` — Generated output
 
 ---
