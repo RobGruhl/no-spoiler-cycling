@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T23:20:22.597Z",
+  "lastUpdated": "2026-01-08T05:53:17.920Z",
   "event": {
     "name": "UCI Men's Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -180,7 +180,7 @@
           "stageType": "hilly",
           "terrain": [
             "hilly",
-            "sprint"
+            "flat"
           ],
           "distance": 120.6,
           "date": "2026-01-21",
@@ -210,8 +210,7 @@
           "name": "Stage 2: Norwood → Uraidla",
           "stageType": "mountain",
           "terrain": [
-            "mountain",
-            "climb"
+            "mountain"
           ],
           "distance": 148.1,
           "date": "2026-01-22",
@@ -267,7 +266,7 @@
           "stageType": "hilly",
           "terrain": [
             "hilly",
-            "climb"
+            "mountain"
           ],
           "distance": 140.8,
           "date": "2026-01-23",
@@ -316,8 +315,7 @@
           "stageType": "mountain",
           "terrain": [
             "mountain",
-            "summit-finish",
-            "climb"
+            "summit-finish"
           ],
           "distance": 176,
           "date": "2026-01-24",
@@ -376,7 +374,7 @@
           "terrain": [
             "hilly",
             "circuit",
-            "climb"
+            "mountain"
           ],
           "distance": 169.8,
           "date": "2026-01-25",
@@ -507,7 +505,7 @@
     {
       "id": "surf-coast-classic-men-2026",
       "name": "Surf Coast Classic Men",
-      "description": "1.Pro cycling race in Australia",
+      "description": "ProSeries race from Lorne to Torquay featuring rolling coastal terrain with early climbs - warm-up for Cadel Evans race",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -520,9 +518,52 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
-        "flat"
+        "hilly"
       ],
-      "distance": 200
+      "distance": 157,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:43:29.899Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Surf Coast Classic runs 157km from Lorne to Torquay, starting with a 10km climb towards Deans Marsh. From there riders head through Barwon Downs and Forrest before meandering through rural countryside to Modewarre, then back to the coast for the finish. Climbs concentrated in first half, with flatter second half typically resulting in a sprint finish.",
+        "keyClimbs": [
+          {
+            "name": "Deans Marsh Climb",
+            "category": "3",
+            "length": 10,
+            "avgGradient": "3%",
+            "maxGradient": "8%",
+            "kmFromFinish": 147,
+            "notes": "First major climb out of Lorne"
+          }
+        ],
+        "watchNotes": "Crosswinds can split the race on exposed coastal sections. Despite rolling terrain in first half, the race typically comes together for a sprint finish in Torquay. Well-organized leadout trains usually prevail."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      }
     },
     {
       "id": "trofeo-ses-salines-2026",
@@ -662,7 +703,7 @@
     {
       "id": "cadel-evans-great-ocean-road-race-2026",
       "name": "Cadel Evans Great Ocean Road Race",
-      "description": "1.UWT cycling race in Australia",
+      "description": "WorldTour one-day race featuring 182km through Victoria's Surf Coast with the punchy Challambra Crescent climb on a 21km finishing circuit",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -675,9 +716,94 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
-        "flat"
+        "hilly"
       ],
-      "distance": 220
+      "distance": 182,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:43:29.898Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Cadel Evans Great Ocean Road Race is the second WorldTour event of the season and first major one-day race. Starting and finishing at Geelong waterfront, the 182km route includes over 2,000m of elevation gain through stunning Surf Coast scenery. After coastal roads past Bells Beach and inland farmland hills, the race enters a 21km finishing circuit completed 3.5 times, featuring four ascents of the decisive Challambra Crescent.",
+        "keyClimbs": [
+          {
+            "name": "Challambra Crescent",
+            "category": "4",
+            "length": 1.4,
+            "avgGradient": "8.7%",
+            "maxGradient": "11%",
+            "kmFromFinish": 9,
+            "notes": "Climbed 4 times on finishing circuit - final ascent 9km from finish"
+          }
+        ],
+        "keySectors": [],
+        "watchNotes": "The punchy Challambra climb, topping out 9km from the finish, has a habit of splitting the field before riders head back toward the waterfront for the final dash. Watch for attacks on the steep 11% sections. Race is famously unpredictable - different winning scenarios play out each year.",
+        "narratives": [
+          "WorldTour teams looking for early season form",
+          "Sprint or breakaway? The Challambra climb decides",
+          "Local Australian riders motivated on home roads"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.862Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "GCN Racing YouTube",
+                "broadcasterId": "youtube-gcn-racing",
+                "type": "free",
+                "url": "https://www.youtube.com/@GCNRacing",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights"
+              }
+            ]
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage via Eurosport"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurosport Cycling YouTube",
+                "broadcasterId": "youtube-eurosport",
+                "type": "free",
+                "url": "https://www.youtube.com/@eurosportcycling",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights"
+              }
+            ]
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "WorldTour one-day race. Highlights typically posted same day on YouTube."
+      }
     },
     {
       "id": "etoile-de-besseges-2026",
@@ -703,7 +829,7 @@
     {
       "id": "volta-comunitat-valenciana-2026",
       "name": "Volta Comunitat Valenciana",
-      "description": "2.Pro cycling race in Spain",
+      "description": "Five-stage ProSeries race through Spain's Valencian Community featuring team time trial, mountain stages and sprint finales",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -717,9 +843,116 @@
       "raceFormat": "stage-race",
       "terrain": [
         "flat",
-        "hilly"
+        "hilly",
+        "mountain",
+        "itt"
       ],
-      "distance": 1000,
+      "distance": 666,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Team Time Trial",
+          "stageType": "ttt",
+          "terrain": [
+            "itt",
+            "flat"
+          ],
+          "distance": 34,
+          "date": "2026-02-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening team time trial to set the GC hierarchy"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Mountain Stage",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 166,
+          "date": "2026-02-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First mountain stage with summit finish - key GC day"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Mountain Stage",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 180,
+          "date": "2026-02-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Second mountain test through challenging terrain"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 181,
+          "date": "2026-02-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Undulating stage that could favor puncheurs or breakaways"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Valencia Sprint",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 104,
+          "date": "2026-02-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat finale into Valencia for the sprinters"
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:43:29.899Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Volta a la Comunitat Valenciana is a key early-season stage race, often used as preparation for spring classics or Grand Tours. The five-stage race typically includes a team time trial opener, challenging mountain stages, and a sprint finale in Valencia.",
+        "watchNotes": "Strong GC fields use this race to test early form. The TTT opener can create significant time gaps. Mountain stages are decisive for classification.",
+        "narratives": [
+          "Early season form test for GC contenders",
+          "Strong Spanish teams on home roads",
+          "Sprint teams looking for stage wins"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      },
       "topRiders": [
         {
           "id": "joao-almeida",
@@ -765,7 +998,7 @@
     {
       "id": "muscat-classic-2026",
       "name": "Muscat Classic",
-      "description": "1.Pro cycling race in Oman",
+      "description": "Punchy one-day classic in Oman preceding the Tour of Oman - favors puncheurs on jagged finish circuit",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -778,14 +1011,20 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
-        "flat"
+        "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:43:29.899Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Muscat Classic is a standalone one-day race held the day before the Tour of Oman begins. The jagged course in and around Muscat favors puncheurs who can handle the short, sharp climbs in the finale. The race has quickly established itself as a quality early-season event.",
+        "watchNotes": "Watch for puncheurs who can handle repeated accelerations. The technical finale suits aggressive racing."
+      }
     },
     {
       "id": "tour-of-oman-2026",
       "name": "Tour of Oman",
-      "description": "2.Pro cycling race in Oman",
+      "description": "Five-stage ProSeries race through Oman featuring coastal flat stages, desert winds, and the decisive Jebel al Akhdhar (Green Mountain) summit finish",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -799,9 +1038,127 @@
       "raceFormat": "stage-race",
       "terrain": [
         "flat",
-        "hilly"
+        "hilly",
+        "mountain"
       ],
-      "distance": 1000
+      "distance": 881,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Flat Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 178,
+          "date": "2026-02-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening flat stage through the desert - likely sprint finish"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 203,
+          "date": "2026-02-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Undulating stage with punchy hills - could favor breakaway or puncheurs"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 181,
+          "date": "2026-02-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Another hilly day through the Omani interior"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Flat Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 182,
+          "date": "2026-02-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat stage likely for the sprinters"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Jebel al Akhdhar (Green Mountain)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 139,
+          "date": "2026-02-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage with summit finish atop the iconic Green Mountain - decisive for GC"
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:43:29.899Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Tour of Oman is a five-stage race showcasing the varied terrain of the Sultanate - from coastal flat roads to desert landscapes and the dramatic Green Mountain. The race typically features sprint stages, hilly tests, and culminates with a decisive summit finish atop Jebel al Akhdhar.",
+        "keyClimbs": [
+          {
+            "name": "Jebel al Akhdhar (Green Mountain)",
+            "category": "HC",
+            "length": 21,
+            "avgGradient": "5.3%",
+            "maxGradient": "10%",
+            "kmFromFinish": 0,
+            "summit": 2050,
+            "notes": "Decisive summit finish - over 2000m altitude"
+          }
+        ],
+        "watchNotes": "The Green Mountain on the final stage typically decides the overall. Exposed desert roads can see crosswinds split the race on flat stages. Heat is always a factor.",
+        "narratives": [
+          "GC battle decided on Green Mountain",
+          "Sprinters have multiple opportunities in opening stages",
+          "Desert winds can create chaos on exposed roads"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      }
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
@@ -846,7 +1203,7 @@
     {
       "id": "vuelta-cv-feminas-2026",
       "name": "Vuelta CV Feminas",
-      "description": "1.Pro cycling race in Spain",
+      "description": "One-day women's race in Spain's Valencian Community - fast sprinter-friendly circuit",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -861,7 +1218,13 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:45:27.255Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Vuelta CV Feminas is a one-day women's race held in Spain's Valencian Community, typically featuring rolling terrain that favors sprinters.",
+        "watchNotes": "Fast-paced women's one-day race that usually comes down to a sprint finish."
+      }
     },
     {
       "id": "tour-de-la-provence-2026",
@@ -923,7 +1286,7 @@
     {
       "id": "figueira-champions-classic-2026",
       "name": "Figueira Champions Classic",
-      "description": "1.Pro cycling race in Portugal",
+      "description": "Portuguese one-day classic featuring 197km of rolling coastal terrain with decisive Rua Parque Florestal climb on finish circuit",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -936,9 +1299,56 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
-        "flat"
+        "hilly"
       ],
-      "distance": 200,
+      "distance": 197,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:45:27.257Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Figueira Champions Classic is a 197km one-day race along Portugal's central coast, finishing in Figueira da Foz. The decisive section is a finishing circuit featuring three ascents of Rua Parque Florestal (2.3km at 7.1%), where attacks on the final lap can prove decisive.",
+        "keyClimbs": [
+          {
+            "name": "Rua Parque Florestal",
+            "category": "3",
+            "length": 2.3,
+            "avgGradient": "7.1%",
+            "maxGradient": "12%",
+            "notes": "Climbed 3 times on finishing circuit - final ascent ~10km from finish"
+          }
+        ],
+        "watchNotes": "The race is typically aggressive on the final circuit. Strong puncheurs can attack on the Rua Parque Florestal and hold off the chasers. Recent winner António Morgado attacked with 21km to go and soloed to victory.",
+        "narratives": [
+          "Portugal's only professional classic - home riders highly motivated",
+          "Puncheurs vs sprinters on the finishing circuit",
+          "Early season form indicator for WorldTour riders"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      },
       "topRiders": [
         {
           "id": "joao-almeida",
@@ -958,7 +1368,7 @@
     {
       "id": "clasica-de-almeria-2026",
       "name": "Clasica de Almeria",
-      "description": "1.Pro cycling race in Spain",
+      "description": "Spanish one-day classic featuring 189km through Andalusia with several category 3 climbs - typically ends in a sprint",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -971,9 +1381,77 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
-        "flat"
+        "flat",
+        "hilly"
       ],
-      "distance": 200
+      "distance": 189,
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:45:27.257Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Clásica de Almería is a 189km one-day race in Spain's southern Andalusia region. The course includes several category 3 and 4 climbs (Alto de Celin, Alto de La Alqueria, Alto de Fuente Marbella) but these are positioned far enough from the finish that the race typically concludes in a bunch sprint in Roquetas de Mar.",
+        "keyClimbs": [
+          {
+            "name": "Alto de Celin",
+            "category": "3",
+            "length": 7,
+            "avgGradient": "4.5%",
+            "kmFromFinish": 143
+          },
+          {
+            "name": "Alto de La Alqueria",
+            "category": "3",
+            "length": 1.5,
+            "avgGradient": "6.8%",
+            "kmFromFinish": 106
+          },
+          {
+            "name": "Alto de Fuente Marbella",
+            "category": "3",
+            "length": 1.5,
+            "avgGradient": "7%",
+            "kmFromFinish": 97
+          },
+          {
+            "name": "Alto Cuesta de Almerimar",
+            "category": "4",
+            "length": 1.2,
+            "avgGradient": "5.3%",
+            "kmFromFinish": 50
+          }
+        ],
+        "watchNotes": "A classic early-season sprinter's race in warm Andalusian sunshine. While the climbs can be used to fatigue the peloton, well-organized sprint teams typically control the finale. Recent winners include fast men like Fretin, Kooij, and Ewan.",
+        "narratives": [
+          "Sprinters' early season tune-up",
+          "Warm weather attracts WorldTour teams",
+          "Spanish teams fighting for home glory"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      }
     },
     {
       "id": "clasica-jaen-2026",
@@ -998,7 +1476,7 @@
     {
       "id": "uae-tour-2026",
       "name": "UAE Tour",
-      "description": "2.UWT cycling race in United Arab Emirates",
+      "description": "Seven-stage WorldTour race in the UAE featuring flat sprint stages, ITT, and decisive summit finishes at Jebel Jais and Jebel Hafeet",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -1012,11 +1490,211 @@
       "raceFormat": "stage-race",
       "terrain": [
         "flat",
-        "hilly",
         "mountain",
         "itt"
       ],
-      "distance": 1200,
+      "distance": 1013,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Sprint Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 138,
+          "date": "2026-02-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening sprint stage through the desert - flat with possible uphill kick to finish"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Individual Time Trial",
+          "stageType": "itt",
+          "terrain": [
+            "itt",
+            "flat"
+          ],
+          "distance": 12,
+          "date": "2026-02-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Fast flat time trial for the TT specialists"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Jebel Jais",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 179,
+          "date": "2026-02-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First mountain stage with summit finish atop Jebel Jais - 20km climb at 5% average"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Sprint Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 181,
+          "date": "2026-02-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat stage through the desert - beware of crosswinds"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Sprint Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 160,
+          "date": "2026-02-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Another flat day in Dubai - sprint opportunity"
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: Sprint Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 167,
+          "date": "2026-02-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat stage to Abu Dhabi - final sprint opportunity before finale"
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: Jebel Hafeet",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 176,
+          "date": "2026-02-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage and finale with summit finish atop Jebel Hafeet - decisive for GC"
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:44:31.511Z",
+        "spoilerSafe": true,
+        "courseSummary": "The UAE Tour is the only WorldTour race in the Middle East, featuring seven stages across the United Arab Emirates. The format balances sprint opportunities on flat desert roads with two crucial mountain stages - Jebel Jais mid-race and the iconic Jebel Hafeet summit finish on the finale.",
+        "keyClimbs": [
+          {
+            "name": "Jebel Jais",
+            "category": "1",
+            "length": 20,
+            "avgGradient": "5%",
+            "maxGradient": "7%",
+            "kmFromFinish": 0,
+            "summit": 1600,
+            "notes": "UAE's highest peak - stage 3 summit finish"
+          },
+          {
+            "name": "Jebel Hafeet",
+            "category": "1",
+            "length": 10,
+            "avgGradient": "8.5%",
+            "maxGradient": "11%",
+            "kmFromFinish": 0,
+            "summit": 1025,
+            "notes": "Final stage summit - decisive for overall"
+          }
+        ],
+        "watchNotes": "The exposed desert roads can produce dangerous crosswinds that split the race on flat stages. Jebel Hafeet on the finale typically decides the GC - 10km at 8.5% average with kicks up to 11%. Top GC contenders often target this race for early season form.",
+        "narratives": [
+          "GC battle between climbing and TT abilities",
+          "Four sprint opportunities for fast finishers",
+          "Desert crosswinds can reshape the race at any moment",
+          "Jebel Hafeet always delivers drama on the final day"
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Pogacar has won multiple editions",
+            "Strong WorldTour GC riders"
+          ],
+          "sprinters": [
+            "Multiple sprint opportunities attract top fast men"
+          ]
+        }
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.862Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "GCN Racing YouTube",
+                "broadcasterId": "youtube-gcn-racing",
+                "type": "free",
+                "url": "https://www.youtube.com/@GCNRacing",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights"
+              }
+            ]
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+",
+              "broadcasterId": "discovery-plus",
+              "type": "streaming",
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage via Eurosport"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurosport Cycling YouTube",
+                "broadcasterId": "youtube-eurosport",
+                "type": "free",
+                "url": "https://www.youtube.com/@eurosportcycling",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Stage highlights"
+              }
+            ]
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "WorldTour stage race. Live coverage and stage highlights available."
+      },
       "topRiders": [
         {
           "id": "isaac-del-toro",
@@ -1048,7 +1726,7 @@
     {
       "id": "volta-ao-algarve-2026",
       "name": "Volta ao Algarve",
-      "description": "2.Pro cycling race in Portugal",
+      "description": "Five-stage ProSeries race in Portugal's Algarve featuring Alto da Fóia mountain stage and decisive Alto do Malhão summit time trial finale",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -1063,9 +1741,139 @@
       "terrain": [
         "flat",
         "hilly",
+        "mountain",
         "itt"
       ],
-      "distance": 1000,
+      "distance": 748,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Flat Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 192,
+          "date": "2026-02-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage - typically flat for the sprinters"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Alto da Fóia",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 178,
+          "date": "2026-02-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage to Alto da Fóia - first GC test at Algarve's highest point"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Flat Stage",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 184,
+          "date": "2026-02-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat stage through the Algarve - sprint opportunity"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 175,
+          "date": "2026-02-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Undulating stage - could favor breakaway or reduced bunch sprint"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Alto do Malhão ITT",
+          "stageType": "itt",
+          "terrain": [
+            "itt",
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 20,
+          "date": "2026-02-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Decisive uphill time trial to Alto do Malhão - final GC decider"
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:44:31.512Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Volta ao Algarve is a prestigious early-season race in southern Portugal, traditionally attracting top GC contenders testing their form. The five-stage format typically includes flat stages for sprinters, the Alto da Fóia mountain test, and the decisive Alto do Malhão summit time trial finale.",
+        "keyClimbs": [
+          {
+            "name": "Alto da Fóia",
+            "category": "1",
+            "length": 7,
+            "avgGradient": "6%",
+            "maxGradient": "10%",
+            "summit": 902,
+            "kmFromFinish": 0,
+            "notes": "Highest point in the Algarve - stage 2 summit finish"
+          },
+          {
+            "name": "Alto do Malhão",
+            "category": "2",
+            "length": 2.5,
+            "avgGradient": "9%",
+            "maxGradient": "12%",
+            "summit": 510,
+            "kmFromFinish": 0,
+            "notes": "Final ITT summit - typically decides overall"
+          }
+        ],
+        "watchNotes": "Recent winners include Vingegaard, Evenepoel, and Pogačar - this race attracts top talent. The Alto do Malhão ITT on the final day is unique and decisive. Weather in the Algarve is typically pleasant, making this a popular early-season race.",
+        "narratives": [
+          "Top GC contenders testing early season form",
+          "Alto do Malhão ITT can overturn GC gaps",
+          "Portuguese fans passionate about home race"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      },
       "topRiders": [
         {
           "id": "joao-almeida",
@@ -1098,7 +1906,7 @@
     {
       "id": "vuelta-a-andalucia-ruta-del-sol-2026",
       "name": "Vuelta a Andalucia - Ruta del Sol",
-      "description": "2.Pro cycling race in Spain",
+      "description": "Five-stage ProSeries race through Andalusia featuring challenging mountain stages and historic southern Spanish roads",
       "platform": "TBD",
       "url": "TBD",
       "type": "full-race",
@@ -1111,10 +1919,115 @@
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "stage-race",
       "terrain": [
-        "flat",
-        "hilly"
+        "hilly",
+        "mountain"
       ],
-      "distance": 1000
+      "distance": 820,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "mountain"
+          ],
+          "distance": 163,
+          "date": "2026-02-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage through mountainous Andalusian terrain - first test for GC riders"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 133,
+          "date": "2026-02-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Punchy stage with uphill finish - favors attackers"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 162,
+          "date": "2026-02-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling terrain - sprint possible if fast men survive"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Long Hilly Stage",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 194,
+          "date": "2026-02-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage of the race - attrition through distance and terrain"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Mountain Stage",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 168,
+          "date": "2026-02-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage through Andalusian mountains - last chance to reshape GC"
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-08T05:44:31.512Z",
+        "spoilerSafe": true,
+        "courseSummary": "The Vuelta a Andalucia (Ruta del Sol) is one of Spain's most historic stage races, held annually in February through the sun-baked roads of Andalusia. The challenging terrain with multiple climbs each day makes this a race for puncheurs and all-rounders rather than pure sprinters.",
+        "watchNotes": "Expect aggressive racing throughout - there are few easy stages in this race. Spanish teams and riders are particularly motivated. Hot conditions in Andalusia add to the challenge.",
+        "narratives": [
+          "Spanish teams targeting home race glory",
+          "Puncheurs and climbers have multiple opportunities",
+          "No hiding places - every stage is demanding"
+        ]
+      },
+      "broadcast": {
+        "lastUpdated": "2026-01-08T05:49:06.864Z",
+        "geos": {
+          "UK": {
+            "primary": {
+              "broadcaster": "Discovery+/Eurosport",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "Eurosport Cycling",
+            "handle": "@eurosportcycling",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
+      }
     },
     {
       "id": "classic-var-2026",
@@ -1135,26 +2048,6 @@
         "flat"
       ],
       "distance": 180
-    },
-    {
-      "id": "classica-de-almeria-2026",
-      "name": "Classica de Almeria",
-      "description": "1.Pro cycling race in Spain",
-      "platform": "TBD",
-      "url": "TBD",
-      "type": "full-race",
-      "raceDate": "2026-02-22",
-      "endDate": "2026-02-23",
-      "raceDay": "Sunday",
-      "location": "Spain",
-      "category": "1.Pro",
-      "rating": 3,
-      "discoveredAt": "2026-01-07T06:49:05.076Z",
-      "raceFormat": "one-day",
-      "terrain": [
-        "flat"
-      ],
-      "distance": 200
     },
     {
       "id": "gp-jean-pierre-monsere-2026",
@@ -4126,7 +5019,6 @@
         "hilly",
         "mountain",
         "itt",
-        "ttt",
         "summit-finish"
       ],
       "distance": 3333,

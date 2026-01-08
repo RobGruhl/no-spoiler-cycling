@@ -389,6 +389,146 @@ Your Process:
 - **raceDate**: Actual race date in ISO format (YYYY-MM-DD)
 - **raceDay**: Day of week for user-friendly display
 - **platform**: "TBD" for future events awaiting content discovery
+- **terrain**: Array of terrain types for icon display (see Terrain Icons below)
+- **topRiders**: Array of confirmed top riders (see Top Riders section below)
+- **broadcast**: Broadcast info by geography (see Broadcast Schema below)
+- **stages**: Array of stage objects for stage races (see Stages Schema below)
+
+### Terrain Icons
+Use these standardized terrain values to display icons on race cards:
+
+| Value | Icon | Description |
+|-------|------|-------------|
+| `flat` | ➡️ | Flat/sprint stages |
+| `hilly` | 〰️ | Rolling/punchy terrain |
+| `mountain` | ⛰️ | Mountain stages |
+| `cobbles` | 🪨 | Cobblestone sectors |
+| `gravel` | 🟤 | Gravel roads |
+| `summit-finish` | 🔝 | Summit finish |
+| `crosswind-risk` | 💨 | Crosswind exposure |
+| `circuit` | 🔄 | Circuit/lap course |
+| `itt` | ⏱️ | Individual time trial |
+
+**IMPORTANT**: Only use values from this table - non-standard values won't display icons.
+
+### Top Riders Feature
+Race cards display confirmed top riders with initials and world ranking badges.
+
+**Display:**
+- Up to 5 rider avatars with 2-letter initials (e.g., "TP" for Tadej Pogačar)
+- Gold/silver/bronze badges for riders ranked 1-3 in world ranking
+- Hover tooltip shows full name, ranking, and team
+- "+X" indicator if more than 5 riders confirmed
+
+**Schema:**
+```json
+{
+  "topRiders": [
+    {
+      "id": "tadej-pogacar",
+      "name": "POGAČAR Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "ranking": 1,
+      "nationality": "Slovenia",
+      "nationalityCode": "SI",
+      "specialties": ["climber", "gc-contender", "one-day"]
+    }
+  ]
+}
+```
+
+**Populating Top Riders:**
+```bash
+# Run the populate script to link riders to races based on PCS race programs
+node populate-race-riders.js
+
+# This reads from data/riders.json and matches riders to races they're confirmed for
+```
+
+**Data Sources:**
+- `data/riders.json` - Top 20 world-ranked riders with their race programs
+- `populate-race-riders.js` - Script to match riders to races
+
+### Broadcast Schema
+Store where/how to watch each race by geography:
+```json
+{
+  "broadcast": {
+    "lastUpdated": "2026-01-07T00:00:00Z",
+    "geos": {
+      "US": {
+        "primary": {
+          "broadcaster": "FloBikes",
+          "broadcasterId": "flobikes",
+          "type": "streaming",
+          "url": "https://www.flobikes.com",
+          "coverage": "live",
+          "subscription": true,
+          "notes": "Full live coverage and replays"
+        },
+        "alternatives": [
+          {
+            "broadcaster": "GCN Racing YouTube",
+            "type": "free",
+            "url": "https://www.youtube.com/@GCNRacing",
+            "coverage": "highlights",
+            "subscription": false
+          }
+        ]
+      },
+      "UK": { ... },
+      "CA": { ... }
+    },
+    "youtubeChannels": [
+      { "channel": "GCN Racing", "handle": "@GCNRacing", "contentType": "highlights" }
+    ],
+    "notes": "Race-specific broadcast notes"
+  }
+}
+```
+
+**Broadcast Effect on UI:**
+- Races with `broadcast.geos` populated are NOT marked as "TBD" even without direct video URLs
+- This allows future races to show "where to watch" info before content is available
+
+### Stages Schema (for Stage Races)
+Stage races include a `stages` array with individual stage details:
+```json
+{
+  "stages": [
+    {
+      "stageNumber": 1,
+      "name": "Stage 1: City A → City B",
+      "stageType": "flat|hilly|mountain|itt|ttt|rest-day",
+      "terrain": ["flat", "sprint"],
+      "distance": 180,
+      "date": "2026-02-16",
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "Opening sprint stage through the desert",
+      "stageDetails": {
+        "lastFetched": "2026-01-07T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Detailed course description...",
+        "keyClimbs": [...],
+        "watchNotes": "What to look for..."
+      }
+    }
+  ]
+}
+```
+
+**Stage Types:**
+| Type | Icon | Color |
+|------|------|-------|
+| `flat` | ➡️ | Blue |
+| `hilly` | 〰️ | Orange |
+| `mountain` | ⛰️ | Red |
+| `itt` | ⏱️ | Purple |
+| `ttt` | 👥 | Purple |
+| `rest-day` | 😴 | Gray |
+
+**stageDetails** is optional - when populated, generates individual stage detail pages.
 
 ### Standardized TBD Race Format
 For races that haven't occurred yet or lack discovered content:
@@ -468,6 +608,54 @@ For single-race or stage detail pages, add a `raceDetails` object to the race:
 - **narratives**: Storylines and rivalries heading into the race
 - **historicalContext**: Race history (excludes current year)
 - **watchNotes**: What to look for when watching
+
+## Data Management Best Practices
+
+### When Updating race-data.json
+**CRITICAL**: When editing race-data.json programmatically, preserve existing fields:
+
+```javascript
+// CORRECT: Merge updates with existing data
+const race = data.races.find(r => r.id === 'race-id');
+race.newField = newValue;  // Add new field
+race.existingField = updatedValue;  // Update existing
+
+// WRONG: Replacing entire race object loses fields like topRiders
+data.races[idx] = { id, name, ...newFields };  // This loses topRiders!
+```
+
+**Fields that must be preserved:**
+- `topRiders` - Confirmed rider participations
+- `broadcast` - Where-to-watch info
+- `stages` - Stage race details
+- `raceDetails` - Course/preview information
+
+### Regenerating Pages
+After any data changes:
+```bash
+# Regenerate main calendar
+npm run build
+
+# Regenerate race detail pages
+node generate-race-details.js --all
+
+# Or single race
+node generate-race-details.js --race paris-roubaix-2026
+```
+
+### Verifying Data Integrity
+```bash
+# Check races have expected fields
+node -e "
+const data = require('./data/race-data.json');
+const withRiders = data.races.filter(r => r.topRiders?.length > 0).length;
+const withBroadcast = data.races.filter(r => r.broadcast).length;
+const withStages = data.races.filter(r => r.stages?.length > 0).length;
+console.log('Races with topRiders:', withRiders);
+console.log('Races with broadcast:', withBroadcast);
+console.log('Races with stages:', withStages);
+"
+```
 
 ## Quality Assurance
 
