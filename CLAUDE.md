@@ -763,6 +763,7 @@ d.races.filter(r => r.gender==='women' && r.rating>=3 && r.raceDate?.startsWith(
 - [ ] `stages[]` array with stageNumber, name, stageType, terrain, distance, date
 - [ ] Per-stage `stageDetails` inside each stage object
 - [ ] `broadcast` info
+- [ ] Generate stage pages: `node generate-race-details.js --stages <race-id>`
 
 ## Data Management Best Practices
 
