@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YATES Adam - 2026 race program and profile">
+  <title>YATES Adam | No Spoiler Cycling</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+      min-height: 100vh;
+      padding: 20px;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Back Button */
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      transition: background 0.2s;
+    }
+
+    .back-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Rider Header Card */
+    .rider-header {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .rider-photo {
+      width: 120px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+      background: #e5e7eb;
+      flex-shrink: 0;
+    }
+
+    .rider-info {
+      flex: 1;
+    }
+
+    .rider-rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 50%;
+      margin-bottom: 8px;
+    }
+
+    .rider-name {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .rider-team {
+      font-size: 1.1rem;
+      color: #4b5563;
+      margin-bottom: 8px;
+    }
+
+    .rider-meta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: #6b7280;
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    .rider-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .rider-flag {
+      font-size: 1.5rem;
+    }
+
+    .specialties {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .specialty-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 12px;
+      background: color-mix(in srgb, var(--badge-color) 15%, white);
+      border: 1px solid color-mix(in srgb, var(--badge-color) 30%, white);
+      color: var(--badge-color);
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    /* Program Section */
+    .program-section {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      color: #1e3a5f;
+      margin-bottom: 16px;
+    }
+
+    .race-program {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .race-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 16px;
+      background: #f9fafb;
+      border-radius: 10px;
+      border-left: 4px solid #e5e7eb;
+      transition: all 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a.race-item:hover {
+      background: #f3f4f6;
+      transform: translateX(4px);
+    }
+
+    .race-item.grand-tour {
+      border-left-color: #7c3aed;
+      background: linear-gradient(90deg, rgba(124, 58, 237, 0.08), transparent);
+    }
+
+    .race-item.monument {
+      border-left-color: #dc2626;
+      background: linear-gradient(90deg, rgba(220, 38, 38, 0.08), transparent);
+    }
+
+    .race-item.world-tour {
+      border-left-color: #0891b2;
+    }
+
+    .race-date {
+      min-width: 60px;
+      font-weight: 600;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+
+    .race-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .race-name {
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    .race-class {
+      font-size: 0.75rem;
+      color: #9ca3af;
+    }
+
+    .race-badge {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .race-badge.gt {
+      background: #ede9fe;
+      color: #7c3aed;
+    }
+
+    .race-badge.monument {
+      background: #fee2e2;
+      color: #dc2626;
+    }
+
+    .program-meta {
+      margin-top: 16px;
+      text-align: center;
+      color: #9ca3af;
+      font-size: 0.85rem;
+    }
+
+    /* Empty State */
+    .empty-program .empty-state {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .empty-text {
+      font-size: 1.1rem;
+      color: #6b7280;
+      margin-bottom: 4px;
+    }
+
+    .empty-subtext {
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    /* Stats Section */
+    .stats-section {
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 16px;
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 12px;
+      background: #f9fafb;
+      border-radius: 10px;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1e3a5f;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: #6b7280;
+      text-transform: uppercase;
+    }
+
+    /* External Link */
+    .external-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: #f9fafb;
+      color: #4b5563;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      margin-top: 16px;
+    }
+
+    .external-link:hover {
+      background: #f3f4f6;
+      color: #1e3a5f;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      color: rgba(255,255,255,0.6);
+      padding: 30px 0;
+      font-size: 0.85rem;
+    }
+
+    .footer a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .rider-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .rider-name {
+        font-size: 1.5rem;
+      }
+
+      .rider-meta {
+        justify-content: center;
+      }
+
+      .specialties {
+        justify-content: center;
+      }
+
+      .race-item {
+        flex-wrap: wrap;
+      }
+
+      .race-badge {
+        margin-left: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../riders.html" class="back-button">← Back to Riders</a>
+
+    <div class="rider-header">
+      <img src="../riders/photos/adam-yates.jpg" alt="YATES Adam" class="rider-photo" onerror="this.style.display='none'">
+      <div class="rider-info">
+        <div class="rider-rank">#43</div>
+        <h1 class="rider-name">YATES Adam</h1>
+        <p class="rider-team">UAE Team Emirates - XRG</p>
+        <div class="rider-meta">
+          <span class="rider-meta-item">
+            <span class="rider-flag">🏳️</span>
+            Great Britain
+          </span>
+          <span class="rider-meta-item">🎂 33 years</span>
+          <span class="rider-meta-item">📊 846 pts</span>
+        </div>
+        <div class="specialties">
+          <span class="specialty-badge" style="--badge-color: #dc2626">⛰️ Climber</span><span class="specialty-badge" style="--badge-color: #7c3aed">🎯 GC Contender</span><span class="specialty-badge" style="--badge-color: #ca8a04">🏆 Classics</span>
+        </div>
+      </div>
+    </div>
+
+    
+      <section class="program-section">
+        <h2 class="section-title">📅 2026 Race Program</h2>
+        <div class="race-program">
+          <a href="../race-details/tour-down-under-2026.html" class="race-item ">
+        <div class="race-date">Jan 19</div>
+        <div class="race-info">
+          <span class="race-name">Santos Tour Down Under</span>
+          <span class="race-class">2.UWT</span>
+        </div>
+        
+        
+      </a><a href="../race-details/tour-of-oman-2026.html" class="race-item ">
+        <div class="race-date">Feb 6</div>
+        <div class="race-info">
+          <span class="race-name">Tour of Oman</span>
+          <span class="race-class">2.Pro</span>
+        </div>
+        
+        
+      </a><div class="race-item grand-tour">
+        <div class="race-date">May 7</div>
+        <div class="race-info">
+          <span class="race-name">Giro d'Italia</span>
+          <span class="race-class">2.UWT</span>
+        </div>
+        <span class="race-badge gt">Grand Tour</span>
+        
+      </div><a href="../race-details/tour-de-france-2026.html" class="race-item grand-tour">
+        <div class="race-date">Jul 3</div>
+        <div class="race-info">
+          <span class="race-name">Tour de France</span>
+          <span class="race-class">2.UWT</span>
+        </div>
+        <span class="race-badge gt">Grand Tour</span>
+        
+      </a>
+        </div>
+        <p class="program-meta">4 races announced</p>
+      </section>
+    
+
+    
+    <div class="stats-section">
+      <h2 class="section-title">📊 Physical Stats</h2>
+      <div class="stats-grid">
+        
+          <div class="stat-item">
+            <div class="stat-value">58</div>
+            <div class="stat-label">kg</div>
+          </div>
+        
+        
+          <div class="stat-item">
+            <div class="stat-value">1.73</div>
+            <div class="stat-label">m</div>
+          </div>
+        
+        
+          <div class="stat-item">
+            <div class="stat-value">19.4</div>
+            <div class="stat-label">BMI</div>
+          </div>
+        
+      </div>
+      
+        <a href="https://www.procyclingstats.com/rider/adam-yates" target="_blank" rel="noopener" class="external-link">
+          View full profile on ProCyclingStats →
+        </a>
+      
+    </div>
+    
+
+    <footer class="footer">
+      <p>No Spoiler Cycling | Rider profiles are spoiler-safe</p>
+      <p>Program last updated: 1/7/2026</p>
+      <p><a href="../index.html">Calendar</a> · <a href="../riders.html">Riders</a> · <a href="../about.html">About</a></p>
+    </footer>
+  </div>
+</body>
+</html>

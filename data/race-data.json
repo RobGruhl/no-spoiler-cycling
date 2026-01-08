@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T05:53:17.920Z",
+  "lastUpdated": "2026-01-08T07:03:00.503Z",
   "event": {
     "name": "UCI Men's Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -459,6 +459,77 @@
             "watchNotes": "This is a whole new ball game for TDU. O'Grady: 'Even if you're within a minute of the lead, if the racing is hard and smart enough, you have the potential to destroy the ochre jersey.' Eight laps means repeated attacks and no hiding. Watch for aggressive racing on the punchy climbs and the decisive 11% gradients of Mount Barker Road. Stirling offers a perfect viewing platform with great food, drink options and shade."
           }
         }
+      ],
+      "topRiders": [
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "jhonatan-narvaez",
+          "name": "NARVÁEZ Jhonatan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 33,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "gc-contender",
+            "puncheur",
+            "one-day"
+          ]
+        },
+        {
+          "id": "corbin-strong",
+          "name": "STRONG Corbin",
+          "team": "NSN Cycling Team",
+          "ranking": 36,
+          "nationality": "New Zealand",
+          "nationalityCode": "NE",
+          "specialties": [
+            "puncheur",
+            "one-day"
+          ]
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
       ]
     },
     {
@@ -647,7 +718,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -655,6 +726,18 @@
             "time-trialist",
             "climber",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
           ]
         }
       ]
@@ -1072,7 +1155,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -1277,7 +1360,22 @@
           }
         ],
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
-      }
+      },
+      "topRiders": [
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
@@ -1891,6 +1989,32 @@
             "sprinter",
             "puncheur"
           ]
+        },
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 24,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
         }
       ]
     },
@@ -2092,7 +2216,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -2100,6 +2224,19 @@
             "climber",
             "gc-contender",
             "one-day"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
           ]
         }
       ]
@@ -2258,7 +2395,18 @@
           }
         ],
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
-      }
+      },
+      "topRiders": [
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "classic-var-2026",
@@ -2278,7 +2426,21 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "topRiders": [
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-jean-pierre-monsere-2026",
@@ -2426,9 +2588,15 @@
         "spoilerSafe": true,
         "courseSummary": "The Faun Drôme Classic is a French one-day race held in the Drôme department of southeastern France. Starting and finishing in Étoile-sur-Rhône, the 200km route traverses the rolling terrain between the Rhône Valley and the Vercors foothills. Despite its 'flat' classification, the parcours features several short climbs that can break up the peloton before the finale.",
         "favorites": {
-          "sprinters": ["Fast finishers capable of surviving selective climbs"],
-          "puncheurs": ["Riders who can attack on late climbs"],
-          "allRounders": ["Strong all-rounders using this as spring season opener"]
+          "sprinters": [
+            "Fast finishers capable of surviving selective climbs"
+          ],
+          "puncheurs": [
+            "Riders who can attack on late climbs"
+          ],
+          "allRounders": [
+            "Strong all-rounders using this as spring season opener"
+          ]
         },
         "narratives": [
           "Early-season test for sprinters ahead of spring classics",
@@ -2479,9 +2647,15 @@
           }
         ],
         "favorites": {
-          "cobbleSpecialists": ["Flanders specialists using this as Tour prep"],
-          "puncheurs": ["Riders who can handle the hellingen"],
-          "sprinters": ["Fast finishers with cobble survival skills"]
+          "cobbleSpecialists": [
+            "Flanders specialists using this as Tour prep"
+          ],
+          "puncheurs": [
+            "Riders who can handle the hellingen"
+          ],
+          "sprinters": [
+            "Fast finishers with cobble survival skills"
+          ]
         },
         "narratives": [
           "Second day of Opening Weekend tests tired legs from Omloop",
@@ -2520,6 +2694,31 @@
           "ranking": 11,
           "nationality": "France",
           "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 24,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
           "specialties": [
             "one-day",
             "sprinter"
@@ -2585,7 +2784,21 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "strade-bianche-2026",
@@ -2632,6 +2845,27 @@
             "climber",
             "gc-contender"
           ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
         }
       ]
     },
@@ -2687,13 +2921,51 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
           "specialties": [
             "climber",
             "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 24,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
             "one-day"
           ]
         }
@@ -2738,7 +3010,7 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
@@ -2757,6 +3029,55 @@
           "specialties": [
             "sprinter",
             "puncheur"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
           ]
         }
       ]
@@ -2820,7 +3141,18 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "noekere-koerse-2026",
@@ -2860,7 +3192,21 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-de-denain-2026",
@@ -2987,6 +3333,32 @@
             "sprinter",
             "one-day",
             "puncheur"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
           ]
         }
       ]
@@ -3143,6 +3515,31 @@
           "specialties": [
             "sprinter",
             "puncheur"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 24,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
           ]
         }
       ]
@@ -3355,6 +3752,19 @@
             "one-day",
             "puncheur"
           ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
         }
       ]
     },
@@ -3415,7 +3825,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -3428,13 +3838,39 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
           ]
         }
       ]
@@ -3498,7 +3934,21 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "giro-di-reggio-calabria-2026",
@@ -3614,6 +4064,31 @@
             "one-day",
             "puncheur"
           ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
         }
       ]
     },
@@ -3676,7 +4151,18 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "classic-grand-bescancon-doubs-2026",
@@ -3741,7 +4227,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -3767,7 +4253,7 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
@@ -3775,6 +4261,66 @@
             "one-day",
             "climber"
           ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
         }
       ]
     },
@@ -3863,7 +4409,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -3876,7 +4422,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -3902,7 +4448,7 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
@@ -3910,6 +4456,65 @@
             "one-day",
             "climber"
           ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
         }
       ]
     },
@@ -3993,7 +4598,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -4006,7 +4611,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -4032,13 +4637,64 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
           ]
         }
       ]
@@ -4098,6 +4754,43 @@
             "climber",
             "one-day",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
           ]
         }
       ]
@@ -4311,7 +5004,7 @@
         {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
-          "team": "INEOS Grenadiers",
+          "team": "XDS Astana Team",
           "ranking": 14,
           "nationality": "Italy",
           "nationalityCode": "IT",
@@ -4331,6 +5024,90 @@
             "sprinter",
             "puncheur"
           ]
+        },
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
         }
       ]
     },
@@ -4952,7 +5729,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -4965,7 +5742,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -5173,6 +5950,18 @@
             "climber",
             "one-day",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
           ]
         }
       ]
@@ -5855,7 +6644,7 @@
         {
           "id": "remco-evenepoel",
           "name": "EVENEPOEL Remco",
-          "team": "Soudal Quick-Step",
+          "team": "Red Bull - BORA - hansgrohe",
           "ranking": 6,
           "nationality": "Belgium",
           "nationalityCode": "BE",
@@ -5868,7 +6657,7 @@
         {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
-          "team": "UAE Team Emirates - XRG",
+          "team": "Lidl - Trek",
           "ranking": 12,
           "nationality": "Spain",
           "nationalityCode": "SP",
@@ -5915,6 +6704,119 @@
             "sprinter",
             "one-day",
             "puncheur"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 24,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
           ]
         }
       ]
@@ -6466,6 +7368,44 @@
           "specialties": [
             "gc-contender",
             "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
             "time-trialist"
           ]
         }
@@ -7269,7 +8209,21 @@
       "terrain": [
         "mountain"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "giro-dell-emilia-donne-2026",

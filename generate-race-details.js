@@ -237,7 +237,7 @@ function generateRaceDetailsHTML(race, options = {}) {
         .filter(Boolean)
         .join(' ');
 
-      const rankClass = rider.ranking <= 3 ? `top-${rider.ranking}` : '';
+      const rankClass = rider.ranking <= 20 ? `top-${rider.ranking}` : '';
 
       return `
         <a href="../riders/${rider.id}.html" class="top-rider-card ${rankClass}">
@@ -862,6 +862,23 @@ function generateRaceDetailsHTML(race, options = {}) {
       border-color: #d97706;
     }
 
+    /* Ranks 4-10: Blue "elite" tier */
+    .top-rider-card.top-4, .top-rider-card.top-5, .top-rider-card.top-6,
+    .top-rider-card.top-7, .top-rider-card.top-8, .top-rider-card.top-9,
+    .top-rider-card.top-10 {
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border-color: #3b82f6;
+    }
+
+    /* Ranks 11-20: Subtle gray tier */
+    .top-rider-card.top-11, .top-rider-card.top-12, .top-rider-card.top-13,
+    .top-rider-card.top-14, .top-rider-card.top-15, .top-rider-card.top-16,
+    .top-rider-card.top-17, .top-rider-card.top-18, .top-rider-card.top-19,
+    .top-rider-card.top-20 {
+      background: #f9fafb;
+      border-color: #9ca3af;
+    }
+
     .rider-rank {
       font-size: 0.8rem;
       font-weight: 700;
@@ -873,6 +890,21 @@ function generateRaceDetailsHTML(race, options = {}) {
     .top-rider-card.top-2 .rider-rank,
     .top-rider-card.top-3 .rider-rank {
       color: #1f2937;
+    }
+
+    .top-rider-card.top-4 .rider-rank, .top-rider-card.top-5 .rider-rank,
+    .top-rider-card.top-6 .rider-rank, .top-rider-card.top-7 .rider-rank,
+    .top-rider-card.top-8 .rider-rank, .top-rider-card.top-9 .rider-rank,
+    .top-rider-card.top-10 .rider-rank {
+      color: #1d4ed8;
+    }
+
+    .top-rider-card.top-11 .rider-rank, .top-rider-card.top-12 .rider-rank,
+    .top-rider-card.top-13 .rider-rank, .top-rider-card.top-14 .rider-rank,
+    .top-rider-card.top-15 .rider-rank, .top-rider-card.top-16 .rider-rank,
+    .top-rider-card.top-17 .rider-rank, .top-rider-card.top-18 .rider-rank,
+    .top-rider-card.top-19 .rider-rank, .top-rider-card.top-20 .rider-rank {
+      color: #374151;
     }
 
     .rider-info {

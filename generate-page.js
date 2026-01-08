@@ -2,6 +2,7 @@
 
 // Generate modern, clean HTML page from race data with star filtering
 import fs from 'fs';
+import { getInitials } from './lib/display-utils.js';
 
 // ============================================
 // ICON MAPPINGS
@@ -150,13 +151,8 @@ function generateHTML(raceData) {
       const moreCount = topRiders.length - 5;
 
       const riderAvatars = displayRiders.map(rider => {
-        const initials = rider.name.split(' ')
-          .filter(n => n.length > 0)
-          .map(n => n[0])
-          .slice(0, 2)
-          .join('')
-          .toUpperCase();
-        const rankBadge = rider.ranking <= 3 ? `<span class="rank-badge rank-${rider.ranking}">${rider.ranking}</span>` : '';
+        const initials = getInitials(rider.name);
+        const rankBadge = rider.ranking <= 20 ? `<span class="rank-badge rank-${rider.ranking}">${rider.ranking}</span>` : '';
         return `<div class="rider-avatar" title="${rider.name} (#${rider.ranking}) - ${rider.team}">
           ${rankBadge}
           <span class="rider-initials">${initials}</span>
@@ -822,6 +818,23 @@ function generateHTML(raceData) {
 
     .rank-badge.rank-3 {
       background: linear-gradient(135deg, #d97706, #b45309);
+      color: white;
+    }
+
+    /* Ranks 4-10: Blue "elite" tier */
+    .rank-badge.rank-4, .rank-badge.rank-5, .rank-badge.rank-6,
+    .rank-badge.rank-7, .rank-badge.rank-8, .rank-badge.rank-9,
+    .rank-badge.rank-10 {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+    }
+
+    /* Ranks 11-20: Gray tier */
+    .rank-badge.rank-11, .rank-badge.rank-12, .rank-badge.rank-13,
+    .rank-badge.rank-14, .rank-badge.rank-15, .rank-badge.rank-16,
+    .rank-badge.rank-17, .rank-badge.rank-18, .rank-badge.rank-19,
+    .rank-badge.rank-20 {
+      background: #6b7280;
       color: white;
     }
 

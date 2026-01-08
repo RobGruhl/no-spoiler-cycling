@@ -96,7 +96,7 @@ function generateRidersIndexHTML(riders) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Top 20 ranked professional cyclists - 2026 race programs and profiles">
+  <meta name="description" content="Top 50 ranked professional cyclists - 2026 race programs and profiles">
   <title>Top Riders | No Spoiler Cycling</title>
   <style>
     * {

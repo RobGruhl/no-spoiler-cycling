@@ -390,6 +390,23 @@
       color: white;
     }
 
+    /* Ranks 4-10: Blue "elite" tier */
+    .rank-badge.rank-4, .rank-badge.rank-5, .rank-badge.rank-6,
+    .rank-badge.rank-7, .rank-badge.rank-8, .rank-badge.rank-9,
+    .rank-badge.rank-10 {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+    }
+
+    /* Ranks 11-20: Gray tier */
+    .rank-badge.rank-11, .rank-badge.rank-12, .rank-badge.rank-13,
+    .rank-badge.rank-14, .rank-badge.rank-15, .rank-badge.rank-16,
+    .rank-badge.rank-17, .rank-badge.rank-18, .rank-badge.rank-19,
+    .rank-badge.rank-20 {
+      background: #6b7280;
+      color: white;
+    }
+
     .race-footer {
       display: flex;
       justify-content: space-between;
@@ -920,6 +937,28 @@
         <span class="race-location">📍 Australia</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="VINE Jay (#21) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JV</span>
+        </div><div class="rider-avatar" title="BRENNAN Matthew (#30) - Team Visma \| Lease a Bike">
+          
+          <span class="rider-initials">MB</span>
+        </div><div class="rider-avatar" title="NARVÁEZ Jhonatan (#33) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JN</span>
+        </div><div class="rider-avatar" title="STRONG Corbin (#36) - NSN Cycling Team">
+          
+          <span class="rider-initials">CS</span>
+        </div><div class="rider-avatar" title="ANDRESEN Tobias Lund (#40) - Decathlon CMA CGM Team">
+          
+          <span class="rider-initials">TA</span>
+        </div>
+          <div class="rider-avatar more-riders">+1</div>
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1077,9 +1116,12 @@
       <div class="race-riders">
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
-          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
+        </div><div class="rider-avatar" title="LIPOWITZ Florian (#23) - Red Bull - BORA - hansgrohe">
           
-          <span class="rider-initials">ER</span>
+          <span class="rider-initials">FL</span>
         </div>
           
         </div>
@@ -1270,14 +1312,14 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
         </div>
           
         </div>
@@ -1326,6 +1368,16 @@
         <span class="race-location">📍 Oman</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="YATES Adam (#43) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">AY</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1418,8 +1470,8 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
         </div>
           
         </div>
@@ -1472,8 +1524,8 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
         </div>
           
         </div>
@@ -1549,10 +1601,16 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
+          <span class="rider-initials">ID</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
+        </div><div class="rider-avatar" title="VINE Jay (#21) - UAE Team Emirates - XRG">
           
-          <span class="rider-initials">MJ</span>
+          <span class="rider-initials">JV</span>
+        </div><div class="rider-avatar" title="KOOIJ Olav (#24) - Decathlon CMA CGM Team">
+          
+          <span class="rider-initials">OK</span>
         </div>
           
         </div>
@@ -1583,11 +1641,14 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
+        </div><div class="rider-avatar" title="GANNA Filippo (#35) - INEOS Grenadiers">
           
-          <span class="rider-initials">AJ</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rider-initials">FG</span>
         </div>
           
         </div>
@@ -1614,6 +1675,16 @@
         <span class="race-location">📍 Spain</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="CHRISTEN Jan (#49) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JC</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1636,6 +1707,16 @@
         <span class="race-location">📍 France</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="MARTINEZ Lenny (#31) - Bahrain - Victorious">
+          
+          <span class="rider-initials">LM</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1844,8 +1925,14 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          <span class="rank-badge rank-11">11</span>
+          <span class="rider-initials">PM</span>
+        </div><div class="rider-avatar" title="KOOIJ Olav (#24) - Decathlon CMA CGM Team">
           
-          <span class="rider-initials">MP</span>
+          <span class="rider-initials">OK</span>
+        </div><div class="rider-avatar" title="MEEUS Jordi (#42) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">JM</span>
         </div>
           
         </div>
@@ -1916,6 +2003,16 @@
         <span class="race-location">📍 Italy</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="FORTUNATO Lorenzo (#48) - XDS Astana Team">
+          
+          <span class="rider-initials">LF</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -1943,10 +2040,16 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
         </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
+          <span class="rider-initials">ID</span>
+        </div><div class="rider-avatar" title="HEALY Ben (#22) - EF Education - EasyPost">
+          
+          <span class="rider-initials">BH</span>
+        </div><div class="rider-avatar" title="CHRISTEN Jan (#49) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JC</span>
         </div>
           
         </div>
@@ -1977,16 +2080,22 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
+        </div><div class="rider-avatar" title="KOOIJ Olav (#24) - Decathlon CMA CGM Team">
           
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          <span class="rider-initials">OK</span>
+        </div><div class="rider-avatar" title="SKJELMOSE Mattias (#29) - Lidl - Trek">
           
-          <span class="rider-initials">AJ</span>
+          <span class="rider-initials">MS</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+1</div>
         </div>
       </div>
       <div class="race-footer">
@@ -2016,15 +2125,21 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
-          
-          <span class="rider-initials">SC</span>
+          <span class="rider-initials">ID</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
+        </div><div class="rider-avatar" title="STORER Michael (#25) - Tudor Pro Cycling Team">
           
-          <span class="rider-initials">MJ</span>
+          <span class="rider-initials">MS</span>
+        </div><div class="rider-avatar" title="GALL Felix (#27) - Decathlon CMA CGM Team">
+          
+          <span class="rider-initials">FG</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+2</div>
         </div>
       </div>
       <div class="race-footer">
@@ -2093,6 +2208,16 @@
         <span class="race-location">📍 Italy</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="CHRISTEN Jan (#49) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JC</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2137,6 +2262,16 @@
         <span class="race-location">📍 Belgium</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="MEEUS Jordi (#42) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">JM</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2208,21 +2343,21 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
         </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
+          <span class="rider-initials">ID</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
-          
-          <span class="rider-initials">MJ</span>
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
         </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
-          
-          <span class="rider-initials">PJ</span>
+          <span class="rank-badge rank-20">20</span>
+          <span class="rider-initials">JP</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+2</div>
         </div>
       </div>
       <div class="race-footer">
@@ -2317,11 +2452,11 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
-          
+          <span class="rank-badge rank-5">5</span>
           <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          <span class="rank-badge rank-11">11</span>
+          <span class="rider-initials">PM</span>
         </div>
           
         </div>
@@ -2352,11 +2487,17 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
+        </div><div class="rider-avatar" title="KOOIJ Olav (#24) - Decathlon CMA CGM Team">
           
-          <span class="rider-initials">MJ</span>
+          <span class="rider-initials">OK</span>
+        </div><div class="rider-avatar" title="MEEUS Jordi (#42) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">JM</span>
         </div>
           
         </div>
@@ -2459,11 +2600,11 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
-          
+          <span class="rank-badge rank-5">5</span>
           <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
+          <span class="rank-badge rank-11">11</span>
+          <span class="rider-initials">PM</span>
         </div>
           
         </div>
@@ -2539,13 +2680,16 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
         </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
+          <span class="rank-badge rank-20">20</span>
+          <span class="rider-initials">JP</span>
+        </div><div class="rider-avatar" title="MATTHEWS Michael (#45) - Team Jayco AlUla">
           
-          <span class="rider-initials">PJ</span>
+          <span class="rider-initials">MM</span>
         </div>
           
         </div>
@@ -2599,13 +2743,19 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
+          <span class="rider-initials">ID</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
+        </div><div class="rider-avatar" title="SKJELMOSE Mattias (#29) - Lidl - Trek">
           
-          <span class="rider-initials">AJ</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          <span class="rider-initials">MS</span>
+        </div><div class="rider-avatar" title="ROGLIČ Primož (#32) - Red Bull - BORA - hansgrohe">
           
-          <span class="rider-initials">SC</span>
+          <span class="rider-initials">PR</span>
         </div>
           
         </div>
@@ -2676,6 +2826,16 @@
         <span class="race-location">📍 Belgium</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="MEEUS Jordi (#42) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">JM</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2747,18 +2907,21 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
-          
-          <span class="rider-initials">MJ</span>
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
         </div><div class="rider-avatar" title="PHILIPSEN Jasper (#20) - Alpecin-Premier Tech">
+          <span class="rank-badge rank-20">20</span>
+          <span class="rider-initials">JP</span>
+        </div><div class="rider-avatar" title="GANNA Filippo (#35) - INEOS Grenadiers">
           
-          <span class="rider-initials">PJ</span>
+          <span class="rider-initials">FG</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+1</div>
         </div>
       </div>
       <div class="race-footer">
@@ -2827,6 +2990,16 @@
         <span class="race-location">📍 Belgium</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="CHRISTEN Jan (#49) - UAE Team Emirates - XRG">
+          
+          <span class="rider-initials">JC</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD
@@ -2896,17 +3069,23 @@
       <div class="race-riders">
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
-          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
         </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          <span class="rank-badge rank-13">13</span>
+          <span class="rider-initials">GC</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
+        </div><div class="rider-avatar" title="HEALY Ben (#22) - EF Education - EasyPost">
           
-          <span class="rider-initials">CG</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
+          <span class="rider-initials">BH</span>
+        </div><div class="rider-avatar" title="GRÉGOIRE Romain (#28) - Groupama - FDJ United">
           
-          <span class="rider-initials">SC</span>
+          <span class="rider-initials">RG</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+3</div>
         </div>
       </div>
       <div class="race-footer">
@@ -3000,20 +3179,23 @@
       <div class="race-riders">
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
-          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
         </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
+          <span class="rank-badge rank-13">13</span>
+          <span class="rider-initials">GC</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
+        </div><div class="rider-avatar" title="HEALY Ben (#22) - EF Education - EasyPost">
           
-          <span class="rider-initials">CG</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
-          
-          <span class="rider-initials">SC</span>
+          <span class="rider-initials">BH</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+4</div>
         </div>
       </div>
       <div class="race-footer">
@@ -3087,21 +3269,21 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
-        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rider-initials">TP</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
         </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
-          
-          <span class="rider-initials">CG</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
-          
-          <span class="rider-initials">SC</span>
+          <span class="rank-badge rank-13">13</span>
+          <span class="rider-initials">GC</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+4</div>
         </div>
       </div>
       <div class="race-footer">
@@ -3153,7 +3335,16 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
+        </div><div class="rider-avatar" title="LIPOWITZ Florian (#23) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">FL</span>
+        </div><div class="rider-avatar" title="MARTINEZ Lenny (#31) - Bahrain - Victorious">
+          
+          <span class="rider-initials">LM</span>
+        </div><div class="rider-avatar" title="ROGLIČ Primož (#32) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">PR</span>
         </div>
           
         </div>
@@ -3344,22 +3535,22 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
         </div><div class="rider-avatar" title="MAGNIER Paul (#11) - Soudal Quick-Step">
-          
-          <span class="rider-initials">MP</span>
+          <span class="rank-badge rank-11">11</span>
+          <span class="rider-initials">PM</span>
         </div><div class="rider-avatar" title="CICCONE Giulio (#13) - Lidl - Trek">
-          
-          <span class="rider-initials">CG</span>
-        </div><div class="rider-avatar" title="SCARONI Christian (#14) - INEOS Grenadiers">
-          
-          <span class="rider-initials">SC</span>
+          <span class="rank-badge rank-13">13</span>
+          <span class="rider-initials">GC</span>
+        </div><div class="rider-avatar" title="SCARONI Christian (#14) - XDS Astana Team">
+          <span class="rank-badge rank-14">14</span>
+          <span class="rider-initials">CS</span>
         </div><div class="rider-avatar" title="MILAN Jonathan (#19) - Lidl - Trek">
-          
-          <span class="rider-initials">MJ</span>
+          <span class="rank-badge rank-19">19</span>
+          <span class="rider-initials">JM</span>
         </div>
-          
+          <div class="rider-avatar more-riders">+7</div>
         </div>
       </div>
       <div class="race-footer">
@@ -4011,16 +4202,16 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
+          <span class="rider-initials">ID</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
         </div>
           
         </div>
@@ -4228,7 +4419,10 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
+        </div><div class="rider-avatar" title="MARTINEZ Lenny (#31) - Bahrain - Victorious">
+          
+          <span class="rider-initials">LM</span>
         </div>
           
         </div>
@@ -4376,21 +4570,21 @@
         <div class="rider-avatars">
           <div class="rider-avatar" title="POGAČAR Tadej (#1) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-1">1</span>
-          <span class="rider-initials">PT</span>
+          <span class="rider-initials">TP</span>
         </div><div class="rider-avatar" title="DEL TORO Isaac (#2) - UAE Team Emirates - XRG">
           <span class="rank-badge rank-2">2</span>
-          <span class="rider-initials">DT</span>
+          <span class="rider-initials">ID</span>
         </div><div class="rider-avatar" title="PEDERSEN Mads (#5) - Lidl - Trek">
-          
-          <span class="rider-initials">PM</span>
-        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Soudal Quick-Step">
-          
-          <span class="rider-initials">ER</span>
-        </div><div class="rider-avatar" title="AYUSO Juan (#12) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-5">5</span>
+          <span class="rider-initials">MP</span>
+        </div><div class="rider-avatar" title="EVENEPOEL Remco (#6) - Red Bull - BORA - hansgrohe">
+          <span class="rank-badge rank-6">6</span>
+          <span class="rider-initials">RE</span>
+        </div><div class="rider-avatar" title="AYUSO Juan (#12) - Lidl - Trek">
+          <span class="rank-badge rank-12">12</span>
+          <span class="rider-initials">JA</span>
         </div>
-          <div class="rider-avatar more-riders">+3</div>
+          <div class="rider-avatar more-riders">+12</div>
         </div>
       </div>
       <div class="race-footer">
@@ -4689,8 +4883,8 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
-          
-          <span class="rider-initials">AJ</span>
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
         </div>
           
         </div>
@@ -4963,8 +5157,17 @@
         <span class="riders-label">Top Riders:</span>
         <div class="rider-avatars">
           <div class="rider-avatar" title="ALMEIDA João (#4) - UAE Team Emirates - XRG">
+          <span class="rank-badge rank-4">4</span>
+          <span class="rider-initials">JA</span>
+        </div><div class="rider-avatar" title="GALL Felix (#27) - Decathlon CMA CGM Team">
           
-          <span class="rider-initials">AJ</span>
+          <span class="rider-initials">FG</span>
+        </div><div class="rider-avatar" title="SKJELMOSE Mattias (#29) - Lidl - Trek">
+          
+          <span class="rider-initials">MS</span>
+        </div><div class="rider-avatar" title="ROGLIČ Primož (#32) - Red Bull - BORA - hansgrohe">
+          
+          <span class="rider-initials">PR</span>
         </div>
           
         </div>
@@ -5839,6 +6042,16 @@
         <span class="race-location">📍 Italy</span>
       </div>
       
+      <div class="race-riders">
+        <span class="riders-label">Top Riders:</span>
+        <div class="rider-avatars">
+          <div class="rider-avatar" title="FORTUNATO Lorenzo (#48) - XDS Astana Team">
+          
+          <span class="rider-initials">LF</span>
+        </div>
+          
+        </div>
+      </div>
       <div class="race-footer">
         <span class="platform-badge" style="background-color: #6B7280">
           TBD

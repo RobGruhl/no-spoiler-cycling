@@ -349,6 +349,23 @@
       border-color: #d97706;
     }
 
+    /* Ranks 4-10: Blue "elite" tier */
+    .top-rider-card.top-4, .top-rider-card.top-5, .top-rider-card.top-6,
+    .top-rider-card.top-7, .top-rider-card.top-8, .top-rider-card.top-9,
+    .top-rider-card.top-10 {
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border-color: #3b82f6;
+    }
+
+    /* Ranks 11-20: Subtle gray tier */
+    .top-rider-card.top-11, .top-rider-card.top-12, .top-rider-card.top-13,
+    .top-rider-card.top-14, .top-rider-card.top-15, .top-rider-card.top-16,
+    .top-rider-card.top-17, .top-rider-card.top-18, .top-rider-card.top-19,
+    .top-rider-card.top-20 {
+      background: #f9fafb;
+      border-color: #9ca3af;
+    }
+
     .rider-rank {
       font-size: 0.8rem;
       font-weight: 700;
@@ -360,6 +377,21 @@
     .top-rider-card.top-2 .rider-rank,
     .top-rider-card.top-3 .rider-rank {
       color: #1f2937;
+    }
+
+    .top-rider-card.top-4 .rider-rank, .top-rider-card.top-5 .rider-rank,
+    .top-rider-card.top-6 .rider-rank, .top-rider-card.top-7 .rider-rank,
+    .top-rider-card.top-8 .rider-rank, .top-rider-card.top-9 .rider-rank,
+    .top-rider-card.top-10 .rider-rank {
+      color: #1d4ed8;
+    }
+
+    .top-rider-card.top-11 .rider-rank, .top-rider-card.top-12 .rider-rank,
+    .top-rider-card.top-13 .rider-rank, .top-rider-card.top-14 .rider-rank,
+    .top-rider-card.top-15 .rider-rank, .top-rider-card.top-16 .rider-rank,
+    .top-rider-card.top-17 .rider-rank, .top-rider-card.top-18 .rider-rank,
+    .top-rider-card.top-19 .rider-rank, .top-rider-card.top-20 .rider-rank {
+      color: #374151;
     }
 
     .rider-info {
@@ -1063,7 +1095,7 @@
         <p class="section-subtitle">UCI ranked riders confirmed for this race</p>
         <div class="top-riders-grid">
           
-        <a href="../riders/joao-almeida.html" class="top-rider-card ">
+        <a href="../riders/joao-almeida.html" class="top-rider-card top-4">
           <div class="rider-rank">#4</div>
           <div class="rider-info">
             <div class="rider-name">ALMEIDA João</div>
@@ -1072,13 +1104,22 @@
           <div class="rider-specialties">🎯 ⛰️ ⏱️</div>
         </a>
       
-        <a href="../riders/juan-ayuso-pesquera.html" class="top-rider-card ">
+        <a href="../riders/juan-ayuso-pesquera.html" class="top-rider-card top-12">
           <div class="rider-rank">#12</div>
           <div class="rider-info">
             <div class="rider-name">AYUSO Juan</div>
-            <div class="rider-team">UAE Team Emirates - XRG</div>
+            <div class="rider-team">Lidl - Trek</div>
           </div>
           <div class="rider-specialties">⛰️ 🎯 🏁</div>
+        </a>
+      
+        <a href="../riders/filippo-ganna.html" class="top-rider-card ">
+          <div class="rider-rank">#35</div>
+          <div class="rider-info">
+            <div class="rider-name">GANNA Filippo</div>
+            <div class="rider-team">INEOS Grenadiers</div>
+          </div>
+          <div class="rider-specialties">⏱️ 💪 🎯</div>
         </a>
       
         </div>
@@ -1131,7 +1172,17 @@
           <div class="key-rider-info">
             <span class="key-rider-flag">🏳️</span>
             <span class="key-rider-name">AYUSO Juan</span>
-            <span class="key-rider-team">UAE Team Emirates - XRG</span>
+            <span class="key-rider-team">Lidl - Trek</span>
+          </div>
+        </a>
+      
+        <a href="../riders/filippo-ganna.html" class="key-rider-card">
+          <img src="../riders/photos/filippo-ganna.jpg" alt="GANNA Filippo" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#35</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🇮🇹</span>
+            <span class="key-rider-name">GANNA Filippo</span>
+            <span class="key-rider-team">INEOS Grenadiers</span>
           </div>
         </a>
       
