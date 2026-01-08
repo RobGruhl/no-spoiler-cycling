@@ -308,6 +308,7 @@
       color: #6b7280;
     }
 
+    /* Top Riders Section */
     .race-riders {
       display: flex;
       align-items: center;
@@ -529,6 +530,15 @@
       box-shadow: 0 12px 30px rgba(0,0,0,0.2);
     }
 
+    .race-card.has-details {
+      cursor: pointer;
+    }
+
+    .race-card.has-details:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
     /* Stage Detail View */
     .stage-detail-view {
       margin-bottom: 40px;
@@ -552,12 +562,34 @@
       color: #374151;
       cursor: pointer;
       transition: all 0.2s;
-      margin-bottom: 16px;
     }
 
     .back-button:hover {
       background: #e5e7eb;
       color: #111827;
+    }
+
+    .stage-view-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .race-details-link {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .race-details-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
     }
 
     .stage-view-title {
@@ -854,7 +886,7 @@
       <h2 class="month-title">January 2026 <span class="month-count">11</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-el-salvador-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-el-salvador-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -873,9 +905,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt,summit-finish,circuit" data-prestige="" data-race-id="tour-down-under-2026">
+    <div class="race-card  has-stages " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt,summit-finish,circuit" data-prestige="" data-race-id="tour-down-under-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt, summit-finish, circuit">📅➡️〰️⛰️⏱️🔝🔄</span>
@@ -894,9 +927,10 @@
         <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classica-camp-de-morvedre-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classica-camp-de-morvedre-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -915,9 +949,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-marratxi-felanitx-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-marratxi-felanitx-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -936,9 +971,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-comunitat-valenciana-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-comunitat-valenciana-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -957,9 +993,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-binissalem-andratx-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-binissalem-andratx-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -978,9 +1015,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-calvia-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-calvia-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -999,9 +1037,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="surf-coast-classic-men-2026">
+    <div class="race-card   has-details" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="surf-coast-classic-men-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1019,10 +1058,11 @@
         </span>
         
         
-        <span class="status-ready">Watch Now →</span>
+        <span class="status-details">View Details →</span>
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-ses-salines-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-ses-salines-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1051,9 +1091,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-serra-tramuntana-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-serra-tramuntana-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1072,9 +1113,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-andratx-pollenca-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-andratx-pollenca-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1093,6 +1135,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -1101,7 +1144,7 @@
       <h2 class="month-title">February 2026 <span class="month-count">26</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-la-marseillaise-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-la-marseillaise-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1120,9 +1163,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="pionera-race-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="pionera-race-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1141,9 +1185,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-palma-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="trofeo-palma-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1162,9 +1207,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  " data-rating="4" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="cadel-evans-great-ocean-road-race-2026">
+    <div class="race-card   has-details" data-rating="4" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="cadel-evans-great-ocean-road-race-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1182,10 +1228,11 @@
         </span>
         
         
-        <span class="status-ready">Watch Now →</span>
+        <span class="status-details">View Details →</span>
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="etoile-de-besseges-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="etoile-de-besseges-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1204,9 +1251,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="volta-comunitat-valenciana-2026">
+    <div class="race-card  has-stages " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="volta-comunitat-valenciana-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
@@ -1241,9 +1289,10 @@
         <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="muscat-classic-2026">
+    <div class="race-card tbd  has-details" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="muscat-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1262,9 +1311,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-of-oman-2026">
+    <div class="race-card  has-stages " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-of-oman-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
@@ -1283,9 +1333,10 @@
         <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="aveiro-fegion-champions-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="aveiro-fegion-champions-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1304,9 +1355,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-oro-in-euro-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-oro-in-euro-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1325,9 +1377,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="vuelta-cv-feminas-2026">
+    <div class="race-card tbd  has-details" data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="vuelta-cv-feminas-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1346,9 +1399,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-la-provence-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-la-provence-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1377,9 +1431,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="vuelta-a-murcia-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="vuelta-a-murcia-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1398,9 +1453,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="figueira-champions-classic-2026">
+    <div class="race-card   has-details" data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="figueira-champions-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1428,10 +1484,11 @@
         </span>
         
         
-        <span class="status-ready">Watch Now →</span>
+        <span class="status-details">View Details →</span>
+        
       </div>
     </div>
-    <div class="race-card  " data-rating="3" data-format="one-day" data-terrain="flat,hilly" data-prestige="" data-race-id="clasica-de-almeria-2026">
+    <div class="race-card   has-details" data-rating="3" data-format="one-day" data-terrain="flat,hilly" data-prestige="" data-race-id="clasica-de-almeria-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat, hilly">🏁➡️〰️</span>
@@ -1449,10 +1506,11 @@
         </span>
         
         
-        <span class="status-ready">Watch Now →</span>
+        <span class="status-details">View Details →</span>
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-jaen-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-jaen-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1471,9 +1529,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="4" data-format="stage-race" data-terrain="flat,mountain,itt" data-prestige="" data-race-id="uae-tour-2026">
+    <div class="race-card  has-stages " data-rating="4" data-format="stage-race" data-terrain="flat,mountain,itt" data-prestige="" data-race-id="uae-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, mountain, itt">📅➡️⛰️⏱️</span>
@@ -1505,9 +1564,10 @@
         <span class="stage-badge" title="Click to view stages">7 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="volta-ao-algarve-2026">
+    <div class="race-card  has-stages " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="volta-ao-algarve-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
@@ -1539,9 +1599,10 @@
         <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card  has-stages" data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="vuelta-a-andalucia-ruta-del-sol-2026">
+    <div class="race-card  has-stages " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="vuelta-a-andalucia-ruta-del-sol-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
@@ -1560,9 +1621,10 @@
         <span class="stage-badge" title="Click to view stages">5 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classic-var-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classic-var-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1581,9 +1643,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="gp-jean-pierre-monsere-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="gp-jean-pierre-monsere-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -1602,9 +1665,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="midwest-cycling-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="midwest-cycling-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1623,9 +1687,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-des-alpes-maritimes-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-des-alpes-maritimes-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1644,9 +1709,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-rwanda-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-rwanda-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1665,9 +1731,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="giro-di-sardegna-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="giro-di-sardegna-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1686,9 +1753,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="visit-south-aegean-gp-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="visit-south-aegean-gp-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1707,6 +1775,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -1715,7 +1784,7 @@
       <h2 class="month-title">March 2026 <span class="month-count">25</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="faun-drome-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="faun-drome-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1734,9 +1803,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="kuurne-brussels-kuurne-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="kuurne-brussels-kuurne-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -1755,9 +1825,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="omloop-van-het-hageland-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="omloop-van-het-hageland-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1786,9 +1857,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="region-on-dodecanese-gp-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="region-on-dodecanese-gp-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -1807,9 +1879,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="le-samyn-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="le-samyn-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -1828,9 +1901,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-laigueglia-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-laigueglia-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1849,9 +1923,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="gravel" data-prestige="" data-race-id="strade-bianche-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="gravel" data-prestige="" data-race-id="strade-bianche-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, gravel">🏁🟤</span>
@@ -1883,9 +1958,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="paris-nice-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="paris-nice-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
@@ -1920,9 +1996,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="tirreno-adriatico-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="" data-race-id="tirreno-adriatico-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅➡️〰️⛰️⏱️</span>
@@ -1957,9 +2034,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="ixina-leeuw-oetingen-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="ixina-leeuw-oetingen-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -1978,9 +2056,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-taiwan-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-taiwan-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -1999,9 +2078,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="milano-torino-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="milano-torino-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2020,9 +2100,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="noekere-koerse-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="noekere-koerse-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2041,9 +2122,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="nokere-koerse-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="nokere-koerse-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2062,9 +2144,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-denain-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-denain-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2083,9 +2166,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="koksijde-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="koksijde-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2104,9 +2188,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="monument" data-race-id="milano-sanremo-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="monument" data-race-id="milano-sanremo-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, flat">🏁🗿➡️</span>
@@ -2147,9 +2232,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2168,9 +2254,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="settimana-coppi-e-bartali-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="settimana-coppi-e-bartali-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2189,9 +2276,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="ronde-van-brugge-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="ronde-van-brugge-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2210,9 +2298,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="e3-saxo-classic-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="e3-saxo-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2244,9 +2333,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="gent-wevelgem-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="gent-wevelgem-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2278,9 +2368,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-emilia-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-emilia-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2299,9 +2390,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-roue-tourangelle-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-roue-tourangelle-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2320,9 +2412,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-camembert-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-camembert-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2341,6 +2434,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -2349,7 +2443,7 @@
       <h2 class="month-title">April 2026 <span class="month-count">27</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="dwars-door-vlaanderen-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="dwars-door-vlaanderen-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2381,9 +2475,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-route-adelie-de-vitre-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-route-adelie-de-vitre-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2402,9 +2497,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="nxt-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="nxt-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2423,9 +2519,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument" data-race-id="ronde-van-vlaanderen-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument" data-race-id="ronde-van-vlaanderen-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🗿🪨</span>
@@ -2460,9 +2557,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="cholet-agglo-tour-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="cholet-agglo-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2481,9 +2579,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="itzulia-basque-country-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="itzulia-basque-country-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
@@ -2518,9 +2617,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="region-pays-de-la-loire-tour-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="region-pays-de-la-loire-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2539,9 +2639,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="region-pays-de-la-loire-tour-feminin-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="region-pays-de-la-loire-tour-feminin-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2560,9 +2661,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="scheldeprijs-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="scheldeprijs-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -2581,9 +2683,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-di-reggio-calabria-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-di-reggio-calabria-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2602,9 +2705,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="giro-della-magna-grecia-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="giro-della-magna-grecia-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2623,9 +2727,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument" data-race-id="paris-roubaix-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="cobbles" data-prestige="monument" data-race-id="paris-roubaix-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🗿🪨</span>
@@ -2663,9 +2768,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="o-gran-camino-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="o-gran-camino-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2684,9 +2790,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="ronde-van-limburg-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="ronde-van-limburg-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2705,9 +2812,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="brabantse-pijl-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="brabantse-pijl-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2726,9 +2834,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classic-grand-bescancon-doubs-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classic-grand-bescancon-doubs-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2747,9 +2856,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-jura-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-jura-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2768,9 +2878,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="amstel-gold-race-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="amstel-gold-race-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -2805,9 +2916,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-feminin-de-chambery-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-feminin-de-chambery-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -2826,9 +2938,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-samarkand-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-samarkand-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2847,9 +2960,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="mountain,itt" data-prestige="" data-race-id="tour-of-the-alps-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="mountain,itt" data-prestige="" data-race-id="tour-of-the-alps-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, mountain, itt">📅⛰️⏱️</span>
@@ -2868,9 +2982,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="la-fleche-wallonne-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="la-fleche-wallonne-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -2908,9 +3023,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="vuelta-asturias-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="vuelta-asturias-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -2929,9 +3045,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-della-liberazione-donne-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-della-liberazione-donne-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -2950,9 +3067,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument" data-race-id="liege-bastogne-liege-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument" data-race-id="liege-bastogne-liege-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, mountain">🏁🗿⛰️</span>
@@ -2993,9 +3111,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-of-turkiye-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-of-turkiye-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
@@ -3014,9 +3133,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="" data-race-id="tour-de-romandie-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="" data-race-id="tour-de-romandie-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain, itt">📅〰️⛰️⏱️</span>
@@ -3045,6 +3165,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -3053,7 +3174,7 @@
       <h2 class="month-title">May 2026 <span class="month-count">29</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="eschborn-frankfurt-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="eschborn-frankfurt-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3072,9 +3193,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-anicolor-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-anicolor-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3093,9 +3215,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-immo-zone-vloer-en-chapewerken-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-immo-zone-vloer-en-chapewerken-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3114,9 +3237,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="festival-elsy-jacobs-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="festival-elsy-jacobs-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3135,9 +3259,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="famenne-ardenne-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="famenne-ardenne-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3156,9 +3281,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-appennino-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-appennino-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -3177,9 +3303,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-hellas-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-hellas-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3198,9 +3325,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour" data-race-id="giro-d-italia-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour" data-race-id="giro-d-italia-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅🏆➡️〰️⛰️⏱️</span>
@@ -3241,9 +3369,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-classique-morbihan-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-classique-morbihan-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3262,9 +3391,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-du-morbihan-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-du-morbihan-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3283,9 +3413,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="baku-khankendi-azerbaijan-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="baku-khankendi-azerbaijan-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3304,9 +3435,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="tro-bro-leon-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="tro-bro-leon-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3325,9 +3457,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofee-maarten-wynants-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofee-maarten-wynants-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3346,9 +3479,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="fleche-du-sud-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="fleche-du-sud-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3367,9 +3501,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-hongrie-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-hongrie-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3388,9 +3523,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="circuit-de-wallonie-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="circuit-de-wallonie-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3409,9 +3545,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-finistere-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-finistere-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3430,9 +3567,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="boucles-de-l-aulne-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="boucles-de-l-aulne-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3451,9 +3589,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="rund-um-koln-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="rund-um-koln-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, circuit">🏁🔄</span>
@@ -3472,9 +3611,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classique-dunkerque-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="classique-dunkerque-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3493,9 +3633,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="emakumeen-saria-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="emakumeen-saria-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3514,9 +3655,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="4-jours-de-dunkerque-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="4-jours-de-dunkerque-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3535,9 +3677,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-beiras-e-serra-da-estrela-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="gp-beiras-e-serra-da-estrela-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3556,9 +3699,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="veenendaal-veenendaal-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="veenendaal-veenendaal-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3577,9 +3721,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-criquelion-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-criquelion-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3598,9 +3743,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="antwerp-port-epic-sels-trophy-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="cobbles" data-prestige="" data-race-id="antwerp-port-epic-sels-trophy-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, cobbles">🏁🪨</span>
@@ -3619,9 +3765,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-mazda-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-mazda-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3640,9 +3787,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="boucles-de-la-mayenne-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="boucles-de-la-mayenne-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3661,9 +3809,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-ciudad-de-eibar-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-ciudad-de-eibar-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3682,6 +3831,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -3690,7 +3840,7 @@
       <h2 class="month-title">June 2026 <span class="month-count">20</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-wallonie-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-wallonie-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3709,9 +3859,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="mercan-tour-classic-alpes-maritimes-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="mercan-tour-classic-alpes-maritimes-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -3730,9 +3881,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-estonia-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-estonia-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3751,9 +3903,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="heistse-pijl-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="heistse-pijl-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3772,9 +3925,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="alpes-gresivaudan-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="alpes-gresivaudan-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3793,9 +3947,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="brussels-cycling-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="brussels-cycling-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3814,9 +3969,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="dwars-door-de-westhoek-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="dwars-door-de-westhoek-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3835,9 +3991,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-auvergne-rhone-alpes-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-auvergne-rhone-alpes-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3875,9 +4032,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="circuit-franco-belge-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="circuit-franco-belge-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3896,9 +4054,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-feminin-international-des-pyrenees-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-feminin-international-des-pyrenees-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -3917,9 +4076,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="dwars-door-het-hageland-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="dwars-door-het-hageland-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3938,9 +4098,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="copenhagen-sprint-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="copenhagen-sprint-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -3959,9 +4120,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="elfstedenronde-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="elfstedenronde-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -3980,9 +4142,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="flanders-diamond-tour-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="flanders-diamond-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4001,9 +4164,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-gippingen-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-gippingen-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4022,9 +4186,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="" data-race-id="baloise-belgium-tour-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="" data-race-id="baloise-belgium-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, itt">📅➡️〰️⏱️</span>
@@ -4043,9 +4208,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="" data-race-id="tour-de-suisse-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="hilly,mountain,itt" data-prestige="" data-race-id="tour-de-suisse-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain, itt">📅〰️⛰️⏱️</span>
@@ -4074,9 +4240,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="tour-of-slovenia-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="tour-of-slovenia-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
@@ -4095,9 +4262,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="la-route-d-occitanie-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="la-route-d-occitanie-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4116,9 +4284,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="andorra-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="andorra-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4137,6 +4306,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -4145,7 +4315,7 @@
       <h2 class="month-title">July 2026 <span class="month-count">11</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="lyon-torino-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="lyon-torino-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4164,9 +4334,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="sibiu-tour-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="sibiu-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4185,9 +4356,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd has-stages" data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt,summit-finish" data-prestige="grand-tour" data-race-id="tour-de-france-2026">
+    <div class="race-card tbd has-stages " data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt,summit-finish" data-prestige="grand-tour" data-race-id="tour-de-france-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt, summit-finish">📅🏆➡️〰️⛰️⏱️🔝</span>
@@ -4228,9 +4400,10 @@
         <span class="stage-badge" title="Click to view stages">21 stages →</span>
         
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="argenta-classic-deurne-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="argenta-classic-deurne-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4249,9 +4422,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-magnificent-qinghai-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-magnificent-qinghai-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4270,9 +4444,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-austria-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-austria-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4291,9 +4466,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-picto-en-nouvelle-aquitaine-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-picto-en-nouvelle-aquitaine-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4312,9 +4488,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-de-ordizia-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-de-ordizia-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4333,9 +4510,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-castilla-y-leon-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="clasica-castilla-y-leon-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4354,9 +4532,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-l-ain-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-l-ain-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4375,9 +4554,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-denmark-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-denmark-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4396,6 +4576,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -4404,7 +4585,7 @@
       <h2 class="month-title">August 2026 <span class="month-count">24</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="donostia-san-sebastian-klasikoa-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="donostia-san-sebastian-klasikoa-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4423,9 +4604,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="china-xizang-trans-himalaya-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="china-xizang-trans-himalaya-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4444,9 +4626,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="circuito-de-getxo-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="circuito-de-getxo-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4465,9 +4648,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-de-pologne-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="tour-de-pologne-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
@@ -4486,9 +4670,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="vuelta-a-burgos-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="vuelta-a-burgos-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
@@ -4517,9 +4702,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="volta-a-portugal-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="volta-a-portugal-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4538,9 +4724,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="arctic-race-of-norway-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="hilly,mountain" data-prestige="" data-race-id="arctic-race-of-norway-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, hilly, mountain">📅〰️⛰️</span>
@@ -4559,9 +4746,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="czech-tour-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="czech-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4580,9 +4768,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-yvonne-reynders-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-yvonne-reynders-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4601,9 +4790,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="adac-cyclassics-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="adac-cyclassics-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4622,9 +4812,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-polynormande-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-polynormande-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4643,9 +4834,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-limousin-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-limousin-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4664,9 +4856,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="deutschland-tour-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly,mountain" data-prestige="" data-race-id="deutschland-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain">📅➡️〰️⛰️</span>
@@ -4685,9 +4878,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="" data-race-id="renewi-tour-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly,itt" data-prestige="" data-race-id="renewi-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, itt">📅➡️〰️⏱️</span>
@@ -4706,9 +4900,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-lucien-van-impe-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-lucien-van-impe-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4727,9 +4922,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="konvert-kortrijk-koerse-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="konvert-kortrijk-koerse-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4748,9 +4944,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour" data-race-id="vuelta-a-espana-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="stage-race" data-terrain="flat,hilly,mountain,itt" data-prestige="grand-tour" data-race-id="vuelta-a-espana-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="stage-race, flat, hilly, mountain, itt">📅🏆➡️〰️⛰️⏱️</span>
@@ -4779,9 +4976,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-poitou-charentes-en-nouvelle-aquitaine-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-du-poitou-charentes-en-nouvelle-aquitaine-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4800,9 +4998,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="muur-classic-geraardsbergen-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="muur-classic-geraardsbergen-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -4821,9 +5020,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="kreiz-breizh-feminin-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="kreiz-breizh-feminin-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4842,9 +5042,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="bretagne-classic-ouest-france-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="bretagne-classic-ouest-france-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4863,9 +5064,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-kranj-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-kranj-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4884,9 +5086,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="philadelphia-cycling-classic-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="philadelphia-cycling-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -4905,9 +5108,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-korea-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-korea-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4926,6 +5130,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -4934,7 +5139,7 @@
       <h2 class="month-title">September 2026 <span class="month-count">31</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-britain-men-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-britain-men-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4953,9 +5158,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="zlm-tour-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="zlm-tour-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4974,9 +5180,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="maryland-cycling-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="maryland-cycling-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -4995,9 +5202,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-binzhou-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-binzhou-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5016,9 +5224,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-della-toscana-memorial-alfredo-martini-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-della-toscana-memorial-alfredo-martini-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5037,9 +5246,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-sabatini-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-sabatini-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5058,9 +5268,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-quebec-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-quebec-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5079,9 +5290,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="a-travers-les-hauts-de-france-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="a-travers-les-hauts-de-france-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5100,9 +5312,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="memorial-marco-pantani-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="memorial-marco-pantani-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5121,9 +5334,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-taihu-lake-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-taihu-lake-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5142,9 +5356,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-fourmies-la-voix-du-nord-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-fourmies-la-voix-du-nord-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5163,9 +5378,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-montreal-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="gp-de-montreal-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5184,9 +5400,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-choralis-fourmies-feminine-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="la-choralis-fourmies-feminine-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5205,9 +5422,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-matteotti-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-matteotti-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5226,9 +5444,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="il-giro-d-abruzzo-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="il-giro-d-abruzzo-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5247,9 +5466,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="chrono-feminin-du-gatineau-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="chrono-feminin-du-gatineau-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5268,9 +5488,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="gp-de-wallonie-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="gp-de-wallonie-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -5289,9 +5510,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="okolo-slovenska-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="okolo-slovenska-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5310,9 +5532,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-gatineau-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-du-gatineau-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5331,9 +5554,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="kampioenscap-van-vlaanderen-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="kampioenscap-van-vlaanderen-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5352,9 +5576,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-huangshan-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-huangshan-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5373,9 +5598,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-del-lazio-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gp-del-lazio-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5394,9 +5620,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="super-8-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="super-8-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5415,9 +5642,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-della-romagna-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-della-romagna-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5436,9 +5664,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gooikske-pijl-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="gooikske-pijl-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5457,9 +5686,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="itt" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-men-s-tt-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="itt" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-men-s-tt-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="itt, flat">⏱️🌍➡️</span>
@@ -5478,9 +5708,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="ttt" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-mixed-relay-tt-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="ttt" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-mixed-relay-tt-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="ttt, flat">👥🌍➡️</span>
@@ -5499,9 +5730,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="omloop-van-het-houtland-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="omloop-van-het-houtland-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5520,9 +5752,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-chauny-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-chauny-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5541,9 +5774,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-langkawi-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-langkawi-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5562,9 +5796,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-men-s-road-race-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="flat" data-prestige="world-championship" data-race-id="world-championships-men-s-road-race-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, flat">🏁🌍➡️</span>
@@ -5583,6 +5818,7 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
       </div>
@@ -5591,7 +5827,7 @@
       <h2 class="month-title">October 2026 <span class="month-count">20</span></h2>
       <div class="race-grid">
         
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-emilia-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-emilia-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -5610,9 +5846,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-emilia-donne-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="giro-dell-emilia-donne-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -5631,9 +5868,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="sparkassen-munsterland-giro-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="sparkassen-munsterland-giro-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, circuit">🏁🔄</span>
@@ -5652,9 +5890,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-agostoni-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-agostoni-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5673,9 +5912,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-of-vendee-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="tour-of-vendee-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5694,9 +5934,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-bernocchi-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="coppa-bernocchi-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5715,9 +5956,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="binche-chimay-binche-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="binche-chimay-binche-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5736,9 +5978,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="tre-valle-varesine-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="tre-valle-varesine-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -5757,9 +6000,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="gran-piemonte-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="mountain" data-prestige="" data-race-id="gran-piemonte-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, mountain">🏁⛰️</span>
@@ -5778,9 +6022,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument" data-race-id="il-lombardia-2026">
+    <div class="race-card tbd  " data-rating="5" data-format="one-day" data-terrain="mountain" data-prestige="monument" data-race-id="il-lombardia-2026">
       <div class="race-header">
         <div class="rating-stars" title="5 stars"><span class="stars">★★★★★</span></div>
         <span class="race-icons" title="one-day, mountain">🏁🗿⛰️</span>
@@ -5799,9 +6044,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-kyushu-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-de-kyushu-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5820,9 +6066,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-tours-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="paris-tours-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5841,9 +6088,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="sun-hung-kai-hong-kong-cyclothon-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="flat" data-prestige="" data-race-id="sun-hung-kai-hong-kong-cyclothon-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, flat">🏁➡️</span>
@@ -5862,9 +6110,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-tessile-moda-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="trofeo-tessile-moda-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5883,9 +6132,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-guangxi-2026">
+    <div class="race-card tbd  " data-rating="4" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-guangxi-2026">
       <div class="race-header">
         <div class="rating-stars" title="4 stars"><span class="stars">★★★★☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5904,9 +6154,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-holland-2026">
+    <div class="race-card tbd  " data-rating="2" data-format="stage-race" data-terrain="flat,hilly" data-prestige="" data-race-id="tour-of-holland-2026">
       <div class="race-header">
         <div class="rating-stars" title="2 stars"><span class="stars">★★☆☆☆</span></div>
         <span class="race-icons" title="stage-race, flat, hilly">📅➡️〰️</span>
@@ -5925,9 +6176,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-del-veneto-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="giro-del-veneto-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -5946,9 +6198,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="1" data-format="itt" data-terrain="flat" data-prestige="" data-race-id="chrono-des-nations-2026">
+    <div class="race-card tbd  " data-rating="1" data-format="itt" data-terrain="flat" data-prestige="" data-race-id="chrono-des-nations-2026">
       <div class="race-header">
         <div class="rating-stars" title="1 star"><span class="stars">★☆☆☆☆</span></div>
         <span class="race-icons" title="itt, flat">⏱️➡️</span>
@@ -5967,9 +6220,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="utsunomiya-japan-cup-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="circuit" data-prestige="" data-race-id="utsunomiya-japan-cup-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, circuit">🏁🔄</span>
@@ -5988,9 +6242,10 @@
         
         <span class="status-tbd">Awaiting Coverage</span>
         
+        
       </div>
     </div>
-    <div class="race-card tbd " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="veneto-classic-2026">
+    <div class="race-card tbd  " data-rating="3" data-format="one-day" data-terrain="hilly" data-prestige="" data-race-id="veneto-classic-2026">
       <div class="race-header">
         <div class="rating-stars" title="3 stars"><span class="stars">★★★☆☆</span></div>
         <span class="race-icons" title="one-day, hilly">🏁〰️</span>
@@ -6008,6 +6263,7 @@
         </span>
         
         <span class="status-tbd">Awaiting Coverage</span>
+        
         
       </div>
     </div>
@@ -6047,7 +6303,10 @@
     
     <section class="stage-detail-view" id="stage-view-tour-down-under-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Tour Down Under</h1>
           <div class="stage-view-meta">
@@ -6232,7 +6491,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-volta-comunitat-valenciana-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          <a href="race-details/volta-comunitat-valenciana-2026.html" class="race-details-link">View Race Details →</a>
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Volta Comunitat Valenciana</h1>
           <div class="stage-view-meta">
@@ -6379,7 +6641,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-tour-of-oman-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          <a href="race-details/tour-of-oman-2026.html" class="race-details-link">View Race Details →</a>
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Tour of Oman</h1>
           <div class="stage-view-meta">
@@ -6526,7 +6791,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-uae-tour-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          <a href="race-details/uae-tour-2026.html" class="race-details-link">View Race Details →</a>
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">UAE Tour</h1>
           <div class="stage-view-meta">
@@ -6725,7 +6993,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-volta-ao-algarve-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          <a href="race-details/volta-ao-algarve-2026.html" class="race-details-link">View Race Details →</a>
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Volta ao Algarve</h1>
           <div class="stage-view-meta">
@@ -6872,7 +7143,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-vuelta-a-andalucia-ruta-del-sol-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          <a href="race-details/vuelta-a-andalucia-ruta-del-sol-2026.html" class="race-details-link">View Race Details →</a>
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Vuelta a Andalucia - Ruta del Sol</h1>
           <div class="stage-view-meta">
@@ -7019,7 +7293,10 @@
     </section>
     <section class="stage-detail-view" id="stage-view-tour-de-france-2026" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">Tour de France</h1>
           <div class="stage-view-meta">
@@ -7810,6 +8087,14 @@
       card.addEventListener('click', () => {
         const raceId = card.dataset.raceId;
         showStageView(raceId);
+      });
+    });
+
+    // Handle clicks on one-day race cards with details
+    document.querySelectorAll('.race-card.has-details').forEach(card => {
+      card.addEventListener('click', () => {
+        const raceId = card.dataset.raceId;
+        window.location.href = 'race-details/' + raceId + '.html';
       });
     });
 

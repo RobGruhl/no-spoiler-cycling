@@ -126,6 +126,7 @@ function generateHTML(raceData) {
 
     // Data attributes for filtering
     const hasStages = race.stages && race.stages.length > 0;
+    const hasDetails = race.raceDetails && Object.keys(race.raceDetails).length > 0 && !hasStages;
     const stageCount = hasStages ? race.stages.filter(s => s.stageNumber > 0).length : 0;
     const dataAttrs = [
       `data-rating="${rating}"`,
@@ -179,7 +180,7 @@ function generateHTML(raceData) {
     const ridersSection = generateRidersSection(race.topRiders);
 
     return `
-    <div class="race-card ${isTBD ? 'tbd' : ''} ${hasStages ? 'has-stages' : ''}" ${dataAttrs}>
+    <div class="race-card ${isTBD ? 'tbd' : ''} ${hasStages ? 'has-stages' : ''} ${hasDetails ? 'has-details' : ''}" ${dataAttrs}>
       <div class="race-header">
         <div class="rating-stars" title="${rating} star${rating !== 1 ? 's' : ''}">${generateStars(rating)}</div>
         <span class="race-icons" title="${race.raceFormat}${race.terrain ? ', ' + race.terrain.join(', ') : ''}">${formatIcon}${allIcons}</span>
@@ -197,7 +198,8 @@ function generateHTML(raceData) {
         </span>
         ${stageBadge}
         ${isTBD && !hasStages ? '<span class="status-tbd">Awaiting Coverage</span>' : ''}
-        ${!isTBD && !hasStages ? '<span class="status-ready">Watch Now →</span>' : ''}
+        ${!isTBD && !hasStages && hasDetails ? '<span class="status-details">View Details →</span>' : ''}
+        ${!isTBD && !hasStages && !hasDetails ? '<span class="status-ready">Watch Now →</span>' : ''}
       </div>
     </div>`;
   };
@@ -310,10 +312,18 @@ function generateHTML(raceData) {
       .map(([type, count]) => `${count} ${type}`)
       .join(' • ');
 
+    const hasRaceDetails = race.raceDetails && Object.keys(race.raceDetails).length > 0;
+    const raceDetailsLink = hasRaceDetails
+      ? `<a href="race-details/${race.id}.html" class="race-details-link">View Race Details →</a>`
+      : '';
+
     return `
     <section class="stage-detail-view" id="stage-view-${race.id}" style="display: none;">
       <div class="stage-view-header">
-        <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+        <div class="stage-view-nav">
+          <button class="back-button" onclick="hideStageView()">← Back to Calendar</button>
+          ${raceDetailsLink}
+        </div>
         <div class="stage-view-info">
           <h1 class="stage-view-title">${race.name}</h1>
           <div class="stage-view-meta">
@@ -955,6 +965,15 @@ function generateHTML(raceData) {
       box-shadow: 0 12px 30px rgba(0,0,0,0.2);
     }
 
+    .race-card.has-details {
+      cursor: pointer;
+    }
+
+    .race-card.has-details:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
     /* Stage Detail View */
     .stage-detail-view {
       margin-bottom: 40px;
@@ -978,12 +997,34 @@ function generateHTML(raceData) {
       color: #374151;
       cursor: pointer;
       transition: all 0.2s;
-      margin-bottom: 16px;
     }
 
     .back-button:hover {
       background: #e5e7eb;
       color: #111827;
+    }
+
+    .stage-view-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .race-details-link {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .race-details-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
     }
 
     .stage-view-title {
@@ -1460,6 +1501,14 @@ function generateHTML(raceData) {
       card.addEventListener('click', () => {
         const raceId = card.dataset.raceId;
         showStageView(raceId);
+      });
+    });
+
+    // Handle clicks on one-day race cards with details
+    document.querySelectorAll('.race-card.has-details').forEach(card => {
+      card.addEventListener('click', () => {
+        const raceId = card.dataset.raceId;
+        window.location.href = 'race-details/' + raceId + '.html';
       });
     });
 

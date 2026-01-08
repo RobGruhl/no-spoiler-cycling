@@ -611,6 +611,34 @@ For single-race or stage detail pages, add a `raceDetails` object to the race:
 
 ## Data Management Best Practices
 
+### Managing race-data.json (Large File ~72K tokens)
+
+The file exceeds Claude's read limit. Use these strategies:
+
+**Reading/Analysis:**
+- Write temporary node scripts to `/tmp/` for data analysis
+- Use targeted `node -e` commands for quick queries
+- Use Grep to find specific races by name/ID
+
+**Writing/Updating:**
+- Use Edit tool for targeted updates (never Write for full file rewrite)
+- Always preserve existing fields (topRiders, broadcast, stages)
+- Test changes with node scripts before committing
+
+**Example patterns:**
+```bash
+# Find a race by name
+node -e "const d=require('./data/race-data.json'); console.log(d.races.find(r=>r.name.includes('Roubaix')))"
+
+# Analyze subset of races
+cat << 'SCRIPT' > /tmp/analyze.js
+const data = require('./data/race-data.json');
+const janFeb = data.races.filter(r => new Date(r.raceDate).getMonth() < 2);
+console.log('Jan/Feb races:', janFeb.length);
+SCRIPT
+node /tmp/analyze.js
+```
+
 ### When Updating race-data.json
 **CRITICAL**: When editing race-data.json programmatically, preserve existing fields:
 
