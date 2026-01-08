@@ -44,6 +44,41 @@
       background: rgba(255, 255, 255, 0.2);
     }
 
+    /* Rider Nav */
+    .rider-nav {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .rider-nav-link {
+      padding: 10px 24px;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .rider-nav-link:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+
+    .rider-nav-link.active {
+      background: #3b82f6;
+      color: white;
+    }
+
+    /* Last Updated */
+    .last-updated {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.85rem;
+      margin-top: 8px;
+    }
+
     /* Header */
     .page-header {
       text-align: center;
@@ -252,9 +287,15 @@
   <div class="container">
     <a href="index.html" class="back-button">← Back to Calendar</a>
 
+    <nav class="rider-nav">
+      <a href="riders.html" class="rider-nav-link active">Men's Riders</a>
+      <a href="riders-women.html" class="rider-nav-link ">Women's Riders</a>
+    </nav>
+
     <div class="page-header">
       <h1 class="page-title">🚴 Top Riders 2026</h1>
       <p class="page-subtitle">UCI ranking leaders and their announced race programs</p>
+      <p class="last-updated">Updated: January 7, 2026</p>
     </div>
 
     <div class="stats-bar">
@@ -394,7 +435,7 @@
         <div class="rider-rank">#8</div>
         <img src="riders/photos/mathieu-van-der-poel.jpg" alt="VAN DER POEL Mathieu" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
+          <div class="rider-flag">🇳🇱</div>
           <h3 class="rider-name">VAN DER POEL Mathieu</h3>
           <p class="rider-team">Alpecin-Premier Tech</p>
           <div class="rider-footer">
@@ -650,7 +691,7 @@
         <div class="rider-rank">#24</div>
         <img src="riders/photos/olav-kooij.jpg" alt="KOOIJ Olav" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
+          <div class="rider-flag">🇳🇱</div>
           <h3 class="rider-name">KOOIJ Olav</h3>
           <p class="rider-team">Decathlon CMA CGM Team</p>
           <div class="rider-footer">
@@ -810,7 +851,7 @@
         <div class="rider-rank">#34</div>
         <img src="riders/photos/thymen-arensman.jpg" alt="ARENSMAN Thymen" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
+          <div class="rider-flag">🇳🇱</div>
           <h3 class="rider-name">ARENSMAN Thymen</h3>
           <p class="rider-team">INEOS Grenadiers</p>
           <div class="rider-footer">
@@ -842,7 +883,7 @@
         <div class="rider-rank">#36</div>
         <img src="riders/photos/corbin-strong.jpg" alt="STRONG Corbin" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
+          <div class="rider-flag">🇳🇱</div>
           <h3 class="rider-name">STRONG Corbin</h3>
           <p class="rider-team">NSN Cycling Team</p>
           <div class="rider-footer">
@@ -1050,7 +1091,7 @@
         <div class="rider-rank">#49</div>
         <img src="riders/photos/jan-christen.jpg" alt="CHRISTEN Jan" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
+          <div class="rider-flag">🇨🇭</div>
           <h3 class="rider-name">CHRISTEN Jan</h3>
           <p class="rider-team">UAE Team Emirates - XRG</p>
           <div class="rider-footer">

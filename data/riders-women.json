@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T00:00:00.000Z",
+  "lastUpdated": "2026-01-08T18:53:01.978Z",
   "riders": [
     {
       "id": "demi-vollering",
@@ -10,9 +10,20 @@
       "points": 2747,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "gc-contender", "time-trialist"],
+      "specialties": [
+        "climber",
+        "gc-contender",
+        "time-trialist"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/demi-vollering",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/demi-vollering.jpg",
+      "dateOfBirth": "1996-11-15",
+      "weight": 57,
+      "height": 1.72
     },
     {
       "id": "lorena-wiebes",
@@ -23,9 +34,19 @@
       "points": 2714,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/lorena-wiebes",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/lorena-wiebes.jpg",
+      "dateOfBirth": "1999-03-17",
+      "weight": 60,
+      "height": 1.71
     },
     {
       "id": "marlen-reusser",
@@ -36,9 +57,19 @@
       "points": 2171,
       "nationality": "Switzerland",
       "nationalityCode": "SW",
-      "specialties": ["time-trialist", "climber"],
+      "specialties": [
+        "time-trialist",
+        "climber"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/marlen-reusser",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/marlen-reusser.jpg",
+      "dateOfBirth": "1991-09-20",
+      "weight": 70,
+      "height": 1.8
     },
     {
       "id": "elisa-longo-borghini",
@@ -49,9 +80,20 @@
       "points": 1811,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["classics", "climber", "time-trialist"],
+      "specialties": [
+        "classics",
+        "climber",
+        "time-trialist"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/elisa-longo-borghini",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/elisa-longo-borghini.jpg",
+      "dateOfBirth": "1991-12-10",
+      "weight": 59,
+      "height": 1.7
     },
     {
       "id": "elisa-balsamo",
@@ -62,9 +104,19 @@
       "points": 1575,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/elisa-balsamo",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/elisa-balsamo.jpg",
+      "dateOfBirth": "1998-02-27",
+      "weight": 55,
+      "height": 1.71
     },
     {
       "id": "elise-chabbey",
@@ -75,9 +127,19 @@
       "points": 1315,
       "nationality": "Switzerland",
       "nationalityCode": "SW",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/elise-chabbey",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/elise-chabbey.jpg",
+      "dateOfBirth": "1993-04-24",
+      "weight": 52,
+      "height": 1.65
     },
     {
       "id": "juliette-berthet",
@@ -88,9 +150,19 @@
       "points": 1266,
       "nationality": "France",
       "nationalityCode": "FR",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/juliette-labous",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/juliette-berthet.jpg",
+      "dateOfBirth": "1998-11-04",
+      "weight": 54,
+      "height": 1.65
     },
     {
       "id": "kimberley-le-court-pienaar",
@@ -101,9 +173,15 @@
       "points": 1170,
       "nationality": "Mauritius",
       "nationalityCode": "MU",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/kimberley-le-court",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      }
     },
     {
       "id": "mischa-bredewold",
@@ -114,9 +192,18 @@
       "points": 1148,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/mischa-bredewold",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/mischa-bredewold.jpg",
+      "dateOfBirth": "2000-06-20",
+      "height": 1.81
     },
     {
       "id": "anna-van-der-breggen",
@@ -127,9 +214,20 @@
       "points": 1140,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "gc-contender", "classics"],
+      "specialties": [
+        "climber",
+        "gc-contender",
+        "classics"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/anna-van-der-breggen",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/anna-van-der-breggen.jpg",
+      "dateOfBirth": "1990-04-18",
+      "weight": 56,
+      "height": 1.68
     },
     {
       "id": "niamh-fisher-black",
@@ -140,9 +238,18 @@
       "points": 1121,
       "nationality": "New Zealand",
       "nationalityCode": "NZ",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/niamh-fisher-black",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/niamh-fisher-black.jpg",
+      "dateOfBirth": "2000-08-12",
+      "height": 1.6
     },
     {
       "id": "karlijn-swinkels",
@@ -153,9 +260,18 @@
       "points": 1087,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/karlijn-swinkels",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/karlijn-swinkels.jpg",
+      "dateOfBirth": "1998-10-28",
+      "height": 1.73
     },
     {
       "id": "pauline-ferrand-prevot",
@@ -166,9 +282,20 @@
       "points": 1050,
       "nationality": "France",
       "nationalityCode": "FR",
-      "specialties": ["all-rounder", "cyclocross", "mtb"],
+      "specialties": [
+        "all-rounder",
+        "cyclocross",
+        "mtb"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/pauline-ferrand-prevot",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/pauline-ferrand-prevot.jpg",
+      "dateOfBirth": "1992-02-10",
+      "weight": 53,
+      "height": 1.65
     },
     {
       "id": "kasia-niewiadoma",
@@ -179,9 +306,15 @@
       "points": 1044,
       "nationality": "Poland",
       "nationalityCode": "PO",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/katarzyna-niewiadoma",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      }
     },
     {
       "id": "yara-kastelijn",
@@ -192,9 +325,19 @@
       "points": 1036,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["cyclocross", "classics"],
+      "specialties": [
+        "cyclocross",
+        "classics"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/yara-kastelijn",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/yara-kastelijn.jpg",
+      "dateOfBirth": "1997-08-09",
+      "weight": 52,
+      "height": 1.64
     },
     {
       "id": "ally-wollaston",
@@ -205,9 +348,17 @@
       "points": 963,
       "nationality": "New Zealand",
       "nationalityCode": "NZ",
-      "specialties": ["all-rounder", "climber"],
+      "specialties": [
+        "all-rounder",
+        "climber"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/ally-wollaston",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/ally-wollaston.jpg",
+      "dateOfBirth": "2001-01-04"
     },
     {
       "id": "puck-pieterse",
@@ -218,9 +369,19 @@
       "points": 942,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["cyclocross", "all-rounder", "classics"],
+      "specialties": [
+        "cyclocross",
+        "all-rounder",
+        "classics"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/puck-pieterse",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/puck-pieterse.jpg",
+      "dateOfBirth": "2002-05-13",
+      "height": 1.69
     },
     {
       "id": "marianne-vos",
@@ -231,9 +392,20 @@
       "points": 908,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["all-rounder", "sprinter", "classics"],
+      "specialties": [
+        "all-rounder",
+        "sprinter",
+        "classics"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/marianne-vos",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/marianne-vos.jpg",
+      "dateOfBirth": "1987-05-13",
+      "weight": 58,
+      "height": 1.68
     },
     {
       "id": "cat-ferguson",
@@ -244,9 +416,19 @@
       "points": 870,
       "nationality": "Great Britain",
       "nationalityCode": "GR",
-      "specialties": ["climber", "time-trialist"],
+      "specialties": [
+        "climber",
+        "time-trialist"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/cat-ferguson",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/cat-ferguson.jpg",
+      "dateOfBirth": "2006-04-27",
+      "weight": 55,
+      "height": 1.66
     },
     {
       "id": "noemi-ruegg",
@@ -257,9 +439,17 @@
       "points": 859,
       "nationality": "Switzerland",
       "nationalityCode": "SW",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/noemi-ruegg",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/noemi-ruegg.jpg",
+      "dateOfBirth": "2001-04-19"
     },
     {
       "id": "cedrine-kerbaol",
@@ -270,9 +460,19 @@
       "points": 855,
       "nationality": "France",
       "nationalityCode": "FR",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/cedrine-kerbaol",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/cedrine-kerbaol.jpg",
+      "dateOfBirth": "2001-05-15",
+      "weight": 57,
+      "height": 1.66
     },
     {
       "id": "chiara-consonni",
@@ -283,9 +483,19 @@
       "points": 827,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/chiara-consonni",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/chiara-consonni.jpg",
+      "dateOfBirth": "1999-06-24",
+      "weight": 59,
+      "height": 1.65
     },
     {
       "id": "mavi-garcia",
@@ -296,9 +506,19 @@
       "points": 801,
       "nationality": "Spain",
       "nationalityCode": "SP",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/mavi-garcia",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/mavi-garcia.jpg",
+      "dateOfBirth": "1984-01-02",
+      "weight": 56,
+      "height": 1.73
     },
     {
       "id": "monica-trinca-colonel",
@@ -309,9 +529,17 @@
       "points": 793,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/monica-trinca-colonel",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/monica-trinca-colonel.jpg",
+      "dateOfBirth": "1999-05-21"
     },
     {
       "id": "katrine-aalerud",
@@ -322,9 +550,19 @@
       "points": 769,
       "nationality": "Norway",
       "nationalityCode": "NO",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/katrine-aalerud",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/katrine-aalerud.jpg",
+      "dateOfBirth": "1994-12-04",
+      "weight": 54,
+      "height": 1.68
     },
     {
       "id": "linda-zanetti",
@@ -335,9 +573,18 @@
       "points": 766,
       "nationality": "Switzerland",
       "nationalityCode": "SW",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/linda-zanetti",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/linda-zanetti.jpg",
+      "dateOfBirth": "2002-03-10",
+      "height": 1.6
     },
     {
       "id": "mie-bjorndal-ottestad",
@@ -348,9 +595,17 @@
       "points": 751,
       "nationality": "Norway",
       "nationalityCode": "NO",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/mie-bjorndal-ottestad",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/mie-bjorndal-ottestad.jpg",
+      "dateOfBirth": "1997-07-17"
     },
     {
       "id": "usoa-ostolaza",
@@ -361,9 +616,17 @@
       "points": 720,
       "nationality": "Spain",
       "nationalityCode": "SP",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/usoa-ostolaza",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/usoa-ostolaza.jpg",
+      "dateOfBirth": "1998-02-25"
     },
     {
       "id": "riejanne-markus",
@@ -374,9 +637,19 @@
       "points": 704,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["time-trialist", "climber"],
+      "specialties": [
+        "time-trialist",
+        "climber"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/riejanne-markus",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/riejanne-markus.jpg",
+      "dateOfBirth": "1994-09-01",
+      "weight": 61,
+      "height": 1.81
     },
     {
       "id": "lotte-kopecky",
@@ -387,9 +660,20 @@
       "points": 703,
       "nationality": "Belgium",
       "nationalityCode": "BE",
-      "specialties": ["classics", "sprinter", "all-rounder"],
+      "specialties": [
+        "classics",
+        "sprinter",
+        "all-rounder"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/lotte-kopecky",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/lotte-kopecky.jpg",
+      "dateOfBirth": "1995-11-10",
+      "weight": 66,
+      "height": 1.7
     },
     {
       "id": "lara-gillespie",
@@ -400,9 +684,17 @@
       "points": 703,
       "nationality": "Ireland",
       "nationalityCode": "IR",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/lara-gillespie",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/lara-gillespie.jpg",
+      "dateOfBirth": "2001-04-21"
     },
     {
       "id": "liane-lippert",
@@ -413,9 +705,19 @@
       "points": 685,
       "nationality": "Germany",
       "nationalityCode": "GE",
-      "specialties": ["classics", "puncheur"],
+      "specialties": [
+        "classics",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/liane-lippert",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/liane-lippert.jpg",
+      "dateOfBirth": "1998-01-13",
+      "weight": 56,
+      "height": 1.68
     },
     {
       "id": "dominika-wlodarczyk",
@@ -426,9 +728,18 @@
       "points": 678,
       "nationality": "Poland",
       "nationalityCode": "PO",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/dominika-wlodarczyk",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/dominika-wlodarczyk.jpg",
+      "dateOfBirth": "2001-01-27",
+      "height": 1.72
     },
     {
       "id": "anna-henderson",
@@ -439,9 +750,19 @@
       "points": 673,
       "nationality": "Great Britain",
       "nationalityCode": "GR",
-      "specialties": ["time-trialist", "climber"],
+      "specialties": [
+        "time-trialist",
+        "climber"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/anna-henderson",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/anna-henderson.jpg",
+      "dateOfBirth": "1998-11-14",
+      "weight": 58,
+      "height": 1.62
     },
     {
       "id": "urska-zigart",
@@ -452,9 +773,19 @@
       "points": 667,
       "nationality": "Slovenia",
       "nationalityCode": "SL",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/urska-zigart",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/urska-zigart.jpg",
+      "dateOfBirth": "1996-12-04",
+      "weight": 50,
+      "height": 1.64
     },
     {
       "id": "sarah-van-dam",
@@ -465,9 +796,19 @@
       "points": 665,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/sarah-van-dam",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/sarah-van-dam.jpg",
+      "dateOfBirth": "2001-12-04",
+      "weight": 58,
+      "height": 1.62
     },
     {
       "id": "antonia-niedermaier",
@@ -478,9 +819,19 @@
       "points": 662,
       "nationality": "Germany",
       "nationalityCode": "GE",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/antonia-niedermaier",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/antonia-niedermaier.jpg",
+      "dateOfBirth": "2003-02-20",
+      "weight": 52,
+      "height": 1.63
     },
     {
       "id": "paula-blasi",
@@ -491,9 +842,19 @@
       "points": 646,
       "nationality": "Spain",
       "nationalityCode": "SP",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/paula-blasi",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/paula-blasi.jpg",
+      "dateOfBirth": "2003-02-19",
+      "weight": 57,
+      "height": 1.71
     },
     {
       "id": "eleonora-camilla-gasparrini",
@@ -504,9 +865,18 @@
       "points": 642,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/eleonora-camilla-gasparrini",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/eleonora-camilla-gasparrini.jpg",
+      "dateOfBirth": "2002-03-25",
+      "height": 1.66
     },
     {
       "id": "barbara-malcotti",
@@ -517,9 +887,18 @@
       "points": 619,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/barbara-malcotti",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/barbara-malcotti.jpg",
+      "dateOfBirth": "2000-02-19",
+      "weight": 52
     },
     {
       "id": "caroline-andersson",
@@ -530,9 +909,17 @@
       "points": 614,
       "nationality": "Sweden",
       "nationalityCode": "SE",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/caroline-andersson",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/caroline-andersson.jpg",
+      "dateOfBirth": "2001-07-29"
     },
     {
       "id": "amanda-spratt",
@@ -543,9 +930,19 @@
       "points": 603,
       "nationality": "Australia",
       "nationalityCode": "AU",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/amanda-spratt",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/amanda-spratt.jpg",
+      "dateOfBirth": "1987-09-17",
+      "weight": 55,
+      "height": 1.61
     },
     {
       "id": "silvia-persico",
@@ -556,9 +953,19 @@
       "points": 603,
       "nationality": "Italy",
       "nationalityCode": "IT",
-      "specialties": ["all-rounder", "cyclocross"],
+      "specialties": [
+        "all-rounder",
+        "cyclocross"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/silvia-persico",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/silvia-persico.jpg",
+      "dateOfBirth": "1997-07-25",
+      "weight": 53,
+      "height": 1.64
     },
     {
       "id": "susanne-andersen",
@@ -569,9 +976,19 @@
       "points": 587,
       "nationality": "Norway",
       "nationalityCode": "NO",
-      "specialties": ["sprinter", "one-day"],
+      "specialties": [
+        "sprinter",
+        "one-day"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/susanne-andersen",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/susanne-andersen.jpg",
+      "dateOfBirth": "1998-07-23",
+      "weight": 55,
+      "height": 1.64
     },
     {
       "id": "ellen-van-dijk",
@@ -582,9 +999,19 @@
       "points": 582,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["time-trialist", "classics"],
+      "specialties": [
+        "time-trialist",
+        "classics"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/ellen-van-dijk",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/ellen-van-dijk.jpg",
+      "dateOfBirth": "1987-02-11",
+      "weight": 71,
+      "height": 1.82
     },
     {
       "id": "magdeleine-vallieres",
@@ -595,9 +1022,17 @@
       "points": 572,
       "nationality": "Canada",
       "nationalityCode": "CA",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/magdeleine-vallieres",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/magdeleine-vallieres.jpg",
+      "dateOfBirth": "2001-08-10"
     },
     {
       "id": "nienke-veenhoven",
@@ -608,9 +1043,17 @@
       "points": 572,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/nienke-veenhoven",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/nienke-veenhoven.jpg",
+      "dateOfBirth": "2004-03-20"
     },
     {
       "id": "chloe-dygert",
@@ -621,9 +1064,19 @@
       "points": 563,
       "nationality": "United States",
       "nationalityCode": "US",
-      "specialties": ["time-trialist", "track"],
+      "specialties": [
+        "time-trialist",
+        "track"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/chloe-dygert",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/chloe-dygert.jpg",
+      "dateOfBirth": "1997-01-01",
+      "weight": 66,
+      "height": 1.76
     },
     {
       "id": "evita-muzic",
@@ -634,9 +1087,18 @@
       "points": 563,
       "nationality": "France",
       "nationalityCode": "FR",
-      "specialties": ["climber", "gc-contender"],
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/evita-muzic",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/evita-muzic.jpg",
+      "dateOfBirth": "1999-05-26",
+      "height": 1.7
     },
     {
       "id": "eline-jansen",
@@ -647,9 +1109,17 @@
       "points": 563,
       "nationality": "Netherlands",
       "nationalityCode": "NE",
-      "specialties": ["climber", "puncheur"],
+      "specialties": [
+        "climber",
+        "puncheur"
+      ],
       "pcsUrl": "https://www.procyclingstats.com/rider/eline-jansen",
-      "raceProgram": { "status": "not-announced", "races": [] }
+      "raceProgram": {
+        "status": "not-announced",
+        "races": []
+      },
+      "photoUrl": "riders/photos/eline-jansen.jpg",
+      "dateOfBirth": "2002-03-08"
     }
   ]
 }

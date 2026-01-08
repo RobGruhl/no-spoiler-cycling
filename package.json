@@ -5,7 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "node generate-page.js"
+    "build": "node generate-page.js",
+    "build:riders": "node generate-riders-index.js",
+    "build:riders-women": "node generate-riders-women-index.js",
+    "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0"

@@ -32,7 +32,7 @@ const nationalityFlags = {
   'DE': '🇩🇪',
   'DK': '🇩🇰',
   'BE': '🇧🇪',
-  'NL': '🇳🇱',
+  'NL': '🇳🇱', 'NE': '🇳🇱',
   'FR': '🇫🇷',
   'IT': '🇮🇹',
   'ES': '🇪🇸',
@@ -45,9 +45,11 @@ const nationalityFlags = {
   'AT': '🇦🇹',
   'NO': '🇳🇴',
   'PL': '🇵🇱',
-  'CH': '🇨🇭',
+  'CH': '🇨🇭', 'SW': '🇨🇭',
   'IE': '🇮🇪',
   'CA': '🇨🇦',
+  'NZ': '🇳🇿',
+  'CZ': '🇨🇿',
   'XX': '🏳️'
 };
 
@@ -55,7 +57,19 @@ const nationalityFlags = {
 // HTML GENERATION
 // ============================================
 
-function generateRidersIndexHTML(riders) {
+function generateRidersIndexHTML(riders, options = {}) {
+  const {
+    lastUpdated = null,
+    pageTitle = 'Top Riders 2026',
+    pageSubtitle = 'UCI ranking leaders and their announced race programs',
+    riderPagesDir = 'riders',
+    gender = 'men'
+  } = options;
+
+  const lastUpdatedStr = lastUpdated
+    ? new Date(lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+    : null;
+
   const generateRiderCard = (rider) => {
     const flag = nationalityFlags[rider.nationalityCode] || nationalityFlags['XX'];
     const hasProgram = rider.raceProgram?.status === 'announced' && rider.raceProgram?.races?.length > 0;
@@ -71,7 +85,7 @@ function generateRidersIndexHTML(riders) {
     }).join('');
 
     return `
-      <a href="riders/${rider.slug}.html" class="rider-card">
+      <a href="${riderPagesDir}/${rider.slug}.html" class="rider-card">
         <div class="rider-rank">#${rider.ranking}</div>
         <img src="${photoSrc}" alt="${rider.name}" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
         <div class="rider-content">
@@ -96,8 +110,8 @@ function generateRidersIndexHTML(riders) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Top 50 ranked professional cyclists - 2026 race programs and profiles">
-  <title>Top Riders | No Spoiler Cycling</title>
+  <meta name="description" content="${gender === 'women' ? 'Top 50 women cyclists' : 'Top 50 ranked professional cyclists'} - 2026 race programs and profiles">
+  <title>${gender === 'women' ? 'Top Women Riders' : 'Top Riders'} | No Spoiler Cycling</title>
   <style>
     * {
       margin: 0;
@@ -135,6 +149,41 @@ function generateRidersIndexHTML(riders) {
 
     .back-button:hover {
       background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Rider Nav */
+    .rider-nav {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .rider-nav-link {
+      padding: 10px 24px;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .rider-nav-link:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+
+    .rider-nav-link.active {
+      background: #3b82f6;
+      color: white;
+    }
+
+    /* Last Updated */
+    .last-updated {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.85rem;
+      margin-top: 8px;
     }
 
     /* Header */
@@ -345,9 +394,15 @@ function generateRidersIndexHTML(riders) {
   <div class="container">
     <a href="index.html" class="back-button">← Back to Calendar</a>
 
+    <nav class="rider-nav">
+      <a href="riders.html" class="rider-nav-link ${gender === 'men' ? 'active' : ''}">Men's Riders</a>
+      <a href="riders-women.html" class="rider-nav-link ${gender === 'women' ? 'active' : ''}">Women's Riders</a>
+    </nav>
+
     <div class="page-header">
-      <h1 class="page-title">🚴 Top Riders 2026</h1>
-      <p class="page-subtitle">UCI ranking leaders and their announced race programs</p>
+      <h1 class="page-title">${gender === 'women' ? '🚴‍♀️' : '🚴'} ${pageTitle}</h1>
+      <p class="page-subtitle">${pageSubtitle}</p>
+      ${lastUpdatedStr ? `<p class="last-updated">Updated: ${lastUpdatedStr}</p>` : ''}
     </div>
 
     <div class="stats-bar">
@@ -386,14 +441,22 @@ function generateRidersIndexHTML(riders) {
 // FILE GENERATION
 // ============================================
 
-function generateRidersIndexPage(ridersDataPath = './data/riders.json', outputPath = './riders.html') {
+function generateRidersIndexPage(ridersDataPath = './data/riders.json', outputPath = './riders.html', options = {}) {
   const ridersData = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
 
-  const html = generateRidersIndexHTML(ridersData.riders);
+  const mergedOptions = {
+    lastUpdated: ridersData.lastUpdated,
+    ...options
+  };
+
+  const html = generateRidersIndexHTML(ridersData.riders, mergedOptions);
   fs.writeFileSync(outputPath, html);
 
   console.log(`✅ Generated: ${outputPath}`);
   console.log(`   ${ridersData.riders.length} riders`);
+  if (ridersData.lastUpdated) {
+    console.log(`   Last updated: ${new Date(ridersData.lastUpdated).toLocaleDateString()}`);
+  }
   return outputPath;
 }
 

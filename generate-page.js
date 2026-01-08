@@ -517,6 +517,34 @@ function generateHTML(raceData) {
       color: #4b5563;
     }
 
+    /* Header Navigation */
+    .header-nav {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .nav-link {
+      padding: 10px 20px;
+      background: #f3f4f6;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #4b5563;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .nav-link:hover {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .nav-link.active {
+      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+      color: white;
+    }
+
     .event-info {
       background: #f9fafb;
       padding: 20px;
@@ -1259,6 +1287,11 @@ function generateHTML(raceData) {
         <h1 class="site-title">🚴 2026 Pro Cycling Calendar</h1>
         <div class="last-updated">Updated: ${updateDate}</div>
       </div>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link active">Calendar</a>
+        <a href="riders.html" class="nav-link">Men's Riders</a>
+        <a href="riders-women.html" class="nav-link">Women's Riders</a>
+      </nav>
 
       <div class="event-info">
         <div class="event-name">${event.name}</div>
@@ -1374,7 +1407,7 @@ function generateHTML(raceData) {
     <!-- Footer -->
     <footer class="footer">
       <p>2026 Pro Cycling Calendar • Built with <a href="https://claude.ai/download" target="_blank" rel="noopener">Claude Code</a></p>
-      <p><a href="riders.html">Top Riders</a> · <a href="about.html">About This Project</a></p>
+      <p><a href="about.html">About This Project</a></p>
     </footer>
   </div>
 
