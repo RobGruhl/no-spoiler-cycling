@@ -1231,7 +1231,7 @@ function generateHTML(raceData) {
 
         <label class="filter-label">Filter by Interest Rating:</label>
         <div class="star-filters">
-          <button class="star-filter-btn active" data-min="1" onclick="filterByStars(1)">
+          <button class="star-filter-btn" data-min="1" onclick="filterByStars(1)">
             <span>All Races</span>
             <span class="filter-count">(${races.length})</span>
           </button>
@@ -1239,7 +1239,7 @@ function generateHTML(raceData) {
             <span class="stars">★★</span><span>+</span>
             <span class="filter-count">(${ratingCounts[2] + ratingCounts[3] + ratingCounts[4] + ratingCounts[5]})</span>
           </button>
-          <button class="star-filter-btn" data-min="3" onclick="filterByStars(3)">
+          <button class="star-filter-btn active" data-min="3" onclick="filterByStars(3)">
             <span class="stars">★★★</span><span>+</span>
             <span class="filter-count">(${ratingCounts[3] + ratingCounts[4] + ratingCounts[5]})</span>
           </button>
@@ -1306,7 +1306,7 @@ function generateHTML(raceData) {
   <script>
     // Active filters state
     const activeFilters = {
-      minRating: 1,
+      minRating: 3,
       format: new Set(),
       terrain: new Set(),
       prestige: new Set()
@@ -1529,6 +1529,9 @@ function generateHTML(raceData) {
         showStageView(raceId);
       }
     }
+
+    // Apply default filter on page load (3★+)
+    applyFilters();
   </script>
 </body>
 </html>`;
