@@ -10,7 +10,8 @@
       "Bash(git add:*)",
       "Bash(npm run build:*)",
       "Bash(node:*)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
