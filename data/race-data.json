@@ -1,11 +1,191 @@
 {
-  "lastUpdated": "2026-01-08T18:22:43.144Z",
+  "lastUpdated": "2026-01-11T23:40:18.435Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
     "year": 2026
   },
   "races": [
+    {
+      "id": "australian-road-nationals-men-2026",
+      "name": "Men's Elite Road Race | 2026 Australian Road National Championships",
+      "description": "177km circuit race through Perth's CBD and Kings Park featuring 13 laps of a 13.6km circuit. The course is defined by the steep pinch of Malcolm Street (aka 'Pedal Mafia Mountain') that peaks just 400 metres before the finish line, making it a punchy finale where every lap builds suspense.",
+      "platform": "FloBikes",
+      "channel": "FloBikes",
+      "verified": true,
+      "url": "https://www.flobikes.com/video/15142055-replay-2026-australian-cycling-road-national-championships",
+      "type": "full-race",
+      "duration": "3:24:18",
+      "raceDate": "2026-01-11",
+      "raceDay": "Sunday",
+      "location": "Perth, Western Australia",
+      "category": "NC",
+      "rating": 3,
+      "discoveredAt": "2026-01-11T23:40:18.434Z",
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly",
+        "circuit"
+      ],
+      "distance": 177,
+      "gender": "men",
+      "broadcast": {
+        "lastUpdated": "2026-01-11T23:40:18.435Z",
+        "geos": {
+          "AU": {
+            "primary": {
+              "broadcaster": "SBS On Demand",
+              "broadcasterId": "sbs-au",
+              "type": "free",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/westbridge-funds-road-national-championships-2026",
+              "coverage": "full-race",
+              "subscription": false,
+              "notes": "Full 3h 36m race replay - FREE in Australia"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15142055-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Full race replay"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15142055-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Full race replay"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15142055-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Full race replay"
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "AusCycling",
+            "handle": "@AusCycling",
+            "contentType": "highlights",
+            "notes": "Official AusCycling highlights - may contain spoilers"
+          }
+        ],
+        "notes": "SBS On Demand is geo-restricted to Australia. FloBikes provides worldwide coverage with subscription."
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-11T23:40:18.435Z",
+        "spoilerSafe": true,
+        "courseSummary": "The 2026 Australian Road National Championships moved to Perth, Western Australia for a three-year stint after two decades at Buninyong in Victoria. The 177km elite men's race covers 13 laps of a 13.6km circuit through Perth's CBD and the leafy Kings Park. Unlike Buninyong's defining single climb, Perth's course spreads the climbing over an uphill drag in the first half and punchy pinches in the final stages. The defining feature is Malcolm Street - dubbed 'Pedal Mafia Mountain' - a steep pinch that peaks just 400 metres before the finish line, making for an explosive finale on every lap.",
+        "keySectors": [
+          {
+            "name": "Malcolm Street (Pedal Mafia Mountain)",
+            "kmFromFinish": 0.4,
+            "length": 0.5,
+            "surface": "road",
+            "difficulty": 4,
+            "description": "The course's defining feature - a steep pinch climb peaking 400m before the finish line. Repeated 13 times, it becomes more decisive as the race progresses."
+          }
+        ],
+        "keyClimbs": [
+          {
+            "name": "Kings Park ascent",
+            "category": "4",
+            "length": 1.2,
+            "avgGradient": "4%",
+            "maxGradient": "8%",
+            "kmFromFinish": 5,
+            "notes": "Uphill drag through leafy Kings Park - first half of each lap"
+          },
+          {
+            "name": "Malcolm Street",
+            "category": "4",
+            "length": 0.5,
+            "avgGradient": "6%",
+            "maxGradient": "12%",
+            "kmFromFinish": 0.4,
+            "notes": "The 'Pedal Mafia Mountain' - explosive pinch 400m from finish"
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Jay Vine (UAE Team Emirates - XRG) - TT specialist also capable on punchy terrain",
+            "Luke Plapp - Reigning Australian ITT champion",
+            "Jai Hindley (Red Bull - BORA - hansgrohe) - Perth local and Tour de France stage winner"
+          ],
+          "sprinters": [
+            "Sam Welsford (Red Bull - BORA - hansgrohe) - Perth local with explosive sprint, won 2025 edition"
+          ],
+          "puncheurs": [
+            "Team Jayco AlUla riders - Australia's WorldTour team enters with multiple options"
+          ]
+        },
+        "narratives": [
+          "Perth locals Jai Hindley and Sam Welsford racing for the green-and-gold jersey in their hometown - extra motivation for the BORA duo",
+          "Jay Vine seeking to add the road title to his TT crown - UAE's climbing specialist showing form early in the season",
+          "Team Jayco AlUla as Australia's only WorldTour team entering with tactical options",
+          "New Perth course creates unpredictability - riders haven't fully decoded the Malcolm Street dynamic yet",
+          "The green-and-gold jersey is the most coveted prize in Australian cycling - WorldTour stars interrupt European preparations to compete"
+        ],
+        "historicalContext": "The Australian Road National Championships have been held annually since 1901, making it one of the oldest national championships in world cycling. The event spent two decades on a fixed course near Ballarat, Victoria, with its race-shaping Buninyong climb becoming iconic. The 2025 move to Perth marked a new era, with a circuit format that rewards different rider characteristics than the climbing-heavy Buninyong course.",
+        "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 13 laps, this explosive climb becomes increasingly selective. The Perth course proved more decisive than it appears on paper in 2025, with few opportunities to rest. The flat-ish final kilometers after Malcolm Street make it possible for a small group to stay away, but also allows sprinters to hang on if they survive the climb. Expect attacking racing from the Perth locals eager to perform in front of home fans."
+      },
+      "topRiders": [
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "stage-hunter"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "one-day"
+          ]
+        }
+      ],
+      "gender": "men"
+    },
     {
       "id": "tour-el-salvador-2026",
       "name": "Tour El Salvador",
@@ -558,9 +738,15 @@
         "keyClimbs": [],
         "keySectors": [],
         "favorites": {
-          "sprinters": ["Fast finishers who thrive in circuit racing"],
-          "puncheurs": ["Riders who can accelerate out of corners"],
-          "allRounders": ["Strong all-rounders fresh from Women's Tour Down Under"]
+          "sprinters": [
+            "Fast finishers who thrive in circuit racing"
+          ],
+          "puncheurs": [
+            "Riders who can accelerate out of corners"
+          ],
+          "allRounders": [
+            "Strong all-rounders fresh from Women's Tour Down Under"
+          ]
         },
         "narratives": [
           "Season-opening ProSeries event provides valuable UCI points opportunity",
@@ -782,9 +968,15 @@
         ],
         "keySectors": [],
         "favorites": {
-          "puncheurs": ["Riders who can handle the early climb and coastal winds"],
-          "allRounders": ["Strong all-rounders who thrive in unpredictable conditions"],
-          "sprinters": ["Fast finishers who can survive the early climb"]
+          "puncheurs": [
+            "Riders who can handle the early climb and coastal winds"
+          ],
+          "allRounders": [
+            "Strong all-rounders who thrive in unpredictable conditions"
+          ],
+          "sprinters": [
+            "Fast finishers who can survive the early climb"
+          ]
         },
         "narratives": [
           "Mid-week warm-up race before Saturday's WorldTour Cadel Evans Great Ocean Road Race",
@@ -1037,9 +1229,15 @@
         ],
         "keySectors": [],
         "favorites": {
-          "puncheurs": ["Strong riders who can accelerate on Challambra and finish fast"],
-          "sprinters": ["Fast finishers who can survive the climb and contest the reduced bunch sprint"],
-          "allRounders": ["Versatile riders who can handle the undulating terrain and wind"]
+          "puncheurs": [
+            "Strong riders who can accelerate on Challambra and finish fast"
+          ],
+          "sprinters": [
+            "Fast finishers who can survive the climb and contest the reduced bunch sprint"
+          ],
+          "allRounders": [
+            "Versatile riders who can handle the undulating terrain and wind"
+          ]
         },
         "narratives": [
           "Opening Women's WorldTour one-day race of the season attracts top global field",
@@ -1531,10 +1729,18 @@
           }
         ],
         "favorites": {
-          "gcContenders": ["Strong climbers who can time trial and survive sprint stages"],
-          "stageHunters": ["Breakaway specialists looking for stage glory"],
-          "sprinters": ["Fast finishers for the three flat stages"],
-          "climbers": ["Pure climbers targeting Jebel Hafeet stage victory"]
+          "gcContenders": [
+            "Strong climbers who can time trial and survive sprint stages"
+          ],
+          "stageHunters": [
+            "Breakaway specialists looking for stage glory"
+          ],
+          "sprinters": [
+            "Fast finishers for the three flat stages"
+          ],
+          "climbers": [
+            "Pure climbers targeting Jebel Hafeet stage victory"
+          ]
         },
         "narratives": [
           "UAE home team ADQ brings strong roster for prestigious home race",
@@ -1552,7 +1758,10 @@
           "stageNumber": 1,
           "name": "Stage 1: Dubai Police Officer's Club → Dubai Harbour",
           "stageType": "flat",
-          "terrain": ["flat", "crosswind-risk"],
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
           "distance": 149,
           "date": "2026-02-05",
           "platform": "TBD",
@@ -1570,7 +1779,10 @@
           "stageNumber": 2,
           "name": "Stage 2: Al Dhafra Fort → Al Mirfa",
           "stageType": "flat",
-          "terrain": ["flat", "crosswind-risk"],
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
           "distance": 111,
           "date": "2026-02-06",
           "platform": "TBD",
@@ -1588,7 +1800,11 @@
           "stageNumber": 3,
           "name": "Stage 3: Al Ain → Jebel Hafeet",
           "stageType": "mountain",
-          "terrain": ["flat", "mountain", "summit-finish"],
+          "terrain": [
+            "flat",
+            "mountain",
+            "summit-finish"
+          ],
           "distance": 152,
           "date": "2026-02-07",
           "platform": "TBD",
@@ -1617,7 +1833,10 @@
           "stageNumber": 4,
           "name": "Stage 4: Abu Dhabi → Abu Dhabi Breakwater",
           "stageType": "flat",
-          "terrain": ["flat", "circuit"],
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
           "distance": 128,
           "date": "2026-02-08",
           "platform": "TBD",
@@ -2001,10 +2220,18 @@
           }
         ],
         "favorites": {
-          "gcContenders": ["Versatile riders who can climb and time trial"],
-          "stageHunters": ["Attackers looking for breakaway stage wins"],
-          "sprinters": ["Fast finishers for the flatter stages"],
-          "climbers": ["Punchy climbers targeting summit finishes"]
+          "gcContenders": [
+            "Versatile riders who can climb and time trial"
+          ],
+          "stageHunters": [
+            "Attackers looking for breakaway stage wins"
+          ],
+          "sprinters": [
+            "Fast finishers for the flatter stages"
+          ],
+          "climbers": [
+            "Punchy climbers targeting summit finishes"
+          ]
         },
         "narratives": [
           "Key early-season tune-up race before European classics campaign",
@@ -2021,7 +2248,9 @@
           "stageNumber": 1,
           "name": "Stage 1",
           "stageType": "hilly",
-          "terrain": ["hilly"],
+          "terrain": [
+            "hilly"
+          ],
           "distance": 112,
           "date": "2026-02-12",
           "platform": "TBD",
@@ -2039,7 +2268,10 @@
           "stageNumber": 2,
           "name": "Stage 2",
           "stageType": "hilly",
-          "terrain": ["flat", "hilly"],
+          "terrain": [
+            "flat",
+            "hilly"
+          ],
           "distance": 134,
           "date": "2026-02-13",
           "platform": "TBD",
@@ -2057,7 +2289,10 @@
           "stageNumber": 3,
           "name": "Stage 3",
           "stageType": "mountain",
-          "terrain": ["hilly", "mountain"],
+          "terrain": [
+            "hilly",
+            "mountain"
+          ],
           "distance": 110,
           "date": "2026-02-14",
           "platform": "TBD",
@@ -2084,7 +2319,9 @@
           "stageNumber": 4,
           "name": "Stage 4",
           "stageType": "flat",
-          "terrain": ["flat"],
+          "terrain": [
+            "flat"
+          ],
           "distance": 94,
           "date": "2026-02-15",
           "platform": "TBD",
@@ -3335,7 +3572,7 @@
           },
           {
             "name": "Haaghoek",
-            "length": 2.0,
+            "length": 2,
             "kmFromFinish": 35,
             "surface": "cobbles",
             "difficulty": 4,
@@ -3343,10 +3580,18 @@
           }
         ],
         "favorites": {
-          "cobbleSpecialists": ["Riders who thrive on the rough cobbled bergs"],
-          "puncheurs": ["Explosive attackers who can power over the Muur"],
-          "sprinters": ["Strong sprinters who can survive the hellingen"],
-          "allRounders": ["Versatile riders who can attack and sprint"]
+          "cobbleSpecialists": [
+            "Riders who thrive on the rough cobbled bergs"
+          ],
+          "puncheurs": [
+            "Explosive attackers who can power over the Muur"
+          ],
+          "sprinters": [
+            "Strong sprinters who can survive the hellingen"
+          ],
+          "allRounders": [
+            "Versatile riders who can attack and sprint"
+          ]
         },
         "narratives": [
           "Opening Weekend marks the start of the 'real' European racing season",
