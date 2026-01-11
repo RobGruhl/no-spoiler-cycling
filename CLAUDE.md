@@ -748,11 +748,6 @@ d.races.filter(r => r.gender==='women' && r.rating>=3 && r.raceDate?.startsWith(
 "
 ```
 
-**Editing workflow:**
-1. Use Grep to find exact line number: `grep -n "race-id" data/race-data.json`
-2. Read ~30 lines around that location to see full race object
-3. Use Edit tool to replace the race object, adding new fields
-
 **Perplexity API notes:**
 - Functions often return `answer: null` - extract info from `results[].snippet` fields
 - Run raceDetails and broadcast searches in parallel for efficiency
@@ -773,6 +768,14 @@ d.races.filter(r => r.gender==='women' && r.rating>=3 && r.raceDate?.startsWith(
 
 **Race Data Scripts:**
 ```bash
+# Add a new race from JSON file
+node scripts/add-race.js --file /tmp/new-race.json
+node scripts/add-race.js --file /tmp/new-race.json --dry-run  # Preview first
+
+# Update an existing race
+node scripts/update-race.js --id race-id --file /tmp/updates.json
+node scripts/update-race.js --id race-id --set 'platform=FloBikes' --set 'verified=true'
+
 # Add gender field to existing races (men/women/mixed detection)
 node scripts/add-gender-field.js
 
@@ -795,14 +798,16 @@ npm run build
 **Script Descriptions:**
 | Script | Purpose |
 |--------|---------|
+| `scripts/add-race.js` | Add a new race (validates, inserts chronologically) |
+| `scripts/update-race.js` | Update fields on existing race (merges, preserves data) |
 | `scripts/add-gender-field.js` | Detects and adds gender field to races |
 | `scripts/add-women-races.js` | Parses and adds women's races with star ratings |
 | `scripts/tag-races.js` | Tags races with format, terrain, prestige, distance |
 | `populate-race-riders.js` | Links men's riders to men's races |
 | `scripts/populate-riders-women.js` | Links women's riders to women's races |
 
-**Current Race Counts (275 total):**
-- Men's races: 221
+**Current Race Counts (276 total):**
+- Men's races: 222
 - Women's races: 53
 - Mixed events: 1
 
@@ -815,10 +820,11 @@ The file exceeds Claude's read limit. Use these strategies:
 - Use targeted `node -e` commands for quick queries
 - Use Grep to find specific races by name/ID
 
-**Writing/Updating:**
-- Use Edit tool for targeted updates (never Write for full file rewrite)
-- Always preserve existing fields (topRiders, broadcast, stages)
-- Test changes with node scripts before committing
+**Writing/Updating (ALWAYS use scripts):**
+- **Adding races:** Write race JSON to `/tmp/new-race.json`, then `node scripts/add-race.js --file /tmp/new-race.json`
+- **Updating races:** Write updates JSON to `/tmp/updates.json`, then `node scripts/update-race.js --id <race-id> --file /tmp/updates.json`
+- **Quick updates:** `node scripts/update-race.js --id <race-id> --set 'field=value'`
+- Always use `--dry-run` first to preview changes
 
 **Example patterns:**
 ```bash
@@ -832,22 +838,56 @@ const janFeb = data.races.filter(r => new Date(r.raceDate).getMonth() < 2);
 console.log('Jan/Feb races:', janFeb.length);
 SCRIPT
 node /tmp/analyze.js
+
+# Add a new race
+cat << 'EOF' > /tmp/new-race.json
+{
+  "id": "race-id-2026",
+  "name": "Race Name",
+  "raceDate": "2026-04-12",
+  "description": "Race description",
+  "platform": "FloBikes",
+  "url": "https://...",
+  "gender": "men",
+  "terrain": ["hilly"]
+}
+EOF
+node scripts/add-race.js --file /tmp/new-race.json --dry-run
+node scripts/add-race.js --file /tmp/new-race.json
+
+# Update existing race
+node scripts/update-race.js --id race-id-2026 --set 'verified=true' --set 'rating=4'
 ```
 
-### When Updating race-data.json
-**CRITICAL**: When editing race-data.json programmatically, preserve existing fields:
+### How update-race.js Preserves Data
 
-```javascript
-// CORRECT: Merge updates with existing data
-const race = data.races.find(r => r.id === 'race-id');
-race.newField = newValue;  // Add new field
-race.existingField = updatedValue;  // Update existing
+The `scripts/update-race.js` script automatically handles field preservation:
 
-// WRONG: Replacing entire race object loses fields like topRiders
-data.races[idx] = { id, name, ...newFields };  // This loses topRiders!
+**Merge behavior by field type:**
+- `topRiders`: Merged by rider id (existing preserved, new added/updated)
+- `broadcast`: Deep merged (existing geos preserved, new geos added)
+- `raceDetails`: Deep merged (existing fields preserved)
+- `stages`: Replaced entirely (use with caution - warning shown)
+- Other fields: Simple overwrite
+
+**Example - adding broadcast without losing topRiders:**
+```bash
+# This safely adds broadcast info while preserving existing topRiders
+cat << 'EOF' > /tmp/broadcast.json
+{
+  "broadcast": {
+    "geos": {
+      "US": {
+        "primary": { "broadcaster": "FloBikes", "url": "https://..." }
+      }
+    }
+  }
+}
+EOF
+node scripts/update-race.js --id race-id --file /tmp/broadcast.json
 ```
 
-**Fields that must be preserved:**
+**Fields automatically preserved:**
 - `topRiders` - Confirmed rider participations
 - `broadcast` - Where-to-watch info
 - `stages` - Stage race details
@@ -920,8 +960,9 @@ node -e "import { youtubeSearch } from './lib/firecrawl-utils.js'; youtubeSearch
 node -e "import { flobikeSearch } from './lib/firecrawl-utils.js'; flobikeSearch('Tour de France stage recording')"
 node -e "import { scrapeContent } from './lib/firecrawl-utils.js'; scrapeContent('https://specific-race-url')"
 
-# Update data (your actions)
-# Edit race-data.json with verified content using Edit tool
+# Update data (use scripts - never edit race-data.json directly)
+node scripts/add-race.js --file /tmp/new-race.json      # Add new race
+node scripts/update-race.js --id race-id --file /tmp/updates.json  # Update existing
 npm run build  # Regenerate HTML
 
 # Validate results (your verification)
