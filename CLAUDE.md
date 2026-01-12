@@ -217,6 +217,50 @@ Output: `./race-details/<race-id>.html`
 
 **CRITICAL**: Use your natural language understanding to identify spoiler content. Never rely on keyword matching or programmatic parsing.
 
+### YouTube Highlights: Good vs Bad
+
+Not all post-race highlights are spoilers. The key is WHEN and HOW the winner is revealed:
+
+**✅ SPOILER-SAFE Highlights (Abbreviated Race Broadcasts):**
+- Race action shown chronologically, building to the finish
+- Winner revealed only at the natural finish line moment
+- Commentary describes the racing ("attacks on the climb", "group forming") without revealing outcome
+- Viewer experiences suspense and learns winner by watching the finish
+- Title is neutral: "Stage 5 Highlights", "Race Highlights"
+
+**❌ SPOILER Highlights (Results-Focused Packages):**
+- Announcer states winner early: "X takes the championship" before showing finish
+- Title reveals outcome: "How X Won", "X's Victory", "X Claims Title"
+- Post-race interviews or podium celebrations shown
+- Results graphics or standings displayed
+- Commentary in past tense revealing outcome: "After his winning attack..."
+
+### YouTube Transcript Analysis
+
+When using the youtube-cycling-analyzer agent, look for:
+
+1. **Title Check**: Does it contain winner names or outcome language?
+2. **First 30 Seconds**: Does commentary announce results upfront?
+3. **Transcript Timeline**: At what timestamp is the winner first named?
+4. **Finish Location**: Is the winner reveal near the end (natural) or scattered throughout?
+
+**Decision Matrix:**
+| Winner Revealed | Title Clean? | Verdict |
+|----------------|--------------|---------|
+| Only at finish (last 10%) | Yes | ✅ SAFE - Include |
+| Mid-video announcement | Yes | ⚠️ PARTIAL - Note stop time |
+| Early announcement (<30%) | Yes | ❌ EXCLUDE |
+| Any timing | No (spoiler title) | ❌ EXCLUDE |
+
+### Platform Ecosystem Warnings
+
+Even spoiler-safe videos have risks:
+- **YouTube Sidebar**: Related videos often contain spoiler titles/thumbnails
+- **Autoplay**: Next video may reveal results
+- **Comments**: Often contain spoilers
+
+For spoiler-safe YouTube content, add notes: "Disable autoplay, avoid sidebar recommendations"
+
 ## Spoiler Safety for Race Details Pages
 
 **CRITICAL FOR PAST RACES**: The spoiler-safe search functions automatically handle this, but understand the mechanism:
