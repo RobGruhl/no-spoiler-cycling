@@ -806,9 +806,9 @@ npm run build
 | `populate-race-riders.js` | Links men's riders to men's races |
 | `scripts/populate-riders-women.js` | Links women's riders to women's races |
 
-**Current Race Counts (276 total):**
+**Current Race Counts (277 total):**
 - Men's races: 222
-- Women's races: 53
+- Women's races: 54
 - Mixed events: 1
 
 ### Managing race-data.json (Large File ~72K tokens)

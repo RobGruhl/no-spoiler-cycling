@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-11T23:48:55.990Z",
+  "lastUpdated": "2026-01-12T00:27:52.092Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -181,6 +181,159 @@
             "sprinter",
             "puncheur",
             "one-day"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/video/15165112-replay-2026-australian-cycling-road-national-championships",
+      "type": "full-race",
+      "discoveredAt": "2026-01-12T00:27:52.091Z",
+      "id": "australian-road-nationals-women-2026",
+      "name": "Women's Elite Road Race | 2026 Australian Road National Championships",
+      "description": "109km circuit race through Perth's CBD and Kings Park featuring 8 laps of a 13.6km circuit. The course is defined by the steep pinch of Malcolm Street (aka 'Pedal Mafia Mountain') that peaks just 400 metres before the finish line.",
+      "channel": "FloBikes",
+      "verified": true,
+      "duration": "3:04:00",
+      "raceDate": "2026-01-11",
+      "raceDay": "Sunday",
+      "location": "Perth, Western Australia",
+      "category": "NC",
+      "rating": 3,
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly",
+        "circuit"
+      ],
+      "distance": 109,
+      "gender": "women",
+      "broadcast": {
+        "lastUpdated": "2026-01-12T00:00:00Z",
+        "geos": {
+          "AU": {
+            "primary": {
+              "broadcaster": "SBS On Demand",
+              "broadcasterId": "sbs-au",
+              "type": "free",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/westbridge-funds-road-national-championships-2026",
+              "coverage": "full-race",
+              "subscription": false,
+              "notes": "Full 3h 4m race replay - FREE in Australia (Episode 3)"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15165112-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Combined broadcast with Elite Men's race"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15165112-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Combined broadcast with Elite Men's race"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/video/15165112-replay-2026-australian-cycling-road-national-championships",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Combined broadcast with Elite Men's race"
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "AusCycling",
+            "handle": "@AusCycling",
+            "contentType": "highlights",
+            "notes": "Official AusCycling highlights - may contain spoilers"
+          }
+        ],
+        "notes": "SBS has dedicated women's race replay. FloBikes stream combines both Elite Men's and Women's races."
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-12T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "The 2026 Australian Road National Championships moved to Perth, Western Australia for a three-year stint. The 109km elite women's race covers 8 laps of a 13.6km circuit through Perth's CBD and the leafy Kings Park. The defining feature is Malcolm Street - dubbed 'Pedal Mafia Mountain' - a steep pinch that peaks just 400 metres before the finish line, making for an explosive finale on every lap.",
+        "keySectors": [
+          {
+            "name": "Malcolm Street (Pedal Mafia Mountain)",
+            "kmFromFinish": 0.4,
+            "length": 0.5,
+            "surface": "road",
+            "difficulty": 4,
+            "description": "The course's defining feature - a steep pinch climb peaking 400m before the finish line. Repeated 8 times, it becomes more decisive as the race progresses."
+          }
+        ],
+        "keyClimbs": [
+          {
+            "name": "Kings Park ascent",
+            "category": "4",
+            "length": 1.2,
+            "avgGradient": "4%",
+            "maxGradient": "8%",
+            "kmFromFinish": 5,
+            "notes": "Uphill drag through leafy Kings Park - first half of each lap"
+          },
+          {
+            "name": "Malcolm Street",
+            "category": "4",
+            "length": 0.5,
+            "avgGradient": "6%",
+            "maxGradient": "12%",
+            "kmFromFinish": 0.4,
+            "notes": "The 'Pedal Mafia Mountain' - explosive pinch 400m from finish"
+          }
+        ],
+        "favorites": {
+          "allRounders": [
+            "Grace Brown - Olympic time trial champion returning to domestic racing",
+            "Ruby Roseman-Gannon (Liv-AlUla-Jayco) - 2025 Australian road race champion",
+            "Amanda Spratt (Lidl-Trek) - veteran climber and multiple national champion"
+          ],
+          "sprinters": [
+            "Alexandra Manly (AG Insurance-Soudal) - fast finish if it comes to a group sprint"
+          ],
+          "puncheurs": [
+            "Liv-AlUla-Jayco riders - Australia's women's WorldTour team with tactical options"
+          ]
+        },
+        "narratives": [
+          "Ruby Roseman-Gannon defending her 2025 road race title on the new Perth course",
+          "Grace Brown returning as Olympic champion - can she add the national title?",
+          "Liv-AlUla-Jayco as Australia's women's WorldTour team with multiple cards to play",
+          "New Perth circuit favors punchy riders who can handle repeated attacks on Malcolm Street",
+          "The green-and-gold jersey is the most coveted prize in Australian women's cycling"
+        ],
+        "historicalContext": "The Australian Women's Road National Championships have grown in prestige as the women's peloton has expanded. Recent champions include some of the best riders in world cycling, with the green-and-gold jersey a prized possession that riders race for before heading to Europe.",
+        "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 8 laps, this explosive climb becomes increasingly selective. The shorter women's race (109km vs 177km for men) means the pace is high from the start. Expect attacking racing from Liv-AlUla-Jayco looking to control for their protected riders."
+      },
+      "topRiders": [
+        {
+          "id": "amanda-spratt",
+          "name": "SPRATT Amanda",
+          "team": "Lidl - Trek",
+          "ranking": 42,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
           ]
         }
       ]
