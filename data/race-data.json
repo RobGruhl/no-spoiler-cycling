@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T04:02:27.460Z",
+  "lastUpdated": "2026-01-19T04:19:00.727Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -144,47 +144,7 @@
         ],
         "historicalContext": "The Australian Road National Championships have been held annually since 1901, making it one of the oldest national championships in world cycling. The event spent two decades on a fixed course near Ballarat, Victoria, with its race-shaping Buninyong climb becoming iconic. The 2025 move to Perth marked a new era, with a circuit format that rewards different rider characteristics than the climbing-heavy Buninyong course.",
         "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 13 laps, this explosive climb becomes increasingly selective. The Perth course proved more decisive than it appears on paper in 2025, with few opportunities to rest. The flat-ish final kilometers after Malcolm Street make it possible for a small group to stay away, but also allows sprinters to hang on if they survive the climb. Expect attacking racing from the Perth locals eager to perform in front of home fans."
-      },
-      "topRiders": [
-        {
-          "id": "jay-vine",
-          "name": "VINE Jay",
-          "team": "UAE Team Emirates - XRG",
-          "ranking": 21,
-          "nationality": "Australia",
-          "nationalityCode": "AU",
-          "specialties": [
-            "time-trialist",
-            "climber",
-            "gc-contender"
-          ]
-        },
-        {
-          "id": "michael-storer",
-          "name": "STORER Michael",
-          "team": "Tudor Pro Cycling Team",
-          "ranking": 25,
-          "nationality": "Australia",
-          "nationalityCode": "AU",
-          "specialties": [
-            "climber",
-            "stage-hunter"
-          ]
-        },
-        {
-          "id": "michael-matthews",
-          "name": "MATTHEWS Michael",
-          "team": "Team Jayco AlUla",
-          "ranking": 45,
-          "nationality": "Australia",
-          "nationalityCode": "AU",
-          "specialties": [
-            "sprinter",
-            "puncheur",
-            "one-day"
-          ]
-        }
-      ]
+      }
     },
     {
       "platform": "FloBikes",
@@ -324,21 +284,7 @@
         ],
         "historicalContext": "The Australian Women's Road National Championships have grown in prestige as the women's peloton has expanded. Recent champions include some of the best riders in world cycling, with the green-and-gold jersey a prized possession that riders race for before heading to Europe.",
         "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 8 laps, this explosive climb becomes increasingly selective. The shorter women's race (109km vs 177km for men) means the pace is high from the start. Expect attacking racing from Liv-AlUla-Jayco looking to control for their protected riders."
-      },
-      "topRiders": [
-        {
-          "id": "amanda-spratt",
-          "name": "SPRATT Amanda",
-          "team": "Lidl - Trek",
-          "ranking": 42,
-          "nationality": "Australia",
-          "nationalityCode": "AU",
-          "specialties": [
-            "climber",
-            "gc-contender"
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "tour-el-salvador-2026",
@@ -1126,7 +1072,72 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "surf-coast-classic-women-2026",
@@ -1316,33 +1327,6 @@
         "flat"
       ],
       "distance": 180,
-      "topRiders": [
-        {
-          "id": "remco-evenepoel",
-          "name": "EVENEPOEL Remco",
-          "team": "Red Bull - BORA - hansgrohe",
-          "ranking": 6,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "time-trialist",
-            "climber",
-            "gc-contender"
-          ]
-        },
-        {
-          "id": "florian-lipowitz",
-          "name": "LIPOWITZ Florian",
-          "team": "Red Bull - BORA - hansgrohe",
-          "ranking": 23,
-          "nationality": "Germany",
-          "nationalityCode": "GE",
-          "specialties": [
-            "gc-contender",
-            "climber"
-          ]
-        }
-      ],
       "gender": "men"
     },
     {
@@ -1493,7 +1477,18 @@
           }
         },
         "notes": "First Women's WorldTour one-day race of the season. Full TV production with helicopter coverage."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "gp-la-marseillaise-2026",
@@ -1556,7 +1551,72 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "cadel-evans-great-ocean-road-race-2026",
@@ -1879,6 +1939,18 @@
             "time-trialist",
             "climber",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
           ]
         }
       ],
@@ -2591,21 +2663,6 @@
         "hilly"
       ],
       "distance": 800,
-      "topRiders": [
-        {
-          "id": "mads-pedersen",
-          "name": "PEDERSEN Mads",
-          "team": "Lidl - Trek",
-          "ranking": 5,
-          "nationality": "Denmark",
-          "nationalityCode": "DE",
-          "specialties": [
-            "one-day",
-            "puncheur",
-            "sprinter"
-          ]
-        }
-      ],
       "gender": "men"
     },
     {
@@ -2709,6 +2766,19 @@
             "climber",
             "time-trialist"
           ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
         }
       ],
       "gender": "men"
@@ -2799,7 +2869,22 @@
         ],
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
       },
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "clasica-jaen-2026",
@@ -3112,6 +3197,19 @@
           ]
         },
         {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "jonathan-milan",
           "name": "MILAN Jonathan",
           "team": "Lidl - Trek",
@@ -3137,16 +3235,15 @@
           ]
         },
         {
-          "id": "olav-kooij",
-          "name": "KOOIJ Olav",
+          "id": "felix-gall",
+          "name": "GALL Felix",
           "team": "Decathlon CMA CGM Team",
-          "ranking": 24,
-          "nationality": "Netherlands",
-          "nationalityCode": "NE",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
           "specialties": [
-            "sprinter",
-            "one-day",
-            "puncheur"
+            "climber",
+            "gc-contender"
           ]
         }
       ],
@@ -3347,6 +3444,31 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
           "team": "Lidl - Trek",
@@ -3370,6 +3492,19 @@
             "time-trialist",
             "puncheur",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
           ]
         }
       ],
@@ -3531,6 +3666,32 @@
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
       },
       "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
         {
           "id": "jan-christen",
           "name": "CHRISTEN Jan",
@@ -3996,6 +4157,32 @@
       "distance": 180,
       "topRiders": [
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
           "id": "paul-magnier",
           "name": "MAGNIER Paul",
           "team": "Soudal Quick-Step",
@@ -4008,17 +4195,26 @@
           ]
         },
         {
-          "id": "olav-kooij",
-          "name": "KOOIJ Olav",
-          "team": "Decathlon CMA CGM Team",
-          "ranking": 24,
-          "nationality": "Netherlands",
-          "nationalityCode": "NE",
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
           "specialties": [
-            "sprinter",
             "one-day",
-            "puncheur"
+            "puncheur",
+            "time-trialist"
           ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "jordi-meeus",
@@ -4118,6 +4314,19 @@
       "distance": 200,
       "topRiders": [
         {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
           "id": "lorenzo-fortunato",
           "name": "FORTUNATO Lorenzo",
           "team": "XDS Astana Team",
@@ -4127,6 +4336,19 @@
           "specialties": [
             "gc-contender",
             "climber"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
           ]
         }
       ],
@@ -4201,6 +4423,32 @@
           ]
         },
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "ben-healy",
           "name": "HEALY Ben",
           "team": "EF Education - EasyPost",
@@ -4208,6 +4456,32 @@
           "nationality": "Ireland",
           "nationalityCode": "IR",
           "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
             "one-day",
             "climber"
           ]
@@ -4310,19 +4584,6 @@
           ]
         },
         {
-          "id": "olav-kooij",
-          "name": "KOOIJ Olav",
-          "team": "Decathlon CMA CGM Team",
-          "ranking": 24,
-          "nationality": "Netherlands",
-          "nationalityCode": "NE",
-          "specialties": [
-            "sprinter",
-            "one-day",
-            "puncheur"
-          ]
-        },
-        {
           "id": "mattias-skjelmose-jensen",
           "name": "SKJELMOSE Mattias",
           "team": "Lidl - Trek",
@@ -4387,6 +4648,19 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
           "id": "christian-scaroni",
           "name": "SCARONI Christian",
           "team": "XDS Astana Team",
@@ -4396,6 +4670,19 @@
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
           ]
         },
         {
@@ -4420,6 +4707,19 @@
           "specialties": [
             "climber",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
           ]
         },
         {
@@ -4448,6 +4748,28 @@
           ]
         },
         {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
           "id": "lorenzo-fortunato",
           "name": "FORTUNATO Lorenzo",
           "team": "XDS Astana Team",
@@ -4457,6 +4779,19 @@
           "specialties": [
             "gc-contender",
             "climber"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
           ]
         }
       ],
@@ -4525,6 +4860,19 @@
       ],
       "distance": 200,
       "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
         {
           "id": "jan-christen",
           "name": "CHRISTEN Jan",
@@ -4612,7 +4960,22 @@
         "flat"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "koksijde-classic-2026",
@@ -4698,6 +5061,32 @@
           ]
         },
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "jonathan-milan",
           "name": "MILAN Jonathan",
           "team": "Lidl - Trek",
@@ -4721,6 +5110,41 @@
             "one-day",
             "puncheur"
           ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "filippo-ganna",
@@ -4904,6 +5328,19 @@
             "one-day",
             "sprinter"
           ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
         }
       ],
       "gender": "men"
@@ -4942,6 +5379,43 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
           "id": "jonathan-milan",
           "name": "MILAN Jonathan",
           "team": "Lidl - Trek",
@@ -4954,17 +5428,13 @@
           ]
         },
         {
-          "id": "olav-kooij",
-          "name": "KOOIJ Olav",
-          "team": "Decathlon CMA CGM Team",
-          "ranking": 24,
-          "nationality": "Netherlands",
-          "nationalityCode": "NE",
-          "specialties": [
-            "sprinter",
-            "one-day",
-            "puncheur"
-          ]
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "jordi-meeus",
@@ -5120,6 +5590,19 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
           "id": "paul-magnier",
           "name": "MAGNIER Paul",
           "team": "Soudal Quick-Step",
@@ -5130,6 +5613,37 @@
             "one-day",
             "sprinter"
           ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
         }
       ],
       "gender": "men"
@@ -5246,6 +5760,32 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "jasper-philipsen",
           "name": "PHILIPSEN Jasper",
           "team": "Alpecin-Premier Tech",
@@ -5257,6 +5797,28 @@
             "one-day",
             "puncheur"
           ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "michael-matthews",
@@ -5471,6 +6033,18 @@
       "distance": 200,
       "topRiders": [
         {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
           "id": "jordi-meeus",
           "name": "MEEUS Jordi",
           "team": "Red Bull - BORA - hansgrohe",
@@ -5578,6 +6152,44 @@
           ]
         },
         {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "jonathan-milan",
           "name": "MILAN Jonathan",
           "team": "Lidl - Trek",
@@ -5601,6 +6213,15 @@
             "one-day",
             "puncheur"
           ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "filippo-ganna",
@@ -5718,6 +6339,32 @@
       "distance": 200,
       "topRiders": [
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
           "id": "jan-christen",
           "name": "CHRISTEN Jan",
           "team": "UAE Team Emirates - XRG",
@@ -5805,6 +6452,19 @@
           ]
         },
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
           "id": "giulio-ciccone",
           "name": "CICCONE Giulio",
           "team": "Lidl - Trek",
@@ -5839,6 +6499,19 @@
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
           ]
         },
         {
@@ -6011,6 +6684,19 @@
           ]
         },
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
           "team": "Lidl - Trek",
@@ -6058,6 +6744,19 @@
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
           ]
         },
         {
@@ -6246,6 +6945,19 @@
           ]
         },
         {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
           "id": "juan-ayuso-pesquera",
           "name": "AYUSO Juan",
           "team": "Lidl - Trek",
@@ -6293,6 +7005,19 @@
           "specialties": [
             "one-day",
             "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
           ]
         },
         {
@@ -6657,6 +7382,19 @@
       ],
       "topRiders": [
         {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "joao-almeida",
           "name": "ALMEIDA João",
           "team": "UAE Team Emirates - XRG",
@@ -6769,6 +7507,15 @@
           ]
         },
         {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
           "id": "adam-yates",
           "name": "YATES Adam",
           "team": "UAE Team Emirates - XRG",
@@ -6801,6 +7548,19 @@
           "nationality": "Switzerland",
           "nationalityCode": "SW",
           "specialties": []
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
         }
       ],
       "gender": "men"
@@ -7647,6 +8407,19 @@
             "gc-contender",
             "one-day"
           ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
         }
       ],
       "gender": "men"
@@ -7754,7 +8527,22 @@
         "flat"
       ],
       "distance": 220,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "elfstedenronde-2026",
@@ -7876,6 +8664,41 @@
             "one-day",
             "gc-contender"
           ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "lenny-martinez",
@@ -8624,6 +9447,19 @@
           ]
         },
         {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "mads-pedersen",
           "name": "PEDERSEN Mads",
           "team": "Lidl - Trek",
@@ -8647,6 +9483,19 @@
             "time-trialist",
             "climber",
             "gc-contender"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
           ]
         },
         {
@@ -8686,6 +9535,31 @@
             "gc-contender",
             "time-trialist",
             "climber"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
           ]
         },
         {
@@ -8735,6 +9609,31 @@
           "specialties": [
             "sprinter",
             "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
             "puncheur"
           ]
         },
@@ -9050,7 +9949,21 @@
         "flat"
       ],
       "distance": 220,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-de-france-femmes-2026",
@@ -9178,6 +10091,18 @@
             "gc-contender",
             "climber",
             "time-trialist"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
           ]
         }
       ],
@@ -9421,7 +10346,21 @@
         "itt"
       ],
       "distance": 1200,
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-of-britain-women-2026",
@@ -9527,6 +10466,19 @@
           ]
         },
         {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
           "id": "felix-gall",
           "name": "GALL Felix",
           "team": "Decathlon CMA CGM Team",
@@ -9550,6 +10502,15 @@
             "climber",
             "one-day"
           ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
         },
         {
           "id": "primoz-roglic",
@@ -10777,7 +11738,22 @@
       "prestige": [
         "monument"
       ],
-      "gender": "men"
+      "gender": "men",
+      "topRiders": [
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-de-kyushu-2026",

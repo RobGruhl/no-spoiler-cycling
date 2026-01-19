@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T07:02:30.429Z",
+  "lastUpdated": "2026-01-19T04:19:00.720Z",
   "riders": [
     {
       "id": "tadej-pogacar",
@@ -22,7 +22,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/tadej-pogacar",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:51:25.040Z",
+        "lastFetched": "2026-01-19T04:16:44.301Z",
         "races": [
           {
             "raceName": "Strade Bianche",
@@ -96,7 +96,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/isaac-del-toro",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:51:37.825Z",
+        "lastFetched": "2026-01-19T04:16:46.831Z",
         "races": [
           {
             "raceName": "UAE Tour",
@@ -163,9 +163,34 @@
       "photoUrl": "riders/photos/jonas-vingegaard.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/jonas-vingegaard",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:51:51.186Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:16:49.562Z",
+        "races": [
+          {
+            "raceName": "UAE Tour",
+            "raceSlug": "uae-tour",
+            "raceDate": "2026-02-16",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Volta Ciclista a Catalunya",
+            "raceSlug": "volta-a-catalunya",
+            "raceDate": "2026-03-23",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
       }
     },
     {
@@ -189,7 +214,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/joao-almeida",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:52:04.355Z",
+        "lastFetched": "2026-01-19T04:16:52.058Z",
         "races": [
           {
             "raceName": "Volta Comunitat Valenciana",
@@ -263,7 +288,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/mads-pedersen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:52:17.745Z",
+        "lastFetched": "2026-01-19T04:16:54.951Z",
         "races": [
           {
             "raceName": "Volta Comunitat Valenciana",
@@ -355,12 +380,36 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/remco-evenepoel",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:52:31.820Z",
+        "lastFetched": "2026-01-19T04:16:57.791Z",
         "races": [
+          {
+            "raceName": "Trofeo Calvià",
+            "raceSlug": "trofeo-calvia",
+            "raceDate": "2026-01-28",
+            "raceClass": null
+          },
           {
             "raceName": "Trofeo Ses Salines",
             "raceSlug": "trofeo-ses-salines-felanitx",
             "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Serra Tramuntana",
+            "raceSlug": "deia-trophy",
+            "raceDate": "2026-01-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Andratx - Pollença",
+            "raceSlug": "trofeo-pollenca-port-d-andratx",
+            "raceDate": "2026-01-31",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma",
+            "raceSlug": "trofeo-palma",
+            "raceDate": "2026-02-01",
             "raceClass": null
           },
           {
@@ -428,9 +477,82 @@
       "photoUrl": "riders/photos/thomas-pidcock.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/thomas-pidcock",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:52:45.979Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:17:01.646Z",
+        "races": [
+          {
+            "raceName": "Vuelta a la Región de Murcia “Costa Cálida”",
+            "raceSlug": "vuelta-ciclista-a-la-region-de-murcia",
+            "raceDate": "2026-02-13",
+            "raceClass": null
+          },
+          {
+            "raceName": "Clásica Jaén",
+            "raceSlug": "clasica-jaen-paraiso-interior",
+            "raceDate": "2026-02-16",
+            "raceClass": null
+          },
+          {
+            "raceName": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+            "raceSlug": "ruta-del-sol",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Omloop Nieuwsblad",
+            "raceSlug": "omloop-het-nieuwsblad",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Milano - Torino",
+            "raceSlug": "milano-torino",
+            "raceDate": "2026-03-18",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Volta Ciclista a Catalunya",
+            "raceSlug": "volta-a-catalunya",
+            "raceDate": "2026-03-23",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "De Brabantse Pijl - La Flèche Brabançonne",
+            "raceSlug": "brabantse-pijl",
+            "raceDate": "2026-04-17",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Amstel Gold Race",
+            "raceSlug": "amstel-gold-race",
+            "raceDate": "2026-04-19",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          }
+        ]
       }
     },
     {
@@ -454,7 +576,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/mathieu-van-der-poel",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:52:59.031Z",
+        "lastFetched": "2026-01-19T04:17:04.346Z",
         "races": []
       }
     },
@@ -479,7 +601,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/oscar-onley",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:53:12.810Z",
+        "lastFetched": "2026-01-19T04:17:06.895Z",
         "races": []
       }
     },
@@ -503,9 +625,94 @@
       "photoUrl": "riders/photos/arnaud-de-lie.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/arnaud-de-lie",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:53:26.442Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:17:10.060Z",
+        "races": [
+          {
+            "raceName": "Clasica de Almeria",
+            "raceSlug": "clasica-de-almeria",
+            "raceDate": "2026-02-15",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Volta ao Algarve em Bicicleta",
+            "raceSlug": "volta-ao-algarve",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Omloop Nieuwsblad",
+            "raceSlug": "omloop-het-nieuwsblad",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Kuurne - Brussel - Kuurne",
+            "raceSlug": "kuurne-brussel-kuurne",
+            "raceDate": "2026-03-01",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Grand Prix de Denain - Porte du Hainaut",
+            "raceSlug": "gp-de-denain",
+            "raceDate": "2026-03-19",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Ronde Van Brugge - Tour of Bruges",
+            "raceSlug": "classic-brugge-de-panne",
+            "raceDate": "2026-03-25",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Copenhagen Sprint",
+            "raceSlug": "copenhagen-sprint",
+            "raceDate": "2026-06-14",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
       }
     },
     {
@@ -528,8 +735,20 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/paul-magnier",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:53:39.856Z",
+        "lastFetched": "2026-01-19T04:17:13.042Z",
         "races": [
+          {
+            "raceName": "Volta Comunitat Valenciana",
+            "raceSlug": "vuelta-a-la-comunidad-valenciana",
+            "raceDate": "2026-02-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Volta ao Algarve em Bicicleta",
+            "raceSlug": "volta-ao-algarve",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
           {
             "raceName": "Omloop Nieuwsblad",
             "raceSlug": "omloop-het-nieuwsblad",
@@ -540,6 +759,12 @@
             "raceName": "E3 Saxo Classic",
             "raceSlug": "e3-harelbeke",
             "raceDate": "2026-03-27",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
             "raceClass": "1.UWT"
           },
           {
@@ -578,7 +803,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/juan-ayuso-pesquera",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:53:53.285Z",
+        "lastFetched": "2026-01-19T04:17:15.675Z",
         "races": [
           {
             "raceName": "Volta ao Algarve em Bicicleta",
@@ -646,7 +871,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/giulio-ciccone",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:54:06.646Z",
+        "lastFetched": "2026-01-19T04:17:18.341Z",
         "races": [
           {
             "raceName": "Amstel Gold Race",
@@ -701,8 +926,38 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/christian-scaroni",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:54:20.474Z",
+        "lastFetched": "2026-01-19T04:17:20.907Z",
         "races": [
+          {
+            "raceName": "Trofeo Calvià",
+            "raceSlug": "trofeo-calvia",
+            "raceDate": "2026-01-28",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Ses Salines",
+            "raceSlug": "trofeo-ses-salines-felanitx",
+            "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Serra Tramuntana",
+            "raceSlug": "deia-trophy",
+            "raceDate": "2026-01-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Andratx - Pollença",
+            "raceSlug": "trofeo-pollenca-port-d-andratx",
+            "raceDate": "2026-01-31",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma",
+            "raceSlug": "trofeo-palma",
+            "raceDate": "2026-02-01",
+            "raceClass": null
+          },
           {
             "raceName": "Tirreno-Adriatico",
             "raceSlug": "tirreno-adriatico",
@@ -763,7 +1018,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/brandon-mcnulty",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:54:33.649Z",
+        "lastFetched": "2026-01-19T04:17:23.906Z",
         "races": [
           {
             "raceName": "Tour de France",
@@ -795,7 +1050,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/kevin-vauquelin",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:54:46.500Z",
+        "lastFetched": "2026-01-19T04:17:26.624Z",
         "races": []
       }
     },
@@ -819,13 +1074,43 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/tim-merlier",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:55:00.379Z",
+        "lastFetched": "2026-01-19T04:17:29.294Z",
         "races": [
           {
-            "raceName": "AlUla Tour",
-            "raceSlug": "alula-tour",
-            "raceDate": "2026-01-27",
-            "raceClass": "2.Pro"
+            "raceName": "Ronde Van Brugge - Tour of Bruges",
+            "raceSlug": "classic-brugge-de-panne",
+            "raceDate": "2026-03-25",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Scheldeprijs",
+            "raceSlug": "scheldeprijs",
+            "raceDate": "2026-04-08",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Renewi Tour",
+            "raceSlug": "renewi-tour",
+            "raceDate": "2026-08-19",
+            "raceClass": "2.UWT"
           }
         ]
       }
@@ -850,9 +1135,64 @@
       "photoUrl": "riders/photos/wout-van-aert.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/wout-van-aert",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:55:13.670Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:17:31.946Z",
+        "races": [
+          {
+            "raceName": "Omloop Nieuwsblad",
+            "raceSlug": "omloop-het-nieuwsblad",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
+            "raceClass": "2.UWT"
+          }
+        ]
       }
     },
     {
@@ -875,7 +1215,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jonathan-milan",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:55:26.405Z",
+        "lastFetched": "2026-01-19T04:17:34.722Z",
         "races": [
           {
             "raceName": "AlUla Tour",
@@ -943,7 +1283,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jasper-philipsen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:55:40.735Z",
+        "lastFetched": "2026-01-19T04:17:37.383Z",
         "races": [
           {
             "raceName": "Milano-Sanremo",
@@ -993,20 +1333,8 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jay-vine",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:55:54.148Z",
+        "lastFetched": "2026-01-19T04:17:39.990Z",
         "races": [
-          {
-            "raceName": "National Championships Australia ME - ITT",
-            "raceSlug": "nc-australia-itt",
-            "raceDate": "2026-01-08",
-            "raceClass": null
-          },
-          {
-            "raceName": "National Championships Australia ME - Road Race",
-            "raceSlug": "nc-australia",
-            "raceDate": "2026-01-11",
-            "raceClass": null
-          },
           {
             "raceName": "Santos Tour Down Under",
             "raceSlug": "tour-down-under",
@@ -1048,7 +1376,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/ben-healy",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:56:07.608Z",
+        "lastFetched": "2026-01-19T04:17:42.438Z",
         "races": [
           {
             "raceName": "Strade Bianche",
@@ -1103,12 +1431,36 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/florian-lipowitz",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:56:22.282Z",
+        "lastFetched": "2026-01-19T04:17:45.156Z",
         "races": [
+          {
+            "raceName": "Trofeo Calvià",
+            "raceSlug": "trofeo-calvia",
+            "raceDate": "2026-01-28",
+            "raceClass": null
+          },
           {
             "raceName": "Trofeo Ses Salines",
             "raceSlug": "trofeo-ses-salines-felanitx",
             "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Serra Tramuntana",
+            "raceSlug": "deia-trophy",
+            "raceDate": "2026-01-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Andratx - Pollença",
+            "raceSlug": "trofeo-pollenca-port-d-andratx",
+            "raceDate": "2026-01-31",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma",
+            "raceSlug": "trofeo-palma",
+            "raceDate": "2026-02-01",
             "raceClass": null
           },
           {
@@ -1153,44 +1505,8 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/olav-kooij",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:56:35.198Z",
+        "lastFetched": "2026-01-19T04:17:48.442Z",
         "races": [
-          {
-            "raceName": "UAE Tour",
-            "raceSlug": "uae-tour",
-            "raceDate": "2026-02-16",
-            "raceClass": "2.UWT"
-          },
-          {
-            "raceName": "Omloop Nieuwsblad",
-            "raceSlug": "omloop-het-nieuwsblad",
-            "raceDate": "2026-02-28",
-            "raceClass": "1.UWT"
-          },
-          {
-            "raceName": "Kuurne - Brussel - Kuurne",
-            "raceSlug": "kuurne-brussel-kuurne",
-            "raceDate": "2026-03-01",
-            "raceClass": "1.Pro"
-          },
-          {
-            "raceName": "Paris-Nice",
-            "raceSlug": "paris-nice",
-            "raceDate": "2026-03-08",
-            "raceClass": "2.UWT"
-          },
-          {
-            "raceName": "Ronde Van Brugge - Tour of Bruges",
-            "raceSlug": "classic-brugge-de-panne",
-            "raceDate": "2026-03-25",
-            "raceClass": "1.UWT"
-          },
-          {
-            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
-            "raceSlug": "gent-wevelgem",
-            "raceDate": "2026-03-29",
-            "raceClass": "1.UWT"
-          },
           {
             "raceName": "Tour de France",
             "raceSlug": "tour-de-france",
@@ -1220,7 +1536,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/michael-storer",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:56:48.448Z",
+        "lastFetched": "2026-01-19T04:17:51.514Z",
         "races": [
           {
             "raceName": "Tirreno-Adriatico",
@@ -1232,6 +1548,12 @@
             "raceName": "Giro d'Italia",
             "raceSlug": "giro-d-italia",
             "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
             "raceClass": "2.UWT"
           }
         ]
@@ -1257,9 +1579,76 @@
       "photoUrl": "riders/photos/matteo-jorgenson.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/matteo-jorgenson",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:57:01.774Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:17:56.839Z",
+        "races": [
+          {
+            "raceName": "Faun-Ardèche Classic",
+            "raceSlug": "faun-ardeche-classic",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Faun Drome Classic",
+            "raceSlug": "la-drome-classic",
+            "raceDate": "2026-03-01",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Amstel Gold Race",
+            "raceSlug": "amstel-gold-race",
+            "raceDate": "2026-04-19",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Flèche Wallonne",
+            "raceSlug": "la-fleche-wallonne",
+            "raceDate": "2026-04-22",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Il Lombardia",
+            "raceSlug": "il-lombardia",
+            "raceDate": "2026-10-10",
+            "raceClass": "1.UWT"
+          }
+        ]
       }
     },
     {
@@ -1282,8 +1671,14 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/felix-gall",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:57:14.975Z",
+        "lastFetched": "2026-01-19T04:17:59.912Z",
         "races": [
+          {
+            "raceName": "UAE Tour",
+            "raceSlug": "uae-tour",
+            "raceDate": "2026-02-16",
+            "raceClass": "2.UWT"
+          },
           {
             "raceName": "Tirreno-Adriatico",
             "raceSlug": "tirreno-adriatico",
@@ -1301,6 +1696,18 @@
             "raceSlug": "giro-d-italia",
             "raceDate": "2026-05-08",
             "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "DSSK (Donostia San Sebastian Klasikoa)",
+            "raceSlug": "san-sebastian",
+            "raceDate": "2026-08-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Vuelta a Burgos",
+            "raceSlug": "vuelta-a-burgos",
+            "raceDate": "2026-08-04",
+            "raceClass": "2.Pro"
           },
           {
             "raceName": "La Vuelta Ciclista a España",
@@ -1332,12 +1739,66 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/romain-gregoire1",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:57:28.531Z",
+        "lastFetched": "2026-01-19T04:18:02.407Z",
         "races": [
+          {
+            "raceName": "Vuelta a Andalucia Ruta Ciclista Del Sol",
+            "raceSlug": "ruta-del-sol",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
           {
             "raceName": "Faun-Ardèche Classic",
             "raceSlug": "faun-ardeche-classic",
             "raceDate": "2026-02-28",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Faun Drome Classic",
+            "raceSlug": "la-drome-classic",
+            "raceDate": "2026-03-01",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Trofeo Laigueglia",
+            "raceSlug": "trofeo-laigueglia",
+            "raceDate": "2026-03-04",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Strade Bianche",
+            "raceSlug": "strade-bianche",
+            "raceDate": "2026-03-07",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "E3 Saxo Classic",
+            "raceSlug": "e3-harelbeke",
+            "raceDate": "2026-03-27",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "De Brabantse Pijl - La Flèche Brabançonne",
+            "raceSlug": "brabantse-pijl",
+            "raceDate": "2026-04-17",
             "raceClass": "1.Pro"
           },
           {
@@ -1382,7 +1843,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/mattias-skjelmose-jensen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:57:41.871Z",
+        "lastFetched": "2026-01-19T04:18:04.954Z",
         "races": [
           {
             "raceName": "Paris-Nice",
@@ -1446,12 +1907,66 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/matthew-brennan",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:57:56.543Z",
+        "lastFetched": "2026-01-19T04:18:07.638Z",
         "races": [
           {
             "raceName": "Santos Tour Down Under",
             "raceSlug": "tour-down-under",
             "raceDate": "2026-01-20",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Omloop Nieuwsblad",
+            "raceSlug": "omloop-het-nieuwsblad",
+            "raceDate": "2026-02-28",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Kuurne - Brussel - Kuurne",
+            "raceSlug": "kuurne-brussel-kuurne",
+            "raceDate": "2026-03-01",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Milano-Sanremo",
+            "raceSlug": "milano-sanremo",
+            "raceDate": "2026-03-21",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "In Flanders Fields. From Middelkerke to Wevelgem ME",
+            "raceSlug": "gent-wevelgem",
+            "raceDate": "2026-03-29",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Ronde van Vlaanderen",
+            "raceSlug": "ronde-van-vlaanderen",
+            "raceDate": "2026-04-05",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Paris-Roubaix",
+            "raceSlug": "paris-roubaix",
+            "raceDate": "2026-04-12",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
             "raceClass": "2.UWT"
           }
         ]
@@ -1477,7 +1992,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/lenny-martinez",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:58:09.877Z",
+        "lastFetched": "2026-01-19T04:18:10.160Z",
         "races": [
           {
             "raceName": "Classic Var",
@@ -1557,7 +2072,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/primoz-roglic",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:58:23.114Z",
+        "lastFetched": "2026-01-19T04:18:12.711Z",
         "races": [
           {
             "raceName": "Tirreno-Adriatico",
@@ -1607,7 +2122,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jhonatan-narvaez",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:58:36.786Z",
+        "lastFetched": "2026-01-19T04:18:15.578Z",
         "races": [
           {
             "raceName": "Santos Tour Down Under",
@@ -1639,7 +2154,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/thymen-arensman",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:58:49.748Z",
+        "lastFetched": "2026-01-19T04:18:18.138Z",
         "races": []
       }
     },
@@ -1664,13 +2179,19 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/filippo-ganna",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:59:03.495Z",
+        "lastFetched": "2026-01-19T04:18:20.846Z",
         "races": [
           {
             "raceName": "Volta ao Algarve em Bicicleta",
             "raceSlug": "volta-ao-algarve",
             "raceDate": "2026-02-18",
             "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
           },
           {
             "raceName": "Milano-Sanremo",
@@ -1719,7 +2240,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/corbin-strong",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T06:59:17.960Z",
+        "lastFetched": "2026-01-19T04:18:23.566Z",
         "races": [
           {
             "raceName": "Santos Tour Down Under",
@@ -1748,9 +2269,16 @@
       "photoUrl": "riders/photos/emilien-jeanniere.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/emilien-jeanniere",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T06:59:31.595Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:18:26.024Z",
+        "races": [
+          {
+            "raceName": "Grand Prix Cycliste de Marseille La Marseillaise",
+            "raceSlug": "gp-d-ouverture",
+            "raceDate": "2026-02-01",
+            "raceClass": null
+          }
+        ]
       }
     },
     {
@@ -1774,7 +2302,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/simon-yates",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:59:44.751Z",
+        "lastFetched": "2026-01-19T04:18:29.013Z",
         "races": []
       }
     },
@@ -1799,7 +2327,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/neilson-powless",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T06:59:58.620Z",
+        "lastFetched": "2026-01-19T04:18:31.655Z",
         "races": []
       }
     },
@@ -1820,12 +2348,42 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/tobias-lund-andresen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:00:11.838Z",
+        "lastFetched": "2026-01-19T04:18:34.198Z",
         "races": [
           {
             "raceName": "Santos Tour Down Under",
             "raceSlug": "tour-down-under",
             "raceDate": "2026-01-20",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Surf Coast Classic - Men",
+            "raceSlug": "race-torquay",
+            "raceDate": "2026-01-29",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Mapei Cadel Evans Great Ocean Road Race - Men",
+            "raceSlug": "great-ocean-road-race",
+            "raceDate": "2026-02-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Dwars door Vlaanderen - A travers la Flandre",
+            "raceSlug": "dwars-door-vlaanderen",
+            "raceDate": "2026-04-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
             "raceClass": "2.UWT"
           }
         ]
@@ -1852,7 +2410,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/biniam-girmay",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T07:00:25.729Z",
+        "lastFetched": "2026-01-19T04:18:36.784Z",
         "races": []
       }
     },
@@ -1876,7 +2434,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jordi-meeus",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:00:39.758Z",
+        "lastFetched": "2026-01-19T04:18:39.647Z",
         "races": [
           {
             "raceName": "Omloop Nieuwsblad",
@@ -1950,7 +2508,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/adam-yates",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:00:53.488Z",
+        "lastFetched": "2026-01-19T04:18:42.306Z",
         "races": [
           {
             "raceName": "Santos Tour Down Under",
@@ -1996,7 +2554,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/soren-waerenskjold",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T07:01:07.441Z",
+        "lastFetched": "2026-01-19T04:18:44.869Z",
         "races": []
       }
     },
@@ -2021,8 +2579,38 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/michael-matthews",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:01:21.430Z",
+        "lastFetched": "2026-01-19T04:18:47.602Z",
         "races": [
+          {
+            "raceName": "Trofeo Calvià",
+            "raceSlug": "trofeo-calvia",
+            "raceDate": "2026-01-28",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Ses Salines",
+            "raceSlug": "trofeo-ses-salines-felanitx",
+            "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Serra Tramuntana",
+            "raceSlug": "deia-trophy",
+            "raceDate": "2026-01-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Andratx - Pollença",
+            "raceSlug": "trofeo-pollenca-port-d-andratx",
+            "raceDate": "2026-01-31",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma",
+            "raceSlug": "trofeo-palma",
+            "raceDate": "2026-02-01",
+            "raceClass": null
+          },
           {
             "raceName": "Milano-Sanremo",
             "raceSlug": "milano-sanremo",
@@ -2077,7 +2665,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/egan-bernal",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T07:01:34.936Z",
+        "lastFetched": "2026-01-19T04:18:50.065Z",
         "races": []
       }
     },
@@ -2102,7 +2690,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/pello-bilbao",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-01-08T07:01:49.530Z",
+        "lastFetched": "2026-01-19T04:18:53.011Z",
         "races": []
       }
     },
@@ -2126,7 +2714,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/lorenzo-fortunato",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:02:03.457Z",
+        "lastFetched": "2026-01-19T04:18:55.469Z",
         "races": [
           {
             "raceName": "Trofeo Laigueglia",
@@ -2178,7 +2766,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jan-christen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-01-08T07:02:16.877Z",
+        "lastFetched": "2026-01-19T04:18:57.992Z",
         "races": [
           {
             "raceName": "AlUla Tour",
@@ -2263,9 +2851,70 @@
       "photoUrl": "riders/photos/richard-carapaz.jpg",
       "pcsUrl": "https://www.procyclingstats.com/rider/richard-carapaz",
       "raceProgram": {
-        "status": "not-announced",
-        "lastFetched": "2026-01-08T07:02:29.899Z",
-        "races": []
+        "status": "announced",
+        "lastFetched": "2026-01-19T04:19:00.720Z",
+        "races": [
+          {
+            "raceName": "Trofeo Calvià",
+            "raceSlug": "trofeo-calvia",
+            "raceDate": "2026-01-28",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Ses Salines",
+            "raceSlug": "trofeo-ses-salines-felanitx",
+            "raceDate": "2026-01-29",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Serra Tramuntana",
+            "raceSlug": "deia-trophy",
+            "raceDate": "2026-01-30",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Andratx - Pollença",
+            "raceSlug": "trofeo-pollenca-port-d-andratx",
+            "raceDate": "2026-01-31",
+            "raceClass": null
+          },
+          {
+            "raceName": "Trofeo Palma",
+            "raceSlug": "trofeo-palma",
+            "raceDate": "2026-02-01",
+            "raceClass": null
+          },
+          {
+            "raceName": "Figueira Champions Classic",
+            "raceSlug": "figueira-champions-classic",
+            "raceDate": "2026-02-14",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Volta ao Algarve em Bicicleta",
+            "raceSlug": "volta-ao-algarve",
+            "raceDate": "2026-02-18",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Trofeo Laigueglia",
+            "raceSlug": "trofeo-laigueglia",
+            "raceDate": "2026-03-04",
+            "raceClass": "1.Pro"
+          },
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          }
+        ]
       }
     }
   ]
