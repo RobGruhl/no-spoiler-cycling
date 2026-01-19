@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-12T00:31:43.416Z",
+  "lastUpdated": "2026-01-19T04:02:27.460Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -383,7 +383,7 @@
       ],
       "distance": 1200,
       "broadcast": {
-        "lastUpdated": "2026-01-07T00:00:00Z",
+        "lastUpdated": "2026-01-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
@@ -459,6 +459,17 @@
                 "notes": "Extended highlights and race analysis"
               }
             ]
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "Seven Network",
+              "broadcasterId": "seven-au",
+              "type": "tv",
+              "url": "https://7plus.com.au",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "FREE live coverage on 7plus streaming and Seven TV. Commentary team includes Grace Brown, Mark Beretta, Matthew Keenan, Phil Liggett, Robbie McEwen, and Gracie Elvin."
+            }
           }
         },
         "youtubeChannels": [
@@ -466,25 +477,30 @@
             "channel": "NBC Sports",
             "handle": "@NBCSports",
             "contentType": "extended-highlights",
-            "example2025": "https://www.youtube.com/watch?v=XbDCo67cUXA"
+            "url2026": "https://www.youtube.com/watch?v=qsTwvSmrv4E"
           },
           {
             "channel": "GCN Racing",
             "handle": "@GCNRacing",
-            "contentType": "highlights",
-            "example2025": "https://www.youtube.com/watch?v=r4bnmhJU6z0"
+            "contentType": "highlights"
           },
           {
             "channel": "Eurosport Cycling",
             "handle": "@eurosportcycling",
-            "contentType": "highlights",
-            "example2025": "https://www.youtube.com/watch?v=wbkY5XPWPus"
+            "contentType": "highlights"
+          },
+          {
+            "channel": "124 Cycling",
+            "handle": "@124_cycling",
+            "contentType": "preview",
+            "url2026": "https://www.youtube.com/watch?v=Ui4U3CceHeA",
+            "notes": "Men's Race Preview - course analysis and favorites"
           }
         ],
-        "notes": "Race starts Jan 20, 2026. YouTube highlights typically posted same day after each stage."
+        "notes": "Race runs Jan 20-25, 2026. FREE live coverage on 7plus (Australia only). YouTube highlights typically posted same day after each stage."
       },
       "raceDetails": {
-        "lastFetched": "2026-01-07T00:00:00Z",
+        "lastFetched": "2026-01-19T00:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The Tour Down Under opens the WorldTour season each January in South Australia. This 6-stage race (including prologue) features two decisive mountain stages in the Adelaide Hills - Stage 2 on the feared Corkscrew Road and Stage 4 featuring the iconic triple ascent of Willunga Hill. The format creates multiple GC opportunities: the prologue establishes early gaps, Corkscrew Road on Stage 2 provides the first major test, and Willunga Hill typically decides the ochre jersey on Stage 4. The final stage now features a circuit finish rather than a traditional sprint, adding drama to the finale.",
         "keyClimbs": [
@@ -515,28 +531,34 @@
         ],
         "favorites": {
           "gcContenders": [
-            "Prologue TT specialists with climbing ability",
-            "Previous TDU winners returning",
-            "WorldTour GC contenders using TDU as season opener"
+            "Jhonatan Narváez (UAE Team Emirates-XRG) - Defending champion",
+            "Jay Vine (UAE Team Emirates-XRG) - Strong climber for Willunga",
+            "Ben O'Connor (Jayco AlUla) - Local favorite, previous podium finisher",
+            "Matthew Brennan (Visma-Lease a Bike) - Rising GC talent",
+            "Adam Yates (UAE Team Emirates-XRG) - Grand Tour experience"
           ],
           "stageHunters": [
-            "Sprinters targeting flat stages",
-            "Breakaway specialists for hilly stages",
-            "Puncheurs for Willunga Hill"
+            "Phil Bauhaus (Bahrain Victorious) - Sprint stages",
+            "Jhonatan Narváez - Breakaway/GC hybrid",
+            "Henri Uhlig (Alpecin-Deceuninck) - Punchy stages"
           ],
           "climbers": [
-            "Pure climbers for Willunga and Corkscrew stages"
+            "Jay Vine - Willunga Hill specialist",
+            "Ben O'Connor - Adelaide Hills expert",
+            "Adam Yates - Consistent GC performer"
           ],
           "sprinters": [
-            "Fast finishers for Stage 1 and potential bunch kicks"
+            "Phil Bauhaus - Fast finishes",
+            "Donavan Grondin (Arkéa-B&B Hotels) - Developing sprinter"
           ]
         },
         "narratives": [
-          "The ochre jersey battle intensifies on Willunga Hill - who can handle the triple ascent?",
-          "New circuit finale on Stage 5 adds uncertainty to traditional sprint-friendly closing day",
-          "Corkscrew Road on Stage 2 provides first major GC shakeup - attacks expected on 16% ramps",
-          "Adelaide twilight prologue sets early time gaps - TT specialists vs pure climbers",
-          "Heat and wind in South Australia can reshape any stage unexpectedly"
+          "Narváez defends: Can UAE's defending champion repeat on the toughest TDU course ever?",
+          "UAE Team Emirates-XRG brings overwhelming depth with Narváez, Vine, and Yates - team tactics will be fascinating",
+          "Ben O'Connor returns home seeking redemption after near-misses at previous editions",
+          "Matthew Brennan's breakthrough? The young Visma rider could announce himself on the WorldTour stage",
+          "Three Willunga ascents unprecedented - the queen stage will rewrite TDU history",
+          "New circuit finish at Stirling creates unpredictable finale - can GC leaders survive?"
         ],
         "historicalContext": "The Tour Down Under has been the traditional WorldTour season opener since 1999, held annually in the Adelaide region of South Australia. Willunga Hill became a TDU staple in 2008 and has since become one of the most iconic climbs in Australian cycling, consistently producing exciting racing and GC drama. Past champions include a who's who of Grand Tour winners and classics specialists.",
         "watchNotes": "The race is won and lost in the Adelaide Hills. Focus on Corkscrew Road (Stage 2) for early GC moves, then Willunga Hill (Stage 4) for the decisive battle. The prologue gaps can prove crucial - even 10-15 seconds provides valuable buffer for mountain stages. Watch for heat-related tactics and the new circuit finale format on Stage 5.",
@@ -886,33 +908,39 @@
       ],
       "distance": 94,
       "raceDetails": {
-        "lastFetched": "2026-01-08T00:00:00Z",
+        "lastFetched": "2026-01-19T00:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The Women's One-Day Race is a fast 94.2km criterium-style event held in Tanunda, the heart of South Australia's Barossa Valley wine country. Racing takes place on a 8km circuit, with riders completing approximately 12 laps through the historic town streets. The flat to rolling terrain with six intermediate sprints favors fast finishers and sprinters who can handle the repetitive circuit racing.",
         "keyClimbs": [],
         "keySectors": [],
         "favorites": {
           "sprinters": [
-            "Fast finishers who thrive in circuit racing"
+            "Ally Wollaston (FDJ United-SUEZ) - Dominant form in 2026 stage race",
+            "Marion Bunel (Visma-Lease a Bike) - Fast finishing ability"
           ],
           "puncheurs": [
-            "Riders who can accelerate out of corners"
+            "Noemi Rüegg (EF Education-Oatly) - Defending TDU champion",
+            "Neve Bradbury (Canyon-Sram zondacrypto) - Strong Australian",
+            "Dominika Włodarczyk (UAE Team ADQ)"
           ],
           "allRounders": [
-            "Strong all-rounders fresh from Women's Tour Down Under"
+            "Magdeleine Vallieres (EF Education-Oatly) - World champion",
+            "Amanda Spratt (Lidl-Trek) - Former winner, final season",
+            "Gaia Realini (Lidl-Trek) - Consistent performer"
           ]
         },
         "narratives": [
-          "Season-opening ProSeries event provides valuable UCI points opportunity",
-          "Held immediately after the 3-stage Women's Tour Down Under, testing riders' recovery",
-          "Circuit racing in Tanunda's wine country offers unique atmosphere",
-          "Australian home riders look to extend strong January form"
+          "Ally Wollaston arrives as the rider to beat after dominating the Women's Tour Down Under stage race",
+          "Amanda Spratt's farewell tour - the Australian legend in her final professional season seeks home glory",
+          "World champion Magdeleine Vallieres makes her 2026 debut with EF Education-Oatly",
+          "Noemi Rüegg looks to add the One-Day Race to her 2025 TDU GC title",
+          "Circuit racing in Barossa wine country - tactical positioning and timing are everything"
         ],
         "historicalContext": "The Women's One-Day Race in Tanunda was added to the Santos Tour Down Under festival to give riders an additional competitive opportunity during the Australian summer racing block. The fast circuit racing provides a different test to the climbing-focused Women's Tour Down Under stages.",
         "watchNotes": "Watch for breakaway attempts on the early laps as teams test each other. The six intermediate sprints keep the race animated throughout. In the closing laps, expect positioning battles as sprinters' teams try to control the front for a bunch kick. The flat circuit rewards tactical racing and good pack positioning."
       },
       "broadcast": {
-        "lastUpdated": "2026-01-08T00:00:00Z",
+        "lastUpdated": "2026-01-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
@@ -949,17 +977,30 @@
           },
           "AU": {
             "primary": {
-              "broadcaster": "7plus",
-              "broadcasterId": "7plus",
-              "type": "streaming",
+              "broadcaster": "Seven Network",
+              "broadcasterId": "seven-au",
+              "type": "tv",
               "url": "https://7plus.com.au",
               "coverage": "live",
               "subscription": false,
-              "notes": "Free-to-air coverage in Australia"
+              "notes": "FREE live coverage on 7plus streaming and Seven TV"
             }
           }
         },
-        "notes": "Part of the Santos Tour Down Under festival week. Local Australian coverage typically includes pre and post-race interviews."
+        "notes": "Part of the Santos Tour Down Under festival week. Held on January 21, 2026, immediately after the 3-stage Women's Tour Down Under.",
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "extended-highlights",
+            "url2026": "https://www.youtube.com/watch?v=xv9qr6RumKs"
+          },
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       }
     },
     {
