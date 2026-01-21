@@ -135,13 +135,15 @@ function generateHTML(raceData) {
     const hasStages = race.stages && race.stages.length > 0;
     const hasDetails = race.raceDetails && Object.keys(race.raceDetails).length > 0 && !hasStages;
     const stageCount = hasStages ? race.stages.filter(s => s.stageNumber > 0).length : 0;
+    const topRiderCount = race.topRiders?.length || 0;
     const dataAttrs = [
       `data-rating="${rating}"`,
       `data-format="${race.raceFormat || 'one-day'}"`,
       `data-terrain="${(race.terrain || []).join(',')}"`,
       `data-prestige="${(race.prestige || []).join(',')}"`,
       `data-gender="${race.gender || 'men'}"`,
-      `data-race-id="${race.id}"`
+      `data-race-id="${race.id}"`,
+      `data-top-riders="${topRiderCount}"`
     ].join(' ');
 
     // Stage badge for races with stage data
@@ -465,6 +467,18 @@ function generateHTML(raceData) {
         <span>${g.label}</span>
         <span class="chip-count">${genderCounts[g.key]}</span>
       </button>`).join('');
+  };
+
+  const generateTopRidersChip = () => {
+    // Count races with 3+ top riders
+    const count = races.filter(r => (r.topRiders?.length || 0) >= 3).length;
+    if (count === 0) return '';
+
+    return `<button class="icon-filter-chip top-riders-chip" data-filter-type="top-riders" data-filter-value="3">
+      <span class="chip-icon">🌟</span>
+      <span>3+ Top 50</span>
+      <span class="chip-count">${count}</span>
+    </button>`;
   };
 
   return `<!DOCTYPE html>
@@ -802,6 +816,11 @@ function generateHTML(raceData) {
     .icon-filter-chip.active {
       border-color: #3b82f6;
       background: #dbeafe;
+    }
+
+    .icon-filter-chip.top-riders-chip.active {
+      border-color: #f59e0b;
+      background: #fef3c7;
     }
 
     .icon-filter-chip .chip-icon {
@@ -1358,6 +1377,12 @@ function generateHTML(raceData) {
               ${generatePrestigeChips()}
             </div>
           </div>
+          <div class="icon-filter-group">
+            <span class="icon-filter-label">Top Riders</span>
+            <div class="icon-filters">
+              ${generateTopRidersChip()}
+            </div>
+          </div>
         </div>
 
         <label class="filter-label">Filter by Interest Rating:</label>
@@ -1444,7 +1469,8 @@ function generateHTML(raceData) {
       format: new Set(),
       terrain: new Set(),
       prestige: new Set(),
-      gender: new Set()
+      gender: new Set(),
+      topRiders: false
     };
 
     // localStorage persistence
@@ -1454,7 +1480,8 @@ function generateHTML(raceData) {
         format: Array.from(activeFilters.format),
         terrain: Array.from(activeFilters.terrain),
         prestige: Array.from(activeFilters.prestige),
-        gender: Array.from(activeFilters.gender)
+        gender: Array.from(activeFilters.gender),
+        topRiders: activeFilters.topRiders
       };
       localStorage.setItem('cyclingCalendarFilters', JSON.stringify(filtersToSave));
     }
@@ -1470,6 +1497,7 @@ function generateHTML(raceData) {
         activeFilters.terrain = new Set(filters.terrain || []);
         activeFilters.prestige = new Set(filters.prestige || []);
         activeFilters.gender = new Set(filters.gender || []);
+        activeFilters.topRiders = filters.topRiders || false;
         return true;
       } catch (e) {
         return false;
@@ -1486,7 +1514,11 @@ function generateHTML(raceData) {
       document.querySelectorAll('.icon-filter-chip').forEach(chip => {
         const type = chip.dataset.filterType;
         const value = chip.dataset.filterValue;
-        chip.classList.toggle('active', activeFilters[type].has(value));
+        if (type === 'top-riders') {
+          chip.classList.toggle('active', activeFilters.topRiders);
+        } else {
+          chip.classList.toggle('active', activeFilters[type].has(value));
+        }
       });
     }
 
@@ -1496,6 +1528,7 @@ function generateHTML(raceData) {
       activeFilters.terrain.clear();
       activeFilters.prestige.clear();
       activeFilters.gender.clear();
+      activeFilters.topRiders = false;
 
       // Update UI
       document.querySelectorAll('.star-filter-btn').forEach(btn => {
@@ -1514,12 +1547,18 @@ function generateHTML(raceData) {
       const type = chip.dataset.filterType;
       const value = chip.dataset.filterValue;
 
-      if (activeFilters[type].has(value)) {
-        activeFilters[type].delete(value);
-        chip.classList.remove('active');
+      if (type === 'top-riders') {
+        // Toggle boolean
+        activeFilters.topRiders = !activeFilters.topRiders;
+        chip.classList.toggle('active', activeFilters.topRiders);
       } else {
-        activeFilters[type].add(value);
-        chip.classList.add('active');
+        if (activeFilters[type].has(value)) {
+          activeFilters[type].delete(value);
+          chip.classList.remove('active');
+        } else {
+          activeFilters[type].add(value);
+          chip.classList.add('active');
+        }
       }
 
       applyFilters();
@@ -1546,6 +1585,7 @@ function generateHTML(raceData) {
       const terrain = card.dataset.terrain.split(',').filter(Boolean);
       const prestige = card.dataset.prestige.split(',').filter(Boolean);
       const gender = card.dataset.gender || 'men';
+      const topRiderCount = parseInt(card.dataset.topRiders) || 0;
 
       // Check star rating
       if (rating < config.minRating) return false;
@@ -1575,6 +1615,11 @@ function generateHTML(raceData) {
         } else if (!config.gender.has(gender)) {
           return false;
         }
+      }
+
+      // Check top riders filter: Must have 3+ if filter is active
+      if (config.topRiders) {
+        if (topRiderCount < 3) return false;
       }
 
       return true;
@@ -1612,6 +1657,9 @@ function generateHTML(raceData) {
               return cardGender === 'mixed';
             }
             return cardGender === value || cardGender === 'mixed';
+          } else if (type === 'top-riders') {
+            const topRiderCount = parseInt(card.dataset.topRiders) || 0;
+            return topRiderCount >= 3;
           }
           return false;
         }).length;
