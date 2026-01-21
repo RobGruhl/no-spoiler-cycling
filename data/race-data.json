@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T15:44:42.345Z",
+  "lastUpdated": "2026-01-21T15:51:59.242Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -442,6 +442,80 @@
               "channel": "GCN Racing",
               "url": "https://www.youtube.com/watch?v=t4VbV3CwEnE"
             }
+          ]
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "ally-wollaston",
+          "name": "WOLLASTON Ally",
+          "team": "FDJ United - SUEZ",
+          "ranking": 16,
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ]
+        },
+        {
+          "id": "mavi-garcia",
+          "name": "GARCÍA Mavi",
+          "team": "UAE Team ADQ",
+          "ranking": 23,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "dominika-wlodarczyk",
+          "name": "WŁODARCZYK Dominika",
+          "team": "UAE Team ADQ",
+          "ranking": 33,
+          "nationality": "Poland",
+          "nationalityCode": "PO",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "sarah-van-dam",
+          "name": "VAN DAM Sarah",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 36,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "amanda-spratt",
+          "name": "SPRATT Amanda",
+          "team": "Lidl - Trek",
+          "ranking": 42,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "chloe-dygert",
+          "name": "DYGERT Chloé",
+          "team": "CANYON//SRAM zondacrypto",
+          "ranking": 48,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "time-trialist",
+            "track"
           ]
         }
       ]
@@ -1086,7 +1160,81 @@
             "contentType": "highlights"
           }
         ]
-      }
+      },
+      "topRiders": [
+        {
+          "id": "ally-wollaston",
+          "name": "WOLLASTON Ally",
+          "team": "FDJ United - SUEZ",
+          "ranking": 16,
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ]
+        },
+        {
+          "id": "mavi-garcia",
+          "name": "GARCÍA Mavi",
+          "team": "UAE Team ADQ",
+          "ranking": 23,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "dominika-wlodarczyk",
+          "name": "WŁODARCZYK Dominika",
+          "team": "UAE Team ADQ",
+          "ranking": 33,
+          "nationality": "Poland",
+          "nationalityCode": "PO",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "sarah-van-dam",
+          "name": "VAN DAM Sarah",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 36,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "amanda-spratt",
+          "name": "SPRATT Amanda",
+          "team": "Lidl - Trek",
+          "ranking": 42,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "chloe-dygert",
+          "name": "DYGERT Chloé",
+          "team": "CANYON//SRAM zondacrypto",
+          "ranking": 48,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "time-trialist",
+            "track"
+          ]
+        }
+      ]
     },
     {
       "id": "classica-camp-de-morvedre-2026",
@@ -1616,18 +1764,7 @@
           }
         },
         "notes": "First Women's WorldTour one-day race of the season. Full TV production with helicopter coverage."
-      },
-      "topRiders": [
-        {
-          "id": "tobias-lund-andresen",
-          "name": "ANDRESEN Tobias Lund",
-          "team": "Decathlon CMA CGM Team",
-          "ranking": 40,
-          "nationality": "Denmark",
-          "nationalityCode": "DE",
-          "specialties": []
-        }
-      ]
+      }
     },
     {
       "id": "gp-la-marseillaise-2026",
@@ -2295,7 +2432,21 @@
           }
         },
         "notes": "Only Women's WorldTour race in the Middle East. Premium production quality with helicopter coverage."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "muscat-classic-2026",
@@ -5336,6 +5487,44 @@
       "prestige": [
         "monument",
         "monument"
+      ],
+      "topRiders": [
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -7470,7 +7659,21 @@
         "hilly",
         "mountain"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-of-hellas-2026",
@@ -8897,7 +9100,21 @@
         "mountain",
         "itt"
       ],
-      "distance": 200
+      "distance": 200,
+      "topRiders": [
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "time-trialist",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "la-route-d-occitanie-2026",
@@ -10130,6 +10347,107 @@
       "prestige": [
         "grand-tour",
         "grand-tour"
+      ],
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "time-trialist",
+            "climber"
+          ]
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "niamh-fisher-black",
+          "name": "FISHER-BLACK Niamh",
+          "team": "Lidl - Trek",
+          "ranking": 11,
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "cyclocross",
+            "mtb"
+          ]
+        },
+        {
+          "id": "liane-lippert",
+          "name": "LIPPERT Liane",
+          "team": "Movistar Team",
+          "ranking": 32,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
       ]
     },
     {
