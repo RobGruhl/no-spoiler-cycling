@@ -349,6 +349,23 @@
       border-color: #d97706;
     }
 
+    /* Ranks 4-10: Blue "elite" tier */
+    .top-rider-card.top-4, .top-rider-card.top-5, .top-rider-card.top-6,
+    .top-rider-card.top-7, .top-rider-card.top-8, .top-rider-card.top-9,
+    .top-rider-card.top-10 {
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border-color: #3b82f6;
+    }
+
+    /* Ranks 11-20: Subtle gray tier */
+    .top-rider-card.top-11, .top-rider-card.top-12, .top-rider-card.top-13,
+    .top-rider-card.top-14, .top-rider-card.top-15, .top-rider-card.top-16,
+    .top-rider-card.top-17, .top-rider-card.top-18, .top-rider-card.top-19,
+    .top-rider-card.top-20 {
+      background: #f9fafb;
+      border-color: #9ca3af;
+    }
+
     .rider-rank {
       font-size: 0.8rem;
       font-weight: 700;
@@ -360,6 +377,21 @@
     .top-rider-card.top-2 .rider-rank,
     .top-rider-card.top-3 .rider-rank {
       color: #1f2937;
+    }
+
+    .top-rider-card.top-4 .rider-rank, .top-rider-card.top-5 .rider-rank,
+    .top-rider-card.top-6 .rider-rank, .top-rider-card.top-7 .rider-rank,
+    .top-rider-card.top-8 .rider-rank, .top-rider-card.top-9 .rider-rank,
+    .top-rider-card.top-10 .rider-rank {
+      color: #1d4ed8;
+    }
+
+    .top-rider-card.top-11 .rider-rank, .top-rider-card.top-12 .rider-rank,
+    .top-rider-card.top-13 .rider-rank, .top-rider-card.top-14 .rider-rank,
+    .top-rider-card.top-15 .rider-rank, .top-rider-card.top-16 .rider-rank,
+    .top-rider-card.top-17 .rider-rank, .top-rider-card.top-18 .rider-rank,
+    .top-rider-card.top-19 .rider-rank, .top-rider-card.top-20 .rider-rank {
+      color: #374151;
     }
 
     .rider-info {
@@ -922,7 +954,7 @@
       <div class="race-badges">
         <span class="badge badge-category">2.UWT</span>
         <span class="badge badge-spoiler-safe">Spoiler Safe</span>
-        
+        <span class="badge badge-past">Race Finished</span>
       </div>
       <h1 class="race-title">Prologue: Adelaide → Adelaide (ITT)</h1>
       <div class="race-meta">
@@ -946,6 +978,68 @@
       
       
       
+      <section class="details-section">
+        <h2 class="section-title">🚴 Confirmed Top Riders</h2>
+        <p class="section-subtitle">UCI ranked riders confirmed for this race</p>
+        <div class="top-riders-grid">
+          
+        <a href="../riders/jay-vine.html" class="top-rider-card ">
+          <div class="rider-rank">#21</div>
+          <div class="rider-info">
+            <div class="rider-name">VINE Jay</div>
+            <div class="rider-team">UAE Team Emirates - XRG</div>
+          </div>
+          <div class="rider-specialties">⏱️ ⛰️ 🎯</div>
+        </a>
+      
+        <a href="../riders/matthew-brennan.html" class="top-rider-card ">
+          <div class="rider-rank">#30</div>
+          <div class="rider-info">
+            <div class="rider-name">BRENNAN Matthew</div>
+            <div class="rider-team">Team Visma \| Lease a Bike</div>
+          </div>
+          <div class="rider-specialties"></div>
+        </a>
+      
+        <a href="../riders/jhonatan-narvaez.html" class="top-rider-card ">
+          <div class="rider-rank">#33</div>
+          <div class="rider-info">
+            <div class="rider-name">NARVÁEZ Jhonatan</div>
+            <div class="rider-team">UAE Team Emirates - XRG</div>
+          </div>
+          <div class="rider-specialties">🎯 💪 🏁</div>
+        </a>
+      
+        <a href="../riders/corbin-strong.html" class="top-rider-card ">
+          <div class="rider-rank">#36</div>
+          <div class="rider-info">
+            <div class="rider-name">STRONG Corbin</div>
+            <div class="rider-team">NSN Cycling Team</div>
+          </div>
+          <div class="rider-specialties">💪 🏁</div>
+        </a>
+      
+        <a href="../riders/tobias-lund-andresen.html" class="top-rider-card ">
+          <div class="rider-rank">#40</div>
+          <div class="rider-info">
+            <div class="rider-name">ANDRESEN Tobias Lund</div>
+            <div class="rider-team">Decathlon CMA CGM Team</div>
+          </div>
+          <div class="rider-specialties"></div>
+        </a>
+      
+        <a href="../riders/adam-yates.html" class="top-rider-card ">
+          <div class="rider-rank">#43</div>
+          <div class="rider-info">
+            <div class="rider-name">YATES Adam</div>
+            <div class="rider-team">UAE Team Emirates - XRG</div>
+          </div>
+          <div class="rider-specialties">⛰️ 🎯 🏁</div>
+        </a>
+      
+        </div>
+      </section>
+    
       
       
       
@@ -958,6 +1052,75 @@
     
     
 
+    
+      <section class="details-section key-riders-section">
+        <h2 class="section-title">🚴 Key Riders</h2>
+        <p class="key-riders-intro">Top-ranked riders with this race in their 2026 program</p>
+        <div class="key-riders-grid">
+          
+        <a href="../riders/jay-vine.html" class="key-rider-card">
+          <img src="../riders/photos/jay-vine.jpg" alt="VINE Jay" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#21</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🇦🇺</span>
+            <span class="key-rider-name">VINE Jay</span>
+            <span class="key-rider-team">UAE Team Emirates - XRG</span>
+          </div>
+        </a>
+      
+        <a href="../riders/matthew-brennan.html" class="key-rider-card">
+          <img src="../riders/photos/matthew-brennan.jpg" alt="BRENNAN Matthew" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#30</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🏳️</span>
+            <span class="key-rider-name">BRENNAN Matthew</span>
+            <span class="key-rider-team">Team Visma \| Lease a Bike</span>
+          </div>
+        </a>
+      
+        <a href="../riders/jhonatan-narvaez.html" class="key-rider-card">
+          <img src="../riders/photos/jhonatan-narvaez.jpg" alt="NARVÁEZ Jhonatan" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#33</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🏳️</span>
+            <span class="key-rider-name">NARVÁEZ Jhonatan</span>
+            <span class="key-rider-team">UAE Team Emirates - XRG</span>
+          </div>
+        </a>
+      
+        <a href="../riders/corbin-strong.html" class="key-rider-card">
+          <img src="../riders/photos/corbin-strong.jpg" alt="STRONG Corbin" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#36</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🏳️</span>
+            <span class="key-rider-name">STRONG Corbin</span>
+            <span class="key-rider-team">NSN Cycling Team</span>
+          </div>
+        </a>
+      
+        <a href="../riders/tobias-lund-andresen.html" class="key-rider-card">
+          <img src="../riders/photos/tobias-lund-andresen.jpg" alt="ANDRESEN Tobias Lund" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#40</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🇩🇪</span>
+            <span class="key-rider-name">ANDRESEN Tobias Lund</span>
+            <span class="key-rider-team">Decathlon CMA CGM Team</span>
+          </div>
+        </a>
+      
+        <a href="../riders/adam-yates.html" class="key-rider-card">
+          <img src="../riders/photos/adam-yates.jpg" alt="YATES Adam" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
+          <div class="key-rider-rank">#43</div>
+          <div class="key-rider-info">
+            <span class="key-rider-flag">🏳️</span>
+            <span class="key-rider-name">YATES Adam</span>
+            <span class="key-rider-team">UAE Team Emirates - XRG</span>
+          </div>
+        </a>
+      
+        </div>
+        <a href="../riders.html" class="view-all-riders">View all riders →</a>
+      </section>
     
 
     
@@ -1063,6 +1226,23 @@
       
         </div>
       
+        <div class="broadcast-geo">
+          <h3 class="geo-label">🇦🇺 Australia</h3>
+          
+        <div class="broadcast-primary">
+          <a href="https://7plus.com.au" target="_blank" rel="noopener" class="broadcast-link primary">
+            <span class="broadcast-name">Seven Network</span>
+            <span class="broadcast-meta">
+              🔴 Live
+              <span class="free-badge">Free</span>
+            </span>
+          </a>
+          <p class="broadcast-notes">FREE live coverage on 7plus streaming and Seven TV. Commentary team includes Grace Brown, Mark Beretta, Matthew Keenan, Phil Liggett, Robbie McEwen, and Gracie Elvin.</p>
+        </div>
+      
+          
+        </div>
+      
         </div>
         
       <div class="youtube-channels">
@@ -1084,10 +1264,15 @@
               <span class="yt-type">highlights</span>
             </a>
           
+            <a href="https://youtube.com/@124_cycling" target="_blank" rel="noopener" class="youtube-chip">
+              124 Cycling
+              <span class="yt-type">preview</span>
+            </a>
+          
         </div>
       </div>
     
-        <p class="broadcast-footer-notes">Race starts Jan 20, 2026. YouTube highlights typically posted same day after each stage.</p>
+        <p class="broadcast-footer-notes">Race runs Jan 20-25, 2026. FREE live coverage on 7plus (Australia only). YouTube highlights typically posted same day after each stage.</p>
       </section>
     
 

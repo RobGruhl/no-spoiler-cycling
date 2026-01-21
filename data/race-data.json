@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T04:19:00.727Z",
+  "lastUpdated": "2026-01-21T04:39:58.350Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -309,6 +309,144 @@
       "gender": "men"
     },
     {
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women",
+      "type": "full-race",
+      "discoveredAt": "2026-01-20T00:00:00Z",
+      "id": "women-tour-down-under-2026",
+      "name": "Women's Tour Down Under 2026",
+      "description": "Three-stage women's race through South Australia's wine country, featuring the iconic Corkscrew Road climb",
+      "raceDate": "2026-01-17",
+      "raceDay": "Saturday",
+      "endDate": "2026-01-19",
+      "gender": "women",
+      "category": "2.WWT",
+      "location": "South Australia",
+      "raceFormat": "stage-race",
+      "terrain": [
+        "hilly",
+        "mountain"
+      ],
+      "rating": 3,
+      "broadcast": {
+        "lastUpdated": "2026-01-20T00:00:00Z",
+        "geos": {
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays - Canada only"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "YouTube Highlights",
+              "type": "free",
+              "url": "https://www.youtube.com/@GCNRacing",
+              "coverage": "highlights",
+              "subscription": false,
+              "notes": "Free highlights available on YouTube"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports YouTube",
+              "type": "free",
+              "url": "https://www.youtube.com/@tntsports",
+              "coverage": "highlights",
+              "subscription": false,
+              "notes": "Free highlights on TNT Sports YouTube"
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "TNT Sports",
+            "handle": "@tntsports",
+            "contentType": "highlights"
+          },
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "highlights"
+          }
+        ],
+        "notes": "FloBikes has full coverage (Canada only). YouTube highlights available globally."
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-01-17",
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women/videos?playing=15206495",
+          "duration": "4:21:05",
+          "description": "Opening stage of the Women's Tour Down Under"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Corkscrew Road",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "hilly"
+          ],
+          "date": "2026-01-18",
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women/videos?playing=15228214",
+          "duration": "4:47:54",
+          "description": "Queen stage featuring the iconic Corkscrew Road climb",
+          "youtubeHighlights": [
+            {
+              "channel": "NBC Sports",
+              "url": "https://www.youtube.com/watch?v=qsTwvSmrv4E"
+            },
+            {
+              "channel": "TNT Sports",
+              "url": "https://www.youtube.com/watch?v=2xoqRe7IViQ"
+            }
+          ]
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Campbelltown",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-01-19",
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women/videos?playing=15236762",
+          "duration": "4:46:24",
+          "description": "Final stage with circuit finish in Campbelltown",
+          "youtubeHighlights": [
+            {
+              "channel": "TNT Sports",
+              "url": "https://www.youtube.com/watch?v=4vy-g40PLyg"
+            },
+            {
+              "channel": "GCN Racing",
+              "url": "https://www.youtube.com/watch?v=t4VbV3CwEnE"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "tour-down-under-2026",
       "name": "Tour Down Under",
       "description": "2.UWT cycling race in Australia",
@@ -521,8 +659,8 @@
           ],
           "distance": 3.6,
           "date": "2026-01-20",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15239572-watch-in-canada-2026-santos-tour-down-under-prologue",
           "description": "Short 3.6km individual time trial from the City of Adelaide Tour Village to Victoria Park. Flat run-out with a twisting conclusion - a sharp wake-up call for legs after the off-season.",
           "stageDetails": {
             "lastFetched": "2026-01-07T00:00:00Z",
@@ -530,7 +668,8 @@
             "courseSummary": "A 3.6km twilight time trial through Adelaide's heart - only the second prologue in TDU history. Starting from the City of Adelaide Tour Village in the CBD, riders face a straight, flat run-out before a twisting technical conclusion in Victoria Park. Race Director Stuart O'Grady calls it 'a violent effort and stark wake-up call for riders' legs after months away from competition.'",
             "keyClimbs": [],
             "watchNotes": "The prologue shakes up race dynamics from day one - riders 10-20 seconds behind will need to attack later in the week. TT specialists and GC contenders will be fighting for every second. Watch for the technical corners in Victoria Park where time can be gained or lost."
-          }
+          },
+          "youtubeHighlights": "https://www.youtube.com/watch?v=r3F83DAh0j8"
         },
         {
           "stageNumber": 1,
