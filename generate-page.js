@@ -279,11 +279,22 @@ function generateHTML(raceData) {
       </div>
       ` : ''}`;
 
-    // Wrap in link if details page exists
+    // Wrap in link if details page exists OR if video URL available
     if (hasDetails && !isRestDay) {
+      // Link to stage details page
       return `
     <a href="${detailsUrl}" class="stage-card-link">
       <div class="stage-card has-details ${isTBD ? 'tbd' : ''}" style="border-left-color: ${color}">
+        ${cardContent}
+      </div>
+    </a>`;
+    }
+
+    if (!isRestDay && !isTBD && stage.url && stage.url !== 'TBD') {
+      // Link directly to video URL (opens in new tab)
+      return `
+    <a href="${stage.url}" class="stage-card-link" target="_blank" rel="noopener">
+      <div class="stage-card has-video" style="border-left-color: ${color}">
         ${cardContent}
       </div>
     </a>`;
@@ -973,6 +984,21 @@ function generateHTML(raceData) {
     }
 
     .stage-card.has-details:hover .status-details {
+      text-decoration: underline;
+    }
+
+    .stage-card.has-video {
+      cursor: pointer;
+      border-left-width: 4px;
+    }
+
+    .stage-card.has-video:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 165, 81, 0.2);
+      border-left-color: #00A651 !important;
+    }
+
+    .stage-card.has-video:hover .status-ready {
       text-decoration: underline;
     }
 
