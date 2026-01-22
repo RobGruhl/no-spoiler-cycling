@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T15:57:50.648Z",
+  "lastUpdated": "2026-01-22T17:11:17.327Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -385,30 +385,49 @@
       "stages": [
         {
           "stageNumber": 1,
-          "name": "Stage 1",
+          "name": "Stage 1: Willunga to Willunga",
           "stageType": "hilly",
           "terrain": [
-            "hilly"
+            "hilly",
+            "flat"
           ],
+          "distance": 137.4,
           "date": "2026-01-17",
           "platform": "FloBikes",
           "url": "https://www.flobikes.com/video/15206495-watch-in-canada-2026-womens-santos-tour-down-under-stage-1",
           "duration": "4:21:05",
-          "description": "Opening stage of the Women's Tour Down Under"
+          "description": "Opening stage starting and finishing in Willunga. Features two mid-stage ascents and a short uphill finish suited to punchy sprinters.",
+          "stageDetails": {
+            "lastFetched": "2026-01-22T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The Women's Tour Down Under opens in Willunga, the home of the iconic hill that has become synonymous with TDU. However, Stage 1 bypasses the famous climb, instead featuring two mid-stage ascents at 53.5km and 95.4km before a short uphill sprint finish. The 475m climb to the finish line (5.6% gradient, 20m elevation) favors punchy sprinters who can power up the modest incline.",
+            "keyClimbs": [
+              {
+                "name": "Willunga Circuit Climb",
+                "category": "4",
+                "length": 0.475,
+                "avgGradient": "5.6%",
+                "kmFromFinish": 0,
+                "notes": "Short uphill sprint finish - punchy sprinters' territory"
+              }
+            ],
+            "watchNotes": "A stage for the powerful sprinters who can handle a short uphill finale. Watch for positioning battles on the circuit and attacks from riders who want to test their legs early. Two intermediate sprints at Snapper Point (17.2km and 114km) add bonus opportunities."
+          }
         },
         {
           "stageNumber": 2,
-          "name": "Stage 2: Corkscrew Road",
+          "name": "Stage 2: Magill to Paracombe",
           "stageType": "mountain",
           "terrain": [
             "mountain",
             "hilly"
           ],
+          "distance": 130.7,
           "date": "2026-01-18",
           "platform": "FloBikes",
           "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women/videos?playing=15228214",
           "duration": "4:47:54",
-          "description": "Queen stage featuring the iconic Corkscrew Road climb",
+          "description": "Queen stage featuring dual ascents of the iconic Corkscrew Road - the decisive stage for GC.",
           "youtubeHighlights": [
             {
               "channel": "NBC Sports",
@@ -418,21 +437,48 @@
               "channel": "TNT Sports",
               "url": "https://www.youtube.com/watch?v=2xoqRe7IViQ"
             }
-          ]
+          ],
+          "stageDetails": {
+            "lastFetched": "2026-01-22T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The queen stage of the Women's Tour Down Under features very little flat terrain. Starting from Magill's debut as a TDU host, the course rolls up and down through the Adelaide Hills before tackling two ascents of the punishing Corkscrew Road. The dual Corkscrew climb finale has been added for 2026, making this the decisive stage for the overall classification. Paracombe hosts the finish for the first time.",
+            "keyClimbs": [
+              {
+                "name": "Corkscrew Road (1st)",
+                "category": "2",
+                "length": 2.1,
+                "avgGradient": "9.7%",
+                "maxGradient": "14%",
+                "kmFromFinish": 25,
+                "notes": "First ascent - sets up the finale"
+              },
+              {
+                "name": "Corkscrew Road (2nd)",
+                "category": "2",
+                "length": 2.1,
+                "avgGradient": "9.7%",
+                "maxGradient": "14%",
+                "kmFromFinish": 5,
+                "notes": "Final climb - decisive moment for GC"
+              }
+            ],
+            "watchNotes": "The Corkscrew's 9.7% average gradient with pitches up to 14% will shatter the peloton. The dual ascent format is new for 2026, allowing GC contenders two shots at making the decisive move. Expect attacks on both climbs as riders fight for the ochre jersey. The rolling terrain throughout means no recovery time for tired legs."
+          }
         },
         {
           "stageNumber": 3,
-          "name": "Stage 3: Campbelltown",
+          "name": "Stage 3: Norwood to Campbelltown",
           "stageType": "hilly",
           "terrain": [
             "hilly",
             "circuit"
           ],
+          "distance": 126.5,
           "date": "2026-01-19",
           "platform": "FloBikes",
           "url": "https://www.flobikes.com/events/15182301-2026-santos-tour-down-under-women/videos?playing=15236762",
           "duration": "4:46:24",
-          "description": "Final stage with circuit finish in Campbelltown",
+          "description": "Final stage with circuit finish in Campbelltown - last chance to shake up the GC.",
           "youtubeHighlights": [
             {
               "channel": "TNT Sports",
@@ -442,7 +488,14 @@
               "channel": "GCN Racing",
               "url": "https://www.youtube.com/watch?v=t4VbV3CwEnE"
             }
-          ]
+          ],
+          "stageDetails": {
+            "lastFetched": "2026-01-22T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The final stage takes riders from Norwood to a circuit finish in Campbelltown. While not as brutal as the Corkscrew stage, the hilly terrain still provides opportunities for late attacks. The circuit format adds unpredictability to the finale, giving aggressive riders multiple chances to test the GC leader.",
+            "keyClimbs": [],
+            "watchNotes": "The final battle for the ochre jersey. If the GC is tight, expect nervous racing and potential attacks. The circuit finish rewards riders who can read the race and time their final effort. Team tactics will be crucial in protecting or attacking the overall lead."
+          }
         }
       ],
       "topRiders": [
@@ -785,8 +838,9 @@
           ],
           "distance": 148.1,
           "date": "2026-01-22",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/events/14720263-2026-santos-tour-down-under-men/videos?playing=15264059",
+          "duration": "5:11:42",
           "description": "The feared Corkscrew Road (9.7% avg) features twice - midway and 14km from the finish. Also includes Norton Summit and Mount Lofty climbs. A true GC shaker.",
           "stageDetails": {
             "lastFetched": "2026-01-07T00:00:00Z",
