@@ -159,6 +159,17 @@ const TIME_TRIAL_RACES = [
   'world championships: mixed relay tt'
 ];
 
+// Cyclocross races
+const CYCLOCROSS_RACES = [
+  'cyclocross world cup',
+  'cyclocross world championships',
+  'cx world cup',
+  'cx world championships'
+];
+
+// Cyclocross categories
+const CYCLOCROSS_CATEGORIES = ['CX.WC', 'CX.WCh'];
+
 // Typical race distances (km)
 const RACE_DISTANCES = {
   // Grand Tours (total km)
@@ -204,6 +215,24 @@ function normalizeRaceName(name) {
     .replace(/['']/g, '\'');
 }
 
+function getDiscipline(race) {
+  const category = race.category;
+  const nameLower = normalizeRaceName(race.name);
+
+  // Cyclocross - check category first
+  if (CYCLOCROSS_CATEGORIES.includes(category)) {
+    return 'cyclocross';
+  }
+
+  // Check race name for cyclocross keywords
+  if (CYCLOCROSS_RACES.some(cx => nameLower.includes(normalizeRaceName(cx)))) {
+    return 'cyclocross';
+  }
+
+  // Default to road
+  return 'road';
+}
+
 function getRaceFormat(race) {
   const category = race.category;
   const nameLower = normalizeRaceName(race.name);
@@ -211,6 +240,11 @@ function getRaceFormat(race) {
   // Time trials
   if (TIME_TRIAL_RACES.some(tt => nameLower.includes(normalizeRaceName(tt)))) {
     return nameLower.includes('mixed relay') ? 'ttt' : 'itt';
+  }
+
+  // Cyclocross races are one-day events
+  if (getDiscipline(race) === 'cyclocross') {
+    return 'one-day';
   }
 
   // Stage races (2.x categories)
@@ -312,6 +346,11 @@ function getTerrain(race) {
   const nameLower = normalizeRaceName(race.name);
   const terrain = [];
 
+  // Cyclocross races have cyclocross terrain
+  if (getDiscipline(race) === 'cyclocross') {
+    return ['cyclocross'];
+  }
+
   // Check for stage race terrain profiles first
   for (const [raceName, terrains] of Object.entries(STAGE_RACE_TERRAINS)) {
     if (nameLower.includes(normalizeRaceName(raceName))) {
@@ -391,27 +430,33 @@ function getDistance(race) {
 // MAIN PROCESSING
 // ============================================
 
-console.log('Tagging races with format, terrain, distance, and prestige...\n');
+console.log('Tagging races with format, terrain, distance, prestige, and discipline...\n');
 
 let stats = {
   formats: { 'one-day': 0, 'stage-race': 0, 'itt': 0, 'ttt': 0 },
   prestige: { 'grand-tour': 0, 'monument': 0, 'world-championship': 0 },
-  terrain: { cobbles: 0, gravel: 0, mountain: 0, hilly: 0, flat: 0, circuit: 0 }
+  terrain: { cobbles: 0, gravel: 0, mountain: 0, hilly: 0, flat: 0, circuit: 0, cyclocross: 0 },
+  discipline: { 'road': 0, 'cyclocross': 0 }
 };
 
 data.races = data.races.map(race => {
+  const discipline = getDiscipline(race);
   const raceFormat = getRaceFormat(race);
   const prestige = getPrestige(race);
   const terrain = getTerrain(race);
   const distance = getDistance(race);
 
   // Update stats
+  stats.discipline[discipline]++;
   stats.formats[raceFormat]++;
   if (prestige) prestige.forEach(p => stats.prestige[p]++);
-  terrain.forEach(t => stats.terrain[t]++);
+  terrain.forEach(t => {
+    if (stats.terrain[t] !== undefined) stats.terrain[t]++;
+  });
 
   return {
     ...race,
+    discipline,
     raceFormat,
     terrain,
     distance,
@@ -426,6 +471,7 @@ data.lastUpdated = new Date().toISOString();
 writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
 console.log('Done! Statistics:\n');
+console.log('Discipline:', stats.discipline);
 console.log('Formats:', stats.formats);
 console.log('Prestige:', stats.prestige);
 console.log('Terrain:', stats.terrain);

@@ -1,0 +1,525 @@
+{
+  "lastUpdated": "2026-01-26T00:00:00.000Z",
+  "riders": [
+    {
+      "id": "lucinda-brand-cx",
+      "slug": "lucinda-brand",
+      "name": "BRAND Lucinda",
+      "team": "Baloise Lions",
+      "ranking": 1,
+      "points": 920,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1989-07-02",
+      "weight": 58,
+      "height": 1.70,
+      "specialties": ["cx-specialist", "experienced", "world-champion"],
+      "photoUrl": "riders/photos/lucinda-brand.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/lucinda-brand",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "puck-pieterse-cx",
+      "slug": "puck-pieterse",
+      "name": "PIETERSE Puck",
+      "team": "Alpecin-Deceuninck",
+      "ranking": 2,
+      "points": 880,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "2002-05-08",
+      "weight": 55,
+      "height": 1.68,
+      "specialties": ["cx-specialist", "technical", "young-talent"],
+      "photoUrl": "riders/photos/puck-pieterse.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/puck-pieterse",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fem-van-empel-cx",
+      "slug": "fem-van-empel",
+      "name": "VAN EMPEL Fem",
+      "team": "Visma-Lease a Bike",
+      "ranking": 3,
+      "points": 850,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "2002-11-12",
+      "weight": 56,
+      "height": 1.69,
+      "specialties": ["cx-specialist", "explosive", "young-talent"],
+      "photoUrl": "riders/photos/fem-van-empel.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/fem-van-empel",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ceylin-del-carmen-alvarado-cx",
+      "slug": "ceylin-del-carmen-alvarado",
+      "name": "ALVARADO Ceylin del Carmen",
+      "team": "Fenix-Deceuninck",
+      "ranking": 4,
+      "points": 780,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1998-01-15",
+      "weight": 57,
+      "height": 1.70,
+      "specialties": ["cx-specialist", "explosive", "world-champion"],
+      "photoUrl": "riders/photos/ceylin-del-carmen-alvarado.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/ceylin-del-carmen-alvarado",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "inge-van-der-heijden-cx",
+      "slug": "inge-van-der-heijden",
+      "name": "VAN DER HEIJDEN Inge",
+      "team": "Fenix-Deceuninck",
+      "ranking": 5,
+      "points": 720,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1999-09-17",
+      "weight": 54,
+      "height": 1.66,
+      "specialties": ["cx-specialist", "technical", "consistent"],
+      "photoUrl": "riders/photos/inge-van-der-heijden.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/inge-van-der-heijden",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aniek-van-alphen-cx",
+      "slug": "aniek-van-alphen",
+      "name": "VAN ALPHEN Aniek",
+      "team": "777",
+      "ranking": 6,
+      "points": 680,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1999-01-11",
+      "weight": 56,
+      "height": 1.68,
+      "specialties": ["cx-specialist", "consistent", "powerful"],
+      "photoUrl": "riders/photos/aniek-van-alphen.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/aniek-van-alphen",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "amandine-fouquenet-cx",
+      "slug": "amandine-fouquenet",
+      "name": "FOUQUENET Amandine",
+      "team": "Team FDJ-Suez",
+      "ranking": 7,
+      "points": 640,
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "1994-08-06",
+      "weight": 55,
+      "height": 1.67,
+      "specialties": ["cx-specialist", "consistent", "experienced"],
+      "photoUrl": "riders/photos/amandine-fouquenet.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/amandine-fouquenet",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zoe-backstedt-cx",
+      "slug": "zoe-backstedt",
+      "name": "BACKSTEDT Zoe",
+      "team": "Canyon-SRAM",
+      "ranking": 8,
+      "points": 600,
+      "nationality": "Great Britain",
+      "nationalityCode": "GB",
+      "dateOfBirth": "2004-07-01",
+      "weight": 58,
+      "height": 1.72,
+      "specialties": ["cx-specialist", "explosive", "young-talent"],
+      "photoUrl": "riders/photos/zoe-backstedt.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/zoe-backstedt",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "marion-norbert-riberolle-cx",
+      "slug": "marion-norbert-riberolle",
+      "name": "NORBERT-RIBEROLLE Marion",
+      "team": "AS De Fondettes",
+      "ranking": 9,
+      "points": 560,
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2000-02-21",
+      "weight": 56,
+      "height": 1.68,
+      "specialties": ["cx-specialist", "technical", "consistent"],
+      "photoUrl": "riders/photos/marion-norbert-riberolle.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/marion-norbert-riberolle",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "leonie-bentveld-cx",
+      "slug": "leonie-bentveld",
+      "name": "BENTVELD Leonie",
+      "team": "Fenix-Deceuninck",
+      "ranking": 10,
+      "points": 520,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "2002-02-07",
+      "weight": 55,
+      "height": 1.67,
+      "specialties": ["cx-specialist", "technical", "young-talent"],
+      "photoUrl": "riders/photos/leonie-bentveld.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/leonie-bentveld",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-women",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-women",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-women",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-women",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Women Elite",
+            "raceSlug": "cx-world-championships-2026-women",
+            "raceDate": "2026-01-31",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    }
+  ]
+}

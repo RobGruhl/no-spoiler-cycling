@@ -1,11 +1,512 @@
 {
-  "lastUpdated": "2026-01-25T06:49:45.613Z",
+  "lastUpdated": "2026-01-27T05:10:57.267Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
     "year": 2026
   },
   "races": [
+    {
+      "discoveredAt": "2026-01-27T05:10:49.084Z",
+      "id": "cx-world-cup-zonhoven-2026-men",
+      "name": "UCI Cyclocross World Cup Zonhoven - Men Elite",
+      "description": "The legendary 'Hell of the Sand' returns for round 9 of the World Cup. Deep sand pits and technical sections make Zonhoven one of the most demanding courses on the circuit.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-04",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "men",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Zonhoven, Belgium",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel-cx",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "explosive"
+          ]
+        },
+        {
+          "id": "michael-vanthourenhout-cx",
+          "name": "VANTHOURENHOUT Michael",
+          "team": "Pauwels Sauzen-Bingoal",
+          "ranking": 2,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "thibau-nys-cx",
+          "name": "NYS Thibau",
+          "team": "Baloise Lions",
+          "ranking": 3,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "technical"
+          ]
+        },
+        {
+          "id": "toon-aerts-cx",
+          "name": "AERTS Toon",
+          "team": "Baloise Trek Lions",
+          "ranking": 4,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        },
+        {
+          "id": "niels-vandeputte-cx",
+          "name": "VANDEPUTTE Niels",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 5,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "emiel-verstrynge-cx",
+          "name": "VERSTRYNGE Emiel",
+          "team": "Crelan-Corendon",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "laurens-sweeck-cx",
+          "name": "SWEECK Laurens",
+          "team": "Crelan-Corendon",
+          "ranking": 7,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "lars-van-der-haar-cx",
+          "name": "VAN DER HAAR Lars",
+          "team": "Baloise Trek Lions",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "tibor-del-grosso-cx",
+          "name": "DEL GROSSO Tibor",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 9,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "joran-wyseure-cx",
+          "name": "WYSEURE Joran",
+          "team": "Crelan-Corendon",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            },
+            "alternatives": [
+              {
+                "broadcaster": "RTBF",
+                "type": "free",
+                "coverage": "live",
+                "subscription": false
+              }
+            ]
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCI",
+            "contentType": "highlights"
+          }
+        ]
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "Zonhoven's iconic 'Kuil' (the pit) features notorious deep sand sections that have become legendary in cyclocross. The 2.8km circuit includes steep drops, off-camber turns, and the famous sand pit that can make or break a race.",
+        "keySectors": [
+          {
+            "name": "The Kuil (Sand Pit)",
+            "kmFromFinish": 1.5,
+            "length": 0.3,
+            "surface": "deep sand",
+            "difficulty": 5,
+            "description": "The legendary sand pit - riders often dismount and run"
+          },
+          {
+            "name": "Sand Drop",
+            "kmFromFinish": 2,
+            "length": 0.2,
+            "surface": "sand",
+            "difficulty": 4,
+            "description": "Steep descent into a sand section"
+          }
+        ],
+        "favorites": {
+          "sandSpecialists": [
+            "Mathieu van der Poel",
+            "Michael Vanthourenhout"
+          ],
+          "powerRiders": [
+            "Toon Aerts",
+            "Laurens Sweeck"
+          ],
+          "youngTalent": [
+            "Thibau Nys",
+            "Emiel Verstrynge"
+          ]
+        },
+        "narratives": [
+          "Van der Poel's sand pit dominance continues",
+          "Belgian rivalry intensifies for World Cup standings",
+          "Young talents looking to break through"
+        ],
+        "watchNotes": "Watch for the sand pit - technique and power are equally important. Early laps establish the pecking order."
+      }
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.085Z",
+      "id": "cx-world-cup-zonhoven-2026-women",
+      "name": "UCI Cyclocross World Cup Zonhoven - Women Elite",
+      "description": "The legendary 'Hell of the Sand' returns for round 9 of the World Cup. Deep sand pits and technical sections make Zonhoven one of the most demanding courses for the elite women.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-04",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "women",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Zonhoven, Belgium",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Lions",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Visma-Lease a Bike",
+          "ranking": 3,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Fenix-Deceuninck",
+          "ranking": 4,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "Fenix-Deceuninck",
+          "ranking": 5,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "aniek-van-alphen-cx",
+          "name": "VAN ALPHEN Aniek",
+          "team": "777",
+          "ranking": 6,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "powerful"
+          ]
+        },
+        {
+          "id": "amandine-fouquenet-cx",
+          "name": "FOUQUENET Amandine",
+          "team": "Team FDJ-Suez",
+          "ranking": 7,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "zoe-backstedt-cx",
+          "name": "BACKSTEDT Zoe",
+          "team": "Canyon-SRAM",
+          "ranking": 8,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "marion-norbert-riberolle-cx",
+          "name": "NORBERT-RIBEROLLE Marion",
+          "team": "AS De Fondettes",
+          "ranking": 9,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "leonie-bentveld-cx",
+          "name": "BENTVELD Leonie",
+          "team": "Fenix-Deceuninck",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Full live coverage and replays"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            },
+            "alternatives": [
+              {
+                "broadcaster": "RTBF",
+                "type": "free",
+                "coverage": "live",
+                "subscription": false
+              }
+            ]
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCI",
+            "contentType": "highlights"
+          }
+        ]
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "The women tackle the same iconic Zonhoven course with its legendary sand pit. Dutch dominance is expected but the technical demands can produce surprises.",
+        "keySectors": [
+          {
+            "name": "The Kuil (Sand Pit)",
+            "kmFromFinish": 1.5,
+            "length": 0.3,
+            "surface": "deep sand",
+            "difficulty": 5,
+            "description": "The legendary sand pit - riders often dismount and run"
+          },
+          {
+            "name": "Sand Drop",
+            "kmFromFinish": 2,
+            "length": 0.2,
+            "surface": "sand",
+            "difficulty": 4,
+            "description": "Steep descent into a sand section"
+          }
+        ],
+        "favorites": {
+          "eliteDutch": [
+            "Fem van Empel",
+            "Puck Pieterse",
+            "Lucinda Brand"
+          ],
+          "risingStar": [
+            "Zoe Backstedt"
+          ],
+          "consistent": [
+            "Ceylin del Carmen Alvarado"
+          ]
+        },
+        "narratives": [
+          "Dutch dominance continues",
+          "Can anyone break the Dutch monopoly?",
+          "Young British talent Backstedt emerging"
+        ],
+        "watchNotes": "The Dutch riders dominate but technical errors in the sand can change everything."
+      }
+    },
     {
       "id": "australian-road-nationals-men-2026",
       "name": "Men's Elite Road Race | 2026 Australian Road National Championships",
@@ -24,10 +525,9 @@
       "discoveredAt": "2026-01-11T23:40:18.434Z",
       "raceFormat": "one-day",
       "terrain": [
-        "hilly",
-        "circuit"
+        "flat"
       ],
-      "distance": 177,
+      "distance": 200,
       "gender": "men",
       "broadcast": {
         "lastUpdated": "2026-01-11T23:40:18.435Z",
@@ -144,7 +644,8 @@
         ],
         "historicalContext": "The Australian Road National Championships have been held annually since 1901, making it one of the oldest national championships in world cycling. The event spent two decades on a fixed course near Ballarat, Victoria, with its race-shaping Buninyong climb becoming iconic. The 2025 move to Perth marked a new era, with a circuit format that rewards different rider characteristics than the climbing-heavy Buninyong course.",
         "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 13 laps, this explosive climb becomes increasingly selective. The Perth course proved more decisive than it appears on paper in 2025, with few opportunities to rest. The flat-ish final kilometers after Malcolm Street make it possible for a small group to stay away, but also allows sprinters to hang on if they survive the climb. Expect attacking racing from the Perth locals eager to perform in front of home fans."
-      }
+      },
+      "discipline": "road"
     },
     {
       "platform": "FloBikes",
@@ -164,10 +665,9 @@
       "rating": 3,
       "raceFormat": "one-day",
       "terrain": [
-        "hilly",
-        "circuit"
+        "flat"
       ],
-      "distance": 109,
+      "distance": 200,
       "gender": "women",
       "broadcast": {
         "lastUpdated": "2026-01-12T00:00:00Z",
@@ -284,7 +784,8 @@
         ],
         "historicalContext": "The Australian Women's Road National Championships have grown in prestige as the women's peloton has expanded. Recent champions include some of the best riders in world cycling, with the green-and-gold jersey a prized possession that riders race for before heading to Europe.",
         "watchNotes": "Watch for the Malcolm Street pinch on each lap - as fatigue builds through 8 laps, this explosive climb becomes increasingly selective. The shorter women's race (109km vs 177km for men) means the pace is high from the start. Expect attacking racing from Liv-AlUla-Jayco looking to control for their protected riders."
-      }
+      },
+      "discipline": "road"
     },
     {
       "id": "tour-el-salvador-2026",
@@ -306,7 +807,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "platform": "FloBikes",
@@ -324,8 +826,8 @@
       "location": "South Australia",
       "raceFormat": "stage-race",
       "terrain": [
-        "hilly",
-        "mountain"
+        "flat",
+        "hilly"
       ],
       "rating": 3,
       "broadcast": {
@@ -571,7 +1073,399 @@
             "track"
           ]
         }
-      ]
+      ],
+      "discipline": "road",
+      "distance": 200
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.085Z",
+      "id": "cx-world-cup-benidorm-2026-men",
+      "name": "UCI Cyclocross World Cup Benidorm - Men Elite",
+      "description": "Spain's only World Cup round features a spectacular beachfront circuit with technical sand sections and Mediterranean scenery.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-18",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "men",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Benidorm, Spain",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel-cx",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "explosive"
+          ]
+        },
+        {
+          "id": "michael-vanthourenhout-cx",
+          "name": "VANTHOURENHOUT Michael",
+          "team": "Pauwels Sauzen-Bingoal",
+          "ranking": 2,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "thibau-nys-cx",
+          "name": "NYS Thibau",
+          "team": "Baloise Lions",
+          "ranking": 3,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "technical"
+          ]
+        },
+        {
+          "id": "toon-aerts-cx",
+          "name": "AERTS Toon",
+          "team": "Baloise Trek Lions",
+          "ranking": 4,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        },
+        {
+          "id": "niels-vandeputte-cx",
+          "name": "VANDEPUTTE Niels",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 5,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "emiel-verstrynge-cx",
+          "name": "VERSTRYNGE Emiel",
+          "team": "Crelan-Corendon",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "laurens-sweeck-cx",
+          "name": "SWEECK Laurens",
+          "team": "Crelan-Corendon",
+          "ranking": 7,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "lars-van-der-haar-cx",
+          "name": "VAN DER HAAR Lars",
+          "team": "Baloise Trek Lions",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "tibor-del-grosso-cx",
+          "name": "DEL GROSSO Tibor",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 9,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "joran-wyseure-cx",
+          "name": "WYSEURE Joran",
+          "team": "Crelan-Corendon",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "Benidorm offers a unique Spanish setting with beach sand sections and warm Mediterranean weather. The course tests both sand skills and endurance.",
+        "watchNotes": "Warmer conditions than Belgian races mean different tire choices and tactics."
+      }
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.085Z",
+      "id": "cx-world-cup-benidorm-2026-women",
+      "name": "UCI Cyclocross World Cup Benidorm - Women Elite",
+      "description": "Spain's only World Cup round features a spectacular beachfront circuit with technical sand sections and Mediterranean scenery.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-18",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "women",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Benidorm, Spain",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Lions",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Visma-Lease a Bike",
+          "ranking": 3,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Fenix-Deceuninck",
+          "ranking": 4,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "Fenix-Deceuninck",
+          "ranking": 5,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "aniek-van-alphen-cx",
+          "name": "VAN ALPHEN Aniek",
+          "team": "777",
+          "ranking": 6,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "powerful"
+          ]
+        },
+        {
+          "id": "amandine-fouquenet-cx",
+          "name": "FOUQUENET Amandine",
+          "team": "Team FDJ-Suez",
+          "ranking": 7,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "zoe-backstedt-cx",
+          "name": "BACKSTEDT Zoe",
+          "team": "Canyon-SRAM",
+          "ranking": 8,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "marion-norbert-riberolle-cx",
+          "name": "NORBERT-RIBEROLLE Marion",
+          "team": "AS De Fondettes",
+          "ranking": 9,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "leonie-bentveld-cx",
+          "name": "BENTVELD Leonie",
+          "team": "Fenix-Deceuninck",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      }
     },
     {
       "id": "tour-down-under-2026",
@@ -1097,7 +1991,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-down-under-womens-race-2026",
@@ -1117,9 +2012,9 @@
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
         "flat",
-        "circuit"
+        "hilly"
       ],
-      "distance": 94,
+      "distance": 200,
       "raceDetails": {
         "lastFetched": "2026-01-19T00:00:00Z",
         "spoilerSafe": true,
@@ -1288,7 +2183,8 @@
             "track"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "classica-camp-de-morvedre-2026",
@@ -1309,7 +2205,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-marratxi-felanitx-2026",
@@ -1330,7 +2227,392 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.085Z",
+      "id": "cx-world-cup-maasmechelen-2026-men",
+      "name": "UCI Cyclocross World Cup Maasmechelen - Men Elite",
+      "description": "The Maasmechelen round returns with its challenging course at the mining museum, featuring dramatic elevation changes and technical sections.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-24",
+      "raceDay": "Saturday",
+      "discipline": "cyclocross",
+      "gender": "men",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Maasmechelen, Belgium",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel-cx",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "explosive"
+          ]
+        },
+        {
+          "id": "michael-vanthourenhout-cx",
+          "name": "VANTHOURENHOUT Michael",
+          "team": "Pauwels Sauzen-Bingoal",
+          "ranking": 2,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "thibau-nys-cx",
+          "name": "NYS Thibau",
+          "team": "Baloise Lions",
+          "ranking": 3,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "technical"
+          ]
+        },
+        {
+          "id": "toon-aerts-cx",
+          "name": "AERTS Toon",
+          "team": "Baloise Trek Lions",
+          "ranking": 4,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        },
+        {
+          "id": "niels-vandeputte-cx",
+          "name": "VANDEPUTTE Niels",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 5,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "emiel-verstrynge-cx",
+          "name": "VERSTRYNGE Emiel",
+          "team": "Crelan-Corendon",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "laurens-sweeck-cx",
+          "name": "SWEECK Laurens",
+          "team": "Crelan-Corendon",
+          "ranking": 7,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "lars-van-der-haar-cx",
+          "name": "VAN DER HAAR Lars",
+          "team": "Baloise Trek Lions",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "tibor-del-grosso-cx",
+          "name": "DEL GROSSO Tibor",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 9,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "joran-wyseure-cx",
+          "name": "WYSEURE Joran",
+          "team": "Crelan-Corendon",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.085Z",
+      "id": "cx-world-cup-maasmechelen-2026-women",
+      "name": "UCI Cyclocross World Cup Maasmechelen - Women Elite",
+      "description": "The Maasmechelen round returns with its challenging course at the mining museum, featuring dramatic elevation changes and technical sections.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-24",
+      "raceDay": "Saturday",
+      "discipline": "cyclocross",
+      "gender": "women",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Maasmechelen, Belgium",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Lions",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Visma-Lease a Bike",
+          "ranking": 3,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Fenix-Deceuninck",
+          "ranking": 4,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "Fenix-Deceuninck",
+          "ranking": 5,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "aniek-van-alphen-cx",
+          "name": "VAN ALPHEN Aniek",
+          "team": "777",
+          "ranking": 6,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "powerful"
+          ]
+        },
+        {
+          "id": "amandine-fouquenet-cx",
+          "name": "FOUQUENET Amandine",
+          "team": "Team FDJ-Suez",
+          "ranking": 7,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "zoe-backstedt-cx",
+          "name": "BACKSTEDT Zoe",
+          "team": "Canyon-SRAM",
+          "ranking": 8,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "marion-norbert-riberolle-cx",
+          "name": "NORBERT-RIBEROLLE Marion",
+          "team": "AS De Fondettes",
+          "ranking": 9,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "leonie-bentveld-cx",
+          "name": "BENTVELD Leonie",
+          "team": "Fenix-Deceuninck",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      }
     },
     {
       "id": "clasica-comunitat-valenciana-2026",
@@ -1351,7 +2633,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-palma-feminina-2026",
@@ -1371,7 +2654,398 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.086Z",
+      "id": "cx-world-cup-hoogerheide-2026-men",
+      "name": "UCI Cyclocross World Cup Hoogerheide - Men Elite",
+      "description": "The final World Cup round before Worlds, Hoogerheide serves as a crucial form test on its power-demanding Dutch circuit.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-25",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "men",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Hoogerheide, Netherlands",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel-cx",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "explosive"
+          ]
+        },
+        {
+          "id": "michael-vanthourenhout-cx",
+          "name": "VANTHOURENHOUT Michael",
+          "team": "Pauwels Sauzen-Bingoal",
+          "ranking": 2,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "thibau-nys-cx",
+          "name": "NYS Thibau",
+          "team": "Baloise Lions",
+          "ranking": 3,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "technical"
+          ]
+        },
+        {
+          "id": "toon-aerts-cx",
+          "name": "AERTS Toon",
+          "team": "Baloise Trek Lions",
+          "ranking": 4,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        },
+        {
+          "id": "niels-vandeputte-cx",
+          "name": "VANDEPUTTE Niels",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 5,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "emiel-verstrynge-cx",
+          "name": "VERSTRYNGE Emiel",
+          "team": "Crelan-Corendon",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "laurens-sweeck-cx",
+          "name": "SWEECK Laurens",
+          "team": "Crelan-Corendon",
+          "ranking": 7,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "lars-van-der-haar-cx",
+          "name": "VAN DER HAAR Lars",
+          "team": "Baloise Trek Lions",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "tibor-del-grosso-cx",
+          "name": "DEL GROSSO Tibor",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 9,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "joran-wyseure-cx",
+          "name": "WYSEURE Joran",
+          "team": "Crelan-Corendon",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "Hoogerheide's GP Adrie van der Poel course is a power circuit with short punchy climbs, perfect for testing Worlds form.",
+        "watchNotes": "Final form test before Worlds - watch who is peaking at the right time."
+      }
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.086Z",
+      "id": "cx-world-cup-hoogerheide-2026-women",
+      "name": "UCI Cyclocross World Cup Hoogerheide - Women Elite",
+      "description": "The final World Cup round before Worlds, Hoogerheide serves as a crucial form test on its power-demanding Dutch circuit.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-25",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "women",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WC",
+      "rating": 4,
+      "location": "Hoogerheide, Netherlands",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "topRiders": [
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Lions",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Visma-Lease a Bike",
+          "ranking": 3,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Fenix-Deceuninck",
+          "ranking": 4,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "Fenix-Deceuninck",
+          "ranking": 5,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "aniek-van-alphen-cx",
+          "name": "VAN ALPHEN Aniek",
+          "team": "777",
+          "ranking": 6,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "powerful"
+          ]
+        },
+        {
+          "id": "amandine-fouquenet-cx",
+          "name": "FOUQUENET Amandine",
+          "team": "Team FDJ-Suez",
+          "ranking": 7,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "zoe-backstedt-cx",
+          "name": "BACKSTEDT Zoe",
+          "team": "Canyon-SRAM",
+          "ranking": 8,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "marion-norbert-riberolle-cx",
+          "name": "NORBERT-RIBEROLLE Marion",
+          "team": "AS De Fondettes",
+          "ranking": 9,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "leonie-bentveld-cx",
+          "name": "BENTVELD Leonie",
+          "team": "Fenix-Deceuninck",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      }
     },
     {
       "id": "trofeo-binissalem-andratx-2026",
@@ -1392,7 +3066,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-calvia-2026",
@@ -1478,7 +3153,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "surf-coast-classic-women-2026",
@@ -1496,10 +3172,9 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "hilly",
-        "crosswind-risk"
+        "flat"
       ],
-      "distance": 118,
+      "distance": 200,
       "raceDetails": {
         "lastFetched": "2026-01-08T00:00:00Z",
         "spoilerSafe": true,
@@ -1583,7 +3258,8 @@
           }
         },
         "notes": "Part of the Cadel Evans Great Ocean Road Race festival week."
-      }
+      },
+      "discipline": "road"
     },
     {
       "id": "surf-coast-classic-men-2026",
@@ -1647,7 +3323,8 @@
         ],
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-ses-salines-2026",
@@ -1668,7 +3345,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-serra-tramuntana-2026",
@@ -1689,7 +3367,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-andratx-pollenca-2026",
@@ -1710,7 +3389,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "cadel-evans-great-ocean-road-race-women-2026",
@@ -1728,10 +3408,9 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "hilly",
-        "crosswind-risk"
+        "flat"
       ],
-      "distance": 141,
+      "distance": 200,
       "raceDetails": {
         "lastFetched": "2026-01-08T00:00:00Z",
         "spoilerSafe": true,
@@ -1818,6 +3497,224 @@
           }
         },
         "notes": "First Women's WorldTour one-day race of the season. Full TV production with helicopter coverage."
+      },
+      "discipline": "road"
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.086Z",
+      "id": "cx-world-championships-2026-women",
+      "name": "UCI Cyclocross World Championships - Women Elite",
+      "description": "The pinnacle of cyclocross - elite women battle for the rainbow jersey in Hulst, Netherlands.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-01-31",
+      "raceDay": "Saturday",
+      "discipline": "cyclocross",
+      "gender": "women",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WCh",
+      "rating": 5,
+      "location": "Hulst, Netherlands",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "prestige": [
+        "world-championship"
+      ],
+      "topRiders": [
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Lions",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Visma-Lease a Bike",
+          "ranking": 3,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Fenix-Deceuninck",
+          "ranking": 4,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "Fenix-Deceuninck",
+          "ranking": 5,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "aniek-van-alphen-cx",
+          "name": "VAN ALPHEN Aniek",
+          "team": "777",
+          "ranking": 6,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "powerful"
+          ]
+        },
+        {
+          "id": "amandine-fouquenet-cx",
+          "name": "FOUQUENET Amandine",
+          "team": "Team FDJ-Suez",
+          "ranking": 7,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "zoe-backstedt-cx",
+          "name": "BACKSTEDT Zoe",
+          "team": "Canyon-SRAM",
+          "ranking": 8,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "marion-norbert-riberolle-cx",
+          "name": "NORBERT-RIBEROLLE Marion",
+          "team": "AS De Fondettes",
+          "ranking": 9,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "leonie-bentveld-cx",
+          "name": "BENTVELD Leonie",
+          "team": "Fenix-Deceuninck",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "Hulst's World Championship course features Dutch flat terrain with technical sections and passionate home crowd support.",
+        "favorites": {
+          "eliteDutch": [
+            "Fem van Empel",
+            "Puck Pieterse",
+            "Lucinda Brand",
+            "Ceylin del Carmen Alvarado"
+          ],
+          "darkHorse": [
+            "Zoe Backstedt"
+          ]
+        },
+        "narratives": [
+          "Dutch riders competing for home glory",
+          "Who can challenge Dutch dominance?",
+          "Young talents vs experienced champions"
+        ],
+        "watchNotes": "The World Championships is an all-or-nothing race - tactics differ from World Cup rounds."
       }
     },
     {
@@ -1839,7 +3736,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "pionera-race-2026",
@@ -1860,7 +3758,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-palma-2026",
@@ -1946,7 +3845,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "cadel-evans-great-ocean-road-race-2026",
@@ -2052,7 +3952,227 @@
         ],
         "notes": "WorldTour one-day race. Highlights typically posted same day on YouTube."
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
+    },
+    {
+      "discoveredAt": "2026-01-27T05:10:49.086Z",
+      "id": "cx-world-championships-2026-men",
+      "name": "UCI Cyclocross World Championships - Men Elite",
+      "description": "The pinnacle of cyclocross - elite men battle for the rainbow jersey in Hulst, Netherlands.",
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "raceDate": "2026-02-01",
+      "raceDay": "Sunday",
+      "discipline": "cyclocross",
+      "gender": "men",
+      "terrain": [
+        "cyclocross"
+      ],
+      "category": "CX.WCh",
+      "rating": 5,
+      "location": "Hulst, Netherlands",
+      "distance": 200,
+      "raceFormat": "one-day",
+      "prestige": [
+        "world-championship"
+      ],
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel-cx",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "explosive"
+          ]
+        },
+        {
+          "id": "michael-vanthourenhout-cx",
+          "name": "VANTHOURENHOUT Michael",
+          "team": "Pauwels Sauzen-Bingoal",
+          "ranking": 2,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "thibau-nys-cx",
+          "name": "NYS Thibau",
+          "team": "Baloise Lions",
+          "ranking": 3,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "explosive",
+            "technical"
+          ]
+        },
+        {
+          "id": "toon-aerts-cx",
+          "name": "AERTS Toon",
+          "team": "Baloise Trek Lions",
+          "ranking": 4,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        },
+        {
+          "id": "niels-vandeputte-cx",
+          "name": "VANDEPUTTE Niels",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 5,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "consistent"
+          ]
+        },
+        {
+          "id": "emiel-verstrynge-cx",
+          "name": "VERSTRYNGE Emiel",
+          "team": "Crelan-Corendon",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "laurens-sweeck-cx",
+          "name": "SWEECK Laurens",
+          "team": "Crelan-Corendon",
+          "ranking": 7,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "consistent",
+            "experienced"
+          ]
+        },
+        {
+          "id": "lars-van-der-haar-cx",
+          "name": "VAN DER HAAR Lars",
+          "team": "Baloise Trek Lions",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "experienced",
+            "world-champion"
+          ]
+        },
+        {
+          "id": "tibor-del-grosso-cx",
+          "name": "DEL GROSSO Tibor",
+          "team": "Alpecin-Deceuninck",
+          "ranking": 9,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cx-specialist",
+            "technical",
+            "young-talent"
+          ]
+        },
+        {
+          "id": "joran-wyseure-cx",
+          "name": "WYSEURE Joran",
+          "team": "Crelan-Corendon",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "cx-specialist",
+            "powerful",
+            "consistent"
+          ]
+        }
+      ],
+      "broadcast": {
+        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          },
+          "NL": {
+            "primary": {
+              "broadcaster": "NOS",
+              "type": "free",
+              "coverage": "live",
+              "subscription": false
+            }
+          }
+        }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "spoilerSafe": true,
+        "courseSummary": "Hulst's World Championship course offers Van der Poel home advantage in his quest for another rainbow jersey.",
+        "favorites": {
+          "mvdp": [
+            "Mathieu van der Poel"
+          ],
+          "belgianChallengers": [
+            "Michael Vanthourenhout",
+            "Thibau Nys",
+            "Toon Aerts"
+          ],
+          "experiencedDutch": [
+            "Lars van der Haar"
+          ]
+        },
+        "narratives": [
+          "Can anyone stop Van der Poel on home soil?",
+          "Belgian challenge for Dutch dominance",
+          "Young Belgian talents emerging"
+        ],
+        "watchNotes": "Van der Poel is the heavy favorite but Worlds always delivers drama. Watch early pacing and late attacks."
+      }
     },
     {
       "id": "etoile-de-besseges-2026",
@@ -2074,7 +4194,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "volta-comunitat-valenciana-2026",
@@ -2284,7 +4405,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "uae-tour-women-2026",
@@ -2304,11 +4426,11 @@
       "discoveredAt": "2026-01-08T18:18:21.637Z",
       "terrain": [
         "flat",
+        "hilly",
         "mountain",
-        "summit-finish",
-        "crosswind-risk"
+        "itt"
       ],
-      "distance": 540,
+      "distance": 200,
       "raceDetails": {
         "lastFetched": "2026-01-08T00:00:00Z",
         "spoilerSafe": true,
@@ -2500,7 +4622,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "muscat-classic-2026",
@@ -2527,7 +4650,8 @@
         "courseSummary": "The Muscat Classic is a standalone one-day race held the day before the Tour of Oman begins. The jagged course in and around Muscat favors puncheurs who can handle the short, sharp climbs in the finale. The race has quickly established itself as a quality early-season event.",
         "watchNotes": "Watch for puncheurs who can handle repeated accelerations. The technical finale suits aggressive racing."
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-oman-2026",
@@ -2711,7 +4835,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
@@ -2732,7 +4857,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-oro-in-euro-2026",
@@ -2753,7 +4879,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-cv-feminas-2026",
@@ -2780,7 +4907,8 @@
         "courseSummary": "The Vuelta CV Feminas is a one-day women's race held in Spain's Valencian Community, typically featuring rolling terrain that favors sprinters.",
         "watchNotes": "Fast-paced women's one-day race that usually comes down to a sprint finish."
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "setmana-volta-femenina-comunitat-valenciana-2026",
@@ -2799,10 +4927,10 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "hilly",
-        "mountain"
+        "flat",
+        "hilly"
       ],
-      "distance": 450,
+      "distance": 1000,
       "raceDetails": {
         "lastFetched": "2026-01-08T00:00:00Z",
         "spoilerSafe": true,
@@ -2985,7 +5113,8 @@
           }
         },
         "notes": "Spanish ProSeries stage race. Coverage may vary by stage."
-      }
+      },
+      "discipline": "road"
     },
     {
       "id": "tour-de-la-provence-2026",
@@ -3007,7 +5136,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-murcia-2026",
@@ -3029,7 +5159,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "figueira-champions-classic-2026",
@@ -3125,7 +5256,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "clasica-de-almeria-2026",
@@ -3228,7 +5360,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "clasica-jaen-2026",
@@ -3249,7 +5382,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "uae-tour-2026",
@@ -3591,7 +5725,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "volta-ao-algarve-2026",
@@ -3852,7 +5987,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-andalucia-ruta-del-sol-2026",
@@ -4046,7 +6182,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "classic-var-2026",
@@ -4081,7 +6218,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-jean-pierre-monsere-2026",
@@ -4102,7 +6240,8 @@
         "cobbles"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "midwest-cycling-classic-2026",
@@ -4123,7 +6262,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-des-alpes-maritimes-2026",
@@ -4144,7 +6284,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-du-rwanda-2026",
@@ -4166,7 +6307,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-di-sardegna-2026",
@@ -4188,7 +6330,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "omloop-nieuwsblad-women-2026",
@@ -4206,10 +6349,9 @@
       "gender": "women",
       "discoveredAt": "2026-01-08T18:18:21.638Z",
       "terrain": [
-        "cobbles",
-        "hilly"
+        "cobbles"
       ],
-      "distance": 130,
+      "distance": 200,
       "raceDetails": {
         "lastFetched": "2026-01-08T00:00:00Z",
         "spoilerSafe": true,
@@ -4352,7 +6494,8 @@
           }
         },
         "notes": "Opening Weekend is a major event in Belgium with extensive local TV coverage. Women's race runs alongside the men's event."
-      }
+      },
+      "discipline": "road"
     },
     {
       "id": "visit-south-aegean-gp-2026",
@@ -4373,7 +6516,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "faun-drome-classic-2026",
@@ -4417,7 +6561,8 @@
         "historicalContext": "Formerly known as the Classic Sud Ardèche, the race was rebranded as the Drôme Classic and has grown in stature as a key early-season race in France. It serves as preparation for both sprinters targeting Milan-San Remo and classics specialists.",
         "watchNotes": "Watch for breakaways on the final climbs trying to stay away from the bunch sprint. If the race comes together, expect a bunch sprint where positioning through the final kilometers is crucial."
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "kuurne-brussels-kuurne-2026",
@@ -4478,7 +6623,8 @@
         "historicalContext": "First held in 1901, Kuurne-Brussels-Kuurne is one of the oldest races in Belgium. The race gained prominence as the companion event to Omloop Het Nieuwsblad, together forming the unofficial 'Opening Weekend' that kicks off the Belgian spring classics season. Many riders use it as final preparation before the Spring Classics block.",
         "watchNotes": "The race can go multiple ways: breakaway success on the bergs, late attacks on the final climbs, or a reduced bunch sprint. Watch for the Koppenberg and Oude Kwaremont to create selection. Tired legs from Omloop the day before often leads to surprises."
       },
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "omloop-van-het-hageland-2026",
@@ -4573,7 +6719,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -4594,7 +6741,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "le-samyn-des-dames-2026",
@@ -4614,7 +6762,8 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "le-samyn-2026",
@@ -4635,7 +6784,8 @@
         "cobbles"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-laigueglia-2026",
@@ -4696,7 +6846,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-extremadura-femenina-2026",
@@ -4718,7 +6869,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "strade-bianche-2026",
@@ -4840,7 +6992,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "strade-bianche-women-2026",
@@ -4863,7 +7016,8 @@
       "distance": 184,
       "prestige": [
         "monument"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "paris-nice-2026",
@@ -4953,7 +7107,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tirreno-adriatico-2026",
@@ -5139,7 +7294,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -5160,7 +7316,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-taiwan-2026",
@@ -5182,7 +7339,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "milano-torino-2026",
@@ -5227,7 +7385,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "noekere-koerse-2026",
@@ -5248,7 +7407,8 @@
         "cobbles"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "nokere-koerse-2026",
@@ -5283,7 +7443,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-de-denain-2026",
@@ -5319,7 +7480,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "koksijde-classic-2026",
@@ -5340,7 +7502,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "milano-sanremo-2026",
@@ -5517,7 +7680,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "milano-sanremo-donne-2026",
@@ -5579,7 +7743,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026",
@@ -5601,7 +7766,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "settimana-coppi-e-bartali-2026",
@@ -5623,7 +7789,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ronde-van-brugge-2026",
@@ -5644,7 +7811,8 @@
         "cobbles"
       ],
       "distance": 220,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ronde-van-brugge-women-2026",
@@ -5664,7 +7832,8 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "e3-saxo-classic-2026",
@@ -5725,7 +7894,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gent-wevelgem-2026",
@@ -5831,7 +8001,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-emilia-2026",
@@ -5852,7 +8023,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-roue-tourangelle-2026",
@@ -5873,7 +8045,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gent-wevelgem-women-2026",
@@ -5893,7 +8066,8 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 260
+      "distance": 260,
+      "discipline": "road"
     },
     {
       "id": "paris-camembert-2026",
@@ -5914,7 +8088,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "princess-maha-chakri-sirindhorns-cup-womens-tour-of-thailand-2026",
@@ -5936,7 +8111,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "dwars-door-vlaanderen-2026",
@@ -6028,7 +8204,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "dwars-door-vlaanderen-women-2026",
@@ -6048,7 +8225,8 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 183
+      "distance": 183,
+      "discipline": "road"
     },
     {
       "id": "la-route-adelie-de-vitre-2026",
@@ -6069,7 +8247,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "nxt-classic-2026",
@@ -6090,7 +8269,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ronde-van-vlaanderen-2026",
@@ -6216,7 +8396,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ronde-van-vlaanderen-women-2026",
@@ -6240,7 +8421,8 @@
       "prestige": [
         "monument",
         "monument"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "cholet-agglo-tour-2026",
@@ -6261,7 +8443,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "itzulia-basque-country-2026",
@@ -6349,7 +8532,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "region-pays-de-la-loire-tour-2026",
@@ -6371,7 +8555,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "region-pays-de-la-loire-tour-feminin-2026",
@@ -6392,7 +8577,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "scheldeprijs-2026",
@@ -6439,7 +8625,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-di-reggio-calabria-2026",
@@ -6460,7 +8647,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-della-magna-grecia-2026",
@@ -6482,7 +8670,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "paris-roubaix-2026",
@@ -6631,7 +8820,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "paris-roubaix-women-2026",
@@ -6655,7 +8845,8 @@
       "prestige": [
         "monument",
         "monument"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "o-gran-camino-2026",
@@ -6677,7 +8868,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "ronde-van-limburg-2026",
@@ -6698,7 +8890,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "brabantse-pijl-2026",
@@ -6756,7 +8949,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "classic-grand-bescancon-doubs-2026",
@@ -6777,7 +8971,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-du-jura-2026",
@@ -6798,7 +8993,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "amstel-gold-race-2026",
@@ -6945,7 +9141,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-feminin-de-chambery-2026",
@@ -6966,7 +9163,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "amstel-gold-race-women-2026",
@@ -6986,7 +9184,8 @@
       "terrain": [
         "mountain"
       ],
-      "distance": 254
+      "distance": 254,
+      "discipline": "road"
     },
     {
       "id": "gp-samarkand-2026",
@@ -7008,7 +9207,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-the-alps-2026",
@@ -7030,7 +9230,8 @@
         "itt"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-fleche-wallonne-2026",
@@ -7189,7 +9390,8 @@
           "specialties": []
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-fleche-wallonne-women-2026",
@@ -7212,7 +9414,8 @@
       "distance": 202,
       "prestige": [
         "monument"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "vuelta-asturias-2026",
@@ -7234,7 +9437,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "omloop-van-borsele-women-2026",
@@ -7254,7 +9458,8 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "gp-della-liberazione-donne-2026",
@@ -7275,7 +9480,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "women"
+      "gender": "women",
+      "discipline": "road"
     },
     {
       "id": "liege-bastogne-liege-2026",
@@ -7442,7 +9648,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-turkiye-2026",
@@ -7465,7 +9672,8 @@
         "mountain"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "liege-bastogne-liege-women-2026",
@@ -7489,7 +9697,8 @@
       "prestige": [
         "monument",
         "monument"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "tour-de-romandie-2026",
@@ -7564,7 +9773,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "eschborn-frankfurt-2026",
@@ -7585,7 +9795,8 @@
         "flat"
       ],
       "distance": 183,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-anicolor-2026",
@@ -7607,7 +9818,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-immo-zone-vloer-en-chapewerken-2026",
@@ -7628,7 +9840,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "festival-elsy-jacobs-2026",
@@ -7649,7 +9862,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "famenne-ardenne-classic-2026",
@@ -7670,7 +9884,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-dell-appennino-2026",
@@ -7691,7 +9906,8 @@
         "mountain"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-espana-femenina-2026",
@@ -7727,7 +9943,8 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "tour-of-hellas-2026",
@@ -7749,7 +9966,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-d-italia-2026",
@@ -7959,7 +10177,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-classique-morbihan-2026",
@@ -7980,7 +10199,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-du-morbihan-2026",
@@ -8001,7 +10221,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-du-morbihan-femmes-2026",
@@ -8021,7 +10242,8 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "baku-khankendi-azerbaijan-2026",
@@ -8043,7 +10265,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tro-bro-leon-2026",
@@ -8064,7 +10287,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofee-maarten-wynants-2026",
@@ -8085,7 +10309,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "navarra-womens-classic-2026",
@@ -8105,7 +10330,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "fleche-du-sud-2026",
@@ -8127,7 +10353,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-hongrie-2026",
@@ -8149,7 +10376,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "circuit-de-wallonie-2026",
@@ -8170,7 +10398,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "itzulia-women-2026",
@@ -8192,7 +10421,8 @@
         "hilly",
         "mountain"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "tour-du-finistere-2026",
@@ -8213,7 +10443,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "omloop-der-kempen-ladies-2026",
@@ -8233,7 +10464,8 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "boucles-de-l-aulne-2026",
@@ -8254,7 +10486,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "rund-um-koln-2026",
@@ -8275,7 +10508,8 @@
         "circuit"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "classique-dunkerque-2026",
@@ -8296,7 +10530,8 @@
         "flat"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "emakumeen-saria-2026",
@@ -8317,7 +10552,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "4-jours-de-dunkerque-2026",
@@ -8339,7 +10575,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-beiras-e-serra-da-estrela-2026",
@@ -8361,7 +10598,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-burgos-feminas-2026",
@@ -8383,7 +10621,8 @@
         "hilly",
         "mountain"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "veenendaal-veenendaal-2026",
@@ -8404,7 +10643,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-criquelion-2026",
@@ -8425,7 +10665,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "antwerp-port-epic-ladies-2026",
@@ -8445,7 +10686,8 @@
       "terrain": [
         "cobbles"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "antwerp-port-epic-sels-trophy-2026",
@@ -8466,7 +10708,8 @@
         "cobbles"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-mazda-2026",
@@ -8487,7 +10730,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "boucles-de-la-mayenne-2026",
@@ -8509,7 +10753,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "bretagne-ladies-tour-2026",
@@ -8531,7 +10776,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "giro-ditalia-women-2026",
@@ -8559,7 +10805,8 @@
       "prestige": [
         "grand-tour",
         "grand-tour"
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "gp-ciudad-de-eibar-2026",
@@ -8580,7 +10827,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-wallonie-2026",
@@ -8602,7 +10850,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "mercan-tour-classic-alpes-maritimes-2026",
@@ -8623,7 +10872,8 @@
         "mountain"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-estonia-2026",
@@ -8645,7 +10895,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "heistse-pijl-2026",
@@ -8666,7 +10917,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "alpes-gresivaudan-classic-2026",
@@ -8687,7 +10939,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "brussels-cycling-classic-2026",
@@ -8708,7 +10961,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "dwars-door-de-westhoek-2026",
@@ -8729,7 +10983,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-auvergne-rhone-alpes-2026",
@@ -8818,7 +11073,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -8839,7 +11095,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-feminin-international-des-pyrenees-2026",
@@ -8861,7 +11118,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "dwars-door-het-hageland-2026",
@@ -8882,7 +11140,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "copenhagen-sprint-women-2026",
@@ -8902,7 +11161,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "copenhagen-sprint-2026",
@@ -8938,7 +11198,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "elfstedenronde-2026",
@@ -8959,7 +11220,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "flanders-diamond-tour-2026",
@@ -8980,7 +11242,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-gippingen-2026",
@@ -9001,7 +11264,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "baloise-belgium-tour-2026",
@@ -9024,7 +11288,8 @@
         "itt"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-suisse-2026",
@@ -9109,7 +11374,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-slovenia-2026",
@@ -9131,7 +11397,8 @@
         "mountain"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-suisse-women-2026",
@@ -9168,7 +11435,8 @@
             "climber"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "la-route-d-occitanie-2026",
@@ -9190,7 +11458,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-catalunya-femenina-2026",
@@ -9212,7 +11481,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "andorra-classic-2026",
@@ -9233,7 +11503,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "women-cycling-day-2026",
@@ -9253,7 +11524,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "lyon-torino-2026",
@@ -9275,7 +11547,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "sibiu-tour-2026",
@@ -9297,7 +11570,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-france-2026",
@@ -10124,7 +12398,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "argenta-classic-deurne-2026",
@@ -10145,7 +12420,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-magnificent-qinghai-2026",
@@ -10167,7 +12443,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-austria-2026",
@@ -10189,7 +12466,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "baloise-ladies-tour-2026",
@@ -10211,7 +12489,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "la-perigord-ladies-2026",
@@ -10231,7 +12510,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "la-picto-en-nouvelle-aquitaine-2026",
@@ -10252,7 +12532,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "clasica-de-ordizia-2026",
@@ -10273,7 +12554,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "clasica-castilla-y-leon-2026",
@@ -10294,7 +12576,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-l-ain-2026",
@@ -10316,7 +12599,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-denmark-2026",
@@ -10338,7 +12622,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
@@ -10373,7 +12658,8 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "tour-de-france-femmes-2026",
@@ -10502,7 +12788,8 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "china-xizang-trans-himalaya-2026",
@@ -10524,7 +12811,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "circuito-de-getxo-2026",
@@ -10545,7 +12833,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-pologne-2026",
@@ -10568,7 +12857,8 @@
         "mountain"
       ],
       "distance": 1200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-burgos-2026",
@@ -10617,7 +12907,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "volta-a-portugal-2026",
@@ -10639,7 +12930,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "arctic-race-of-norway-2026",
@@ -10661,7 +12953,8 @@
         "mountain"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "czech-tour-2026",
@@ -10683,7 +12976,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-pologne-women-2026",
@@ -10706,7 +13000,8 @@
         "hilly",
         "mountain"
       ],
-      "distance": 1000
+      "distance": 1000,
+      "discipline": "road"
     },
     {
       "id": "gp-yvonne-reynders-2026",
@@ -10727,7 +13022,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "adac-cyclassics-2026",
@@ -10748,7 +13044,8 @@
         "flat"
       ],
       "distance": 220,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-polynormande-2026",
@@ -10769,7 +13066,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-du-limousin-2026",
@@ -10791,7 +13089,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "egmont-cycling-race-women-2026",
@@ -10811,7 +13110,8 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "deutschland-tour-2026",
@@ -10834,7 +13134,8 @@
         "mountain"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "renewi-tour-2026",
@@ -10871,7 +13172,8 @@
             "one-day"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "tour-of-britain-women-2026",
@@ -10893,7 +13195,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "gp-lucien-van-impe-2026",
@@ -10914,7 +13217,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "konvert-kortrijk-koerse-2026",
@@ -10935,7 +13239,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "vuelta-a-espana-2026",
@@ -11037,7 +13342,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-du-poitou-charentes-en-nouvelle-aquitaine-2026",
@@ -11059,7 +13365,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "muur-classic-geraardsbergen-2026",
@@ -11080,7 +13387,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "kreiz-breizh-feminin-2026",
@@ -11101,7 +13409,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "bretagne-classic-ouest-france-2026",
@@ -11122,7 +13431,8 @@
         "flat"
       ],
       "distance": 254,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-kranj-2026",
@@ -11143,7 +13453,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "philadelphia-cycling-classic-2026",
@@ -11164,7 +13475,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-korea-2026",
@@ -11186,7 +13498,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-britain-men-2026",
@@ -11208,7 +13521,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "zlm-tour-2026",
@@ -11230,7 +13544,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-romandie-feminin-2026",
@@ -11253,7 +13568,8 @@
         "mountain",
         "itt"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "maryland-cycling-classic-2026",
@@ -11275,7 +13591,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "classic-lorient-agglomeration-2026",
@@ -11295,7 +13612,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "maryland-cycling-classic-women-2026",
@@ -11317,7 +13635,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "tout-commence-en-finistere-ladies-classic-2026",
@@ -11337,7 +13656,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "pointe-du-raz-ladies-classic-2026",
@@ -11357,7 +13677,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "tour-of-binzhou-2026",
@@ -11379,7 +13700,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-della-toscana-memorial-alfredo-martini-2026",
@@ -11400,7 +13722,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "coppa-sabatini-2026",
@@ -11421,7 +13744,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-de-quebec-2026",
@@ -11442,7 +13766,8 @@
         "flat"
       ],
       "distance": 201,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "a-travers-les-hauts-de-france-2026",
@@ -11463,7 +13788,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "memorial-marco-pantani-2026",
@@ -11484,7 +13810,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-taihu-lake-2026",
@@ -11506,7 +13833,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "boucles-drome-ardeche-femmes-2026",
@@ -11528,7 +13856,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 800
+      "distance": 800,
+      "discipline": "road"
     },
     {
       "id": "gp-de-fourmies-la-voix-du-nord-2026",
@@ -11549,7 +13878,8 @@
         "flat"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-de-montreal-2026",
@@ -11570,7 +13900,8 @@
         "flat"
       ],
       "distance": 221,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "la-choralis-fourmies-feminine-2026",
@@ -11591,7 +13922,8 @@
         "flat"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-matteotti-2026",
@@ -11612,7 +13944,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "womens-cycling-gp-stuttgart-2026",
@@ -11632,7 +13965,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "il-giro-d-abruzzo-2026",
@@ -11654,7 +13988,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "chrono-feminin-du-gatineau-2026",
@@ -11675,7 +14010,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-de-wallonie-2026",
@@ -11696,7 +14032,8 @@
         "mountain"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "okolo-slovenska-2026",
@@ -11718,7 +14055,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-de-wallonie-dames-2026",
@@ -11738,7 +14076,8 @@
       "terrain": [
         "mountain"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "tour-du-gatineau-2026",
@@ -11759,7 +14098,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "kampioenscap-van-vlaanderen-2026",
@@ -11780,7 +14120,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-huangshan-2026",
@@ -11802,7 +14143,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gp-del-lazio-2026",
@@ -11823,7 +14165,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "super-8-classic-2026",
@@ -11844,7 +14187,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-della-romagna-2026",
@@ -11865,7 +14209,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gooikske-pijl-2026",
@@ -11886,7 +14231,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "world-championships-men-s-tt-2026",
@@ -11910,7 +14256,8 @@
       "prestige": [
         "world-championship"
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "world-championships-mixed-relay-tt-2026",
@@ -11934,7 +14281,8 @@
       "prestige": [
         "world-championship"
       ],
-      "gender": "mixed"
+      "gender": "mixed",
+      "discipline": "road"
     },
     {
       "id": "omloop-van-het-houtland-2026",
@@ -11955,7 +14303,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "paris-chauny-2026",
@@ -11976,7 +14325,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-de-langkawi-2026",
@@ -11998,7 +14348,8 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "world-championships-men-s-road-race-2026",
@@ -12022,7 +14373,8 @@
       "prestige": [
         "world-championship"
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-dell-emilia-2026",
@@ -12057,7 +14409,8 @@
           ]
         }
       ],
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "giro-dell-emilia-donne-2026",
@@ -12078,7 +14431,8 @@
         "mountain"
       ],
       "distance": 200,
-      "gender": "women"
+      "gender": "women",
+      "discipline": "road"
     },
     {
       "id": "sparkassen-munsterland-giro-2026",
@@ -12099,7 +14453,8 @@
         "circuit"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "coppa-agostoni-2026",
@@ -12120,7 +14475,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-vendee-2026",
@@ -12141,7 +14497,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "coppa-bernocchi-2026",
@@ -12162,7 +14519,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "binche-chimay-binche-2026",
@@ -12183,7 +14541,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tre-valle-varesine-2026",
@@ -12204,7 +14563,8 @@
         "mountain"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "gran-piemonte-2026",
@@ -12225,7 +14585,8 @@
         "mountain"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "il-lombardia-2026",
@@ -12264,7 +14625,8 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "discipline": "road"
     },
     {
       "id": "tour-de-kyushu-2026",
@@ -12286,7 +14648,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "paris-tours-2026",
@@ -12307,7 +14670,8 @@
         "flat"
       ],
       "distance": 213,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "sun-hung-kai-hong-kong-cyclothon-2026",
@@ -12328,7 +14692,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "trofeo-tessile-moda-2026",
@@ -12349,7 +14714,8 @@
         "hilly"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-guangxi-2026",
@@ -12371,7 +14737,8 @@
         "hilly"
       ],
       "distance": 1200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-holland-2026",
@@ -12393,7 +14760,8 @@
         "hilly"
       ],
       "distance": 800,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-chongming-island-2026",
@@ -12415,7 +14783,8 @@
         "flat",
         "hilly"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     },
     {
       "id": "giro-del-veneto-2026",
@@ -12436,7 +14805,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "veneto-women-2026",
@@ -12456,7 +14826,8 @@
       "terrain": [
         "hilly"
       ],
-      "distance": 180
+      "distance": 180,
+      "discipline": "road"
     },
     {
       "id": "chrono-des-nations-2026",
@@ -12477,7 +14848,8 @@
         "flat"
       ],
       "distance": 180,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "utsunomiya-japan-cup-2026",
@@ -12498,7 +14870,8 @@
         "circuit"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "veneto-classic-2026",
@@ -12519,7 +14892,8 @@
         "hilly"
       ],
       "distance": 200,
-      "gender": "men"
+      "gender": "men",
+      "discipline": "road"
     },
     {
       "id": "tour-of-guangxi-women-2026",
@@ -12539,7 +14913,8 @@
       "terrain": [
         "flat"
       ],
-      "distance": 200
+      "distance": 200,
+      "discipline": "road"
     }
   ]
 }

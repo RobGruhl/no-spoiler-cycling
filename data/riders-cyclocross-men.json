@@ -1,0 +1,525 @@
+{
+  "lastUpdated": "2026-01-26T00:00:00.000Z",
+  "riders": [
+    {
+      "id": "mathieu-van-der-poel-cx",
+      "slug": "mathieu-van-der-poel",
+      "name": "VAN DER POEL Mathieu",
+      "team": "Alpecin-Deceuninck",
+      "ranking": 1,
+      "points": 950,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1995-01-19",
+      "weight": 75,
+      "height": 1.84,
+      "specialties": ["cx-specialist", "technical", "explosive"],
+      "photoUrl": "riders/photos/mathieu-van-der-poel.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/mathieu-van-der-poel",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "michael-vanthourenhout-cx",
+      "slug": "michael-vanthourenhout",
+      "name": "VANTHOURENHOUT Michael",
+      "team": "Pauwels Sauzen-Bingoal",
+      "ranking": 2,
+      "points": 820,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1993-11-01",
+      "weight": 70,
+      "height": 1.81,
+      "specialties": ["cx-specialist", "consistent", "all-rounder"],
+      "photoUrl": "riders/photos/michael-vanthourenhout.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/michael-vanthourenhout",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thibau-nys-cx",
+      "slug": "thibau-nys",
+      "name": "NYS Thibau",
+      "team": "Baloise Lions",
+      "ranking": 3,
+      "points": 750,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2002-11-26",
+      "weight": 67,
+      "height": 1.79,
+      "specialties": ["cx-specialist", "explosive", "technical"],
+      "photoUrl": "riders/photos/thibau-nys.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/thibau-nys",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "toon-aerts-cx",
+      "slug": "toon-aerts",
+      "name": "AERTS Toon",
+      "team": "Baloise Trek Lions",
+      "ranking": 4,
+      "points": 680,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1993-03-17",
+      "weight": 73,
+      "height": 1.84,
+      "specialties": ["cx-specialist", "powerful", "consistent"],
+      "photoUrl": "riders/photos/toon-aerts.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/toon-aerts",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "niels-vandeputte-cx",
+      "slug": "niels-vandeputte",
+      "name": "VANDEPUTTE Niels",
+      "team": "Alpecin-Deceuninck",
+      "ranking": 5,
+      "points": 620,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2000-10-14",
+      "weight": 68,
+      "height": 1.78,
+      "specialties": ["cx-specialist", "technical", "consistent"],
+      "photoUrl": "riders/photos/niels-vandeputte.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/niels-vandeputte",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "emiel-verstrynge-cx",
+      "slug": "emiel-verstrynge",
+      "name": "VERSTRYNGE Emiel",
+      "team": "Crelan-Corendon",
+      "ranking": 6,
+      "points": 580,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2002-04-22",
+      "weight": 66,
+      "height": 1.76,
+      "specialties": ["cx-specialist", "technical", "young-talent"],
+      "photoUrl": "riders/photos/emiel-verstrynge.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/emiel-verstrynge",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "laurens-sweeck-cx",
+      "slug": "laurens-sweeck",
+      "name": "SWEECK Laurens",
+      "team": "Crelan-Corendon",
+      "ranking": 7,
+      "points": 540,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1993-03-11",
+      "weight": 71,
+      "height": 1.80,
+      "specialties": ["cx-specialist", "consistent", "experienced"],
+      "photoUrl": "riders/photos/laurens-sweeck.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/laurens-sweeck",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lars-van-der-haar-cx",
+      "slug": "lars-van-der-haar",
+      "name": "VAN DER HAAR Lars",
+      "team": "Baloise Trek Lions",
+      "ranking": 8,
+      "points": 510,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "1991-02-06",
+      "weight": 69,
+      "height": 1.79,
+      "specialties": ["cx-specialist", "experienced", "world-champion"],
+      "photoUrl": "riders/photos/lars-van-der-haar.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/lars-van-der-haar",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tibor-del-grosso-cx",
+      "slug": "tibor-del-grosso",
+      "name": "DEL GROSSO Tibor",
+      "team": "Alpecin-Deceuninck",
+      "ranking": 9,
+      "points": 480,
+      "nationality": "Netherlands",
+      "nationalityCode": "NL",
+      "dateOfBirth": "2003-03-18",
+      "weight": 65,
+      "height": 1.77,
+      "specialties": ["cx-specialist", "technical", "young-talent"],
+      "photoUrl": "riders/photos/tibor-del-grosso.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/tibor-del-grosso",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joran-wyseure-cx",
+      "slug": "joran-wyseure",
+      "name": "WYSEURE Joran",
+      "team": "Crelan-Corendon",
+      "ranking": 10,
+      "points": 450,
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "1999-11-14",
+      "weight": 70,
+      "height": 1.82,
+      "specialties": ["cx-specialist", "powerful", "consistent"],
+      "photoUrl": "riders/photos/joran-wyseure.jpg",
+      "pcsUrl": "https://www.procyclingstats.com/rider/joran-wyseure",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-01-26T00:00:00.000Z",
+        "races": [
+          {
+            "raceName": "UCI Cyclocross World Cup Zonhoven",
+            "raceSlug": "cx-world-cup-zonhoven-2026-men",
+            "raceDate": "2026-01-04",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Benidorm",
+            "raceSlug": "cx-world-cup-benidorm-2026-men",
+            "raceDate": "2026-01-18",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Maasmechelen",
+            "raceSlug": "cx-world-cup-maasmechelen-2026-men",
+            "raceDate": "2026-01-24",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Cup Hoogerheide",
+            "raceSlug": "cx-world-cup-hoogerheide-2026-men",
+            "raceDate": "2026-01-25",
+            "raceClass": "CX.WC"
+          },
+          {
+            "raceName": "UCI Cyclocross World Championships - Men Elite",
+            "raceSlug": "cx-world-championships-2026-men",
+            "raceDate": "2026-02-01",
+            "raceClass": "CX.WCh"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -24,7 +24,13 @@ const terrainIcons = {
   'summit-finish': '🔝',
   'crosswind-risk': '💨',
   'circuit': '🔄',
-  'itt': '⏱️'
+  'itt': '⏱️',
+  'cyclocross': '🔄'
+};
+
+const disciplineIcons = {
+  'road': '🚴',
+  'cyclocross': '🌀'
 };
 
 const prestigeIcons = {
@@ -142,6 +148,7 @@ function generateHTML(raceData) {
       `data-terrain="${(race.terrain || []).join(',')}"`,
       `data-prestige="${(race.prestige || []).join(',')}"`,
       `data-gender="${race.gender || 'men'}"`,
+      `data-discipline="${race.discipline || 'road'}"`,
       `data-race-id="${race.id}"`,
       `data-top-riders="${topRiderCount}"`
     ].join(' ');
@@ -377,11 +384,12 @@ function generateHTML(raceData) {
   const ratingCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
   races.forEach(r => ratingCounts[r.rating || 1]++);
 
-  // Count races by format, terrain, prestige, and gender for filter chips
+  // Count races by format, terrain, prestige, gender, and discipline for filter chips
   const formatCounts = {};
   const terrainCounts = {};
   const prestigeCounts = {};
   const genderCounts = {};
+  const disciplineCounts = {};
 
   races.forEach(r => {
     // Format counts
@@ -401,6 +409,10 @@ function generateHTML(raceData) {
     // Gender counts
     const gender = r.gender || 'men';
     genderCounts[gender] = (genderCounts[gender] || 0) + 1;
+
+    // Discipline counts
+    const discipline = r.discipline || 'road';
+    disciplineCounts[discipline] = (disciplineCounts[discipline] || 0) + 1;
   });
 
   // Generate filter chips HTML
@@ -466,6 +478,20 @@ function generateHTML(raceData) {
         <span class="chip-icon">${genderIcons[g.key]}</span>
         <span>${g.label}</span>
         <span class="chip-count">${genderCounts[g.key]}</span>
+      </button>`).join('');
+  };
+
+  const generateDisciplineChips = () => {
+    const disciplines = [
+      { key: 'road', label: 'Road' },
+      { key: 'cyclocross', label: 'Cyclocross' }
+    ];
+    return disciplines
+      .filter(d => disciplineCounts[d.key])
+      .map(d => `<button class="icon-filter-chip" data-filter-type="discipline" data-filter-value="${d.key}">
+        <span class="chip-icon">${disciplineIcons[d.key]}</span>
+        <span>${d.label}</span>
+        <span class="chip-count">${disciplineCounts[d.key]}</span>
       </button>`).join('');
   };
 
@@ -1354,6 +1380,12 @@ function generateHTML(raceData) {
         <!-- Icon Filters -->
         <div class="icon-filter-section">
           <div class="icon-filter-group">
+            <span class="icon-filter-label">Discipline</span>
+            <div class="icon-filters">
+              ${generateDisciplineChips()}
+            </div>
+          </div>
+          <div class="icon-filter-group">
             <span class="icon-filter-label">Gender</span>
             <div class="icon-filters">
               ${generateGenderChips()}
@@ -1466,6 +1498,7 @@ function generateHTML(raceData) {
     // Active filters state
     const activeFilters = {
       minRating: 3,
+      discipline: new Set(),
       format: new Set(),
       terrain: new Set(),
       prestige: new Set(),
@@ -1477,6 +1510,7 @@ function generateHTML(raceData) {
     function saveFiltersToStorage() {
       const filtersToSave = {
         minRating: activeFilters.minRating,
+        discipline: Array.from(activeFilters.discipline),
         format: Array.from(activeFilters.format),
         terrain: Array.from(activeFilters.terrain),
         prestige: Array.from(activeFilters.prestige),
@@ -1493,6 +1527,7 @@ function generateHTML(raceData) {
       try {
         const filters = JSON.parse(stored);
         activeFilters.minRating = filters.minRating || 3;
+        activeFilters.discipline = new Set(filters.discipline || []);
         activeFilters.format = new Set(filters.format || []);
         activeFilters.terrain = new Set(filters.terrain || []);
         activeFilters.prestige = new Set(filters.prestige || []);
@@ -1524,6 +1559,7 @@ function generateHTML(raceData) {
 
     function clearAllFilters() {
       activeFilters.minRating = 1;
+      activeFilters.discipline.clear();
       activeFilters.format.clear();
       activeFilters.terrain.clear();
       activeFilters.prestige.clear();
@@ -1581,6 +1617,7 @@ function generateHTML(raceData) {
     // Check if a card matches a specific filter configuration
     function cardMatchesFilterConfig(card, config) {
       const rating = parseInt(card.dataset.rating);
+      const discipline = card.dataset.discipline || 'road';
       const format = card.dataset.format;
       const terrain = card.dataset.terrain.split(',').filter(Boolean);
       const prestige = card.dataset.prestige.split(',').filter(Boolean);
@@ -1589,6 +1626,11 @@ function generateHTML(raceData) {
 
       // Check star rating
       if (rating < config.minRating) return false;
+
+      // Check discipline filter (must match one of selected disciplines)
+      if (config.discipline.size > 0 && !config.discipline.has(discipline)) {
+        return false;
+      }
 
       // Check format filter (must match one of selected formats)
       if (config.format.size > 0 && !config.format.has(format)) {
@@ -1644,7 +1686,9 @@ function generateHTML(raceData) {
 
         // Count visible cards that have this attribute
         const count = visibleCards.filter(card => {
-          if (type === 'format') {
+          if (type === 'discipline') {
+            return (card.dataset.discipline || 'road') === value;
+          } else if (type === 'format') {
             return card.dataset.format === value;
           } else if (type === 'terrain') {
             return card.dataset.terrain.split(',').includes(value);
