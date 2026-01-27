@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T05:10:57.267Z",
+  "lastUpdated": "2026-01-27T05:43:32.448Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -11,8 +11,8 @@
       "id": "cx-world-cup-zonhoven-2026-men",
       "name": "UCI Cyclocross World Cup Zonhoven - Men Elite",
       "description": "The legendary 'Hell of the Sand' returns for round 9 of the World Cup. Deep sand pits and technical sections make Zonhoven one of the most demanding courses on the circuit.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610508-2026-uci-cyclocross-world-cup-round-9-zonhoven-bel",
       "type": "full-race",
       "raceDate": "2026-01-04",
       "raceDay": "Sunday",
@@ -159,17 +159,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610508-2026-uci-cyclocross-world-cup-round-9-zonhoven-bel",
               "coverage": "live",
               "subscription": true,
-              "notes": "Full live coverage and replays"
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -177,7 +177,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -185,7 +186,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             },
             "alternatives": [
               {
@@ -201,7 +203,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         },
@@ -262,8 +265,8 @@
       "id": "cx-world-cup-zonhoven-2026-women",
       "name": "UCI Cyclocross World Cup Zonhoven - Women Elite",
       "description": "The legendary 'Hell of the Sand' returns for round 9 of the World Cup. Deep sand pits and technical sections make Zonhoven one of the most demanding courses for the elite women.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610508-2026-uci-cyclocross-world-cup-round-9-zonhoven-bel",
       "type": "full-race",
       "raceDate": "2026-01-04",
       "raceDay": "Sunday",
@@ -410,17 +413,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610508-2026-uci-cyclocross-world-cup-round-9-zonhoven-bel",
               "coverage": "live",
               "subscription": true,
-              "notes": "Full live coverage and replays"
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -428,7 +431,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -436,7 +440,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             },
             "alternatives": [
               {
@@ -452,7 +457,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         },
@@ -1082,8 +1088,8 @@
       "id": "cx-world-cup-benidorm-2026-men",
       "name": "UCI Cyclocross World Cup Benidorm - Men Elite",
       "description": "Spain's only World Cup round features a spectacular beachfront circuit with technical sand sections and Mediterranean scenery.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610509-2026-uci-cyclocross-world-cup-round-10-benidorm-costa-blanca-esp",
       "type": "full-race",
       "raceDate": "2026-01-18",
       "raceDay": "Sunday",
@@ -1230,16 +1236,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610509-2026-uci-cyclocross-world-cup-round-10-benidorm-costa-blanca-esp",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -1247,7 +1254,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -1255,7 +1263,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -1263,7 +1272,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -1280,8 +1290,8 @@
       "id": "cx-world-cup-benidorm-2026-women",
       "name": "UCI Cyclocross World Cup Benidorm - Women Elite",
       "description": "Spain's only World Cup round features a spectacular beachfront circuit with technical sand sections and Mediterranean scenery.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610509-2026-uci-cyclocross-world-cup-round-10-benidorm-costa-blanca-esp",
       "type": "full-race",
       "raceDate": "2026-01-18",
       "raceDay": "Sunday",
@@ -1428,16 +1438,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610509-2026-uci-cyclocross-world-cup-round-10-benidorm-costa-blanca-esp",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -1445,7 +1456,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -1453,7 +1465,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -1461,7 +1474,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -2235,8 +2249,8 @@
       "id": "cx-world-cup-maasmechelen-2026-men",
       "name": "UCI Cyclocross World Cup Maasmechelen - Men Elite",
       "description": "The Maasmechelen round returns with its challenging course at the mining museum, featuring dramatic elevation changes and technical sections.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610516-2026-uci-cyclocross-world-cup-round-11-maasmechelen-bel",
       "type": "full-race",
       "raceDate": "2026-01-24",
       "raceDay": "Saturday",
@@ -2383,16 +2397,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610516-2026-uci-cyclocross-world-cup-round-11-maasmechelen-bel",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -2400,7 +2415,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -2408,7 +2424,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -2416,7 +2433,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -2427,8 +2445,8 @@
       "id": "cx-world-cup-maasmechelen-2026-women",
       "name": "UCI Cyclocross World Cup Maasmechelen - Women Elite",
       "description": "The Maasmechelen round returns with its challenging course at the mining museum, featuring dramatic elevation changes and technical sections.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610516-2026-uci-cyclocross-world-cup-round-11-maasmechelen-bel",
       "type": "full-race",
       "raceDate": "2026-01-24",
       "raceDay": "Saturday",
@@ -2575,16 +2593,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610516-2026-uci-cyclocross-world-cup-round-11-maasmechelen-bel",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -2592,7 +2611,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -2600,7 +2620,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -2608,7 +2629,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -2662,8 +2684,8 @@
       "id": "cx-world-cup-hoogerheide-2026-men",
       "name": "UCI Cyclocross World Cup Hoogerheide - Men Elite",
       "description": "The final World Cup round before Worlds, Hoogerheide serves as a crucial form test on its power-demanding Dutch circuit.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610511-2026-uci-cyclocross-world-cup-round-12-hoogerheide-ned",
       "type": "full-race",
       "raceDate": "2026-01-25",
       "raceDay": "Sunday",
@@ -2810,16 +2832,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610511-2026-uci-cyclocross-world-cup-round-12-hoogerheide-ned",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -2827,7 +2850,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -2835,7 +2859,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -2843,7 +2868,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -2860,8 +2886,8 @@
       "id": "cx-world-cup-hoogerheide-2026-women",
       "name": "UCI Cyclocross World Cup Hoogerheide - Women Elite",
       "description": "The final World Cup round before Worlds, Hoogerheide serves as a crucial form test on its power-demanding Dutch circuit.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14610511-2026-uci-cyclocross-world-cup-round-12-hoogerheide-ned",
       "type": "full-race",
       "raceDate": "2026-01-25",
       "raceDay": "Sunday",
@@ -3008,16 +3034,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14610511-2026-uci-cyclocross-world-cup-round-12-hoogerheide-ned",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -3025,7 +3052,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -3033,7 +3061,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/"
             }
           },
           "NL": {
@@ -3041,7 +3070,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -3505,8 +3535,8 @@
       "id": "cx-world-championships-2026-women",
       "name": "UCI Cyclocross World Championships - Women Elite",
       "description": "The pinnacle of cyclocross - elite women battle for the rainbow jersey in Hulst, Netherlands.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14999197-2026-uci-cyclocross-world-championships",
       "type": "full-race",
       "raceDate": "2026-01-31",
       "raceDay": "Saturday",
@@ -3656,16 +3686,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14999197-2026-uci-cyclocross-world-championships",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -3673,7 +3704,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -3681,7 +3713,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/wk-veldrijden/"
             }
           },
           "NL": {
@@ -3689,7 +3722,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
@@ -3960,8 +3994,8 @@
       "id": "cx-world-championships-2026-men",
       "name": "UCI Cyclocross World Championships - Men Elite",
       "description": "The pinnacle of cyclocross - elite men battle for the rainbow jersey in Hulst, Netherlands.",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14999197-2026-uci-cyclocross-world-championships",
       "type": "full-race",
       "raceDate": "2026-02-01",
       "raceDay": "Sunday",
@@ -4111,16 +4145,17 @@
         }
       ],
       "broadcast": {
-        "lastUpdated": "2026-01-26T00:00:00.000Z",
+        "lastUpdated": "2026-01-26T12:00:00.000Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14999197-2026-uci-cyclocross-world-championships",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "notes": "Full race replay available"
             }
           },
           "UK": {
@@ -4128,7 +4163,8 @@
               "broadcaster": "TNT Sports / Discovery+",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
             }
           },
           "BE": {
@@ -4136,7 +4172,8 @@
               "broadcaster": "Sporza",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://sporza.be/nl/categorie/wielrennen/veldrijden/wk-veldrijden/"
             }
           },
           "NL": {
@@ -4144,7 +4181,8 @@
               "broadcaster": "NOS",
               "type": "free",
               "coverage": "live",
-              "subscription": false
+              "subscription": false,
+              "url": "https://nos.nl/sport/veldrijden"
             }
           }
         }
