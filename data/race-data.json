@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T01:49:50.561Z",
+  "lastUpdated": "2026-01-29T04:36:35.991Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -3337,6 +3337,185 @@
             }
           }
         }
+      }
+    },
+    {
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com",
+      "type": "stage-race",
+      "discoveredAt": "2026-01-29T02:00:00.000Z",
+      "id": "alula-tour-2026",
+      "name": "AlUla Tour",
+      "description": "5-stage UCI ProSeries race through the ancient landscapes of AlUla, Saudi Arabia. Features sprint stages at the Camel Cup Track and challenging terrain culminating at Skyviews of Harrat Uwayrid.",
+      "raceDate": "2026-01-27",
+      "raceDay": "Tuesday",
+      "endDate": "2026-01-31",
+      "gender": "men",
+      "rating": 3,
+      "terrain": [
+        "hilly",
+        "flat",
+        "crosswind-risk"
+      ],
+      "format": "stage-race",
+      "distance": 800,
+      "location": "AlUla, Saudi Arabia",
+      "category": "2.Pro",
+      "broadcast": {
+        "lastUpdated": "2026-01-29T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com",
+              "coverage": "live"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com",
+              "coverage": "live"
+            }
+          }
+        },
+        "notes": "Also available: L'Équipe (France), SBS (Australia), SSC (Middle East)"
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: AlUla Camel Cup Track → AlUla Camel Cup Track",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "distance": 158,
+          "date": "2026-01-27",
+          "platform": "FloBikes",
+          "url": "TBD",
+          "description": "Opening circuit stage at the iconic Camelodrome. Sprint finish expected, but desert winds could create chaos.",
+          "stageDetails": {
+            "lastFetched": "2026-01-29T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Circuit stage starting and finishing at the AlUla Camel Cup Track. Flat terrain suited for sprinters, though crosswinds in the open desert could split the peloton.",
+            "watchNotes": "Watch for echelons if winds pick up. Sprinter teams will control but conditions can be unpredictable."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: AlManshiyah Train Station → AlManshiyah Train Station",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "distance": 152,
+          "date": "2026-01-28",
+          "platform": "FloBikes",
+          "url": "TBD",
+          "description": "Second sprint opportunity on another circuit stage through the desert landscape.",
+          "stageDetails": {
+            "lastFetched": "2026-01-29T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Circuit stage at the historic AlManshiyah Train Station. Another day for the fast men, with the possibility of crosswind action.",
+            "watchNotes": "Sprinters' day, but watch for aggressive GC riders if winds create opportunities."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Winter Park → Bir Jaydah Mountain Wirkah",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 142.1,
+          "date": "2026-01-29",
+          "platform": "FloBikes",
+          "url": "TBD",
+          "description": "First GC test with a mountain finish at Bir Jaydah. The terrain gets serious.",
+          "stageDetails": {
+            "lastFetched": "2026-01-29T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Point-to-point stage ending with the climb to Bir Jaydah Mountain. First real test for the GC contenders.",
+            "watchNotes": "Key GC stage - expect attacks on the final climb."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Winter Park → Hegra",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 184,
+          "date": "2026-01-30",
+          "platform": "FloBikes",
+          "url": "TBD",
+          "description": "Queen stage with the longest distance. Finish at the UNESCO World Heritage site of Hegra.",
+          "stageDetails": {
+            "lastFetched": "2026-01-29T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "The longest and most demanding stage, finishing at the ancient Nabataean city of Hegra (Mada'in Saleh). Rolling terrain throughout.",
+            "watchNotes": "Attrition stage - the distance and accumulated fatigue will take their toll."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: AlUla Old Town → Skyviews of Harrat Uwayrid",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "summit-finish"
+          ],
+          "distance": 163.9,
+          "date": "2026-01-31",
+          "platform": "FloBikes",
+          "url": "TBD",
+          "description": "Final stage with summit finish at Skyviews of Harrat Uwayrid. Last chance to shake up the GC.",
+          "stageDetails": {
+            "lastFetched": "2026-01-29T00:00:00Z",
+            "spoilerSafe": true,
+            "courseSummary": "Final GC showdown with a summit finish at the dramatic Skyviews of Harrat Uwayrid viewpoint overlooking the volcanic landscape.",
+            "watchNotes": "Summit finish decides the overall - expect fireworks on the final climb."
+          }
+        }
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-01-29T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "5-stage race through Saudi Arabia's stunning AlUla region, featuring ancient archaeological sites and dramatic desert landscapes. Two sprint stages followed by three days in the hills, culminating with a summit finish.",
+        "favorites": {
+          "gcContenders": [
+            "Climbers and punchy GC riders will target the final three stages"
+          ],
+          "sprinters": [
+            "Fast men have two clear opportunities on stages 1-2"
+          ],
+          "stageHunters": [
+            "Breakaway specialists can target the hilly stages"
+          ]
+        },
+        "narratives": [
+          "First race of the UCI ProSeries calendar",
+          "WorldTour teams use this as early-season preparation",
+          "Desert conditions and potential crosswinds add unpredictability"
+        ],
+        "historicalContext": "The AlUla Tour began in 2020 as part of Saudi Arabia's Vision 2030 plan to develop sports tourism. The race showcases the UNESCO World Heritage site of Hegra and the stunning rock formations of AlUla.",
+        "watchNotes": "Early-season form indicator for WorldTour teams. Watch for crosswinds on flat stages and GC action on the mountain finishes."
       }
     },
     {
