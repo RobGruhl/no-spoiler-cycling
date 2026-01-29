@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T04:36:35.991Z",
+  "lastUpdated": "2026-01-29T04:38:34.253Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -3341,7 +3341,7 @@
     },
     {
       "platform": "FloBikes",
-      "url": "https://www.flobikes.com",
+      "url": "https://www.flobikes.com/events/14817578-2026-alula-tour",
       "type": "stage-race",
       "discoveredAt": "2026-01-29T02:00:00.000Z",
       "id": "alula-tour-2026",
@@ -3406,7 +3406,7 @@
           "distance": 158,
           "date": "2026-01-27",
           "platform": "FloBikes",
-          "url": "TBD",
+          "url": "https://www.flobikes.com/events/14817578-2026-alula-tour/videos?playing=15297824",
           "description": "Opening circuit stage at the iconic Camelodrome. Sprint finish expected, but desert winds could create chaos.",
           "stageDetails": {
             "lastFetched": "2026-01-29T00:00:00Z",
@@ -3426,13 +3426,13 @@
           "distance": 152,
           "date": "2026-01-28",
           "platform": "FloBikes",
-          "url": "TBD",
+          "url": "https://www.flobikes.com/events/14817578-2026-alula-tour/videos?playing=15302509",
           "description": "Second sprint opportunity on another circuit stage through the desert landscape.",
           "stageDetails": {
             "lastFetched": "2026-01-29T00:00:00Z",
             "spoilerSafe": true,
             "courseSummary": "Circuit stage at the historic AlManshiyah Train Station. Another day for the fast men, with the possibility of crosswind action.",
-            "watchNotes": "Sprinters' day, but watch for aggressive GC riders if winds create opportunities."
+            "watchNotes": "Sprinters day, but watch for aggressive GC riders if winds create opportunities."
           }
         },
         {
@@ -3516,7 +3516,27 @@
         ],
         "historicalContext": "The AlUla Tour began in 2020 as part of Saudi Arabia's Vision 2030 plan to develop sports tourism. The race showcases the UNESCO World Heritage site of Hegra and the stunning rock formations of AlUla.",
         "watchNotes": "Early-season form indicator for WorldTour teams. Watch for crosswinds on flat stages and GC action on the mountain finishes."
-      }
+      },
+      "youtubeHighlights": [
+        {
+          "url": "https://www.youtube.com/watch?v=ugKjc3ukZQI",
+          "title": "Extended Highlights - Stage 1 - The AlUla Tour 2026",
+          "channel": "The AlUla Tour",
+          "spoilerSafe": true,
+          "type": "extended-highlights",
+          "stage": 1,
+          "notes": "Spoiler-safe: winner revealed at natural finish (81% through)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7iNi3akoCOY",
+          "title": "Extended Highlights - Stage 2 - The AlUla Tour 2026",
+          "channel": "The AlUla Tour",
+          "spoilerSafe": true,
+          "type": "extended-highlights",
+          "stage": 2,
+          "notes": "Spoiler-safe: winner revealed at natural finish (86% through)"
+        }
+      ]
     },
     {
       "id": "trofeo-calvia-2026",
