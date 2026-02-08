@@ -990,11 +990,156 @@ console.log('Races with stages:', withStages);
 2. **Confirm spoiler safety** using your intelligence
 3. **Test direct video access** (links work without spoiler pages)
 4. **Generate clean descriptions** focusing on race context, not outcomes
+5. **Verify URL reachability** with HTTP HEAD check (see Quality Testing Tools below)
 
 ### After Each Discovery Session:
 1. **Review all added content** for spoiler safety
-2. **Regenerate HTML** with `npm run build`
-3. **Validate presentation** shows only spoiler-free content
+2. **Run quality checks**: `node scripts/test-race-quality.js --from DATE --to DATE --compact`
+3. **Fix any issues** found (root URLs, missing details, etc.)
+4. **Regenerate HTML** with `npm run build`
+5. **Validate presentation** shows only spoiler-free content
+
+## Quality Testing Tools
+
+### test-race-quality.js
+Comprehensive quality test suite for race data:
+
+```bash
+# Test a specific race
+node scripts/test-race-quality.js --race paris-roubaix-2026
+
+# Test a date range (compact summary)
+node scripts/test-race-quality.js --from 2026-01-01 --to 2026-02-28 --compact
+
+# Test all races
+node scripts/test-race-quality.js --all --compact
+
+# Check only broadcast quality
+node scripts/test-race-quality.js --race RACE_ID --only broadcast
+
+# JSON output for programmatic use
+node scripts/test-race-quality.js --race RACE_ID --json
+
+# Include link accessibility checks (requires Playwright)
+node scripts/test-race-quality.js --race RACE_ID --check-links
+```
+
+**What it checks:**
+- Data completeness (required fields, terrain, rating)
+- Race details (courseSummary, climbs, favorites)
+- Broadcast quality (URLs are deep links, not root URLs)
+- Link accessibility (optional, uses Playwright)
+- Spoiler safety (optional, checks landing pages)
+
+### url-validator.js
+URL validation utilities used by the test suite:
+- `isValidUrl(url)` - Basic URL format check
+- `isRootUrl(url)` - Detects homepage-only URLs (flobikes.com, youtube.com, etc.)
+- `isDeepLink(url)` - Verifies URL points to specific content
+- `validateBroadcastUrl(url)` - Validates broadcast-specific URL patterns
+- `validateRaceBroadcast(race)` - Full broadcast validation for a race
+
+### link-tester.js
+Uses Playwright to verify links are accessible and spoiler-safe:
+- Tests that URLs load without errors
+- Detects region-locked content
+- Scans landing pages for spoiler keywords
+- Checks multiple languages for spoiler terms
+
+### HTTP HEAD Verification (Lightweight)
+When Playwright isn't available, use simple `fetch()` for URL verification:
+```bash
+node -e "
+(async () => {
+  const url = 'https://www.flobikes.com/events/12345';
+  const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+  console.log(res.status, res.ok ? 'OK' : 'FAIL');
+})();
+"
+```
+
+### Slash Command
+Use `/quality-check` for an interactive quality check workflow:
+```bash
+/quality-check --from 2026-01-01 --to 2026-02-28 --compact
+/quality-check paris-roubaix-2026 --check-links
+/quality-check --all --fix
+```
+
+## Batch Update Best Practices
+
+### Team-Based Parallel Execution
+For large updates (20+ races), use 3 parallel agents for maximum throughput:
+
+| Agent | Role | API Used |
+|-------|------|----------|
+| video-high | Video discovery for 3-5★ races | Firecrawl (FloBikes, YouTube) |
+| video-low | Video discovery for 1-2★ races | Firecrawl |
+| details-researcher | Race details + broadcast | Perplexity |
+
+Agents share a task list and claim races to avoid duplicate work. The details-researcher can run fully in parallel with video agents since they use different APIs.
+
+### Priority Ordering
+1. **3-5★ races first** — users care most about these
+2. **Group similar races** — all Challenge Mallorca stages together, all Tour Down Under stages together
+3. **FloBikes first** — most comprehensive source for professional cycling
+
+### FloBikes Deep Link Discovery
+Don't settle for root `https://www.flobikes.com` URLs. Search for specific event pages:
+```bash
+node -e "
+import { flobikeSearch } from './lib/firecrawl-utils.js';
+flobikeSearch('RACE_NAME YEAR site:flobikes.com').then(r => console.log(JSON.stringify(r, null, 2)));
+"
+```
+Deep links look like: `https://www.flobikes.com/events/12345-race-name-2026`
+
+### Streaming Platform Root URLs
+Some login-gated platforms have no public deep links. These root URLs are acceptable:
+- `https://www.discoveryplus.com` — Discovery+ / TNT Sports
+- `https://www.7plus.com.au` — 7plus Australia
+- `https://www.max.com` — HBO Max
+- `https://www.peacocktv.com` — Peacock
+
+### Quality Test → Fix → Retest Loop
+After batch updates, run the quality check, fix issues, and retest:
+```bash
+node scripts/test-race-quality.js --from 2026-01-01 --to 2026-01-31 --compact  # Find issues
+# ... fix issues ...
+node scripts/test-race-quality.js --from 2026-01-01 --to 2026-01-31 --compact  # Verify fixes
+```
+
+## Rider Population
+
+### Running Rider Scripts
+Run rider population early in any update session — it's fast and automated:
+```bash
+# Men's riders → men's races
+node populate-race-riders.js
+
+# Women's riders → women's races
+node scripts/populate-riders-women.js
+```
+
+### Women's Rider Slug Mappings
+The `RACE_SLUG_MAPPING` in `scripts/populate-riders-women.js` maps PCS race slugs to our race-data.json IDs. When new women's races are added, slug mismatches may occur. Check for "race X not found" warnings and update the mapping:
+
+```javascript
+// Current mappings in scripts/populate-riders-women.js
+const RACE_SLUG_MAPPING = {
+  'giro-d-italia-women': 'giro-ditalia-women',
+  'paris-roubaix-we': 'paris-roubaix-women',
+  'ronde-van-vlaanderen-we': 'ronde-van-vlaanderen-women',
+  'liege-bastogne-liege-femmes': 'liege-bastogne-liege-women',
+  'santos-women-s-tour': 'women-tour-down-under',
+  'strade-bianche-donne': 'strade-bianche-women',
+  'trofeo-palma-femina': 'trofeo-palma-feminina',
+  'amstel-gold-race-we': 'amstel-gold-race-women',
+  'la-fleche-wallonne-feminine': 'la-fleche-wallonne-women',
+};
+```
+
+When adding new women's races, add the slug mapping if the PCS slug differs from the race-data.json ID.
 
 ## Working Session Commands
 
@@ -1009,14 +1154,20 @@ node scripts/add-race.js --file /tmp/new-race.json      # Add new race
 node scripts/update-race.js --id race-id --file /tmp/updates.json  # Update existing
 npm run build  # Regenerate HTML
 
-# Validate results (your verification)
-# Review generated index.html for spoiler safety using Read tool
+# Quality checks
+node scripts/test-race-quality.js --from 2026-01-01 --to 2026-02-28 --compact
+node scripts/test-race-quality.js --race RACE_ID --check-links
+
+# Rider population
+node populate-race-riders.js
+node scripts/populate-riders-women.js
 ```
 
 ## Success Metrics
 
 - **Spoiler Safety**: 100% of content verified spoiler-free
-- **Content Quality**: Direct links to actual race footage
+- **Content Quality**: Direct links to actual race footage (deep links, not root URLs)
+- **URL Reachability**: All non-TBD URLs return HTTP 200
 - **User Experience**: Click race → immediately watch (no spoiler risk)
 - **Discovery Efficiency**: Find substantial race content in 2-5 minute sessions
 

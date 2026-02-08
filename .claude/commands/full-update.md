@@ -19,9 +19,23 @@ Batch update all races for a given month:
 
 ## Workflow
 
+### Phase 0: Rider Population (Fast, Automated)
+
+Run rider scripts first — they're fast and produce immediate visible results:
+
+```bash
+# Men's riders → men's races
+node populate-race-riders.js
+
+# Women's riders → women's races
+node scripts/populate-riders-women.js
+```
+
+If women's slug mapping issues appear (e.g., "race X not found"), update `RACE_SLUG_MAPPING` in `scripts/populate-riders-women.js` before re-running.
+
 ### Phase 1: Find Target Races
 
-First, analyze the arguments and find target races:
+Analyze the arguments and find target races:
 
 ```bash
 node -e "
@@ -76,6 +90,8 @@ console.log(JSON.stringify({
 
 ### Phase 2: Process Past Races (Video Links)
 
+**Priority ordering**: Process 3-5 star races first, then 1-2 star. Group similar races together (e.g., all Challenge Mallorca stages, all Tour Down Under stages) for efficient batch searching.
+
 For each past race missing URL:
 
 #### 2a. FloBikes Search
@@ -111,7 +127,37 @@ flobikeSearch('RACE_NAME Stage N YEAR').then(r => console.log(JSON.stringify(r, 
 "
 ```
 
-### Phase 3: Process Future Races (Broadcast)
+### Phase 3: FloBikes Deep Link Discovery
+
+After initial video link population, upgrade root FloBikes URLs to deep links:
+
+```bash
+# Find races with root FloBikes URLs
+node -e "
+const data = require('./data/race-data.json');
+data.races.filter(r => {
+  const isRoot = r.url === 'https://www.flobikes.com' || (r.broadcast?.geos?.US?.primary?.url === 'https://www.flobikes.com');
+  return isRoot && r.platform === 'FloBikes';
+}).forEach(r => console.log(r.id, r.name));
+"
+```
+
+Search FloBikes for the specific event page:
+```bash
+node -e "
+import { flobikeSearch } from './lib/firecrawl-utils.js';
+flobikeSearch('RACE_NAME YEAR site:flobikes.com').then(r => console.log(JSON.stringify(r, null, 2)));
+"
+```
+
+Deep links look like: `https://www.flobikes.com/events/12345-race-name-2026`
+
+Update with the deep link:
+```bash
+node scripts/update-race.js --id RACE_ID --set 'url=https://www.flobikes.com/events/...'
+```
+
+### Phase 4: Process Future Races (Broadcast)
 
 For each future race missing broadcast:
 
@@ -127,7 +173,7 @@ Build broadcast object from results and update:
 node scripts/update-race.js --id RACE_ID --file /tmp/broadcast.json
 ```
 
-### Phase 4: Batch by Region (Efficiency)
+### Phase 5: Batch by Region (Efficiency)
 
 Group research queries by region to reduce API calls:
 
@@ -208,13 +254,75 @@ cat > /tmp/broadcast-rcs.json << 'EOF'
 EOF
 ```
 
-### Phase 5: Update & Build
+### Phase 6: Race Details (Parallel with Video Discovery)
+
+For races missing `raceDetails`:
+
+```bash
+node -e "
+import { searchRaceDetailsSafe } from './lib/perplexity-utils.js';
+searchRaceDetailsSafe('RACE_NAME', 'RACE_DATE', YEAR).then(r => console.log(JSON.stringify(r, null, 2)));
+"
+```
+
+This runs well in parallel with video discovery since it uses a different API.
+
+### Phase 7: Quality Check
+
+Run the quality test suite to find remaining issues:
+
+```bash
+# Test all races in the target month
+node scripts/test-race-quality.js --from YYYY-MM-01 --to YYYY-MM-31 --compact
+
+# Or test specific race
+node scripts/test-race-quality.js --race RACE_ID
+```
+
+Fix issues found (common ones):
+- **Root URLs**: Upgrade to deep links (FloBikes event pages, YouTube video links)
+- **Missing raceDetails**: Run searchRaceDetailsSafe
+- **Missing broadcast**: Apply template from Phase 5
+- **Missing terrain/rating**: Use `node scripts/tag-races.js`
+
+Re-run quality check after fixes to verify.
+
+### Phase 8: URL Verification
+
+Verify URLs are reachable with HTTP HEAD checks:
+
+```bash
+node -e "
+const data = require('./data/race-data.json');
+const races = data.races.filter(r => {
+  const d = new Date(r.raceDate);
+  return d.getMonth() >= START_MONTH && d.getMonth() <= END_MONTH && d.getFullYear() === YEAR;
+});
+const urls = races.filter(r => r.url && r.url !== 'TBD').map(r => ({ id: r.id, url: r.url }));
+
+(async () => {
+  for (const { id, url } of urls) {
+    try {
+      const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+      if (!res.ok) console.log('FAIL', res.status, id, url);
+    } catch (e) {
+      console.log('ERROR', id, url, e.message);
+    }
+  }
+  console.log('Done - checked', urls.length, 'URLs');
+})();
+"
+```
+
+**Note**: Streaming platform root URLs (discoveryplus.com, 7plus.com.au, max.com) are acceptable when the platform is login-gated and no deep link exists. These will return 200 even though they're root URLs.
+
+### Phase 9: Update & Build
 
 1. Apply all updates via scripts
 2. Run `npm run build`
 3. Run `node generate-race-details.js --all`
 
-### Phase 6: Report
+### Phase 10: Report
 
 Output summary:
 
@@ -227,6 +335,7 @@ Output summary:
 | Past races | X | Y URLs added |
 | Future races | X | Y broadcasts added |
 | Stage races | X | Y stage URLs |
+| Race details | X | Y details added |
 
 ### Past Races Updated
 | Race | Platform | URL Status |
@@ -236,6 +345,14 @@ Output summary:
 | Race | Broadcast Geos |
 |------|----------------|
 
+### Quality Check Results
+| Check | Pass | Fail |
+|-------|------|------|
+| URLs reachable | X | Y |
+| Deep links (not root) | X | Y |
+| Race details populated | X | Y |
+| Broadcast populated | X | Y |
+
 ### Races with No Coverage Found
 - [list of races where no broadcast/video was found]
 
@@ -244,13 +361,53 @@ Output summary:
 - race-details/*.html (X pages)
 ```
 
-## Notes
+## Team-Based Parallel Execution
 
-- Process high-star races first (4-5★ before 1-2★)
-- For 1-star races with no coverage, mark as "No broadcast available" in notes
-- Parallelize independent searches where possible
-- YouTube analysis is required for ALL YouTube links (non-negotiable spoiler safety)
-- Always use update-race.js script - never edit race-data.json directly
+For large batch updates (20+ races), use a team of 3 parallel agents for maximum throughput:
+
+### Team Setup
+```
+Create team with 3 agents:
+1. "video-high" (general-purpose) - Video discovery for 3-5★ races
+2. "video-low" (general-purpose) - Video discovery for 1-2★ races
+3. "details-researcher" (general-purpose) - Race details + broadcast for all races
+```
+
+### Agent Task Assignment
+
+**video-high agent:**
+- Search FloBikes and YouTube for high-priority races first
+- Run youtube-cycling-analyzer on YouTube candidates
+- Update race URLs via update-race.js
+- After high-priority, help with remaining races
+
+**video-low agent:**
+- Search FloBikes and YouTube for lower-priority races
+- Many 1-2★ races may not have dedicated coverage — mark as noted
+- Focus on FloBikes (most comprehensive for smaller races)
+
+**details-researcher agent:**
+- Run searchRaceDetailsSafe for all races missing raceDetails
+- Run broadcast research for races missing broadcast
+- Can run in parallel with video agents since it uses Perplexity API
+
+### Coordination
+- Share a task list with race IDs and status (pending/done/no-coverage)
+- Agents claim races from the list to avoid duplicate work
+- Team lead monitors progress and handles FloBikes deep link upgrades
+
+## Tips & Proven Practices
+
+- **Process high-star races first** (4-5★ before 1-2★) — users care most about these
+- **Group similar races** (all Challenge Mallorca stages, all Tour Down Under stages) for efficient batch searching
+- **FloBikes is the primary source** for most races — search there first
+- **Streaming platform root URLs are acceptable** when login-gated (discoveryplus.com, 7plus.com.au, max.com) — no deep link exists behind the login wall
+- **YouTube analysis is required** for ALL YouTube links (non-negotiable spoiler safety)
+- **Quality test → fix → retest loop** catches issues systematically
+- **HTTP HEAD checks** are a lightweight way to verify URLs when Playwright isn't available
+- **Parallelize independent searches** where possible (FloBikes + YouTube, details + broadcast)
+- **Always use update-race.js script** — never edit race-data.json directly
+- For 1-star races with no coverage, it's OK to leave platform as "TBD"
 
 ## Example Usage
 

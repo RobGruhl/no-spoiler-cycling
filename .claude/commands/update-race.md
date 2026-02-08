@@ -238,3 +238,36 @@ Output a summary:
 - If a search returns no usable results, note it and continue with other fields
 - The update-race.js script safely merges data (won't overwrite existing topRiders, etc.)
 - For `--dry-run`, show what would be updated but don't write files
+
+## Tips
+
+### FloBikes Deep Link Discovery
+Don't settle for root `https://www.flobikes.com` URLs. Search for the specific event page:
+```bash
+node -e "
+import { flobikeSearch } from './lib/firecrawl-utils.js';
+flobikeSearch('RACE_NAME YEAR site:flobikes.com').then(r => console.log(JSON.stringify(r, null, 2)));
+"
+```
+Deep links look like: `https://www.flobikes.com/events/12345-race-name-2026`
+
+### URL Verification
+After updating URLs, verify they're reachable:
+```bash
+node -e "
+(async () => {
+  const url = 'https://www.flobikes.com/events/12345-race-name';
+  const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+  console.log(res.status, res.ok ? 'OK' : 'FAIL');
+})();
+"
+```
+
+### Streaming Platform Root URLs
+Some platforms are login-gated with no public deep links. These root URLs are acceptable:
+- `https://www.discoveryplus.com` (Discovery+ / TNT Sports)
+- `https://www.7plus.com.au` (7plus Australia)
+- `https://www.max.com` (HBO Max)
+- `https://www.peacocktv.com` (Peacock)
+
+The quality checker (`test-race-quality.js`) will flag these as root URLs, but they're intentional — no deep link exists behind the login wall.
