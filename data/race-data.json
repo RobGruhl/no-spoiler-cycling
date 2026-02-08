@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-08T06:39:41.689Z",
+  "lastUpdated": "2026-02-08T07:57:40.185Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -46,7 +46,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -168,7 +168,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -561,15 +561,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -618,8 +610,8 @@
             "itt"
           ],
           "date": "2026-01-17",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=-aM_7v_PSsU",
           "description": "Opening prologue time trial around the historic center of San Salvador"
         },
         {
@@ -630,8 +622,8 @@
             "flat"
           ],
           "date": "2026-01-18",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=lcrCQ8XTTlM",
           "description": "Stage through the streets of San Salvador"
         },
         {
@@ -642,8 +634,8 @@
             "hilly"
           ],
           "date": "2026-01-19",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=eZOBmh_19Cc",
           "description": "Coastal stage from the Pacific surfing beaches to the city of Sonsonate"
         },
         {
@@ -654,8 +646,8 @@
             "hilly"
           ],
           "date": "2026-01-20",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=usGFya0Yk1c",
           "description": "Hilly stage from the capital through the surrounding terrain"
         },
         {
@@ -666,8 +658,8 @@
             "hilly"
           ],
           "date": "2026-01-21",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=AgOiwfIVQpg",
           "description": "Final stage around the western highland city of Santa Ana near the Cerro Verde volcanic complex"
         }
       ]
@@ -1062,7 +1054,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -1132,7 +1124,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -1224,18 +1216,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "NBC Sports (YouTube)",
-                "broadcasterId": "youtube-nbcsports",
-                "type": "free",
-                "url": "https://www.youtube.com/@NBCSports",
-                "coverage": "extended-highlights",
-                "subscription": false,
-                "notes": "Extended stage highlights posted after each stage"
-              }
-            ]
+            }
           },
           "CA": {
             "primary": {
@@ -1246,18 +1227,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN+ YouTube",
-                "broadcasterId": "youtube-gcn",
-                "type": "free",
-                "url": "https://www.youtube.com/@gcn",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights and analysis"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -1268,27 +1238,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage via Eurosport"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "Eurosport YouTube",
-                "broadcasterId": "youtube-eurosport",
-                "type": "free",
-                "url": "https://www.youtube.com/@eurosportcycling",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights"
-              },
-              {
-                "broadcaster": "GCN+ YouTube",
-                "broadcasterId": "youtube-gcn",
-                "type": "free",
-                "url": "https://www.youtube.com/@gcn",
-                "coverage": "extended-highlights",
-                "subscription": false,
-                "notes": "Extended highlights and race analysis"
-              }
-            ]
+            }
           },
           "AU": {
             "primary": {
@@ -1944,15 +1894,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -2028,15 +1970,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -2116,7 +2050,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -2217,7 +2151,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -2306,17 +2240,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
+              "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -2332,7 +2258,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
+              "url": "https://www.flobikes.com",
               "coverage": "live"
             }
           }
@@ -2385,15 +2311,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -2493,7 +2411,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -2563,7 +2481,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -2635,8 +2553,8 @@
       "id": "trofeo-binissalem-andratx-2026",
       "name": "Trofeo Binissalem - Andratx",
       "description": "1.1 cycling race in Spain",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Eu3dssDDOBo",
       "type": "full-race",
       "raceDate": "2026-01-26",
       "endDate": "2026-01-27",
@@ -2662,15 +2580,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -2726,7 +2636,6 @@
         "flat",
         "crosswind-risk"
       ],
-      "format": "stage-race",
       "distance": 800,
       "location": "AlUla, Saudi Arabia",
       "category": "2.Pro",
@@ -2814,7 +2723,7 @@
           "distance": 142.1,
           "date": "2026-01-29",
           "platform": "FloBikes",
-          "url": "TBD",
+          "url": "https://www.flobikes.com/events/14817578-2026-alula-tour/videos?playing=15305662",
           "description": "First GC test with a mountain finish at Bir Jaydah. The terrain gets serious.",
           "stageDetails": {
             "lastFetched": "2026-01-29T00:00:00Z",
@@ -2833,7 +2742,7 @@
           "distance": 184,
           "date": "2026-01-30",
           "platform": "FloBikes",
-          "url": "TBD",
+          "url": "https://www.flobikes.com/events/14817578-2026-alula-tour/videos?playing=15308755",
           "description": "Queen stage with the longest distance. Finish at the UNESCO World Heritage site of Hegra.",
           "stageDetails": {
             "lastFetched": "2026-01-29T00:00:00Z",
@@ -2853,7 +2762,7 @@
           "distance": 163.9,
           "date": "2026-01-31",
           "platform": "FloBikes",
-          "url": "TBD",
+          "url": "https://www.flobikes.com/events/14817578-2026-alula-tour/videos?playing=15320011",
           "description": "Final stage with summit finish at Skyviews of Harrat Uwayrid. Last chance to shake up the GC.",
           "stageDetails": {
             "lastFetched": "2026-01-29T00:00:00Z",
@@ -2928,7 +2837,8 @@
           "nationalityCode": "SW",
           "specialties": []
         }
-      ]
+      ],
+      "raceFormat": "stage-race"
     },
     {
       "id": "trofeo-calvia-2026",
@@ -3026,15 +2936,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -3275,15 +3177,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -3418,15 +3312,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -3505,15 +3391,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -3713,7 +3591,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -3790,15 +3668,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255344-2026-grand-prix-cycliste-la-marseillaise",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -3888,15 +3758,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -4031,15 +3893,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255339-2026-challenge-mallorca",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -4134,18 +3988,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "broadcasterId": "youtube-gcn-racing",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -4156,18 +3999,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage via Eurosport"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "Eurosport Cycling YouTube",
-                "broadcasterId": "youtube-eurosport",
-                "type": "free",
-                "url": "https://www.youtube.com/@eurosportcycling",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights"
-              }
-            ]
+            }
           }
         },
         "youtubeChannels": [
@@ -4232,7 +4064,7 @@
               "type": "streaming",
               "coverage": "live",
               "subscription": true,
-              "url": "https://www.discoveryplus.com/gb/en/sport/cycling"
+              "url": "https://www.discoveryplus.com"
             }
           },
           "BE": {
@@ -4312,15 +4144,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15255349-2026-etoile-de-besseges-tour-du-gard",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -4381,8 +4205,8 @@
           ],
           "distance": 153.2,
           "date": "2026-02-04",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Ut0Tcd_jjls",
           "description": "Flat opening stage starting and finishing in Bellegarde with just 304m of elevation gain"
         },
         {
@@ -4393,8 +4217,8 @@
             "hilly"
           ],
           "date": "2026-02-05",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=E1iTzdAZGok",
           "description": "Rolling stage through the Gard countryside with 1,424m of elevation"
         },
         {
@@ -4405,8 +4229,8 @@
             "hilly"
           ],
           "date": "2026-02-06",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=2_Ml39dTvyA",
           "description": "Hilly stage with 1,629m of elevation gain through the Cevennes foothills"
         },
         {
@@ -4417,8 +4241,8 @@
             "mountain"
           ],
           "date": "2026-02-07",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=W0WO1hIXTEg",
           "description": "Queen stage with 1,418m elevation and a demanding finish - the GC-deciding day"
         },
         {
@@ -4485,8 +4309,8 @@
           ],
           "distance": 166,
           "date": "2026-02-05",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=O936jj-fMLc",
           "description": "First mountain stage with summit finish - key GC day",
           "stageDetails": {
             "lastFetched": "2026-01-08T06:32:17.374Z",
@@ -4572,7 +4396,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -5078,7 +4903,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -5118,7 +4944,7 @@
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
-      "name": "Aveiro Fegion Champions Classic",
+      "name": "Aveiro Region Champions Classic",
       "description": "1.1 cycling race in Portugal",
       "platform": "TBD",
       "url": "TBD",
@@ -5145,17 +4971,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255357-2026-figueira-champions-classic",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -5171,7 +4989,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255357-2026-figueira-champions-classic",
               "coverage": "live"
             }
           }
@@ -5209,15 +5027,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -5265,7 +5075,7 @@
         "courseSummary": "The Vuelta CV Feminas is a one-day women's race held in Spain's Valencian Community, typically featuring rolling terrain that favors sprinters.",
         "watchNotes": "Fast-paced women's one-day race that usually comes down to a sprint finish."
       },
-      "gender": "men",
+      "gender": "women",
       "discipline": "road",
       "broadcast": {
         "lastUpdated": "2026-01-29T00:00:00Z",
@@ -5536,17 +5346,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817588-2026-tour-de-la-provence",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -5562,7 +5364,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817588-2026-tour-de-la-provence",
               "coverage": "live"
             }
           }
@@ -5581,6 +5383,48 @@
             "puncheur",
             "sprinter"
           ]
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Marseille - Saint-Victoret",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "168.8km",
+          "date": "2026-02-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling opening stage from Marseille to Saint-Victoret"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Forcalquier - Montagne de Lure",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": "179.8km",
+          "date": "2026-02-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage with summit finish at Montagne de Lure"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Rognac - Arles",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": "210km",
+          "date": "2026-02-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat finale from Rognac to Arles"
         }
       ]
     },
@@ -5614,17 +5458,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255359-2026-vuelta-ciclista-a-la-region-de-murcia",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -5640,7 +5476,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255359-2026-vuelta-ciclista-a-la-region-de-murcia",
               "coverage": "live"
             }
           }
@@ -5695,7 +5531,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -5812,7 +5649,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -5877,17 +5715,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255364-2026-clasica-jaen-paraiso-interior",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -5903,7 +5733,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255364-2026-clasica-jaen-paraiso-interior",
               "coverage": "live"
             }
           }
@@ -6131,22 +5961,11 @@
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255362-2026-uae-tour-men",
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "broadcasterId": "youtube-gcn-racing",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -6157,18 +5976,7 @@
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage via Eurosport"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "Eurosport Cycling YouTube",
-                "broadcasterId": "youtube-eurosport",
-                "type": "free",
-                "url": "https://www.youtube.com/@eurosportcycling",
-                "coverage": "highlights",
-                "subscription": false,
-                "notes": "Stage highlights"
-              }
-            ]
+            }
           }
         },
         "youtubeChannels": [
@@ -6415,7 +6223,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -6652,7 +6461,8 @@
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
               "coverage": "live",
-              "subscription": true
+              "subscription": true,
+              "url": "https://www.discoveryplus.com"
             }
           }
         },
@@ -6753,17 +6563,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255373-2026-classic-var",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -6779,7 +6581,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255373-2026-classic-var",
               "coverage": "live"
             }
           }
@@ -6817,15 +6619,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -6879,15 +6673,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -6924,7 +6710,7 @@
       "category": "1.1",
       "rating": 1,
       "discoveredAt": "2026-01-07T06:49:05.076Z",
-      "raceFormat": "one-day",
+      "raceFormat": "stage-race",
       "terrain": [
         "flat"
       ],
@@ -6939,17 +6725,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255372-2026-tour-des-alpes-maritimes",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -6965,12 +6743,40 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255372-2026-tour-des-alpes-maritimes",
               "coverage": "live"
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "170km",
+          "date": "2026-02-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage through the Alpes-Maritimes"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "165km",
+          "date": "2026-02-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing mountain stage"
+        }
+      ]
     },
     {
       "id": "tour-du-rwanda-2026",
@@ -7004,15 +6810,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -7033,7 +6831,127 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue: BK Arena - Amahoro Stadium",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "distance": "8km",
+          "date": "2026-02-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening prologue time trial in Kigali"
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Rukomo - Kayonza",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "120km",
+          "date": "2026-02-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling stage through eastern Rwanda"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Kigali - Musanze",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "140km",
+          "date": "2026-02-24",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage toward the Virunga volcanoes"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Musanze - Gisenyi",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "110km",
+          "date": "2026-02-25",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Stage from Musanze to Lake Kivu"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Lake Kivu",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "130km",
+          "date": "2026-02-26",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Scenic stage along Lake Kivu"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "145km",
+          "date": "2026-02-27",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage through the interior"
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "135km",
+          "date": "2026-02-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling stage heading back toward Kigali"
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "150km",
+          "date": "2026-03-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Penultimate mountain stage"
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8: Kigali",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": "100km",
+          "date": "2026-03-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage finishing in Kigali"
+        }
+      ]
     },
     {
       "id": "giro-di-sardegna-2026",
@@ -7067,15 +6985,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -7096,7 +7006,87 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "160km",
+          "date": "2026-02-25",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage in Sardinia"
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "170km",
+          "date": "2026-02-26",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage through the Sardinian interior"
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "155km",
+          "date": "2026-02-27",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Hilly stage along the coast"
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": "175km",
+          "date": "2026-02-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat stage through the plains"
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": "165km",
+          "date": "2026-03-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain stage"
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": "140km",
+          "date": "2026-03-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage"
+        }
+      ]
     },
     {
       "id": "omloop-nieuwsblad-women-2026",
@@ -7218,7 +7208,7 @@
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14823631-2026-womens-omloop-het-nieuwsblad",
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
@@ -7229,7 +7219,7 @@
               "broadcaster": "FloBikes",
               "broadcasterId": "flobikes",
               "type": "streaming",
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14823631-2026-womens-omloop-het-nieuwsblad",
               "coverage": "live",
               "subscription": true,
               "notes": "Full live coverage and replays"
@@ -7293,15 +7283,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
