@@ -16,7 +16,15 @@ const __dirname = dirname(__filename);
  * Slug mapping for women's race names that differ between PCS and our race-data.json
  */
 const RACE_SLUG_MAPPING = {
-  // Add mappings as needed when populating race programs
+  'giro-d-italia-women': 'giro-ditalia-women',
+  'paris-roubaix-we': 'paris-roubaix-women',
+  'ronde-van-vlaanderen-we': 'ronde-van-vlaanderen-women',
+  'liege-bastogne-liege-femmes': 'liege-bastogne-liege-women',
+  'santos-women-s-tour': 'women-tour-down-under',
+  'strade-bianche-donne': 'strade-bianche-women',
+  'trofeo-palma-femina': 'trofeo-palma-feminina',
+  'amstel-gold-race-we': 'amstel-gold-race-women',
+  'la-fleche-wallonne-feminine': 'la-fleche-wallonne-women',
 };
 
 function loadRidersWomen() {
@@ -108,6 +116,9 @@ function populateWomenRaceRiders() {
         if (!raceRidersMap.has(raceId)) {
           raceRidersMap.set(raceId, []);
         }
+
+        // Skip if rider already added to this race (dedup across slug paths)
+        if (raceRidersMap.get(raceId).some(r => r.id === rider.id)) continue;
 
         // Add rider info (minimal data for display)
         raceRidersMap.get(raceId).push({
