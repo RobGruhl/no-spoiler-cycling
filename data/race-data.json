@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T05:51:48.698Z",
+  "lastUpdated": "2026-04-19T22:12:49.100Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -12071,33 +12071,6 @@
           }
         }
       },
-      "topRiders": [
-        {
-          "id": "pauline-ferrand-prevot",
-          "name": "FERRAND-PRÉVOT Pauline",
-          "team": "Team Visma | Lease a Bike",
-          "ranking": 13,
-          "nationality": "France",
-          "nationalityCode": "FR",
-          "specialties": [
-            "all-rounder",
-            "cyclocross",
-            "mtb"
-          ]
-        },
-        {
-          "id": "noemi-ruegg",
-          "name": "RÜEGG Noemi",
-          "team": "EF Education-Oatly",
-          "ranking": 20,
-          "nationality": "Switzerland",
-          "nationalityCode": "SW",
-          "specialties": [
-            "climber",
-            "gc-contender"
-          ]
-        }
-      ],
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
         "spoilerSafe": true,
@@ -12208,7 +12181,34 @@
         ],
         "historicalContext": "The women's Tour of Flanders was first held in 2004 and joined the Women's WorldTour calendar in 2016. It is one of the most prestigious one-day races on the women's calendar and shares its iconic Flemish Ardennes finale with the men's race. Recent winners include Lotte Kopecky (multiple times), Demi Vollering, Elisa Longo Borghini, and others. The race typically produces aggressive, long-range racing given the short distance relative to the men's event - attackers must commit early to avoid the final sprint.",
         "watchNotes": "Tune in for the final 90 minutes - the race opens up on the Wolvenberg (82km to go) and the Molenberg (70km to go) is historically where the winning move is launched. The critical TV window is the final hour from Berg Ten Houte (40km to go) through the final Kwaremont/Paterberg. Spoiler caution: avoid YouTube sidebar and autoplay as highlights often reveal the finish."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "cyclocross",
+            "mtb"
+          ]
+        },
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "cholet-agglo-tour-2026",
@@ -13573,32 +13573,6 @@
           }
         }
       },
-      "topRiders": [
-        {
-          "id": "elisa-balsamo",
-          "name": "BALSAMO Elisa",
-          "team": "Lidl - Trek",
-          "ranking": 5,
-          "nationality": "Italy",
-          "nationalityCode": "IT",
-          "specialties": [
-            "sprinter",
-            "one-day"
-          ]
-        },
-        {
-          "id": "linda-zanetti",
-          "name": "ZANETTI Linda",
-          "team": "Uno-X Mobility",
-          "ranking": 26,
-          "nationality": "Switzerland",
-          "nationalityCode": "SW",
-          "specialties": [
-            "climber",
-            "puncheur"
-          ]
-        }
-      ],
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
         "spoilerSafe": true,
@@ -13700,7 +13674,33 @@
         ],
         "historicalContext": "Paris-Roubaix Femmes was first held in 2021 - a belated but prestigious addition to the women's WorldTour calendar. The inaugural winner was Lizzie Deignan, who soloed to victory in horrific weather on a muddy cobbled epic. The race has quickly become a fixture on the Spring Classics calendar and is consistently the most unpredictable race of the season. The 2026 edition was the sixth running and the first under the 'Hauts-de-France' branding. The finish in the Roubaix velodrome is shared with the men's race, making it one of cycling's most iconic venues.",
         "watchNotes": "Tune in for the full race from the opening cobbled sectors - with the new 2026 format there's no quiet opening and chaos often strikes early. The critical TV window is the final hour from Mons-en-Pévèle (48.6km to go) through Carrefour de l'Arbre (17.1km to go). The velodrome finish is must-watch. Spoiler caution: YouTube search results and thumbnails often show the winner - disable autoplay."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "o-gran-camino-2026",
@@ -14627,41 +14627,57 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T12:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183666-2026-amstel-gold-race",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live coverage from 06:30 ET; full replay and highlights available on-demand. $39.99/month or $149.99-155.88/year."
             },
             "alternatives": [
               {
                 "broadcaster": "GCN Racing YouTube",
                 "type": "free",
                 "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
+                "coverage": "highlights",
+                "subscription": false
               }
             ]
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports 2 / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
-            }
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Live on TNT Sports 2 from 13:55 BST; streamed via HBO Max (cycling moved from Discovery+ to HBO Max in March 2026). £30.99/month or £25.99/month on 12-month Saver plan."
+            },
+            "alternatives": [
+              {
+                "broadcaster": "TNT Sports",
+                "type": "tv",
+                "url": "https://www.tntsports.co.uk",
+                "coverage": "live",
+                "subscription": true
+              }
+            ]
           },
           "CA": {
             "primary": {
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183666-2026-amstel-gold-race",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live coverage from 06:30 ET; full replay and highlights available on-demand. CA$49.99/month or CA$215.88/year."
             }
           },
           "AU": {
@@ -14669,13 +14685,34 @@
               "broadcaster": "SBS On Demand",
               "broadcasterId": "sbs-on-demand",
               "type": "free",
-              "url": "https://www.sbs.com.au/ondemand/sport/cycling",
-              "coverage": "live",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/amstel-gold-mens-race-2026",
+              "coverage": "live-and-replay",
               "subscription": false,
-              "notes": "Free-to-air live on SBS / SBS On Demand. Confirmed 2026 coverage via \"How to watch\" guides."
-            }
+              "notes": "Free-to-air. Live coverage 23:00–01:15 AEST; full race + highlights replays via dedicated SBS On Demand series page."
+            },
+            "alternatives": [
+              {
+                "broadcaster": "SBS",
+                "type": "free",
+                "url": "https://www.sbs.com.au/ondemand/sport/cycling",
+                "coverage": "live",
+                "subscription": false
+              }
+            ]
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "extended-highlights"
+          },
+          {
+            "channel": "Amstel Gold Race (official)",
+            "handle": "@amstelgoldrace",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-16T12:00:00.000Z",
@@ -14937,20 +14974,6 @@
           }
         }
       },
-      "topRiders": [
-        {
-          "id": "magdeleine-vallieres",
-          "name": "VALLIERES Magdeleine",
-          "team": "EF Education-Oatly",
-          "ranking": 46,
-          "nationality": "Canada",
-          "nationalityCode": "CA",
-          "specialties": [
-            "climber",
-            "gc-contender"
-          ]
-        }
-      ],
       "raceDetails": {
         "lastFetched": "2026-04-16T12:00:00.000Z",
         "spoilerSafe": true,
@@ -15057,7 +15080,21 @@
         ],
         "historicalContext": "The Amstel Gold Race Ladies Edition has been part of the Women's WorldTour with the revitalised event returning on a modern course in 2017. Previous editions have been won by Marianne Vos, Demi Vollering, and in 2025 by Mischa Bredewold. It is part of the Ardennes triptych alongside La Flèche Wallonne Féminine and Liège-Bastogne-Liège Femmes. The race has grown steadily in prestige and now covers over 150km - among the longest one-day races on the women's calendar.",
         "watchNotes": "Tune in for the final 90 minutes - especially the third Cauberg pass (39km to go) onwards. Attacks often go on the fourth Cauberg (21.6km to go) or on the Bemelerberg. The finish comes just past the final Cauberg summit, which means the last 1.7km is the decisive section for any sprint from a small group. Spoiler caution: avoid YouTube sidebar, autoplay, and comments."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-samarkand-2026",
@@ -15232,24 +15269,28 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "HBO Max",
+              "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.max.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183670-2026-tour-of-the-alps-men",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live all 5 stages Apr 20-24, ~07:35 ET starts. FloSports holds North America rights. $39.99/mo or $203.88/yr."
             }
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. £30.99/mo or £25.99/mo on 12-month Saver plan."
             }
           },
           "CA": {
@@ -15257,8 +15298,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183670-2026-tour-of-the-alps-men",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Same FloSports North American feed as US. CA$49.99/mo or CA$215.88/yr."
             }
           },
           "AU": {
@@ -15267,36 +15310,37 @@
               "type": "none",
               "coverage": "none",
               "subscription": false,
-              "notes": "No confirmed Australian broadcast for this race."
+              "notes": "No free AU coverage. Not in SBS 2026 expanded cycling slate (Grand Tours/Monuments only). Not on Stan Sport. VPN to FloBikes/HBO Max is the only option."
             }
           }
         }
       },
       "raceDetails": {
-        "lastFetched": "2026-04-17T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 49th Tour of the Alps covers 760km across five days of mountainous racing in Austria and Italy, with 14,620m of total elevation gain. The 2026 route runs Monday April 20 to Friday April 24, traditionally serving as a final Giro d'Italia tune-up for GC contenders. The race features only one true mountain finish (Val Martello on Stage 2) but includes three stages that finish on descents, rewarding well-rounded riders who can descend as well as climb. A new 'Bonus Sprint' rule adds 6/4/2 seconds intermediate bonuses, often on climbs, directly impacting the GC battle. The race starts in Innsbruck, Austria, and concludes in Bolzano, Italy - uniting the Tirol and Südtirol/Alto Adige regions across the Alpine border.",
         "favorites": {
           "gcContenders": [
-            "Michael Storer (Tudor Pro Cycling) - defending champion, proven climber in Alpine stage races",
-            "Santiago Buitrago (Bahrain Victorious) - climbing specialist using the Alps as Giro preparation",
-            "Romain Bardet (Picnic PostNL) - final season of racing, specialist in mountainous stage races",
-            "Thymen Arensman (Ineos Grenadiers) - Giro-bound GC rider testing form in the Alps",
-            "Einer Rubio (Movistar) - South American climber well-suited to the terrain",
-            "Antonio Tiberi (Bahrain Victorious) - young Italian climber with GC aspirations"
+            "Egan Bernal (INEOS Grenadiers) - team leader, continued comeback arc, Giro prep",
+            "Thymen Arensman (INEOS Grenadiers) - 2025 Alps podium, full-blown Giro GC contender",
+            "Giulio Pellizzari (Red Bull - BORA - hansgrohe) - rising Italian climber, on home roads",
+            "Aleksandr Vlasov (Red Bull - BORA - hansgrohe) - veteran GC option, Giro form check",
+            "Ben O'Connor (Team Jayco AlUla) - proven stage-race podium threat",
+            "Michael Storer (Tudor Pro Cycling) - defending champion, breakthrough year continues",
+            "Derek Gee (Lidl-Trek) - Lidl-Trek GC option building toward Giro"
           ],
           "stageHunters": [
             "Matteo Jorgenson (Visma-Lease a Bike) - attacking style suited to breakaways and reduced-bunch finishes",
             "Isaac del Toro (UAE Team Emirates-XRG) - young Mexican Monument threat using TotA as Giro prep",
             "Lennert Van Eetvelt (Lotto Intermarché) - puncheur-climber profile"
-          ]
+          ],
+          "description": "5-stage Innsbruck-to-Bolzano climbing race, the definitive Giro d'Italia tune-up; relentless Alpine ascents with no time trials make pure climbers the GC favourites. Compact format means GC gaps appear immediately."
         },
         "narratives": [
-          "Critical Giro d'Italia form indicator - contenders arrive with three weeks until the Corsa Rosa starts",
-          "The new Bonus Sprint rule creates GC complications - 6/4/2s bonuses on climbs mean every intermediate matters",
-          "Only one mountain finish (Val Martello) means most GC swings come on descents - a return to classical Alpine racing",
-          "The Innsbruck-Bolzano route celebrates the race's Austrian-Italian heritage - unique cross-border feel",
-          "Michael Storer defends his title from last year - Tudor Pro Cycling looking to build on breakthrough form"
+          "Final Giro d'Italia form barometer — historically previews the Giro pink jersey contenders",
+          "Arensman vs Bernal at INEOS — co-leadership tension as both target Giro GC",
+          "Storer (Tudor) defending against the WorldTour heavyweights — underdog narrative",
+          "Compact 5-stage format with daily climbing means GC gaps appear immediately — no waiting for the third week"
         ],
         "historicalContext": "The Tour of the Alps was previously known as the Giro del Trentino until 2016. First raced in 1963, it has become a staple of the spring calendar and the traditional final Giro d'Italia warm-up for GC contenders. Past winners include Giro champions and future Grand Tour contenders - the race has a strong track record of identifying the year's Giro favourites. Memorable editions include Geraint Thomas's 2017 victory (just days before Michele Scarponi's tragic death) and Romain Bardet's 2022 win. Organizers are based in Arco, the Garda Trentino town that hosts a stage finish each year.",
         "gcDynamics": "With only one summit finish (Stage 2 to Val Martello) and three descent finishes, GC time is won and lost differently than in most modern stage races. Expect the major GC swings on the Val Martello mountain finish (Stage 2), the Queen Stage 4 with 3,600m of climbing over Passo Redebus and Povo, and the short but punchy Stage 5 finale in Bolzano. Descending skills matter - Stage 3 to Arco and parts of Stage 4 are decided after the final climb. The Bonus Sprint rule (6/4/2s) on intermediate climbs adds tactical variety throughout.",
@@ -15556,15 +15600,17 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "Peacock",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.peacocktv.com",
-              "coverage": "live"
+              "url": "https://www.peacocktv.com/sports/la-fleche-wallonne/60d48722-87bf-34a0-bf30-1a450dc1d890",
+              "coverage": "live-and-replay",
+              "broadcasterId": "peacock",
+              "notes": "ASO race rights on Peacock (separate from Flanders Classics on FloBikes). Wed Apr 22; men's start ~04:10 ET, finish ~09:15 ET. $10.99/mo Premium."
             },
             "alternatives": [
               {
@@ -15577,11 +15623,13 @@
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports 2 / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. Men's coverage from 11:45 BST. £30.99/mo or £25.99/mo on 12-month Saver plan."
             }
           },
           "CA": {
@@ -15589,8 +15637,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14817669-2026-fleche-wallonne",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live coverage from 06:45 EDT. CA$49.99/mo or CA$215.88/yr."
             }
           },
           "AU": {
@@ -15598,16 +15648,16 @@
               "broadcaster": "SBS On Demand",
               "broadcasterId": "sbs-on-demand",
               "type": "free",
-              "url": "https://www.sbs.com.au/ondemand/sport/cycling",
-              "coverage": "live",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/fleche-wallonne-mens-race-2026",
+              "coverage": "live-and-replay",
               "subscription": false,
-              "notes": "Free-to-air on SBS / SBS On Demand. ASO Ardennes Classic."
+              "notes": "Free-to-air on SBS Viceland + SBS On Demand."
             }
           }
         }
       },
       "raceDetails": {
-        "lastFetched": "2026-04-17T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 90th edition of La Flèche Wallonne runs 208.8km from Herstal (a new host city in the Liège area) to Huy, featuring three ascents of the iconic Mur de Huy (1.3km at 9.6% average, peaking near 20%) at km 134.4, km 171, and at the finish line (km 208.8). The opening 100km delivers the peloton to the finishing circuits via two early climbs - Côte de Trasenster (km 18.2) and Côte des Forges (km 48.8) - before entering the 37.2km finishing loop that includes Côte d'Ereffe (2.1km at 5%) and Côte de Cherave (1.3km at 8.1%) immediately before each Mur de Huy ascent. The race is almost always decided on the final Mur, with the explosive 'slow-motion sprint' up its 20% slopes traditionally crowning a pure puncheur.",
         "keyClimbs": [
@@ -15700,13 +15750,15 @@
           }
         ],
         "favorites": {
-          "description": "La Flèche is the ultimate puncheur's race. The Mur de Huy summit finish rewards riders with short, explosive power output (1-2 minutes at maximum) rather than pure climbers. Tactical positioning into the base of the Mur is everything - riders who time their final kick and hold the wheel until 200m to go usually win.",
+          "description": "208km Ardennes one-day with three ascents of the Mur de Huy (1.3km @ 9.6%, ramps to 17%); the final climb is a brutal punch where puncheurs and climbers detonate in the last 500m. Almost always decided in a sprint up the Mur — long-range attacks rarely survive.",
           "puncheurs": [
-            "Tadej Pogačar (UAE Team Emirates-XRG) - recent dominant force on the Mur, explosive power at the top end",
-            "Stephen Williams (Israel-Premier Tech) - 2024 winner, built for the Mur de Huy finale",
-            "Tom Pidcock (Q36.5 Pro Cycling) - multi-surface puncheur with the explosive kick for the Mur",
-            "Mattias Skjelmose (Lidl-Trek) - proven Ardennes performer who matched Pogačar in 2025 Amstel",
-            "Santiago Buitrago (Bahrain Victorious) - climbing puncheur with Monument-level form"
+            "Tadej Pogačar (UAE Team Emirates-XRG) - 2023 winner, world champion. UAE framing Flèche as LBL prep, but the overwhelming favourite if he goes full gas",
+            "Remco Evenepoel (Red Bull - BORA - hansgrohe) - peak Ardennes form, top Mur specialist on the roster",
+            "Mattias Skjelmose (Lidl-Trek) - 2025 Amstel winner pedigree, climbing form trending up",
+            "Juan Ayuso (Lidl-Trek) - explosive uphill kick, free role alongside Ciccone",
+            "Ben Healy (EF Education-EasyPost) - aggressive late attacker, podium-capable on the Mur",
+            "Lenny Martinez (Bahrain-Victorious) - lightweight pure climber, Mur profile suits",
+            "Kévin Vauquelin (Arkéa-B&B Hotels) - past Mur podium contender, in-form puncheur"
           ],
           "climbers": [
             "Remco Evenepoel (Red Bull - BORA - hansgrohe) - has the explosive finish but typically saves himself for LBL",
@@ -15715,11 +15767,10 @@
           ]
         },
         "narratives": [
-          "42nd edition of the Mur de Huy finish - the iconic wall has defined this race since 1985 and Alejandro Valverde's five wins remain the standard",
-          "Julian Alaphilippe's three wins set the modern benchmark for puncheurs; the race has recently been dominated by Tadej Pogačar when he starts",
-          "Mid-week race sandwiched between Amstel Gold and Liège-Bastogne-Liège - fatigue from Sunday's Amstel can be decisive",
-          "The 2026 edition starts from Herstal, a new host city in the Liège metropolitan area, adding a fresh opening 50km",
-          "Team tactics on the third Cherave (5.7km to go) often set up the winning move on the Mur - strong domestiques can isolate rivals here"
+          "Pogačar/Evenepoel rivalry resumes mid-week after Amstel as both target Sunday's LBL",
+          "UAE downplays Pogačar's Flèche ambitions, framing it as Liège tune-up — opens door for Lidl-Trek and Visma",
+          "Lidl-Trek deploys an Ayuso/Ciccone/Skjelmose triple threat — tactical question of who races for the win",
+          "Mur de Huy famously rewards perfectly-timed kick — does anyone risk a long-range move vs the traditional final-200m sprint?"
         ],
         "historicalContext": "First run in 1936, La Flèche Wallonne ('The Walloon Arrow') is the second-oldest race in the Ardennes triptych. Originally a Tournai-to-Liège point-to-point, the race was transformed in 1985 when the finish moved to the summit of the Mur de Huy. That decision made the Mur one of the most iconic climbs in pro cycling - 1.3km of twisting, fan-lined road rising to 20%. The finish has produced the famous 'slow-motion sprint' where riders are reduced to grinding turnovers in the final metres. Recent editions have also seen the addition of the Côte d'Ereffe and Côte de Cherave in the finale to create more selective racing before the Mur. Alejandro Valverde's five wins remain the record; Julian Alaphilippe and Tadej Pogačar are among recent multiple winners.",
         "watchNotes": "Flèche Wallonne is often a TV tactic race - tune in for the final 60km when the circuits begin. The second Mur de Huy at 37.8km to go is the tactical benchmark; the third Cherave at 5.7km to go is where the winning move often begins. Every edition features the final 1.3km on the Mur as destination viewing - the 'slow-motion sprint' is unique in cycling. Spoiler caution: the Mur summit finish is heavily covered, so YouTube previews and sidebar recommendations often contain the outcome."
@@ -15749,15 +15800,17 @@
       ],
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "Peacock",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.peacocktv.com",
-              "coverage": "live"
+              "url": "https://www.peacocktv.com/sports/la-fleche-wallonne/60d48722-87bf-34a0-bf30-1a450dc1d890",
+              "coverage": "live-and-replay",
+              "broadcasterId": "peacock",
+              "notes": "Wed Apr 22; women's start ~07:40 ET, finish ~11:45 ET. $10.99/mo Premium."
             },
             "alternatives": [
               {
@@ -15770,11 +15823,13 @@
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. Part of same-day Ardennes coverage. £30.99/mo."
             }
           },
           "CA": {
@@ -15782,8 +15837,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14817679-2026-fleche-wallonne-femmes",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Same-day double-header with men's race. CA$49.99/mo or CA$215.88/yr."
             }
           },
           "AU": {
@@ -15791,30 +15848,16 @@
               "broadcaster": "SBS On Demand",
               "broadcasterId": "sbs-on-demand",
               "type": "free",
-              "url": "https://www.sbs.com.au/ondemand/sport/cycling",
-              "coverage": "live",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/fleche-wallonne-womens-race-2026",
+              "coverage": "live-and-replay",
               "subscription": false,
-              "notes": "Free-to-air on SBS / SBS On Demand. ASO WWT Ardennes Classic."
+              "notes": "Free-to-air on SBS Viceland + SBS On Demand. URL inferred from SBS pattern; verify on race day."
             }
           }
         }
       },
-      "topRiders": [
-        {
-          "id": "magdeleine-vallieres",
-          "name": "VALLIERES Magdeleine",
-          "team": "EF Education-Oatly",
-          "ranking": 46,
-          "nationality": "Canada",
-          "nationalityCode": "CA",
-          "specialties": [
-            "climber",
-            "gc-contender"
-          ]
-        }
-      ],
       "raceDetails": {
-        "lastFetched": "2026-04-17T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 29th edition of La Flèche Wallonne Féminine covers 148.2km with a summit finish atop the iconic Mur de Huy (1.3km at 9.6% average, peaking near 20%). The race starts from the Grand Place in Huy and opens with the Bohissau, Courrière, and Durnal climbs before reaching the 37.2km finishing circuit. Riders complete two laps of the final loop, which includes Côte d'Ereffe (2.1km at 5%) and Côte de Cherave (1.3km at 8.1%) before each Mur de Huy ascent. The race finishes atop the third Mur - the decisive 'slow-motion sprint' up the 20% slopes typically crowns a puncheur with strong short-effort power.",
         "keyClimbs": [
@@ -15890,13 +15933,15 @@
           }
         ],
         "favorites": {
-          "description": "The women's Flèche favours the same rider profile as the men's: explosive puncheurs with maximal short-effort power for the Mur de Huy's 60-90 second summit finish. Anna van der Breggen holds the modern record with seven wins (2015-2021), and her profile - tough, punchy, great positioning - remains the template.",
+          "description": "Same Mur de Huy summit finish as the men: pure puncheur/climber test where the winner is decided in the final 500m at 17% gradient. Race rarely escapes the script — patience until the last ramp is the standard playbook.",
           "puncheurs": [
-            "Demi Vollering (FDJ-SUEZ) - European champion and multiple Flèche winner, the clear favourite when on form",
-            "Kasia Niewiadoma-Phinney (Canyon//SRAM zondacrypto) - 2024 winner, perennial Mur de Huy contender",
-            "Puck Pieterse (Fenix-Deceuninck) - explosive cyclocross-bred puncheur ideally suited to the Mur",
-            "Elisa Longo Borghini (UAE Team ADQ) - Monument winner with proven Ardennes class",
-            "Marlen Reusser (Movistar) - strong rouleur with climbing kick for the Mur"
+            "Demi Vollering (FDJ-SUEZ) - past Mur winner, FDJ leader, defining favourite when at peak",
+            "Puck Pieterse (Fenix-Deceuninck) - 2025 Flèche winner, in-form, defending champion status",
+            "Elisa Longo Borghini (UAE Team ADQ) - 2025 podium, climbing form has been strong",
+            "Katarzyna Niewiadoma (Canyon//SRAM zondacrypto) - climber profile, Ardennes specialist",
+            "Marlen Reusser (Movistar) - powerful all-rounder, dangerous on punchy finish",
+            "Lotte Kopecky (SD Worx-Protime) - world champion, capable on Mur but not a pure climber",
+            "Elise Chabbey (FDJ-SUEZ) - super-domestique / co-leader option for Vollering"
           ],
           "climbers": [
             "Cédrine Kerbaol (EF Education-Oatly) - climbing talent who may try aggressive moves before the Mur",
@@ -15904,14 +15949,28 @@
           ]
         },
         "narratives": [
-          "Anna van der Breggen's seven wins (2015-2021) remain the benchmark - active riders chase this historic total",
-          "Mid-week of the Ardennes triptych - fatigue from Amstel Gold can shape tactics, recovery from Sunday is key",
-          "Team tactics on the second Cherave (5.7km to go) are pivotal - strong teams isolate rivals before the final Mur",
-          "The 'slow-motion sprint' up the Mur is unique in women's cycling - riders grinding in the 39x30 as gradients hit 20%"
+          "Vollering vs Pieterse — Pieterse beat Vollering on the Mur in 2025; the rematch is the headline storyline",
+          "FDJ-SUEZ trying to extend its dominance of the spring after Vollering's Amstel campaign",
+          "SD Worx-Protime and Visma duos look to outnumber FDJ on the Mur run-in",
+          "Mur de Huy notoriously punishes early attackers — tactical patience until the final ramp is the standard playbook"
         ],
         "historicalContext": "First held in 1998, La Flèche Wallonne Féminine shares the finish-line Mur de Huy summit with the men's race, making it one of cycling's most iconic women's one-dayers. The race has been dominated by specialists - Marianne Vos (four-time winner in the early years), Evelyn Stevens, Anna van der Breggen (seven consecutive or near-consecutive wins), and more recently Demi Vollering and Kasia Niewiadoma. As part of the Ardennes triptych, it offers the mid-week test between Amstel Gold (Sunday) and Liège-Bastogne-Liège Femmes (the following Sunday).",
         "watchNotes": "Tune in for the final 45-60 minutes - the first Mur de Huy at 37km to go sets the tactical tone, but the race is almost always decided on the final Mur. The second Cherave at 5.7km to go is where the winning move typically begins. The final 1.3km up the Mur is destination TV: watch for the timing of the decisive kick, usually in the last 200m. Spoiler caution: the Mur summit finish is heavily covered in highlights - disable YouTube autoplay and avoid sidebar recommendations."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-asturias-2026",
@@ -16670,15 +16729,17 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "Peacock",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.peacocktv.com",
-              "coverage": "live"
+              "url": "https://www.peacocktv.com/sports/liege-bastogne-liege/f5ebe8b6-1773-31a4-9832-af0afb45b452",
+              "coverage": "live-and-replay",
+              "broadcasterId": "peacock",
+              "notes": "ASO Monument rights on Peacock. Sun Apr 26. $10.99/mo Premium."
             },
             "alternatives": [
               {
@@ -16691,11 +16752,13 @@
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports 2 / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. £30.99/mo or £25.99/mo on 12-month Saver plan."
             }
           },
           "CA": {
@@ -16703,8 +16766,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14817691-2026-liege-bastogne-liege",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live coverage from 06:10 EDT. CA$49.99/mo or CA$215.88/yr."
             }
           },
           "AU": {
@@ -16712,16 +16777,16 @@
               "broadcaster": "SBS On Demand",
               "broadcasterId": "sbs-on-demand",
               "type": "free",
-              "url": "https://www.sbs.com.au/ondemand/sport/cycling",
-              "coverage": "live",
+              "url": "https://www.sbs.com.au/ondemand/sports-program/liege-bastogne-liege-2026-mens-race-live-stream/2494573123967",
+              "coverage": "live-and-replay",
               "subscription": false,
-              "notes": "Free-to-air live on SBS / SBS On Demand. Monument (\"La Doyenne\")."
+              "notes": "Free-to-air on SBS Viceland + SBS On Demand. SBS 2026 cycling slate covers all Monuments."
             }
           }
         }
       },
       "raceDetails": {
-        "lastFetched": "2026-04-16T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 112th edition of Liège-Bastogne-Liège, cycling's oldest Classic ('La Doyenne'), runs 259.5km from Liège down to Luxembourg via Bastogne, then back north through the Ardennes hills to finish in central Liège. The 2026 route retains the classic architecture with a reworked middle section: the Côte de Saint-Roch now comes later at km 83.7, then the Col de Haussire (last used in 1995) at km 132.4. After Vielsalm, three climbs in 10km - Wanne, Stockeu, and Haute-Levée - ignite the back half. The finale stacks Col du Rosier (longest of the day), Maquisard, Desnié, the iconic Redoute at 34km to go, Côte des Forges at 23.3km, and the final attacking platform on the Roche-aux-Faucons with 13.3km to a fast Liège finish. Ten classified climbs total over a day of relentless attrition.",
         "keyClimbs": [
@@ -16816,7 +16881,7 @@
           }
         ],
         "favorites": {
-          "description": "La Doyenne favours pure climber-puncheurs who can survive 259km of relentless rolling terrain, maintain explosive power on steep pitches into the finale, and either hold on solo to Liège or out-sprint a reduced group. Recent editions have rewarded long-range attackers capable of going clear on La Redoute or Roche-aux-Faucons.",
+          "description": "La Doyenne — 250+km Monument over 10 classified Ardennes climbs (La Redoute, Roche-aux-Faucons), a war of attrition that almost always selects on the final hour into Liège. Roche-aux-Faucons (~13km from finish) is the modern decisive climb.",
           "climbers": [
             "Tadej Pogačar (UAE Team Emirates-XRG) - three-time winner, the dominant force in the Ardennes with proven ability to solo from La Redoute",
             "Remco Evenepoel (Red Bull - BORA - hansgrohe) - two-time winner on home roads, thrives on La Doyenne's selective finale",
@@ -16824,16 +16889,20 @@
             "Enric Mas (Movistar) - Grand Tour climber who typically contends on longer Classics"
           ],
           "puncheurs": [
-            "Mattias Skjelmose (Lidl-Trek) - proven ability to beat the Ardennes big three in a select group",
-            "Ben Healy (EF Education-EasyPost) - long-range attacker with the aggression for La Doyenne",
-            "Tom Pidcock (Q36.5 Pro Cycling) - explosive climber, podium threat in the Ardennes"
+            "Tadej Pogačar (UAE Team Emirates-XRG) - defending champion, calls Liège his most-suited Monument; chasing yet another Ardennes win",
+            "Remco Evenepoel (Red Bull - BORA - hansgrohe) - two-time LBL winner, peak Ardennes form after Amstel",
+            "Mattias Skjelmose (Lidl-Trek) - climbing into peak form, can follow the heavyweights",
+            "Giulio Ciccone (Lidl-Trek) - 2025 LBL runner-up, climbing pedigree perfect for La Doyenne",
+            "Juan Ayuso (Lidl-Trek) - third Lidl-Trek leader, aggressive on Roche-aux-Faucons style climbs",
+            "Ben Healy (EF Education-EasyPost) - long-range attacker, profile matches modern LBL race patterns",
+            "Tom Pidcock (Pinarello-Q36.5) - returning to Ardennes form, podium-capable on the right day"
           ]
         },
         "narratives": [
-          "The closing chapter of the Ardennes triptych - the week's big winners often come fresh off Amstel or Flèche, while those still seeking their big spring result have one last chance",
-          "La Doyenne rewards long-range aggression - expect attacks from La Redoute onwards as teams test each other after 220km in the legs",
-          "Weather is often a factor in late April in the Ardennes - rain, cold, and even snow have shaped past editions, adding unpredictability",
-          "Team tactics on the Col du Rosier and Desnié will position leaders for the crucial moves; domestiques must still be present at 50km to go"
+          "Pogačar chasing another Monument scalp; could extend his stranglehold on Ardennes Classics",
+          "Evenepoel-Pogačar rematch after both targeted LBL — Belgian wants to deny Pogačar on home roads",
+          "Lidl-Trek deploys three legitimate co-leaders (Skjelmose/Ciccone/Ayuso) — tactical question of who races for the win",
+          "Roche-aux-Faucons (~13km from finish) is the modern decisive climb — whoever attacks there typically wins solo or in a small group"
         ],
         "historicalContext": "Liège-Bastogne-Liège is the oldest Classic on the calendar, first run in 1892. Known as La Doyenne ('the old lady'), it is the toughest of the Ardennes Classics and the final Monument of the spring. From 1992-2019 the race finished in the industrial suburb of Ans with the Côte de Saint-Nicolas as the final climb; in 2019 the finish returned to central Liège with the Roche-aux-Faucons as the closing selective climb. The race typically covers over 250km with around 4,300m of climbing - Tony Rominger once compared the total elevation to an Alpine stage of the Tour. Iconic climbs include La Redoute, introduced 50 years ago, where legends such as Philippe Gilbert, Bob Jungels, and recent dominators have all made race-winning moves.",
         "watchNotes": "The race doesn't really start until the Côte de Saint-Roch at 175km to go, and often sits neutralised through the Haussire. Tune in for the trio of Wanne/Stockeu/Haute-Levée - the first genuine selection. The crucial hour of TV is the final 60km from Col du Rosier onwards. Watch for the first moves on La Redoute (34km to go) - historically where the race is won. The Roche-aux-Faucons is the last chance for escapes; if the group is still together over its summit, expect a bunch kick in Liège. Spoiler caution: YouTube sidebar/autoplay frequently contains the finishing kilometres in thumbnails - disable autoplay and avoid the sidebar."
@@ -17100,15 +17169,17 @@
       ],
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "Peacock",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.peacocktv.com",
-              "coverage": "live"
+              "url": "https://www.peacocktv.com/sports/liege-bastogne-liege-femmes/69e17168-1c80-34e7-8207-35ce0a934b42",
+              "coverage": "live-and-replay",
+              "broadcasterId": "peacock",
+              "notes": "Dedicated Peacock Femmes page. 156km Bastogne–Liège. $10.99/mo Premium."
             },
             "alternatives": [
               {
@@ -17121,11 +17192,13 @@
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. Same-day Ardennes coverage with men's race."
             }
           },
           "CA": {
@@ -17133,8 +17206,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/articles/15787659-how-to-watch-liege-bastogne-liege-2026",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Femmes streamed alongside men's coverage; specific event page TBC closer to race day. CA$49.99/mo."
             }
           },
           "AU": {
@@ -17142,43 +17217,16 @@
               "broadcaster": "SBS On Demand",
               "broadcasterId": "sbs-on-demand",
               "type": "free",
-              "url": "https://www.sbs.com.au/ondemand/sport/cycling",
-              "coverage": "live",
+              "url": "https://www.sbs.com.au/ondemand/sports-series/liege-bastogne-liege-womens-race-2026",
+              "coverage": "live-and-replay",
               "subscription": false,
-              "notes": "Free-to-air on SBS / SBS On Demand. Women's edition of La Doyenne."
+              "notes": "Free-to-air on SBS Viceland + SBS On Demand. Dedicated women's series page confirmed."
             }
           }
         }
       },
-      "topRiders": [
-        {
-          "id": "pauline-ferrand-prevot",
-          "name": "FERRAND-PRÉVOT Pauline",
-          "team": "Team Visma | Lease a Bike",
-          "ranking": 13,
-          "nationality": "France",
-          "nationalityCode": "FR",
-          "specialties": [
-            "all-rounder",
-            "cyclocross",
-            "mtb"
-          ]
-        },
-        {
-          "id": "magdeleine-vallieres",
-          "name": "VALLIERES Magdeleine",
-          "team": "EF Education-Oatly",
-          "ranking": 46,
-          "nationality": "Canada",
-          "nationalityCode": "CA",
-          "specialties": [
-            "climber",
-            "gc-contender"
-          ]
-        }
-      ],
       "raceDetails": {
-        "lastFetched": "2026-04-16T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 10th edition of Liège-Bastogne-Liège Femmes extends the route slightly from Bastogne to Liège, approximately 156km with ten climbs and 2,200m of elevation gain. Unlike previous years, the women skip the Côte de Saint-Roch, instead opening with the Col de Haussire at km 28.9. The decisive stretch begins with Wanne (3.6km at 5.1%) at 88.4km to go, followed quickly by Stockeu (1km at 12.5%) and Haute-Levée (2.2km at 7.5%). After the Col du Rosier (4.4km at 5.9% with 63.3km to go) and Maquisard, the race attacks the iconic La Redoute with 34km remaining, then Côte de Cornémont and Côte des Forges, before the Côte de la Roche-aux-Faucons (1.3km at 11%) serves as the final launchpad 13.4km from the line. A flat, fast run-in to Liège follows.",
         "keyClimbs": [
@@ -17265,7 +17313,7 @@
           }
         ],
         "favorites": {
-          "description": "The women's La Doyenne favours versatile climber-puncheurs capable of handling 150+km of relentless Ardennes terrain, with explosive power on the Stockeu-Haute-Levée trio and the finale between La Redoute and Roche-aux-Faucons. Long-range solo attacks from La Redoute are common.",
+          "description": "156km Ardennes Monument finale with new 2026 climbs (Col du Maquisard, Côte de Desnié) before La Redoute, making the run-in even more selective and climber-friendly than ever.",
           "climbers": [
             "Demi Vollering (FDJ-SUEZ) - European champion, previous Ardennes dominator who swept the triple in 2023",
             "Elisa Longo Borghini (UAE Team ADQ) - two-time Monument winner with the climbing strength for La Doyenne",
@@ -17273,20 +17321,51 @@
             "Cédrine Kerbaol (EF Education-Oatly) - emerging climbing talent with strong long-range aggression"
           ],
           "puncheurs": [
-            "Marlen Reusser (Movistar) - strong rouleur-climber with ability to set up selections",
-            "Puck Pieterse (Fenix-Deceuninck) - explosive puncheur with cyclocross power for steep efforts",
-            "Elisa Balsamo (Lidl-Trek) - fast finisher who can climb if the selection isn't too brutal"
+            "Demi Vollering (FDJ-SUEZ) - two-time LBL winner (2023, 2024), 2025 third — headline favourite",
+            "Puck Pieterse (Fenix-Deceuninck) - rising Ardennes star coming off strong Amstel/Flèche campaign",
+            "Elisa Longo Borghini (UAE Team ADQ) - climber profile suits the lengthened LBL route",
+            "Lotte Kopecky (SD Worx-Protime) - world champion, top-5 last year, leads strong SD Worx unit",
+            "Katarzyna Niewiadoma (Canyon//SRAM zondacrypto) - pure climber, Ardennes Classics specialist",
+            "Marlen Reusser (Movistar) - powerful and tactically smart, dangerous on selective finale",
+            "Cédrine Kerbaol (EF Education-Oatly) - aggressive climber, recent Ardennes podiums"
           ]
         },
         "narratives": [
-          "Closing Sunday of the Ardennes trilogy for the women - momentum from Amstel and Flèche carries into La Doyenne",
-          "The 10th edition of the women's La Doyenne - a growing, prestigious Monument that rewards true Classics specialists",
-          "Race dynamics often mirror the men's event: first selection on Stockeu-Haute-Levée, crucial move on La Redoute, final chance on Roche-aux-Faucons",
-          "Weather in late April in the Ardennes is notoriously changeable - cold, rain, even snow have shaped past editions"
+          "Defending champion Kim Le Court-Pienaar is OUT after wrist fracture at Flanders — title is wide open",
+          "New climbs Col du Maquisard and Côte de Desnié before La Redoute mean fewer survivors and a more climber-friendly race than ever",
+          "Vollering bidding for third LBL crown to match the Anna van der Breggen-era dominance",
+          "FDJ-SUEZ vs SD Worx-Protime vs Visma trident — the three super-teams set the tactical chessboard"
         ],
         "historicalContext": "First held in 2017, Liège-Bastogne-Liège Femmes quickly established itself as one of the toughest one-day events on the women's calendar, following the men's template across the Ardennes hills. The race's 10 editions have seen dominance from Anna van der Breggen, Demi Vollering, and Elisa Longo Borghini among others. As the closing Ardennes Monument, it rewards riders who have carried form through Amstel Gold and Flèche Wallonne.",
         "watchNotes": "The key window for viewing is the final 90 minutes - from the Wanne-Stockeu-Haute-Levée trio at 88km to go through to the finish. La Redoute at 34km remaining is historically where the winning move is launched; if the group is still together on the Roche-aux-Faucons, watch for explosive attacks in the final 13km. Spoiler caution: avoid YouTube autoplay and sidebar recommendations as these frequently preview the finale."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "cyclocross",
+            "mtb"
+          ]
+        },
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-de-romandie-2026",
@@ -17364,24 +17443,28 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-04-16T00:00:00Z",
+        "lastUpdated": "2026-04-19T16:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "HBO Max",
+              "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.max.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183673-2026-tour-de-romandie-men",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Live prologue + 5 stages Apr 28-May 3, ~09:30 ET starts. FloSports holds North America rights. $39.99/mo or $203.88/yr."
             }
           },
           "UK": {
             "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
+              "broadcaster": "TNT Sports / HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
+              "url": "https://www.hbomax.com/gb/en/sports",
+              "coverage": "live-and-replay",
+              "broadcasterId": "hbo-max-uk",
+              "notes": "Cycling moved Discovery+ → HBO Max on March 26, 2026. TNT Sports linear may also air stages. £30.99/mo."
             }
           },
           "CA": {
@@ -17389,8 +17472,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15183673-2026-tour-de-romandie-men",
+              "coverage": "live-and-replay",
+              "broadcasterId": "flobikes",
+              "notes": "Same FloSports North American feed as US. CA$49.99/mo or CA$215.88/yr."
             }
           },
           "AU": {
@@ -17399,36 +17484,36 @@
               "type": "none",
               "coverage": "none",
               "subscription": false,
-              "notes": "No confirmed Australian broadcast for this race."
+              "notes": "No AU coverage confirmed. SBS 2026 expanded slate covers only Grand Tours + Monuments (Romandie not included). VPN to FloBikes/HBO Max is the only path."
             }
           }
         }
       },
       "raceDetails": {
-        "lastFetched": "2026-04-17T12:00:00.000Z",
+        "lastFetched": "2026-04-19T16:00:00Z",
         "spoilerSafe": true,
         "courseSummary": "The 79th Tour de Romandie covers 851.9km across six days (April 28 - May 3) through the French-speaking regions of Switzerland, with 14,183m of total elevation gain and 17 classified climbs. The 2026 edition swaps last year's two time trials for a single opening prologue in Villars-sur-Glâne, adding 165km to the road-racing total. The sole mountaintop finish comes on the concluding Stage 5 at Leysin overlooking the Rhone Valley and Lake Geneva. Each road stage offers three or four classified climbs, creating a punchy, aggressive race that traditionally serves as the final Giro d'Italia tune-up for Grand Tour contenders.",
         "favorites": {
           "gcContenders": [
-            "João Almeida (UAE Team Emirates-XRG) - defending champion, Giro-focused climber with strong time-trial skills",
-            "Carlos Rodríguez (Ineos Grenadiers) - 2024 winner (when Ayuso lost the lead on the final day at Leysin)",
-            "Enric Mas (Movistar) - consistent Grand Tour climber",
-            "Richard Carapaz (EF Education-EasyPost) - veteran Grand Tour winner using Romandie as Giro prep",
-            "Felix Gall (Decathlon CMA CGM) - Austrian climber with strong Alpine form",
-            "Lennert Van Eetvelt (Lotto Intermarché) - young puncheur-climber profile"
+            "Tadej Pogačar (UAE Team Emirates-XRG) - Romandie debut, world champion, Tour de France prep",
+            "Primož Roglič (Red Bull - BORA - hansgrohe) - two-time Romandie winner (2018/2019), home-tier roads",
+            "Florian Lipowitz (Red Bull - BORA - hansgrohe) - co-leader option for Red Bull, rising GC star",
+            "Lenny Martinez (Bahrain-Victorious) - pure climber, Leysin profile suits perfectly",
+            "Antonio Tiberi (Bahrain-Victorious) - GC contender continuing 2025 trajectory",
+            "Matteo Jorgenson (Team Visma | Lease a Bike) - all-rounder, past Romandie podium pedigree"
           ],
           "stageHunters": [
             "Stefan Küng (Groupama-FDJ United) - prologue specialist, strong TT pedigree",
             "Rémi Cavagna (Decathlon CMA CGM) - TT specialist with classics strength",
             "Matteo Jorgenson (Visma-Lease a Bike) - attacking climber who targets stage wins"
-          ]
+          ],
+          "description": "6-stage Swiss WorldTour race opening with a 3.2km prologue and ending on a Leysin summit finish; no long ITT this year shifts the GC entirely toward climbers."
         },
         "narratives": [
-          "Key Giro d'Italia preparation race - teams bring their Corsa Rosa leaders to test legs one week before the Giro start",
-          "The single Leysin mountain finish on the final day means GC often stays tight until the very end",
-          "The reduced TT content (single prologue) favours pure climbers over time-trialists - a shift from previous editions",
-          "João Almeida looks to defend his title - UAE's Giro-bound climber with a strong record in Swiss stage races",
-          "Weather at altitude in late April/early May is notoriously changeable - rain, cold, and even snow have shaped past editions"
+          "Pogačar–Roglič reunion — first Romandie meeting since 2020 Tour de France drama",
+          "Pogačar's first Romandie start — validation of the race's prestige and a new Tour-prep template",
+          "No long ITT in 2026 (just 3.2km prologue) tilts everything toward Leysin summit finish — pure climbers favoured",
+          "Red Bull duo Roglič/Lipowitz outnumbers UAE — tactical question of who attacks Pogačar first"
         ],
         "historicalContext": "First held in 1947, the Tour de Romandie is one of Switzerland's premier stage races and a staple of the WorldTour calendar. Past winners form a who's who of cycling: Eddy Merckx, Bernard Hinault, Stephen Roche, Tony Rominger, Tyler Hamilton (later voided), and in recent decades Simon Špilak, Chris Froome, Primož Roglič, Geraint Thomas, Aleksandr Vlasov, Adam Yates, Carlos Rodríguez, and João Almeida. The mountaintop finish at Leysin has become iconic - in 2024 Juan Ayuso's GC lead famously collapsed there, with Carlos Rodríguez taking over and winning the race.",
         "gcDynamics": "With only the Leysin mountain finish on Stage 5 as a pure summit test, the GC battle builds slowly. The opening 3.2km prologue provides a few seconds of initial separation. Stages 1-4 feature punchy climbs and bonus sprints but most finish with descents or flat run-ins, keeping GC gaps tight. Expect the overall to be decided in the final 15.6km climb to Leysin on the last day - a 10.9km climb at 6.7% average that has historically produced dramatic GC swings.",
