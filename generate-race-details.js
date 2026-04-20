@@ -1,1740 +1,898 @@
 #!/usr/bin/env node
 
 /**
- * Generate Race Details Page
+ * v2 design — UCI Roadbook race sheets
  *
- * Creates an HTML page for a single race/stage with:
- * - Course profile and sector breakdown
- * - Pre-race favorites and contenders
- * - Historical context
- * - Race narratives and storylines
+ * Generates per-race HTML pages in race-details/<slug>.html, one of two shapes:
+ *   - renderOneDay()   — Paris-Roubaix-style Monument sheet
+ *   - renderStageRace() — Tour-Down-Under-style stage manual
  *
- * CRITICAL: All content is spoiler-safe. For past races, only pre-race
- * content is displayed to avoid revealing results.
+ * Per-stage sub-pages (<slug>-stage-N.html) use a compact stage sheet.
+ *
+ * Placeholder markers: route/profile SVGs and the past-winners block are
+ * wireframes — clearly marked PLACEHOLDER in the UI — until real data exists.
  */
 
 import fs from 'fs';
 import path from 'path';
 
-// ============================================
-// DATA STRUCTURE
-// ============================================
+const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const WEEKDAY_LONG = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
-/**
- * Race Details Schema
- *
- * This is the expected structure for raceDetails in race-data.json:
- *
- * {
- *   "raceDetails": {
- *     "lastFetched": "2026-01-07T00:00:00Z",
- *     "spoilerSafe": true,
- *     "courseSummary": "Course description...",
- *     "keySectors": [
- *       {
- *         "name": "Sector 15 - Carrefour de l'Arbre",
- *         "kmFromFinish": 18.5,
- *         "length": 2.1,
- *         "surface": "cobbles",
- *         "difficulty": 5,
- *         "description": "Five-star cobbled sector..."
- *       }
- *     ],
- *     "keyClimbs": [
- *       {
- *         "name": "Col du Galibier",
- *         "category": "HC",
- *         "length": 17.7,
- *         "avgGradient": "6.9%",
- *         "maxGradient": "12.1%",
- *         "kmFromFinish": 35,
- *         "summit": 2642
- *       }
- *     ],
- *     "favorites": {
- *       "climbers": ["Rider A", "Rider B"],
- *       "sprinters": ["Rider C"],
- *       "puncheurs": ["Rider D"],
- *       "allRounders": ["Rider E"],
- *       "gcContenders": ["Rider F"]
- *     },
- *     "narratives": [
- *       "Can Pogacar add another monument to his collection?",
- *       "Van Aert returns after injury - can he recapture winning form?"
- *     ],
- *     "historicalContext": "The race has been held since 1896...",
- *     "watchNotes": "Key moments to watch for during the race"
- *   }
- * }
- */
+function parseUTC(ymd) {
+  if (!ymd) return null;
+  const [y, m, d] = ymd.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d));
+}
 
-// ============================================
-// ICON MAPPINGS
-// ============================================
+function fmtLongDate(ymd) {
+  const d = parseUTC(ymd);
+  if (!d) return '';
+  return `${WEEKDAY_LONG[d.getUTCDay()]}, ${MONTH_NAMES[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+}
 
-const surfaceIcons = {
-  'cobbles': '🪨',
-  'gravel': '🟤',
-  'asphalt': '🛣️',
-  'dirt': '🟫'
-};
+function fmtDateRange(startYmd, endYmd) {
+  const s = parseUTC(startYmd);
+  if (!s) return '';
+  const e = parseUTC(endYmd);
+  if (!e || +e === +s) return `${MONTH_SHORT[s.getUTCMonth()]} ${s.getUTCDate()} ${s.getUTCFullYear()}`;
+  if (s.getUTCMonth() === e.getUTCMonth()) return `${MONTH_SHORT[s.getUTCMonth()]} ${s.getUTCDate()}–${e.getUTCDate()} ${e.getUTCFullYear()}`;
+  return `${MONTH_SHORT[s.getUTCMonth()]} ${s.getUTCDate()} – ${MONTH_SHORT[e.getUTCMonth()]} ${e.getUTCDate()} ${e.getUTCFullYear()}`;
+}
 
-const categoryIcons = {
-  'HC': '🔴',
-  '1': '🟠',
-  '2': '🟡',
-  '3': '🟢',
-  '4': '🔵'
-};
+function fmtShortDate(ymd) {
+  const d = parseUTC(ymd);
+  if (!d) return '';
+  const w = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getUTCDay()];
+  return `${w}, ${MONTH_SHORT[d.getUTCMonth()]} ${d.getUTCDate()}`;
+}
 
-const difficultyStars = (rating) => {
-  const max = 5;
-  const filled = '★'.repeat(Math.min(rating, max));
-  const empty = '☆'.repeat(max - Math.min(rating, max));
-  return filled + empty;
-};
+function htmlEscape(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+
+function stars(n) {
+  const on = '★'.repeat(n);
+  const off = '★'.repeat(5 - n);
+  return `<span class="stars">${on}<span class="off">${off}</span></span>`;
+}
+
+// UCI ranking → form-style stars (pure derivation, not a spoiler)
+function rankingToStars(ranking) {
+  if (!ranking) return 3;
+  if (ranking <= 5) return 5;
+  if (ranking <= 15) return 4;
+  if (ranking <= 30) return 3;
+  if (ranking <= 60) return 2;
+  return 1;
+}
+
+function prestigeClass(race) {
+  const p = race.prestige || [];
+  if (p.includes('grand-tour')) return 'gt';
+  if (p.includes('monument')) return 'mon';
+  if (p.includes('world-championship')) return 'wc';
+  return '';
+}
+
+function prestigeLabel(race) {
+  const p = race.prestige || [];
+  if (p.includes('grand-tour')) return 'GRAND TOUR';
+  if (p.includes('monument')) return 'MONUMENT';
+  if (p.includes('world-championship')) return 'WORLD CHAMPIONSHIP';
+  return '';
+}
+
+function primaryBroadcaster(race) {
+  return race.broadcast?.geos?.US?.primary?.broadcaster
+    || race.broadcast?.geos?.UK?.primary?.broadcaster
+    || race.platform
+    || '';
+}
 
 // ============================================
-// HTML GENERATION
+// SHARED PAGE SCAFFOLD
 // ============================================
 
-function generateRaceDetailsHTML(race, options = {}) {
-  const {
-    backLink = '../index.html',
-    backText = 'Back to Calendar',
-    riders = [],
-    stageNavigation = ''  // Optional stage navigation HTML
-  } = options;
-
-  const details = race.raceDetails || {};
-  const hasDetails = Object.keys(details).length > 0;
-
-  // Format race date
-  const formatDate = (dateStr) => {
-    if (!dateStr) return '';
-    const date = new Date(dateStr);
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const months = ['January', 'February', 'March', 'April', 'May', 'June',
-                    'July', 'August', 'September', 'October', 'November', 'December'];
-    return `${days[date.getDay()]}, ${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-  };
-
-  // Check if race is in the past
-  const isFinished = race.raceDate && new Date(race.raceDate) < new Date();
-
-  // Generate sectors HTML
-  const generateSectorsHTML = () => {
-    if (!details.keySectors || details.keySectors.length === 0) return '';
-
-    const sectorsHTML = details.keySectors.map(sector => `
-      <div class="sector-card">
-        <div class="sector-header">
-          <span class="sector-icon">${surfaceIcons[sector.surface] || '📍'}</span>
-          <span class="sector-name">${sector.name}</span>
-          <span class="sector-difficulty" title="Difficulty">${difficultyStars(sector.difficulty || 3)}</span>
-        </div>
-        <div class="sector-stats">
-          ${sector.length ? `<span class="stat">${sector.length} km</span>` : ''}
-          ${sector.kmFromFinish ? `<span class="stat">${sector.kmFromFinish} km from finish</span>` : ''}
-        </div>
-        ${sector.description ? `<p class="sector-description">${sector.description}</p>` : ''}
-      </div>
-    `).join('');
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">🪨 Key Sectors</h2>
-        <div class="sectors-grid">
-          ${sectorsHTML}
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate climbs HTML
-  const generateClimbsHTML = () => {
-    if (!details.keyClimbs || details.keyClimbs.length === 0) return '';
-
-    const climbsHTML = details.keyClimbs.map(climb => `
-      <div class="climb-card">
-        <div class="climb-header">
-          <span class="climb-category ${climb.category?.toLowerCase()}">${categoryIcons[climb.category] || '⛰️'} ${climb.category || ''}</span>
-          <span class="climb-name">${climb.name}</span>
-        </div>
-        <div class="climb-stats">
-          ${climb.length ? `<span class="stat"><strong>${climb.length}</strong> km</span>` : ''}
-          ${climb.avgGradient ? `<span class="stat"><strong>${climb.avgGradient}</strong> avg</span>` : ''}
-          ${climb.maxGradient ? `<span class="stat"><strong>${climb.maxGradient}</strong> max</span>` : ''}
-          ${climb.summit ? `<span class="stat"><strong>${climb.summit}</strong>m summit</span>` : ''}
-        </div>
-        ${climb.kmFromFinish ? `<div class="climb-position">${climb.kmFromFinish} km from finish</div>` : ''}
-      </div>
-    `).join('');
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">⛰️ Key Climbs</h2>
-        <div class="climbs-list">
-          ${climbsHTML}
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate favorites HTML
-  const generateFavoritesHTML = () => {
-    if (!details.favorites) return '';
-
-    const categories = [
-      { key: 'gcContenders', label: 'GC Contenders', icon: '🎯' },
-      { key: 'climbers', label: 'Climbers', icon: '⛰️' },
-      { key: 'sprinters', label: 'Sprinters', icon: '⚡' },
-      { key: 'puncheurs', label: 'Puncheurs', icon: '💪' },
-      { key: 'allRounders', label: 'All-Rounders', icon: '🔄' },
-      { key: 'cobbleSpecialists', label: 'Cobble Specialists', icon: '🪨' }
-    ];
-
-    const favoritesHTML = categories
-      .filter(cat => details.favorites[cat.key] && details.favorites[cat.key].length > 0)
-      .map(cat => `
-        <div class="favorites-category">
-          <h3 class="category-label">${cat.icon} ${cat.label}</h3>
-          <div class="riders-list">
-            ${details.favorites[cat.key].map(rider => `<span class="rider-chip">${rider}</span>`).join('')}
-          </div>
-        </div>
-      `).join('');
-
-    if (!favoritesHTML) return '';
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">🌟 Pre-Race Favorites</h2>
-        <div class="favorites-grid">
-          ${favoritesHTML}
-        </div>
-        ${isFinished ? '<p class="spoiler-notice">📺 These are pre-race predictions - no spoilers here!</p>' : ''}
-      </section>
-    `;
-  };
-
-  // Generate top riders HTML (from race.topRiders)
-  const generateTopRidersHTML = () => {
-    if (!race.topRiders || race.topRiders.length === 0) return '';
-
-    // Determine rider path based on race gender
-    const ridersPath = race.gender === 'women' ? '../riders-women' : '../riders';
-
-    const specialtyIcons = {
-      'climber': '⛰️',
-      'sprinter': '⚡',
-      'puncheur': '💪',
-      'gc-contender': '🎯',
-      'time-trialist': '⏱️',
-      'one-day': '🏁'
-    };
-
-    const ridersHTML = race.topRiders.map(rider => {
-      const specialties = (rider.specialties || [])
-        .map(s => specialtyIcons[s] || '')
-        .filter(Boolean)
-        .join(' ');
-
-      const rankClass = rider.ranking <= 20 ? `top-${rider.ranking}` : '';
-
-      return `
-        <a href="${ridersPath}/${rider.id}.html" class="top-rider-card ${rankClass}">
-          <div class="rider-rank">#${rider.ranking}</div>
-          <div class="rider-info">
-            <div class="rider-name">${rider.name}</div>
-            <div class="rider-team">${rider.team}</div>
-          </div>
-          <div class="rider-specialties">${specialties}</div>
-        </a>
-      `;
-    }).join('');
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">🚴 Confirmed Top Riders</h2>
-        <p class="section-subtitle">UCI ranked riders confirmed for this race</p>
-        <div class="top-riders-grid">
-          ${ridersHTML}
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate narratives HTML
-  const generateNarrativesHTML = () => {
-    if (!details.narratives || details.narratives.length === 0) return '';
-
-    const narrativesHTML = details.narratives.map(narrative => `
-      <li class="narrative-item">${narrative}</li>
-    `).join('');
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">📖 Storylines to Watch</h2>
-        <ul class="narratives-list">
-          ${narrativesHTML}
-        </ul>
-      </section>
-    `;
-  };
-
-  // Generate historical context HTML
-  const generateHistoryHTML = () => {
-    if (!details.historicalContext) return '';
-
-    return `
-      <section class="details-section">
-        <h2 class="section-title">📜 Historical Context</h2>
-        <div class="history-content">
-          <p>${details.historicalContext}</p>
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate watch notes HTML
-  const generateWatchNotesHTML = () => {
-    if (!details.watchNotes) return '';
-
-    return `
-      <section class="details-section watch-notes">
-        <h2 class="section-title">👀 What to Watch For</h2>
-        <div class="watch-content">
-          <p>${details.watchNotes}</p>
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate broadcast/where to watch HTML
-  const generateBroadcastHTML = () => {
-    if (!race.broadcast || !race.broadcast.geos) return '';
-
-    const geoLabels = {
-      'US': '🇺🇸 United States',
-      'CA': '🇨🇦 Canada',
-      'UK': '🇬🇧 United Kingdom',
-      'EU': '🇪🇺 Europe',
-      'AU': '🇦🇺 Australia'
-    };
-
-    const geoOrder = ['US', 'CA', 'UK', 'EU', 'AU'];
-    const availableGeos = geoOrder.filter(geo => race.broadcast.geos[geo]);
-
-    if (availableGeos.length === 0) return '';
-
-    const geosHTML = availableGeos.map(geo => {
-      const geoData = race.broadcast.geos[geo];
-      const primary = geoData.primary;
-      const alternatives = geoData.alternatives || [];
-
-      // Primary broadcaster
-      const primaryHTML = primary ? `
-        <div class="broadcast-primary">
-          <a href="${primary.url}" target="_blank" rel="noopener" class="broadcast-link primary">
-            <span class="broadcast-name">${primary.broadcaster}</span>
-            <span class="broadcast-meta">
-              ${primary.coverage === 'live' ? '🔴 Live' : primary.coverage === 'extended-highlights' ? '📺 Extended Highlights' : '📺 ' + (primary.coverage || 'Coverage')}
-              ${primary.subscription ? '<span class="sub-badge">Subscription</span>' : '<span class="free-badge">Free</span>'}
-            </span>
-          </a>
-          ${primary.notes ? `<p class="broadcast-notes">${primary.notes}</p>` : ''}
-        </div>
-      ` : '';
-
-      // Alternative options
-      const alternativesHTML = alternatives.length > 0 ? `
-        <div class="broadcast-alternatives">
-          <span class="alt-label">Also available:</span>
-          ${alternatives.map(alt => `
-            <a href="${alt.url}" target="_blank" rel="noopener" class="broadcast-link alt">
-              <span class="broadcast-name">${alt.broadcaster}</span>
-              <span class="broadcast-meta">
-                ${alt.coverage === 'extended-highlights' ? 'Extended Highlights' : alt.coverage === 'highlights' ? 'Highlights' : alt.coverage || ''}
-                ${alt.subscription === false ? '<span class="free-badge">Free</span>' : ''}
-              </span>
-            </a>
-          `).join('')}
-        </div>
-      ` : '';
-
-      return `
-        <div class="broadcast-geo">
-          <h3 class="geo-label">${geoLabels[geo] || geo}</h3>
-          ${primaryHTML}
-          ${alternativesHTML}
-        </div>
-      `;
-    }).join('');
-
-    // YouTube channels section
-    const youtubeHTML = race.broadcast.youtubeChannels && race.broadcast.youtubeChannels.length > 0 ? `
-      <div class="youtube-channels">
-        <h3 class="youtube-label">📺 YouTube Channels</h3>
-        <div class="youtube-list">
-          ${race.broadcast.youtubeChannels.map(ch => `
-            <a href="https://youtube.com/${ch.handle}" target="_blank" rel="noopener" class="youtube-chip">
-              ${ch.channel}
-              <span class="yt-type">${ch.contentType === 'extended-highlights' ? 'Extended' : ch.contentType || 'Highlights'}</span>
-            </a>
-          `).join('')}
-        </div>
-      </div>
-    ` : '';
-
-    return `
-      <section class="details-section broadcast-section">
-        <h2 class="section-title">📡 Where to Watch</h2>
-        <div class="broadcast-grid">
-          ${geosHTML}
-        </div>
-        ${youtubeHTML}
-        ${race.broadcast.notes ? `<p class="broadcast-footer-notes">${race.broadcast.notes}</p>` : ''}
-      </section>
-    `;
-  };
-
-  // Generate Stage Overview HTML (for stage races)
-  const generateStageOverviewHTML = () => {
-    if (!race.stages || race.stages.length === 0) return '';
-
-    const stageTypeIcons = {
-      'flat': '➡️',
-      'hilly': '〰️',
-      'mountain': '⛰️',
-      'itt': '⏱️',
-      'ttt': '👥',
-      'rest-day': '😴'
-    };
-
-    const stageTypeColors = {
-      'flat': '#3b82f6',
-      'hilly': '#f97316',
-      'mountain': '#ef4444',
-      'itt': '#8b5cf6',
-      'ttt': '#8b5cf6',
-      'rest-day': '#9ca3af'
-    };
-
-    const stagesHTML = race.stages.map(stage => {
-      const icon = stageTypeIcons[stage.stageType] || '🚴';
-      const color = stageTypeColors[stage.stageType] || '#6b7280';
-      const hasDetails = stage.stageDetails && Object.keys(stage.stageDetails).length > 0;
-      const stageDate = stage.date ? new Date(stage.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
-
-      return `
-        <a href="${race.id}-stage-${stage.stageNumber}.html" class="stage-overview-card ${hasDetails ? 'has-details' : 'no-details'}">
-          <div class="stage-number" style="border-color: ${color}">
-            <span class="stage-num">${stage.stageNumber}</span>
-            <span class="stage-icon">${icon}</span>
-          </div>
-          <div class="stage-info">
-            <div class="stage-name">${stage.name}</div>
-            <div class="stage-meta">
-              ${stageDate ? `<span>${stageDate}</span>` : ''}
-              ${stage.distance ? `<span>${stage.distance} km</span>` : ''}
-            </div>
-          </div>
-          ${hasDetails ? '<span class="details-badge">Details</span>' : ''}
-        </a>
-      `;
-    }).join('');
-
-    return `
-      <section class="details-section stage-overview-section">
-        <h2 class="section-title">📋 Stage Overview</h2>
-        <p class="section-subtitle">Click a stage for detailed course information</p>
-        <div class="stage-overview-grid">
-          ${stagesHTML}
-        </div>
-      </section>
-    `;
-  };
-
-  // Generate Key Riders HTML
-  const generateKeyRidersHTML = () => {
-    if (!riders || riders.length === 0) return '';
-
-    // Determine rider paths based on race gender
-    const ridersPath = race.gender === 'women' ? '../riders-women' : '../riders';
-    const ridersIndexPath = race.gender === 'women' ? '../riders-women.html' : '../riders.html';
-
-    // Find riders whose race program includes this race
-    const raceSlug = race.id.replace(/-2026$/, '').toLowerCase();
-
-    const competingRiders = riders.filter(rider => {
-      if (!rider.raceProgram?.races) return false;
-      return rider.raceProgram.races.some(r => {
-        const programSlug = r.raceSlug?.toLowerCase() || '';
-        return programSlug === raceSlug ||
-               programSlug.includes(raceSlug) ||
-               raceSlug.includes(programSlug);
-      });
-    });
-
-    if (competingRiders.length === 0) return '';
-
-    const nationalityFlags = {
-      'SL': '🇸🇮', 'SI': '🇸🇮', 'DE': '🇩🇪', 'DK': '🇩🇰', 'BE': '🇧🇪',
-      'NL': '🇳🇱', 'FR': '🇫🇷', 'IT': '🇮🇹', 'ES': '🇪🇸', 'GB': '🇬🇧',
-      'UK': '🇬🇧', 'US': '🇺🇸', 'AU': '🇦🇺', 'CO': '🇨🇴', 'PO': '🇵🇹',
-      'PT': '🇵🇹', 'ME': '🇲🇽', 'MX': '🇲🇽', 'XX': '🏳️'
-    };
-
-    const ridersHTML = competingRiders.map(rider => {
-      const flag = nationalityFlags[rider.nationalityCode] || '🏳️';
-      const photoSrc = rider.photoUrl?.startsWith('riders/')
-        ? `../${rider.photoUrl}`
-        : rider.photoUrl || `${ridersPath}/photos/placeholder.jpg`;
-
-      return `
-        <a href="${ridersPath}/${rider.slug}.html" class="key-rider-card">
-          <img src="${photoSrc}" alt="${rider.name}" class="key-rider-photo" loading="lazy" onerror="this.style.display='none'">
-          <div class="key-rider-rank">#${rider.ranking}</div>
-          <div class="key-rider-info">
-            <span class="key-rider-flag">${flag}</span>
-            <span class="key-rider-name">${rider.name}</span>
-            <span class="key-rider-team">${rider.team}</span>
-          </div>
-        </a>
-      `;
-    }).join('');
-
-    return `
-      <section class="details-section key-riders-section">
-        <h2 class="section-title">🚴 Key Riders</h2>
-        <p class="key-riders-intro">Top-ranked riders with this race in their 2026 program</p>
-        <div class="key-riders-grid">
-          ${ridersHTML}
-        </div>
-        <a href="${ridersIndexPath}" class="view-all-riders">View all riders →</a>
-      </section>
-    `;
-  };
-
-  // Main HTML template
-  return `<!DOCTYPE html>
+function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
+  const built = new Date().toISOString().slice(0, 10);
+  return `<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="${race.name} - Spoiler-free race preview and details">
-  <title>${race.name} | No Spoiler Cycling</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-      min-height: 100vh;
-      padding: 20px;
-      color: #1f2937;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    /* Back Button */
-    .back-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-bottom: 20px;
-      transition: background 0.2s;
-    }
-
-    .back-button:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Race Header */
-    .race-header-card {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 20px;
-      padding: 30px;
-      margin-bottom: 24px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-    }
-
-    .race-badges {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
-    }
-
-    .badge {
-      padding: 4px 12px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-    }
-
-    .badge-category {
-      background: #6366f1;
-      color: white;
-    }
-
-    .badge-spoiler-safe {
-      background: #10b981;
-      color: white;
-    }
-
-    .badge-past {
-      background: #f59e0b;
-      color: white;
-    }
-
-    .race-title {
-      font-size: 2rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 12px;
-      line-height: 1.2;
-    }
-
-    .race-meta {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      color: #6b7280;
-      font-size: 0.95rem;
-    }
-
-    .race-meta-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    /* Course Summary */
-    .course-summary {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .course-summary h2 {
-      font-size: 1.25rem;
-      color: #1e3a5f;
-      margin-bottom: 12px;
-    }
-
-    .course-summary p {
-      color: #374151;
-      line-height: 1.7;
-    }
-
-    /* Details Sections */
-    .details-section {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .section-title {
-      font-size: 1.25rem;
-      color: #1e3a5f;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* Sectors Grid */
-    .sectors-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 16px;
-    }
-
-    .sector-card {
-      background: #f9fafb;
-      border-radius: 12px;
-      padding: 16px;
-      border-left: 4px solid #8b5cf6;
-    }
-
-    .sector-header {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-    }
-
-    .sector-icon {
-      font-size: 1.25rem;
-    }
-
-    .sector-name {
-      font-weight: 600;
-      color: #1f2937;
-      flex: 1;
-    }
-
-    .sector-difficulty {
-      color: #fbbf24;
-      font-size: 0.85rem;
-    }
-
-    .sector-stats {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 8px;
-      font-size: 0.85rem;
-      color: #6b7280;
-    }
-
-    .sector-description {
-      font-size: 0.875rem;
-      color: #4b5563;
-      line-height: 1.5;
-    }
-
-    /* Climbs List */
-    .climbs-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .climb-card {
-      background: #f9fafb;
-      border-radius: 12px;
-      padding: 16px;
-      border-left: 4px solid #ef4444;
-    }
-
-    .climb-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    .climb-category {
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      background: #fef2f2;
-      color: #dc2626;
-    }
-
-    .climb-category.hc { background: #fef2f2; color: #dc2626; }
-    .climb-category.1 { background: #fff7ed; color: #ea580c; }
-    .climb-category.2 { background: #fefce8; color: #ca8a04; }
-    .climb-category.3 { background: #f0fdf4; color: #16a34a; }
-    .climb-category.4 { background: #eff6ff; color: #2563eb; }
-
-    .climb-name {
-      font-weight: 600;
-      color: #1f2937;
-    }
-
-    .climb-stats {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      font-size: 0.875rem;
-      color: #4b5563;
-    }
-
-    .climb-stats .stat strong {
-      color: #1f2937;
-    }
-
-    .climb-position {
-      margin-top: 8px;
-      font-size: 0.8rem;
-      color: #9ca3af;
-    }
-
-    /* Favorites Grid */
-    .favorites-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px;
-    }
-
-    .favorites-category {
-      background: #f9fafb;
-      border-radius: 12px;
-      padding: 16px;
-    }
-
-    .category-label {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: #374151;
-      margin-bottom: 10px;
-    }
-
-    .riders-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .rider-chip {
-      background: white;
-      border: 1px solid #e5e7eb;
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      color: #1f2937;
-    }
-
-    .spoiler-notice {
-      margin-top: 16px;
-      padding: 12px;
-      background: #ecfdf5;
-      border-radius: 8px;
-      color: #059669;
-      font-size: 0.875rem;
-      text-align: center;
-    }
-
-    /* Top Riders Grid */
-    .section-subtitle {
-      font-size: 0.875rem;
-      color: #6b7280;
-      margin-bottom: 16px;
-    }
-
-    .top-riders-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 12px;
-    }
-
-    .top-rider-card {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 16px;
-      background: #f9fafb;
-      border-radius: 12px;
-      border: 1px solid #e5e7eb;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.2s;
-    }
-
-    .top-rider-card:hover {
-      background: #f3f4f6;
-      border-color: #d1d5db;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-
-    .top-rider-card.top-1 {
-      background: linear-gradient(135deg, #fef3c7, #fde68a);
-      border-color: #fbbf24;
-    }
-
-    .top-rider-card.top-2 {
-      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
-      border-color: #9ca3af;
-    }
-
-    .top-rider-card.top-3 {
-      background: linear-gradient(135deg, #fef3c7, #fed7aa);
-      border-color: #d97706;
-    }
-
-    /* Ranks 4-10: Blue "elite" tier */
-    .top-rider-card.top-4, .top-rider-card.top-5, .top-rider-card.top-6,
-    .top-rider-card.top-7, .top-rider-card.top-8, .top-rider-card.top-9,
-    .top-rider-card.top-10 {
-      background: linear-gradient(135deg, #eff6ff, #dbeafe);
-      border-color: #3b82f6;
-    }
-
-    /* Ranks 11-20: Subtle gray tier */
-    .top-rider-card.top-11, .top-rider-card.top-12, .top-rider-card.top-13,
-    .top-rider-card.top-14, .top-rider-card.top-15, .top-rider-card.top-16,
-    .top-rider-card.top-17, .top-rider-card.top-18, .top-rider-card.top-19,
-    .top-rider-card.top-20 {
-      background: #f9fafb;
-      border-color: #9ca3af;
-    }
-
-    .rider-rank {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: #6b7280;
-      min-width: 28px;
-    }
-
-    .top-rider-card.top-1 .rider-rank,
-    .top-rider-card.top-2 .rider-rank,
-    .top-rider-card.top-3 .rider-rank {
-      color: #1f2937;
-    }
-
-    .top-rider-card.top-4 .rider-rank, .top-rider-card.top-5 .rider-rank,
-    .top-rider-card.top-6 .rider-rank, .top-rider-card.top-7 .rider-rank,
-    .top-rider-card.top-8 .rider-rank, .top-rider-card.top-9 .rider-rank,
-    .top-rider-card.top-10 .rider-rank {
-      color: #1d4ed8;
-    }
-
-    .top-rider-card.top-11 .rider-rank, .top-rider-card.top-12 .rider-rank,
-    .top-rider-card.top-13 .rider-rank, .top-rider-card.top-14 .rider-rank,
-    .top-rider-card.top-15 .rider-rank, .top-rider-card.top-16 .rider-rank,
-    .top-rider-card.top-17 .rider-rank, .top-rider-card.top-18 .rider-rank,
-    .top-rider-card.top-19 .rider-rank, .top-rider-card.top-20 .rider-rank {
-      color: #374151;
-    }
-
-    .rider-info {
-      flex: 1;
-    }
-
-    .rider-name {
-      font-weight: 600;
-      color: #1f2937;
-      font-size: 0.95rem;
-    }
-
-    .rider-team {
-      font-size: 0.8rem;
-      color: #6b7280;
-    }
-
-    .rider-specialties {
-      font-size: 1rem;
-      letter-spacing: 2px;
-    }
-
-    /* Narratives List */
-    .narratives-list {
-      list-style: none;
-    }
-
-    .narrative-item {
-      padding: 12px 16px;
-      background: #f9fafb;
-      border-radius: 8px;
-      margin-bottom: 8px;
-      border-left: 3px solid #3b82f6;
-      color: #374151;
-      line-height: 1.5;
-    }
-
-    /* History Content */
-    .history-content {
-      background: #f9fafb;
-      border-radius: 12px;
-      padding: 20px;
-      color: #374151;
-      line-height: 1.7;
-    }
-
-    /* Watch Notes */
-    .watch-notes {
-      background: linear-gradient(135deg, #ecfdf5, #d1fae5);
-      border: 2px solid #10b981;
-    }
-
-    .watch-content {
-      color: #065f46;
-      line-height: 1.7;
-    }
-
-    /* Broadcast / Where to Watch */
-    .broadcast-section {
-      background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
-      border: 2px solid #0ea5e9;
-    }
-
-    .broadcast-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-
-    .broadcast-geo {
-      background: white;
-      border-radius: 12px;
-      padding: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-
-    .geo-label {
-      font-size: 1rem;
-      font-weight: 600;
-      color: #0c4a6e;
-      margin-bottom: 12px;
-      padding-bottom: 8px;
-      border-bottom: 2px solid #e0f2fe;
-    }
-
-    .broadcast-primary {
-      margin-bottom: 12px;
-    }
-
-    .broadcast-link {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      padding: 12px;
-      background: #f8fafc;
-      border-radius: 8px;
-      text-decoration: none;
-      border: 1px solid #e2e8f0;
-      transition: all 0.2s;
-    }
-
-    .broadcast-link:hover {
-      background: #f1f5f9;
-      border-color: #0ea5e9;
-      transform: translateY(-1px);
-    }
-
-    .broadcast-link.primary {
-      background: linear-gradient(135deg, #0ea5e9, #0284c7);
-      border: none;
-    }
-
-    .broadcast-link.primary .broadcast-name {
-      color: white;
-      font-weight: 600;
-    }
-
-    .broadcast-link.primary .broadcast-meta {
-      color: rgba(255,255,255,0.9);
-    }
-
-    .broadcast-name {
-      font-weight: 500;
-      color: #1e293b;
-      font-size: 0.95rem;
-    }
-
-    .broadcast-meta {
-      font-size: 0.8rem;
-      color: #64748b;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .sub-badge {
-      background: #fef3c7;
-      color: #92400e;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.7rem;
-      font-weight: 600;
-    }
-
-    .broadcast-link.primary .sub-badge {
-      background: rgba(255,255,255,0.2);
-      color: white;
-    }
-
-    .free-badge {
-      background: #d1fae5;
-      color: #065f46;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.7rem;
-      font-weight: 600;
-    }
-
-    .broadcast-link.primary .free-badge {
-      background: rgba(255,255,255,0.2);
-      color: white;
-    }
-
-    .broadcast-notes {
-      font-size: 0.8rem;
-      color: #64748b;
-      margin-top: 8px;
-      padding-left: 12px;
-    }
-
-    .broadcast-alternatives {
-      padding-top: 12px;
-      border-top: 1px solid #e2e8f0;
-    }
-
-    .alt-label {
-      display: block;
-      font-size: 0.75rem;
-      color: #94a3b8;
-      text-transform: uppercase;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    .broadcast-link.alt {
-      margin-bottom: 8px;
-    }
-
-    .broadcast-link.alt:last-child {
-      margin-bottom: 0;
-    }
-
-    .youtube-channels {
-      background: white;
-      border-radius: 12px;
-      padding: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-
-    .youtube-label {
-      font-size: 1rem;
-      font-weight: 600;
-      color: #dc2626;
-      margin-bottom: 12px;
-    }
-
-    .youtube-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .youtube-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: linear-gradient(135deg, #fee2e2, #fecaca);
-      color: #991b1b;
-      padding: 8px 14px;
-      border-radius: 20px;
-      text-decoration: none;
-      font-size: 0.85rem;
-      font-weight: 500;
-      transition: all 0.2s;
-      border: 1px solid #fca5a5;
-    }
-
-    .youtube-chip:hover {
-      background: linear-gradient(135deg, #fecaca, #fca5a5);
-      transform: translateY(-1px);
-    }
-
-    .yt-type {
-      font-size: 0.7rem;
-      background: rgba(255,255,255,0.6);
-      padding: 2px 6px;
-      border-radius: 4px;
-      color: #b91c1c;
-    }
-
-    .broadcast-footer-notes {
-      margin-top: 16px;
-      padding: 12px;
-      background: rgba(255,255,255,0.6);
-      border-radius: 8px;
-      color: #0369a1;
-      font-size: 0.85rem;
-      text-align: center;
-    }
-
-    /* Stage Overview Section */
-    .stage-overview-section {
-      background: linear-gradient(135deg, #f5f3ff, #ede9fe);
-      border: 2px solid #8b5cf6;
-    }
-
-    .stage-overview-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .stage-overview-card {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 16px;
-      background: white;
-      border-radius: 10px;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.2s;
-      border: 1px solid #e5e7eb;
-    }
-
-    .stage-overview-card:hover {
-      background: #faf5ff;
-      border-color: #a78bfa;
-      transform: translateX(4px);
-    }
-
-    .stage-overview-card.no-details {
-      opacity: 0.7;
-    }
-
-    .stage-number {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-width: 48px;
-      height: 48px;
-      border-radius: 10px;
-      border: 3px solid;
-      background: #f9fafb;
-    }
-
-    .stage-num {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #1f2937;
-      line-height: 1;
-    }
-
-    .stage-icon {
-      font-size: 0.7rem;
-      line-height: 1;
-    }
-
-    .stage-info {
-      flex: 1;
-    }
-
-    .stage-name {
-      font-weight: 600;
-      color: #1f2937;
-      font-size: 0.95rem;
-    }
-
-    .stage-meta {
-      font-size: 0.8rem;
-      color: #6b7280;
-      display: flex;
-      gap: 12px;
-    }
-
-    .details-badge {
-      background: #8b5cf6;
-      color: white;
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 4px 8px;
-      border-radius: 4px;
-      text-transform: uppercase;
-    }
-
-    /* Stage Navigation */
-    .stage-navigation {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .stage-nav-link {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 16px;
-      background: #f3f4f6;
-      color: #4b5563;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: all 0.2s;
-    }
-
-    .stage-nav-link:hover {
-      background: #e5e7eb;
-      color: #1f2937;
-    }
-
-    .stage-nav-link.disabled {
-      opacity: 0.4;
-      pointer-events: none;
-    }
-
-    .stage-nav-parent {
-      padding: 10px 20px;
-      background: #8b5cf6;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      transition: all 0.2s;
-    }
-
-    .stage-nav-parent:hover {
-      background: #7c3aed;
-    }
-
-    /* Key Riders Section */
-    .key-riders-section {
-      background: linear-gradient(135deg, #fefce8, #fef9c3);
-      border: 2px solid #eab308;
-    }
-
-    .key-riders-intro {
-      color: #854d0e;
-      font-size: 0.9rem;
-      margin-bottom: 16px;
-    }
-
-    .key-riders-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-
-    .key-rider-card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.2s;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      position: relative;
-    }
-
-    .key-rider-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    }
-
-    .key-rider-photo {
-      width: 100%;
-      height: 100px;
-      object-fit: cover;
-      object-position: top;
-      background: #e5e7eb;
-    }
-
-    .key-rider-rank {
-      position: absolute;
-      top: 6px;
-      left: 6px;
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      color: white;
-      font-size: 0.7rem;
-      font-weight: 700;
-      padding: 2px 6px;
-      border-radius: 10px;
-    }
-
-    .key-rider-info {
-      padding: 10px;
-      text-align: center;
-    }
-
-    .key-rider-flag {
-      font-size: 1rem;
-      display: block;
-      margin-bottom: 4px;
-    }
-
-    .key-rider-name {
-      display: block;
-      font-weight: 600;
-      font-size: 0.8rem;
-      color: #1f2937;
-      line-height: 1.2;
-      margin-bottom: 2px;
-    }
-
-    .key-rider-team {
-      display: block;
-      font-size: 0.7rem;
-      color: #6b7280;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .view-all-riders {
-      display: inline-block;
-      padding: 10px 20px;
-      background: white;
-      color: #854d0e;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: all 0.2s;
-    }
-
-    .view-all-riders:hover {
-      background: #fef9c3;
-    }
-
-    /* Empty State */
-    .empty-state {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      padding: 48px;
-      text-align: center;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .empty-state h2 {
-      color: #6b7280;
-      margin-bottom: 12px;
-    }
-
-    .empty-state p {
-      color: #9ca3af;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      color: rgba(255,255,255,0.6);
-      padding: 30px 0;
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: rgba(255,255,255,0.8);
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .race-title {
-        font-size: 1.5rem;
-      }
-
-      .race-header-card {
-        padding: 20px;
-      }
-
-      .sectors-grid,
-      .favorites-grid,
-      .broadcast-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .youtube-list {
-        justify-content: center;
-      }
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>${htmlEscape(title)}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;padding:40px 0 32px;border-bottom:3px solid var(--ink);position:relative}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,6.5vw,104px);line-height:.86;letter-spacing:-.04em;margin:0}
+.hero h1 .em{font-style:italic;font-weight:500;color:var(--signal)}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:18px;max-width:62ch;line-height:1.5}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+.stat{display:block}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:32px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.stat .v.sm{font-size:18px;line-height:1.15}
+.stat .v.mono{font-family:var(--font-mono);font-weight:600;letter-spacing:-.01em}
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 6px}
+.section .eyebrow{margin-bottom:4px}
+.placeholder{display:inline-block;border:1px dashed var(--ink-3);padding:2px 8px;font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-left:10px;vertical-align:middle;border-radius:2px}
+.statband{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:18px}
+.statband .s{padding:20px 16px;border-right:1px solid var(--rule-soft)}
+.statband .s:last-child{border-right:0}
+.statband .s .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.statband .s .v{font-family:var(--font-sans);font-weight:700;font-size:30px;letter-spacing:-.02em;margin-top:6px;line-height:1}
+.statband .s .v small{font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px}
+.statband .s .v.sm{font-size:16px;line-height:1.2}
+.statband .s .v.mono{font-family:var(--font-mono);font-weight:600}
+.sectors{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.sec{display:grid;grid-template-columns:80px 56px 1fr 90px 90px;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.sec .c{padding:0 10px;min-width:0}
+.sec .c.first{padding-left:0}
+.sec .km{font-family:var(--font-mono);font-weight:600;font-size:14px}
+.sec .km small{color:var(--ink-3);font-weight:500;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-top:2px}
+.sec .no{font-family:var(--font-sans);font-weight:800;font-size:24px;letter-spacing:-.03em}
+.sec .nm{font-family:var(--font-sans);font-weight:600;font-size:16px;overflow:hidden;text-overflow:ellipsis}
+.sec .ln{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);text-align:right}
+.sec .rt{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-align:right}
+.sec.five{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 55%)}
+.sec.five .no{color:var(--signal)}
+.sec:hover{background:var(--paper-2)}
+.climbs{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.climb{display:grid;grid-template-columns:80px 70px 1fr 90px 120px;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.climb .c{padding:0 10px;min-width:0}
+.climb .c.first{padding-left:0}
+.climb .km{font-family:var(--font-mono);font-weight:600;font-size:14px}
+.climb .km small{color:var(--ink-3);font-weight:500;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-top:2px}
+.climb .cat{font-family:var(--font-mono);font-weight:700;font-size:14px;letter-spacing:.1em}
+.climb .cat.hc{color:var(--signal)}
+.climb .nm{font-family:var(--font-sans);font-weight:600;font-size:16px}
+.climb .ln{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);text-align:right}
+.climb .gr{font-family:var(--font-mono);font-size:12px;letter-spacing:.04em;text-align:right;color:var(--ink-2)}
+.climb:hover{background:var(--paper-2)}
+.fav{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule);margin-top:14px}
+.fav .card{padding:18px;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);display:grid;grid-template-rows:auto auto auto;gap:6px}
+.fav .card:nth-child(3n){border-right:0}
+.fav .card .no{font-family:var(--font-mono);font-size:11px;letter-spacing:.18em;color:var(--ink-3)}
+.fav .card .nm{font-family:var(--font-sans);font-weight:700;font-size:20px;letter-spacing:-.015em}
+.fav .card .tm{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+.fav .card .ft{display:flex;justify-content:space-between;align-items:center;margin-top:4px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase}
+.fav .card .ft .st{color:var(--ink)}
+.route{margin-top:14px}
+.route svg{width:100%;height:220px;display:block;border:1px solid var(--rule);background:var(--paper)}
+.route .cap{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-top:8px}
+.winners{display:grid;grid-template-columns:60px 1fr 1fr 80px;border-top:1px solid var(--rule);margin-top:14px}
+.winners > *{padding:10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.winners .yr{font-family:var(--font-mono);font-weight:600;color:var(--ink-3)}
+.winners .who{font-weight:600}
+.winners .tm{font-family:var(--font-mono);color:var(--ink-2);font-size:12px}
+.winners .gp{font-family:var(--font-mono);text-align:right;color:var(--ink-3);font-size:12px}
+.narratives{margin-top:10px}
+.narratives li{font-family:var(--font-sans);font-size:15px;line-height:1.55;color:var(--ink-2);margin:8px 0;padding-left:18px;position:relative}
+.narratives li::before{content:"§";position:absolute;left:0;color:var(--ink-3);font-family:var(--font-mono);font-weight:600}
+.prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+.stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
+.stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
+.stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
+.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage .c{padding:0 10px;min-width:0}
+.stage .c.first{padding-left:0}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .no.qs{color:var(--signal)}
+.stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
+.stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stage .rt .arr{color:var(--ink-3);margin:0 .4em}
+.stage .km{font-family:var(--font-mono);font-size:13px;font-weight:600;text-align:right;letter-spacing:.02em}
+.stage .km small{display:block;font-weight:400;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+.stage .terrcell{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:center}
+.stage .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.45;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.stage:hover{background:var(--paper-2)}
+.stage.qs:hover{background:rgba(200,16,46,.12)}
+.twocol{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start;margin-top:14px}
+.sl{display:grid;grid-template-columns:44px 1fr 1fr;gap:0;border-top:1px solid var(--rule)}
+.sl > *{padding:10px 10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.sl .num{font-family:var(--font-mono);font-weight:600;padding-left:0;color:var(--ink-3)}
+.sl .riderx{font-weight:600}
+.sl .team{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.02em}
+.jerseys{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px}
+.jersey{border:1px solid var(--rule);padding:14px;display:grid;grid-template-rows:36px auto auto;gap:8px}
+.jersey .band{height:14px}
+.jersey.y .band{background:var(--uci-yellow)}
+.jersey.g .band{background:linear-gradient(90deg, var(--uci-green), #a4d4b4)}
+.jersey.p .band{background:var(--signal)}
+.jersey.w .band{background:repeating-linear-gradient(90deg,#fff 0 14px,#ddd 14px 28px);border:1px solid var(--rule-soft)}
+.jersey .name{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.jersey .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.4}
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .statband{grid-template-columns:repeat(2,1fr)}
+  .statband .s{border-bottom:1px solid var(--rule-soft)}
+  .fav{grid-template-columns:1fr}
+  .stamp{display:none}
+  .stage{grid-template-columns:48px 70px 1fr 70px}
+  .stage .c.dt,.stage .c.terrcell,.stage .c.desc{display:none}
+  .twocol{grid-template-columns:1fr}
+  .jerseys{grid-template-columns:repeat(2,1fr)}
+  .sec{grid-template-columns:60px 40px 1fr 70px}
+  .sec .c.rt{display:none}
+  .climb{grid-template-columns:60px 50px 1fr 80px}
+  .climb .c.gr{display:none}
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <a href="${backLink}" class="back-button">← ${backText}</a>
-
-    ${stageNavigation}
-
-    <div class="race-header-card">
-      <div class="race-badges">
-        ${race.category ? `<span class="badge badge-category">${race.category}</span>` : ''}
-        ${details.spoilerSafe ? '<span class="badge badge-spoiler-safe">Spoiler Safe</span>' : ''}
-        ${isFinished ? '<span class="badge badge-past">Race Finished</span>' : ''}
-      </div>
-      <h1 class="race-title">${race.name}</h1>
-      <div class="race-meta">
-        ${race.raceDate ? `<span class="race-meta-item">📅 ${formatDate(race.raceDate)}</span>` : ''}
-        ${race.location ? `<span class="race-meta-item">📍 ${race.location}</span>` : ''}
-        ${race.distance ? `<span class="race-meta-item">📏 ${race.distance} km</span>` : ''}
-      </div>
-    </div>
-
-    ${details.courseSummary ? `
-      <div class="course-summary">
-        <h2>🗺️ Course Overview</h2>
-        <p>${details.courseSummary}</p>
-      </div>
-    ` : ''}
-
-    ${generateStageOverviewHTML()}
-
-    ${hasDetails ? `
-      ${generateSectorsHTML()}
-      ${generateClimbsHTML()}
-      ${generateFavoritesHTML()}
-      ${generateTopRidersHTML()}
-      ${generateNarrativesHTML()}
-      ${generateHistoryHTML()}
-      ${generateWatchNotesHTML()}
-    ` : `
-      ${generateTopRidersHTML()}
-      ${!race.stages || race.stages.length === 0 ? `
-        <div class="empty-state">
-          <h2>📝 Details Coming Soon</h2>
-          <p>Race details have not been fetched yet. Use the Perplexity search utilities to populate this page.</p>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Race Sheet · Season MMXXVI</span>
         </div>
-      ` : ''}
-    `}
-
-    ${generateKeyRidersHTML()}
-
-    ${generateBroadcastHTML()}
-
-    <footer class="footer">
-      <p>No Spoiler Cycling | Race details are spoiler-safe</p>
-      ${details.lastFetched ? `<p>Last updated: ${new Date(details.lastFetched).toLocaleDateString()}</p>` : ''}
-      <p><a href="../index.html">Calendar</a> · <a href="../riders.html">Riders</a> · <a href="../about.html">About</a></p>
-    </footer>
-  </div>
-</body>
-</html>`;
-}
-
-// ============================================
-// FILE GENERATION
-// ============================================
-
-/**
- * Load riders data for Key Riders section
- * @param {string} gender - 'men', 'women', or 'mixed' (defaults to 'men')
- */
-function loadRidersData(gender = 'men') {
-  const ridersDataPath = gender === 'women'
-    ? './data/riders-women.json'
-    : './data/riders.json';
-
-  try {
-    const data = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
-    return data.riders || [];
-  } catch {
-    console.warn(`⚠️ Could not load ${ridersDataPath}, Key Riders section will be skipped`);
-    return [];
-  }
-}
-
-/**
- * Generate race details page for a single race
- */
-function generateRaceDetailsPage(race, outputDir = './race-details', riders = null) {
-  // Ensure output directory exists
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  // Load riders based on race gender if not provided
-  if (riders === null) {
-    riders = loadRidersData(race.gender || 'men');
-  }
-
-  const filename = `${race.id}.html`;
-  const filepath = path.join(outputDir, filename);
-
-  const html = generateRaceDetailsHTML(race, { riders });
-  fs.writeFileSync(filepath, html);
-
-  console.log(`✅ Generated: ${filepath}`);
-  return filepath;
-}
-
-/**
- * Generate race details pages for all races with details
- */
-function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', outputDir = './race-details') {
-  const data = JSON.parse(fs.readFileSync(raceDataPath, 'utf8'));
-
-  // Pre-load both men's and women's riders for efficiency
-  const menRiders = loadRidersData('men');
-  const womenRiders = loadRidersData('women');
-
-  // Ensure output directory exists
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  let generated = 0;
-
-  data.races.forEach(race => {
-    if (race.raceDetails && Object.keys(race.raceDetails).length > 0) {
-      // Select correct riders based on race gender
-      const riders = race.gender === 'women' ? womenRiders : menRiders;
-      generateRaceDetailsPage(race, outputDir, riders);
-      generated++;
-    }
-  });
-
-  console.log(`\n📊 Generated ${generated} race detail pages`);
-  return generated;
-}
-
-/**
- * Generate stage navigation HTML
- */
-function generateStageNavigationHTML(race, currentStageNumber) {
-  const stages = race.stages || [];
-  const currentIndex = stages.findIndex(s => s.stageNumber === currentStageNumber);
-
-  const prevStage = currentIndex > 0 ? stages[currentIndex - 1] : null;
-  const nextStage = currentIndex < stages.length - 1 ? stages[currentIndex + 1] : null;
-
-  const prevLink = prevStage
-    ? `<a href="${race.id}-stage-${prevStage.stageNumber}.html" class="stage-nav-link">← Stage ${prevStage.stageNumber}</a>`
-    : `<span class="stage-nav-link disabled">← Previous</span>`;
-
-  const nextLink = nextStage
-    ? `<a href="${race.id}-stage-${nextStage.stageNumber}.html" class="stage-nav-link">Stage ${nextStage.stageNumber} →</a>`
-    : `<span class="stage-nav-link disabled">Next →</span>`;
-
-  return `
-    <div class="stage-navigation">
-      ${prevLink}
-      <a href="${race.id}.html" class="stage-nav-parent">All Stages</a>
-      ${nextLink}
+        <div class="mast-meta">
+          Document <b>${htmlEscape(docCode)}</b><br/>
+          Built <b>${built}</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="../index.html"${navOn==='cal'?' class="on"':''}>01 — Calendar</a>
+        <a href="../riders.html"${navOn==='men'?' class="on"':''}>02 — Men's Riders</a>
+        <a href="../riders-women.html"${navOn==='women'?' class="on"':''}>03 — Women's Riders</a>
+        <a href="../about.html"${navOn==='about'?' class="on"':''}>04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">§ Race Sheet</span>
+      </nav>
     </div>
-  `;
+  </header>
+
+  <main class="frame">
+    <div class="crumbs">${crumbs}</div>
+    ${body}
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>${htmlEscape(footerSection)}</span>
+        <span>Built ${built}</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
+`;
 }
 
-/**
- * Generate stage details page for a Grand Tour stage
- */
-function generateStageDetailsPage(race, stageNumber, outputDir = './race-details', riders = null) {
-  if (!race.stages) {
-    console.error(`❌ Race ${race.id} has no stages`);
-    return null;
+// ============================================
+// ONE-DAY RACE SHEET
+// ============================================
+
+function renderOneDay(race) {
+  const rd = race.raceDetails || {};
+  const coverage = primaryBroadcaster(race);
+  const distance = race.distance || 0;
+  const dateLabel = fmtLongDate(race.raceDate);
+  const category = race.category || '';
+  const pClass = prestigeClass(race);
+  const pLabel = prestigeLabel(race);
+  const keySectors = rd.keySectors || [];
+  const keyClimbs = rd.keyClimbs || [];
+
+  // Split name on an en-dash / em-dash / hyphen for hero typography
+  const titleParts = race.name.split(/[–—-]/);
+  const heroH1 = titleParts.length >= 2
+    ? `${htmlEscape(titleParts[0].trim())}–<span class="em">${htmlEscape(titleParts.slice(1).join('-').trim())}</span>`
+    : htmlEscape(race.name);
+
+  const stamp = pClass ? `<div class="stamp">${pLabel}<br/><b>${race.rating || 0}★</b></div>` : '';
+  const codeCls = pClass === 'wc' ? 'code wc' : (category.includes('UWT') || category.includes('WWT')) ? 'code inv' : 'code';
+  const prestigeBadge = pClass === 'mon' ? '<span class="code sig">MONUMENT</span>'
+    : pClass === 'gt' ? '<span class="code" style="background:var(--uci-yellow);color:#111;border-color:var(--uci-yellow)">GRAND TOUR</span>'
+    : pClass === 'wc' ? '<span class="code wc">WORLDS</span>'
+    : '';
+
+  // Flatten favourites from raceDetails.favorites groups, rank by topRiders order
+  const favBlock = renderFavourites(race);
+
+  // Stats band — keep sectors/climbs counts defensive
+  const sectorsCount = keySectors.length;
+  const climbsCount = keyClimbs.length;
+
+  const routeSvg = renderRouteSchematic(race, keySectors, keyClimbs);
+
+  const narrativesHtml = (rd.narratives || []).length
+    ? `<ul class="narratives">${rd.narratives.map(n => `<li>${htmlEscape(n)}</li>`).join('')}</ul>`
+    : '';
+
+  const sectorsSection = keySectors.length ? `
+    <section class="section">
+      <div class="eyebrow">§ 02 — Key Sectors</div>
+      <h2>The decisive pavé</h2>
+      <div class="sectors">
+        ${keySectors.map((s, i) => {
+          const stars5 = s.difficulty === 5 ? 'five' : '';
+          const kmFromStart = distance && s.kmFromFinish != null ? (distance - s.kmFromFinish).toFixed(1) : '—';
+          const no = keySectors.length - i;
+          return `<div class="sec ${stars5}">
+            <div class="c first km">${kmFromStart}<small>km in</small></div>
+            <div class="c"><span class="no">${no}</span></div>
+            <div class="c"><span class="nm">${htmlEscape(s.name)}</span></div>
+            <div class="c ln">${s.length ? Number(s.length).toFixed(1) + ' km' : ''}</div>
+            <div class="c rt">${stars(s.difficulty || 3)}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </section>` : '';
+
+  const climbsSection = keyClimbs.length ? `
+    <section class="section">
+      <div class="eyebrow">§ 02b — Key Climbs</div>
+      <h2>Where the race is made</h2>
+      <div class="climbs">
+        ${keyClimbs.map(c => {
+          const cat = (c.category || '').toUpperCase();
+          const catCls = cat === 'HC' ? 'hc' : '';
+          const kmLabel = c.kmFromFinish != null ? c.kmFromFinish + '<small>km to go</small>' : '';
+          return `<div class="climb">
+            <div class="c first km">${kmLabel}</div>
+            <div class="c cat ${catCls}">${cat || '—'}</div>
+            <div class="c"><span class="nm">${htmlEscape(c.name)}</span></div>
+            <div class="c ln">${c.length ? c.length + ' km' : ''}</div>
+            <div class="c gr">${c.avgGradient || ''}${c.maxGradient ? ' · max ' + c.maxGradient : ''}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </section>` : '';
+
+  const historySection = rd.historicalContext ? `
+    <section class="section">
+      <div class="eyebrow">§ 04 — Historical Context</div>
+      <h2>Form book &amp; lore</h2>
+      <p class="prose">${htmlEscape(rd.historicalContext)}</p>
+      ${renderPlaceholderWinners(race)}
+    </section>` : renderPlaceholderWinners(race) ? `
+    <section class="section">
+      <div class="eyebrow">§ 04 — Historical Context</div>
+      <h2>Past editions <span class="placeholder">placeholder</span></h2>
+      ${renderPlaceholderWinners(race)}
+    </section>` : '';
+
+  const narrativesSection = narrativesHtml ? `
+    <section class="section">
+      <div class="eyebrow">§ 05 — Storylines</div>
+      <h2>Narratives to watch</h2>
+      ${narrativesHtml}
+    </section>` : '';
+
+  const watchSection = rd.watchNotes ? `
+    <section class="section">
+      <div class="eyebrow">§ 06 — Viewing Notes</div>
+      <h2>When to tune in</h2>
+      <p class="prose">${htmlEscape(rd.watchNotes)}</p>
+    </section>` : '';
+
+  const body = `
+    <section class="hero">
+      ${stamp}
+      <div>
+        <div class="tag">
+          ${category ? `<span class="${codeCls}">${htmlEscape(category)}</span>` : ''}
+          ${prestigeBadge}
+          <span>${'★'.repeat(race.rating || 0)}</span>
+          <span>${htmlEscape(dateLabel)}</span>
+        </div>
+        <h1>${heroH1}</h1>
+        <p class="sub">${htmlEscape(rd.courseSummary || race.description || '')}</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Location</span><span class="v sm">${htmlEscape(race.location || '—')}</span></div>
+        <div class="stat"><span class="k">Distance</span><span class="v mono">${distance || '—'}${distance ? '<small style="font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px">km</small>' : ''}</span></div>
+        <div class="stat"><span class="k">Key sectors</span><span class="v mono">${sectorsCount || '—'}</span></div>
+        <div class="stat"><span class="k">Key climbs</span><span class="v mono">${climbsCount || '—'}</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
+        <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Route Schematic <span class="placeholder">placeholder</span></div>
+      <h2>${htmlEscape(race.name)}</h2>
+      <div class="route">
+        ${routeSvg}
+        <div class="cap">Schematic built from sector/climb count — not geographically accurate. Real map coming later.</div>
+      </div>
+    </section>
+
+    ${sectorsSection}
+    ${climbsSection}
+
+    <section class="section">
+      <div class="eyebrow">§ 03 — Favourites</div>
+      <h2>Who to watch</h2>
+      ${favBlock}
+    </section>
+
+    ${narrativesSection}
+    ${historySection}
+    ${watchSection}
+  `;
+
+  return pageScaffold({
+    title: `${race.name} ${race.raceDate ? race.raceDate.slice(0, 4) : ''} — No Spoiler Cycling`,
+    docCode: `NSC/${race.id.toUpperCase().slice(0, 12)}`,
+    navOn: 'cal',
+    crumbs: `<a href="../index.html">Calendar</a><span class="sep">/</span>${MONTH_NAMES[(parseUTC(race.raceDate) || new Date()).getUTCMonth()]} ${(parseUTC(race.raceDate) || new Date()).getUTCFullYear()}<span class="sep">/</span>${htmlEscape(race.name)}`,
+    body,
+    footerSection: `§ Race Sheet · ${race.name}`,
+  });
+}
+
+// ============================================
+// STAGE-RACE MANUAL
+// ============================================
+
+function renderStageRace(race) {
+  const rd = race.raceDetails || {};
+  const coverage = primaryBroadcaster(race);
+  const category = race.category || '';
+  const dateRange = fmtDateRange(race.raceDate, race.endDate);
+  const stages = race.stages || [];
+  const totalKm = stages.reduce((sum, s) => sum + (s.distance || 0), 0);
+  const pClass = prestigeClass(race);
+  const codeCls = pClass === 'wc' ? 'code wc' : (category.includes('UWT') || category.includes('WWT')) ? 'code inv' : 'code';
+
+  // Identify queen stage heuristic: highest-elevation mountain stage, else longest mountain
+  const mountainStages = stages.filter(s => s.stageType === 'mountain');
+  let queenStageNum = null;
+  if (mountainStages.length) {
+    const longest = mountainStages.slice().sort((a, b) => (b.distance || 0) - (a.distance || 0))[0];
+    queenStageNum = longest.stageNumber;
   }
 
-  const stage = race.stages.find(s => s.stageNumber === stageNumber);
-  if (!stage) {
-    console.error(`❌ Stage ${stageNumber} not found in ${race.id}`);
-    return null;
-  }
+  const titleParts = race.name.split(/ /);
+  const heroH1 = race.name.length > 18 && titleParts.length > 1
+    ? `${htmlEscape(titleParts[0])}<br/>${htmlEscape(titleParts.slice(1).join(' '))}`
+    : htmlEscape(race.name);
 
-  // Ensure output directory exists
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  // Load riders based on race gender if not provided
-  if (riders === null) {
-    riders = loadRidersData(race.gender || 'men');
-  }
-
-  // Create stage as a "race" object for the template
-  const stageAsRace = {
-    id: `${race.id}-stage-${stageNumber}`,
-    name: stage.name,
-    raceDate: stage.date,
-    location: race.location,
-    distance: stage.distance,
-    category: race.category,
-    gender: race.gender,        // Inherit gender from parent race
-    raceDetails: stage.stageDetails || {},
-    broadcast: race.broadcast,  // Inherit broadcast info from parent race
-    topRiders: race.topRiders   // Inherit top riders from parent race
+  const stageTypeCode = {
+    'itt': 'ITT', 'ttt': 'TTT', 'flat': 'ROAD', 'hilly': 'ROAD', 'mountain': 'MTN', 'rest-day': 'REST', 'prologue': 'PRO',
   };
 
-  // Generate HTML with stage navigation
-  const html = generateRaceDetailsHTML(stageAsRace, {
-    backLink: `${race.id}.html`,
-    backText: `Back to ${race.name}`,
-    riders,
-    stageNavigation: generateStageNavigationHTML(race, stageNumber)
+  const stagesHtml = stages.map(s => {
+    const n = s.stageNumber;
+    const isQueen = queenStageNum != null && n === queenStageNum;
+    const code = stageTypeCode[s.stageType] || 'ROAD';
+    const terr = (s.terrain || []).map(t => t === 'cyclocross' ? 'circuit' : t).join(' · ').toUpperCase();
+    const routeMatch = s.name.match(/:\s*(.+?)(?:\s*\(|$)/);
+    const routeText = routeMatch ? routeMatch[1] : s.name;
+    const href = `${race.id}-stage-${n}.html`;
+    const hasDetails = s.stageDetails && Object.keys(s.stageDetails).length > 0;
+    const tag = hasDetails ? 'a' : 'div';
+    const attrs = hasDetails ? ` href="${href}"` : '';
+    return `<${tag} class="stage${isQueen ? ' qs' : ''}"${attrs}>
+      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span></div>
+      <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
+      <div class="c dt">${fmtShortDate(s.date)}</div>
+      <div class="c rt">${htmlEscape(routeText).replace(/→/g, '<span class="arr">→</span>')}</div>
+      <div class="c km">${s.distance || '—'}<small>km</small></div>
+      <div class="c terrcell">${terr}</div>
+      <div class="c desc">${htmlEscape(s.description || '')}</div>
+    </${tag}>`;
+  }).join('');
+
+  // Startlist from topRiders (limit 16)
+  const riders = (race.topRiders || []).slice(0, 16);
+  const startlistHtml = riders.length ? `
+    <div class="sl">
+      ${riders.map((r, i) => {
+        const surname = r.name.split(' ')[0];
+        const initial = r.name.split(' ')[1] ? r.name.split(' ')[1][0] + '. ' : '';
+        return `<div class="num">${String(i + 1).padStart(2, '0')}</div>
+                <div class="riderx">${initial}${htmlEscape(surname.charAt(0) + surname.slice(1).toLowerCase())}</div>
+                <div class="team">${htmlEscape(r.team || '')}</div>`;
+      }).join('')}
+    </div>` : `<p class="prose">Startlist TBD.</p>`;
+
+  const jerseys = `
+    <div class="jerseys">
+      <div class="jersey y">
+        <div class="band"></div>
+        <div class="name">Leader's Jersey</div>
+        <div class="desc">Overall GC leader on aggregate time.</div>
+      </div>
+      <div class="jersey g">
+        <div class="band"></div>
+        <div class="name">Points / Sprint</div>
+        <div class="desc">Top sprinter across finishes &amp; intermediates.</div>
+      </div>
+      <div class="jersey p">
+        <div class="band"></div>
+        <div class="name">King of the Mountains</div>
+        <div class="desc">Best climber across categorised ascents.</div>
+      </div>
+      <div class="jersey w">
+        <div class="band"></div>
+        <div class="name">Best Young Rider</div>
+        <div class="desc">Top GC rider under 25 where awarded.</div>
+      </div>
+    </div>
+    <p class="prose" style="margin-top:10px"><span class="placeholder">placeholder</span> Actual jersey colours depend on the race. Shown here as a generic template.</p>`;
+
+  const narrativesHtml = (rd.narratives || []).length
+    ? `<ul class="narratives">${rd.narratives.map(n => `<li>${htmlEscape(n)}</li>`).join('')}</ul>`
+    : '';
+
+  const favBlock = renderFavourites(race);
+
+  const body = `
+    <section class="hero">
+      <div>
+        <div class="tag">
+          ${category ? `<span class="${codeCls}">${htmlEscape(category)}</span>` : ''}
+          <span>Stage race · ${stages.length} stages${totalKm ? ' · ' + Math.round(totalKm) + ' km' : ''}</span>
+          <span>${'★'.repeat(race.rating || 0)}</span>
+        </div>
+        <h1>${heroH1}</h1>
+        <p class="sub">${htmlEscape(rd.courseSummary || race.description || '')}</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Dates</span><span class="v sm">${htmlEscape(dateRange)}</span></div>
+        <div class="stat"><span class="k">Country</span><span class="v sm">${htmlEscape(race.location || '—')}</span></div>
+        <div class="stat"><span class="k">Stages</span><span class="v">${stages.length}</span></div>
+        <div class="stat"><span class="k">Total km</span><span class="v mono">${totalKm ? Math.round(totalKm) : '—'}</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
+        <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Stages</div>
+      <h2>The route, day by day</h2>
+      <div class="stages">
+        ${stagesHtml || '<p class="prose">Stage list TBD.</p>'}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 02 — Startlist &amp; Jerseys</div>
+      <h2>Who to watch &amp; what to watch for</h2>
+      <div class="twocol">
+        <div>
+          <h3 style="font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px;font-weight:500">Top Starters</h3>
+          ${startlistHtml}
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin:0 0 10px;font-weight:500">Jerseys</h3>
+          ${jerseys}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 03 — GC Favourites</div>
+      <h2>Fight for the overall</h2>
+      ${favBlock}
+    </section>
+
+    ${narrativesHtml ? `
+    <section class="section">
+      <div class="eyebrow">§ 04 — Storylines</div>
+      <h2>Narratives to watch</h2>
+      ${narrativesHtml}
+    </section>` : ''}
+
+    ${rd.historicalContext ? `
+    <section class="section">
+      <div class="eyebrow">§ 05 — Historical Context</div>
+      <h2>Form book &amp; lore</h2>
+      <p class="prose">${htmlEscape(rd.historicalContext)}</p>
+    </section>` : ''}
+
+    ${rd.watchNotes ? `
+    <section class="section">
+      <div class="eyebrow">§ 06 — Viewing Notes</div>
+      <h2>When to tune in</h2>
+      <p class="prose">${htmlEscape(rd.watchNotes)}</p>
+    </section>` : ''}
+  `;
+
+  return pageScaffold({
+    title: `${race.name} ${race.raceDate ? race.raceDate.slice(0, 4) : ''} — No Spoiler Cycling`,
+    docCode: `NSC/${race.id.toUpperCase().slice(0, 14)}`,
+    navOn: 'cal',
+    crumbs: `<a href="../index.html">Calendar</a><span class="sep">/</span>${MONTH_NAMES[(parseUTC(race.raceDate) || new Date()).getUTCMonth()]} ${(parseUTC(race.raceDate) || new Date()).getUTCFullYear()}<span class="sep">/</span>${htmlEscape(race.name)}`,
+    body,
+    footerSection: `§ Race Manual · ${race.name}`,
   });
-
-  const filename = `${race.id}-stage-${stageNumber}.html`;
-  const filepath = path.join(outputDir, filename);
-  fs.writeFileSync(filepath, html);
-
-  console.log(`✅ Generated: ${filepath}`);
-  return filepath;
 }
 
 // ============================================
-// CLI INTERFACE
+// PER-STAGE SHEET
+// ============================================
+
+function renderStage(race, stage) {
+  const sd = stage.stageDetails || {};
+  const coverage = stage.platform || primaryBroadcaster(race);
+  const keyClimbs = sd.keyClimbs || [];
+  const keySectors = sd.keySectors || [];
+  const terrCodes = (stage.terrain || []).map(t => (t === 'cyclocross' ? 'circuit' : t).toUpperCase()).join(' · ');
+  const stageTypeLabel = stage.stageType ? stage.stageType.toUpperCase().replace('-', ' ') : '';
+  const routeMatch = stage.name.match(/:\s*(.+?)(?:\s*\(|$)/);
+  const routeText = routeMatch ? routeMatch[1] : stage.name;
+
+  const climbsSection = keyClimbs.length ? `
+    <section class="section">
+      <div class="eyebrow">§ 02 — Key Climbs</div>
+      <h2>Where the stage is decided</h2>
+      <div class="climbs">
+        ${keyClimbs.map(c => {
+          const cat = (c.category || '').toUpperCase();
+          const catCls = cat === 'HC' ? 'hc' : '';
+          const kmLabel = c.kmFromFinish != null ? c.kmFromFinish + '<small>km to go</small>' : '';
+          return `<div class="climb">
+            <div class="c first km">${kmLabel}</div>
+            <div class="c cat ${catCls}">${cat || '—'}</div>
+            <div class="c"><span class="nm">${htmlEscape(c.name)}</span></div>
+            <div class="c ln">${c.length ? c.length + ' km' : ''}</div>
+            <div class="c gr">${c.avgGradient || ''}${c.maxGradient ? ' · max ' + c.maxGradient : ''}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </section>` : '';
+
+  const sectorsSection = keySectors.length ? `
+    <section class="section">
+      <div class="eyebrow">§ 02b — Key Sectors</div>
+      <h2>Surface battles</h2>
+      <div class="sectors">
+        ${keySectors.map((s, i) => `<div class="sec ${s.difficulty === 5 ? 'five' : ''}">
+          <div class="c first km">${s.kmFromFinish != null ? s.kmFromFinish : '—'}<small>km to go</small></div>
+          <div class="c"><span class="no">${keySectors.length - i}</span></div>
+          <div class="c"><span class="nm">${htmlEscape(s.name)}</span></div>
+          <div class="c ln">${s.length ? Number(s.length).toFixed(1) + ' km' : ''}</div>
+          <div class="c rt">${stars(s.difficulty || 3)}</div>
+        </div>`).join('')}
+      </div>
+    </section>` : '';
+
+  const body = `
+    <section class="hero">
+      <div>
+        <div class="tag">
+          <span class="code">${htmlEscape(race.category || '')}</span>
+          <span>Stage ${stage.stageNumber} · ${htmlEscape(stageTypeLabel)}</span>
+          <span>${htmlEscape(fmtLongDate(stage.date))}</span>
+        </div>
+        <h1>Stage ${stage.stageNumber}<br/><span class="em">${htmlEscape(routeText)}</span></h1>
+        <p class="sub">${htmlEscape(sd.courseSummary || stage.description || '')}</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Race</span><span class="v sm"><a href="${race.id}.html" style="border-bottom:1px solid var(--ink)">${htmlEscape(race.name)}</a></span></div>
+        <div class="stat"><span class="k">Distance</span><span class="v mono">${stage.distance || '—'}${stage.distance ? '<small style="font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px">km</small>' : ''}</span></div>
+        <div class="stat"><span class="k">Terrain</span><span class="v sm">${htmlEscape(terrCodes)}</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
+      </aside>
+    </section>
+
+    ${climbsSection}
+    ${sectorsSection}
+
+    ${sd.watchNotes ? `
+    <section class="section">
+      <div class="eyebrow">§ 03 — Viewing Notes</div>
+      <h2>When to tune in</h2>
+      <p class="prose">${htmlEscape(sd.watchNotes)}</p>
+    </section>` : ''}
+  `;
+
+  return pageScaffold({
+    title: `${race.name} · Stage ${stage.stageNumber} — No Spoiler Cycling`,
+    docCode: `NSC/${race.id.toUpperCase().slice(0, 10)}/S${stage.stageNumber}`,
+    navOn: 'cal',
+    crumbs: `<a href="../index.html">Calendar</a><span class="sep">/</span><a href="${race.id}.html">${htmlEscape(race.name)}</a><span class="sep">/</span>Stage ${stage.stageNumber}`,
+    body,
+    footerSection: `§ Stage Sheet · ${race.name} S${stage.stageNumber}`,
+  });
+}
+
+// ============================================
+// FAVOURITES (shared)
+// ============================================
+
+function renderFavourites(race) {
+  // Prefer explicit topRiders (already ranked) — promote to cards with derived form stars.
+  // Fall back to raceDetails.favorites groups if topRiders is empty.
+  const riders = (race.topRiders || []).slice(0, 6);
+  if (riders.length) {
+    return `<div class="fav">${riders.map((r, i) => {
+      const surname = (r.name.split(' ')[0] || '');
+      const given = r.name.split(' ').slice(1).join(' ');
+      const display = given ? `${given.charAt(0)}. ${surname.charAt(0) + surname.slice(1).toLowerCase()}` : surname;
+      const specialty = (r.specialties || [])[0] || '';
+      const formStars = '★'.repeat(rankingToStars(r.ranking));
+      return `<div class="card">
+        <div class="no">№ ${String(i + 1).padStart(2, '0')}${specialty ? ' · ' + specialty.toUpperCase() : ''}</div>
+        <div class="nm">${htmlEscape(display)}</div>
+        <div class="tm">${htmlEscape(r.team || '')}</div>
+        <div class="ft"><span>UCI #${r.ranking || '—'}</span><span class="st">${formStars}</span></div>
+      </div>`;
+    }).join('')}</div>`;
+  }
+
+  // Fallback: flatten raceDetails.favorites groups
+  const groups = race.raceDetails?.favorites || {};
+  const flat = [];
+  for (const [group, arr] of Object.entries(groups)) {
+    if (group === 'description') continue;
+    if (!Array.isArray(arr)) continue;
+    arr.forEach(s => flat.push({ group, text: s }));
+  }
+  if (!flat.length) return `<p class="prose">Favourites TBD.</p>`;
+  return `<div class="fav">${flat.slice(0, 6).map((f, i) => {
+    const [name, ...rest] = f.text.split(/\s*[-–]\s*/);
+    const teamMatch = name.match(/\(([^)]+)\)/);
+    const team = teamMatch ? teamMatch[1] : '';
+    const cleanName = name.replace(/\s*\([^)]+\)/, '').trim();
+    return `<div class="card">
+      <div class="no">№ ${String(i + 1).padStart(2, '0')} · ${f.group.toUpperCase()}</div>
+      <div class="nm">${htmlEscape(cleanName)}</div>
+      <div class="tm">${htmlEscape(team)}</div>
+      <div class="ft"><span>${htmlEscape(rest.join(' — ').slice(0, 60))}</span></div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
+// ============================================
+// ROUTE SCHEMATIC (placeholder SVG)
+// ============================================
+
+function renderRouteSchematic(race, keySectors, keyClimbs) {
+  const markers = [];
+  const baseline = 150;
+
+  // Distribute sectors along 200-980 x-axis
+  if (keySectors.length) {
+    keySectors.forEach((s, i) => {
+      const x = 200 + ((i + 1) / (keySectors.length + 1)) * 780;
+      const isFive = s.difficulty === 5;
+      markers.push(isFive
+        ? `<line x1="${x.toFixed(0)}" y1="${baseline - 18}" x2="${x.toFixed(0)}" y2="${baseline + 18}" stroke="#c8102e" stroke-width="2"/>`
+        : `<line x1="${x.toFixed(0)}" y1="${baseline - 6}" x2="${x.toFixed(0)}" y2="${baseline + 6}" stroke="#14110f" stroke-width="1.25"/>`);
+      if (isFive) {
+        markers.push(`<text x="${x.toFixed(0)}" y="${baseline - 24}" font-family="JetBrains Mono" font-size="9" fill="#c8102e" text-anchor="middle" letter-spacing=".1em">${htmlEscape(s.name.slice(0, 18).toUpperCase())}</text>`);
+      }
+    });
+  } else if (keyClimbs.length) {
+    keyClimbs.forEach((c, i) => {
+      const x = 200 + ((i + 1) / (keyClimbs.length + 1)) * 780;
+      const isHard = c.category === 'HC' || c.category === '1';
+      markers.push(`<polygon points="${x - 8},${baseline + 8} ${x},${baseline - (isHard ? 28 : 14)} ${x + 8},${baseline + 8}" fill="${isHard ? '#c8102e' : '#14110f'}" opacity=".85"/>`);
+      if (isHard) {
+        markers.push(`<text x="${x.toFixed(0)}" y="${baseline - 34}" font-family="JetBrains Mono" font-size="9" fill="#c8102e" text-anchor="middle" letter-spacing=".1em">${htmlEscape(c.name.slice(0, 16).toUpperCase())}</text>`);
+      }
+    });
+  }
+
+  return `<svg viewBox="0 0 1000 220" preserveAspectRatio="none">
+    <line x1="20" y1="${baseline}" x2="980" y2="${baseline}" stroke="#14110f" stroke-width="1" stroke-dasharray="2 3"/>
+    ${markers.join('\n    ')}
+    <circle cx="20" cy="${baseline}" r="5" fill="#14110f"/>
+    <circle cx="980" cy="${baseline}" r="5" fill="#c8102e"/>
+    <g font-family="Inter Tight" font-weight="700" fill="#14110f">
+      <text x="20" y="${baseline + 30}" font-size="12" letter-spacing=".02em">Start</text>
+      <text x="980" y="${baseline + 30}" font-size="12" text-anchor="end" letter-spacing=".02em">Finish</text>
+    </g>
+    <g font-family="JetBrains Mono" font-size="10" fill="#6b635a" letter-spacing=".14em">
+      <text x="20"  y="${baseline + 50}">00.0 KM</text>
+      <text x="980" y="${baseline + 50}" text-anchor="end">${race.distance || '—'} KM</text>
+    </g>
+  </svg>`;
+}
+
+// ============================================
+// PAST WINNERS (placeholder — no data yet)
+// ============================================
+
+function renderPlaceholderWinners(_race) {
+  // Winners aren't in the canonical data yet. Once a winners[] field lands, this
+  // returns a filled table; for now it stays empty to keep the layout clean.
+  return '';
+}
+
+// ============================================
+// ENTRY POINTS
+// ============================================
+
+function generateRaceDetailsHTML(race) {
+  if (race.raceFormat === 'stage-race' && Array.isArray(race.stages) && race.stages.length) {
+    return renderStageRace(race);
+  }
+  return renderOneDay(race);
+}
+
+function generateRaceDetailsPage(race, outputDir = './race-details') {
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const filepath = path.join(outputDir, `${race.id}.html`);
+  fs.writeFileSync(filepath, generateRaceDetailsHTML(race));
+  return filepath;
+}
+
+function generateStageDetailsPage(race, stageNumber, outputDir = './race-details') {
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const stage = race.stages.find(s => s.stageNumber === stageNumber);
+  if (!stage) throw new Error(`Stage ${stageNumber} not found on ${race.id}`);
+  const filepath = path.join(outputDir, `${race.id}-stage-${stageNumber}.html`);
+  fs.writeFileSync(filepath, renderStage(race, stage));
+  return filepath;
+}
+
+function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', outputDir = './race-details') {
+  const data = JSON.parse(fs.readFileSync(raceDataPath, 'utf8'));
+  let count = 0, stageCount = 0, skipped = 0;
+
+  for (const race of data.races) {
+    if (!race.id) { skipped++; continue; }
+    generateRaceDetailsPage(race, outputDir);
+    count++;
+    if (Array.isArray(race.stages)) {
+      for (const s of race.stages) {
+        if (s.stageDetails && Object.keys(s.stageDetails).length > 0) {
+          generateStageDetailsPage(race, s.stageNumber, outputDir);
+          stageCount++;
+        }
+      }
+    }
+  }
+  console.log(`✓ generated ${count} race pages + ${stageCount} stage pages${skipped ? ' · skipped ' + skipped + ' (missing id)' : ''}`);
+}
+
+// ============================================
+// CLI
 // ============================================
 
 const args = process.argv.slice(2);
 
 if (args.includes('--all')) {
-  // Generate all race details pages
   generateAllRaceDetailsPages();
 } else if (args.includes('--stages') && args.length >= 2) {
-  // Generate all stage pages for a race
   const raceId = args[args.indexOf('--stages') + 1];
   const data = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8'));
   const race = data.races.find(r => r.id === raceId);
-
-  if (!race) {
-    console.error(`❌ Race not found: ${raceId}`);
-    process.exit(1);
-  }
-
-  if (!race.stages || race.stages.length === 0) {
-    console.error(`❌ Race ${raceId} has no stages`);
-    process.exit(1);
-  }
-
-  console.log(`\n📋 Generating stage pages for: ${race.name}\n`);
-
-  let generated = 0;
-  race.stages.forEach(stage => {
-    if (stage.stageDetails && Object.keys(stage.stageDetails).length > 0) {
-      generateStageDetailsPage(race, stage.stageNumber);
-      generated++;
-    } else {
-      console.log(`⏭️  Skipping stage ${stage.stageNumber} (no stageDetails)`);
+  if (!race) { console.error(`❌ Race not found: ${raceId}`); process.exit(1); }
+  if (!race.stages || !race.stages.length) { console.error(`❌ Race ${raceId} has no stages`); process.exit(1); }
+  generateRaceDetailsPage(race);
+  let n = 0;
+  for (const s of race.stages) {
+    if (s.stageDetails && Object.keys(s.stageDetails).length > 0) {
+      generateStageDetailsPage(race, s.stageNumber);
+      n++;
     }
-  });
-
-  console.log(`\n📊 Generated ${generated} stage detail pages for ${race.name}`);
+  }
+  console.log(`✓ ${race.name}: race sheet + ${n} stage sheets`);
 } else if (args.includes('--race') && args.length >= 2) {
-  // Generate single race details page
   const raceId = args[args.indexOf('--race') + 1];
   const data = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8'));
   const race = data.races.find(r => r.id === raceId);
-
-  if (race) {
-    generateRaceDetailsPage(race);
-  } else {
-    console.error(`❌ Race not found: ${raceId}`);
-    process.exit(1);
-  }
+  if (!race) { console.error(`❌ Race not found: ${raceId}`); process.exit(1); }
+  const out = generateRaceDetailsPage(race);
+  console.log(`✓ ${out}`);
 } else if (args.includes('--help')) {
-  console.log(`
-Race Details Page Generator
+  console.log(`Race Details Page Generator (v2)
 
 Usage:
-  node generate-race-details.js --all             Generate pages for all races with details
-  node generate-race-details.js --race <id>       Generate page for specific race
-  node generate-race-details.js --stages <id>     Generate all stage pages for a multi-stage race
+  node generate-race-details.js --all             Generate pages for all races with raceDetails
+  node generate-race-details.js --race <id>       Generate one race's sheet
+  node generate-race-details.js --stages <id>     Generate race + stage sheets for a stage race
   node generate-race-details.js --help            Show this help
 
 Output: ./race-details/<race-id>.html
@@ -1744,10 +902,9 @@ Output: ./race-details/<race-id>.html
   console.log('No arguments provided. Use --help for usage information.');
 }
 
-// Export functions for use as module
 export {
   generateRaceDetailsHTML,
   generateRaceDetailsPage,
   generateAllRaceDetailsPages,
-  generateStageDetailsPage
+  generateStageDetailsPage,
 };

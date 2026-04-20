@@ -1,1130 +1,641 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Top 50 women cyclists - 2026 race programs and profiles">
-  <title>Top Women Riders | No Spoiler Cycling</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Top Women Riders 2026 — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<style>
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,7vw,96px);line-height:.88;letter-spacing:-.045em;margin:0}
+.hero h1 .em{font-style:italic;font-weight:500;color:var(--signal)}
+.hero .lead{font-family:var(--font-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-top:18px}
+.hero aside{border-left:1px solid var(--rule);padding-left:32px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px 24px;align-content:start}
+.stat{display:block}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:32px;letter-spacing:-.02em;line-height:1;margin-top:4px}
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-      min-height: 100vh;
-      padding: 20px;
-    }
+.toolbar{position:sticky;top:0;background:var(--paper);z-index:10;border-bottom:1px solid var(--rule);padding:12px 0 10px;margin-top:18px}
+.toolbar-row{display:flex;flex-wrap:wrap;gap:6px 6px;align-items:center}
+.tb-label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin-right:10px;min-width:56px}
+.showing{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:auto}
+.showing b{color:var(--ink);font-weight:600}
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:24px;border-top:1px solid var(--rule)}
+.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit}
+.rc:nth-child(4n){border-right:0}
+.rc:hover{background:var(--paper-2)}
+.rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
+.rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
+.rc-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.15) contrast(1.02)}
+.rc-rank{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+.rc-name{font-family:var(--font-sans);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.1;margin-bottom:4px}
+.rc-team{font-size:11px;color:var(--ink-2);letter-spacing:.04em;margin-bottom:8px;line-height:1.3}
+.rc-tags{font-size:10px;letter-spacing:.14em;color:var(--ink-3);margin-bottom:10px}
+.rc-foot{display:flex;justify-content:space-between;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:auto;padding-top:8px;border-top:1px solid var(--rule-soft)}
+.rc.hidden{display:none}
 
-    /* Back Button */
-    .back-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-bottom: 24px;
-      transition: background 0.2s;
-    }
-
-    .back-button:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Rider Nav */
-    .rider-nav {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .rider-nav-link {
-      padding: 10px 24px;
-      background: rgba(255, 255, 255, 0.1);
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: 600;
-      transition: all 0.2s;
-    }
-
-    .rider-nav-link:hover {
-      background: rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-
-    .rider-nav-link.active {
-      background: #3b82f6;
-      color: white;
-    }
-
-    /* Last Updated */
-    .last-updated {
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 0.85rem;
-      margin-top: 8px;
-    }
-
-    /* Header */
-    .page-header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-
-    .page-title {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: white;
-      margin-bottom: 8px;
-    }
-
-    .page-subtitle {
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 1.1rem;
-    }
-
-    /* Riders Grid */
-    .riders-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .rider-card {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      overflow: hidden;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.3s ease;
-      position: relative;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .rider-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-    }
-
-    .rider-rank {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      color: white;
-      font-weight: 700;
-      font-size: 0.9rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 10;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
-    .rider-card:nth-child(1) .rider-rank {
-      background: linear-gradient(135deg, #ffd700, #ffb800);
-    }
-
-    .rider-card:nth-child(2) .rider-rank {
-      background: linear-gradient(135deg, #c0c0c0, #a8a8a8);
-    }
-
-    .rider-card:nth-child(3) .rider-rank {
-      background: linear-gradient(135deg, #cd7f32, #b8722d);
-    }
-
-    .rider-photo {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      object-position: top;
-      background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
-    }
-
-    .rider-content {
-      padding: 16px;
-      position: relative;
-    }
-
-    .rider-flag {
-      position: absolute;
-      top: -24px;
-      right: 16px;
-      font-size: 2rem;
-      background: white;
-      border-radius: 50%;
-      width: 48px;
-      height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .rider-name {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #1e3a5f;
-      margin-bottom: 4px;
-      line-height: 1.3;
-    }
-
-    .rider-team {
-      font-size: 0.85rem;
-      color: #6b7280;
-      margin-bottom: 12px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .rider-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 12px;
-      border-top: 1px solid #f3f4f6;
-    }
-
-    .specialties {
-      display: flex;
-      gap: 4px;
-    }
-
-    .specialty-tag {
-      font-size: 1.1rem;
-    }
-
-    .program-status {
-      font-size: 0.8rem;
-      color: #9ca3af;
-      font-weight: 500;
-    }
-
-    .program-status.has-program {
-      color: #10b981;
-    }
-
-    /* Stats Bar */
-    .stats-bar {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 16px 24px;
-      margin-bottom: 24px;
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      flex-wrap: wrap;
-    }
-
-    .stat {
-      text-align: center;
-    }
-
-    .stat-value {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: white;
-    }
-
-    .stat-label {
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.6);
-      text-transform: uppercase;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      color: rgba(255,255,255,0.6);
-      padding: 40px 0;
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: rgba(255,255,255,0.8);
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Responsive */
-    @media (max-width: 640px) {
-      .page-title {
-        font-size: 1.75rem;
-      }
-
-      .riders-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .stats-bar {
-        gap: 16px;
-      }
-    }
-  </style>
+@media (max-width:1100px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .rc:nth-child(4n){border-right:1px solid var(--rule-soft)}
+  .rc:nth-child(3n){border-right:0}
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+}
+@media (max-width:640px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .rc:nth-child(3n){border-right:1px solid var(--rule-soft)}
+  .rc:nth-child(2n){border-right:0}
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <a href="index.html" class="back-button">← Back to Calendar</a>
-
-    <nav class="rider-nav">
-      <a href="riders.html" class="rider-nav-link ">Men's Riders</a>
-      <a href="riders-women.html" class="rider-nav-link active">Women's Riders</a>
-    </nav>
-
-    <div class="page-header">
-      <h1 class="page-title">🚴‍♀️ Top Women Riders 2026</h1>
-      <p class="page-subtitle">WWT ranking leaders and their announced race programs</p>
-      <p class="last-updated">Updated: January 21, 2026</p>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Startlist · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>NSC/RDW/26</b><br/>
+          Updated <b>21 JAN 2026</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="index.html">01 — Calendar</a>
+        <a href="riders.html">02 — Men's Riders</a>
+        <a href="riders-women.html" class="on">03 — Women's Riders</a>
+        <a href="about.html">04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">EN</span>
+      </nav>
     </div>
+  </header>
 
-    <div class="stats-bar">
-      <div class="stat">
-        <div class="stat-value">50</div>
-        <div class="stat-label">Riders</div>
+  <main class="frame">
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">UCI Women&#39;s World Tour Ranking · 2026</div>
+        <h1>Top<br/><span class="em">Women Riders 2026</span></h1>
+        <p class="lead">Top 50 riders by UCI ranking. Click through for each rider's announced race program.</p>
       </div>
-      <div class="stat">
-        <div class="stat-value">19</div>
-        <div class="stat-label">Programs Announced</div>
+      <aside>
+        <div class="stat"><span class="k">Riders on file</span><span class="v">50</span></div>
+        <div class="stat"><span class="k">With program</span><span class="v">19</span></div>
+        <div class="stat"><span class="k">Teams</span><span class="v">16</span></div>
+        <div class="stat"><span class="k">Nations</span><span class="v">18</span></div>
+      </aside>
+    </section>
+
+    <section class="toolbar" id="toolbar">
+      <div class="toolbar-row">
+        <span class="tb-label">Specialty</span>
+        <button class="chip on" data-f="sp" data-v="all">All</button>
+        <button class="chip" data-f="sp" data-v="climber">Climber</button>
+        <button class="chip" data-f="sp" data-v="sprinter">Sprinter</button>
+        <button class="chip" data-f="sp" data-v="puncheur">Puncheur</button>
+        <button class="chip" data-f="sp" data-v="gc-contender">GC</button>
+        <button class="chip" data-f="sp" data-v="time-trialist">TT</button>
+        <button class="chip" data-f="sp" data-v="one-day">Classics</button>
+        <button class="chip" data-f="sp" data-v="rouleur">Rouleur</button>
+        <span class="showing"><b id="shown">50</b> of <b>50</b> riders</span>
       </div>
-      <div class="stat">
-        <div class="stat-value">16</div>
-        <div class="stat-label">Teams</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">18</div>
-        <div class="stat-label">Nationalities</div>
-      </div>
+    </section>
+
+    <section class="grid" id="grid"><a class="rc" data-sp="climber gc-contender time-trialist" href="riders-women/demi-vollering.html">
+    <div class="rc-num">№ 01</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Vollering" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #1</div>
+      <div class="rc-name">D. Vollering</div>
+      <div class="rc-team mono">FDJ United - SUEZ</div>
+      <div class="rc-tags mono">CLIMBER · GC · TIME TRIAL</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>1 races</span></div>
     </div>
-
-    <div class="riders-grid">
-      
-      <a href="riders-women/demi-vollering.html" class="rider-card">
-        <div class="rider-rank">#1</div>
-        <img src="riders/photos/demi-vollering.jpg" alt="VOLLERING Demi" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VOLLERING Demi</h3>
-          <p class="rider-team">FDJ United - SUEZ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 1
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/lorena-wiebes.html" class="rider-card">
-        <div class="rider-rank">#2</div>
-        <img src="riders/photos/lorena-wiebes.jpg" alt="WIEBES Lorena" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">WIEBES Lorena</h3>
-          <p class="rider-team">Team SD Worx - Protime</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/marlen-reusser.html" class="rider-card">
-        <div class="rider-rank">#3</div>
-        <img src="riders/photos/marlen-reusser.jpg" alt="REUSSER Marlen" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇨🇭</div>
-          <h3 class="rider-name">REUSSER Marlen</h3>
-          <p class="rider-team">Movistar Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⏱️</span><span class="specialty-tag">⛰️</span></div>
-            <div class="program-status has-program">
-              📅 2
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/elisa-longo-borghini.html" class="rider-card">
-        <div class="rider-rank">#4</div>
-        <img src="riders/photos/elisa-longo-borghini.jpg" alt="LONGO BORGHINI Elisa" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">LONGO BORGHINI Elisa</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">⛰️</span></div>
-            <div class="program-status has-program">
-              📅 2
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/elisa-balsamo.html" class="rider-card">
-        <div class="rider-rank">#5</div>
-        <img src="riders/photos/elisa-balsamo.jpg" alt="BALSAMO Elisa" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">BALSAMO Elisa</h3>
-          <p class="rider-team">Lidl - Trek</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status has-program">
-              📅 3
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/elise-chabbey.html" class="rider-card">
-        <div class="rider-rank">#6</div>
-        <img src="riders/photos/elise-chabbey.jpg" alt="CHABBEY Elise" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇨🇭</div>
-          <h3 class="rider-name">CHABBEY Elise</h3>
-          <p class="rider-team">FDJ United - SUEZ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/juliette-berthet.html" class="rider-card">
-        <div class="rider-rank">#7</div>
-        <img src="riders/photos/juliette-berthet.jpg" alt="BERTHET Juliette" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇫🇷</div>
-          <h3 class="rider-name">BERTHET Juliette</h3>
-          <p class="rider-team">FDJ United - SUEZ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/kimberley-le-court-pienaar.html" class="rider-card">
-        <div class="rider-rank">#8</div>
-        <img src="riders/photos/placeholder.svg" alt="LE COURT PIENAAR Kimberley" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">LE COURT PIENAAR Kimberley</h3>
-          <p class="rider-team">AG Insurance - Soudal Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/mischa-bredewold.html" class="rider-card">
-        <div class="rider-rank">#9</div>
-        <img src="riders/photos/mischa-bredewold.jpg" alt="BREDEWOLD Mischa" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">BREDEWOLD Mischa</h3>
-          <p class="rider-team">Team SD Worx - Protime</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/anna-van-der-breggen.html" class="rider-card">
-        <div class="rider-rank">#10</div>
-        <img src="riders/photos/anna-van-der-breggen.jpg" alt="VAN DER BREGGEN Anna" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VAN DER BREGGEN Anna</h3>
-          <p class="rider-team">Team SD Worx - Protime</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/niamh-fisher-black.html" class="rider-card">
-        <div class="rider-rank">#11</div>
-        <img src="riders/photos/niamh-fisher-black.jpg" alt="FISHER-BLACK Niamh" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇿</div>
-          <h3 class="rider-name">FISHER-BLACK Niamh</h3>
-          <p class="rider-team">Lidl - Trek</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 1
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/karlijn-swinkels.html" class="rider-card">
-        <div class="rider-rank">#12</div>
-        <img src="riders/photos/karlijn-swinkels.jpg" alt="SWINKELS Karlijn" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">SWINKELS Karlijn</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/pauline-ferrand-prevot.html" class="rider-card">
-        <div class="rider-rank">#13</div>
-        <img src="riders/photos/pauline-ferrand-prevot.jpg" alt="FERRAND-PRÉVOT Pauline" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇫🇷</div>
-          <h3 class="rider-name">FERRAND-PRÉVOT Pauline</h3>
-          <p class="rider-team">Team Visma | Lease a Bike</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status has-program">
-              📅 3
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/kasia-niewiadoma.html" class="rider-card">
-        <div class="rider-rank">#14</div>
-        <img src="riders/photos/placeholder.svg" alt="NIEWIADOMA Kasia" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇵🇹</div>
-          <h3 class="rider-name">NIEWIADOMA Kasia</h3>
-          <p class="rider-team">CANYON//SRAM zondacrypto</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/yara-kastelijn.html" class="rider-card">
-        <div class="rider-rank">#15</div>
-        <img src="riders/photos/yara-kastelijn.jpg" alt="KASTELIJN Yara" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">KASTELIJN Yara</h3>
-          <p class="rider-team">Fenix-Premier Tech</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/ally-wollaston.html" class="rider-card">
-        <div class="rider-rank">#16</div>
-        <img src="riders/photos/ally-wollaston.jpg" alt="WOLLASTON Ally" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇿</div>
-          <h3 class="rider-name">WOLLASTON Ally</h3>
-          <p class="rider-team">FDJ United - SUEZ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">⛰️</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/puck-pieterse.html" class="rider-card">
-        <div class="rider-rank">#17</div>
-        <img src="riders/photos/puck-pieterse.jpg" alt="PIETERSE Puck" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">PIETERSE Puck</h3>
-          <p class="rider-team">Fenix-Premier Tech</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/marianne-vos.html" class="rider-card">
-        <div class="rider-rank">#18</div>
-        <img src="riders/photos/marianne-vos.jpg" alt="VOS Marianne" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VOS Marianne</h3>
-          <p class="rider-team">Team Visma | Lease a Bike</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">⚡</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/cat-ferguson.html" class="rider-card">
-        <div class="rider-rank">#19</div>
-        <img src="riders/photos/cat-ferguson.jpg" alt="FERGUSON Cat" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">FERGUSON Cat</h3>
-          <p class="rider-team">Movistar Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">⏱️</span></div>
-            <div class="program-status has-program">
-              📅 1
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/noemi-ruegg.html" class="rider-card">
-        <div class="rider-rank">#20</div>
-        <img src="riders/photos/noemi-ruegg.jpg" alt="RÜEGG Noemi" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇨🇭</div>
-          <h3 class="rider-name">RÜEGG Noemi</h3>
-          <p class="rider-team">EF Education-Oatly</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 7
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/cedrine-kerbaol.html" class="rider-card">
-        <div class="rider-rank">#21</div>
-        <img src="riders/photos/cedrine-kerbaol.jpg" alt="KERBAOL Cédrine" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇫🇷</div>
-          <h3 class="rider-name">KERBAOL Cédrine</h3>
-          <p class="rider-team">EF Education-Oatly</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/chiara-consonni.html" class="rider-card">
-        <div class="rider-rank">#22</div>
-        <img src="riders/photos/chiara-consonni.jpg" alt="CONSONNI Chiara" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">CONSONNI Chiara</h3>
-          <p class="rider-team">CANYON//SRAM zondacrypto</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/mavi-garcia.html" class="rider-card">
-        <div class="rider-rank">#23</div>
-        <img src="riders/photos/mavi-garcia.jpg" alt="GARCÍA Mavi" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">GARCÍA Mavi</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/monica-trinca-colonel.html" class="rider-card">
-        <div class="rider-rank">#24</div>
-        <img src="riders/photos/monica-trinca-colonel.jpg" alt="TRINCA COLONEL Monica" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">TRINCA COLONEL Monica</h3>
-          <p class="rider-team">Liv AlUla Jayco</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/katrine-aalerud.html" class="rider-card">
-        <div class="rider-rank">#25</div>
-        <img src="riders/photos/katrine-aalerud.jpg" alt="AALERUD Katrine" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇴</div>
-          <h3 class="rider-name">AALERUD Katrine</h3>
-          <p class="rider-team">Uno-X Mobility</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/linda-zanetti.html" class="rider-card">
-        <div class="rider-rank">#26</div>
-        <img src="riders/photos/linda-zanetti.jpg" alt="ZANETTI Linda" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇨🇭</div>
-          <h3 class="rider-name">ZANETTI Linda</h3>
-          <p class="rider-team">Uno-X Mobility</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 6
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/mie-bjorndal-ottestad.html" class="rider-card">
-        <div class="rider-rank">#27</div>
-        <img src="riders/photos/mie-bjorndal-ottestad.jpg" alt="OTTESTAD Mie Bjørndal" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇴</div>
-          <h3 class="rider-name">OTTESTAD Mie Bjørndal</h3>
-          <p class="rider-team">Uno-X Mobility</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/usoa-ostolaza.html" class="rider-card">
-        <div class="rider-rank">#28</div>
-        <img src="riders/photos/usoa-ostolaza.jpg" alt="OSTOLAZA Usoa" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">OSTOLAZA Usoa</h3>
-          <p class="rider-team">Laboral Kutxa - Fundación Euskadi</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/riejanne-markus.html" class="rider-card">
-        <div class="rider-rank">#29</div>
-        <img src="riders/photos/riejanne-markus.jpg" alt="MARKUS Riejanne" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">MARKUS Riejanne</h3>
-          <p class="rider-team">Lidl - Trek</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⏱️</span><span class="specialty-tag">⛰️</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/lotte-kopecky.html" class="rider-card">
-        <div class="rider-rank">#30</div>
-        <img src="riders/photos/lotte-kopecky.jpg" alt="KOPECKY Lotte" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇧🇪</div>
-          <h3 class="rider-name">KOPECKY Lotte</h3>
-          <p class="rider-team">Team SD Worx - Protime</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">⚡</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/lara-gillespie.html" class="rider-card">
-        <div class="rider-rank">#31</div>
-        <img src="riders/photos/lara-gillespie.jpg" alt="GILLESPIE Lara" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">GILLESPIE Lara</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/liane-lippert.html" class="rider-card">
-        <div class="rider-rank">#32</div>
-        <img src="riders/photos/liane-lippert.jpg" alt="LIPPERT Liane" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">LIPPERT Liane</h3>
-          <p class="rider-team">Movistar Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 1
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/dominika-wlodarczyk.html" class="rider-card">
-        <div class="rider-rank">#33</div>
-        <img src="riders/photos/dominika-wlodarczyk.jpg" alt="WŁODARCZYK Dominika" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇵🇹</div>
-          <h3 class="rider-name">WŁODARCZYK Dominika</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/anna-henderson.html" class="rider-card">
-        <div class="rider-rank">#34</div>
-        <img src="riders/photos/anna-henderson.jpg" alt="HENDERSON Anna" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">HENDERSON Anna</h3>
-          <p class="rider-team">Lidl - Trek</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⏱️</span><span class="specialty-tag">⛰️</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/urska-zigart.html" class="rider-card">
-        <div class="rider-rank">#35</div>
-        <img src="riders/photos/urska-zigart.jpg" alt="ŽIGART Urška" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇸🇮</div>
-          <h3 class="rider-name">ŽIGART Urška</h3>
-          <p class="rider-team">AG Insurance - Soudal Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/sarah-van-dam.html" class="rider-card">
-        <div class="rider-rank">#36</div>
-        <img src="riders/photos/sarah-van-dam.jpg" alt="VAN DAM Sarah" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VAN DAM Sarah</h3>
-          <p class="rider-team">Team Visma | Lease a Bike</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/antonia-niedermaier.html" class="rider-card">
-        <div class="rider-rank">#37</div>
-        <img src="riders/photos/antonia-niedermaier.jpg" alt="NIEDERMAIER Antonia" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">NIEDERMAIER Antonia</h3>
-          <p class="rider-team">CANYON//SRAM zondacrypto</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/paula-blasi.html" class="rider-card">
-        <div class="rider-rank">#38</div>
-        <img src="riders/photos/paula-blasi.jpg" alt="BLASI Paula" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">BLASI Paula</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 2
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/eleonora-camilla-gasparrini.html" class="rider-card">
-        <div class="rider-rank">#39</div>
-        <img src="riders/photos/eleonora-camilla-gasparrini.jpg" alt="GASPARRINI Eleonora Camilla" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">GASPARRINI Eleonora Camilla</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/barbara-malcotti.html" class="rider-card">
-        <div class="rider-rank">#40</div>
-        <img src="riders/photos/barbara-malcotti.jpg" alt="MALCOTTI Barbara" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">MALCOTTI Barbara</h3>
-          <p class="rider-team">Human Powered Health</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status has-program">
-              📅 1
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/caroline-andersson.html" class="rider-card">
-        <div class="rider-rank">#41</div>
-        <img src="riders/photos/caroline-andersson.jpg" alt="ANDERSSON Caroline" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🏳️</div>
-          <h3 class="rider-name">ANDERSSON Caroline</h3>
-          <p class="rider-team">Liv AlUla Jayco</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/amanda-spratt.html" class="rider-card">
-        <div class="rider-rank">#42</div>
-        <img src="riders/photos/amanda-spratt.jpg" alt="SPRATT Amanda" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇦🇺</div>
-          <h3 class="rider-name">SPRATT Amanda</h3>
-          <p class="rider-team">Lidl - Trek</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/silvia-persico.html" class="rider-card">
-        <div class="rider-rank">#43</div>
-        <img src="riders/photos/silvia-persico.jpg" alt="PERSICO Silvia" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇮🇹</div>
-          <h3 class="rider-name">PERSICO Silvia</h3>
-          <p class="rider-team">UAE Team ADQ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">🚴</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/susanne-andersen.html" class="rider-card">
-        <div class="rider-rank">#44</div>
-        <img src="riders/photos/susanne-andersen.jpg" alt="ANDERSEN Susanne" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇴</div>
-          <h3 class="rider-name">ANDERSEN Susanne</h3>
-          <p class="rider-team">Uno-X Mobility</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⚡</span><span class="specialty-tag">🏆</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/ellen-van-dijk.html" class="rider-card">
-        <div class="rider-rank">#45</div>
-        <img src="riders/photos/ellen-van-dijk.jpg" alt="VAN DIJK Ellen" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VAN DIJK Ellen</h3>
-          <p class="rider-team">Retired</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⏱️</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/magdeleine-vallieres.html" class="rider-card">
-        <div class="rider-rank">#46</div>
-        <img src="riders/photos/magdeleine-vallieres.jpg" alt="VALLIERES Magdeleine" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇨🇦</div>
-          <h3 class="rider-name">VALLIERES Magdeleine</h3>
-          <p class="rider-team">EF Education-Oatly</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status has-program">
-              📅 7
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/nienke-veenhoven.html" class="rider-card">
-        <div class="rider-rank">#47</div>
-        <img src="riders/photos/nienke-veenhoven.jpg" alt="VEENHOVEN Nienke" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">VEENHOVEN Nienke</h3>
-          <p class="rider-team">Team Visma | Lease a Bike</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/chloe-dygert.html" class="rider-card">
-        <div class="rider-rank">#48</div>
-        <img src="riders/photos/chloe-dygert.jpg" alt="DYGERT Chloé" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇺🇸</div>
-          <h3 class="rider-name">DYGERT Chloé</h3>
-          <p class="rider-team">CANYON//SRAM zondacrypto</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⏱️</span><span class="specialty-tag">🚴</span></div>
-            <div class="program-status has-program">
-              📅 4
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/evita-muzic.html" class="rider-card">
-        <div class="rider-rank">#49</div>
-        <img src="riders/photos/evita-muzic.jpg" alt="MUZIC Évita" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇫🇷</div>
-          <h3 class="rider-name">MUZIC Évita</h3>
-          <p class="rider-team">FDJ United - SUEZ</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">🎯</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
-      <a href="riders-women/eline-jansen.html" class="rider-card">
-        <div class="rider-rank">#50</div>
-        <img src="riders/photos/eline-jansen.jpg" alt="JANSEN Eline" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">🇳🇱</div>
-          <h3 class="rider-name">JANSEN Eline</h3>
-          <p class="rider-team">VolkerWessels Cycling Team</p>
-          <div class="rider-footer">
-            <div class="specialties"><span class="specialty-tag">⛰️</span><span class="specialty-tag">💪</span></div>
-            <div class="program-status ">
-              —
-            </div>
-          </div>
-        </div>
-      </a>
-    
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/lorena-wiebes.html">
+    <div class="rc-num">№ 02</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Wiebes" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #2</div>
+      <div class="rc-name">L. Wiebes</div>
+      <div class="rc-team mono">Team SD Worx - Protime</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
     </div>
+  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/marlen-reusser.html">
+    <div class="rc-num">№ 03</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Reusser" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #3</div>
+      <div class="rc-name">M. Reusser</div>
+      <div class="rc-team mono">Movistar Team</div>
+      <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
+      <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>2 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="classics climber time-trialist" href="riders-women/elisa-longo-borghini.html">
+    <div class="rc-num">№ 04</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="B. Longo" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #4</div>
+      <div class="rc-name">B. Longo</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLASSICS · CLIMBER · TIME TRIAL</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>2 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/elisa-balsamo.html">
+    <div class="rc-num">№ 05</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Balsamo" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #5</div>
+      <div class="rc-name">E. Balsamo</div>
+      <div class="rc-team mono">Lidl - Trek</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>3 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/elise-chabbey.html">
+    <div class="rc-num">№ 06</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Chabbey" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #6</div>
+      <div class="rc-name">E. Chabbey</div>
+      <div class="rc-team mono">FDJ United - SUEZ</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/juliette-berthet.html">
+    <div class="rc-num">№ 07</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="J. Berthet" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #7</div>
+      <div class="rc-name">J. Berthet</div>
+      <div class="rc-team mono">FDJ United - SUEZ</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/kimberley-le-court-pienaar.html">
+    <div class="rc-num">№ 08</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Le" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #8</div>
+      <div class="rc-name">C. Le</div>
+      <div class="rc-team mono">AG Insurance - Soudal Team</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🏳️ Mauritius</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/mischa-bredewold.html">
+    <div class="rc-num">№ 09</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Bredewold" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #9</div>
+      <div class="rc-name">M. Bredewold</div>
+      <div class="rc-team mono">Team SD Worx - Protime</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender classics" href="riders-women/anna-van-der-breggen.html">
+    <div class="rc-num">№ 10</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #10</div>
+      <div class="rc-name">D. Van</div>
+      <div class="rc-team mono">Team SD Worx - Protime</div>
+      <div class="rc-tags mono">CLIMBER · GC · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/niamh-fisher-black.html">
+    <div class="rc-num">№ 11</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Fisher-black" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #11</div>
+      <div class="rc-name">N. Fisher-black</div>
+      <div class="rc-team mono">Lidl - Trek</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇳🇿 New Zealand</span><span>1 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/karlijn-swinkels.html">
+    <div class="rc-num">№ 12</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Swinkels" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #12</div>
+      <div class="rc-name">K. Swinkels</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="all-rounder cyclocross mtb" href="riders-women/pauline-ferrand-prevot.html">
+    <div class="rc-num">№ 13</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Ferrand-prévot" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #13</div>
+      <div class="rc-name">P. Ferrand-prévot</div>
+      <div class="rc-team mono">Team Visma | Lease a Bike</div>
+      <div class="rc-tags mono">ALL-ROUNDER · CYCLOCROSS · MTB</div>
+      <div class="rc-foot mono"><span>🇫🇷 France</span><span>3 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/kasia-niewiadoma.html">
+    <div class="rc-num">№ 14</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Niewiadoma" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #14</div>
+      <div class="rc-name">K. Niewiadoma</div>
+      <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇵🇹 Poland</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="cyclocross classics" href="riders-women/yara-kastelijn.html">
+    <div class="rc-num">№ 15</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="Y. Kastelijn" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #15</div>
+      <div class="rc-name">Y. Kastelijn</div>
+      <div class="rc-team mono">Fenix-Premier Tech</div>
+      <div class="rc-tags mono">CYCLOCROSS · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="all-rounder climber" href="riders-women/ally-wollaston.html">
+    <div class="rc-num">№ 16</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Wollaston" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #16</div>
+      <div class="rc-name">A. Wollaston</div>
+      <div class="rc-team mono">FDJ United - SUEZ</div>
+      <div class="rc-tags mono">ALL-ROUNDER · CLIMBER</div>
+      <div class="rc-foot mono"><span>🇳🇿 New Zealand</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="cyclocross all-rounder classics" href="riders-women/puck-pieterse.html">
+    <div class="rc-num">№ 17</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Pieterse" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #17</div>
+      <div class="rc-name">P. Pieterse</div>
+      <div class="rc-team mono">Fenix-Premier Tech</div>
+      <div class="rc-tags mono">CYCLOCROSS · ALL-ROUNDER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="all-rounder sprinter classics" href="riders-women/marianne-vos.html">
+    <div class="rc-num">№ 18</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Vos" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #18</div>
+      <div class="rc-name">M. Vos</div>
+      <div class="rc-team mono">Team Visma | Lease a Bike</div>
+      <div class="rc-tags mono">ALL-ROUNDER · SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber time-trialist" href="riders-women/cat-ferguson.html">
+    <div class="rc-num">№ 19</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Ferguson" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #19</div>
+      <div class="rc-name">C. Ferguson</div>
+      <div class="rc-team mono">Movistar Team</div>
+      <div class="rc-tags mono">CLIMBER · TIME TRIAL</div>
+      <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>1 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/noemi-ruegg.html">
+    <div class="rc-num">№ 20</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Rüegg" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #20</div>
+      <div class="rc-name">N. Rüegg</div>
+      <div class="rc-team mono">EF Education-Oatly</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>7 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/cedrine-kerbaol.html">
+    <div class="rc-num">№ 21</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Kerbaol" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #21</div>
+      <div class="rc-name">C. Kerbaol</div>
+      <div class="rc-team mono">EF Education-Oatly</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/chiara-consonni.html">
+    <div class="rc-num">№ 22</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Consonni" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #22</div>
+      <div class="rc-name">C. Consonni</div>
+      <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/mavi-garcia.html">
+    <div class="rc-num">№ 23</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. García" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #23</div>
+      <div class="rc-name">M. García</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🏳️ Spain</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/monica-trinca-colonel.html">
+    <div class="rc-num">№ 24</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Trinca" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #24</div>
+      <div class="rc-name">C. Trinca</div>
+      <div class="rc-team mono">Liv AlUla Jayco</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/katrine-aalerud.html">
+    <div class="rc-num">№ 25</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Aalerud" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #25</div>
+      <div class="rc-name">K. Aalerud</div>
+      <div class="rc-team mono">Uno-X Mobility</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/linda-zanetti.html">
+    <div class="rc-num">№ 26</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Zanetti" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #26</div>
+      <div class="rc-name">L. Zanetti</div>
+      <div class="rc-team mono">Uno-X Mobility</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>6 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/mie-bjorndal-ottestad.html">
+    <div class="rc-num">№ 27</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Ottestad" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #27</div>
+      <div class="rc-name">M. Ottestad</div>
+      <div class="rc-team mono">Uno-X Mobility</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/usoa-ostolaza.html">
+    <div class="rc-num">№ 28</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="U. Ostolaza" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #28</div>
+      <div class="rc-name">U. Ostolaza</div>
+      <div class="rc-team mono">Laboral Kutxa - Fundación Euskadi</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🏳️ Spain</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/riejanne-markus.html">
+    <div class="rc-num">№ 29</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="R. Markus" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #29</div>
+      <div class="rc-name">R. Markus</div>
+      <div class="rc-team mono">Lidl - Trek</div>
+      <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="classics sprinter all-rounder" href="riders-women/lotte-kopecky.html">
+    <div class="rc-num">№ 30</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Kopecky" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #30</div>
+      <div class="rc-name">L. Kopecky</div>
+      <div class="rc-team mono">Team SD Worx - Protime</div>
+      <div class="rc-tags mono">CLASSICS · SPRINTER · ALL-ROUNDER</div>
+      <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/lara-gillespie.html">
+    <div class="rc-num">№ 31</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Gillespie" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #31</div>
+      <div class="rc-name">L. Gillespie</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🏳️ Ireland</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="classics puncheur" href="riders-women/liane-lippert.html">
+    <div class="rc-num">№ 32</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Lippert" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #32</div>
+      <div class="rc-name">L. Lippert</div>
+      <div class="rc-team mono">Movistar Team</div>
+      <div class="rc-tags mono">CLASSICS · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🏳️ Germany</span><span>1 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/dominika-wlodarczyk.html">
+    <div class="rc-num">№ 33</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Włodarczyk" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #33</div>
+      <div class="rc-name">D. Włodarczyk</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇵🇹 Poland</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/anna-henderson.html">
+    <div class="rc-num">№ 34</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Henderson" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #34</div>
+      <div class="rc-name">A. Henderson</div>
+      <div class="rc-team mono">Lidl - Trek</div>
+      <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
+      <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/urska-zigart.html">
+    <div class="rc-num">№ 35</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="U. Žigart" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #35</div>
+      <div class="rc-name">U. Žigart</div>
+      <div class="rc-team mono">AG Insurance - Soudal Team</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇸🇮 Slovenia</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/sarah-van-dam.html">
+    <div class="rc-num">№ 36</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #36</div>
+      <div class="rc-name">D. Van</div>
+      <div class="rc-team mono">Team Visma | Lease a Bike</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/antonia-niedermaier.html">
+    <div class="rc-num">№ 37</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Niedermaier" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #37</div>
+      <div class="rc-name">A. Niedermaier</div>
+      <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🏳️ Germany</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/paula-blasi.html">
+    <div class="rc-num">№ 38</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Blasi" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #38</div>
+      <div class="rc-name">P. Blasi</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🏳️ Spain</span><span>2 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/eleonora-camilla-gasparrini.html">
+    <div class="rc-num">№ 39</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Gasparrini" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #39</div>
+      <div class="rc-name">E. Gasparrini</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/barbara-malcotti.html">
+    <div class="rc-num">№ 40</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="B. Malcotti" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #40</div>
+      <div class="rc-name">B. Malcotti</div>
+      <div class="rc-team mono">Human Powered Health</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>1 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/caroline-andersson.html">
+    <div class="rc-num">№ 41</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Andersson" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #41</div>
+      <div class="rc-name">C. Andersson</div>
+      <div class="rc-team mono">Liv AlUla Jayco</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🏳️ Sweden</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/amanda-spratt.html">
+    <div class="rc-num">№ 42</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Spratt" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #42</div>
+      <div class="rc-name">A. Spratt</div>
+      <div class="rc-team mono">Lidl - Trek</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇦🇺 Australia</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="all-rounder cyclocross" href="riders-women/silvia-persico.html">
+    <div class="rc-num">№ 43</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="S. Persico" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #43</div>
+      <div class="rc-name">S. Persico</div>
+      <div class="rc-team mono">UAE Team ADQ</div>
+      <div class="rc-tags mono">ALL-ROUNDER · CYCLOCROSS</div>
+      <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/susanne-andersen.html">
+    <div class="rc-num">№ 44</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="S. Andersen" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #44</div>
+      <div class="rc-name">S. Andersen</div>
+      <div class="rc-team mono">Uno-X Mobility</div>
+      <div class="rc-tags mono">SPRINTER · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="time-trialist classics" href="riders-women/ellen-van-dijk.html">
+    <div class="rc-num">№ 45</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #45</div>
+      <div class="rc-name">D. Van</div>
+      <div class="rc-team mono">Retired</div>
+      <div class="rc-tags mono">TIME TRIAL · CLASSICS</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/magdeleine-vallieres.html">
+    <div class="rc-num">№ 46</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Vallieres" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #46</div>
+      <div class="rc-name">M. Vallieres</div>
+      <div class="rc-team mono">EF Education-Oatly</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇨🇦 Canada</span><span>7 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/nienke-veenhoven.html">
+    <div class="rc-num">№ 47</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Veenhoven" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #47</div>
+      <div class="rc-name">N. Veenhoven</div>
+      <div class="rc-team mono">Team Visma | Lease a Bike</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="time-trialist track" href="riders-women/chloe-dygert.html">
+    <div class="rc-num">№ 48</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Dygert" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #48</div>
+      <div class="rc-name">C. Dygert</div>
+      <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
+      <div class="rc-tags mono">TIME TRIAL · TRACK</div>
+      <div class="rc-foot mono"><span>🇺🇸 United States</span><span>4 races</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/evita-muzic.html">
+    <div class="rc-num">№ 49</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="É. Muzic" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #49</div>
+      <div class="rc-name">É. Muzic</div>
+      <div class="rc-team mono">FDJ United - SUEZ</div>
+      <div class="rc-tags mono">CLIMBER · GC</div>
+      <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+    </div>
+  </a><a class="rc" data-sp="climber puncheur" href="riders-women/eline-jansen.html">
+    <div class="rc-num">№ 50</div>
+    <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Jansen" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #50</div>
+      <div class="rc-name">E. Jansen</div>
+      <div class="rc-team mono">VolkerWessels Cycling Team</div>
+      <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
+      <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+    </div>
+  </a></section>
 
-    <footer class="footer">
-      <p>No Spoiler Cycling | Data from ProCyclingStats</p>
-      <p><a href="index.html">Calendar</a> · <a href="about.html">About</a></p>
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ 03 — Women's Riders</span>
+        <span>Built 2026-04-20</span>
+      </div>
     </footer>
-  </div>
+  </main>
+
+  <script>
+  (function(){
+    const chips = document.querySelectorAll('.chip[data-f="sp"]');
+    const grid = document.getElementById('grid');
+    const shown = document.getElementById('shown');
+    chips.forEach(btn => btn.addEventListener('click', () => {
+      const v = btn.dataset.v;
+      chips.forEach(b => b.classList.toggle('on', b === btn));
+      let n = 0;
+      grid.querySelectorAll('.rc').forEach(card => {
+        const sp = (card.dataset.sp || '').split(' ');
+        const match = v === 'all' || sp.includes(v);
+        card.classList.toggle('hidden', !match);
+        if (match) n++;
+      });
+      shown.textContent = n;
+    }));
+  })();
+  </script>
 </body>
 </html>

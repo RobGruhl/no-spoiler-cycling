@@ -1,754 +1,352 @@
 #!/usr/bin/env node
 
-/**
- * Generate Rider Details Page
- *
- * Creates HTML pages for individual riders showing:
- * - Rider photo, name, team, nationality, ranking
- * - Specialty badges (climber, sprinter, etc.)
- * - 2026 Race Program with links to race detail pages
- * - "Not yet announced" state for riders without program
- *
- * Spoiler-safe: Only shows announced future races, no results
- */
+// v2 design — UCI Roadbook rider detail sheet
+// Outputs riders/<slug>.html (men) or riders-women/<slug>.html (women) with
+// a mini-calendar of the rider's announced 2026 race program.
 
 import fs from 'fs';
 import path from 'path';
 
-// ============================================
-// ICON MAPPINGS
-// ============================================
+const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const WEEKDAY_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 
-const specialtyConfig = {
-  'climber': { icon: '⛰️', label: 'Climber', color: '#dc2626' },
-  'sprinter': { icon: '⚡', label: 'Sprinter', color: '#16a34a' },
-  'puncheur': { icon: '💪', label: 'Puncheur', color: '#ea580c' },
-  'gc-contender': { icon: '🎯', label: 'GC Contender', color: '#7c3aed' },
-  'time-trialist': { icon: '⏱️', label: 'Time Trialist', color: '#0891b2' },
-  'one-day': { icon: '🏆', label: 'Classics', color: '#ca8a04' },
-  'rouleur': { icon: '🚴', label: 'Rouleur', color: '#64748b' }
+const SPECIALTY_LABELS = {
+  'climber': 'Climber',
+  'sprinter': 'Sprinter',
+  'puncheur': 'Puncheur',
+  'gc-contender': 'GC Contender',
+  'time-trialist': 'Time Trialist',
+  'one-day': 'Classics',
+  'rouleur': 'Rouleur',
 };
 
-const nationalityFlags = {
-  'SL': '🇸🇮', 'SI': '🇸🇮',  // Slovenia
-  'DE': '🇩🇪',  // Germany
-  'DK': '🇩🇰',  // Denmark
-  'BE': '🇧🇪',  // Belgium
-  'NL': '🇳🇱',  // Netherlands
-  'FR': '🇫🇷',  // France
-  'IT': '🇮🇹',  // Italy
-  'ES': '🇪🇸',  // Spain
-  'GB': '🇬🇧', 'UK': '🇬🇧',  // Great Britain
-  'US': '🇺🇸',  // United States
-  'AU': '🇦🇺',  // Australia
-  'CO': '🇨🇴',  // Colombia
-  'PO': '🇵🇹', 'PT': '🇵🇹',  // Portugal
-  'ME': '🇲🇽', 'MX': '🇲🇽',  // Mexico
-  'AT': '🇦🇹',  // Austria
-  'NO': '🇳🇴',  // Norway
-  'PL': '🇵🇱',  // Poland
-  'CH': '🇨🇭',  // Switzerland
-  'IE': '🇮🇪',  // Ireland
-  'CA': '🇨🇦',  // Canada
-  'NZ': '🇳🇿',  // New Zealand
-  'XX': '🏳️'   // Unknown
+const NATIONALITY_FLAGS = {
+  SL: '🇸🇮', SI: '🇸🇮', DE: '🇩🇪', DK: '🇩🇰', BE: '🇧🇪', NL: '🇳🇱', NE: '🇳🇱',
+  FR: '🇫🇷', IT: '🇮🇹', ES: '🇪🇸', GB: '🇬🇧', UK: '🇬🇧', US: '🇺🇸', AU: '🇦🇺',
+  CO: '🇨🇴', PT: '🇵🇹', PO: '🇵🇹', MX: '🇲🇽', ME: '🇲🇽', AT: '🇦🇹', NO: '🇳🇴',
+  PL: '🇵🇱', CH: '🇨🇭', SW: '🇨🇭', IE: '🇮🇪', CA: '🇨🇦', NZ: '🇳🇿', CZ: '🇨🇿',
+  XX: '🏳️',
 };
 
-// Gender-specific configuration
-const genderConfig = {
+const GENDER_CFG = {
   men: {
-    ridersDataPath: './data/riders.json',
+    ridersData: './data/riders.json',
     outputDir: './riders',
-    backLink: '../riders.html',
-    backLabel: 'Back to Riders',
-    photoPrefix: '../'  // Photos are in riders/photos/, from ./riders/ it's ../riders/photos/ but template uses riders/photos/
+    indexPath: '../riders.html',
+    indexLabel: "Men's Riders",
+    navOn: 'men',
+    docCode: 'NSC/MEN',
+    sectionLabel: '§ 02 — Rider Sheet',
   },
   women: {
-    ridersDataPath: './data/riders-women.json',
+    ridersData: './data/riders-women.json',
     outputDir: './riders-women',
-    backLink: '../riders-women.html',
-    backLabel: 'Back to Riders',
-    photoPrefix: '../'  // Photos are in riders/photos/, from ./riders-women/ it's ../riders/photos/
-  }
+    indexPath: '../riders-women.html',
+    indexLabel: "Women's Riders",
+    navOn: 'women',
+    docCode: 'NSC/WOM',
+    sectionLabel: '§ 03 — Rider Sheet',
+  },
 };
 
-// ============================================
-// HTML GENERATION
-// ============================================
-
-function generateRiderDetailsHTML(rider, raceData = null, options = {}) {
-  const {
-    backLink = '../riders.html',
-    backLabel = 'Back to Riders',
-    gender = 'men'
-  } = options;
-
-  const flag = nationalityFlags[rider.nationalityCode] || nationalityFlags['XX'];
-  const hasProgram = rider.raceProgram?.status === 'announced' && rider.raceProgram?.races?.length > 0;
-
-  // Format date for display
-  const formatDate = (dateStr) => {
-    if (!dateStr) return '';
-    const date = new Date(dateStr);
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    return `${months[date.getMonth()]} ${date.getDate()}`;
-  };
-
-  // Format age from DOB
-  const calculateAge = (dob) => {
-    if (!dob) return null;
-    const today = new Date();
-    const birthDate = new Date(dob);
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
-  };
-
-  const age = calculateAge(rider.dateOfBirth);
-
-  // Generate specialty badges
-  const generateSpecialtiesHTML = () => {
-    if (!rider.specialties || rider.specialties.length === 0) return '';
-
-    return rider.specialties.map(spec => {
-      const config = specialtyConfig[spec] || { icon: '🚴', label: spec, color: '#6b7280' };
-      return `<span class="specialty-badge" style="--badge-color: ${config.color}">${config.icon} ${config.label}</span>`;
-    }).join('');
-  };
-
-  // Build race map for linking
-  const raceMap = new Map();
-  if (raceData?.races) {
-    for (const race of raceData.races) {
-      // Map by slug variations
-      const slug = race.id.replace(/-2026$/, '').toLowerCase();
-      raceMap.set(slug, race);
-
-      // Also try the race name simplified
-      const simpleName = race.name.toLowerCase()
-        .replace(/\s*2026\s*/g, '')
-        .replace(/[^a-z0-9]/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-|-$/g, '');
-      raceMap.set(simpleName, race);
-    }
-  }
-
-  // Generate race program HTML
-  const generateProgramHTML = () => {
-    if (!hasProgram) {
-      return `
-        <section class="program-section empty-program">
-          <h2 class="section-title">📅 2026 Race Program</h2>
-          <div class="empty-state">
-            <span class="empty-icon">🤷</span>
-            <p class="empty-text">Race program not yet announced</p>
-            <p class="empty-subtext">Check back later for updates</p>
-          </div>
-        </section>
-      `;
-    }
-
-    const racesHTML = rider.raceProgram.races.map(race => {
-      // Try to find matching race in race-data.json
-      const matchedRace = raceMap.get(race.raceSlug);
-      const hasDetailPage = matchedRace && (matchedRace.raceDetails || matchedRace.stages);
-      const detailLink = hasDetailPage ? `../race-details/${matchedRace.id}.html` : null;
-
-      const raceClass = race.raceClass || '';
-      const isGrandTour = ['Tour de France', 'Giro d\'Italia', 'La Vuelta Ciclista a España'].some(gt => race.raceName.includes(gt));
-      const isMonument = ['Milano-Sanremo', 'Ronde van Vlaanderen', 'Paris-Roubaix', 'Liège-Bastogne-Liège', 'Il Lombardia'].some(m => race.raceName.includes(m));
-
-      let raceTypeClass = '';
-      if (isGrandTour) raceTypeClass = 'grand-tour';
-      else if (isMonument) raceTypeClass = 'monument';
-      else if (raceClass.includes('1.UWT')) raceTypeClass = 'world-tour';
-
-      const raceContent = `
-        <div class="race-date">${formatDate(race.raceDate)}</div>
-        <div class="race-info">
-          <span class="race-name">${race.raceName}</span>
-          ${raceClass ? `<span class="race-class">${raceClass}</span>` : ''}
-        </div>
-        ${isGrandTour ? '<span class="race-badge gt">Grand Tour</span>' : ''}
-        ${isMonument ? '<span class="race-badge monument">Monument</span>' : ''}
-      `;
-
-      if (detailLink) {
-        return `<a href="${detailLink}" class="race-item ${raceTypeClass}">${raceContent}</a>`;
-      }
-      return `<div class="race-item ${raceTypeClass}">${raceContent}</div>`;
-    }).join('');
-
-    return `
-      <section class="program-section">
-        <h2 class="section-title">📅 2026 Race Program</h2>
-        <div class="race-program">
-          ${racesHTML}
-        </div>
-        <p class="program-meta">${rider.raceProgram.races.length} races announced</p>
-      </section>
-    `;
-  };
-
-  // Photo URL handling
-  const photoSrc = rider.photoUrl?.startsWith('riders/')
-    ? `../${rider.photoUrl}`
-    : rider.photoUrl || '../riders/photos/placeholder.jpg';
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="${rider.name} - 2026 race program and profile">
-  <title>${rider.name} | No Spoiler Cycling</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-      min-height: 100vh;
-      padding: 20px;
-      color: #1f2937;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    /* Back Button */
-    .back-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-bottom: 20px;
-      transition: background 0.2s;
-    }
-
-    .back-button:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Rider Header Card */
-    .rider-header {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 20px;
-      padding: 30px;
-      margin-bottom: 24px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-      display: flex;
-      gap: 24px;
-      align-items: flex-start;
-    }
-
-    .rider-photo {
-      width: 120px;
-      height: 150px;
-      border-radius: 12px;
-      object-fit: cover;
-      background: #e5e7eb;
-      flex-shrink: 0;
-    }
-
-    .rider-info {
-      flex: 1;
-    }
-
-    .rider-rank {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      color: white;
-      font-weight: 700;
-      font-size: 1rem;
-      border-radius: 50%;
-      margin-bottom: 8px;
-    }
-
-    .rider-name {
-      font-size: 2rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, #1e3a5f, #3b82f6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1.2;
-      margin-bottom: 8px;
-    }
-
-    .rider-team {
-      font-size: 1.1rem;
-      color: #4b5563;
-      margin-bottom: 8px;
-    }
-
-    .rider-meta {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      color: #6b7280;
-      font-size: 0.9rem;
-      margin-bottom: 16px;
-    }
-
-    .rider-meta-item {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .rider-flag {
-      font-size: 1.5rem;
-    }
-
-    .specialties {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .specialty-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 6px 12px;
-      background: color-mix(in srgb, var(--badge-color) 15%, white);
-      border: 1px solid color-mix(in srgb, var(--badge-color) 30%, white);
-      color: var(--badge-color);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-
-    /* Program Section */
-    .program-section {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .section-title {
-      font-size: 1.25rem;
-      color: #1e3a5f;
-      margin-bottom: 16px;
-    }
-
-    .race-program {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .race-item {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 14px 16px;
-      background: #f9fafb;
-      border-radius: 10px;
-      border-left: 4px solid #e5e7eb;
-      transition: all 0.2s;
-      text-decoration: none;
-      color: inherit;
-    }
-
-    a.race-item:hover {
-      background: #f3f4f6;
-      transform: translateX(4px);
-    }
-
-    .race-item.grand-tour {
-      border-left-color: #7c3aed;
-      background: linear-gradient(90deg, rgba(124, 58, 237, 0.08), transparent);
-    }
-
-    .race-item.monument {
-      border-left-color: #dc2626;
-      background: linear-gradient(90deg, rgba(220, 38, 38, 0.08), transparent);
-    }
-
-    .race-item.world-tour {
-      border-left-color: #0891b2;
-    }
-
-    .race-date {
-      min-width: 60px;
-      font-weight: 600;
-      color: #6b7280;
-      font-size: 0.9rem;
-    }
-
-    .race-info {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .race-name {
-      font-weight: 600;
-      color: #1f2937;
-    }
-
-    .race-class {
-      font-size: 0.75rem;
-      color: #9ca3af;
-    }
-
-    .race-badge {
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-
-    .race-badge.gt {
-      background: #ede9fe;
-      color: #7c3aed;
-    }
-
-    .race-badge.monument {
-      background: #fee2e2;
-      color: #dc2626;
-    }
-
-    .program-meta {
-      margin-top: 16px;
-      text-align: center;
-      color: #9ca3af;
-      font-size: 0.85rem;
-    }
-
-    /* Empty State */
-    .empty-program .empty-state {
-      text-align: center;
-      padding: 32px;
-    }
-
-    .empty-icon {
-      font-size: 3rem;
-      display: block;
-      margin-bottom: 12px;
-    }
-
-    .empty-text {
-      font-size: 1.1rem;
-      color: #6b7280;
-      margin-bottom: 4px;
-    }
-
-    .empty-subtext {
-      font-size: 0.9rem;
-      color: #9ca3af;
-    }
-
-    /* Stats Section */
-    .stats-section {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-      gap: 16px;
-    }
-
-    .stat-item {
-      text-align: center;
-      padding: 12px;
-      background: #f9fafb;
-      border-radius: 10px;
-    }
-
-    .stat-value {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #1e3a5f;
-    }
-
-    .stat-label {
-      font-size: 0.8rem;
-      color: #6b7280;
-      text-transform: uppercase;
-    }
-
-    /* External Link */
-    .external-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 20px;
-      background: #f9fafb;
-      color: #4b5563;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      transition: all 0.2s;
-      margin-top: 16px;
-    }
-
-    .external-link:hover {
-      background: #f3f4f6;
-      color: #1e3a5f;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      color: rgba(255,255,255,0.6);
-      padding: 30px 0;
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: rgba(255,255,255,0.8);
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Responsive */
-    @media (max-width: 640px) {
-      .rider-header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .rider-name {
-        font-size: 1.5rem;
-      }
-
-      .rider-meta {
-        justify-content: center;
-      }
-
-      .specialties {
-        justify-content: center;
-      }
-
-      .race-item {
-        flex-wrap: wrap;
-      }
-
-      .race-badge {
-        margin-left: auto;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <a href="${backLink}" class="back-button">← ${backLabel}</a>
-
-    <div class="rider-header">
-      <img src="${photoSrc}" alt="${rider.name}" class="rider-photo" onerror="this.style.display='none'">
-      <div class="rider-info">
-        ${rider.ranking ? `<div class="rider-rank">#${rider.ranking}</div>` : ''}
-        <h1 class="rider-name">${rider.name}</h1>
-        <p class="rider-team">${rider.team}</p>
-        <div class="rider-meta">
-          <span class="rider-meta-item">
-            <span class="rider-flag">${flag}</span>
-            ${rider.nationality}
-          </span>
-          ${age ? `<span class="rider-meta-item">🎂 ${age} years</span>` : ''}
-          ${rider.points ? `<span class="rider-meta-item">📊 ${rider.points.toLocaleString()} pts</span>` : ''}
-        </div>
-        <div class="specialties">
-          ${generateSpecialtiesHTML()}
-        </div>
-      </div>
-    </div>
-
-    ${generateProgramHTML()}
-
-    ${(rider.weight || rider.height) ? `
-    <div class="stats-section">
-      <h2 class="section-title">📊 Physical Stats</h2>
-      <div class="stats-grid">
-        ${rider.weight ? `
-          <div class="stat-item">
-            <div class="stat-value">${rider.weight}</div>
-            <div class="stat-label">kg</div>
-          </div>
-        ` : ''}
-        ${rider.height ? `
-          <div class="stat-item">
-            <div class="stat-value">${rider.height}</div>
-            <div class="stat-label">m</div>
-          </div>
-        ` : ''}
-        ${rider.weight && rider.height ? `
-          <div class="stat-item">
-            <div class="stat-value">${(rider.weight / (rider.height * rider.height)).toFixed(1)}</div>
-            <div class="stat-label">BMI</div>
-          </div>
-        ` : ''}
-      </div>
-      ${rider.pcsUrl ? `
-        <a href="${rider.pcsUrl}" target="_blank" rel="noopener" class="external-link">
-          View full profile on ProCyclingStats →
-        </a>
-      ` : ''}
-    </div>
-    ` : ''}
-
-    <footer class="footer">
-      <p>No Spoiler Cycling | Rider profiles are spoiler-safe</p>
-      ${rider.raceProgram?.lastFetched ? `<p>Program last updated: ${new Date(rider.raceProgram.lastFetched).toLocaleDateString()}</p>` : ''}
-      <p><a href="../index.html">Calendar</a> · <a href="${backLink}">Riders</a> · <a href="../about.html">About</a></p>
-    </footer>
-  </div>
-</body>
-</html>`;
+function htmlEscape(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 }
 
-// ============================================
-// FILE GENERATION
-// ============================================
+function parseUTC(ymd) {
+  if (!ymd) return null;
+  const [y, m, d] = ymd.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d));
+}
 
-function generateRiderDetailsPage(rider, raceData, options = {}) {
-  const { outputDir = './riders', gender = 'men' } = options;
-  const config = genderConfig[gender] || genderConfig.men;
+function fmtShortDate(ymd) {
+  const d = parseUTC(ymd);
+  if (!d) return '';
+  return `${WEEKDAY_SHORT[d.getUTCDay()]}, ${MONTH_SHORT[d.getUTCMonth()]} ${d.getUTCDate()}`;
+}
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+function formatSurnameFirst(name) {
+  const parts = (name || '').trim().split(/\s+/);
+  if (parts.length < 2) return name || '';
+  const surname = parts[0];
+  const given = parts.slice(1).join(' ');
+  const titleCase = surname.charAt(0) + surname.slice(1).toLowerCase();
+  return `${given} ${titleCase}`;
+}
+
+function computeAge(dob) {
+  const d = parseUTC(dob);
+  if (!d) return null;
+  const now = new Date();
+  let age = now.getUTCFullYear() - d.getUTCFullYear();
+  const mDiff = now.getUTCMonth() - d.getUTCMonth();
+  if (mDiff < 0 || (mDiff === 0 && now.getUTCDate() < d.getUTCDate())) age--;
+  return age;
+}
+
+function renderRaceProgram(rider, raceData) {
+  const program = rider.raceProgram;
+  if (!program || program.status !== 'announced' || !program.races?.length) {
+    return `<p class="prose">Program not yet announced. Check back as 2026 progresses.</p>`;
   }
 
-  const filename = `${rider.slug}.html`;
-  const filepath = path.join(outputDir, filename);
+  // Group by month, match to race-data.json entries for canonical slugs
+  const raceIndex = new Map();
+  if (raceData?.races) {
+    raceData.races.forEach(r => raceIndex.set(r.id, r));
+  }
 
-  const html = generateRiderDetailsHTML(rider, raceData, {
-    backLink: config.backLink,
-    backLabel: config.backLabel,
-    gender
+  const byMonth = {};
+  program.races.forEach(pr => {
+    const month = pr.raceDate ? parseUTC(pr.raceDate)?.getUTCMonth() ?? -1 : -1;
+    if (month < 0) return;
+    if (!byMonth[month]) byMonth[month] = [];
+    byMonth[month].push(pr);
   });
-  fs.writeFileSync(filepath, html);
 
-  console.log(`✅ Generated: ${filepath}`);
+  return Object.keys(byMonth).sort((a, b) => a - b).map(m => {
+    const rows = byMonth[m].sort((a, b) => (a.raceDate || '').localeCompare(b.raceDate || '')).map(pr => {
+      // Attempt to resolve to an existing race-details page by matching raceSlug + year
+      const candidates = [pr.raceSlug, `${pr.raceSlug}-2026`, `${pr.raceSlug}-${(pr.raceDate || '').slice(0, 4)}`].filter(Boolean);
+      const match = candidates.find(c => raceIndex.has(c));
+      const href = match ? `../race-details/${match}.html` : null;
+      const cell = `<div class="c first mono">${htmlEscape(fmtShortDate(pr.raceDate))}</div>
+        <div class="c"><span class="name">${htmlEscape(pr.raceName || pr.raceSlug)}</span></div>
+        <div class="c mono cat">${htmlEscape(pr.raceClass || '')}</div>`;
+      return href
+        ? `<a class="prow" href="${href}">${cell}</a>`
+        : `<div class="prow">${cell}</div>`;
+    }).join('');
+    return `<div class="pm">
+      <div class="pm-head">
+        <div class="pm-num mono">${String(Number(m) + 1).padStart(2, '0')}</div>
+        <div class="pm-name">${MONTH_NAMES[Number(m)]}</div>
+        <div class="pm-count mono">${byMonth[m].length} race${byMonth[m].length !== 1 ? 's' : ''}</div>
+      </div>
+      <div class="pm-list">${rows}</div>
+    </div>`;
+  }).join('');
+}
+
+function generateRiderDetailsHTML(rider, raceData, cfg) {
+  const built = new Date().toISOString().slice(0, 10);
+  const flag = NATIONALITY_FLAGS[rider.nationalityCode] || NATIONALITY_FLAGS.XX;
+  const photo = rider.photoUrl && rider.photoUrl.startsWith('riders')
+    ? `../${rider.photoUrl}`
+    : null;
+  const specialties = (rider.specialties || []).map(s => SPECIALTY_LABELS[s] || s);
+  const age = computeAge(rider.dateOfBirth);
+  const display = formatSurnameFirst(rider.name);
+  const nameParts = display.split(' ');
+  const given = nameParts[0];
+  const surname = nameParts.slice(1).join(' ');
+
+  const programHtml = renderRaceProgram(rider, raceData);
+  const programCount = rider.raceProgram?.status === 'announced' ? (rider.raceProgram?.races?.length || 0) : 0;
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>${htmlEscape(display)} — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+
+.hero{display:grid;grid-template-columns:240px 1.3fr 1fr;gap:40px;padding:40px 0 32px;border-bottom:3px solid var(--ink)}
+.hero .photo{aspect-ratio:1/1;background:var(--paper-2);border:1px solid var(--rule);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hero .photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.12) contrast(1.03)}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(48px,5.5vw,84px);line-height:.9;letter-spacing:-.04em;margin:0}
+.hero h1 .em{font-weight:500;font-style:italic;color:var(--signal);display:block}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:14px;line-height:1.5}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:28px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.stat .v.sm{font-size:16px}
+.stat .v.mono{font-family:var(--font-mono);font-weight:600;letter-spacing:-.01em}
+
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 10px}
+.section .eyebrow{margin-bottom:4px;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+
+.chips-inline{display:flex;gap:6px;flex-wrap:wrap}
+.sp{display:inline-flex;align-items:center;height:22px;padding:0 10px;border:1px solid var(--ink);font-family:var(--font-mono);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;line-height:1}
+
+.program{margin-top:14px}
+.pm{margin-top:24px}
+.pm-head{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:baseline;padding:16px 0 8px;border-top:3px solid var(--ink)}
+.pm-head .pm-num{font-family:var(--font-sans);font-weight:800;font-size:48px;line-height:.9;letter-spacing:-.04em}
+.pm-head .pm-name{font-family:var(--font-sans);font-weight:600;font-size:22px;letter-spacing:-.02em}
+.pm-head .pm-count{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);text-align:right}
+.pm-list{border-top:1px solid var(--rule)}
+.prow{display:grid;grid-template-columns:140px 1fr 100px;gap:0;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.prow:hover{background:var(--paper-2)}
+.prow .c{padding:0 10px;min-width:0}
+.prow .c.first{padding-left:0}
+.prow .c .name{font-family:var(--font-sans);font-weight:600;font-size:15px;letter-spacing:-.005em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow .c .cat{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;text-align:right;display:block}
+.prow .c.mono{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+
+.prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+
+.bio{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule);margin-top:14px}
+.bio .s{padding:18px;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.bio .s:last-child{border-right:0}
+.bio .s .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.bio .s .v{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.02em;margin-top:4px;line-height:1}
+.bio .s .v.mono{font-family:var(--font-mono);font-weight:600}
+
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .bio{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Rider Sheet · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>${htmlEscape(cfg.docCode)}/${htmlEscape((rider.slug || rider.id || '').toUpperCase().slice(0, 10))}</b><br/>
+          Built <b>${built}</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="../index.html">01 — Calendar</a>
+        <a href="../riders.html"${cfg.navOn === 'men' ? ' class="on"' : ''}>02 — Men's Riders</a>
+        <a href="../riders-women.html"${cfg.navOn === 'women' ? ' class="on"' : ''}>03 — Women's Riders</a>
+        <a href="../about.html">04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <div class="crumbs"><a href="../index.html">Calendar</a><span class="sep">/</span><a href="${cfg.indexPath}">${htmlEscape(cfg.indexLabel)}</a><span class="sep">/</span>${htmlEscape(display)}</div>
+
+    <section class="hero">
+      <div class="photo">
+        ${photo ? `<img src="${htmlEscape(photo)}" alt="${htmlEscape(display)}" onerror="this.parentNode.innerHTML='<span style=\\'font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)\\'>No photo</span>'"/>` : `<span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)">No photo</span>`}
+      </div>
+      <div>
+        <div class="tag">
+          <span>${flag} ${htmlEscape(rider.nationality || '')}</span>
+          <span>UCI #${rider.ranking || '—'}</span>
+          ${age ? `<span>Age ${age}</span>` : ''}
+        </div>
+        <h1>${htmlEscape(given)}<span class="em">${htmlEscape(surname)}</span></h1>
+        <p class="sub">${htmlEscape(rider.team || 'Team TBD')}</p>
+        <div class="chips-inline" style="margin-top:14px">
+          ${specialties.map(s => `<span class="sp">${htmlEscape(s)}</span>`).join('')}
+        </div>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">UCI Rank</span><span class="v">${rider.ranking || '—'}</span></div>
+        <div class="stat"><span class="k">Points</span><span class="v mono">${rider.points || '—'}</span></div>
+        <div class="stat"><span class="k">Team</span><span class="v sm">${htmlEscape(rider.team || 'TBD')}</span></div>
+        <div class="stat"><span class="k">2026 Races</span><span class="v">${programCount || '—'}</span></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Bio</div>
+      <h2>Profile</h2>
+      <div class="bio">
+        <div class="s"><div class="k">Nationality</div><div class="v sm">${flag} ${htmlEscape(rider.nationality || 'Unknown')}</div></div>
+        <div class="s"><div class="k">Date of Birth</div><div class="v sm mono">${htmlEscape(rider.dateOfBirth || '—')}</div></div>
+        <div class="s"><div class="k">Height / Weight</div><div class="v sm mono">${rider.height ? rider.height.toFixed(2) + ' m' : '—'} / ${rider.weight ? rider.weight + ' kg' : '—'}</div></div>
+      </div>
+      ${rider.pcsUrl ? `<p class="prose" style="margin-top:16px"><a href="${htmlEscape(rider.pcsUrl)}" style="border-bottom:1px solid var(--ink)" target="_blank" rel="noopener">ProCyclingStats profile →</a></p>` : ''}
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 02 — 2026 Race Program</div>
+      <h2>Announced races</h2>
+      <div class="program">${programHtml}</div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>${htmlEscape(cfg.sectionLabel)} · ${htmlEscape(display)}</span>
+        <span>Built ${built}</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
+`;
+}
+
+function generateRiderDetailsPage(rider, raceData, gender = 'men') {
+  const cfg = GENDER_CFG[gender];
+  if (!fs.existsSync(cfg.outputDir)) fs.mkdirSync(cfg.outputDir, { recursive: true });
+  const filepath = path.join(cfg.outputDir, `${rider.slug || rider.id}.html`);
+  fs.writeFileSync(filepath, generateRiderDetailsHTML(rider, raceData, cfg));
   return filepath;
 }
 
-function generateAllRiderDetailsPages(options = {}) {
-  const { gender = 'men', raceDataPath = './data/race-data.json' } = options;
-  const config = genderConfig[gender] || genderConfig.men;
-
-  const ridersData = JSON.parse(fs.readFileSync(config.ridersDataPath, 'utf8'));
-
+function generateAllRiderDetailsPages(gender = 'men') {
+  const cfg = GENDER_CFG[gender];
+  const ridersData = JSON.parse(fs.readFileSync(cfg.ridersData, 'utf8'));
   let raceData = null;
-  try {
-    raceData = JSON.parse(fs.readFileSync(raceDataPath, 'utf8'));
-  } catch {
-    console.warn('⚠️ Could not load race-data.json, race links will be disabled');
-  }
-
-  if (!fs.existsSync(config.outputDir)) {
-    fs.mkdirSync(config.outputDir, { recursive: true });
-  }
-
-  let generated = 0;
-
+  try { raceData = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8')); } catch {}
+  let n = 0;
   for (const rider of ridersData.riders) {
-    generateRiderDetailsPage(rider, raceData, { outputDir: config.outputDir, gender });
-    generated++;
+    generateRiderDetailsPage(rider, raceData, gender);
+    n++;
   }
-
-  console.log(`\n📊 Generated ${generated} ${gender} rider detail pages in ${config.outputDir}`);
-  return generated;
+  console.log(`✓ generated ${n} ${gender} rider pages in ${cfg.outputDir}`);
 }
 
-// ============================================
-// CLI INTERFACE
-// ============================================
-
 const args = process.argv.slice(2);
+const genderIdx = args.indexOf('--gender');
+const gender = genderIdx !== -1 && args[genderIdx + 1] ? args[genderIdx + 1] : 'men';
 
-// Parse gender option (defaults to 'men')
-const genderIndex = args.indexOf('--gender');
-const gender = genderIndex !== -1 && args[genderIndex + 1]
-  ? args[genderIndex + 1]
-  : 'men';
-
-if (!['men', 'women'].includes(gender)) {
-  console.error(`❌ Invalid gender: ${gender}. Use 'men' or 'women'.`);
+if (!GENDER_CFG[gender]) {
+  console.error(`❌ invalid gender: ${gender} (use men|women)`);
   process.exit(1);
 }
 
-const config = genderConfig[gender];
-
 if (args.includes('--all')) {
-  generateAllRiderDetailsPages({ gender });
+  generateAllRiderDetailsPages(gender);
 } else if (args.includes('--rider') && args.length >= 2) {
-  const riderSlug = args[args.indexOf('--rider') + 1];
-  const ridersData = JSON.parse(fs.readFileSync(config.ridersDataPath, 'utf8'));
-  const rider = ridersData.riders.find(r => r.slug === riderSlug);
-
-  if (rider) {
-    let raceData = null;
-    try {
-      raceData = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8'));
-    } catch {}
-    generateRiderDetailsPage(rider, raceData, { outputDir: config.outputDir, gender });
-  } else {
-    console.error(`❌ Rider not found: ${riderSlug}`);
-    process.exit(1);
-  }
+  const slug = args[args.indexOf('--rider') + 1];
+  const cfg = GENDER_CFG[gender];
+  const ridersData = JSON.parse(fs.readFileSync(cfg.ridersData, 'utf8'));
+  const rider = ridersData.riders.find(r => (r.slug || r.id) === slug);
+  if (!rider) { console.error(`❌ rider not found: ${slug}`); process.exit(1); }
+  let raceData = null;
+  try { raceData = JSON.parse(fs.readFileSync('./data/race-data.json', 'utf8')); } catch {}
+  const out = generateRiderDetailsPage(rider, raceData, gender);
+  console.log(`✓ ${out}`);
 } else if (args.includes('--help')) {
-  console.log(`
-Rider Details Page Generator
+  console.log(`Rider Details Page Generator (v2)
 
 Usage:
-  node generate-rider-details.js --all                        Generate pages for all men riders
-  node generate-rider-details.js --all --gender women         Generate pages for all women riders
-  node generate-rider-details.js --rider <slug>               Generate page for specific man rider
-  node generate-rider-details.js --rider <slug> --gender women  Generate page for specific woman rider
-  node generate-rider-details.js --help                       Show this help
-
-Options:
-  --gender <men|women>  Specify gender (default: men)
-                        men: uses riders.json, outputs to ./riders/
-                        women: uses riders-women.json, outputs to ./riders-women/
-
-Output:
-  Men: ./riders/<rider-slug>.html
-  Women: ./riders-women/<rider-slug>.html
+  node generate-rider-details.js --all                       men riders (default)
+  node generate-rider-details.js --all --gender women        women riders
+  node generate-rider-details.js --rider <slug>              single man
+  node generate-rider-details.js --rider <slug> --gender women  single woman
 `);
 } else {
-  console.log('No arguments provided. Use --help for usage information.');
+  console.log('No arguments provided. Use --help.');
 }
 
-export {
-  generateRiderDetailsHTML,
-  generateRiderDetailsPage,
-  generateAllRiderDetailsPages
-};
+export { generateRiderDetailsHTML, generateRiderDetailsPage, generateAllRiderDetailsPages };

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Tour Down Under 2026 — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;padding:40px 0 32px;border-bottom:3px solid var(--ink)}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:12px;align-items:center;margin-bottom:18px}
+.hero .tag .code{height:22px}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,6vw,92px);line-height:.88;letter-spacing:-.04em;margin:0}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:18px;max-width:56ch}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 4px}
+.section .eyebrow{margin-bottom:4px}
+
+/* Stage list */
+.stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
+.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage .c{padding:0 10px;min-width:0}
+.stage .c.first{padding-left:0}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:28px;letter-spacing:-.03em}
+.stage .no.qs{color:var(--signal)}
+.stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
+.stage .rt{font-family:var(--font-sans);font-weight:600;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stage .rt .arr{color:var(--ink-3);margin:0 .4em}
+.stage .km{font-family:var(--font-mono);font-size:13px;font-weight:600;text-align:right;letter-spacing:.02em}
+.stage .km small{display:block;font-weight:400;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+.stage .terrcell{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:center}
+.stage .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.45;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.stage:hover{background:var(--paper-2)}
+.stage.qs:hover{background:rgba(200,16,46,.12)}
+
+/* Profile graphic */
+.profile{margin-top:18px;height:180px;border:1px solid var(--rule);background:var(--paper);position:relative;overflow:hidden}
+.profile svg{display:block;width:100%;height:100%}
+.profile .caption{position:absolute;top:8px;left:10px;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+
+/* Startlist */
+.twocol{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
+.sl{display:grid;grid-template-columns:44px 1fr 1fr;gap:0;border-top:1px solid var(--rule)}
+.sl > *{padding:10px 10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.sl .num{font-family:var(--font-mono);font-weight:600;padding-left:0;color:var(--ink-3)}
+.sl .riderx{font-weight:600}
+.sl .team{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.02em}
+
+.jerseys{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px}
+.jersey{border:1px solid var(--rule);padding:14px;display:grid;grid-template-rows:36px auto;gap:8px}
+.jersey .band{height:14px}
+.jersey.y .band{background:var(--uci-yellow)}
+.jersey.g .band{background:linear-gradient(90deg, var(--uci-green), #a4d4b4)}
+.jersey.p .band{background:var(--signal)}
+.jersey.w .band{background:repeating-linear-gradient(90deg,#fff 0 14px,#ddd 14px 28px);border:1px solid var(--rule-soft)}
+.jersey .name{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.jersey .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.4}
+
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .stage{grid-template-columns:48px 70px 1fr 70px}
+  .stage .c.dt,.stage .c.terrcell,.stage .c.desc{display:none}
+  .twocol{grid-template-columns:1fr}
+  .jerseys{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Race Manual · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>NSC/TDU/26</b><br/>
+          Category <b>2.UWT</b><br/>
+          Updated <b>19 APR 2026</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="index.html">01 — Calendar</a>
+        <a href="riders.html">02 — Men's Riders</a>
+        <a href="riders-women.html">03 — Women's Riders</a>
+        <a href="race-paris-roubaix.html">04 — Race Sheet</a>
+        <a href="race-tour-down-under.html" class="on">05 — Stage Race</a>
+        <span class="spacer"></span>
+        <span class="edition mono">§ 05 / Roadbook</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <div class="crumbs"><a href="index.html">Calendar</a><span class="sep">/</span>January 2026<span class="sep">/</span>Tour Down Under</div>
+
+    <section class="hero">
+      <div>
+        <div class="tag"><span class="code inv">2.UWT</span><span>Stage race · 5 stages · 765 km</span><span>★★★★☆</span></div>
+        <h1>Santos Tour<br/>Down Under</h1>
+        <p class="sub">First WorldTour race of the season. Hot, rolling South Australia — Adelaide hills, Corkscrew Road, the iconic Willunga climb. GC is decided in a week.</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Dates</span><span class="v sm">20–25 Jan 2026</span></div>
+        <div class="stat"><span class="k">Country</span><span class="v sm">Australia</span></div>
+        <div class="stat"><span class="k">Stages</span><span class="v">5</span></div>
+        <div class="stat"><span class="k">Total km</span><span class="v">765</span></div>
+        <div class="stat"><span class="k">Climbing</span><span class="v sm mono">7,800 m</span></div>
+        <div class="stat"><span class="k">Rest days</span><span class="v">0</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">FloBikes</span></div>
+        <div class="stat"><span class="k">First edition</span><span class="v sm">1999</span></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Route Profile</div>
+      <h2>Overall elevation</h2>
+      <div class="profile">
+        <span class="caption">Cumulative elevation · not to scale · stages P → 5</span>
+        <svg viewBox="0 0 1000 180" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#14110f" stop-opacity=".22"/>
+              <stop offset="100%" stop-color="#14110f" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <!-- baseline -->
+          <line x1="0" y1="160" x2="1000" y2="160" stroke="#14110f" stroke-width="1"/>
+          <!-- stage separators -->
+          <g stroke="rgba(20,17,15,.15)" stroke-width="1">
+            <line x1="80"  y1="20" x2="80"  y2="160"/>
+            <line x1="230" y1="20" x2="230" y2="160"/>
+            <line x1="430" y1="20" x2="430" y2="160"/>
+            <line x1="610" y1="20" x2="610" y2="160"/>
+            <line x1="810" y1="20" x2="810" y2="160"/>
+          </g>
+          <!-- profile path -->
+          <path d="M0,158 L40,156 L80,152
+                   L120,150 L180,130 L230,142
+                   L270,128 L330,70 L380,100 L430,118
+                   L470,120 L540,95 L590,85 L610,120
+                   L650,100 L720,35 L770,78 L810,110
+                   L860,95 L920,60 L970,100 L1000,120 L1000,160 L0,160 Z"
+                fill="url(#g1)"/>
+          <path d="M0,158 L40,156 L80,152
+                   L120,150 L180,130 L230,142
+                   L270,128 L330,70 L380,100 L430,118
+                   L470,120 L540,95 L590,85 L610,120
+                   L650,100 L720,35 L770,78 L810,110
+                   L860,95 L920,60 L970,100 L1000,120"
+                fill="none" stroke="#14110f" stroke-width="1.5"/>
+          <!-- stage labels -->
+          <g font-family="JetBrains Mono" font-size="10" fill="#6b635a" letter-spacing=".12em">
+            <text x="40"  y="178" text-anchor="middle">P</text>
+            <text x="155" y="178" text-anchor="middle">01</text>
+            <text x="330" y="178" text-anchor="middle">02</text>
+            <text x="520" y="178" text-anchor="middle">03</text>
+            <text x="710" y="178" text-anchor="middle">04 · QS</text>
+            <text x="905" y="178" text-anchor="middle">05</text>
+          </g>
+          <!-- queen stage marker -->
+          <circle cx="720" cy="35" r="3" fill="#c8102e"/>
+          <text x="730" y="30" font-family="JetBrains Mono" font-size="10" fill="#c8102e" letter-spacing=".1em">WILLUNGA ×3</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 02 — Stages</div>
+      <h2>Daily itinerary</h2>
+      <div class="stages" id="stages"></div>
+    </section>
+
+    <section class="section">
+      <div class="twocol">
+        <div>
+          <div class="eyebrow">§ 03 — Selected Startlist</div>
+          <h2>Riders to watch</h2>
+          <div class="sl" id="sl"></div>
+        </div>
+        <div>
+          <div class="eyebrow">§ 04 — Classifications</div>
+          <h2>Jerseys on offer</h2>
+          <div class="jerseys">
+            <div class="jersey y"><div class="band"></div><div><div class="name">Ochre Leader</div><div class="desc">General classification — fastest aggregate time.</div></div></div>
+            <div class="jersey g"><div class="band"></div><div><div class="name">Sprint</div><div class="desc">Points at intermediate sprints and stage finishes.</div></div></div>
+            <div class="jersey p"><div class="band"></div><div><div class="name">KOM</div><div class="desc">Points awarded at every categorised climb.</div></div></div>
+            <div class="jersey w"><div class="band"></div><div><div class="name">Young Rider</div><div class="desc">Best rider born on or after 1 Jan 2001.</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ 05 — Stage Race · Tour Down Under</span>
+        <span>Pg. 05 / 12</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script>
+  const R = window.STAGE_RACE;
+  const terrMap = {flat:"FLAT", hilly:"HILLY", mountain:"MOUNTAIN", cobbles:"PAVÉ", gravel:"GRAVEL", itt:"ITT", circuit:"CIRCUIT"};
+  const html = R.stages.map(s => {
+    const qs = s.no==="4";
+    return `<a class="stage ${qs?"qs":""}" href="#stage-${s.no}">
+      <div class="c first"><span class="no ${qs?"qs":""}">${s.no}</span></div>
+      <div class="c lbl">${s.type}</div>
+      <div class="c dt">${s.date}</div>
+      <div class="c"><span class="rt">${s.from}<span class="arr">→</span>${s.to}</span></div>
+      <div class="c km">${s.km.toFixed(1)}<small>km</small></div>
+      <div class="c terrcell">${terrMap[s.terrain]}</div>
+      <div class="c desc">${s.desc}</div>
+    </a>`;
+  }).join("");
+  document.getElementById("stages").innerHTML = html;
+
+  const sl = R.startlist.map(r => `
+    <div class="num mono">${String(r.no).padStart(3,"0")}</div>
+    <div class="riderx">${r.name}</div>
+    <div class="team">${r.team}</div>`).join("");
+  document.getElementById("sl").innerHTML = sl;
+  </script>
+</body>
+</html>

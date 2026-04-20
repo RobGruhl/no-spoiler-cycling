@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Paris–Roubaix 2026 — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;padding:40px 0 32px;border-bottom:3px solid var(--ink);position:relative}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(64px,7.5vw,120px);line-height:.85;letter-spacing:-.045em;margin:0}
+.hero h1 .em{font-style:italic;font-weight:500;color:var(--signal)}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:18px;max-width:56ch}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+.big{font-family:var(--font-sans);font-weight:800;font-size:64px;line-height:.9;letter-spacing:-.03em;margin-top:8px}
+.big.mono{font-family:var(--font-mono);font-weight:600;letter-spacing:-.02em}
+
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 6px}
+.eyebrow{margin-bottom:4px}
+
+/* stats band */
+.statband{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:18px}
+.statband .s{padding:20px 16px;border-right:1px solid var(--rule-soft)}
+.statband .s:last-child{border-right:0}
+.statband .s .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.statband .s .v{font-family:var(--font-sans);font-weight:700;font-size:36px;letter-spacing:-.02em;margin-top:6px;line-height:1}
+.statband .s .v small{font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px}
+
+/* sector list */
+.sectors{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.sec{display:grid;grid-template-columns:80px 56px 1fr 90px 90px;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.sec .c{padding:0 10px;min-width:0}
+.sec .c.first{padding-left:0}
+.sec .km{font-family:var(--font-mono);font-weight:600;font-size:14px}
+.sec .km small{color:var(--ink-3);font-weight:500;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-top:2px}
+.sec .no{font-family:var(--font-sans);font-weight:800;font-size:24px;letter-spacing:-.03em}
+.sec .nm{font-family:var(--font-sans);font-weight:600;font-size:17px}
+.sec .ln{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);text-align:right}
+.sec .rt{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-align:right}
+.sec.five{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 55%)}
+.sec.five .no{color:var(--signal)}
+.sec:hover{background:var(--paper-2)}
+.sec.five:hover{background:rgba(200,16,46,.12)}
+
+/* favourites */
+.fav{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule);margin-top:14px}
+.card{padding:18px;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);display:grid;grid-template-rows:auto auto auto;gap:6px}
+.card .no{font-family:var(--font-mono);font-size:11px;letter-spacing:.18em;color:var(--ink-3)}
+.card .nm{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.015em}
+.card .tm{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+.card .ft{display:flex;justify-content:space-between;align-items:center;margin-top:6px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase}
+.card .ft .st{color:var(--ink);letter-spacing:.1em}
+
+/* map + elevation */
+.route{display:grid;grid-template-columns:1fr;gap:16px;margin-top:14px}
+.route svg{width:100%;height:220px;display:block;border:1px solid var(--rule);background:var(--paper)}
+
+/* winners */
+.winners{display:grid;grid-template-columns:60px 1fr 1fr 80px;border-top:1px solid var(--rule);margin-top:14px}
+.winners > *{padding:10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.winners .yr{font-family:var(--font-mono);font-weight:600;color:var(--ink-3)}
+.winners .who{font-weight:600}
+.winners .tm{font-family:var(--font-mono);color:var(--ink-2);font-size:12px}
+.winners .gp{font-family:var(--font-mono);text-align:right;color:var(--ink-3);font-size:12px}
+
+/* Monument stamp */
+.stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
+.stamp b{display:block;font-size:18px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
+
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .statband{grid-template-columns:repeat(2,1fr)}
+  .statband .s{border-bottom:1px solid var(--rule-soft)}
+  .fav{grid-template-columns:1fr}
+  .stamp{display:none}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Race Sheet · Monument 03 / 05</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>NSC/PXR/26</b><br/>
+          Category <b>1.UWT</b><br/>
+          Updated <b>19 APR 2026</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="index.html">01 — Calendar</a>
+        <a href="riders.html">02 — Men's Riders</a>
+        <a href="riders-women.html">03 — Women's Riders</a>
+        <a href="race-paris-roubaix.html" class="on">04 — Race Sheet</a>
+        <a href="race-tour-down-under.html">05 — Stage Race</a>
+        <span class="spacer"></span>
+        <span class="edition mono">§ 04 / Roadbook</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <div class="crumbs"><a href="index.html">Calendar</a><span class="sep">/</span>April 2026<span class="sep">/</span>Paris–Roubaix</div>
+
+    <section class="hero">
+      <div class="stamp">Monument<br/><b>03 / 05</b></div>
+      <div>
+        <div class="tag">
+          <span class="code inv">1.UWT</span>
+          <span class="code sig">MONUMENT</span>
+          <span>★★★★★</span>
+          <span>Sunday · 12 April 2026</span>
+        </div>
+        <h1>Paris–<span class="em">Roubaix</span></h1>
+        <p class="sub">L'Enfer du Nord · 123rd edition · Compiègne → Roubaix Velodrome · 259.2 km across 30 sectors of pavé. Hardest one-day race in the world.</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Start</span><span class="v sm">Compiègne</span></div>
+        <div class="stat"><span class="k">Finish</span><span class="v sm">Roubaix Vélodrome</span></div>
+        <div class="stat"><span class="k">Distance</span><span class="v mono">259.2</span></div>
+        <div class="stat"><span class="k">Pavé sectors</span><span class="v mono">30</span></div>
+        <div class="stat"><span class="k">Pavé km</span><span class="v sm mono">55.3</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">FloBikes</span></div>
+      </aside>
+    </section>
+
+    <section class="statband">
+      <div class="s"><div class="k">Gun time</div><div class="v">11:05<small>CET</small></div></div>
+      <div class="s"><div class="k">Finish window</div><div class="v">16:40<small>CET</small></div></div>
+      <div class="s"><div class="k">Av. speed (ref.)</div><div class="v mono">45.8<small>km/h</small></div></div>
+      <div class="s"><div class="k">Record</div><div class="v sm">46.840 km/h<br/><span class="mono" style="font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase">2023 · v.d. Poel</span></div></div>
+      <div class="s"><div class="k">First held</div><div class="v mono">1896</div></div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Route</div>
+      <h2>Compiègne to Roubaix</h2>
+      <div class="route">
+        <svg viewBox="0 0 1000 220" preserveAspectRatio="none">
+          <!-- route baseline -->
+          <line x1="20" y1="150" x2="980" y2="150" stroke="#14110f" stroke-width="1" stroke-dasharray="2 3"/>
+          <!-- sector ticks: many small, 5 tall for 5★ sectors -->
+          <g stroke="#14110f" stroke-width="1.25">
+            <!-- minor sectors (30 random-ish) -->
+            <line x1="360"  y1="145" x2="360"  y2="155"/>
+            <line x1="380"  y1="145" x2="380"  y2="155"/>
+            <line x1="408"  y1="145" x2="408"  y2="155"/>
+            <line x1="438"  y1="145" x2="438"  y2="155"/>
+            <line x1="470"  y1="145" x2="470"  y2="155"/>
+            <line x1="520"  y1="145" x2="520"  y2="155"/>
+            <line x1="555"  y1="145" x2="555"  y2="155"/>
+            <line x1="590"  y1="145" x2="590"  y2="155"/>
+            <line x1="625"  y1="145" x2="625"  y2="155"/>
+            <line x1="700"  y1="145" x2="700"  y2="155"/>
+            <line x1="730"  y1="145" x2="730"  y2="155"/>
+            <line x1="760"  y1="145" x2="760"  y2="155"/>
+            <line x1="790"  y1="145" x2="790"  y2="155"/>
+            <line x1="820"  y1="145" x2="820"  y2="155"/>
+            <line x1="860"  y1="145" x2="860"  y2="155"/>
+            <line x1="900"  y1="145" x2="900"  y2="155"/>
+          </g>
+          <!-- five-star sectors -->
+          <g stroke="#c8102e" stroke-width="2">
+            <line x1="485" y1="130" x2="485" y2="170"/>
+            <line x1="660" y1="130" x2="660" y2="170"/>
+            <line x1="825" y1="130" x2="825" y2="170"/>
+          </g>
+          <!-- markers -->
+          <circle cx="20" cy="150" r="5" fill="#14110f"/>
+          <circle cx="980" cy="150" r="5" fill="#c8102e"/>
+          <!-- labels -->
+          <g font-family="Inter Tight" font-weight="700" fill="#14110f">
+            <text x="20" y="180" font-size="12" letter-spacing=".02em">Compiègne</text>
+            <text x="980" y="180" font-size="12" text-anchor="end" letter-spacing=".02em">Roubaix</text>
+          </g>
+          <g font-family="JetBrains Mono" font-size="10" fill="#6b635a" letter-spacing=".14em">
+            <text x="20"  y="200">00.0 KM</text>
+            <text x="980" y="200" text-anchor="end">259.2 KM</text>
+            <text x="360" y="130" font-size="10" fill="#14110f">SEC. 30</text>
+            <text x="485" y="120" fill="#c8102e" text-anchor="middle">ARENBERG</text>
+            <text x="660" y="120" fill="#c8102e" text-anchor="middle">MONS-EN-PÉVÈLE</text>
+            <text x="825" y="120" fill="#c8102e" text-anchor="middle">CARREFOUR DE L'ARBRE</text>
+          </g>
+          <!-- scale -->
+          <g font-family="JetBrains Mono" font-size="9" fill="#6b635a" letter-spacing=".1em">
+            <text x="200"  y="140" text-anchor="middle">100 km</text>
+            <text x="400"  y="140" text-anchor="middle">160 km</text>
+            <text x="700"  y="140" text-anchor="middle">220 km</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 02 — Key Sectors</div>
+      <h2>The decisive pavé</h2>
+      <div class="sectors" id="sectors"></div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 03 — Favourites</div>
+      <h2>Who to watch</h2>
+      <div class="fav" id="fav"></div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 04 — Recent Winners</div>
+      <h2>Past five editions</h2>
+      <div class="winners" id="winners"></div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ 04 — Race Sheet · Paris–Roubaix</span>
+        <span>Pg. 04 / 12</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script>
+  const R = window.ONEDAY_RACE;
+  const starsHtml = (n) => "★".repeat(n) + `<span style="color:var(--rule-soft)">${"★".repeat(5-n)}</span>`;
+  document.getElementById("sectors").innerHTML = R.keySectors.map(s => {
+    const five = s.stars===5;
+    return `<div class="sec ${five?"five":""}">
+      <div class="c first km">${s.km.toFixed(1)}<small>km</small></div>
+      <div class="c"><span class="no">${s.no}</span></div>
+      <div class="c"><span class="nm">${s.name}</span></div>
+      <div class="c ln">${s.len.toFixed(1)} km</div>
+      <div class="c rt">${starsHtml(s.stars)}</div>
+    </div>`;
+  }).join("");
+
+  document.getElementById("fav").innerHTML = R.favourites.map((f,i) => `
+    <div class="card">
+      <div class="no">№ ${String(i+1).padStart(2,"0")} · ${f.tag}</div>
+      <div class="nm">${f.name}</div>
+      <div class="tm">${f.team}</div>
+      <div class="ft"><span>Form</span><span class="st">${f.form}</span></div>
+    </div>`).join("");
+
+  document.getElementById("winners").innerHTML = R.winners.map(w => `
+    <div class="yr">${w.yr}</div>
+    <div class="who">${w.who}</div>
+    <div class="tm">${w.team}</div>
+    <div class="gp">${w.gap}</div>`).join("");
+  </script>
+</body>
+</html>

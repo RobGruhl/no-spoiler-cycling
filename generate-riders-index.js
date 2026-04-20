@@ -1,483 +1,270 @@
 #!/usr/bin/env node
 
-/**
- * Generate Riders Index Page
- *
- * Creates riders.html showing a grid of top ranked riders with:
- * - Rider cards with photos, names, teams
- * - Ranking badges
- * - Specialty tags
- * - Program status indicators
- * - Links to individual rider pages
- */
+// v2 design — UCI Roadbook riders index
+// Outputs riders.html (men) or riders-women.html when passed gender=women via
+// generate-riders-women-index.js. Reuses the same buildRidersIndex() renderer.
 
 import fs from 'fs';
 
-// ============================================
-// ICON MAPPINGS
-// ============================================
-
-const specialtyConfig = {
-  'climber': { icon: '⛰️', label: 'Climber', color: '#dc2626' },
-  'sprinter': { icon: '⚡', label: 'Sprinter', color: '#16a34a' },
-  'puncheur': { icon: '💪', label: 'Puncheur', color: '#ea580c' },
-  'gc-contender': { icon: '🎯', label: 'GC', color: '#7c3aed' },
-  'time-trialist': { icon: '⏱️', label: 'TT', color: '#0891b2' },
-  'one-day': { icon: '🏆', label: 'Classics', color: '#ca8a04' },
-  'rouleur': { icon: '🚴', label: 'Rouleur', color: '#64748b' }
+const SPECIALTY_LABELS = {
+  'climber': 'Climber',
+  'sprinter': 'Sprinter',
+  'puncheur': 'Puncheur',
+  'gc-contender': 'GC',
+  'time-trialist': 'Time Trial',
+  'one-day': 'Classics',
+  'rouleur': 'Rouleur',
 };
 
-const nationalityFlags = {
-  'SL': '🇸🇮', 'SI': '🇸🇮',
-  'DE': '🇩🇪',
-  'DK': '🇩🇰',
-  'BE': '🇧🇪',
-  'NL': '🇳🇱', 'NE': '🇳🇱',
-  'FR': '🇫🇷',
-  'IT': '🇮🇹',
-  'ES': '🇪🇸',
-  'GB': '🇬🇧', 'UK': '🇬🇧',
-  'US': '🇺🇸',
-  'AU': '🇦🇺',
-  'CO': '🇨🇴',
-  'PO': '🇵🇹', 'PT': '🇵🇹',
-  'ME': '🇲🇽', 'MX': '🇲🇽',
-  'AT': '🇦🇹',
-  'NO': '🇳🇴',
-  'PL': '🇵🇱',
-  'CH': '🇨🇭', 'SW': '🇨🇭',
-  'IE': '🇮🇪',
-  'CA': '🇨🇦',
-  'NZ': '🇳🇿',
-  'CZ': '🇨🇿',
-  'XX': '🏳️'
+const NATIONALITY_FLAGS = {
+  SL: '🇸🇮', SI: '🇸🇮', DE: '🇩🇪', DK: '🇩🇰', BE: '🇧🇪', NL: '🇳🇱', NE: '🇳🇱',
+  FR: '🇫🇷', IT: '🇮🇹', ES: '🇪🇸', GB: '🇬🇧', UK: '🇬🇧', US: '🇺🇸', AU: '🇦🇺',
+  CO: '🇨🇴', PT: '🇵🇹', PO: '🇵🇹', MX: '🇲🇽', ME: '🇲🇽', AT: '🇦🇹', NO: '🇳🇴',
+  PL: '🇵🇱', CH: '🇨🇭', SW: '🇨🇭', IE: '🇮🇪', CA: '🇨🇦', NZ: '🇳🇿', CZ: '🇨🇿',
+  XX: '🏳️',
 };
 
-// ============================================
-// HTML GENERATION
-// ============================================
-
-function generateRidersIndexHTML(riders, options = {}) {
-  const {
-    lastUpdated = null,
-    pageTitle = 'Top Riders 2026',
-    pageSubtitle = 'UCI ranking leaders and their announced race programs',
-    riderPagesDir = 'riders',
-    gender = 'men'
-  } = options;
-
-  const lastUpdatedStr = lastUpdated
-    ? new Date(lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
-    : null;
-
-  const generateRiderCard = (rider) => {
-    const flag = nationalityFlags[rider.nationalityCode] || nationalityFlags['XX'];
-    const hasProgram = rider.raceProgram?.status === 'announced' && rider.raceProgram?.races?.length > 0;
-    const raceCount = rider.raceProgram?.races?.length || 0;
-    const photoSrc = rider.photoUrl?.startsWith('riders/')
-      ? rider.photoUrl
-      : 'riders/photos/placeholder.jpg';
-
-    // Top 2 specialties
-    const topSpecialties = (rider.specialties || []).slice(0, 2).map(spec => {
-      const config = specialtyConfig[spec] || { icon: '🚴', label: spec };
-      return `<span class="specialty-tag">${config.icon}</span>`;
-    }).join('');
-
-    return `
-      <a href="${riderPagesDir}/${rider.slug}.html" class="rider-card">
-        <div class="rider-rank">#${rider.ranking}</div>
-        <img src="${photoSrc}" alt="${rider.name}" class="rider-photo" loading="lazy" onerror="this.style.display='none'">
-        <div class="rider-content">
-          <div class="rider-flag">${flag}</div>
-          <h3 class="rider-name">${rider.name}</h3>
-          <p class="rider-team">${rider.team}</p>
-          <div class="rider-footer">
-            <div class="specialties">${topSpecialties}</div>
-            <div class="program-status ${hasProgram ? 'has-program' : ''}">
-              ${hasProgram ? `📅 ${raceCount}` : '—'}
-            </div>
-          </div>
-        </div>
-      </a>
-    `;
-  };
-
-  const ridersHTML = riders.map(generateRiderCard).join('');
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="${gender === 'women' ? 'Top 50 women cyclists' : 'Top 50 ranked professional cyclists'} - 2026 race programs and profiles">
-  <title>${gender === 'women' ? 'Top Women Riders' : 'Top Riders'} | No Spoiler Cycling</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-      min-height: 100vh;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    /* Back Button */
-    .back-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-bottom: 24px;
-      transition: background 0.2s;
-    }
-
-    .back-button:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Rider Nav */
-    .rider-nav {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .rider-nav-link {
-      padding: 10px 24px;
-      background: rgba(255, 255, 255, 0.1);
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: 600;
-      transition: all 0.2s;
-    }
-
-    .rider-nav-link:hover {
-      background: rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-
-    .rider-nav-link.active {
-      background: #3b82f6;
-      color: white;
-    }
-
-    /* Last Updated */
-    .last-updated {
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 0.85rem;
-      margin-top: 8px;
-    }
-
-    /* Header */
-    .page-header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-
-    .page-title {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: white;
-      margin-bottom: 8px;
-    }
-
-    .page-subtitle {
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 1.1rem;
-    }
-
-    /* Riders Grid */
-    .riders-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .rider-card {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 16px;
-      overflow: hidden;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.3s ease;
-      position: relative;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    .rider-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-    }
-
-    .rider-rank {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      color: white;
-      font-weight: 700;
-      font-size: 0.9rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 10;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
-    .rider-card:nth-child(1) .rider-rank {
-      background: linear-gradient(135deg, #ffd700, #ffb800);
-    }
-
-    .rider-card:nth-child(2) .rider-rank {
-      background: linear-gradient(135deg, #c0c0c0, #a8a8a8);
-    }
-
-    .rider-card:nth-child(3) .rider-rank {
-      background: linear-gradient(135deg, #cd7f32, #b8722d);
-    }
-
-    .rider-photo {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      object-position: top;
-      background: linear-gradient(135deg, #e2e8f0, #cbd5e1);
-    }
-
-    .rider-content {
-      padding: 16px;
-      position: relative;
-    }
-
-    .rider-flag {
-      position: absolute;
-      top: -24px;
-      right: 16px;
-      font-size: 2rem;
-      background: white;
-      border-radius: 50%;
-      width: 48px;
-      height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .rider-name {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #1e3a5f;
-      margin-bottom: 4px;
-      line-height: 1.3;
-    }
-
-    .rider-team {
-      font-size: 0.85rem;
-      color: #6b7280;
-      margin-bottom: 12px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .rider-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-top: 12px;
-      border-top: 1px solid #f3f4f6;
-    }
-
-    .specialties {
-      display: flex;
-      gap: 4px;
-    }
-
-    .specialty-tag {
-      font-size: 1.1rem;
-    }
-
-    .program-status {
-      font-size: 0.8rem;
-      color: #9ca3af;
-      font-weight: 500;
-    }
-
-    .program-status.has-program {
-      color: #10b981;
-    }
-
-    /* Stats Bar */
-    .stats-bar {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 16px 24px;
-      margin-bottom: 24px;
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      flex-wrap: wrap;
-    }
-
-    .stat {
-      text-align: center;
-    }
-
-    .stat-value {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: white;
-    }
-
-    .stat-label {
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.6);
-      text-transform: uppercase;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      color: rgba(255,255,255,0.6);
-      padding: 40px 0;
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: rgba(255,255,255,0.8);
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Responsive */
-    @media (max-width: 640px) {
-      .page-title {
-        font-size: 1.75rem;
-      }
-
-      .riders-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .stats-bar {
-        gap: 16px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <a href="index.html" class="back-button">← Back to Calendar</a>
-
-    <nav class="rider-nav">
-      <a href="riders.html" class="rider-nav-link ${gender === 'men' ? 'active' : ''}">Men's Riders</a>
-      <a href="riders-women.html" class="rider-nav-link ${gender === 'women' ? 'active' : ''}">Women's Riders</a>
-    </nav>
-
-    <div class="page-header">
-      <h1 class="page-title">${gender === 'women' ? '🚴‍♀️' : '🚴'} ${pageTitle}</h1>
-      <p class="page-subtitle">${pageSubtitle}</p>
-      ${lastUpdatedStr ? `<p class="last-updated">Updated: ${lastUpdatedStr}</p>` : ''}
-    </div>
-
-    <div class="stats-bar">
-      <div class="stat">
-        <div class="stat-value">${riders.length}</div>
-        <div class="stat-label">Riders</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">${riders.filter(r => r.raceProgram?.status === 'announced').length}</div>
-        <div class="stat-label">Programs Announced</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">${new Set(riders.map(r => r.team)).size}</div>
-        <div class="stat-label">Teams</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">${new Set(riders.map(r => r.nationality)).size}</div>
-        <div class="stat-label">Nationalities</div>
-      </div>
-    </div>
-
-    <div class="riders-grid">
-      ${ridersHTML}
-    </div>
-
-    <footer class="footer">
-      <p>No Spoiler Cycling | Data from ProCyclingStats</p>
-      <p><a href="index.html">Calendar</a> · <a href="about.html">About</a></p>
-    </footer>
-  </div>
-</body>
-</html>`;
+function htmlEscape(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 }
 
-// ============================================
-// FILE GENERATION
-// ============================================
+function parseUTC(ymd) {
+  if (!ymd) return null;
+  const [y, m, d] = ymd.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d));
+}
 
-function generateRidersIndexPage(ridersDataPath = './data/riders.json', outputPath = './riders.html', options = {}) {
+function formatSurnameFirst(name) {
+  // Data stores names as "POGAČAR Tadej" (surname first, uppercase surname).
+  // Render as "T. Pogačar" for display.
+  const parts = (name || '').trim().split(/\s+/);
+  if (parts.length < 2) return name || '';
+  const surname = parts[0];
+  const given = parts.slice(1).join(' ');
+  const titleCase = surname.charAt(0) + surname.slice(1).toLowerCase();
+  const initial = given.charAt(0);
+  return `${initial}. ${titleCase}`;
+}
+
+function buildRidersIndex(riders, opts = {}) {
+  const {
+    pageTitle = 'Men\'s Riders',
+    pageEyebrow = 'UCI Men\'s World Tour Ranking',
+    docCode = 'NSC/RID/26',
+    gender = 'men',
+    navOn = 'men',
+    riderPagesDir = 'riders',
+    lastUpdated = null,
+  } = opts;
+
+  const built = new Date().toISOString().slice(0, 10);
+  const updateLabel = lastUpdated ? parseUTC(String(lastUpdated).slice(0, 10)) : null;
+  const updateStr = updateLabel
+    ? `${String(updateLabel.getUTCDate()).padStart(2,'0')} ${['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][updateLabel.getUTCMonth()]} ${updateLabel.getUTCFullYear()}`
+    : built;
+
+  const riderRows = riders.map((r, i) => {
+    const flag = NATIONALITY_FLAGS[r.nationalityCode] || NATIONALITY_FLAGS.XX;
+    const photo = r.photoUrl && r.photoUrl.startsWith(`${riderPagesDir}/`) ? r.photoUrl : `${riderPagesDir}/photos/placeholder.jpg`;
+    const specialtyTags = (r.specialties || []).slice(0, 3).map(s => (SPECIALTY_LABELS[s] || s).toUpperCase()).join(' · ');
+    const specialtyData = (r.specialties || []).join(' ');
+    const programCount = r.raceProgram?.status === 'announced' ? (r.raceProgram?.races?.length || 0) : 0;
+    const teamTag = htmlEscape(r.team || '');
+    return {
+      num: String(i + 1).padStart(2, '0'),
+      rank: r.ranking || 0,
+      name: htmlEscape(formatSurnameFirst(r.name)),
+      fullName: htmlEscape(r.name),
+      team: teamTag,
+      flag,
+      nat: htmlEscape(r.nationality || ''),
+      photo: htmlEscape(photo),
+      specialtyTags,
+      specialtyData,
+      programCount,
+      slug: r.slug || r.id,
+    };
+  });
+
+  const cardsHtml = riderRows.map(r => `<a class="rc" data-sp="${htmlEscape(r.specialtyData)}" href="${riderPagesDir}/${htmlEscape(r.slug)}.html">
+    <div class="rc-num">№ ${r.num}</div>
+    <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">UCI #${r.rank}</div>
+      <div class="rc-name">${r.name}</div>
+      <div class="rc-team mono">${r.team}</div>
+      <div class="rc-tags mono">${r.specialtyTags || ''}</div>
+      <div class="rc-foot mono"><span>${r.flag} ${r.nat}</span><span>${r.programCount ? r.programCount + ' races' : 'TBD'}</span></div>
+    </div>
+  </a>`).join('');
+
+  const title = gender === 'women' ? 'Top Women Riders 2026' : 'Top Men Riders 2026';
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>${htmlEscape(title)} — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<style>
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,7vw,96px);line-height:.88;letter-spacing:-.045em;margin:0}
+.hero h1 .em{font-style:italic;font-weight:500;color:var(--signal)}
+.hero .lead{font-family:var(--font-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-top:18px}
+.hero aside{border-left:1px solid var(--rule);padding-left:32px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px 24px;align-content:start}
+.stat{display:block}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:32px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+
+.toolbar{position:sticky;top:0;background:var(--paper);z-index:10;border-bottom:1px solid var(--rule);padding:12px 0 10px;margin-top:18px}
+.toolbar-row{display:flex;flex-wrap:wrap;gap:6px 6px;align-items:center}
+.tb-label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin-right:10px;min-width:56px}
+.showing{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:auto}
+.showing b{color:var(--ink);font-weight:600}
+
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:24px;border-top:1px solid var(--rule)}
+.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit}
+.rc:nth-child(4n){border-right:0}
+.rc:hover{background:var(--paper-2)}
+.rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
+.rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
+.rc-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.15) contrast(1.02)}
+.rc-rank{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+.rc-name{font-family:var(--font-sans);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.1;margin-bottom:4px}
+.rc-team{font-size:11px;color:var(--ink-2);letter-spacing:.04em;margin-bottom:8px;line-height:1.3}
+.rc-tags{font-size:10px;letter-spacing:.14em;color:var(--ink-3);margin-bottom:10px}
+.rc-foot{display:flex;justify-content:space-between;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:auto;padding-top:8px;border-top:1px solid var(--rule-soft)}
+.rc.hidden{display:none}
+
+@media (max-width:1100px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .rc:nth-child(4n){border-right:1px solid var(--rule-soft)}
+  .rc:nth-child(3n){border-right:0}
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+}
+@media (max-width:640px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .rc:nth-child(3n){border-right:1px solid var(--rule-soft)}
+  .rc:nth-child(2n){border-right:0}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Startlist · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>${docCode}</b><br/>
+          Updated <b>${updateStr}</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="index.html">01 — Calendar</a>
+        <a href="riders.html"${navOn==='men'?' class="on"':''}>02 — Men's Riders</a>
+        <a href="riders-women.html"${navOn==='women'?' class="on"':''}>03 — Women's Riders</a>
+        <a href="about.html">04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">${htmlEscape(pageEyebrow)} · 2026</div>
+        <h1>${htmlEscape(pageTitle.split(' ')[0])}<br/><span class="em">${htmlEscape(pageTitle.split(' ').slice(1).join(' '))}</span></h1>
+        <p class="lead">Top ${riders.length} riders by UCI ranking. Click through for each rider's announced race program.</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Riders on file</span><span class="v">${riders.length}</span></div>
+        <div class="stat"><span class="k">With program</span><span class="v">${riders.filter(r => r.raceProgram?.status === 'announced').length}</span></div>
+        <div class="stat"><span class="k">Teams</span><span class="v">${new Set(riders.map(r => r.team).filter(Boolean)).size}</span></div>
+        <div class="stat"><span class="k">Nations</span><span class="v">${new Set(riders.map(r => r.nationalityCode).filter(Boolean)).size}</span></div>
+      </aside>
+    </section>
+
+    <section class="toolbar" id="toolbar">
+      <div class="toolbar-row">
+        <span class="tb-label">Specialty</span>
+        <button class="chip on" data-f="sp" data-v="all">All</button>
+        <button class="chip" data-f="sp" data-v="climber">Climber</button>
+        <button class="chip" data-f="sp" data-v="sprinter">Sprinter</button>
+        <button class="chip" data-f="sp" data-v="puncheur">Puncheur</button>
+        <button class="chip" data-f="sp" data-v="gc-contender">GC</button>
+        <button class="chip" data-f="sp" data-v="time-trialist">TT</button>
+        <button class="chip" data-f="sp" data-v="one-day">Classics</button>
+        <button class="chip" data-f="sp" data-v="rouleur">Rouleur</button>
+        <span class="showing"><b id="shown">${riders.length}</b> of <b>${riders.length}</b> riders</span>
+      </div>
+    </section>
+
+    <section class="grid" id="grid">${cardsHtml}</section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ ${gender === 'women' ? '03 — Women\'s Riders' : '02 — Men\'s Riders'}</span>
+        <span>Built ${built}</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+  (function(){
+    const chips = document.querySelectorAll('.chip[data-f="sp"]');
+    const grid = document.getElementById('grid');
+    const shown = document.getElementById('shown');
+    chips.forEach(btn => btn.addEventListener('click', () => {
+      const v = btn.dataset.v;
+      chips.forEach(b => b.classList.toggle('on', b === btn));
+      let n = 0;
+      grid.querySelectorAll('.rc').forEach(card => {
+        const sp = (card.dataset.sp || '').split(' ');
+        const match = v === 'all' || sp.includes(v);
+        card.classList.toggle('hidden', !match);
+        if (match) n++;
+      });
+      shown.textContent = n;
+    }));
+  })();
+  </script>
+</body>
+</html>
+`;
+}
+
+function generateRidersIndexPage(ridersDataPath = './data/riders.json', outputPath = './riders.html', opts = {}) {
   const ridersData = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
-
-  const mergedOptions = {
-    lastUpdated: ridersData.lastUpdated,
-    ...options
-  };
-
-  const html = generateRidersIndexHTML(ridersData.riders, mergedOptions);
+  const html = buildRidersIndex(ridersData.riders, { lastUpdated: ridersData.lastUpdated, ...opts });
   fs.writeFileSync(outputPath, html);
-
-  console.log(`✅ Generated: ${outputPath}`);
-  console.log(`   ${ridersData.riders.length} riders`);
-  if (ridersData.lastUpdated) {
-    console.log(`   Last updated: ${new Date(ridersData.lastUpdated).toLocaleDateString()}`);
-  }
+  console.log(`✓ wrote ${outputPath} — ${ridersData.riders.length} riders`);
   return outputPath;
 }
 
-// ============================================
-// CLI
-// ============================================
-
-const args = process.argv.slice(2);
-
-if (args.includes('--help')) {
-  console.log(`
-Riders Index Page Generator
+const isMain = import.meta.url === `file://${process.argv[1]}`;
+if (isMain) {
+  const args = process.argv.slice(2);
+  if (args.includes('--help')) {
+    console.log(`Riders index generator (v2)
 
 Usage:
-  node generate-riders-index.js            Generate riders.html
-  node generate-riders-index.js --help     Show this help
-
-Output: ./riders.html
+  node generate-riders-index.js         Generate riders.html (men)
+  node generate-riders-index.js --help  Show this help
 `);
-} else {
-  generateRidersIndexPage();
+  } else {
+    generateRidersIndexPage();
+  }
 }
 
-export { generateRidersIndexHTML, generateRidersIndexPage };
+export { buildRidersIndex, generateRidersIndexPage };

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>GP Samarkand · Stage 2 — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;padding:40px 0 32px;border-bottom:3px solid var(--ink);position:relative}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,6.5vw,104px);line-height:.86;letter-spacing:-.04em;margin:0}
+.hero h1 .em{font-style:italic;font-weight:500;color:var(--signal)}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:18px;max-width:62ch;line-height:1.5}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+.stat{display:block}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:32px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.stat .v.sm{font-size:18px;line-height:1.15}
+.stat .v.mono{font-family:var(--font-mono);font-weight:600;letter-spacing:-.01em}
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 6px}
+.section .eyebrow{margin-bottom:4px}
+.placeholder{display:inline-block;border:1px dashed var(--ink-3);padding:2px 8px;font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-left:10px;vertical-align:middle;border-radius:2px}
+.statband{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:18px}
+.statband .s{padding:20px 16px;border-right:1px solid var(--rule-soft)}
+.statband .s:last-child{border-right:0}
+.statband .s .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.statband .s .v{font-family:var(--font-sans);font-weight:700;font-size:30px;letter-spacing:-.02em;margin-top:6px;line-height:1}
+.statband .s .v small{font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px}
+.statband .s .v.sm{font-size:16px;line-height:1.2}
+.statband .s .v.mono{font-family:var(--font-mono);font-weight:600}
+.sectors{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.sec{display:grid;grid-template-columns:80px 56px 1fr 90px 90px;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.sec .c{padding:0 10px;min-width:0}
+.sec .c.first{padding-left:0}
+.sec .km{font-family:var(--font-mono);font-weight:600;font-size:14px}
+.sec .km small{color:var(--ink-3);font-weight:500;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-top:2px}
+.sec .no{font-family:var(--font-sans);font-weight:800;font-size:24px;letter-spacing:-.03em}
+.sec .nm{font-family:var(--font-sans);font-weight:600;font-size:16px;overflow:hidden;text-overflow:ellipsis}
+.sec .ln{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);text-align:right}
+.sec .rt{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-align:right}
+.sec.five{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 55%)}
+.sec.five .no{color:var(--signal)}
+.sec:hover{background:var(--paper-2)}
+.climbs{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.climb{display:grid;grid-template-columns:80px 70px 1fr 90px 120px;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.climb .c{padding:0 10px;min-width:0}
+.climb .c.first{padding-left:0}
+.climb .km{font-family:var(--font-mono);font-weight:600;font-size:14px}
+.climb .km small{color:var(--ink-3);font-weight:500;font-size:10px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-top:2px}
+.climb .cat{font-family:var(--font-mono);font-weight:700;font-size:14px;letter-spacing:.1em}
+.climb .cat.hc{color:var(--signal)}
+.climb .nm{font-family:var(--font-sans);font-weight:600;font-size:16px}
+.climb .ln{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);text-align:right}
+.climb .gr{font-family:var(--font-mono);font-size:12px;letter-spacing:.04em;text-align:right;color:var(--ink-2)}
+.climb:hover{background:var(--paper-2)}
+.fav{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule);margin-top:14px}
+.fav .card{padding:18px;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);display:grid;grid-template-rows:auto auto auto;gap:6px}
+.fav .card:nth-child(3n){border-right:0}
+.fav .card .no{font-family:var(--font-mono);font-size:11px;letter-spacing:.18em;color:var(--ink-3)}
+.fav .card .nm{font-family:var(--font-sans);font-weight:700;font-size:20px;letter-spacing:-.015em}
+.fav .card .tm{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+.fav .card .ft{display:flex;justify-content:space-between;align-items:center;margin-top:4px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase}
+.fav .card .ft .st{color:var(--ink)}
+.route{margin-top:14px}
+.route svg{width:100%;height:220px;display:block;border:1px solid var(--rule);background:var(--paper)}
+.route .cap{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-top:8px}
+.winners{display:grid;grid-template-columns:60px 1fr 1fr 80px;border-top:1px solid var(--rule);margin-top:14px}
+.winners > *{padding:10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.winners .yr{font-family:var(--font-mono);font-weight:600;color:var(--ink-3)}
+.winners .who{font-weight:600}
+.winners .tm{font-family:var(--font-mono);color:var(--ink-2);font-size:12px}
+.winners .gp{font-family:var(--font-mono);text-align:right;color:var(--ink-3);font-size:12px}
+.narratives{margin-top:10px}
+.narratives li{font-family:var(--font-sans);font-size:15px;line-height:1.55;color:var(--ink-2);margin:8px 0;padding-left:18px;position:relative}
+.narratives li::before{content:"§";position:absolute;left:0;color:var(--ink-3);font-family:var(--font-mono);font-weight:600}
+.prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+.stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
+.stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
+.stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
+.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage .c{padding:0 10px;min-width:0}
+.stage .c.first{padding-left:0}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .no.qs{color:var(--signal)}
+.stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
+.stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stage .rt .arr{color:var(--ink-3);margin:0 .4em}
+.stage .km{font-family:var(--font-mono);font-size:13px;font-weight:600;text-align:right;letter-spacing:.02em}
+.stage .km small{display:block;font-weight:400;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}
+.stage .terrcell{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:center}
+.stage .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.45;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.stage:hover{background:var(--paper-2)}
+.stage.qs:hover{background:rgba(200,16,46,.12)}
+.twocol{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start;margin-top:14px}
+.sl{display:grid;grid-template-columns:44px 1fr 1fr;gap:0;border-top:1px solid var(--rule)}
+.sl > *{padding:10px 10px;border-bottom:1px solid var(--rule-soft);font-family:var(--font-sans)}
+.sl .num{font-family:var(--font-mono);font-weight:600;padding-left:0;color:var(--ink-3)}
+.sl .riderx{font-weight:600}
+.sl .team{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.02em}
+.jerseys{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px}
+.jersey{border:1px solid var(--rule);padding:14px;display:grid;grid-template-rows:36px auto auto;gap:8px}
+.jersey .band{height:14px}
+.jersey.y .band{background:var(--uci-yellow)}
+.jersey.g .band{background:linear-gradient(90deg, var(--uci-green), #a4d4b4)}
+.jersey.p .band{background:var(--signal)}
+.jersey.w .band{background:repeating-linear-gradient(90deg,#fff 0 14px,#ddd 14px 28px);border:1px solid var(--rule-soft)}
+.jersey .name{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.jersey .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.4}
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .statband{grid-template-columns:repeat(2,1fr)}
+  .statband .s{border-bottom:1px solid var(--rule-soft)}
+  .fav{grid-template-columns:1fr}
+  .stamp{display:none}
+  .stage{grid-template-columns:48px 70px 1fr 70px}
+  .stage .c.dt,.stage .c.terrcell,.stage .c.desc{display:none}
+  .twocol{grid-template-columns:1fr}
+  .jerseys{grid-template-columns:repeat(2,1fr)}
+  .sec{grid-template-columns:60px 40px 1fr 70px}
+  .sec .c.rt{display:none}
+  .climb{grid-template-columns:60px 50px 1fr 80px}
+  .climb .c.gr{display:none}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Race Sheet · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>NSC/GP-SAMARKA/S2</b><br/>
+          Built <b>2026-04-20</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="../index.html" class="on">01 — Calendar</a>
+        <a href="../riders.html">02 — Men's Riders</a>
+        <a href="../riders-women.html">03 — Women's Riders</a>
+        <a href="../about.html">04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">§ Race Sheet</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+    <div class="crumbs"><a href="../index.html">Calendar</a><span class="sep">/</span><a href="gp-samarkand-2026.html">GP Samarkand</a><span class="sep">/</span>Stage 2</div>
+    
+    <section class="hero">
+      <div>
+        <div class="tag">
+          <span class="code">2.1</span>
+          <span>Stage 2 · HILLY</span>
+          <span>Tuesday, April 21, 2026</span>
+        </div>
+        <h1>Stage 2<br/><span class="em">Zarafshan Valley</span></h1>
+        <p class="sub">Hilly stage with one or two categorized climbs in the Zarafshan valley - the probable GC-defining day.</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Race</span><span class="v sm"><a href="gp-samarkand-2026.html" style="border-bottom:1px solid var(--ink)">GP Samarkand</a></span></div>
+        <div class="stat"><span class="k">Distance</span><span class="v mono">140<small style="font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px">km</small></span></div>
+        <div class="stat"><span class="k">Terrain</span><span class="v sm">HILLY</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">TBD</span></div>
+      </aside>
+    </section>
+
+    
+    
+
+    
+    <section class="section">
+      <div class="eyebrow">§ 03 — Viewing Notes</div>
+      <h2>When to tune in</h2>
+      <p class="prose">Watch for attacks on the main climb; this stage typically reshapes the GC.</p>
+    </section>
+  
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ Stage Sheet · GP Samarkand S2</span>
+        <span>Built 2026-04-20</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

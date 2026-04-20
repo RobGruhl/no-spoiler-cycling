@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>No Spoiler Cycling — 2026 Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="shared.css"/>
+<style>
+/* ——— Calendar-specific ——— */
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(56px,7vw,104px);line-height:.88;letter-spacing:-.045em;margin:0}
+.hero h1 .rb{background:linear-gradient(90deg,var(--uci-blue) 0 20%,var(--uci-red) 20% 40%,var(--uci-black) 40% 60%,var(--uci-yellow) 60% 80%,var(--uci-green) 80% 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{font-family:var(--font-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-top:18px}
+.hero aside{border-left:1px solid var(--rule);padding-left:32px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px 24px;align-content:start}
+.stat{display:block}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:32px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.stat .v.sm{font-size:22px}
+
+/* Filters toolbar */
+.toolbar{position:sticky;top:0;background:var(--paper);z-index:10;border-bottom:1px solid var(--rule);padding:12px 0 10px;margin-top:18px}
+.toolbar-row{display:flex;flex-wrap:wrap;gap:6px 6px;align-items:center}
+.toolbar-row + .toolbar-row{margin-top:8px}
+.tb-label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin-right:10px;min-width:56px}
+.showing{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:auto}
+.showing b{color:var(--ink);font-weight:600}
+
+/* Calendar table */
+.cal{margin-top:0}
+.row{display:grid;grid-template-columns:56px 56px 120px 1fr 140px 90px 44px 120px 80px;gap:0;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:center;transition:background .08s}
+.row:hover{background:var(--paper-2)}
+.row .c{padding:0 10px;display:flex;align-items:center;min-width:0}
+.row .c.first{padding-left:0}
+.row .stars{letter-spacing:.08em}
+.row .code{flex:0 0 auto}
+.row .name{font-family:var(--font-sans);font-weight:600;font-size:16px;letter-spacing:-.005em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .loc{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.04em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
+.row .stg{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase;text-align:right}
+.row .gender{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;color:var(--ink-3)}
+.row .bc{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase;text-align:right}
+.row .terr{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-2);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.row.gt{background:linear-gradient(90deg, rgba(245,197,24,.14), transparent 40%)}
+.row.mon{background:linear-gradient(90deg, rgba(200,16,46,.10), transparent 40%)}
+.row.wc{background:linear-gradient(90deg, rgba(31,58,138,.10), transparent 40%)}
+
+.row .pq{display:flex;gap:4px}
+.pq .p{height:14px;padding:0 5px;border:1px solid var(--ink);font-family:var(--font-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;display:inline-flex;align-items:center;line-height:1;font-weight:600}
+.pq .p.gt{background:var(--uci-yellow);border-color:var(--uci-yellow);color:#111}
+.pq .p.mon{background:var(--signal);border-color:var(--signal);color:#fff}
+.pq .p.wc{background:var(--uci-blue);border-color:var(--uci-blue);color:#fff}
+
+/* Legend / rating guide */
+.legend{margin-top:48px;padding:22px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+.legend h3{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);margin:0 0 14px;font-weight:500}
+.legend .row2{display:grid;grid-template-columns:auto 1fr;column-gap:14px;row-gap:8px;font-family:var(--font-mono);font-size:12px}
+.legend .row2 .k{color:var(--ink);font-weight:600;letter-spacing:.04em}
+.legend .row2 .v{color:var(--ink-3)}
+
+@media (max-width:1100px){
+  .row{grid-template-columns:50px 54px 110px 1fr 90px}
+  .row .c.terr,.row .c.bc,.row .c.stg,.row .c.gender,.row .c.loc{display:none}
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+}
+@media (max-width:640px){
+  .row{grid-template-columns:48px 1fr 70px}
+  .row .c.first,.row .c:nth-child(4),.row .c:nth-child(9){display:flex}
+  .row .c:nth-child(2),.row .c:nth-child(3),.row .c.loc,.row .c.terr,.row .c.gender,.row .c.bc{display:none}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div>
+          <div class="wordmark">No<span class="slash">/</span>Spoiler<br/>Cycling
+            <span class="sub">Union Cycliste Internationale · Calendrier Élite · Season MMXXVI</span>
+          </div>
+        </div>
+        <div class="mast-meta">
+          Édition <b>04 · 2026</b><br/>
+          Document <b>NSC/CAL/26</b><br/>
+          Updated <b>19 APR 2026</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="index.html" class="on">01 — Calendar</a>
+        <a href="riders.html">02 — Men's Riders</a>
+        <a href="riders-women.html">03 — Women's Riders</a>
+        <a href="race-paris-roubaix.html">04 — Race Sheet</a>
+        <a href="race-tour-down-under.html">05 — Stage Race</a>
+        <span class="spacer"></span>
+        <span class="edition mono">EN · FR</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">UCI Elite Road &amp; Cyclocross · 2026</div>
+        <h1>The 2026<br/>Season, <span class="rb">Unspoiled</span>.</h1>
+        <p class="lead">Every race worth watching. Rated, coded, and scheduled — without telling you who won.</p>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Races on file</span><span class="v">294</span></div>
+        <div class="stat"><span class="k">Grand Tours</span><span class="v">7</span></div>
+        <div class="stat"><span class="k">Monuments</span><span class="v">15</span></div>
+        <div class="stat"><span class="k">World Champs</span><span class="v">5</span></div>
+        <div class="stat"><span class="k">★★★★★ events</span><span class="v sm">19</span></div>
+        <div class="stat"><span class="k">★★★★+ events</span><span class="v sm">72</span></div>
+      </aside>
+    </section>
+
+    <section class="toolbar" id="toolbar">
+      <div class="toolbar-row">
+        <span class="tb-label">Rating</span>
+        <button class="chip on" data-f="rating" data-v="0">All <span class="n">·60</span></button>
+        <button class="chip" data-f="rating" data-v="2">★★+</button>
+        <button class="chip" data-f="rating" data-v="3">★★★+</button>
+        <button class="chip" data-f="rating" data-v="4">★★★★+</button>
+        <button class="chip" data-f="rating" data-v="5">★★★★★</button>
+        <span class="tb-label" style="margin-left:18px">Disc.</span>
+        <button class="chip on" data-f="disc" data-v="all">All</button>
+        <button class="chip" data-f="disc" data-v="road">Road</button>
+        <button class="chip" data-f="disc" data-v="cx">Cyclocross</button>
+        <span class="tb-label" style="margin-left:18px">Gender</span>
+        <button class="chip on" data-f="gender" data-v="all">All</button>
+        <button class="chip" data-f="gender" data-v="m">Men's</button>
+        <button class="chip" data-f="gender" data-v="w">Women's</button>
+        <span class="showing"><b id="shown">—</b> of <b id="total">—</b> races</span>
+      </div>
+      <div class="toolbar-row">
+        <span class="tb-label">Format</span>
+        <button class="chip on" data-f="format" data-v="all">All</button>
+        <button class="chip" data-f="format" data-v="one">One-Day</button>
+        <button class="chip" data-f="format" data-v="stage">Stage</button>
+        <button class="chip" data-f="format" data-v="itt">ITT</button>
+        <button class="chip" data-f="format" data-v="ttt">TTT</button>
+        <span class="tb-label" style="margin-left:18px">Terrain</span>
+        <button class="chip on" data-f="terrain" data-v="all">All</button>
+        <button class="chip" data-f="terrain" data-v="flat">Flat</button>
+        <button class="chip" data-f="terrain" data-v="hilly">Hilly</button>
+        <button class="chip" data-f="terrain" data-v="mountain">Mountain</button>
+        <button class="chip" data-f="terrain" data-v="cobbles">Cobbles</button>
+        <button class="chip" data-f="terrain" data-v="gravel">Gravel</button>
+        <button class="chip" data-f="terrain" data-v="itt">Time Trial</button>
+        <span class="tb-label" style="margin-left:18px">Prestige</span>
+        <button class="chip on" data-f="prestige" data-v="all">All</button>
+        <button class="chip" data-f="prestige" data-v="grand_tour">Grand Tour</button>
+        <button class="chip" data-f="prestige" data-v="monument">Monument</button>
+        <button class="chip" data-f="prestige" data-v="worlds">Worlds</button>
+      </div>
+    </section>
+
+    <section class="cal" id="cal"><!-- populated by JS --></section>
+
+    <section class="legend">
+      <div>
+        <h3>★ Rating Guide</h3>
+        <div class="row2">
+          <span class="k">★★★★★</span><span class="v">Can't miss — Grand Tours, Monuments, WC Road</span>
+          <span class="k">★★★★</span><span class="v">Major events — World Tour races</span>
+          <span class="k">★★★</span><span class="v">Good racing — Pro Series</span>
+          <span class="k">★★</span><span class="v">Nice to catch — Continental stage</span>
+          <span class="k">★</span><span class="v">Completionist — Minor one-days</span>
+        </div>
+      </div>
+      <div>
+        <h3>Race Codes</h3>
+        <div class="row2">
+          <span class="k">2.UWT / 1.UWT</span><span class="v">UCI World Tour · stage / one-day</span>
+          <span class="k">2.Pro / 1.Pro</span><span class="v">UCI Pro Series</span>
+          <span class="k">2.1 / 1.1</span><span class="v">UCI Continental calendar</span>
+          <span class="k">WWT</span><span class="v">Women's World Tour</span>
+          <span class="k">CX.WC / WCh</span><span class="v">Cyclocross World Cup / Worlds</span>
+        </div>
+      </div>
+      <div>
+        <h3>Colophon</h3>
+        <div class="row2">
+          <span class="k">Set in</span><span class="v">Inter Tight · JetBrains Mono</span>
+          <span class="k">Bands</span><span class="v">Blue · Red · Black · Yellow · Green</span>
+          <span class="k">Edition</span><span class="v">04 · 19 April 2026</span>
+          <span class="k">Source</span><span class="v">UCI calendar · editorial selection</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ 01 — Calendar</span>
+        <span>Pg. 01 / 12</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Tweaks panel -->
+  <div class="tweaks" id="tweaks">
+    <header><span>Tweaks</span><span class="x" id="tw-close">×</span></header>
+    <div class="row"><span>Density</span>
+      <span><button data-d=".85">Compact</button><button class="on" data-d="1">Default</button><button data-d="1.2">Loose</button></span>
+    </div>
+    <div class="row"><span>Theme</span>
+      <span><button class="on" data-th="light">Paper</button><button data-th="dark">Ink</button></span>
+    </div>
+    <div class="row"><span>Codes only</span>
+      <button id="tw-codes" class="on">On</button>
+    </div>
+    <div class="row"><span>Zebra rows</span>
+      <button id="tw-zebra">Off</button>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "density": "1",
+    "theme": "light",
+    "codesOnly": true,
+    "zebra": false
+  }/*EDITMODE-END*/;
+  const state = {rating:0, disc:"all", gender:"all", format:"all", terrain:"all", prestige:"all"};
+  const MONTHS = window.MONTHS;
+
+  const catColor = (c) => c.includes("UWT")?"UWT":c.includes("WWT")?"WWT":c.includes("Pro")?"Pro":c.startsWith("CX")?"CX":c.startsWith("WC")?"WC":"1";
+  const prestigeBadges = (p, cat) => {
+    let out = "";
+    if (p.includes("grand_tour")) out += `<span class="p gt">GT</span>`;
+    if (p.includes("monument"))   out += `<span class="p mon">MON</span>`;
+    if (p.includes("worlds"))     out += `<span class="p wc">WC</span>`;
+    return out?`<span class="pq">${out}</span>`:"";
+  };
+  const starsHtml = (n) => {
+    const on = "★".repeat(n), off = "★".repeat(5-n);
+    return `<span class="stars">${on}<span class="off">${off}</span></span>`;
+  };
+  const terrMap = {flat:"FLT", hilly:"HIL", mountain:"MTN", cobbles:"PAV", gravel:"GRV", itt:"TT", circuit:"CIR"};
+  const terrHtml = (arr) => arr.map(t=>terrMap[t]||t.toUpperCase()).join(" · ");
+  const genderLbl = {m:"M", w:"W", x:"MIX"};
+
+  function match(r){
+    if (state.rating && r.rating < state.rating) return false;
+    if (state.disc!=="all" && r.disc!==state.disc) return false;
+    if (state.gender!=="all" && r.gender!==state.gender) return false;
+    if (state.format!=="all" && r.format!==state.format) return false;
+    if (state.terrain!=="all" && !r.terrain.includes(state.terrain)) return false;
+    if (state.prestige!=="all" && !r.prestige.includes(state.prestige)) return false;
+    return true;
+  }
+
+  function render(){
+    const host = document.getElementById("cal");
+    const grouped = {};
+    const filtered = window.RACES.filter(match);
+    filtered.forEach(r => (grouped[r.month] = grouped[r.month] || []).push(r));
+    document.getElementById("shown").textContent = filtered.length;
+    document.getElementById("total").textContent = window.RACES.length;
+
+    let html = "";
+    Object.keys(grouped).sort((a,b)=>a-b).forEach(m => {
+      const races = grouped[m];
+      html += `<header class="month-head">
+        <div><div class="lbl">Month</div><div class="num mono">${String(m).padStart(2,"0")}</div></div>
+        <div><div class="lbl">2026</div><div class="name">${MONTHS[m-1]}</div></div>
+        <div class="count">${races.length} race${races.length!==1?"s":""}</div>
+      </header>`;
+      races.forEach(r => {
+        const href = r.slug ? `race-${r.slug}.html` : "#";
+        const cls = r.prestige.includes("grand_tour")?"gt":r.prestige.includes("monument")?"mon":r.prestige.includes("worlds")?"wc":"";
+        const codeCls = r.prestige.includes("worlds")?"code wc":r.cat.includes("UWT")||r.cat.includes("WWT")?"code inv":"code";
+        html += `<a class="row ${cls}" href="${href}">
+          <div class="c first">${starsHtml(r.rating)}</div>
+          <div class="c"><span class="${codeCls}">${r.cat}</span></div>
+          <div class="c dt">${r.d}</div>
+          <div class="c"><span class="name">${r.name}</span></div>
+          <div class="c loc">${r.loc}</div>
+          <div class="c terr">${terrHtml(r.terrain)}</div>
+          <div class="c gender">${genderLbl[r.gender]||""}</div>
+          <div class="c bc">${r.coverage||""}</div>
+          <div class="c stg">${r.format==="stage"?`${r.stages||"—"} stg`:r.format.toUpperCase()}</div>
+        </a>`;
+      });
+    });
+    if (!filtered.length) html = `<div style="padding:60px 0;text-align:center;font-family:var(--font-mono);color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase">No races match these filters.</div>`;
+    host.innerHTML = html;
+  }
+
+  // Chips
+  document.querySelectorAll(".chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const f = btn.dataset.f, v = btn.dataset.v;
+      state[f] = (f==="rating") ? Number(v) : v;
+      document.querySelectorAll(`.chip[data-f="${f}"]`).forEach(b => b.classList.toggle("on", b===btn));
+      render();
+    });
+  });
+
+  // Tweaks wire-up
+  function applyTweaks(t){
+    document.documentElement.style.setProperty("--density", t.density);
+    document.documentElement.setAttribute("data-theme", t.theme);
+    document.body.classList.toggle("zebra", !!t.zebra);
+  }
+  const style = document.createElement("style");
+  style.textContent = `body.zebra .row:nth-child(odd){background:var(--paper-2)}`;
+  document.head.appendChild(style);
+
+  let tweaks = {...TWEAK_DEFAULTS};
+  applyTweaks(tweaks);
+
+  function setTw(k,v){ tweaks[k]=v; applyTweaks(tweaks); window.parent.postMessage({type:"__edit_mode_set_keys", edits:{[k]:v}}, "*"); }
+
+  document.querySelectorAll(".tweaks [data-d]").forEach(b=>b.onclick=()=>{
+    document.querySelectorAll(".tweaks [data-d]").forEach(x=>x.classList.toggle("on",x===b));
+    setTw("density", b.dataset.d);
+  });
+  document.querySelectorAll(".tweaks [data-th]").forEach(b=>b.onclick=()=>{
+    document.querySelectorAll(".tweaks [data-th]").forEach(x=>x.classList.toggle("on",x===b));
+    setTw("theme", b.dataset.th);
+  });
+  document.getElementById("tw-zebra").onclick=function(){ const v=!tweaks.zebra; this.textContent=v?"On":"Off"; this.classList.toggle("on",v); setTw("zebra",v); };
+  document.getElementById("tw-close").onclick=()=>document.getElementById("tweaks").classList.remove("show");
+
+  // Edit mode handshake
+  window.addEventListener("message", (e)=>{
+    if (e.data?.type==="__activate_edit_mode") document.getElementById("tweaks").classList.add("show");
+    if (e.data?.type==="__deactivate_edit_mode") document.getElementById("tweaks").classList.remove("show");
+  });
+  window.parent.postMessage({type:"__edit_mode_available"}, "*");
+
+  render();
+  </script>
+</body>
+</html>

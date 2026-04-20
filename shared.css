@@ -1,0 +1,109 @@
+/* No Spoiler Cycling — UCI Roadbook shared styles */
+:root {
+  --paper: #f4f1ea;
+  --paper-2: #ebe6db;
+  --ink: #14110f;
+  --ink-2: #3a3530;
+  --ink-3: #6b635a;
+  --rule: #14110f;
+  --rule-soft: rgba(20,17,15,.18);
+  --signal: #c8102e;            /* UCI red */
+  --uci-blue: #1f3a8a;
+  --uci-red:  #c8102e;
+  --uci-black:#14110f;
+  --uci-yellow:#f5c518;
+  --uci-green:#2e7d4f;
+  --density: 1;                 /* Tweaks: 0.85 compact, 1 default, 1.2 loose */
+  --font-sans: 'Inter Tight', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+}
+[data-theme="dark"] {
+  --paper:#0e0d0c; --paper-2:#1a1815; --ink:#f2ede2; --ink-2:#c9c2b4;
+  --ink-3:#7e766b; --rule:#f2ede2; --rule-soft:rgba(242,237,226,.18);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);font-feature-settings:"ss01","cv11","tnum";}
+body{min-height:100vh;}
+a{color:inherit;text-decoration:none}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+
+/* ——— Rainbow bar ——— */
+.rainbow{display:flex;height:4px;width:100%}
+.rainbow>span{flex:1}
+.rainbow>span:nth-child(1){background:var(--uci-blue)}
+.rainbow>span:nth-child(2){background:var(--uci-red)}
+.rainbow>span:nth-child(3){background:var(--uci-black)}
+.rainbow>span:nth-child(4){background:var(--uci-yellow)}
+.rainbow>span:nth-child(5){background:var(--uci-green)}
+.rainbow.thick{height:10px}
+.rainbow.v{flex-direction:column;width:4px;height:auto;align-self:stretch}
+
+/* ——— Page frame ——— */
+.frame{max-width:1360px;margin:0 auto;padding:0 32px}
+.masthead{border-bottom:1px solid var(--rule);}
+.masthead-inner{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;padding:22px 0 18px}
+.wordmark{font-family:var(--font-sans);font-weight:800;letter-spacing:-.02em;font-size:34px;line-height:.95;text-transform:uppercase}
+.wordmark .slash{color:var(--signal);margin:0 .1em}
+.wordmark .sub{display:block;font-size:11px;letter-spacing:.22em;font-weight:500;color:var(--ink-3);margin-top:8px}
+.mast-meta{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);text-align:right;line-height:1.55;letter-spacing:.02em;text-transform:uppercase}
+.mast-meta b{color:var(--ink);font-weight:600}
+
+/* Nav strip */
+.navstrip{display:flex;gap:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.navstrip a{padding:10px 18px;border-right:1px solid var(--rule-soft);color:var(--ink-2)}
+.navstrip a.on{background:var(--ink);color:var(--paper)}
+.navstrip a:hover:not(.on){background:var(--paper-2)}
+.navstrip .spacer{flex:1;border-right:1px solid var(--rule-soft)}
+.navstrip .edition{padding:10px 18px;color:var(--ink-3)}
+
+/* ——— Codes / badges ——— */
+.code{display:inline-flex;align-items:center;height:20px;padding:0 7px;border:1px solid var(--ink);font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;line-height:1;white-space:nowrap}
+.code.inv{background:var(--ink);color:var(--paper)}
+.code.wc{background:linear-gradient(to bottom,
+  var(--uci-blue) 0 20%,
+  var(--uci-red) 20% 40%,
+  var(--uci-black) 40% 60%,
+  var(--uci-yellow) 60% 80%,
+  var(--uci-green) 80% 100%);
+  color:#fff;border-color:transparent;text-shadow:0 0 2px rgba(0,0,0,.6)}
+.code.sig{background:var(--signal);color:#fff;border-color:var(--signal)}
+
+/* terrain glyph (unicode-based monospace marks) */
+.terrain{display:inline-grid;grid-auto-flow:column;gap:4px;font-family:var(--font-mono);font-size:11px;color:var(--ink-2);letter-spacing:.04em}
+
+/* Stars */
+.stars{font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;color:var(--ink)}
+.stars .off{color:var(--rule-soft)}
+
+/* Buttons / chips */
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--rule);background:transparent;color:var(--ink);font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;line-height:1}
+.chip .n{color:var(--ink-3)}
+.chip.on{background:var(--ink);color:var(--paper)}
+.chip.on .n{color:var(--paper)}
+.chip:hover:not(.on){background:var(--paper-2)}
+
+/* Section head (month) */
+.month-head{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:baseline;padding:22px 0 8px;border-top:3px solid var(--ink);margin-top:36px}
+.month-head .num{font-family:var(--font-sans);font-weight:800;font-size:76px;line-height:.9;letter-spacing:-.04em}
+.month-head .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+.month-head .name{font-family:var(--font-sans);font-weight:600;font-size:28px;letter-spacing:-.02em}
+.month-head .count{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);text-align:right}
+
+/* Footer */
+footer.foot{border-top:1px solid var(--rule);margin-top:60px;padding:22px 0 40px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+.foot-row{display:flex;justify-content:space-between;gap:24px}
+
+/* utility */
+.hr{border:0;border-top:1px solid var(--rule-soft);margin:0}
+.hr.solid{border-top-color:var(--rule)}
+.eyebrow{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+
+/* Tweaks panel */
+.tweaks{position:fixed;right:16px;bottom:16px;width:280px;background:var(--paper);border:1px solid var(--ink);box-shadow:6px 6px 0 var(--ink);font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;z-index:50;display:none}
+.tweaks.show{display:block}
+.tweaks header{display:flex;justify-content:space-between;align-items:center;background:var(--ink);color:var(--paper);padding:8px 10px;text-transform:uppercase;letter-spacing:.18em}
+.tweaks header .x{cursor:pointer}
+.tweaks .row{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-top:1px solid var(--rule-soft);gap:8px}
+.tweaks .row:first-of-type{border-top:0}
+.tweaks button, .tweaks select{background:transparent;border:1px solid var(--ink);color:var(--ink);padding:4px 8px;font-family:var(--font-mono);font-size:11px;cursor:pointer;text-transform:uppercase;letter-spacing:.06em}
+.tweaks button.on{background:var(--ink);color:var(--paper)}
