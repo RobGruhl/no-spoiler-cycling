@@ -33,6 +33,8 @@ const GENDER_CODE = { men: 'm', women: 'w', mixed: 'x' };
 const FORMAT_CODE = { 'one-day': 'one', 'stage-race': 'stage', itt: 'itt', ttt: 'ttt' };
 const PRESTIGE_CODE = { 'grand-tour': 'grand_tour', monument: 'monument', 'world-championship': 'worlds' };
 
+const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU'];
+
 function transformRace(r) {
   const month = r.raceDate ? Number(r.raceDate.slice(5, 7)) : 0;
   const disc = r.discipline === 'cyclocross' ? 'cx' : (r.discipline || 'road');
@@ -40,11 +42,12 @@ function transformRace(r) {
   const format = FORMAT_CODE[r.raceFormat] || r.raceFormat || 'one';
   const prestige = [...new Set((r.prestige || []).map(p => PRESTIGE_CODE[p] || p))];
   const terrain = (r.terrain || []).map(t => t === 'cyclocross' ? 'circuit' : t);
-  const coverage =
-    r.broadcast?.geos?.US?.primary?.broadcaster ||
-    r.broadcast?.geos?.UK?.primary?.broadcaster ||
-    r.platform ||
-    '';
+
+  // Primary-audience geos (US/CA/UK/AU) that have a broadcaster with a URL
+  const geos = PRIMARY_GEO_ORDER.filter(g => r.broadcast?.geos?.[g]?.primary?.url);
+  // Note any other geos present (BE, NL, etc.) for visibility
+  const otherGeos = Object.keys(r.broadcast?.geos || {})
+    .filter(g => !PRIMARY_GEO_ORDER.includes(g) && r.broadcast.geos[g]?.primary?.url);
 
   return {
     d: formatDateRange(r.raceDate, r.endDate),
@@ -60,7 +63,8 @@ function transformRace(r) {
     format,
     terrain,
     prestige,
-    coverage,
+    geos,
+    otherGeos,
     stages: Array.isArray(r.stages) ? r.stages.length : 0,
     slug: r.id,
   };
@@ -118,7 +122,10 @@ function buildHtml(rows, stats, updatedLabel) {
 .row .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .row .stg{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase;text-align:right}
 .row .gender{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;color:var(--ink-3)}
-.row .bc{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase;text-align:right}
+.row .bc{font-family:var(--font-mono);font-size:13px;text-align:right;line-height:1;display:flex;gap:4px;justify-content:flex-end;align-items:center}
+.row .bc .f{display:inline-block;font-size:16px}
+.row .bc .more{font-size:10px;color:var(--ink-3);letter-spacing:.08em;margin-left:2px}
+.row .bc.tbd{font-size:10.5px;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase}
 .row .terr{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-2);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row.gt{background:linear-gradient(90deg, rgba(245,197,24,.14), transparent 40%)}
 .row.mon{background:linear-gradient(90deg, rgba(200,16,46,.10), transparent 40%)}
@@ -290,6 +297,13 @@ function buildHtml(rows, stats, updatedLabel) {
   const terrMap = {flat:"FLT", hilly:"HIL", mountain:"MTN", cobbles:"PAV", gravel:"GRV", itt:"TT", circuit:"CIR", 'crosswind-risk':"WND", 'summit-finish':"SUM"};
   const terrHtml = (arr) => arr.map(t=>terrMap[t]||t.toUpperCase()).join(" · ");
   const genderLbl = {m:"M", w:"W", x:"MIX"};
+  const GEO_FLAG = {US:"🇺🇸",CA:"🇨🇦",UK:"🇬🇧",AU:"🇦🇺",BE:"🇧🇪",NL:"🇳🇱",TH:"🇹🇭",INTL:"🌐"};
+  const geoCell = (r) => {
+    if (!r.geos.length && !r.otherGeos.length) return '<span class="bc tbd">no stream</span>';
+    const main = r.geos.map(g => \`<span class="f" title="\${g}">\${GEO_FLAG[g]||g}</span>\`).join("");
+    const extra = r.otherGeos.length ? \`<span class="more">+\${r.otherGeos.length}</span>\` : "";
+    return main + extra;
+  };
 
   function match(r){
     if (state.rating && r.rating < state.rating) return false;
@@ -329,7 +343,7 @@ function buildHtml(rows, stats, updatedLabel) {
           <div class="c loc">\${r.loc}</div>
           <div class="c terr">\${terrHtml(r.terrain)}</div>
           <div class="c gender">\${genderLbl[r.gender]||""}</div>
-          <div class="c bc">\${r.coverage||""}</div>
+          <div class="c bc">\${geoCell(r)}</div>
           <div class="c stg">\${r.format==="stage"?(r.stages?r.stages+" stg":"stg"):r.format.toUpperCase()}</div>
         </a>\`;
       });

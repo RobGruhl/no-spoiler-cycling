@@ -91,6 +91,127 @@ function primaryBroadcaster(race) {
     || '';
 }
 
+const GEO_LABEL = {
+  US: { flag: '🇺🇸', name: 'United States' },
+  CA: { flag: '🇨🇦', name: 'Canada' },
+  UK: { flag: '🇬🇧', name: 'United Kingdom' },
+  AU: { flag: '🇦🇺', name: 'Australia' },
+  BE: { flag: '🇧🇪', name: 'Belgium' },
+  NL: { flag: '🇳🇱', name: 'Netherlands' },
+  TH: { flag: '🇹🇭', name: 'Thailand' },
+  INTL: { flag: '🌐', name: 'International' },
+};
+const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU', 'BE', 'NL', 'INTL'];
+
+function renderWatchSection(race) {
+  const geos = race.broadcast?.geos || {};
+  const entries = PRIMARY_GEO_ORDER
+    .filter(g => geos[g]?.primary)
+    .concat(Object.keys(geos).filter(g => !PRIMARY_GEO_ORDER.includes(g) && geos[g]?.primary));
+  const ytChannels = race.broadcast?.youtubeChannels || [];
+
+  if (!entries.length && !ytChannels.length) {
+    return `<section class="section">
+      <div class="eyebrow">§ Watch</div>
+      <h2>Where to watch <span class="placeholder">TBD</span></h2>
+      <p class="prose">Broadcast details not yet confirmed. Check back closer to race day.</p>
+    </section>`;
+  }
+
+  const rows = entries.map(g => {
+    const geo = GEO_LABEL[g] || { flag: '🌍', name: g };
+    const p = geos[g].primary;
+    const alts = geos[g].alternatives || [];
+    const typeTag = p.subscription ? '$' : 'free';
+    const coverageTag = (p.coverage || 'live').toUpperCase();
+    const cta = p.url
+      ? `<a class="watch-cta" href="${htmlEscape(p.url)}" target="_blank" rel="noopener">Watch →</a>`
+      : `<span class="watch-cta disabled">no link</span>`;
+    const altsHtml = alts.length
+      ? `<div class="w-alts">${alts.map(a => {
+          const aTag = a.subscription ? '$' : 'free';
+          const aCover = (a.coverage || '').toUpperCase();
+          const aCta = a.url
+            ? `<a href="${htmlEscape(a.url)}" target="_blank" rel="noopener">${htmlEscape(a.broadcaster)} →</a>`
+            : `<span>${htmlEscape(a.broadcaster)}</span>`;
+          return `<span class="w-alt">${aCta}<span class="w-altmeta mono">${aCover}${aTag ? ' · ' + aTag : ''}</span></span>`;
+        }).join('')}</div>` : '';
+    return `<div class="wrow">
+      <div class="w-geo"><span class="w-flag">${geo.flag}</span><span class="w-name">${htmlEscape(geo.name)}</span></div>
+      <div class="w-bc">
+        <div class="w-bc-name">${htmlEscape(p.broadcaster || 'TBD')}</div>
+        <div class="w-bc-meta mono">${htmlEscape(p.type || '')} · ${coverageTag} · ${typeTag}</div>
+        ${p.notes ? `<div class="w-bc-notes">${htmlEscape(p.notes)}</div>` : ''}
+        ${altsHtml}
+      </div>
+      <div class="w-cta">${cta}</div>
+    </div>`;
+  }).join('');
+
+  const ytHtml = ytChannels.length ? `<div class="w-yt mono">
+    <span class="w-yt-lbl">YouTube</span>
+    ${ytChannels.map(c => {
+      const url = c.handle ? `https://www.youtube.com/${encodeURIComponent(c.handle)}` : `https://www.youtube.com/results?search_query=${encodeURIComponent(c.channel || '')}`;
+      return `<a href="${htmlEscape(url)}" target="_blank" rel="noopener">${htmlEscape(c.handle || c.channel)}${c.contentType ? ' · ' + htmlEscape(c.contentType) : ''}</a>`;
+    }).join('<span class="sep">·</span>')}
+  </div>` : '';
+
+  return `<section class="section watch">
+    <div class="eyebrow">§ Watch</div>
+    <h2>Where to watch</h2>
+    <div class="wtable">${rows}</div>
+    ${ytHtml}
+    <p class="prose" style="margin-top:10px;font-size:12px;letter-spacing:.04em">⚠️ Spoiler warning: live streams and broadcaster home pages may show current standings. Disable autoplay &amp; avoid sidebar recommendations on YouTube.</p>
+  </section>`;
+}
+
+function renderStageWatchSection(race, stage) {
+  const links = [];
+  if (stage.url && stage.url !== 'TBD' && stage.platform) {
+    links.push({ label: stage.platform, url: stage.url, type: 'primary', tag: stage.duration ? `full · ${stage.duration}` : 'full replay' });
+  }
+  if (stage.youtubeHighlights && stage.youtubeHighlights !== 'TBD') {
+    links.push({ label: 'YouTube Highlights', url: stage.youtubeHighlights, type: 'highlights', tag: 'highlights' });
+  }
+  const geos = race.broadcast?.geos || {};
+  const raceLinks = PRIMARY_GEO_ORDER
+    .filter(g => geos[g]?.primary?.url)
+    .map(g => ({
+      geo: g,
+      flag: GEO_LABEL[g]?.flag || '🌍',
+      broadcaster: geos[g].primary.broadcaster,
+      url: geos[g].primary.url,
+    }));
+
+  if (!links.length && !raceLinks.length) {
+    return `<section class="section">
+      <div class="eyebrow">§ Watch</div>
+      <h2>Watch this stage <span class="placeholder">TBD</span></h2>
+      <p class="prose">Stage broadcast details not yet confirmed.</p>
+    </section>`;
+  }
+
+  const primaryCtas = links.length ? `<div class="stage-ctas">
+    ${links.map(l => `<a class="stage-cta ${l.type}" href="${htmlEscape(l.url)}" target="_blank" rel="noopener">
+      <span class="stage-cta-label">${htmlEscape(l.label)}</span>
+      <span class="stage-cta-meta mono">${htmlEscape(l.tag)} →</span>
+    </a>`).join('')}
+  </div>` : '';
+
+  const raceLinksHtml = raceLinks.length ? `<div class="stage-geo-links mono">
+    <span class="stage-geo-lbl">Race coverage</span>
+    ${raceLinks.map(r => `<a href="${htmlEscape(r.url)}" target="_blank" rel="noopener">${r.flag} ${htmlEscape(r.broadcaster)}</a>`).join('<span class="sep">·</span>')}
+  </div>` : '';
+
+  return `<section class="section watch">
+    <div class="eyebrow">§ Watch</div>
+    <h2>Watch this stage</h2>
+    ${primaryCtas}
+    ${raceLinksHtml}
+    <p class="prose" style="margin-top:10px;font-size:12px;letter-spacing:.04em">⚠️ Spoiler warning: disable autoplay and avoid sidebar recommendations to stay spoiler-free.</p>
+  </section>`;
+}
+
 // ============================================
 // SHARED PAGE SCAFFOLD
 // ============================================
@@ -127,6 +248,42 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 6px}
 .section .eyebrow{margin-bottom:4px}
 .placeholder{display:inline-block;border:1px dashed var(--ink-3);padding:2px 8px;font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-left:10px;vertical-align:middle;border-radius:2px}
+.section.watch{background:linear-gradient(180deg, rgba(200,16,46,.04), transparent 70%)}
+.wtable{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.wrow{display:grid;grid-template-columns:200px 1fr 120px;gap:0;padding:16px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.wrow .w-geo{display:flex;align-items:center;gap:10px;padding:0 10px 0 0}
+.wrow .w-flag{font-size:24px;line-height:1}
+.wrow .w-name{font-family:var(--font-sans);font-weight:600;font-size:14px;letter-spacing:-.005em}
+.wrow .w-bc{padding:0 16px;min-width:0}
+.wrow .w-bc-name{font-family:var(--font-sans);font-weight:600;font-size:15px;letter-spacing:-.005em;line-height:1.2}
+.wrow .w-bc-meta{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:4px}
+.wrow .w-bc-notes{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.4}
+.wrow .w-alts{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px 14px;font-family:var(--font-mono);font-size:11px}
+.wrow .w-alt{display:flex;align-items:center;gap:6px;color:var(--ink-2)}
+.wrow .w-alt a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.wrow .w-alt a:hover{border-bottom-color:var(--ink)}
+.wrow .w-altmeta{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.wrow .w-cta{text-align:right}
+.watch-cta{display:inline-flex;align-items:center;padding:10px 16px;background:var(--ink);color:var(--paper);font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;border:1px solid var(--ink);line-height:1;transition:background .12s,color .12s}
+.watch-cta:hover{background:var(--signal);border-color:var(--signal);color:#fff}
+.watch-cta.disabled{background:transparent;color:var(--ink-3);border-color:var(--rule-soft);cursor:default}
+.w-yt{margin-top:18px;padding:14px;border:1px dashed var(--rule);display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;letter-spacing:.08em}
+.w-yt-lbl{font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-right:6px}
+.w-yt a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.w-yt a:hover{border-bottom-color:var(--ink)}
+.w-yt .sep{color:var(--rule-soft);margin:0 4px}
+.stage-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+.stage-cta{display:inline-grid;grid-template-rows:auto auto;gap:4px;padding:14px 20px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);transition:background .12s,color .12s}
+.stage-cta.primary:hover{background:var(--signal);border-color:var(--signal)}
+.stage-cta.highlights{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.stage-cta.highlights:hover{background:var(--paper-2)}
+.stage-cta-label{font-family:var(--font-sans);font-weight:700;font-size:15px;letter-spacing:-.005em;line-height:1}
+.stage-cta-meta{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+.stage-geo-links{margin-top:16px;padding:12px 14px;border:1px solid var(--rule-soft);display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;letter-spacing:.08em}
+.stage-geo-lbl{font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-right:6px}
+.stage-geo-links a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.stage-geo-links a:hover{border-bottom-color:var(--ink)}
+.stage-geo-links .sep{color:var(--rule-soft);margin:0 4px}
 .statband{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:18px}
 .statband .s{padding:20px 16px;border-right:1px solid var(--rule-soft)}
 .statband .s:last-child{border-right:0}
@@ -230,6 +387,8 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
   .sec .c.rt{display:none}
   .climb{grid-template-columns:60px 50px 1fr 80px}
   .climb .c.gr{display:none}
+  .wrow{grid-template-columns:1fr;gap:10px;padding:14px 10px}
+  .wrow .w-cta{text-align:left}
 }
 </style>
 </head>
@@ -374,12 +533,14 @@ function renderOneDay(race) {
       ${narrativesHtml}
     </section>` : '';
 
-  const watchSection = rd.watchNotes ? `
+  const viewingNotesSection = rd.watchNotes ? `
     <section class="section">
-      <div class="eyebrow">§ 06 — Viewing Notes</div>
+      <div class="eyebrow">§ 07 — Viewing Notes</div>
       <h2>When to tune in</h2>
       <p class="prose">${htmlEscape(rd.watchNotes)}</p>
     </section>` : '';
+
+  const watchLinksSection = renderWatchSection(race);
 
   const body = `
     <section class="hero">
@@ -404,8 +565,10 @@ function renderOneDay(race) {
       </aside>
     </section>
 
+    ${watchLinksSection}
+
     <section class="section">
-      <div class="eyebrow">§ 01 — Route Schematic <span class="placeholder">placeholder</span></div>
+      <div class="eyebrow">§ 02 — Route Schematic <span class="placeholder">placeholder</span></div>
       <h2>${htmlEscape(race.name)}</h2>
       <div class="route">
         ${routeSvg}
@@ -417,14 +580,14 @@ function renderOneDay(race) {
     ${climbsSection}
 
     <section class="section">
-      <div class="eyebrow">§ 03 — Favourites</div>
+      <div class="eyebrow">§ 04 — Favourites</div>
       <h2>Who to watch</h2>
       ${favBlock}
     </section>
 
     ${narrativesSection}
     ${historySection}
-    ${watchSection}
+    ${viewingNotesSection}
   `;
 
   return pageScaffold({
@@ -555,8 +718,10 @@ function renderStageRace(race) {
       </aside>
     </section>
 
+    ${renderWatchSection(race)}
+
     <section class="section">
-      <div class="eyebrow">§ 01 — Stages</div>
+      <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
         ${stagesHtml || '<p class="prose">Stage list TBD.</p>'}
@@ -564,7 +729,7 @@ function renderStageRace(race) {
     </section>
 
     <section class="section">
-      <div class="eyebrow">§ 02 — Startlist &amp; Jerseys</div>
+      <div class="eyebrow">§ 03 — Startlist &amp; Jerseys</div>
       <h2>Who to watch &amp; what to watch for</h2>
       <div class="twocol">
         <div>
@@ -579,28 +744,28 @@ function renderStageRace(race) {
     </section>
 
     <section class="section">
-      <div class="eyebrow">§ 03 — GC Favourites</div>
+      <div class="eyebrow">§ 04 — GC Favourites</div>
       <h2>Fight for the overall</h2>
       ${favBlock}
     </section>
 
     ${narrativesHtml ? `
     <section class="section">
-      <div class="eyebrow">§ 04 — Storylines</div>
+      <div class="eyebrow">§ 05 — Storylines</div>
       <h2>Narratives to watch</h2>
       ${narrativesHtml}
     </section>` : ''}
 
     ${rd.historicalContext ? `
     <section class="section">
-      <div class="eyebrow">§ 05 — Historical Context</div>
+      <div class="eyebrow">§ 06 — Historical Context</div>
       <h2>Form book &amp; lore</h2>
       <p class="prose">${htmlEscape(rd.historicalContext)}</p>
     </section>` : ''}
 
     ${rd.watchNotes ? `
     <section class="section">
-      <div class="eyebrow">§ 06 — Viewing Notes</div>
+      <div class="eyebrow">§ 07 — Viewing Notes</div>
       <h2>When to tune in</h2>
       <p class="prose">${htmlEscape(rd.watchNotes)}</p>
     </section>` : ''}
@@ -684,12 +849,14 @@ function renderStage(race, stage) {
       </aside>
     </section>
 
+    ${renderStageWatchSection(race, stage)}
+
     ${climbsSection}
     ${sectorsSection}
 
     ${sd.watchNotes ? `
     <section class="section">
-      <div class="eyebrow">§ 03 — Viewing Notes</div>
+      <div class="eyebrow">§ 04 — Viewing Notes</div>
       <h2>When to tune in</h2>
       <p class="prose">${htmlEscape(sd.watchNotes)}</p>
     </section>` : ''}

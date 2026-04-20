@@ -28,6 +28,42 @@
 .section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 6px}
 .section .eyebrow{margin-bottom:4px}
 .placeholder{display:inline-block;border:1px dashed var(--ink-3);padding:2px 8px;font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-left:10px;vertical-align:middle;border-radius:2px}
+.section.watch{background:linear-gradient(180deg, rgba(200,16,46,.04), transparent 70%)}
+.wtable{display:grid;grid-template-columns:1fr;border-top:1px solid var(--rule);margin-top:14px}
+.wrow{display:grid;grid-template-columns:200px 1fr 120px;gap:0;padding:16px 0;border-bottom:1px solid var(--rule-soft);align-items:center}
+.wrow .w-geo{display:flex;align-items:center;gap:10px;padding:0 10px 0 0}
+.wrow .w-flag{font-size:24px;line-height:1}
+.wrow .w-name{font-family:var(--font-sans);font-weight:600;font-size:14px;letter-spacing:-.005em}
+.wrow .w-bc{padding:0 16px;min-width:0}
+.wrow .w-bc-name{font-family:var(--font-sans);font-weight:600;font-size:15px;letter-spacing:-.005em;line-height:1.2}
+.wrow .w-bc-meta{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:4px}
+.wrow .w-bc-notes{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.4}
+.wrow .w-alts{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px 14px;font-family:var(--font-mono);font-size:11px}
+.wrow .w-alt{display:flex;align-items:center;gap:6px;color:var(--ink-2)}
+.wrow .w-alt a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.wrow .w-alt a:hover{border-bottom-color:var(--ink)}
+.wrow .w-altmeta{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.wrow .w-cta{text-align:right}
+.watch-cta{display:inline-flex;align-items:center;padding:10px 16px;background:var(--ink);color:var(--paper);font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;border:1px solid var(--ink);line-height:1;transition:background .12s,color .12s}
+.watch-cta:hover{background:var(--signal);border-color:var(--signal);color:#fff}
+.watch-cta.disabled{background:transparent;color:var(--ink-3);border-color:var(--rule-soft);cursor:default}
+.w-yt{margin-top:18px;padding:14px;border:1px dashed var(--rule);display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;letter-spacing:.08em}
+.w-yt-lbl{font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-right:6px}
+.w-yt a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.w-yt a:hover{border-bottom-color:var(--ink)}
+.w-yt .sep{color:var(--rule-soft);margin:0 4px}
+.stage-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+.stage-cta{display:inline-grid;grid-template-rows:auto auto;gap:4px;padding:14px 20px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);transition:background .12s,color .12s}
+.stage-cta.primary:hover{background:var(--signal);border-color:var(--signal)}
+.stage-cta.highlights{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.stage-cta.highlights:hover{background:var(--paper-2)}
+.stage-cta-label{font-family:var(--font-sans);font-weight:700;font-size:15px;letter-spacing:-.005em;line-height:1}
+.stage-cta-meta{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+.stage-geo-links{margin-top:16px;padding:12px 14px;border:1px solid var(--rule-soft);display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:11.5px;letter-spacing:.08em}
+.stage-geo-lbl{font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-right:6px}
+.stage-geo-links a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
+.stage-geo-links a:hover{border-bottom-color:var(--ink)}
+.stage-geo-links .sep{color:var(--rule-soft);margin:0 4px}
 .statband{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:18px}
 .statband .s{padding:20px 16px;border-right:1px solid var(--rule-soft)}
 .statband .s:last-child{border-right:0}
@@ -131,6 +167,8 @@
   .sec .c.rt{display:none}
   .climb{grid-template-columns:60px 50px 1fr 80px}
   .climb .c.gr{display:none}
+  .wrow{grid-template-columns:1fr;gap:10px;padding:14px 10px}
+  .wrow .w-cta{text-align:left}
 }
 </style>
 </head>
@@ -181,8 +219,43 @@
       </aside>
     </section>
 
+    <section class="section watch">
+    <div class="eyebrow">§ Watch</div>
+    <h2>Where to watch</h2>
+    <div class="wtable"><div class="wrow">
+      <div class="w-geo"><span class="w-flag">🇺🇸</span><span class="w-name">United States</span></div>
+      <div class="w-bc">
+        <div class="w-bc-name">FloBikes</div>
+        <div class="w-bc-meta mono">streaming · LIVE · $</div>
+        
+        <div class="w-alts"><span class="w-alt"><a href="https://www.youtube.com/@GCNRacing" target="_blank" rel="noopener">GCN Racing YouTube →</a><span class="w-altmeta mono">HIGHLIGHTS · free</span></span></div>
+      </div>
+      <div class="w-cta"><a class="watch-cta" href="https://www.flobikes.com/events/15255437-2026-o-gran-camino" target="_blank" rel="noopener">Watch →</a></div>
+    </div><div class="wrow">
+      <div class="w-geo"><span class="w-flag">🇨🇦</span><span class="w-name">Canada</span></div>
+      <div class="w-bc">
+        <div class="w-bc-name">FloBikes</div>
+        <div class="w-bc-meta mono">streaming · LIVE · $</div>
+        
+        
+      </div>
+      <div class="w-cta"><a class="watch-cta" href="https://www.flobikes.com/events/15255437-2026-o-gran-camino" target="_blank" rel="noopener">Watch →</a></div>
+    </div><div class="wrow">
+      <div class="w-geo"><span class="w-flag">🇬🇧</span><span class="w-name">United Kingdom</span></div>
+      <div class="w-bc">
+        <div class="w-bc-name">TNT Sports / Discovery+</div>
+        <div class="w-bc-meta mono">streaming · LIVE · $</div>
+        
+        
+      </div>
+      <div class="w-cta"><a class="watch-cta" href="https://www.discoveryplus.com" target="_blank" rel="noopener">Watch →</a></div>
+    </div></div>
+    
+    <p class="prose" style="margin-top:10px;font-size:12px;letter-spacing:.04em">⚠️ Spoiler warning: live streams and broadcaster home pages may show current standings. Disable autoplay &amp; avoid sidebar recommendations on YouTube.</p>
+  </section>
+
     <section class="section">
-      <div class="eyebrow">§ 01 — Stages</div>
+      <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
         <a class="stage" href="o-gran-camino-2026-stage-1.html">
@@ -230,7 +303,7 @@
     </section>
 
     <section class="section">
-      <div class="eyebrow">§ 02 — Startlist &amp; Jerseys</div>
+      <div class="eyebrow">§ 03 — Startlist &amp; Jerseys</div>
       <h2>Who to watch &amp; what to watch for</h2>
       <div class="twocol">
         <div>
@@ -268,7 +341,7 @@
     </section>
 
     <section class="section">
-      <div class="eyebrow">§ 03 — GC Favourites</div>
+      <div class="eyebrow">§ 04 — GC Favourites</div>
       <h2>Fight for the overall</h2>
       <div class="fav"><div class="card">
       <div class="no">№ 01 · GCCONTENDERS</div>
@@ -305,21 +378,21 @@
 
     
     <section class="section">
-      <div class="eyebrow">§ 04 — Storylines</div>
+      <div class="eyebrow">§ 05 — Storylines</div>
       <h2>Narratives to watch</h2>
       <ul class="narratives"><li>Galician cycling tradition: race honors the Camino de Santiago pilgrimage route, traversing classic Spanish cycling terrain</li><li>Spring Vuelta prep: traditionally a preparation race for Vuelta a España GC contenders</li><li>Movistar spotlight: the Spanish team targets home soil success, particularly on the Monte Trega finale</li><li>2026 date shift: race moved from its traditional late-February slot to April for the first time</li></ul>
     </section>
 
     
     <section class="section">
-      <div class="eyebrow">§ 05 — Historical Context</div>
+      <div class="eyebrow">§ 06 — Historical Context</div>
       <h2>Form book &amp; lore</h2>
       <p class="prose">5th edition. Previously held in late February / early March; moved to April in 2026. Past winners include Jonas Vingegaard.</p>
     </section>
 
     
     <section class="section">
-      <div class="eyebrow">§ 06 — Viewing Notes</div>
+      <div class="eyebrow">§ 07 — Viewing Notes</div>
       <h2>When to tune in</h2>
       <p class="prose">Stage 4 (Cabeza de Meda summit finish) is the GC-deciding day. Stage 1 ITT sets early gaps. Stages 2-3 are for sprinters/puncheurs.</p>
     </section>
