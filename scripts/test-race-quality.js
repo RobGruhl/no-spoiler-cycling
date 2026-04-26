@@ -537,6 +537,69 @@ async function checkLinkAccessibility(race, options = {}) {
 }
 
 /**
+ * Check that broadcast URLs point to the expected race edition (not a prior
+ * year). Lightweight Firecrawl-based scrape — only runs when --check-links
+ * is set since it issues network calls.
+ */
+async function checkBroadcastEditions(race) {
+  const checks = [];
+  const warnings = [];
+  let sectionStatus = 'pass';
+
+  const targets = [];
+  if (race.broadcast?.geos) {
+    for (const [geo, geoData] of Object.entries(race.broadcast.geos)) {
+      if (geoData.primary?.url && geoData.primary.url.startsWith('http')) {
+        targets.push({ geo, label: `${geo} ${geoData.primary.broadcaster || 'primary'}`, url: geoData.primary.url });
+      }
+      (geoData.alternatives || []).forEach((alt, i) => {
+        if (alt?.url && alt.url.startsWith('http')) {
+          targets.push({ geo, label: `${geo} alt[${i}] ${alt.broadcaster || ''}`.trim(), url: alt.url });
+        }
+      });
+    }
+  }
+
+  if (targets.length === 0) {
+    return {
+      name: 'EDITION MATCH',
+      status: 'skip',
+      checks: [{ label: 'No broadcast URLs', status: 'skip', value: 'skipped' }]
+    };
+  }
+
+  const { checkBroadcastEdition } = await import('../lib/broadcast-edition-checker.js');
+
+  for (const t of targets) {
+    try {
+      const res = await checkBroadcastEdition(t.url, race);
+      const status = res.status === 'match' ? 'pass'
+                  : res.status === 'stale' ? 'warn'
+                  : res.status === 'error' ? 'warn'
+                  : 'info';
+      const value = res.status === 'stale'
+        ? `STALE — ${res.evidence[0] || 'wrong-edition page'}`
+        : res.status;
+      checks.push({ label: t.label, status, value });
+      if (res.status === 'stale') {
+        warnings.push(`${t.label}: ${res.evidence.join('; ')}`);
+        if (sectionStatus === 'pass') sectionStatus = 'warn';
+      }
+    } catch (e) {
+      checks.push({ label: t.label, status: 'warn', value: `check error: ${e.message}` });
+      if (sectionStatus === 'pass') sectionStatus = 'warn';
+    }
+  }
+
+  return {
+    name: 'EDITION MATCH',
+    status: sectionStatus,
+    checks,
+    warnings
+  };
+}
+
+/**
  * Run all checks for a race
  */
 async function runRaceTests(race, options) {
@@ -569,6 +632,10 @@ async function runRaceTests(race, options) {
   if (options.checkLinks && runSection('links')) {
     const linkResult = await checkLinkAccessibility(race, options);
     sections.push(linkResult);
+
+    const editionResult = await checkBroadcastEditions(race);
+    sections.push(editionResult);
+    if (editionResult.warnings) allWarnings.push(...editionResult.warnings);
   }
 
   // Calculate summary
