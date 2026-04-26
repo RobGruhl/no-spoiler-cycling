@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T06:34:18.855Z",
+  "lastUpdated": "2026-04-26T07:28:52.321Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -3158,7 +3158,7 @@
       "raceDay": "Thursday",
       "location": "Spain",
       "category": "1.1",
-      "rating": 1,
+      "rating": 2,
       "discoveredAt": "2026-01-07T06:49:05.076Z",
       "raceFormat": "one-day",
       "terrain": [
@@ -7790,81 +7790,7 @@
         "hilly"
       ],
       "distance": 180,
-      "topRiders": [
-        {
-          "id": "thomas-pidcock",
-          "name": "PIDCOCK Thomas",
-          "team": "Pinarello-Q36.5 Pro Cycling Team",
-          "ranking": 7,
-          "nationality": "Great Britain",
-          "nationalityCode": "GR",
-          "specialties": [
-            "one-day",
-            "climber",
-            "puncheur"
-          ]
-        },
-        {
-          "id": "arnaud-de-lie",
-          "name": "DE LIE Arnaud",
-          "team": "Lotto Intermarché",
-          "ranking": 10,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "one-day",
-            "sprinter",
-            "puncheur"
-          ]
-        },
-        {
-          "id": "paul-magnier",
-          "name": "MAGNIER Paul",
-          "team": "Soudal Quick-Step",
-          "ranking": 11,
-          "nationality": "France",
-          "nationalityCode": "FR",
-          "specialties": [
-            "one-day",
-            "sprinter"
-          ]
-        },
-        {
-          "id": "wout-van-aert",
-          "name": "VAN AERT Wout",
-          "team": "Team Visma \\| Lease a Bike",
-          "ranking": 18,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "one-day",
-            "puncheur",
-            "time-trialist"
-          ]
-        },
-        {
-          "id": "matthew-brennan",
-          "name": "BRENNAN Matthew",
-          "team": "Team Visma \\| Lease a Bike",
-          "ranking": 30,
-          "nationality": "Great Britain",
-          "nationalityCode": "GR",
-          "specialties": []
-        },
-        {
-          "id": "jordi-meeus",
-          "name": "MEEUS Jordi",
-          "team": "Red Bull - BORA - hansgrohe",
-          "ranking": 42,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "one-day",
-            "sprinter"
-          ]
-        }
-      ],
-      "gender": "men",
+      "gender": "women",
       "discipline": "road",
       "broadcast": {
         "lastUpdated": "2026-01-29T00:00:00Z",
