@@ -282,13 +282,65 @@ function buildHtml(rows, stats, updatedLabel) {
     </footer>
   </main>
 
+  <div id="consent-banner" class="consent-banner" hidden>
+    <div class="consent-body">
+      <strong>Remember your filters?</strong>
+      <span>We can store your filter selections in a cookie so they're applied next time you visit. No tracking, no third parties.</span>
+    </div>
+    <div class="consent-actions">
+      <button class="chip on" data-consent="yes">Yes, remember</button>
+      <button class="chip" data-consent="no">No thanks</button>
+    </div>
+  </div>
+
   <script>
   window.MONTHS = ${JSON.stringify(MONTH_NAMES)};
   window.RACES = ${racesJson};
   </script>
   <script>
-  const state = {rating:0, disc:"all", gender:"all", format:"all", terrain:"all", prestige:"all"};
+  const DEFAULTS = {rating:0, disc:"all", gender:"all", format:"all", terrain:"all", prestige:"all"};
+  const state = {...DEFAULTS};
+  let showOlder = false;
   const MONTHS = window.MONTHS;
+
+  const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+  const CUTOFF = new Date(TODAY); CUTOFF.setDate(CUTOFF.getDate() - 14);
+  const cutoffIso = CUTOFF.toISOString().slice(0,10);
+
+  // ——— cookie helpers ———
+  function getCookie(name){
+    return document.cookie.split('; ').reduce((acc,c)=>{
+      const i = c.indexOf('=');
+      const k = c.slice(0,i), v = c.slice(i+1);
+      return k===name ? decodeURIComponent(v) : acc;
+    }, '');
+  }
+  function setCookie(name,value,days){
+    const d = new Date(); d.setTime(d.getTime()+days*86400000);
+    document.cookie = name+'='+encodeURIComponent(value)+'; expires='+d.toUTCString()+'; path=/; samesite=lax';
+  }
+  function loadFilters(){
+    if (getCookie('nsc-consent')!=='yes') return;
+    try { Object.assign(state, JSON.parse(getCookie('nsc-filters')||'{}')); } catch(e){}
+  }
+  function saveFilters(){
+    if (getCookie('nsc-consent')!=='yes') return;
+    const compact = Object.fromEntries(
+      Object.entries(state).filter(([k,v]) => v!==DEFAULTS[k])
+    );
+    if (Object.keys(compact).length){
+      setCookie('nsc-filters', JSON.stringify(compact), 365);
+    } else {
+      setCookie('nsc-filters', '', -1);
+    }
+  }
+  function applyChipsFromState(){
+    document.querySelectorAll('.chip[data-f]').forEach(b => {
+      const f = b.dataset.f, v = b.dataset.v;
+      const matches = (f==='rating') ? Number(v)===state[f] : v===state[f];
+      b.classList.toggle('on', matches);
+    });
+  }
 
   const starsHtml = (n) => {
     const on = "★".repeat(n), off = "★".repeat(5-n);
@@ -315,53 +367,109 @@ function buildHtml(rows, stats, updatedLabel) {
     return true;
   }
 
+  function rowHtml(r){
+    const href = r.slug ? \`race-details/\${r.slug}.html\` : "#";
+    const cls = r.prestige.includes("grand_tour")?"gt":r.prestige.includes("monument")?"mon":r.prestige.includes("worlds")?"wc":"";
+    const codeCls = r.prestige.includes("worlds")?"code wc":(r.cat.includes("UWT")||r.cat.includes("WWT"))?"code inv":"code";
+    return \`<a class="row \${cls}" href="\${href}">
+      <div class="c first">\${starsHtml(r.rating)}</div>
+      <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
+      <div class="c dt">\${r.d}</div>
+      <div class="c"><span class="name">\${r.name}</span></div>
+      <div class="c loc">\${r.loc}</div>
+      <div class="c terr">\${terrHtml(r.terrain)}</div>
+      <div class="c gender">\${genderLbl[r.gender]||""}</div>
+      <div class="c bc">\${geoCell(r)}</div>
+      <div class="c stg">\${r.format==="stage"?(r.stages?r.stages+" stg":"stg"):r.format.toUpperCase()}</div>
+    </a>\`;
+  }
+
   function render(){
     const host = document.getElementById("cal");
-    const grouped = {};
     const filtered = window.RACES.filter(match);
-    filtered.forEach(r => (grouped[r.month] = grouped[r.month] || []).push(r));
-    document.getElementById("shown").textContent = filtered.length;
+    const olderArr = filtered.filter(r => r.start < cutoffIso);
+    const visibleArr = showOlder ? filtered : filtered.filter(r => r.start >= cutoffIso);
+
+    document.getElementById("shown").textContent = visibleArr.length;
     document.getElementById("total").textContent = window.RACES.length;
 
+    // Group visible races by month + compute totals (post-filter, all months)
+    // so partial months can show "X of Y races".
+    const grouped = {}, groupedAll = {};
+    visibleArr.forEach(r => (grouped[r.month] = grouped[r.month]||[]).push(r));
+    filtered.forEach(r => (groupedAll[r.month] = groupedAll[r.month]||[]).push(r));
+
     let html = "";
+
+    // Disclosure row at the top when older races exist (post-filter).
+    if (olderArr.length){
+      if (showOlder){
+        html += \`<button class="older-toggle" type="button" data-action="toggle-older">↥ Hide older races</button>\`;
+      } else {
+        const olderMonths = [...new Set(olderArr.map(r=>r.month))].sort((a,b)=>a-b);
+        const rangeLbl = olderMonths.length===1
+          ? MONTHS[olderMonths[0]-1]
+          : \`\${MONTHS[olderMonths[0]-1].slice(0,3)} – \${MONTHS[olderMonths[olderMonths.length-1]-1].slice(0,3)}\`;
+        html += \`<button class="older-toggle" type="button" data-action="toggle-older">↧ Show older races (\${olderArr.length} hidden · \${rangeLbl})</button>\`;
+      }
+    }
+
     Object.keys(grouped).sort((a,b)=>a-b).forEach(m => {
       const races = grouped[m];
+      const total = (groupedAll[m]||[]).length;
+      const countLabel = (showOlder || races.length===total)
+        ? \`\${races.length} race\${races.length!==1?"s":""}\`
+        : \`\${races.length} of \${total} races\`;
       html += \`<header class="month-head">
         <div><div class="lbl">Month</div><div class="num mono">\${String(m).padStart(2,"0")}</div></div>
         <div><div class="lbl">2026</div><div class="name">\${MONTHS[m-1]}</div></div>
-        <div class="count">\${races.length} race\${races.length!==1?"s":""}</div>
+        <div class="count">\${countLabel}</div>
       </header>\`;
-      races.forEach(r => {
-        const href = r.slug ? \`race-details/\${r.slug}.html\` : "#";
-        const cls = r.prestige.includes("grand_tour")?"gt":r.prestige.includes("monument")?"mon":r.prestige.includes("worlds")?"wc":"";
-        const codeCls = r.prestige.includes("worlds")?"code wc":(r.cat.includes("UWT")||r.cat.includes("WWT"))?"code inv":"code";
-        html += \`<a class="row \${cls}" href="\${href}">
-          <div class="c first">\${starsHtml(r.rating)}</div>
-          <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
-          <div class="c dt">\${r.d}</div>
-          <div class="c"><span class="name">\${r.name}</span></div>
-          <div class="c loc">\${r.loc}</div>
-          <div class="c terr">\${terrHtml(r.terrain)}</div>
-          <div class="c gender">\${genderLbl[r.gender]||""}</div>
-          <div class="c bc">\${geoCell(r)}</div>
-          <div class="c stg">\${r.format==="stage"?(r.stages?r.stages+" stg":"stg"):r.format.toUpperCase()}</div>
-        </a>\`;
-      });
+      races.forEach(r => { html += rowHtml(r); });
     });
-    if (!filtered.length) html = \`<div style="padding:60px 0;text-align:center;font-family:var(--font-mono);color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase">No races match these filters.</div>\`;
+
+    if (!visibleArr.length && !olderArr.length){
+      html = \`<div style="padding:60px 0;text-align:center;font-family:var(--font-mono);color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase">No races match these filters.</div>\`;
+    } else if (!visibleArr.length){
+      html += \`<div style="padding:40px 0;text-align:center;font-family:var(--font-mono);color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase">No upcoming races match these filters.</div>\`;
+    }
+
     host.innerHTML = html;
+
+    const toggleBtn = host.querySelector('[data-action="toggle-older"]');
+    if (toggleBtn){
+      toggleBtn.addEventListener('click', () => { showOlder = !showOlder; render(); });
+    }
   }
 
-  document.querySelectorAll(".chip").forEach(btn => {
+  document.querySelectorAll(".chip[data-f]").forEach(btn => {
     btn.addEventListener("click", () => {
       const f = btn.dataset.f, v = btn.dataset.v;
       state[f] = (f==="rating") ? Number(v) : v;
       document.querySelectorAll(\`.chip[data-f="\${f}"]\`).forEach(b => b.classList.toggle("on", b===btn));
+      saveFilters();
       render();
     });
   });
 
+  // ——— consent banner ———
+  function initConsentBanner(){
+    const banner = document.getElementById('consent-banner');
+    if (!banner) return;
+    if (!getCookie('nsc-consent')) banner.hidden = false;
+    banner.querySelectorAll('button[data-consent]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        setCookie('nsc-consent', btn.dataset.consent, 365);
+        banner.hidden = true;
+        if (btn.dataset.consent === 'yes') saveFilters();
+      });
+    });
+  }
+
+  loadFilters();
+  applyChipsFromState();
   render();
+  initConsentBanner();
   </script>
 </body>
 </html>

@@ -98,6 +98,22 @@ footer.foot{border-top:1px solid var(--rule);margin-top:60px;padding:22px 0 40px
 .hr.solid{border-top-color:var(--rule)}
 .eyebrow{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
 
+/* Show/hide older races toggle */
+.older-toggle{display:block;width:100%;padding:14px 18px;margin:36px 0 0;border:0;border-top:2px dashed var(--rule);border-bottom:1px solid var(--rule-soft);background:transparent;color:var(--ink-2);font-family:var(--font-mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-style:italic;cursor:pointer;text-align:left}
+.older-toggle:hover{background:var(--paper-2);color:var(--ink)}
+
+/* Cookie consent banner */
+.consent-banner{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--paper);border-top:2px solid var(--ink);box-shadow:0 -4px 20px rgba(0,0,0,.08);padding:16px 32px;display:flex;gap:24px;align-items:center;justify-content:space-between;font-family:var(--font-sans);font-size:13px;color:var(--ink-2)}
+.consent-banner[hidden]{display:none}
+.consent-banner .consent-body{display:flex;flex-direction:column;gap:4px;max-width:60ch}
+.consent-banner .consent-body strong{font-weight:600;color:var(--ink);font-size:14px}
+.consent-banner .consent-actions{display:flex;gap:8px;flex-shrink:0}
+@media (max-width:640px){
+  .consent-banner{flex-direction:column;align-items:flex-start;padding:14px 20px;gap:14px}
+  .consent-banner .consent-actions{align-self:stretch}
+  .consent-banner .consent-actions .chip{flex:1;justify-content:center}
+}
+
 /* Tweaks panel */
 .tweaks{position:fixed;right:16px;bottom:16px;width:280px;background:var(--paper);border:1px solid var(--ink);box-shadow:6px 6px 0 var(--ink);font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;z-index:50;display:none}
 .tweaks.show{display:block}
