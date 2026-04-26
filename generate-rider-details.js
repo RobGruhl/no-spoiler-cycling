@@ -247,17 +247,20 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
       <div>
         <div class="tag">
           <span>${flag} ${htmlEscape(rider.nationality || '')}</span>
-          <span>UCI #${rider.ranking || '—'}</span>
+          <span${rider.isOutsider ? ' style="color:var(--signal);font-weight:600"' : ''}>${rider.isOutsider ? '✦ Outsider' : `UCI #${rider.ranking || '—'}`}</span>
           ${age ? `<span>Age ${age}</span>` : ''}
         </div>
         <h1>${htmlEscape(given)}<span class="em">${htmlEscape(surname)}</span></h1>
         <p class="sub">${htmlEscape(rider.team || 'Team TBD')}</p>
+        ${rider.isOutsider && rider.outsiderNote ? `<p class="prose" style="margin-top:10px;font-style:italic;color:var(--ink-2);font-size:14px">${htmlEscape(rider.outsiderNote)}</p>` : ''}
         <div class="chips-inline" style="margin-top:14px">
           ${specialties.map(s => `<span class="sp">${htmlEscape(s)}</span>`).join('')}
         </div>
       </div>
       <aside>
-        <div class="stat"><span class="k">UCI Rank</span><span class="v">${rider.ranking || '—'}</span></div>
+        ${rider.isOutsider
+          ? `<div class="stat"><span class="k">Status</span><span class="v sm" style="color:var(--signal)">✦ Outsider</span></div>`
+          : `<div class="stat"><span class="k">UCI Rank</span><span class="v">${rider.ranking || '—'}</span></div>`}
         <div class="stat"><span class="k">Points</span><span class="v mono">${rider.points || '—'}</span></div>
         <div class="stat"><span class="k">Team</span><span class="v sm">${htmlEscape(rider.team || 'TBD')}</span></div>
         <div class="stat"><span class="k">2026 Races</span><span class="v">${programCount || '—'}</span></div>
@@ -312,7 +315,19 @@ function generateAllRiderDetailsPages(gender = 'men') {
     generateRiderDetailsPage(rider, raceData, gender);
     n++;
   }
-  console.log(`✓ generated ${n} ${gender} rider pages in ${cfg.outputDir}`);
+  // Men also pull in outsiders.json so chip clicks from race pages resolve.
+  let outsiderCount = 0;
+  if (gender === 'men') {
+    const outsidersPath = './data/outsiders.json';
+    if (fs.existsSync(outsidersPath)) {
+      const outsidersData = JSON.parse(fs.readFileSync(outsidersPath, 'utf8'));
+      for (const rider of outsidersData.riders || []) {
+        generateRiderDetailsPage(rider, raceData, gender);
+        outsiderCount++;
+      }
+    }
+  }
+  console.log(`✓ generated ${n} ${gender} rider pages${outsiderCount ? ` + ${outsiderCount} outsiders` : ''} in ${cfg.outputDir}`);
 }
 
 const args = process.argv.slice(2);

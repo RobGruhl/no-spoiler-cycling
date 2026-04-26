@@ -55,6 +55,7 @@ function buildRidersIndex(riders, opts = {}) {
     navOn = 'men',
     riderPagesDir = 'riders',
     lastUpdated = null,
+    outsiders = [],
   } = opts;
 
   const built = new Date().toISOString().slice(0, 10);
@@ -91,6 +92,37 @@ function buildRidersIndex(riders, opts = {}) {
     <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
       <div class="rc-rank mono">UCI #${r.rank}</div>
+      <div class="rc-name">${r.name}</div>
+      <div class="rc-team mono">${r.team}</div>
+      <div class="rc-tags mono">${r.specialtyTags || ''}</div>
+      <div class="rc-foot mono"><span>${r.flag} ${r.nat}</span><span>${r.programCount ? r.programCount + ' races' : 'TBD'}</span></div>
+    </div>
+  </a>`).join('');
+
+  const outsiderRows = (outsiders || []).map((r, i) => {
+    const flag = NATIONALITY_FLAGS[r.nationalityCode] || NATIONALITY_FLAGS.XX;
+    const photo = r.photoUrl && r.photoUrl.startsWith(`${riderPagesDir}/`) ? r.photoUrl : `${riderPagesDir}/photos/placeholder.jpg`;
+    const specialtyTags = (r.specialties || []).slice(0, 3).map(s => (SPECIALTY_LABELS[s] || s).toUpperCase()).join(' · ');
+    const programCount = r.raceProgram?.status === 'announced' ? (r.raceProgram?.races?.length || 0) : 0;
+    return {
+      num: String(i + 1).padStart(2, '0'),
+      name: htmlEscape(formatSurnameFirst(r.name)),
+      team: htmlEscape(r.team || ''),
+      flag,
+      nat: htmlEscape(r.nationality || ''),
+      photo: htmlEscape(photo),
+      specialtyTags,
+      programCount,
+      slug: r.slug || r.id,
+      note: htmlEscape(r.outsiderNote || ''),
+    };
+  });
+
+  const outsiderCardsHtml = outsiderRows.map(r => `<a class="rc rc-out" href="${riderPagesDir}/${htmlEscape(r.slug)}.html">
+    <div class="rc-num">✦ ${r.num}</div>
+    <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
+    <div class="rc-body">
+      <div class="rc-rank mono">✦ Outsider</div>
       <div class="rc-name">${r.name}</div>
       <div class="rc-team mono">${r.team}</div>
       <div class="rc-tags mono">${r.specialtyTags || ''}</div>
@@ -139,6 +171,12 @@ function buildRidersIndex(riders, opts = {}) {
 .rc-tags{font-size:10px;letter-spacing:.14em;color:var(--ink-3);margin-bottom:10px}
 .rc-foot{display:flex;justify-content:space-between;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:auto;padding-top:8px;border-top:1px solid var(--rule-soft)}
 .rc.hidden{display:none}
+.rc-out{background:var(--paper-2)}
+.rc-out .rc-num,.rc-out .rc-rank{color:var(--signal)}
+.outsider-band{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.outsider-band h2{font-family:var(--font-sans);font-weight:800;font-size:28px;letter-spacing:-.02em;margin:0}
+.outsider-band h2 .mark{color:var(--signal);margin-right:8px}
+.outsider-band .lede{font-family:var(--font-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);max-width:480px;text-align:right}
 
 @media (max-width:1100px){
   .grid{grid-template-columns:repeat(3,1fr)}
@@ -211,6 +249,13 @@ function buildRidersIndex(riders, opts = {}) {
 
     <section class="grid" id="grid">${cardsHtml}</section>
 
+    ${outsiderCardsHtml ? `
+    <section class="outsider-band">
+      <h2><span class="mark">✦</span>Outsiders <span class="em" style="font-style:italic;font-weight:500;color:var(--signal)">&amp; Espoirs</span></h2>
+      <div class="lede">Riders to watch beyond the top 50 — neo-pros, breakouts, and dangerous wildcards.</div>
+    </section>
+    <section class="grid">${outsiderCardsHtml}</section>` : ''}
+
     <footer class="foot">
       <div class="foot-row">
         <span>No Spoiler Cycling · 2026 Roadbook</span>
@@ -246,9 +291,18 @@ function buildRidersIndex(riders, opts = {}) {
 
 function generateRidersIndexPage(ridersDataPath = './data/riders.json', outputPath = './riders.html', opts = {}) {
   const ridersData = JSON.parse(fs.readFileSync(ridersDataPath, 'utf8'));
-  const html = buildRidersIndex(ridersData.riders, { lastUpdated: ridersData.lastUpdated, ...opts });
+  // Only the men's index pulls in outsiders.json; women's index has its own generator.
+  let outsiders = [];
+  const isWomen = opts.gender === 'women';
+  if (!isWomen) {
+    const outsidersPath = './data/outsiders.json';
+    if (fs.existsSync(outsidersPath)) {
+      outsiders = JSON.parse(fs.readFileSync(outsidersPath, 'utf8')).riders || [];
+    }
+  }
+  const html = buildRidersIndex(ridersData.riders, { lastUpdated: ridersData.lastUpdated, outsiders, ...opts });
   fs.writeFileSync(outputPath, html);
-  console.log(`✓ wrote ${outputPath} — ${ridersData.riders.length} riders`);
+  console.log(`✓ wrote ${outputPath} — ${ridersData.riders.length} riders${outsiders.length ? ` + ${outsiders.length} outsiders` : ''}`);
   return outputPath;
 }
 

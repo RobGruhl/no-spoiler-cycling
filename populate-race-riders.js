@@ -35,6 +35,14 @@ function loadRiders() {
   return JSON.parse(readFileSync(ridersPath, 'utf-8'));
 }
 
+function loadOutsiders() {
+  const outsidersPath = join(__dirname, 'data', 'outsiders.json');
+  if (!existsSync(outsidersPath)) {
+    return { lastUpdated: null, riders: [] };
+  }
+  return JSON.parse(readFileSync(outsidersPath, 'utf-8'));
+}
+
 function loadRaceData() {
   const raceDataPath = join(__dirname, 'data', 'race-data.json');
   if (!existsSync(raceDataPath)) {
@@ -86,6 +94,7 @@ function populateRaceRiders() {
   console.log('\n🚴 Populating races with top riders...');
 
   const ridersData = loadRiders();
+  const outsidersData = loadOutsiders();
   const raceData = loadRaceData();
 
   if (ridersData.riders.length === 0) {
@@ -93,7 +102,8 @@ function populateRaceRiders() {
     return;
   }
 
-  console.log(`   📊 Found ${ridersData.riders.length} riders`);
+  console.log(`   📊 Found ${ridersData.riders.length} ranked riders`);
+  console.log(`   ✦ Found ${outsidersData.riders.length} outsiders`);
   console.log(`   📊 Found ${raceData.races.length} races`);
 
   // Build set of all race IDs for quick lookup
@@ -103,7 +113,13 @@ function populateRaceRiders() {
   const raceRidersMap = new Map();
   const unmatchedSlugs = new Set();
 
-  for (const rider of ridersData.riders) {
+  // Combined source: ranked riders first (carry ranking), then outsiders (no ranking, isOutsider flag)
+  const allSources = [
+    ...ridersData.riders.map(r => ({ ...r, _isOutsider: false })),
+    ...outsidersData.riders.map(r => ({ ...r, _isOutsider: true }))
+  ];
+
+  for (const rider of allSources) {
     if (!rider.raceProgram || !rider.raceProgram.races) continue;
 
     for (const programRace of rider.raceProgram.races) {
@@ -115,7 +131,7 @@ function populateRaceRiders() {
         }
 
         // Add rider info (minimal data for display)
-        raceRidersMap.get(raceId).push({
+        const entry = {
           id: rider.id,
           name: rider.name,
           team: rider.team,
@@ -123,7 +139,12 @@ function populateRaceRiders() {
           nationality: rider.nationality,
           nationalityCode: rider.nationalityCode,
           specialties: rider.specialties
-        });
+        };
+        if (rider._isOutsider) {
+          entry.isOutsider = true;
+          if (rider.outsiderNote) entry.outsiderNote = rider.outsiderNote;
+        }
+        raceRidersMap.get(raceId).push(entry);
       } else {
         unmatchedSlugs.add(programRace.raceSlug);
       }

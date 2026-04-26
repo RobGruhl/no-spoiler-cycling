@@ -1,0 +1,441 @@
+{
+  "lastUpdated": "2026-04-26T07:55:32.674Z",
+  "riders": [
+    {
+      "id": "paul-seixas",
+      "slug": "paul-seixas",
+      "name": "SEIXAS Paul",
+      "team": "Decathlon - CMA CGM Team",
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2006-08-29",
+      "specialties": [
+        "climber",
+        "gc-contender",
+        "time-trialist"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "19yo French phenom — Tour de l'Avenir 2025 winner; Strade Bianche, LBL, and Tour debut on the program",
+      "pcsUrl": "https://www.procyclingstats.com/rider/paul-seixas",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:00.433Z",
+        "races": [
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jarno-widar",
+      "slug": "jarno-widar",
+      "name": "WIDAR Jarno",
+      "team": "Lotto",
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2004-04-14",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026",
+      "pcsUrl": "https://www.procyclingstats.com/rider/jarno-widar",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:03.494Z",
+        "races": [
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "DSSK (Donostia San Sebastian Klasikoa)",
+            "raceSlug": "san-sebastian",
+            "raceDate": "2026-08-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Vuelta a Burgos",
+            "raceSlug": "vuelta-a-burgos",
+            "raceDate": "2026-08-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Il Lombardia",
+            "raceSlug": "il-lombardia",
+            "raceDate": "2026-10-10",
+            "raceClass": "1.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "antonio-tiberi",
+      "slug": "antonio-tiberi",
+      "name": "TIBERI Antonio",
+      "team": "Bahrain Victorious",
+      "nationality": "Italy",
+      "nationalityCode": "IT",
+      "dateOfBirth": "2001-09-24",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026",
+      "pcsUrl": "https://www.procyclingstats.com/rider/antonio-tiberi",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:06.257Z",
+        "races": [
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Tour de Romandie",
+            "raceSlug": "tour-de-romandie",
+            "raceDate": "2026-04-28",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matthew-riccitello",
+      "slug": "matthew-riccitello",
+      "name": "RICCITELLO Matthew",
+      "team": "Israel - Premier Tech",
+      "nationality": "United States",
+      "nationalityCode": "UN",
+      "dateOfBirth": "2001-08-22",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "American climber; high GT placings 2025; the next US GC hope",
+      "pcsUrl": "https://www.procyclingstats.com/rider/matthew-riccitello",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:09.020Z",
+        "races": [
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "DSSK (Donostia San Sebastian Klasikoa)",
+            "raceSlug": "san-sebastian",
+            "raceDate": "2026-08-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pablo-torres",
+      "slug": "pablo-torres",
+      "name": "TORRES Pablo",
+      "team": "UAE Team Emirates - XRG",
+      "nationality": "Spain",
+      "nationalityCode": "SP",
+      "dateOfBirth": "2005-02-15",
+      "specialties": [
+        "climber"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Spanish climbing prodigy; shattered Colle delle Finestre record at Avenir",
+      "pcsUrl": "https://www.procyclingstats.com/rider/pablo-torres",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-04-26T07:55:11.691Z",
+        "races": []
+      }
+    },
+    {
+      "id": "leo-bisiaux",
+      "slug": "leo-bisiaux",
+      "name": "BISIAUX Léo",
+      "team": "Decathlon - CMA CGM Team",
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2005-07-05",
+      "specialties": [
+        "puncheur",
+        "climber",
+        "one-day"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate",
+      "pcsUrl": "https://www.procyclingstats.com/rider/leo-bisiaux",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:14.550Z",
+        "races": [
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Eschborn-Frankfurt",
+            "raceSlug": "eschborn-frankfurt",
+            "raceDate": "2026-05-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Mercan'Tour Classic Alpes-Maritimes",
+            "raceSlug": "mercan-tour-classic-alpes-maritimes",
+            "raceDate": "2026-06-03",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "dauphine",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "DSSK (Donostia San Sebastian Klasikoa)",
+            "raceSlug": "san-sebastian",
+            "raceDate": "2026-08-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Vuelta a Burgos",
+            "raceSlug": "vuelta-a-burgos",
+            "raceDate": "2026-08-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "La Vuelta Ciclista a España",
+            "raceSlug": "vuelta-a-espana",
+            "raceDate": "2026-08-22",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "johannes-staune-mittet",
+      "slug": "johannes-staune-mittet",
+      "name": "STAUNE-MITTET Johannes",
+      "team": "Decathlon - CMA CGM Team",
+      "nationality": "Norway",
+      "nationalityCode": "NO",
+      "dateOfBirth": "2003-04-08",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Norwegian climber; one of Decathlon's three flagged rising talents",
+      "pcsUrl": "https://www.procyclingstats.com/rider/johannes-staune-mittet",
+      "raceProgram": {
+        "status": "not-announced",
+        "lastFetched": "2026-04-26T07:55:17.622Z",
+        "races": []
+      }
+    },
+    {
+      "id": "jakob-soderqvist",
+      "slug": "jakob-soderqvist",
+      "name": "SÖDERQVIST Jakob",
+      "team": "Lidl - Trek",
+      "nationality": "Sweden",
+      "nationalityCode": "SW",
+      "dateOfBirth": "2004-03-21",
+      "specialties": [
+        "time-trialist",
+        "climber"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Swedish engine; U23 TT podiumer and Tour of Denmark GC 2nd, neo-pro 2026",
+      "pcsUrl": "https://www.procyclingstats.com/rider/jakob-soderqvist",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:20.694Z",
+        "races": [
+          {
+            "raceName": "Tour de Romandie",
+            "raceSlug": "tour-de-romandie",
+            "raceDate": "2026-04-28",
+            "raceClass": "2.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tim-rex",
+      "slug": "tim-rex",
+      "name": "REX Tim",
+      "team": "Team Visma | Lease a Bike",
+      "nationality": "Belgium",
+      "nationalityCode": "BE",
+      "dateOfBirth": "2004-01-09",
+      "specialties": [
+        "climber"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Visma neo-pro; turned heads at Tour de l'Ain 2025",
+      "pcsUrl": "https://www.procyclingstats.com/rider/tim-rex",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:23.766Z",
+        "races": [
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Grand Prix du Morbihan",
+            "raceSlug": "gp-de-plumelec",
+            "raceDate": "2026-05-09",
+            "raceClass": "1.Pro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alex-baudin",
+      "slug": "alex-baudin",
+      "name": "BAUDIN Alex",
+      "team": "EF Education - EasyPost",
+      "nationality": "France",
+      "nationalityCode": "FR",
+      "dateOfBirth": "2001-01-08",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Quietly broken through to top-20 of recent-form rankings; sneaky GC threat",
+      "pcsUrl": "https://www.procyclingstats.com/rider/alex-baudin",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:27.148Z",
+        "races": [
+          {
+            "raceName": "Liège-Bastogne-Liège",
+            "raceSlug": "liege-bastogne-liege",
+            "raceDate": "2026-04-26",
+            "raceClass": "1.UWT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "albert-withen-philipsen",
+      "slug": "albert-withen-philipsen",
+      "name": "WITHEN PHILIPSEN Albert",
+      "team": "Lidl - Trek",
+      "nationality": "Denmark",
+      "nationalityCode": "DE",
+      "dateOfBirth": "2006-04-21",
+      "specialties": [
+        "climber",
+        "gc-contender"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer",
+      "pcsUrl": "https://www.procyclingstats.com/rider/albert-withen-philipsen",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:29.910Z",
+        "races": [
+          {
+            "raceName": "Tour de Romandie",
+            "raceSlug": "tour-de-romandie",
+            "raceDate": "2026-04-28",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de Hongrie",
+            "raceSlug": "tour-de-hongrie",
+            "raceDate": "2026-05-13",
+            "raceClass": "2.Pro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lorenzo-finn",
+      "slug": "lorenzo-finn",
+      "name": "FINN Lorenzo",
+      "team": "Red Bull - BORA - hansgrohe",
+      "nationality": "Italy",
+      "nationalityCode": "IT",
+      "dateOfBirth": "2007-04-08",
+      "specialties": [
+        "one-day",
+        "puncheur"
+      ],
+      "isOutsider": true,
+      "outsiderNote": "Junior road World champion; 18yo Italian neo-pro to watch",
+      "pcsUrl": "https://www.procyclingstats.com/rider/lorenzo-finn",
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-04-26T07:55:32.674Z",
+        "races": [
+          {
+            "raceName": "Giro d'Italia Next Gen",
+            "raceSlug": "giro-ciclistico-d-italia",
+            "raceDate": "2026-06-14",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de l'Avenir",
+            "raceSlug": "tour-de-l-avenir",
+            "raceDate": "2026-08-19",
+            "raceClass": null
+          },
+          {
+            "raceName": "World Championships MU - Road Race",
+            "raceSlug": "world-championships-u23",
+            "raceDate": "2026-09-25",
+            "raceClass": null
+          }
+        ]
+      }
+    }
+  ]
+}

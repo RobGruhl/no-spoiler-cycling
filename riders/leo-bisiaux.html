@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Léo Bisiaux — No Spoiler Cycling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../shared.css"/>
+<style>
+.crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
+.crumbs a{color:var(--ink-3);border-bottom:1px solid transparent}
+.crumbs a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.crumbs .sep{margin:0 10px;color:var(--rule-soft)}
+
+.hero{display:grid;grid-template-columns:240px 1.3fr 1fr;gap:40px;padding:40px 0 32px;border-bottom:3px solid var(--ink)}
+.hero .photo{aspect-ratio:1/1;background:var(--paper-2);border:1px solid var(--rule);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hero .photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.12) contrast(1.03)}
+.hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(48px,5.5vw,84px);line-height:.9;letter-spacing:-.04em;margin:0}
+.hero h1 .em{font-weight:500;font-style:italic;color:var(--signal);display:block}
+.hero .sub{font-family:var(--font-mono);font-size:13px;letter-spacing:.06em;color:var(--ink-2);margin-top:14px;line-height:1.5}
+.hero aside{border-left:1px solid var(--rule);padding-left:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;align-content:start}
+.stat .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--font-sans);font-weight:700;font-size:28px;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.stat .v.sm{font-size:16px}
+.stat .v.mono{font-family:var(--font-mono);font-weight:600;letter-spacing:-.01em}
+
+.section{padding:28px 0;border-bottom:1px solid var(--rule-soft)}
+.section h2{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.01em;margin:0 0 10px}
+.section .eyebrow{margin-bottom:4px;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3)}
+
+.chips-inline{display:flex;gap:6px;flex-wrap:wrap}
+.sp{display:inline-flex;align-items:center;height:22px;padding:0 10px;border:1px solid var(--ink);font-family:var(--font-mono);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;line-height:1}
+
+.program{margin-top:14px}
+.pm{margin-top:24px}
+.pm-head{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:baseline;padding:16px 0 8px;border-top:3px solid var(--ink)}
+.pm-head .pm-num{font-family:var(--font-sans);font-weight:800;font-size:48px;line-height:.9;letter-spacing:-.04em}
+.pm-head .pm-name{font-family:var(--font-sans);font-weight:600;font-size:22px;letter-spacing:-.02em}
+.pm-head .pm-count{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);text-align:right}
+.pm-list{border-top:1px solid var(--rule)}
+.prow{display:grid;grid-template-columns:140px 1fr 100px;gap:0;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.prow:hover{background:var(--paper-2)}
+.prow .c{padding:0 10px;min-width:0}
+.prow .c.first{padding-left:0}
+.prow .c .name{font-family:var(--font-sans);font-weight:600;font-size:15px;letter-spacing:-.005em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow .c .cat{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;text-align:right;display:block}
+.prow .c.mono{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
+
+.prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+
+.bio{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule);margin-top:14px}
+.bio .s{padding:18px;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.bio .s:last-child{border-right:0}
+.bio .s .k{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.bio .s .v{font-family:var(--font-sans);font-weight:700;font-size:22px;letter-spacing:-.02em;margin-top:4px;line-height:1}
+.bio .s .v.mono{font-family:var(--font-mono);font-weight:600}
+
+@media (max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero aside{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:20px}
+  .bio{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+  <div class="rainbow thick"></div>
+  <header class="masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
+          <span class="sub">Union Cycliste Internationale · Rider Sheet · Season MMXXVI</span>
+        </div>
+        <div class="mast-meta">
+          Document <b>NSC/MEN/LEO-BISIAU</b><br/>
+          Built <b>2026-04-26</b>
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="../index.html">01 — Calendar</a>
+        <a href="../riders.html" class="on">02 — Men's Riders</a>
+        <a href="../riders-women.html">03 — Women's Riders</a>
+        <a href="../about.html">04 — About</a>
+        <span class="spacer"></span>
+        <span class="edition mono">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <div class="crumbs"><a href="../index.html">Calendar</a><span class="sep">/</span><a href="../riders.html">Men&#39;s Riders</a><span class="sep">/</span>Léo Bisiaux</div>
+
+    <section class="hero">
+      <div class="photo">
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)">No photo</span>
+      </div>
+      <div>
+        <div class="tag">
+          <span>🇫🇷 France</span>
+          <span style="color:var(--signal);font-weight:600">✦ Outsider</span>
+          <span>Age 20</span>
+        </div>
+        <h1>Léo<span class="em">Bisiaux</span></h1>
+        <p class="sub">Decathlon - CMA CGM Team</p>
+        <p class="prose" style="margin-top:10px;font-style:italic;color:var(--ink-2);font-size:14px">Decathlon&#39;s hilly-classics future; Seixas&#39;s running mate</p>
+        <div class="chips-inline" style="margin-top:14px">
+          <span class="sp">Puncheur</span><span class="sp">Climber</span><span class="sp">Classics</span>
+        </div>
+      </div>
+      <aside>
+        <div class="stat"><span class="k">Status</span><span class="v sm" style="color:var(--signal)">✦ Outsider</span></div>
+        <div class="stat"><span class="k">Points</span><span class="v mono">—</span></div>
+        <div class="stat"><span class="k">Team</span><span class="v sm">Decathlon - CMA CGM Team</span></div>
+        <div class="stat"><span class="k">2026 Races</span><span class="v">7</span></div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 01 — Bio</div>
+      <h2>Profile</h2>
+      <div class="bio">
+        <div class="s"><div class="k">Nationality</div><div class="v sm">🇫🇷 France</div></div>
+        <div class="s"><div class="k">Date of Birth</div><div class="v sm mono">2005-07-05</div></div>
+        <div class="s"><div class="k">Height / Weight</div><div class="v sm mono">— / —</div></div>
+      </div>
+      <p class="prose" style="margin-top:16px"><a href="https://www.procyclingstats.com/rider/leo-bisiaux" style="border-bottom:1px solid var(--ink)" target="_blank" rel="noopener">ProCyclingStats profile →</a></p>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">§ 02 — 2026 Race Program</div>
+      <h2>Announced races</h2>
+      <div class="program"><div class="pm">
+      <div class="pm-head">
+        <div class="pm-num mono">04</div>
+        <div class="pm-name">April</div>
+        <div class="pm-count mono">1 race</div>
+      </div>
+      <div class="pm-list"><a class="prow" href="../race-details/liege-bastogne-liege-2026.html"><div class="c first mono">Sun, Apr 26</div>
+        <div class="c"><span class="name">Liège-Bastogne-Liège</span></div>
+        <div class="c mono cat">1.UWT</div></a></div>
+    </div><div class="pm">
+      <div class="pm-head">
+        <div class="pm-num mono">05</div>
+        <div class="pm-name">May</div>
+        <div class="pm-count mono">1 race</div>
+      </div>
+      <div class="pm-list"><a class="prow" href="../race-details/eschborn-frankfurt-2026.html"><div class="c first mono">Fri, May 1</div>
+        <div class="c"><span class="name">Eschborn-Frankfurt</span></div>
+        <div class="c mono cat">1.UWT</div></a></div>
+    </div><div class="pm">
+      <div class="pm-head">
+        <div class="pm-num mono">06</div>
+        <div class="pm-name">June</div>
+        <div class="pm-count mono">2 races</div>
+      </div>
+      <div class="pm-list"><a class="prow" href="../race-details/mercan-tour-classic-alpes-maritimes-2026.html"><div class="c first mono">Wed, Jun 3</div>
+        <div class="c"><span class="name">Mercan&#39;Tour Classic Alpes-Maritimes</span></div>
+        <div class="c mono cat"></div></a><div class="prow"><div class="c first mono">Sun, Jun 7</div>
+        <div class="c"><span class="name">Tour Auvergne - Rhône-Alpes</span></div>
+        <div class="c mono cat">2.UWT</div></div></div>
+    </div><div class="pm">
+      <div class="pm-head">
+        <div class="pm-num mono">08</div>
+        <div class="pm-name">August</div>
+        <div class="pm-count mono">3 races</div>
+      </div>
+      <div class="pm-list"><div class="prow"><div class="c first mono">Sat, Aug 1</div>
+        <div class="c"><span class="name">DSSK (Donostia San Sebastian Klasikoa)</span></div>
+        <div class="c mono cat">1.UWT</div></div><a class="prow" href="../race-details/vuelta-a-burgos-2026.html"><div class="c first mono">Tue, Aug 4</div>
+        <div class="c"><span class="name">Vuelta a Burgos</span></div>
+        <div class="c mono cat">2.Pro</div></a><a class="prow" href="../race-details/vuelta-a-espana-2026.html"><div class="c first mono">Sat, Aug 22</div>
+        <div class="c"><span class="name">La Vuelta Ciclista a España</span></div>
+        <div class="c mono cat">2.UWT</div></a></div>
+    </div></div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span>No Spoiler Cycling · 2026 Roadbook</span>
+        <span>§ 02 — Rider Sheet · Léo Bisiaux</span>
+        <span>Built 2026-04-26</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

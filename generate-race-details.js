@@ -325,6 +325,12 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .fav .card .tm{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.04em}
 .fav .card .ft{display:flex;justify-content:space-between;align-items:center;margin-top:4px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em;text-transform:uppercase}
 .fav .card .ft .st{color:var(--ink)}
+.fav .card.outsider{background:var(--paper-2)}
+.fav .card.outsider .no{color:var(--signal)}
+.fav .card.outsider .nm::before{content:"✦  ";color:var(--signal);font-weight:600}
+.fav .sub{grid-column:1/-1;padding:10px 18px;font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--signal);border-bottom:1px solid var(--rule-soft);border-top:1px solid var(--rule)}
+.sl .sub{grid-column:1/-1;padding:10px 0;font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--signal);border-top:1px solid var(--rule)}
+.sl .riderx.outsider::before{content:"✦  ";color:var(--signal);font-weight:600}
 .route{margin-top:14px}
 .route svg{width:100%;height:220px;display:block;border:1px solid var(--rule);background:var(--paper)}
 .route .cap{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-top:8px}
@@ -653,17 +659,22 @@ function renderStageRace(race) {
     </${tag}>`;
   }).join('');
 
-  // Startlist from topRiders (limit 16)
-  const riders = (race.topRiders || []).slice(0, 16);
-  const startlistHtml = riders.length ? `
+  // Startlist from topRiders — ranked first (limit 14), then outsiders below a subhead
+  const allRiders = race.topRiders || [];
+  const ranked = allRiders.filter(r => !r.isOutsider).slice(0, 14);
+  const outsiders = allRiders.filter(r => r.isOutsider);
+  const renderRow = (r, n, isOut) => {
+    const surname = r.name.split(' ')[0];
+    const initial = r.name.split(' ')[1] ? r.name.split(' ')[1][0] + '. ' : '';
+    return `<div class="num">${String(n).padStart(2, '0')}</div>
+            <div class="riderx${isOut ? ' outsider' : ''}">${initial}${htmlEscape(surname.charAt(0) + surname.slice(1).toLowerCase())}</div>
+            <div class="team">${htmlEscape(r.team || '')}</div>`;
+  };
+  const startlistHtml = (ranked.length || outsiders.length) ? `
     <div class="sl">
-      ${riders.map((r, i) => {
-        const surname = r.name.split(' ')[0];
-        const initial = r.name.split(' ')[1] ? r.name.split(' ')[1][0] + '. ' : '';
-        return `<div class="num">${String(i + 1).padStart(2, '0')}</div>
-                <div class="riderx">${initial}${htmlEscape(surname.charAt(0) + surname.slice(1).toLowerCase())}</div>
-                <div class="team">${htmlEscape(r.team || '')}</div>`;
-      }).join('')}
+      ${ranked.map((r, i) => renderRow(r, i + 1, false)).join('')}
+      ${outsiders.length ? `<div class="sub">✦ Outsiders &amp; Espoirs</div>` : ''}
+      ${outsiders.map((r, i) => renderRow(r, ranked.length + i + 1, true)).join('')}
     </div>` : `<p class="prose">Startlist TBD.</p>`;
 
   const jerseys = `
@@ -879,21 +890,27 @@ function renderStage(race, stage) {
 function renderFavourites(race) {
   // Prefer explicit topRiders (already ranked) — promote to cards with derived form stars.
   // Fall back to raceDetails.favorites groups if topRiders is empty.
-  const riders = (race.topRiders || []).slice(0, 6);
-  if (riders.length) {
-    return `<div class="fav">${riders.map((r, i) => {
+  const all = race.topRiders || [];
+  const ranked = all.filter(r => !r.isOutsider).slice(0, 6);
+  const outsiders = all.filter(r => r.isOutsider).slice(0, 6);
+  if (ranked.length || outsiders.length) {
+    const cardFor = (r, i, isOut) => {
       const surname = (r.name.split(' ')[0] || '');
       const given = r.name.split(' ').slice(1).join(' ');
       const display = given ? `${given.charAt(0)}. ${surname.charAt(0) + surname.slice(1).toLowerCase()}` : surname;
       const specialty = (r.specialties || [])[0] || '';
-      const formStars = '★'.repeat(rankingToStars(r.ranking));
-      return `<div class="card">
+      const formStars = isOut ? '' : '★'.repeat(rankingToStars(r.ranking));
+      const rankCell = isOut ? 'OUTSIDER' : `UCI #${r.ranking || '—'}`;
+      return `<div class="card${isOut ? ' outsider' : ''}">
         <div class="no">№ ${String(i + 1).padStart(2, '0')}${specialty ? ' · ' + specialty.toUpperCase() : ''}</div>
         <div class="nm">${htmlEscape(display)}</div>
         <div class="tm">${htmlEscape(r.team || '')}</div>
-        <div class="ft"><span>UCI #${r.ranking || '—'}</span><span class="st">${formStars}</span></div>
+        <div class="ft"><span>${rankCell}</span><span class="st">${formStars}</span></div>
       </div>`;
-    }).join('')}</div>`;
+    };
+    return `<div class="fav">${ranked.map((r, i) => cardFor(r, i, false)).join('')}${
+      outsiders.length ? `<div class="sub">✦ Outsiders &amp; Espoirs</div>` : ''
+    }${outsiders.map((r, i) => cardFor(r, i, true)).join('')}</div>`;
   }
 
   // Fallback: flatten raceDetails.favorites groups
