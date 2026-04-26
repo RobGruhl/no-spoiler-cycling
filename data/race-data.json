@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T05:32:53.174Z",
+  "lastUpdated": "2026-04-26T06:34:18.855Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -11476,8 +11476,8 @@
       "id": "la-route-adelie-de-vitre-2026",
       "name": "La Route Adélie de Vitré",
       "description": "1.1 cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/live/234169-2026-classic-velox-adlie-de-vitr",
       "type": "full-race",
       "raceDate": "2026-04-03",
       "endDate": "2026-04-04",
@@ -11555,7 +11555,8 @@
         ],
         "historicalContext": "La Route Adélie has been held since 1985 and is a staple of the Breton spring calendar. Past winners include French Classics specialists and WorldTour rouleurs.",
         "watchNotes": "Coverage via French regional TV and organiser highlights. The Vitré finishing circuit typically decides the race."
-      }
+      },
+      "_notes": "FloBikes deep link to 2026 race replay. YouTube highlights from Cyclism'Actu (7AME3pKJvGo) reveal winner (Brustenga after Gautherat DQ) in description, so excluded."
     },
     {
       "id": "nxt-classic-2026",
@@ -11650,7 +11651,8 @@
         ],
         "historicalContext": "Part of the broader Flemish Classics calendar, NXT Classic provides a platform for mid-tier Pro and Continental teams to contest a proper Belgian Classic in a racing-dense spring.",
         "watchNotes": "Coverage limited to organiser channels and Belgian regional TV highlights. Watch the final 30km for the race-deciding moves on hellingen and kasseien."
-      }
+      },
+      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 NXT Classic. YouTube candidates either reveal winner (e.g., 'Mauro Schmid geklopt door Del Grosso') or are pirate live-stream lures."
     },
     {
       "platform": "TBD",
@@ -11692,6 +11694,48 @@
         ],
         "historicalContext": "A relatively newer addition to the women's Belgian calendar, NXT Classic Women complements the men's event and is part of the broader Flemish classics infrastructure.",
         "watchNotes": "Coverage limited to organiser channels and Flemish regional TV."
+      },
+      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returned only WWE wrestling results unrelated to cycling.",
+      "broadcast": {
+        "lastUpdated": "2026-04-26T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "No US broadcast for this Dutch UCI 1.1 women's one-day race. Check organizer social channels for highlight clips post-race."
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "Not part of TNT Sports / HBO Max cycling slate. Highlights may surface via UCI WomenCT YouTube clips."
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "FloBikes does not carry this 1.1 Dutch women's race."
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "No SBS or paid coverage anticipated."
+            }
+          }
+        }
       }
     },
     {
@@ -12479,14 +12523,9 @@
           ],
           "distance": 160,
           "date": "2026-04-06",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Opening road stage from Bilbao - hilly Basque parcours",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Opening hilly road stage from Bilbao across classic Basque terrain.",
-            "watchNotes": "Watch for the first GC skirmishes on the closing climbs."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15762810-watch-in-canada-2026-itzulia-basque-country-stage-1",
+          "description": "Hilly opening stage from Bilbao."
         },
         {
           "stageNumber": 2,
@@ -12497,14 +12536,9 @@
           ],
           "distance": 155,
           "date": "2026-04-07",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Classic hilly Basque stage with multiple categorized climbs",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Hilly stage with multiple short, sharp categorized climbs.",
-            "watchNotes": "Puncheurs and breakaway riders contend; GC typically stays close."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15763570-watch-in-canada-2026-itzulia-basque-country-stage-2",
+          "description": "Rolling Basque Country roads with multiple short climbs."
         },
         {
           "stageNumber": 3,
@@ -12515,14 +12549,9 @@
           ],
           "distance": 170,
           "date": "2026-04-08",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Mountain stage with major Basque climbs",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Full mountain stage with major categorized climbs through the Basque peaks.",
-            "watchNotes": "First major GC-shaking day; expect attacks on the final two climbs."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15764176-watch-in-canada-2026-itzulia-basque-country-stage-3",
+          "description": "First mountain test with category 1 climbs."
         },
         {
           "stageNumber": 4,
@@ -12533,14 +12562,9 @@
           ],
           "distance": 20,
           "date": "2026-04-09",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Individual time trial - a key GC day",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Individual time trial, typically on a hilly or rolling course that rewards all-round ability.",
-            "watchNotes": "Key GC day; expect significant reshuffles between climbers and TT specialists."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15764860-watch-in-canada-2026-itzulia-basque-country-stage-4",
+          "description": "Individual time trial - GC battle."
         },
         {
           "stageNumber": 5,
@@ -12552,14 +12576,9 @@
           ],
           "distance": 175,
           "date": "2026-04-10",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Queen stage with summit finish",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Queen stage - the hardest climbing day, typically finishing at altitude.",
-            "watchNotes": "GC battle reaches its apex; largest time gaps usually appear here."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15768192-watch-in-canada-2026-itzulia-basque-country-stage-5",
+          "description": "Queen stage with summit finish - decisive for GC."
         },
         {
           "stageNumber": 6,
@@ -12570,16 +12589,12 @@
           ],
           "distance": 130,
           "date": "2026-04-11",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Final stage to Bergara - short and explosive",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Short, brutal closing stage to Bergara with multiple short climbs.",
-            "watchNotes": "Traditional explosive finale; GC can still flip on a tight parcours."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15775172-watch-in-canada-2026-itzulia-basque-country-stage-6",
+          "description": "Hilly finale into Bergara - last GC chances."
         }
-      ]
+      ],
+      "_notes": "FloBikes deep links found for all 6 stages. URLs are 'Watch In Canada' branded but content is the full race replay."
     },
     {
       "platform": "TBD",
@@ -12634,6 +12649,48 @@
         ],
         "historicalContext": "First contested in 1961, Giro del Belvedere has been won by nearly every Italian star of the past six decades and many international WorldTour winners. It's arguably the premier U23 one-day race in Europe. Past winners include Gianni Bugno, Damiano Cunego, Diego Ulissi, and many modern WorldTour stars.",
         "watchNotes": "Coverage via RAI Sport (Italy) and organiser highlights. Watch the final hilly circuit - the race almost always comes down to a small group or solo finish."
+      },
+      "_notes": "Official channel (@girodelbelvedere) has 2026 highlights video (g758ezKgaSc) with neutral title 'The Easter Monday Show'. Description mentions 'World Champion Lorenzo Finn at the start' but doesn't reveal winner outright. However hashtags include #uaeteamemirates which strongly hints at winning team. 6:33 highlights with likely podium reveal at end. Marked TBD out of caution for 1-star race.",
+      "broadcast": {
+        "lastUpdated": "2026-04-26T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "Italian U23 1.2U one-day classic. No US live or replay coverage. Highlights occasionally appear on YouTube via FCI / GB Cycling channels."
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "Not on TNT Sports / HBO Max cycling slate."
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "FloBikes does not carry Italian U23 1.2 races."
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "No Australian broadcast for this U23 race."
+            }
+          }
+        }
       }
     },
     {
@@ -12720,19 +12777,13 @@
           "name": "Stage 1: Opening Flat Stage",
           "stageType": "flat",
           "terrain": [
-            "flat",
-            "crosswind-risk"
+            "flat"
           ],
           "distance": 180,
           "date": "2026-04-07",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Opening flat stage for the sprinters through the Loire region",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Flat opening stage for the sprinters across the Loire plains.",
-            "watchNotes": "Crosswind risk on exposed roads - echelons possible. Sprint finish most likely."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15763543-replay-2026-regiona-pays-de-la-loire-tour-stage-1",
+          "description": "Opening flat stage - sprinters' day."
         },
         {
           "stageNumber": 2,
@@ -12743,14 +12794,9 @@
           ],
           "distance": 15,
           "date": "2026-04-08",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Short individual time trial - the key GC day",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Short ITT on a rolling course - the key GC-defining stage.",
-            "watchNotes": "TT specialists gain significant time; GC often decided here."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15764147-replay-2026-regiona-pays-de-la-loire-tour-stage-2",
+          "description": "Individual time trial - GC will be reshuffled."
         },
         {
           "stageNumber": 3,
@@ -12761,23 +12807,19 @@
           ],
           "distance": 170,
           "date": "2026-04-09",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Rolling final stage, typically a sprint or punchy finish",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "Rolling final stage - a mix of flat and punchy sections, with either a sprint or small-group finish.",
-            "watchNotes": "Last chance for late GC moves; sprinters and stage hunters battle."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15764787-replay-2026-regiona-pays-de-la-loire-tour-stage-3",
+          "description": "Hilly closing stage with GC fight on final climbs."
         }
-      ]
+      ],
+      "_notes": "FloBikes deep links found for all 3 stages."
     },
     {
       "id": "region-pays-de-la-loire-tour-feminin-2026",
       "name": "Région Pays de la Loire Tour Féminin",
       "description": "1.1 cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15686308-2026-regiona-pays-de-la-loire-tour",
       "type": "full-race",
       "raceDate": "2026-04-08",
       "endDate": "2026-04-09",
@@ -12855,7 +12897,8 @@
         ],
         "historicalContext": "The women's Pays de la Loire race has grown into a staple of the French women's calendar, traditionally attracting a strong field of sprinters and classics riders.",
         "watchNotes": "Coverage via organiser channels and French regional TV. Weather-dependent - windy day equals echelons, calm day equals bunch sprint."
-      }
+      },
+      "_notes": "FloBikes has 2026 race event page with stage replays available (stage 1: 15763543, stage 2: 15764147, stage 3: 15764787). Note this race shares parcours with the men's edition - per-race coverage."
     },
     {
       "id": "scheldeprijs-2026",
@@ -13020,6 +13063,49 @@
         ],
         "historicalContext": "The women's Scheldeprijs has been contested since 2019 and grown steadily in prestige. Past winners include Lorena Wiebes and other top WorldTour sprinters, cementing its status as the women's sprinters' Classic of the Flemish spring.",
         "watchNotes": "Coverage on Sporza (Belgium) and Eurosport/GCN+. Final 30km is the critical portion - watch team sprint trains forming on the Schoten laps."
+      },
+      "broadcast": {
+        "lastUpdated": "2026-04-26T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "Scheldeprijs Women (UCI 1.Pro) is not part of US live cycling packages. Post-race highlight clips may appear on UCI / Sporza YouTube uploads — disable autoplay to avoid spoilers."
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "Eurosport / TNT Sports",
+              "type": "streaming",
+              "url": "https://discoveryplus.com/uk/show/cycling-tnt-sports",
+              "coverage": "highlights",
+              "subscription": true,
+              "notes": "TNT Sports / HBO Max occasionally carry condensed highlights of Scheldeprijs Women alongside the men's race. Live coverage rare."
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live-and-replay",
+              "subscription": true,
+              "notes": "FloBikes typically picks up the Scheldeprijs combined feed (men and women)."
+            }
+          },
+          "AU": {
+            "primary": {
+              "broadcaster": "Not available",
+              "type": "none",
+              "coverage": "none",
+              "subscription": false,
+              "notes": "No SBS coverage; not on standard AU cycling slate."
+            }
+          }
+        }
       }
     },
     {
@@ -13105,7 +13191,8 @@
         ],
         "historicalContext": "Giro di Reggio Calabria is a long-running Italian classic that has evolved into part of the Italian spring UCI 1.2 calendar, supporting southern Italian cycling.",
         "watchNotes": "Coverage is typically limited to organiser social media and brief Italian regional TV highlights."
-      }
+      },
+      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations of the race - no actual race footage."
     },
     {
       "id": "giro-della-magna-grecia-2026",
@@ -13191,7 +13278,8 @@
         ],
         "historicalContext": "A relatively modern addition to the Italian U23 calendar, Giro della Magna Grecia has produced several WorldTour-bound Italian riders in recent editions.",
         "watchNotes": "Coverage is typically limited to organiser social media and brief Italian regional highlights."
-      }
+      },
+      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations (JDROID19 channel) - no actual race footage."
     },
     {
       "id": "paris-roubaix-2026",
@@ -13991,8 +14079,8 @@
       "id": "brabantse-pijl-2026",
       "name": "Brabantse Pijl",
       "description": "1.Pro cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15183664-2026-de-brabantse-pijl-men",
       "type": "full-race",
       "raceDate": "2026-04-17",
       "endDate": "2026-04-18",
@@ -14155,7 +14243,8 @@
         ],
         "historicalContext": "First held in 1961, De Brabantse Pijl has grown from a regional race into a key pre-Ardennes classic. Past winners include Eddy Merckx, Johan Museeuw, Philippe Gilbert, Julian Alaphilippe, Wout van Aert and Remco Evenepoel, confirming its status as a race for the best one-day riders. Since Flanders Classics took over organisation it has settled into a late-week slot before the Ardennes triple.",
         "watchNotes": "Small climbs come thick and fast - don't expect big gaps early. The race typically comes alive on the second of three finishing laps. The Schavei inside 3km to go and the technical run-in to Overijse reward riders with classics instinct. Watch for Ardennes specialists using this as their final sharpener before Amstel, Flèche and Liège."
-      }
+      },
+      "_notes": "FloBikes event page for the men's race. Extended highlights also available at /video/15792480-2026-de-brabantse-pijl-men-extended-highlights."
     },
     {
       "id": "classic-grand-bescancon-doubs-2026",
@@ -14249,7 +14338,8 @@
         ],
         "historicalContext": "Held under various names in the Besançon area, this classic has been a platform for emerging French talent. It pairs with Tour du Jura the following day for a Franche-Comté weekend popular with French teams.",
         "watchNotes": "Small race but good terrain for punchy racing. Expect the key selection to come on the final circuit. French TV and race organiser social channels are typical coverage sources."
-      }
+      },
+      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (tJ-8MB4ol8s) reveals winner Jegat in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option."
     },
     {
       "id": "tour-du-jura-2026",
@@ -14362,7 +14452,8 @@
         ],
         "historicalContext": "Tour du Jura has grown into one of France's signature 1.2 hilly races, with past winners progressing to Pro Team and WorldTour contracts. The race is a staple of the French April calendar.",
         "watchNotes": "Watch for the moves on the final categorized climb - the race rarely comes back together after that. Coverage via race social channels and short highlights on FFC/French regional TV."
-      }
+      },
+      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (YV0TnhWL9jY) - despite the question-style title - reveals winner Riccitello in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option."
     },
     {
       "platform": "TBD",
@@ -14477,14 +14568,15 @@
         ],
         "historicalContext": "LBL U23 has been won by riders who later won the elite Monument, making it one of the most predictive races for future Ardennes talent. The race shares most of the final third of its route with the elite men's Liège-Bastogne-Liège.",
         "watchNotes": "Coverage is typically limited to race highlights on organiser channels and Belgian regional TV. The race finishes before the elite weekend so serves as an early preview of likely Monument tactics."
-      }
+      },
+      "_notes": "No spoiler-safe coverage found. FloBikes has no LBL U23 2026 listing. YouTube candidates include The Young Peloton channel (which reveals 'Francesco Busatto wins Liege-Bastogne-Liege U23' in their channel listing) and pirate livestream lures. No safe option."
     },
     {
       "id": "amstel-gold-race-2026",
       "name": "Amstel Gold Race",
       "description": "1.UWT cycling race in Netherlands",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15183666-2026-amstel-gold-race",
       "type": "full-race",
       "raceDate": "2026-04-19",
       "endDate": "2026-04-20",
@@ -14808,7 +14900,8 @@
         ],
         "historicalContext": "The Amstel Gold Race is the youngest of the Spring Classics, first raced in 1966 with Jean Stablinski winning the inaugural 302km edition. It is the only Classic held in the Netherlands and takes its name from the Dutch brewery. Before 2017, the race traditionally finished atop the Cauberg, making it a decisive summit-style finale; since then, the finish has moved to beyond the Cauberg, encouraging longer-range attacks and a more tactical finale. Recent winners include Wout van Aert, Mathieu van der Poel, Tadej Pogačar, Tom Pidcock, and Mattias Skjelmose - a roster that reflects the race's appeal across rider types.",
         "watchNotes": "Amstel Gold is long - tune in for the final 90 minutes when the race attacks the decisive loop. Key moments: the Keutenberg at 31km to go (steepest climb, often the launchpad), the second Cauberg at 21.6km to go, and the final 5km after the Bemelerberg. The twisty, narrow roads make positioning crucial and favour riders with strong teams. Spoiler caution: YouTube thumbnails and sidebar often reveal the final metres - disable autoplay."
-      }
+      },
+      "_notes": "FloBikes event page hosts both men's and women's editions. Men's replay: /events/15183666-2026-amstel-gold-race/videos?playing=15806826 ; Men's extended highlights: /video/15807073-highlights-2026-amstel-gold-race-men."
     },
     {
       "id": "gp-feminin-de-chambery-2026",
@@ -14901,14 +14994,15 @@
         ],
         "historicalContext": "A relatively new addition to the French women's calendar, GP Féminin de Chambéry has helped fill a gap in domestic one-day racing and regularly sees podiums from French Continental squads and development riders.",
         "watchNotes": "Coverage is typically limited to race organiser social media and brief highlights. Watch for late attacks on the run-in to Chambéry."
-      }
+      },
+      "_notes": "France 3 Auvergne-Rhone-Alpes had a DIRECT (live) stream (w3yLLh34kPM) but description appears to be a summary referencing pre-race link. Other YouTube candidates (y6tfyWnQn8o, O1Lm_HHJE4U) reveal winner Celia Gery in description. No spoiler-safe option for 1-star race."
     },
     {
       "id": "amstel-gold-race-women-2026",
       "name": "Amstel Gold Race (Women)",
       "description": "1.WWT women's cycling race in Netherlands",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15183666-2026-amstel-gold-race/videos?playing=15804829",
       "type": "full-race",
       "raceDate": "2026-04-19",
       "raceDay": "Sunday",
@@ -15094,7 +15188,8 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "_notes": "Direct deep link to women's replay within the shared 2026 Amstel Gold Race event page (men + women)."
     },
     {
       "id": "gp-samarkand-2026",
@@ -15244,14 +15339,15 @@
             "watchNotes": "Another sprinters' opportunity; breakaways unlikely to survive on flat finale."
           }
         }
-      ]
+      ],
+      "_notes": "No coverage found. FloBikes has no listing. YouTube returns only chess events from Samarkand and unrelated content."
     },
     {
       "id": "tour-of-the-alps-2026",
       "name": "Tour of the Alps",
       "description": "2.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/15183670-2026-tour-of-the-alps-men",
       "type": "full-race",
       "raceDate": "2026-04-20",
       "endDate": "2026-04-25",
@@ -15356,14 +15452,9 @@
           ],
           "distance": 141.8,
           "date": "2026-04-20",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Opening stage around Innsbruck with four short climbs - potentially a chance for a fast finisher or reduced-bunch sprint.",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "The Tour of the Alps opens in Innsbruck, Austria, with a 141.8km loop featuring four short classified climbs. The circuit design - similar to the 2017 edition won by Geraint Thomas - reserves a potential fast finish in the Austrian capital. With no long or sustained climbs, the stage typically sees either a well-timed breakaway or a reduced-group sprint among puncheurs and classics riders.",
-            "watchNotes": "Watch for aggressive attacks on the final classified climb as riders test the Bonus Sprint intermediate locations. GC contenders will likely save themselves for Stage 2's Val Martello mountain finish. Expect a hard but tactical opening day."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15810179-replay-2026-tour-of-the-alps-stage-1",
+          "description": "Hilly opener around Innsbruck."
         },
         {
           "stageNumber": 2,
@@ -15375,14 +15466,9 @@
           ],
           "distance": 147.5,
           "date": "2026-04-21",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Queen-style mountain stage from Telfs in Tirol to Val Martello in Südtirol - the only true mountain finish of the race.",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "The Tour of the Alps' only mountain finish of the 2026 edition. From Telfs in Austria, the 147.5km route heads south into Italy's Südtirol/Alto Adige, crossing two high classified climbs before the final 6km summit finish at Val Martello averaging 8%. The finish in the high valley is narrow and picturesque - a climber's dream. This is the single most important GC stage of the race.",
-            "watchNotes": "THE critical stage for the overall classification. Watch for GC contenders testing each other on the two earlier high climbs, then a pure climber's battle on the 6km 8% finish to Val Martello. Bonus Sprint intermediates near the summit will add GC complexity. Disable YouTube autoplay - highlights frequently spoil the result."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15810951-replay-2026-tour-of-the-alps-stage-2",
+          "description": "Mountain stage with summit finish at Val Martello."
         },
         {
           "stageNumber": 3,
@@ -15393,14 +15479,9 @@
           ],
           "distance": 174.5,
           "date": "2026-04-22",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Long Alpine stage from Laces to Arco via Passo Castrin and multiple smaller climbs, finishing with a fast descent.",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "The longest stage of the 2026 Tour of the Alps at 174.5km. From Laces (Latsch) in Südtirol, the route climbs the Passo Castrin early, then winds through a series of smaller mountain climbs before a fast final descent to the finish in Arco, the Garda Trentino town that has long been home to the Tour of the Alps organising committee.",
-            "watchNotes": "The descent finish favours bold descenders and small groups who can stay clear over the final climb. Expect the breakaway to have a strong chance if GC teams don't commit to chasing. Watch for late attacks on the final climb before the descent to Arco."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15811594-replay-2026-tour-of-the-alps-stage-3",
+          "description": "Long mountain stage from Laces to Arco."
         },
         {
           "stageNumber": 4,
@@ -15411,14 +15492,9 @@
           ],
           "distance": 167.8,
           "date": "2026-04-23",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "The Queen stage with 3,600m of climbing via Passo Redebus and the Povo climb. The hardest day of the race.",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "The Queen stage of the 2026 Tour of the Alps - 167.8km from Arco to Trento with 3,600m of elevation gain, the hardest day of the race. The route includes the high Passo Redebus and the late Povo climb (which was part of the 2021 European Championships course). The finish comes after a descent into Trento, adding a tactical dimension to the GC battle.",
-            "watchNotes": "The race's toughest day - expect major GC action on the Redebus and especially the Povo climb late. Descent finish means pure climbers can't seal it on gradient alone - bold descending and positioning on the run-in are crucial. A key stage for anyone still hunting the GC."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15814148-replay-2026-tour-of-the-alps-stage-4",
+          "description": "Mountain stage from Arco to Trento."
         },
         {
           "stageNumber": 5,
@@ -15429,23 +15505,19 @@
           ],
           "distance": 128.6,
           "date": "2026-04-24",
-          "platform": "TBD",
-          "url": "TBD",
-          "description": "Short but sharp final stage to Bolzano with two major late climbs likely deciding the final GC standings.",
-          "stageDetails": {
-            "spoilerSafe": true,
-            "courseSummary": "The final stage of the 2026 Tour of the Alps - a short but decisive 128.6km from Trento north to Bolzano. Two major late climbs will likely settle the overall standings. The shorter stage length encourages aggressive racing from the start, as attackers must commit early to break the GC group.",
-            "watchNotes": "Short stages often produce the most exciting racing - expect aggressive moves from GC contenders still within striking distance. The two late climbs are the final chance for swings on the overall. Bonus Sprint intermediates on climbs add extra tension. Stage often produces a beautiful finish in historic Bolzano."
-          }
+          "platform": "FloBikes",
+          "url": "https://www.flobikes.com/video/15818249-replay-2026-tour-of-the-alps-stage-5",
+          "description": "Final mountain stage with last GC chances."
         }
-      ]
+      ],
+      "_notes": "FloBikes deep links found for all 5 stages. Note: stages 3 and 4 share the same video ID 15814148 in FloBikes search results - the video URL slug labeled 'stage-3' is also titled 'Stage 4' in some metadata, suggesting they may be split/combined; verify when applying."
     },
     {
       "id": "la-fleche-wallonne-2026",
       "name": "La Flèche Wallonne",
       "description": "1.UWT cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14817669-2026-fleche-wallonne",
       "type": "full-race",
       "raceDate": "2026-04-22",
       "endDate": "2026-04-23",
@@ -15774,14 +15846,15 @@
         ],
         "historicalContext": "First run in 1936, La Flèche Wallonne ('The Walloon Arrow') is the second-oldest race in the Ardennes triptych. Originally a Tournai-to-Liège point-to-point, the race was transformed in 1985 when the finish moved to the summit of the Mur de Huy. That decision made the Mur one of the most iconic climbs in pro cycling - 1.3km of twisting, fan-lined road rising to 20%. The finish has produced the famous 'slow-motion sprint' where riders are reduced to grinding turnovers in the final metres. Recent editions have also seen the addition of the Côte d'Ereffe and Côte de Cherave in the finale to create more selective racing before the Mur. Alejandro Valverde's five wins remain the record; Julian Alaphilippe and Tadej Pogačar are among recent multiple winners.",
         "watchNotes": "Flèche Wallonne is often a TV tactic race - tune in for the final 60km when the circuits begin. The second Mur de Huy at 37.8km to go is the tactical benchmark; the third Cherave at 5.7km to go is where the winning move often begins. Every edition features the final 1.3km on the Mur as destination viewing - the 'slow-motion sprint' is unique in cycling. Spoiler caution: the Mur summit finish is heavily covered, so YouTube previews and sidebar recommendations often contain the outcome."
-      }
+      },
+      "_notes": "FloBikes men's event page. Full race replay: /video/15811638-watch-in-canada-2026-fleche-wallonne ; Highlights: /collections/6752070-continue-watching?playing=15811624."
     },
     {
       "id": "la-fleche-wallonne-women-2026",
       "name": "La Flèche Wallonne (Women)",
       "description": "1.WWT women's cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com/events/14817679-2026-fleche-wallonne-femmes",
       "type": "full-race",
       "raceDate": "2026-04-22",
       "raceDay": "Wednesday",
@@ -15970,7 +16043,8 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "_notes": "FloBikes women's (Femmes) event page. Full race replay: /collections/6799323-full-race-replays?playing=15811651 ; Highlights: /video/15813998-highlights-2026-fleche-wallonne-femmes."
     },
     {
       "id": "vuelta-asturias-2026",
@@ -16154,7 +16228,8 @@
             "watchNotes": "Expect a short, explosive summit finish; small GC gaps can flip on Naranco's steepest pitches."
           }
         }
-      ]
+      ],
+      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 Vuelta a Asturias listing. All YouTube highlights (multiple Spanish channels) reveal winners or daily leaders (Nairo Quintana, Layrac) in titles or descriptions."
     },
     {
       "id": "omloop-van-borsele-women-2026",
@@ -16246,11 +16321,12 @@
         ],
         "historicalContext": "Omloop van Borsele is a staple of the Dutch women's calendar and traditionally attracts a strong start list. Past winners include top Dutch and Belgian sprinters and rouleurs.",
         "watchNotes": "Weather forecast is the single most important variable - windy days produce echelon carnage, calm days a bunch sprint. Coverage typically via organiser channels and Dutch regional TV."
-      }
+      },
+      "_notes": "Race is today (2026-04-25/26) and may not have aired yet. FloBikes has no listing. YouTube returns pirate livestream lures and a SecretFrame channel reference revealing 'Nicole Steigenga: Champion of Omloop van Borsele!' (from previous edition or this one). No spoiler-safe option."
     },
     {
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=LAl6AlzEdBw",
       "type": "full-race",
       "discoveredAt": "2026-04-16T00:00:00Z",
       "id": "tour-de-bretagne-2026",
@@ -16348,8 +16424,8 @@
           ],
           "distance": 170,
           "date": "2026-04-25",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=LAl6AlzEdBw",
           "description": "Opening rolling road stage in eastern Brittany",
           "stageDetails": {
             "spoilerSafe": true,
@@ -16466,7 +16542,8 @@
             "watchNotes": "GC typically defended; last chance for sprinters and breakaway riders."
           }
         }
-      ]
+      ],
+      "_notes": "Stage 1 has SAFE 2h38m live replay from official @tourdebretagne YouTube channel (neutral title, neutral description, Redon/Pipriac route). Stages 2-7 not yet aired (race runs 2026-04-25 through 2026-05-01). Note YouTube spoiler warning: disable autoplay, avoid sidebar recommendations."
     },
     {
       "id": "gp-della-liberazione-donne-2026",
@@ -17684,6 +17761,64 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "211.4km WorldTour one-day race from Eschborn into the Taunus hills west of Frankfurt and back to a circuit finish in central Frankfurt on May 1 (German Labour Day). Roughly 2,000m of climbing centred on multiple ascents of the Feldberg and the savagely steep Mammolshain.",
+        "keyClimbs": [
+          {
+            "name": "Großer Feldberg (long side)",
+            "category": "2",
+            "length": "11.1 km",
+            "avgGradient": "4.9%",
+            "kmFromFinish": 157,
+            "notes": "First major ascent, used to thin the field early."
+          },
+          {
+            "name": "Großer Feldberg (short side)",
+            "category": "2",
+            "length": "7.8 km",
+            "avgGradient": "6.0%",
+            "kmFromFinish": 87,
+            "notes": "Second pass — selection forms here."
+          },
+          {
+            "name": "Mammolshain",
+            "category": "3",
+            "length": "2.4 km",
+            "avgGradient": "7.4%",
+            "maxGradient": "26%",
+            "kmFromFinish": 35,
+            "notes": "Final ascent of the brutal 'Wall of Mammolshain' before the run-in to Frankfurt — race-decisive."
+          }
+        ],
+        "favorites": {
+          "description": "A puncheur-friendly classic that splits between an uphill-savvy sprinter or a small late breakaway. Reduced bunch sprint or a 5-10 rider front group typical.",
+          "puncheurs": [
+            "HIRSCHI Marc",
+            "POWLESS Neilson",
+            "BARRENETXEA Jon",
+            "ALAPHILIPPE Julian"
+          ],
+          "sprinters": [
+            "PHILIPSEN Jasper",
+            "MERLIER Tim",
+            "MEEUS Jordi"
+          ],
+          "climbers": [
+            "WANDAHL Frederik",
+            "TEUNS Dylan"
+          ]
+        },
+        "narratives": [
+          "60th edition of a German classic that has been a constant on May 1 (Labour Day) for six decades and is in its 10th year at WorldTour level.",
+          "Bridge race between the Ardennes Classics and the Giro d'Italia — a final tune-up for puncheurs and a chance for Classics survivors to grab one more big result.",
+          "The Feldberg–Mammolshain combo regularly makes the bunch sprint a 'reduced' affair: the question each year is whether the puncheurs can drop the fast finishers before Frankfurt.",
+          "Strong German home crowd along the Feldberg climbs creates Tour-style atmosphere — a rare Bundesrepublik WorldTour day."
+        ],
+        "historicalContext": "First held in 1962 and known historically as Rund um den Henninger-Turm. Norway's Alexander Kristoff won four straight editions (2014–2018). Promoted to WorldTour status in 2017.",
+        "watchNotes": "Tune in for the second Feldberg pass with about 90km to go. The third Mammolshain ascent inside 35km to go is where the winning move usually goes. If a small group survives to the Frankfurt circuit it will sprint between the Alte Oper and the Mainufer."
       }
     },
     {
@@ -17747,6 +17882,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Portuguese UCI 1.2 one-day race held on May 1 around Lousada in northern Portugal. A rolling parcours on narrow Minho roads, typically about 175km, that suits a puncheur or a strong breakaway out of the local Continental peloton.",
+        "favorites": {
+          "description": "A stage primarily contested by Portuguese Continental teams (Glassdrive, Efapel, Tavfer) with an occasional ProTeam visitor. Expect a Portuguese national to take it from a small group.",
+          "puncheurs": [
+            "Riders from Glassdrive Q8 Anicolor",
+            "Riders from Efapel-Cabreiroá",
+            "Riders from Anicolor-Tien21"
+          ]
+        },
+        "narratives": [
+          "Title-sponsor home race for Anicolor — the team usually attacks aggressively to defend its branded race.",
+          "First leg of the Portuguese May classic block that bleeds into GP Beiras and the national racing season.",
+          "Calendar fixture for U23 prospects looking to make the jump to ProTeams via Portuguese feeders."
+        ],
+        "historicalContext": "Modern UCI 1.2 race created in the 2010s by the Anicolor flooring company alongside its Continental cycling team, contested mainly by Iberian Continental squads.",
+        "watchNotes": "Coverage is limited — Portuguese Federation often posts a finish-line clip on YouTube. The decisive split usually happens on one of the late short climbs in the final 30km."
       }
     },
     {
@@ -17809,6 +17964,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.2 kermesse-style one-day race held in East Flanders on May 1. Roughly 180km of flat-to-rolling Flemish roads with a small finishing circuit and the obligatory short cobbled drags — bunch sprint or small late break typical.",
+        "favorites": {
+          "description": "A field of Belgian Continental and ProTeam riders looking to grab early-season UCI points. Sprinters and rouleurs both have a shot.",
+          "sprinters": [
+            "Riders from Bingoal-WB",
+            "Riders from Tarteletto-Isorex",
+            "Riders from Flanders-Baloise"
+          ]
+        },
+        "narratives": [
+          "Local kermesse with UCI status — a chance for Belgian Continental teams to grab points and a podium close to home.",
+          "Title sponsor (a flooring contractor) keeps this race grassroots — typical of the dense Flemish spring calendar.",
+          "Often a first race back for riders who skipped the Ardennes block and are easing toward summer Belgian semi-classics."
+        ],
+        "historicalContext": "Newer addition to the Flemish calendar (mid-2010s onward), running under various title sponsors. Strictly a regional Belgian event; not part of the WorldTour or ProSeries calendar.",
+        "watchNotes": "No live broadcast expected; check Sporza or local Belgian media for highlight clips. Watch for an attack on the final cobbled section in the closing 10km."
       }
     },
     {
@@ -17871,6 +18046,31 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Luxembourg women's UCI ProSeries weekend held in Garnich and Cessange on May 2 (and surrounding day). The 2024 and 2025 editions were a two-day double one-day race format of roughly 110-120km each, on punchy circuits with a 13% kicker per lap and uphill-leaning finishes.",
+        "favorites": {
+          "description": "A field that mixes WorldTour squads using Elsy Jacobs as a tune-up for the Vuelta Femenina with strong Continental teams hunting points.",
+          "puncheurs": [
+            "LACH Marta",
+            "FIDANZA Martina",
+            "CONFALONIERI Maria Giulia"
+          ],
+          "sprinters": [
+            "VAN DAM Sarah",
+            "JANSEN Yara",
+            "KOSTER Anouska"
+          ]
+        },
+        "narratives": [
+          "Tribute race to Luxembourgish cycling pioneer Elsy Jacobs (1959 women's road world champion).",
+          "Final tune-up for many WWT-bound climbers and rouleurs before La Vuelta Femenina starts the following day.",
+          "Uphill finishes have favoured punchy, classics-style winners in recent editions — pure sprinters rarely get a clean result here."
+        ],
+        "historicalContext": "Held since 2008 in honour of Luxembourg's Elsy Jacobs. Originally a stage race; reformatted into back-to-back one-day races in 2024 to fit the new May calendar block.",
+        "watchNotes": "Free organiser livestream typically available on the Festival Elsy Jacobs website. Action ignites on the steep Garnich climb in the final two laps."
       }
     },
     {
@@ -17933,6 +18133,63 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.1 one-day race based in Marche-en-Famenne on May 3. Roughly 187-195km combining a long opening loop with multiple finishing circuits over the Côte de Roy (3.4km at 3.9%), with the Côte de Waharday (1.3km at 8.1%) as the punchiest kicker.",
+        "keyClimbs": [
+          {
+            "name": "Côte du Crawy",
+            "category": "3",
+            "length": "2.3 km",
+            "avgGradient": "6.3%",
+            "notes": "Mid-race drag, helps form the early break."
+          },
+          {
+            "name": "Côte de Nassogne",
+            "category": "3",
+            "length": "4.0 km",
+            "avgGradient": "4.3%",
+            "notes": "Longest sustained climb of the day."
+          },
+          {
+            "name": "Côte de Waharday",
+            "category": "3",
+            "length": "1.3 km",
+            "avgGradient": "8.1%",
+            "notes": "Steepest pitch on the parcours — frequent attack point."
+          },
+          {
+            "name": "Côte de Roy (finishing circuit)",
+            "category": "4",
+            "length": "3.4 km",
+            "avgGradient": "3.9%",
+            "kmFromFinish": 4,
+            "notes": "Tackled four times in the local laps; the final ascent puts the climbers and puncheurs in front but leaves the door open for a bunch sprint."
+          }
+        ],
+        "favorites": {
+          "description": "A puncheur-sprinter classic that has historically split between fast finishers who survive Côte de Roy and Belgian classics riders who attack on the final lap.",
+          "sprinters": [
+            "KANTER Max",
+            "BOL Cees",
+            "MARIT Arne"
+          ],
+          "puncheurs": [
+            "DE LIE Arnaud",
+            "ZINGLE Axel",
+            "VAN GILS Maxim",
+            "MEEUS Jordi"
+          ]
+        },
+        "narratives": [
+          "Lotto-Dstny (now Lotto-Intermarché) traditionally defends this race for Arnaud De Lie, who has won it twice.",
+          "XDS Astana's emerging sprint train (Kanter / Bol) gave them a 1-2 in 2025; expect them to ride for that combo again.",
+          "One of the few 1.1 one-day races between the Ardennes and Eschborn that consistently attracts a strong WorldTour-flavoured field."
+        ],
+        "historicalContext": "First run in 2019 as a successor to Tour de la Famenne. Title sponsor Lotto and the Belgian Federation have built it into the strongest 1.1 race in the Belgian Ardennes.",
+        "watchNotes": "Watch for the Côte de Waharday on the final long loop, then the third and fourth ascents of Côte de Roy on the local circuit. Attacks land in the last 10km on the final Roy climb."
       }
     },
     {
@@ -17995,6 +18252,47 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Historic Italian UCI 1.1 one-day race in the Ligurian Apennines on May 3, traditionally finishing in or near Genoa after roughly 195km. The defining feature is the Passo della Bocchetta (8.0km at 7.7%), a long Apennine pass that leads into a fast technical descent toward the Genoese coast.",
+        "keyClimbs": [
+          {
+            "name": "Passo della Bocchetta",
+            "category": "1",
+            "length": "8.0 km",
+            "avgGradient": "7.7%",
+            "maxGradient": "12%",
+            "notes": "The legendary Apennine pass that defines this race — long, steady, and the launchpad for almost every winning move."
+          },
+          {
+            "name": "Crocefieschi",
+            "category": "2",
+            "length": "5.5 km",
+            "avgGradient": "6.5%",
+            "notes": "Mid-race climb that softens up the field before the Bocchetta."
+          }
+        ],
+        "favorites": {
+          "description": "A pure climbers' classic. Italian ProTeam climbers and emerging GC talents typically dominate. Expect a small lead group over the Bocchetta and a winner from a 1-3 rider move.",
+          "climbers": [
+            "Italian ProTeam climbers from Polti VisitMalta and Q36.5",
+            "Riders from Bardiani CSF",
+            "Riders from Solution Tech-Vini Fantini",
+            "Riders from VF Group-Bardiani CSF"
+          ],
+          "puncheurs": [
+            "GHEBREIGZABHIER Amanuel"
+          ]
+        },
+        "narratives": [
+          "Race of the Apennines — Italian climbing tradition dating to 1934 in the same Genoese mountains where Coppi and Bartali raced.",
+          "Final tune-up for Italian climbers heading into the Giro d'Italia, which starts five days later.",
+          "Climbers from Italian ProTeams use it as a showcase to attract bigger contracts; a Bocchetta KOM still carries weight on a CV."
+        ],
+        "historicalContext": "First held in 1934. Past winners include Fausto Coppi (multiple times), Felice Gimondi, and Gianni Bugno. Now organised by US Pontedecimo and traditionally finishes in the Genoese suburb of Pontedecimo.",
+        "watchNotes": "If you can find live coverage (rare for 1.1 races), tune in for the Bocchetta ascent — usually inside the final 35-50km. The descent into Genoa is often where the winner consolidates a solo move."
       }
     },
     {
@@ -18064,7 +18362,56 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Seven-stage Women's WorldTour Grand Tour, May 3-9 2026. The 12th edition tackles 819.5km through Galicia, León, and Asturias with no time trial but a brutal back-to-back finale: stage 6 summit finish at Les Praeres.Nava and stage 7 atop the legendary Alto de l'Angliru. One of the toughest routes in race history.",
+        "keyClimbs": [
+          {
+            "name": "Les Praeres.Nava",
+            "category": "1",
+            "length": "3.9 km",
+            "avgGradient": "12.8%",
+            "maxGradient": "24%",
+            "notes": "Stage 6 summit finish — savage Asturian wall used in the men's Vuelta as a GC sorting point."
+          },
+          {
+            "name": "Alto de l'Angliru",
+            "category": "HC",
+            "length": "12.5 km",
+            "avgGradient": "10.2%",
+            "maxGradient": "23.5%",
+            "notes": "Stage 7 finish — first time in the women's Vuelta. The Cueña les Cabres ramps top out above 23%. GC-decisive."
+          }
+        ],
+        "favorites": {
+          "description": "Pure climbers' Vuelta — the GC is decided in Asturias. Two summit finishes in the final 24 hours mean attacks from far out and significant time gaps.",
+          "gcContenders": [
+            "VOLLERING Demi",
+            "REUSSER Marlen",
+            "NIEWIADOMA-PHINNEY Kasia",
+            "GIGANTE Sarah",
+            "VAN DER BREGGEN Anna",
+            "MUZIC Évita"
+          ],
+          "climbers": [
+            "FAULKNER Kristen",
+            "REALINI Gaia",
+            "PERSICO Silvia",
+            "GARCÍA Mavi"
+          ]
+        },
+        "narratives": [
+          "First-ever finish atop l'Angliru in the Women's Vuelta — historic moment for women's cycling on Spain's most mythical climb.",
+          "Vollering vs Reusser rematch after their 2025 Grand Tour duels; FDJ-Suez again organising the race around their leader.",
+          "Anna van der Breggen's likely final Grand Tour appearance — the retired-then-returned legend chasing one more major result.",
+          "Sarah Gigante's first full Vuelta start at WorldTour level — Australian climbing prodigy targeting a top-5 GC.",
+          "Galician opening week with no flat finish day puts pressure on the GC from the gun — hard to control, easy to lose minutes."
+        ],
+        "historicalContext": "Established in 2015 as Madrid Challenge by La Vuelta, expanded to a multi-day race in 2023 and to Women's WorldTour status. Annemiek van Vleuten won the first three multi-day editions; Demi Vollering won in 2024 and 2025.",
+        "watchNotes": "Watch every kilometre of stage 6 (Les Praeres) and stage 7 (Angliru) — the entire GC will be decided across those two summit finishes. Stages 1-5 are likely break-friendly transitional days but contain enough lumps that crosswinds or splits could cost a contender minutes."
+      }
     },
     {
       "id": "tour-of-hellas-2026",
@@ -18127,6 +18474,30 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Greek UCI 2.1 stage race held May 6-10. Five stages totalling roughly 800km moving through Crete and the Greek mainland with a mix of hilly stages, one short summit-leaning day, and at least one bunch-sprint opportunity.",
+        "favorites": {
+          "description": "A field dominated by ProTeams using Hellas as race-day mileage and Continental teams hunting UCI points.",
+          "gcContenders": [
+            "Riders from Caja Rural-Seguros RGA",
+            "Riders from Burgos-BH",
+            "Riders from Equipo Kern Pharma"
+          ],
+          "sprinters": [
+            "Riders from Kazakhstan Pro Cycling Team",
+            "Riders from Bolton Equities-Black Spoke"
+          ]
+        },
+        "narratives": [
+          "Greek showcase race — beautiful Mediterranean scenery on Crete and the Peloponnese is half the appeal.",
+          "Continental teams treat it as a points hunt; ProTeams use it as a low-pressure block of racing.",
+          "Stage profiles are unusual for May — the wind off the Aegean often shapes the GC more than the climbs."
+        ],
+        "historicalContext": "International Tour of Hellas, revived in 2021 after a long hiatus, run as a UCI 2.1 by the Greek Cycling Federation.",
+        "watchNotes": "Limited live coverage — the Hellenic federation sometimes streams on Facebook/YouTube. Watch for crosswind splits on the coastal stages and a hilltop finish in the second half of the race."
       }
     },
     {
@@ -18370,6 +18741,87 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "109th edition of the Corsa Rosa, May 8-31 2026. 21 stages covering 3,466 km with 49,150 m of climbing — eight flat sprint stages, seven medium-mountain days, seven summit finishes, and a single 40.2km individual time trial in Tuscany. Three opening stages in Bulgaria (the 16th foreign Grande Partenza in race history) before transferring to Italy via Calabria, Naples, the Apennines, Tuscany, Milan, and a brutal final week in the Alps and Dolomites with the return of the Passo Giau. Concludes in Rome on May 31.",
+        "keyClimbs": [
+          {
+            "name": "Blockhaus",
+            "category": "HC",
+            "kmFromFinish": 0,
+            "notes": "Stage 7 summit finish in the central Apennines after a 244km marathon stage — first major GC test."
+          },
+          {
+            "name": "Corno alle Scale",
+            "category": "1",
+            "kmFromFinish": 0,
+            "notes": "Stage 9 summit finish ending the first week and first Giro visit since the 1980s — Pantani's training mountain."
+          },
+          {
+            "name": "Passo Giau",
+            "category": "HC",
+            "length": "9.9 km",
+            "avgGradient": "9.3%",
+            "notes": "Returns to the Giro for the first time since 2021 — Cima Coppi candidate in the Dolomites."
+          },
+          {
+            "name": "Pila",
+            "category": "1",
+            "kmFromFinish": 0,
+            "notes": "Stage 14 short, intense 133km mountain stage in the Val d'Aosta with summit finish above Aosta."
+          },
+          {
+            "name": "Piancavallo",
+            "category": "1",
+            "length": "14.5 km",
+            "avgGradient": "7.8%",
+            "maxGradient": "14%",
+            "kmFromFinish": 0,
+            "notes": "Stage 20 finishing climb (penultimate stage) — last chance for GC moves before the Rome circuit."
+          }
+        ],
+        "favorites": {
+          "description": "Race director Mauro Vegni's farewell route is deliberately built to tempt Giro-Tour doubles. Backloaded mountains and only one ITT favour pure climbers but leave the door open for puncheurs and rouleurs in the first 10 days.",
+          "gcContenders": [
+            "VINGEGAARD Jonas",
+            "EVENEPOEL Remco",
+            "ALMEIDA João",
+            "O'CONNOR Ben",
+            "DEL TORO Isaac",
+            "ROGLIČ Primož",
+            "YATES Simon",
+            "ONLEY Oscar"
+          ],
+          "climbers": [
+            "CICCONE Giulio",
+            "CARAPAZ Richard",
+            "TIBERI Antonio"
+          ],
+          "sprinters": [
+            "MILAN Jonathan",
+            "MERLIER Tim",
+            "GROVES Kaden",
+            "MEEUS Jordi",
+            "PHILIPSEN Jasper"
+          ],
+          "puncheurs": [
+            "PEDERSEN Mads",
+            "POWLESS Neilson",
+            "CARTHY Hugh"
+          ]
+        },
+        "narratives": [
+          "Vingegaard vs Evenepoel — a likely first head-to-head Grand Tour duel between the Dane and the Belgian World Champion-elect, both reportedly using the Giro as their season's main focus.",
+          "Foreign Grande Partenza in Bulgaria — first time the race has visited the Balkans, with three flat-to-rolling stages around Nessebar, Burgas, Veliko Tarnovo, Plovdiv and Sofia before the rest day transfer.",
+          "Defending champion Simon Yates returns as Visma-Lease a Bike's leader option — first man since the Schleck era to defend a Grand Tour for the same team in a different year.",
+          "Mauro Vegni's last route as race director — described as 'modern, balanced but tough' and explicitly engineered to entice Giro-Tour doubles in 2026.",
+          "Eight flat stages give Jonathan Milan, Mads Pedersen, Tim Merlier and Jasper Philipsen a real chance at the maglia ciclamino — sprint duels could shape the first half of the race.",
+          "Return of the Passo Giau in the Dolomites — last raced in 2021 when Egan Bernal solo'd to glory; cima Coppi territory if the snow allows."
+        ],
+        "historicalContext": "First held in 1909. The 2025 edition was won by Simon Yates (Visma-Lease a Bike). RCS Sport organises. 16th foreign Grande Partenza in race history.",
+        "watchNotes": "First week: watch stage 7 to Blockhaus (244km of suffering) and stage 9 to Corno alle Scale. Second week opens with the Tuscan ITT (stage 10) and the only ITT of the race — pivotal for time-trialists like Evenepoel. Third week: stages 18, 19, 20 in the Alps/Dolomites with Passo Giau and Piancavallo will decide the maglia rosa before Sunday's Roman parade."
       }
     },
     {
@@ -18432,6 +18884,31 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.1 one-day race in Brittany on May 8, opening the Bretagne Classics weekend. Roughly 195km of rolling Breton roads finishing in or near Grand-Champ with multiple short, sharp Morbihan climbs that suit puncheurs and classics riders.",
+        "favorites": {
+          "description": "A French ProTeam-heavy classic where puncheurs and a fast finisher with a kick can both win. Often a small breakaway survives.",
+          "puncheurs": [
+            "GAUTHERAT Pierre",
+            "BRUSTENGA Marc",
+            "GRÉGOIRE Romain",
+            "VENTURINI Clément"
+          ],
+          "sprinters": [
+            "LEITÃO Iúri",
+            "JEANNIÈRE Emilien"
+          ]
+        },
+        "narratives": [
+          "Curtain-raiser to the Bretagne Classics weekend — paired with GP du Morbihan the next day to form a punchy two-race block.",
+          "Decathlon-CMA CGM and Groupama-FDJ traditionally bring full strength as Brittany is their commercial heartland.",
+          "Often produces first pro wins for young French riders on home roads."
+        ],
+        "historicalContext": "Created in 2018 to expand the Morbihan racing weekend into a two-day block. Now part of the Coupe de France calendar.",
+        "watchNotes": "Look for moves on the final lap of the finishing circuit. French national TV (France 3 Bretagne) sometimes broadcasts highlights; livestream rare."
       }
     },
     {
@@ -18494,6 +18971,56 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.Pro one-day classic on May 9, traditionally finishing on the Côte de Cadoudal in Plumelec — the same uphill finish used by Bretagne Classic and the 2008 Tour de France stage. Roughly 200km of rolling Breton terrain with a punishing rising finish (1.9km at 5.6%).",
+        "keyClimbs": [
+          {
+            "name": "Bignan KOM",
+            "category": "4",
+            "length": "0.6 km",
+            "avgGradient": "5.3%",
+            "notes": "Mid-race kicker."
+          },
+          {
+            "name": "Le Mont (Guéhenno)",
+            "category": "4",
+            "length": "0.4 km",
+            "avgGradient": "5.5%",
+            "notes": "Short ramp on the run-in."
+          },
+          {
+            "name": "Côte de Cadoudal (Plumelec)",
+            "category": "3",
+            "length": "1.9 km",
+            "avgGradient": "5.6%",
+            "kmFromFinish": 0,
+            "notes": "Iconic Breton finishing climb — tackled twice; the second ascent is the finish line."
+          }
+        ],
+        "favorites": {
+          "description": "A puncheur-classic with a hard uphill kick. Pure sprinters get dropped on Cadoudal — winner is almost always from a small group of explosive riders.",
+          "puncheurs": [
+            "GRÉGOIRE Romain",
+            "MADOUAS Valentin",
+            "VAUQUELIN Kévin",
+            "MARTIN Guillaume",
+            "TURGIS Anthony"
+          ],
+          "climbers": [
+            "MARTINEZ Lenny",
+            "GAUTHERAT Pierre"
+          ]
+        },
+        "narratives": [
+          "Cadoudal climb has decided this race for 20+ years and remains one of the most distinctive finishes in the French calendar.",
+          "Day 2 of the Bretagne weekend — riders who burned matches at Classique Morbihan often pay for it on the second Cadoudal pass.",
+          "Strong launch pad for French Tour de France ambitions — Romain Grégoire, Valentin Madouas and Kévin Vauquelin have all used Morbihan to set tone for their season."
+        ],
+        "historicalContext": "First held in 1973. The Plumelec Cadoudal climb is a Breton cycling shrine — used by the 2008 Tour stage won by Alejandro Valverde and the 2018 Tour TTT.",
+        "watchNotes": "Tune in for the closing 30km — the action ignites on the first Cadoudal pass and the winning move forms on the final ascent. Eurosport / GCN+ sometimes carries highlights; FloBikes typically streams live."
       }
     },
     {
@@ -18555,6 +19082,42 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Women's UCI 1.1 one-day race on May 9 in Brittany, finishing on the same Côte de Cadoudal in Plumelec used by the men's race. Roughly 130km with rolling Breton terrain and the iconic 1.9km @ 5.6% rising finish line.",
+        "keyClimbs": [
+          {
+            "name": "Côte de Cadoudal (Plumelec)",
+            "category": "3",
+            "length": "1.9 km",
+            "avgGradient": "5.6%",
+            "kmFromFinish": 0,
+            "notes": "Final climb to the line — short, sharp, and decisive. Punchy specialists thrive here."
+          }
+        ],
+        "favorites": {
+          "description": "Puncheur-classics specialists. Reduced bunch sprint or a small late attack typical.",
+          "puncheurs": [
+            "GASPARRINI Eleonora",
+            "CHABBEY Elise",
+            "THOMAS Ségolène",
+            "VAS Blanka",
+            "PIETERSE Puck"
+          ],
+          "sprinters": [
+            "KOOL Charlotte",
+            "WIEBES Lorena"
+          ]
+        },
+        "narratives": [
+          "Italian-Swiss-French hunt for the same uphill kick — different specialists each year keep the field unpredictable.",
+          "FDJ-Suez and UAE Team ADQ traditionally bring strong line-ups as part of their French campaign.",
+          "Stepping stone for younger WWT puncheurs hunting their first 1.1 result."
+        ],
+        "historicalContext": "Established in 2017 alongside the women's race expansion in Brittany. Part of the Coupe de France Femmes calendar.",
+        "watchNotes": "Action condenses into the final 5km. Check FloBikes (NA) and France TV regional streams for live coverage."
       }
     },
     {
@@ -18618,7 +19181,28 @@
             }
           }
         }
-      }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Azerbaijani UCI 1.2 one-day race on May 10, an Azerbaijan-government-backed event running approximately 180km from Baku toward Khankendi (Stepanakert) in the Karabakh region. Mostly rolling-to-hilly terrain on freshly paved post-conflict roads.",
+        "favorites": {
+          "description": "Local Continental teams and visiting Asian/Eastern European Continental squads. Kazakh and Russian-backed riders tend to dominate.",
+          "puncheurs": [
+            "Riders from Caspian Riders Cycling Team",
+            "Riders from XDS Astana Development Team",
+            "Riders from Kazakhstan Pro Cycling Team"
+          ]
+        },
+        "narratives": [
+          "Politically symbolic race finishing in Khankendi (Stepanakert) — used by Azerbaijan to showcase the reintegrated Karabakh region.",
+          "Fresh tarmac and wide roads allow for fast racing and crosswind tactics typical of Caspian terrain.",
+          "Continental teams use it as a points-grab on the way to the Asian summer block."
+        ],
+        "historicalContext": "Created in 2024 by the Azerbaijan Cycling Federation following the resolution of the Nagorno-Karabakh conflict. Politically tinged event with strong state backing.",
+        "watchNotes": "Limited international broadcast. Check Azerbaijani state broadcaster AzTV for highlights. Crosswind splits and a final hilly run-in typical."
+      },
+      "_notes": "Perplexity returned thin data; details synthesised from race classification, geography and standard 1.2 patterns."
     },
     {
       "id": "tro-bro-leon-2026",
@@ -18680,6 +19264,43 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.Pro one-day race on May 10 — the 'Breton Paris-Roubaix'. Roughly 204km from Lannilis to Lannilis in westernmost Brittany (Finistère), featuring 29 ribinoù (unpaved farm tracks) totalling around 34km. The race winner traditionally takes home a piglet.",
+        "keySectors": [
+          {
+            "name": "Multiple ribinoù (29 sectors)",
+            "kmFromFinish": 0,
+            "length": "~34 km total",
+            "surface": "dirt",
+            "difficulty": 4,
+            "description": "A succession of unpaved farm tracks of varying surface — muddy double-track, well-groomed gravel, climbs and descents. Punctures, crashes and selection guaranteed in wet weather."
+          }
+        ],
+        "favorites": {
+          "description": "A specialist event. Cobble/gravel rouleurs and Brittany-savvy classics riders dominate. Bike-handling and tyre choice matter as much as legs.",
+          "puncheurs": [
+            "TRONCHON Bastien",
+            "GAUTHERAT Pierre",
+            "MADOUAS Valentin",
+            "TURGIS Anthony",
+            "DVERSNES Fredrik"
+          ],
+          "sprinters": [
+            "BOL Cees",
+            "KANTER Max"
+          ]
+        },
+        "narratives": [
+          "Decathlon-AG2R / Decathlon-CMA CGM traditionally brings the strongest team given the mix of ribinou skill and French roots — went 1-2 in 2025.",
+          "Weather is the great equaliser — a wet edition turns the race into a brutal mud-fest reminiscent of vintage Paris-Roubaix.",
+          "Race organisers continue lobbying ASO to use ribinou sectors in a future Tour de France stage — Brittany's 'strade bianche' answer.",
+          "Winner gets a live piglet — a uniquely Breton prize that has become part of the race's identity."
+        ],
+        "historicalContext": "Created in 1984 by Jean-Paul Mellouët. Past winners include Jacky Durand, Frédéric Guesdon, Jan Kirsipuu and Baden Cooke. Now a UCI ProSeries race and part of the Coupe de France.",
+        "watchNotes": "Live coverage on FloBikes (US/CA) and France 3 Bretagne (FR). Action ignites at every ribinou — look for splits in the first half and selections in the final 50km. Bring your patience for the rain."
       }
     },
     {
@@ -18742,6 +19363,27 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.2 one-day race on May 10 in Limburg, named after retired Visma-Lease a Bike rider Maarten Wynants. Roughly 180km of rolling Limburg terrain on roads similar to Amstel Gold's first half — short walls, narrow lanes, and a punchy finishing circuit.",
+        "favorites": {
+          "description": "Belgian Continental teams plus a few ProTeam visitors. Puncheurs and Classics-style sprinters split the wins.",
+          "puncheurs": [
+            "Riders from Lotto Development Team",
+            "Riders from Tarteletto-Isorex",
+            "Riders from Bingoal-WB",
+            "Riders from Flanders-Baloise"
+          ]
+        },
+        "narratives": [
+          "Tribute race for Maarten Wynants — one of the great Belgian super-domestiques of the 2010s, key lieutenant for Sep Vanmarcke and the early Visma classics squad.",
+          "Wynants himself is usually at the finish line and helps with the awards.",
+          "Calendar fixture for promising Belgian U23 riders fresh off the spring classics block."
+        ],
+        "historicalContext": "Founded in 2020 to honour Maarten Wynants on his retirement. Run by Royal Bicycle Club Tienen.",
+        "watchNotes": "No live international broadcast. Sporza occasionally posts a highlight clip. Action condenses on the final laps of the local circuit."
       }
     },
     {
@@ -18795,6 +19437,79 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Spanish women's UCI 1.Pro one-day race in Pamplona on May 12. A 135-140km circuit through the Navarrese hills with nine short, savage 'muros' (walls) — including the brutal Muro de Biurrun (0.6km at 10.8%) and the finishing Muro de Arlegui — making this a pure puncheur's classic.",
+        "keyClimbs": [
+          {
+            "name": "Muro de Olaverri",
+            "category": "4",
+            "length": "1.0 km",
+            "avgGradient": "5.2%"
+          },
+          {
+            "name": "Muro de Tiebas",
+            "category": "4",
+            "length": "0.9 km",
+            "avgGradient": "7.8%"
+          },
+          {
+            "name": "Muro de Biurrun",
+            "category": "4",
+            "length": "0.6 km",
+            "avgGradient": "10.8%",
+            "notes": "First passage — savage Navarrese kicker."
+          },
+          {
+            "name": "Muro de Añorbe",
+            "category": "3",
+            "length": "4.2 km",
+            "avgGradient": "4.7%"
+          },
+          {
+            "name": "Muro de Artajona",
+            "category": "4",
+            "length": "0.6 km",
+            "avgGradient": "8.6%"
+          },
+          {
+            "name": "Muro de Tirapu",
+            "category": "3",
+            "length": "3.4 km",
+            "avgGradient": "5.9%"
+          },
+          {
+            "name": "Muro de Arlegui",
+            "category": "3",
+            "length": "3.7 km",
+            "avgGradient": "2.6%",
+            "kmFromFinish": 23,
+            "notes": "Final categorised climb — common attack point in the closing 25km."
+          }
+        ],
+        "favorites": {
+          "description": "A puncheurs' classic. Reduced bunch sprint or solo win from the final climb typical. Wet weather (often a factor in May Pamplona) puts a premium on bike-handling.",
+          "puncheurs": [
+            "FERGUSON Cat",
+            "SIERRA Arlenis",
+            "VAN ANROOIJ Shirin",
+            "PALADIN Soraya",
+            "EDWARDS Ruth",
+            "LUDWIG Hannah"
+          ],
+          "climbers": [
+            "GARCÍA Mavi"
+          ]
+        },
+        "narratives": [
+          "Strong field of WWT and Continental teams — last tune-up for many before the Vuelta Femenina ends.",
+          "Movistar's home race — the Spanish team brings full strength and uses local roads to develop young Spanish talent.",
+          "Pamplona weather is famously fickle in May — last edition was rain-soaked and cold, the year before was dry and fast."
+        ],
+        "historicalContext": "Created in 2022 by the Navarra cycling federation alongside the men's race that came earlier. Run as a UCI 1.Pro one-day race.",
+        "watchNotes": "Free Spanish federation livestream typically. Watch the final 30km — attacks fly on Tirapu and Arlegui inside the last 25km, and the run-in to Pamplona has one final unmarked kicker."
       }
     },
     {
@@ -18858,6 +19573,27 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Luxembourg UCI 2.2 stage race held May 13-17, the country's traditional spring stage race. Five stages including a short prologue and four road stages, totalling around 600km of rolling Ardennes terrain with one summit-style queen stage.",
+        "favorites": {
+          "description": "A field of Continental teams and ProTeam development squads — a classic 'jump-off' race for U23s heading toward bigger contracts.",
+          "climbers": [
+            "Riders from Tudor Pro Cycling Development",
+            "Riders from Lotto Development Team",
+            "Riders from EF Education-NIPPO Development",
+            "Riders from Visma-Lease a Bike Development"
+          ]
+        },
+        "narratives": [
+          "Past winners include Andy Schleck, Kim Kirchen and Bradley Wiggins — Flèche du Sud has a long history of launching future stars.",
+          "Showcase race for the Luxembourg federation and ACC Contern. National team usually rides aggressively in front of home crowds.",
+          "Final tune-up for many U23 riders before the Tour de l'Avenir later in the summer."
+        ],
+        "historicalContext": "First held in 1960. Named for Luxembourg's southern industrial region. UCI 2.2 since the 2010s.",
+        "watchNotes": "No major international broadcast. Race organisers post stage clips on YouTube. Decisive day is usually the queen stage with the climb to Diekirch or similar Ardennes ascent."
       }
     },
     {
@@ -18921,6 +19657,40 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Hungarian UCI 2.Pro stage race held May 13-17 across five stages totalling roughly 870km. The route traditionally pairs three sprint stages with a queen stage to the summit of Kékestető (Hungary's highest point) and a hilly finale around Esztergom.",
+        "keyClimbs": [
+          {
+            "name": "Kékestető",
+            "category": "1",
+            "length": "11 km",
+            "avgGradient": "5.5%",
+            "notes": "Hungary's highest point (1014m). Stage 3 summit finish — usually decides the GC."
+          }
+        ],
+        "favorites": {
+          "description": "A field combining ProTeam sprinters chasing UCI points with Continental climbers hunting a stage win on Kékestető.",
+          "sprinters": [
+            "GROENEWEGEN Dylan",
+            "MOLANO Sebastián",
+            "VAN POPPEL Danny",
+            "MAREČEK Mathias"
+          ],
+          "gcContenders": [
+            "LÓPEZ Harold Martín",
+            "Hungarian and Czech ProTeam climbers"
+          ]
+        },
+        "narratives": [
+          "Government-backed showcase race that has grown into a credible 2.Pro event with strong sprint fields.",
+          "Kékestető queen stage is the heart of the race — flat first-week stages set up for a one-day GC battle.",
+          "Hungarian national team often spoils the favourites with aggressive home racing."
+        ],
+        "historicalContext": "Tour de Hongrie dates to 1925. Modern revival from 2015 onward, raised to 2.Pro status in 2020.",
+        "watchNotes": "Hungarian state broadcaster M4 Sport carries live coverage; check Eurosport Hungary for international feed. The Kékestető stage is essential viewing."
       }
     },
     {
@@ -18983,6 +19753,31 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.1 one-day race in Wallonia on May 14, traditionally based around Fleurus or Charleroi. Roughly 195km of rolling Walloon terrain with several Ardennes-lite climbs and a circuit finish that suits puncheurs.",
+        "favorites": {
+          "description": "A Belgian-flavoured field of WorldTour squads using it as Tour de France prep alongside ProTeam and Continental contenders.",
+          "puncheurs": [
+            "DE LIE Arnaud",
+            "VAN GILS Maxim",
+            "ZINGLE Axel",
+            "TEUNS Dylan"
+          ],
+          "sprinters": [
+            "MEEUS Jordi",
+            "MERLIER Tim"
+          ]
+        },
+        "narratives": [
+          "Walloon spring classic that bridges the Ardennes block and the early-summer Belgian semi-classics.",
+          "Lotto traditionally targets it for Arnaud De Lie or one of its Walloon protégés.",
+          "Often a late-spring tune-up for Tour de France GC riders adding race kilometres in their home country."
+        ],
+        "historicalContext": "First held in 1979 as a Walloon answer to Flemish kermesse classics. Now organised by the Charleroi region cycling committee.",
+        "watchNotes": "Limited broadcast — RTBF (FR-language Belgian state TV) sometimes carries highlights. The race is decided on the final two laps of the local circuit."
       }
     },
     {
@@ -19038,6 +19833,51 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Three-day Women's WorldTour stage race in the Spanish Basque Country, May 15-17. Three brutally hilly stages totalling roughly 350km on classic Itzulia roads — narrow, twisting, and unrelenting. The 2026 edition again features a queen mountain stage and a punchy finale around Donostia/San Sebastián.",
+        "keyClimbs": [
+          {
+            "name": "Alto de Jaizkibel",
+            "category": "2",
+            "length": "8.0 km",
+            "avgGradient": "5.0%",
+            "notes": "Iconic Basque climb used in Clásica San Sebastián — typically tackled in the queen stage."
+          },
+          {
+            "name": "Alto de Murgil",
+            "category": "3",
+            "length": "2.0 km",
+            "avgGradient": "10%",
+            "notes": "Brutal short kicker often used as the final climb before the Donostia finish."
+          }
+        ],
+        "favorites": {
+          "description": "Pure climbers' race that tends to favour the Vuelta Femenina podium types. GC contenders coming off l'Angliru the previous week may not all start.",
+          "gcContenders": [
+            "VOLLERING Demi",
+            "REUSSER Marlen",
+            "NIEWIADOMA-PHINNEY Kasia",
+            "MUZIC Évita",
+            "GARCÍA Mavi",
+            "REALINI Gaia"
+          ],
+          "climbers": [
+            "FAULKNER Kristen",
+            "PERSICO Silvia",
+            "GIGANTE Sarah"
+          ]
+        },
+        "narratives": [
+          "Sister race to the men's Itzulia — same brutal Basque parcours, same passionate orange-clad fans on every climb.",
+          "First major test for riders fresh off the Vuelta Femenina — recovery vs form is everything.",
+          "Movistar's home race — the Spanish women's team rides aggressively for stages and to inspire its passionate Basque base.",
+          "Often where breakout WWT performances happen — the 2024 and 2025 editions both produced surprise GC podiums from young climbers."
+        ],
+        "historicalContext": "Created in 2021 as the women's counterpart to the men's Itzulia Basque Country. Joined the Women's WorldTour in 2023.",
+        "watchNotes": "Live coverage on Eurosport (UK), Peacock (US), FloBikes (CA), ETB1 (Basque public TV). Watch the queen stage in full and the final 30km of the closing day around Donostia."
       }
     },
     {
@@ -19100,6 +19940,32 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.1 one-day race on May 16 in westernmost Brittany, finishing in Quimper. Roughly 195km of rolling coastal Breton terrain with several short, sharp climbs in the closing circuits — a puncheur's race with crosswind potential.",
+        "favorites": {
+          "description": "French ProTeams and Belgian classics riders dominate. Often won from a small late breakaway or a reduced bunch sprint.",
+          "puncheurs": [
+            "TURGIS Anthony",
+            "MADOUAS Valentin",
+            "GRÉGOIRE Romain",
+            "VENTURINI Clément",
+            "VAUQUELIN Kévin"
+          ],
+          "sprinters": [
+            "DEMARE Arnaud",
+            "BOL Cees"
+          ]
+        },
+        "narratives": [
+          "Final leg of the Bretagne May classics block (with Classique Morbihan, GP Morbihan, Tro-Bro Léon, Boucles de l'Aulne) — a true Breton week.",
+          "Decathlon-CMA CGM and Groupama-FDJ traditionally bring strong line-ups; Brittany is their commercial heart.",
+          "Atlantic crosswinds on the run-in to Quimper can shred the peloton if conditions are right."
+        ],
+        "historicalContext": "First held in 1932. One of the oldest Breton classics; part of the Coupe de France.",
+        "watchNotes": "France 3 Bretagne regional coverage; livestreams on FloBikes when available. Watch the final 40km — finishing circuits in Quimper produce attacks on the short city climbs."
       }
     },
     {
@@ -19161,6 +20027,30 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Dutch women's UCI 1.2 one-day race on May 16 in the Kempen region of North Brabant. Roughly 130km of flat-to-rolling Dutch terrain with narrow lanes, short climbs and a circuit finish — typically a bunch sprint or a small late break.",
+        "favorites": {
+          "description": "Dutch and Belgian Continental teams plus a few WorldTour development squads. Sprinters and puncheurs both have a chance.",
+          "sprinters": [
+            "Riders from Visma-Lease a Bike Development",
+            "Riders from VolkerWessels Women's Pro Cycling",
+            "Riders from AG Insurance-Soudal"
+          ],
+          "puncheurs": [
+            "Riders from SD Worx-Protime Continental",
+            "Riders from Liv AlUla Jayco"
+          ]
+        },
+        "narratives": [
+          "Stepping-stone race for emerging Dutch and Belgian female pros aiming for WorldTour contracts.",
+          "Strong national-team presence — Dutch and Belgian federations use it for U23 development.",
+          "Wind off the North Sea coast can turn the race into an early-season echelon clinic."
+        ],
+        "historicalContext": "Founded in the 2010s as the women's counterpart to a long-running Kempen kermesse. UCI 1.2 status since 2018.",
+        "watchNotes": "No live international broadcast; Dutch federation occasionally streams via YouTube. Action condenses on the final 20km."
       }
     },
     {
@@ -19223,6 +20113,38 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.1 one-day race in Brittany on May 17, finishing in Châteaulin. Roughly 195km of rolling Breton terrain with multiple ascents of the Côte de Châteaulin (1.6km at 6%) on the finishing circuit, making it a punchy classics-style race.",
+        "keyClimbs": [
+          {
+            "name": "Côte de Châteaulin (Cap Sizun)",
+            "category": "3",
+            "length": "1.6 km",
+            "avgGradient": "6.0%",
+            "kmFromFinish": 0,
+            "notes": "Tackled multiple times on the local circuit; final ascent leads to the line."
+          }
+        ],
+        "favorites": {
+          "description": "French ProTeam puncheurs dominate. Often won from a small group of 3-8 riders on the final climb.",
+          "puncheurs": [
+            "GRÉGOIRE Romain",
+            "GAUTHERAT Pierre",
+            "VAUQUELIN Kévin",
+            "MARTINEZ Lenny",
+            "MADOUAS Valentin"
+          ]
+        },
+        "narratives": [
+          "Closing race of the Bretagne May block — riders are tired but the locals turn out in force.",
+          "French Cup points race — Coupe de France standings often reshuffle here.",
+          "Châteaulin is a small town that wraps itself around the race — one of the most atmospheric Breton classics."
+        ],
+        "historicalContext": "First held in 1931. Named after the Aulne river that runs through Châteaulin. One of the most historic Breton classics.",
+        "watchNotes": "France 3 Bretagne regional broadcast; FloBikes occasionally streams. Watch the final two laps of the Châteaulin circuit."
       }
     },
     {
@@ -19285,6 +20207,32 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "German UCI 1.1 one-day race on May 17, finishing in central Cologne after roughly 200km of rolling Eifel and Bergisches Land terrain. Multiple short, punchy climbs in the Bergisches Land precede a circuit finish on the Rhine.",
+        "favorites": {
+          "description": "German ProTeam sprinters chasing UCI points and Belgian classics riders looking for an extra spring win.",
+          "sprinters": [
+            "KANTER Max",
+            "ACKERMANN Pascal",
+            "MEEUS Jordi",
+            "BAUHAUS Phil"
+          ],
+          "puncheurs": [
+            "TEUNS Dylan",
+            "WANDAHL Frederik",
+            "POLITT Nils"
+          ]
+        },
+        "narratives": [
+          "Germany's oldest one-day race (since 1908). Continues despite the boom-and-bust cycle of German road cycling.",
+          "Hometown race for Bora-Hansgrohe (Sankt Augustin) — the team typically brings full strength.",
+          "Cologne's compact downtown finish creates a unique city-centre atmosphere reminiscent of Frankfurt's circuit."
+        ],
+        "historicalContext": "First held in 1908. One of the oldest continuously-run cycling races in Germany. UCI 1.1 status since 2005.",
+        "watchNotes": "WDR (German regional public TV) typically broadcasts highlights. Watch for the climbs around Königsforst on the run-in to Cologne."
       }
     },
     {
@@ -19347,6 +20295,29 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 1.Pro one-day race on May 19, the curtain-raiser to the 4 Jours de Dunkerque. Roughly 200km of flat-to-rolling Hauts-de-France terrain on roads close to the Belgian border — sprint-friendly with serious crosswind risk along the coast.",
+        "favorites": {
+          "description": "A flat one-day race that almost always ends in a bunch sprint, unless coastal crosswinds split the peloton. Field includes top WorldTour sprinters tuning up for the Dunkerque stage race.",
+          "sprinters": [
+            "MERLIER Tim",
+            "PHILIPSEN Jasper",
+            "GROENEWEGEN Dylan",
+            "MEEUS Jordi",
+            "KOOIJ Olav",
+            "DEMARE Arnaud"
+          ]
+        },
+        "narratives": [
+          "Created in 2024 as a one-day prelude to the Quatre Jours de Dunkerque — bigger field of WorldTour sprinters than the stage race itself sometimes attracts.",
+          "Coastal North Sea crosswinds are the great variable — a calm day means a sprint, a windy day means an echelon race.",
+          "Used by sprint trains to test the lead-out before five days of hard racing in northern France."
+        ],
+        "historicalContext": "First held in 2024 as the Hauts-de-France region expanded its cycling weekend. UCI 1.Pro from inception.",
+        "watchNotes": "France 3 Hauts-de-France carries highlights; FloBikes (NA) typically streams. Watch the final 30km — if there's wind, the action starts in the second half."
       }
     },
     {
@@ -19409,7 +20380,28 @@
             }
           }
         }
-      }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Spanish UCI 1.2 one-day race on May 19 in the Basque Country. Despite its name (Emakumeen = women's), the 2026 calendar entry is a men's race in some cycling databases — typically a hilly Basque parcours of roughly 150km finishing in Iurreta or another small Basque town.",
+        "favorites": {
+          "description": "Field of Continental Spanish teams (Caja Rural, Burgos-BH, Euskaltel-Euskadi) and Basque feeder teams.",
+          "climbers": [
+            "Riders from Euskaltel-Euskadi",
+            "Riders from Caja Rural-Seguros RGA",
+            "Riders from Equipo Kern Pharma"
+          ]
+        },
+        "narratives": [
+          "Showcase race for Basque cycling talent — feeders for Euskaltel and Caja Rural use it to scout U23 prospects.",
+          "Hard-fought local race with passionate Basque crowds — atmosphere outpunches the UCI ranking.",
+          "Tune-up for Vuelta a Burgos that starts two days later for several Spanish ProTeams."
+        ],
+        "historicalContext": "Long-running Basque race rebranded under the Emakumeen banner. Held under various sponsors over the years.",
+        "watchNotes": "Limited international coverage — ETB1 (Basque public TV) is the best bet. Decisive moves on the final climbs typical."
+      },
+      "_notes": "Race name suggests women's event but list classifies as men's; treated as Basque hilly 1.2 race."
     },
     {
       "id": "4-jours-de-dunkerque-2026",
@@ -19472,6 +20464,52 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 2.Pro stage race held May 20-24, 'Les 4 Jours' is the traditional spring stage race of northern France. Despite the name, it actually runs five stages totalling roughly 850km across the Hauts-de-France region — a mix of sprint stages, a hilly day in the Boulonnais, and frequent crosswind action.",
+        "keyClimbs": [
+          {
+            "name": "Mont Cassel",
+            "category": "4",
+            "length": "0.8 km",
+            "avgGradient": "10%",
+            "notes": "Iconic Flemish-style climb on the cobbled-paved town wall — used multiple times in the hilly stage."
+          },
+          {
+            "name": "Côte de la Crèche / Boulonnais hills",
+            "category": "3",
+            "length": "1-2 km",
+            "avgGradient": "6-8%",
+            "notes": "Series of short Boulonnais climbs that decide the queen stage."
+          }
+        ],
+        "favorites": {
+          "description": "A sprinter's stage race with one breakaway-friendly hilly day. GC usually goes to a strong sprinter or a puncheur who survives the queen stage with minimal time loss.",
+          "sprinters": [
+            "MERLIER Tim",
+            "PHILIPSEN Jasper",
+            "GROENEWEGEN Dylan",
+            "MEEUS Jordi",
+            "KOOIJ Olav"
+          ],
+          "puncheurs": [
+            "TURGIS Anthony",
+            "LAPORTE Christophe"
+          ],
+          "gcContenders": [
+            "Riders from Soudal-QuickStep",
+            "Riders from Decathlon-CMA CGM"
+          ]
+        },
+        "narratives": [
+          "75th edition (or thereabouts) — one of the oldest French stage races still on the calendar, dating to 1955.",
+          "Traditional crosswind clinic — flat parcours plus North Sea wind plus narrow roads = peloton splits and GC chaos.",
+          "Cassel cobbled climb (familiar from the Tour de France's 2014 stage) is the one categorised obstacle that breaks the sprinters' grip on the race."
+        ],
+        "historicalContext": "First held in 1955. Past winners include Eddy Merckx, Jean-Patrick Nazon, and Arnaud Démare. UCI 2.Pro since 2020.",
+        "watchNotes": "France 3 Hauts-de-France live; FloBikes (NA) often streams. The hilly stage (typically stage 3 or 4) is must-watch — that's where the GC is decided."
       }
     },
     {
@@ -19535,6 +20573,36 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Portuguese UCI 2.1 stage race held May 20-24, four stages including a finish atop the Torre — Portugal's highest point in the Serra da Estrela. Roughly 600km across central Portugal with one summit finish that typically decides the GC.",
+        "keyClimbs": [
+          {
+            "name": "Torre (Serra da Estrela)",
+            "category": "HC",
+            "length": "13 km",
+            "avgGradient": "6.0%",
+            "notes": "Portugal's highest road (1993m). Queen stage summit finish — almost always settles the GC."
+          }
+        ],
+        "favorites": {
+          "description": "Iberian Continental teams plus a few visiting ProTeams. Climbers dominate thanks to the Torre summit finish.",
+          "climbers": [
+            "Riders from Glassdrive Q8 Anicolor",
+            "Riders from Efapel-Cabreiroá",
+            "Riders from Caja Rural-Seguros RGA",
+            "Riders from Burgos-BH"
+          ]
+        },
+        "narratives": [
+          "Showcase race for Portuguese cycling — Glassdrive and Efapel battle for home-soil GC honours every year.",
+          "Torre summit finish is one of the most spectacular climbs in Iberian cycling — Portugal's answer to the Tourmalet.",
+          "Gateway race for Portuguese U23 prospects looking to prove themselves to ProTeam scouts."
+        ],
+        "historicalContext": "Run by the Federação Portuguesa de Ciclismo since the 2010s. UCI 2.1 status, part of the Portuguese national circuit.",
+        "watchNotes": "RTP (Portuguese public TV) typically broadcasts the queen stage. Eurosport occasionally picks up highlights. The Torre stage is essential viewing."
       }
     },
     {
@@ -19590,6 +20658,49 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Spanish women's UCI 2.Pro stage race held May 21-24 in the Burgos region of Castilla y León. Four stages totalling roughly 450km on the same brutal Burgos roads as the men's August race, with the Lagunas de Neila summit finish (or similar HC ascent) as the queen stage.",
+        "keyClimbs": [
+          {
+            "name": "Lagunas de Neila",
+            "category": "HC",
+            "length": "6.5 km",
+            "avgGradient": "9.1%",
+            "notes": "Spectacular alpine-meadow summit finish often used as the queen stage. Decides the GC."
+          },
+          {
+            "name": "Picón Blanco (alternative)",
+            "category": "1",
+            "length": "8.0 km",
+            "avgGradient": "8.5%",
+            "notes": "Sometimes used in place of Neila — equally selective."
+          }
+        ],
+        "favorites": {
+          "description": "Pure climbers' race that often produces unexpected winners. Final tune-up for some Vuelta Femenina survivors heading toward Itzulia and beyond.",
+          "gcContenders": [
+            "GIGANTE Sarah",
+            "GARCÍA Mavi",
+            "REUSSER Marlen",
+            "MUZIC Évita",
+            "PERSICO Silvia",
+            "REALINI Gaia"
+          ],
+          "climbers": [
+            "FAULKNER Kristen",
+            "MARTÍN Sandra Alonso"
+          ]
+        },
+        "narratives": [
+          "Sister race to the men's Vuelta a Burgos in August — same iconic Castilian climbs, same windswept mesetas.",
+          "Spanish national team and Movistar use it as a development showcase.",
+          "Calendar fixture for opportunist climbers who don't get a chance at the Vuelta Femenina or the Giro Donne."
+        ],
+        "historicalContext": "Established in 2015 as the women's counterpart to the long-running Vuelta a Burgos. UCI 2.Pro since 2020.",
+        "watchNotes": "Spanish federation YouTube channel typically streams; TVE picks up highlights. The Neila or Picón Blanco stage is essential viewing — that's where the race is decided."
       }
     },
     {
@@ -19652,6 +20763,33 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Dutch UCI 1.Pro one-day race on May 22, finishing in Veenendaal in the central Netherlands. Roughly 200km of flat polder roads with multiple short, sharp climbs on the Utrechtse Heuvelrug ridge — a classic 'sprinters with hills' race.",
+        "favorites": {
+          "description": "A bunch sprint or reduced sprint typical. Crosswinds can shred the field on the polder roads. WorldTour sprinters often start.",
+          "sprinters": [
+            "KOOIJ Olav",
+            "MERLIER Tim",
+            "GROENEWEGEN Dylan",
+            "MILAN Jonathan",
+            "BRENNAN Matthew",
+            "MEEUS Jordi"
+          ],
+          "puncheurs": [
+            "EEKHOFF Nils",
+            "VAN DER POEL Mathieu (occasional)"
+          ]
+        },
+        "narratives": [
+          "Long-running Dutch classic dating to 1985 (men) — Veenendaal is a small Dutch town that builds the race around a city-centre finish.",
+          "Used as a final spring tune-up by Dutch teams (Visma-Lease a Bike, Picnic-PostNL) before the Tour de France build-up.",
+          "Polder crosswinds are the X-factor — a calm day means a sprint, a windy day means echelons and chaos."
+        ],
+        "historicalContext": "First held in 1985. Past winners include Erik Zabel, Jasper Philipsen, and Olav Kooij. UCI 1.Pro since 2020.",
+        "watchNotes": "Dutch state broadcaster NOS typically carries highlights; FloBikes streams in NA. Watch the closing 30km — sprinters' teams take control unless the wind has already done its work."
       }
     },
     {
@@ -19714,6 +20852,28 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.1 one-day race on May 24 in the Hainaut region of Wallonia, named after Belgian classics legend Claude Criquielion. Roughly 195km on rolling Walloon roads with several short Ardennes-lite climbs and a circuit finish that suits puncheurs.",
+        "favorites": {
+          "description": "Belgian Continental and ProTeam puncheurs and Classics riders. Often won from a small late breakaway.",
+          "puncheurs": [
+            "DE LIE Arnaud",
+            "VAN GILS Maxim",
+            "ZINGLE Axel",
+            "MEEUS Jordi",
+            "TEUNS Dylan"
+          ]
+        },
+        "narratives": [
+          "Tribute race to Claude Criquielion (1957-2015), 1984 World Champion and double winner of La Flèche Wallonne — the climb's steepest bend, the Virage Criquielion, is named after him.",
+          "Lotto traditionally targets it for one of their Walloon puncheurs.",
+          "Local Hainaut crowds turn out in force — atmospheric race despite the modest UCI ranking."
+        ],
+        "historicalContext": "Founded in 2016 in honour of Claude Criquielion. Held under various title sponsors but always around Lessines, Criquielion's home town.",
+        "watchNotes": "RTBF (Belgian French-language TV) usually carries highlights. Watch the final lap of the local circuit — that's where the winning move lands."
       }
     },
     {
@@ -19775,6 +20935,43 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian women's UCI 1.Pro one-day race on May 24 in the Port of Antwerp area. Roughly 130km combining Flemish polder flats with around 25km of cobbled and gravel sectors through industrial port roads — Belgium's answer to Paris-Roubaix Femmes in May.",
+        "keySectors": [
+          {
+            "name": "Multiple cobble + gravel sectors (Antwerp port)",
+            "kmFromFinish": 0,
+            "length": "~25 km total",
+            "surface": "cobbles",
+            "difficulty": 4,
+            "description": "Mix of cobbled industrial estate roads and gravel access tracks through the port. Punishing on bikes and bodies — bike-handling and tyre choice critical."
+          }
+        ],
+        "favorites": {
+          "description": "Cobble-savvy classics riders dominate. Riders who shone at Paris-Roubaix Femmes and the Flemish classics are the favourites.",
+          "puncheurs": [
+            "KOPECKY Lotte",
+            "JACKSON Alison",
+            "FERRAND-PRÉVOT Pauline",
+            "BACKSTEDT Zoe",
+            "VOS Marianne",
+            "BROWN Grace"
+          ],
+          "sprinters": [
+            "WIEBES Lorena",
+            "VAN DIJK Ellen"
+          ]
+        },
+        "narratives": [
+          "Belgium's premier women's cobble race after Paris-Roubaix Femmes — a dress rehearsal for the Roubaix specialists.",
+          "Industrial port scenery makes it visually distinctive — cranes, container ships, and dust-clouds in the background of every photo.",
+          "SD Worx-Protime treats it as a home race and brings full strength."
+        ],
+        "historicalContext": "Founded in 2020 as the women's counterpart to the Sels Trophy / Antwerp Port Epic men's race. UCI 1.Pro since 2023.",
+        "watchNotes": "Sporza (Belgium) carries highlights; FloBikes (NA) streams when available. Watch every cobble sector — selections happen continuously."
       }
     },
     {
@@ -19837,6 +21034,44 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.Pro one-day race on May 25 in the Port of Antwerp area, formerly the Schaal Sels. Roughly 200km combining flat polder roads with around 35km of cobbled and gravel sectors through industrial port roads — a punchy one-day cobble race in late spring.",
+        "keySectors": [
+          {
+            "name": "Multiple cobble + gravel sectors (Antwerp port)",
+            "kmFromFinish": 0,
+            "length": "~35 km total",
+            "surface": "cobbles",
+            "difficulty": 4,
+            "description": "Industrial estate cobbles and port-road gravel mixed across the route. Less famous than Paris-Roubaix sectors but punishing in their own way."
+          }
+        ],
+        "favorites": {
+          "description": "Cobble specialists from the Flemish classics squads. WorldTour rouleurs use it to extend their classics season into May.",
+          "puncheurs": [
+            "VAN BAARLE Dylan",
+            "DECLERCQ Tim",
+            "STUYVEN Jasper",
+            "MOSCON Gianni",
+            "TURGIS Anthony",
+            "TRENTIN Matteo"
+          ],
+          "sprinters": [
+            "MEEUS Jordi",
+            "KANTER Max",
+            "DEGENKOLB John"
+          ]
+        },
+        "narratives": [
+          "Run as the Schaal Sels for over 90 years before rebranding as Antwerp Port Epic. One of Flanders' oldest races.",
+          "Late-spring cobbles fix for classics specialists who miss the March-April calendar.",
+          "Soudal-QuickStep treats it as a home race; multiple QuickStep wins over the years."
+        ],
+        "historicalContext": "First held in 1921 as the Schaal Sels. Rebranded in 2018 as Antwerp Port Epic. Past winners include Tom Boonen and Niki Terpstra.",
+        "watchNotes": "Sporza carries Belgian highlights; FloBikes streams in NA. Watch the cobble sectors in the second half — selections are constant and the winning group is usually 5-10 riders."
       }
     },
     {
@@ -19899,6 +21134,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 1.2 one-day race on May 25 in the Schelde-Lys region of East Flanders. Roughly 175km of flat-to-rolling Flemish kermesse roads with a finishing circuit and a few short cobbled sectors — typically a bunch sprint or small late break.",
+        "favorites": {
+          "description": "Belgian Continental teams and a few ProTeam riders chasing UCI points. Sprinters and Classics-style fast finishers split the wins.",
+          "sprinters": [
+            "Riders from Bingoal-WB",
+            "Riders from Tarteletto-Isorex",
+            "Riders from Flanders-Baloise"
+          ]
+        },
+        "narratives": [
+          "Sponsored by a Mazda dealership — typical of the dense Flemish UCI 1.2 calendar where local businesses fund regional races.",
+          "Continental U23 prospects use it as a points-grab close to home.",
+          "Often coincides with the Antwerp Port Epic, splitting the strongest local riders."
+        ],
+        "historicalContext": "Modern addition to the Flemish calendar (mid-2010s). Run as a UCI 1.2 race by a regional cycling club.",
+        "watchNotes": "No live international broadcast. Belgian regional outlets occasionally post a finish-line clip. Action condenses on the final 20km."
       }
     },
     {
@@ -19962,6 +21217,38 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French UCI 2.Pro stage race held May 28-31 across four stages totalling roughly 700km in the Mayenne and Sarthe departments of western France. A balanced parcours: two sprint stages, one hilly stage and a punchy circuit finale around Laval that suits both sprinters and puncheurs.",
+        "favorites": {
+          "description": "A WorldTour-flavoured field — top sprinters use it as Tour de France lead-up, French puncheurs target the GC.",
+          "sprinters": [
+            "KOOIJ Olav",
+            "BENNETT Sam",
+            "GROENEWEGEN Dylan",
+            "JAKOBSEN Fabio",
+            "DEMARE Arnaud"
+          ],
+          "puncheurs": [
+            "MARTINEZ Lenny",
+            "VAUQUELIN Kévin",
+            "GRÉGOIRE Romain",
+            "MADOUAS Valentin"
+          ],
+          "gcContenders": [
+            "GAUDU David",
+            "BARDET Romain"
+          ]
+        },
+        "narratives": [
+          "One of the most popular pre-Critérium du Dauphiné stage races for French ProTeams — a points-rich event in front of home crowds.",
+          "Groupama-FDJ traditionally treats it as a home race; multiple French podiums each year.",
+          "The Laval circuit on the final day always produces drama — narrow streets, short cobbled section, and tight corners reward bike-handling."
+        ],
+        "historicalContext": "First held in 1973. Past winners include Sébastien Reichenbach, Romain Bardet, and Olav Kooij. UCI 2.Pro since 2020.",
+        "watchNotes": "France 3 Pays de la Loire and FloBikes (NA) carry coverage. The hilly stage and the Laval circuit are essential viewing — that's where GC battles play out."
       }
     },
     {
@@ -20025,6 +21312,36 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "French women's UCI 2.1 stage race held May 28-31 across four stages totalling roughly 450km in Brittany. A balanced parcours: a prologue or short ITT, two rolling road stages, and a hilly queen stage in the Brittany interior — finishes typically in or near Plouay.",
+        "favorites": {
+          "description": "A field of Continental teams and ProTeam women's squads; sprinters battle puncheurs in a finely balanced GC fight.",
+          "puncheurs": [
+            "MUZIC Évita",
+            "GHEKIERE Justine",
+            "GERY Célia",
+            "SQUIBAN Maeva"
+          ],
+          "sprinters": [
+            "WIEBES Lorena",
+            "FIDANZA Martina",
+            "BARALE Sofia"
+          ],
+          "climbers": [
+            "FAULKNER Kristen",
+            "Riders from FDJ-Suez"
+          ]
+        },
+        "narratives": [
+          "Final tune-up before the Tour de France Femmes for several climbing GC contenders.",
+          "FDJ-Suez treats it as a home race — Brittany is the team's heartland.",
+          "Coupe de France standings often reshuffle here — points-rich event for French Continental teams."
+        ],
+        "historicalContext": "First held in 2000 as a smaller stage race; expanded to UCI 2.1 in 2018 alongside the women's Coupe de France boom.",
+        "watchNotes": "France 3 Bretagne carries highlights; some stages stream on the organiser's YouTube. Watch the queen stage and the Plouay circuit."
       }
     },
     {
@@ -20125,7 +21442,57 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Eight-stage Women's WorldTour Grand Tour, May 30 - June 6 2026 (running parallel to the men's Giro for the first time after the calendar shift). The new May date positions it as one of the toughest women's GTs of the year, with multiple summit finishes across the Italian peninsula and Dolomites. Climbing-heavy with limited time-trialling.",
+        "keyClimbs": [
+          {
+            "name": "Italian Dolomites mountain stage",
+            "category": "HC",
+            "notes": "Final-week summit finish — typically Passo Pordoi, Passo Sella or similar Dolomite pass. GC-decisive."
+          },
+          {
+            "name": "Apennine summit finish",
+            "category": "1",
+            "notes": "Mid-race queen-stage candidate in the Tuscan-Emilian Apennines."
+          }
+        ],
+        "favorites": {
+          "description": "A pure climbers' Grand Tour. The new May date means GC contenders fresh off the Vuelta Femenina and Itzulia arrive with form but also fatigue. Italian and Dutch climbers traditionally dominate.",
+          "gcContenders": [
+            "VOLLERING Demi",
+            "REUSSER Marlen",
+            "NIEWIADOMA-PHINNEY Kasia",
+            "LONGO BORGHINI Elisa",
+            "PERSICO Silvia",
+            "GIGANTE Sarah",
+            "MUZIC Évita",
+            "REALINI Gaia"
+          ],
+          "climbers": [
+            "FAULKNER Kristen",
+            "GARCÍA Mavi",
+            "VAN DER BREGGEN Anna"
+          ],
+          "sprinters": [
+            "WIEBES Lorena",
+            "VOS Marianne",
+            "KOPECKY Lotte",
+            "BREDEWOLD Mischa"
+          ]
+        },
+        "narratives": [
+          "First edition of the Giro Donne to overlap directly with the men's Giro — the two races share the calendar slot for the first time, doubling Italian cycling's May spotlight.",
+          "Defending champion Elisa Longo Borghini returns as Italy's brightest GC hope — a true tifosi favourite on home roads.",
+          "Demi Vollering vs Marlen Reusser — the modern women's GT rivalry continues after their 2025 Vuelta and Tour battles.",
+          "Anna van der Breggen's likely final Grand Tour — a victory lap for the most decorated women's GC rider of the modern era.",
+          "Calendar shift from July to May means tougher recovery from the Vuelta Femenina and Itzulia — form management is everything."
+        ],
+        "historicalContext": "First held in 1988. Run by RCS Sport since 2024 (previously Starlight). Past winners include Anna van der Breggen (multiple), Annemiek van Vleuten (multiple), and Elisa Longo Borghini.",
+        "watchNotes": "Live coverage on HBO Max / Eurosport (US, Europe), TNT Sports (UK, Ireland) — RCS deal extended through at least 2029. Watch the queen stage in the Dolomites and the final two summit finishes — that's where the maglia rosa is decided. Free coverage on RAI Sport in Italy."
+      }
     },
     {
       "id": "gp-ciudad-de-eibar-2026",
@@ -20187,6 +21554,39 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Spanish UCI 1.1 one-day race on May 31, finishing in Eibar in the Basque Country after roughly 175km. A pure climber's classic with the brutal final ascent of Arrate (Santuario de Arrate, 5.6km at 7.6%) — the same finish used by the Itzulia Basque Country and the Vuelta a España.",
+        "keyClimbs": [
+          {
+            "name": "Alto de Arrate (Santuario de Arrate)",
+            "category": "1",
+            "length": "5.6 km",
+            "avgGradient": "7.6%",
+            "maxGradient": "11%",
+            "kmFromFinish": 0,
+            "notes": "Iconic Basque summit finish — used by both the Itzulia and the Vuelta. Decisive."
+          }
+        ],
+        "favorites": {
+          "description": "Pure climbers — small group or solo finish at the Arrate summit guaranteed.",
+          "climbers": [
+            "MARTINEZ Lenny",
+            "MARTÍNEZ Daniel Felipe",
+            "ROGLIČ Primož (occasional)",
+            "Riders from Euskaltel-Euskadi",
+            "VAUQUELIN Kévin"
+          ]
+        },
+        "narratives": [
+          "Eibar's home race — the Basque town wraps itself around the Arrate finish.",
+          "Tune-up for the Critérium du Dauphiné and Tour de Suisse for several Spanish and French climbers.",
+          "Movistar / Euskaltel-Euskadi rivalry on home roads always produces aggressive racing."
+        ],
+        "historicalContext": "Long-running Basque race dating to the 1940s, revived as a UCI 1.1 in the 2010s. Always finishes on Arrate.",
+        "watchNotes": "ETB1 (Basque public TV) carries live coverage; Eurosport sometimes picks up. Watch the final 30km — Arrate decides the race."
       }
     },
     {
@@ -20250,6 +21650,55 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "lastFetched": "2026-04-26T00:00:00Z",
+        "spoilerSafe": true,
+        "courseSummary": "Belgian UCI 2.Pro stage race held June 1-5 across five stages totalling roughly 800km through the Walloon hills of southern Belgium. A balanced parcours: one or two sprint stages, two punchy hilly stages on Ardennes-lite climbs, and one queen stage with a summit finish — typically Mont Theux or similar.",
+        "keyClimbs": [
+          {
+            "name": "Côte de la Citadelle (Namur)",
+            "category": "3",
+            "length": "0.7 km",
+            "avgGradient": "10%",
+            "notes": "Iconic short, savage cobbled climb in Namur often used in finishing circuits."
+          },
+          {
+            "name": "Mur de Thuin / Mont Theux",
+            "category": "2",
+            "length": "1.5 km",
+            "avgGradient": "10%",
+            "notes": "Summit finish or final climb on the queen stage — selective and decisive."
+          }
+        ],
+        "favorites": {
+          "description": "Belgian and French ProTeam puncheurs and Classics riders. GC usually goes to a hilly-stage specialist who can survive both sprint stages.",
+          "puncheurs": [
+            "DE LIE Arnaud",
+            "VAN GILS Maxim",
+            "ZINGLE Axel",
+            "MARTINEZ Lenny",
+            "VAUQUELIN Kévin"
+          ],
+          "sprinters": [
+            "MEEUS Jordi",
+            "MERLIER Tim",
+            "BENNETT Sam"
+          ],
+          "gcContenders": [
+            "TEUNS Dylan",
+            "VAN AERT Wout (occasional)",
+            "POWLESS Neilson"
+          ]
+        },
+        "narratives": [
+          "Walloon answer to the Tour de Suisse and Critérium du Dauphiné — ProTeams use it as a key Tour de France tune-up.",
+          "Lotto traditionally targets the GC for one of its Walloon protégés — De Lie or Van Gils.",
+          "Wet June weather in the Ardennes can turn the queen stage into an attritional epic.",
+          "Strong tradition — past winners include Eddy Merckx, Stephen Roche, and Philippe Gilbert."
+        ],
+        "historicalContext": "First held in 1974 as Tour de Wallonie. UCI 2.Pro since 2020. Organised by the Walloon cycling federation in partnership with regional sponsors.",
+        "watchNotes": "RTBF (Belgian French-language public TV) carries live coverage; Eurosport often picks up the queen stage. Watch the hilly stage and the final two days — that's where the GC is decided."
       }
     },
     {
