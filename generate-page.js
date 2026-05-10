@@ -37,7 +37,7 @@ const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU'];
 
 function transformRace(r) {
   const month = r.raceDate ? Number(r.raceDate.slice(5, 7)) : 0;
-  const disc = r.discipline === 'cyclocross' ? 'cx' : (r.discipline || 'road');
+  const disc = r.discipline === 'cyclocross' ? 'cx' : (r.discipline === 'gravel' ? 'gravel' : (r.discipline || 'road'));
   const gender = GENDER_CODE[r.gender] || 'm';
   const format = FORMAT_CODE[r.raceFormat] || r.raceFormat || 'one';
   const prestige = [...new Set((r.prestige || []).map(p => PRESTIGE_CODE[p] || p))];
@@ -209,6 +209,7 @@ function buildHtml(rows, stats, updatedLabel) {
         <span class="tb-label" style="margin-left:18px">Disc.</span>
         <button class="chip on" data-f="disc" data-v="all">All</button>
         <button class="chip" data-f="disc" data-v="road">Road</button>
+        <button class="chip" data-f="disc" data-v="gravel">Gravel</button>
         <button class="chip" data-f="disc" data-v="cx">Cyclocross</button>
         <span class="tb-label" style="margin-left:18px">Gender</span>
         <button class="chip on" data-f="gender" data-v="all">All</button>
@@ -260,6 +261,7 @@ function buildHtml(rows, stats, updatedLabel) {
           <span class="k">2.1 / 1.1</span><span class="v">UCI Continental calendar</span>
           <span class="k">WWT</span><span class="v">Women's World Tour</span>
           <span class="k">CX.WC / WCh</span><span class="v">Cyclocross World Cup / Worlds</span>
+          <span class="k">GWS / WCh-G</span><span class="v">UCI Gravel World Series / Gravel Worlds</span>
         </div>
       </div>
       <div>

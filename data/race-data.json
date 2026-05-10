@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T07:56:15.002Z",
+  "lastUpdated": "2026-05-10T23:48:42.931Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -5458,6 +5458,32 @@
       "discipline": "road"
     },
     {
+      "id": "the-ceder-2026",
+      "name": "The Ceder",
+      "raceDate": "2026-02-14",
+      "location": "South Africa",
+      "locationDetail": "Nuwerust Farm",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Nuwerust Farm, South Africa. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "clasica-de-almeria-2026",
       "name": "Clasica de Almeria",
       "description": "Spanish one-day classic featuring 189km through Andalusia with several category 3 climbs - typically ends in a sprint",
@@ -6980,6 +7006,32 @@
         "gcDynamics": "The constant climbing means there are few hiding places for GC riders. Mountain stages create significant time gaps, and the altitude factor can surprise riders not acclimatized. The Wall of Kigali often features in the decisive stages.",
         "historicalContext": "First held in 1988, the Tour du Rwanda has grown from a regional event to a UCI 2.1 classified race attracting international teams. Rwanda's investment in cycling infrastructure and the race's growing prestige have made it a cornerstone of African cycling development. Many African riders who have gone on to WorldTour careers cut their teeth here.",
         "watchNotes": "Every stage features significant climbing due to Rwanda's terrain. Watch for attacks on the longer climbs where altitude takes its toll. The atmosphere is incredible, with huge crowds lining the roads. The race often features aggressive racing from start to finish."
+      }
+    },
+    {
+      "id": "castellon-gravel-race-2026",
+      "name": "Castellón Gravel Race",
+      "raceDate": "2026-02-22",
+      "location": "Spain",
+      "locationDetail": "Llucena",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Llucena, Spain. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -8719,6 +8771,32 @@
       "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
     },
     {
+      "id": "gravel-brazil-2026",
+      "name": "Gravel Brazil",
+      "raceDate": "2026-03-08",
+      "location": "Brazil",
+      "locationDetail": "Camboriú",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Camboriú, Brazil. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "tirreno-adriatico-2026",
       "name": "Tirreno-Adriatico",
       "description": "2.UWT cycling race in Italy",
@@ -9834,6 +9912,32 @@
       }
     },
     {
+      "id": "turnhout-gravel-2026",
+      "name": "Turnhout Gravel",
+      "raceDate": "2026-03-22",
+      "location": "Belgium",
+      "locationDetail": "Turnhout",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Turnhout, Belgium. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026",
       "name": "Princess Maha Chakri Sirindhorn's Cup Tour of Thailand",
       "description": "UCI 2.1 stage race in northeastern Thailand across Nong Khai and Udon Thani provinces. 6 stages, 816.6 km. Named in honor of HRH Princess Maha Chakri Sirindhorn.",
@@ -10345,6 +10449,32 @@
       }
     },
     {
+      "id": "114-gravel-race-2026",
+      "name": "114 Gravel Race",
+      "raceDate": "2026-03-28",
+      "location": "Portugal",
+      "locationDetail": "Elvas – Badajoz",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Elvas – Badajoz, Portugal. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "gent-wevelgem-2026",
       "name": "Gent-Wevelgem",
       "description": "1.UWT cycling race in Belgium",
@@ -10674,6 +10804,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "vuelta-altas-cumbres-gravel-2026",
+      "name": "Vuelta Altas Cumbres Gravel",
+      "raceDate": "2026-03-29",
+      "location": "Argentina",
+      "locationDetail": "Cura Brochero, Córdoba",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Cura Brochero, Córdoba, Argentina. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -13473,6 +13629,32 @@
       }
     },
     {
+      "id": "worthersee-gravel-race-2026",
+      "name": "Wörthersee Gravel Race",
+      "raceDate": "2026-04-12",
+      "location": "Austria",
+      "locationDetail": "Velden am Wörthersee",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Velden am Wörthersee, Austria. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "o-gran-camino-2026",
       "name": "O Gran Camiño",
       "description": "2.1 cycling race in Spain",
@@ -14860,6 +15042,32 @@
       "_notes": "Direct deep link to women's replay within the shared 2026 Amstel Gold Race event page (men + women)."
     },
     {
+      "id": "monaco-gravel-race-2026",
+      "name": "Monaco Gravel Race",
+      "raceDate": "2026-04-19",
+      "location": "Monaco",
+      "locationDetail": "Monaco – Peille",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Monaco – Peille, Monaco. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "gp-samarkand-2026",
       "name": "GP Samarkand",
       "description": "2.1 cycling race in Uzbekistan",
@@ -16198,6 +16406,58 @@
         }
       ],
       "_notes": "Stage 1 has SAFE 2h38m live replay from official @tourdebretagne YouTube channel (neutral title, neutral description, Redon/Pipriac route). Stages 2-7 not yet aired (race runs 2026-04-25 through 2026-05-01). Note YouTube spoiler warning: disable autoplay, avoid sidebar recommendations."
+    },
+    {
+      "id": "gravel-one-fifty-2026",
+      "name": "Gravel One Fifty",
+      "raceDate": "2026-04-25",
+      "location": "Netherlands",
+      "locationDetail": "Roden",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Roden, Netherlands. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "highlands-gravel-classic-2026",
+      "name": "Highlands Gravel Classic",
+      "raceDate": "2026-04-25",
+      "location": "United States",
+      "locationDetail": "Fayetteville-Goshen, AR",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Fayetteville-Goshen, AR, United States. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
     },
     {
       "id": "gp-della-liberazione-donne-2026",
@@ -17735,6 +17995,32 @@
       }
     },
     {
+      "id": "giro-sardegna-gravel-2026",
+      "name": "Giro Sardegna Gravel",
+      "raceDate": "2026-05-01",
+      "location": "Italy",
+      "locationDetail": "Muravera – Villasimius",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Muravera – Villasimius, Italy. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "festival-elsy-jacobs-2026",
       "name": "Festival Elsy Jacobs",
       "description": "1.1 cycling race in Luxembourg",
@@ -19121,6 +19407,32 @@
       }
     },
     {
+      "id": "marly-grav-race-2026",
+      "name": "Marly Grav Race",
+      "raceDate": "2026-05-10",
+      "location": "Netherlands",
+      "locationDetail": "Valkenburg, Limburg",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Valkenburg, Limburg, Netherlands. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "navarra-womens-classic-2026",
       "name": "Navarra Women's Classic",
       "description": "1.Pro women's cycling race in Spain",
@@ -19800,6 +20112,58 @@
         ],
         "historicalContext": "Founded in the 2010s as the women's counterpart to a long-running Kempen kermesse. UCI 1.2 status since 2018.",
         "watchNotes": "No live international broadcast; Dutch federation occasionally streams via YouTube. Action condenses on the final 20km."
+      }
+    },
+    {
+      "id": "seven-nannup-2026",
+      "name": "Seven",
+      "raceDate": "2026-05-16",
+      "location": "Australia",
+      "locationDetail": "Nannup, WA",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Nannup, WA, Australia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "the-gralloch-2026",
+      "name": "The Gralloch",
+      "raceDate": "2026-05-16",
+      "location": "United Kingdom",
+      "locationDetail": "Gatehouse of Fleet, Scotland",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Gatehouse of Fleet, Scotland, United Kingdom. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -20724,6 +21088,32 @@
       }
     },
     {
+      "id": "gravel-bogota-2026",
+      "name": "Gravel Bogotá",
+      "raceDate": "2026-05-24",
+      "location": "Colombia",
+      "locationDetail": "Chía – Bogotá",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Chía – Bogotá, Colombia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "antwerp-port-epic-sels-trophy-2026",
       "name": "Antwerp Port Epic - Sels Trophy",
       "description": "1.1 cycling race in Belgium",
@@ -21615,6 +22005,32 @@
       }
     },
     {
+      "id": "gravel-adventure-2026",
+      "name": "Gravel Adventure",
+      "raceDate": "2026-06-06",
+      "location": "Poland",
+      "locationDetail": "Szklarska Poręba – Jakuszyce",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Szklarska Poręba – Jakuszyce, Poland. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "alpes-gresivaudan-classic-2026",
       "name": "Alpes Grésivaudan Classic",
       "description": "1.1 cycling race in France",
@@ -22211,6 +22627,32 @@
       }
     },
     {
+      "id": "safari-gravel-race-2026",
+      "name": "Safari Gravel Race",
+      "raceDate": "2026-06-13",
+      "location": "Kenya",
+      "locationDetail": "Hell's Gate, Naivasha",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Hell's Gate, Naivasha, Kenya. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "copenhagen-sprint-2026",
       "name": "Copenhagen Sprint",
       "description": "1.UWT cycling race in Denmark",
@@ -22463,6 +22905,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "wish-one-millau-2026",
+      "name": "Wish One Millau Grands Causses",
+      "raceDate": "2026-06-14",
+      "location": "France",
+      "locationDetail": "Millau",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Millau, France. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -22906,6 +23374,58 @@
       }
     },
     {
+      "id": "devils-cardigan-2026",
+      "name": "The Devils Cardigan",
+      "raceDate": "2026-06-20",
+      "location": "Australia",
+      "locationDetail": "Derby, Tasmania",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Derby, Tasmania, Australia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "grand-tour-3-cime-lavaredo-2026",
+      "name": "Grand Tour 3 Cime Lavaredo",
+      "raceDate": "2026-06-20",
+      "location": "Italy",
+      "locationDetail": "Auronzo di Cadore",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Auronzo di Cadore, Italy. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "andorra-classic-2026",
       "name": "Andorra Classic",
       "description": "1.1 cycling race in Andorra",
@@ -23026,6 +23546,84 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "eislek-gravel-luxembourg-2026",
+      "name": "Eislek Gravel Luxembourg",
+      "raceDate": "2026-06-21",
+      "location": "Luxembourg",
+      "locationDetail": "Vianden",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Vianden, Luxembourg. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "og-classique-2026",
+      "name": "OG Classique",
+      "raceDate": "2026-06-21",
+      "location": "Canada",
+      "locationDetail": "Wakefield, QC",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Wakefield, QC, Canada. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "ghost-of-the-gravel-2026",
+      "name": "Ghost of The Gravel",
+      "raceDate": "2026-06-27",
+      "location": "Canada",
+      "locationDetail": "Water Valley, AB",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Water Valley, AB, Canada. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -24161,6 +24759,32 @@
       }
     },
     {
+      "id": "hegau-gravel-festival-2026",
+      "name": "Hegau Gravel Festival",
+      "raceDate": "2026-07-05",
+      "location": "Germany",
+      "locationDetail": "Singen",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Singen, Germany. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "tour-of-austria-2026",
       "name": "Tour of Austria",
       "description": "2.1 cycling race in Austria",
@@ -24221,6 +24845,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "majestics-gravel-2026",
+      "name": "The Majestics Gravel",
+      "raceDate": "2026-07-12",
+      "location": "Switzerland",
+      "locationDetail": "Villars",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Villars, Switzerland. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -24410,6 +25060,32 @@
       }
     },
     {
+      "id": "3rides-gravel-2026",
+      "name": "3RIDES Gravel",
+      "raceDate": "2026-07-19",
+      "location": "Germany",
+      "locationDetail": "Winterberg",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Winterberg, Germany. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "clasica-de-ordizia-2026",
       "name": "Clásica de Ordizia",
       "description": "1.1 cycling race in Spain",
@@ -24469,6 +25145,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "around-the-pot-2026",
+      "name": "Around the Pot",
+      "raceDate": "2026-07-25",
+      "location": "South Africa",
+      "locationDetail": "Swellendam",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Swellendam, South Africa. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -24837,6 +25539,32 @@
       }
     },
     {
+      "id": "gravel-tour-hlinsko-2026",
+      "name": "Gravel Tour Hlinsko",
+      "raceDate": "2026-08-01",
+      "location": "Czech Republic",
+      "locationDetail": "Hlinsko",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Hlinsko, Czech Republic. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "china-xizang-trans-himalaya-2026",
       "name": "China Xizang Trans-Himalaya",
       "description": "2.1 cycling race in China",
@@ -25198,6 +25926,58 @@
       }
     },
     {
+      "id": "gravel-weekend-tukums-2026",
+      "name": "Gravel Weekend",
+      "raceDate": "2026-08-08",
+      "location": "Latvia",
+      "locationDetail": "Tukums",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Tukums, Latvia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "gravel-medellin-2026",
+      "name": "Gravel Medellín",
+      "raceDate": "2026-08-09",
+      "location": "Colombia",
+      "locationDetail": "Medellín",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Medellín, Colombia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "arctic-race-of-norway-2026",
       "name": "Arctic Race of Norway",
       "description": "2.Pro cycling race in Norway",
@@ -25447,6 +26227,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "gravel-grit-n-grind-2026",
+      "name": "Gravel Grit 'n Grind",
+      "raceDate": "2026-08-15",
+      "location": "Sweden",
+      "locationDetail": "Halmstad",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Halmstad, Sweden. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -26210,6 +27016,58 @@
       }
     },
     {
+      "id": "hysk-gravel-classic-yakurai-2026",
+      "name": "HYSK Gravel Classic Yakurai",
+      "raceDate": "2026-08-22",
+      "location": "Japan",
+      "locationDetail": "Kami Town",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Kami Town, Japan. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "khomas100-2026",
+      "name": "Khomas100",
+      "raceDate": "2026-08-22",
+      "location": "Namibia",
+      "locationDetail": "Windhoek",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Windhoek, Namibia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "tour-du-poitou-charentes-en-nouvelle-aquitaine-2026",
       "name": "Tour du Poitou-Charentes en Nouvelle-Aquitaine",
       "description": "2.1 cycling race in France",
@@ -26572,6 +27430,84 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "gravel-arteaga-mexico-2026",
+      "name": "Gravel Arteaga Mexico",
+      "raceDate": "2026-08-30",
+      "location": "Mexico",
+      "locationDetail": "Arteaga, Coahuila",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Arteaga, Coahuila, Mexico. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "uec-gravel-european-championships-2026-men",
+      "name": "UEC European Gravel Championships — Men Elite",
+      "raceDate": "2026-08-30",
+      "location": "Belgium",
+      "locationDetail": "Houffalize",
+      "category": "ECh-G",
+      "discipline": "gravel",
+      "gender": "men",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 4,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UEC European Gravel Championships — continental title.",
+      "raceDetails": {
+        "courseSummary": "Houffalize, Belgium."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
+      }
+    },
+    {
+      "id": "uec-gravel-european-championships-2026-women",
+      "name": "UEC European Gravel Championships — Women Elite",
+      "raceDate": "2026-08-30",
+      "location": "Belgium",
+      "locationDetail": "Houffalize",
+      "category": "ECh-G",
+      "discipline": "gravel",
+      "gender": "women",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 4,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UEC European Gravel Championships — continental title.",
+      "raceDetails": {
+        "courseSummary": "Houffalize, Belgium."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
       }
     },
     {
@@ -27060,6 +27996,59 @@
       }
     },
     {
+      "id": "the-wolf-2026",
+      "name": "The Wolf",
+      "raceDate": "2026-09-05",
+      "location": "Denmark",
+      "locationDetail": "Dronninglund",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Dronninglund, Denmark. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "graean-cymru-2026",
+      "name": "Graean Cymru",
+      "raceDate": "2026-09-05",
+      "endDate": "2026-09-06",
+      "location": "United Kingdom",
+      "locationDetail": "Llyn Brenig, Wales",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Llyn Brenig, Wales, United Kingdom. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "pointe-du-raz-ladies-classic-2026",
       "name": "Pointe du Raz Ladies Classic",
       "description": "1.1 women's cycling race in France",
@@ -27118,6 +28107,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "gravel-chile-2026",
+      "name": "Gravel Chile",
+      "raceDate": "2026-09-06",
+      "location": "Chile",
+      "locationDetail": "Valdivia, Los Ríos",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Valdivia, Los Ríos, Chile. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -27601,6 +28616,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "falling-leaves-2026",
+      "name": "Falling Leaves",
+      "raceDate": "2026-09-12",
+      "location": "Finland",
+      "locationDetail": "Lahti",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Lahti, Finland. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -28511,6 +29552,84 @@
       }
     },
     {
+      "id": "sea-otter-europe-girona-2026",
+      "name": "Sea Otter Europe Girona",
+      "raceDate": "2026-09-19",
+      "location": "Spain",
+      "locationDetail": "Girona",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Girona, Spain. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "tartu-rattamaraton-2026",
+      "name": "Tartu Rattamaraton",
+      "raceDate": "2026-09-19",
+      "location": "Estonia",
+      "locationDetail": "Otepää – Elva",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Otepää – Elva, Estonia. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
+      "id": "mammoth-tuff-2026",
+      "name": "Mammoth TUFF",
+      "raceDate": "2026-09-19",
+      "location": "United States",
+      "locationDetail": "Mammoth Lakes, CA",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 3,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Mammoth Lakes, CA, United States. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
+      }
+    },
+    {
       "id": "giro-della-romagna-2026",
       "name": "Giro della Romagna",
       "description": "1.1 cycling race in Italy",
@@ -28824,6 +29943,32 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "pyrenees-catalanes-gravel-2026",
+      "name": "Pyrénées Catalanes Gravel Tour",
+      "raceDate": "2026-09-26",
+      "location": "France",
+      "locationDetail": "Font Romeu",
+      "category": "GWS",
+      "discipline": "gravel",
+      "gender": "mixed",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 2,
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
+      "raceDetails": {
+        "courseSummary": "Gravel race in Font Romeu, France. Elite men's and elite women's classifications contest the same course."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       }
     },
     {
@@ -29697,6 +30842,35 @@
       }
     },
     {
+      "id": "uci-gravel-world-championships-2026-women",
+      "name": "UCI Gravel World Championships — Women Elite",
+      "raceDate": "2026-10-10",
+      "location": "Australia",
+      "locationDetail": "Nannup, Western Australia",
+      "category": "WCh-G",
+      "discipline": "gravel",
+      "gender": "women",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 5,
+      "prestige": [
+        "world-championship"
+      ],
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Championships — rainbow jersey on the line.",
+      "raceDetails": {
+        "courseSummary": "Nannup, Western Australia, Australia."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
+      }
+    },
+    {
       "id": "paris-tours-2026",
       "name": "Paris-Tours",
       "description": "1.Pro cycling race in France",
@@ -29872,6 +31046,35 @@
             }
           }
         }
+      }
+    },
+    {
+      "id": "uci-gravel-world-championships-2026-men",
+      "name": "UCI Gravel World Championships — Men Elite",
+      "raceDate": "2026-10-11",
+      "location": "Australia",
+      "locationDetail": "Nannup, Western Australia",
+      "category": "WCh-G",
+      "discipline": "gravel",
+      "gender": "men",
+      "raceFormat": "one-day",
+      "terrain": [
+        "gravel"
+      ],
+      "rating": 5,
+      "prestige": [
+        "world-championship"
+      ],
+      "platform": "TBD",
+      "url": "TBD",
+      "description": "UCI Gravel World Championships — rainbow jersey on the line.",
+      "raceDetails": {
+        "courseSummary": "Nannup, Western Australia, Australia."
+      },
+      "broadcast": {
+        "geos": {},
+        "youtubeChannels": [],
+        "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
       }
     },
     {
