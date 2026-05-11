@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T20:19:14.712Z",
+  "lastUpdated": "2026-05-11T20:46:00.191Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -13186,8 +13186,8 @@
       "id": "scheldeprijs-2026",
       "name": "Scheldeprijs",
       "description": "1.Pro cycling race in Belgium",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/15617435-2026-scheldeprijs-men",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=9lg5HTdvB5w",
       "type": "full-race",
       "raceDate": "2026-04-08",
       "endDate": "2026-04-09",
@@ -13293,7 +13293,9 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "youtubeHighlights": "https://www.youtube.com/watch?v=9lg5HTdvB5w",
+      "videoNote": "FloBikes 2026 Scheldeprijs (Men) full race broadcast (2:14:02). Per youtube-cycling-analyzer: SAFE — standard FloBikes full-race replay format with pre-race commentary intro, no winner named in scraped transcript; spoiler only at the natural finish-line moment (~2:10+). Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "platform": "FloBikes",
