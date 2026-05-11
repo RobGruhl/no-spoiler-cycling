@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T23:19:11.699Z",
+  "lastUpdated": "2026-05-11T23:20:25.929Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -38328,8 +38328,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15255572-2026-il-lombardia",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "FloBikes Canada deep link to 2026 Il Lombardia."
             }
           }
         }
