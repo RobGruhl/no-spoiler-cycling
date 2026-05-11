@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T08:29:29.113Z",
+  "lastUpdated": "2026-05-11T08:32:22.644Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -20864,7 +20864,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-13",
-      "endDate": "2026-05-18",
+      "endDate": "2026-05-17",
       "raceDay": "Wednesday",
       "location": "Luxembourg",
       "category": "2.1",
@@ -20938,7 +20938,89 @@
         ],
         "historicalContext": "First held in 1960. Named for Luxembourg's southern industrial region. UCI 2.2 since the 2010s.",
         "watchNotes": "No major international broadcast. Race organisers post stage clips on YouTube. Decisive day is usually the queen stage with the climb to Diekirch or similar Ardennes ascent."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Stadtbredimus",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Flèche du Sud — start in Stadtbredimus, Luxembourg.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Luxembourg wine country opener. Rolling start to a 5-day 2.1 race."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Flèche du Sud.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Luxembourg hills — detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — penultimate stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: → Esch-Belval",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage — finish in Esch-Belval.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day with Esch-Belval finish. Last chance to shake up the GC."
+          }
+        }
+      ]
     },
     {
       "id": "tour-de-hongrie-2026",
@@ -22249,7 +22331,57 @@
         ],
         "historicalContext": "Run by the Federação Portuguesa de Ciclismo since the 2010s. UCI 2.1 status, part of the Portuguese national circuit.",
         "watchNotes": "RTP (Portuguese public TV) typically broadcasts the queen stage. Eurosport occasionally picks up highlights. The Torre stage is essential viewing."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the GP Beiras e Serra da Estrela.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Portuguese Beira region opener. Rolling terrain toward the Serra da Estrela."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-05-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage — historically the toughest, climbing into the Serra da Estrela.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing GC day — Serra da Estrela climbing decides the race."
+          }
+        }
+      ]
     },
     {
       "id": "vuelta-a-burgos-feminas-2026",
@@ -29033,7 +29165,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-05",
-      "endDate": "2026-08-17",
+      "endDate": "2026-08-15",
       "raceDay": "Wednesday",
       "location": "Portugal",
       "category": "2.1",
@@ -29086,7 +29218,201 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage of the 87th Volta a Portugal.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "First leader's jersey on offer. Route detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Volta.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Portuguese stage racing — terrain detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-week stage. Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "First weekend approach. Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 5 — first Saturday.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 6 — first Sunday.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 7.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 8.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 9,
+          "name": "Stage 9",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 9 — often the queen stage in Portuguese mountains.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Volta's mountain stages typically fall mid-second-week. Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 10,
+          "name": "Stage 10",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 10.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 11,
+          "name": "Stage 11",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-08-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 11 — typically an ITT.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Race-of-truth before the closing day. Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 12,
+          "name": "Stage 12",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage of the 87th Volta a Portugal.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day. Sprint finish typical of the Volta finale."
+          }
+        }
+      ]
     },
     {
       "id": "gravel-weekend-tukums-2026",
@@ -29550,7 +29876,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-18",
-      "endDate": "2026-08-22",
+      "endDate": "2026-08-21",
       "raceDay": "Tuesday",
       "location": "France",
       "category": "2.1",
@@ -29603,7 +29929,73 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Veyrac → Dun-le-Palestel",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ from Veyrac — Limousin terrain to Dun-le-Palestel.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Opening stage of the 59th edition. Rolling Limousin countryside."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Salignac-Eyvigues → Lanouaille",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Périgord stage from Salignac-Eyvigues to Lanouaille.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Périgord-Limousin transition — typically a punchy day."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 of the Tour du Limousin.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: → Nantiat / Limoges",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage — Nantiat featured, finish historically in Limoges.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day. The Tour du Limousin traditionally finishes in Limoges."
+          }
+        }
+      ]
     },
     {
       "id": "egmont-cycling-race-women-2026",
@@ -30792,7 +31184,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-25",
-      "endDate": "2026-08-29",
+      "endDate": "2026-08-28",
       "raceDay": "Tuesday",
       "location": "France",
       "category": "2.1",
@@ -30845,7 +31237,73 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-25",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour du Poitou-Charentes en Nouvelle-Aquitaine.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Atlantic France opener — typically flat sprinters' terrain."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-26",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Poitou-Charentes.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race day. Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3 (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-08-27",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Traditionally an ITT — the race-of-truth in this 4-stage event.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "ITT day — historically decides the GC."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day. Sprint finish typical."
+          }
+        }
+      ]
     },
     {
       "id": "muur-classic-geraardsbergen-2026",
@@ -31246,7 +31704,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-31",
-      "endDate": "2026-09-05",
+      "endDate": "2026-09-04",
       "raceDay": "Monday",
       "location": "South Korea",
       "category": "2.1",
@@ -31299,7 +31757,89 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-31",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour de Korea.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Korean stage race opener. First leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Tour de Korea.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Korean terrain — detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — often the climbing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Typically the GC day. Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage. Sprint finish typical."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-britain-men-2026",
