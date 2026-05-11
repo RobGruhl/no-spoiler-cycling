@@ -25,6 +25,7 @@ import { dirname, join } from 'path';
 import {
   isValidUrl,
   isRootUrl,
+  isProblematicRootUrl,
   isDeepLink,
   validateBroadcastUrl,
   validateRaceBroadcast
@@ -600,17 +601,20 @@ function checkBroadcast(race) {
     });
   }
 
-  // Per-geo breakdown if verbose. Root URLs are warn by default (strict-promotes).
+  // Per-geo breakdown. Root URLs are warn by default (strict-promotes) —
+  // but acceptable login-gated services (Peacock, Max, Discovery+, 7plus)
+  // count as valid since they don't publish public deep links.
   const geoSubChecks = [];
   for (const [geo, geoData] of Object.entries(broadcast.geos)) {
     const primary = geoData.primary;
     if (primary?.url) {
       const urlValidation = validateBroadcastUrl(primary.url);
+      const problematicRoot = isProblematicRootUrl(primary.url);
+      const status = problematicRoot ? 'warn' : (urlValidation.valid ? 'pass' : 'warn');
       geoSubChecks.push({
         label: `${geo} primary`,
-        status: urlValidation.isRootUrl ? 'warn' :
-                urlValidation.valid ? 'pass' : 'warn',
-        value: `${primary.broadcaster}${urlValidation.isRootUrl ? ' (root URL)' : ''}`
+        status,
+        value: `${primary.broadcaster}${problematicRoot ? ' (root URL)' : ''}`,
       });
     }
   }

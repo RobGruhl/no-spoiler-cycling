@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T04:18:08.000Z",
+  "lastUpdated": "2026-05-11T05:56:26.034Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -1273,7 +1273,7 @@
                 "notes": "Climbed 3 times - gentler direction than 2025"
               }
             ],
-            "watchNotes": "Sprinters' teams will control the peloton on the flat finish, but breakaways have a chance if they survive the Menglers Hill circuits. Watch for white-knuckle moments on the fast descent before the final 13km. Last year Sam Welsford won the sprint here despite a late crash."
+            "watchNotes": "Sprinters' teams will control the peloton on the flat finish, but breakaways have a chance if they survive the Menglers Hill circuits. Watch for white-knuckle moments on the fast descent before the final 13km."
           }
         },
         {
@@ -5408,7 +5408,7 @@
             "notes": "Climbed 3 times on finishing circuit - final ascent ~10km from finish"
           }
         ],
-        "watchNotes": "The race is typically aggressive on the final circuit. Strong puncheurs can attack on the Rua Parque Florestal and hold off the chasers. Recent winner António Morgado attacked with 21km to go and soloed to victory.",
+        "watchNotes": "The race is typically aggressive on the final circuit. Strong puncheurs can attack on the Rua Parque Florestal and hold off the chasers. Recent editions have been decided by long-range solo moves from inside 25km.",
         "narratives": [
           "Portugal's only professional classic - home riders highly motivated",
           "Puncheurs vs sprinters on the finishing circuit",
@@ -5491,7 +5491,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Nuwerust Farm, South Africa. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Nuwerust Farm, South Africa. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -7042,7 +7043,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Llucena, Spain. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Llucena, Spain. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -7760,7 +7762,10 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -7822,6 +7827,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -7968,6 +7976,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -8062,7 +8073,10 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "vuelta-a-extremadura-femenina-2026",
@@ -8296,7 +8310,10 @@
           "nationalityCode": "SW",
           "specialties": []
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "strade-bianche-women-2026",
@@ -8784,7 +8801,10 @@
             "one-day"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "gravel-brazil-2026",
@@ -8804,7 +8824,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Camboriú, Brazil. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Camboriú, Brazil. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -9178,7 +9199,10 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -9240,6 +9264,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -9303,6 +9330,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -9381,7 +9411,10 @@
           "nationalityCode": "SW",
           "specialties": []
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "noekere-koerse-2026",
@@ -9443,6 +9476,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -9519,7 +9555,10 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "gp-de-denain-2026",
@@ -9596,7 +9635,10 @@
             "puncheur"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "koksijde-classic-2026",
@@ -9658,6 +9700,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -9868,7 +9913,10 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "milano-sanremo-donne-2026",
@@ -9925,6 +9973,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -9945,7 +9996,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Turnhout, Belgium. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Turnhout, Belgium. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -10065,7 +10117,8 @@
         ],
         "historicalContext": "Thailand's premier cycling race, first held in 1999 and named in honor of HRH Princess Maha Chakri Sirindhorn. Upgraded to UCI 2.1 category in 2017. Historically won by a mix of Asian and Oceanian riders, with recent champions including riders from Mongolia, Netherlands, Poland, and Denmark.",
         "watchNotes": "Free live streams available daily on Thai PBS YouTube channel starting 08:50 AM Bangkok time (01:50 UTC). Dual Thai-English commentary. Stages 1-2 and 6 favor sprinters; Stages 3-5 in hilly terrain decide the GC.",
-        "gcDynamics": "The race splits into three phases: flat opening (Stages 1-2), hilly middle (Stages 3-5) where the GC is decided, and a flat finale (Stage 6). Stage 3's summit finish at Phu Foi Lom is the key selection point."
+        "gcDynamics": "The race splits into three phases: flat opening (Stages 1-2), hilly middle (Stages 3-5) where the GC is decided, and a flat finale (Stage 6). Stage 3's summit finish at Phu Foi Lom is the key selection point.",
+        "spoilerSafe": true
       },
       "stages": [
         {
@@ -10237,6 +10290,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10299,6 +10355,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10360,6 +10419,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10462,7 +10524,10 @@
             "climber"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "114-gravel-race-2026",
@@ -10482,7 +10547,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Elvas – Badajoz, Portugal. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Elvas – Badajoz, Portugal. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -10635,7 +10701,10 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true
+      }
     },
     {
       "id": "gp-emilia-2026",
@@ -10697,6 +10766,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10759,6 +10831,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10820,6 +10895,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10840,7 +10918,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Cura Brochero, Córdoba, Argentina. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Cura Brochero, Córdoba, Argentina. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -10908,6 +10987,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -10971,6 +11053,9 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "spoilerSafe": true
       }
     },
     {
@@ -11123,7 +11208,7 @@
         "narratives": [
           "The penultimate stop of 'Flemish Holy Week' - teams use Dwars to test form and tactics before the Tour of Flanders on Sunday",
           "The 2026 course additions (Hellestraat, Onderbossenaarstraat) made the race more selective - trending away from the sprinters' finish it once was",
-          "Neilson Powless's 2025 solo victory set a template - long-range attackers thrive when teams get caught looking at each other",
+          "Long-range attackers thrive when teams get caught looking at each other — a recurring pattern in modern editions",
           "The twin-loop finishing circuit in Waregem via Nokereberg/Herlegemstraat adds a tactical wrinkle - late attacks or sprint setup"
         ],
         "historicalContext": "First held in 1945, Dwars door Vlaanderen joined the UCI WorldTour in 2017 and in 2018 moved to its current Wednesday pre-Flanders slot (taking over from the Three Days of De Panne). Historically a sprinter's race, it has evolved dramatically since joining the WorldTour - Christophe Laporte's 2023 solo victory and Neilson Powless's 2025 win reflect the modern template of aggressive, selective racing. The race functions as a key form-indicator for the Monument on Sunday.",
@@ -13638,7 +13723,7 @@
           "Defending champion Pauline Ferrand-Prévot returned to defend her Roubaix title after a historic solo win in 2025",
           "The 2026 route's concentrated early cobbles fundamentally changed the tactical shape of the race - no quiet first hour",
           "Haveluy to Wallers as a brand-new four-star sector for the women created an additional pre-Arenberg test",
-          "Alison Jackson's 2023 surprise victory proved the women's Roubaix is open to anyone with the right tactical instinct and luck"
+          "The women's Roubaix is open to anyone with the right tactical instinct and luck — surprise winners are part of the race's DNA"
         ],
         "historicalContext": "Paris-Roubaix Femmes was first held in 2021 - a belated but prestigious addition to the women's WorldTour calendar. The inaugural winner was Lizzie Deignan, who soloed to victory in horrific weather on a muddy cobbled epic. The race has quickly become a fixture on the Spring Classics calendar and is consistently the most unpredictable race of the season. The 2026 edition was the sixth running and the first under the 'Hauts-de-France' branding. The finish in the Roubaix velodrome is shared with the men's race, making it one of cycling's most iconic venues.",
         "watchNotes": "Tune in for the full race from the opening cobbled sectors - with the new 2026 format there's no quiet opening and chaos often strikes early. The critical TV window is the final hour from Mons-en-Pévèle (48.6km to go) through Carrefour de l'Arbre (17.1km to go). The velodrome finish is must-watch. Spoiler caution: YouTube search results and thumbnails often show the winner - disable autoplay."
@@ -13662,7 +13747,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Velden am Wörthersee, Austria. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Velden am Wörthersee, Austria. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -15075,7 +15161,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Monaco – Peille, Monaco. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Monaco – Peille, Monaco. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -15914,7 +16001,7 @@
           ]
         },
         "narratives": [
-          "Vollering vs Pieterse — Pieterse beat Vollering on the Mur in 2025; the rematch is the headline storyline",
+          "Vollering vs Pieterse on the Mur — a high-anticipation duel and the headline storyline",
           "FDJ-SUEZ trying to extend its dominance of the spring after Vollering's Amstel campaign",
           "SD Worx-Protime and Visma duos look to outnumber FDJ on the Mur run-in",
           "Mur de Huy notoriously punishes early attackers — tactical patience until the final ramp is the standard playbook"
@@ -16441,7 +16528,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Roden, Netherlands. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Roden, Netherlands. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -16467,7 +16555,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Fayetteville-Goshen, AR, United States. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Fayetteville-Goshen, AR, United States. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -18028,7 +18117,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Muravera – Villasimius, Italy. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Muravera – Villasimius, Italy. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
@@ -19994,7 +20084,8 @@
       "url": "TBD",
       "description": "UCI Gravel World Series qualifier. Top 25% in each category earn entry to the 2026 UCI Gravel World Championships (Nannup, Australia) and 2026 UEC European Gravel Championships (Houffalize, Belgium).",
       "raceDetails": {
-        "courseSummary": "Gravel race in Valkenburg, Limburg, Netherlands. Elite men's and elite women's classifications contest the same course."
+        "courseSummary": "Gravel race in Valkenburg, Limburg, Netherlands. Elite men's and elite women's classifications contest the same course.",
+        "spoilerSafe": true
       },
       "broadcast": {
         "geos": {},
