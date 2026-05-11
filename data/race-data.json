@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T22:19:42.561Z",
+  "lastUpdated": "2026-05-11T22:47:31.222Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -10827,8 +10827,8 @@
       "id": "gent-wevelgem-2026",
       "name": "Gent-Wevelgem",
       "description": "1.UWT cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mbc8viuGmvY",
       "type": "full-race",
       "raceDate": "2026-03-29",
       "endDate": "2026-03-30",
@@ -10971,7 +10971,9 @@
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "youtubeHighlights": "https://www.youtube.com/watch?v=mbc8viuGmvY",
+      "videoNote": "FloBikes 2026 Gent-Wevelgem in Flanders Fields (Men) full race broadcast (2:58:48). Per youtube-cycling-analyzer: SAFE — winner named only in the closing ~2 minutes of a nearly 3-hour broadcast; neutral title (full race name 'Gent-Wevelgem in Flanders Fields'). Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "gp-emilia-2026",
@@ -11107,8 +11109,8 @@
       "id": "gent-wevelgem-women-2026",
       "name": "Gent-Wevelgem (Women)",
       "description": "1.WWT women's cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=tSqNKT4blZo",
       "type": "full-race",
       "raceDate": "2026-03-29",
       "raceDay": "Sunday",
@@ -11165,7 +11167,9 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "youtubeHighlights": "https://www.youtube.com/watch?v=tSqNKT4blZo",
+      "videoNote": "FloBikes 2026 Gent-Wevelgem in Flanders Fields (Women) full race broadcast (2:45:19). Per youtube-cycling-analyzer: SAFE — winner named only in the closing ~3 minutes of a 2h45m broadcast; neutral title; verified 2026 by upload date. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "vuelta-altas-cumbres-gravel-2026",
@@ -11379,8 +11383,8 @@
       "id": "dwars-door-vlaanderen-2026",
       "name": "Dwars Door Vlaanderen",
       "description": "1.UWT cycling race in Belgium",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/15448900-2026-dwars-door-vlaanderen-men",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=U8oRxzXYzBU",
       "type": "full-race",
       "raceDate": "2026-04-01",
       "endDate": "2026-04-02",
@@ -11601,14 +11605,16 @@
           "nationalityCode": "DE",
           "specialties": []
         }
-      ]
+      ],
+      "youtubeHighlights": "https://www.youtube.com/watch?v=U8oRxzXYzBU",
+      "videoNote": "FloBikes 2026 Dwars door Vlaanderen (Men) full race broadcast (2:42:24). Per youtube-cycling-analyzer: SAFE — winner named only at natural finish crossing (~90% mark); ~2h25m of clean racing precedes. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "dwars-door-vlaanderen-women-2026",
       "name": "Dwars Door Vlaanderen (Women)",
       "description": "1.WWT women's cycling race in Belgium",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/14823641-2026-dwars-door-vlaanderen-women",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pQhXk_OSK7Q",
       "type": "full-race",
       "raceDate": "2026-04-01",
       "raceDay": "Wednesday",
@@ -11779,7 +11785,9 @@
         ],
         "historicalContext": "Dwars door Vlaanderen Women has been a staple of the women's calendar since 2017. In 2026 it was elevated to the Women's WorldTour - a significant milestone reflecting the race's growing prestige. It occupies the same mid-week pre-Flanders slot as the men's race and serves as a form indicator for the Monument on Sunday. Previous editions have produced a wide range of winners from classics specialists to punchy sprinters.",
         "watchNotes": "Tune in for the final hour when the Flemish Ardennes climbs begin. The race typically opens up on the second pass of key climbs and the finishing circuit in Waregem. The Nokereberg-Herlegemstraat combination in the final 20km is usually where the decisive move goes. Spoiler caution: this race concluded on April 1 - avoid YouTube sidebar, autoplay, and results-focused content."
-      }
+      },
+      "youtubeHighlights": "https://www.youtube.com/watch?v=pQhXk_OSK7Q",
+      "videoNote": "FloBikes 2026 Dwars door Vlaanderen (Women) full race broadcast (1:40:06). Per youtube-cycling-analyzer: SAFE — winner named only at natural finish (~74% mark, ~1h14m in); clean title and thumbnail. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "la-route-adelie-de-vitre-2026",
