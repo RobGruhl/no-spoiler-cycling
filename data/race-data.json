@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:19:26.785Z",
+  "lastUpdated": "2026-05-11T21:47:01.552Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -12051,8 +12051,8 @@
       "id": "ronde-van-vlaanderen-2026",
       "name": "Ronde Van Vlaanderen",
       "description": "1.UWT cycling race in Belgium",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/15241488-2026-tour-of-flanders-men",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=b6XqXXQjTJk",
       "type": "full-race",
       "raceDate": "2026-04-05",
       "endDate": "2026-04-06",
@@ -12358,14 +12358,16 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "youtubeHighlights": "https://www.youtube.com/watch?v=b6XqXXQjTJk",
+      "videoNote": "FloBikes 2026 Tour of Flanders / Ronde van Vlaanderen (Men) full race broadcast (7:01:36). Per youtube-cycling-analyzer: SAFE — full live broadcast with neutral pre-race commentary at the opening; winner only at the natural finish line. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "ronde-van-vlaanderen-women-2026",
       "name": "Ronde Van Vlaanderen (Women)",
       "description": "1.WWT women's cycling race in Belgium",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/15448903-2026-tour-of-flanders-women",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=6uUqBv7vr8Q",
       "type": "full-race",
       "raceDate": "2026-04-05",
       "raceDay": "Sunday",
@@ -12534,7 +12536,9 @@
         ],
         "historicalContext": "The women's Tour of Flanders was first held in 2004 and joined the Women's WorldTour calendar in 2016. It is one of the most prestigious one-day races on the women's calendar and shares its iconic Flemish Ardennes finale with the men's race. Recent winners include Lotte Kopecky (multiple times), Demi Vollering, Elisa Longo Borghini, and others. The race typically produces aggressive, long-range racing given the short distance relative to the men's event - attackers must commit early to avoid the final sprint.",
         "watchNotes": "Tune in for the final 90 minutes - the race opens up on the Wolvenberg (82km to go) and the Molenberg (70km to go) is historically where the winning move is launched. The critical TV window is the final hour from Berg Ten Houte (40km to go) through the final Kwaremont/Paterberg. Spoiler caution: avoid YouTube sidebar and autoplay as highlights often reveal the finish."
-      }
+      },
+      "youtubeHighlights": "https://www.youtube.com/watch?v=6uUqBv7vr8Q",
+      "videoNote": "FloBikes 2026 Tour of Flanders / Ronde van Vlaanderen Femmes full race broadcast (3:12:32). Per youtube-cycling-analyzer: USABLE — winner confirmed at approximately the 2h35m mark (~81% through); ~2h34m of clean race footage precedes it. Soft spoiler at 11km-to-go (~2h19m) hints the likely winner by name. To preserve spoiler-free viewing, stop before the 2h19m mark. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "cholet-agglo-tour-2026",
