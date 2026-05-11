@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T08:32:22.644Z",
+  "lastUpdated": "2026-05-11T09:28:18.782Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -25239,7 +25239,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-17",
-      "endDate": "2026-06-22",
+      "endDate": "2026-06-21",
       "raceDay": "Wednesday",
       "location": "Belgium",
       "category": "2.Pro",
@@ -25293,7 +25293,89 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Baloise Belgium Tour (2.Pro).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Belgian Tour opener. First leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — typically a Flemish hills day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flemish terrain. Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3 (often ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 — historically an ITT in the Baloise Tour.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Time trial day — typically decides a chunk of the GC."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day of the Baloise Belgium Tour. Sprint or breakaway finish typical."
+          }
+        }
+      ]
     },
     {
       "id": "tour-de-suisse-2026",
@@ -28992,7 +29074,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-03",
-      "endDate": "2026-08-10",
+      "endDate": "2026-08-09",
       "raceDay": "Monday",
       "location": "Poland",
       "category": "2.UWT",
@@ -29046,7 +29128,121 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Gdynia → ?",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ from Gdynia on the Baltic coast.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Opening day from Gdynia — flat to rolling Baltic terrain. 2026 total race distance ~807km."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Tour de Pologne.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Polish stage racing — terrain detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 5.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 6 — climbing day in the Tatra region.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tour de Pologne climbing day. Typically the GC decider in the Tatra mountains."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: → Wieliczka",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day with finish in Wieliczka.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage finishing in Wieliczka — known for its historic salt mines outside Kraków."
+          }
+        }
+      ]
     },
     {
       "id": "vuelta-a-burgos-2026",
@@ -30130,7 +30326,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-19",
-      "endDate": "2026-08-24",
+      "endDate": "2026-08-23",
       "raceDay": "Wednesday",
       "location": "Belgium",
       "category": "2.UWT",
@@ -30198,7 +30394,90 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Diest → ?",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ from Diest. 21st edition of the Renewi Tour (formerly Benelux Tour / BinckBank Tour / Eneco Tour).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Opening day from Diest in Flemish Brabant. Classics-style terrain."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "date": "2026-08-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Renewi Tour — typically Flemish coast or polders.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Coastal or polders stage — crosswind risk. Detail from roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Celles → ?",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Hilly stage starting in Celles — featured as official 2026 stage 3 host.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Stage 3 from Celles (Wallonia). Often a Walloon hills stage in the Renewi route."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 of the Renewi Tour.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race day. Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day — typically with the Muur van Geraardsbergen.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day in Flemish hills. The Muur van Geraardsbergen historically plays a pivotal role in the Renewi finale."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-britain-women-2026",
@@ -30208,7 +30487,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-19",
-      "endDate": "2026-08-24",
+      "endDate": "2026-08-23",
       "raceDay": "Wednesday",
       "location": "United Kingdom",
       "category": "2.WWT",
@@ -30261,7 +30540,89 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour of Britain Women — 2026 race expanded to 5 stages.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "British WWT opener. Rolling terrain typical of UK racing."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. Both the men's and women's UK races now run as a 10-day block across late August/early September with gender parity (5 stages each)."
+          }
+        }
+      ]
     },
     {
       "id": "gp-lucien-van-impe-2026",
@@ -31975,7 +32336,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-04",
-      "endDate": "2026-09-07",
+      "endDate": "2026-09-06",
       "raceDay": "Friday",
       "location": "Switzerland",
       "category": "2.WWT",
@@ -32021,7 +32382,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1 (Flat)",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening flat stage of the Tour de Romandie Féminin.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Swiss opener — flat terrain favouring the sprinters. Race moved to September for 2026."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2 (Mountain)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen mountain stage — Saturday's GC decider.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mountain queen stage. The race's climactic day for GC contenders."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3 (Hilly)",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing hilly stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Sunday finale — hilly terrain, last GC opportunities if margins are small."
+          }
+        }
+      ]
     },
     {
       "id": "maryland-cycling-classic-2026",
@@ -35389,7 +35800,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-10-13",
-      "endDate": "2026-10-19",
+      "endDate": "2026-10-18",
       "raceDay": "Tuesday",
       "location": "China",
       "category": "2.UWT",
@@ -35442,7 +35853,105 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour of Guangxi.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tour of Guangxi opener in southern China. Typically a sprint-friendly start."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race day with rolling terrain."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-10-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — typically the mountain GC day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Guangxi's traditional climbing day. GC decider in the karst-mountain terrain."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 5.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day — last race of the WT season.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day of the 2026 WorldTour calendar. Sprint finale typical."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-holland-2026",
