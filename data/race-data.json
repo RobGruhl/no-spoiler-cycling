@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:23:54.450Z",
+  "lastUpdated": "2026-05-11T06:25:20.002Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -21576,7 +21576,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-20",
-      "endDate": "2026-05-25",
+      "endDate": "2026-05-24",
       "raceDay": "Wednesday",
       "location": "France",
       "category": "2.Pro",
@@ -21688,6 +21688,109 @@
             "one-day",
             "sprinter"
           ]
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Lagny-le-Sec → Laon",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 178.1,
+          "date": "2026-05-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening flat stage — 178km from Lagny-le-Sec to Laon. Sprinters' day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Picardy plains opener. First leader's jersey via bunch sprint expected."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Glisy → Liévin",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 180,
+          "date": "2026-05-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "180km across the Somme and Pas-de-Calais — sprint chance.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Northern French plains — fast terrain favouring the sprinters again."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: La Sentinelle → Wallers Arenberg",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "cobbles"
+          ],
+          "distance": 155.7,
+          "date": "2026-05-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Cobbled queen stage — 156km finishing in the legendary Wallers Arenberg forest, one of the toughest Paris-Roubaix pavé sectors.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Trouée d'Arenberg finish — cobbled finale at a Paris-Roubaix landmark. Classics specialists in their element.",
+            "keySectors": [
+              {
+                "name": "Trouée d'Arenberg",
+                "surface": "cobbles",
+                "difficulty": 5
+              }
+            ],
+            "watchNotes": "The race's defining day. Cobbles will splinter the field."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Bergues → Cassel",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 165.7,
+          "date": "2026-05-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "166km Flanders-style stage finishing on the Mont Cassel — punchy climbs.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mont Cassel finish — Flanders-style punchy day. Cobbled climbs probable.",
+            "keyClimbs": [
+              {
+                "name": "Mont Cassel (finish)"
+              }
+            ]
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Saint-Omer → Dunkerque",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "distance": 183.9,
+          "date": "2026-05-24",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final day — 184km to Dunkerque with potential coastal crosswinds.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing sprint into Dunkerque. Coastal terrain — crosswinds can fracture the peloton.",
+            "watchNotes": "Final GC standings often shaped by echelons on the coast. Sprint finish on the seafront."
+          }
         }
       ]
     },
@@ -27462,7 +27565,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-01",
-      "endDate": "2026-08-10",
+      "endDate": "2026-08-09",
       "raceDay": "Saturday",
       "location": "France",
       "category": "2.WWT",
@@ -27521,7 +27624,182 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Lausanne → Lausanne",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 137,
+          "date": "2026-08-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Swiss Grande Départ — 137km hilly opener around Lausanne with an uphill finish.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hilly Swiss opener with 1,700m of elevation. Uphill finish — first yellow jersey for a puncheur.",
+            "watchNotes": "Grande Départ from Lausanne. Climbers and puncheurs in the mix from day one."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Aigle → Geneva",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 149,
+          "date": "2026-08-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "149km from UCI headquarters in Aigle to Geneva — first sprint chance.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Lake Geneva basin — flatter terrain favouring the sprinters."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Geneva → Poligny",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 157,
+          "date": "2026-08-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "157km crossing into the French Jura — sprinters' day with rolling middle.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Geneva to Poligny — Jura crossing, second sprint chance."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Gevrey-Chambertin → Dijon (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "distance": 21,
+          "date": "2026-08-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "21km individual time trial through the Burgundy vineyards from Gevrey-Chambertin to Dijon.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "21km ITT in Burgundy wine country. Major GC test before the climbing weekend.",
+            "watchNotes": "TT specialists can take significant time. Climbers must minimise losses."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Mâcon → Belleville-en-Beaujolais",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 140,
+          "date": "2026-08-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Beaujolais wine-country hills — 140km, breakaway terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Beaujolais rolling vineyards. Punchy stage suiting strong breakaway specialists."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: Montbrison → Tournon-sur-Rhône",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 153,
+          "date": "2026-08-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "153km into the Rhône valley — pre-mountains hilly transition.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Massif Central foothills to the Rhône valley. Last day before the high mountains."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: La Voulte-sur-Rhône → Mont Ventoux",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 144,
+          "date": "2026-08-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mont Ventoux summit finish — 144km from the Rhône valley to the Giant of Provence.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Queen stage finish on Mont Ventoux. The Giant of Provence — 21km of climbing at over 7% average.",
+            "keyClimbs": [
+              {
+                "name": "Mont Ventoux",
+                "category": "HC",
+                "length": "21km",
+                "summit": true
+              }
+            ],
+            "watchNotes": "GC defining stage. Mont Ventoux is one of the most iconic climbs in cycling — gaps will be large."
+          }
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8: Sisteron → Nice",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 175,
+          "date": "2026-08-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage at 175km — sprinter-friendly with a sting in the tail into Nice.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Provence to the Côte d'Azur. Mostly sprinter terrain but with a late climbing kicker before Nice."
+          }
+        },
+        {
+          "stageNumber": 9,
+          "name": "Stage 9: Nice → Nice",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "circuit"
+          ],
+          "distance": 99,
+          "date": "2026-08-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing GC-decider — 99km Nice circuit with four ascents of the Col d'Eze.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Decisive final day: 99km circuit climbing the Col d'Eze four times. Unusually savage finale.",
+            "keyClimbs": [
+              {
+                "name": "Col d'Eze (×4)",
+                "notes": "Climbed four times in the closing circuit"
+              }
+            ],
+            "watchNotes": "The yellow jersey is decided here — repeated climbs guarantee attacks."
+          }
+        }
+      ]
     },
     {
       "id": "gravel-tour-hlinsko-2026",
