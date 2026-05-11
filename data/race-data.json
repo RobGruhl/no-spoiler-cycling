@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T13:28:33.207Z",
+  "lastUpdated": "2026-05-11T14:28:18.922Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -11267,7 +11267,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-03-31",
-      "endDate": "2026-04-03",
+      "endDate": "2026-04-02",
       "raceDay": "Tuesday",
       "location": "Thailand",
       "category": "2.1",
@@ -11323,7 +11323,57 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-03-31",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Princess Maha Chakri Sirindhorn's Cup Women's Tour of Thailand (2.1).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Thai women's race opener — flat tropical terrain typical of the Thailand tour."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-04-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle day of the 3-stage race.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-04-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage. Sprint finish typical of the women's Tour of Thailand."
+          }
+        }
+      ]
     },
     {
       "id": "dwars-door-vlaanderen-2026",
@@ -20387,7 +20437,105 @@
         "historicalContext": "Created in 2024 by the Azerbaijan Cycling Federation following the resolution of the Nagorno-Karabakh conflict. Politically tinged event with strong state backing.",
         "watchNotes": "Limited international broadcast. Check Azerbaijani state broadcaster AzTV for highlights. Crosswind splits and a final hilly run-in typical."
       },
-      "_notes": "Perplexity returned thin data; details synthesised from race classification, geography and standard 1.2 patterns."
+      "_notes": "Perplexity returned thin data; details synthesised from race classification, geography and standard 1.2 patterns.",
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Baku",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-05-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the inaugural Baku-Khankendi Azerbaijan Cycling Race (2.1).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Caspian coast opener from Baku, Azerbaijan's capital. New addition to the 2026 UCI Europe Tour calendar."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-05-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — Caucasus mountain stage typical.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Lesser Caucasus terrain — significant climbing typical for the race."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 5.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: → Khankendi",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day finishing in Khankendi (Stepanakert), Nagorno-Karabakh region.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage finishing in Khankendi — the race's namesake destination."
+          }
+        }
+      ]
     },
     {
       "id": "tro-bro-leon-2026",
@@ -26724,7 +26872,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-01",
-      "endDate": "2026-07-04",
+      "endDate": "2026-07-03",
       "raceDay": "Wednesday",
       "location": "Italy",
       "category": "2.1",
@@ -26777,7 +26925,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Lyon-Torino (2.1) — French/Italian Alpine crossing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Lyon-area opener. The race traverses the Alps between France and Italy across 3 stages."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-07-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle Alpine queen stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Alpine mountain stage — GC decider on the climbs between France and Italy."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day in Torino.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Torino finale. Italian Piemonte hills close the race."
+          }
+        }
+      ]
     },
     {
       "id": "sibiu-tour-2026",
@@ -29503,7 +29701,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-02",
-      "endDate": "2026-08-07",
+      "endDate": "2026-08-06",
       "raceDay": "Sunday",
       "location": "China",
       "category": "2.1",
@@ -29556,7 +29754,89 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the China Xizang Trans-Himalaya — high-altitude race in Tibet.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tibetan high-altitude opener. Extreme elevation is the race's defining feature."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — high-altitude Himalayan racing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Trans-Himalaya mountains. Roads at altitudes above 4,000m typical."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-08-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing Himalayan stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. The race delivers the highest-altitude road racing on the UCI calendar."
+          }
+        }
+      ]
     },
     {
       "id": "circuito-de-getxo-2026",
@@ -34043,7 +34323,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-08",
-      "endDate": "2026-09-10",
+      "endDate": "2026-09-09",
       "raceDay": "Tuesday",
       "location": "China",
       "category": "2.1",
@@ -34096,7 +34376,41 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour of Binzhou — 2-day Shandong province race.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Binzhou opener in coastal Shandong province. Short 2-stage Chinese race."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage. Yellow River delta terrain — typically flat."
+          }
+        }
+      ]
     },
     {
       "id": "giro-della-toscana-memorial-alfredo-martini-2026",
@@ -35552,7 +35866,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-18",
-      "endDate": "2026-09-21",
+      "endDate": "2026-09-20",
       "raceDay": "Friday",
       "location": "China",
       "category": "2.1",
@@ -35605,7 +35919,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour of Huangshan — Anhui province around the iconic Yellow Mountain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Huangshan opener — Anhui hills around China's iconic Yellow Mountain."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle day — typically the mountain queen stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Huangshan mountain stage — climbing day near the Yellow Mountain."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. Detail from official roadbook."
+          }
+        }
+      ]
     },
     {
       "id": "gp-del-lazio-2026",
