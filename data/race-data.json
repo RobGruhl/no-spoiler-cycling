@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T16:19:52.869Z",
+  "lastUpdated": "2026-05-11T16:46:36.531Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -17395,8 +17395,8 @@
       "id": "tour-of-turkiye-2026",
       "name": "Tour of Türkiye",
       "description": "2.Pro cycling race in Türkiye",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Yk6D72nIAxs",
       "type": "full-race",
       "raceDate": "2026-04-26",
       "endDate": "2026-05-04",
@@ -17625,7 +17625,9 @@
             "watchNotes": "Sprint day - watch for the final battle among the top fast men. Also a chance to see the GC leader cross the line victorious."
           }
         }
-      ]
+      ],
+      "youtubeHighlights": "https://www.youtube.com/watch?v=Yk6D72nIAxs",
+      "videoNote": "Stage 5 of the 2026 Tour of Türkiye (Live Cycling channel, 14:27). Per youtube-cycling-analyzer: SAFE — description deliberately withholds the winner ('one perfectly delivered finish from a reduced bunch'); no rider name in the scraped transcript; neutral title. Disable autoplay and avoid sidebar recommendations. Stage-level coverage; race-level GC clip from Stage 7/8 not yet on a clean source."
     },
     {
       "id": "liege-bastogne-liege-women-2026",
@@ -18760,8 +18762,8 @@
       "id": "vuelta-espana-femenina-2026",
       "name": "Vuelta España Femenina",
       "description": "2.WWT women's cycling race in Spain",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=uOtB81amq2w",
       "type": "full-race",
       "raceDate": "2026-05-03",
       "endDate": "2026-05-09",
@@ -18999,7 +19001,9 @@
             "watchNotes": "The Angliru is a cycling legend — final-day fireworks expected on the steepest ramps."
           }
         }
-      ]
+      ],
+      "youtubeHighlights": "https://www.youtube.com/watch?v=uOtB81amq2w",
+      "videoNote": "Stage 6 of the 2026 La Vuelta Femenina — NBC Sports (21:20). Per youtube-cycling-analyzer: USABLE/SAFE — 21 minutes of official summit-finish coverage at Les Praeres de Nava (queen-stage prologue), winner not named in the scraped transcript; end-only spoiler pattern expected. Disable autoplay and avoid sidebar recommendations. Stage 7 / L'Angliru clip would be the ideal race-level pick once a clean source surfaces."
     },
     {
       "id": "tour-of-hellas-2026",
