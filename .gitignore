@@ -96,3 +96,5 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+# Claude harness session state
+.claude/

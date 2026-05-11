@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T05:56:26.034Z",
+  "lastUpdated": "2026-05-11T06:09:09.883Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -23998,7 +23998,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-17",
-      "endDate": "2026-06-22",
+      "endDate": "2026-06-21",
       "raceDay": "Wednesday",
       "location": "Switzerland",
       "category": "2.UWT",
@@ -24132,7 +24132,115 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Sondrio → Sondrio",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": 144,
+          "date": "2026-06-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Hilly circuit around Sondrio reminiscent of Il Lombardia. 2,455m elevation gain on a technically challenging Italian start.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Technically challenging hilly circuit in Sondrio with 2,455m of climbing — Il Lombardia-style demands from day one.",
+            "watchNotes": "Opening day favours puncheurs over pure GC riders. Expect aggressive racing on the closing laps."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Locarno → Locarno",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 157.7,
+          "date": "2026-06-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Rolling stage along Lago Maggiore. 2,110m of climbing — manageable but not for sprinters.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Lago Maggiore terrain with 2,110m elevation. Suits punchy riders and breakaways more than the pure fast men."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Bad Ragaz → Bad Ragaz",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 157.9,
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Eastern Switzerland circuit featuring the Schwägalp climb. 2,690m elevation gain shapes a tactical day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Bad Ragaz loop with the Schwägalp climb as the headline ascent. 2,690m elevation — climbers and puncheurs both in the mix.",
+            "keyClimbs": [
+              {
+                "name": "Schwägalp"
+              }
+            ],
+            "watchNotes": "Tactical day — Schwägalp is the launchpad for any GC moves before the time trial."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Aarburg → Aarburg (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "distance": 23.8,
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "24km individual time trial in Aarburg — fast and technical, the race-of-truth before the Queen Stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Fast, technical 23.8km ITT with only 270m of climbing. TT specialists vs GC climbers — gaps will be measured in seconds.",
+            "watchNotes": "Pure time-trial specialists can take meaningful time; pure climbers must minimise losses before the Queen Stage."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Villars-sur-Ollon → Villars-sur-Ollon",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 151.1,
+          "date": "2026-06-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen Stage: 151km loop from Villars-sur-Ollon with 4,226m of climbing including the Col de la Croix. 'Barely a flat metre in sight.'",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "151.1km Alpine queen stage with 4,226m of climbing — relentlessly up or down. Col de la Croix anchors the day, summit finish at Villars-sur-Ollon.",
+            "keyClimbs": [
+              {
+                "name": "Col de la Croix",
+                "category": "1"
+              },
+              {
+                "name": "Villars-sur-Ollon (final climb)",
+                "summit": true
+              }
+            ],
+            "watchNotes": "GC decided here. Difficulty 5/5 — if the time trial didn't settle it, this will."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-slovenia-2026",
