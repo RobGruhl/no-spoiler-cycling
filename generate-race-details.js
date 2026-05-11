@@ -68,6 +68,20 @@ function rankingToStars(ranking) {
   return 1;
 }
 
+// Parse "LASTNAME First" — surname may be multi-word for prefixes like
+// "VAN AERT Wout" or "DEL TORO Isaac". Recognises the surname run as the
+// leading sequence of ALL-CAPS tokens (any letter, including accents).
+function parseRiderName(fullName) {
+  const parts = (fullName || '').trim().split(/\s+/);
+  const isUpper = p => p && p === p.toUpperCase() && p !== p.toLowerCase();
+  let i = 0;
+  while (i < parts.length && isUpper(parts[i])) i++;
+  const titleCase = w => w.charAt(0) + w.slice(1).toLowerCase();
+  const surname = parts.slice(0, i || 1).map(titleCase).join(' ');
+  const given = parts.slice(i || 1).join(' ');
+  return { surname, given };
+}
+
 function prestigeClass(race) {
   const p = race.prestige || [];
   if (p.includes('grand-tour')) return 'gt';
@@ -616,6 +630,7 @@ function renderStageRace(race) {
   const category = race.category || '';
   const dateRange = fmtDateRange(race.raceDate, race.endDate);
   const stages = race.stages || [];
+  const racingStages = stages.filter(s => s.stageType !== 'rest-day');
   const totalKm = stages.reduce((sum, s) => sum + (s.distance || 0), 0);
   const pClass = prestigeClass(race);
   const codeCls = pClass === 'wc' ? 'code wc' : (category.includes('UWT') || category.includes('WWT')) ? 'code inv' : 'code';
@@ -664,10 +679,10 @@ function renderStageRace(race) {
   const ranked = allRiders.filter(r => !r.isOutsider).slice(0, 14);
   const outsiders = allRiders.filter(r => r.isOutsider);
   const renderRow = (r, n, isOut) => {
-    const surname = r.name.split(' ')[0];
-    const initial = r.name.split(' ')[1] ? r.name.split(' ')[1][0] + '. ' : '';
+    const { surname, given } = parseRiderName(r.name);
+    const initial = given ? given.charAt(0) + '. ' : '';
     return `<div class="num">${String(n).padStart(2, '0')}</div>
-            <div class="riderx${isOut ? ' outsider' : ''}">${initial}${htmlEscape(surname.charAt(0) + surname.slice(1).toLowerCase())}</div>
+            <div class="riderx${isOut ? ' outsider' : ''}">${initial}${htmlEscape(surname)}</div>
             <div class="team">${htmlEscape(r.team || '')}</div>`;
   };
   const startlistHtml = (ranked.length || outsiders.length) ? `
@@ -713,7 +728,7 @@ function renderStageRace(race) {
       <div>
         <div class="tag">
           ${category ? `<span class="${codeCls}">${htmlEscape(category)}</span>` : ''}
-          <span>Stage race · ${stages.length} stages${totalKm ? ' · ' + Math.round(totalKm) + ' km' : ''}</span>
+          <span>Stage race · ${racingStages.length} stages${totalKm ? ' · ' + Math.round(totalKm) + ' km' : ''}</span>
           <span>${'★'.repeat(race.rating || 0)}</span>
         </div>
         <h1>${heroH1}</h1>
@@ -722,7 +737,7 @@ function renderStageRace(race) {
       <aside>
         <div class="stat"><span class="k">Dates</span><span class="v sm">${htmlEscape(dateRange)}</span></div>
         <div class="stat"><span class="k">Country</span><span class="v sm">${htmlEscape(race.location || '—')}</span></div>
-        <div class="stat"><span class="k">Stages</span><span class="v">${stages.length}</span></div>
+        <div class="stat"><span class="k">Stages</span><span class="v">${racingStages.length}</span></div>
         <div class="stat"><span class="k">Total km</span><span class="v mono">${totalKm ? Math.round(totalKm) : '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
@@ -895,9 +910,8 @@ function renderFavourites(race) {
   const outsiders = all.filter(r => r.isOutsider).slice(0, 6);
   if (ranked.length || outsiders.length) {
     const cardFor = (r, i, isOut) => {
-      const surname = (r.name.split(' ')[0] || '');
-      const given = r.name.split(' ').slice(1).join(' ');
-      const display = given ? `${given.charAt(0)}. ${surname.charAt(0) + surname.slice(1).toLowerCase()}` : surname;
+      const { surname, given } = parseRiderName(r.name);
+      const display = given ? `${given.charAt(0)}. ${surname}` : surname;
       const specialty = (r.specialties || [])[0] || '';
       const formStars = isOut ? '' : '★'.repeat(rankingToStars(r.ranking));
       const rankCell = isOut ? 'OUTSIDER' : `UCI #${r.ranking || '—'}`;
