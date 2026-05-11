@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T09:28:18.782Z",
+  "lastUpdated": "2026-05-11T10:28:45.737Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -23664,7 +23664,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-01",
-      "endDate": "2026-06-06",
+      "endDate": "2026-06-05",
       "raceDay": "Monday",
       "location": "Belgium",
       "category": "2.Pro",
@@ -23780,6 +23780,88 @@
             "sprinter",
             "puncheur"
           ]
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Ethias-Tour de Wallonie (2.Pro).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Walloon hills opener. First leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Tour de Wallonie.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Punchy Walloon terrain — detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. Walloon hills typically produce a punchy finale."
+          }
         }
       ]
     },
@@ -25637,7 +25719,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-17",
-      "endDate": "2026-06-22",
+      "endDate": "2026-06-21",
       "raceDay": "Wednesday",
       "location": "Slovenia",
       "category": "2.Pro",
@@ -25703,6 +25785,93 @@
             "gc-contender",
             "climber"
           ]
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Velenje → Rogaška Slatina",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 141.6,
+          "date": "2026-06-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 142km from Velenje to the spa town Rogaška Slatina. 1,523m elevation — flat by Slovenian standards.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "32nd edition opener. Rolling start to a 5-stage Slovenian Tour."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Radlje ob Dravi → Ormož",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 176.8,
+          "date": "2026-06-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "177km through the Drava valley to Ormož on the Croatian border. 1,390m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Eastern Slovenia hilly day along the Drava river."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Maribor → Celje",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 137,
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Tough mountain day — 137km Maribor to Celje with 2,033m of climbing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Climbing-heavy stage between Slovenia's second city Maribor and ancient Celje. First major GC test."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Kranj → Kranjska Gora",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — Kranj to the Julian Alps resort Kranjska Gora.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Julian Alps queen stage finishing in Kranjska Gora, Slovenia's famous ski resort. GC decider.",
+            "watchNotes": "Mountain queen stage typically settles the race."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Litija → Novo mesto",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing stage — Litija to Novo mesto in southeastern Slovenia.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. Rolling terrain — punchy late attacks possible if GC margins are slim."
+          }
         }
       ]
     },
@@ -29252,7 +29421,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-04",
-      "endDate": "2026-08-09",
+      "endDate": "2026-08-08",
       "raceDay": "Tuesday",
       "location": "Spain",
       "category": "2.Pro",
@@ -29351,7 +29520,90 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Vuelta a Burgos (2.Pro), traditionally one of the Vuelta a España's main warm-ups.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Castilian opener. Vuelta a Burgos is a key Vuelta-warm-up race for GC contenders."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — typically rolling Castilian terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Castilian stage — terrain detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Lagunas de Neila (traditional summit)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "date": "2026-08-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage finale — traditionally a summit finish at Lagunas de Neila, the race's iconic climb.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Vuelta a Burgos closes annually with the brutal Lagunas de Neila summit finish — GC decider."
+          }
+        }
+      ]
     },
     {
       "id": "volta-a-portugal-2026",
@@ -29670,7 +29922,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-13",
-      "endDate": "2026-08-17",
+      "endDate": "2026-08-16",
       "raceDay": "Thursday",
       "location": "Norway",
       "category": "2.Pro",
@@ -29723,7 +29975,87 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Evenes → Myre",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "distance": 181.7,
+          "date": "2026-08-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 182km in Ofoten/Vesterålen — world's northernmost road race kicks off above the Arctic Circle.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Norwegian Arctic opener — Evenes to Myre. Expect a bunch sprint to start the race."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Bø i Vesterålen → Andenes",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "distance": 179.2,
+          "date": "2026-08-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "179km along Vesterålen's outer coast — Bø to Andenes at the archipelago's tip.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Vesterålen coastal stage — Arctic Ocean views, exposed terrain, possible crosswinds."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Stokmarknes → Storheia (Melbu)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 142.5,
+          "date": "2026-08-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — 143km finishing on the Storheia summit above Melbu.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Arctic Race's queen stage finishing on Storheia. Summit views over the Norwegian Sea.",
+            "keyClimbs": [
+              {
+                "name": "Storheia",
+                "summit": true
+              }
+            ],
+            "watchNotes": "GC settled here — Arctic Race's signature mountain finish."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Sortland → Narvik",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 190.8,
+          "date": "2026-08-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final 191km from Sortland to the port city Narvik on the mainland.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day — bridge crossings and coastal terrain into Narvik. Last GC opportunities."
+          }
+        }
+      ]
     },
     {
       "id": "czech-tour-2026",
@@ -30262,7 +30594,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-19",
-      "endDate": "2026-08-24",
+      "endDate": "2026-08-23",
       "raceDay": "Wednesday",
       "location": "Germany",
       "category": "2.Pro",
@@ -30316,7 +30648,90 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue: Bad Orb → Bad Orb",
+          "stageType": "prologue",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-08-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening prologue in Bad Orb, Hesse.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short prologue ITT in Bad Orb. First leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Bad Orb → Schwäbisch Hall",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First road stage — Bad Orb to Schwäbisch Hall.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hesse to Württemberg transition. Rolling terrain — breakaway or reduced bunch."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Schwäbisch Hall → Offenbach an der Queich",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Schwäbisch Hall to Offenbach an der Queich in Rhineland-Palatinate.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Cross-southern-Germany stage. Hilly Württemberg into the Palatinate."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Herxheim → Bad Dürkheim",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 — Herxheim bei Landau/Pfalz to Bad Dürkheim, in Palatinate wine country.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Pfälzerwald terrain — wine-country hills with punchy climbs."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: → Heilbronn (ADAC Cycling Tour)",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-08-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day — finish in Heilbronn on the ADAC Cycling Tour circuit.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day with Heilbronn finish — ADAC Cycling Tour-style closing circuit."
+          }
+        }
+      ]
     },
     {
       "id": "renewi-tour-2026",
@@ -32210,7 +32625,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-02",
-      "endDate": "2026-09-07",
+      "endDate": "2026-09-06",
       "raceDay": "Wednesday",
       "location": "United Kingdom",
       "category": "2.Pro",
@@ -32263,7 +32678,94 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Woodbridge → Southwold",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 161.4,
+          "date": "2026-09-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day in Suffolk — Woodbridge to seaside Southwold on the North Sea coast.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Suffolk coast opener — flat 161km. First leader's jersey via bunch sprint."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Stowmarket → Stowmarket",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "distance": 169.3,
+          "date": "2026-09-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Stowmarket circuit — 169km of East Anglian terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "East Anglian circuit stage. Mostly flat — another sprint chance."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Milton Keynes → Ampthill",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 122.8,
+          "date": "2026-09-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Short 123km stage from Milton Keynes to Ampthill, Bedfordshire.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Bedfordshire/Buckinghamshire transition. Short and fast — sprinter-friendly."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Atherstone → Burton Dassett Hills Country Park",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 186.9,
+          "date": "2026-09-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "187km hilly day — Atherstone to Burton Dassett Hills Country Park. Warwickshire hills shake up the GC.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Warwickshire rolling country with a hilly finish — first GC selection."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Medium Mountain finale",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing medium-mountain stage — final GC opportunities. Full route from official roadbook closer to race day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing medium mountain stage. The Tour of Britain Men was reduced from 6 to 5 stages in 2026 for gender parity with the women's race."
+          }
+        }
+      ]
     },
     {
       "id": "zlm-tour-2026",
