@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:09:09.883Z",
+  "lastUpdated": "2026-05-11T06:20:26.160Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -20757,7 +20757,59 @@
         ],
         "historicalContext": "Created in 2021 as the women's counterpart to the men's Itzulia Basque Country. Joined the Women's WorldTour in 2023.",
         "watchNotes": "Live coverage on Eurosport (UK), Peacock (US), FloBikes (CA), ETB1 (Basque public TV). Watch the queen stage in full and the final 30km of the closing day around Donostia."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Zarautz → Zarautz",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-05-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening Basque coast circuit in Zarautz.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Coastal Basque Country circuit. Rolling terrain typical of the region — distance and detailed profile from official roadbook closer to race day."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Abadiño → Amorebieta-Etxano",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Inland Basque hills from Abadiño to Amorebieta-Etxano.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Classic Basque hilly stage between Abadiño and Amorebieta — expect punchy climbs."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Donostia → Donostia",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-05-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day around Donostia / San Sebastián — Basque coast circuit.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day on a Donostia circuit. GC fate often decided on the closing laps in this region."
+          }
+        }
+      ]
     },
     {
       "id": "tour-du-finistere-2026",
@@ -21599,7 +21651,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-21",
-      "endDate": "2026-05-25",
+      "endDate": "2026-05-23",
       "raceDay": "Thursday",
       "location": "Spain",
       "category": "2.WWT",
@@ -21687,7 +21739,61 @@
         ],
         "historicalContext": "Established in 2015 as the women's counterpart to the long-running Vuelta a Burgos. UCI 2.Pro since 2020.",
         "watchNotes": "Spanish federation YouTube channel typically streams; TVE picks up highlights. The Neila or Picón Blanco stage is essential viewing — that's where the race is decided."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Burgos → Burgos",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": 127,
+          "date": "2026-05-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening circuit stage of 127km in and around Burgos.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "127km circuit stage in Burgos. Rolling terrain — could split between puncheurs and sprinters."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Castro Jeriz → Bodegas Viña Pedrosa",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 122,
+          "date": "2026-05-22",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "122km point-to-point ending at the Viña Pedrosa winery — Castilian terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Castilian stage finishing at the Viña Pedrosa winery."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Busto de Bureba → Medina de Pomar",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 126,
+          "date": "2026-05-23",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "126km final stage from Busto de Bureba to Medina de Pomar — northern Castile.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage with rolling terrain. GC contenders may attack late if margins are small."
+          }
+        }
+      ]
     },
     {
       "id": "veenendaal-veenendaal-2026",
@@ -22379,7 +22485,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-30",
-      "endDate": "2026-06-08",
+      "endDate": "2026-06-07",
       "raceDay": "Saturday",
       "location": "Italy",
       "category": "2.WWT",
@@ -22480,7 +22586,174 @@
         ],
         "historicalContext": "First held in 1988. Run by RCS Sport since 2024 (previously Starlight). Past winners include Anna van der Breggen (multiple), Annemiek van Vleuten (multiple), and Elisa Longo Borghini.",
         "watchNotes": "Live coverage on HBO Max / Eurosport (US, Europe), TNT Sports (UK, Ireland) — RCS deal extended through at least 2029. Watch the queen stage in the Dolomites and the final two summit finishes — that's where the maglia rosa is decided. Free coverage on RAI Sport in Italy."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Cesenatico → Ravenna",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 139,
+          "date": "2026-05-30",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Adriatic coast opener — flat 139km from Cesenatico to Ravenna. Day for the sprinters.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat Romagna coast stage with the first maglia rosa decided on a sprint finish in Ravenna.",
+            "watchNotes": "Bunch sprint expected. Watch for crosswinds along the coast roads."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Roncade → Caorle",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 146,
+          "date": "2026-05-31",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Veneto coast stage from Roncade to Caorle. 146km of mostly flat terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Second flat day in a row. Sprinters' teams will defend the GC leader's jersey."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Bibione → Buja",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 154,
+          "date": "2026-06-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First test of legs in the Friuli hills. 154km finishing in Buja.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hilly transition from Adriatic coast to inland Friuli — first GC shake-up potential."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Belluno → Nevegal (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt",
+            "summit-finish"
+          ],
+          "distance": 12.7,
+          "date": "2026-06-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mountain time trial up to Nevegal Tudor — short 12.7km but uphill, will create GC gaps.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "12.7km mountain ITT from Belluno climbing to Nevegal. Short but uphill — first major GC test.",
+            "watchNotes": "Pure climbers can take time today; TT specialists who climb well are dangerous."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Longarone → Santo Stefano di Cadore",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 138,
+          "date": "2026-06-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First Dolomite mountain stage — 138km through Cadore valleys with serious climbing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Alpine high-altitude stage in the Dolomites. GC contenders will mark each other on the day's main ascents."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: Ala → Brescello",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 155,
+          "date": "2026-06-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Long 155km rolling stage from Trentino down to the Emilian plain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Transition stage — rolling terrain favouring breakaways or reduced sprints depending on team tactics."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: Sorbolo Mezzani → Salice Terme",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 165,
+          "date": "2026-06-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage at 165km, crossing the Po valley with hills towards Salice Terme.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Punchy Apennine-foothills stage. Last chance for breakaway specialists before the Western Alps weekend."
+          }
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8: Rivoli → Sestriere",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 101,
+          "date": "2026-06-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Short, savage Sestriere queen stage — 101km with summit finish at the iconic Olympic resort.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "101km Alpine queen stage finishing on Sestriere. Short distance means firework attacks from kilometre one.",
+            "keyClimbs": [
+              {
+                "name": "Sestriere",
+                "summit": true
+              }
+            ],
+            "watchNotes": "The GC will likely be settled here. Sestriere is decisive."
+          }
+        },
+        {
+          "stageNumber": 9,
+          "name": "Stage 9: Saluzzo → Saluzzo",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 143,
+          "date": "2026-06-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final mountain stage — 143km Western Alps loop from Saluzzo. Last chance to flip the GC.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing Alpine stage from Saluzzo. If the GC isn't settled, the final climbs are the last word.",
+            "watchNotes": "Multiple climbs in the closing 50km — late attacks possible if margins are tight."
+          }
+        }
+      ]
     },
     {
       "id": "gp-ciudad-de-eibar-2026",
