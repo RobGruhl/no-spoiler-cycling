@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T15:46:32.198Z",
+  "lastUpdated": "2026-05-11T16:19:52.869Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -25023,7 +25023,33 @@
             "watchNotes": "Final three stages all finish uphill — Solaison is the decisive one."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The 78th edition of the Critérium du Dauphiné — rebranded for 2026 as the Tour Auvergne-Rhône-Alpes — covers 1,204.3km across 8 stages from Vizille (Isère) to a summit finish at the Plateau de Solaison (Haute-Savoie), June 7–14, 2026. The route crosses 10 of the region's 12 départements and serves as the traditional final dress rehearsal for the Tour de France, including a 28.4km team time trial on stage 3 that previews the Tour's opening Barcelona TTT. The decisive final three stages all finish uphill — Grand Colombier on stage 7 and Plateau de Solaison on stage 8 as the queen-stage finale.",
+        "narratives": [
+          "New name, same race: 2026 is the first edition under the Tour Auvergne-Rhône-Alpes branding (announced 2025). The Critérium du Dauphiné name retires after 77 years, but the Tour de France warm-up role is unchanged.",
+          "Team time trial as TdF rehearsal: The 28.4km TTT on stage 3 (Le Perreux loop) mirrors the format of the Tour de France 2026 opening TTT in Barcelona — three weeks earlier, GC teams will use it as a dress rehearsal.",
+          "Three uphill finales: Stages 6, 7 and 8 all finish uphill, with Grand Colombier (stage 7) and Plateau de Solaison (stage 8) as the headline summit finishes. The GC is unlikely to be settled before the final weekend.",
+          "Tour de France barometer: As the most direct Tour preview race, the Dauphiné historically reveals who arrives at the Tour with the legs — pure climbers, TT specialists, or all-rounders capable of both."
+        ],
+        "watchNotes": "Stage 7 (Grand Colombier) and stage 8 (Plateau de Solaison) are the GC-defining days. The stage 3 TTT is a must-watch for fans tracking which teams have peaked their TTT execution before the Tour de France.",
+        "historicalContext": "The Dauphiné Libéré was founded in 1947 by Belgian journalist Georges Cazeneuve. Renamed the Critérium du Dauphiné in 2010 when ASO took over organisation, it has been the canonical Tour de France warm-up for more than seven decades. The 2026 rename to Tour Auvergne-Rhône-Alpes reflects expanded regional sponsorship.",
+        "keyClimbs": [
+          {
+            "name": "Grand Colombier",
+            "category": "1",
+            "summit": true,
+            "notes": "Stage 7 summit finish — one of the Jura's toughest climbs, regular TdF feature."
+          },
+          {
+            "name": "Plateau de Solaison",
+            "category": "1",
+            "summit": true,
+            "notes": "Stage 8 queen-stage summit finish in Haute-Savoie."
+          }
+        ]
+      }
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -29482,11 +29508,13 @@
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "Peacock",
+              "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.peacocktv.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14817785-2026-tour-de-france-femmes-avec-zwift",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "FloBikes US deep link to 2026 Tour de France Femmes avec Zwift."
             },
             "alternatives": [
               {
@@ -29511,8 +29539,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14817785-2026-tour-de-france-femmes-avec-zwift",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "FloBikes Canada deep link to 2026 Tour de France Femmes avec Zwift."
             }
           }
         }
@@ -29691,7 +29721,35 @@
             "watchNotes": "The yellow jersey is decided here — repeated climbs guarantee attacks."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The fifth edition of the Tour de France Femmes avec Zwift covers 1,175km across 9 stages from a Swiss Grand Départ (Lausanne, Aigle, Geneva) to a Côte d'Azur double-finale in Nice. With 18,795m of elevation gain, it is the longest and toughest TdF Femmes ever. A 21km individual time trial in Dijon (stage 4) is the only race-of-truth before a series of demanding hilly stages, the Mont Ventoux summit finish on stage 7, and a closing Nice circuit climbing the Col d'Eze four times on the final day.",
+        "narratives": [
+          "Swiss Grande Départ: Lausanne, Aigle (UCI headquarters) and Geneva host the first three stages — a continuation of the race's growing international footprint.",
+          "Mont Ventoux debut: The iconic Giant of Provence as a summit finish on stage 7 is a first for the women's race. 21km of climbing at over 7% average will define the GC.",
+          "21km Dijon ITT: First TdF Femmes ITT since 2024. TT specialists who can climb will be doubly dangerous given the hilly second half.",
+          "Nice GC decider: After Ventoux, the final stage in Nice tackles the Col d'Eze four times in a 99km circuit — race director Marion Rousse calls the route 'mischievous'.",
+          "ASO scheduling: ASO chose to start a week after the men's race ends to avoid resource overlap, giving the women's race its own clear window."
+        ],
+        "watchNotes": "Nine stages packed into nine days — fans should expect day-on-day GC pressure with no rest day. The Ventoux stage is the must-watch; the Dijon ITT and Nice finale are the other two decisive moments. Disable autoplay on YouTube — final-KM clips often surface in feeds.",
+        "historicalContext": "The Tour de France Femmes was relaunched in 2022 (after a long hiatus from earlier eras). Annemiek van Vleuten won the inaugural edition (2022), Demi Vollering claimed the 2023 edition, and Kasia Niewiadoma took the 2024 title. The 2026 route is the first to add Mont Ventoux, deliberately raising the GC bar.",
+        "keyClimbs": [
+          {
+            "name": "Mont Ventoux",
+            "category": "HC",
+            "length": "21km",
+            "avgGradient": "7%+",
+            "summit": true,
+            "notes": "Stage 7 queen-stage summit finish — Giant of Provence."
+          },
+          {
+            "name": "Col d'Eze (×4)",
+            "category": "1",
+            "notes": "Stage 9 closing circuit — climbed four times in the Nice finale."
+          }
+        ]
+      }
     },
     {
       "id": "gravel-tour-hlinsko-2026",
@@ -29972,8 +30030,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15255505-2026-tour-of-poland-men",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "FloBikes US deep link to 2026 Tour of Poland."
             },
             "alternatives": [
               {
@@ -29998,8 +30058,10 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/15255505-2026-tour-of-poland-men",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "FloBikes Canada deep link to 2026 Tour of Poland."
             }
           }
         }
@@ -30117,7 +30179,19 @@
             "courseSummary": "Final stage finishing in Wieliczka — known for its historic salt mines outside Kraków."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The 83rd Tour de Pologne UCI WorldTour runs August 3–9, 2026 under the slogan 'North-South', tracing a 7-stage route from the Baltic coast at Gdynia to the historic salt-mining town of Wieliczka outside Kraków. Approximately 807km of racing connects coastal sprint stages to the Tatra mountain finales that traditionally decide the GC. Race director Czesław Lang has framed the 83rd edition around the connection between Poland's coastal north and mountainous south.",
+        "narratives": [
+          "North-South slogan: The 2026 route deliberately spans Poland from the Baltic coast (Gdynia) to the southern foothills approaching the Tatra mountains, traversing the country end-to-end.",
+          "Tatra summit decider: As in most recent editions, mid-second-half mountain stages in the Tatra range historically settle the GC.",
+          "Wieliczka finale: The finish in the UNESCO-listed salt-mining town of Wieliczka brings the race into the cultural heartland of Małopolska.",
+          "Tour de France warm-down: For some of the WorldTour's GC contenders, the Tour de Pologne is the first hit-out after the Tour de France — fresh legs or fatigue can flip race tactics."
+        ],
+        "watchNotes": "Bonus seconds at intermediate sprints have historically been decisive given how tight the GC tends to be in Poland — watch for sprinters' teams shifting from pure bunch-sprint mode to bonus hunting on transitional stages.",
+        "historicalContext": "Founded in 1928 as an amateur event and fully professional since 1993, the Tour de Pologne joined the UCI WorldTour in 2005. It remains the only WorldTour stage race in central Europe, organised by the company Lang since 1993. Past editions have featured a mix of climbing-test stages around Karpacz and Zakopane and bunch-sprint days on the way south."
+      }
     },
     {
       "id": "vuelta-a-burgos-2026",
