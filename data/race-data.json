@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T07:30:08.721Z",
+  "lastUpdated": "2026-05-11T08:29:29.113Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -25663,7 +25663,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-18",
-      "endDate": "2026-06-21",
+      "endDate": "2026-06-20",
       "raceDay": "Thursday",
       "location": "France",
       "category": "2.1",
@@ -25716,7 +25716,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Bram (Aude) → Haute-Garonne",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage of the 49th Route d'Occitanie — start in Bram, Aude, crossing into Haute-Garonne.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Aude to Haute-Garonne opener — south-French rolling terrain."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle stage of the 49th Route d'Occitanie — full route from official roadbook.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race stage in south-west France. Detailed parcours from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage — typically mountainous, often Pyrenees-edge.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day — historically the GC decider in the Pyrenees foothills. 547.8km total over 3 stages."
+          }
+        }
+      ]
     },
     {
       "id": "vuelta-a-catalunya-femenina-2026",
@@ -25726,7 +25776,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-19",
-      "endDate": "2026-06-22",
+      "endDate": "2026-06-21",
       "raceDay": "Friday",
       "location": "Spain",
       "category": "2.1",
@@ -25779,7 +25829,69 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Santa Susanna → Santa Susanna",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": 92.1,
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 92km circuit at Santa Susanna on the Catalan coast.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Maresme coast circuit — short and punchy. First leader's jersey via reduced bunch."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Sant Vicenç de Castellet → La Molina",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 130,
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — 130km climbing from Sant Vicenç de Castellet to the Pyrenean ski resort La Molina.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Climb to La Molina (1,600m+) — Pyrenees-edge summit finish. GC decider.",
+            "keyClimbs": [
+              {
+                "name": "La Molina",
+                "summit": true
+              }
+            ],
+            "watchNotes": "Mountain queen stage — gaps decide the race."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Mataró → Barcelona",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 110.8,
+          "date": "2026-06-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "111km coastal closer from Mataró to Barcelona.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Catalan coast finale into Barcelona. Late climbs may shake up the GC if margins are slim."
+          }
+        }
+      ]
     },
     {
       "id": "devils-cardigan-2026",
@@ -26105,7 +26217,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-04",
-      "endDate": "2026-07-08",
+      "endDate": "2026-07-07",
       "raceDay": "Saturday",
       "location": "Romania",
       "category": "2.1",
@@ -26158,7 +26270,106 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1A: Sibiu → Rășinari × 3 → Sibiu",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-07-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening road stage — Sibiu to Rășinari and back, three laps. Punchy Transylvanian opener.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Three laps of the Rășinari circuit — punchy day from the start."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 1B: Sibiu ITT",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-07-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Short individual time trial in central Sibiu, the same day as stage 1A.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short evening ITT in central Sibiu. Race-against-the-clock between the two opening segments."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 2: Sibiu → Păltiniș Arena",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "date": "2026-07-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First major mountain test — climb from Sibiu to Păltiniș Arena (~1,440m).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Summit finish at Păltiniș — Romania's highest ski resort. Carpathian climbing.",
+            "keyClimbs": [
+              {
+                "name": "Păltiniș Arena",
+                "summit": true
+              }
+            ]
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 3: Sibiu → Bâlea Lac (Transfăgărășan)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "date": "2026-07-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage finishing at Bâlea Lac atop the legendary Transfăgărășan highway.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Bâlea Lac (2,034m) summit finish via the Transfăgărășan — Romania's most iconic climb.",
+            "keyClimbs": [
+              {
+                "name": "Bâlea Lac (Transfăgărășan)",
+                "summit": "2,034m",
+                "summit_finish": true
+              }
+            ],
+            "watchNotes": "The race's GC decider. Bâlea Lac is one of Europe's most spectacular finishes."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 4: Sibiu → Mediaș → Sibiu (Transylvanian Hills)",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final day — Transylvanian Highlands loop from Sibiu via Mediaș and back.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing day through Saxon villages — Bârghiș, Biertan, Mediaș, Băgaciu, Târnăveni. Punchy finale."
+          }
+        }
+      ]
     },
     {
       "id": "tour-de-france-2026",
@@ -27292,7 +27503,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-07",
-      "endDate": "2026-07-13",
+      "endDate": "2026-07-12",
       "raceDay": "Tuesday",
       "location": "Austria",
       "category": "2.1",
@@ -27345,7 +27556,114 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Graz → Gamlitz",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 187.8,
+          "date": "2026-07-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ from Graz to the wine country at Gamlitz — 188km, 2,714m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Opening stage from Styrian capital Graz through the southern wine hills to Gamlitz. Punchy terrain on the run-in."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Bad Kleinkirchheim → Kaiser Franz Josef Höhe (Grossglockner)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 188.8,
+          "date": "2026-07-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — 189km finishing at the Kaiser Franz Josef Höhe at Austria's highest mountain, the Grossglockner. 2,914m elevation gain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Queen stage with the longest and most demanding climb of the race — Kaiser Franz Josef Höhe atop the Grossglockner. Steep gradients reward the strongest climber.",
+            "keyClimbs": [
+              {
+                "name": "Kaiser Franz Josef Höhe (Grossglockner)",
+                "summit": "2,571m",
+                "summit_finish": true
+              }
+            ],
+            "watchNotes": "The GC-defining day. Grossglockner is Austria's iconic climb."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Lienz → St. Johann Alpendorf",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "summit-finish"
+          ],
+          "distance": 188.7,
+          "date": "2026-07-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "189km from Lienz with two valley laps before the Felbertauern, finishing on the Mur de Huy-style climb to St. Johann/Alpendorf.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mountain transfer day. The uphill finish at St. Johann/Alpendorf is Mur de Huy-style — a puncheur's specialty.",
+            "watchNotes": "Breakaway day, says race director — late attackers can stick."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Steyr → Steyr",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": 170.5,
+          "date": "2026-07-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Steyr circular — 171km through the Pyhrn-Priel via Hinterstoder, finishing with the Porscheberg climb. 2,325m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Pyhrn-Priel loop with the Porscheberg climb near the finish — a launchpad for late attacks.",
+            "keyClimbs": [
+              {
+                "name": "Porscheberg",
+                "notes": "Decisive late climb"
+              }
+            ],
+            "watchNotes": "Solo or reduced-bunch finish depending on the Porscheberg."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Langenlois → Vienna",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 109,
+          "date": "2026-07-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "109km closing day to Vienna — vineyards, the Danube, and a sprint finish on the Ring Road in front of City Hall.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Sprint finale in Vienna on the Ring Road. Short stage with minor climbs — bunch sprint expected.",
+            "watchNotes": "Ceremonial yet fast finish at the foot of the Wiener Rathaus."
+          }
+        }
+      ]
     },
     {
       "id": "majestics-gravel-2026",
@@ -27381,7 +27699,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-15",
-      "endDate": "2026-07-20",
+      "endDate": "2026-07-19",
       "raceDay": "Wednesday",
       "location": "Belgium",
       "category": "2.1",
@@ -27434,7 +27752,90 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue: Zeeland (Netherlands)",
+          "stageType": "prologue",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-07-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Dutch opening prologue in Zeeland province — first leader's jersey via short ITT.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short Dutch prologue in Zeeland. Race opens in the Netherlands before crossing into Belgium."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: West Flanders",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "date": "2026-07-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 in Belgium — West Flanders province. Coastal terrain with crosswind potential.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Coastal West Flanders stage. Echelons possible on the flat polders."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: East Flanders",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "East Flanders province — Flemish hills with Tour of Flanders-style terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flemish heartland stage — short punchy climbs typical of the region."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Belgian Limburg",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 in Belgian Limburg — Amstel-style climbing terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Limburg climbing day — Amstel-style punchy hills."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Antwerp",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day in Antwerp province — final GC opportunities.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Antwerp province finale. Mixed terrain — late attacks or sprint depending on GC margins."
+          }
+        }
+      ]
     },
     {
       "id": "la-perigord-ladies-2026",
@@ -27743,7 +28144,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-28",
-      "endDate": "2026-07-31",
+      "endDate": "2026-07-30",
       "raceDay": "Tuesday",
       "location": "France",
       "category": "2.1",
@@ -27796,7 +28197,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening stage finishing in Lélex/Pays de Gex — Jura terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Opening day with Pays de Gex finish — Jura mountain edge."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-29",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle stage of the 3-day Tour de l'Ain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Middle stage — terrain detail from official roadbook closer to race day."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-07-30",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage — traditionally a Jura mountain queen day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing GC day. Tour de l'Ain typically finishes with a tough climb-loaded stage."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-denmark-2026",
