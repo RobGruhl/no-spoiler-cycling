@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:22:01.789Z",
+  "lastUpdated": "2026-05-11T06:23:54.450Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -18443,7 +18443,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-03",
-      "endDate": "2026-05-11",
+      "endDate": "2026-05-09",
       "raceDay": "Sunday",
       "location": "Spain",
       "category": "2.WWT",
@@ -18537,7 +18537,148 @@
         ],
         "historicalContext": "Established in 2015 as Madrid Challenge by La Vuelta, expanded to a multi-day race in 2023 and to Women's WorldTour status. Annemiek van Vleuten won the first three multi-day editions; Demi Vollering won in 2024 and 2025.",
         "watchNotes": "Watch every kilometre of stage 6 (Les Praeres) and stage 7 (Angliru) — the entire GC will be decided across those two summit finishes. Stages 1-5 are likely break-friendly transitional days but contain enough lumps that crosswinds or splits could cost a contender minutes."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Marín → Salvaterra de Miño",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 113.9,
+          "date": "2026-05-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Galician opener — 114km from Marín on the Atlantic coast to inland Salvaterra de Miño.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hilly Galician stage. Punchy terrain favours puncheurs over pure sprinters from day one."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Lobios → San Cibrao das Viñas",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 109.8,
+          "date": "2026-05-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "110km through southern Galicia from Lobios to San Cibrao das Viñas — hilly terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Galician stage — climbers and puncheurs can stretch the field."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Padrón → A Coruña",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 121.2,
+          "date": "2026-05-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat sprint day from Padrón to the Atlantic city of A Coruña.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat sprint stage to A Coruña — sprinters' teams in control."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Monforte de Lemos → Antas de Ulla",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 114,
+          "date": "2026-05-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "114km hilly stage through Lugo province — Antas de Ulla finish.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling inland Galician stage. Breakaway or punchy GC moves possible."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: León → Astorga",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 119.6,
+          "date": "2026-05-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat Castilian stage from León to Astorga — sprint chance before the mountains.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat 120km between two historic Castilian cities. Last chance for the sprinters."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: Gijón/Xixón → Les Praeres (Nava)",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 106.5,
+          "date": "2026-05-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First Asturian mountain stage — short 106km with brutal summit finish at Les Praeres in Nava.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Asturian mountain stage to the legendary Les Praeres summit finish. Short and savage — gaps guaranteed.",
+            "keyClimbs": [
+              {
+                "name": "Les Praeres",
+                "summit": true
+              }
+            ],
+            "watchNotes": "First major GC selection. Les Praeres is one of the toughest summit finishes in women's racing."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: La Pola Llaviana → L'Angliru",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 132.9,
+          "date": "2026-05-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage: 133km finishing on the legendary Angliru — one of cycling's most feared climbs.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "L'Angliru queen stage. 12.5km at 9.8% average, max gradients above 23%. GC settled here.",
+            "keyClimbs": [
+              {
+                "name": "L'Angliru",
+                "category": "ESP",
+                "length": "12.5km",
+                "avgGradient": "9.8%",
+                "maxGradient": "23%",
+                "summit": true
+              }
+            ],
+            "watchNotes": "The Angliru is a cycling legend — final-day fireworks expected on the steepest ramps."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-hellas-2026",
@@ -22282,7 +22423,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-28",
-      "endDate": "2026-06-01",
+      "endDate": "2026-05-31",
       "raceDay": "Thursday",
       "location": "France",
       "category": "2.Pro",
@@ -22381,6 +22522,72 @@
             "puncheur",
             "sprinter"
           ]
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue",
+          "stageType": "prologue",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-05-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening prologue — short individual time trial to set the early GC.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short prologue ITT in the Mayenne region — first leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-29",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First road stage through the Mayenne region.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Mayenne terrain — route detail from official roadbook closer to race day."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-30",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Second road stage — typically punchy for the puncheurs.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race road stage — distance and profile from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-05-31",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final road stage of the 51st Boucles de la Mayenne.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage. Total race distance approximately 540km across prologue + 3 road stages."
+          }
         }
       ]
     },
