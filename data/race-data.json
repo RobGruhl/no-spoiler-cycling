@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:25:20.002Z",
+  "lastUpdated": "2026-05-11T07:28:45.964Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -5306,7 +5306,7 @@
       "url": "https://www.youtube.com/watch?v=Cse9jLB3eyE",
       "type": "full-race",
       "raceDate": "2026-02-13",
-      "endDate": "2026-02-15",
+      "endDate": "2026-02-14",
       "raceDay": "Friday",
       "location": "Spain",
       "category": "2.1",
@@ -5373,7 +5373,42 @@
         },
         "historicalContext": "The Vuelta a la Region de Murcia has been held since 1981 and is a fixture on the early-season Spanish calendar. It attracts WorldTour teams using the warm Spanish climate to build early-season form.",
         "watchNotes": "The final 25km are the most selective - watch for attacks on the late climbs. If a group comes together, expect a reduced bunch sprint among the survivors."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Fortuna → Yecla",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 89.3,
+          "date": "2026-02-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 89km hilly stage in inland Murcia from Fortuna to Yecla.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Murcia interior stage. First leader's jersey on a punchy finish."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-02-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing stage of the 46th Vuelta a Murcia — full route from official roadbook.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage of the 2-day race. Route details from official roadbook closer to race day."
+          }
+        }
+      ]
     },
     {
       "id": "figueira-champions-classic-2026",
@@ -9277,7 +9312,7 @@
       "url": "https://www.youtube.com/watch?v=x3L7CDpVRc8",
       "type": "full-race",
       "raceDate": "2026-03-15",
-      "endDate": "2026-03-20",
+      "endDate": "2026-03-19",
       "raceDay": "Sunday",
       "location": "Taiwan",
       "category": "2.1",
@@ -9333,7 +9368,96 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Taipei City → Taipei City",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "distance": 79.52,
+          "date": "2026-03-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening Taipei circuit — 80km, low elevation. Sprinters' day in the capital.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short opening circuit (495m elevation) through Taipei. First leader's jersey on a bunch sprint."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Taoyuan City → Jiaobanshan Park",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "summit-finish"
+          ],
+          "distance": 123.55,
+          "date": "2026-03-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Climb to Jiaobanshan Park — 124km, 1,195m elevation. First GC test.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hilly transfer to the Jiaobanshan summit. Climbers and puncheurs in the mix."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Fo Guang Shan Buddha Museum → Kaohsiung National Stadium",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 146.4,
+          "date": "2026-03-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "146km hilly day from the Fo Guang Shan Buddha Museum to Kaohsiung — 1,316m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling southern Taiwan stage finishing at Kaohsiung National Stadium."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Gaoshu → Liudui Hakka Cultural Park",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 130.37,
+          "date": "2026-03-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Flat 130km stage through Pingtung — sprinters' day, just 286m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flattest day of the race — bunch sprint expected at the Liudui Hakka Cultural Park."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Luye Township → Liyu Lake",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 153.7,
+          "date": "2026-03-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final 154km stage from Luye Township to the scenic Liyu Lake. 895m elevation — closing GC opportunities.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "East-coast Taiwan finale with rolling terrain. Last chance for GC contenders to make moves."
+          }
+        }
+      ]
     },
     {
       "id": "milano-torino-2026",
@@ -10293,7 +10417,96 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Barbaresco → Barolo",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 161.3,
+          "date": "2026-03-25",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Wine-country opener through the Piemonte Langhe — 161km from Barbaresco to Barolo.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Hilly Langhe vineyards stage with 2,414m of climbing. La Morra-style punchy finish.",
+            "watchNotes": "First leader's jersey via uphill sprint or late attack."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Lodi → Massalengo",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 158.2,
+          "date": "2026-03-26",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "158km Po valley stage from Lodi to Massalengo — sprinters' chance.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat Lombardian plains stage. 1,364m elevation — minor speed bumps in an otherwise sprint day."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Erbusco → Iseo",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 175.7,
+          "date": "2026-03-27",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "176km Franciacorta wine country into the Iseo lakes — 1,703m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Lombard lakes stage finishing on Lake Iseo. Punchy late terrain."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Ponte di Piave → Valdobbiadene",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 159.7,
+          "date": "2026-03-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "160km Veneto stage finishing in Prosecco country at Valdobbiadene.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling Prosecco hills — Strade Bianche-veterans country. 1,360m elevation."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Cormons → Gemona del Friuli",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 165.7,
+          "date": "2026-03-29",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage finale — 166km from Cormons to Gemona del Friuli, 2,353m of climbing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Friulian Alps closer — 2,353m elevation. GC settled in the closing climbs.",
+            "watchNotes": "Race finale with substantial mountain climbing. Final GC decision."
+          }
+        }
+      ]
     },
     {
       "id": "ronde-van-brugge-2026",
@@ -18688,7 +18901,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-06",
-      "endDate": "2026-05-11",
+      "endDate": "2026-05-10",
       "raceDay": "Wednesday",
       "location": "Greece",
       "category": "2.1",
@@ -18765,7 +18978,104 @@
         ],
         "historicalContext": "International Tour of Hellas, revived in 2021 after a long hiatus, run as a UCI 2.1 by the Greek Cycling Federation.",
         "watchNotes": "Limited live coverage — the Hellenic federation sometimes streams on Facebook/YouTube. Watch for crosswind splits on the coastal stages and a hilltop finish in the second half of the race."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Ioannina → Agrinio",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 171.6,
+          "date": "2026-05-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 172km from Ioannina across the Pindus range to Agrinio.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling terrain across northwestern Greece. First leader's jersey via reduced bunch."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Karpenisi → Larissa",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 157.5,
+          "date": "2026-05-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "157km mountain stage from Karpenisi descending to the Thessalian plain at Larissa.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mountainous Greek terrain from Karpenisi. Major climbing day — GC contenders will mark each other."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Volos → Lamia",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 207.3,
+          "date": "2026-05-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage at 207km — Volos to Lamia with 4,200m+ of climbing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Race's longest and one of the hardest stages — 207km with 4,200m+ elevation. Breakaway potential."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Atalanti → Mount Parnitha",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 180.9,
+          "date": "2026-05-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — 181km finishing on Mount Parnitha above Athens.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Summit finish on Mount Parnitha overlooking Athens. The GC decider of the race.",
+            "keyClimbs": [
+              {
+                "name": "Mount Parnitha",
+                "summit": true
+              }
+            ],
+            "watchNotes": "Final mountain test — gaps here will define the GC."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Piraeus → Athens (Syntagma Square)",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "distance": 146.5,
+          "date": "2026-05-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Ceremonial finale — 147km from Piraeus to Syntagma Square in front of the Greek Parliament.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Ceremonial yet fast-paced finish at Syntagma Square — Greek Parliament backdrop. Champs-Élysées-style.",
+            "watchNotes": "Bunch sprint finale on the urban circuit."
+          }
+        }
+      ]
     },
     {
       "id": "giro-d-italia-2026",
