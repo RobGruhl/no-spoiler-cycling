@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T07:28:45.964Z",
+  "lastUpdated": "2026-05-11T07:30:08.721Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -8121,7 +8121,7 @@
       "url": "https://www.youtube.com/watch?v=trnkHRngxJM",
       "type": "full-race",
       "raceDate": "2026-03-06",
-      "endDate": "2026-03-09",
+      "endDate": "2026-03-08",
       "raceDay": "Friday",
       "location": "Spain",
       "category": "2.1",
@@ -8189,7 +8189,61 @@
         },
         "historicalContext": "The Vuelta a Extremadura Femenina is part of Spain's expanding women's race calendar. Extremadura, bordered by Portugal, is one of Spain's least densely populated regions and provides scenic racing through its rolling pastoral landscapes.",
         "watchNotes": "The rolling terrain means the race could go to either a reduced sprint or a late attack. Spanish early-March weather can be variable, adding an element of unpredictability."
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Herrera del Duque → Herrera del Duque",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "distance": 18.44,
+          "date": "2026-03-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 18km prologue / short ITT in Herrera del Duque, inland Extremadura.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "18.44km opening time trial — first leader's jersey via race-against-the-clock."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Pueblonuevo del Guadiana → Fuente del Maestre",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 133.39,
+          "date": "2026-03-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "133km across the Guadiana plains — rolling Extremadura terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling 133km across central Extremadura. Breakaway or reduced bunch finish."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Jerte → Jaraíz de la Vera",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "distance": 139.45,
+          "date": "2026-03-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage: 139km through the Valle del Jerte and La Vera with 2,633m of climbing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "GC decider — 139km, 2,633m of elevation through the Valle del Jerte and La Vera valley.",
+            "watchNotes": "Where the race is decided — significant climbing packed into the closing kilometres."
+          }
+        }
+      ]
     },
     {
       "id": "strade-bianche-2026",
@@ -23736,7 +23790,77 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue",
+          "stageType": "prologue",
+          "terrain": [
+            "itt"
+          ],
+          "distance": 1,
+          "date": "2026-06-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "1km opening prologue — short ITT to set the first leader's jersey.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Ultra-short 1km prologue. Symbolic time trial start."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 203.2,
+          "date": "2026-06-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage of the race — 203km across the Estonian countryside.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "203km across Estonia's flat to rolling terrain. Sprinters' best chance."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 156.8,
+          "date": "2026-06-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "157km of rolling Estonian terrain — punchy day for breakaways.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race day with rolling terrain. Reduced bunch finish or breakaway."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 135,
+          "date": "2026-06-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final 135km stage — last chance to overturn the GC.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing stage. Race-day fireworks if GC margins are tight."
+          }
+        }
+      ]
     },
     {
       "id": "heistse-pijl-2026",
