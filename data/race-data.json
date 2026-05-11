@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T06:20:26.160Z",
+  "lastUpdated": "2026-05-11T06:22:01.789Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -23435,7 +23435,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-07",
-      "endDate": "2026-06-15",
+      "endDate": "2026-06-14",
       "raceDay": "Sunday",
       "location": "France",
       "category": "2.UWT",
@@ -23608,7 +23608,163 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Vizille → Saint-Ismier",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 140.1,
+          "date": "2026-06-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening hilly stage from Vizille north of Grenoble to Saint-Ismier.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Punchy 140km opener in the Isère hills. First yellow jersey on offer — puncheurs in the mix."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Saint-Martin-Le-Vinoux → Le Puy en Velay",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 237.3,
+          "date": "2026-06-08",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage of the race — 237km from Grenoble to the volcanic city of Le Puy en Velay.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Massive 237km transfer through the Massif Central. Volcanic terrain, late rises before Le Puy."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Le Perreux → Le Perreux (TTT)",
+          "stageType": "ttt",
+          "terrain": [
+            "ttt"
+          ],
+          "distance": 28.4,
+          "date": "2026-06-09",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "28km team time trial — major early GC shake-up.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "28.4km TTT — strong squads can put their GC leader in the jersey early.",
+            "watchNotes": "Team consistency is the key — gaps will be measurable across the field."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Le Puy en Velay → Montrond-les-Bains",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 165.8,
+          "date": "2026-06-10",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "165km transitional hilly day from Le Puy down towards the Loire valley.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Rolling terrain favouring breakaways. Reduced bunch finish a possibility."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Saint-Chamond → Villars-les-Dombes",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 198,
+          "date": "2026-06-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest flat stage at 198km — sprinters' best chance.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat 198km transfer towards the Ain. Sprinters' day; teams will fight for the breakaway window."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6: Saint-Vulbas → Crest-Voland",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 181.4,
+          "date": "2026-06-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "181km hilly transition into the Alps — pre-mountains warm-up.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Climbing intensifies as the race enters Savoie. Crest-Voland finish at altitude."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7: Le Bridoire → Grand Colombier",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 133.3,
+          "date": "2026-06-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First mountain summit finish — 133km to the Grand Colombier, one of the toughest climbs in the Jura.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Grand Colombier summit finish — savage climb tested at the Tour de France. First major GC selection.",
+            "keyClimbs": [
+              {
+                "name": "Grand Colombier",
+                "category": "1",
+                "summit": true
+              }
+            ],
+            "watchNotes": "GC contenders will mark each other on the Grand Colombier."
+          }
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8: Beaufort → Plateau de Solaison",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 120,
+          "date": "2026-06-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final queen stage — 120km from Beaufort to the Plateau de Solaison summit finish.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Closing Alpine stage with summit finish at Plateau de Solaison. If the GC isn't settled by stage 7, here is the last word.",
+            "keyClimbs": [
+              {
+                "name": "Plateau de Solaison",
+                "summit": true
+              }
+            ],
+            "watchNotes": "Final three stages all finish uphill — Solaison is the decisive one."
+          }
+        }
+      ]
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -24600,7 +24756,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-17",
-      "endDate": "2026-06-22",
+      "endDate": "2026-06-21",
       "raceDay": "Wednesday",
       "location": "Switzerland",
       "category": "2.WWT",
@@ -24646,7 +24802,114 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Sondrio → Sondrio",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "distance": 109.3,
+          "date": "2026-06-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Hilly opener in Sondrio (Italy) — 109km circuit with 1,642m elevation, Il Lombardia-style demands.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Technically challenging hilly circuit in Sondrio. Punchy day on classic Italian terrain.",
+            "watchNotes": "Opening-day fireworks — puncheurs favoured."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Locarno → Locarno",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 105.3,
+          "date": "2026-06-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "105km along Lago Maggiore — 1,242m of climbing. Suits punchy riders.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Lago Maggiore terrain, punchier than it looks on paper."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Bad Ragaz → Bad Ragaz",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 120.3,
+          "date": "2026-06-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Eastern Switzerland day featuring the Schwägalp climb — 120km, 1,330m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tactical day around Bad Ragaz with the Schwägalp climb as the key terrain feature.",
+            "keyClimbs": [
+              {
+                "name": "Schwägalp"
+              }
+            ]
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Aarburg → Aarburg (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "distance": 23.8,
+          "date": "2026-06-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "24km individual time trial — fast and technical, shared course with the men's race.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Fast, technical 23.8km ITT — TT specialists can take time before the Queen Stage.",
+            "watchNotes": "Gaps measured in seconds; pure climbers must minimise losses."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Villars-sur-Ollon → Villars-sur-Ollon",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 100.3,
+          "date": "2026-06-21",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen Stage: 100km loop with 2,795m of climbing including the Col de la Croix. Summit finish at Villars-sur-Ollon.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Alpine queen stage — Col de la Croix anchors the day, summit finish at Villars-sur-Ollon. 'Barely a flat metre in sight.'",
+            "keyClimbs": [
+              {
+                "name": "Col de la Croix",
+                "category": "1"
+              },
+              {
+                "name": "Villars-sur-Ollon (final climb)",
+                "summit": true
+              }
+            ],
+            "watchNotes": "GC decided here if not by the ITT."
+          }
+        }
+      ]
     },
     {
       "id": "la-route-d-occitanie-2026",
