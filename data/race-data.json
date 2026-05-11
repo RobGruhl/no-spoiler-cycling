@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:47:01.552Z",
+  "lastUpdated": "2026-05-11T22:19:42.561Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -21566,7 +21566,7 @@
       "raceDetails": {
         "lastFetched": "2026-04-26T00:00:00Z",
         "spoilerSafe": true,
-        "courseSummary": "Three-day Women's WorldTour stage race in the Spanish Basque Country, May 15-17. Three brutally hilly stages totalling roughly 350km on classic Itzulia roads — narrow, twisting, and unrelenting. The 2026 edition again features a queen mountain stage and a punchy finale around Donostia/San Sebastián.",
+        "courseSummary": "Itzulia Women 2026 — three stages of Basque-Country racing from May 15–17 across the same iconic terrain that hosts the men's Itzulia Basque Country. The route opens with a Zarautz coastal circuit (Friday), moves inland to Abadiño → Amorebieta-Etxano on Saturday's hilly day, and closes on Sunday around Donostia / San Sebastián. The shorter, compressed 3-stage format means every day carries GC weight — there's no easy stage to recover. The race is a key spring-form indicator for GC contenders building toward the Giro d'Italia Women later in May.",
         "keyClimbs": [
           {
             "name": "Alto de Jaizkibel",
@@ -21600,13 +21600,13 @@
           ]
         },
         "narratives": [
-          "Sister race to the men's Itzulia — same brutal Basque parcours, same passionate orange-clad fans on every climb.",
-          "First major test for riders fresh off the Vuelta Femenina — recovery vs form is everything.",
-          "Movistar's home race — the Spanish women's team rides aggressively for stages and to inspire its passionate Basque base.",
-          "Often where breakout WWT performances happen — the 2024 and 2025 editions both produced surprise GC podiums from young climbers."
+          "Compressed 3-day format: With only three stages, every day matters. Punchy Basque terrain makes the race short but selective.",
+          "Spring form indicator: Held two weeks before the Giro d'Italia Women, Itzulia is a major form check for GC contenders targeting late-spring stage races.",
+          "SD Worx-Protime vs FDJ-SUEZ: Two of the strongest WT teams have stacked rosters here — expect inter-team chess on every climb.",
+          "Donostia finale: Sunday's closing stage around San Sebastián mirrors the men's Donostia Klasikoa terrain, with punchy hills on the closing circuit."
         ],
-        "historicalContext": "Created in 2021 as the women's counterpart to the men's Itzulia Basque Country. Joined the Women's WorldTour in 2023.",
-        "watchNotes": "Live coverage on Eurosport (UK), Peacock (US), FloBikes (CA), ETB1 (Basque public TV). Watch the queen stage in full and the final 30km of the closing day around Donostia."
+        "historicalContext": "Itzulia Women was inaugurated in 2022 as the women's counterpart to the long-running Itzulia Basque Country. It joined the UCI Women's WorldTour from inception and has rapidly built prestige as a Basque-terrain test. Past editions have been dominated by SD Worx-Protime — the team has won the GC in multiple consecutive years.",
+        "watchNotes": "Saturday's Abadiño → Amorebieta stage is the heaviest climbing day and likely GC decider. Sunday's Donostia circuit can flip margins if Saturday wasn't decisive."
       },
       "stages": [
         {
@@ -21658,6 +21658,106 @@
             "spoilerSafe": true,
             "courseSummary": "Final day on a Donostia circuit. GC fate often decided on the closing laps in this region."
           }
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Looking for opening-stage sprint windows on the Basque circuits."
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "time-trial",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "elise-chabbey",
+          "name": "CHABBEY Elise",
+          "team": "FDJ United - SUEZ",
+          "ranking": 6,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "climber",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "anna-van-der-breggen",
+          "name": "VAN DER BREGGEN Anna",
+          "team": "Team SD Worx - Protime",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "kasia-niewiadoma",
+          "name": "NIEWIADOMA Kasia",
+          "team": "Canyon-SRAM zondacrypto",
+          "nationality": "Poland",
+          "nationalityCode": "PL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "Team SD Worx - Protime",
+          "ranking": 30,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "all-rounder",
+            "classics",
+            "puncheur"
+          ]
         }
       ]
     },
@@ -22707,7 +22807,7 @@
       "raceDetails": {
         "lastFetched": "2026-04-26T00:00:00Z",
         "spoilerSafe": true,
-        "courseSummary": "Spanish women's UCI 2.Pro stage race held May 21-24 in the Burgos region of Castilla y León. Four stages totalling roughly 450km on the same brutal Burgos roads as the men's August race, with the Lagunas de Neila summit finish (or similar HC ascent) as the queen stage.",
+        "courseSummary": "Vuelta a Burgos Féminas 2026 — three days of Castilian racing from May 21–23, traditionally one of the toughest pre-Giro tune-ups on the WWT calendar. The 2026 route opens with a 127km Burgos circuit on Friday, moves to the Castro Jeriz → Bodegas Viña Pedrosa hilly day on Saturday, and closes on Sunday from Busto de Bureba to Medina de Pomar in northern Castile. The race has historically rewarded climbers and all-rounders, with selection-defining hills on every stage. As the last GC test before the Giro d'Italia Women begins on May 30, Burgos Féminas effectively previews the Giro favourites.",
         "keyClimbs": [
           {
             "name": "Lagunas de Neila",
@@ -22740,12 +22840,13 @@
           ]
         },
         "narratives": [
-          "Sister race to the men's Vuelta a Burgos in August — same iconic Castilian climbs, same windswept mesetas.",
-          "Spanish national team and Movistar use it as a development showcase.",
-          "Calendar fixture for opportunist climbers who don't get a chance at the Vuelta Femenina or the Giro Donne."
+          "Pre-Giro form decider: Held one week before the Giro d'Italia Women starts in Cesenatico (May 30), Burgos is the final tune-up for GC contenders.",
+          "Castilian hills: The Castro Jeriz and Viña Pedrosa terrain produces selective racing — pure sprinters rarely feature, and bunch sprints are uncommon.",
+          "Tactical 3-stage format: With only three days, there's no recovery from a bad first stage — every day carries GC weight.",
+          "Burgos racing tradition: The men's Vuelta a Burgos is a long-standing Vuelta-warm-up race; the women's edition shares that DNA on a compressed timeline."
         ],
-        "historicalContext": "Established in 2015 as the women's counterpart to the long-running Vuelta a Burgos. UCI 2.Pro since 2020.",
-        "watchNotes": "Spanish federation YouTube channel typically streams; TVE picks up highlights. The Neila or Picón Blanco stage is essential viewing — that's where the race is decided."
+        "historicalContext": "First held in 2015, the Vuelta a Burgos Féminas was upgraded to the UCI Women's WorldTour in 2020. The race has steadily increased in prestige, with strong GC depth among recent start lists. The men's Vuelta a Burgos (held later in August) has its own tradition as a Vuelta a España warm-up; the women's edition runs in May as a Giro tune-up.",
+        "watchNotes": "Saturday's Bodegas Viña Pedrosa stage is typically the climbing decider. Sunday's closing day to Medina de Pomar usually produces the final podium shape — late attacks possible on the rolling Castilian terrain."
       },
       "stages": [
         {
@@ -22799,6 +22900,94 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage with rolling terrain. GC contenders may attack late if margins are small."
           }
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "time-trial",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "elise-chabbey",
+          "name": "CHABBEY Elise",
+          "team": "FDJ United - SUEZ",
+          "ranking": 6,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "climber",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "anna-van-der-breggen",
+          "name": "VAN DER BREGGEN Anna",
+          "team": "Team SD Worx - Protime",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "kasia-niewiadoma",
+          "name": "NIEWIADOMA Kasia",
+          "team": "Canyon-SRAM zondacrypto",
+          "nationality": "Poland",
+          "nationalityCode": "PL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "Team SD Worx - Protime",
+          "ranking": 30,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "all-rounder",
+            "classics",
+            "puncheur"
+          ]
         }
       ]
     },
@@ -23663,7 +23852,7 @@
       "raceDetails": {
         "lastFetched": "2026-04-26T00:00:00Z",
         "spoilerSafe": true,
-        "courseSummary": "Eight-stage Women's WorldTour Grand Tour, May 30 - June 6 2026 (running parallel to the men's Giro for the first time after the calendar shift). The new May date positions it as one of the toughest women's GTs of the year, with multiple summit finishes across the Italian peninsula and Dolomites. Climbing-heavy with limited time-trialling.",
+        "courseSummary": "The Giro d'Italia Women 2026 (May 30 – June 7) is the third Grand Tour of the women's calendar — nine stages, 1,177.7km, and 12,100m of climbing across Italy. The race opens with two flat Adriatic days (Cesenatico → Ravenna, Roncade → Caorle) before pivoting to the hilly Veneto interior, a 12.7km mountain ITT at Belluno → Nevegal (stage 4), and back-to-back Alpine mountain days at Sestriere (stage 8, queen) and Saluzzo (stage 9). With its longest distance and most elevation in any recent Giro Women edition, the 2026 route is built for pure climbers and TT specialists who can also climb. The race is the centrepiece of the late-spring women's WT calendar.",
         "keyClimbs": [
           {
             "name": "Italian Dolomites mountain stage",
@@ -23701,14 +23890,14 @@
           ]
         },
         "narratives": [
-          "First edition of the Giro Donne to overlap directly with the men's Giro — the two races share the calendar slot for the first time, doubling Italian cycling's May spotlight.",
-          "Defending champion Elisa Longo Borghini returns as Italy's brightest GC hope — a true tifosi favourite on home roads.",
-          "Demi Vollering vs Marlen Reusser — the modern women's GT rivalry continues after their 2025 Vuelta and Tour battles.",
-          "Anna van der Breggen's likely final Grand Tour — a victory lap for the most decorated women's GC rider of the modern era.",
-          "Calendar shift from July to May means tougher recovery from the Vuelta Femenina and Itzulia — form management is everything."
+          "Sestriere queen stage: The 101km stage 8 finishes on Sestriere, the iconic Olympic resort — short distance + steep summit = expected GC selection from km 1.",
+          "Nevegal ITT (stage 4): 12.7km uphill TT — pure climbers can take time today; TT specialists who can climb are dangerous.",
+          "Adriatic flat opener: Two flat days for the sprinters' teams to set up early bonus seconds and stage wins.",
+          "Van der Breggen's return: Four-time Giro winner returning to GC racing after a multi-season break, co-leading SD Worx-Protime with world champion Lotte Kopecky.",
+          "Longo Borghini's UAE debut: First Giro with UAE Team ADQ after six seasons at Lidl-Trek — Italian champion targeting Maglia Rosa on home roads."
         ],
-        "historicalContext": "First held in 1988. Run by RCS Sport since 2024 (previously Starlight). Past winners include Anna van der Breggen (multiple), Annemiek van Vleuten (multiple), and Elisa Longo Borghini.",
-        "watchNotes": "Live coverage on HBO Max / Eurosport (US, Europe), TNT Sports (UK, Ireland) — RCS deal extended through at least 2029. Watch the queen stage in the Dolomites and the final two summit finishes — that's where the maglia rosa is decided. Free coverage on RAI Sport in Italy."
+        "historicalContext": "The Giro d'Italia Women (also known as Giro Donne) is the longest-running women's Grand Tour, first held in 1988. Multiple editions have been dominated by Anna van der Breggen (4 wins), Marianne Vos, and Annemiek van Vleuten. The 2026 edition is the modern rebooted format under RCS Sport organisation, restored as the women's calendar's most prestigious stage race.",
+        "watchNotes": "Stage 8 (Sestriere) is the must-watch GC decider — short and savage. Stage 4 (Nevegal ITT) is the second race-of-truth. The Adriatic sprints are pure entertainment for the fast men's teams."
       },
       "stages": [
         {
@@ -23875,6 +24064,145 @@
             "courseSummary": "Closing Alpine stage from Saluzzo. If the GC isn't settled, the final climbs are the last word.",
             "watchNotes": "Multiple climbs in the closing 50km — late attacks possible if margins are tight."
           }
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Targeting the two flat Adriatic opening stages."
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "gc-contender"
+          ],
+          "notes": "First Giro for new team UAE Team ADQ after six seasons at Lidl-Trek."
+        },
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "classics"
+          ]
+        },
+        {
+          "id": "elise-chabbey",
+          "name": "CHABBEY Elise",
+          "team": "FDJ United - SUEZ",
+          "ranking": 6,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "climber",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "anna-van-der-breggen",
+          "name": "VAN DER BREGGEN Anna",
+          "team": "Team SD Worx - Protime",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Four-time Giro winner returning to GC racing after a multi-season break — co-leading SD Worx with Kopecky."
+        },
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ]
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "cat-ferguson",
+          "name": "FERGUSON Cat",
+          "team": "Movistar Team",
+          "ranking": 19,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "climber"
+          ]
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "Team SD Worx - Protime",
+          "ranking": 30,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "all-rounder",
+            "classics",
+            "gc-contender"
+          ],
+          "notes": "World road champion; co-leading SD Worx-Protime alongside Van der Breggen."
+        },
+        {
+          "id": "silvia-persico",
+          "name": "PERSICO Silvia",
+          "team": "UAE Team ADQ",
+          "ranking": 43,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "puncheur",
+            "climber"
+          ]
         }
       ]
     },
