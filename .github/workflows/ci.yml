@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Quality + build smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need at least 2 commits so the regression check can read HEAD~1.
+          fetch-depth: 2
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Quality check (non-strict, fast)
+        run: npm run test:quick
+
+      - name: Build all pages
+        run: |
+          npm run build:all
+
+      - name: Build smoke test
+        run: npm run test:smoke
+
+      - name: Emit JSON summary to job summary
+        if: always()
+        run: |
+          {
+            echo '## Race quality (JSON, abbreviated)'
+            echo
+            echo '```'
+            node scripts/test-race-quality.js --all --compact 2>&1 | tail -5
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

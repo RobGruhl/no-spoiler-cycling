@@ -155,13 +155,30 @@ node generate-race-details.js --race RACE_ID  # Single race
 
 ### Quality Checks
 ```bash
-node scripts/test-race-quality.js --race RACE_ID                          # Single race
-node scripts/test-race-quality.js --from 2026-01-01 --to 2026-02-28 --compact  # Date range
-node scripts/test-race-quality.js --all --compact                         # All races
-node scripts/test-race-quality.js --race RACE_ID --check-links            # With Playwright link checks
+npm test                            # Fast quality suite — all 340 races (~2s)
+npm run test:strict                 # Strict: warnings promoted to failures
+npm run test:race -- RACE_ID        # Single race (full report)
+npm run test:smoke                  # Post-build: every race produced an HTML page
+npm run test:links                  # Slow: Playwright + Firecrawl link audit
+npm run test:ci                     # What CI runs: quick + build:all + smoke
 ```
 
-**QA loop**: Discover content → update data → run quality check → fix issues → retest → `npm run build`
+Direct script invocations (more flags) still work:
+```bash
+node scripts/test-race-quality.js --race RACE_ID --check-links
+node scripts/test-race-quality.js --from 2026-01-01 --to 2026-02-28 --compact
+node scripts/test-race-quality.js --all --only spoilers     # one section
+```
+
+Sections: `schema`, `crossrefs`, `invariants`, `spoilers`, `data`, `details`, `broadcast`, `links`. `--strict` promotes selected warnings (empty `stages[]`, missing `spoilerSafe`, spoiler-keyword hits, root URLs in broadcast) to failures.
+
+**QA loop**: Discover content → update data → `npm test` → fix issues → `npm run build:all` → `npm run test:smoke`.
+
+### Continuous Integration
+- `.github/workflows/ci.yml` — runs on every push/PR: `npm test` + `npm run build:all` + `npm run test:smoke`. Non-strict; data-quality warnings don't block merges.
+- `.github/workflows/nightly-links.yml` — daily 11:00 UTC + `workflow_dispatch`: runs `npm run test:strict` plus Playwright link audits against future races. Strict failures and unreachable URLs surface in the job summary; they don't block merges (they're reports).
+
+The wiped-startlist regression test reads `HEAD~1:data/race-data.json` via `git show` so it requires `fetch-depth: 2` in the workflow checkout.
 
 ## Batch Update Strategy
 

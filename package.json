@@ -10,7 +10,17 @@
     "build:riders-women": "node generate-riders-women-index.js",
     "build:rider-details": "node generate-rider-details.js --all",
     "build:rider-details-women": "node generate-rider-details.js --all --gender women",
-    "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js && node generate-rider-details.js --all && node generate-rider-details.js --all --gender women"
+    "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js && node generate-rider-details.js --all && node generate-rider-details.js --all --gender women && node generate-race-details.js --all",
+    "test": "node scripts/test-race-quality.js --all --compact",
+    "test:quick": "node scripts/test-race-quality.js --all --compact",
+    "test:strict": "node scripts/test-race-quality.js --all --compact --strict",
+    "test:race": "node scripts/test-race-quality.js --race",
+    "test:links": "node scripts/test-race-quality.js --all --check-links --compact",
+    "test:smoke": "node scripts/test-build-smoke.js",
+    "test:ci": "npm run test:quick && npm run build:all && npm run test:smoke"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "dotenv": "^16.0.0"

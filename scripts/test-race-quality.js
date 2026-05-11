@@ -38,6 +38,10 @@ import {
   colors,
   symbols
 } from '../lib/test-reporter.js';
+import { validateRace } from '../lib/race-schema.js';
+import { loadRiderIndex, checkCrossRefs } from '../lib/race-cross-references.js';
+import { scanRaceForSpoilers } from '../lib/spoiler-scanner.js';
+import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(__dirname, '../data/race-data.json');
@@ -55,6 +59,7 @@ function parseArgs() {
     json: false,
     all: false,
     verbose: false,
+    strict: false,
     help: false
   };
 
@@ -88,6 +93,9 @@ function parseArgs() {
       case '-v':
         options.verbose = true;
         break;
+      case '--strict':
+        options.strict = true;
+        break;
       case '--help':
       case '-h':
         options.help = true;
@@ -110,10 +118,13 @@ Options:
   --from <date>     Test races from this date (YYYY-MM-DD)
   --to <date>       Test races until this date (YYYY-MM-DD)
   --all             Test all races
-  --only <section>  Only run specific section: data, details, broadcast, links
+  --only <section>  Only run specific section: schema, crossrefs, data, details,
+                    invariants, spoilers, broadcast, links
   --check-links     Actually test URL accessibility with Playwright
   --compact         Output compact one-line summaries
   --json            Output results as JSON
+  --strict          Promote selected warnings to failures (empty stage[],
+                    spoilerSafe gaps, spoiler keywords, etc.)
   --verbose, -v     Show detailed output
   --help, -h        Show this help
 
@@ -169,6 +180,179 @@ function findRaces(data, options) {
   }
 
   return races;
+}
+
+/**
+ * Build a reporter-shaped section from a list of checks. Status rolls up
+ * to the worst severity present (fail > warn > pass).
+ */
+function sectionFromChecks(name, checks) {
+  let status = 'pass';
+  for (const c of checks) {
+    if (c.status === 'fail') { status = 'fail'; break; }
+    if (c.status === 'warn' && status !== 'fail') status = 'warn';
+  }
+  return { name, status, checks };
+}
+
+/**
+ * Strict-mode promotion: certain warn-level rules become failures so CI
+ * can be tightened (--strict) without changing day-one defaults.
+ * The patterns below are the categories the plan calls out for promotion.
+ */
+const STRICT_PROMOTE_LABELS = [
+  /stage-race has stages/i,
+  /spoilerSafe/i,
+  /Spoiler keywords detected/i,
+  /terrain values/i,
+  /rating range/i,
+  /Root URL check/i,
+  /primary$/i, // per-geo "US primary" / "UK primary" subchecks
+];
+function applyStrictPromotion(sections) {
+  const matches = (label) => STRICT_PROMOTE_LABELS.some(re => re.test(label));
+  for (const sec of sections) {
+    for (const c of sec.checks) {
+      if (c.status === 'warn' && matches(c.label)) c.status = 'fail';
+      if (Array.isArray(c.subChecks)) {
+        for (const sc of c.subChecks) {
+          if (sc.status === 'warn' && matches(sc.label)) sc.status = 'fail';
+        }
+      }
+    }
+    // Recompute section status after promotions
+    let s = 'pass';
+    for (const c of sec.checks) {
+      if (c.status === 'fail') { s = 'fail'; break; }
+      if (c.status === 'warn' && s !== 'fail') s = 'warn';
+      if (Array.isArray(c.subChecks)) {
+        for (const sc of c.subChecks) {
+          if (sc.status === 'fail') { s = 'fail'; break; }
+          if (sc.status === 'warn' && s !== 'fail') s = 'warn';
+        }
+      }
+      if (s === 'fail') break;
+    }
+    if (s === 'fail') sec.status = 'fail';
+    else if (s === 'warn' && sec.status === 'pass') sec.status = 'warn';
+  }
+}
+
+/**
+ * Per-race invariants — assertions that span fields or cross dataset history.
+ *
+ * - terrain⇔discipline gravel consistency
+ * - past race spoilerSafe flag present
+ * - past race retained topRiders since HEAD~1 (regression test for the
+ *   populateRaceRiders wipe bug; only fires when run inside a git repo)
+ */
+function checkInvariants(race, context = {}, options = {}) {
+  const checks = [];
+  const todayIso = new Date().toISOString().slice(0, 10);
+  const isPast = race.raceDate && race.raceDate < todayIso;
+
+  // gravel terrain ⇔ discipline:"gravel"
+  const hasGravelTerrain = Array.isArray(race.terrain) && race.terrain.includes('gravel');
+  const isGravelDiscipline = race.discipline === 'gravel';
+  if (hasGravelTerrain || isGravelDiscipline) {
+    const ok = hasGravelTerrain === isGravelDiscipline;
+    checks.push({
+      label: 'gravel terrain ⇔ discipline',
+      status: ok ? 'pass' : 'warn',
+      value: ok ? 'consistent' : `terrain="${hasGravelTerrain}" vs discipline="${race.discipline}"`,
+    });
+  }
+
+  // Past race spoilerSafe flag
+  if (isPast) {
+    const flag = race.raceDetails?.spoilerSafe;
+    const ok = typeof flag === 'boolean';
+    checks.push({
+      label: 'past race spoilerSafe flag',
+      status: ok ? 'pass' : 'warn',
+      value: ok ? String(flag) : 'missing',
+    });
+  }
+
+  // Wiped-startlist regression: past race that had topRiders in HEAD~1
+  // must still have them now. Skipped if HEAD~1 isn't available.
+  if (isPast && context.headPrevById) {
+    const prev = context.headPrevById.get(race.id);
+    if (prev?.topRiders?.length) {
+      const now = (race.topRiders || []).length;
+      const ok = now > 0;
+      checks.push({
+        label: 'topRiders preserved across refresh',
+        status: ok ? 'pass' : 'fail',
+        value: ok ? `${now} riders` : `wiped (had ${prev.topRiders.length} in HEAD~1)`,
+      });
+    }
+  }
+
+  if (checks.length === 0) {
+    checks.push({ label: 'Invariants', status: 'pass', value: 'no applicable rules' });
+  }
+
+  return sectionFromChecks('INVARIANTS', checks);
+}
+
+/**
+ * Read race-data.json from HEAD~1 (or HEAD if HEAD~1 not available) so the
+ * wiped-topRiders regression check can compare. Returns a Map<id, race> or
+ * null if git isn't available / repo state can't be read.
+ */
+function loadPrevRaceIndex() {
+  try {
+    const raw = execSync('git show HEAD~1:data/race-data.json', {
+      stdio: ['ignore', 'pipe', 'ignore'],
+      maxBuffer: 64 * 1024 * 1024, // race-data.json is ~6MB and growing
+    });
+    const prev = JSON.parse(raw.toString('utf-8'));
+    return new Map(prev.races.map(r => [r.id, r]));
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Dataset-level checks (run once, not per-race):
+ *  - Unique race IDs
+ *  - Unique (raceId, stageNumber) across stages
+ * Returns a reporter-shaped section.
+ */
+function checkDatasetInvariants(races) {
+  const checks = [];
+
+  // Unique race IDs
+  const idCount = new Map();
+  for (const r of races) idCount.set(r.id, (idCount.get(r.id) || 0) + 1);
+  const dupIds = [...idCount.entries()].filter(([, n]) => n > 1).map(([id]) => id);
+  checks.push({
+    label: 'unique race IDs',
+    status: dupIds.length === 0 ? 'pass' : 'fail',
+    value: dupIds.length === 0 ? `${races.length} ids OK` : `dupes: ${dupIds.join(', ')}`,
+  });
+
+  // Unique (raceId, stageNumber)
+  const stageDupes = [];
+  for (const r of races) {
+    if (!Array.isArray(r.stages)) continue;
+    const seen = new Set();
+    for (const s of r.stages) {
+      if (s.stageNumber == null) continue;
+      if (s.stageType === 'rest-day' && s.stageNumber === 0) continue; // multiple rest-days OK
+      const key = `${r.id}#${s.stageNumber}`;
+      if (seen.has(key)) stageDupes.push(key);
+      seen.add(key);
+    }
+  }
+  checks.push({
+    label: 'unique (raceId, stageNumber)',
+    status: stageDupes.length === 0 ? 'pass' : 'fail',
+    value: stageDupes.length === 0 ? 'OK' : `dupes: ${stageDupes.slice(0, 5).join(', ')}`,
+  });
+
+  return sectionFromChecks('DATASET', checks);
 }
 
 /**
@@ -373,15 +557,16 @@ function checkBroadcast(race) {
 
   if (!hasPrimary && sectionStatus === 'pass') sectionStatus = 'warn';
 
-  // Check for root URLs
+  // Check for root URLs.
+  // Day-one severity: warn (per plan); --strict promotes to fail via applyStrictPromotion.
   if (validation.rootUrls > 0) {
     checks.push({
       label: 'Root URL check',
-      status: 'fail',
-      value: `${validation.rootUrls} root URLs found!`
+      status: 'warn',
+      value: `${validation.rootUrls} root URLs found`
     });
-    sectionStatus = 'fail';
-    validation.problems.filter(p => p.includes('root URL')).forEach(p => errors.push(p));
+    if (sectionStatus === 'pass') sectionStatus = 'warn';
+    validation.problems.filter(p => p.includes('root URL')).forEach(p => warnings.push(p));
   } else if (validation.totalUrls > 0) {
     checks.push({
       label: 'Root URL check',
@@ -415,7 +600,7 @@ function checkBroadcast(race) {
     });
   }
 
-  // Per-geo breakdown if verbose
+  // Per-geo breakdown if verbose. Root URLs are warn by default (strict-promotes).
   const geoSubChecks = [];
   for (const [geo, geoData] of Object.entries(broadcast.geos)) {
     const primary = geoData.primary;
@@ -423,9 +608,9 @@ function checkBroadcast(race) {
       const urlValidation = validateBroadcastUrl(primary.url);
       geoSubChecks.push({
         label: `${geo} primary`,
-        status: urlValidation.isRootUrl ? 'fail' :
+        status: urlValidation.isRootUrl ? 'warn' :
                 urlValidation.valid ? 'pass' : 'warn',
-        value: `${primary.broadcaster}${urlValidation.isRootUrl ? ' (ROOT!)' : ''}`
+        value: `${primary.broadcaster}${urlValidation.isRootUrl ? ' (root URL)' : ''}`
       });
     }
   }
@@ -602,13 +787,45 @@ async function checkBroadcastEditions(race) {
 /**
  * Run all checks for a race
  */
-async function runRaceTests(race, options) {
+async function runRaceTests(race, options, context = {}) {
   const sections = [];
   const allWarnings = [];
   const allErrors = [];
 
   // Determine which sections to run
   const runSection = (name) => !options.only || options.only === name;
+
+  // ── Schema (lib/race-schema.js) ─────────────────────────────────────
+  if (runSection('schema')) {
+    const result = validateRace(race, { strict: options.strict });
+    sections.push(sectionFromChecks('SCHEMA', result.checks));
+  }
+
+  // ── Cross-references (lib/race-cross-references.js) ─────────────────
+  if (runSection('crossrefs')) {
+    const idx = context.riderIndex || loadRiderIndex();
+    const result = checkCrossRefs(race, idx);
+    if (result.checks.length) sections.push(sectionFromChecks('CROSS-REFS', result.checks));
+  }
+
+  // ── Invariants (per-race) ───────────────────────────────────────────
+  if (runSection('invariants')) {
+    sections.push(checkInvariants(race, context, options));
+  }
+
+  // ── Spoiler scan (lib/spoiler-scanner.js) ───────────────────────────
+  if (runSection('spoilers')) {
+    const result = scanRaceForSpoilers(race);
+    if (result.checks.length) {
+      const sec = sectionFromChecks('SPOILERS', result.checks);
+      // Strict mode promotes spoiler warns to failures (per plan)
+      if (options.strict) {
+        for (const c of sec.checks) if (c.status === 'warn') c.status = 'fail';
+        if (sec.checks.some(c => c.status === 'fail')) sec.status = 'fail';
+      }
+      sections.push(sec);
+    }
+  }
 
   // Data completeness
   if (runSection('data')) {
@@ -637,6 +854,9 @@ async function runRaceTests(race, options) {
     sections.push(editionResult);
     if (editionResult.warnings) allWarnings.push(...editionResult.warnings);
   }
+
+  // ── Strict mode: promote selected warns → fails across all sections ──
+  if (options.strict) applyStrictPromotion(sections);
 
   // Calculate summary
   let passCount = 0, warnCount = 0, failCount = 0;
@@ -705,14 +925,41 @@ async function main() {
   if (options.checkLinks) {
     console.log(`${colors.yellow}Note: Link accessibility tests require Playwright${colors.reset}`);
   }
+  if (options.strict) {
+    console.log(`${colors.cyan}Strict mode: warnings promoted to failures for selected rules${colors.reset}`);
+  }
   console.log('');
+
+  // ── Dataset-level checks (run once on the whole dataset) ──────────────
+  let datasetFail = 0;
+  if (options.all && (!options.only || options.only === 'invariants' || options.only === 'dataset')) {
+    const dsSection = checkDatasetInvariants(data.races);
+    const fails = dsSection.checks.filter(c => c.status === 'fail');
+    if (options.compact) {
+      const icon = fails.length ? `${colors.red}✗${colors.reset}` : `${colors.green}✓${colors.reset}`;
+      console.log(`${icon} ${colors.bold}DATASET${colors.reset} [${dsSection.checks.length - fails.length} pass, ${fails.length} fail]`);
+      for (const f of fails) console.log(`     - ${f.label}: ${f.value}`);
+    } else {
+      printReport({ race: { name: 'Dataset-level invariants', id: '(all races)' }, sections: [dsSection], summary: { status: dsSection.status, passCount: dsSection.checks.filter(c => c.status === 'pass').length, warnCount: 0, failCount: fails.length, warnings: [], errors: fails.map(f => `${f.label}: ${f.value}`) } });
+      console.log('');
+    }
+    datasetFail = fails.length;
+  }
+
+  // Shared context for per-race tests — riderIndex + HEAD~1 race map.
+  // HEAD~1 lookup is cheap (one git command) and lets `--race` invocations
+  // also catch the wiped-startlist regression.
+  const context = {
+    riderIndex: loadRiderIndex(),
+    headPrevById: loadPrevRaceIndex(),
+  };
 
   // Run tests
   const allResults = [];
   let totalPass = 0, totalWarn = 0, totalFail = 0;
 
   for (const race of races) {
-    const results = await runRaceTests(race, options);
+    const results = await runRaceTests(race, options, context);
     allResults.push(results);
 
     if (results.summary.status === 'pass') totalPass++;
@@ -744,8 +991,8 @@ async function main() {
     console.log(JSON.stringify(jsonOutput, null, 2));
   }
 
-  // Exit with error code if any failures
-  process.exit(totalFail > 0 ? 1 : 0);
+  // Exit with error code if any per-race or dataset-level failures
+  process.exit((totalFail > 0 || datasetFail > 0) ? 1 : 0);
 }
 
 main().catch(error => {

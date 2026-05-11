@@ -1,0 +1,72 @@
+name: Nightly link audit
+
+on:
+  schedule:
+    # 11:00 UTC daily — 04:00 Pacific (DST-safe enough for an audit job)
+    - cron: '0 11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: Strict + Playwright link checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Strict quality check (full dataset)
+        # Don't fail the job on warnings-promoted-to-fails — this is a
+        # report, not a blocker. Capture exit code separately.
+        run: |
+          set +e
+          npm run test:strict | tee strict.log
+          echo "STRICT_EXIT=$?" >> $GITHUB_ENV
+          set -e
+
+      - name: Link audit (future races only, Playwright)
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          node scripts/test-race-quality.js --from "$today" --check-links --compact | tee links.log
+        continue-on-error: true
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo '## Nightly link audit'
+            echo
+            echo '### Strict quality (last 30 lines)'
+            echo '```'
+            tail -n 30 strict.log || true
+            echo '```'
+            echo
+            echo '### Link audit (last 30 lines)'
+            echo '```'
+            tail -n 30 links.log || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
