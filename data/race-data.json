@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T11:28:51.272Z",
+  "lastUpdated": "2026-05-11T12:28:38.225Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -24881,7 +24881,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-06-12",
-      "endDate": "2026-06-15",
+      "endDate": "2026-06-14",
       "raceDay": "Friday",
       "location": "France",
       "category": "2.Pro",
@@ -24934,7 +24934,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Tour Féminin International des Pyrénées (2.Pro from 2026 onwards, upgraded from 2.1).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Pyrenees women's race opener. Race upgraded to 2.Pro for 2026."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-06-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle day — typically the Pyrenees mountain queen stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Pyrenees mountain stage — GC decider. Race regularly tackles high Pyrenean cols."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-06-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final Pyrenees-edge stage. Last chance to overturn the GC."
+          }
+        }
+      ]
     },
     {
       "id": "dwars-door-het-hageland-2026",
@@ -33030,7 +33080,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-02",
-      "endDate": "2026-09-07",
+      "endDate": "2026-09-06",
       "raceDay": "Wednesday",
       "location": "Netherlands",
       "category": "2.1",
@@ -33083,7 +33133,91 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Kapelle (ITT)",
+          "stageType": "itt",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-09-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening time trial in Kapelle, Zeeland. First leader's jersey on a 24km individual ITT.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Kapelle ITT (~24km) — race-of-truth opener. Sets early GC."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Westkapelle → Heinkenszand",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "date": "2026-09-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Zeeland coastal stage from Westkapelle to Heinkenszand.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Zeeland coast — strong crosswind potential on the polders."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Roosendaal → Bergen op Zoom",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "North Brabant stage from Roosendaal to Bergen op Zoom.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Flat North Brabant stage — sprint opportunity."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Schijndel → Schijndel",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly",
+            "circuit"
+          ],
+          "date": "2026-09-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Schijndel circuit stage — punchier day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Schijndel circuit. Reduced bunch finish possible if attacks stick."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Waalwijk → Waalwijk",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing Waalwijk circuit. Final GC standings.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final Waalwijk circuit — bunch sprint typical. Returns to September slot for 2026."
+          }
+        }
+      ]
     },
     {
       "id": "tour-de-romandie-feminin-2026",
@@ -33199,7 +33333,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-05",
-      "endDate": "2026-09-08",
+      "endDate": "2026-09-07",
       "raceDay": "Saturday",
       "location": "United States",
       "category": "2.Pro",
@@ -33252,7 +33386,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-05",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Maryland Cycling Classic — registered as a 3-day ProSeries event for 2026.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Baltimore-area opener. The race expanded to a 3-day stage format for 2026."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-06",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Maryland racing — detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-07",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day of the Maryland Cycling Classic.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. Detail from official roadbook."
+          }
+        }
+      ]
     },
     {
       "id": "classic-lorient-agglomeration-2026",
@@ -34676,7 +34860,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-16",
-      "endDate": "2026-09-21",
+      "endDate": "2026-09-20",
       "raceDay": "Wednesday",
       "location": "Slovakia",
       "category": "2.1",
@@ -34729,7 +34913,89 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the 70th-edition Okolo Slovenska.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Slovakian opener — typically a rolling stage."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 — typically the Tatra mountain queen stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tatra mountain climbing day — GC decider."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-19",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-20",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day — Bratislava-area finish typical."
+          }
+        }
+      ]
     },
     {
       "id": "gp-de-wallonie-dames-2026",
@@ -35593,7 +35859,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-27",
-      "endDate": "2026-10-05",
+      "endDate": "2026-10-04",
       "raceDay": "Sunday",
       "location": "Malaysia",
       "category": "2.Pro",
@@ -35646,7 +35912,138 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-27",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ of the 30th Petronas Le Tour de Langkawi.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Malaysian race opener. Tropical climate, traditionally a sprint day."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-09-28",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 of the Tour de Langkawi.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-29",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-30",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — often the queen stage at Genting Highlands.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tour de Langkawi traditionally features a brutal Genting Highlands climb as the GC decider."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 5.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 6,
+          "name": "Stage 6",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 6.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 7,
+          "name": "Stage 7",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-03",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 7.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 8,
+          "name": "Stage 8",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "date": "2026-10-04",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day — typically a Kuala Lumpur circuit finale.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final stage. Kuala Lumpur circuit sprint finale closes the race."
+          }
+        }
+      ]
     },
     {
       "id": "world-championships-men-s-road-race-2026",
@@ -36834,7 +37231,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-10-13",
-      "endDate": "2026-10-19",
+      "endDate": "2026-10-18",
       "raceDay": "Tuesday",
       "location": "Netherlands",
       "category": "2.1",
@@ -36887,7 +37284,106 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 0,
+          "name": "Prologue ITT",
+          "stageType": "prologue",
+          "terrain": [
+            "itt"
+          ],
+          "date": "2026-10-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening prologue of the 2nd edition of the NIBC Tour of Holland.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Short prologue ITT. First leader's jersey on offer."
+          }
+        },
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "First road stage of the NIBC Tour of Holland.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Dutch flat terrain — sprinters' opening road day."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "date": "2026-10-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — coastal or polder terrain typical of the Netherlands.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Netherlands coastal terrain — crosswind risk."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 — climbing day on the VAM-Berg or Limburg hills.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Limburg hills or VAM-Berg climbing — GC shake-up day."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: → Arnhem",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-10-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing day with Arnhem finish — traditional Dutch grand finale.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Arnhem finale of the NIBC Tour of Holland. Last GC opportunities."
+          }
+        }
+      ]
     },
     {
       "id": "tour-of-chongming-island-2026",
