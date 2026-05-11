@@ -159,23 +159,36 @@ function populateRaceRiders() {
     }
   }
 
-  // Update races with topRiders
+  // Update races with topRiders.
+  // Past-race gate: rider programs are forward-looking, so leave past races
+  // alone — curated historical startlists (e.g. Strade Bianche, Tour Down
+  // Under) must survive a refresh.
+  const todayIso = new Date().toISOString().slice(0, 10);
   let racesWithRiders = 0;
   let totalRiderSlots = 0;
+  let pastSkipped = 0;
 
   for (const race of raceData.races) {
+    const isPast = race.raceDate && race.raceDate < todayIso;
     const riders = raceRidersMap.get(race.id);
+
+    if (isPast) {
+      if (race.topRiders?.length) racesWithRiders++;
+      pastSkipped++;
+      continue;
+    }
+
     if (riders && riders.length > 0) {
-      // Sort by ranking
       riders.sort((a, b) => (a.ranking || 999) - (b.ranking || 999));
       race.topRiders = riders;
       racesWithRiders++;
       totalRiderSlots += riders.length;
     } else {
-      // Remove old topRiders if no riders found
       delete race.topRiders;
     }
   }
+
+  if (pastSkipped) console.log(`   🔒 Preserved curated startlists on ${pastSkipped} past races`);
 
   console.log(`\n   ✅ ${racesWithRiders} races have top riders`);
   console.log(`   ✅ ${totalRiderSlots} total rider participations linked`);

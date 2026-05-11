@@ -906,8 +906,8 @@ function renderFavourites(race) {
   // Prefer explicit topRiders (already ranked) — promote to cards with derived form stars.
   // Fall back to raceDetails.favorites groups if topRiders is empty.
   const all = race.topRiders || [];
-  const ranked = all.filter(r => !r.isOutsider).slice(0, 6);
-  const outsiders = all.filter(r => r.isOutsider).slice(0, 6);
+  const ranked = all.filter(r => !r.isOutsider).slice(0, 12);
+  const outsiders = all.filter(r => r.isOutsider).slice(0, 12);
   if (ranked.length || outsiders.length) {
     const cardFor = (r, i, isOut) => {
       const { surname, given } = parseRiderName(r.name);

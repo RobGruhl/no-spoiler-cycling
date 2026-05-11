@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T00:21:10.424Z",
+  "lastUpdated": "2026-05-11T00:30:14.806Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -1474,7 +1474,78 @@
         }
       ],
       "gender": "men",
-      "discipline": "road"
+      "discipline": "road",
+      "topRiders": [
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "jhonatan-narvaez",
+          "name": "NARVÁEZ Jhonatan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 33,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "gc-contender",
+            "puncheur",
+            "one-day"
+          ]
+        },
+        {
+          "id": "corbin-strong",
+          "name": "STRONG Corbin",
+          "team": "NSN Cycling Team",
+          "ranking": 36,
+          "nationality": "New Zealand",
+          "nationalityCode": "NE",
+          "specialties": [
+            "puncheur",
+            "one-day"
+          ]
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-down-under-womens-race-2026",
@@ -2534,7 +2605,30 @@
           "notes": "Spoiler-safe: winner revealed at natural finish (86% through)"
         }
       ],
-      "raceFormat": "stage-race"
+      "raceFormat": "stage-race",
+      "topRiders": [
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "trofeo-calvia-2026",
@@ -2605,7 +2699,72 @@
         ],
         "historicalContext": "The Trofeo Calvia is one of the core races in the Challenge Mallorca series. The Calvia municipality, which includes the resort areas of Magaluf and Santa Ponsa, provides a scenic coastal backdrop for early-season racing.",
         "watchNotes": "The terrain profile determines whether this is a sprinter's race or an opportunity for puncheurs. Watch for the final kilometers to see if any hills soften the sprint."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "surf-coast-classic-women-2026",
@@ -2845,7 +3004,72 @@
         ],
         "historicalContext": "The Ses Salines area in southeastern Mallorca provides flat, open roads that contrast with the mountainous terrain of the northern trofeos. The town takes its name from the historic salt production that has been practiced here since antiquity.",
         "watchNotes": "Expect a bunch sprint unless crosswinds from the nearby coast split the peloton. The flat terrain means the sprinter teams should control the race."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "trofeo-serra-tramuntana-2026",
@@ -3112,7 +3336,18 @@
       },
       "discipline": "road",
       "channel": "TNT Sports Cycling",
-      "verified": true
+      "verified": true,
+      "topRiders": [
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        }
+      ]
     },
     {
       "discoveredAt": "2026-01-27T05:10:49.086Z",
@@ -3448,7 +3683,72 @@
         ],
         "historicalContext": "Palma de Mallorca, the island's vibrant capital, provides a fitting urban backdrop for the Challenge Mallorca finale. The city's mix of medieval old town, waterfront promenades, and modern boulevards offers varied racing terrain.",
         "watchNotes": "The finale can go in many directions - watch for which teams still have fresh riders after the week of racing."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "cadel-evans-great-ocean-road-race-2026",
@@ -3934,7 +4234,60 @@
       "gender": "men",
       "discipline": "road",
       "channel": "TNT Sports Cycling",
-      "verified": true
+      "verified": true,
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "uae-tour-women-2026",
@@ -4374,7 +4727,22 @@
       "gender": "men",
       "discipline": "road",
       "channel": "Cycling Pro Net",
-      "verified": false
+      "verified": false,
+      "topRiders": [
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "aveiro-fegion-champions-classic-2026",
@@ -4912,7 +5280,22 @@
         "gcDynamics": "The race is typically decided on the mountain stage. GC contenders use this as a benchmark test, though it's early enough in the season that form varies widely. Time gaps on Ventoux can be significant.",
         "historicalContext": "Tour de La Provence was established in 2016 and quickly grew in stature thanks to its Mont Ventoux stage. The race attracts WorldTour teams looking for early-season racing in favorable weather conditions in the south of France.",
         "watchNotes": "The mountain stage is the centerpiece - watch for GC attacks on the Ventoux slopes. Sprint stages can produce surprises as teams are still finding their rhythm. The short race format means every stage matters for the overall classification."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-murcia-2026",
@@ -5059,7 +5442,35 @@
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
       },
       "gender": "men",
-      "discipline": "road"
+      "discipline": "road",
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "the-ceder-2026",
@@ -5175,7 +5586,22 @@
         "notes": "ProSeries race - check GCN/Eurosport for highlights coverage"
       },
       "gender": "men",
-      "discipline": "road"
+      "discipline": "road",
+      "topRiders": [
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "clasica-jaen-2026",
@@ -5524,7 +5950,72 @@
       },
       "gender": "men",
       "discipline": "road",
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "volta-ao-algarve-2026",
@@ -5709,7 +6200,86 @@
       },
       "gender": "men",
       "discipline": "road",
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-andalucia-ruta-del-sol-2026",
@@ -5869,7 +6439,44 @@
       },
       "gender": "men",
       "discipline": "road",
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "classic-var-2026",
@@ -5938,7 +6545,21 @@
         },
         "historicalContext": "The Classic Var is part of the early-season French racing calendar, taking place in the warm Mediterranean climate of the Var region. It attracts a mix of French continental teams and WorldTour squads using the mild February weather to sharpen early-season form.",
         "watchNotes": "The repeated climbs throughout the race wear down pure sprinters, often leaving a reduced group for the finale. Watch for attacks on the final hills - if the group stays together, it becomes a punchy sprint."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-jean-pierre-monsere-2026",
@@ -7064,7 +7685,81 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -7326,7 +8021,47 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-extremadura-femenina-2026",
@@ -7459,7 +8194,108 @@
           }
         }
       },
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "strade-bianche-women-2026",
@@ -7881,7 +8717,73 @@
           }
         }
       ],
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        }
+      ]
     },
     {
       "id": "gravel-brazil-2026",
@@ -8113,7 +9015,169 @@
           }
         }
       ],
-      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers."
+      "videoNote": "Disable autoplay and avoid sidebar recommendations to prevent spoilers.",
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -8292,7 +9356,31 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "noekere-koerse-2026",
@@ -8416,7 +9504,21 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-de-denain-2026",
@@ -8478,7 +9580,22 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "koksijde-classic-2026",
@@ -8597,7 +9714,160 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "milano-sanremo-donne-2026",
@@ -9151,7 +10421,47 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        }
+      ]
     },
     {
       "id": "114-gravel-race-2026",
@@ -9239,7 +10549,92 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "gp-emilia-2026",
@@ -9732,7 +11127,78 @@
         ],
         "historicalContext": "First held in 1945, Dwars door Vlaanderen joined the UCI WorldTour in 2017 and in 2018 moved to its current Wednesday pre-Flanders slot (taking over from the Three Days of De Panne). Historically a sprinter's race, it has evolved dramatically since joining the WorldTour - Christophe Laporte's 2023 solo victory and Neilson Powless's 2025 win reflect the modern template of aggressive, selective racing. The race functions as a key form-indicator for the Monument on Sunday.",
         "watchNotes": "Tune in for the final 90 minutes - the race opens up on the second pass of Berg Ten Houte (71.6km to go). Critical viewing from the second Hotond (50km to go) through the Waregem circuit finale. Watch for late attacks on Nokereberg and Herlegemstraat. Spoiler caution: this race concluded on April 1 - avoid YouTube sidebar and autoplay as extended highlights often include race results and winner announcements."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "dwars-door-vlaanderen-women-2026",
@@ -10387,7 +11853,109 @@
         ],
         "historicalContext": "First held in 1913, De Ronde van Vlaanderen (Tour of Flanders) is Belgium's biggest one-day race and the second Monument of the cycling calendar. It has finished in Oudenaarde since 2012. Eddy Merckx, Johan Museeuw, Tom Boonen, and Fabian Cancellara share the record with three wins each (Tom Boonen also has three; Cancellara's three came in 2010, 2013, 2014). Mathieu van der Poel has recently joined the three-wins club with consecutive victories. The finish in Oudenaarde after the Kwaremont-Paterberg finale has produced some of cycling's most iconic duels and long-range solos.",
         "watchNotes": "Flanders is nearly seven hours - tune in from the first Kwaremont (136km to go, roughly 4h in) for tension, or skip to the Koppenberg (45km to go) for the iconic climb action. The critical TV window is the final 75 minutes from the second Kwaremont to the finish. The Kwaremont-Paterberg finale at 16.7km/13.3km to go is destination television. Spoiler caution: highlights and thumbnails often reveal the outcome - disable autoplay and avoid YouTube sidebar."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "ronde-van-vlaanderen-women-2026",
@@ -10839,7 +12407,73 @@
           "description": "Hilly finale into Bergara - last GC chances."
         }
       ],
-      "_notes": "FloBikes deep links found for all 6 stages. URLs are 'Watch In Canada' branded but content is the full race replay."
+      "_notes": "FloBikes deep links found for all 6 stages. URLs are 'Watch In Canada' branded but content is the full race replay.",
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "ME",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ]
+        }
+      ]
     },
     {
       "platform": "TBD",
@@ -11230,7 +12864,33 @@
         ],
         "historicalContext": "First held in 1907, Scheldeprijs is one of the oldest races on the calendar and the oldest cycling race in Flanders. Legendary winners include Marcel Kittel (5 wins - the record), Mario Cipollini, Alessandro Petacchi, Robbie McEwen, Mark Cavendish and recent Flemish stars Tim Merlier and Jasper Philipsen. The race is a pilgrimage for sprint fans.",
         "watchNotes": "Coverage on Sporza (Belgium), Eurosport/GCN+, and highlights on Flanders Classics YouTube. The first 150km is often tactical breakaway-vs-peloton chess; the real race is the final 30km after the Broekstraat and on the Schoten circuit. Watch team sprint trains on the final 2km."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "platform": "FloBikes",
@@ -11689,7 +13349,132 @@
         ],
         "historicalContext": "Paris-Roubaix dates to 1896 and has been held 120+ times since. Belgians dominate the winner's list with 57 victories. Compiègne has hosted the start since 1977 (Paris itself from 1896-1967). The cobbled sectors are rated 1-5 stars based on length and roughness; five-star sectors are Arenberg, Mons-en-Pévèle, and Carrefour de l'Arbre. The race finishes in the historic Roubaix velodrome - a unique cycling venue where winners have a distinctive lap-and-a-half to the line. Eddy Merckx, Roger De Vlaeminck, and Tom Boonen hold records with four wins each. Mathieu van der Poel won three consecutive editions (2023-2025).",
         "watchNotes": "Paris-Roubaix is nearly six hours of television - tune in from the first sector (Troisvilles, ~3h into the race) for the tension, or skip to the Arenberg (95km to go) for the historic flashpoint. The critical TV window is the final 90 minutes from Mons-en-Pévèle (48.6km to go) through Carrefour de l'Arbre (17.1km to go). The velodrome finish is iconic. Spoiler caution: race highlights and YouTube thumbnails often spoil the outcome. Disable autoplay and avoid sidebar recommendations."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "one-day",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "matthew-brennan",
+          "name": "BRENNAN Matthew",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 30,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": []
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "paris-roubaix-women-2026",
@@ -12301,7 +14086,44 @@
         "historicalContext": "First held in 1961, De Brabantse Pijl has grown from a regional race into a key pre-Ardennes classic. Past winners include Eddy Merckx, Johan Museeuw, Philippe Gilbert, Julian Alaphilippe, Wout van Aert and Remco Evenepoel, confirming its status as a race for the best one-day riders. Since Flanders Classics took over organisation it has settled into a late-week slot before the Ardennes triple.",
         "watchNotes": "Small climbs come thick and fast - don't expect big gaps early. The race typically comes alive on the second of three finishing laps. The Schavei inside 3km to go and the technical run-in to Overijse reward riders with classics instinct. Watch for Ardennes specialists using this as their final sharpener before Amstel, Flèche and Liège."
       },
-      "_notes": "FloBikes event page for the men's race. Extended highlights also available at /video/15792480-2026-de-brabantse-pijl-men-extended-highlights."
+      "_notes": "FloBikes event page for the men's race. Extended highlights also available at /video/15792480-2026-de-brabantse-pijl-men-extended-highlights.",
+      "topRiders": [
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "classic-grand-bescancon-doubs-2026",
@@ -12832,7 +14654,133 @@
         "historicalContext": "The Amstel Gold Race is the youngest of the Spring Classics, first raced in 1966 with Jean Stablinski winning the inaugural 302km edition. It is the only Classic held in the Netherlands and takes its name from the Dutch brewery. Before 2017, the race traditionally finished atop the Cauberg, making it a decisive summit-style finale; since then, the finish has moved to beyond the Cauberg, encouraging longer-range attacks and a more tactical finale. Recent winners include Wout van Aert, Mathieu van der Poel, Tadej Pogačar, Tom Pidcock, and Mattias Skjelmose - a roster that reflects the race's appeal across rider types.",
         "watchNotes": "Amstel Gold is long - tune in for the final 90 minutes when the race attacks the decisive loop. Key moments: the Keutenberg at 31km to go (steepest climb, often the launchpad), the second Cauberg at 21.6km to go, and the final 5km after the Bemelerberg. The twisty, narrow roads make positioning crucial and favour riders with strong teams. Spoiler caution: YouTube thumbnails and sidebar often reveal the final metres - disable autoplay."
       },
-      "_notes": "FloBikes event page hosts both men's and women's editions. Men's replay: /events/15183666-2026-amstel-gold-race/videos?playing=15806826 ; Men's extended highlights: /video/15807073-highlights-2026-amstel-gold-race-men."
+      "_notes": "FloBikes event page hosts both men's and women's editions. Men's replay: /events/15183666-2026-amstel-gold-race/videos?playing=15806826 ; Men's extended highlights: /video/15807073-highlights-2026-amstel-gold-race-men.",
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "gp-feminin-de-chambery-2026",
@@ -13652,7 +15600,145 @@
         "historicalContext": "First run in 1936, La Flèche Wallonne ('The Walloon Arrow') is the second-oldest race in the Ardennes triptych. Originally a Tournai-to-Liège point-to-point, the race was transformed in 1985 when the finish moved to the summit of the Mur de Huy. That decision made the Mur one of the most iconic climbs in pro cycling - 1.3km of twisting, fan-lined road rising to 20%. The finish has produced the famous 'slow-motion sprint' where riders are reduced to grinding turnovers in the final metres. Recent editions have also seen the addition of the Côte d'Ereffe and Côte de Cherave in the finale to create more selective racing before the Mur. Alejandro Valverde's five wins remain the record; Julian Alaphilippe and Tadej Pogačar are among recent multiple winners.",
         "watchNotes": "Flèche Wallonne is often a TV tactic race - tune in for the final 60km when the circuits begin. The second Mur de Huy at 37.8km to go is the tactical benchmark; the third Cherave at 5.7km to go is where the winning move often begins. Every edition features the final 1.3km on the Mur as destination viewing - the 'slow-motion sprint' is unique in cycling. Spoiler caution: the Mur summit finish is heavily covered, so YouTube previews and sidebar recommendations often contain the outcome."
       },
-      "_notes": "FloBikes men's event page. Full race replay: /video/15811638-watch-in-canada-2026-fleche-wallonne ; Highlights: /collections/6752070-continue-watching?playing=15811624."
+      "_notes": "FloBikes men's event page. Full race replay: /video/15811638-watch-in-canada-2026-fleche-wallonne ; Highlights: /collections/6752070-continue-watching?playing=15811624.",
+      "topRiders": [
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        }
+      ]
     },
     {
       "id": "la-fleche-wallonne-women-2026",
@@ -14683,7 +16769,216 @@
         ],
         "historicalContext": "Liège-Bastogne-Liège is the oldest Classic on the calendar, first run in 1892. Known as La Doyenne ('the old lady'), it is the toughest of the Ardennes Classics and the final Monument of the spring. From 1992-2019 the race finished in the industrial suburb of Ans with the Côte de Saint-Nicolas as the final climb; in 2019 the finish returned to central Liège with the Roche-aux-Faucons as the closing selective climb. The race typically covers over 250km with around 4,300m of climbing - Tony Rominger once compared the total elevation to an Alpine stage of the Tour. Iconic climbs include La Redoute, introduced 50 years ago, where legends such as Philippe Gilbert, Bob Jungels, and recent dominators have all made race-winning moves.",
         "watchNotes": "The race doesn't really start until the Côte de Saint-Roch at 175km to go, and often sits neutralised through the Haussire. Tune in for the trio of Wanne/Stockeu/Haute-Levée - the first genuine selection. The crucial hour of TV is the final 60km from Col du Rosier onwards. Watch for the first moves on La Redoute (34km to go) - historically where the race is won. The Roche-aux-Faucons is the last chance for escapes; if the group is still together over its summit, expect a bunch kick in Liège. Spoiler caution: YouTube sidebar/autoplay frequently contains the finishing kilometres in thumbnails - disable autoplay and avoid the sidebar."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IR",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 26,
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "romain-gregoire1",
+          "name": "GRÉGOIRE Romain",
+          "team": "Groupama - FDJ United",
+          "ranking": 28,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "michael-matthews",
+          "name": "MATTHEWS Michael",
+          "team": "Team Jayco AlUla",
+          "ranking": 45,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "one-day",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "19yo French phenom — Tour de l'Avenir 2025 winner; Strade Bianche, LBL, and Tour debut on the program"
+        },
+        {
+          "id": "antonio-tiberi",
+          "name": "TIBERI Antonio",
+          "team": "Bahrain Victorious",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
+        },
+        {
+          "id": "tim-rex",
+          "name": "REX Tim",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Visma neo-pro; turned heads at Tour de l'Ain 2025"
+        },
+        {
+          "id": "alex-baudin",
+          "name": "BAUDIN Alex",
+          "team": "EF Education - EasyPost",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Quietly broken through to top-20 of recent-form rankings; sneaky GC threat"
+        }
+      ]
     },
     {
       "id": "tour-of-turkiye-2026",
@@ -15328,6 +17623,97 @@
             "watchNotes": "THE GC-deciding stage. The Leysin summit finish has historically produced dramatic race-winning moves - most famously Juan Ayuso's 2024 GC collapse. Tune in for the final 60km when the race hits Châtel-St-Denis; the final 10.9km climb is destination viewing. Disable YouTube autoplay - the finale is heavily covered in highlights."
           }
         }
+      ],
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "one-day",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "florian-lipowitz",
+          "name": "LIPOWITZ Florian",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 23,
+          "nationality": "Germany",
+          "nationalityCode": "GE",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "lenny-martinez",
+          "name": "MARTINEZ Lenny",
+          "team": "Bahrain - Victorious",
+          "ranking": 31,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "one-day"
+          ]
+        },
+        {
+          "id": "primoz-roglic",
+          "name": "ROGLIČ Primož",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 32,
+          "nationality": "Slovenia",
+          "nationalityCode": "SL",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "antonio-tiberi",
+          "name": "TIBERI Antonio",
+          "team": "Bahrain Victorious",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
+        },
+        {
+          "id": "jakob-soderqvist",
+          "name": "SÖDERQVIST Jakob",
+          "team": "Lidl - Trek",
+          "nationality": "Sweden",
+          "nationalityCode": "SW",
+          "specialties": [
+            "time-trialist",
+            "climber"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Swedish engine; U23 TT podiumer and Tour of Denmark GC 2nd, neo-pro 2026"
+        },
+        {
+          "id": "albert-withen-philipsen",
+          "name": "WITHEN PHILIPSEN Albert",
+          "team": "Lidl - Trek",
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer"
+        }
       ]
     },
     {
@@ -15440,7 +17826,23 @@
         ],
         "historicalContext": "First held in 1962 and known historically as Rund um den Henninger-Turm. Norway's Alexander Kristoff won four straight editions (2014–2018). Promoted to WorldTour status in 2017.",
         "watchNotes": "Tune in for the second Feldberg pass with about 90km to go. The third Mammolshain ascent inside 35km to go is where the winning move usually goes. If a small group survives to the Frankfurt circuit it will sprint between the Alte Oper and the Mainufer."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
+        }
+      ]
     },
     {
       "id": "gp-anicolor-2026",
@@ -16826,6 +19228,189 @@
             "watchNotes": "Classic Giro finale — champagne toasts, then a fast bunch sprint on the Roman circuit."
           }
         }
+      ],
+      "topRiders": [
+        {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma \\| Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "joao-almeida",
+          "name": "ALMEIDA João",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 4,
+          "nationality": "Portugal",
+          "nationalityCode": "PO",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "time-trialist"
+          ]
+        },
+        {
+          "id": "paul-magnier",
+          "name": "MAGNIER Paul",
+          "team": "Soudal Quick-Step",
+          "ranking": 11,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "one-day",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "giulio-ciccone",
+          "name": "CICCONE Giulio",
+          "team": "Lidl - Trek",
+          "ranking": 13,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "christian-scaroni",
+          "name": "SCARONI Christian",
+          "team": "XDS Astana Team",
+          "ranking": 14,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "one-day",
+            "climber"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "time-trialist",
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "michael-storer",
+          "name": "STORER Michael",
+          "team": "Tudor Pro Cycling Team",
+          "ranking": 25,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "felix-gall",
+          "name": "GALL Felix",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 27,
+          "nationality": "Austria",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 35,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trialist",
+            "puncheur",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": []
+        },
+        {
+          "id": "adam-yates",
+          "name": "YATES Adam",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 43,
+          "nationality": "Great Britain",
+          "nationalityCode": "GR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ]
+        },
+        {
+          "id": "lorenzo-fortunato",
+          "name": "FORTUNATO Lorenzo",
+          "team": "XDS Astana Team",
+          "ranking": 48,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "jan-christen",
+          "name": "CHRISTEN Jan",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 49,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": []
+        },
+        {
+          "id": "richard-carapaz",
+          "name": "CARAPAZ Richard",
+          "team": "EF Education - EasyPost",
+          "ranking": 50,
+          "nationality": "Ecuador",
+          "nationalityCode": "EC",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "puncheur"
+          ]
+        }
       ]
     },
     {
@@ -17866,6 +20451,32 @@
             "sprinter",
             "one-day"
           ]
+        },
+        {
+          "id": "jakob-soderqvist",
+          "name": "SÖDERQVIST Jakob",
+          "team": "Lidl - Trek",
+          "nationality": "Sweden",
+          "nationalityCode": "SW",
+          "specialties": [
+            "time-trialist",
+            "climber"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Swedish engine; U23 TT podiumer and Tour of Denmark GC 2nd, neo-pro 2026"
+        },
+        {
+          "id": "albert-withen-philipsen",
+          "name": "WITHEN PHILIPSEN Albert",
+          "team": "Lidl - Trek",
+          "nationality": "Denmark",
+          "nationalityCode": "DE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer"
         }
       ]
     },
@@ -20061,7 +22672,23 @@
             }
           }
         }
-      }
+      },
+      "topRiders": [
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
+        }
+      ]
     },
     {
       "id": "tour-of-estonia-2026",
@@ -20532,6 +23159,47 @@
             "gc-contender",
             "climber"
           ]
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "19yo French phenom — Tour de l'Avenir 2025 winner; Strade Bianche, LBL, and Tour debut on the program"
+        },
+        {
+          "id": "matthew-riccitello",
+          "name": "RICCITELLO Matthew",
+          "team": "Israel - Premier Tech",
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "American climber; high GT placings 2025; the next US GC hope"
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
         }
       ],
       "gender": "men",
@@ -21311,6 +23979,32 @@
             "climber",
             "one-day"
           ]
+        },
+        {
+          "id": "jarno-widar",
+          "name": "WIDAR Jarno",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
+        },
+        {
+          "id": "antonio-tiberi",
+          "name": "TIBERI Antonio",
+          "team": "Bahrain Victorious",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
         }
       ],
       "gender": "men",
@@ -22887,6 +25581,33 @@
             "gc-contender",
             "puncheur"
           ]
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "19yo French phenom — Tour de l'Avenir 2025 winner; Strade Bianche, LBL, and Tour debut on the program"
+        },
+        {
+          "id": "antonio-tiberi",
+          "name": "TIBERI Antonio",
+          "team": "Bahrain Victorious",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
         }
       ],
       "gender": "men",
@@ -23714,6 +26435,46 @@
           "nationality": "Switzerland",
           "nationalityCode": "SW",
           "specialties": []
+        },
+        {
+          "id": "jarno-widar",
+          "name": "WIDAR Jarno",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
+        },
+        {
+          "id": "matthew-riccitello",
+          "name": "RICCITELLO Matthew",
+          "team": "Israel - Premier Tech",
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "American climber; high GT placings 2025; the next US GC hope"
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
         }
       ],
       "discipline": "road",
@@ -24094,6 +26855,33 @@
             "climber",
             "gc-contender"
           ]
+        },
+        {
+          "id": "jarno-widar",
+          "name": "WIDAR Jarno",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
         }
       ],
       "gender": "men",
@@ -25199,6 +27987,46 @@
             "gc-contender",
             "time-trialist"
           ]
+        },
+        {
+          "id": "jarno-widar",
+          "name": "WIDAR Jarno",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
+        },
+        {
+          "id": "matthew-riccitello",
+          "name": "RICCITELLO Matthew",
+          "team": "Israel - Premier Tech",
+          "nationality": "United States",
+          "nationalityCode": "UN",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "American climber; high GT placings 2025; the next US GC hope"
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber",
+            "one-day"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
         }
       ],
       "gender": "men",
@@ -29545,6 +32373,33 @@
           "nationality": "Switzerland",
           "nationalityCode": "SW",
           "specialties": []
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "19yo French phenom — Tour de l'Avenir 2025 winner; Strade Bianche, LBL, and Tour debut on the program"
+        },
+        {
+          "id": "jarno-widar",
+          "name": "WIDAR Jarno",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
         }
       ],
       "discipline": "road",
@@ -29671,21 +32526,7 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
-      },
-      "topRiders": [
-        {
-          "id": "sofia-gomez-villafane",
-          "name": "GÓMEZ VILLAFAÑE Sofía",
-          "team": "Independent (Gravel)",
-          "nationality": "Argentina",
-          "nationalityCode": "AR",
-          "specialties": [
-            "gravel",
-            "mtb"
-          ],
-          "notes": "Won Castellón Gravel Race 2026; major gravel/MTB crossover."
-        }
-      ]
+      }
     },
     {
       "id": "paris-tours-2026",
@@ -29892,33 +32733,7 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
-      },
-      "topRiders": [
-        {
-          "id": "florian-vermeersch",
-          "name": "VERMEERSCH Florian",
-          "team": "UAE Team Emirates - XRG",
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "gravel",
-            "classics"
-          ],
-          "notes": "Defending UCI Gravel World Champion."
-        },
-        {
-          "id": "romain-bardet",
-          "name": "BARDET Romain",
-          "team": "Independent (Gravel)",
-          "nationality": "France",
-          "nationalityCode": "FR",
-          "specialties": [
-            "gravel",
-            "climber"
-          ],
-          "notes": "2026 winner of Castellón Gravel Race and Monaco Gravel Race."
-        }
-      ]
+      }
     },
     {
       "id": "tour-of-guangxi-2026",

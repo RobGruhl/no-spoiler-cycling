@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T07:55:32.674Z",
+  "lastUpdated": "2026-05-11T00:30:14.790Z",
   "riders": [
     {
       "id": "paul-seixas",
@@ -19,12 +19,36 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/paul-seixas",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:00.433Z",
+        "lastFetched": "2026-05-11T00:29:31.559Z",
         "races": [
           {
-            "raceName": "Liège-Bastogne-Liège",
-            "raceSlug": "liege-bastogne-liege",
-            "raceDate": "2026-04-26",
+            "raceName": "Tour Auvergne - Rhône-Alpes",
+            "raceSlug": "tour-auvergne-rhone-alpes",
+            "raceDate": "2026-06-07",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Grand Prix Cycliste de Québec",
+            "raceSlug": "gp-quebec",
+            "raceDate": "2026-09-11",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Grand Prix Cycliste de Montréal",
+            "raceSlug": "gp-montreal",
+            "raceDate": "2026-09-13",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Il Lombardia",
+            "raceSlug": "il-lombardia",
+            "raceDate": "2026-10-10",
             "raceClass": "1.UWT"
           }
         ]
@@ -47,7 +71,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jarno-widar",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:03.494Z",
+        "lastFetched": "2026-05-11T00:29:34.441Z",
         "races": [
           {
             "raceName": "Tour de Suisse",
@@ -99,24 +123,12 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/antonio-tiberi",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:06.257Z",
+        "lastFetched": "2026-05-11T00:29:36.786Z",
         "races": [
           {
-            "raceName": "Liège-Bastogne-Liège",
-            "raceSlug": "liege-bastogne-liege",
-            "raceDate": "2026-04-26",
-            "raceClass": "1.UWT"
-          },
-          {
-            "raceName": "Tour de Romandie",
-            "raceSlug": "tour-de-romandie",
-            "raceDate": "2026-04-28",
-            "raceClass": "2.UWT"
-          },
-          {
-            "raceName": "Tour Auvergne - Rhône-Alpes",
-            "raceSlug": "dauphine",
-            "raceDate": "2026-06-07",
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
             "raceClass": "2.UWT"
           },
           {
@@ -145,11 +157,11 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/matthew-riccitello",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:09.020Z",
+        "lastFetched": "2026-05-11T00:29:50.632Z",
         "races": [
           {
             "raceName": "Tour Auvergne - Rhône-Alpes",
-            "raceSlug": "dauphine",
+            "raceSlug": "tour-auvergne-rhone-alpes",
             "raceDate": "2026-06-07",
             "raceClass": "2.UWT"
           },
@@ -184,7 +196,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/pablo-torres",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-04-26T07:55:11.691Z",
+        "lastFetched": "2026-05-11T00:29:53.485Z",
         "races": []
       }
     },
@@ -206,20 +218,8 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/leo-bisiaux",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:14.550Z",
+        "lastFetched": "2026-05-11T00:29:55.942Z",
         "races": [
-          {
-            "raceName": "Liège-Bastogne-Liège",
-            "raceSlug": "liege-bastogne-liege",
-            "raceDate": "2026-04-26",
-            "raceClass": "1.UWT"
-          },
-          {
-            "raceName": "Eschborn-Frankfurt",
-            "raceSlug": "eschborn-frankfurt",
-            "raceDate": "2026-05-01",
-            "raceClass": "1.UWT"
-          },
           {
             "raceName": "Mercan'Tour Classic Alpes-Maritimes",
             "raceSlug": "mercan-tour-classic-alpes-maritimes",
@@ -228,7 +228,7 @@
           },
           {
             "raceName": "Tour Auvergne - Rhône-Alpes",
-            "raceSlug": "dauphine",
+            "raceSlug": "tour-auvergne-rhone-alpes",
             "raceDate": "2026-06-07",
             "raceClass": "2.UWT"
           },
@@ -270,7 +270,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/johannes-staune-mittet",
       "raceProgram": {
         "status": "not-announced",
-        "lastFetched": "2026-04-26T07:55:17.622Z",
+        "lastFetched": "2026-05-11T00:29:58.608Z",
         "races": []
       }
     },
@@ -291,13 +291,13 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/jakob-soderqvist",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:20.694Z",
+        "lastFetched": "2026-05-11T00:30:01.174Z",
         "races": [
           {
-            "raceName": "Tour de Romandie",
-            "raceSlug": "tour-de-romandie",
-            "raceDate": "2026-04-28",
-            "raceClass": "2.UWT"
+            "raceName": "Tour de Hongrie",
+            "raceSlug": "tour-de-hongrie",
+            "raceDate": "2026-05-13",
+            "raceClass": "2.Pro"
           }
         ]
       }
@@ -317,22 +317,9 @@
       "outsiderNote": "Visma neo-pro; turned heads at Tour de l'Ain 2025",
       "pcsUrl": "https://www.procyclingstats.com/rider/tim-rex",
       "raceProgram": {
-        "status": "announced",
-        "lastFetched": "2026-04-26T07:55:23.766Z",
-        "races": [
-          {
-            "raceName": "Liège-Bastogne-Liège",
-            "raceSlug": "liege-bastogne-liege",
-            "raceDate": "2026-04-26",
-            "raceClass": "1.UWT"
-          },
-          {
-            "raceName": "Grand Prix du Morbihan",
-            "raceSlug": "gp-de-plumelec",
-            "raceDate": "2026-05-09",
-            "raceClass": "1.Pro"
-          }
-        ]
+        "status": "not-announced",
+        "lastFetched": "2026-05-11T00:30:04.068Z",
+        "races": []
       }
     },
     {
@@ -351,16 +338,9 @@
       "outsiderNote": "Quietly broken through to top-20 of recent-form rankings; sneaky GC threat",
       "pcsUrl": "https://www.procyclingstats.com/rider/alex-baudin",
       "raceProgram": {
-        "status": "announced",
-        "lastFetched": "2026-04-26T07:55:27.148Z",
-        "races": [
-          {
-            "raceName": "Liège-Bastogne-Liège",
-            "raceSlug": "liege-bastogne-liege",
-            "raceDate": "2026-04-26",
-            "raceClass": "1.UWT"
-          }
-        ]
+        "status": "not-announced",
+        "lastFetched": "2026-05-11T00:30:07.431Z",
+        "races": []
       }
     },
     {
@@ -380,14 +360,8 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/albert-withen-philipsen",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:29.910Z",
+        "lastFetched": "2026-05-11T00:30:10.773Z",
         "races": [
-          {
-            "raceName": "Tour de Romandie",
-            "raceSlug": "tour-de-romandie",
-            "raceDate": "2026-04-28",
-            "raceClass": "2.UWT"
-          },
           {
             "raceName": "Tour de Hongrie",
             "raceSlug": "tour-de-hongrie",
@@ -414,7 +388,7 @@
       "pcsUrl": "https://www.procyclingstats.com/rider/lorenzo-finn",
       "raceProgram": {
         "status": "announced",
-        "lastFetched": "2026-04-26T07:55:32.674Z",
+        "lastFetched": "2026-05-11T00:30:14.789Z",
         "races": [
           {
             "raceName": "Giro d'Italia Next Gen",
