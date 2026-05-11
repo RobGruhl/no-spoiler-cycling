@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T22:47:31.222Z",
+  "lastUpdated": "2026-05-11T23:19:11.699Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -25711,7 +25711,84 @@
         ],
         "watchNotes": "Bunch sprint is the default outcome, but the wind on Zealand can fracture the field early. Watch positioning into the final 5km — the closing laps reward clean lead-outs.",
         "historicalContext": "First held in 2025 as part of the inaugural Copenhagen Sprint weekend, alongside the men's race. The event was conceived in 2023 to give Denmark a women's WorldTour fixture and round out the men's Copenhagen Sprint launch."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Defending champion; one of the sport's dominant sprinters."
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "time-trial",
+            "classics"
+          ]
+        },
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "classics"
+          ]
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "cat-ferguson",
+          "name": "FERGUSON Cat",
+          "team": "Movistar Team",
+          "ranking": 19,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "Team SD Worx - Protime",
+          "ranking": 30,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ],
+          "notes": "World road champion — strong all-rounder on a sprinter-friendly course."
+        }
+      ]
     },
     {
       "id": "safari-gravel-race-2026",
@@ -26827,7 +26904,96 @@
         ],
         "watchNotes": "The Queen Stage (Villars-sur-Ollon, June 21) is decisive — short distance + 2,795m elevation = fireworks from km 1. The Aarburg ITT will produce meaningful GC gaps before the closing climbs.",
         "historicalContext": "The Tour de Suisse Women was inaugurated in 2021 alongside the broader women's WorldTour expansion. Run by the same organisers as the men's race, it shares routes and gradually expanded in scope across editions."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "time-trial",
+            "gc-contender",
+            "classics"
+          ],
+          "notes": "Swiss home favourite — Aarburg ITT is her specialty."
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "elise-chabbey",
+          "name": "CHABBEY Elise",
+          "team": "FDJ United - SUEZ",
+          "ranking": 6,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "climber",
+            "all-rounder"
+          ],
+          "notes": "Swiss home rider alongside Reusser."
+        },
+        {
+          "id": "anna-van-der-breggen",
+          "name": "VAN DER BREGGEN Anna",
+          "team": "Team SD Worx - Protime",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "kasia-niewiadoma",
+          "name": "NIEWIADOMA Kasia",
+          "team": "Canyon-SRAM zondacrypto",
+          "nationality": "Poland",
+          "nationalityCode": "PL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "la-route-d-occitanie-2026",
