@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T10:28:45.737Z",
+  "lastUpdated": "2026-05-11T11:28:51.272Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -21030,7 +21030,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-05-13",
-      "endDate": "2026-05-18",
+      "endDate": "2026-05-17",
       "raceDay": "Wednesday",
       "location": "Hungary",
       "category": "2.Pro",
@@ -21156,6 +21156,93 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer"
+        }
+      ],
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Gyula → Békéscsaba",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 143,
+          "date": "2026-05-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 143km from Gyula Castle to Békéscsaba in eastern Hungary.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Tour de Hongrie 2026 opener — flat plains stage. First leader's jersey via sprint."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Szarvas → Paks",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "distance": 202,
+          "date": "2026-05-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage — 202km from Szarvas to Paks. Just 338m elevation.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Race's longest day — flat Hungarian plains. Sprinters' chance."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Kaposvár → Szekszárd",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 152,
+          "date": "2026-05-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "152km through Somogy hills from Kaposvár to wine country at Szekszárd.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Transition through Hungarian wine country. Rolling terrain."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Mohács → Pécs",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 188,
+          "date": "2026-05-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "188km from the Danube at Mohács to Pécs in southern Hungary.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mecsek mountain edge — punchy day before the closing stage."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: Balatonalmádi → Veszprém",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 144,
+          "date": "2026-05-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing 144km from Lake Balaton at Balatonalmádi to Veszprém.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Balaton-edge final stage. Closing GC moves possible on the rolling Veszprém approach."
+          }
         }
       ]
     },
@@ -28640,7 +28727,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-07-29",
-      "endDate": "2026-08-03",
+      "endDate": "2026-08-02",
       "raceDay": "Wednesday",
       "location": "Denmark",
       "category": "2.Pro",
@@ -28693,7 +28780,90 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Aalborg → ?",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-07-29",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Grand Départ from Aalborg in northern Jutland. 35th edition of the PostNord Danmark Rundt.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Danish race opener from Aalborg. Flat to rolling Jutland terrain — sprint-friendly start."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "crosswind-risk"
+          ],
+          "date": "2026-07-30",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — coastal Denmark with crosswind potential.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Coastal stage — typical Danish flat terrain with wind risk."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-07-31",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mid-race day with some climbing — typical of central Jutland."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-08-01",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 4 — often the GC-decisive day in Danish racing.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Climbing day in the Danish hills — late attacks possible."
+          }
+        },
+        {
+          "stageNumber": 5,
+          "name": "Stage 5: → Rødovre",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-08-02",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Final stage finishing in Rødovre on the western edge of Copenhagen.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Copenhagen-area finale. Sprint finish typical of the Danmark Rundt."
+          }
+        }
+      ]
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
@@ -30065,7 +30235,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-08-13",
-      "endDate": "2026-08-17",
+      "endDate": "2026-08-16",
       "raceDay": "Thursday",
       "location": "Czechia",
       "category": "2.Pro",
@@ -30118,7 +30288,92 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Praha → Karlovy Vary",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 173.9,
+          "date": "2026-08-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening 174km from Prague to the spa town Karlovy Vary in western Bohemia.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "17th Czech Tour opens with a Prague-to-Karlovy Vary traverse through western Bohemia."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Mladá Boleslav → Ještěd",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 177.1,
+          "date": "2026-08-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Queen stage — 177km finishing on the iconic Ještěd mountain in the Jizera range.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Czech queen stage — Ještěd summit finish. Brutally steep ramps decide the GC.",
+            "keyClimbs": [
+              {
+                "name": "Ještěd",
+                "summit": true
+              }
+            ],
+            "watchNotes": "Ještěd is one of Central Europe's toughest summit finishes."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Pardubice → Prostějov",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "distance": 211.2,
+          "date": "2026-08-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Longest stage at 211km — Pardubice through eastern Bohemia to Prostějov in Moravia.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Race's longest stage. Bohemia-Moravia transition with rolling terrain."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4: Kroměříž → Pustevny",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain",
+            "summit-finish"
+          ],
+          "distance": 182.3,
+          "date": "2026-08-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing 182km summit finish at Pustevny in the Beskydy mountains.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final summit finish at Pustevny in the Beskydy range. Last chance to flip the GC.",
+            "keyClimbs": [
+              {
+                "name": "Pustevny",
+                "summit": true
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "tour-de-pologne-women-2026",
@@ -33744,7 +33999,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-12",
-      "endDate": "2026-09-14",
+      "endDate": "2026-09-13",
       "raceDay": "Saturday",
       "location": "France",
       "category": "2.1",
@@ -33797,7 +34052,57 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Étoile-sur-Rhône area",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-11",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day around Étoile-sur-Rhône in the Drôme department.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Drôme/Ardèche rolling terrain — first women's edition follows the men's Faun-Ardèche Classic format."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-12",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Middle day — typically Ardèche climbs.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Ardèche climbing terrain — Mur d'Allex, Col de la Grande Limite area."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing stage — GC decided in the closing climbs.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day. The Boucles is known for the Côte chaude finishing climb."
+          }
+        }
+      ]
     },
     {
       "id": "falling-leaves-2026",
@@ -34126,7 +34431,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-09-15",
-      "endDate": "2026-09-19",
+      "endDate": "2026-09-18",
       "raceDay": "Tuesday",
       "location": "Italy",
       "category": "2.1",
@@ -34179,7 +34484,73 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening day of the Il Giro d'Abruzzo (2.1).",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Abruzzo opener. The race traverses the Apennine mountains of central Italy."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2",
+          "stageType": "hilly",
+          "terrain": [
+            "hilly"
+          ],
+          "date": "2026-09-16",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 2 — typically rolling Abruzzo terrain.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Detail from official roadbook."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-17",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Day 3 — typically a mountain day.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Abruzzo high mountain stage. Apennine climbing typical of the race."
+          }
+        },
+        {
+          "stageNumber": 4,
+          "name": "Stage 4",
+          "stageType": "mountain",
+          "terrain": [
+            "mountain"
+          ],
+          "date": "2026-09-18",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing mountain stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "GC decider. The Abruzzo Apennines often produce a tough finale."
+          }
+        }
+      ]
     },
     {
       "id": "chrono-feminin-du-gatineau-2026",
@@ -36526,7 +36897,7 @@
       "url": "TBD",
       "type": "full-race",
       "raceDate": "2026-10-13",
-      "endDate": "2026-10-16",
+      "endDate": "2026-10-15",
       "raceDay": "Tuesday",
       "location": "China",
       "category": "2.WWT",
@@ -36579,7 +36950,59 @@
             }
           }
         }
-      }
+      },
+      "stages": [
+        {
+          "stageNumber": 1,
+          "name": "Stage 1: Chongming → Chongming",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "date": "2026-10-13",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Opening circuit stage on Chongming Island near Shanghai.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Chongming circuit opener. Flat island terrain — sprint chance."
+          }
+        },
+        {
+          "stageNumber": 2,
+          "name": "Stage 2: Shanghai → Chongming",
+          "stageType": "flat",
+          "terrain": [
+            "flat"
+          ],
+          "date": "2026-10-14",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Mainland Shanghai to Chongming Island stage.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Mainland-to-island transfer. Flat terrain crossing the Yangtze River bridge."
+          }
+        },
+        {
+          "stageNumber": 3,
+          "name": "Stage 3: Chongming → Chongming",
+          "stageType": "flat",
+          "terrain": [
+            "flat",
+            "circuit"
+          ],
+          "date": "2026-10-15",
+          "platform": "TBD",
+          "url": "TBD",
+          "description": "Closing circuit stage on Chongming Island.",
+          "stageDetails": {
+            "spoilerSafe": true,
+            "courseSummary": "Final day of the Women's WT race. Sprint finale on the island circuit."
+          }
+        }
+      ]
     },
     {
       "id": "giro-del-veneto-2026",
