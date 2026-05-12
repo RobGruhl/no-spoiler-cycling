@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T03:19:46.587Z",
+  "lastUpdated": "2026-05-12T03:20:52.593Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -39659,13 +39659,70 @@
           "Late-season rainbow jersey: As the gravel calendar's pinnacle event, Nannup 2026 closes the gravel season with the most prestigious title in the discipline."
         ],
         "watchNotes": "Australian forest gravel is faster and more flowing than European Ardennes-style gravel — expect breakaways that form earlier and stick longer. The race is held alongside the women's elite on Saturday October 10.",
-        "historicalContext": "The UCI Gravel World Championships were inaugurated in 2022 in Veneto, Italy as the discipline gained UCI recognition. The 2024 and 2025 editions were both held in Houffalize, Belgium. Nannup 2026 is the first non-European edition; the championships return to Europe in subsequent years."
+        "historicalContext": "The UCI Gravel World Championships were inaugurated in 2022 in Veneto, Italy as the discipline gained UCI recognition. The 2024 and 2025 editions were both held in Houffalize, Belgium. Nannup 2026 is the first non-European edition; the championships return to Europe in subsequent years.",
+        "favorites": {
+          "rainbowFavorites": [
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — Gravel World Champion (defending the rainbow jersey on his terms); the Australian terrain and timing favours his style of long-distance off-road racing.",
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian off-road powerhouse who has steadily added gravel objectives to his calendar; suits hard-pack Australian fire roads.",
+            "VAKOC Petr (CZE / Specialized Gravel Programme) — dedicated gravel professional with strong UCI Gravel World Series form; comes into Nannup with the calendar's most gravel-specific preparation.",
+            "VERMEERSCH Florian (BEL) — UCI Gravel World Series regular and previous Gravel Worlds medallist; Belgian classics power translates to gravel."
+          ],
+          "darkHorses": [
+            "WURF Cameron (AUS) — home-roads ironman-turned-gravel-rider with deep familiarity of the WA terrain.",
+            "MORTON Lachlan (AUS / EF Education - EasyPost) — ultra-endurance Australian known for off-road exploits; home crowd and long distance favour him.",
+            "GANNA Filippo (ITA / Ineos Grenadiers) — power TT specialist whose engine could fit long flat gravel sections, though singletrack remains an open question.",
+            "VAN BAARLE Dylan (NED / Team Visma | Lease a Bike) — Paris-Roubaix winner with cobbles-to-gravel crossover credentials.",
+            "AUSTRALIAN OPEN FIELD — UCI Gravel World Series qualifiers from the Australia/NZ region with home advantage on local terrain."
+          ]
+        }
       },
       "broadcast": {
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "mathieu-van-der-poel",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ],
+          "notes": "Defending Gravel World Champion; off-road specialist with rainbow ambitions in Australia."
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder",
+            "puncheur"
+          ],
+          "notes": "Off-road powerhouse adding gravel to his calendar."
+        },
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 25,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trial",
+            "all-rounder"
+          ],
+          "notes": "Power TT specialist exploring gravel — Nannup's long flat sections suit his engine."
+        }
+      ]
     },
     {
       "id": "tour-of-guangxi-2026",
