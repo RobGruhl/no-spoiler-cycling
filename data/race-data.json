@@ -30386,15 +30386,7 @@
               "coverage": "live",
               "broadcasterId": "flobikes",
               "notes": "FloBikes US deep link to 2026 Tour de France Femmes avec Zwift."
-            },
-            "alternatives": [
-              {
-                "broadcaster": "NBC Sports YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@NBCSports",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -30416,7 +30408,14 @@
               "notes": "FloBikes Canada deep link to 2026 Tour de France Femmes avec Zwift."
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "highlights"
+          }
+        ]
       },
       "stages": [
         {
@@ -30669,7 +30668,22 @@
             "category": "1",
             "notes": "Stage 9 closing circuit — climbed four times in the Nice finale."
           }
-        ]
+        ],
+        "favorites": {
+          "gcContenders": [
+            "VOLLERING Demi (NED / FDJ United - SUEZ) — UCI #1 women's climber-and-GC rider, multiple TdF Femmes podiums; Ventoux queen stage is the day to confirm rainbow ambitions.",
+            "NIEWIADOMA Kasia (POL / Canyon-SRAM zondacrypto) — Polish climber-GC threat, the rider who broke the Vollering streak in 2024; Ventoux gradients match her style.",
+            "LONGO BORGHINI Elisa (ITA / UAE Team ADQ) — Italian veteran climber-classics rider; the route's mixed terrain (Dijon TT + Ventoux) suits her completeness.",
+            "REUSSER Marlen (SUI / Movistar Team) — TT-strong GC rider with a Vuelta a Burgos victory under her belt; the Dijon ITT is the cornerstone of her GC card.",
+            "FERRAND-PRÉVOT Pauline (FRA / Team Visma | Lease a Bike) — MTB world champion turned roadie with home-roads motivation; Ventoux on French soil is the highest possible stage to win."
+          ],
+          "stageHunters": [
+            "WIEBES Lorena (NED / Team SD Worx - Protime) — top sprinter favourite for stages 2 + 3 + 8 (the flat days).",
+            "BALSAMO Elisa (ITA / Lidl - Trek) — Italian classics-sprinter, hunting the cyclamen jersey on the flat stages.",
+            "VOS Marianne (NED / Team Visma | Lease a Bike) — all-terrain legend; stage hunt on the mixed-terrain hilly stages 5 + 6 + 9.",
+            "CHABBEY Elise (SUI / FDJ United - SUEZ) — Swiss rider with home-roads Grand Départ motivation, suited to puncheur stages."
+          ]
+        }
       },
       "topRiders": [
         {
