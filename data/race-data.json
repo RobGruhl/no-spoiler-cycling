@@ -19355,7 +19355,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255442-2026-giro-ditalia",
               "coverage": "live"
             }
           }
@@ -34442,7 +34442,60 @@
           "Vuelta tradition: True to form, Spanish summit finishes dominate — Aitana, Cerler, Calar Alto, Sierra de la Pandera, Peñas Blancas, and the Cat-Especial Collado del Alguacil (8.3km @ 9.8%) on stage 20."
         ],
         "watchNotes": "Stages 4 (Andorra), 7 (Cerler), 9 (Aitana), 12 (Calar Alto), 14 (Sierra de la Pandera), 19 (Peñas Blancas) and especially 20 (Collado del Alguacil at 9.8% avg) are the mountain crux days. The closing Granada / Alhambra circuit on stage 21 is the rare GC-relevant final stage. The Jerez ITT (stage 18) is the second race-of-truth.",
-        "historicalContext": "First held in 1935, the Vuelta a España is the third Grand Tour, traditionally run in late summer as the season's third major test. It has progressively repositioned in the season since the 1990s and now anchors August–September. The 2026 edition is the 81st and continues the modern trend of foreign Grand Départs (Portugal 2024, Italy 2025, Monaco 2026)."
+        "historicalContext": "First held in 1935, the Vuelta a España is the third Grand Tour, traditionally run in late summer as the season's third major test. It has progressively repositioned in the season since the 1990s and now anchors August–September. The 2026 edition is the 81st and continues the modern trend of foreign Grand Départs (Portugal 2024, Italy 2025, Monaco 2026).",
+        "keyClimbs": [
+          {
+            "name": "Andorra summit finishes (Stages 3-4)",
+            "category": "HC",
+            "summit": true,
+            "notes": "First-week Andorran summit finishes — Font Romeu (stage 3) + Andorra la Vella circuit (stage 4) start the GC selection."
+          },
+          {
+            "name": "Aramón Valdelinares (Stage 7)",
+            "category": "1",
+            "summit": true,
+            "notes": "First proper summit finish in Aragón — early-race GC stress test."
+          },
+          {
+            "name": "Alto de Aitana (Stage 9)",
+            "category": "1",
+            "summit": true,
+            "notes": "Costa Blanca summit finish — first week's queen-stage culmination."
+          },
+          {
+            "name": "Sierra de la Pandera (Stage 14)",
+            "category": "HC",
+            "summit": true,
+            "notes": "Andalusian queen stage — one of the Vuelta's most iconic summit finishes."
+          },
+          {
+            "name": "Peñas Blancas Estepona (Stage 19)",
+            "category": "1",
+            "summit": true,
+            "notes": "Late-Vuelta Andalusian summit finish — penultimate-stage drama territory."
+          },
+          {
+            "name": "Collado del Alguacil (Stage 20)",
+            "category": "HC",
+            "summit": true,
+            "notes": "Final mountain stage summit — last chance for GC fireworks before Granada."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "ALMEIDA João (POR / UAE Team Emirates - XRG) — Portuguese all-rounder targeting his maiden Grand Tour GC win after multiple Vuelta podiums.",
+            "ROGLIČ Primož (SLO / Red Bull - BORA - hansgrohe) — four-time Vuelta winner; the Spanish GT is his most successful Grand Tour.",
+            "GALL Felix (AUT / Decathlon CMA CGM Team) — Austrian climber with growing GC pedigree.",
+            "SKJELMOSE Mattias (DEN / Lidl - Trek) — versatile climber-puncheur for a GC tilt.",
+            "WIDAR Jarno (BEL / Lotto) — emerging Belgian GC talent testing himself on Vuelta climbs."
+          ],
+          "stageHunters": [
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian all-terrain weapon for stage hunting on the early flat days and ITT.",
+            "BRENNAN Matthew (GBR / Team Visma | Lease a Bike) — Visma support rider with stage-result ambitions.",
+            "RICCITELLO Matthew (USA / Israel - Premier Tech) — American climber hunting breakaway stage wins.",
+            "BISIAUX Léo (FRA / Decathlon - CMA CGM Team) — French puncheur for transitional stages."
+          ]
+        }
       }
     },
     {

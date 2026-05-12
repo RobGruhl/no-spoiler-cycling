@@ -497,19 +497,22 @@ function checkRaceDetails(race) {
            hasWatchNotes ? 'watchNotes only' : 'missing'
   });
 
-  // For stage races, check stageDetails
+  // For stage races, check stageDetails. Rest-day entries are excluded
+  // from the denominator — they have no race action and don't need a
+  // stageDetails block.
   if (race.stages && race.stages.length > 0) {
-    const stagesWithDetails = race.stages.filter(s => s.stageDetails).length;
-    const stageStatus = stagesWithDetails === race.stages.length ? 'pass' :
+    const racingStages = race.stages.filter(s => s.stageType !== 'rest-day');
+    const stagesWithDetails = racingStages.filter(s => s.stageDetails).length;
+    const stageStatus = stagesWithDetails === racingStages.length ? 'pass' :
                         stagesWithDetails > 0 ? 'warn' : 'info';
 
     checks.push({
       label: 'stageDetails',
       status: stageStatus,
-      value: `${stagesWithDetails}/${race.stages.length} stages`
+      value: `${stagesWithDetails}/${racingStages.length} stages`
     });
 
-    if (stagesWithDetails < race.stages.length && sectionStatus === 'pass') {
+    if (stagesWithDetails < racingStages.length && sectionStatus === 'pass') {
       sectionStatus = stagesWithDetails > 0 ? 'warn' : sectionStatus;
     }
   }
