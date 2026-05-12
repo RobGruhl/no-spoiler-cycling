@@ -10752,7 +10752,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255415-2026-ronde-van-brugge-men",
               "coverage": "live"
             },
             "alternatives": [
@@ -10778,14 +10778,38 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255415-2026-ronde-van-brugge-men",
               "coverage": "live"
             }
           }
         }
       },
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Ronde van Brugge — Brugge-based 200km one-day Belgian classic with a mix of flat coastal sections and short Flemish kickers. The route showcases medieval Brugge's cobbled streets in the finishing circuit, with the closing kilometres typically producing a reduced bunch sprint or late breakaway finish.",
+        "keyClimbs": [
+          {
+            "name": "Belgian Flemish kickers",
+            "category": "4",
+            "notes": "Series of short steep cobbled climbs typical of the Belgian one-day calendar."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Belgian and Dutch classics riders historically dominate the Ronde van Brugge.",
+            "Riders targeting the Belgian one-day classics week as a season highlight."
+          ],
+          "sprinters": [
+            "Survivors of the punchy circuit contest the reduced sprint in Brugge."
+          ]
+        },
+        "narratives": [
+          "Brugge city-centre finish: medieval cobbled streets through one of Europe's best-preserved medieval cities.",
+          "Belgian classics week: positions in the Holy Week leading up to Flanders.",
+          "Flat-to-rolling terrain: not as selective as Flanders but tactical positioning still decides."
+        ],
+        "historicalContext": "Ronde van Brugge is one of the Belgian one-day classics in the springtime classics calendar, run during the lead-up to the Tour of Flanders.",
+        "watchNotes": "Watch the closing 20km in the city-centre circuit for late attacks or sprint positioning. Disable autoplay; avoid sidebar."
       }
     },
     {
@@ -10816,7 +10840,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255413-2026-ronde-van-brugge-women",
               "coverage": "live"
             },
             "alternatives": [
@@ -10842,14 +10866,38 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255413-2026-ronde-van-brugge-women",
               "coverage": "live"
             }
           }
         }
       },
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Ronde van Brugge Women — Brugge-based one-day Belgian classic on flat-to-rolling terrain. The route showcases medieval Brugge's cobbled streets in the finishing circuit, with the closing kilometres typically producing a reduced bunch sprint or late breakaway finish.",
+        "keyClimbs": [
+          {
+            "name": "Belgian Flemish kickers",
+            "category": "4",
+            "notes": "Series of short steep cobbled climbs typical of the Belgian one-day calendar."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Belgian and Dutch classics riders historically dominate the Ronde van Brugge.",
+            "Riders targeting the Belgian one-day classics week as a season highlight."
+          ],
+          "sprinters": [
+            "Survivors of the punchy circuit contest the reduced sprint in Brugge."
+          ]
+        },
+        "narratives": [
+          "Brugge city-centre finish: medieval cobbled streets through one of Europe's best-preserved medieval cities.",
+          "Belgian classics week: positions in the Holy Week leading up to Flanders.",
+          "Flat-to-rolling terrain: not as selective as Flanders but tactical positioning still decides."
+        ],
+        "historicalContext": "Ronde van Brugge is one of the Belgian one-day classics in the springtime classics calendar, run during the lead-up to the Tour of Flanders.",
+        "watchNotes": "Watch the closing 20km in the city-centre circuit for late attacks or sprint positioning. Disable autoplay; avoid sidebar."
       }
     },
     {
@@ -10881,7 +10929,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255416-2026-e3-saxo-classic",
               "coverage": "live"
             },
             "alternatives": [
@@ -10907,7 +10955,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255416-2026-e3-saxo-classic",
               "coverage": "live"
             }
           }
@@ -10954,7 +11002,52 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "E3 Saxo Classic is the dress rehearsal for the Tour of Flanders — a 200km Belgian Flemish classic from Harelbeke featuring 17+ Flemish hellingen including the iconic Oude Kwaremont, Paterberg, and Taaienberg cobbled climbs. The race typically produces the same winners and tactics that will play out at Flanders the following weekend.",
+        "keyClimbs": [
+          {
+            "name": "Oude Kwaremont",
+            "category": "4",
+            "length": 2.2,
+            "avgGradient": 4.2,
+            "maxGradient": 11,
+            "notes": "Iconic cobbled Flemish climb featured in both E3 and Flanders — opening launching point for the closing 40km."
+          },
+          {
+            "name": "Paterberg",
+            "category": "4",
+            "length": 0.36,
+            "avgGradient": 12.9,
+            "maxGradient": 20.3,
+            "notes": "Brutal short cobbled wall — 20%+ ramps. Last climb before the closing run-in."
+          },
+          {
+            "name": "Taaienberg",
+            "category": "4",
+            "length": 0.53,
+            "avgGradient": 7,
+            "maxGradient": 18,
+            "notes": "Cobbled Flemish climb with steep gradients — traditional move-launching point for Boonen-style attacks."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — multi-time E3 winner; tune-up for Flanders.",
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian home-roads classics specialist.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — durable classics rider who survives the hellingen."
+          ],
+          "puncheurs": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — explosive climber-puncheur targeting Flemish classics.",
+            "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — punchy climber for repeated short steep climbs."
+          ]
+        },
+        "narratives": [
+          "Flanders rehearsal: same hellingen as Tour of Flanders, run a week before — produces the same favourites.",
+          "Cobbled-and-steep terrain: 17+ climbs in 200km wears down legs over the hellingen-heavy closing 50km.",
+          "Belgian heartland: roadside fans pack the cobbled climbs from dawn — atmosphere unmatched on the calendar."
+        ],
+        "historicalContext": "E3 Saxo Classic (formerly E3 BinckBank Classic / Harelbeke) traces back to 1958. Long considered the most important Flanders tune-up, it shares the same Flemish hellingen and traditionally produces the same winning profiles. Tom Boonen holds the record with 5 victories.",
+        "watchNotes": "Decisive moves typically come from the Oude Kwaremont onward (30-40km from finish). Watch for solo attacks on the Paterberg ramps and the run-in to the finish in Harelbeke. Disable autoplay; avoid sidebar."
       }
     },
     {
@@ -11013,7 +11106,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183635-2026-in-flanders-fields-men-gent-wevelgem",
               "coverage": "live"
             },
             "alternatives": [
@@ -11039,7 +11132,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183635-2026-in-flanders-fields-men-gent-wevelgem",
               "coverage": "live"
             }
           }
@@ -11131,7 +11224,49 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Gent-Wevelgem In Flanders Fields (rebranded for 2026) is a 250km Belgian classic from Middelkerke to Wevelgem along the coastal-and-Flemish-hill route. The race features multiple ascents of the iconic Kemmelberg cobbled climb plus the new Plugstreets gravel section — a mixed-terrain finale that suits sprinter-classics riders and puncheurs equally.",
+        "keyClimbs": [
+          {
+            "name": "Kemmelberg",
+            "category": "4",
+            "length": 0.55,
+            "avgGradient": 13,
+            "maxGradient": 23,
+            "notes": "Iconic cobbled climb with 23% ramps — featured 3x on the closing laps. The decisive launching point of the race."
+          },
+          {
+            "name": "Baneberg",
+            "category": "4",
+            "length": 0.65,
+            "avgGradient": 7,
+            "notes": "Shorter Flemish climb paired with Kemmelberg on the closing circuit."
+          },
+          {
+            "name": "Plugstreets gravel sectors",
+            "category": "4",
+            "length": 4,
+            "notes": "Gravel/dirt sectors honoring WWI memorial battlefields — mixed-surface challenge in the closing 70km."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — multi-time Gent-Wevelgem winner.",
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian home-roads veteran.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — survives the hellingen, contests the sprint."
+          ],
+          "sprinters": [
+            "PHILIPSEN Jasper (BEL / Alpecin-Premier Tech) — top survivor-sprinter for the reduced bunch finish.",
+            "MERLIER Tim (BEL / Soudal Quick-Step) — pure sprinter for the bunch finish if the Kemmelberg fails to split."
+          ]
+        },
+        "narratives": [
+          "In Flanders Fields rebrand for 2026: race now called In Flanders Fields, honoring the WWI memorial significance of the Plugstreets gravel sectors.",
+          "Wind + Kemmelberg + Plugstreets: three distinct race-shaping variables make this a tactical chess match.",
+          "Coastal echelon risk: the opening 100km along the Belgian coast can flip the race if onshore wind blows."
+        ],
+        "historicalContext": "Gent-Wevelgem dates to 1934 — one of the oldest Belgian classics. The Plugstreets gravel sectors were introduced in 2017 to honor the WWI memorial significance of the Heuvelland region. The 2026 edition starts the In Flanders Fields rebrand emphasizing the war memorial heritage of the route.",
+        "watchNotes": "Decisive moments: the second-to-last Kemmelberg ascent + Plugstreets gravel sections. Sprint finish in Wevelgem expected unless a solo attacker has timed it perfectly. Disable autoplay; avoid sidebar."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=mbc8viuGmvY",
       "videoNote": "FloBikes 2026 Gent-Wevelgem in Flanders Fields (Men) full race broadcast (2:58:48). Per youtube-cycling-analyzer: SAFE — winner named only in the closing ~2 minutes of a nearly 3-hour broadcast; neutral title (full race name 'Gent-Wevelgem in Flanders Fields'). Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
@@ -11294,7 +11429,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183633-2026-in-flanders-fields-women-gent-wevelgem",
               "coverage": "live"
             },
             "alternatives": [
@@ -11320,14 +11455,46 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183633-2026-in-flanders-fields-women-gent-wevelgem",
               "coverage": "live"
             }
           }
         }
       },
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Gent-Wevelgem In Flanders Fields Women — 159km Belgian classic from Ypres to Wevelgem, shared with the men's race on the closing circuit including multiple Kemmelberg ascents and the Plugstreets gravel sectors. Same mixed-terrain finale that suits classics-sprinters and puncheurs.",
+        "keyClimbs": [
+          {
+            "name": "Kemmelberg",
+            "category": "4",
+            "length": 0.55,
+            "avgGradient": 13,
+            "maxGradient": 23,
+            "notes": "Iconic cobbled climb shared with men's race — ramps to 23%. Decisive launching point."
+          },
+          {
+            "name": "Plugstreets gravel sectors",
+            "category": "4",
+            "notes": "Mixed-surface gravel/dirt sectors honoring WWI memorials."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WWT classics-sprinters who handle Belgian cobbled terrain — Wiebes, Kopecky, Vos profiles.",
+            "Dutch + Belgian home-roads riders with deep Flemish-hellingen pedigree."
+          ],
+          "puncheurs": [
+            "Puncheurs who can attack on the Kemmelberg to drop pure sprinters."
+          ]
+        },
+        "narratives": [
+          "Same In Flanders Fields rebrand as men's race — honoring WWI memorial heritage.",
+          "Shared closing circuit with men's race produces equally selective finales.",
+          "Wind + Kemmelberg + Plugstreets: identical tactical variables to men's race."
+        ],
+        "historicalContext": "Gent-Wevelgem Women was first held in 2012 as a separate women's edition, growing in prestige to become a WWT-tier classic. Shares the same iconic Kemmelberg climbs as the men's race.",
+        "watchNotes": "Watch the closing Kemmelberg ascents and Plugstreets sectors. Reduced sprint or solo attack typical winning move. Disable autoplay; avoid sidebar."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=tSqNKT4blZo",
       "videoNote": "FloBikes 2026 Gent-Wevelgem in Flanders Fields (Women) full race broadcast (2:45:19). Per youtube-cycling-analyzer: SAFE — winner named only in the closing ~3 minutes of a 2h45m broadcast; neutral title; verified 2026 by upload date. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
