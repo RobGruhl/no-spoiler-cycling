@@ -241,6 +241,26 @@
           "searchDomain": "gcn.com",
           "properties": ["world-tour", "classics"],
           "subscription": true
+        },
+        {
+          "name": "HBO Max UK",
+          "id": "hbo-max-uk",
+          "type": "streaming",
+          "url": "https://www.hbomax.com",
+          "searchDomain": "hbomax.com",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": true,
+          "notes": "UK variant of HBO Max - Eurosport content via Warner Bros Discovery"
+        },
+        {
+          "name": "TNT Sports",
+          "id": "tnt-sports",
+          "type": "streaming",
+          "url": "https://www.tntsports.com",
+          "searchDomain": "tntsports.com",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": true,
+          "notes": "TNT Sports replaces BT Sport for UK cycling coverage"
         }
       ],
       "secondary": [
@@ -262,6 +282,64 @@
           "searchDomain": "youtube.com",
           "properties": ["highlights", "extended-highlights"],
           "subscription": false
+        }
+      ]
+    },
+    "AU": {
+      "primary": [
+        {
+          "name": "SBS On Demand",
+          "id": "sbs-on-demand",
+          "type": "streaming",
+          "url": "https://www.sbs.com.au/ondemand",
+          "searchDomain": "sbs.com.au",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": false,
+          "notes": "SBS Australia free-to-air streaming - primary cycling broadcaster"
+        },
+        {
+          "name": "SBS",
+          "id": "sbs-au",
+          "type": "free-to-air",
+          "url": "https://www.sbs.com.au",
+          "searchDomain": "sbs.com.au",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": false,
+          "notes": "SBS broadcast TV alias - same property as SBS On Demand streaming"
+        },
+        {
+          "name": "Seven Network",
+          "id": "seven-au",
+          "type": "free-to-air",
+          "url": "https://www.7plus.com.au",
+          "searchDomain": "7plus.com.au",
+          "properties": ["tour-down-under", "domestic-cycling"],
+          "subscription": false,
+          "notes": "Australian free-to-air Seven Network — covers domestic cycling and Tour Down Under"
+        },
+        {
+          "name": "7plus",
+          "id": "7plus",
+          "type": "streaming",
+          "url": "https://www.7plus.com.au",
+          "searchDomain": "7plus.com.au",
+          "properties": ["tour-down-under", "domestic-cycling"],
+          "subscription": false,
+          "notes": "Seven Network streaming service"
+        }
+      ]
+    },
+    "BE": {
+      "primary": [
+        {
+          "name": "Sporza",
+          "id": "sporza",
+          "type": "free-to-air",
+          "url": "https://sporza.be",
+          "searchDomain": "sporza.be",
+          "properties": ["cyclocross", "monuments", "flanders-classics"],
+          "subscription": false,
+          "notes": "Belgian Flemish public broadcaster — primary cyclocross and Belgian classics coverage"
         }
       ]
     }
