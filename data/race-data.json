@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T09:19:56.002Z",
+  "lastUpdated": "2026-05-12T10:21:34.057Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -17949,7 +17949,21 @@
         ],
         "historicalContext": "First held in 1947, the Tour de Romandie is one of Switzerland's premier stage races and a staple of the WorldTour calendar. Past winners form a who's who of cycling: Eddy Merckx, Bernard Hinault, Stephen Roche, Tony Rominger, Tyler Hamilton (later voided), and in recent decades Simon Špilak, Chris Froome, Primož Roglič, Geraint Thomas, Aleksandr Vlasov, Adam Yates, Carlos Rodríguez, and João Almeida. The mountaintop finish at Leysin has become iconic - in 2024 Juan Ayuso's GC lead famously collapsed there, with Carlos Rodríguez taking over and winning the race.",
         "gcDynamics": "With only the Leysin mountain finish on Stage 5 as a pure summit test, the GC battle builds slowly. The opening 3.2km prologue provides a few seconds of initial separation. Stages 1-4 feature punchy climbs and bonus sprints but most finish with descents or flat run-ins, keeping GC gaps tight. Expect the overall to be decided in the final 15.6km climb to Leysin on the last day - a 10.9km climb at 6.7% average that has historically produced dramatic GC swings.",
-        "watchNotes": "Tune in for the Leysin mountain finish on Stage 5 - it's almost always GC-decisive. Stage 1 (Martigny) features a 12km 9.1% climb at Ovronnaz that could create early gaps. Stage 4 (Broc-Charmey) is the second hardest day with back-to-back Jaunpass climbs. The prologue is typically decided in fractions of a second. Spoiler caution: GC results can leak via sidebar recommendations - disable YouTube autoplay."
+        "watchNotes": "Tune in for the Leysin mountain finish on Stage 5 - it's almost always GC-decisive. Stage 1 (Martigny) features a 12km 9.1% climb at Ovronnaz that could create early gaps. Stage 4 (Broc-Charmey) is the second hardest day with back-to-back Jaunpass climbs. The prologue is typically decided in fractions of a second. Spoiler caution: GC results can leak via sidebar recommendations - disable YouTube autoplay.",
+        "keyClimbs": [
+          {
+            "name": "Charmey",
+            "category": "1",
+            "summit": true,
+            "notes": "Stage 4 summit finish in the Pre-Alps — first GC-decisive climb of the race."
+          },
+          {
+            "name": "Leysin",
+            "category": "1",
+            "summit": true,
+            "notes": "Stage 5 queen-stage summit finish in the Vaudoise Alps — the GC-decisive climb of the 2026 Tour de Romandie."
+          }
+        ]
       },
       "stages": [
         {
