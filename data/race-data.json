@@ -30341,8 +30341,13 @@
           "description": "Swiss Grande Départ — 137km hilly opener around Lausanne with an uphill finish.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Hilly Swiss opener with 1,700m of elevation. Uphill finish — first yellow jersey for a puncheur.",
-            "watchNotes": "Grande Départ from Lausanne. Climbers and puncheurs in the mix from day one."
+            "courseSummary": "Stage 1 opens the 5th edition of the Tour de France Femmes with a 137km circuit start in Lausanne, Switzerland — the second consecutive Grand Départ outside France after 2022's Paris start and 2024's Rotterdam. The hilly Vaud canton terrain framing Lake Geneva favours puncheurs over pure sprinters; expect a chaotic opening day with the yellow jersey up for grabs in the closing kilometres.",
+            "watchNotes": "Watch the final 30km — the lakeside circuit has small kickers that can split the bunch. Puncheurs and breakaway specialists are the strong favourites for the opening yellow jersey.",
+            "narratives": [
+              "Swiss Grand Départ: first time TdF Femmes has opened in Switzerland — Lausanne was previously the men's Tour grand départ in 2022.",
+              "Lake Geneva hills make this a puncheur's opener — the yellow jersey will favour a strong all-rounder, not a pure sprinter.",
+              "Day-one yellow jersey gambit: small bonus seconds at the line can put a rider in yellow for a week."
+            ]
           }
         },
         {
@@ -30359,7 +30364,13 @@
           "description": "149km from UCI headquarters in Aigle to Geneva — first sprint chance.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Lake Geneva basin — flatter terrain favouring the sprinters."
+            "courseSummary": "Stage 2 covers 149km from Aigle (Swiss UCI headquarters town) to Geneva on largely flat terrain following the Rhône valley. After the hilly opening day, this is the pure sprinters' first chance — a clean run-in to Geneva with the closing kilometres on the Rhône embankments suiting organised lead-out trains.",
+            "narratives": [
+              "Aigle start salutes the UCI headquarters — symbolic nod to women's racing recognition.",
+              "First true sprint stage: the pure sprinters who survived the opening hills go for green-jersey points and stage glory.",
+              "Geneva finish keeps the race in Switzerland for the second consecutive day before crossing into France."
+            ],
+            "watchNotes": "Pure sprint expected. Watch lead-out positioning in the final 3km along the Rhône embankment — wind direction can flip the favourites."
           }
         },
         {
@@ -30376,7 +30387,13 @@
           "description": "157km crossing into the French Jura — sprinters' day with rolling middle.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Geneva to Poligny — Jura crossing, second sprint chance."
+            "courseSummary": "Stage 3 from Geneva crosses into France for the first time and covers 157km to Poligny in the Jura. Officially flagged hilly per route information — the Jura's rolling vineyards and short steep climbs make this a transitional stage that could go either to a reduced sprint or a successful breakaway.",
+            "narratives": [
+              "Border-crossing stage: peloton enters France for the first time after two Swiss days.",
+              "Jura terrain is classic breakaway country — short climbs and rolling roads reward opportunists.",
+              "Bridge stage between flat sprinting and the Dijon ITT — riders save matches for tomorrow's decisive solo effort."
+            ],
+            "watchNotes": "Watch the breakaway composition — if the morning move contains GC-relevant riders, the peloton has to chase. Otherwise expect a reduced bunch sprint."
           }
         },
         {
@@ -30393,8 +30410,13 @@
           "description": "21km individual time trial through the Burgundy vineyards from Gevrey-Chambertin to Dijon.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "21km ITT in Burgundy wine country. Major GC test before the climbing weekend.",
-            "watchNotes": "TT specialists can take significant time. Climbers must minimise losses."
+            "courseSummary": "Stage 4 is the GC-decisive 21km individual time trial from Gevrey-Chambertin to Dijon — through the iconic Burgundy wine country to the Burgundian capital. Rolling course with a likely flat finish; long enough to produce meaningful time gaps between TT specialists and pure climbers.",
+            "watchNotes": "Watch the early intermediates — TT specialists set the times. The GC contenders' splits at 10km reveal who's racing for the maglia jaune.",
+            "narratives": [
+              "Burgundy wine country backdrop: Gevrey-Chambertin is one of France's most famous Grand Cru appellations.",
+              "21km is meaningful: time gaps of 60-90 seconds between top TT specialists and pure climbers are realistic.",
+              "GC reshape: anyone hoping for yellow in Nice must limit losses here or post a top result."
+            ]
           }
         },
         {
@@ -30411,7 +30433,13 @@
           "description": "Beaujolais wine-country hills — 140km, breakaway terrain.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Beaujolais rolling vineyards. Punchy stage suiting strong breakaway specialists."
+            "courseSummary": "Stage 5 covers 140km from Mâcon to Belleville-en-Beaujolais on hilly Beaujolais terrain. Multiple short climbs through the Beaujolais wine country build to a punchy finish — a stage designed for puncheurs and breakaway specialists rather than pure sprinters or GC climbers.",
+            "narratives": [
+              "Beaujolais wine country stage: vineyard climbs and rolling terrain are pure puncheur territory.",
+              "After the GC-stressful ITT, this is a 'free' stage where breakaways have a strong chance.",
+              "Short steep climbs in the closing 30km set up explosive late attacks rather than a bunch sprint."
+            ],
+            "watchNotes": "Watch the closing climbs — solo attacks from 10-15km out are typical winning moves on this kind of terrain. Bunch finishes are rare on Beaujolais profiles."
           }
         },
         {
@@ -30428,7 +30456,13 @@
           "description": "153km into the Rhône valley — pre-mountains hilly transition.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Massif Central foothills to the Rhône valley. Last day before the high mountains."
+            "courseSummary": "Stage 6 from Montbrison to Tournon-sur-Rhône is a 153km hilly day descending into the Rhône valley. The Forez and Pilat hills provide multiple launching points before a faster descent to the Rhône, where echelon risk is real if a mistral or northerly wind blows.",
+            "narratives": [
+              "Forez and Pilat regional hills offer pure breakaway terrain — a classic French puncheur's stage.",
+              "Rhône valley descent introduces wind exposure — mistral wind history makes echelons possible.",
+              "Last hilly day before the Mont Ventoux queen stage on stage 7."
+            ],
+            "watchNotes": "Two scenarios: a successful breakaway over the closing climbs, OR mistral-driven echelons that splinter the bunch in the Rhône valley. Watch the wind forecast."
           }
         },
         {
@@ -30446,7 +30480,7 @@
           "description": "Mont Ventoux summit finish — 144km from the Rhône valley to the Giant of Provence.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Queen stage finish on Mont Ventoux. The Giant of Provence — 21km of climbing at over 7% average.",
+            "courseSummary": "Stage 7 is the QUEEN STAGE — 144km from La Voulte-sur-Rhône to a summit finish on the legendary Mont Ventoux. The 'Giant of Provence' is one of the most iconic climbs in cycling: 21km of relentless ascent with the famous moonscape of the upper slopes exposed to mistral wind. This is the day the 2026 Tour de France Femmes is decided.",
             "keyClimbs": [
               {
                 "name": "Mont Ventoux",
@@ -30455,7 +30489,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "GC defining stage. Mont Ventoux is one of the most iconic climbs in cycling — gaps will be large."
+            "watchNotes": "The decisive attacks come in the final 6km, where the climb steepens above the tree line into the moonscape. Mistral wind from the north can punish riders unable to shelter in groups. This is the make-or-break GC moment of the race.",
+            "narratives": [
+              "Mont Ventoux summit finish: the most iconic mountain in cycling, with crushing gradients and brutal exposed final kilometres on the moonscape.",
+              "Queen stage of the 2026 race — GC decided here, with breakaway riders also targeting the rainbow-jersey-style prestige of a Ventoux win.",
+              "Historical weight: Ventoux is where Tom Simpson died in 1967; the climb's gravitas in cycling history is unmatched."
+            ]
           }
         },
         {
@@ -30472,7 +30511,13 @@
           "description": "Longest stage at 175km — sprinter-friendly with a sting in the tail into Nice.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Provence to the Côte d'Azur. Mostly sprinter terrain but with a late climbing kicker before Nice."
+            "courseSummary": "Stage 8 covers 175km from Sisteron to Nice — the longest stage of the 2026 Tour de France Femmes, transitioning from Haute-Provence into the Côte d'Azur. Officially flagged hilly: rolling Provençal terrain with multiple short climbs before descending to the Mediterranean coastline finish in Nice.",
+            "narratives": [
+              "Longest stage of the race: 175km of attritional rolling Provence is recovery from Ventoux for some, opportunity for others.",
+              "Côte d'Azur finish in Nice carries the symbolic weight of the French Riviera — the city has anchored Tour finishes since 2024.",
+              "Day after Ventoux: GC may sit conservatively while opportunists target a stage win on tired legs."
+            ],
+            "watchNotes": "Breakaway has a strong chance — GC teams are typically defensive the day after the queen stage. Watch the final 20km approach to Nice for late attacks."
           }
         },
         {
@@ -30490,14 +30535,19 @@
           "description": "Closing GC-decider — 99km Nice circuit with four ascents of the Col d'Eze.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Decisive final day: 99km circuit climbing the Col d'Eze four times. Unusually savage finale.",
+            "courseSummary": "Stage 9 is the final-day finale — a 99km hilly circuit in and around Nice, with the Côte d'Azur hills providing multiple steep launching points before the Promenade des Anglais finish. The shortest stage of the race but stacked with climbing; the Nice circuit can flip yellow on the final day if a GC lead is fragile.",
             "keyClimbs": [
               {
                 "name": "Col d'Eze (×4)",
                 "notes": "Climbed four times in the closing circuit"
               }
             ],
-            "watchNotes": "The yellow jersey is decided here — repeated climbs guarantee attacks."
+            "watchNotes": "Watch the closing laps of the Nice circuit — final-day attacks can change the GC if the leader is isolated. Multi-time loop format gives spectators repeated views of the peloton.",
+            "narratives": [
+              "Final-day hilly circuit: not a parade — Nice has hosted recent Tour finishes that produced major final-day GC drama.",
+              "99km short distance means full-gas racing from the gun, with attacking starts the norm.",
+              "Côte d'Azur backdrop and Promenade des Anglais finish frame the closing TV showcase of the race."
+            ]
           }
         }
       ],
