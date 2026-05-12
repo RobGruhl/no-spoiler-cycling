@@ -3325,13 +3325,11 @@
         "keySectors": [],
         "favorites": {
           "puncheurs": [
-            "Strong riders who can accelerate on Challambra and finish fast"
+            "Top WWT classics-sprinters who handle the Geelong finishing circuit — Wiebes, Balsamo, Vos profiles.",
+            "Australian home-roads riders ride for national pride."
           ],
           "sprinters": [
-            "Fast finishers who can survive the climb and contest the reduced bunch sprint"
-          ],
-          "allRounders": [
-            "Versatile riders who can handle the undulating terrain and wind"
+            "Pure WWT sprinters survive the Challambra hills then contest the bunch sprint."
           ]
         },
         "narratives": [
@@ -3399,13 +3397,43 @@
       "verified": true,
       "topRiders": [
         {
-          "id": "tobias-lund-andresen",
-          "name": "ANDRESEN Tobias Lund",
-          "team": "Decathlon CMA CGM Team",
-          "ranking": 40,
-          "nationality": "Denmark",
-          "nationalityCode": "DE",
-          "specialties": []
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Top WWT sprinter target for Australia season opener."
+        },
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "classics"
+          ],
+          "notes": "Italian classics-sprinter with the durability for Cadel circuit."
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ],
+          "notes": "All-terrain veteran perennial Cadel contender."
         }
       ]
     },
@@ -3915,7 +3943,18 @@
           "WorldTour teams looking for early season form",
           "Sprint or breakaway? The Challambra climb decides",
           "Local Australian riders motivated on home roads"
-        ]
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Top WT puncheurs and classics-sprinters who target the Australian season opener — historically Caleb Ewan, Michael Matthews, Jasper Philipsen profiles.",
+            "Riders coming off the Tour Down Under in good form use Geelong as a season-defining one-day target.",
+            "Australian home-roads riders ride for national pride on the Challambra Crescent finish."
+          ],
+          "sprinters": [
+            "Survivors of the Challambra Crescent and Barwon Heads circuit contest the reduced bunch sprint into Geelong city centre.",
+            "Hilly-circuit sprinters like Caleb Ewan profile take the win when the bunch survives the finishing climbs."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.862Z",
