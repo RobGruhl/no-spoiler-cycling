@@ -3495,21 +3495,86 @@
           "Who can challenge Dutch dominance?",
           "Young talents vs experienced champions"
         ],
-        "watchNotes": "The World Championships is an all-or-nothing race - tactics differ from World Cup rounds."
+        "watchNotes": "The World Championships is an all-or-nothing race - tactics differ from World Cup rounds.",
+        "keySectors": [
+          {
+            "name": "Hulst sand pits",
+            "surface": "sand",
+            "length": 0.3,
+            "difficulty": 5,
+            "description": "Signature feature of the Hulst CX Worlds course — deep sand sections that often dismount riders and decide the race."
+          },
+          {
+            "name": "Off-camber grass sections",
+            "surface": "dirt",
+            "length": 0.8,
+            "difficulty": 4,
+            "description": "Slick off-camber grass turns where line choice and bike handling decide seconds per lap."
+          },
+          {
+            "name": "Technical wooded singletrack",
+            "surface": "dirt",
+            "length": 0.5,
+            "difficulty": 4,
+            "description": "Tight wooded sections through the Zeeuws-Vlaanderen polder country — multiple direction changes per lap."
+          }
+        ]
       },
       "topRiders": [
         {
-          "id": "remco-evenepoel",
-          "name": "EVENEPOEL Remco",
-          "team": "Red Bull - BORA - hansgrohe",
-          "ranking": 6,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
+          "id": "fem-van-empel-cx",
+          "name": "VAN EMPEL Fem",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
           "specialties": [
-            "time-trialist",
-            "climber",
-            "gc-contender"
-          ]
+            "cyclocross"
+          ],
+          "notes": "Multi-time CX World Champion; defends the rainbow jersey."
+        },
+        {
+          "id": "lucinda-brand-cx",
+          "name": "BRAND Lucinda",
+          "team": "Baloise Trek Lions",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cyclocross"
+          ],
+          "notes": "Former World Champion and consistent podium threat."
+        },
+        {
+          "id": "puck-pieterse-cx",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Deceuninck",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cyclocross"
+          ],
+          "notes": "Multi-discipline talent; CX gold one of her major targets."
+        },
+        {
+          "id": "ceylin-del-carmen-alvarado-cx",
+          "name": "ALVARADO Ceylin del Carmen",
+          "team": "Alpecin-Deceuninck",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cyclocross"
+          ],
+          "notes": "Former World Champion; sand-and-power specialist suited to Hulst."
+        },
+        {
+          "id": "inge-van-der-heijden-cx",
+          "name": "VAN DER HEIJDEN Inge",
+          "team": "CrelanFristads",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "cyclocross"
+          ],
+          "notes": "Strong Dutch CX podium contender."
         }
       ]
     },
