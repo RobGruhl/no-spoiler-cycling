@@ -34925,11 +34925,53 @@
             "VAN BAARLE Dylan (NED / Team Visma | Lease a Bike) — Paris-Roubaix winner whose cobbles-and-gravel power matches the Ardennes forest tracks.",
             "OPEN BELGIAN FIELD — UCI Gravel World Series qualifiers from the Belgian gravel scene with home-roads advantage on Houffalize terrain."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Houffalize forest tracks",
+            "surface": "gravel",
+            "length": 12,
+            "difficulty": 3,
+            "description": "Forest gravel tracks make up roughly a third of each 47km Ardennes lap — moderate gradient, technical surface mixing fine gravel with embedded stones."
+          },
+          {
+            "name": "Ardennes singletrack",
+            "surface": "gravel",
+            "length": 4,
+            "difficulty": 4,
+            "description": "Tight gravel singletrack sections that punish poor positioning — small mistakes here propagate through the rest of the lap."
+          },
+          {
+            "name": "Houffa Gravel signature climb",
+            "surface": "gravel",
+            "length": 2.3,
+            "avgGradient": 6.5,
+            "difficulty": 3,
+            "description": "Sustained 6%+ gravel-and-tarmac climb featured on each lap — typical move-launching point on the closing lap."
+          }
+        ]
       },
       "broadcast": {
-        "geos": {},
-        "youtubeChannels": [],
+        "geos": {
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "broadcasterId": "sporza",
+              "type": "free-to-air",
+              "url": "https://sporza.be/nl/categorie/wielrennen/",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Belgian Flemish public broadcaster — host-country coverage for Houffalize."
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCIcycling",
+            "contentType": "highlights"
+          }
+        ],
         "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
       },
       "topRiders": [
@@ -34989,11 +35031,53 @@
             "KOPECKY Lotte (BEL / SD Worx) — multi-time World Champion with home-roads motivation in the Belgian Ardennes.",
             "OPEN DUTCH-BELGIAN FIELD — UCI Gravel World Series qualifiers from the Low Countries scene."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Houffalize forest tracks",
+            "surface": "gravel",
+            "length": 12,
+            "difficulty": 3,
+            "description": "Forest gravel tracks make up roughly a third of each 47km Ardennes lap — moderate gradient, technical surface mixing fine gravel with embedded stones."
+          },
+          {
+            "name": "Ardennes singletrack",
+            "surface": "gravel",
+            "length": 4,
+            "difficulty": 4,
+            "description": "Tight gravel singletrack sections that punish poor positioning — small mistakes here propagate through the rest of the lap."
+          },
+          {
+            "name": "Houffa Gravel signature climb",
+            "surface": "gravel",
+            "length": 2.3,
+            "avgGradient": 6.5,
+            "difficulty": 3,
+            "description": "Sustained 6%+ gravel-and-tarmac climb featured on each lap — typical move-launching point on the closing lap."
+          }
+        ]
       },
       "broadcast": {
-        "geos": {},
-        "youtubeChannels": [],
+        "geos": {
+          "BE": {
+            "primary": {
+              "broadcaster": "Sporza",
+              "broadcasterId": "sporza",
+              "type": "free-to-air",
+              "url": "https://sporza.be/nl/categorie/wielrennen/",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Belgian Flemish public broadcaster — host-country coverage for Houffalize."
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCIcycling",
+            "contentType": "highlights"
+          }
+        ],
         "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
       },
       "topRiders": [
@@ -40029,11 +40113,53 @@
             "WIEBES Lorena (NED / SD Worx) — sprinter-classics rider, dark horse if course is fast-and-flat enough.",
             "AUSTRALIAN OPEN FIELD — UCI Gravel World Series qualifiers from AUS/NZ region with home-roads advantage on local terrain."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Southern Forests gravel",
+            "surface": "gravel",
+            "length": 25,
+            "difficulty": 3,
+            "description": "Long stretches of Western Australian Southern Forests gravel — hard-pack farm-track surface that rewards sustained power."
+          },
+          {
+            "name": "Nannup River Valley",
+            "surface": "gravel",
+            "length": 8,
+            "difficulty": 2,
+            "description": "River-valley gravel section with rolling terrain — fast, breakaway-friendly stretch."
+          },
+          {
+            "name": "SEVEN gravel signature climbs",
+            "surface": "gravel",
+            "length": 4,
+            "avgGradient": 7,
+            "difficulty": 4,
+            "description": "Hilly gravel climbs from the established SEVEN race route — the move-launching kicker(s) of the elite course."
+          }
+        ]
       },
       "broadcast": {
-        "geos": {},
-        "youtubeChannels": [],
+        "geos": {
+          "AU": {
+            "primary": {
+              "broadcaster": "SBS On Demand",
+              "broadcasterId": "sbs-on-demand",
+              "type": "streaming",
+              "url": "https://www.sbs.com.au/ondemand",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Australian host-country broadcaster — free SBS streaming."
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCIcycling",
+            "contentType": "highlights"
+          }
+        ],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
       },
       "topRiders": [
@@ -40298,11 +40424,53 @@
             "VAN BAARLE Dylan (NED / Team Visma | Lease a Bike) — Paris-Roubaix winner with cobbles-to-gravel crossover credentials.",
             "AUSTRALIAN OPEN FIELD — UCI Gravel World Series qualifiers from the Australia/NZ region with home advantage on local terrain."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Southern Forests gravel",
+            "surface": "gravel",
+            "length": 25,
+            "difficulty": 3,
+            "description": "Long stretches of Western Australian Southern Forests gravel — hard-pack farm-track surface that rewards sustained power."
+          },
+          {
+            "name": "Nannup River Valley",
+            "surface": "gravel",
+            "length": 8,
+            "difficulty": 2,
+            "description": "River-valley gravel section with rolling terrain — fast, breakaway-friendly stretch."
+          },
+          {
+            "name": "SEVEN gravel signature climbs",
+            "surface": "gravel",
+            "length": 4,
+            "avgGradient": 7,
+            "difficulty": 4,
+            "description": "Hilly gravel climbs from the established SEVEN race route — the move-launching kicker(s) of the elite course."
+          }
+        ]
       },
       "broadcast": {
-        "geos": {},
-        "youtubeChannels": [],
+        "geos": {
+          "AU": {
+            "primary": {
+              "broadcaster": "SBS On Demand",
+              "broadcasterId": "sbs-on-demand",
+              "type": "streaming",
+              "url": "https://www.sbs.com.au/ondemand",
+              "coverage": "live",
+              "subscription": false,
+              "notes": "Australian host-country broadcaster — free SBS streaming."
+            }
+          }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "UCI",
+            "handle": "@UCIcycling",
+            "contentType": "highlights"
+          }
+        ],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
       },
       "topRiders": [
