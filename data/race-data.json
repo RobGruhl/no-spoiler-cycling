@@ -8292,7 +8292,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255383-2026-strade-bianche",
               "coverage": "live"
             }
           }
@@ -8401,7 +8401,80 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Strade Bianche (men's) is a 215km one-day classic through the white gravel roads (strade bianche) of Tuscany. Starting from Siena, the men's course features 11 gravel sectors totaling over 60km of unpaved roads across the rolling Crete Senesi hills before the iconic uphill finish through Siena's medieval streets to Piazza del Campo. The race character demands gravel handling, sustained climbing, and tactical patience over the 5+ hours of racing.",
+        "keySectors": [
+          {
+            "name": "Sector 1 - Vidritta",
+            "surface": "gravel",
+            "difficulty": 1,
+            "length": 2.4,
+            "description": "Opening gravel sector — shakes out the peloton early."
+          },
+          {
+            "name": "Sector 2 - Bagnaia",
+            "surface": "gravel",
+            "difficulty": 3,
+            "length": 3.5,
+            "description": "Rolling gravel with gradient changes."
+          },
+          {
+            "name": "Sector 4 - La Piana",
+            "surface": "gravel",
+            "difficulty": 3,
+            "length": 5.5,
+            "description": "Mid-race selection point — Tuscan hill country gravel."
+          },
+          {
+            "name": "Sector 6 - Monte Sante Marie",
+            "surface": "gravel",
+            "difficulty": 5,
+            "length": 11.5,
+            "description": "The most iconic Strade Bianche sector — 11.5km of rolling gravel with sustained climbing. Often the decisive launching point."
+          },
+          {
+            "name": "Sector 9 - Colle Pinzuto",
+            "surface": "gravel",
+            "difficulty": 4,
+            "length": 2.4,
+            "description": "Late-race climb — sets up the final shake-out before Le Tolfe."
+          },
+          {
+            "name": "Sector 10 - Le Tolfe",
+            "surface": "gravel",
+            "difficulty": 4,
+            "length": 1.1,
+            "description": "Final gravel sector with steep gradients — last chance for gravel specialists to attack."
+          },
+          {
+            "name": "Via Santa Caterina",
+            "surface": "cobbles",
+            "difficulty": 5,
+            "length": 0.5,
+            "description": "Iconic final climb through Siena's narrow medieval streets — ramps up to 16% on worn brick surface into Piazza del Campo."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Riders with gravel + classics pedigree (Strade is the unofficial first Monument of the season).",
+            "Crossover gravel-and-road specialists who target this race as a season highlight."
+          ],
+          "puncheurs": [
+            "Strong finishers who can power up Via Santa Caterina after 5+ hours of racing.",
+            "Pure climber-puncheur profiles handle the Monte Sante Marie attrition best."
+          ],
+          "climbers": [
+            "Lighter riders who attack on the rolling gravel hills of the closing 50km."
+          ]
+        },
+        "narratives": [
+          "Unofficial first Monument: the modern Strade has earned Monument-equivalent prestige since its 2007 debut.",
+          "Tuscan gravel selectivity: 60+ km of gravel rewards bold attacks on sectors 6-10 in the final 80km.",
+          "Piazza del Campo finish: the medieval shell-shaped square is among cycling's most spectacular finish-lines.",
+          "Weather wildcard: rain turns gravel into mud, makes descents treacherous, and rewards opportunistic late attacks."
+        ],
+        "historicalContext": "Strade Bianche was inaugurated in 2007 as Eroica Pro and renamed Strade Bianche in 2008. It rapidly became one of the most prestigious one-day races on the men's calendar despite being only WT category — many riders and fans treat it as the unofficial first Monument of the season. The race showcases the unique white clay gravel roads of the Crete Senesi region of Tuscany and shares the same iconic Piazza del Campo finish with the women's event.",
+        "watchNotes": "Decisive moves come on Sector 6 (Monte Sante Marie, 11.5km) onward — anyone hoping to win typically attacks in the final 80km. The race often comes down to a small group or solo attack on Le Tolfe before the Via Santa Caterina climb. Disable autoplay and avoid sidebar recommendations."
       }
     },
     {
