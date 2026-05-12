@@ -25281,8 +25281,13 @@
           "description": "28km team time trial — major early GC shake-up.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "28.4km TTT — strong squads can put their GC leader in the jersey early.",
-            "watchNotes": "Team consistency is the key — gaps will be measurable across the field."
+            "courseSummary": "Stage 3 is a 28.4km team time trial around a Le Perreux loop — the only TTT of the race and a direct dress rehearsal for the opening TTT of the 2026 Tour de France in Barcelona. Teams that have honed their TTT cohesion through training camps come into this with a meaningful advantage; GC contenders without strong TT teammates risk losing the race here before the mountains begin.",
+            "watchNotes": "The TTT loop is flat-to-rolling; watch the team formations through the technical sections and how leaders rotate through their domestiques.",
+            "narratives": [
+              "Tour de France warm-up: with the 2026 TdF opening on a TTT in Barcelona three weeks later, this is the rehearsal — every WT team treats stage 3 as a test run.",
+              "Aero choreography: small mistakes by lead riders or unbalanced rotations can cost a leader 30 seconds.",
+              "GC-leader teams without TT depth can lose the race here before the mountains decide it."
+            ]
           }
         },
         {
@@ -25351,7 +25356,7 @@
           "description": "First mountain summit finish — 133km to the Grand Colombier, one of the toughest climbs in the Jura.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Grand Colombier summit finish — savage climb tested at the Tour de France. First major GC selection.",
+            "courseSummary": "Stage 7 covers 133.3km from Le Bridoire to a summit finish atop the Grand Colombier (Jura) — one of the toughest climbs in regular Tour de France usage. The penultimate stage is GC-decisive on its own, with several intermediate climbs softening up legs before the final ascent.",
             "keyClimbs": [
               {
                 "name": "Grand Colombier",
@@ -25359,7 +25364,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "GC contenders will mark each other on the Grand Colombier."
+            "watchNotes": "The Grand Colombier is the kind of climb where attacks at 5km to go decide the day — watch for whether GC leaders ride controlled or attack the climbers in their group.",
+            "narratives": [
+              "Grand Colombier summit finish: a regular Tour de France climb whose gradients average 7.5-8.5% with sections over 10% punish pure power riders.",
+              "Jura warm-up climbs in the first 100km set up a selective finale rather than a pure summit drag race.",
+              "GC battle: the climbers who survive the TTT deficit start their counter-attack here."
+            ]
           }
         },
         {
@@ -25377,14 +25387,19 @@
           "description": "Final queen stage — 120km from Beaufort to the Plateau de Solaison summit finish.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Closing Alpine stage with summit finish at Plateau de Solaison. If the GC isn't settled by stage 7, here is the last word.",
+            "courseSummary": "Stage 8 queen-stage finale: 120km from Beaufort to a summit finish on the Plateau de Solaison in Haute-Savoie. Short by stage-race standards but stacked with climbing — the day exists to crown the GC winner on a hand-picked alpine finish that mirrors the upcoming Tour de France gravity.",
             "keyClimbs": [
               {
                 "name": "Plateau de Solaison",
                 "summit": true
               }
             ],
-            "watchNotes": "Final three stages all finish uphill — Solaison is the decisive one."
+            "watchNotes": "The decisive attacks come in the final 10km. Race radios go silent and the GC riders are isolated for the climb to Solaison — pure climbing legs decide the rainbow jersey of the Dauphiné rebrand.",
+            "narratives": [
+              "Plateau de Solaison summit finish: a Haute-Savoie climb that has been used twice before in the modern Dauphiné era and delivers final-day GC drama.",
+              "Short distance, high vertical: 120km of intense climbing rather than slow attrition.",
+              "Last chance for GC riders behind on time after the Grand Colombier to flip the standings."
+            ]
           }
         }
       ],
