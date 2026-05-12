@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T03:18:45.237Z",
+  "lastUpdated": "2026-05-12T03:19:46.587Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -38448,8 +38448,190 @@
           "GP de Montréal as prelude: The GP de Montréal one-day race two weeks earlier runs on essentially the same finishing circuit — making it a near-perfect form indicator."
         ],
         "watchNotes": "The closing 3 laps of the Mont Royal circuit decide every modern Worlds road race held on this style of course. Watch for late attacks on Camillien-Houde or splits forming on the steep ramps of Polytechnique. The race typically explodes inside the final 60km.",
-        "historicalContext": "First held in 1921 as the amateur World Championship and 1927 as the professional event, the UCI Road World Championship Road Race is the sport's oldest individual title. Notable past winners include Eddy Merckx (three rainbow jerseys), Bernard Hinault, Greg LeMond, Peter Sagan (three consecutive), and Mathieu van der Poel. The 2025 edition was held in Kigali, Rwanda — Africa's first Worlds. The 2026 edition returns the championships to North America for the third time."
-      }
+        "historicalContext": "First held in 1921 as the amateur World Championship and 1927 as the professional event, the UCI Road World Championship Road Race is the sport's oldest individual title. Notable past winners include Eddy Merckx (three rainbow jerseys), Bernard Hinault, Greg LeMond, Peter Sagan (three consecutive), and Mathieu van der Poel. The 2025 edition was held in Kigali, Rwanda — Africa's first Worlds. The 2026 edition returns the championships to North America for the third time.",
+        "favorites": {
+          "rainbowFavorites": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — three-time defending World Champion; Mont Royal's repeated climbs are tailor-made for his climber-puncheur profile.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic road race champion; the rainbow jersey is the missing major he chases on punchy terrain.",
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — 2023 World Champion; the Mont Royal climbs are short enough for him to follow the elite group and unleash his finishing kick.",
+            "PIDCOCK Thomas (GBR / Pinarello-Q36.5 Pro Cycling Team) — climber-puncheur ideally suited to the Camillien-Houde repeats; consistent Monument and Worlds podium threat.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion who has rebuilt his climbing legs; survives the climbs and out-sprints the reduced bunch."
+          ],
+          "darkHorses": [
+            "DEL TORO Isaac (MEX / UAE Team Emirates - XRG) — climber-puncheur with a Mexican passport — solo card with no team obligations.",
+            "VINGEGAARD Jonas (DEN / Team Visma | Lease a Bike) — Tour de France winner; Worlds course suits him only if the race becomes a war of attrition.",
+            "HEALY Ben (IRL / EF Education - EasyPost) — Irish breakaway specialist; courses with repeated short steep climbs are his speciality.",
+            "SKJELMOSE Mattias (DEN / Lidl - Trek) — Danish puncheur-climber, second card behind Pedersen on a course that favours both.",
+            "ONLEY Oscar (GBR / INEOS Grenadiers) — British second card behind Pidcock; emerging climbing ability for a tactically open finale.",
+            "VAUQUELIN Kévin (FRA / INEOS Grenadiers) — French all-rounder/classics rider who has shown big races suit his profile.",
+            "MARTINEZ Lenny (FRA / Bahrain - Victorious) — pure climber who can survive Mont Royal repetitions; long-shot rainbow contender."
+          ]
+        },
+        "keyClimbs": [
+          {
+            "name": "Côte de la Camillien-Houde",
+            "category": "3",
+            "length": 1.8,
+            "avgGradient": 8,
+            "notes": "The canonical move-launching climb on Mont Royal — short enough to attack from far out, steep enough to thin the elite group. Multiple repeats decide the race."
+          },
+          {
+            "name": "Côte de Polytechnique",
+            "category": "4",
+            "length": 0.78,
+            "avgGradient": 6,
+            "notes": "Short steep punch through the Université de Montréal grounds; secondary launching point on every Mont Royal circuit lap."
+          }
+        ]
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SI",
+          "specialties": [
+            "climber",
+            "puncheur",
+            "all-rounder"
+          ],
+          "notes": "Three-time defending World Champion; Mont Royal climbs match his strengths perfectly."
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "time-trial",
+            "gc-contender"
+          ],
+          "notes": "Olympic road champion chasing the road rainbow jersey."
+        },
+        {
+          "id": "mathieu-van-der-poel",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ],
+          "notes": "2023 World Champion; Mont Royal climbs short enough to follow."
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ],
+          "notes": "Climber-puncheur perfectly suited to Camillien-Houde repeats."
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ],
+          "notes": "2019 World Champion with rebuilt climbing legs."
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "MX",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Climber-puncheur with no national team obligations."
+        },
+        {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Tour winner — needs an attritional race to make Mont Royal selective enough."
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IE",
+          "specialties": [
+            "puncheur",
+            "breakaway"
+          ],
+          "notes": "Irish breakaway artist on repeated short climbs."
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "puncheur",
+            "gc-contender"
+          ],
+          "notes": "Second Danish card behind Pedersen."
+        },
+        {
+          "id": "kevin-vauquelin",
+          "name": "VAUQUELIN Kévin",
+          "team": "INEOS Grenadiers",
+          "ranking": 16,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "classics"
+          ],
+          "notes": "French all-rounder threat."
+        },
+        {
+          "id": "oscar-onley",
+          "name": "ONLEY Oscar",
+          "team": "INEOS Grenadiers",
+          "ranking": 9,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "gc-contender",
+            "climber",
+            "puncheur"
+          ],
+          "notes": "British second card behind Pidcock."
+        }
+      ]
     },
     {
       "id": "giro-dell-emilia-2026",
