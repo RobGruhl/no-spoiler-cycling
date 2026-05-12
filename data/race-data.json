@@ -12089,15 +12089,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15241488-2026-tour-of-flanders-men",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -12117,7 +12109,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
@@ -12404,15 +12403,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15448903-2026-tour-of-flanders-women",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -12432,7 +12423,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
@@ -13613,15 +13611,7 @@
               "subscription": true,
               "url": "https://www.peacocktv.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "NBC Sports YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@NBCSports",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -13641,7 +13631,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
@@ -13931,15 +13928,7 @@
               "subscription": true,
               "url": "https://www.peacocktv.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "NBC Sports YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@NBCSports",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -13959,7 +13948,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
