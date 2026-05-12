@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T23:49:12.432Z",
+  "lastUpdated": "2026-05-12T00:18:50.810Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -30333,7 +30333,157 @@
             "notes": "Stage 9 closing circuit — climbed four times in the Nice finale."
           }
         ]
-      }
+      },
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "FDJ United - SUEZ",
+          "ranking": 1,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Pre-race headline favourite for the Mont Ventoux queen stage."
+        },
+        {
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Targeting Swiss Grand Départ flat stages and Geneva."
+        },
+        {
+          "id": "marlen-reusser",
+          "name": "REUSSER Marlen",
+          "team": "Movistar Team",
+          "ranking": 3,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "time-trial",
+            "gc-contender",
+            "classics"
+          ],
+          "notes": "Swiss home favourite for the Swiss Grand Départ; Dijon ITT specialist."
+        },
+        {
+          "id": "elisa-longo-borghini",
+          "name": "LONGO BORGHINI Elisa",
+          "team": "UAE Team ADQ",
+          "ranking": 4,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "classics",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "classics"
+          ]
+        },
+        {
+          "id": "elise-chabbey",
+          "name": "CHABBEY Elise",
+          "team": "FDJ United - SUEZ",
+          "ranking": 6,
+          "nationality": "Switzerland",
+          "nationalityCode": "CH",
+          "specialties": [
+            "climber",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "anna-van-der-breggen",
+          "name": "VAN DER BREGGEN Anna",
+          "team": "Team SD Worx - Protime",
+          "ranking": 10,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ],
+          "notes": "French home favourite — major fan storyline for the Mont Ventoux stage."
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "cat-ferguson",
+          "name": "FERGUSON Cat",
+          "team": "Movistar Team",
+          "ranking": 19,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "climber"
+          ]
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "Team SD Worx - Protime",
+          "ranking": 30,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "all-rounder",
+            "classics",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "kasia-niewiadoma",
+          "name": "NIEWIADOMA Kasia",
+          "team": "Canyon-SRAM zondacrypto",
+          "nationality": "Poland",
+          "nationalityCode": "PL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "gravel-tour-hlinsko-2026",
@@ -31843,7 +31993,64 @@
         ],
         "watchNotes": "The Waseberg ascents in the closing 30km decide the race. A reduced group will reach Hamburg most years, with sprinters/puncheurs duking it out on the Elbe-side finish straight.",
         "historicalContext": "First held in 1996, the ADAC Cyclassics (formerly the EuroEyes Cyclassics) has been on the UCI WorldTour since the series' 2005 launch. Hamburg's premier one-day race, traditionally held in mid-August after the Tour de France and before the Vuelta a España build-up."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Deceuninck",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "classics"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "biniam-girmay",
+          "name": "GIRMAY Biniam",
+          "team": "Intermarché-Wanty",
+          "nationality": "Eritrea",
+          "nationalityCode": "ER",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "la-polynormande-2026",
@@ -33815,6 +34022,65 @@
           "nationality": "Switzerland",
           "nationalityCode": "SW",
           "specialties": []
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "classics",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "biniam-girmay",
+          "name": "GIRMAY Biniam",
+          "team": "Intermarché-Wanty",
+          "nationality": "Eritrea",
+          "nationalityCode": "ER",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "kevin-vauquelin",
+          "name": "VAUQUELIN Kévin",
+          "team": "Arkéa B&B Hotels",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "classics"
+          ],
+          "notes": "French home favourite on Breton terrain."
+        },
+        {
+          "id": "matteo-jorgenson",
+          "name": "JORGENSON Matteo",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "classics",
+            "all-rounder"
+          ]
         }
       ],
       "raceDetails": {
