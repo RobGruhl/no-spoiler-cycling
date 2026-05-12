@@ -19454,13 +19454,19 @@
           "description": "Short Calabrian stage with the Cozzo Tunno Cat 2 climb to liven up the day.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Italian Giro begins in Calabria. Reduced sprint or breakaway depending on the Cozzo Tunno ascent.",
+            "courseSummary": "Stage 4 opens the Italian leg of the 2026 Giro after the Bulgarian opener and rest-day transfer. 138km from Catanzaro to Cosenza in Calabria with a finale shaped by a 14.4km climb averaging 5.9% — a punchy hilltop run-in rather than a true summit finish. The terrain doesn't decide the GC but offers the first taste of Italian climbing for a Giro that has spent its first three days on flat Bulgarian roads.",
             "keyClimbs": [
               {
                 "name": "Cozzo Tunno",
                 "category": "2"
               }
-            ]
+            ],
+            "narratives": [
+              "First Italian stage after the Grande Partenza in Bulgaria — peloton arrives jet-lagged but motivated.",
+              "Calabrian hills welcome the Giro back to its homeland with a punchy uphill finale.",
+              "Stage suits classics-and-puncheur riders rather than pure sprinters or GC climbers."
+            ],
+            "watchNotes": "The 14.4km closing climb is steady enough that the bunch may stay together; watch for late attacks from breakaway specialists or puncheurs looking to steal seconds before stages 5 and 7 stress the GC."
           }
         },
         {
@@ -19482,7 +19488,14 @@
                 "name": "Montagna Grande di Viggiano",
                 "category": "2"
               }
-            ]
+            ],
+            "courseSummary": "Stage 5 is a 203km medium-mountain test from Praia a Mare to Potenza in Basilicata, with 4,100m of elevation gain making it one of the more demanding non-summit-finish days of the race. Continuous up-and-down terrain through the southern Italian Apennines wears down legs without ever reaching the high mountains — a stage where the breakaway has a strong chance of staying clear.",
+            "narratives": [
+              "Hidden queen stage: 4,100m of climbing over 203km is more elevation than several supposed mountain stages later in the race.",
+              "Basilicata's rugged interior is classic Giro breakaway terrain — opportunists target this stage early in their planning.",
+              "First true GC stress test: legs sapped today translate to vulnerabilities on stages 7 and 9."
+            ],
+            "watchNotes": "Watch the breakaway composition closely — if GC-relevant riders sit in the move, the peloton has to chase and tactical fireworks follow."
           }
         },
         {
@@ -19499,7 +19512,13 @@
           "description": "Coastal stage from Paestum to Naples — classic Giro postcard finish.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Mostly flat with the Fuorigrotta rise approaching the Naples finish."
+            "courseSummary": "Stage 6 covers 142km from Paestum to Naples — the Giro's symbolic return to one of Italy's most cycling-passionate cities. The route is largely flat but the closing kilometre features a cobbled section and a sharp U-turn with 400m to go, complicating what would otherwise be a clean bunch sprint.",
+            "narratives": [
+              "Naples returns to the Giro after a decade away — fans line the route from the Vesuvius slopes to the seafront finish.",
+              "The 400m U-turn into the finishing straight is the kind of technical hazard that decides who wins.",
+              "Cobbled finishing strait stress-tests positioning more than horsepower."
+            ],
+            "watchNotes": "Lead-out trains have to nail the U-turn in formation; expect crashes and disorganised sprints. The cobbled run-in favours bike-handlers over pure power sprinters."
           }
         },
         {
@@ -19517,7 +19536,7 @@
           "description": "First mountain showdown — long day to the iconic Blockhaus summit.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "244km with Roccaraso mid-stage before the brutal Blockhaus Cat 1 summit finish in the Majella massif.",
+            "courseSummary": "Stage 7 is the queen-stage debut of the climbers — 244km (longest of the race) from Formia to a summit finish on Blockhaus, a 13.6km climb averaging 8.4% in the Majella massif of Abruzzo. The first proper uphill finish of the 2026 Giro and the day pure climbers have been targeting since the route reveal.",
             "keyClimbs": [
               {
                 "name": "Roccaraso",
@@ -19529,7 +19548,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "First major GC shake-up. Watch the long Blockhaus climb for selection among favorites."
+            "watchNotes": "The decisive moves come at 5-7km from the summit. Anyone losing more than 90 seconds today effectively drops from GC contention.",
+            "narratives": [
+              "Blockhaus is one of Italy's hardest summit finishes — 8.4% over 13.6km with sections at 14% punishes anyone not at climbing weight.",
+              "Longest stage at 244km means legs are gone before the climb starts — selection happens naturally rather than via tactical fireworks.",
+              "First real GC selection of the 2026 Giro; the standings after Blockhaus shape the next two weeks."
+            ]
           }
         },
         {
@@ -19546,14 +19570,20 @@
           "description": "Tirreno-style hilly day with four categorised climbs ending atop Fermo.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Adriatic hills with the punchy 3.4km / 6.1% finish climb to Fermo.",
+            "courseSummary": "Stage 8 is 156km along the Adriatic coast from Chieti to Fermo with the final 60km featuring a series of short, steep climbs leading into a narrow cobbled old-town finish. A puncheur-and-classics rider profile — Strade Bianche-style attacks expected on the closing climbs.",
             "keyClimbs": [
               {
                 "name": "Fermo (final)",
                 "length": "3.4km",
                 "avgGradient": "6.1%"
               }
-            ]
+            ],
+            "narratives": [
+              "Final 60km is a punchy finale designed for Italian classics specialists.",
+              "Narrow cobbled finish through Fermo's medieval old town turns positioning into the decisive variable.",
+              "The day after Blockhaus: GC teams may sit conservatively while the puncheurs attack."
+            ],
+            "watchNotes": "Watch the last 3 climbs — the kind that produces solo attacks 5-10km from the line. The cobbled finish punishes anyone caught out of position."
           }
         },
         {
@@ -19581,7 +19611,14 @@
                 "avgGradient": "5.9%",
                 "summit": true
               }
-            ]
+            ],
+            "courseSummary": "Stage 9 closes the first GC-stressful block with a 184km mountain stage from Cervia to a summit finish at Corno alle Scale in the Apennines (Bologna province). The final climb is the hardest of the day and the second summit finish of the race after Blockhaus on stage 7.",
+            "narratives": [
+              "Second summit finish in three days — the front of GC may dramatically reshape this week.",
+              "Corno alle Scale rises out of the Bologna foothills; consistent gradients rather than the Blockhaus brutality.",
+              "Last GC chance before the rest day — teams will go all-in rather than save for after."
+            ],
+            "watchNotes": "Saturday before rest day = full-gas racing. Watch for GC leaders going on the offensive rather than defending; the rest day buys recovery."
           }
         },
         {
@@ -19609,8 +19646,13 @@
           "description": "Long 42km individual time trial along the Tuscan coast — major GC test.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Flat 42km coastal ITT from Viareggio to Massa. The Giro's biggest race-of-truth.",
-            "watchNotes": "TT specialists can take huge time today; pure climbers must limit losses."
+            "courseSummary": "Stage 10 is a 42km individual time trial from Viareggio to Massa along the Tuscan coast — one of the longest ITTs in a Giro in years and a major GC reshape opportunity. Flat-to-rolling course rewards pure TT specialists and big-engine GC riders, punishing pure climbers.",
+            "watchNotes": "Watch the early intermediates — power TT specialists will set times, then the GC leaders' splits reveal who's racing for the maglia rosa.",
+            "narratives": [
+              "42km TT is meaningfully long: time gaps can be 2+ minutes between top TT specialists and pure climbers.",
+              "Coming after the rest day, riders can come out flying or stiff — TT performance is unpredictable post-rest-day.",
+              "Decisive GC moment: anyone who lost time on Blockhaus can claw it back here, or vice versa."
+            ]
           }
         },
         {
@@ -19641,7 +19683,14 @@
                 "length": "4.6km",
                 "avgGradient": "6.3%"
               }
-            ]
+            ],
+            "courseSummary": "Stage 11 covers 195km from Porcari to Chiavari on the Ligurian coast. A medium-mountain day with multiple climbs and a coastal finish in Chiavari — terrain that suits both breakaway specialists and puncheurs hunting a stage win on the way to the high mountains.",
+            "narratives": [
+              "Liguria's hilly coastline gives plenty of launch points for ambitious breakaways.",
+              "Day after ITT, GC teams typically defend rather than attack — breakaways have a long leash.",
+              "Bridge stage between Tuscan TT and the Piedmont/Alpine high mountains to come."
+            ],
+            "watchNotes": "Watch which teams put riders in the breakaway and whether the GC leader's team sets the tempo or lets the move ride away."
           }
         },
         {
@@ -19657,7 +19706,14 @@
           "url": "TBD",
           "description": "Sprint day with two categorised climbs in the second half.",
           "stageDetails": {
-            "spoilerSafe": true
+            "spoilerSafe": true,
+            "courseSummary": "Stage 12 is the cleanest sprinter's stage of the second week — 175km flat from Imperia to Novi Ligure in Piedmont. After the Ligurian coastal hills, the route smooths into rolling Piedmont terrain ideal for organised lead-out trains.",
+            "narratives": [
+              "Pure sprint expected — the sprinters' classification regains importance as the climbers eye the high Alps.",
+              "Piedmont rolling roads after Ligurian coastal climbs — break-friendly terrain that ultimately yields to a bunch finish.",
+              "Last realistic sprint opportunity before the final-week mountains."
+            ],
+            "watchNotes": "Lead-out trains have plenty of room to organise; watch for sprinter teams burning matches early to keep the break in check."
           }
         },
         {
@@ -19683,7 +19739,14 @@
                 "name": "Ungiasca",
                 "category": "3"
               }
-            ]
+            ],
+            "courseSummary": "Stage 13 is a 189km flat-to-rolling transition stage from Alessandria to Verbania on Lago Maggiore. The route flirts with the foothills before opening into a flat run-in to the lakeside finish — a breakaway opportunity or a bunch sprint depending on team incentives.",
+            "narratives": [
+              "Lago Maggiore finish is one of the Giro's most picturesque settings — TV showcase stage.",
+              "Stage profile slots between sprinter terrain and Alpine high mountains: tactically uncertain.",
+              "Breakaway day potential: GC teams may sit back ahead of stage 14's Pila summit finish."
+            ],
+            "watchNotes": "Breakaway riders eye this as a 'free' stage where GC teams don't chase hard. Watch the gap at 50km to go — that decides whether the break survives."
           }
         },
         {
@@ -19701,7 +19764,7 @@
           "description": "Alpine queen-stage prequel: short, sharp, five climbs ending at Pila.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Multiple Aosta-valley ascents converge on the Pila summit finish (16.6km @ 7.1%).",
+            "courseSummary": "Stage 14 is a short, sharp 133km mountain stage from Aosta to a summit finish at Pila in the Aosta Valley. The third summit finish of the race and the first true Alpine day. Short distance means full-gas climbing from the gun rather than slow attrition.",
             "keyClimbs": [
               {
                 "name": "Saint-Barthélémy",
@@ -19725,7 +19788,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "Short and savage — fireworks expected with five climbs in 133km."
+            "watchNotes": "Watch for attacks from 8-10km out — the short distance encourages early aggression. Time gaps could be 2+ minutes between top and 10th.",
+            "narratives": [
+              "Aosta Valley return — the Giro revisits classic Italian Alpine terrain.",
+              "Short Alpine stages produce bigger GC time gaps than long ones because the GC riders attack earlier.",
+              "Crucial weekend: stage 14 + stage 15 (sprint reset) + Alpine block ahead."
+            ]
           }
         },
         {
@@ -19741,7 +19809,14 @@
           "url": "TBD",
           "description": "Pure sprint into Milan — last flat opportunity before the high mountains.",
           "stageDetails": {
-            "spoilerSafe": true
+            "spoilerSafe": true,
+            "courseSummary": "Stage 15 is a 157km flat day from Voghera to Milano — the sprinters' final realistic chance and the symbolic ride into Italy's cycling capital. Pure pancake terrain into a city-centre Milan finish on a closing circuit.",
+            "narratives": [
+              "Last sprint stage before the Alps swallow the final week — sprinters' classification battle peaks here.",
+              "Milan finish carries weight: ride into Piazza del Duomo or alongside the Galleria draws Italian crowds.",
+              "Day before rest day = sprint stage = chaos before the climbers take over."
+            ],
+            "watchNotes": "Pure sprint expected. Watch the lead-out trains and whether the maglia ciclamino (points jersey) leader contests for points or saves legs for the final week."
           }
         },
         {
@@ -19783,7 +19858,14 @@
                 "avgGradient": "8%",
                 "summit": true
               }
-            ]
+            ],
+            "courseSummary": "Stage 16 opens the Giro's third week with a short, brutal 113km mountain stage from Bellinzona (Switzerland) to a summit finish at Carì. Swiss Alpine terrain, low-distance high-vertical profile — designed for full-gas attacking from the gun.",
+            "narratives": [
+              "Swiss Alpine excursion: 2026 Giro briefly leaves Italy for high-altitude Ticino terrain.",
+              "Short mountain stages favour ambush attacks — this is exactly the kind of day where GC standings flip.",
+              "First day after rest day historically unpredictable — some come out flying, others stiff."
+            ],
+            "watchNotes": "GC riders' rest-day recovery is the big variable. The shorter the stage, the more concentrated the attacks — watch for moves with 25km still to go."
           }
         },
         {
@@ -19799,7 +19881,14 @@
           "url": "TBD",
           "description": "Long transitional stage with an uphill finale to Andalo.",
           "stageDetails": {
-            "spoilerSafe": true
+            "spoilerSafe": true,
+            "courseSummary": "Stage 17 is 202km from Cassano d'Adda to a summit-style finish at Andalo in the Brenta Dolomites. Long-distance hilly day building to the closing climb — pure climbers' terrain that rewards riders who can survive a long approach before the steep finale.",
+            "narratives": [
+              "Long approach + Alpine finish is the classic Giro template for grinding down GC opposition.",
+              "Andalo's finish climb is shorter but steep enough to produce decisive selections.",
+              "Mid-Dolomite block: stages 17-19 form the GC-decisive trilogy of the final week."
+            ],
+            "watchNotes": "Watch how strong the GC leader's team is on the long approach — if isolated, the closing climb becomes vulnerable to attacks from rivals' helpers."
           }
         },
         {
@@ -19821,7 +19910,14 @@
                 "name": "Muro di Ca' del Poggio",
                 "kmFromFinish": 10
               }
-            ]
+            ],
+            "courseSummary": "Stage 18 is 171km from Fai della Paganella to Pieve di Soligo through the Veneto/Dolomite foothills. Multiple climbs without a summit finish — classic ambush-stage profile where ambitious GC riders can attack on descents and rolling roads rather than waiting for a summit.",
+            "narratives": [
+              "Veneto Dolomite foothills bring the kind of rolling-but-relentless terrain that suits attackers.",
+              "No summit finish but with 4,000m+ of elevation gain — fatigue accumulates without the safety of a defined finale.",
+              "Final-week ambush stage: the kind of day Roglic and Pogačar built their reputations on with long-range attacks."
+            ],
+            "watchNotes": "Watch the descents — riders willing to risk on technical sections can gap rivals here. The Pieve di Soligo run-in is rolling, not a sprint."
           }
         },
         {
@@ -19839,7 +19935,7 @@
           "description": "Dolomites queen stage — Passo Giau as Cima Coppi (2,305m).",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Passo Duran, Staulanza, the Passo Giau (Cima Coppi, 2,305m), Falzarego, then the brutal Piani di Pezzè summit (4.9km @ 9.8%).",
+            "courseSummary": "Stage 19 is the marquee Dolomite stage — 151km from Feltre to a summit finish at Alleghe (Piani di Pezzè). Two classic Dolomite climbs precede the final ascent, building one of the most punishing single days of the 2026 Giro. The standings after stage 19 effectively set the podium going into stage 20.",
             "keyClimbs": [
               {
                 "name": "Passo Duran"
@@ -19863,7 +19959,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "The queen stage. If the Giro will be decided anywhere, it's here."
+            "watchNotes": "The decisive attacks tend to come on the penultimate climb, not the final ascent — riders who time it right gap the maglia rosa before the closing 10km.",
+            "narratives": [
+              "Marquee Dolomite day: the route designers' centrepiece, with iconic mountain scenery and brutal gradients.",
+              "Short distance + summit finish + multiple Dolomite passes = recipe for GC fireworks.",
+              "Last realistic chance for big GC moves before the penultimate Piancavallo and the Roman finale."
+            ]
           }
         },
         {
@@ -19893,7 +19994,14 @@
                 "avgGradient": "7.8%",
                 "summit": true
               }
-            ]
+            ],
+            "courseSummary": "Stage 20 is the penultimate-stage 200km grind from Gemona del Friuli to a summit finish at Piancavallo. Friulian foothills give way to a long, sustained climb to the ski-station finish. Final mountain stage of the 2026 Giro — last chance for GC riders chasing the maglia rosa.",
+            "narratives": [
+              "Piancavallo's long, even gradient suits riders with sustained power rather than puncheurs.",
+              "Penultimate-stage tradition: Saturday before Roman finale always produces fireworks as riders empty their tanks.",
+              "Final GC opportunity: anyone trailing the leader has only this stage left to flip the podium."
+            ],
+            "watchNotes": "Watch attacks from 8-10km out — Piancavallo rewards sustained efforts rather than short surges. Domestiques typically empty matches before the closing 15km."
           }
         },
         {
@@ -19911,7 +20019,13 @@
           "description": "Ceremonial finale in Rome — maglia rosa parades and a final sprint.",
           "stageDetails": {
             "spoilerSafe": true,
-            "watchNotes": "Classic Giro finale — champagne toasts, then a fast bunch sprint on the Roman circuit."
+            "watchNotes": "GC procession in early laps, sprint finish on the closing lap. Watch for breakaway attacks targeting the closing-circuit format — recent Roman finales have seen non-sprint wins.",
+            "courseSummary": "Stage 21 closes the 2026 Giro with a 131km circuit in Rome — a return to the Imperial capital after the 2024 inaugural Roman finish established the tradition. Flat course on a closing-laps circuit through the Roman historic centre with the Colosseum and Roman Forum as backdrop.",
+            "narratives": [
+              "Rome returns as Giro finish for the second time in three years — the format establishes alongside the Champs-Élysées tradition of the Tour.",
+              "Closing-laps circuit gives spectators multiple chances to see the peloton against Roman monuments.",
+              "GC leader's processional ride; sprinters contest the line on the Imperial Roman streets."
+            ]
           }
         }
       ],
