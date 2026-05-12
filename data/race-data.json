@@ -33136,7 +33136,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255525-2026-renewi-tour",
               "coverage": "live"
             },
             "alternatives": [
@@ -33162,7 +33162,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255525-2026-renewi-tour",
               "coverage": "live"
             }
           }
@@ -33261,7 +33261,38 @@
           "Diest Grand Départ: 2026 launches from Diest, Flemish Brabant — a new opening for the race."
         ],
         "watchNotes": "Stage 3 (Celles → Geraardsbergen) is the must-watch — the Muur loop will splinter the field. Stage 5 traditionally serves up a late GC twist if margins are thin. The day-2 ITT is the only race-of-truth, but only 13km worth.",
-        "historicalContext": "First held as the Eneco Tour in 2005, the race has cycled through multiple title sponsors (Eneco → BinckBank → Benelux → Renewi). It became a UCI WorldTour event in 2011. The combined Belgian/Dutch terrain — Flemish hills + Limburg climbs + coastal flats — has made it a perennial showcase for Classics-style riders."
+        "historicalContext": "First held as the Eneco Tour in 2005, the race has cycled through multiple title sponsors (Eneco → BinckBank → Benelux → Renewi). It became a UCI WorldTour event in 2011. The combined Belgian/Dutch terrain — Flemish hills + Limburg climbs + coastal flats — has made it a perennial showcase for Classics-style riders.",
+        "keyClimbs": [
+          {
+            "name": "Muur van Geraardsbergen",
+            "category": "3",
+            "length": 1,
+            "avgGradient": 9.3,
+            "maxGradient": 19.8,
+            "notes": "Cobbled Flemish climb featured in Renewi Tour's traditional Flemish-hills stage — punchy and explosive launching point."
+          },
+          {
+            "name": "Bosberg",
+            "category": "4",
+            "length": 0.9,
+            "avgGradient": 5.8,
+            "notes": "Cobbled Flemish climb often paired with Muur on the Flemish-hills stage."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — all-rounder profile suits the mix of sprints, hills, and time trials.",
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian home-roads favourite, ideal for the cobbled Flemish-hills stage.",
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — Dutch home-roads star, similar all-terrain dominance."
+          ],
+          "stageHunters": [
+            "MERLIER Tim (BEL / Soudal Quick-Step) — Belgian sprinter for flat sprint stages.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — top classics-sprinter for puncheur-friendly stages.",
+            "PHILIPSEN Jasper (BEL / Alpecin-Premier Tech) — pure sprinter for the bunch finishes.",
+            "MEEUS Jordi (BEL / Red Bull - BORA - hansgrohe) — Belgian sprinter target.",
+            "WÆRENSKJOLD Søren (NOR / Uno-X Mobility) — TT-strong rouleur for the prologue/ITT."
+          ]
+        }
       }
     },
     {
@@ -34674,7 +34705,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255523-2026-bretagne-classic-ouest",
               "coverage": "live"
             }
           }
@@ -34760,7 +34791,30 @@
           "Breton crowd: One of the most fervently supported one-day races in France — the local Plouay community treats it as a regional festival."
         ],
         "watchNotes": "Decisive moves typically come on the final two laps of the Plouay circuit. Reduced-bunch finishes are common; pure bunch sprints are rare given the punchy circuit terrain.",
-        "historicalContext": "First held in 1931 as the Grand Prix de Plouay, the race was renamed Bretagne Classic — Ouest-France in 2015 and joined the UCI WorldTour the same year. Sponsored by the Ouest-France newspaper, the event is the largest cycling fixture in Brittany and a regional cultural institution."
+        "historicalContext": "First held in 1931 as the Grand Prix de Plouay, the race was renamed Bretagne Classic — Ouest-France in 2015 and joined the UCI WorldTour the same year. Sponsored by the Ouest-France newspaper, the event is the largest cycling fixture in Brittany and a regional cultural institution.",
+        "keyClimbs": [
+          {
+            "name": "Côte de Ty Marrec",
+            "category": "3",
+            "length": 1.2,
+            "avgGradient": 8,
+            "notes": "Punchy Breton climb featured multiple times on the closing finishing circuit."
+          },
+          {
+            "name": "Breton finishing circuit",
+            "category": "4",
+            "notes": "Series of short steep kickers on the closing laps — punchy classics terrain."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "PEDERSEN Mads (DEN / Lidl - Trek) — top classics-sprinter; Breton terrain rewards his durability through the closing laps.",
+            "DE LIE Arnaud (BEL / Lotto Intermarché) — Belgian puncheur-sprinter ideal for the punchy finishing circuit.",
+            "GIRMAY Biniam (ERI / Intermarché-Wanty) — Eritrean classics-sprinter on a finish where reduced-bunch sprints often decide.",
+            "JORGENSON Matteo (USA / Team Visma | Lease a Bike) — Visma's strongest classics rider for the punchy Breton terrain.",
+            "VAUQUELIN Kévin (FRA / INEOS Grenadiers) — French puncheur with home-roads motivation; the Plouay tradition is a season target."
+          ]
+        }
       }
     },
     {
@@ -36493,7 +36547,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255540-2026-grand-prix-cycliste-de-quebec",
               "coverage": "live"
             }
           }
@@ -36509,7 +36563,41 @@
           "Canadian crowd: One of North America's marquee WorldTour fixtures — large crowds throughout the old-Québec finishing area."
         ],
         "watchNotes": "Race typically explodes in the closing 30km as climbers and puncheurs launch attacks on the Côte de la Montagne. Reduced-bunch finishes are the norm.",
-        "historicalContext": "The Grand Prix Cycliste de Québec was first held in 2010 alongside its sister event in Montréal, both quickly joining the UCI WorldTour calendar. They are the only Canadian WorldTour fixtures and bring the world's top professional teams to North America each September."
+        "historicalContext": "The Grand Prix Cycliste de Québec was first held in 2010 alongside its sister event in Montréal, both quickly joining the UCI WorldTour calendar. They are the only Canadian WorldTour fixtures and bring the world's top professional teams to North America each September.",
+        "keyClimbs": [
+          {
+            "name": "Côte de la Montagne",
+            "category": "3",
+            "length": 0.4,
+            "avgGradient": 10,
+            "maxGradient": 13,
+            "notes": "Short steep cobbled climb in Old Quebec — featured multiple times on the closing finishing circuit."
+          },
+          {
+            "name": "Côte de la Potasse",
+            "category": "4",
+            "length": 0.3,
+            "avgGradient": 9,
+            "notes": "Sharp punchy climb on the closing laps — secondary launching point."
+          },
+          {
+            "name": "Côte de Salaberry",
+            "category": "4",
+            "length": 0.4,
+            "avgGradient": 8,
+            "notes": "Final climbing kicker before the finish line on each lap."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — Quebec circuit suits his climber-puncheur profile perfectly; the World Champion targets these races as Worlds prep.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion with explosive punchy-climber strength.",
+            "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — climber-puncheur ideal for the Côte de la Montagne repeats.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — survives the climbs, contests the reduced sprint at the line.",
+            "VAUQUELIN Kévin (FRA / INEOS Grenadiers) — French all-rounder with Worlds-prep motivation.",
+            "HEALY Ben (IRL / EF Education - EasyPost) — Irish breakaway artist on repeated short steep climbs."
+          ]
+        }
       },
       "topRiders": [
         {
