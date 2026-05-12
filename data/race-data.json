@@ -30343,7 +30343,48 @@
           "Basque atmosphere: The race finishes in the heart of San Sebastián overlooking the Concha — one of the most distinctive one-day finales in the sport, with traditionally huge crowds."
         ],
         "watchNotes": "The final 60km is where the race is decided. Watch the Jaizkibel ascent (~60km from finish) for the first major selection, and then the closing-circuit climbs for solo or small-group attacks. Bunch sprints are rare given the terrain.",
-        "historicalContext": "First held in 1981, the Donostia San Sebastián Klasikoa is one of the modern era's youngest one-day classics but has quickly built prestige — a frequent stop for Vuelta a España GC contenders sharpening form. The race rebranded from 'Clásica San Sebastián' to its current Basque-language name in recent editions to reflect its Basque Country identity."
+        "historicalContext": "First held in 1981, the Donostia San Sebastián Klasikoa is one of the modern era's youngest one-day classics but has quickly built prestige — a frequent stop for Vuelta a España GC contenders sharpening form. The race rebranded from 'Clásica San Sebastián' to its current Basque-language name in recent editions to reflect its Basque Country identity.",
+        "keyClimbs": [
+          {
+            "name": "Jaizkibel",
+            "category": "2",
+            "length": 7.8,
+            "avgGradient": 5.7,
+            "maxGradient": 10,
+            "kmFromFinish": 50,
+            "notes": "Classic Basque coastal climb — the iconic launching point of the Klasikoa from the first ascent. Featured in the men's race profile twice."
+          },
+          {
+            "name": "Erlaitz",
+            "category": "2",
+            "length": 3.9,
+            "avgGradient": 10.5,
+            "maxGradient": 15,
+            "kmFromFinish": 30,
+            "notes": "The decisive climb of the race — 10.5% average with sustained 12-15% sections. This is where winning solo attacks are typically launched."
+          },
+          {
+            "name": "Murgil Tontorra",
+            "category": "3",
+            "length": 1.9,
+            "avgGradient": 10.2,
+            "maxGradient": 22,
+            "kmFromFinish": 8,
+            "notes": "Brutal short steep climb 8km from the line — 10.2% average with a ramp section over 20%. The final shake-out before the descent into Donostia."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "BILBAO Pello (ESP / Bahrain - Victorious) — home-roads Basque favourite, perfect rider for the Klasikoa's repeated punchy climbs.",
+            "GALL Felix (AUT / Decathlon CMA CGM Team) — strong climber with classics ambitions; the Erlaitz gradients reward his profile.",
+            "CHRISTEN Jan (SUI / UAE Team Emirates - XRG) — Swiss climber-puncheur, the Klasikoa is exactly the kind of one-day he targets.",
+            "BISIAUX Léo (FRA / Decathlon - CMA CGM Team) — French puncheur whose explosive gradients work matches Murgil Tontorra perfectly."
+          ],
+          "darkHorses": [
+            "WIDAR Jarno (BEL / Lotto) — Belgian climber-GC project on terrain suited to a long-range attack.",
+            "RICCITELLO Matthew (USA / Israel - Premier Tech) — American climber hunting a high-profile one-day result."
+          ]
+        }
       }
     },
     {
