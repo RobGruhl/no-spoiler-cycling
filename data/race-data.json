@@ -3926,7 +3926,30 @@
           "Belgian challenge for Dutch dominance",
           "Young Belgian talents emerging"
         ],
-        "watchNotes": "Van der Poel is the heavy favorite but Worlds always delivers drama. Watch early pacing and late attacks."
+        "watchNotes": "Van der Poel is the heavy favorite but Worlds always delivers drama. Watch early pacing and late attacks.",
+        "keySectors": [
+          {
+            "name": "Hulst sand pits",
+            "surface": "sand",
+            "length": 0.3,
+            "difficulty": 5,
+            "description": "The signature feature of the Hulst CX Worlds course — deep sand sections that often dismount riders and decide the race."
+          },
+          {
+            "name": "Off-camber grass sections",
+            "surface": "dirt",
+            "length": 0.8,
+            "difficulty": 4,
+            "description": "Slick off-camber grass turns where line choice and bike handling decide seconds per lap."
+          },
+          {
+            "name": "Technical wooded singletrack",
+            "surface": "dirt",
+            "length": 0.5,
+            "difficulty": 4,
+            "description": "Tight wooded sections through the Zeeuws-Vlaanderen polder country — multiple direction changes per lap."
+          }
+        ]
       }
     },
     {
@@ -26631,7 +26654,23 @@
           "echelonRiders": [
             "Northern Classics specialists capable of forcing splits on the exposed Zealand coast and surviving the closing laps to contest a reduced sprint."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Exposed Zealand coastal roads",
+            "surface": "asphalt",
+            "length": 30,
+            "difficulty": 3,
+            "description": "Exposed coastal sections between Roskilde and Copenhagen — classic echelon territory if crosswinds blow."
+          },
+          {
+            "name": "Copenhagen city-centre circuit",
+            "surface": "asphalt",
+            "length": 5,
+            "difficulty": 2,
+            "description": "Closing-laps circuit through central Copenhagen — technical urban turns reward bike-handlers and well-drilled lead-out trains."
+          }
+        ]
       }
     },
     {
