@@ -27209,7 +27209,26 @@
           "Sondrio Grand Départ: For the first time, the Tour de Suisse Women also starts outside Switzerland — in Italian Valtellina."
         ],
         "watchNotes": "The Queen Stage (Villars-sur-Ollon, June 21) is decisive — short distance + 2,795m elevation = fireworks from km 1. The Aarburg ITT will produce meaningful GC gaps before the closing climbs.",
-        "historicalContext": "The Tour de Suisse Women was inaugurated in 2021 alongside the broader women's WorldTour expansion. Run by the same organisers as the men's race, it shares routes and gradually expanded in scope across editions."
+        "historicalContext": "The Tour de Suisse Women was inaugurated in 2021 alongside the broader women's WorldTour expansion. Run by the same organisers as the men's race, it shares routes and gradually expanded in scope across editions.",
+        "keyClimbs": [
+          {
+            "name": "Swiss Alpine summit finish",
+            "category": "1",
+            "summit": true,
+            "notes": "Queen-stage Alpine summit finish — Tour de Suisse Women's GC-decisive day on the final stage."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top WWT climbers target Swiss Alpine stage races; Vollering, Niewiadoma, Longo Borghini profiles fit the terrain.",
+            "Swiss riders use this as a home-roads season target on familiar mountain stages.",
+            "Visma/SD Worx/FDJ-Suez lead the GC fight on the queen-stage summit."
+          ],
+          "stageHunters": [
+            "Sprinters target the flat opening stage.",
+            "Breakaway specialists hunt the rolling transition days."
+          ]
+        }
       },
       "topRiders": [
         {
@@ -37198,7 +37217,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255536-2026-grand-prix-cycliste-de-montreal",
               "coverage": "live"
             }
           }
@@ -37214,7 +37233,36 @@
           "Worlds debut at the same venue: Montréal hosts the UCI Road World Championships from September 20-27, 2026 — only the second time the Worlds have come to North America."
         ],
         "watchNotes": "Decisive moves rarely come before lap 14 or 15 — the climbs gradually shed riders, with the final selection typically on the penultimate lap. Pure climbers and Classics puncheurs both feature.",
-        "historicalContext": "Founded in 2010 alongside the Québec Grand Prix, the GP de Montréal has been a UCI WorldTour fixture since the series' early years. The 2026 edition takes on added significance as the lead-up race to the UCI Road World Championships, held on essentially the same Montréal circuit."
+        "historicalContext": "Founded in 2010 alongside the Québec Grand Prix, the GP de Montréal has been a UCI WorldTour fixture since the series' early years. The 2026 edition takes on added significance as the lead-up race to the UCI Road World Championships, held on essentially the same Montréal circuit.",
+        "keyClimbs": [
+          {
+            "name": "Côte de la Camillien-Houde",
+            "category": "3",
+            "length": 1.8,
+            "avgGradient": 8,
+            "summit": false,
+            "notes": "Canonical Mont Royal launching climb — short enough to attack from far out, steep enough to thin the elite group. Multiple repeats decide the race."
+          },
+          {
+            "name": "Côte de Polytechnique",
+            "category": "4",
+            "length": 0.78,
+            "avgGradient": 6,
+            "summit": false,
+            "notes": "Short steep punch through the Université de Montréal grounds; secondary launching point on every Mont Royal circuit lap."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — multi-time GP Montréal winner; the Mont Royal climbs are tailor-made for his climber-puncheur profile.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion targeting Worlds prep on the same circuit two weeks before the road race.",
+            "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — climber-puncheur ideally suited to Camillien-Houde repeats.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion who survives the climbs and contests the reduced sprint.",
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — 2023 World Champion; the Mont Royal climbs are short enough to follow.",
+            "HEALY Ben (IRL / EF Education - EasyPost) — Irish breakaway specialist; courses with repeated short steep climbs are his speciality.",
+            "SKJELMOSE Mattias (DEN / Lidl - Trek) — Danish puncheur-climber, second card behind Pedersen."
+          ]
+        }
       },
       "topRiders": [
         {
