@@ -38799,7 +38799,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15882836-2026-uci-road-world-championships",
               "coverage": "live"
             }
           }
@@ -38815,7 +38815,32 @@
           "Relatively young event: First held at the Worlds in 2019, the Mixed Relay TT is still maturing as a discipline. Nations are still finding the right balance between specialist and rider-rotation strategies."
         ],
         "watchNotes": "Watch the time-check splits as the riders transition between gender groups — large gaps can open if a team has imbalanced TT depth. Splits are normally taken at the women→men handover and at the men→finish handover.",
-        "historicalContext": "The Team Time Trial Mixed Relay was added to the UCI Road World Championships in 2019, replacing the previous trade-team TTT format. It is the only team event at the Worlds where nations (rather than commercial teams) compete. Past winners include Netherlands, Switzerland, Germany, and Italy."
+        "historicalContext": "The Team Time Trial Mixed Relay was added to the UCI Road World Championships in 2019, replacing the previous trade-team TTT format. It is the only team event at the Worlds where nations (rather than commercial teams) compete. Past winners include Netherlands, Switzerland, Germany, and Italy.",
+        "keySectors": [
+          {
+            "name": "Montréal city-centre flat-and-rolling sections",
+            "surface": "asphalt",
+            "length": 18,
+            "difficulty": 2,
+            "description": "Mixed urban TTT terrain — fast and flat sections with technical turns reward team cohesion and TT-bike handling."
+          },
+          {
+            "name": "Mont Royal lower slopes",
+            "surface": "asphalt",
+            "length": 3,
+            "difficulty": 3,
+            "description": "Truncated section of the iconic Mont Royal climb — modest gradients but a tempo disruptor for relay teams."
+          }
+        ],
+        "favorites": {
+          "nationalTeams": [
+            "Italy — historic TTT/Mixed Relay power, with Ganna anchoring the men's leg.",
+            "Belgium — Evenepoel anchor + Van Aert + strong women's squad (Kopecky etc.).",
+            "Switzerland — perennial Mixed Relay medal candidate with Bissegger/Reusser.",
+            "Netherlands — deep across men's and women's rosters.",
+            "Australia / USA — strong national TT depth across genders, home-continent advantage for USA."
+          ]
+        }
       }
     },
     {
