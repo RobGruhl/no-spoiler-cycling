@@ -10006,7 +10006,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255404-2026-milano-sanremo-men",
               "coverage": "live"
             }
           }
@@ -10166,7 +10166,60 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Milano-Sanremo is the longest one-day race on the WT calendar — approximately 290km from Milano (with a Pavia start) to Sanremo on the Ligurian Riviera. The Classicissima is decided by the closing 30km, where the Cipressa (5.6km at 4.1%) and especially the Poggio di San Remo (3.7km at 4%, summit 9km from finish) thin the field. The Poggio descent into Sanremo is a treacherous technical run-in where the winning move often sticks. Sprinters who survive the climbs, puncheurs who attack on the Poggio, and breakaway specialists all have legitimate cards to play.",
+        "keyClimbs": [
+          {
+            "name": "Capi (Capo Mele, Capo Cervo, Capo Berta)",
+            "category": "4",
+            "length": 15,
+            "avgGradient": 3,
+            "notes": "Three short Ligurian coastal climbs in the closing 50km — used to thin the bunch before the Cipressa/Poggio."
+          },
+          {
+            "name": "Cipressa",
+            "category": "3",
+            "length": 5.6,
+            "avgGradient": 4.1,
+            "maxGradient": 9,
+            "kmFromFinish": 22,
+            "notes": "First decisive climb — launching point for ambitious puncheurs hoping to drop sprinters early."
+          },
+          {
+            "name": "Poggio di San Remo",
+            "category": "3",
+            "length": 3.7,
+            "avgGradient": 4,
+            "maxGradient": 8,
+            "kmFromFinish": 9,
+            "summit": false,
+            "notes": "Iconic decisive climb of the race — short, not steep, but the only chance for puncheurs to drop sprinters before the line. Summit 9km from the finish."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — defending World Champion targets the only Monument he has not yet won.",
+            "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — 2023 Sanremo winner; the Poggio descent suits his classics power.",
+            "GANNA Filippo (ITA / Ineos Grenadiers) — Italian power rider with sustained-effort engine for solo Poggio attacks."
+          ],
+          "sprinters": [
+            "PHILIPSEN Jasper (BEL / Alpecin-Premier Tech) — 2024 Sanremo winner; the perfect Poggio-survivor profile.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — durable classics-sprinter who survives the climbs and contests the line.",
+            "MERLIER Tim (BEL / Soudal Quick-Step) — pure sprinter banking on a bunch finish."
+          ],
+          "puncheurs": [
+            "ALAPHILIPPE Julian (FRA / Tudor Pro Cycling) — French puncheur with Poggio-attack form historically.",
+            "MOHORIČ Matej (SLO / Bahrain - Victorious) — descender-puncheur who has won Sanremo via the Poggio descent."
+          ]
+        },
+        "narratives": [
+          "La Classicissima: the longest and oldest of the Monuments (first held 1907) and the season's first Monument.",
+          "The Sprinter's Classic: traditionally suits sprinters who can survive the Poggio, though Pogačar's 2024-2025 era has reshaped the calculus.",
+          "Final-10km drama: Cipressa 22km from line, Poggio 9km from line, descent into Via Roma — every tactical card plays in these closing minutes.",
+          "Weather and wind: cold March Riviera weather + mistral risk in the Capi section can transform the race."
+        ],
+        "historicalContext": "Milano-Sanremo is the oldest of the five Monuments, first held in 1907. Known as La Classicissima or La Primavera (the Spring), it opens the Monument season every March. The race traditionally favours sprinters who can survive the Cipressa and Poggio climbs, but puncheurs and breakaway specialists with bold tactics on the Poggio have produced famous solo wins. Eddy Merckx still holds the record with 7 victories.",
+        "watchNotes": "The race is dormant for the first 250km — tune in for the closing 50km when the Capi-Cipressa-Poggio sequence decides everything. The Poggio descent into Sanremo is technical and high-stakes. Disable autoplay and avoid sidebar recommendations."
       }
     },
     {
@@ -10219,14 +10272,49 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255409-2026-milano-sanremo-women",
               "coverage": "live"
             }
           }
         }
       },
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Milano-Sanremo Donne — the women's Classicissima, returning to the WWT calendar in 2026 after a previous hiatus. Approximately 132km along the Ligurian Riviera, finishing in Sanremo with the same iconic Cipressa-Poggio closing sequence as the men's race. The shorter distance favours classics-sprinters and puncheurs, but the closing climbs still produce the decisive selection.",
+        "keyClimbs": [
+          {
+            "name": "Cipressa",
+            "category": "3",
+            "length": 5.6,
+            "avgGradient": 4.1,
+            "kmFromFinish": 22,
+            "notes": "Shared with men's race — first decisive launching point."
+          },
+          {
+            "name": "Poggio di San Remo",
+            "category": "3",
+            "length": 3.7,
+            "avgGradient": 4,
+            "kmFromFinish": 9,
+            "notes": "Iconic Poggio — same decisive climb as men's race. Summit 9km from finish."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WWT classics-sprinters who handle hilly finishes — Wiebes, Kopecky, Vos profiles fit.",
+            "Italian home-roads riders use this as a marquee season target."
+          ],
+          "puncheurs": [
+            "Puncheurs who can attack on the Poggio to drop pure sprinters."
+          ]
+        },
+        "narratives": [
+          "Returning Classic: Milano-Sanremo Donne returns to the WWT calendar after a hiatus — a milestone for women's Monument-tier racing.",
+          "Same iconic finale: the Cipressa-Poggio closing sequence is the same dramatic finale that defines the men's race.",
+          "Shorter but selective: 132km is shorter than men's 290km, but the closing climbs still determine the winning move."
+        ],
+        "historicalContext": "The women's edition of Milano-Sanremo was previously held as a separate race (Primavera Rosa, 1999-2005) before being discontinued. Its return to the WWT calendar in 2025-2026 marks a major addition to the women's Monument-tier calendar.",
+        "watchNotes": "As with the men's race, the action is in the closing 50km. Watch the Poggio for puncheur attacks aiming to drop the sprinters before the Via Roma finish."
       }
     },
     {
