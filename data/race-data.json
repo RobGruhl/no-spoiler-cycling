@@ -11410,15 +11410,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/15448900-2026-dwars-door-vlaanderen-men",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -11438,7 +11430,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
@@ -11639,15 +11638,7 @@
               "subscription": true,
               "url": "https://www.flobikes.com/events/14823641-2026-dwars-door-vlaanderen-women",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -11667,7 +11658,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "lastFetched": "2026-04-17T12:00:00.000Z",
