@@ -25400,15 +25400,7 @@
               "coverage": "live",
               "broadcasterId": "flobikes",
               "notes": "Full live + on-demand coverage on FloBikes US."
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -25430,7 +25422,14 @@
               "notes": "Full live + on-demand coverage on FloBikes Canada."
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "GCN Racing",
+            "handle": "@GCNRacing",
+            "contentType": "highlights"
+          }
+        ]
       },
       "stages": [
         {
@@ -28994,15 +28993,7 @@
               "subscription": true,
               "url": "https://www.peacocktv.com",
               "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "NBC Sports YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@NBCSports",
-                "coverage": "highlights"
-              }
-            ]
+            }
           },
           "UK": {
             "primary": {
@@ -29022,7 +29013,14 @@
               "coverage": "live"
             }
           }
-        }
+        },
+        "youtubeChannels": [
+          {
+            "channel": "NBC Sports",
+            "handle": "@NBCSports",
+            "contentType": "highlights"
+          }
+        ]
       }
     },
     {
