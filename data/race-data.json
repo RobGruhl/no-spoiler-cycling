@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T02:20:44.038Z",
+  "lastUpdated": "2026-05-12T02:21:55.182Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -37864,8 +37864,91 @@
           "Field depth: The Worlds TT consistently draws the strongest specialists from the WT plus dedicated TT teams — expect 60–80 starters across the elite men's start list."
         ],
         "watchNotes": "TT specialists typically separate from generalists by the second time check. The closing 10km — with its short urban climbs — has the highest variance and often shapes the final podium.",
-        "historicalContext": "The UCI Road World Championship Individual Time Trial has been contested since 1994 (a separate event from the Worlds Road Race). It is held annually on the opening weekend of the Road Worlds week. Montréal 2026 is only the second North-American Worlds since 2003 (Hamilton)."
-      }
+        "historicalContext": "The UCI Road World Championship Individual Time Trial has been contested since 1994 (a separate event from the Worlds Road Race). It is held annually on the opening weekend of the Road Worlds week. Montréal 2026 is only the second North-American Worlds since 2003 (Hamilton).",
+        "favorites": {
+          "rainbowFavorites": [
+            "GANNA Filippo (ITA / Ineos Grenadiers) — multi-time TT World Champion and the benchmark on a power-and-pacing course like Montréal.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — reigning Olympic TT champion and the rider to beat on rolling-urban TT courses.",
+            "TARLING Joshua (GBR / Ineos Grenadiers) — emerging British power specialist who has closed the gap to Ganna and Evenepoel.",
+            "MCNULTY Brandon (USA / UAE Team Emirates - XRG) — versatile TT-and-climbing specialist on home-continent roads.",
+            "BISSEGGER Stefan (SUI / Decathlon CMA CGM Team) — pure power TT specialist who thrives on technical urban courses."
+          ],
+          "darkHorses": [
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — second Belgian card if Evenepoel falters; classics-power profile suits the rolling Montréal terrain.",
+            "WÆRENSKJOLD Søren (NOR / Uno-X Mobility) — Norwegian time-trial-strong sprinter capable of medal contention.",
+            "FOSS Tobias (NOR / Ineos Grenadiers) — 2022 TT world champion still in the medal mix on the right course."
+          ]
+        }
+      },
+      "topRiders": [
+        {
+          "id": "filippo-ganna",
+          "name": "GANNA Filippo",
+          "team": "INEOS Grenadiers",
+          "ranking": 25,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "time-trial",
+            "all-rounder"
+          ],
+          "notes": "Reigning multi-time TT World Champion; benchmark on rolling-power courses."
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "time-trial",
+            "gc-contender"
+          ],
+          "notes": "Olympic TT champion targeting his next rainbow on Montréal's rolling course."
+        },
+        {
+          "id": "brandon-mcnulty",
+          "name": "MCNULTY Brandon",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 15,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "gc-contender",
+            "time-trial"
+          ],
+          "notes": "Versatile TT-and-climbing US rider on home-continent roads."
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder",
+            "puncheur"
+          ],
+          "notes": "Belgium's second TT card; suits rolling Montréal terrain."
+        },
+        {
+          "id": "soren-waerenskjold",
+          "name": "WÆRENSKJOLD Søren",
+          "team": "Uno-X Mobility",
+          "ranking": 44,
+          "nationality": "Norway",
+          "nationalityCode": "NO",
+          "specialties": [
+            "time-trial",
+            "sprinter"
+          ],
+          "notes": "Norwegian TT specialist in medal mix."
+        }
+      ]
     },
     {
       "id": "world-championships-mixed-relay-tt-2026",
