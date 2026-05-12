@@ -959,7 +959,33 @@
         "lastFetched": "2026-01-26T00:00:00.000Z",
         "spoilerSafe": true,
         "courseSummary": "Benidorm offers a unique Spanish setting with beach sand sections and warm Mediterranean weather. The course tests both sand skills and endurance.",
-        "watchNotes": "Warmer conditions than Belgian races mean different tire choices and tactics."
+        "watchNotes": "Warmer conditions than Belgian races mean different tire choices and tactics.",
+        "keySectors": [
+          {
+            "name": "Benidorm beach sand",
+            "surface": "sand",
+            "length": 0.4,
+            "difficulty": 5,
+            "description": "Iconic Benidorm sand section — signature feature of the Spanish CX round."
+          },
+          {
+            "name": "Coastal park grass turns",
+            "surface": "dirt",
+            "length": 0.6,
+            "difficulty": 3,
+            "description": "Off-camber coastal park sections with technical line choice."
+          }
+        ],
+        "favorites": {
+          "sandSpecialists": [
+            "Mathieu van der Poel — beach sand expert; Benidorm suits his power-and-handling profile.",
+            "Eli Iserbyt — Belgian sand specialist with strong UCI CX World Cup record."
+          ],
+          "powerRiders": [
+            "Wout van Aert — power-and-handling combination ideal for coastal CX.",
+            "Lars van der Haar — Dutch veteran with consistent World Cup form."
+          ]
+        }
       }
     },
     {
@@ -2228,7 +2254,40 @@
         "lastFetched": "2026-01-26T00:00:00.000Z",
         "spoilerSafe": true,
         "courseSummary": "Hoogerheide's GP Adrie van der Poel course is a power circuit with short punchy climbs, perfect for testing Worlds form.",
-        "watchNotes": "Final form test before Worlds - watch who is peaking at the right time."
+        "watchNotes": "Final form test before Worlds - watch who is peaking at the right time.",
+        "keySectors": [
+          {
+            "name": "Hoogerheide sand pits",
+            "surface": "sand",
+            "length": 0.3,
+            "difficulty": 5,
+            "description": "Multiple sand sections per lap — classic Dutch CX World Cup terrain."
+          },
+          {
+            "name": "Wooded singletrack",
+            "surface": "dirt",
+            "length": 0.7,
+            "difficulty": 4,
+            "description": "Technical wooded sections with tight turns and elevation changes."
+          },
+          {
+            "name": "Off-camber grass",
+            "surface": "dirt",
+            "length": 0.5,
+            "difficulty": 4,
+            "description": "Slick off-camber turns where line choice and tyre pressure decide seconds."
+          }
+        ],
+        "favorites": {
+          "sandSpecialists": [
+            "Mathieu van der Poel — Dutch home-roads sand specialist.",
+            "Lars van der Haar — Dutch veteran with deep Hoogerheide pedigree."
+          ],
+          "powerRiders": [
+            "Wout van Aert — Belgian power-and-handling combination.",
+            "Eli Iserbyt — Belgian CX World Cup specialist."
+          ]
+        }
       }
     },
     {
