@@ -31324,7 +31324,35 @@
           "Tour de France warm-down: For some of the WorldTour's GC contenders, the Tour de Pologne is the first hit-out after the Tour de France — fresh legs or fatigue can flip race tactics."
         ],
         "watchNotes": "Bonus seconds at intermediate sprints have historically been decisive given how tight the GC tends to be in Poland — watch for sprinters' teams shifting from pure bunch-sprint mode to bonus hunting on transitional stages.",
-        "historicalContext": "Founded in 1928 as an amateur event and fully professional since 1993, the Tour de Pologne joined the UCI WorldTour in 2005. It remains the only WorldTour stage race in central Europe, organised by the company Lang since 1993. Past editions have featured a mix of climbing-test stages around Karpacz and Zakopane and bunch-sprint days on the way south."
+        "historicalContext": "Founded in 1928 as an amateur event and fully professional since 1993, the Tour de Pologne joined the UCI WorldTour in 2005. It remains the only WorldTour stage race in central Europe, organised by the company Lang since 1993. Past editions have featured a mix of climbing-test stages around Karpacz and Zakopane and bunch-sprint days on the way south.",
+        "keyClimbs": [
+          {
+            "name": "Bukowina Tatrzańska",
+            "category": "1",
+            "summit": true,
+            "notes": "Tatra Mountains climb — traditional Tour de Pologne GC-decisive summit finish."
+          },
+          {
+            "name": "Tatra range stages",
+            "category": "1",
+            "summit": true,
+            "notes": "Multi-stage Tatra Alpine block — the most decisive climbing window of the race."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "DEL TORO Isaac (MEX / UAE Team Emirates - XRG) — UCI top-tier GC talent; the Tatra summit finishes match his climber-puncheur profile.",
+            "MCNULTY Brandon (USA / UAE Team Emirates - XRG) — Tour de Pologne specialist for UAE; multiple podiums and the all-rounder profile for Polish terrain.",
+            "VINE Jay (AUS / UAE Team Emirates - XRG) — third UAE climbing card on a course they can dominate.",
+            "SKJELMOSE Mattias (DEN / Lidl - Trek) — versatile climber-puncheur with GC ambitions."
+          ],
+          "stageHunters": [
+            "PEDERSEN Mads (DEN / Lidl - Trek) — top sprint-classics rider for opening stages and reduced-bunch finishes.",
+            "MERLIER Tim (BEL / Soudal Quick-Step) — pure sprinter for the flat days.",
+            "MILAN Jonathan (ITA / Lidl - Trek) — power sprinter.",
+            "MEEUS Jordi (BEL / Red Bull - BORA - hansgrohe) — Belgian sprinter in the WT mix."
+          ]
+        }
       },
       "topRiders": [
         {
@@ -35742,7 +35770,22 @@
           "Late-season barometer: With Worlds approaching, GC standings on the WWT and form for the Champs Élysées and beyond are at stake."
         ],
         "watchNotes": "The closing-circuit terrain shapes the race — expect a reduced-bunch finish rather than a pure sprint, with late attacks possible on the circuit climbs.",
-        "historicalContext": "First held in 2023, the Classic Lorient Agglomération - Trophée Ceratizit was added to the UCI Women's WorldTour calendar in 2024. It joined the existing Plouay-area women's racing tradition (alongside the Grand Prix de Plouay féminin) to deepen Brittany's late-summer professional women's slate."
+        "historicalContext": "First held in 2023, the Classic Lorient Agglomération - Trophée Ceratizit was added to the UCI Women's WorldTour calendar in 2024. It joined the existing Plouay-area women's racing tradition (alongside the Grand Prix de Plouay féminin) to deepen Brittany's late-summer professional women's slate.",
+        "keyClimbs": [
+          {
+            "name": "Côtes de Bretagne",
+            "category": "3",
+            "summit": false,
+            "notes": "Series of short steep Breton climbs on the closing circuit — the punchy character of GP de Plouay-Lorient terrain."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Top WWT puncheurs and classics specialists historically dominate this Breton one-day — Vos, Kopecky, Vollering profiles all suit the rolling terrain.",
+            "Belgian and Dutch classics riders have strong palmarès on Breton terrain similar to Plouay.",
+            "Young French puncheurs use this as a home-roads target."
+          ]
+        }
       }
     },
     {
