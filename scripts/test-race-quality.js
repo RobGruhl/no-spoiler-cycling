@@ -252,15 +252,17 @@ function checkInvariants(race, context = {}, options = {}) {
   const todayIso = new Date().toISOString().slice(0, 10);
   const isPast = race.raceDate && race.raceDate < todayIso;
 
-  // gravel terrain ⇔ discipline:"gravel"
+  // gravel terrain consistency: a gravel-discipline race should have
+  // "gravel" in its terrain[]. The reverse is NOT a problem — a road
+  // race can legitimately have gravel sectors (Strade Bianche style),
+  // so terrain="gravel" + discipline="road" is allowed.
   const hasGravelTerrain = Array.isArray(race.terrain) && race.terrain.includes('gravel');
   const isGravelDiscipline = race.discipline === 'gravel';
-  if (hasGravelTerrain || isGravelDiscipline) {
-    const ok = hasGravelTerrain === isGravelDiscipline;
+  if (isGravelDiscipline) {
     checks.push({
       label: 'gravel terrain ⇔ discipline',
-      status: ok ? 'pass' : 'warn',
-      value: ok ? 'consistent' : `terrain="${hasGravelTerrain}" vs discipline="${race.discipline}"`,
+      status: hasGravelTerrain ? 'pass' : 'warn',
+      value: hasGravelTerrain ? 'consistent' : `discipline="gravel" but terrain missing "gravel"`,
     });
   }
 
