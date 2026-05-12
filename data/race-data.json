@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T00:45:37.722Z",
+  "lastUpdated": "2026-05-12T01:19:01.448Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -30927,7 +30927,104 @@
         ],
         "watchNotes": "Bonus seconds at intermediate sprints have historically been decisive given how tight the GC tends to be in Poland — watch for sprinters' teams shifting from pure bunch-sprint mode to bonus hunting on transitional stages.",
         "historicalContext": "Founded in 1928 as an amateur event and fully professional since 1993, the Tour de Pologne joined the UCI WorldTour in 2005. It remains the only WorldTour stage race in central Europe, organised by the company Lang since 1993. Past editions have featured a mix of climbing-test stages around Karpacz and Zakopane and bunch-sprint days on the way south."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "MX",
+          "specialties": [
+            "gc-contender",
+            "climber"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "sprinter",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "brandon-mcnulty",
+          "name": "MCNULTY Brandon",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 15,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "gc-contender",
+            "time-trial"
+          ],
+          "notes": "Tour de Pologne specialist for UAE."
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jonathan-milan",
+          "name": "MILAN Jonathan",
+          "team": "Lidl - Trek",
+          "ranking": 19,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jay-vine",
+          "name": "VINE Jay",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 21,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "gc-contender",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-a-burgos-2026",
@@ -32486,6 +32583,93 @@
           "specialties": [
             "sprinter",
             "one-day"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "sprinter"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "all-rounder"
+          ]
+        },
+        {
+          "id": "mathieu-van-der-poel",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "sprinter"
+          ],
+          "notes": "Targets Flemish hills stages — Geraardsbergen / Muur tradition."
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "soren-waerenskjold",
+          "name": "WÆRENSKJOLD Søren",
+          "team": "Uno-X Mobility",
+          "ranking": 44,
+          "nationality": "Norway",
+          "nationalityCode": "NO",
+          "specialties": [
+            "time-trial",
+            "sprinter"
           ]
         }
       ],
@@ -35647,7 +35831,96 @@
         ],
         "watchNotes": "Race typically explodes in the closing 30km as climbers and puncheurs launch attacks on the Côte de la Montagne. Reduced-bunch finishes are the norm.",
         "historicalContext": "The Grand Prix Cycliste de Québec was first held in 2010 alongside its sister event in Montréal, both quickly joining the UCI WorldTour calendar. They are the only Canadian WorldTour fixtures and bring the world's top professional teams to North America each September."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SI",
+          "specialties": [
+            "climber",
+            "puncheur",
+            "all-rounder"
+          ],
+          "notes": "Worlds prep on Mont Royal terrain — same circuit as the Worlds road race two weeks later."
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "time-trial",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "kevin-vauquelin",
+          "name": "VAUQUELIN Kévin",
+          "team": "INEOS Grenadiers",
+          "ranking": 16,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "classics"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IE",
+          "specialties": [
+            "puncheur",
+            "breakaway"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "puncheur",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "a-travers-les-hauts-de-france-2026",
@@ -36175,7 +36448,108 @@
         ],
         "watchNotes": "Decisive moves rarely come before lap 14 or 15 — the climbs gradually shed riders, with the final selection typically on the penultimate lap. Pure climbers and Classics puncheurs both feature.",
         "historicalContext": "Founded in 2010 alongside the Québec Grand Prix, the GP de Montréal has been a UCI WorldTour fixture since the series' early years. The 2026 edition takes on added significance as the lead-up race to the UCI Road World Championships, held on essentially the same Montréal circuit."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "tadej-pogacar",
+          "name": "POGAČAR Tadej",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 1,
+          "nationality": "Slovenia",
+          "nationalityCode": "SI",
+          "specialties": [
+            "climber",
+            "puncheur",
+            "all-rounder"
+          ],
+          "notes": "Mont Royal climbs match Pogačar's strengths — direct Worlds dress rehearsal."
+        },
+        {
+          "id": "jonas-vingegaard",
+          "name": "VINGEGAARD Jonas",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 3,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "remco-evenepoel",
+          "name": "EVENEPOEL Remco",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 6,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "time-trial",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "thomas-pidcock",
+          "name": "PIDCOCK Thomas",
+          "team": "Pinarello-Q36.5 Pro Cycling Team",
+          "ranking": 7,
+          "nationality": "Great Britain",
+          "nationalityCode": "GB",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "mathieu-van-der-poel",
+          "name": "VAN DER POEL Mathieu",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 8,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "ben-healy",
+          "name": "HEALY Ben",
+          "team": "EF Education - EasyPost",
+          "ranking": 22,
+          "nationality": "Ireland",
+          "nationalityCode": "IE",
+          "specialties": [
+            "puncheur",
+            "breakaway"
+          ]
+        },
+        {
+          "id": "mattias-skjelmose-jensen",
+          "name": "SKJELMOSE Mattias",
+          "team": "Lidl - Trek",
+          "ranking": 29,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "puncheur",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "la-choralis-fourmies-feminine-2026",
