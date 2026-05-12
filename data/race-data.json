@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T03:20:52.593Z",
+  "lastUpdated": "2026-05-12T03:46:38.735Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -15666,8 +15666,8 @@
       "id": "tour-of-the-alps-2026",
       "name": "Tour of the Alps",
       "description": "2.Pro cycling race in Italy",
-      "platform": "FloBikes",
-      "url": "https://www.flobikes.com/events/15183670-2026-tour-of-the-alps-men",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zxwtU1PDito",
       "type": "full-race",
       "raceDate": "2026-04-20",
       "endDate": "2026-04-25",
@@ -15830,7 +15830,9 @@
           "description": "Final mountain stage with last GC chances."
         }
       ],
-      "_notes": "FloBikes deep links found for all 5 stages. Note: stages 3 and 4 share the same video ID 15814148 in FloBikes search results - the video URL slug labeled 'stage-3' is also titled 'Stage 4' in some metadata, suggesting they may be split/combined; verify when applying."
+      "_notes": "FloBikes deep links found for all 5 stages. Note: stages 3 and 4 share the same video ID 15814148 in FloBikes search results - the video URL slug labeled 'stage-3' is also titled 'Stage 4' in some metadata, suggesting they may be split/combined; verify when applying.",
+      "youtubeHighlights": "https://www.youtube.com/watch?v=zxwtU1PDito",
+      "videoNote": "Tour of the Alps official channel Stage 3 highlights (6:01). Per youtube-cycling-analyzer: SAFE — neutral title 'It's time to have the real FUN!', neutral og:description, winner revealed only at natural finish line moment (~70% through) followed by a brief winner interview. Tier 1 official race channel. Disable autoplay and avoid sidebar recommendations."
     },
     {
       "id": "la-fleche-wallonne-2026",
