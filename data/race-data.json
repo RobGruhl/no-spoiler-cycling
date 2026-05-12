@@ -33172,7 +33172,35 @@
           "Hamburg festival: The race is the centrepiece of a multi-event cycling festival in Hamburg, with amateur races sharing the finish line through the city centre."
         ],
         "watchNotes": "The Waseberg ascents in the closing 30km decide the race. A reduced group will reach Hamburg most years, with sprinters/puncheurs duking it out on the Elbe-side finish straight.",
-        "historicalContext": "First held in 1996, the ADAC Cyclassics (formerly the EuroEyes Cyclassics) has been on the UCI WorldTour since the series' 2005 launch. Hamburg's premier one-day race, traditionally held in mid-August after the Tour de France and before the Vuelta a España build-up."
+        "historicalContext": "First held in 1996, the ADAC Cyclassics (formerly the EuroEyes Cyclassics) has been on the UCI WorldTour since the series' 2005 launch. Hamburg's premier one-day race, traditionally held in mid-August after the Tour de France and before the Vuelta a España build-up.",
+        "keyClimbs": [
+          {
+            "name": "Waseberg",
+            "category": "4",
+            "length": 0.6,
+            "avgGradient": 9,
+            "maxGradient": 15,
+            "notes": "Iconic Hamburg cobbled climb — featured 3x on the closing circuit. The decisive launching point of the race."
+          },
+          {
+            "name": "Köhlbrandbrücke",
+            "category": "4",
+            "length": 0.4,
+            "notes": "Iconic Hamburg port bridge climb — used multiple times on the closing kilometres."
+          }
+        ],
+        "favorites": {
+          "sprinters": [
+            "PHILIPSEN Jasper (BEL / Alpecin-Premier Tech) — top WT sprinter survives the Waseberg and contests the line.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — durable classics-sprinter for the punchy Hamburg circuit.",
+            "MERLIER Tim (BEL / Soudal Quick-Step) — pure sprinter banking on a bunch finish.",
+            "KOOIJ Olav (NED / Team Visma | Lease a Bike) — Dutch sprint talent for the reduced-bunch finish."
+          ],
+          "puncheurs": [
+            "GIRMAY Biniam (ERI / Intermarché-Wanty) — Eritrean classics-sprinter for the Waseberg-decisive finale.",
+            "Belgian and Dutch puncheurs target the Waseberg attacks to drop pure sprinters before Hamburg."
+          ]
+        }
       },
       "topRiders": [
         {
@@ -34076,7 +34104,25 @@
           "Top WWT field: As one of the late-summer WWT stops, the start list typically draws WorldTour leaders looking for points and form before the Worlds."
         ],
         "watchNotes": "Mixed British terrain favours all-round riders — strong climbers AND sprinters can both feature on different stages. The Glasgow final stage tends to produce late breaks or reduced-bunch sprints.",
-        "historicalContext": "The Lloyds Tour of Britain Women, formerly known as the Women's Tour, is one of the longest-running British women's professional stage races. It was rebranded and taken over by British Cycling in 2024 as the British governing body consolidated organisation of both the men's and women's events. The 2025 edition was the first under the new branding."
+        "historicalContext": "The Lloyds Tour of Britain Women, formerly known as the Women's Tour, is one of the longest-running British women's professional stage races. It was rebranded and taken over by British Cycling in 2024 as the British governing body consolidated organisation of both the men's and women's events. The 2025 edition was the first under the new branding.",
+        "keyClimbs": [
+          {
+            "name": "British rolling terrain",
+            "category": "3",
+            "notes": "Tour of Britain Women typically features rolling stages across England/Wales with short steep climbs on most days."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top WWT classics-and-climbing riders target the British stage race — Vollering, Longo Borghini, Niewiadoma profiles fit the terrain.",
+            "British home-roads riders ride for national pride — Cat Ferguson and other British WWT names."
+          ],
+          "stageHunters": [
+            "Pure sprinters target the flatter opening stages.",
+            "Puncheurs hunt the hilly transitional days.",
+            "Breakaway specialists target opportunistic stage wins on British backroads."
+          ]
+        }
       }
     },
     {
