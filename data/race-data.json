@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T03:46:38.735Z",
+  "lastUpdated": "2026-05-12T04:19:37.462Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -21233,14 +21233,14 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-05-11T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817717-2026-tour-de-hongrie",
               "coverage": "live"
             },
             "alternatives": [
@@ -21266,7 +21266,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817717-2026-tour-de-hongrie",
               "coverage": "live"
             }
           }
@@ -34503,13 +34503,42 @@
           "Forerunner to the road Worlds: Held a few weeks before the road Worlds in Montréal, the gravel champs increasingly attract crossover talent from the road and CX peloton."
         ],
         "watchNotes": "Three-lap format means tactical patience pays — early breaks rarely stick when riders see the same climbs three times. The closing lap typically produces the decisive selection.",
-        "historicalContext": "The UEC Gravel European Championships were inaugurated in 2022 as the discipline gained UCI recognition. Houffalize, a long-established off-road cycling venue, has hosted the parallel UCI Gravel World Championships in 2024 and 2025; the 2027 Euros will move to Lahti, Finland."
+        "historicalContext": "The UEC Gravel European Championships were inaugurated in 2022 as the discipline gained UCI recognition. Houffalize, a long-established off-road cycling venue, has hosted the parallel UCI Gravel World Championships in 2024 and 2025; the 2027 Euros will move to Lahti, Finland.",
+        "favorites": {
+          "rainbowFavorites": [
+            "VAN AERT Wout (BEL / Team Visma | Lease a Bike) — Belgian home-roads favourite on the Ardennes terrain; gravel is the natural extension of his CX-and-classics palmarès.",
+            "VERMEERSCH Florian (BEL) — Belgian gravel specialist with UCI Gravel World Series wins; the Houffalize course is in his backyard.",
+            "VAKOC Petr (CZE / Specialized Gravel Programme) — dedicated gravel pro with strong UCI Gravel World Series form; thrives on the Ardennes-style punchy terrain.",
+            "VAN DEN BERG Marijn (NED / EF Education - EasyPost) — Dutch all-rounder who has hinted at gravel objectives; suits the lap-format Belgian-Ardennes profile."
+          ],
+          "darkHorses": [
+            "HERMANS Quinten (BEL / Alpecin-Premier Tech) — Belgian off-road specialist with CX-and-road versatility on home roads.",
+            "VAN BAARLE Dylan (NED / Team Visma | Lease a Bike) — Paris-Roubaix winner whose cobbles-and-gravel power matches the Ardennes forest tracks.",
+            "OPEN BELGIAN FIELD — UCI Gravel World Series qualifiers from the Belgian gravel scene with home-roads advantage on Houffalize terrain."
+          ]
+        }
       },
       "broadcast": {
         "geos": {},
         "youtubeChannels": [],
         "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder",
+            "puncheur"
+          ],
+          "notes": "Belgian home-roads favourite — CX-to-gravel crossover."
+        }
+      ]
     },
     {
       "id": "uec-gravel-european-championships-2026-women",
@@ -34538,13 +34567,64 @@
           "Growing crossover: As gravel gains traction, more road and CX women are putting it on their calendar — expect a deeper field than recent editions."
         ],
         "watchNotes": "Two-lap format compresses tactics — fewer chances to recover from a bad first lap. The closing kilometres on the second lap typically decide the medals.",
-        "historicalContext": "The UEC Gravel European Championships were inaugurated in 2022. Houffalize, a long-established off-road cycling venue, has hosted the parallel UCI Gravel World Championships in 2024 and 2025; the 2027 Euros will move to Lahti, Finland."
+        "historicalContext": "The UEC Gravel European Championships were inaugurated in 2022. Houffalize, a long-established off-road cycling venue, has hosted the parallel UCI Gravel World Championships in 2024 and 2025; the 2027 Euros will move to Lahti, Finland.",
+        "favorites": {
+          "rainbowFavorites": [
+            "BRAND Lucinda (NED / Lidl - Trek) — CX-and-gravel specialist who excels on Belgian off-road terrain; Houffalize-style courses are her bread and butter.",
+            "VOS Marianne (NED / Team Visma | Lease a Bike) — Dutch all-terrain legend; gravel is the natural off-road extension.",
+            "PIETERSE Puck (NED / Alpecin-Premier Tech) — MTB World Champion crossover; Ardennes terrain suits her power-and-handling profile.",
+            "VAN ANROOIJ Shirin (NED / Lidl - Trek) — strong off-road racer with CX background; UCI Gravel World Series regular."
+          ],
+          "darkHorses": [
+            "VOLLERING Demi (NED / Lidl - Trek) — climber-puncheur whose endurance suits long off-road racing.",
+            "KOPECKY Lotte (BEL / SD Worx) — multi-time World Champion with home-roads motivation in the Belgian Ardennes.",
+            "OPEN DUTCH-BELGIAN FIELD — UCI Gravel World Series qualifiers from the Low Countries scene."
+          ]
+        }
       },
       "broadcast": {
         "geos": {},
         "youtubeChannels": [],
         "notes": "UEC Gravel European Championships coverage varies by country; check national federations and Eurosport-region listings."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "sprinter"
+          ],
+          "notes": "All-terrain legend extending to gravel objectives."
+        },
+        {
+          "id": "puck-pieterse",
+          "name": "PIETERSE Puck",
+          "team": "Alpecin-Premier Tech",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "all-rounder"
+          ],
+          "notes": "MTB world champion crossover; Ardennes terrain match."
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "SD Worx",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder"
+          ],
+          "notes": "Multi-discipline WC with Belgian home-roads motivation."
+        }
+      ]
     },
     {
       "id": "tour-de-korea-2026",
@@ -39445,13 +39525,65 @@
           "Growing crossover: Recent UCI Gravel Worlds have drawn major road and CX names — the women's elite race typically draws an even more diverse start list than the men's."
         ],
         "watchNotes": "Faster, flowing Australian gravel rewards riders who can sustain power and pick lines through forest trails. Compared to Ardennes gravel, the breakaway typically forms earlier here.",
-        "historicalContext": "The UCI Gravel World Championships were inaugurated in 2022 in Veneto, Italy. The 2024 and 2025 editions were held in Houffalize, Belgium; Nannup 2026 is the first non-European edition. The women's elite race has grown in field depth each year as more WT and CX women add gravel to their calendar."
+        "historicalContext": "The UCI Gravel World Championships were inaugurated in 2022 in Veneto, Italy. The 2024 and 2025 editions were held in Houffalize, Belgium; Nannup 2026 is the first non-European edition. The women's elite race has grown in field depth each year as more WT and CX women add gravel to their calendar.",
+        "favorites": {
+          "rainbowFavorites": [
+            "VOLLERING Demi (NED / Lidl - Trek) — climber-puncheur whose endurance suits long off-road racing; gravel transition is becoming a peloton-wide trend.",
+            "VOS Marianne (NED / Team Visma | Lease a Bike) — all-terrain legend with cyclocross and road titles; gravel is the natural off-road extension.",
+            "BRAND Lucinda (NED / Lidl - Trek) — multi-discipline specialist (CX World Champion lineage) who has long mixed gravel into her calendar.",
+            "VAN ANROOIJ Shirin (NED / Lidl - Trek) — strong off-road racer with CX background; the WA terrain suits her power-and-handling profile."
+          ],
+          "darkHorses": [
+            "KOPECKY Lotte (BEL / SD Worx) — multi-time World Champion (road, track, CX); has hinted at gravel objectives and brings WT-elite engine.",
+            "HARVEY Mikayla (NZL) — Oceania rider with home-region advantage in Australia; New Zealand background suits remote off-road racing.",
+            "WIEBES Lorena (NED / SD Worx) — sprinter-classics rider, dark horse if course is fast-and-flat enough.",
+            "AUSTRALIAN OPEN FIELD — UCI Gravel World Series qualifiers from AUS/NZ region with home-roads advantage on local terrain."
+          ]
+        }
       },
       "broadcast": {
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI typically livestreams the Gravel World Championships — check uci.org and broadcaster listings closer to the event."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "demi-vollering",
+          "name": "VOLLERING Demi",
+          "team": "Lidl - Trek",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Climber-puncheur — gravel endurance crossover candidate."
+        },
+        {
+          "id": "lotte-kopecky",
+          "name": "KOPECKY Lotte",
+          "team": "SD Worx",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder"
+          ],
+          "notes": "Multi-discipline World Champion; gravel ambitions on the rise."
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "classics",
+            "sprinter"
+          ],
+          "notes": "All-terrain legend — CX/road/gravel crossover champion."
+        }
+      ]
     },
     {
       "id": "paris-tours-2026",
