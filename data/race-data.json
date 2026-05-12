@@ -38313,7 +38313,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15882836-2026-uci-road-world-championships",
               "coverage": "live"
             }
           }
@@ -38343,7 +38343,23 @@
             "WÆRENSKJOLD Søren (NOR / Uno-X Mobility) — Norwegian time-trial-strong sprinter capable of medal contention.",
             "FOSS Tobias (NOR / Ineos Grenadiers) — 2022 TT world champion still in the medal mix on the right course."
           ]
-        }
+        },
+        "keySectors": [
+          {
+            "name": "Côte de Camillien-Houde (truncated)",
+            "surface": "asphalt",
+            "length": 1.2,
+            "difficulty": 3,
+            "description": "Short section of the Mont Royal climb shared with the road race — modest gradient on the TT course but a tempo-disruptor for power riders."
+          },
+          {
+            "name": "Vieux-Montréal cobble-style streets",
+            "surface": "asphalt",
+            "length": 1.5,
+            "difficulty": 2,
+            "description": "Technical urban section through Old Montréal — punishes anyone mishandling cornering on TT bikes."
+          }
+        ]
       },
       "topRiders": [
         {
@@ -39760,7 +39776,57 @@
           "Climber's race: Unlike the spring Monuments (Roubaix, Flanders, Liège), Lombardia rewards pure climbers — its 4,500m+ of elevation across long ascents like the Ghisallo and the closing pair makes it a peakclimbing test."
         ],
         "watchNotes": "Decisive moves usually come on the Civiglio (climbed ~20km from finish) and the final San Fermo della Battaglia. Solo escapes are common — only Lombardia's combination of climbing and descending savvy can produce them. The closing descent into Como has historically been one of the most dangerous in the calendar.",
-        "historicalContext": "First held in 1905, Il Lombardia is one of cycling's five Monuments and the oldest continuously contested one-day Italian race after Milano-Sanremo. Multiple-time winners include Fausto Coppi (five wins), Sean Kelly, and modern-era champions. Tadej Pogačar set a record in 2025 by becoming the first rider to win five consecutive editions of any single Monument. The 2026 route avoids the steep Muro di Sormano descent where Remco Evenepoel crashed in 2020."
+        "historicalContext": "First held in 1905, Il Lombardia is one of cycling's five Monuments and the oldest continuously contested one-day Italian race after Milano-Sanremo. Multiple-time winners include Fausto Coppi (five wins), Sean Kelly, and modern-era champions. Tadej Pogačar set a record in 2025 by becoming the first rider to win five consecutive editions of any single Monument. The 2026 route avoids the steep Muro di Sormano descent where Remco Evenepoel crashed in 2020.",
+        "keyClimbs": [
+          {
+            "name": "Madonna del Ghisallo",
+            "category": "2",
+            "length": 8.6,
+            "avgGradient": 6.2,
+            "maxGradient": 14,
+            "summit": false,
+            "notes": "Iconic chapel-topped climb in the Lecco province — Lombardia's spiritual home and traditional mid-stage launching point."
+          },
+          {
+            "name": "Muro di Sormano",
+            "category": "1",
+            "length": 1.9,
+            "avgGradient": 15.8,
+            "maxGradient": 25,
+            "summit": false,
+            "notes": "Notorious 1.9km wall with sustained gradients above 15% and ramps to 25%. Often the final move-launching climb of the race."
+          },
+          {
+            "name": "Civiglio",
+            "category": "1",
+            "length": 4.2,
+            "avgGradient": 9.7,
+            "maxGradient": 14,
+            "summit": false,
+            "notes": "Steep climb above Como — typical late-race selection point with 15km still to ride after the summit."
+          },
+          {
+            "name": "San Fermo della Battaglia",
+            "category": "3",
+            "length": 2.7,
+            "avgGradient": 7.2,
+            "maxGradient": 11,
+            "summit": false,
+            "notes": "Final short kicker before the Como finish — last chance for a solo attacker to gap the chasers."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — four-time Lombardia winner; the Lake Como climbs are tailor-made for his climber-puncheur profile.",
+            "JORGENSON Matteo (USA / Team Visma | Lease a Bike) — Visma's strongest classics-and-Lombardia card with the punchy climber profile.",
+            "CHRISTEN Jan (SUI / UAE Team Emirates - XRG) — Pogačar's likely best teammate for the Italian Monument.",
+            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — emerging French puncheur-climber whose explosive style fits the Sormano/Civiglio gradients."
+          ],
+          "darkHorses": [
+            "WIDAR Jarno (BEL / Lotto) — Belgian climber-GC project on terrain that rewards a long-range attack.",
+            "Italian Monument specialists with home-roads motivation for the Race of the Falling Leaves."
+          ]
+        }
       }
     },
     {
