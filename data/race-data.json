@@ -25955,7 +25955,35 @@
           "Season midpoint: Coming between the Giro d'Italia Women and the Tour de France Femmes, the race is a barometer for which sprinters have race-day legs for the summer block."
         ],
         "watchNotes": "Bunch sprint is the default outcome, but the wind on Zealand can fracture the field early. Watch positioning into the final 5km — the closing laps reward clean lead-outs.",
-        "historicalContext": "First held in 2025 as part of the inaugural Copenhagen Sprint weekend, alongside the men's race. The event was conceived in 2023 to give Denmark a women's WorldTour fixture and round out the men's Copenhagen Sprint launch."
+        "historicalContext": "First held in 2025 as part of the inaugural Copenhagen Sprint weekend, alongside the men's race. The event was conceived in 2023 to give Denmark a women's WorldTour fixture and round out the men's Copenhagen Sprint launch.",
+        "keySectors": [
+          {
+            "name": "Exposed Zealand coastal roads",
+            "surface": "asphalt",
+            "length": 30,
+            "difficulty": 3,
+            "description": "Exposed coastal sections between Roskilde and Copenhagen — classic echelon territory if onshore or offshore winds blow."
+          },
+          {
+            "name": "Copenhagen city-centre circuit",
+            "surface": "asphalt",
+            "length": 5,
+            "difficulty": 2,
+            "description": "Closing-laps circuit through central Copenhagen — technical urban turns reward bike-handlers and well-drilled lead-out trains."
+          }
+        ],
+        "favorites": {
+          "sprinters": [
+            "WIEBES Lorena (NED / Team SD Worx - Protime) — UCI top sprinter; this kind of city-centre sprint is her speciality.",
+            "BALSAMO Elisa (ITA / Lidl - Trek) — Italian classics-sprinter with the rouleur strength to survive any crosswind chaos.",
+            "VOS Marianne (NED / Team Visma | Lease a Bike) — all-terrain veteran; final-kilometre punch on the closing circuit.",
+            "FERGUSON Cat (GBR / Movistar Team) — emerging British sprinter-puncheur for the closing-circuit format."
+          ],
+          "echelonRiders": [
+            "REUSSER Marlen (SUI / Movistar Team) — TT-strong rouleur capable of forcing splits on the Zealand coast and surviving the reduced-bunch finish.",
+            "KOPECKY Lotte (BEL / Team SD Worx - Protime) — multi-time WC across disciplines; perfect for chaotic crosswind racing."
+          ]
+        }
       },
       "topRiders": [
         {
@@ -35676,7 +35704,26 @@
           "Three-day intensity: With only three stages, each is a quasi-decider. There's no easy day."
         ],
         "watchNotes": "Saturday's mountain queen stage will likely settle the GC. The Sunday hilly closer can produce late shifts if margins are tight.",
-        "historicalContext": "The Tour de Romandie Féminin was inaugurated in 2022 alongside the men's race's 75th anniversary. Held by the same organisers as the men's Tour de Romandie, it has grown its profile each year and shifted to September for 2026. Run as a UCI Women's WorldTour fixture from inception."
+        "historicalContext": "The Tour de Romandie Féminin was inaugurated in 2022 alongside the men's race's 75th anniversary. Held by the same organisers as the men's Tour de Romandie, it has grown its profile each year and shifted to September for 2026. Run as a UCI Women's WorldTour fixture from inception.",
+        "keyClimbs": [
+          {
+            "name": "Vaudoise Alps summit finish",
+            "category": "1",
+            "summit": true,
+            "notes": "Queen-stage Alpine summit finish — typical Tour de Romandie Féminin GC decider. Final-day climbing decides the maglia jaune."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top WWT climbers who target Swiss Alpine stage races — Vollering, Niewiadoma, Longo Borghini profiles fit the terrain.",
+            "Swiss home-roads riders use this as a season highlight on familiar climbs.",
+            "Visma/SD Worx/FDJ-Suez fight for the GC card on the queen-stage summit."
+          ],
+          "stageHunters": [
+            "Sprinters and puncheurs target the flatter opening stages.",
+            "Breakaway specialists hunt opportunistic stage wins on the transition days."
+          ]
+        }
       }
     },
     {
