@@ -8660,7 +8660,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817615-2026-paris-nice",
               "coverage": "live"
             }
           }
@@ -8965,7 +8965,45 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Paris-Nice — La Course au Soleil (Race to the Sun) — 8 stages over the second week of March from the Paris region to the Côte d'Azur. The longest-running professional stage race after the Grand Tours (since 1933), the race is traditionally the first major GC stress test of the European season. The route mixes early flat stages around Paris, hilly middle stages, a decisive mid-week ITT, and Alpine summit-finishes in the closing days. The Col de la Couillole and Col de Turini have been recent classic GC-deciders.",
+        "keyClimbs": [
+          {
+            "name": "Mont Brouilly",
+            "category": "2",
+            "notes": "Classic Beaujolais climb featured on the mid-race rolling stages."
+          },
+          {
+            "name": "Col de la Couillole",
+            "category": "HC",
+            "summit": true,
+            "notes": "Recent Paris-Nice queen-stage summit finish — Maritime Alps climb above Nice."
+          },
+          {
+            "name": "Col de Turini",
+            "category": "1",
+            "notes": "Iconic Maritime Alps climb featured on the closing weekend stages."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top GC riders use Paris-Nice as the first major Spring GC test on the road to the Grand Tours.",
+            "Climbers + TT specialists balance favoured on the mixed 8-stage profile."
+          ],
+          "stageHunters": [
+            "Sprinters target the opening flat stages in the Paris basin.",
+            "Puncheurs hunt the hilly middle days.",
+            "Climbing specialists target the Maritime Alps closing weekend."
+          ]
+        },
+        "narratives": [
+          "Race to the Sun: traditional opener of the European GC season — Paris in March, Nice on the Côte d'Azur.",
+          "Tour de France barometer: GC favourites use Paris-Nice as their first big Spring test.",
+          "Sister race to Tirreno-Adriatico: held the same week with the WT peloton split between the two — top GC stars typically pick one.",
+          "Closing-weekend Alpine drama: the GC is decided in the Maritime Alps with summit finishes producing race-winning attacks."
+        ],
+        "historicalContext": "Paris-Nice has been held since 1933 — one of the oldest and most prestigious stage races outside the Grand Tours. Sean Kelly holds the record with 7 wins. The race is owned by ASO (Tour de France organisers) and serves as the Spring counterpart to Tirreno-Adriatico in the WT calendar.",
+        "watchNotes": "Key stages: the mid-race ITT (stage 4 typically) reshapes GC; closing-weekend Maritime Alps summit stages decide the maglia jaune. Pure sprinters target stages 1-3, climbers target the final 3. Disable autoplay; avoid sidebar."
       }
     },
     {
@@ -9045,7 +9083,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255392-2026-tirreno-adriatico",
               "coverage": "live"
             }
           }
@@ -9363,7 +9401,47 @@
         }
       ],
       "raceDetails": {
-        "spoilerSafe": true
+        "spoilerSafe": true,
+        "courseSummary": "Tirreno-Adriatico — Corsa dei Due Mari (Race of the Two Seas) — 7 stages running from the Tyrrhenian coast across central Italy to the Adriatic. Held the same week as Paris-Nice, Tirreno is the sister race that traditionally hosts the Italian-leaning WT GC favourites. The route mixes coastal sprint stages, hilly Apennines middle days, summit finishes on Mount Sasso Tetto or similar, and the iconic San Benedetto del Tronto closing ITT (Tridente Trophy).",
+        "keyClimbs": [
+          {
+            "name": "Sasso Tetto",
+            "category": "1",
+            "summit": true,
+            "notes": "Apennines summit finish — recent Tirreno queen-stage GC-decider."
+          },
+          {
+            "name": "Monte Petrano",
+            "category": "1",
+            "summit": true,
+            "notes": "Italian Apennines summit finish — alternative GC-deciding day."
+          },
+          {
+            "name": "San Benedetto del Tronto ITT (final stage)",
+            "category": "TT",
+            "length": 9.4,
+            "notes": "Iconic closing-day flat ITT — the Tridente Trophy finale."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Italian-leaning WT GC stars who pick Tirreno over Paris-Nice — Pogačar, Roglič, Vingegaard era riders.",
+            "Climbers favoured on the Apennines summit finishes balanced by TT-strong riders for the closing Tridente."
+          ],
+          "stageHunters": [
+            "Sprinters target stages 1-2 along the Tyrrhenian coast.",
+            "Puncheurs hunt the hilly Apennines transitional stages.",
+            "Pure TT specialists target the Tridente final-stage ITT."
+          ]
+        },
+        "narratives": [
+          "Race of the Two Seas: Tyrrhenian Coast to Adriatic, crossing central Italy.",
+          "Sister race to Paris-Nice: held the same week with WT GC stars typically split between the two.",
+          "Italian Spring tradition: Tirreno serves as the lead-in to Milano-Sanremo for many sprinters and classics riders.",
+          "Tridente Trophy finale: the closing flat ITT in San Benedetto del Tronto produces iconic GC drama."
+        ],
+        "historicalContext": "Tirreno-Adriatico has been held since 1966. Roger De Vlaeminck holds the record with 6 wins. The race is owned by RCS Sport (Giro d'Italia organisers) and serves as the Italian counterpart to Paris-Nice in the Spring WT calendar.",
+        "watchNotes": "Key stages: the Apennines summit finishes (stages 5-6 typically) decide GC; the Tridente Trophy ITT finale (stage 7) can flip the standings on the closing day. Disable autoplay; avoid sidebar."
       }
     },
     {
