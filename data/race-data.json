@@ -14544,10 +14544,11 @@
           "CA": {
             "primary": {
               "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
               "type": "streaming",
-              "subscription": true,
               "url": "https://www.flobikes.com/events/15255430-2026-itzulia-basque-country",
-              "coverage": "live"
+              "coverage": "live",
+              "subscription": true
             }
           }
         }
@@ -20541,12 +20542,6 @@
           "pattern": "polka-dot-red",
           "classification": "kom",
           "description": "King of the Mountains."
-        }
-      ],
-      "editorialNotes": [
-        {
-          "kind": "broadcast",
-          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
         }
       ]
     },
