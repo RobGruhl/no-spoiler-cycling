@@ -99,10 +99,20 @@ function prestigeLabel(race) {
 }
 
 function primaryBroadcaster(race) {
-  return race.broadcast?.geos?.US?.primary?.broadcaster
-    || race.broadcast?.geos?.UK?.primary?.broadcaster
-    || race.platform
-    || '';
+  const order = ['US', 'UK', 'CA', 'AU', 'BE', 'NL'];
+  const geos = race.broadcast?.geos || {};
+  const isReal = v => v && v !== 'TBD';
+  for (const g of order) {
+    const b = geos[g]?.primary?.broadcaster;
+    if (isReal(b)) return b;
+  }
+  for (const g of Object.keys(geos)) {
+    if (order.includes(g)) continue;
+    const b = geos[g]?.primary?.broadcaster;
+    if (isReal(b)) return b;
+  }
+  if (isReal(race.platform)) return race.platform;
+  return '';
 }
 
 const GEO_LABEL = {
@@ -864,7 +874,7 @@ function renderStageRace(race) {
 
 function renderStage(race, stage) {
   const sd = stage.stageDetails || {};
-  const coverage = stage.platform || primaryBroadcaster(race);
+  const coverage = (stage.platform && stage.platform !== 'TBD') ? stage.platform : primaryBroadcaster(race);
   const keyClimbs = sd.keyClimbs || [];
   const keySectors = sd.keySectors || [];
   const terrCodes = (stage.terrain || []).map(t => (t === 'cyclocross' ? 'circuit' : t).toUpperCase()).join(' · ');
