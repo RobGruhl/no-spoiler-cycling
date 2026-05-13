@@ -4402,7 +4402,22 @@
           "Early season form test for GC contenders",
           "Strong Spanish teams on home roads",
           "Sprint teams looking for stage wins"
-        ]
+        ],
+        "keyClimbs": [
+          {
+            "name": "Costa Blanca rolling terrain",
+            "category": "2",
+            "notes": "Multi-day Valencian stages feature rolling Costa Blanca climbs and an opening prologue ITT."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top WT GC riders use the Valencian week as season-opening test — climbers and TT-strong riders dominate."
+          ],
+          "stageHunters": [
+            "Sprinters target the flat coastal stages."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -6677,7 +6692,23 @@
           "Spanish teams targeting home race glory",
           "Puncheurs and climbers have multiple opportunities",
           "No hiding places - every stage is demanding"
-        ]
+        ],
+        "keyClimbs": [
+          {
+            "name": "Andalusian summit finishes",
+            "category": "1",
+            "summit": true,
+            "notes": "Vuelta Andalucía features Andalusian Sierra summit finishes — the GC-decisive days of the early-season Spanish week."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Spanish climbers and WT GC stars dominate this early-season Andalusian race."
+          ],
+          "stageHunters": [
+            "Sprinters target the flat opening stages."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -7756,7 +7787,14 @@
           "Form indicator race for Paris-Nice preparation"
         ],
         "historicalContext": "Formerly known as the Classic Sud Ardèche, the race was rebranded as the Drôme Classic and has grown in stature as a key early-season race in France. It serves as preparation for both sprinters targeting Milan-San Remo and classics specialists.",
-        "watchNotes": "Watch for breakaways on the final climbs trying to stay away from the bunch sprint. If the race comes together, expect a bunch sprint where positioning through the final kilometers is crucial."
+        "watchNotes": "Watch for breakaways on the final climbs trying to stay away from the bunch sprint. If the race comes together, expect a bunch sprint where positioning through the final kilometers is crucial.",
+        "keyClimbs": [
+          {
+            "name": "Drôme hills",
+            "category": "3",
+            "notes": "French Drôme region hills make this a puncheur-friendly one-day classic."
+          }
+        ]
       },
       "gender": "men",
       "discipline": "road",
@@ -7786,7 +7824,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255378-2026-faun-drome-classic",
               "coverage": "live"
             }
           }
@@ -18099,7 +18137,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817660-2026-tour-of-turkey",
               "coverage": "live"
             }
           },
@@ -18117,7 +18155,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/14817660-2026-tour-of-turkey",
               "coverage": "live"
             }
           },
@@ -18161,7 +18199,14 @@
         ],
         "historicalContext": "First held in 1963, the Presidential Cycling Tour of Türkiye is Turkey's most prestigious stage race and one of the longest-running international events in Asia/Middle East. It is a staple of the UCI ProSeries calendar and has hosted some of cycling's best sprinters and stage hunters. Mark Cavendish is a multiple stage winner. The race's profile has elevated since its UCI WorldTour inclusion in certain years, and it continues to draw a strong international field. The iconic Meryem Ana climb on the Aegean coast has historically decided the GC.",
         "gcDynamics": "GC is typically decided on one or two mountain stages - the rest of the race is shaped by sprint stages and bonus seconds. Riders with a strong climbing day and solid consistency through sprint stages (avoiding time losses) are the traditional winners. Echelons on crosswind-exposed coastal roads can occasionally cause surprise time gaps. The queen stage is usually the focal point.",
-        "watchNotes": "Tune in for the designated mountain stage(s) - historically this is the most important GC day. Sprint stages provide top-tier finishes from WorldTour fast men. Live coverage is often available via Eurosport/Discovery+ in Europe. Spoiler caution: ProSeries races sometimes have limited live coverage internationally, so on-demand viewing risks sidebar spoilers. Specific stage details to be finalized - stages array below reflects a typical 8-stage template."
+        "watchNotes": "Tune in for the designated mountain stage(s) - historically this is the most important GC day. Sprint stages provide top-tier finishes from WorldTour fast men. Live coverage is often available via Eurosport/Discovery+ in Europe. Spoiler caution: ProSeries races sometimes have limited live coverage internationally, so on-demand viewing risks sidebar spoilers. Specific stage details to be finalized - stages array below reflects a typical 8-stage template.",
+        "keyClimbs": [
+          {
+            "name": "Anatolian highland summits",
+            "category": "2",
+            "notes": "Tour of Turkey features Anatolian summit finishes alongside flat coastal sprint stages."
+          }
+        ]
       },
       "stages": [
         {
@@ -23033,7 +23078,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255457-2026-classique-dunkerque-hauts-de-france",
               "coverage": "live"
             },
             "alternatives": [
@@ -23059,7 +23104,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255457-2026-classique-dunkerque-hauts-de-france",
               "coverage": "live"
             }
           }
@@ -23086,7 +23131,14 @@
           "Used by sprint trains to test the lead-out before five days of hard racing in northern France."
         ],
         "historicalContext": "First held in 2024 as the Hauts-de-France region expanded its cycling weekend. UCI 1.Pro from inception.",
-        "watchNotes": "France 3 Hauts-de-France carries highlights; FloBikes (NA) typically streams. Watch the final 30km — if there's wind, the action starts in the second half."
+        "watchNotes": "France 3 Hauts-de-France carries highlights; FloBikes (NA) typically streams. Watch the final 30km — if there's wind, the action starts in the second half.",
+        "keyClimbs": [
+          {
+            "name": "French Flanders kickers",
+            "category": "4",
+            "notes": "Classique Dunkerque features short steep cobbled climbs across the French Flanders region."
+          }
+        ]
       },
       "topRiders": [
         {
@@ -24327,7 +24379,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255467-2026-boucles-de-la-mayenne",
               "coverage": "live"
             },
             "alternatives": [
@@ -24353,7 +24405,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255467-2026-boucles-de-la-mayenne",
               "coverage": "live"
             }
           }
@@ -24389,7 +24441,14 @@
           "The Laval circuit on the final day always produces drama — narrow streets, short cobbled section, and tight corners reward bike-handling."
         ],
         "historicalContext": "First held in 1973. Past winners include Sébastien Reichenbach, Romain Bardet, and Olav Kooij. UCI 2.Pro since 2020.",
-        "watchNotes": "France 3 Pays de la Loire and FloBikes (NA) carry coverage. The hilly stage and the Laval circuit are essential viewing — that's where GC battles play out."
+        "watchNotes": "France 3 Pays de la Loire and FloBikes (NA) carry coverage. The hilly stage and the Laval circuit are essential viewing — that's where GC battles play out.",
+        "keyClimbs": [
+          {
+            "name": "Mayenne rolling terrain",
+            "category": "4",
+            "notes": "Boucles de la Mayenne features rolling French countryside with short steep climbs scattered through the stages."
+          }
+        ]
       },
       "topRiders": [
         {
