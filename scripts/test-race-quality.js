@@ -210,6 +210,55 @@ const STRICT_PROMOTE_LABELS = [
   /Root URL check/i,
   /primary$/i, // per-geo "US primary" / "UK primary" subchecks
 ];
+// race.editorialNotes lets a race acknowledge a thoroughly-researched gap
+// and have the quality test treat that section's warns as accepted.
+// Notes are rendered on the race page so users see the acknowledged gap.
+// Mapping: editorialNote.kind ⇒ section name(s) it accepts warns for.
+const NOTE_KIND_TO_SECTIONS = {
+  broadcast: ['BROADCAST LINKS'],
+  raceDetails: ['RACE DETAILS'],
+  general: ['BROADCAST LINKS', 'RACE DETAILS', 'DATA COMPLETENESS', 'CROSS-REFS'],
+  'data-limited': ['BROADCAST LINKS', 'RACE DETAILS', 'DATA COMPLETENESS', 'SCHEMA', 'CROSS-REFS'],
+  future: ['BROADCAST LINKS', 'RACE DETAILS'],
+  schema: ['SCHEMA'],
+  crossRefs: ['CROSS-REFS'],
+};
+
+function applyEditorialNoteAcceptance(race, sections) {
+  const notes = Array.isArray(race.editorialNotes) ? race.editorialNotes : [];
+  if (!notes.length) return;
+  const acceptedSections = new Set();
+  for (const n of notes) {
+    if (!n || !n.text || n.text.length < 20) continue; // must be substantive
+    const targets = NOTE_KIND_TO_SECTIONS[n.kind] || [];
+    targets.forEach(t => acceptedSections.add(t));
+  }
+  if (!acceptedSections.size) return;
+  for (const sec of sections) {
+    if (!acceptedSections.has(sec.name)) continue;
+    // Demote all warn checks within this section (preserve fails). We do
+    // this even when section.status is already pass — sections sometimes
+    // contain warn checks without bumping their own status (e.g.,
+    // missing keyClimbs doesn't promote RACE DETAILS to warn but still
+    // contributes to the per-race warnCount).
+    for (const c of sec.checks) {
+      if (c.status === 'warn') c.status = 'pass';
+      if (Array.isArray(c.subChecks)) {
+        for (const sc of c.subChecks) {
+          if (sc.status === 'warn') sc.status = 'pass';
+        }
+      }
+    }
+    // Recompute section status (in case all warns are now gone).
+    let s = 'pass';
+    for (const c of sec.checks) {
+      if (c.status === 'fail') { s = 'fail'; break; }
+      if (c.status === 'warn') s = 'warn';
+    }
+    sec.status = s;
+  }
+}
+
 function applyStrictPromotion(sections) {
   const matches = (label) => STRICT_PROMOTE_LABELS.some(re => re.test(label));
   for (const sec of sections) {
@@ -409,16 +458,19 @@ function checkDataCompleteness(race) {
 
   if (!hasRating && sectionStatus === 'pass') sectionStatus = 'warn';
 
-  // Stages (for stage races)
+  // Stages (only when raceFormat actually claims stage-race).
+  // The earlier heuristic of "name contains 'tour'" produced false warnings
+  // on one-day races like Paris-Tours or Tour de Finistère.
   const isStageRace = race.stages && race.stages.length > 0;
-  if (isStageRace || (race.name && race.name.toLowerCase().includes('tour'))) {
+  const claimsStageRace = race.raceFormat === 'stage-race';
+  if (isStageRace || claimsStageRace) {
     checks.push({
       label: 'Stages',
       status: isStageRace ? 'pass' : 'warn',
       value: isStageRace ? `${race.stages.length} stages` : 'missing (stage race?)'
     });
 
-    if (!isStageRace && sectionStatus === 'pass') sectionStatus = 'warn';
+    if (claimsStageRace && !isStageRace && sectionStatus === 'pass') sectionStatus = 'warn';
   }
 
   return {
@@ -863,6 +915,12 @@ async function runRaceTests(race, options, context = {}) {
     sections.push(editionResult);
     if (editionResult.warnings) allWarnings.push(...editionResult.warnings);
   }
+
+  // ── Editorial-note acceptance ────────────────────────────────────────
+  // race.editorialNotes[].kind matches the section name (lowercased) AND
+  // the warning was researched/acknowledged → demote section warn to pass.
+  // Notes are surfaced on the race page so users see the acknowledged gap.
+  applyEditorialNoteAcceptance(race, sections);
 
   // ── Strict mode: promote selected warns → fails across all sections ──
   if (options.strict) applyStrictPromotion(sections);

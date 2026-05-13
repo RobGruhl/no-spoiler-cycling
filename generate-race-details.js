@@ -98,6 +98,32 @@ function prestigeLabel(race) {
   return '';
 }
 
+// Editorial notes: race-data.json can declare explicit exceptions/notes
+// that surface prominently on the page AND tell the quality test that the
+// gap was researched and is acknowledged (not a missed audit).
+// Schema: race.editorialNotes = [{ kind, text }]
+// kinds: "broadcast" | "raceDetails" | "general" | "future" | "data-limited"
+function renderEditorialNotes(race) {
+  const notes = Array.isArray(race.editorialNotes) ? race.editorialNotes : [];
+  if (!notes.length) return '';
+  const kindLabel = {
+    broadcast: 'Broadcast',
+    raceDetails: 'Course / Race Details',
+    general: 'Editorial',
+    future: 'Future Race',
+    'data-limited': 'Data Availability',
+  };
+  const items = notes.map(n => `<li>
+    <span class="en-kind mono">${htmlEscape(kindLabel[n.kind] || n.kind || 'Note')}</span>
+    <span class="en-text">${htmlEscape(n.text || '')}</span>
+  </li>`).join('');
+  return `<section class="section">
+    <div class="eyebrow">§ Editorial Notes</div>
+    <h2>What we know &amp; don't know</h2>
+    <ul class="ed-notes">${items}</ul>
+  </section>`;
+}
+
 function primaryBroadcaster(race) {
   const order = ['US', 'UK', 'CA', 'AU', 'BE', 'NL'];
   const geos = race.broadcast?.geos || {};
@@ -459,6 +485,11 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .narratives{margin-top:10px}
 .narratives li{font-family:var(--font-sans);font-size:15px;line-height:1.55;color:var(--ink-2);margin:8px 0;padding-left:18px;position:relative}
 .narratives li::before{content:"§";position:absolute;left:0;color:var(--ink-3);font-family:var(--font-mono);font-weight:600}
+.ed-notes{list-style:none;padding:0;margin:14px 0 0}
+.ed-notes li{display:grid;grid-template-columns:160px 1fr;gap:14px;align-items:baseline;padding:12px 14px;border:1px solid var(--rule-soft);margin-bottom:8px;background:var(--paper-2)}
+@media (max-width:640px){.ed-notes li{grid-template-columns:1fr;gap:4px}}
+.ed-notes .en-kind{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.ed-notes .en-text{font-family:var(--font-sans);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
 .prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
@@ -659,6 +690,8 @@ function renderOneDay(race) {
       <p class="prose">${htmlEscape(rd.watchNotes)}</p>
     </section>` : '';
 
+  const editorialNotesSection = renderEditorialNotes(race);
+
   const watchLinksSection = renderWatchSection(race);
 
   const body = `
@@ -707,6 +740,7 @@ function renderOneDay(race) {
     ${narrativesSection}
     ${historySection}
     ${viewingNotesSection}
+    ${editorialNotesSection}
   `;
 
   return pageScaffold({
@@ -871,6 +905,8 @@ function renderStageRace(race) {
       <h2>When to tune in</h2>
       <p class="prose">${htmlEscape(rd.watchNotes)}</p>
     </section>` : ''}
+
+    ${renderEditorialNotes(race)}
   `;
 
   return pageScaffold({

@@ -693,6 +693,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -1789,7 +1799,13 @@
       },
       "discipline": "road",
       "channel": "TNT Sports Cycling",
-      "verified": true
+      "verified": true,
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "classica-camp-de-morvedre-2026",
@@ -1865,7 +1881,13 @@
         ],
         "historicalContext": "The Classica Camp de Morvedre takes its name from the historical county in northern Valencia. The race is part of the growing Spanish early-season calendar that provides vital race days for teams preparing for the spring classics.",
         "watchNotes": "The climb of Garbi is where the race comes alive. Watch for attacks on the steep ramps that can break up the bunch before the finish."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-marratxi-felanitx-2026",
@@ -1936,7 +1958,13 @@
         ],
         "historicalContext": "The Challenge Mallorca (also known as Volta Ciclista a Mallorca) has been a fixture on the early-season calendar since the 1990s. The series of one-day races provides varied terrain across the island, from flat sprinter stages to mountain summit finishes in the Serra de Tramuntana.",
         "watchNotes": "Early-season form indicator for WorldTour teams beginning their European campaigns."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "discoveredAt": "2026-01-27T05:10:49.085Z",
@@ -2207,7 +2235,17 @@
         ],
         "historicalContext": "The Clasica Comunitat Valenciana occupies a distinguished position within the professional cycling calendar, serving as an early-season litmus test for the world's elite riders as they transition from winter training blocks into competitive racing. The race has grown in stature over recent years.",
         "watchNotes": "Watch for the sprint teams' first test of their leadout formations. The flat terrain should produce a bunch sprint, but early-season unpredictability can create surprises."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-palma-feminina-2026",
@@ -2283,7 +2321,13 @@
         ],
         "historicalContext": "The Challenge Mallorca Femenina was introduced in 2024, adding a women's companion series to the long-established men's Challenge Mallorca. The series offers three consecutive days of UCI 1.1 racing, providing women's teams with competitive early-season racing on the Mediterranean island.",
         "watchNotes": "The Coll de Sa Creu is the key selection point. Watch for attacks on this climb that can create a small lead group contesting the finish."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "discoveredAt": "2026-01-27T05:10:49.086Z",
@@ -2563,7 +2607,13 @@
         ],
         "historicalContext": "Part of the Challenge Mallorca series that has run since the 1990s, the Trofeo Binissalem-Andratx takes riders through the western part of the island toward the scenic Andratx coast.",
         "watchNotes": "The rolling terrain heading into Andratx favors aggressive racing. Watch for attacks on the hillier sections near the finish."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "platform": "FloBikes",
@@ -2961,6 +3011,12 @@
             "puncheur"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -3294,6 +3350,12 @@
             "puncheur"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -3373,7 +3435,13 @@
         ],
         "historicalContext": "The Serra de Tramuntana, a UNESCO World Heritage Site since 2011, is the mountainous backbone of Mallorca running along the northwestern coast. The Santuari de Lluc is the spiritual center of Mallorca, a monastery dating back to the 13th century. The Trofeo Serra Tramuntana takes riders through this iconic landscape.",
         "watchNotes": "This is the climber's day in the Challenge Mallorca. The summit finish at Lluc ensures the strongest climbers will be at the front. Watch for attacks on the final ascent."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-andratx-pollenca-2026",
@@ -3451,7 +3519,13 @@
         ],
         "historicalContext": "The Andratx-Pollenca route traverses the full width of the Serra de Tramuntana, linking two of Mallorca's most picturesque towns. Pollenca, at the base of the Cap de Formentor peninsula, has been a draw for artists and cyclists alike for its dramatic coastal mountain scenery.",
         "watchNotes": "The crossing of the Serra de Tramuntana wears down the peloton, making the finish around Pollenca selective. Watch for attacks on the final climbs that can shed the pure sprinters."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "cadel-evans-great-ocean-road-race-women-2026",
@@ -3859,7 +3933,13 @@
         ],
         "historicalContext": "La Marseillaise has been the traditional curtain-raiser of the French cycling season since its first edition in 1980. The race has grown from a local event to a respected 1.1-category race that attracts ProTeam and occasional WorldTour squads looking for early-season competition. The route through the stunning calanques coastline east of Marseille makes it one of the most scenic early-season races.",
         "watchNotes": "The Route des Cretes, roughly 20km from the finish, is typically where the race is decided. Watch for attacks here that thin the group before the uphill sprint in Luminy. The Col de l'Espigoulier earlier in the race sets up the final selection."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "pionera-race-2026",
@@ -3929,7 +4009,17 @@
         ],
         "historicalContext": "The Pionera Race is a relatively new addition to the women's UCI calendar in Spain, reflecting the growth of women's professional cycling in the country. The SCV (Sport Cycling Valenciana) organization has developed the race as part of the Comunitat Valenciana's winter cycling program.",
         "watchNotes": "The rolling terrain means the race could go to either a reduced group sprint or a solo attacker. Watch for the final hills that could shed the pure sprinters."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-palma-2026",
@@ -4065,6 +4155,12 @@
             "gc-contender",
             "puncheur"
           ]
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -4455,6 +4551,12 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -5013,7 +5115,13 @@
         }
       },
       "channel": "Cycling Pro Net",
-      "verified": false
+      "verified": false,
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-oman-2026",
@@ -5311,7 +5419,13 @@
         },
         "historicalContext": "Part of the early-season Portuguese racing calendar, the Aveiro Champions Classic takes place in the historic city of Aveiro, known as the 'Venice of Portugal' for its canal system. The race attracts a mix of Portuguese continental teams and international squads.",
         "watchNotes": "Flat coastal terrain favors sprinters, but Atlantic coastal winds can make the race unpredictable. Watch for echelons in crosswind sections."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-oro-in-euro-2026",
@@ -5380,7 +5494,17 @@
         },
         "historicalContext": "The Trofeo Oro in Euro is a women's 1.1 race held in Tuscany's Versilia coast area. It provides early-season racing for the women's peloton in the mild Italian climate and has attracted strong fields in recent years.",
         "watchNotes": "Circuit racing means repeated efforts on the same climbs and corners. Watch for attacks on the final laps when fatigue sets in. The race can go to either a sprint or a late attack depending on how aggressive the racing is."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "vuelta-cv-feminas-2026",
@@ -5440,7 +5564,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "setmana-volta-femenina-comunitat-valenciana-2026",
@@ -5676,6 +5810,12 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
         }
       ]
     },
@@ -6131,7 +6271,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "clasica-de-almeria-2026",
@@ -7319,6 +7469,12 @@
             "one-day"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -7388,7 +7544,17 @@
         },
         "historicalContext": "Named in honor of Jean-Pierre Monsere, the Belgian world champion who tragically died in a racing accident in 1971 at just 22 years old. The race is held in his hometown of Roeselare and serves as a memorial to one of Belgium's most talented riders. It's part of the early Flemish racing calendar.",
         "watchNotes": "A flat race through Flanders that typically ends in a sprint, but crosswinds through the exposed Flemish polders can blow the race apart. Watch for echelon formation in windy conditions. The race's length at 202km can tire out pure sprinters."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "midwest-cycling-classic-2026",
@@ -7457,7 +7623,17 @@
         },
         "historicalContext": "The Midwest Cycling Classic is a relatively new addition to the women's Belgian racing calendar. It provides racing opportunities for the women's peloton during the early spring build-up to the major cobbled classics.",
         "watchNotes": "A relatively straightforward race profile that typically favors sprinters, though Belgian weather and wind can always add unpredictability. Watch for late attacks if conditions favor the aggressive riders."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "tour-des-alpes-maritimes-2026",
@@ -7842,6 +8018,12 @@
           "classification": "young",
           "description": "Best African Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
       ]
     },
     {
@@ -7869,7 +8051,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "giro-di-sardegna-2026",
@@ -8061,6 +8253,12 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
         }
       ]
     },
@@ -8296,7 +8494,17 @@
         },
         "historicalContext": "Part of a series of Greek cycling events in the Dodecanese and South Aegean islands. Greek cycling has been growing in profile with an increasing number of UCI-registered events, and the stunning island settings provide a unique backdrop for racing.",
         "watchNotes": "Island racing means wind exposure is a constant factor. The combination of climbs and crosswinds can split the race apart. Watch for attacks on the coastal sections where wind hits the exposed peloton."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "faun-drome-classic-2026",
@@ -8547,81 +8755,57 @@
       },
       "topRiders": [
         {
-          "id": "thomas-pidcock",
-          "name": "PIDCOCK Thomas",
-          "team": "Pinarello-Q36.5 Pro Cycling Team",
-          "ranking": 7,
-          "nationality": "Great Britain",
-          "nationalityCode": "GR",
+          "id": "lorena-wiebes",
+          "name": "WIEBES Lorena",
+          "team": "Team SD Worx - Protime",
+          "ranking": 2,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
           "specialties": [
-            "one-day",
-            "climber",
-            "puncheur"
-          ]
+            "sprinter"
+          ],
+          "notes": "Top WWT sprinter for Belgian one-day Hageland."
         },
         {
-          "id": "arnaud-de-lie",
-          "name": "DE LIE Arnaud",
-          "team": "Lotto Intermarché",
-          "ranking": 10,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
           "specialties": [
-            "one-day",
+            "sprinter",
+            "classics"
+          ],
+          "notes": "Classics-sprinter — Hageland punchy hills suit her."
+        },
+        {
+          "id": "marianne-vos",
+          "name": "VOS Marianne",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
             "sprinter",
             "puncheur"
-          ]
-        },
-        {
-          "id": "paul-magnier",
-          "name": "MAGNIER Paul",
-          "team": "Soudal Quick-Step",
-          "ranking": 11,
-          "nationality": "France",
-          "nationalityCode": "FR",
-          "specialties": [
-            "one-day",
-            "sprinter"
-          ]
-        },
-        {
-          "id": "wout-van-aert",
-          "name": "VAN AERT Wout",
-          "team": "Team Visma \\| Lease a Bike",
-          "ranking": 18,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "one-day",
-            "puncheur",
-            "time-trialist"
-          ]
-        },
-        {
-          "id": "matthew-brennan",
-          "name": "BRENNAN Matthew",
-          "team": "Team Visma \\| Lease a Bike",
-          "ranking": 30,
-          "nationality": "Great Britain",
-          "nationalityCode": "GR",
-          "specialties": []
-        },
-        {
-          "id": "jordi-meeus",
-          "name": "MEEUS Jordi",
-          "team": "Red Bull - BORA - hansgrohe",
-          "ranking": 42,
-          "nationality": "Belgium",
-          "nationalityCode": "BE",
-          "specialties": [
-            "one-day",
-            "sprinter"
-          ]
+          ],
+          "notes": "All-terrain veteran — perennial Hageland contender."
         }
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "region-on-dodecanese-gp-2026",
@@ -8686,7 +8870,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "le-samyn-des-dames-2026",
@@ -8770,7 +8964,13 @@
         },
         "historicalContext": "Le Samyn des Dames is the women's edition of Le Samyn, a Belgian semi-classic. The race is named after José Samyn, a Belgian cyclist who died in a racing accident. It serves as an important early-season Belgian cobbled race for the women's peloton, testing classics form ahead of the major spring campaigns.",
         "watchNotes": "The cobbled climbs around Dour are where the race is decided. Watch for attacks on the final laps of the circuit - the repeated efforts on short, steep cobbled hills wear riders down. An uphill finish adds to the selectivity."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "le-samyn-2026",
@@ -8835,7 +9035,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "trofeo-laigueglia-2026",
@@ -8932,7 +9142,17 @@
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "vuelta-a-extremadura-femenina-2026",
@@ -9094,6 +9314,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -9914,7 +10144,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "tirreno-adriatico-2026",
@@ -10420,7 +10660,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-de-taiwan-2026",
@@ -10606,6 +10856,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -10687,7 +10947,17 @@
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "noekere-koerse-2026",
@@ -10752,7 +11022,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "nokere-koerse-2026",
@@ -10831,7 +11111,17 @@
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-de-denain-2026",
@@ -10911,7 +11201,17 @@
       ],
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "koksijde-classic-2026",
@@ -10976,7 +11276,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "milano-sanremo-2026",
@@ -11364,7 +11674,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "princess-maha-chakri-sirindhorn-s-cup-tour-of-thailand-2026",
@@ -11619,6 +11939,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -11803,6 +12129,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -12158,7 +12494,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "gent-wevelgem-2026",
@@ -12417,7 +12763,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "la-roue-tourangelle-2026",
@@ -12482,7 +12838,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "gent-wevelgem-women-2026",
@@ -12607,7 +12973,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "paris-camembert-2026",
@@ -12672,7 +13048,17 @@
       },
       "raceDetails": {
         "spoilerSafe": true
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "princess-maha-chakri-sirindhorns-cup-womens-tour-of-thailand-2026",
@@ -12818,6 +13204,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -13313,7 +13709,17 @@
         "historicalContext": "La Route Adélie has been held since 1985 and is a staple of the Breton spring calendar. Past winners include French Classics specialists and WorldTour rouleurs.",
         "watchNotes": "Coverage via French regional TV and organiser highlights. The Vitré finishing circuit typically decides the race."
       },
-      "_notes": "FloBikes deep link to 2026 race replay. YouTube highlights from Cyclism'Actu (7AME3pKJvGo) reveal winner (Brustenga after Gautherat DQ) in description, so excluded."
+      "_notes": "FloBikes deep link to 2026 race replay. YouTube highlights from Cyclism'Actu (7AME3pKJvGo) reveal winner (Brustenga after Gautherat DQ) in description, so excluded.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "nxt-classic-2026",
@@ -13409,7 +13815,13 @@
         "historicalContext": "Part of the broader Flemish Classics calendar, NXT Classic provides a platform for mid-tier Pro and Continental teams to contest a proper Belgian Classic in a racing-dense spring.",
         "watchNotes": "Coverage limited to organiser channels and Belgian regional TV highlights. Watch the final 30km for the race-deciding moves on hellingen and kasseien."
       },
-      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 NXT Classic. YouTube candidates either reveal winner (e.g., 'Mauro Schmid geklopt door Del Grosso') or are pirate live-stream lures."
+      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 NXT Classic. YouTube candidates either reveal winner (e.g., 'Mauro Schmid geklopt door Del Grosso') or are pirate live-stream lures.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "platform": "TBD",
@@ -13493,7 +13905,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        },
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
+        }
+      ]
     },
     {
       "id": "ronde-van-vlaanderen-2026",
@@ -14068,7 +14490,13 @@
         ],
         "historicalContext": "Cholet-Pays de la Loire / Cholet Agglo Tour has been held since 1978 and is a staple of French Pro Series racing. Past winners include French Classics specialists and WorldTour rouleurs.",
         "watchNotes": "Coverage via French regional TV and organiser highlights on YouTube. Watch the final 20km for race-winning attacks on the Cholet circuit."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "itzulia-basque-country-2026",
@@ -14456,7 +14884,13 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
+        }
+      ]
     },
     {
       "id": "region-pays-de-la-loire-tour-2026",
@@ -14701,7 +15135,17 @@
         "historicalContext": "The women's Pays de la Loire race has grown into a staple of the French women's calendar, traditionally attracting a strong field of sprinters and classics riders.",
         "watchNotes": "Coverage via organiser channels and French regional TV. Weather-dependent - windy day equals echelons, calm day equals bunch sprint."
       },
-      "_notes": "FloBikes has 2026 race event page with stage replays available (stage 1: 15763543, stage 2: 15764147, stage 3: 15764787). Note this race shares parcours with the men's edition - per-race coverage."
+      "_notes": "FloBikes has 2026 race event page with stage replays available (stage 1: 15763543, stage 2: 15764147, stage 3: 15764787). Note this race shares parcours with the men's edition - per-race coverage.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "scheldeprijs-2026",
@@ -14911,7 +15355,13 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "giro-di-reggio-calabria-2026",
@@ -14997,7 +15447,17 @@
         "historicalContext": "Giro di Reggio Calabria is a long-running Italian classic that has evolved into part of the Italian spring UCI 1.2 calendar, supporting southern Italian cycling.",
         "watchNotes": "Coverage is typically limited to organiser social media and brief Italian regional TV highlights."
       },
-      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations of the race - no actual race footage."
+      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations of the race - no actual race footage.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "giro-della-magna-grecia-2026",
@@ -15113,6 +15573,20 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        },
+        {
+          "kind": "data-limited",
+          "text": "Race scheduled as a multi-stage event but stage-by-stage route was not published before the cutoff. Our research found no authoritative source for individual stage routes; race-data is preserved at the race-level only."
         }
       ]
     },
@@ -15626,7 +16100,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "o-gran-camino-2026",
@@ -15845,6 +16329,12 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -16210,7 +16700,17 @@
         "historicalContext": "Held under various names in the Besançon area, this classic has been a platform for emerging French talent. It pairs with Tour du Jura the following day for a Franche-Comté weekend popular with French teams.",
         "watchNotes": "Small race but good terrain for punchy racing. Expect the key selection to come on the final circuit. French TV and race organiser social channels are typical coverage sources."
       },
-      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (tJ-8MB4ol8s) reveals winner Jegat in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option."
+      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (tJ-8MB4ol8s) reveals winner Jegat in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "tour-du-jura-2026",
@@ -16324,7 +16824,13 @@
         "historicalContext": "Tour du Jura has grown into one of France's signature 1.2 hilly races, with past winners progressing to Pro Team and WorldTour contracts. The race is a staple of the French April calendar.",
         "watchNotes": "Watch for the moves on the final categorized climb - the race rarely comes back together after that. Coverage via race social channels and short highlights on FFC/French regional TV."
       },
-      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (YV0TnhWL9jY) - despite the question-style title - reveals winner Riccitello in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option."
+      "_notes": "FloBikes only has 2024 link, no 2026 deep link. Cyclism'Actu highlights video (YV0TnhWL9jY) - despite the question-style title - reveals winner Riccitello in description. TNT Sports Final KMs short reveals winner via thumbnail. No spoiler-safe option.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "platform": "TBD",
@@ -16440,7 +16946,13 @@
         "historicalContext": "LBL U23 has been won by riders who later won the elite Monument, making it one of the most predictive races for future Ardennes talent. The race shares most of the final third of its route with the elite men's Liège-Bastogne-Liège.",
         "watchNotes": "Coverage is typically limited to race highlights on organiser channels and Belgian regional TV. The race finishes before the elite weekend so serves as an early preview of likely Monument tactics."
       },
-      "_notes": "No spoiler-safe coverage found. FloBikes has no LBL U23 2026 listing. YouTube candidates include The Young Peloton channel (which reveals 'Francesco Busatto wins Liege-Bastogne-Liege U23' in their channel listing) and pirate livestream lures. No safe option."
+      "_notes": "No spoiler-safe coverage found. FloBikes has no LBL U23 2026 listing. YouTube candidates include The Young Peloton channel (which reveals 'Francesco Busatto wins Liege-Bastogne-Liege U23' in their channel listing) and pirate livestream lures. No safe option.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
+        }
+      ]
     },
     {
       "id": "amstel-gold-race-2026",
@@ -16868,7 +17380,17 @@
         "historicalContext": "A relatively new addition to the French women's calendar, GP Féminin de Chambéry has helped fill a gap in domestic one-day racing and regularly sees podiums from French Continental squads and development riders.",
         "watchNotes": "Coverage is typically limited to race organiser social media and brief highlights. Watch for late attacks on the run-in to Chambéry."
       },
-      "_notes": "France 3 Auvergne-Rhone-Alpes had a DIRECT (live) stream (w3yLLh34kPM) but description appears to be a summary referencing pre-race link. Other YouTube candidates (y6tfyWnQn8o, O1Lm_HHJE4U) reveal winner Celia Gery in description. No spoiler-safe option for 1-star race."
+      "_notes": "France 3 Auvergne-Rhone-Alpes had a DIRECT (live) stream (w3yLLh34kPM) but description appears to be a summary referencing pre-race link. Other YouTube candidates (y6tfyWnQn8o, O1Lm_HHJE4U) reveal winner Celia Gery in description. No spoiler-safe option for 1-star race.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "amstel-gold-race-women-2026",
@@ -17075,7 +17597,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-samarkand-2026",
@@ -17256,6 +17788,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -17466,6 +18008,12 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
         }
       ]
     },
@@ -18207,6 +18755,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
       ]
     },
     {
@@ -18300,7 +18854,17 @@
         "historicalContext": "Omloop van Borsele is a staple of the Dutch women's calendar and traditionally attracts a strong start list. Past winners include top Dutch and Belgian sprinters and rouleurs.",
         "watchNotes": "Weather forecast is the single most important variable - windy days produce echelon carnage, calm days a bunch sprint. Coverage typically via organiser channels and Dutch regional TV."
       },
-      "_notes": "Race is today (2026-04-25/26) and may not have aired yet. FloBikes has no listing. YouTube returns pirate livestream lures and a SecretFrame channel reference revealing 'Nicole Steigenga: Champion of Omloop van Borsele!' (from previous edition or this one). No spoiler-safe option."
+      "_notes": "Race is today (2026-04-25/26) and may not have aired yet. FloBikes has no listing. YouTube returns pirate livestream lures and a SecretFrame channel reference revealing 'Nicole Steigenga: Champion of Omloop van Borsele!' (from previous edition or this one). No spoiler-safe option.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "platform": "YouTube",
@@ -18552,6 +19116,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -18579,7 +19153,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "highlands-gravel-classic-2026",
@@ -18608,7 +19192,17 @@
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=1UqLcAvLazY",
-      "videoNote": "Justin Cary 2026 Highlands Gravel Classic full uncut race footage from Fayetteville-Goshen, Arkansas (5:09:12). Per youtube-cycling-analyzer: USABLE — full uncut footage with no transcript spoilers; neutral title; description does not reveal results. GoPro/helmet-cam style with minimal commentary. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "Justin Cary 2026 Highlands Gravel Classic full uncut race footage from Fayetteville-Goshen, Arkansas (5:09:12). Per youtube-cycling-analyzer: USABLE — full uncut footage with no transcript spoilers; neutral title; description does not reveal results. GoPro/helmet-cam style with minimal commentary. Disable autoplay and avoid sidebar recommendations.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-della-liberazione-donne-2026",
@@ -18701,7 +19295,17 @@
         ],
         "historicalContext": "Held in conjunction with the men's Gran Premio della Liberazione, the women's race has become a staple of the Italian April calendar since its creation, with Italian and European winners from both Continental and ProTeam squads.",
         "watchNotes": "Coverage via RAI Italy (often), organiser social channels and Italian cycling YouTube. Expect a criterium-style race decided in the final lap."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "liege-bastogne-liege-2026",
@@ -19392,6 +19996,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
+        }
       ]
     },
     {
@@ -19932,6 +20542,12 @@
           "classification": "kom",
           "description": "King of the Mountains."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged \"Not available\" — see broadcaster notes for organizer social-channel pointers."
+        }
       ]
     },
     {
@@ -20174,6 +20790,20 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        },
+        {
+          "kind": "data-limited",
+          "text": "Race scheduled as a multi-stage event but no public stage-by-stage route was found in our research. Race-data is preserved at the race-level only."
+        }
       ]
     },
     {
@@ -20256,7 +20886,17 @@
         ],
         "historicalContext": "Newer addition to the Flemish calendar (mid-2010s onward), running under various title sponsors. Strictly a regional Belgian event; not part of the WorldTour or ProSeries calendar.",
         "watchNotes": "No live broadcast expected; check Sporza or local Belgian media for highlight clips. Watch for an attack on the final cobbled section in the closing 10km."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "giro-sardegna-gravel-2026",
@@ -20283,7 +20923,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "festival-elsy-jacobs-2026",
@@ -20370,7 +21020,17 @@
         ],
         "historicalContext": "Held since 2008 in honour of Luxembourg's Elsy Jacobs. Originally a stage race; reformatted into back-to-back one-day races in 2024 to fit the new May calendar block.",
         "watchNotes": "Free organiser livestream typically available on the Festival Elsy Jacobs website. Action ignites on the steep Garnich climb in the final two laps."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "famenne-ardenne-classic-2026",
@@ -20489,7 +21149,13 @@
         ],
         "historicalContext": "First run in 2019 as a successor to Tour de la Famenne. Title sponsor Lotto and the Belgian Federation have built it into the strongest 1.1 race in the Belgian Ardennes.",
         "watchNotes": "Watch for the Côte de Waharday on the final long loop, then the third and fourth ascents of Côte de Roy on the local circuit. Attacks land in the last 10km on the final Roy climb."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "giro-dell-appennino-2026",
@@ -20592,7 +21258,13 @@
         ],
         "historicalContext": "First held in 1934. Past winners include Fausto Coppi (multiple times), Felice Gimondi, and Gianni Bugno. Now organised by US Pontedecimo and traditionally finishes in the Genoese suburb of Pontedecimo.",
         "watchNotes": "If you can find live coverage (rare for 1.1 races), tune in for the Bocchetta ascent — usually inside the final 35-50km. The descent into Genoa is often where the winner consolidates a solo move."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "vuelta-espana-femenina-2026",
@@ -21083,6 +21755,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -22215,7 +22897,17 @@
         ],
         "historicalContext": "Created in 2018 to expand the Morbihan racing weekend into a two-day block. Now part of the Coupe de France calendar.",
         "watchNotes": "Look for moves on the final lap of the finishing circuit. French national TV (France 3 Bretagne) sometimes broadcasts highlights; livestream rare."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "gp-du-morbihan-2026",
@@ -22424,7 +23116,13 @@
         ],
         "historicalContext": "Established in 2017 alongside the women's race expansion in Brittany. Part of the Coupe de France Femmes calendar.",
         "watchNotes": "Action condenses into the final 5km. Check FloBikes (NA) and France TV regional streams for live coverage."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "baku-khankendi-azerbaijan-2026",
@@ -22637,6 +23335,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
       ]
     },
     {
@@ -22819,7 +23527,17 @@
         ],
         "historicalContext": "Founded in 2020 to honour Maarten Wynants on his retirement. Run by Royal Bicycle Club Tienen.",
         "watchNotes": "No live international broadcast. Sporza occasionally posts a highlight clip. Action condenses on the final laps of the local circuit."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ]
     },
     {
       "id": "marly-grav-race-2026",
@@ -22978,6 +23696,20 @@
             "gravel"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
+        },
+        {
+          "kind": "general",
+          "text": "Top-rider list for this gravel race contains UCI Gravel World Series specialists who are not in our road-rider index (e.g. Vermeersch, Vandeputte, Eenkhoorn). This is expected — the gravel-rider tables track only the most active road/gravel crossover names; specialist gravel pros are documented in the favorites prose instead."
+        }
       ]
     },
     {
@@ -23104,7 +23836,13 @@
         ],
         "historicalContext": "Created in 2022 by the Navarra cycling federation alongside the men's race that came earlier. Run as a UCI 1.Pro one-day race.",
         "watchNotes": "Free Spanish federation livestream typically. Watch the final 30km — attacks fly on Tirapu and Arlegui inside the last 25km, and the run-in to Pamplona has one final unmarked kicker."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        }
+      ]
     },
     {
       "id": "fleche-du-sud-2026",
@@ -23300,6 +24038,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -23643,7 +24391,17 @@
         ],
         "historicalContext": "First held in 1979 as a Walloon answer to Flemish kermesse classics. Now organised by the Charleroi region cycling committee.",
         "watchNotes": "Limited broadcast — RTBF (FR-language Belgian state TV) sometimes carries highlights. The race is decided on the final two laps of the local circuit."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "itzulia-women-2026",
@@ -24049,6 +24807,16 @@
             "one-day"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -24134,7 +24902,17 @@
         ],
         "historicalContext": "Founded in the 2010s as the women's counterpart to a long-running Kempen kermesse. UCI 1.2 status since 2018.",
         "watchNotes": "No live international broadcast; Dutch federation occasionally streams via YouTube. Action condenses on the final 20km."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "seven-nannup-2026",
@@ -24160,7 +24938,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "the-gralloch-2026",
@@ -24186,7 +24974,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "boucles-de-l-aulne-2026",
@@ -24280,7 +25078,13 @@
         ],
         "historicalContext": "First held in 1931. Named after the Aulne river that runs through Châteaulin. One of the most historic Breton classics.",
         "watchNotes": "France 3 Bretagne regional broadcast; FloBikes occasionally streams. Watch the final two laps of the Châteaulin circuit."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "rund-um-koln-2026",
@@ -24381,6 +25185,16 @@
             "one-day",
             "sprinter"
           ]
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -24571,7 +25385,17 @@
         "historicalContext": "Long-running Basque race rebranded under the Emakumeen banner. Held under various sponsors over the years.",
         "watchNotes": "Limited international coverage — ETB1 (Basque public TV) is the best bet. Decisive moves on the final climbs typical."
       },
-      "_notes": "Race name suggests women's event but list classifies as men's; treated as Basque hilly 1.2 race."
+      "_notes": "Race name suggests women's event but list classifies as men's; treated as Basque hilly 1.2 race.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "4-jours-de-dunkerque-2026",
@@ -25002,6 +25826,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -25385,7 +26215,17 @@
         ],
         "historicalContext": "First held in 1985. Past winners include Erik Zabel, Jasper Philipsen, and Olav Kooij. UCI 1.Pro since 2020.",
         "watchNotes": "Dutch state broadcaster NOS typically carries highlights; FloBikes streams in NA. Watch the closing 30km — sprinters' teams take control unless the wind has already done its work."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-criquelion-2026",
@@ -25469,7 +26309,17 @@
         ],
         "historicalContext": "Founded in 2016 in honour of Claude Criquielion. Held under various title sponsors but always around Lessines, Criquielion's home town.",
         "watchNotes": "RTBF (Belgian French-language TV) usually carries highlights. Watch the final lap of the local circuit — that's where the winning move lands."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "antwerp-port-epic-ladies-2026",
@@ -25567,7 +26417,13 @@
         ],
         "historicalContext": "Founded in 2020 as the women's counterpart to the Sels Trophy / Antwerp Port Epic men's race. UCI 1.Pro since 2023.",
         "watchNotes": "Sporza (Belgium) carries highlights; FloBikes (NA) streams when available. Watch every cobble sector — selections happen continuously."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "gravel-bogota-2026",
@@ -25593,7 +26449,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "antwerp-port-epic-sels-trophy-2026",
@@ -25693,7 +26559,13 @@
         ],
         "historicalContext": "First held in 1921 as the Schaal Sels. Rebranded in 2018 as Antwerp Port Epic. Past winners include Tom Boonen and Niki Terpstra.",
         "watchNotes": "Sporza carries Belgian highlights; FloBikes streams in NA. Watch the cobble sectors in the second half — selections are constant and the winning group is usually 5-10 riders."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "gp-mazda-2026",
@@ -25775,7 +26647,17 @@
         ],
         "historicalContext": "Modern addition to the Flemish calendar (mid-2010s). Run as a UCI 1.2 race by a regional cycling club.",
         "watchNotes": "No live international broadcast. Belgian regional outlets occasionally post a finish-line clip. Action condenses on the final 20km."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "boucles-de-la-mayenne-2026",
@@ -26162,6 +27044,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -26755,7 +27647,13 @@
         ],
         "historicalContext": "Long-running Basque race dating to the 1940s, revived as a UCI 1.1 in the 2010s. Always finishes on Arrate.",
         "watchNotes": "ETB1 (Basque public TV) carries live coverage; Eurosport sometimes picks up. Watch the final 30km — Arrate decides the race."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "tour-de-wallonie-2026",
@@ -27073,6 +27971,16 @@
           "isOutsider": true,
           "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -27237,6 +28145,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -27299,7 +28217,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gravel-adventure-2026",
@@ -27325,7 +28253,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "alpes-gresivaudan-classic-2026",
@@ -27387,7 +28325,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "brussels-cycling-classic-2026",
@@ -27570,7 +28518,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-auvergne-rhone-alpes-2026",
@@ -28061,7 +29019,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "tour-feminin-international-des-pyrenees-2026",
@@ -28205,6 +29173,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -28267,7 +29245,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "copenhagen-sprint-women-2026",
@@ -28467,7 +29455,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "copenhagen-sprint-2026",
@@ -28684,7 +29682,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "flanders-diamond-tour-2026",
@@ -28746,7 +29754,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-gippingen-2026",
@@ -28808,7 +29826,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "wish-one-millau-2026",
@@ -28834,7 +29862,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "baloise-belgium-tour-2026",
@@ -29882,6 +30920,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -30025,6 +31069,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -30182,6 +31236,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -30208,7 +31272,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "grand-tour-3-cime-lavaredo-2026",
@@ -30234,7 +31308,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "andorra-classic-2026",
@@ -30296,7 +31380,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "women-cycling-day-2026",
@@ -30357,7 +31451,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "eislek-gravel-luxembourg-2026",
@@ -30383,7 +31487,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "og-classique-2026",
@@ -30409,7 +31523,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "ghost-of-the-gravel-2026",
@@ -30435,7 +31559,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "lyon-torino-2026",
@@ -30577,6 +31711,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -30770,6 +31914,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -31856,7 +33010,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-magnificent-qinghai-2026",
@@ -32080,6 +33244,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -32106,7 +33280,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-austria-2026",
@@ -32307,6 +33491,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -32333,7 +33527,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "baloise-ladies-tour-2026",
@@ -32510,6 +33714,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -32571,7 +33785,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "la-picto-en-nouvelle-aquitaine-2026",
@@ -32633,7 +33857,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "3rides-gravel-2026",
@@ -32659,7 +33893,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "clasica-de-ordizia-2026",
@@ -32721,7 +33965,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "around-the-pot-2026",
@@ -32747,7 +34001,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "clasica-castilla-y-leon-2026",
@@ -32809,7 +34073,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-de-l-ain-2026",
@@ -32952,6 +34226,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -33879,7 +35163,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "china-xizang-trans-himalaya-2026",
@@ -34055,6 +35349,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -34131,6 +35435,16 @@
             "gc-contender",
             "puncheur"
           ]
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -34705,6 +36019,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -34992,6 +36316,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -35018,7 +36352,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gravel-medellin-2026",
@@ -35044,7 +36388,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "arctic-race-of-norway-2026",
@@ -35217,6 +36571,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
       ]
     },
@@ -35397,6 +36761,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -35535,6 +36909,16 @@
           "classification": "kom",
           "description": "Queen of the Mountains."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -35597,7 +36981,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gravel-grit-n-grind-2026",
@@ -35623,7 +37017,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "adac-cyclassics-2026",
@@ -35782,6 +37186,12 @@
             "sprinter"
           ]
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -35844,7 +37254,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-du-limousin-2026",
@@ -36004,6 +37424,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -36065,7 +37495,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "deutschland-tour-2026",
@@ -36242,6 +37682,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
       ]
     },
@@ -36764,6 +38214,12 @@
           "classification": "kom",
           "description": "Queen of the Mountains."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -36826,7 +38282,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "konvert-kortrijk-koerse-2026",
@@ -36888,7 +38354,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "vuelta-a-espana-2026",
@@ -37775,7 +39251,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "khomas100-2026",
@@ -37801,7 +39287,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-du-poitou-charentes-en-nouvelle-aquitaine-2026",
@@ -37961,6 +39457,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -38023,7 +39529,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "kreiz-breizh-feminin-2026",
@@ -38085,7 +39601,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "bretagne-classic-ouest-france-2026",
@@ -38306,7 +39832,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "philadelphia-cycling-classic-2026",
@@ -38368,7 +39904,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gravel-arteaga-mexico-2026",
@@ -38394,7 +39940,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "uec-gravel-european-championships-2026-men",
@@ -38804,6 +40360,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -38985,6 +40551,16 @@
           "classification": "sprints",
           "description": "Intermediate sprints classification."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -39162,6 +40738,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
     },
@@ -39468,6 +41054,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
       ]
     },
     {
@@ -39692,6 +41288,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -39753,7 +41359,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "the-wolf-2026",
@@ -39779,7 +41395,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "graean-cymru-2026",
@@ -39806,7 +41432,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "pointe-du-raz-ladies-classic-2026",
@@ -39867,7 +41503,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gravel-chile-2026",
@@ -39893,7 +41539,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-binzhou-2026",
@@ -40021,6 +41677,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -40083,7 +41749,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "coppa-sabatini-2026",
@@ -40157,7 +41833,13 @@
             "Italian classics puncheurs lead the field."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "gp-de-quebec-2026",
@@ -40408,7 +42090,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "memorial-marco-pantani-2026",
@@ -40470,7 +42162,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-taihu-lake-2026",
@@ -40646,6 +42348,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -40790,6 +42502,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -40816,7 +42538,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-de-fourmies-la-voix-du-nord-2026",
@@ -41148,7 +42880,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "trofeo-matteotti-2026",
@@ -41210,7 +42952,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "womens-cycling-gp-stuttgart-2026",
@@ -41271,7 +43023,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "il-giro-d-abruzzo-2026",
@@ -41430,6 +43192,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -41492,7 +43264,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gp-de-wallonie-2026",
@@ -41742,6 +43524,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -41803,7 +43595,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-du-gatineau-2026",
@@ -41865,7 +43667,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "kampioenscap-van-vlaanderen-2026",
@@ -41927,7 +43739,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-huangshan-2026",
@@ -42071,6 +43893,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -42133,7 +43965,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "super-8-classic-2026",
@@ -42241,7 +44083,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "tartu-rattamaraton-2026",
@@ -42267,7 +44119,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "mammoth-tuff-2026",
@@ -42293,7 +44155,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "giro-della-romagna-2026",
@@ -42355,7 +44227,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "gooikske-pijl-2026",
@@ -42417,7 +44299,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "world-championships-men-s-tt-2026",
@@ -42757,7 +44649,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "pyrenees-catalanes-gravel-2026",
@@ -42783,7 +44685,17 @@
         "geos": {},
         "youtubeChannels": [],
         "notes": "UCI Gravel World Series events are typically not livestreamed; results and short recap clips appear on the UCI YouTube channel and event social media."
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Gravel races at this tier typically lack TV broadcast coverage. Check the race organizer website, Instagram, or Strava for replays and rider-uploaded footage."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "paris-chauny-2026",
@@ -42845,7 +44757,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-de-langkawi-2026",
@@ -43069,6 +44991,16 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
       ]
     },
@@ -43425,7 +45357,13 @@
             "Italian classics specialists with Lombardia ambitions."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "giro-dell-emilia-donne-2026",
@@ -43505,7 +45443,13 @@
             "Classics-and-puncheur riders contest the reduced finish."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "sparkassen-munsterland-giro-2026",
@@ -43567,7 +45511,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "coppa-agostoni-2026",
@@ -43629,7 +45583,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tour-of-vendee-2026",
@@ -43691,7 +45655,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "coppa-bernocchi-2026",
@@ -43765,7 +45739,13 @@
             "Italian classics specialists and Lombardia hopefuls target this Trittico race."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "binche-chimay-binche-2026",
@@ -43827,7 +45807,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "tre-valle-varesine-2026",
@@ -43901,7 +45891,13 @@
             "Top Lombardia favourites use this as final tune-up."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "gran-piemonte-2026",
@@ -44304,6 +46300,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -44490,7 +46496,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "sun-hung-kai-hong-kong-cyclothon-2026",
@@ -44552,7 +46568,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "trofeo-tessile-moda-2026",
@@ -44614,7 +46640,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "uci-gravel-world-championships-2026-men",
@@ -44973,6 +47009,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -45166,6 +47208,16 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
       ]
     },
     {
@@ -45337,6 +47389,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
       ]
     },
     {
@@ -45411,7 +47469,13 @@
             "Italian classics specialists and Veneto regional riders."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "veneto-women-2026",
@@ -45472,7 +47536,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "chrono-des-nations-2026",
@@ -45534,7 +47608,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+        }
+      ]
     },
     {
       "id": "utsunomiya-japan-cup-2026",
@@ -45596,7 +47680,17 @@
             }
           }
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+        }
+      ]
     },
     {
       "id": "veneto-classic-2026",
@@ -45670,7 +47764,13 @@
             "Italian classics specialists target the closing climbs."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     },
     {
       "id": "tour-of-guangxi-women-2026",
@@ -45756,7 +47856,13 @@
             "European WWT teams send strong rosters for the year-ending UCI points."
           ]
         }
-      }
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ]
     }
   ]
 }

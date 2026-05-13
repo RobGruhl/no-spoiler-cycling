@@ -134,6 +134,11 @@
 .narratives{margin-top:10px}
 .narratives li{font-family:var(--font-sans);font-size:15px;line-height:1.55;color:var(--ink-2);margin:8px 0;padding-left:18px;position:relative}
 .narratives li::before{content:"§";position:absolute;left:0;color:var(--ink-3);font-family:var(--font-mono);font-weight:600}
+.ed-notes{list-style:none;padding:0;margin:14px 0 0}
+.ed-notes li{display:grid;grid-template-columns:160px 1fr;gap:14px;align-items:baseline;padding:12px 14px;border:1px solid var(--rule-soft);margin-bottom:8px;background:var(--paper-2)}
+@media (max-width:640px){.ed-notes li{grid-template-columns:1fr;gap:4px}}
+.ed-notes .en-kind{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.ed-notes .en-text{font-family:var(--font-sans);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
 .prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
@@ -361,6 +366,14 @@
       <h2>When to tune in</h2>
       <p class="prose">Coverage via RAI Sport (Italy) and organiser highlights. Watch the final hilly circuit - the race almost always comes down to a small group or solo finish.</p>
     </section>
+    <section class="section">
+    <div class="eyebrow">§ Editorial Notes</div>
+    <h2>What we know &amp; don't know</h2>
+    <ul class="ed-notes"><li>
+    <span class="en-kind mono">Broadcast</span>
+    <span class="en-text">No public broadcast coverage confirmed for this race. The race-data.json entries are placeholders flagged &quot;Not available&quot; — see broadcaster notes for organizer social-channel pointers.</span>
+  </li></ul>
+  </section>
   
     <footer class="foot">
       <div class="foot-row">
