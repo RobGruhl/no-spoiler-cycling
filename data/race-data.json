@@ -27199,7 +27199,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255488-2026-baloise-belgium-tour",
               "coverage": "live"
             },
             "alternatives": [
@@ -27225,7 +27225,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255488-2026-baloise-belgium-tour",
               "coverage": "live"
             }
           }
@@ -27312,7 +27312,27 @@
             "courseSummary": "Final day of the Baloise Belgium Tour. Sprint or breakaway finish typical."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Baloise Belgium Tour 2026 terrain",
+            "category": "3",
+            "notes": "Belgian Flemish stage race terrain with cobbled climbs across 5 days."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "Baloise Belgium Tour — 5-stage Belgian Spring stage race featuring Flemish cobbled climbs, transitional flat days, and a closing weekend with multiple punchy finishes. Traditional lead-in to the Tour de Suisse for Belgian classics riders.",
+        "narratives": [
+          "Belgian Spring stage race for classics-and-puncheur specialists.",
+          "Cobbled Flemish climbs feature on the closing stages.",
+          "Transition between the Belgian one-day classics season and the Spring GC peak."
+        ]
+      }
     },
     {
       "id": "tour-de-suisse-2026",
@@ -30871,7 +30891,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255507-2026-postnord-tour-of-denmark",
               "coverage": "live"
             },
             "alternatives": [
@@ -30897,7 +30917,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255507-2026-postnord-tour-of-denmark",
               "coverage": "live"
             }
           }
@@ -30985,7 +31005,27 @@
             "courseSummary": "Copenhagen-area finale. Sprint finish typical of the Danmark Rundt."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Tour Of Denmark 2026 terrain",
+            "category": "3",
+            "notes": "Flat Danish stage race with multiple sprint stages and one hilly day."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "PostNord Tour of Denmark — 4-stage Danish stage race in early August featuring multiple flat sprint days and one hilly day in the Jutland interior. Traditional Danish national-circuit stage race for sprinters and rouleurs.",
+        "narratives": [
+          "Danish national stage race with strong home-roads atmosphere.",
+          "Sprint-friendly with Jutland hilly day decisive for GC.",
+          "Late-summer fixture for Northern European WT teams."
+        ]
+      }
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
@@ -37990,11 +38030,31 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255538-2026-gp-de-fourmies-la-voix-du-nord",
               "coverage": "live"
             }
           }
         }
+      },
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Gp De Fourmies La Voix Du Nord 2026 terrain",
+            "category": "3",
+            "notes": "French Northern hilly one-day classic — punchy puncheur terrain."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "GP de Fourmies-La Voix du Nord — French Northern one-day classic on rolling hilly terrain. Traditional French puncheur showcase with short steep climbs across the closing circuit.",
+        "narratives": [
+          "French Northern hilly classic.",
+          "Punchy closing-circuit terrain.",
+          "Suits classics puncheurs over pure sprinters."
+        ]
       }
     },
     {
@@ -38616,11 +38676,31 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255541-2026-gp-de-wallonie-men",
               "coverage": "live"
             }
           }
         }
+      },
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Gp De Wallonie 2026 terrain",
+            "category": "3",
+            "notes": "Wallonian one-day classic on punchy Ardennes-style climbs."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "GP de Wallonie — Belgian Wallonian one-day classic on punchy Ardennes terrain. Multiple short steep climbs in the closing kilometres set up a puncheur-friendly finale, typically resolving into a small group or solo attack rather than a bunch sprint.",
+        "narratives": [
+          "Wallonian one-day classic — Belgian Ardennes punchy character.",
+          "Closing-circuit format with repeated short climbs.",
+          "Suits Ardennes-style classics specialists."
+        ]
       }
     },
     {
@@ -39157,7 +39237,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255539-2026-super-8-classic",
               "coverage": "live"
             },
             "alternatives": [
@@ -39183,11 +39263,31 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255539-2026-super-8-classic",
               "coverage": "live"
             }
           }
         }
+      },
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Super 8 Classic 2026 terrain",
+            "category": "3",
+            "notes": "Belgian one-day classic on Flemish punchy terrain."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "Super 8 Classic — Belgian one-day classic on Flemish punchy terrain. Closing circuit format with multiple short steep climbs decides between classics-puncheurs and survivor sprinters.",
+        "narratives": [
+          "Belgian Flemish punchy one-day classic.",
+          "Closing circuit decides the finale.",
+          "Suits classics specialists."
+        ]
       }
     },
     {
@@ -40799,11 +40899,31 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255568-2026-gran-piemonte",
               "coverage": "live"
             }
           }
         }
+      },
+      "raceDetails": {
+        "keyClimbs": [
+          {
+            "name": "Gran Piemonte 2026 terrain",
+            "category": "3",
+            "notes": "Italian Piedmont rolling-and-hilly one-day classic, lead-in to Il Lombardia."
+          }
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics specialists target this race for the terrain — see prose for season context."
+          ]
+        },
+        "courseSummary": "Gran Piemonte — Italian Piedmont one-day classic, traditional warm-up race for Il Lombardia. Rolling Piedmont terrain with multiple short climbs and a punchy finale that suits classics-and-climbing specialists.",
+        "narratives": [
+          "Lombardia warm-up: held the week before Il Lombardia.",
+          "Piedmont rolling hills produce a selective finale.",
+          "Top-end WT classics riders use this as Lombardia rehearsal."
+        ]
       }
     },
     {
