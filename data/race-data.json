@@ -879,9 +879,14 @@
           }
         ],
         "favorites": {
-          "gcContenders": [],
-          "stageHunters": [],
-          "sprinters": []
+          "gcContenders": [
+            "Top WWT climbers use Australia's opening WT stage race as the new-season GC test.",
+            "Australian home-roads riders ride for national pride on familiar terrain."
+          ],
+          "stageHunters": [
+            "Pure sprinters target the opening flat stages.",
+            "Climbers target Willunga Hill — the GC-decisive summit of the race."
+          ]
         },
         "narratives": [
           "Opening race of the 2026 women's WorldTour season",
@@ -4890,7 +4895,17 @@
           "GC battle decided on Green Mountain",
           "Sprinters have multiple opportunities in opening stages",
           "Desert winds can create chaos on exposed roads"
-        ]
+        ],
+        "favorites": {
+          "gcContenders": [
+            "WT GC riders use the desert stage race as early-season GC test — climbers and TT-strong riders favored on Green Mountain and Oman ITT stages.",
+            "Middle East specialists with early-season form historically dominate."
+          ],
+          "stageHunters": [
+            "Sprinters target the multiple flat stages along the Oman coast and capital.",
+            "Puncheurs hunt the rolling intermediate days before Green Mountain."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -5642,7 +5657,13 @@
           "Portugal's only professional classic - home riders highly motivated",
           "Puncheurs vs sprinters on the finishing circuit",
           "Early season form indicator for WorldTour riders"
-        ]
+        ],
+        "favorites": {
+          "classicSpecialists": [
+            "Top WT classics-and-sprint specialists target the Portuguese hilly one-day classic.",
+            "Punchy riders with form for the rolling Portuguese coastal terrain."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -5787,7 +5808,13 @@
           "Sprinters' early season tune-up",
           "Warm weather attracts WorldTour teams",
           "Spanish teams fighting for home glory"
-        ]
+        ],
+        "favorites": {
+          "sprinters": [
+            "Pure WT sprinters target the flat coastal Spanish one-day classic — a classic sprinter showcase.",
+            "Spanish home-roads sprinters and rouleurs use this as a season opener."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -6400,7 +6427,18 @@
           "Top GC contenders testing early season form",
           "Alto do Malhão ITT can overturn GC gaps",
           "Portuguese fans passionate about home race"
-        ]
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Top WT climbers use the early-season Portuguese 5-stage race as opening GC test — climbers and TT-strong riders historically dominate.",
+            "Spanish/Portuguese WT teams enter strong rosters for home-region race."
+          ],
+          "stageHunters": [
+            "Sprinters target stages 1+5 on the flat Algarve coast.",
+            "Climbers target the Foia summit finish.",
+            "TT specialists target the mid-race ITT."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -23178,7 +23216,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255463-2026-4-jours-de-dunkerque-grand-prix-des-hauts-de-fra",
               "coverage": "live"
             },
             "alternatives": [
@@ -23204,7 +23242,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255463-2026-4-jours-de-dunkerque-grand-prix-des-hauts-de-fra",
               "coverage": "live"
             }
           }
@@ -25170,7 +25208,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/live/234193-2026-ethias-tour-of-wallonie",
               "coverage": "live"
             },
             "alternatives": [
@@ -25196,7 +25234,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/live/234193-2026-ethias-tour-of-wallonie",
               "coverage": "live"
             }
           }
