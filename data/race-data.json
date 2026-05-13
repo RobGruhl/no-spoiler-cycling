@@ -2966,19 +2966,25 @@
       "raceDetails": {
         "lastFetched": "2026-01-08T05:43:29.899Z",
         "spoilerSafe": true,
-        "courseSummary": "The Surf Coast Classic runs 157km from Lorne to Torquay, starting with a 10km climb towards Deans Marsh. From there riders head through Barwon Downs and Forrest before meandering through rural countryside to Modewarre, then back to the coast for the finish. Climbs concentrated in first half, with flatter second half typically resulting in a sprint finish.",
+        "courseSummary": "Surf Coast Classic — Australian one-day classic along the Victorian Surf Coast (Great Ocean Road region). Coastal-and-hilly terrain with short steep climbs near the finish. Part of the Cadel Evans Great Ocean Road Race weekend in late January / early February.",
         "keyClimbs": [
           {
-            "name": "Deans Marsh Climb",
-            "category": "3",
-            "length": 10,
-            "avgGradient": "3%",
-            "maxGradient": "8%",
-            "kmFromFinish": 147,
-            "notes": "First major climb out of Lorne"
+            "name": "Victorian Surf Coast kickers",
+            "category": "4",
+            "notes": "Short steep coastal climbs on the closing laps."
           }
         ],
-        "watchNotes": "Crosswinds can split the race on exposed coastal sections. Despite rolling terrain in first half, the race typically comes together for a sprint finish in Torquay. Well-organized leadout trains usually prevail."
+        "watchNotes": "Short steep climbs on the closing laps decide the race — pure sprinters typically struggle to survive.",
+        "narratives": [
+          "Cadel Evans Great Ocean Road Race weekend: Surf Coast Classic is the warm-up criterium.",
+          "Coastal Victorian terrain with rolling hills and short steep climbs.",
+          "Australian season-opening showcase for WT sprinters and puncheurs."
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Australian home-roads riders + WT puncheurs on the closing circuit."
+          ]
+        }
       },
       "broadcast": {
         "lastUpdated": "2026-01-08T05:49:06.864Z",
@@ -2987,6 +2993,28 @@
             "primary": {
               "broadcaster": "Discovery+/Eurosport",
               "type": "streaming",
+              "coverage": "live",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "broadcasterId": "discovery-plus"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/events/15255328-2026-surf-coast-classic-men",
+              "coverage": "live",
+              "subscription": true
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com/events/15255328-2026-surf-coast-classic-men",
               "coverage": "live",
               "subscription": true
             }
@@ -25858,7 +25886,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183675-2026-brussels-cycling-classic-men",
               "coverage": "live"
             },
             "alternatives": [
@@ -25884,7 +25912,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15183675-2026-brussels-cycling-classic-men",
               "coverage": "live"
             }
           }
@@ -25924,7 +25952,31 @@
           "nationalityCode": "NO",
           "specialties": []
         }
-      ]
+      ],
+      "raceDetails": {
+        "courseSummary": "Brussels Cycling Classic — Belgian one-day classic finishing in central Brussels. Flat-and-rolling Belgian terrain with cobbled sections and short steep kickers on the closing circuit. Traditional Belgian sprint-and-puncheur showcase, typically resolving into a reduced bunch sprint or late breakaway.",
+        "narratives": [
+          "Belgian sprint-and-puncheur classic with central Brussels finish.",
+          "Short steep climbs on the closing circuit can drop pure sprinters.",
+          "Cobbled sections add tactical complexity."
+        ],
+        "watchNotes": "Reduced bunch sprint expected. Watch the closing climbs for puncheur attacks.",
+        "keyClimbs": [
+          {
+            "name": "Brussels finishing-circuit kickers",
+            "category": "4",
+            "notes": "Short steep climbs on the closing circuit."
+          }
+        ],
+        "favorites": {
+          "sprinters": [
+            "Top Belgian and Dutch sprinters survive the climbs and contest the line."
+          ],
+          "puncheurs": [
+            "Belgian classics specialists attack on the closing circuit."
+          ]
+        }
+      }
     },
     {
       "id": "dwars-door-de-westhoek-2026",
@@ -27673,7 +27725,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255489-2026-tour-of-slovenia",
               "coverage": "live"
             },
             "alternatives": [
@@ -27699,7 +27751,7 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
+              "url": "https://www.flobikes.com/events/15255489-2026-tour-of-slovenia",
               "coverage": "live"
             }
           }
@@ -27805,7 +27857,33 @@
             "courseSummary": "Final day. Rolling terrain — punchy late attacks possible if GC margins are slim."
           }
         }
-      ]
+      ],
+      "raceDetails": {
+        "courseSummary": "Tour of Slovenia — 5-stage Slovenian stage race in mid-June, traditional Tour de France warm-up for Roglič and other Slovenian WT GC riders. Mix of sprint stages, hilly transitional days, and Alpine summit finishes through the Julian Alps and Karawanken ranges.",
+        "narratives": [
+          "Slovenian home-roads race for Roglič era and emerging Slovenian WT talent.",
+          "Mix of sprint, hilly, and Alpine summit-finish stages — small but selective race.",
+          "Tour de France warm-up: GC riders use this as final TdF altitude block."
+        ],
+        "watchNotes": "Queen stage typically in the Julian Alps — watch for solo summit-finish attacks. Sprinters target the opening flat stage.",
+        "keyClimbs": [
+          {
+            "name": "Julian Alps summit finish",
+            "category": "1",
+            "summit": true,
+            "notes": "Queen-stage summit finish in the Julian Alps decides the GC."
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Slovenian WT GC riders (Roglič era) target the home race.",
+            "Top WT climbers use it as TdF warm-up."
+          ],
+          "stageHunters": [
+            "Sprinters target opening stage; puncheurs hunt hilly days."
+          ]
+        }
+      }
     },
     {
       "id": "tour-de-suisse-women-2026",
