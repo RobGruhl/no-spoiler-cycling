@@ -133,8 +133,10 @@ function renderWatchSection(race) {
     .filter(g => geos[g]?.primary)
     .concat(Object.keys(geos).filter(g => !PRIMARY_GEO_ORDER.includes(g) && geos[g]?.primary));
   const ytChannels = race.broadcast?.youtubeChannels || [];
+  const hasYtHighlights = !!race.youtubeHighlights && race.youtubeHighlights !== 'TBD';
+  const hasVideoNote = !!race.videoNote;
 
-  if (!entries.length && !ytChannels.length) {
+  if (!entries.length && !ytChannels.length && !hasYtHighlights && !hasVideoNote) {
     return `<section class="section">
       <div class="eyebrow">§ Watch</div>
       <h2>Where to watch <span class="placeholder">TBD</span></h2>
@@ -230,7 +232,20 @@ function renderJerseys(race) {
 
 function renderYoutubeHighlightsBlock(race) {
   const yh = race.youtubeHighlights;
-  if (!yh || yh === 'TBD') return '';
+  const hasYh = yh && yh !== 'TBD';
+  const hasNote = !!race.videoNote;
+
+  // Note-only path: render the editorial videoNote even without a YouTube URL.
+  // (Many races have a "no spoiler-safe coverage found" or "broadcaster-only"
+  // note worth surfacing to viewers.)
+  if (!hasYh && hasNote) {
+    return `<div class="yh-block">
+      <div class="yh-lbl mono">Broadcast notes</div>
+      <p class="prose" style="margin:0;font-size:13px">${htmlEscape(race.videoNote)}</p>
+    </div>`;
+  }
+
+  if (!hasYh) return '';
 
   const items = Array.isArray(yh)
     ? yh.filter(x => x && x.url && x.url !== 'TBD')
@@ -1119,7 +1134,7 @@ function generateAllRaceDetailsPages(raceDataPath = './data/race-data.json', out
     count++;
     if (Array.isArray(race.stages)) {
       for (const s of race.stages) {
-        if (s.stageDetails && Object.keys(s.stageDetails).length > 0) {
+        if (s.stageType !== 'rest-day' && s.stageDetails && Object.keys(s.stageDetails).length > 0) {
           generateStageDetailsPage(race, s.stageNumber, outputDir);
           stageCount++;
         }
@@ -1146,7 +1161,7 @@ if (args.includes('--all')) {
   generateRaceDetailsPage(race);
   let n = 0;
   for (const s of race.stages) {
-    if (s.stageDetails && Object.keys(s.stageDetails).length > 0) {
+    if (s.stageType !== 'rest-day' && s.stageDetails && Object.keys(s.stageDetails).length > 0) {
       generateStageDetailsPage(race, s.stageNumber);
       n++;
     }
