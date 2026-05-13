@@ -52,6 +52,17 @@
 .w-yt a{border-bottom:1px solid var(--rule-soft);color:var(--ink)}
 .w-yt a:hover{border-bottom-color:var(--ink)}
 .w-yt .sep{color:var(--rule-soft);margin:0 4px}
+.yh-block{margin-top:18px;border:1px solid var(--rule);padding:14px}
+.yh-lbl{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px}
+.yh-cards{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:760px){.yh-cards{grid-template-columns:repeat(2,1fr)}}
+.yh-card{display:block;padding:12px 14px;border:1px solid var(--rule);background:var(--paper);text-decoration:none;color:var(--ink);transition:border-color .12s,background .12s}
+.yh-card:hover{border-color:var(--ink);background:var(--paper-2)}
+.yh-card-head{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+.yh-icon{color:var(--signal);font-size:13px}
+.yh-title{font-weight:500;font-size:14px;line-height:1.3}
+.yh-card-meta{font-size:11px;letter-spacing:.06em;color:var(--ink-3);text-transform:lowercase;margin-bottom:6px}
+.yh-card-note{font-size:12px;line-height:1.45;color:var(--ink-2)}
 .stage-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
 .stage-cta{display:inline-grid;grid-template-rows:auto auto;gap:4px;padding:14px 20px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);transition:background .12s,color .12s}
 .stage-cta.primary:hover{background:var(--signal);border-color:var(--signal)}
@@ -266,6 +277,14 @@
       <div class="w-cta"><span class="watch-cta disabled">no link</span></div>
     </div></div>
     
+    <div class="yh-block">
+    <div class="yh-lbl mono">Spoiler-safe highlights</div>
+    <div class="yh-cards"><a class="yh-card" href="https://www.youtube.com/watch?v=zxwtU1PDito" target="_blank" rel="noopener">
+      <div class="yh-card-head"><span class="yh-icon">▶</span><span class="yh-title">YouTube Highlights</span></div>
+      <div class="yh-card-meta mono">highlights</div>
+      <div class="yh-card-note">Tour of the Alps official channel Stage 3 highlights (6:01). Per youtube-cycling-analyzer: SAFE — neutral title &#39;It&#39;s time to have the real FUN!&#39;, neutral og:description, winner revealed only at natural finish line moment (~70% through) followed by a brief winner interview. Tier 1 official race channel. Disable autoplay and avoid sidebar recommendations.</div>
+    </a></div>
+  </div>
     <p class="prose" style="margin-top:10px;font-size:12px;letter-spacing:.04em">⚠️ Spoiler warning: live streams and broadcaster home pages may show current standings. Disable autoplay &amp; avoid sidebar recommendations on YouTube.</p>
   </section>
 
