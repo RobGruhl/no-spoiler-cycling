@@ -662,6 +662,37 @@
           "url": "https://www.youtube.com/watch?v=AgOiwfIVQpg",
           "description": "Final stage around the western highland city of Santa Ana near the Cerro Verde volcanic complex"
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -2763,7 +2794,38 @@
           "specialties": []
         }
       ],
-      "discipline": "road"
+      "discipline": "road",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "trofeo-calvia-2026",
@@ -4363,6 +4425,37 @@
           "url": "https://www.youtube.com/watch?v=Dk9-5y35ksg",
           "description": "Final stage finishing in Ales with 174m of elevation - likely a sprint finish"
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -4828,7 +4921,37 @@
       },
       "discipline": "road",
       "channel": "TNT Sports Cycling",
-      "verified": true
+      "verified": true,
+      "jerseys": [
+        {
+          "name": "Red Jersey",
+          "nameEn": "UAE Red",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Green Jersey",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Black Jersey",
+          "nameEn": "Black KOM",
+          "color": "#111827",
+          "classification": "kom",
+          "description": "Queen of the Mountains."
+        },
+        {
+          "name": "White Jersey",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "muscat-classic-2026",
@@ -5087,6 +5210,37 @@
             "gc-contender",
             "one-day"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -5492,7 +5646,38 @@
         },
         "notes": "Spanish ProSeries stage race. Coverage may vary by stage."
       },
-      "discipline": "road"
+      "discipline": "road",
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-de-la-provence-2026",
@@ -5641,6 +5826,37 @@
             "sprinter"
           ]
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -5752,6 +5968,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage of the 2-day race. Route details from official roadbook closer to race day."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -6409,6 +6656,36 @@
             "gc-contender"
           ]
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Red Jersey",
+          "nameEn": "UAE Red",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Green Jersey",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Black Jersey",
+          "nameEn": "Black KOM",
+          "color": "#111827",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "White Jersey",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -6684,6 +6961,37 @@
             "puncheur"
           ]
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -6896,6 +7204,37 @@
           "nationality": "Switzerland",
           "nationalityCode": "SW",
           "specialties": []
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -7233,7 +7572,38 @@
         "gcDynamics": "With only two stages, the GC is typically decided on the mountain stage. Bonus seconds on the first stage can be crucial. Climbers are favored overall.",
         "historicalContext": "The race combines the heritage of the former Tour du Haut Var and Tour des Alpes-Maritimes, consolidated into a single two-stage event. It takes place in the same region as Paris-Nice's mountain stages and features similar terrain.",
         "watchNotes": "With just 2 stages, the race is compact and aggressive from the start. The mountain stage is where the overall winner will emerge. Watch for attacks on the final climb."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-du-rwanda-2026",
@@ -7442,7 +7812,37 @@
         "gcDynamics": "The constant climbing means there are few hiding places for GC riders. Mountain stages create significant time gaps, and the altitude factor can surprise riders not acclimatized. The Wall of Kigali often features in the decisive stages.",
         "historicalContext": "First held in 1988, the Tour du Rwanda has grown from a regional event to a UCI 2.1 classified race attracting international teams. Rwanda's investment in cycling infrastructure and the race's growing prestige have made it a cornerstone of African cycling development. Many African riders who have gone on to WorldTour careers cut their teeth here.",
         "watchNotes": "Every stage features significant climbing due to Rwanda's terrain. Watch for attacks on the longer climbs where altitude takes its toll. The atmosphere is incredible, with huge crowds lining the roads. The race often features aggressive racing from start to finish."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot Rouge",
+          "nameEn": "KOM Jersey",
+          "color": "#dc2626",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best African Rider."
+        }
+      ]
     },
     {
       "id": "castellon-gravel-race-2026",
@@ -7632,7 +8032,37 @@
         "gcDynamics": "The mountain stages decide the GC, but wind on coastal stages can create unexpected splits. The 6-stage format allows for GC battles to develop over multiple days.",
         "historicalContext": "The Giro di Sardegna has a long tradition as an early-season Italian stage race. It provides an important racing opportunity for Italian and continental teams while giving WorldTour riders a chance to build form in Mediterranean conditions.",
         "watchNotes": "Watch for wind-affected stages along the coast and mountain stages in the interior. The diverse terrain means different types of riders can shine on different days. The race often features aggressive racing from Italian continental teams seeking recognition."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "omloop-nieuwsblad-women-2026",
@@ -8633,6 +9063,37 @@
             "courseSummary": "GC decider — 139km, 2,633m of elevation through the Valle del Jerte and La Vera valley.",
             "watchNotes": "Where the race is decided — significant climbing packed into the closing kilometres."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -10114,6 +10575,37 @@
             "courseSummary": "East-coast Taiwan finale with rolling terrain. Last chance for GC contenders to make moves."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -11096,6 +11588,37 @@
             "watchNotes": "Final stage typically sees the GC settled with the peloton riding conservatively. Sprint teams will fight for the stage win."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -11250,6 +11773,36 @@
             "courseSummary": "Friulian Alps closer — 2,353m elevation. GC settled in the closing climbs.",
             "watchNotes": "Race finale with substantial mountain climbing. Final GC decision."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -12234,6 +12787,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage. Sprint finish typical of the women's Tour of Thailand."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -13744,7 +14328,38 @@
         }
       ],
       "youtubeHighlights": "https://www.youtube.com/watch?v=HXWDhh3VO7A",
-      "videoNote": "TNT Sports Cycling official 2026 Itzulia Basque Country Stage 5 highlights (7:13). Per youtube-cycling-analyzer: SAFE — neutral title 'THRILLING DUEL!', official broadcaster, winner named only at the natural finish line (final ~15% of runtime). Stage 5 of 6 — the final road stage before the closing day. 169K views, Tier 1 official channel. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "TNT Sports Cycling official 2026 Itzulia Basque Country Stage 5 highlights (7:13). Per youtube-cycling-analyzer: SAFE — neutral title 'THRILLING DUEL!', official broadcaster, winner named only at the natural finish line (final ~15% of runtime). Stage 5 of 6 — the final road stage before the closing day. 169K views, Tier 1 official channel. Disable autoplay and avoid sidebar recommendations.",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "platform": "TBD",
@@ -13969,7 +14584,38 @@
           "description": "Hilly closing stage with GC fight on final climbs."
         }
       ],
-      "_notes": "FloBikes deep links found for all 3 stages."
+      "_notes": "FloBikes deep links found for all 3 stages.",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "region-pays-de-la-loire-tour-feminin-2026",
@@ -14438,7 +15084,37 @@
         "historicalContext": "A relatively modern addition to the Italian U23 calendar, Giro della Magna Grecia has produced several WorldTour-bound Italian riders in recent editions.",
         "watchNotes": "Coverage is typically limited to organiser social media and brief Italian regional highlights."
       },
-      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations (JDROID19 channel) - no actual race footage."
+      "_notes": "No spoiler-safe coverage found. FloBikes has no listing. YouTube returns only PCM video game simulations (JDROID19 channel) - no actual race footage.",
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "paris-roubaix-2026",
@@ -15138,6 +15814,37 @@
             "courseSummary": "154.7km from As Neves to the summit of Monte Trega — dramatic coastal climbing finale",
             "watchNotes": "Final GC shuffling possible. Watch for late attacks from anyone within striking distance"
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -16519,7 +17226,38 @@
           }
         }
       ],
-      "_notes": "No coverage found. FloBikes has no listing. YouTube returns only chess events from Samarkand and unrelated content."
+      "_notes": "No coverage found. FloBikes has no listing. YouTube returns only chess events from Samarkand and unrelated content.",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-of-the-alps-2026",
@@ -16699,7 +17437,37 @@
       ],
       "_notes": "FloBikes deep links found for all 5 stages. Note: stages 3 and 4 share the same video ID 15814148 in FloBikes search results - the video URL slug labeled 'stage-3' is also titled 'Stage 4' in some metadata, suggesting they may be split/combined; verify when applying.",
       "youtubeHighlights": "https://www.youtube.com/watch?v=zxwtU1PDito",
-      "videoNote": "Tour of the Alps official channel Stage 3 highlights (6:01). Per youtube-cycling-analyzer: SAFE — neutral title 'It's time to have the real FUN!', neutral og:description, winner revealed only at natural finish line moment (~70% through) followed by a brief winner interview. Tier 1 official race channel. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "Tour of the Alps official channel Stage 3 highlights (6:01). Per youtube-cycling-analyzer: SAFE — neutral title 'It's time to have the real FUN!', neutral og:description, winner revealed only at natural finish line moment (~70% through) followed by a brief winner interview. Tier 1 official race channel. Disable autoplay and avoid sidebar recommendations.",
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "la-fleche-wallonne-2026",
@@ -17408,7 +18176,38 @@
           }
         }
       ],
-      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 Vuelta a Asturias listing. All YouTube highlights (multiple Spanish channels) reveal winners or daily leaders (Nairo Quintana, Layrac) in titles or descriptions."
+      "_notes": "No spoiler-safe coverage found. FloBikes has no 2026 Vuelta a Asturias listing. All YouTube highlights (multiple Spanish channels) reveal winners or daily leaders (Nairo Quintana, Layrac) in titles or descriptions.",
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "omloop-van-borsele-women-2026",
@@ -17722,7 +18521,38 @@
           }
         }
       ],
-      "_notes": "Stage 1 has SAFE 2h38m live replay from official @tourdebretagne YouTube channel (neutral title, neutral description, Redon/Pipriac route). Stages 2-7 not yet aired (race runs 2026-04-25 through 2026-05-01). Note YouTube spoiler warning: disable autoplay, avoid sidebar recommendations."
+      "_notes": "Stage 1 has SAFE 2h38m live replay from official @tourdebretagne YouTube channel (neutral title, neutral description, Redon/Pipriac route). Stages 2-7 not yet aired (race runs 2026-04-25 through 2026-05-01). Note YouTube spoiler warning: disable autoplay, avoid sidebar recommendations.",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "gravel-one-fifty-2026",
@@ -18531,7 +19361,38 @@
         }
       ],
       "youtubeHighlights": "https://www.youtube.com/watch?v=Yk6D72nIAxs",
-      "videoNote": "Stage 5 of the 2026 Tour of Türkiye (Live Cycling channel, 14:27). Per youtube-cycling-analyzer: SAFE — description deliberately withholds the winner ('one perfectly delivered finish from a reduced bunch'); no rider name in the scraped transcript; neutral title. Disable autoplay and avoid sidebar recommendations. Stage-level coverage; race-level GC clip from Stage 7/8 not yet on a clean source."
+      "videoNote": "Stage 5 of the 2026 Tour of Türkiye (Live Cycling channel, 14:27). Per youtube-cycling-analyzer: SAFE — description deliberately withholds the winner ('one perfectly delivered finish from a reduced bunch'); no rider name in the scraped transcript; neutral title. Disable autoplay and avoid sidebar recommendations. Stage-level coverage; race-level GC clip from Stage 7/8 not yet on a clean source.",
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "liege-bastogne-liege-women-2026",
@@ -19282,7 +20143,38 @@
         ],
         "historicalContext": "Modern UCI 1.2 race created in the 2010s by the Anicolor flooring company alongside its Continental cycling team, contested mainly by Iberian Continental squads.",
         "watchNotes": "Coverage is limited — Portuguese Federation often posts a finish-line clip on YouTube. The decisive split usually happens on one of the late short climbs in the final 30km."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "gp-immo-zone-vloer-en-chapewerken-2026",
@@ -20161,6 +21053,36 @@
             "courseSummary": "Ceremonial yet fast-paced finish at Syntagma Square — Greek Parliament backdrop. Champs-Élysées-style.",
             "watchNotes": "Bunch sprint finale on the urban circuit."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -21684,6 +22606,37 @@
             "courseSummary": "Final stage finishing in Khankendi — the race's namesake destination."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -22317,6 +23270,37 @@
             "courseSummary": "Closing day with Esch-Belval finish. Last chance to shake up the GC."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -22540,6 +23524,37 @@
             "spoilerSafe": true,
             "courseSummary": "Balaton-edge final stage. Closing GC moves possible on the rolling Veszprém approach."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -22901,6 +23916,37 @@
             "classics",
             "puncheur"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -23751,6 +24797,37 @@
             "watchNotes": "Final GC standings often shaped by echelons on the coast. Sprint finish on the seafront."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -23893,6 +24970,37 @@
             "spoilerSafe": true,
             "courseSummary": "Closing GC day — Serra da Estrela climbing decides the race."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -24156,6 +25264,37 @@
             "classics",
             "puncheur"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -24819,6 +25958,37 @@
             "courseSummary": "Final stage. Total race distance approximately 540km across prologue + 3 road stages."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -24961,6 +26131,37 @@
             "spoilerSafe": true,
             "courseSummary": "Laval finale. Last chance to shape the GC."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -25763,6 +26964,37 @@
             "courseSummary": "Final day. Walloon hills typically produce a punchy finale."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -25973,6 +27205,37 @@
             "spoilerSafe": true,
             "courseSummary": "Closing stage. Race-day fireworks if GC margins are tight."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -26911,6 +28174,37 @@
             "courseSummary": "Final Pyrenees-edge stage. Last chance to overturn the GC."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -27706,7 +29000,38 @@
           "Cobbled Flemish climbs feature on the closing stages.",
           "Transition between the Belgian one-day classics season and the Spring GC peak."
         ]
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-de-suisse-2026",
@@ -28213,7 +29538,38 @@
             "Sprinters target opening stage; puncheurs hunt hilly days."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-de-suisse-women-2026",
@@ -28639,6 +29995,37 @@
             "courseSummary": "Closing day — historically the GC decider in the Pyrenees foothills. 547.8km total over 3 stages."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -28763,6 +30150,37 @@
             "spoilerSafe": true,
             "courseSummary": "Catalan coast finale into Barcelona. Late climbs may shake up the GC if margins are slim."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -29130,6 +30548,36 @@
             "courseSummary": "Torino finale. Italian Piemonte hills close the race."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -29291,6 +30739,37 @@
             "spoilerSafe": true,
             "courseSummary": "Closing day through Saxon villages — Bârghiș, Biertan, Mediaș, Băgaciu, Târnăveni. Punchy finale."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -30570,6 +32049,37 @@
             "courseSummary": "Final stage. Sprint finale typical."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -30766,6 +32276,37 @@
             "watchNotes": "Ceremonial yet fast finish at the foot of the Wiener Rathaus."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -30937,6 +32478,37 @@
             "spoilerSafe": true,
             "courseSummary": "Antwerp province finale. Mixed terrain — late attacks or sprint depending on GC margins."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -31350,6 +32922,37 @@
             "courseSummary": "Closing GC day. Tour de l'Ain typically finishes with a tough climb-loaded stage."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -31516,7 +33119,37 @@
           "Sprint-friendly with Jutland hilly day decisive for GC.",
           "Late-summer fixture for Northern European WT teams."
         ]
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Den Gule Trøje",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader — PostNord Tour of Denmark."
+        },
+        {
+          "name": "Den Grønne Trøje",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Den Røde Trøje",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "kom",
+          "description": "Best in Climbs / Combativity."
+        },
+        {
+          "name": "Den Hvide Trøje",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
@@ -32391,6 +34024,37 @@
             "courseSummary": "Final day. The race delivers the highest-altitude road racing on the UCI calendar."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -32787,6 +34451,37 @@
             "sprinter"
           ]
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Koszulka Żółta",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Koszulka Niebieska",
+          "nameEn": "Blue Points",
+          "color": "#2563eb",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Koszulka KOM",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Koszulka Biała",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -32978,6 +34673,37 @@
             "spoilerSafe": true,
             "courseSummary": "Vuelta a Burgos closes annually with the brutal Lagunas de Neila summit finish — GC decider."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Morado",
+          "nameEn": "Purple Jersey",
+          "color": "#7c3aed",
+          "classification": "gc",
+          "description": "Overall GC leader — Burgos purple."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -33236,6 +34962,36 @@
             "courseSummary": "Closing day. Sprint finish typical of the Volta finale."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Camisola Amarela",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Camisola Verde",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Camisola Vermelha",
+          "nameEn": "Red KOM",
+          "color": "#dc2626",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Camisola Branca",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -33431,6 +35187,37 @@
             "courseSummary": "Closing day — bridge crossings and coastal terrain into Narvik. Last GC opportunities."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Den Gule Trøye",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Den Grønne Trøye",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Klatretrøye",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Den Hvite Trøye",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -33579,6 +35366,37 @@
             ]
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Žlutý Dres",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Zelený Dres",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Vrchařský Dres",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Bílý Dres",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -33692,6 +35510,30 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage. Past editions have closed on demanding rolling courses (e.g. Nałęczów → Kraśnik)."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Koszulka Żółta",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Koszulka Niebieska",
+          "nameEn": "Blue Points",
+          "color": "#2563eb",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Koszulka KOM",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "Queen of the Mountains."
         }
       ]
     },
@@ -34131,6 +35973,37 @@
             "courseSummary": "Closing day. The Tour du Limousin traditionally finishes in Limoges."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -34338,6 +36211,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final day with Heilbronn finish — ADAC Cycling Tour-style closing circuit."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Trikot Rot",
+          "nameEn": "Red Leader",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader — Deutschland Tour red."
+        },
+        {
+          "name": "Trikot Grün",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Trikot Berg",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Trikot Weiß",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -34630,7 +36534,38 @@
             "WÆRENSKJOLD Søren (NOR / Uno-X Mobility) — TT-strong rouleur for the prologue/ITT."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-of-britain-women-2026",
@@ -34805,7 +36740,31 @@
             "Breakaway specialists target opportunistic stage wins on British backroads."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Leader Jersey",
+          "nameEn": "Pink Leader",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader — Tour of Britain Women pink."
+        },
+        {
+          "name": "Points Jersey",
+          "nameEn": "Green Points",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "KOM Jersey",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "Queen of the Mountains."
+        }
+      ]
     },
     {
       "id": "gp-lucien-van-impe-2026",
@@ -35971,6 +37930,37 @@
             "courseSummary": "Closing day. Sprint finish typical."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -36783,6 +38773,37 @@
             "courseSummary": "Final stage. Sprint finish typical."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -36933,6 +38954,37 @@
             "courseSummary": "Closing medium mountain stage. The Tour of Britain Men was reduced from 6 to 5 stages in 2026 for gender parity with the women's race."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Leader Jersey",
+          "nameEn": "Blue Leader",
+          "color": "#1e40af",
+          "classification": "gc",
+          "description": "Overall GC leader — Tour of Britain blue."
+        },
+        {
+          "name": "Points Jersey",
+          "nameEn": "Red Points",
+          "color": "#dc2626",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "KOM Jersey",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Sprints Jersey",
+          "nameEn": "Sprints",
+          "color": "#22c55e",
+          "classification": "sprints",
+          "description": "Intermediate sprints classification."
+        }
       ]
     },
     {
@@ -37079,6 +39131,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final Waalwijk circuit — bunch sprint typical. Returns to September slot for 2026."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -37354,6 +39437,37 @@
             "courseSummary": "Final day. Detail from official roadbook."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -37546,6 +39660,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final day. Detail from official roadbook."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -37844,6 +39989,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage. Yellow River delta terrain — typically flat."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -38419,6 +40595,37 @@
             "courseSummary": "Final stage. Sprint finale typical of the Taihu Lake circuit."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -38531,6 +40738,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final day. The Boucles is known for the Côte chaude finishing climb."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -39142,6 +41380,36 @@
             "courseSummary": "GC decider. The Abruzzo Apennines often produce a tough finale."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -39422,6 +41690,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final day — Bratislava-area finish typical."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -39720,6 +42019,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final day. Detail from official roadbook."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -40688,6 +43018,37 @@
             "spoilerSafe": true,
             "courseSummary": "Final stage. Kuala Lumpur circuit sprint finale closes the race."
           }
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -41799,6 +44160,37 @@
             "courseSummary": "Final stage. Saga Prefecture events historically featured."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -42437,7 +44829,38 @@
             "Puncheurs hunt the hilly transitional stages before the Nongla queen stage."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-of-holland-2026",
@@ -42599,6 +45022,37 @@
             "courseSummary": "Arnhem finale of the NIBC Tour of Holland. Last GC opportunities."
           }
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
       ]
     },
     {
@@ -42739,7 +45193,38 @@
             "Asian-circuit sprint specialists with familiarity for the Chongming Island terrain."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "giro-del-veneto-2026",
