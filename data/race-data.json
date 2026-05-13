@@ -40137,6 +40137,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "courseSummary": "Coppa Sabatini — Italian one-day classic in Peccioli (Tuscany), traditionally held in mid-September. Hilly Tuscan terrain with multiple short steep climbs over the closing circuit; puncheur-friendly finale that typically resolves into a small group or solo attack rather than a bunch sprint.",
+        "narratives": [
+          "Tuscan autumn classic: Lombardia-week warm-up on punchy Italian terrain.",
+          "Closing-circuit format with repeated short kickers.",
+          "Suits Italian classics puncheurs and breakaway specialists."
+        ],
+        "keyClimbs": [
+          {
+            "name": "Peccioli circuit kickers",
+            "category": "4",
+            "notes": "Short steep climbs on the closing laps in Tuscan hill country."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Italian classics puncheurs lead the field."
+          ]
+        }
       }
     },
     {
@@ -43378,6 +43398,33 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "courseSummary": "Giro dell'Emilia — iconic Italian one-day classic in Emilia-Romagna, held early October as a Lombardia warm-up. The race finishes with multiple ascents of the San Luca climb in Bologna — a steep punchy finish that produces dramatic late attacks. Climbers and puncheurs both contest the line.",
+        "narratives": [
+          "Iconic San Luca finish: closing climb to the Madonna di San Luca basilica above Bologna.",
+          "Multiple ascents of San Luca on closing laps produce decisive attacks.",
+          "Lombardia rehearsal: top GC climbers use this as one of the major autumn season tune-ups."
+        ],
+        "keyClimbs": [
+          {
+            "name": "San Luca",
+            "category": "2",
+            "length": 2,
+            "avgGradient": 9.5,
+            "maxGradient": 16,
+            "summit": false,
+            "notes": "Iconic climb to the Madonna di San Luca basilica above Bologna — 2km at 9.5%, ramps to 16%. Featured 4-5x on the closing circuit."
+          }
+        ],
+        "favorites": {
+          "climbers": [
+            "Top GC climbers and puncheurs contest the San Luca repeats."
+          ],
+          "puncheurs": [
+            "Italian classics specialists with Lombardia ambitions."
+          ]
+        }
       }
     },
     {
@@ -43431,6 +43478,32 @@
               "coverage": "live"
             }
           }
+        }
+      },
+      "raceDetails": {
+        "courseSummary": "Giro dell'Emilia Donne — women's edition of the iconic Italian classic, sharing the same San Luca climb finale as the men's race. Held early October as a Lombardia-week tune-up. The repeated San Luca ascents (2km at 9.5%, ramps to 16%) produce dramatic late selections.",
+        "narratives": [
+          "Same San Luca finale as men's race — women's WWT Bologna classic.",
+          "Multiple repeats of the steep San Luca decide the finale.",
+          "Top WWT climbers use this as autumn season showcase."
+        ],
+        "keyClimbs": [
+          {
+            "name": "San Luca",
+            "category": "2",
+            "length": 2,
+            "avgGradient": 9.5,
+            "maxGradient": 16,
+            "notes": "Same iconic climb as men's race — Madonna di San Luca basilica climb above Bologna."
+          }
+        ],
+        "favorites": {
+          "climbers": [
+            "Top WWT climbers (Vollering, Niewiadoma, Longo Borghini profiles)."
+          ],
+          "puncheurs": [
+            "Classics-and-puncheur riders contest the reduced finish."
+          ]
         }
       }
     },
@@ -43672,6 +43745,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "courseSummary": "Coppa Bernocchi — Italian one-day classic in Legnano (Lombardy), the oldest continuously-run Italian classic dating to 1919. Held in early October as part of the Trittico Lombardo week leading to Il Lombardia. Rolling Lombard terrain with multiple short climbs on the closing circuit.",
+        "narratives": [
+          "Oldest continuously-run Italian classic (1919-).",
+          "Trittico Lombardo week: held alongside Tre Valli Varesine and Giro del Piemonte as Lombardia warm-ups.",
+          "Rolling Lombard terrain on closing circuit decides the race."
+        ],
+        "keyClimbs": [
+          {
+            "name": "Legnano circuit climbs",
+            "category": "4",
+            "notes": "Lombardy short steep climbs on the finishing laps."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Italian classics specialists and Lombardia hopefuls target this Trittico race."
+          ]
+        }
       }
     },
     {
@@ -43787,6 +43880,26 @@
               "coverage": "live"
             }
           }
+        }
+      },
+      "raceDetails": {
+        "courseSummary": "Tre Valli Varesine — Italian one-day classic in Varese (Lombardy), held in early October as part of the Trittico Lombardo. Hilly Lombard terrain with multiple categorised climbs through the Tre Valli (Three Valleys) region; puncheur-and-climber territory.",
+        "narratives": [
+          "Trittico Lombardo Tuesday: held alongside Coppa Bernocchi and Giro del Piemonte.",
+          "Three Valleys terrain: multiple categorised climbs through Lombard hills.",
+          "Pogačar-era favourites use this as Lombardia rehearsal."
+        ],
+        "keyClimbs": [
+          {
+            "name": "Tre Valli Varesine categorised climbs",
+            "category": "2",
+            "notes": "Multiple Lombard climbs through the Three Valleys region."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Top Lombardia favourites use this as final tune-up."
+          ]
         }
       }
     },
@@ -45278,6 +45391,26 @@
             }
           }
         }
+      },
+      "raceDetails": {
+        "courseSummary": "Giro del Veneto — Italian one-day classic in the Veneto region, traditionally held in mid-October. Rolling Veneto terrain with short steep climbs on the closing circuit; suits classics-and-puncheur riders heading into the Lombardia weekend.",
+        "narratives": [
+          "Veneto regional classic — autumn calendar one-day.",
+          "Closing-circuit Veneto hills decide the finale.",
+          "Lombardia-week tune-up for classics specialists."
+        ],
+        "keyClimbs": [
+          {
+            "name": "Veneto finishing-circuit climbs",
+            "category": "4",
+            "notes": "Short Veneto hills on the closing laps."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Italian classics specialists and Veneto regional riders."
+          ]
+        }
       }
     },
     {
@@ -45516,6 +45649,26 @@
               "coverage": "live"
             }
           }
+        }
+      },
+      "raceDetails": {
+        "courseSummary": "Veneto Classic — Italian one-day classic in the Veneto region, held mid-October as part of the autumn Italian classics calendar. Rolling Veneto terrain with short steep climbs through the wine country hills; suits classics specialists and puncheurs.",
+        "narratives": [
+          "Veneto regional classic — autumn calendar.",
+          "Wine-country hill terrain with punchy climbs.",
+          "Late-season tune-up for classics specialists."
+        ],
+        "keyClimbs": [
+          {
+            "name": "Veneto wine-country climbs",
+            "category": "4",
+            "notes": "Short steep Veneto hill kickers."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Italian classics specialists target the closing climbs."
+          ]
         }
       }
     },
