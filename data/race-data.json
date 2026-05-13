@@ -895,7 +895,38 @@
         ],
         "historicalContext": "The Women's Tour Down Under was first held in 2016 as a companion event to the long-established men's race. Based around Adelaide and its surrounding hills and wine country, the race has grown into a prestigious WorldTour event that launches the women's international road season each January.",
         "watchNotes": "The hilly stages through the Adelaide Hills will shape the GC. Watch for Willunga Hill and Paracombe as the decisive climbs where GC contenders show their early-season form."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Ochre Jersey",
+          "nameEn": "Ochre Jersey",
+          "color": "#d97706",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic Tour Down Under ochre/orange."
+        },
+        {
+          "name": "Sprints Jersey",
+          "nameEn": "Sprints Jersey",
+          "color": "#0ea5e9",
+          "classification": "points",
+          "description": "Sprints classification leader."
+        },
+        {
+          "name": "King of the Mountain",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "Best climber."
+        },
+        {
+          "name": "Best Young Rider",
+          "nameEn": "Young Rider Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Top under-23 rider."
+        }
+      ]
     },
     {
       "discoveredAt": "2026-01-27T05:10:49.085Z",
@@ -1575,6 +1606,37 @@
             "gc-contender",
             "one-day"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Ochre Jersey",
+          "nameEn": "Ochre Jersey",
+          "color": "#d97706",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic Tour Down Under ochre/orange."
+        },
+        {
+          "name": "Sprints Jersey",
+          "nameEn": "Sprints Jersey",
+          "color": "#0ea5e9",
+          "classification": "points",
+          "description": "Sprints classification leader."
+        },
+        {
+          "name": "King of the Mountain",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "Best climber."
+        },
+        {
+          "name": "Best Young Rider",
+          "nameEn": "Young Rider Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Top under-23 rider."
         }
       ]
     },
@@ -4529,6 +4591,37 @@
             "one-day",
             "sprinter"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -9302,7 +9395,38 @@
         ],
         "historicalContext": "Paris-Nice has been held since 1933 — one of the oldest and most prestigious stage races outside the Grand Tours. Sean Kelly holds the record with 7 wins. The race is owned by ASO (Tour de France organisers) and serves as the Spring counterpart to Tirreno-Adriatico in the WT calendar.",
         "watchNotes": "Key stages: the mid-race ITT (stage 4 typically) reshapes GC; closing-weekend Maritime Alps summit stages decide the maglia jaune. Pure sprinters target stages 1-3, climbers target the final 3. Disable autoplay; avoid sidebar."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "gravel-brazil-2026",
@@ -9740,7 +9864,37 @@
         ],
         "historicalContext": "Tirreno-Adriatico has been held since 1966. Roger De Vlaeminck holds the record with 6 wins. The race is owned by RCS Sport (Giro d'Italia organisers) and serves as the Italian counterpart to Paris-Nice in the Spring WT calendar.",
         "watchNotes": "Key stages: the Apennines summit finishes (stages 5-6 typically) decide GC; the Tridente Trophy ITT finale (stage 7) can flip the standings on the closing day. Disable autoplay; avoid sidebar."
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic Tirreno blue jersey (sea-blue, representing the two seas)."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maglia Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "kom",
+          "description": "Mountain classification leader."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "ixina-leeuw-oetingen-2026",
@@ -18893,6 +19047,30 @@
           "isOutsider": true,
           "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer"
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        }
       ]
     },
     {
@@ -19769,7 +19947,38 @@
         }
       ],
       "youtubeHighlights": "https://www.youtube.com/watch?v=uOtB81amq2w",
-      "videoNote": "Stage 6 of the 2026 La Vuelta Femenina — NBC Sports (21:20). Per youtube-cycling-analyzer: USABLE/SAFE — 21 minutes of official summit-finish coverage at Les Praeres de Nava (queen-stage prologue), winner not named in the scraped transcript; end-only spoiler pattern expected. Disable autoplay and avoid sidebar recommendations. Stage 7 / L'Angliru clip would be the ideal race-level pick once a clean source surfaces."
+      "videoNote": "Stage 6 of the 2026 La Vuelta Femenina — NBC Sports (21:20). Per youtube-cycling-analyzer: USABLE/SAFE — 21 minutes of official summit-finish coverage at Les Praeres de Nava (queen-stage prologue), winner not named in the scraped transcript; end-only spoiler pattern expected. Disable autoplay and avoid sidebar recommendations. Stage 7 / L'Angliru clip would be the ideal race-level pick once a clean source surfaces.",
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic red jersey of La Vuelta."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains — white with blue polka dots."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 26."
+        }
+      ]
     },
     {
       "id": "tour-of-hellas-2026",
@@ -20966,6 +21175,36 @@
             "gc-contender",
             "puncheur"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic pink jersey of the Giro d'Italia."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader — historically purple/cyclamen."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains — best climber across categorised climbs."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 25."
         }
       ]
     },
@@ -25190,6 +25429,36 @@
             "climber"
           ]
         }
+      ],
+      "jerseys": [
+        {
+          "name": "Maglia Rosa",
+          "nameEn": "Pink Jersey",
+          "color": "#ec4899",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic pink jersey of the Giro d'Italia."
+        },
+        {
+          "name": "Maglia Ciclamino",
+          "nameEn": "Cyclamen Jersey",
+          "color": "#c026d3",
+          "classification": "points",
+          "description": "Points classification leader — historically purple/cyclamen."
+        },
+        {
+          "name": "Maglia Azzurra",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains — best climber across categorised climbs."
+        },
+        {
+          "name": "Maglia Bianca",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 25."
+        }
       ]
     },
     {
@@ -26436,7 +26705,38 @@
             "BISIAUX Léo (Decathlon - CMA CGM Team) — French puncheur with home-roads motivation; opening stages favour his profile."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "circuit-franco-belge-2026",
@@ -27693,7 +27993,37 @@
             "notes": "Stage 5 queen-stage summit finish in the Swiss Vaudoise Alps — the GC-decisive climb of the 2026 Tour de Suisse."
           }
         ]
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Gelbes Trikot",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Rotes Trikot",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Blaues Trikot",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Weißes Trikot",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ]
     },
     {
       "id": "tour-of-slovenia-2026",
@@ -28165,6 +28495,36 @@
             "climber",
             "gc-contender"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Gelbes Trikot",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Rotes Trikot",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Blaues Trikot",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Weißes Trikot",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
         }
       ]
     },
@@ -29924,7 +30284,38 @@
             "contentType": "highlights"
           }
         ]
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time — the most prestigious jersey in cycling."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader — sprint stages and intermediate sprints."
+        },
+        {
+          "name": "Maillot à Pois Rouges",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains — best climber across categorised ascents."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 26."
+        }
+      ]
     },
     {
       "id": "argenta-classic-deurne-2026",
@@ -31797,6 +32188,37 @@
             "climber",
             "gc-contender"
           ]
+        }
+      ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time — the most prestigious jersey in cycling."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader — sprint stages and intermediate sprints."
+        },
+        {
+          "name": "Maillot à Pois Rouges",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains — best climber across categorised ascents."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 26."
         }
       ]
     },
@@ -35337,7 +35759,38 @@
             "BISIAUX Léo (FRA / Decathlon - CMA CGM Team) — French puncheur for transitional stages."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader — the iconic red jersey of La Vuelta."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains — white with blue polka dots."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 26."
+        }
+      ]
     },
     {
       "id": "hysk-gravel-classic-yakurai-2026",
@@ -36764,7 +37217,31 @@
             "Breakaway specialists hunt opportunistic stage wins on the transition days."
           ]
         }
-      }
+      },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        }
+      ]
     },
     {
       "id": "maryland-cycling-classic-2026",

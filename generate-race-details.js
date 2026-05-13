@@ -182,6 +182,42 @@ function renderWatchSection(race) {
   </section>`;
 }
 
+function jerseyBandStyle(jersey) {
+  const c = jersey.color || '#e5e7eb';
+  if (jersey.pattern === 'polka-dot-red') {
+    return `background:#ffffff;background-image:radial-gradient(#dc2626 22%,transparent 24%);background-size:14px 14px;background-position:0 0,7px 7px`;
+  }
+  if (jersey.pattern === 'polka-dot-blue') {
+    return `background:#ffffff;background-image:radial-gradient(#2563eb 22%,transparent 24%);background-size:14px 14px;background-position:0 0,7px 7px`;
+  }
+  if (jersey.pattern === 'stripes') {
+    return `background:repeating-linear-gradient(45deg,${c} 0 12px,#ffffff 12px 24px)`;
+  }
+  return `background:${c}`;
+}
+
+function renderJerseys(race) {
+  const jerseys = Array.isArray(race.jerseys) ? race.jerseys : null;
+  if (!jerseys || !jerseys.length) {
+    return `<div class="jerseys">
+      <div class="jersey"><div class="band" style="background:#fde047"></div><div class="native">Leader</div><div class="name">GC Jersey</div><div class="desc">Overall classification leader on aggregate time.</div></div>
+      <div class="jersey"><div class="band" style="background:#22c55e"></div><div class="native">Points</div><div class="name">Sprint Jersey</div><div class="desc">Top sprinter across finishes and intermediates.</div></div>
+      <div class="jersey"><div class="band" style="background:#ffffff;background-image:radial-gradient(#dc2626 22%,transparent 24%);background-size:14px 14px;background-position:0 0,7px 7px"></div><div class="native">KOM</div><div class="name">Mountains</div><div class="desc">Best climber across categorised ascents.</div></div>
+      <div class="jersey"><div class="band" style="background:#ffffff;border-color:var(--rule)"></div><div class="native">Young Rider</div><div class="name">Best Under-25</div><div class="desc">Top GC rider under 25 where awarded.</div></div>
+    </div>
+    <p class="prose" style="margin-top:10px;font-size:12px;color:var(--ink-3)">Generic template — race-specific jersey data not yet curated.</p>`;
+  }
+
+  const cards = jerseys.map(j => `<div class="jersey">
+    <div class="band" style="${jerseyBandStyle(j)}"></div>
+    <div class="native">${htmlEscape(j.name || j.nameEn || '')}</div>
+    <div class="name">${htmlEscape(j.nameEn || j.classification || '')}</div>
+    <div class="desc">${htmlEscape(j.description || '')}</div>
+  </div>`).join('');
+
+  return `<div class="jerseys">${cards}</div>`;
+}
+
 function renderYoutubeHighlightsBlock(race) {
   const yh = race.youtubeHighlights;
   if (!yh || yh === 'TBD') return '';
@@ -425,12 +461,9 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .sl .riderx{font-weight:600}
 .sl .team{font-family:var(--font-mono);font-size:12px;color:var(--ink-2);letter-spacing:.02em}
 .jerseys{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px}
-.jersey{border:1px solid var(--rule);padding:14px;display:grid;grid-template-rows:36px auto auto;gap:8px}
-.jersey .band{height:14px}
-.jersey.y .band{background:var(--uci-yellow)}
-.jersey.g .band{background:linear-gradient(90deg, var(--uci-green), #a4d4b4)}
-.jersey.p .band{background:var(--signal)}
-.jersey.w .band{background:repeating-linear-gradient(90deg,#fff 0 14px,#ddd 14px 28px);border:1px solid var(--rule-soft)}
+.jersey{border:1px solid var(--rule);padding:14px;display:grid;grid-template-rows:36px auto auto auto;gap:6px}
+.jersey .band{height:36px;border:1px solid var(--rule-soft)}
+.jersey .native{font-family:var(--font-sans);font-weight:600;font-size:14px;color:var(--ink);font-style:italic}
 .jersey .name{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
 .jersey .desc{font-family:var(--font-sans);font-size:12.5px;color:var(--ink-2);line-height:1.4}
 @media (max-width:1100px){
@@ -733,30 +766,7 @@ function renderStageRace(race) {
       ${outsiders.map((r, i) => renderRow(r, ranked.length + i + 1, true)).join('')}
     </div>` : `<p class="prose">Startlist TBD.</p>`;
 
-  const jerseys = `
-    <div class="jerseys">
-      <div class="jersey y">
-        <div class="band"></div>
-        <div class="name">Leader's Jersey</div>
-        <div class="desc">Overall GC leader on aggregate time.</div>
-      </div>
-      <div class="jersey g">
-        <div class="band"></div>
-        <div class="name">Points / Sprint</div>
-        <div class="desc">Top sprinter across finishes &amp; intermediates.</div>
-      </div>
-      <div class="jersey p">
-        <div class="band"></div>
-        <div class="name">King of the Mountains</div>
-        <div class="desc">Best climber across categorised ascents.</div>
-      </div>
-      <div class="jersey w">
-        <div class="band"></div>
-        <div class="name">Best Young Rider</div>
-        <div class="desc">Top GC rider under 25 where awarded.</div>
-      </div>
-    </div>
-    <p class="prose" style="margin-top:10px"><span class="placeholder">placeholder</span> Actual jersey colours depend on the race. Shown here as a generic template.</p>`;
+  const jerseys = renderJerseys(race);
 
   const narrativesHtml = (rd.narratives || []).length
     ? `<ul class="narratives">${rd.narratives.map(n => `<li>${htmlEscape(n)}</li>`).join('')}</ul>`
