@@ -38801,8 +38801,13 @@
           "description": "Opening 9km individual time trial through the Principality of Monaco.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Short prologue-style ITT starting at Monte Carlo Casino — lumpy first kilometre then pan-flat.",
-            "watchNotes": "First red jersey on offer — gaps will be small but specialists will try to grab them."
+            "courseSummary": "Stage 1 opens the 2026 Vuelta with a 9.6km individual time trial on the Monaco Formula 1 Grand Prix circuit — the first F1-circuit Grand Tour opener in cycling history and the Vuelta's first-ever Monaco start. Technical urban TT through Monaco's narrow streets and tunnel sections; rewards bike-handlers as much as power riders.",
+            "watchNotes": "Watch the tunnel section — riders ride blind for a few seconds entering the harbour-side tunnel. Time gaps will be small on the short 9.6km but the maglia rojo battle starts here.",
+            "narratives": [
+              "Historic Monaco F1 circuit opener: first ever Grand Tour stage to use a Formula 1 race track.",
+              "Vuelta's second-ever foreign start (after Utrecht 2022): Monaco location adds glamour and prestige.",
+              "Technical urban TT: tunnel + narrow Monaco streets demand bike-handling over pure power."
+            ]
           }
         },
         {
@@ -38990,7 +38995,14 @@
                 "avgGradient": "5.8%",
                 "summit": true
               }
-            ]
+            ],
+            "courseSummary": "Stage 7 is the first proper summit finish — 149km from Vall d'Alba to Aramón Valdelinares in the Sistema Ibérico mountains of Aragón. Cat-1 summit at 1700m altitude; first GC stress test of the race after a week of mixed terrain.",
+            "narratives": [
+              "First summit finish: pure climbers can take time after the opening flat/hilly week.",
+              "Aramón Valdelinares is a ski station in the Maestrazgo mountains — historic Vuelta summit.",
+              "Pre-weekend GC selection: standings after stage 7 frame the first major GC battle."
+            ],
+            "watchNotes": "Watch the final 5km — Valdelinares gradients pick up steeply near the top. Solo attacks from 5-7km out are the canonical winning move."
           }
         },
         {
@@ -39038,7 +39050,13 @@
                 "summit": true
               }
             ],
-            "watchNotes": "Last stage before the first rest day — GC contenders will not want to lose time here."
+            "watchNotes": "Watch attacks from 8-10km out — Aitana's sustained gradients reward riders willing to go solo early. Pre-rest-day fireworks are the norm.",
+            "courseSummary": "Stage 9 is the queen stage of week 1 — 187km from La Vila Joiosa on the Costa Blanca to a Cat-1 summit finish at Alto de Aitana (1558m). The Maritime Alps of Spain's southeast provide a sustained climb; the final selection of week 1 before the rest day.",
+            "narratives": [
+              "Week-1 queen stage: Cat-1 summit at Alto de Aitana on the Costa Blanca.",
+              "Pre-rest-day intensity: GC riders go all-in on the final stage before recovery.",
+              "Sustained gradient climb: 22km at 4-6% average — pure power-climbers shine."
+            ]
           }
         },
         {
@@ -39189,7 +39207,13 @@
                 "summit": true
               }
             ],
-            "watchNotes": "Classic Vuelta brutality — short, vicious, gaps guaranteed."
+            "watchNotes": "Pandera is unforgiving — the 12%+ ramps near the summit are where solo winners pull away from chasers. Watch GC leaders' body language on the lower slopes.",
+            "courseSummary": "Stage 14 is the HC-category Andalusian queen stage — 152km from Jaén to a summit finish at Sierra de la Pandera, one of Spain's most brutal climbs (8.5km at 8% average, with sections over 12%). Iconic Vuelta stage with frequent appearances on the route. Pure climbers' day.",
+            "narratives": [
+              "Sierra de la Pandera: 8.5km at 8% average — one of the toughest HC-category climbs in Spain.",
+              "Andalusian queen stage: typically produces the most decisive GC moves of the second week.",
+              "Historic Vuelta finish: Pandera has been used in many editions and produces dramatic finishes."
+            ]
           }
         },
         {
@@ -39286,8 +39310,13 @@
           "description": "32km flat coastal ITT — likely GC-decisive race-of-truth.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Mainly flat coastal route, with potential crosswinds along the Bay of Cádiz.",
-            "watchNotes": "Last chance for time trialists. Wind direction could be decisive."
+            "courseSummary": "Stage 18 is the second individual time trial — 32km from El Puerto de Santa María to Jerez de la Frontera. Rolling Andalusian terrain through the sherry-country vineyards, much longer than the Monaco opener; potentially decisive GC TT day with significant time gaps.",
+            "watchNotes": "Watch the early intermediates — TT specialists set times early; GC leaders' splits at 10km and 25km reveal who's racing for the maglia rojo. Rolling terrain rewards versatile riders.",
+            "narratives": [
+              "Major GC TT: 32km on rolling terrain — long enough to produce 2+ minute gaps between top contenders and pure climbers.",
+              "Sherry country: route through Jerez sherry vineyards adds cultural backdrop to the broadcast.",
+              "Final TT before the closing weekend: standings after stage 18 effectively shape the final podium."
+            ]
           }
         },
         {
@@ -39329,7 +39358,7 @@
           "description": "Decisive penultimate mountain stage — Cat Especial finish at Collado del Alguacil (8.3km @ 9.8%).",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Five categorised climbs including three Cat 1s and the Cat Especial summit finish.",
+            "courseSummary": "Stage 20 is the final mountain stage — 187km from La Calahorra to a summit finish at Collado del Alguacil in the Sierra Nevada foothills. Last chance for GC fireworks before the Granada finale. HC-category climbing concentrates the action in the closing 50km.",
             "keyClimbs": [
               {
                 "name": "Collado del Alguacil",
@@ -39339,7 +39368,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "The GC will be settled here. 9.8% average for 8.3km is savage."
+            "watchNotes": "Watch the closing 15-20km — Collado del Alguacil is steep enough to produce solo attacks. Domestiques typically empty matches before the final climb.",
+            "narratives": [
+              "Final mountain stage: GC riders trailing the leader have only this stage to flip the podium.",
+              "Sierra Nevada foothills: HC-category climbing rewards pure climber profile.",
+              "Penultimate-stage tradition: dramatic GC reshapes on the Saturday before the Sunday finale."
+            ]
           }
         },
         {
