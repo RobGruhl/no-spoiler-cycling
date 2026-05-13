@@ -30914,8 +30914,13 @@
           "description": "Hilly opener in Sondrio (Italy) — 109km circuit with 1,642m elevation, Il Lombardia-style demands.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Technically challenging hilly circuit in Sondrio. Punchy day on classic Italian terrain.",
-            "watchNotes": "Opening-day fireworks — puncheurs favoured."
+            "courseSummary": "Stage 1 opens the women's Tour de Suisse with a 109.3km hilly circuit in Sondrio, Italy — shared opening city with the men's race. The Valtellina valley provides Alpine-foothills terrain with multiple short climbs on the closing laps. Top WWT puncheurs and classics-sprinters contest the opening yellow jersey.",
+            "watchNotes": "Watch the closing climbs on the Sondrio circuit — puncheur attacks 10-15km from the line are the typical opening-stage winning move.",
+            "narratives": [
+              "Italian opener shared with the men's race: Sondrio in Valtellina starts the women's edition on the Italian side.",
+              "Circuit format: 109.3km of repeated loops with multiple short climbs.",
+              "First yellow jersey: bonus seconds at the line decide the opening WWT leader."
+            ]
           }
         },
         {
@@ -30932,7 +30937,13 @@
           "description": "105km along Lago Maggiore — 1,242m of climbing. Suits punchy riders.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Lago Maggiore terrain, punchier than it looks on paper."
+            "courseSummary": "Stage 2 covers 105.3km on a hilly Locarno circuit on Lake Maggiore (Italian-speaking Ticino, Switzerland). Multiple Cat-3 climbs around the lake create a selective day suited to classics-and-puncheur riders. Lombardia-style terrain even though officially Swiss.",
+            "narratives": [
+              "Lake Maggiore terrain: Ticino subtropical lake-region climbs feel Italian.",
+              "Closing-circuit format: repeated lake-shore climbs grind down legs.",
+              "Reduced bunch sprint or solo attack typical winning move."
+            ],
+            "watchNotes": "Watch the closing climbs above Locarno — puncheur attacks 12-15km from the line decide the stage."
           }
         },
         {
@@ -30949,12 +30960,18 @@
           "description": "Eastern Switzerland day featuring the Schwägalp climb — 120km, 1,330m elevation.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Tactical day around Bad Ragaz with the Schwägalp climb as the key terrain feature.",
+            "courseSummary": "Stage 3 is 120.3km from Bad Ragaz on a hilly Alpine-foothills circuit in Eastern Switzerland (Graubünden/Sankt Gallen region). Rolling terrain with one Cat-2 climb; transitional stage before the Aarburg ITT and Villars summit finish.",
             "keyClimbs": [
               {
                 "name": "Schwägalp"
               }
-            ]
+            ],
+            "narratives": [
+              "Eastern Swiss Alpine foothills: bridge between Italian opening and Swiss closing days.",
+              "Bad Ragaz spa-town backdrop: traditional Swiss racing terrain.",
+              "Selective enough to drop pure sprinters but not GC-decisive."
+            ],
+            "watchNotes": "Watch the closing Cat-2 climb — reduced-bunch finish typical."
           }
         },
         {
@@ -30971,8 +30988,13 @@
           "description": "24km individual time trial — fast and technical, shared course with the men's race.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Fast, technical 23.8km ITT — TT specialists can take time before the Queen Stage.",
-            "watchNotes": "Gaps measured in seconds; pure climbers must minimise losses."
+            "courseSummary": "Stage 4 is the 23.8km individual time trial in Aarburg — same course as the men's race. Rolling Aargau countryside with technical sections. Major GC reshape opportunity before the closing-day Villars summit finish; rewards versatile riders over pure power TT specialists.",
+            "watchNotes": "Watch the early intermediates — TT specialists set times; GC leaders' splits at 10km and 18km reveal who's racing for yellow.",
+            "narratives": [
+              "Pre-summit ITT: 23.8km rolling course is the GC equalizer between climbers and TT-strong all-rounders.",
+              "Shared course with men's TdS: same Aarburg medieval-town circuit.",
+              "WWT TT specialists target this day — Reusser, Vollering, Niewiadoma profiles."
+            ]
           }
         },
         {
@@ -30990,7 +31012,7 @@
           "description": "Queen Stage: 100km loop with 2,795m of climbing including the Col de la Croix. Summit finish at Villars-sur-Ollon.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Alpine queen stage — Col de la Croix anchors the day, summit finish at Villars-sur-Ollon. 'Barely a flat metre in sight.'",
+            "courseSummary": "Stage 5 is the QUEEN STAGE — 100.3km closing with a Villars-sur-Ollon summit finish in the Vaudoise Alps. Same final climb as the men's race; multiple Cat-1 climbs across the Vaudoise Alps before the finale. The GC of the 2026 Tour de Suisse Women is decided here.",
             "keyClimbs": [
               {
                 "name": "Col de la Croix",
@@ -31001,7 +31023,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "GC decided here if not by the ITT."
+            "watchNotes": "Watch attacks from 8-10km out on the final climb — solo Alpine summits typically produce dramatic late selections. Final-day GC drama is the Tour de Suisse Women tradition.",
+            "narratives": [
+              "Queen stage and final day: GC fireworks expected on Villars-sur-Ollon summit.",
+              "Shared Vaudoise Alps terrain with men's race: identical finale.",
+              "Last GC chance: anyone trailing the leader must attack here."
+            ]
           }
         }
       ],
