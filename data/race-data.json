@@ -30440,8 +30440,13 @@
           "description": "Hilly circuit around Sondrio reminiscent of Il Lombardia. 2,455m elevation gain on a technically challenging Italian start.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Technically challenging hilly circuit in Sondrio with 2,455m of climbing — Il Lombardia-style demands from day one.",
-            "watchNotes": "Opening day favours puncheurs over pure GC riders. Expect aggressive racing on the closing laps."
+            "courseSummary": "Stage 1 opens the 89th Tour de Suisse with a 144km hilly circuit in and around Sondrio, Italy — the race traditionally starts in the Italian Alps before crossing into Switzerland for the mid-week stages. Multiple climbs on the closing circuit suit puncheur-and-classics riders; the opening yellow jersey rewards positioning over the closing 30km.",
+            "watchNotes": "Watch the closing climbs on the Sondrio circuit — late attacks from puncheurs are the typical winning move on this opening profile.",
+            "narratives": [
+              "Italian opener: Sondrio in the Valtellina valley starts the race on the Italian side of the Alps.",
+              "Circuit format: 144km of repeated loops with multiple short climbs — typical 2026 TdS \"start-and-finish-in-one-town\" format.",
+              "First yellow jersey: bonus seconds at the line plus positioning decides the opening leader."
+            ]
           }
         },
         {
@@ -30458,7 +30463,13 @@
           "description": "Rolling stage along Lago Maggiore. 2,110m of climbing — manageable but not for sprinters.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Lago Maggiore terrain with 2,110m elevation. Suits punchy riders and breakaways more than the pure fast men."
+            "courseSummary": "Stage 2 is a 158km hilly circuit in Locarno (Ticino, Italian-speaking Switzerland) on the shores of Lake Maggiore. Multiple Cat-3 climbs around the lake produce a selective opening day; classics-and-puncheur riders contest the line. The Ticino terrain feels Italian even though the race is officially Swiss.",
+            "narratives": [
+              "Lake Maggiore terrain: Ticino's subtropical lake-region climbs are Lombardia-style.",
+              "Closing-circuit format: repeated lake-shore climbs grind down legs over the 158km.",
+              "Italian-speaking Switzerland: the Ticino canton is culturally Italian — race feels like an Italian race."
+            ],
+            "watchNotes": "Watch the closing climbs above Locarno — puncheur attacks 15-20km from the line typical winning move."
           }
         },
         {
@@ -30475,13 +30486,18 @@
           "description": "Eastern Switzerland circuit featuring the Schwägalp climb. 2,690m elevation gain shapes a tactical day.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Bad Ragaz loop with the Schwägalp climb as the headline ascent. 2,690m elevation — climbers and puncheurs both in the mix.",
+            "courseSummary": "Stage 3 covers 158km from Bad Ragaz (Eastern Switzerland) on a hilly Alpine-foothills circuit. The Graubünden/Sankt Gallen region provides rolling terrain with one Cat-2 climb on the closing laps. Transitional stage between the lake/southern Switzerland opening and the Aarburg ITT plus Villars summit finish.",
             "keyClimbs": [
               {
                 "name": "Schwägalp"
               }
             ],
-            "watchNotes": "Tactical day — Schwägalp is the launchpad for any GC moves before the time trial."
+            "watchNotes": "Watch the closing Cat-2 climb — selective enough to drop pure sprinters but not GC-decisive.",
+            "narratives": [
+              "Eastern Swiss Alpine foothills: Graubünden + Sankt Gallen rolling terrain.",
+              "Bad Ragaz: spa town origin point, hosting cycling for the first time in recent TdS memory.",
+              "Bridge stage: between the Italian-feeling opening days and the GC-decisive Swiss week."
+            ]
           }
         },
         {
@@ -30498,8 +30514,13 @@
           "description": "24km individual time trial in Aarburg — fast and technical, the race-of-truth before the Queen Stage.",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "Fast, technical 23.8km ITT with only 270m of climbing. TT specialists vs GC climbers — gaps will be measured in seconds.",
-            "watchNotes": "Pure time-trial specialists can take meaningful time; pure climbers must minimise losses before the Queen Stage."
+            "courseSummary": "Stage 4 is the 24km individual time trial in Aarburg (north-central Switzerland). Rolling Aargau countryside ITT with technical sections; rewards versatile riders over pure power TT specialists. Major GC reshape opportunity before the closing-day Villars summit finish.",
+            "watchNotes": "Watch the early intermediates — TT specialists set times first; GC leaders' splits at 12km and 18km reveal who's racing for yellow.",
+            "narratives": [
+              "Pre-summit ITT: 24km rolling course is the GC equalizer between climbers and TT-strong all-rounders.",
+              "Aarburg medieval town backdrop: technical urban sections add bike-handling variable.",
+              "Tour de Suisse tradition: the mid-race ITT has decided multiple recent TdS GCs."
+            ]
           }
         },
         {
@@ -30517,7 +30538,7 @@
           "description": "Queen Stage: 151km loop from Villars-sur-Ollon with 4,226m of climbing including the Col de la Croix. 'Barely a flat metre in sight.'",
           "stageDetails": {
             "spoilerSafe": true,
-            "courseSummary": "151.1km Alpine queen stage with 4,226m of climbing — relentlessly up or down. Col de la Croix anchors the day, summit finish at Villars-sur-Ollon.",
+            "courseSummary": "Stage 5 is the QUEEN STAGE — 151km from Villars-sur-Ollon climbing to a summit finish at the same Vaudoise Alps resort. Multiple Cat-1 climbs across the Vaudoise Alps before the final ascent to Villars; one of the harder Alpine days in the recent TdS calendar. The GC of the 2026 Tour de Suisse is decided here.",
             "keyClimbs": [
               {
                 "name": "Col de la Croix",
@@ -30528,7 +30549,12 @@
                 "summit": true
               }
             ],
-            "watchNotes": "GC decided here. Difficulty 5/5 — if the time trial didn't settle it, this will."
+            "watchNotes": "Watch attacks from 8-10km out on the final climb to Villars — solo Alpine summits typically produce dramatic late selections. Final-day GC drama is the TdS norm.",
+            "narratives": [
+              "Queen stage and final day: GC fireworks expected on the Villars-sur-Ollon summit finish.",
+              "Vaudoise Alps: French-speaking Switzerland's Alpine corridor offers multiple Cat-1 climbs.",
+              "Last GC chance: anyone trailing the leader has only this stage to flip the standings."
+            ]
           }
         }
       ],
