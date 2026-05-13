@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T11:20:11.538Z",
+  "lastUpdated": "2026-05-13T07:18:45.448Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -24180,6 +24180,55 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Danish prodigy named alongside Seixas as next-gen flag-bearer"
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 14,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Top WT sprinter — Tour de Hongrie historically a Visma sprint target."
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ],
+          "notes": "Belgian classics-sprinter for the flat Hungarian stages."
+        },
+        {
+          "id": "jordi-meeus",
+          "name": "MEEUS Jordi",
+          "team": "Red Bull - BORA - hansgrohe",
+          "ranking": 42,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Belgian sprinter with WT-grade lead-out."
+        },
+        {
+          "id": "tobias-lund-andresen",
+          "name": "ANDRESEN Tobias Lund",
+          "team": "Decathlon CMA CGM Team",
+          "ranking": 40,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Danish sprinter on form heading into the summer."
         }
       ],
       "stages": [
@@ -25296,6 +25345,43 @@
             "one-day",
             "sprinter"
           ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ],
+          "notes": "Belgian sprinter for the French Flanders one-day."
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Pure sprinter."
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 14,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Dutch sprint talent."
         }
       ]
     },
@@ -25512,6 +25598,57 @@
             "one-day",
             "sprinter"
           ]
+        },
+        {
+          "id": "mads-pedersen",
+          "name": "PEDERSEN Mads",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Denmark",
+          "nationalityCode": "DK",
+          "specialties": [
+            "classics",
+            "puncheur",
+            "sprinter"
+          ],
+          "notes": "Versatile classics-sprinter — overall GC threat."
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ],
+          "notes": "Belgian sprint-and-puncheur for the French Flanders multi-stage."
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 14,
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Dutch sprinter target for the flat sprint stages."
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Pure sprinter."
         }
       ],
       "stages": [
@@ -26768,6 +26905,44 @@
             "puncheur",
             "sprinter"
           ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto Intermarché",
+          "ranking": 10,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ],
+          "notes": "Belgian sprint-and-puncheur — rolling Mayenne suits him."
+        },
+        {
+          "id": "kevin-vauquelin",
+          "name": "VAUQUELIN Kévin",
+          "team": "INEOS Grenadiers",
+          "ranking": 16,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "classics"
+          ],
+          "notes": "French all-rounder for home-roads stage race."
+        },
+        {
+          "id": "leo-bisiaux",
+          "name": "BISIAUX Léo",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "puncheur",
+            "climber"
+          ],
+          "notes": "French puncheur emerging talent."
         }
       ],
       "stages": [
@@ -27774,6 +27949,44 @@
             "sprinter",
             "puncheur"
           ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal Quick-Step",
+          "ranking": 17,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Pure sprinter for the flat stages."
+        },
+        {
+          "id": "wout-van-aert",
+          "name": "VAN AERT Wout",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 18,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "classics",
+            "all-rounder",
+            "puncheur"
+          ],
+          "notes": "Belgian home-roads versatile — overall threat."
+        },
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "ranking": 20,
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ],
+          "notes": "Belgian sprinter — home-roads target."
         }
       ],
       "stages": [
