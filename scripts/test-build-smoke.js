@@ -35,6 +35,24 @@ function checkFile(relPath, minBytes) {
   return { ok: true, size };
 }
 
+// Probe that data in race-data.json actually surfaces in the rendered HTML.
+// Returns null on success, or a string describing the unrendered field.
+function checkDataRenderedOnPage(relPath, dataFields) {
+  const abs = join(root, relPath);
+  if (!existsSync(abs)) return null; // file-presence check elsewhere
+  const html = readFileSync(abs, 'utf-8');
+  for (const { label, probe } of dataFields) {
+    if (!probe) continue;
+    // First 60 chars of the probe — enough to be unique, short enough to dodge HTML entity escaping
+    const needle = probe.slice(0, 60).trim();
+    if (needle.length < 20) continue;
+    if (!html.includes(needle) && !html.includes(needle.replace(/'/g, '&#39;'))) {
+      return `${label} (data present but not rendered)`;
+    }
+  }
+  return null;
+}
+
 function main() {
   const data = JSON.parse(readFileSync(dataPath, 'utf-8'));
 
@@ -68,7 +86,24 @@ function main() {
         totalChecked++;
         const sf = `race-details/${race.id}-stage-${s.stageNumber}.html`;
         const sr = checkFile(sf, MIN_RACE_BYTES);
-        if (!sr.ok) (sr.reason === 'missing' ? missing : tooSmall).push(`${sf} (${sr.reason})`);
+        if (!sr.ok) {
+          (sr.reason === 'missing' ? missing : tooSmall).push(`${sf} (${sr.reason})`);
+        } else {
+          // Content probe: catch the "data present but generator drops it" bug.
+          // Tests at least one short, distinctive substring per stageDetails field.
+          const probes = [];
+          if (s.stageDetails.courseSummary && s.stageDetails.courseSummary.length > 80) {
+            probes.push({ label: 'stageDetails.courseSummary', probe: s.stageDetails.courseSummary });
+          }
+          if (Array.isArray(s.stageDetails.narratives) && s.stageDetails.narratives[0]) {
+            probes.push({ label: 'stageDetails.narratives[0]', probe: s.stageDetails.narratives[0] });
+          }
+          if (s.stageDetails.watchNotes) {
+            probes.push({ label: 'stageDetails.watchNotes', probe: s.stageDetails.watchNotes });
+          }
+          const miss = checkDataRenderedOnPage(sf, probes);
+          if (miss) tooSmall.push(`${sf} — ${miss}`);
+        }
       }
     }
   }

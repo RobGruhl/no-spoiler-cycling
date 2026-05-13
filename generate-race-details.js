@@ -918,8 +918,22 @@ function renderStage(race, stage) {
 
     ${renderStageWatchSection(race, stage)}
 
+    ${sd.courseSummary && sd.courseSummary.length > 80 ? `
+    <section class="section">
+      <div class="eyebrow">§ 01 — The Course</div>
+      <h2>What the stage looks like</h2>
+      <p class="prose">${htmlEscape(sd.courseSummary)}</p>
+    </section>` : ''}
+
     ${climbsSection}
     ${sectorsSection}
+
+    ${Array.isArray(sd.narratives) && sd.narratives.length ? `
+    <section class="section">
+      <div class="eyebrow">§ 03 — Storylines</div>
+      <h2>What to follow</h2>
+      <ul class="narratives">${sd.narratives.map(n => `<li>${htmlEscape(n)}</li>`).join('')}</ul>
+    </section>` : ''}
 
     ${sd.watchNotes ? `
     <section class="section">
