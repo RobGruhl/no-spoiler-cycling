@@ -1,0 +1,321 @@
+{
+  "raceId": "paris-roubaix-2026",
+  "raceName": "Paris-Roubaix",
+  "raceDate": "2026-04-12",
+  "researchedAt": "2026-05-16T22:00:00Z",
+  "voice": "Synthesized by Claude from English-language race reports (Cyclingnews, Rouleur, Inner Ring, ProCyclingStats) and native-language press (Wielerflits, Sporza, Velo101, l'Équipe). Lanterne Rouge tonal register — tactical, sober, no hype.",
+
+  "tldr": "Wout van Aert won his first cobbled Monument by riding the perfect race against the only man left to beat — Tadej Pogačar, who'd already spent his luck on three punctures. The duo formed on Sector 12 with sixty-odd kilometres to go and never came back. On the velodrome, Van Aert refused the cat-and-mouse, launched from half a lap out, and rode away from a champion whose legs had finally run a fraction short. Mathieu van der Poel's bid for a fourth consecutive title was over in the Arenberg, where two punctures inside a single sector buried him almost two minutes behind. Jasper Stuyven exploited the watchful silence between Visma and UAE to claim third, fifteen seconds clear of Van der Poel's salvage ride.",
+
+  "podium": [
+    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "time": "5h 16m 52s" },
+    { "position": 2, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Jasper Stuyven", "team": "Lidl-Trek", "gap": "+0:13" },
+    { "position": 4, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "gap": "+0:15" },
+    { "position": 5, "riderId": null, "name": "Christophe Laporte", "team": "Visma | Lease a Bike", "gap": "+0:18" }
+  ],
+
+  "narrative": {
+    "headline": "The perfect race, at the worst time to be Tadej Pogačar",
+    "openingMoves": "The flag dropped on 258.3 km of dry, hard pavé and a race that would brush the speed record. Cees Bol (Decathlon-CMA CGM) animated the first wave; Yves Lampaert tried to seed Soudal's number into the early break, as Soudal always do. UAE Team Emirates let it form, content to keep their cards close. Visma rode conservatively behind, Van Aert sheltered, the wind out of his face. The early break gained the standard three to four minutes. Nobody important was in it.",
+    "raceUnfolds": "UAE detonated the first plan on Sector 26, Briastre — used in Paris-Roubaix for the first time in eleven years. Their domestiques (Pogačar nowhere near the front of the work) raised the tempo and shed Lampaert, ate into the early break, and pre-thinned the favourites' support trains. By Arenberg the elite group was forming around the names everyone expected: Van Aert, Pogačar, Van der Poel, Pedersen, Stuyven, Laporte. Then the race took its first real victim. Mathieu van der Poel punctured twice inside the Trouée d'Arenberg. He tried Jasper Philipsen's bike — too small — then waited for his own, returned to the roadside by his mechanics. Tibor Del Grosso changed a wheel with an Allen key in the middle of the sector. Before the exit, he flatted again. He emerged from the forest already nearly two minutes adrift, which on Paris-Roubaix is a sentence, not a setback.",
+    "decision": "The pivotal acceleration came on Sector 12 with roughly sixty-five kilometres to ride. Van Aert went; only Pogačar could go with him. The chasing group — Stuyven, Laporte, Pedersen, what was left of Van der Poel's Alpecin engine — couldn't organise. By the time anyone tried, Visma and UAE were cooperating ahead and the elastic snapped. Mons-en-Pévèle came and went without separating the duo. Pogačar tested Van Aert on the rougher central run; Inner Ring described Van Aert riding it 'like a fixed shadow.' On Carrefour de l'Arbre, Pogačar tested him again, and again Van Aert refused to crack.",
+    "finale": "Onto the velodrome, two laps to ride, every spectator standing. Van Aert led out of the entry, declined any cat-and-mouse, and with half a lap remaining launched into a long, committed sprint. Pogačar — who had punctured three times during the race and chased alone before Arenberg — could not come around. A two-up sprint after 5h 16m of pavé belongs to the rider whose endurance bleeds into raw speed, not the other way around. Van Aert won by a length. The velodrome went up."
+  },
+
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 120,
+      "location": "Between Briastre and Arenberg",
+      "headline": "Pogačar's first puncture",
+      "description": "UAE had committed Pogačar to the front of the race from km 50; the first flat tyre with 120 km to go forced a neutral-service bike and a long, mostly solo chase back to the convoy. Reports put the cost at close to a minute, and it was the first of three mechanicals that would chip away at his reserves before the decisive selection."
+    },
+    {
+      "kmFromFinish": 95,
+      "location": "Trouée d'Arenberg",
+      "headline": "Van der Poel's Roubaix ends inside the forest",
+      "description": "Two punctures inside Arenberg, an aborted attempt to use Philipsen's bike (too small), a wheel change in the middle of the pavé with an Allen key, then a third flat before the exit. The defending three-time champion left the forest almost two minutes off the front, ending a fourth-title bid he would never get to fight for."
+    },
+    {
+      "kmFromFinish": 80,
+      "location": "Approach to Sector 14",
+      "headline": "Brennan delivers Van Aert into Arenberg",
+      "description": "Matthew Brennan — Visma's hardy young sprinter the team is grooming into a future Classics leader — burned his last match to deliver Van Aert first wheel into the five-star sector. The lead-out is small detail and decisive context: Van Aert hit the worst piece of road in cycling already in the position he needed."
+    },
+    {
+      "kmFromFinish": 65,
+      "location": "Sector 12",
+      "headline": "Van Aert attacks — only Pogačar responds",
+      "description": "The race's structural selection. Van Aert went on the entry of Sector 12, knowing that he had a puncture chase behind him too but that his Visma engine was still alive and Pogačar's wasn't. Pogačar matched the move instantly. Nobody else followed. The chase behind never organised — Visma's Laporte was setting up to bury himself in front, Alpecin was on the back foot, and Stuyven would later say the chasers 'were watching each other.'"
+    },
+    {
+      "kmFromFinish": 45,
+      "location": "Mons-en-Pévèle",
+      "headline": "Pogačar tests, Van Aert refuses",
+      "description": "Mons-en-Pévèle is where Roubaix is usually decided on the cobbles. Pogačar accelerated multiple times on the rougher central run; Van Aert never gave him daylight. By the exit the duo had stretched their margin past 30 seconds. The decision behind was now what kind of podium it would be."
+    },
+    {
+      "kmFromFinish": 18,
+      "location": "Carrefour de l'Arbre",
+      "headline": "Last test passed",
+      "description": "The five-star Carrefour is Pogačar's last realistic chance to attack his way out of a sprint. He tried. Van Aert, by Sean Kelly's reading, was 'on the limit' more than once. He never cracked. The Visma sacrifice on the run-in — Laporte buried for one final pull — kept the gap to the chase wide enough that an organised three-up scenario in the velodrome was off the table."
+    },
+    {
+      "kmFromFinish": 0.25,
+      "location": "Roubaix Velodrome",
+      "headline": "The long sprint",
+      "description": "Half a lap to go, Van Aert in front, no cat-and-mouse. He took the last bend wide of Pogačar, set his elbows, and rode away in a long, committed effort. Pogačar's jump never came — the second of three punctures and 250 km of pavé had drained the explosive top. First cobbled Monument for Van Aert; one Monument still missing from Pogačar's career card."
+    }
+  ],
+
+  "teamStories": [
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Won the day they'd been chasing for years",
+      "verdictClass": "win",
+      "narrative": "Single-leader Roubaix, ridden as a team plan rather than a free-for-all. Brennan lead-out into Arenberg; Per Strand Hagenes burned on the long mid-race pulls neutralising counter-attacks; Laporte sacrificed before Carrefour to keep the gap open, then survived to fifth. DS Grischa Niermann told Wielerflits: 'We didn't ride anyone as plan B today. It was all about Wout. Everybody knew they had to empty themselves for him.' Van Aert dedicated the victory to Michael Goolaerts, the Belgian who died on the pavé in 2018.",
+      "riderIds": ["wout-van-aert", "matthew-brennan"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Cooked by three punctures",
+      "verdictClass": "loss",
+      "narrative": "UAE rode the only plan that could have worked: detonate the race long before the velodrome. Pogačar's domestiques drove the Briastre tempo, then committed to position him front-wheel into every star sector. The plan was foiled by mechanical fate, not by team selection — three punctures and three bike changes, including a long solo chase before Arenberg. Politt finished ninth, the only other UAE rider near the finale. Pogačar to Wielerflits: 'I did everything to drop Wout. On Carrefour I felt he still didn't crack. In the sprint he was simply stronger. I have no excuses.' One Monument remains on his career list.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Two punctures, one career-defining Arenberg",
+      "verdictClass": "loss",
+      "narrative": "A four-peat bid undone in the worst possible 2,400 metres of road. Van der Poel's race was a tactical certainty until Arenberg; afterwards it was triage. The team had planned to move on Orchies, attack before the final hour, exploit Mathieu's Carrefour gear. None of it could happen. Philipsen never got a clean run at his sprint card. Fourth place is salvage of the highest order, but it is salvage. A team source told Velo101: 'We had a very clear plan to attack before the final hour. When Mathieu punctures twice in Arenberg, everything collapses. We lost the race there.'",
+      "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Pedersen sacrificed, Stuyven stole the podium",
+      "verdictClass": "neutral",
+      "narrative": "Lidl-Trek arrived with a dual-leader plan — Pedersen the protected card, Stuyven the second option. A bike change put Pedersen on a long lonely chase through the convoy. He never got back to the favourites. With the hierarchy resolved by the road, the team explicitly switched: Pedersen turned domestique for Stuyven. Stuyven, sensing the watchful silence between Visma and UAE after Pogačar's puncture, attacked across to the front of the chase group and held it home. Stuyven to Wielerflits: 'Mads really sacrificed himself for me. The other guys all rode themselves into the ground to keep me in position. It was all worth it.' Milan never had the legs to feature.",
+      "riderIds": ["mads-pedersen", "jonathan-milan"]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Stayed out of the carnage, never landed in the move",
+      "verdictClass": "neutral",
+      "narrative": "Lampaert tried for the early break, didn't make it, then was the first big-name domestique dropped on the Briastre tempo. Merlier was Plan B if Roubaix came down to a group sprint; Roubaix did not come down to a group sprint. He admitted to Belgian press he 'didn't have top legs' and pivoted early to working for Van Baarle. No one from the team made the front split at Sector 12.",
+      "riderIds": ["tim-merlier"]
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Ganna's late chase, a hint of what could have been",
+      "verdictClass": "neutral",
+      "narrative": "Ganna was always going to need a Roubaix that finished in a group of six or fewer to take advantage of his sprint after attrition. The race went the opposite way — pure two-up. Inner Ring put him 'thirty seconds behind and closing, towing Jordi Meeus across' in the closing kilometres. He didn't quite get there. The Italian's Roubaix question — whether the diesel can land the explosive selection — remains open.",
+      "riderIds": ["filippo-ganna"]
+    }
+  ],
+
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": "5h 16m 52s",
+      "narrative": "The perfect race — Sean Kelly's word, not a hype line. He spent the first 100 km invisible in Visma's wheels, hit Arenberg first wheel on Brennan's lead-out, survived Pogačar's accelerations on Mons and Carrefour without ever fully snapping, then refused the velodrome cat-and-mouse and won a long-form sprint that suited his endurance over Pogačar's explosivity. A first cobbled Monument after two seasons of crashes and near-misses on the pavé. Dedicated the victory to Michael Goolaerts.",
+      "keyMoments": [
+        { "km": 80, "what": "Hit Arenberg first wheel on Brennan's lead-out" },
+        { "km": 65, "what": "Attacked on Sector 12 — created the duo with Pogačar" },
+        { "km": 45, "what": "Matched every Pogačar acceleration on Mons-en-Pévèle" },
+        { "km": 18, "what": "Held the wheel through Carrefour de l'Arbre — 'on the limit at times'" },
+        { "km": 0.25, "what": "Launched the long sprint with half a lap to go, won by a length" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "The most aggressive ride of the race, against the worst luck. Three punctures and three bike changes — one with 120 km to go that cost close to a minute and a long solo chase, another before the Arenberg-Mons window. Attacked Van Aert repeatedly on every five-star sector, never quite cracked him. On the velodrome, the explosive jump that has won him everything else simply wasn't there after that much chasing. Cobbled Monuments: still zero.",
+      "keyMoments": [
+        { "km": 120, "what": "First puncture — long solo chase back to the convoy" },
+        { "km": 95, "what": "Second puncture, between Arenberg and Mons" },
+        { "km": 65, "what": "Only rider who could follow Van Aert's attack on Sector 12" },
+        { "km": 45, "what": "Attacked on Mons-en-Pévèle — could not gap Van Aert" },
+        { "km": 18, "what": "Pressed again on Carrefour — Van Aert held" },
+        { "km": 0.25, "what": "Could not come around in the velodrome sprint" }
+      ],
+      "incident": "Three punctures, three bike changes during the race"
+    },
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:15",
+      "narrative": "The four-peat bid was over in 2,400 metres of forest. Two punctures inside Arenberg, a brief and abandoned attempt to ride Philipsen's bike, a roadside wheel change from Del Grosso, then a third flat before the sector ended. Exited Arenberg nearly two minutes off the front in a race where you cannot afford fifteen seconds. The fourth place — a furious ride across the chase group after the duo had already gone — is consolation. To Dutch press: 'It's hard to accept losing a race like that. My legs were good, my position was perfect, and you end up changing bikes twice just as the fight opens.'",
+      "keyMoments": [
+        { "km": 95, "what": "Punctured twice inside Trouée d'Arenberg" },
+        { "km": 95, "what": "Tried Philipsen's bike (too small), back to his own bike via roadside" },
+        { "km": 95, "what": "Third puncture before exiting the sector" },
+        { "km": 5, "what": "Bridged across the chase group to take 4th, fifteen seconds adrift" }
+      ],
+      "incident": "Three punctures inside Trouée d'Arenberg + bike change"
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl-Trek",
+      "role": "leader",
+      "position": null,
+      "gap": "outside top 10",
+      "narrative": "A mechanical and a bike change in the middle of the race forced Pedersen into a long, solo chase to even reach the team-car convoy, never mind the favourites' group. When the front split formed on Sector 12, Pedersen was on the wrong side of it. He pivoted with rare clarity — turned domestique for Stuyven, took longer pulls in the chase group, and helped engineer his teammate's third place. The day he came to win became the day he gave Lidl-Trek the podium they came for. Admitted: 'I didn't have the legs to win. It was logical to go all-in for Jasper.'",
+      "keyMoments": [
+        { "km": null, "what": "Mid-race bike change, long solo chase to the convoy" },
+        { "km": 65, "what": "Caught the wrong side of the front split on Sector 12" },
+        { "km": 30, "what": "Switched to working for Stuyven — long pulls in the chase group" }
+      ],
+      "incident": "Bike change / mechanical mid-race"
+    },
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": null,
+      "gap": "behind top 5",
+      "narrative": "Ganna's Roubaix question is whether a diesel powerhouse can survive into a small group sprint. With the race resolving into a two-up, his card never came up. Inner Ring caught him 'thirty seconds behind and closing, towing Jordi Meeus across' inside the last 20 km. He didn't quite bridge. The Dwars-door-Vlaanderen win earlier in the spring (where he edged Van Aert) showed what he can do when the race fits him. Roubaix 2026 was not that race.",
+      "keyMoments": [
+        { "km": 20, "what": "Late chase across the chase group, with Meeus on his wheel" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "role": "lieutenant",
+      "position": null,
+      "gap": "behind top 10",
+      "narrative": "The fastest sprinter in the race, in lieutenant kit. Philipsen's job was to shepherd Van der Poel into the final hour and, if the race somehow stayed bunched into the velodrome, finish it. Neither half of that plan survived Arenberg. His own bike was briefly commandeered by Van der Poel before being deemed too small. After that the Alpecin selection fragmented and Philipsen never reconnected with the front of the race.",
+      "keyMoments": [
+        { "km": 95, "what": "Van der Poel briefly took his bike during the Arenberg puncture sequence — abandoned because too small" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "free role",
+      "position": null,
+      "gap": "outside selection",
+      "narrative": "Merlier's Roubaix is always a calculated coin-flip: arrive in any kind of group sprint and he's the fastest man in the race; lose contact before Mons and you've lost him entirely. He never got the day he needed. To Belgian press: 'I didn't have top legs.' Switched early to working for Dylan Van Baarle inside the Soudal block, then faded out of the front of the race.",
+      "keyMoments": [
+        { "km": 90, "what": "Made the early sprint card pivot — switched to working for Van Baarle" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "role": "lieutenant",
+      "position": null,
+      "gap": "outside selection",
+      "narrative": "On almost any other team Milan would have started Roubaix as a co-leader; with Pedersen and Stuyven both on the roster he was support from the gun, charged with holding Pedersen's wheel through the early sectors and then offering himself as a sprint option if a group of fifteen came to the velodrome. The first half worked. The second half never happened. Dropped before Mons.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Visma | Lease a Bike",
+      "role": "lieutenant",
+      "position": null,
+      "gap": "outside selection",
+      "narrative": "The under-twenty British sprinter that Visma have spent a season billing as Wout van Aert's future heir produced the lead-out detail that decided where Van Aert hit Arenberg. Burning a young Classics leader to perfectly position another's first cobbled Monument is the kind of sacrifice that gets written into team mythology. Dropped before the closing hour; the work was already done.",
+      "keyMoments": [
+        { "km": 80, "what": "Lead-out delivered Van Aert first-wheel into Trouée d'Arenberg" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "role": "leader",
+      "position": null,
+      "gap": "not documented",
+      "narrative": "Lotto's protected card on a long road back from an off-season ankle injury that interrupted his winter. Public race reporting available so far does not document a specific De Lie storyline at Roubaix — no front-of-race feature, no flagged crash or mechanical, no quoted post-race interview. The most defensible read is the most boring one: he raced inside the bunch through the early hour, was shed when the pace ramped into the Arenberg-Mons window, and rolled into Roubaix outside the timed group. To be revised as more coverage surfaces.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "free role",
+      "position": null,
+      "gap": "behind top 5",
+      "narrative": "Meeus is the team's fast finisher who can survive the longer one-day races, and his Roubaix played out exactly to that label — never in the very front of the race, never out of it. Inner Ring's most memorable line on him is the one that captures Red Bull's day: 'Only Ganna was thirty seconds behind and closing, towing Jordi Meeus across.' He used Ganna's wheel inside the final 20 km to make the late chase. Didn't quite bridge to the chasers behind the duo.",
+      "keyMoments": [
+        { "km": 20, "what": "On Ganna's wheel in the late long-range chase" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Visma | Lease a Bike",
+      "role": "not selected",
+      "position": "DNS",
+      "gap": "—",
+      "narrative": "Did not race Paris-Roubaix 2026. Jorgenson's Visma program for the spring centred on the Ardennes block — Amstel, Flèche Wallonne, Liège — with the cobbled Monuments left to Van Aert. A deliberate split, not an injury. He'll have his own page-turn in the season log a fortnight earlier in the Ardennes.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [
+      { "km": 120, "riderId": "tadej-pogacar", "description": "First puncture for Pogačar; took a neutral-service bike and chased almost a minute back to the convoy alone." },
+      { "km": 95, "riderId": "mathieu-van-der-poel", "description": "Two punctures inside Arenberg, plus an aborted attempt to use Philipsen's bike (too small); roadside wheel change with an Allen key by Tibor Del Grosso, then a third flat before the sector ended." },
+      { "km": 80, "riderId": "tadej-pogacar", "description": "Second of Pogačar's three punctures, between Arenberg and Mons-en-Pévèle." },
+      { "km": null, "riderId": "mads-pedersen", "description": "Bike change mid-race, long solo chase to the convoy. Pedersen never reconnected to the favourites." }
+    ],
+    "controversies": [
+      { "description": "In the lead-up to the race, ASO course director Thierry Gouvenou warned that multiple cobbles had been stolen from the pavé sectors, creating 'deep holes' described as potentially 'life-threatening' at 50 km/h. None of the day's mechanicals or crashes were directly attributed to the missing stones, but the warning shaped pre-race conversation." }
+    ]
+  },
+
+  "aftermath": {
+    "headline": "A first cobbled Monument, dedicated to a Belgian",
+    "quotes": [
+      { "speaker": "Wout van Aert", "text": "This is more than a victory. I dedicate this day to Michael. He gave me and the whole team a push in the back today.", "context": "Post-race interview, on Michael Goolaerts — the Belgian rider who died on the pavé in 2018", "source": "Wielerflits" },
+      { "speaker": "Wout van Aert", "text": "Tadej may be more explosive, but on this track, after a race like this, I knew I could beat him if I exited the last bend in first position.", "context": "On the velodrome sprint tactics", "source": "Wielerflits" },
+      { "speaker": "Tadej Pogačar", "text": "I did everything to drop Wout. On Carrefour I felt he still didn't crack. In the sprint he was simply stronger. I have no excuses.", "context": "Post-race", "source": "Wielerflits" },
+      { "speaker": "Mathieu van der Poel", "text": "It's hard to accept losing a race like that. My legs were good, my position was perfect, and you end up changing bikes twice just as the fight opens.", "context": "On the Arenberg punctures", "source": "Dutch press" },
+      { "speaker": "Grischa Niermann (Visma DS)", "text": "We didn't ride anyone as plan B today. It was all about Wout. Everybody knew they had to empty themselves for him.", "context": "Visma team strategy", "source": "Wielerflits" },
+      { "speaker": "Sean Kelly", "text": "Tactically he rode just a perfect race. He was the one who initiated the attacks with that leading group, and he was on the limit at times when Tadej Pogačar really pushed him, but it just shows that when you're a big champion, you can be really under pressure, but you can still dig so deep and keep on believing.", "context": "Column on Van Aert's tactical execution", "source": "Cyclingnews" }
+    ],
+    "body": "Two narratives leave Roubaix 2026 alive. The first is Van Aert's: a rider who has carried the weight of more cobbled near-misses than anyone since Boonen finally has the Monument the form has long suggested he should. The Goolaerts dedication will live as the day's emotional centrepiece in Belgian cycling memory.\n\nThe second is Pogačar's: a champion now confirmed missing exactly one ride on his career resume — Paris-Roubaix — and increasingly aware of how narrow the window is to add it. He took the race by the throat. The cobbles took it back. There are no fundamental tactical revisions for UAE to make; the plan was right, the legs were there, the punctures were not theirs to control. Whether he returns to chase it again, and what shape he chooses to be in when he does, is the year's longest-running open question."
+  },
+
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/paris-roubaix-men-wout-van-aert-edges-out-tadej-pogacar-to-claim-his-first-cobbled-monument-victory-in-thrilling-finale-after-both-riders-deal-with-punctures-and-bike-changes/", "publication": "Cyclingnews", "title": "Van Aert edges out Pogačar to claim his first cobbled Monument", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/paris-roubaix-men-live-a-chance-to-make-history-as-the-riders-enter-the-gates-of-hell/", "publication": "Cyclingnews", "title": "Paris-Roubaix Men live blog", "lang": "en" },
+    { "url": "https://www.rouleur.cc/blogs/the-rouleur-journal/paris-roubaix-mens-2026-van-aert-beats-pogacar-in-two-up-sprint", "publication": "Rouleur", "title": "Van Aert beats Pogačar in two-up sprint", "lang": "en" },
+    { "url": "https://inrng.com/2026/04/paris-roubaix-2026-review/", "publication": "The Inner Ring", "title": "Paris-Roubaix 2026 — The Moment It Was Won", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/paris-roubaix/2026/result", "publication": "ProCyclingStats", "title": "Paris-Roubaix 2026 results", "lang": "en" },
+    { "url": "https://www.wielerflits.nl/", "publication": "Wielerflits", "title": "Paris-Roubaix 2026 — race reports, team and rider quotes", "lang": "nl" },
+    { "url": "https://www.lequipe.fr/", "publication": "L'Équipe", "title": "Paris-Roubaix 2026 — comptes-rendus", "lang": "fr" },
+    { "url": "https://www.velo101.com/", "publication": "Velo101", "title": "Paris-Roubaix 2026 — coulisses et déclarations", "lang": "fr" },
+    { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Paris-Roubaix 2026 — race reports", "lang": "en" }
+  ]
+}
