@@ -1,0 +1,111 @@
+{
+  "raceId": "strade-bianche-2026",
+  "raceName": "Strade Bianche",
+  "raceDate": "2026-03-07",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Pogačar solo over the final gravel sectors to take a third Strade Bianche, this time with the spring's storyline-of-the-year — 19-year-old Paul Seixas — second on debut and Isaac del Toro completing a UAE 1-3. The shortened 64 km of gravel did nothing to soften the selection: Pogačar attacked, only Seixas and Del Toro could initially hold, then only one. Same race, same outcome.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "4h 45m 15s" },
+    { "position": 2, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "+1:00" },
+    { "position": 3, "riderId": null, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+1:00" },
+    { "position": 7, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling", "gap": "+1:30" },
+    { "position": 8, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike", "gap": "+1:30" },
+    { "position": 10, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "+1:30" }
+  ],
+  "narrative": {
+    "headline": "Third Strade in a row, third winner who attacked over Monte Sante Marie",
+    "openingMoves": "201 km, shortened from the usual 215 to fit 64 km of gravel rather than the recent ~85 km. Whether or not the shortening was supposed to make the race tactically richer, it didn't change the script: a modest early break, the favourites' teams rotating control, the race kept on tempo through the opening four sterrato sectors.",
+    "raceUnfolds": "Monte Sante Marie — Sector 10, the canonical Strade Bianche selection — did exactly what it always does. UAE rode the front, Pogačar attacked, the field exploded. The decisive grouping over the top: Pogačar, Seixas, Del Toro, then a chase of Pidcock, Jorgenson, Grégoire, Kron, Van Aert.",
+    "decision": "On a later short gravel sector — sources differ on which one, but it was inside the closing 25 km — Pogačar accelerated again. Del Toro couldn't follow. Seixas could, but only for a few kilometres. By the time the leading pair entered the closing 15 km, Pogačar had ridden alone and Seixas was holding what daylight he could.",
+    "finale": "Pogačar took the Via Santa Caterina climb solo, into Piazza del Campo and a third Strade Bianche win on the way to what would become a three-Monument spring. Seixas had a minute back held alone; Del Toro completed the UAE 1-3 from the chase. Pidcock, Jorgenson, Van Aert filled positions 7-10 from the bunch at 1:30."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 55, "location": "Sector 10 — Monte Sante Marie", "headline": "Pogačar attacks on the canonical sector", "description": "Strade Bianche's selecting sector has historically been the only place the race actually splits. It did so again. Over the top: Pogačar with Seixas and Del Toro for company. Everyone else was now chasing." },
+    { "kmFromFinish": 20, "location": "Late gravel sector", "headline": "Del Toro cracks, then Seixas", "description": "A second acceleration peeled Del Toro back to the chase first, then dropped Seixas a few kilometres later. From there, Pogačar rode alone to Siena." },
+    { "kmFromFinish": 0.5, "location": "Via Santa Caterina", "headline": "Solo to Piazza del Campo", "description": "The 16% wall into Siena is normally the day's final selection; this time it was a victory lap. Pogačar arrived alone, Seixas a minute back also alone." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "1-3 on the gravel",
+      "verdictClass": "win",
+      "narrative": "Pogačar attacks, Del Toro holds long enough to ride the chase and salvage third. The UAE pattern for 2026 — leader and a young protected co-card — got its first Monument-level expression. Del Toro's third place is a result Pogačar himself would have called a podium had it been his own three years ago.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Seixas's coming-out at 19",
+      "verdictClass": "win",
+      "narrative": "Paul Seixas, the Tour de l'Avenir champion making his Strade debut, followed Pogačar over Monte Sante Marie and held on long enough to take a solo second. Decathlon's bet on the 19-year-old as a Monument-tier rider lands two months before Liège would confirm it again.",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Top 10 with Jorgenson and Van Aert, never in the move",
+      "verdictClass": "neutral",
+      "narrative": "Visma rode two leaders in Jorgenson (the day's actual finisher) and Van Aert (returning to gravel after a long absence). Neither could match Pogačar's Monte Sante Marie selection. Jorgenson 8th, Van Aert 10th — clean top-10 ride, no Monument bid.",
+      "riderIds": ["wout-van-aert", "matteo-jorgenson"]
+    },
+    {
+      "team": "Pinarello-Q36.5 Pro Cycling",
+      "verdict": "Pidcock's debut in new colours, top 10",
+      "verdictClass": "neutral",
+      "narrative": "Tom Pidcock's first major race in Pinarello-Q36.5 kit — formerly INEOS, now riding for the smaller WorldTour outfit. 7th at Strade is a clean opening statement; two weeks later he'd come within centimetres of beating Pogačar at Sanremo.",
+      "riderIds": ["tom-pidcock"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "4h 45m 15s",
+      "narrative": "Third Strade Bianche. Pattern identical to 2024 and 2025: attack on Monte Sante Marie, isolate one or two, drop them on a later sector, ride alone to Piazza del Campo. The spring's opening statement.",
+      "keyMoments": [
+        { "km": 55, "what": "Attacked on Monte Sante Marie — formed lead trio" },
+        { "km": 20, "what": "Second acceleration dropped first Del Toro, then Seixas" },
+        { "km": 0, "what": "Solo into Siena" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 2, "gap": "+1:00",
+      "narrative": "Strade debut, finished second to Pogačar at 19. Held the Monte Sante Marie attack, held the second move for a few kilometres, then settled in to ride a minute back alone. The week's biggest 'who is that?' result and the start of his Monument spring.",
+      "keyMoments": [
+        { "km": 55, "what": "Made the Monte Sante Marie selection" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 8, "gap": "+1:30",
+      "narrative": "Visma's actual leader on the day — Van Aert riding gravel for the first time in years. Was in the chase group at +45s with Pidcock and Grégoire with 10-15 km to go but couldn't bridge to Seixas. Eighth place is the maximum return from his position.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "co-leader", "position": 10, "gap": "+1:30",
+      "narrative": "Strade Bianche as a one-day classics tune-up. Tenth was a return-to-gravel test, not a Monument bid; his real target was a month later, at a different Monument, on different terrain.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling",
+      "role": "leader", "position": 7, "gap": "+1:30",
+      "narrative": "First major race in Pinarello-Q36.5 colours; finished seventh from the chase group. A clean opener; the bigger statement would come at Milano-Sanremo two weeks later when he came within centimetres of beating Pogačar.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "First Monument-spring weekend; first appearance of the Seixas problem",
+    "quotes": [],
+    "body": "Strade is not a Monument but is treated like one. Pogačar's third title here makes him the most successful rider in the race's short history. The bigger long-run story leaving Siena was Paul Seixas — a 19-year-old who'd just turned the most-watched outsider on the spring calendar into a confirmed Monument-class climber, with two more podiums to come by April's end."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Pogačar wins Strade Bianche 2026, Seixas second", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/strade-bianche/2026/result", "publication": "ProCyclingStats", "title": "Strade Bianche 2026 result", "lang": "en" },
+    { "url": "https://www.gazzetta.it/", "publication": "La Gazzetta dello Sport", "title": "Strade Bianche 2026", "lang": "it" }
+  ]
+}

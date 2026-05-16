@@ -1,0 +1,55 @@
+{
+  "raceId": "tour-de-romandie-2026",
+  "raceName": "Tour de Romandie",
+  "raceDate": "2026-04-28",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Dorian Godon won the 3.2 km Villars-sur-Glâne prologue for INEOS Grenadiers, with Ivo Oliveira and Jakob Søderqvist tied for second at +6 seconds. Pogačar — the overall race favourite — opened a distant sixth at +7, deliberately conservative on a technical short course before the climbing days. Full overall GC documentation at depth has not yet stabilised in public coverage at compilation time.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Dorian Godon", "team": "INEOS Grenadiers", "time": "Prologue winner, first leader's jersey" }
+  ],
+  "narrative": {
+    "headline": "Godon takes the prologue; Pogačar plays it safe at +7",
+    "openingMoves": "3.2 km ITT, Villars-sur-Glâne city-centre. Technical, power-focused, the standard Romandie opener.",
+    "raceUnfolds": "Godon set the reference time; Oliveira and Søderqvist split second on the same gap. Pogačar finished sixth at +7 — Cyclingnews' phrasing: 'overall race favourite Tadej Pogačar finished a distant sixth place, just one second further behind' Oliveira. Deliberately conservative day-one for the team's protected card.",
+    "decision": "Prologue established positions to one-digit seconds. The race's GC would be settled on the later climbing stages.",
+    "finale": "Overall GC trajectory beyond the prologue is partially documented in current public coverage; this page captures the prologue's reliable picture and notes the favourite hierarchy going into the climbing days."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Prologue — Villars-sur-Glâne", "headline": "Godon takes the leader's jersey", "description": "Godon — a powerful rouleur-puncheur — set the best reference time, with Oliveira and Søderqvist splitting second at +6. Pogačar deliberately conservative at +7." }
+  ],
+  "teamStories": [
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Godon prologue win, control of day 1",
+      "verdictClass": "win",
+      "narrative": "Day-one stage win + leader's jersey is the clean opening INEOS would have predicted. Godon's TT power matched the technical short course.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Pogačar conservative at +7",
+      "verdictClass": "neutral",
+      "narrative": "UAE's plan was conservative: keep Pogačar in GC range without burning the legs on a 3.2 km technical TT before climbing stages. Mission completed at +7. Oliveira's second on stage gave the team an early secondary podium card.",
+      "riderIds": ["tadej-pogacar"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 6, "gap": "+0:07",
+      "narrative": "Sixth in the prologue at +7 — the headline-level GC favourite playing it safe on a technical short course. The week's climbing stages would be the real test; the prologue was a placeholder.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Conservative opening",
+    "quotes": [],
+    "body": "Romandie's prologue puts the GC contenders within seconds of each other for a week's racing. Godon's leader's jersey will pass to a climber by the weekend; the prologue was about positioning, not outcomes."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Tour de Romandie 2026 prologue", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-romandie/2026", "publication": "ProCyclingStats", "title": "Tour de Romandie 2026", "lang": "en" }
+  ]
+}

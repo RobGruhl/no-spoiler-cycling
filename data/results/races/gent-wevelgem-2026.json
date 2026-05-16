@@ -1,0 +1,79 @@
+{
+  "raceId": "gent-wevelgem-2026",
+  "raceName": "Gent-Wevelgem — In Flanders Fields",
+  "raceDate": "2026-03-29",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Philipsen out-sprinted a reduced bunch in Wevelgem after the late Van der Poel / Van Aert / Segaert move was caught in the final hundred metres. A pure Alpecin-Premier Tech result on the right finish for the right rider, with Tobias Lund Andresen second and Laporte third for Visma's day.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "time": "5h 08m 03s" },
+    { "position": 2, "riderId": null, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Christophe Laporte", "team": "Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Late Van der Poel / Van Aert move caught — Philipsen finishes the day",
+    "openingMoves": "240.8 km from Middelkerke to Wevelgem, multiple Kemmelberg laps with the Ossuaire turn-off. A standard Gent-Wevelgem early break that the favourites' teams kept on a manageable leash.",
+    "raceUnfolds": "On the final Kemmelberg passage, a trio of Van der Poel, Van Aert, and the under-twenty-three Belgian Alec Segaert went clear. The chase took most of the run-in to assemble; the gap stayed dangerous until the final two kilometres.",
+    "decision": "The bunch caught the three-man move with under 500 metres to go. Once it was a sprint, the result was Alpecin's: Philipsen has won Gent-Wevelgem before from exactly this scenario, and Van der Poel — having spent his energy on the break — was always going to leave it to him.",
+    "finale": "Lund Andresen got the surprise second after a clean Decathlon lead-out gave him space; Laporte was Visma's salvage card for third, the same role he'd play two weeks later at Roubaix to keep Van Aert in position."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 35, "location": "Final Kemmelberg", "headline": "Van der Poel / Van Aert / Segaert go clear", "description": "The day's defining attack came on the last Kemmelberg passage. Three riders bridged into a gap that nearly held." },
+    { "kmFromFinish": 0.5, "location": "Wevelgem run-in", "headline": "Bunch catches at 500 m", "description": "The chase organised late and absorbed the three-man move with metres to go, setting up a reduced-group sprint that Philipsen's sprint engine was always favourite to win." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Van der Poel as decoy, Philipsen as finisher",
+      "verdictClass": "win",
+      "narrative": "Alpecin's Gent-Wevelgem template — Van der Poel pulls the dangerous moves forward, the chase exhausts trying to bring it back, Philipsen wins the bunch. Worked again.",
+      "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Van Aert in the move, Laporte on the podium",
+      "verdictClass": "neutral",
+      "narrative": "Van Aert was in the three-man late move with Van der Poel and Segaert, taking the same kind of long-shot that won him Roubaix two weeks later. Caught with metres to go; Laporte then sprinted to third from the catch, his second podium of the spring.",
+      "riderIds": ["wout-van-aert"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 1, "gap": "5h 08m 03s",
+      "narrative": "Won the bunch sprint after Van der Poel's three-man move was caught in the final 500 metres. Repeat performance on the race that suits him better than any other Belgian classic.",
+      "keyMoments": [{ "km": 0.2, "what": "Won bunch sprint after late catch" }],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "co-leader", "position": null, "gap": "in front group",
+      "narrative": "Joined the late three-up move with Van Aert and Segaert on the final Kemmelberg. Caught at 500 m; gave Philipsen the bunch sprint scenario that wins more often than not.",
+      "keyMoments": [{ "km": 35, "what": "Made the late three-man move on the Kemmelberg" }],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": null, "gap": "in front group",
+      "narrative": "Joined Van der Poel and Segaert in the late move. Caught at 500 m. Visma's salvage came from Laporte's sprint for third behind.",
+      "keyMoments": [{ "km": 35, "what": "Bridged onto Van der Poel's move on the final Kemmelberg" }],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step",
+      "role": "sprinter", "position": null, "gap": "in bunch",
+      "narrative": "Held in the bunch for the late catch but couldn't match Philipsen's sprint engine. Outside the top placings.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Bunch sprint after a late catch",
+    "quotes": [],
+    "body": "Gent-Wevelgem went exactly as it usually goes when Van der Poel and Philipsen line up together. The leader pulls the dangerous moves; the sprinter wins the bunch when the moves are caught. Van Aert's reading of the late attack — bridging to the three-up — was identical to the Roubaix-winning move two weeks later. Same instincts, different race outcome."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Philipsen wins Gent-Wevelgem 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/gent-wevelgem/2026/result", "publication": "ProCyclingStats", "title": "Gent-Wevelgem 2026 result", "lang": "en" }
+  ]
+}

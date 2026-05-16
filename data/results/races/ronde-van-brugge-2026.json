@@ -1,0 +1,54 @@
+{
+  "raceId": "ronde-van-brugge-2026",
+  "raceName": "Ronde Van Brugge - Tour of Bruges",
+  "raceDate": "2026-03-25",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Dylan Groenewegen won the flat, wind-exposed Tour of Bruges (the successor to Classic Brugge-De Panne) ahead of Philipsen and Max Kanter — a pure sprinters' result on a course designed for it. Limited tactical narrative beyond the bunch sprint outcome.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Dylan Groenewegen", "team": "Jayco AlUla", "time": "n/a" },
+    { "position": 2, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "n/a" },
+    { "position": 3, "riderId": null, "name": "Max Kanter", "team": "n/a", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Groenewegen takes the Bruges bunch sprint",
+    "openingMoves": "Flat coastal Belgian route. The race is the successor to Classic Brugge-De Panne; the format and the field both designed for sprinters.",
+    "raceUnfolds": "Standard bunch-sprint Classics pattern. No major selection, no major splits in available coverage.",
+    "decision": "Sprint.",
+    "finale": "Groenewegen took the line ahead of Philipsen and Kanter."
+  },
+  "decisiveMoments": [],
+  "teamStories": [
+    {
+      "team": "Jayco AlUla",
+      "verdict": "Groenewegen's first big spring sprint",
+      "verdictClass": "win",
+      "narrative": "Bruges was Groenewegen's first major spring win. The team's calendar through the cobbled block had been thin; this was the strongest opening day.",
+      "riderIds": []
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Philipsen 2nd — sprint card runner-up",
+      "verdictClass": "neutral",
+      "narrative": "Philipsen was the favourite and finished second behind Groenewegen — clean second-place for the team's sprint card.",
+      "riderIds": ["jasper-philipsen"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 2, "gap": "n/a",
+      "narrative": "Second to Groenewegen in a flat coastal bunch sprint. Won Gent-Wevelgem four days later from the same kind of finish.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Sprint",
+    "quotes": [],
+    "body": "Tour of Bruges is the most reliable bunch-sprint day on the spring Belgian calendar. Groenewegen, Philipsen, Kanter is the kind of finish line you'd predict before the start."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/ronde-van-brugge/2026/result", "publication": "ProCyclingStats", "title": "Ronde Van Brugge 2026 result", "lang": "en" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "raceId": "e3-saxo-classic-2026",
+  "raceName": "E3 Saxo Classic",
+  "raceDate": "2026-03-27",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Van der Poel won the unofficial 'mini-Flanders' E3 with a late attack that broke the favourites' group; Visma's Per Strand Hagenes — Brennan's contemporary in the team's emerging Classics generation — held on for second at three seconds. A clean Alpecin/Visma split on the cobbles, no UAE leadership card present.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "4h 45m 15s" },
+    { "position": 2, "riderId": null, "name": "Per Strand Hagenes", "team": "Visma | Lease a Bike", "gap": "+0:03" },
+    { "position": 3, "riderId": null, "name": "Florian Vermeersch", "team": "Lotto Intermarché", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel takes the E3 rehearsal for Flanders",
+    "openingMoves": "From Harelbeke, the conventional E3 sequence — control through the early sectors, building tension for the final climbing run. The Tour of Flanders was nine days away and the cobbled set-piece favourites used E3 as a deliberate dress rehearsal.",
+    "raceUnfolds": "Van der Poel went late on the canonical run-up sequence — Paterberg and Oude Kwaremont, the same combination he would face at the Ronde — and forged clear with a gap of about 45 seconds at one point. The chasers stabilised around 30 seconds, then tightened to 28 in the closing kilometres.",
+    "decision": "Strand Hagenes — Visma's 23-year-old Norwegian Classics prospect — bridged out of the chase group with Vermeersch and rode the final kilometres in pursuit. The gap held; Van der Poel took the line solo.",
+    "finale": "Three seconds at the finish; the win cleanly Van der Poel's. Strand Hagenes's solo-for-second is the kind of result that ages well — the Visma succession plan beneath Van Aert and Brennan starting to show its second tier."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 28, "location": "Final climbing sequence", "headline": "Van der Poel goes solo", "description": "After a series of tempo attacks on the late bergs, Van der Poel forged clear of the favourites' group and built a 45-second margin." },
+    { "kmFromFinish": 12, "location": "Run-in", "headline": "Strand Hagenes bridges with Vermeersch", "description": "The Visma 23-year-old and the Lotto-Intermarché rouleur bridged out of the chase group to stabilise the gap at around 30 seconds — close enough for a contested finish, not close enough to make it." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "The Flanders rehearsal goes to plan",
+      "verdictClass": "win",
+      "narrative": "Van der Poel used E3 the way the Belgians have always used it: as a course-specific test for the Ronde. Won solo with the exact climbing-sequence attack he'd attempt on April 5. The Ronde would not go the same way.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Strand Hagenes — the youngest leader-grade Visma classics rider takes a podium",
+      "verdictClass": "neutral",
+      "narrative": "Without Van Aert on the start sheet, the team handed leadership to Per Strand Hagenes. Second place at E3, on his own, three seconds back, is the kind of result the team will quote in succession-plan discussions for years. Brennan, the other young Classics prospect, missed this one.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 1, "gap": "4h 45m 15s",
+      "narrative": "Solo win in the unofficial Flanders rehearsal. The attack went on the late climbing sequence — same template he'd take to the Ronde. Worked here; didn't work there.",
+      "keyMoments": [{ "km": 28, "what": "Attacked solo on the closing climbs" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Dress rehearsal complete",
+    "quotes": [],
+    "body": "Van der Poel's E3 has often predicted his Ronde. This year it didn't — he won here and lost there. The race read tactically clean, but Pogačar's absence from the start sheet means E3 2026 told you nothing about the Monument nine days away that you didn't already know."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Van der Poel wins E3 Saxo Classic 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/e3-harelbeke/2026/result", "publication": "ProCyclingStats", "title": "E3 Saxo Classic 2026 result", "lang": "en" }
+  ]
+}

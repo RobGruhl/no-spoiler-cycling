@@ -1,0 +1,159 @@
+{
+  "raceId": "milano-sanremo-2026",
+  "raceName": "Milano-Sanremo",
+  "raceDate": "2026-03-21",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Tadej Pogačar crashed at 32 km to go, remounted, attacked on the Cipressa, and won Milano-Sanremo by centimetres — the Monument he'd needed for the career card, taken in the most Pogačar way possible. Pidcock matched him every accelerating metre and lost on the line. Van der Poel was the third man in the move until the Poggio dropped him.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "6h 35m 49s" },
+    { "position": 2, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling", "gap": "s.t." },
+    { "position": 3, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "+0:04" },
+    { "position": 4, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek", "gap": "+0:04" },
+    { "position": 5, "riderId": null, "name": "Corbin Strong", "team": "NSN Cycling Team", "gap": "+0:04" }
+  ],
+  "narrative": {
+    "headline": "Pogačar takes the Monument he's been losing — by centimetres, after a crash",
+    "openingMoves": "From Pavia, not central Milan, the 298 km headed out conventionally — early break, no danger names in it, gap stabilised around three to four minutes. UAE and Visma rotated the chase, Lidl-Trek's Pedersen-machine held formation, Alpecin played the Van der Poel / Philipsen split-card. Nothing happened for four hours. Sanremo never does.",
+    "raceUnfolds": "The Tre Capi tightened the screws without resolving anything. The catch happened in the run-in to the Cipressa. With 32 km to go, on the flat coastal road just before the climb turn-off, Pogačar went down — touch of wheels, hit the deck, remounted fast, his domestiques (Almeida, McNulty, Vine) pacing him back into position before the road tilted. UAE's plan didn't change.",
+    "decision": "On the Cipressa, Pogačar attacked first — earlier than is fashionable. Only Pidcock and Van der Poel could go with him. They crested with 25 seconds on the bunch and worked the descent and coastal flats together, Pidcock contributing as the most willing wheelman. On the Poggio's first ramps, Pogačar lifted again. Van der Poel cracked mid-climb. Only Pidcock survived.",
+    "finale": "Down the Poggio, Pidcock — a world-class descender — held the wheel. Onto Via Roma, two-up. Pogačar led most of the kilometre, Pidcock waiting. The sprint started late. Pidcock came around the right side. Pogačar held his line and won by what Cyclingnews called centimetres. Van Aert led the peloton in four seconds back for third, edging Pedersen and Corbin Strong in a tight Visma-Lidl-NSN three-way."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 32, "location": "Pre-Cipressa coastal road", "headline": "Pogačar crashes — and remounts", "description": "Touch of wheels in the run-in to the climb. UAE absorbed the blow, paced him back into the top 10 wheels before the road went up. A different team would have been ended by this. UAE made it a footnote." },
+    { "kmFromFinish": 27, "location": "Cipressa", "headline": "Pogačar attacks early — only Pidcock and Van der Poel follow", "description": "Pogačar didn't wait. The first attack came on the lower slopes, deliberately early — the kind of acceleration that selects on legs, not on tactics. Pidcock matched it. Van der Poel matched it. Nobody else." },
+    { "kmFromFinish": 6, "location": "Poggio", "headline": "Van der Poel cracks", "description": "Pogačar lifted again on the Poggio's opening ramps. Van der Poel — the only rider on the planet who beats Pogačar on a Poggio sprint — let the wheel go. The cooperation in the chasing group was never going to bring him back from there." },
+    { "kmFromFinish": 0.05, "location": "Via Roma", "headline": "The smallest margin", "description": "Pogačar held the line; Pidcock came around right; centimetres at the line. The Monument Pogačar most needed, won by the smallest plausible amount. He has now taken three of the five in his career. Only Roubaix remains missing." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Won the Monument that has tortured them",
+      "verdictClass": "win",
+      "narrative": "Tactically the only race UAE could win was a selective one — sprinters off, climbers thinned, two or three men into the Poggio. They got it, plus a crash they had to absorb at 32 km to go. Almeida, McNulty and Vine paced their leader back without panic; Pogačar then over-spent on the Cipressa exactly the way the plan demanded. The first cobbled Sanremo. The one that's been getting away.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "INEOS Grenadiers / Pinarello-Q36.5",
+      "verdict": "A second-place that was a tactical masterclass",
+      "verdictClass": "neutral",
+      "narrative": "Pidcock — racing for Pinarello-Q36.5 now, not INEOS — read the race correctly: don't wait for the Poggio, follow Pogačar on the Cipressa, save the legs for a two-up sprint. Every step worked except the last one. Losing Sanremo by centimetres to the form rider on the planet is not a failure. It's the closest anyone got to him on a hilly Monument all spring.",
+      "riderIds": ["tom-pidcock"]
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Followed correctly, cracked on the Poggio",
+      "verdictClass": "loss",
+      "narrative": "Van der Poel did everything right — was on the Cipressa move, was the third man over the top — and then couldn't hold Pogačar's Poggio acceleration. For a rider whose entire history says he wins Sanremo on the Poggio kick, being dropped on the Poggio is the rare outcome. Philipsen as sprint plan B never had a bunch sprint to contest.",
+      "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Stuck in the bunch, salvaged the podium",
+      "verdictClass": "neutral",
+      "narrative": "Visma rode reactive on the Cipressa and paid the price — they could not place a rider in the selection and ended up depending on chase cohesion behind. Van Aert had the legs but not the position, and won the bunch sprint for third from the second group on the road. Jorgenson was the day's most visible Visma support; Brennan in the bunch.",
+      "riderIds": ["wout-van-aert", "matteo-jorgenson"]
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Pedersen 4th, never in the move",
+      "verdictClass": "neutral",
+      "narrative": "Lidl-Trek planned for a reduced sprint with Pedersen and got something close to it — but the Cipressa selection happened a layer above them and they spent the descent and run-in trying to bring it back rather than contesting it. Pedersen's fourth is the textbook Monument near-miss; the Skjelmose and Ciccone follow-on cards never had a chance to deploy.",
+      "riderIds": ["mads-pedersen"]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Wrong race for Merlier and Magnier",
+      "verdictClass": "neutral",
+      "narrative": "Soudal needed a bunch sprint and the Cipressa attacks neutralised that scenario two hours before it would have happened. Merlier was the sprint plan, Magnier the long-shot, both shelved when the front blew apart. No top-10.",
+      "riderIds": ["tim-merlier"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "6h 35m 49s",
+      "narrative": "Crashed at 32 km, won by centimetres at 0 km. Attacked early on the Cipressa to force the selection, dropped Van der Poel on the Poggio with another acceleration, then held off Pidcock's late sprint on Via Roma. The third Monument of his career — and the one his career most needed, given how many times he'd lost it.",
+      "keyMoments": [
+        { "km": 32, "what": "Crashed pre-Cipressa, remounted, paced back by UAE" },
+        { "km": 27, "what": "Attacked first on Cipressa — formed lead trio" },
+        { "km": 6, "what": "Dropped Van der Poel on Poggio" },
+        { "km": 0.05, "what": "Held line, beat Pidcock by centimetres" }
+      ],
+      "incident": "Crashed at 32 km to go; remounted without injury"
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 3, "gap": "+0:04",
+      "narrative": "Stuck in the chase group when Pogačar lit the Cipressa, then won the bunch sprint for third — the maximum return given the position he had. A Sanremo where being four seconds off the lead is the difference between losing and contesting.",
+      "keyMoments": [
+        { "km": 27, "what": "Could not follow on Cipressa, stayed in chase" },
+        { "km": 0.05, "what": "Won bunch sprint for 3rd over Pedersen and Strong" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 8, "gap": "+0:04 group",
+      "narrative": "Made the Cipressa selection, then cracked on the Poggio — the climb where his entire career says he wins. Pogačar's repeated accelerations finally found a limit Van der Poel couldn't match. Dropped back to the first chase, finished in the Van Aert bunch but outside the placings.",
+      "keyMoments": [
+        { "km": 27, "what": "Made Cipressa selection — third man in lead trio" },
+        { "km": 6, "what": "Cracked on Poggio acceleration, dropped from lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek",
+      "role": "leader", "position": 4, "gap": "+0:04",
+      "narrative": "The textbook Sanremo near-miss. Strong through the Tre Capi, never in the Cipressa move, sprinted for fourth in the Van Aert bunch. The Monument that gives Pedersen his best chance every year, and again he was a layer below where he needed to be on the Cipressa.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "in bunch",
+      "narrative": "Visma's most visible support across the Tre Capi and into the Cipressa, but couldn't engineer a Van Aert lead-out into the climb that mattered. Finished in the Van Aert group.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
+      "role": "sprinter", "position": null, "gap": "in bunch",
+      "narrative": "Held as the bunch-sprint card behind Van der Poel's Poggio attack. The Cipressa selection meant no bunch sprint ever formed; he finished in the second group.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "in bunch",
+      "narrative": "Sheltered Van Aert through the Aurelia and into the Tre Capi; not present in the front when the Cipressa selection went.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step",
+      "role": "sprinter", "position": null, "gap": "outside top 20",
+      "narrative": "Needed a bunch sprint scenario; Pogačar's Cipressa attack ended that scenario. Out of the front of the race well before the Poggio.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [{ "km": 32, "riderId": "tadej-pogacar", "description": "Pogačar touched wheels on the flat coastal road just before the Cipressa turn-off, fell, remounted without injury. UAE domestiques paced him back to position before the climb." }],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Three down, two to go",
+    "quotes": [
+      { "speaker": "Tom Pidcock", "text": "I gave it everything on the Cipressa and the Poggio, and again in the sprint. There is no shame in losing to him by that little.", "context": "Post-race, on the two-up sprint", "source": "Cyclingnews" },
+      { "speaker": "Tadej Pogačar", "text": "I went down hard before the Cipressa and for a moment I thought the race was over. The team did everything to put me back in position. After that, the climb was the right place to go.", "context": "On the crash and Cipressa attack", "source": "Cyclingnews" }
+    ],
+    "body": "Pogačar leaves Sanremo with three of the five Monuments — Liège (twice), Lombardia (multiple), now Sanremo. Roubaix is the lone gap, and the Roubaix bid two weeks later would test him again. For Pidcock, a podium nobody can argue with; for Van der Poel, the rare Sanremo where the Poggio went against him; for Van Aert, four seconds and a podium in the bunch sprint that was the only realistic outcome from his position."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/milano-sanremo-2026-pogacar/", "publication": "Cyclingnews", "title": "Pogačar wins Milano-Sanremo by centimetres", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Milano-Sanremo 2026 race report", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/milano-sanremo/2026/result", "publication": "ProCyclingStats", "title": "Milano-Sanremo 2026 results", "lang": "en" },
+    { "url": "https://www.gazzetta.it/Ciclismo/", "publication": "La Gazzetta dello Sport", "title": "Milano-Sanremo 2026 cronaca", "lang": "it" }
+  ]
+}

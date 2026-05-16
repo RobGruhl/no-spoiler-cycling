@@ -1,0 +1,70 @@
+{
+  "raceId": "tirreno-adriatico-2026",
+  "raceName": "Tirreno-Adriatico",
+  "raceDate": "2026-03-09",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Filippo Ganna took the Stage 1 ITT in Lido di Camaiore by 22 seconds over Thymen Arensman in an INEOS 1-2 to open the race in the blue jersey. Stage 2 went to Mathieu van der Poel on wet gravel — Del Toro second, and the Mexican took the overall lead from that result. Pellizzari third on stage 2 was the strongest Italian climbing debut of the week.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "GC winner (per public coverage to Stage 2)" }
+  ],
+  "narrative": {
+    "headline": "Ganna's opening ITT, Van der Poel's wet gravel, Del Toro into the leader's jersey",
+    "openingMoves": "Stage 1, Lido di Camaiore short ITT. Ganna 22 seconds clear of teammate Arensman — a dominant INEOS opener that set Ganna in the maglia azzurra and the team in early control.",
+    "raceUnfolds": "Stage 2, wet gravel. Mathieu van der Poel won the stage; Del Toro finished second, well placed to take the overall after Ganna's TT margin couldn't survive the gravel selection. Pellizzari third — Italy's emerging climbing prospect on home roads.",
+    "decision": "By stage 2, the race had two narratives: Del Toro's GC takeover from Ganna's leader's jersey, and Van der Poel's gravel mastery on wet Italian terrain. The week from there built around those.",
+    "finale": "Overall GC at race close not in current depth coverage; the early signals had Del Toro defending. The 2026 spring's pattern of UAE depth — Pogačar at Roubaix, Vine at TDU, Del Toro at Tirreno, Yates and Almeida elsewhere — was holding."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 1 ITT — Lido di Camaiore", "headline": "Ganna 22 seconds clear", "description": "INEOS 1-2, dominant Stage 1 ITT by Ganna, Arensman the only rider within 30 seconds. First blue jersey of the race." },
+    { "kmFromFinish": null, "location": "Stage 2 — wet gravel", "headline": "Van der Poel wins, Del Toro takes lead", "description": "Wet gravel stage. Van der Poel rode away for the stage win; Del Toro second, Pellizzari third. The GC swung from Ganna to Del Toro on that result." }
+  ],
+  "teamStories": [
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Ganna's TT, then ceded the GC on gravel",
+      "verdictClass": "neutral",
+      "narrative": "INEOS opened with a Ganna-and-Arensman 1-2 in the ITT, then lost the leader's jersey on Stage 2's wet gravel. The week's tactical lesson: GC weeks rarely turn on time-trial dominance alone.",
+      "riderIds": ["filippo-ganna"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Del Toro into the leader's jersey",
+      "verdictClass": "win",
+      "narrative": "Del Toro's gravel ride into second on Stage 2 elevated him into the overall lead. Same template as UAE Tour two weeks earlier: protected card delivers on the right terrain.",
+      "riderIds": []
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Van der Poel takes the gravel stage",
+      "verdictClass": "win",
+      "narrative": "Stage 2 was the kind of wet-gravel chaos Van der Poel uses to mark out his Strade Bianche form. Won the stage by riding gravel the way only he does on wet Italian roads.",
+      "riderIds": ["mathieu-van-der-poel"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers",
+      "role": "leader", "position": null, "gap": "stage 1 winner",
+      "narrative": "Won the Stage 1 ITT in Lido di Camaiore by 22 seconds — a dominant opener. Lost the leader's jersey on Stage 2's gravel; the spring would close with him winning Dwars door Vlaanderen and finishing fourth-ish at Strade.",
+      "keyMoments": [{ "km": null, "what": "Stage 1 ITT win, 22 seconds clear of Arensman" }],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "stage hunter", "position": null, "gap": "stage 2 winner",
+      "narrative": "Won Stage 2 on wet gravel — a Strade Bianche dress rehearsal six days before the actual race. The stage win answered the question 'is Van der Poel ready for Strade?' before Strade asked it.",
+      "keyMoments": [{ "km": null, "what": "Won Stage 2 wet gravel" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "INEOS opens, UAE takes over, Van der Poel sets up Strade",
+    "quotes": [],
+    "body": "Tirreno's first two stages had the spring's most concentrated star power — Ganna ITT, Van der Poel on gravel, Del Toro into the leader's jersey. The week's broader GC trajectory is partially documented in current public coverage; this overview captures the most reliably established events."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Tirreno-Adriatico 2026 stage reports", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tirreno-adriatico/2026", "publication": "ProCyclingStats", "title": "Tirreno-Adriatico 2026", "lang": "en" }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "raceId": "paris-nice-2026",
+  "raceName": "Paris-Nice",
+  "raceDate": "2026-03-08",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Jonas Vingegaard won Paris-Nice for Visma by more than four minutes — the week of his career-rebooting return to GC form. The defining day was Stage 5, where he attacked solo with 20 km to go on the Col de la Porte and dropped everyone left. Stage 4 was the spring's most chaotic — atrocious weather, mass crash, Juan Ayuso abandoned injured. Stage 7 was shortened to 47 km in snow.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Jonas Vingegaard", "team": "Visma | Lease a Bike", "time": "GC winner" },
+    { "position": 2, "riderId": null, "name": "Dani Martínez", "team": "Red Bull - BORA - hansgrohe", "gap": "+4:23" },
+    { "position": 3, "riderId": null, "name": "Georg Steinhauser", "team": "EF Education-EasyPost", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Vingegaard's GC reboot in eight stages",
+    "openingMoves": "Luke Lamperti won Stage 1's bunch sprint — a strong early result for the American sprinter. The opening days settled into the standard Paris-Nice pattern: control, no major GC moves until the climbing terrain.",
+    "raceUnfolds": "Stage 4 broke the race shape with weather. A mass crash in atrocious conditions hit the bunch; Juan Ayuso abandoned injured — the spring's first major GC casualty. Vingegaard, surviving, took stage 4 on the strong man's terms. Stage 5: solo attack from 20 km to go, won the stage, took the leader's jersey, never gave it back.",
+    "decision": "Stage 5 was the GC. Vingegaard's 20-km solo on Col de la Porte established a margin that no later stage could realistically close. Stage 6 (Tejada), Stage 7 (Godon, shortened to 47 km in snow) and Stage 8 (Lenny Martinez stage win, Vingegaard GC consolidation on Côte du Linguador) ran as defensive operations.",
+    "finale": "Vingegaard arrived in Nice with the overall by 4:23 on Martínez, marking his first comeback GC win after the 2024 Itzulia crash and 2025 Tour disappointment. The post-stage quote: 'Coming back and winning a stage — I guess it's my first in Paris-Nice outside the team time trials — it's really nice to...'."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 4", "headline": "Mass crash, Ayuso out", "description": "Atrocious weather, mass crash, Juan Ayuso abandoned injured — the spring's first major GC casualty. Vingegaard survived to take the stage on strength." },
+    { "kmFromFinish": null, "location": "Stage 5 — Col de la Porte", "headline": "Vingegaard solo from 20 km", "description": "The race-deciding attack. Solo from 20 km out, won the stage, took the GC, never relinquished it." },
+    { "kmFromFinish": null, "location": "Stage 7", "headline": "Shortened to 47 km in snow", "description": "Weather forced a shortened stage; the GC was effectively decided by then, the stage ran as a defensive obligation." },
+    { "kmFromFinish": null, "location": "Stage 8 — Côte du Linguador", "headline": "Lenny Martinez wins stage, Vingegaard wins GC", "description": "Decisive final climb. Vingegaard and Lenny Martinez two-up; Martinez took the stage, Vingegaard the overall." }
+  ],
+  "teamStories": [
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Vingegaard's career reboot",
+      "verdictClass": "win",
+      "narrative": "Paris-Nice was Visma's first major statement of the year — Vingegaard back in GC form, the team riding around him with the structure that made the 2022-23 Tours look easy. Jorgenson supporting, Brennan stage hunting from the bunch, Van Aert preparing for the cobbled spring on different roads.",
+      "riderIds": ["matteo-jorgenson"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Ayuso abandons, no GC platform",
+      "verdictClass": "loss",
+      "narrative": "Ayuso's Stage 4 crash ended UAE's GC platform week. Pogačar was riding Tirreno simultaneously, leaving Ayuso the protected card; the early abandonment cancelled the race for the team.",
+      "riderIds": []
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Martínez salvages second",
+      "verdictClass": "neutral",
+      "narrative": "Dani Martínez held on for second in his first Red Bull-Bora Paris-Nice. 4:23 down with Vingegaard in this form is not a tactical critique.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "GC support",
+      "narrative": "Visma's senior climbing lieutenant for the week, supporting Vingegaard's Stage 5 GC move and managing the defensive operations through the snow-shortened Stage 7. Skipped the cobbled Classics that came after; raced the Ardennes block instead.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [{ "km": null, "riderId": null, "description": "Stage 4 mass crash in atrocious weather; multiple riders affected" }],
+    "abandons": [{ "riderId": null, "km": null, "reason": "Juan Ayuso (UAE Team Emirates - XRG) abandoned after Stage 4 crash, injured" }],
+    "controversies": [{ "description": "Stage 7 shortened to 47 km because of snow and rain" }]
+  },
+  "aftermath": {
+    "headline": "Vingegaard back",
+    "quotes": [
+      { "speaker": "Jonas Vingegaard", "text": "Coming back and winning a stage — I guess it's my first in Paris-Nice outside the team time trials — it's really nice.", "context": "Post-Stage 5", "source": "Cyclingnews" }
+    ],
+    "body": "The week was Vingegaard's return to GC form after two seasons defined by the 2024 Itzulia crash. Stage 5 was the moment. Paris-Nice 2026 set up the Tour de France narrative for July."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Vingegaard wins Paris-Nice 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/paris-nice/2026", "publication": "ProCyclingStats", "title": "Paris-Nice 2026", "lang": "en" }
+  ]
+}

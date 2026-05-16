@@ -1,0 +1,49 @@
+{
+  "raceId": "uae-tour-2026",
+  "raceName": "UAE Tour",
+  "raceDate": "2026-02-16",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Isaac del Toro took the opening stage's Liwa Palace uphill finish for UAE Team Emirates and was the headline figure of the week. Pogačar skipped the UAE Tour entirely in 2026, leaving Del Toro as the team's protected GC card; Cees Bol second and Antonio Tiberi third on stage 1 set the contender hierarchy. Full overall GC documentation has yet to surface at the depth this subsystem typically targets.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "stage 1 winner" },
+    { "position": 2, "riderId": null, "name": "Cees Bol", "team": "Decathlon CMA CGM Team", "gap": "stage 1 +n/a" },
+    { "position": 3, "riderId": null, "name": "Antonio Tiberi", "team": "Bahrain Victorious", "gap": "stage 1 +n/a" }
+  ],
+  "narrative": {
+    "headline": "Del Toro opens at Liwa Palace; Pogačar absent",
+    "openingMoves": "Wind-shortened stage 1 to Liwa Palace, the canonical UAE Tour selecting finish. UAE's pre-race plan: Del Toro as protected finisher for an uphill stage that suits his climbing-with-sprint-kick profile.",
+    "raceUnfolds": "Del Toro launched the decisive attack on the uphill at Liwa Palace. Bol could not match, finished second. Tiberi held for third for Bahrain Victorious — a strong stage and GC opener for the team's protected climber.",
+    "decision": "Stage 1's uphill set the early GC hierarchy. Del Toro in the leader's jersey, Bol marker behind, Tiberi the principal GC threat.",
+    "finale": "Overall GC at the conclusion of the week is not in the public coverage at depth; the picture going into the closing stages had Del Toro defending."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Liwa Palace stage 1 uphill", "headline": "Del Toro attacks first", "description": "The canonical UAE Tour selecting finish; Del Toro's late acceleration created the gap that stage 1 — and the early GC — turned on." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Del Toro the protected card, Pogačar absent",
+      "verdictClass": "win",
+      "narrative": "UAE's home tour is always a leadership question — Pogačar usually skips it, the team's secondary GC card takes the protected role. In 2026 that card was Del Toro, who delivered on stage 1.",
+      "riderIds": []
+    },
+    {
+      "team": "Bahrain Victorious",
+      "verdict": "Tiberi on the stage 1 podium",
+      "verdictClass": "neutral",
+      "narrative": "Tiberi's third on stage 1 set him up as the principal non-UAE GC threat of the week. The Bahrain Victorious 2026 spring depended on his progression; this was the opening signal.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "UAE's home tour, Del Toro as the new protected card",
+    "quotes": [],
+    "body": "UAE Tour 2026 is the first full deployment of the Pogačar-skip-it, Del-Toro-leads model — and it began with a stage win at Liwa Palace. The week's broader GC trajectory is partially documented in current public coverage; this page captures what's most reliably established."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "UAE Tour 2026 stage 1", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/uae-tour/2026", "publication": "ProCyclingStats", "title": "UAE Tour 2026", "lang": "en" }
+  ]
+}

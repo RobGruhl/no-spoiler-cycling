@@ -1,0 +1,55 @@
+{
+  "raceId": "eschborn-frankfurt-2026",
+  "raceName": "Eschborn-Frankfurt",
+  "raceDate": "2026-05-01",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Georg Zimmermann (Lotto-Intermarché) won at home in Frankfurt, sprinting from inside a 12-rider front group with Tom Pidcock second and Visma's Ben Tulett third. A reduced-bunch dash to the line on the German May Day classic, with the front group holding clear of the chasing peloton.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Georg Zimmermann", "team": "Lotto Intermarché", "time": "4h 59m 34s" },
+    { "position": 2, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Zimmermann at home, Pidcock and Tulett complete the podium",
+    "openingMoves": "211 km from Eschborn into Frankfurt, the German May Day staple. A reduced 12-rider front group survived clear of the peloton.",
+    "raceUnfolds": "Standard Eschborn pattern — the climbing into Königstein-area trims the bunch, the front group establishes itself, the peloton's chase doesn't quite close.",
+    "decision": "Inside the closing kilometre, the 12-up sprint goes to the rider with the best closing kick and the local crowd. Zimmermann had both.",
+    "finale": "Zimmermann won from the back of the group, sprinting along the barriers. Pidcock second, Tulett third — a clean podium spread."
+  },
+  "decisiveMoments": [],
+  "teamStories": [
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Zimmermann at home",
+      "verdictClass": "win",
+      "narrative": "Home win for the German rider in his fifth year as a professional. Lotto-Intermarché's calendar leans on these single-race days; this was the season's biggest return.",
+      "riderIds": []
+    },
+    {
+      "team": "Pinarello-Q36.5 Pro Cycling",
+      "verdict": "Pidcock another close runner-up",
+      "verdictClass": "neutral",
+      "narrative": "Pidcock's spring has had three runner-up finishes (Sanremo by centimetres, Eschborn here, plus another). The pattern of the wrong margin is becoming notable.",
+      "riderIds": ["tom-pidcock"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "Second again. After Milan-San Remo by centimetres, Pidcock's spring of close calls continues — Eschborn-Frankfurt second behind Zimmermann.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "German classic, German winner",
+    "quotes": [],
+    "body": "Eschborn-Frankfurt rarely produces a Monument-class headline; what it produces is reliable mid-tier Classics results. Zimmermann is the second German to win this in five years."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Zimmermann wins Eschborn-Frankfurt 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/eschborn-frankfurt/2026/result", "publication": "ProCyclingStats", "title": "Eschborn-Frankfurt 2026 result", "lang": "en" }
+  ]
+}

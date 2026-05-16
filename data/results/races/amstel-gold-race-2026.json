@@ -1,0 +1,57 @@
+{
+  "raceId": "amstel-gold-race-2026",
+  "raceName": "Amstel Gold Race",
+  "raceDate": "2026-04-19",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Evenepoel won a 42-km solo breakaway to take Amstel Gold Race, beating defending champion Mattias Skjelmose by one second in what Cyclingnews described as a two-up rematch from the 2025 sprint. Cosnefroy salvaged Decathlon-style third behind. Evenepoel's first major win in Red Bull-Bora kit.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "5h 59m 40s" },
+    { "position": 2, "riderId": null, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "+0:01" },
+    { "position": 3, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel's 42-km solo, one second clear of last year's winner",
+    "openingMoves": "257.2 km from Maastricht to Berg en Terblijt, the longest Ardennes day. Started at 11:10 CET, finished at 17:12. A long, gradually thinning race that suits the Ardennes set-piece favourites — Evenepoel, Skjelmose, Pogačar (absent), Pidcock (not on the start sheet).",
+    "raceUnfolds": "Evenepoel launched what would become the day's race-winning move 42 km from the line — the kind of long-range commitment that has defined his Classics career. Skjelmose, the defending champion, was the only rider who could follow at first, then was distanced.",
+    "decision": "The closing kilometres reduced to a two-up rematch from 2025 (when Skjelmose beat Evenepoel in a sprint). One second separated them this year, with Evenepoel's long solo proving the right tactical choice on the Cauberg-and-after climbing sequence.",
+    "finale": "Cosnefroy chased home for third — the Decathlon engine that has been at the front of every Ardennes race this spring without the leader-class result. Evenepoel's first big win in Red Bull-Bora kit; Skjelmose's runner-up validates Lidl-Trek's Ardennes pivot."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 42, "location": "Cauberg-area approach", "headline": "Evenepoel goes solo", "description": "42 km from the finish, Evenepoel attacked and went alone — committed long-range Classics move. Only Skjelmose could initially follow." },
+    { "kmFromFinish": 8, "location": "Final climbs", "headline": "Two-up rematch", "description": "Skjelmose held Evenepoel's wheel through the final climbs but couldn't close the last seconds. The 2025 sprint duel inverted: Evenepoel solo by one." }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Evenepoel's first major in new colours",
+      "verdictClass": "win",
+      "narrative": "After the Ronde podium and the Liège third still to come, Amstel was Evenepoel's first major win in Red Bull-Bora-Hansgrohe kit. The 42-km solo is signature.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Skjelmose runner-up in his title defence",
+      "verdictClass": "neutral",
+      "narrative": "Defending champion finishes one second short. The Ardennes block was always going to be the team's most contested terrain this spring; finishing the first one of three by one second is a clean result.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Cosnefroy at the front without Pogačar",
+      "verdictClass": "neutral",
+      "narrative": "Pogačar skipped Amstel to recover for Flèche and Liège. Cosnefroy carried the team's Ardennes card and took third — the kind of result that justifies UAE's depth.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "First Red Bull-Bora major",
+    "quotes": [],
+    "body": "Evenepoel's spring at Red Bull-Bora-Hansgrohe had been a slow build — Ronde podium, the long Liège breakaway, Amstel win. The 42-km solo is the move Evenepoel has used to win a hundred different races. It worked again."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Evenepoel wins Amstel Gold Race 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/amstel-gold-race/2026/result", "publication": "ProCyclingStats", "title": "Amstel Gold Race 2026 result", "lang": "en" }
+  ]
+}

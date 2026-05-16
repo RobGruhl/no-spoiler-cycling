@@ -1,0 +1,77 @@
+{
+  "raceId": "itzulia-basque-country-2026",
+  "raceName": "Itzulia Basque Country",
+  "raceDate": "2026-04-06",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Paul Seixas opened with a stunning Stage 1 ITT win in Bilbao, beating Vauquelin by 23 seconds and Roglič by 28 — the 19-year-old's third GC-relevant performance of the spring after Strade Bianche second and before the Liège podium that would crystallise his year. INEOS placed two riders in the top five (Vauquelin 2nd, Van Wilder 5th); Ayuso lost 1:16 in a poor TT for Lidl-Trek's defending champion.",
+  "podium": [
+    { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "time": "Stage 1 ITT winner, took leader's jersey" }
+  ],
+  "narrative": {
+    "headline": "Seixas takes Stage 1 — the spring's outsider keeps confirming himself",
+    "openingMoves": "Bilbao, 13.8 km hilly ITT. Riders off at 1-minute intervals, 2-minute intervals for the final 21. Georg Zimmermann first off the ramp at 14:20 local. Markel Beloki set an early reference at the second time check (7:53).",
+    "raceUnfolds": "Roglič moved to the front benchmark at the first check, then extended it by 12 seconds at the second check over Beloki. He looked GC-decisive — until the last starters arrived. Großschartner — Roglič's UAE teammate — became 'only the second man in the history of Itzulia to defeat Roglič in a time trial,' beating him to second on the day. Vauquelin posted 2nd at +23 to Seixas; Van Wilder 5th at +29. Ayuso, the defending overall champion, lost 1:16 — a substantial early GC hit.",
+    "decision": "Seixas's final time was the day's fastest. The first leader's jersey of the race went to a 19-year-old Frenchman riding for Decathlon CMA CGM — the spring's outsider continuing to confirm himself.",
+    "finale": "Overall GC at week's close is not in current depth coverage; the Stage 1 platform had Seixas leading with the principal GC threats spread within a minute behind. Cian Uijtdebroeks lost 1:26 alone — a significant early hit."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 1 ITT — Bilbao", "headline": "Seixas takes the leader's jersey", "description": "The 19-year-old French climber turned ITT specialist for a day, posting a time that beat Vauquelin by 23 seconds, Großschartner by 27, Roglič by 28, and Van Wilder by 29." },
+    { "kmFromFinish": null, "location": "Stage 1 — late TT damage", "headline": "Ayuso loses 1:16", "description": "Defending overall champion Ayuso (Lidl-Trek) lost 1:16 on day 1 — a substantial early GC deficit." }
+  ],
+  "teamStories": [
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Seixas in the leader's jersey",
+      "verdictClass": "win",
+      "narrative": "Decathlon's leader was 19 years old and wearing the leader's jersey of a WorldTour stage race. The first leader's jersey of Itzulia 2026 — and the third major performance of his spring after Strade Bianche second and before the Liège podium.",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Vauquelin 2nd, Van Wilder 5th — two cards top 5",
+      "verdictClass": "neutral",
+      "narrative": "INEOS placed two riders top five on Stage 1 — Vauquelin 2nd at +23, Van Wilder 5th at +29. Strong opening platform for a week where neither was billed as the headline rider.",
+      "riderIds": []
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Roglič's TT held early lead, lost late",
+      "verdictClass": "neutral",
+      "narrative": "Roglič held the on-course benchmark through both intermediate checks before being passed by Großschartner and Seixas in the final times. Fourth at +28 — within GC contention for the week, but not the day's headline.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Großschartner beats Roglič in a TT (rare); Ayuso loses 1:16",
+      "verdictClass": "neutral",
+      "narrative": "Two storylines: Großschartner third at +27 and the second man ever to beat Roglič in an Itzulia TT, plus Ayuso — defending overall champion now at Lidl-Trek — losing 1:16 on day 1. The UAE-Lidl flip between the two front-row Spaniards is the week's quieter narrative.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Ayuso opens on the back foot",
+      "verdictClass": "loss",
+      "narrative": "Ayuso's transfer to Lidl-Trek over the off-season was meant to give him protected GC leadership; his Stage 1 TT was poor and the GC bid was effectively cancelled before the climbing stages started. Skjelmose remained a viable secondary card.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 1, "gap": "Stage 1 ITT winner",
+      "narrative": "Third GC-relevant performance of the spring after Strade Bianche second. Took the Stage 1 ITT in Bilbao by 23 seconds over Vauquelin, gaining time on every billed GC favourite. The first leader's jersey of his career at WorldTour level.",
+      "keyMoments": [{ "km": null, "what": "Stage 1 ITT win — leader's jersey" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "The spring's outsider takes a leader's jersey",
+    "quotes": [],
+    "body": "Seixas's Itzulia opener bracketed his Strade Bianche second (March) and his Liège-Bastogne-Liège podium (late April). The pattern — Decathlon's 19-year-old, who started 2026 as the spring's most-watched outsider, now demonstrably the spring's most consistent GC-level performer behind Pogačar."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Itzulia Basque Country 2026 Stage 1 ITT", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/itzulia-basque-country/2026", "publication": "ProCyclingStats", "title": "Itzulia Basque Country 2026", "lang": "en" }
+  ]
+}

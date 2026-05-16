@@ -1,0 +1,75 @@
+{
+  "raceId": "dwars-door-vlaanderen-2026",
+  "raceName": "Dwars door Vlaanderen",
+  "raceDate": "2026-04-01",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Filippo Ganna out-sprinted Wout van Aert to win a reduced-bunch dash to the line in Waregem, after both attacked into the closing 30 km and the catch happened with metres to spare. Van Aert was passed in the final metres after a long-range move. Ganna's spring finally turns a strong tactical pattern into a win.",
+  "podium": [
+    { "position": 1, "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers", "time": "3h 48m 27s" },
+    { "position": 2, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "gap": "+0:01" },
+    { "position": 4, "riderId": null, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "+0:01" },
+    { "position": 5, "riderId": null, "name": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:01" }
+  ],
+  "narrative": {
+    "headline": "Van Aert long-range, Ganna passes at the line",
+    "openingMoves": "185 km from Roeselare to Waregem, the lighter cobbled set-piece — the warm-up for Ronde van Vlaanderen four days later. Several favourites used it as a final dress rehearsal.",
+    "raceUnfolds": "Ganna had a double bike change inside the closing 50 km — the kind of mid-race chaos that usually ends a Monument bid but here just trimmed his preparation. Van Aert went long on the final cobbled sequence; the reduced bunch never fully closed but never lost contact either.",
+    "decision": "Inside the closing kilometre, Van Aert had Ganna boxed and the rest of the bunch a second back. Ganna's last 100 metres are difficult to argue with from any position — his sprint after a long Classics race is the discipline's quiet truth.",
+    "finale": "Ganna passed Van Aert in the final metres on the line; Wærenskjold led the reduced bunch in at +1, Girmay and Pithie tucked in alongside. Visma left with two seconds of margin between the win and second; the Roubaix bid was eleven days away."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 30, "location": "Closing cobbled sequence", "headline": "Van Aert goes long", "description": "Van Aert attacked from the front of the favourites group and forged a small but stable gap. The reduced bunch worked but never fully bridged." },
+    { "kmFromFinish": 0.1, "location": "Waregem finish straight", "headline": "Ganna passes at the line", "description": "Van Aert had the move; Ganna had the sprint. In a long-Classics two-up, the rouleur with the sprint always wins. He did again." }
+  ],
+  "teamStories": [
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Ganna finally turns the pattern into a win",
+      "verdictClass": "win",
+      "narrative": "Ganna's spring has had a half-dozen of these — long Classics where he survives the selection and gets out-sprinted by a true puncheur. This time the puncheur was Van Aert, and the long Classics scenario suited the Italian. Double bike change inside the closing 50 km and he still won. Cyclingnews and Rouleur had been predicting this exact result for two years.",
+      "riderIds": ["filippo-ganna"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Van Aert's Roubaix dress rehearsal",
+      "verdictClass": "neutral",
+      "narrative": "Van Aert's long-range attack at Dwars was a near-perfect dress rehearsal for what he'd do at Roubaix eleven days later. Same instinct: don't wait for the sprint, force the move. Same outcome: caught at the line. Eleven days later the move stuck.",
+      "riderIds": ["wout-van-aert"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 1, "gap": "3h 48m 27s",
+      "narrative": "First major Classics win of the season after a spring of close calls. Survived a double bike change in the closing 50 km, held position into the closing kilometre, passed Van Aert on the line.",
+      "keyMoments": [
+        { "km": 40, "what": "Double bike change mid-race" },
+        { "km": 0.1, "what": "Passed Van Aert on the line in two-up sprint" }
+      ],
+      "incident": "Double bike change mid-race"
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "Long-range attack from 30 km, the right move at the wrong race — Ganna had the closing sprint to pass him at the line. Eleven days later the same instinct would win Roubaix.",
+      "keyMoments": [{ "km": 30, "what": "Long-range attack from the favourites' group" }],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [{ "km": null, "riderId": "filippo-ganna", "description": "Double bike change inside closing 50 km — did not prevent the win" }],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "The Roubaix preview Van Aert wanted",
+    "quotes": [],
+    "body": "Two riders with the spring's most tactically thoughtful Classics campaigns met at the line and the rouleur with the sprint won. Eleven days later, Van Aert would carry the same instinct — go long, don't wait — into Roubaix and win. Dwars 2026 will be remembered as the day Visma's Roubaix template got validated even though the result didn't come."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Ganna takes Dwars door Vlaanderen 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/dwars-door-vlaanderen/2026/result", "publication": "ProCyclingStats", "title": "Dwars door Vlaanderen 2026 result", "lang": "en" }
+  ]
+}

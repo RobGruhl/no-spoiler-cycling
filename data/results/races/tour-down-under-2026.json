@@ -1,0 +1,64 @@
+{
+  "raceId": "tour-down-under-2026",
+  "raceName": "Santos Tour Down Under",
+  "raceDate": "2026-01-20",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Jay Vine took the overall for UAE Team Emirates by more than a minute, Mauro Schmid second, Harry Sweeny third. The week's standout storyline was outside the GC: a kangaroo crossed into the peloton in the final stage causing a crash — the kind of Adelaide-summer-cycling moment that only happens here. Matthew Brennan led the young rider classification after a Stage 1 second place.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Jay Vine", "team": "UAE Team Emirates - XRG", "time": "n/a (GC reference)" },
+    { "position": 2, "riderId": null, "name": "Mauro Schmid", "team": "Jayco AlUla", "gap": "+1:03" },
+    { "position": 3, "riderId": null, "name": "Harry Sweeny", "team": "EF Education-EasyPost", "gap": "+1:12" },
+    { "position": 4, "riderId": null, "name": "Marco Brenner", "team": "Tudor Pro Cycling Team", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Vine's overall, a kangaroo's cameo",
+    "openingMoves": "Samuel Watson won the 3.6 km Adelaide-Adelaide prologue, with Ethan Vernon and Laurence Pithie behind. Jay Vine sat 4 seconds down, Jhonatan Narváez 9. Tobias Lund Andresen won Stage 1's bunch sprint in Tanunda, with Matthew Brennan second and Sam Welsford third. Brennan took the young rider's lead.",
+    "raceUnfolds": "Vine seized GC control on the hilly stages mid-week — the UAE Tour Down Under template the team has run for three years. Schmid and Sweeny rode well enough to hold the chase but didn't have the climbing legs to threaten the leader's gap.",
+    "decision": "By the final stage, Vine still held the overall lead and the race was effectively decided. The final-stage drama came from outside the bunch: a kangaroo crossed into the peloton, causing a crash. No major GC consequence; a cycling-specific Aussie moment.",
+    "finale": "Vine win, Schmid 2nd, Sweeny 3rd. Brennan kept the white jersey. The Aussie summer's GC headline; the Cadel Evans race finished the block twelve days later."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Final stage", "headline": "A kangaroo crashes the peloton", "description": "Adelaide. Late January. A kangaroo crossed into the peloton during the closing stage, causing a crash. The week's most-shared video. No GC change resulted." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Vine repeats the TDU GC formula",
+      "verdictClass": "win",
+      "narrative": "UAE arrived without Pogačar, with Vine as designated GC card, and won the way they always do — climbing stages, controlled defence, a minute-plus margin by week's end.",
+      "riderIds": []
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Brennan's young-rider win, the start of a year",
+      "verdictClass": "neutral",
+      "narrative": "Brennan started the season at home — well, his adopted-pro home — and led the young rider classification after a Stage 1 second. The thread runs all the way through to his Arenberg lead-out for Van Aert at Roubaix in April.",
+      "riderIds": ["matthew-brennan"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": null, "gap": "young rider classification leader",
+      "narrative": "Second on Stage 1 in Tanunda behind Lund Andresen, took the young rider lead and held it. The first major data point of the Brennan-as-emerging-Classics-leader season — a year that ran from here through Cadel Evans (2nd) to the Roubaix lead-out for Van Aert.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 1 — 2nd in Tanunda bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [{ "km": null, "riderId": null, "description": "Kangaroo crossed into the peloton in the final stage, causing a crash. Cycling-specific Aussie summer moment; no GC change resulted." }],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Australian summer opens, the cycling year begins",
+    "quotes": [],
+    "body": "Tour Down Under is the calendar's curtain-raiser. Vine's overall lined up exactly with UAE's plan; the kangaroo crash will be the week's only viral moment outside the GC bubble; Brennan's young rider lead set up a season worth tracking."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Vine wins Tour Down Under 2026", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-down-under/2026", "publication": "ProCyclingStats", "title": "Tour Down Under 2026 GC", "lang": "en" }
+  ]
+}

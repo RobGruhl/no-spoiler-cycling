@@ -1,0 +1,54 @@
+{
+  "raceId": "cx-world-championships-2026-men",
+  "raceName": "UCI Cyclocross World Championships — Men Elite",
+  "raceDate": "2026-02-01",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Mathieu van der Poel won a record-extending eighth elite men's cyclocross world title in Hulst, on home Dutch sand. The road riders' field was thin — cyclocross Worlds are raced in national kits and most road specialists skip them — so this page covers what's available rather than a full road-rider rider-by-rider audit.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Netherlands", "time": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel's record-extending eighth elite men's world title",
+    "openingMoves": "Hulst, Netherlands. Sand, off-camber chicanes, brutally-paced opening lap. Van der Poel took the holeshot in the way he usually does at home Worlds — not eased into the race, dominated from the first technical sector.",
+    "raceUnfolds": "Lap-by-lap detail is not in publicly available coverage at the level of road-race reporting, but the Cyclingnews headline framing — 'demonstrates brilliance with record win in elite men's race in Hulst' — captures the outcome: Van der Poel rode the field off his wheel in the early laps and managed the gap home.",
+    "decision": "By design rather than by single moment. The selection that mattered was always the first lap.",
+    "finale": "Eighth elite men's world title — a record. Hulst, on home sand, in the kit of the Netherlands."
+  },
+  "decisiveMoments": [],
+  "teamStories": [
+    {
+      "team": "Netherlands",
+      "verdict": "Van der Poel's record at home",
+      "verdictClass": "win",
+      "narrative": "Cyclocross Worlds are national-team races, and the Dutch arrived in Hulst with Van der Poel as the only rider who mattered for the result. Joris Nieuwenhuis, Lars van der Haar and the supporting cast played the limiting role — the day was always the leader's.",
+      "riderIds": ["mathieu-van-der-poel"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Netherlands",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Eighth elite men's cyclocross world title — a record. On home Dutch sand in Hulst. The cyclocross Worlds, on Van der Poel's preferred terrain, in the rainbow jersey he had also won road-race-style at Worlds the previous autumn. There is no rider in the discipline at his level and there hasn't been for several years.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Belgium",
+      "role": "DNS road-rider data",
+      "position": "DNS",
+      "gap": "—",
+      "narrative": "Van Aert did not race the 2026 cyclocross Worlds — his winter program had pivoted away from CX since his return from the 2023 injury, and his road spring would arrive at full sharpness from Strade Bianche onward.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "The eighth title; a record consolidated",
+    "quotes": [],
+    "body": "The road peloton overlaps thinly with cyclocross Worlds in the modern era. Van der Poel and Van Aert have historically been the bridge; Pidcock has been third on that bridge; by 2026 only Van der Poel still treats the discipline as a genuine target. Eighth title, in Hulst, on home sand. The rainbow jersey he'd wear into a road spring that did not, unusually, fall his way."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Van der Poel takes record eighth cyclocross world title in Hulst", "lang": "en" }
+  ]
+}

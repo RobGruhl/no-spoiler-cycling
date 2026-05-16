@@ -1,0 +1,100 @@
+{
+  "raceId": "liege-bastogne-liege-2026",
+  "raceName": "Liège-Bastogne-Liège",
+  "raceDate": "2026-04-26",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Pogačar took his third Liège-Bastogne-Liège with a now-canonical Côte de la Redoute attack and rode the last 34 km essentially alone. The story behind him was Paul Seixas — the 19-year-old Decathlon climber who'd been the spring's most-watched outsider — taking second clear, ahead of Evenepoel and a comeback Egan Bernal in fifth. Verstrynge's fourth was the unexpected cyclocross-to-Ardennes pivot of the year.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "5h 50m 28s" },
+    { "position": 2, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "+0:45" },
+    { "position": 3, "riderId": null, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:42" },
+    { "position": 4, "riderId": null, "name": "Emiel Verstrynge", "team": "Alpecin-Premier Tech", "gap": "+1:48" },
+    { "position": 5, "riderId": null, "name": "Egan Bernal", "team": "INEOS Grenadiers", "gap": "+1:50" }
+  ],
+  "narrative": {
+    "headline": "Pogačar's third Liège; Seixas's coronation in the rain",
+    "openingMoves": "Evenepoel was in a 54-rider breakaway from inside the opening 5 km and would lead 140 km of the race — a deliberate piece of front-loading from Red Bull-Bora to remove their leader from peloton chase responsibility. The bunch let it run; nothing in there had a chance against Pogačar on the climbs, and the day was still 200 km long.",
+    "raceUnfolds": "The Ardennes sequence after Bastogne thinned the favourites in the predictable order: Stockeu, Wanne, Haute-Levée, Rosier. By the time the race hit the Côte de Desnié in the closing 40 km, the front group was down to fewer than thirty. UAE controlled the tempo without Pogačar contributing pulls; Decathlon kept Seixas covered; the chase had absorbed Evenepoel's breakaway, and Red Bull-Bora was now playing the protected card.",
+    "decision": "The Côte de la Redoute, 34 km to go, the canonical Pogačar launchpad. Cyclingnews described it as 'his lethal Redoute acceleration.' Cosnefroy was on the front when it came and dropped Evenepoel one ramp before the attack landed. Only Seixas could follow the initial surge. Pogačar then went again on the Roche-aux-Faucons and Seixas, alone in his fifth season as a professional, could not match the second move.",
+    "finale": "Pogačar rode the last 25 km solo; Seixas held an admirable 45-second deficit alone in second; Evenepoel, Verstrynge and Bernal contested third from a chase group 1:42 back. For Pogačar: a third Liège. For Seixas: the spring's outsider story crystallised into a Monument podium at nineteen. For Bernal: the comeback year continues."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 35, "location": "Côte de la Redoute", "headline": "Pogačar's lethal Redoute attack", "description": "The exact climb, the exact location, the exact attack he has used at Liège twice before. Only Seixas could follow. Evenepoel had been dropped on the previous ramp; the favourites' group exploded behind." },
+    { "kmFromFinish": 18, "location": "Côte de la Roche-aux-Faucons", "headline": "Seixas dropped on second acceleration", "description": "Pogačar's second move — same as 2024, same place — finally broke Seixas. Solo from there to Liège. Seixas held alone to the line, a textbook young-climber salvage." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Third Liège; the spring closes 3 from 5 Monuments",
+      "verdictClass": "win",
+      "narrative": "UAE's Ardennes plan is one of the simplest in cycling: protect Pogačar to the Redoute, set him up to attack at exactly the right ramp, watch him ride alone to Liège. Adam Yates and Almeida did the pacework on the central Stockeu-Wanne sequence; the closing 40 km were Pogačar's to time. Three from five Monuments this calendar year (Sanremo, Flanders, Liège), with Roubaix lost to Van Aert and Lombardia still to come.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "The Seixas year, in capital letters",
+      "verdictClass": "win",
+      "narrative": "Decathlon arrived with a 19-year-old French climber whose outsider tag has been getting harder to justify each week. Strade Bianche second to Pogačar. Now Liège second to Pogačar. Cosnefroy did the most-aware front-of-race tempo work in the closing 50 km, dropping Evenepoel before Pogačar's Redoute move and protecting Seixas's position. For Decathlon, this is no longer development. This is leadership.",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Evenepoel led 140 km, podium at home in Liège",
+      "verdictClass": "neutral",
+      "narrative": "Red Bull-Bora chose the long-range tactic — Evenepoel in the early break, leading 140 km, removing the team's chase obligation for two-thirds of the race. The downside arrived when Cosnefroy dropped him before Pogačar's attack, leaving him 1:42 back. Third place in his first Liège in Red Bull kit; the team's Ardennes block ends here, the GC programme starts next.",
+      "riderIds": []
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Bernal in the top five — the comeback measured in podium proximity",
+      "verdictClass": "neutral",
+      "narrative": "Egan Bernal, five years past the crash that almost ended his career, finished fifth at Liège-Bastogne-Liège. Survived the closing climbs in the Evenepoel group, didn't have the legs to contest the podium sprint. The week's most under-reported result.",
+      "riderIds": []
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Verstrynge — a cyclocrosser at the front of an Ardennes Monument",
+      "verdictClass": "neutral",
+      "narrative": "Emiel Verstrynge, a cyclocross specialist on Alpecin's roster, finished fourth at Liège. The day's strangest line on a result sheet, and one of the spring's quiet validations of what the new Alpecin programme is for. Did not contest the podium sprint; held position in the Evenepoel group.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "5h 50m 28s",
+      "narrative": "Third Liège. Same climb, same attack, same response from the field. After Sanremo and Flanders, Pogačar's spring was looking at four-Monument completion until Roubaix two weeks earlier ended that bid. Liège puts him at three Monuments in 2026.",
+      "keyMoments": [
+        { "km": 35, "what": "Attacked on Côte de la Redoute — only Seixas followed" },
+        { "km": 18, "what": "Second acceleration on Roche-aux-Faucons dropped Seixas" },
+        { "km": 0, "what": "Solo into Liège, 45 seconds ahead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 2, "gap": "+0:45",
+      "narrative": "The 19-year-old French climber who's been the outsider of every preview now has Monument podiums at Strade Bianche AND Liège, both second to Pogačar. Followed the Redoute acceleration cleanly; couldn't match the second move on Roche-aux-Faucons but held a 45-second deficit alone to the line. This isn't development any more.",
+      "keyMoments": [
+        { "km": 35, "what": "Only rider to follow Pogačar on Redoute" },
+        { "km": 18, "what": "Dropped on second acceleration; held alone to Liège" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Three Monuments to Pogačar; one outsider story to Seixas",
+    "quotes": [
+      { "speaker": "Cyclingnews (Sean Kelly column)", "text": "Pogačar's lethal Redoute acceleration left only Seixas with him, and even Seixas couldn't last the second move.", "context": "Tactical column", "source": "Cyclingnews" }
+    ],
+    "body": "Pogačar leaves the spring with three Monuments — Sanremo, Flanders, Liège — Van Aert with Roubaix, and Van der Poel with the unusual experience of a spring that didn't bend his way. Seixas leaves with the second-most-talked-about result of the season behind Van Aert's Roubaix: a 19-year-old with two Monument podiums and a Tour debut still to come. Decathlon's leadership question for the next five years just answered itself."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Pogačar wins Liège with Redoute attack", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Liège-Bastogne-Liège 2026", "lang": "en" },
+    { "url": "https://www.rouleur.cc/", "publication": "Rouleur", "title": "Seixas — the outsider becomes a contender", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/liege-bastogne-liege/2026/result", "publication": "ProCyclingStats", "title": "LBL 2026 result", "lang": "en" },
+    { "url": "https://www.lequipe.fr/", "publication": "L'Équipe", "title": "Liège-Bastogne-Liège — Pogačar et Seixas", "lang": "fr" }
+  ]
+}

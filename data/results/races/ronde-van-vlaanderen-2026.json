@@ -1,0 +1,136 @@
+{
+  "raceId": "ronde-van-vlaanderen-2026",
+  "raceName": "Ronde van Vlaanderen / Tour of Flanders",
+  "raceDate": "2026-04-05",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Pogačar attacked on the Oude Kwaremont and rode solo to a repeat Ronde win, dropping Van der Poel on the climb where he's most often the rider doing the dropping. Evenepoel salvaged a third place from Red Bull-Bora-Hansgrohe; Van Aert and Pedersen rounded out the top five. The spring's tactical pattern — Pogačar attacks on the canonical climb, only one or two riders can follow, nobody can come back — held again.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "6h 20m 07s" },
+    { "position": 2, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "gap": "+0:34" },
+    { "position": 3, "riderId": null, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:10" },
+    { "position": 4, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "+1:15" },
+    { "position": 5, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek", "gap": "+1:15" }
+  ],
+  "narrative": {
+    "headline": "Pogačar attacks on the Kwaremont, Van der Poel can't follow",
+    "openingMoves": "From Antwerp, 270 km of cobbles and bergs to Oudenaarde, dry and fast. Pogačar arrived as defending champion and the spring's form rider; Van der Poel arrived as the man who has won the Ronde four times. UAE rode controlled, Alpecin did the same, neither team pressing into the first two hours.",
+    "raceUnfolds": "The race did not change shape until the closing 50 km. Through the Koppenberg, Oude Kruisberg, and the second Kwaremont passage, the favourites' group narrowed but the move never went — Pogačar marked, Van der Poel marked, Evenepoel sheltering, Van Aert and Pedersen in attendance. UAE's positioning into each climb was perfect; Alpecin's protection of Van der Poel kept pace.",
+    "decision": "On the final Oude Kwaremont — the climb where the Ronde was decided in 2023, 2024 and 2025 — Pogačar attacked. Van der Poel, the rider whose entire Flanders record is built on holding or surpassing such moves, could not. The gap opened on the cobbles and never closed. The Paterberg, the run-in, the final flats — Pogačar rode alone.",
+    "finale": "Van der Poel salvaged 34 seconds of damage and second place — under the circumstances, the best ride of any pursuer this spring. Evenepoel chased home for the podium from the next group, Van Aert and Pedersen splitting fourth and fifth in the bunch behind."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 17, "location": "Oude Kwaremont (final passage)", "headline": "Pogačar attacks, Van der Poel can't follow", "description": "Sprinting on the lower cobbles, full commitment from the first ramps. Van der Poel matched the first acceleration, then opened a gap of bike-lengths he could not pull back. The race was over there." },
+    { "kmFromFinish": 13, "location": "Paterberg", "headline": "No response", "description": "By the time the field hit the Paterberg, Pogačar already had a margin Van der Poel could see but not threaten. Alpecin's plan to bring it back on the run-in never materialised." },
+    { "kmFromFinish": 0, "location": "Oudenaarde", "headline": "Pogačar solo, Van der Poel salvages", "description": "Pogačar arrived solo. Van der Poel, who had never finished outside the top three in his five Flanders starts, took second at 34 seconds. Behind, Evenepoel went solo from the chase group to take third clear." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Defended the Ronde with a single rider, won it the same way",
+      "verdictClass": "win",
+      "narrative": "UAE's plan for the Ronde was minimal because Pogačar was the plan. Almeida, McNulty, Vine, Narváez and Adam Yates ran tempo control through the first half of the bergs; once the favourites' group resolved into the final 50 km, the team's job was positioning, not pace-making. Pogačar made the rest of it simple by attacking earlier than anyone expected on the Kwaremont. Defending Ronde champion makes it back-to-back.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Van der Poel cracked on his own climb",
+      "verdictClass": "loss",
+      "narrative": "Alpecin rode the perfect Van der Poel race — sheltered through the first six bergs, brought to the front clean for the final Kwaremont with multiple lieutenants — and watched their leader fail to follow the wheel that mattered. There is no tactical critique here. Van der Poel was, on the day, second-best on a climb where he has historically been first.",
+      "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Fourth and fifth, but never in the move",
+      "verdictClass": "neutral",
+      "narrative": "Visma's Flanders plan has always assumed Van Aert can survive into the front group on the Kwaremont. He did, then could not match the acceleration that ended the race. Jorgenson and Strand Hagenes kept him in position; Brennan was the day's most visible support. Van Aert's fourth-place sprint from the bunch was the maximum return from his position. The team's bigger Monument bet, two weeks later, would land Roubaix.",
+      "riderIds": ["wout-van-aert", "matteo-jorgenson", "matthew-brennan"]
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Top five, no move",
+      "verdictClass": "neutral",
+      "narrative": "Pedersen reached the closing kilometres with the right group and the wrong legs to follow Pogačar; fifth in the bunch sprint behind Van Aert was a clean ride without a result. Milan, the team's sprint backup, never had a bunch sprint to contest.",
+      "riderIds": ["mads-pedersen", "jonathan-milan"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Evenepoel takes his first Ronde podium",
+      "verdictClass": "neutral",
+      "narrative": "Evenepoel rode his first Tour of Flanders as Red Bull-Bora's Classics leader and went off the front of the chase group on the run-in to take third clear of Van Aert and Pedersen. A debut podium in the Ronde; the message that the move from Soudal hasn't blunted the one-day form. He told the post-race Flemish press: 'A podium in my first Ronde is something I can be satisfied with, but there is still work to do to win this race.'",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "6h 20m 07s",
+      "narrative": "Won the Ronde for the second consecutive year, solo, with a single attack on the final Oude Kwaremont. Van der Poel — the one rider on the planet most likely to follow — could not. After the line: 'When Mathieu accelerated, I followed, and later I went myself.'",
+      "keyMoments": [
+        { "km": 17, "what": "Attacked on final Oude Kwaremont, dropped Van der Poel" },
+        { "km": 13, "what": "Held the gap solo over the Paterberg" },
+        { "km": 0, "what": "Solo into Oudenaarde, 34 seconds ahead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 2, "gap": "+0:34",
+      "narrative": "The four-time Ronde winner could not follow Pogačar on the Kwaremont — the climb where he has historically been the man doing the dropping. Did what he could to limit the damage from there. Said post-race: 'I did what I could. Tadej was simply better in the finale.'",
+      "keyMoments": [
+        { "km": 17, "what": "Followed initial acceleration, then opened a gap he could not close" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 4, "gap": "+1:15",
+      "narrative": "In attendance through the Kwaremont but not at the front of the favourites' group when Pogačar went. Sprinted to fourth from the chase, dispatching Pedersen with the kind of clean kick that two weeks later would win him Roubaix.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek",
+      "role": "leader", "position": 5, "gap": "+1:15",
+      "narrative": "Made the final selection but had nothing more to give on the Kwaremont. Fifth in the bunch sprint behind Van Aert.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "in chase group",
+      "narrative": "Visma's most visible support through the central bergs, helping position Van Aert. Did not make the final selection. Headed for the Ardennes block two weeks later.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "outside top 20",
+      "narrative": "Burned earlier in the race shepherding Van Aert through the dangerous early bergs. Same pattern as Roubaix two weeks later — Brennan as the dedicated young lead-out for Van Aert's biggest day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
+      "role": "lieutenant", "position": null, "gap": "outside selection",
+      "narrative": "Alpecin's sprint plan B; never had a bunch sprint to contest with the leaders going clear early.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Two Monuments in two weeks, both to Pogačar",
+    "quotes": [
+      { "speaker": "Tadej Pogačar", "text": "I was really feeling strong today. The team did an excellent job and I could focus on the key moments. When Mathieu accelerated, I followed, and later I went myself.", "context": "Post-race", "source": "Wielerflits" },
+      { "speaker": "Mathieu van der Poel", "text": "I did what I could. Tadej was simply better in the finale.", "context": "On being dropped on the Kwaremont", "source": "Wielerflits" },
+      { "speaker": "Remco Evenepoel", "text": "A podium in my first Ronde van Vlaanderen is something I can be satisfied with, but there is still work to do to win this race.", "context": "On his first Ronde at Red Bull-Bora-Hansgrohe", "source": "Wielerflits" }
+    ],
+    "body": "The spring's tactical pattern: Pogačar attacks on the canonical climb, only one rider can follow, that rider can't sustain it. Van der Poel ended his attempt at a fifth Ronde with second place; he had not finished outside the top three in five Flanders starts. The Roubaix bid two weeks later would be the one that finally turned against Pogačar, but here on the bergs UAE remained untouchable."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Pogačar wins Tour of Flanders 2026 with Oude Kwaremont attack", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/ronde-van-vlaanderen/2026/result", "publication": "ProCyclingStats", "title": "Ronde van Vlaanderen 2026 result", "lang": "en" },
+    { "url": "https://www.wielerflits.nl/", "publication": "Wielerflits", "title": "Ronde van Vlaanderen 2026 reacties en duiding", "lang": "nl" },
+    { "url": "https://www.sporza.be/", "publication": "Sporza", "title": "Ronde van Vlaanderen 2026", "lang": "nl" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "raceId": "cadel-evans-great-ocean-road-race-2026",
+  "raceName": "Cadel Evans Great Ocean Road Race",
+  "raceDate": "2026-02-01",
+  "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Tobias Lund Andresen out-sprinted Matthew Brennan for the win on the Geelong circuit, with Australian rider Brady Gilmore third. Brennan's second on home Aussie soil was an early-season validation of Visma's young Classics prospect well before his Arenberg lead-out for Van Aert two months later.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team", "time": "n/a" },
+    { "position": 2, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike", "gap": "n/a" },
+    { "position": 3, "riderId": null, "name": "Brady Gilmore", "team": "Australian Cycling Team", "gap": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Lund Andresen wins, Brennan second on home Aussie soil",
+    "openingMoves": "Geelong circuit, the traditional WorldTour day after Tour Down Under finishes. A reduced-bunch sprint result was always the most likely scenario; the climbing inland off the coast is enough to thin the pure sprinters but not enough to gap the puncheur-sprinters.",
+    "raceUnfolds": "Standard Geelong development — early break, controlled chase, reduced bunch into the finishing circuit.",
+    "decision": "Came down to a sprint that the Decathlon-Brennan-Gilmore order resolved cleanly.",
+    "finale": "Lund Andresen's spring 2026 starts to take shape here; he'd repeat on the Gent-Wevelgem podium in March. Brennan's second was the first early-season pointer that Visma's developmental plan around him was on schedule."
+  },
+  "decisiveMoments": [],
+  "teamStories": [
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Lund Andresen the early-season find",
+      "verdictClass": "win",
+      "narrative": "Decathlon's signing of Lund Andresen had been one of the quieter off-season moves; his early-season pace makes it look louder in retrospect.",
+      "riderIds": []
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Brennan's first big result of the year",
+      "verdictClass": "neutral",
+      "narrative": "Brennan, billed as Visma's emerging Classics leader, took second on home Aussie soil — a clean early-season validation that ran through to his Arenberg lead-out for Van Aert at Roubaix.",
+      "riderIds": ["matthew-brennan"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 2, "gap": "n/a",
+      "narrative": "Second on the Geelong circuit, behind Lund Andresen in a reduced-bunch sprint. The first major early-season pointer for the Visma development plan that would land him as Van Aert's Arenberg lead-out two months later at Roubaix.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Australian summer closes",
+    "quotes": [],
+    "body": "Cadel Evans Race is always the final WorldTour day of the Aussie summer. Lund Andresen and Brennan leaving Geelong as 1-2 was a useful weighting of two of the season's emerging finishers."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Cadel Evans Great Ocean Road Race 2026 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/cadel-evans-great-ocean-road-race/2026/result", "publication": "ProCyclingStats", "title": "Cadel Evans GORR 2026 result", "lang": "en" }
+  ]
+}
