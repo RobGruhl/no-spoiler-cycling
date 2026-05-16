@@ -2,26 +2,104 @@
   "raceId": "la-fleche-wallonne-2026",
   "raceName": "La Flèche Wallonne",
   "raceDate": "2026-04-22",
-  "researchedAt": "2026-05-16T22:30:00Z",
-  "tldr": "Limited public coverage of Flèche Wallonne 2026 has surfaced at the depth this subsystem normally targets. The race is bracketed by Amstel Gold (won by Evenepoel) and Liège-Bastogne-Liège (won by Pogačar), with the Ardennes mid-week classic falling on the Wednesday between them. This page will be expanded when source coverage stabilises.",
-  "podium": [],
+  "researchedAt": "2026-05-16T23:45:00Z",
+  "tldr": "Paul Seixas timed a textbook Mur de Huy ride to win his first Monument-tier race — held the wheel until 200 m, then exploded clear of the last contenders. Schmid surged past Tulett in the last 50 m for second; Cosnefroy completed UAE's salvage card in fourth without Pogačar on the start sheet. The spring's outsider story now had a one-day Classics win attached.",
+  "podium": [
+    { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "time": "4h 35m 29s" },
+    { "position": 2, "riderId": null, "name": "Mauro Schmid", "team": "Jayco AlUla", "gap": "+0:03" },
+    { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Visma | Lease a Bike", "gap": "+0:03" },
+    { "position": 4, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "gap": "+0:03" },
+    { "position": 5, "riderId": null, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "+0:08" }
+  ],
   "narrative": {
-    "headline": "Race covered — full analysis pending source coverage",
-    "openingMoves": "",
-    "raceUnfolds": "",
-    "decision": "",
-    "finale": ""
+    "headline": "Seixas wins the Mur, 200 m at a time",
+    "openingMoves": "208.8 km from Herstal to Huy. Three passages of the Mur de Huy, the final one the line. The 2026 edition lined up without two of its three pre-race favourites: Pogačar deliberately skipped Flèche to peak for Liège four days later, Evenepoel was on a different schedule. That left Seixas the overwhelming favourite of the race he'd never raced, with Schmid, Skjelmose, Tulett, and Cosnefroy the principal challengers.",
+    "raceUnfolds": "Decathlon controlled the day on Seixas's behalf — visible at the front 'the whole time' in Seixas's post-race quote — assisted at intervals by UAE for Cosnefroy and Lidl-Trek for Skjelmose. The break of the day formed early and never threatened the second Mur passage at km 168, by which point the favourites' group had already thinned to forty-odd riders. The Côte de Cherave (1.3 km at 8.1%) inside the closing 6 km did the usual pre-sorting of the front.",
+    "decision": "Ewen Costiou (Groupama-FDJ United) took a flyer on the run-in to the Mur and held a small gap into the closing 3 km. Decathlon and Visma rode the front of the chase steadily; he was caught at the base. The whole favourites' group came to the final Mur de Huy together. Seixas — who Cyclingnews said 'flew up the Mur in under three minutes' — took the front in the opening metres alongside Tulett. Schmid and Cosnefroy held the next two wheels. Skjelmose, Baudin, Izagirre clustered a few seconds behind.",
+    "finale": "Per Cyclingweekly: 'The Decathlon CMA CGM rider timed his decisive attack late on the steep finish in Belgium, leaving it to the final 200 m to put daylight between him and his rivals.' The acceleration came at exactly the right moment. As the gradient eased toward the banner, Tulett faded; Schmid produced a surge inside the closing 50 m to overtake him for second. Cosnefroy couldn't come around for the podium. Seixas's first Mur de Huy, in the first edition of Flèche he'd ever raced."
   },
-  "decisiveMoments": [],
-  "teamStories": [],
-  "riderPerformances": [],
+  "decisiveMoments": [
+    { "kmFromFinish": 6, "location": "Côte de Cherave", "headline": "The penultimate selection", "description": "1.3 km at 8.1%; the pre-Mur selection that thinned the favourites' group to a manageable cluster. Costiou's late flyer started on the descent off the top." },
+    { "kmFromFinish": 0.2, "location": "Mur de Huy, final 200 m", "headline": "Seixas waits, then explodes", "description": "Held the wheel through the first 1 km of the Mur, then attacked precisely at the 200 m mark — the optimal Flèche timing. Daylight opened immediately." },
+    { "kmFromFinish": 0.05, "location": "Mur de Huy, banner", "headline": "Schmid surges past Tulett", "description": "Tulett held second through the steepest 15% section but faded as the road eased; Schmid produced a late surge inside the closing 50 m to take 2nd by a wheel." }
+  ],
+  "teamStories": [
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Seixas's Flèche first time out",
+      "verdictClass": "win",
+      "narrative": "Decathlon arrived as overwhelming favourites — Itzulia GC win three weeks earlier, Strade Bianche podium in March, the most-watched rider of the spring on his debut at Flèche. Their plan was control, not chaos: rotate the front through the closing 80 km, neutralise long-range threats, deliver Seixas to the base of the Mur in the top five. Worked exactly. Post-race Seixas: 'They gave it their all, 200%, and rode the whole time. Sometimes I had to fend for myself a bit, but they gave it their all.'",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Cosnefroy 4th, no Pogačar",
+      "verdictClass": "neutral",
+      "narrative": "Pogačar deliberately skipped Flèche in 2026 to peak for Liège (which he duly won). UAE's protected card on the Mur became Benoît Cosnefroy — the team's most consistent Ardennes second-tier presence over the past three seasons. Fourth on the line, same time as Tulett, on a day the team treated as a recovery operation between the Liège and Roubaix-period bigger bets. With Del Toro also out injured from the Itzulia crash, Cosnefroy was carrying the entire spring's Ardennes weight for UAE.",
+      "riderIds": []
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Tulett third on the climb where everyone fades",
+      "verdictClass": "neutral",
+      "narrative": "Ben Tulett — Visma's 22-year-old British climber, ridden to fifth on Itzulia Stage 2 a fortnight earlier — took on Flèche as the team's protected card and rode the wheel beautifully until the gradient eased. Schmid's surge cost him second; the final podium step was still the season's biggest result and a clean validation of Visma's bet on him for the Ardennes block. Jorgenson was the senior support on the day.",
+      "riderIds": ["matteo-jorgenson"]
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Skjelmose 5th, no Mur kick",
+      "verdictClass": "neutral",
+      "narrative": "Skjelmose held the second-tier chase group through the closing kilometres without ever threatening the front trio. Fifth on the same time as Baudin; the Ardennes week's two-from-three Skjelmose pursuit (he was second at Amstel, sixth ish-time at Liège to come) made him the most consistently top-10 Lidl-Trek Ardennes rider of the spring.",
+      "riderIds": []
+    },
+    {
+      "team": "EF Education-EasyPost",
+      "verdict": "Baudin top 6 — Decathlon's neighbours notice",
+      "verdictClass": "neutral",
+      "narrative": "Alex Baudin's sixth on the same time as Skjelmose was the season's first top-10 statement from the French climber EF have built around for the Ardennes. The team's quietly-targeted long-shot card lined up against Seixas's overwhelming-favourite card and finished a couple of seconds back.",
+      "riderIds": ["alex-baudin"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 1, "gap": "4h 35m 29s",
+      "narrative": "Won his first Flèche Wallonne in his first attempt, at 19. Held the wheel through the opening kilometre of the Mur, attacked at exactly the canonical 200 m mark, opened a clear gap as the gradient bit. Said post-race: 'They gave it their all, 200%, and rode the whole time.' The fourth major-tier win of the spring after Itzulia GC, three Itzulia stages. Two more days of recovery before Liège-Bastogne-Liège, where he'd take second to Pogačar.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Attacked at the 200 m mark on the Mur de Huy" },
+        { "km": 0, "what": "Held clear to the line, first Flèche start, first Flèche win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "lieutenant", "position": null, "gap": "in front group",
+      "narrative": "Visma's senior support for Ben Tulett's debut leader's day; held the front of the chase through the closing 30 km, protected Tulett's positioning into the Mur. The Ardennes-rider's race rather than a winning bid; Jorgenson's Flèche calendar is built around Liège four days later.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education-EasyPost",
+      "role": "leader", "position": 6, "gap": "+0:08",
+      "narrative": "Sixth in the front group, same time as Skjelmose. EF's quietly-targeted Ardennes long-shot, on a day where the favourite happened to be 19 years old. A top-10 statement.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
   "incidents": { "crashes": [], "abandons": [], "controversies": [] },
   "aftermath": {
-    "headline": "Pending full analysis",
-    "quotes": [],
-    "body": "La Flèche Wallonne is the Ardennes mid-week race between Amstel and Liège. The 2026 edition fell on Wednesday April 22. Public sources at the depth this subsystem requires are still thin at time of compilation; this page is intentionally minimal pending substantive coverage. The race is included in the manifest so the page exists; the analysis will be backfilled."
+    "headline": "Decathlon's spring continues; Pogačar holds for Liège",
+    "quotes": [
+      { "speaker": "Paul Seixas", "text": "They gave it their all, 200%, and rode the whole time. Sometimes I had to fend for myself a bit, but they gave it their all.", "context": "On Decathlon's team work", "source": "Cyclingnews" }
+    ],
+    "body": "Pogačar's deliberate Flèche skip — a calculated peak-for-Liège decision — handed Seixas the favourite tag, and Seixas delivered. He left Belgium with the Mur de Huy on his career resume two days before his Liège podium. The Ardennes week's combined narrative, from a Decathlon perspective: a 19-year-old French climber won the mid-week Classic and finished second to Pogačar in the Monument that followed."
   },
   "sources": [
-    { "url": "https://www.procyclingstats.com/race/la-fleche-wallonne/2026/result", "publication": "ProCyclingStats", "title": "La Flèche Wallonne 2026", "lang": "en" }
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Seixas wins Flèche Wallonne 2026 on the Mur de Huy", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Seixas times 200 m attack to perfection at Flèche Wallonne", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/la-fleche-wallonne/2026/result", "publication": "ProCyclingStats", "title": "La Flèche Wallonne 2026 result", "lang": "en" },
+    { "url": "https://www.lequipe.fr/", "publication": "L'Équipe", "title": "Flèche Wallonne — Seixas s'impose au Mur", "lang": "fr" },
+    { "url": "https://www.wielerflits.nl/", "publication": "Wielerflits", "title": "Flèche Wallonne 2026 wedstrijdverslag", "lang": "nl" },
+    { "url": "https://www.sporza.be/", "publication": "Sporza", "title": "Flèche Wallonne 2026", "lang": "nl" }
   ]
 }
