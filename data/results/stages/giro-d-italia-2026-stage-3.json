@@ -1,0 +1,22 @@
+{
+  "raceId": "giro-d-italia-2026", "stageNumber": 3, "stageName": "Plovdiv → Sofia", "stageDate": "2026-05-10", "stageType": "flat", "researchedAt": "2026-05-17T00:00:00Z",
+  "tldr": "Paul Magnier doubled up with his second Giro sprint win in three days, beating Jonathan Milan and Dylan Groenewegen in Sofia to close the Bulgarian Grande Partenza. The lone cat-2 climb (Borovets Pass) was never going to disturb the sprinter scenario; Magnier kept the pink jersey for the rest day transfer to Italy.",
+  "podium": [
+    { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "time": "stage winner" },
+    { "position": 2, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek", "gap": "s.t." },
+    { "position": 3, "name": "Dylan Groenewegen", "team": "Jayco AlUla", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Magnier's second win, second pink", "body": "175 km from Plovdiv to Sofia. Flat opening, one cat-2 climb (Borovets Pass, 9.2 km at 5.3%), descent and run-in to Sofia. The break formed early and was caught with kilometres to spare; the GC contenders stayed safe in the front of the bunch through to the sprint." },
+  "gcImpact": { "headline": "Magnier keeps pink", "body": "Bonus seconds on the stage win and intermediate sprint keep Soudal's young sprinter in pink across the rest day transfer to Italy." },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek",
+      "role": "sprinter", "position": 2, "gap": "s.t.",
+      "narrative": "Second on the Sofia sprint. Magnier's lead-out was cleaner; Milan's Lidl-Trek train still working through early-Giro chemistry.",
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Magnier wins Giro Stage 3 sprint", "lang": "en" }]
+}

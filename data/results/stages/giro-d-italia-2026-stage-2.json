@@ -1,0 +1,33 @@
+{
+  "raceId": "giro-d-italia-2026", "stageNumber": 2, "stageName": "Burgas → Veliko Tarnovo", "stageDate": "2026-05-09", "stageType": "hilly", "researchedAt": "2026-05-17T00:00:00Z",
+  "tldr": "A mass crash on the rain-soaked descent into Veliko Tarnovo with ~21-23 km to go took out four UAE riders (Vine, Soler, Adam Yates, Baroncini), defining the day's narrative beyond the stage result itself. Guillermo Thomas Silva (XDS Astana) won the reduced front group sprint, with Giulio Pellizzari fifth — the spring's emerging Italian climber featuring on a hilly stage where the GC favourites all stayed safe.",
+  "podium": [
+    { "position": 1, "name": "Guillermo Thomas Silva", "team": "XDS Astana", "time": "5h 39m 25s" },
+    { "position": 2, "name": "Florian Stork", "team": "Tudor Pro Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Giulio Ciccone", "team": "Lidl-Trek", "gap": "s.t." },
+    { "position": 4, "name": "Christian Scaroni", "team": "XDS Astana", "gap": "s.t." },
+    { "position": 5, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "UAE's day from hell, Silva takes the stage", "body": "221 km Burgas to Veliko Tarnovo. Flat opening 100 km, then two punchy climbing loops. The decisive event of the day arrived on the rain-soaked descent into Veliko Tarnovo with ~21-23 km to go: a mass pile-up that took out four UAE Team Emirates-XRG riders simultaneously — Jay Vine (broken elbow + concussion, immediately withdrawn), Marc Soler (fractured pelvis), Adam Yates (heavy abrasions, head laceration, delayed concussive symptoms diagnosed next morning), Baroncini (joined the injury list shortly after).\n\nAt the front, the climbing thinned the bunch to a small group; Silva took the reduced sprint from Stork and Ciccone, with Pellizzari completing the top five." },
+  "gcImpact": { "headline": "UAE GC plan in ruins", "body": "The pre-race UAE GC plan dissolved on a single descent. With Vine, Soler, Yates, and Baroncini all out within hours, UAE's Giro became a stage-hunting operation rather than a GC bid. Narváez would deliver a stage win two days later on Stage 4." },
+  "riderPerformances": [
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 5, "gap": "s.t.",
+      "narrative": "Fifth on the reduced sprint — the Italian's first Giro top-5 on home roads, building on the Tirreno top-five GC from March. Red Bull-Bora's GC plan around him already looked like it had room to grow.",
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [{ "km": 22, "description": "Mass crash on rain-soaked descent into Veliko Tarnovo, ~21-23 km to go. UAE Team Emirates-XRG was 'the worst affected,' with four riders down at once." }],
+    "abandons": [
+      { "riderId": "jay-vine", "reason": "Broken elbow + concussion (UAE) — immediately withdrawn" },
+      { "riderId": null, "reason": "Marc Soler (UAE) — fractured pelvis, withdrawn" },
+      { "riderId": null, "reason": "Filippo Baroncini (UAE) — injury joined list shortly after" }
+    ]
+  },
+  "quotes": [
+    { "speaker": "Dr. Adrian Rotunno (UAE medical director)", "text": "Adam Yates suffered heavy abrasions and a laceration to his left ear. He was initially assessed on-site for concussion and cleared to continue, but subsequently has shown delayed concussive symptoms. He will not take the start of stage 3 today.", "context": "Morning after Stage 2 crash", "source": "Cyclingnews" }
+  ],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Giro Stage 2 mass crash takes out four UAE riders", "lang": "en" }]
+}

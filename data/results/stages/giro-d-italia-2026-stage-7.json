@@ -1,0 +1,28 @@
+{
+  "raceId": "giro-d-italia-2026", "stageNumber": 7, "stageName": "Formia → Blockhaus", "stageDate": "2026-05-15", "stageType": "mountain", "researchedAt": "2026-05-17T00:00:00Z",
+  "tldr": "Jonas Vingegaard took the Giro's first mountain finish — the legendary Blockhaus, 244 km, ~4,500 m climbing — 13 seconds clear of Felix Gall and crushing the rest of the GC field. Pellizzari held fourth at +1:05, the day's most encouraging young-Italian-climber performance. The Giro is now Vingegaard's race to lose.",
+  "podium": [
+    { "position": 1, "name": "Jonas Vingegaard", "team": "Visma | Lease a Bike", "time": "6h 09m 15s" },
+    { "position": 2, "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+0:13" },
+    { "position": 3, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:02" },
+    { "position": 4, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:05" },
+    { "position": 5, "name": "Ben O'Connor", "team": "Jayco AlUla", "gap": "+1:05" }
+  ],
+  "narrative": { "headline": "Vingegaard's Giro claim staked at Blockhaus", "body": "244 km, the longest stage of the Giro. ~4,500 m of climbing, bulk in the second half. Pre-final climbs (Rionero Sannitico, Roccaraso KOM) thinned the bunch through the long middle phase; the GC selection happened on the final 13.6 km Blockhaus climb, with its very steep middle section.\n\nVingegaard rode the kind of solo from the front Paris-Nice Stage 5 had previewed — attack went earlier than the rivals expected, gap opened on the steepest section, never closed. Gall did the best chase but couldn't get inside 13 seconds. Hindley and Pellizzari led the next chase a minute back.\n\nThe career-rebooting Visma GC year now has a Giro stage win + presumed leader's jersey to add to the Paris-Nice overall. Vingegaard's first Grand Tour stage outside of a Tour de France." },
+  "gcImpact": { "headline": "Vingegaard into pink, big margin", "body": "Stage win plus more than a minute on every GC threat except Gall, who's now Vingegaard's principal challenger for the overall." },
+  "riderPerformances": [
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 4, "gap": "+1:05",
+      "narrative": "Fourth at Blockhaus, 1:05 down on Vingegaard. The day Pellizzari's stage-race-credibility cleared from 'top-five at Tirreno' to 'Grand Tour top-five GC capable, on a queen-stage climb, on home Italian roads.' Red Bull-Bora-Hansgrohe's GC plan around him just got its strongest data point yet.",
+      "keyMoments": [{ "km": 0, "what": "4th at Blockhaus summit — first Giro mountain-stage top-5" }],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Vingegaard wins Giro Stage 7 — Blockhaus", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Blockhaus to Vingegaard, Gall 13 seconds back", "lang": "en" }
+  ]
+}
