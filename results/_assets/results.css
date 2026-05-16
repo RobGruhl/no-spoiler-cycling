@@ -679,3 +679,85 @@ body.needs-consent { overflow: hidden; }
   color: var(--ink-3);
   margin: 16px 0;
 }
+
+/* ============================================================================
+   HEALTH STATUS section on rider season pages
+   ============================================================================ */
+
+.rs-health-row { border-bottom: 2px solid var(--signal); }
+.rs-health-row b { color: var(--signal); font-family: var(--font-mono); font-size: 12px; letter-spacing: .14em; font-weight: 700; }
+.rs-health-row b.rs-health-active { color: var(--uci-green); }
+.rs-health-row b.rs-health-recovering { color: var(--uci-yellow); }
+.rs-health-row b.rs-health-ill { color: var(--signal); }
+
+.rs-health {
+  margin: 28px 0 0;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(200, 16, 46, .06), transparent 60%);
+  border: 1px solid var(--signal);
+  border-left: 6px solid var(--signal);
+}
+.rs-health-head { margin-bottom: 14px; }
+.rs-health-head .r-eyebrow { color: var(--signal); }
+.rs-health-head .r-h2 { color: var(--ink); }
+
+.rs-health-summary {
+  font-family: var(--font-sans);
+  font-size: 16.5px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 22px;
+  max-width: 80ch;
+  font-weight: 500;
+}
+
+.rs-health-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  border-top: 1px solid var(--rule-soft);
+}
+.rs-health-event {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.rs-health-date {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .14em;
+  color: var(--signal);
+  font-weight: 600;
+  padding-top: 3px;
+}
+.rs-health-label {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -.005em;
+  margin-bottom: 4px;
+}
+.rs-health-desc {
+  font-family: var(--font-sans);
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 78ch;
+}
+.rs-health-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.rs-health-meta b { color: var(--ink); font-weight: 600; margin-right: 4px; }
+
+@media (max-width: 700px) {
+  .rs-health-event { grid-template-columns: 1fr; gap: 4px; }
+  .rs-health-date { padding-top: 0; }
+}

@@ -142,6 +142,17 @@ function buildSeasonArc(rider, entries) {
   return null;
 }
 
+function loadHealthStatus(rider) {
+  const customPath = path.join(ROOT, 'data/results/riders', `${rider.slug || rider.id}.json`);
+  if (fs.existsSync(customPath)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(customPath, 'utf8'));
+      if (data.healthStatus) return data.healthStatus;
+    } catch {}
+  }
+  return null;
+}
+
 // ============================================================================
 // Render
 // ============================================================================
@@ -152,6 +163,7 @@ function renderRiderPage(riderId) {
   const entries = aggregateForRider(rider.id);
   const stats = computeStats(entries);
   const seasonArc = buildSeasonArc(rider, entries);
+  const healthStatus = loadHealthStatus(rider);
 
   const surname = (rider.name || '').split(' ').filter(p => p === p.toUpperCase()).join(' ');
   const given = (rider.name || '').split(' ').filter(p => p !== p.toUpperCase()).join(' ');
@@ -261,6 +273,7 @@ function renderRiderPage(riderId) {
       </div>
       <aside class="rs-stats">
         <div class="rs-stats-lbl mono">2026 season — what we have so far</div>
+        ${healthStatus ? `<div class="rs-stat-row rs-health-row"><span>Current status</span><b class="rs-health-${healthStatus.current}">${(healthStatus.current || '').toUpperCase()}</b></div>` : ''}
         <div class="rs-stat-row"><span>Races covered</span><b>${stats.races}</b></div>
         <div class="rs-stat-row"><span>Wins</span><b>${stats.wins}</b></div>
         <div class="rs-stat-row"><span>Podiums (top 3)</span><b>${stats.podiums}</b></div>
@@ -269,6 +282,28 @@ function renderRiderPage(riderId) {
         <div class="rs-stat-row"><span>Rides as team leader</span><b>${stats.leaderRides}</b></div>
       </aside>
     </section>
+
+    <!-- HEALTH STATUS — prominent banner when injured/recovering/ill -->
+    ${healthStatus && healthStatus.current && healthStatus.current !== 'active' ? `<section class="rs-health">
+      <div class="rs-health-head">
+        <span class="r-eyebrow mono">⚠ § · Health status · ${htmlEscape((healthStatus.current || '').toUpperCase())}</span>
+        <h2 class="r-h2">${htmlEscape(healthStatus.current === 'injured' ? 'Out injured' : healthStatus.current === 'recovering' ? 'In recovery' : 'Health update')}</h2>
+      </div>
+      ${healthStatus.currentSummary ? `<p class="rs-health-summary">${htmlEscape(healthStatus.currentSummary)}</p>` : ''}
+      ${(healthStatus.timeline && healthStatus.timeline.length) ? `<ol class="rs-health-timeline">
+        ${healthStatus.timeline.map(t => `<li class="rs-health-event">
+          <div class="rs-health-date mono">${htmlEscape(t.date || '')}</div>
+          <div class="rs-health-body">
+            <div class="rs-health-label">${htmlEscape(t.label || '')}</div>
+            <div class="rs-health-desc">${htmlEscape(t.description || '')}</div>
+          </div>
+        </li>`).join('')}
+      </ol>` : ''}
+      <div class="rs-health-meta mono">
+        ${healthStatus.lastRaced ? `<span><b>Last race:</b> ${htmlEscape(healthStatus.lastRaced)}</span>` : ''}
+        ${healthStatus.expectedReturn ? `<span><b>Expected return:</b> ${htmlEscape(healthStatus.expectedReturn)}</span>` : ''}
+      </div>
+    </section>` : ''}
 
     <!-- SEASON ARC -->
     ${seasonArc ? `<section class="rs-arc">

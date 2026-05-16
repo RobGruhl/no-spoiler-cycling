@@ -35,7 +35,19 @@
       "riderIds": []
     }
   ],
-  "riderPerformances": [],
+  "riderPerformances": [
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "GC winner",
+      "narrative": "Won the GC. Stage 1 win at Liwa Palace put him in the leader's jersey, Stage 2 ITT to Evenepoel cost him the jersey, Stage 6 summit finish at Jebel Hafeet (3rd of 168 km, Plapp and Gall same time) retook the overall. UAE's home tour and Pogačar's skip-it became Del Toro's first WorldTour GC.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 1 — won at Liwa Palace uphill finish" },
+        { "km": null, "what": "Stage 2 — lost yellow to Evenepoel ITT, -42s" },
+        { "km": null, "what": "Stage 6 — won Jebel Hafeet summit, retook GC" }
+      ],
+      "incident": null
+    }
+  ],
   "incidents": { "crashes": [], "abandons": [], "controversies": [] },
   "aftermath": {
     "headline": "UAE's home tour, Del Toro as the new protected card",

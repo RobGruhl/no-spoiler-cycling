@@ -1,0 +1,19 @@
+{
+  "riderId": "isaac-del-toro",
+  "year": 2026,
+  "lastUpdated": "2026-05-16T23:30:00Z",
+  "seasonArc": "Isaac del Toro's spring read like the plan for a UAE Team Emirates protected card with Pogačar skipping the Pogačar-skip races: home win at UAE Tour, Strade Bianche podium third behind Pogačar and Seixas, leader's jersey and queen-stage win at Tirreno-Adriatico. The trajectory was the cleanest run UAE has had on a non-Pogačar GC card in three seasons. And then it stopped — a crash on Stage 3 of Itzulia Basque Country ended the spring and turned a season-building April into a recovery one. The post-crash diagnosis was a right thigh muscle tear and abrasions, and as of mid-May he remained unable to race. Amstel, Flèche, Liège — all on the pre-injury programme, all forfeited.\n\nThe broader UAE injury picture by mid-May 2026 was a team crisis. Vine broken-elbow-and-concussion in the Giro Stage 2 crash, Soler fractured pelvis, Adam Yates concussion in the same incident, Del Toro still ongoing, Baroncini joining the absentee list — at least five UAE riders unable to race at once. Del Toro's recovery is one piece of a deeper UAE problem; his return date remained publicly undefined at compilation time.",
+  "healthStatus": {
+    "current": "injured",
+    "currentSummary": "Out since 8 April 2026 (crash on Stage 3 of Itzulia Basque Country). Right thigh muscle tear plus multiple abrasions on the right side; described as an 'ongoing injury' in the team's mid-May 2026 statement. No surgery reported, no public return date. The Amstel / Flèche / Liège block was forfeited; Tour de France debut (planned for July) status unknown.",
+    "timeline": [
+      { "date": "2026-04-08", "label": "Crash and abandon", "description": "Crashed on Stage 3 of Itzulia Basque Country (Basauri-Basauri) with around 83-85 km remaining. Climbed into the team car and abandoned the race." },
+      { "date": "2026-04-08", "label": "Diagnosis", "description": "UAE Team Emirates-XRG medical director Dr. Adrian Rotunno: 'right thigh muscle tear, and several related abrasions. He will undergo further examination as a precaution under supervision of team medical staff.' No fracture or surgery indicated." },
+      { "date": "2026-04-19", "label": "Forfeited Amstel Gold Race", "description": "Pre-injury programme had Del Toro racing the Ardennes block. With recovery ongoing, none of Amstel, Flèche or Liège started." },
+      { "date": "2026-05-11", "label": "Still out", "description": "CyclingNews reports UAE Team Emirates-XRG has at least five riders 'currently unable to race' including Del Toro with an 'ongoing injury'. No revised return timeline issued." }
+    ],
+    "lastRaced": "itzulia-basque-country-2026",
+    "expectedReturn": "TBD — no public return date as of mid-May 2026",
+    "preInjuryProgram": ["amstel-gold-race-2026", "la-fleche-wallonne-2026", "liege-bastogne-liege-2026", "Tour Auvergne-Rhône-Alpes", "tour-de-france-2026 (debut)"]
+  }
+}
