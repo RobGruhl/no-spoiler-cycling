@@ -1,0 +1,28 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 4, "stageName": "Tagliacozzo → Martinsicuro", "stageDate": "2026-03-12", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Mathieu van der Poel doubled up with a second stage win — a reduced-group sprint after the day's Apennine climbing thinned the bunch. Pellizzari, Johannessen, Champoussin and Wout van Aert filled the top five same-time.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "4h 51m 40s" },
+    { "position": 2, "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 5, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Van der Poel's double, Van Aert top-5", "body": "213 km, ~2,700 m of elevation, two long Apennine climbs (Ovindoli, Valico delle Capannelle) trimming the bunch. Reduced-group sprint into Martinsicuro; Van der Poel won, Van Aert's fifth was his strongest pre-Classics-spring result." },
+  "gcImpact": { "headline": "Del Toro holds with time bonuses tightening", "body": "GC unchanged on time, bonuses tightened around the leader. Pellizzari now a clear secondary threat." },
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 5, "gap": "s.t.",
+      "narrative": "Fifth in the reduced-group sprint — solid sharpness check before the cobbled Classics block. Visma's Tirreno team built around him; the run to Roubaix would prove him in form.",
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Second stage win, second reduced-group sprint after a climbing-and-positioning selection.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Van der Poel double at Tirreno Stage 4", "lang": "en" }]
+}

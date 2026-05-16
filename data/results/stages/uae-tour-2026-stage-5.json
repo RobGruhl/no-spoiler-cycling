@@ -1,0 +1,21 @@
+{
+  "raceId": "uae-tour-2026", "stageNumber": 5, "stageName": "Dubai sprint", "stageDate": "2026-02-20", "stageType": "flat", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Jonathan Milan again, his second of the week and fourth of the year. Pan-flat Dubai sprint, Erlend Blikra second, Matteo Malucelli third.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek", "time": "stage winner" },
+    { "position": 2, "name": "Erlend Blikra", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 3, "name": "Matteo Malucelli", "team": "XDS-Astana", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Milan doubles up", "body": "Pan-flat Dubai stage from Al Mamzar Park to Hamdan Bin Mohammed Smart University. Bunch sprint, Lidl-Trek lead-out, second straight Milan win of the week." },
+  "gcImpact": { "headline": "GC unchanged", "body": "Evenepoel keeps the leader's jersey, Jebel Hafeet still to come." },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Second straight win, fourth of the year. The team's sprint-train depth on display.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.procyclingstats.com/race/uae-tour/2026/stage-5/result", "publication": "ProCyclingStats", "title": "UAE Tour Stage 5", "lang": "en" }]
+}

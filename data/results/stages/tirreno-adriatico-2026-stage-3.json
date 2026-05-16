@@ -1,0 +1,21 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 3, "stageName": "Cortona → Magliano de' Marsi", "stageDate": "2026-03-11", "stageType": "flat", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Tobias Lund Andresen took his second sprint win of the spring ahead of Arnaud De Lie and Jasper Philipsen — a clean bunch sprint after the rolling 221 km from Cortona.",
+  "podium": [
+    { "position": 1, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM", "time": "stage winner" },
+    { "position": 2, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 3, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Lund Andresen's second sprint win", "body": "221 km, rolling but sprint-friendly finish in Magliano de' Marsi. Big bunch finish, Decathlon lead-out for the Dane." },
+  "gcImpact": { "headline": "Del Toro holds", "body": "Sprint stage, no GC change." },
+  "riderPerformances": [
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "Second in a clean bunch sprint — Lotto Intermarché's strongest result of the spring before his ankle-injury-cut Roubaix bid.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Lund Andresen wins Tirreno Stage 3", "lang": "en" }]
+}

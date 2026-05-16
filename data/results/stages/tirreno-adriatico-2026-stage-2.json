@@ -1,0 +1,21 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 2, "stageName": "Camaiore → San Gimignano", "stageDate": "2026-03-10", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Mathieu van der Poel took the wet gravel/hilly stage to San Gimignano in a reduced-group sprint, with Isaac del Toro second and Giulio Pellizzari third — same time. Del Toro took the leader's jersey from Ganna's Stage 1 ITT advantage.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "4h 53m 23s" },
+    { "position": 2, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "s.t." },
+    { "position": 3, "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Van der Poel on Italian gravel, Del Toro into the lead", "body": "206 km from Camaiore to San Gimignano in wet conditions; the closing hills produced a reduced front group. Van der Poel won the small-group sprint — a Strade Bianche dress rehearsal five days early." },
+  "gcImpact": { "headline": "Del Toro into the jersey", "body": "Ganna's ITT margin couldn't survive the climbing-and-gravel selection. Del Toro becomes overall leader." },
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "stage hunter", "position": 1, "gap": "stage winner",
+      "narrative": "Won the reduced-bunch sprint after the wet-gravel selection. Set the form line for Strade Bianche, where he'd finish behind Pogačar and Seixas.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Van der Poel wins Tirreno Stage 2", "lang": "en" }]
+}

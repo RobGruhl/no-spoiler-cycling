@@ -1,0 +1,21 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 1, "stageName": "Lido di Camaiore ITT", "stageDate": "2026-03-09", "stageType": "itt", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Filippo Ganna dominated the 11.5 km opening ITT in Lido di Camaiore by 22 seconds over INEOS teammate Thymen Arensman — a 1-2 for the team's TT depth. Walscheid and Sheffield tied for third, Milan fifth.",
+  "podium": [
+    { "position": 1, "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers", "time": "12:08" },
+    { "position": 2, "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:22" },
+    { "position": 3, "name": "Max Walscheid", "team": "Lidl-Trek", "gap": "+0:26" }
+  ],
+  "narrative": { "headline": "Ganna 1-2 with Arensman", "body": "Pan-flat 11.5 km out-and-back. Ganna's pacing was uncatchable; Arensman's surprise second made it an INEOS 1-2. The team took the leader's jersey for two days." },
+  "gcImpact": { "headline": "Ganna in blue", "body": "First maglia azzurra to Ganna. Loses it Stage 2 on wet gravel." },
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 1, "gap": "12:08",
+      "narrative": "Dominant ITT, 22 seconds on teammate Arensman. Second win of the season for Ganna, building on a Classics campaign that would peak with Dwars door Vlaanderen later in the month.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Ganna wins Tirreno-Adriatico Stage 1 ITT", "lang": "en" }]
+}

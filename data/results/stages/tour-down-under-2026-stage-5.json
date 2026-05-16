@@ -1,0 +1,24 @@
+{
+  "raceId": "tour-down-under-2026", "stageNumber": 5, "stageName": "Stirling → Stirling", "stageDate": "2026-01-25", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Matthew Brennan won the final stage from a reduced sprint after a late kangaroo crossing crashed the lead group — his first WorldTour stage win, on the day Vine sealed the overall.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike", "time": "stage winner" },
+    { "position": 2, "name": "Sam Welsford", "team": "INEOS Grenadiers", "gap": "s.t." },
+    { "position": 3, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Brennan wins stage 5, with a kangaroo in the script", "body": "169.8 km, eight laps of a Stirling circuit, 3,436 m of elevation, finishing on the 2 km Mount Barker Road climb. The finale produced the week's most-shared video: a kangaroo crossed the road and caused a crash in the lead group. The race still resolved in a reduced sprint.\n\nBrennan attacked over the top of the leadout. Kwiako led out at 300 m, Gilmore countered, Brennan took the line. A first WorldTour stage win, 21 years old, for the rider who'd then go on to lead Van Aert into Arenberg at Roubaix three months later." },
+  "gcImpact": { "headline": "Vine wins the GC", "body": "Vine the overall winner, Schmid 2nd at 1:03, Sweeny 3rd at 1:12. Brennan keeps the young rider classification." },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "First WorldTour stage win, attacking over the top of the lead-out on the Mount Barker Road kicker into Stirling. With the young rider classification already locked, the stage win was the season's first major statement.",
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [{ "description": "Kangaroo crossed into the lead group inside the closing kilometres, causing a crash. No GC impact." }] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Brennan wins TDU stage 5", "lang": "en" }
+  ]
+}

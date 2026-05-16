@@ -1,0 +1,25 @@
+{
+  "raceId": "paris-nice-2026", "stageNumber": 4, "stageName": "Bourges → Uchon", "stageDate": "2026-03-11", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Vingegaard took the mountain finish at Uchon after attacking at 1 km to go, 42 seconds clear of Daniel Martínez and putting the GC question on early terms. Atrocious weather, a mass crash, and Juan Ayuso's race-ending injury made it the spring's most chaotic GC stage to date.",
+  "podium": [
+    { "position": 1, "name": "Jonas Vingegaard", "team": "Visma | Lease a Bike", "time": "stage winner" },
+    { "position": 2, "name": "Daniel Martínez", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:42" },
+    { "position": 3, "name": "Tim van Dijke", "team": "Visma | Lease a Bike", "gap": "n/a" }
+  ],
+  "narrative": { "headline": "Vingegaard's first stab; Ayuso's race ends", "body": "195 km from Bourges to the Uchon mountain finish in atrocious weather. Vingegaard attacked at 1 km to go and rode away for the stage. A mass crash earlier in the stage ended Juan Ayuso's race; the UAE Tour podium man abandoned injured." },
+  "gcImpact": { "headline": "Vingegaard into yellow", "body": "First major GC selection. Vingegaard takes the leader's jersey and the GC question is now everyone's response to him." },
+  "riderPerformances": [
+    {
+      "riderId": null, "name": "Juan Ayuso", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": "DNF", "gap": "abandoned",
+      "narrative": "Crashed in the day's mass-crash, abandoned injured. UAE's GC card for the week now void; the spring's first major GC casualty.",
+      "incident": "Crashed in mass-crash, abandoned injured"
+    }
+  ],
+  "incidents": {
+    "crashes": [{ "description": "Mass crash earlier in the stage in atrocious weather" }],
+    "abandons": [{ "riderId": null, "reason": "Juan Ayuso (UAE) abandoned injured" }]
+  },
+  "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Vingegaard wins Paris-Nice Stage 4", "lang": "en" }]
+}

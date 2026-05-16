@@ -1,0 +1,22 @@
+{
+  "raceId": "itzulia-basque-country-2026", "stageNumber": 2, "stageName": "Pamplona → Cuevas de Mendukilo (Astitz)", "stageDate": "2026-04-07", "stageType": "mountain", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Paul Seixas won the queen-stage summit finish at Astitz by 1:23 over Skjelmose, Roglič and Uijtdebroeks — a margin that doubled his GC lead and effectively ended the week.",
+  "podium": [
+    { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM", "time": "4h 11m 48s" },
+    { "position": 2, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "+1:23" },
+    { "position": 3, "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:23" },
+    { "position": 4, "name": "Cian Uijtdebroeks", "team": "Movistar Team", "gap": "+1:23" }
+  ],
+  "narrative": { "headline": "Seixas doubles down", "body": "164 km hilly stage, summit finish at Cuevas de Mendukilo. Seixas attacked late on the final climb, gapped Skjelmose, Roglič and Uijtdebroeks all on the same line. Tulett fifth for Visma." },
+  "gcImpact": { "headline": "GC effectively over", "body": "Seixas's lead now 1:23+ on the principal GC favourites with four stages to ride. The race is his to lose." },
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM",
+      "role": "leader", "position": 1, "gap": "4h 11m 48s",
+      "narrative": "Second stage win in two days. The pattern: every GC favourite at +1:23 on the same time. Decathlon's debut WorldTour stage race lead becomes a route to outright victory.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Seixas wins Itzulia Stage 2 queen", "lang": "en" }]
+}

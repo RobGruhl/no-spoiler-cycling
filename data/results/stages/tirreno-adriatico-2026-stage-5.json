@@ -1,0 +1,21 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 5, "stageName": "Marotta-Mondolfo → Mombaroccio", "stageDate": "2026-03-13", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Michael Valgren took the Marche muri stage solo for EF Education-EasyPost, with Isaac del Toro 2nd and Matteo Jorgenson 3rd same time. Del Toro extended his GC lead by 19 seconds on Pellizzari with bonus-seconds and the late chase.",
+  "podium": [
+    { "position": 1, "name": "Michael Valgren", "team": "EF Education-EasyPost", "time": "stage winner" },
+    { "position": 2, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+0:15-20 (est.)" },
+    { "position": 3, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike", "gap": "s.t. (with Del Toro)" }
+  ],
+  "narrative": { "headline": "Valgren solo on the muri", "body": "186 km, classic Marche steep-walls stage. Valgren bridged off the day's break and held to the line; Del Toro the strongest of the GC contenders chasing back, with Jorgenson on his wheel." },
+  "gcImpact": { "headline": "Del Toro extends", "body": "Del Toro added 19 seconds to Pellizzari on the day; the GC margin grows ahead of the summit finish on Stage 6." },
+  "riderPerformances": [
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 3, "gap": "s.t. Del Toro",
+      "narrative": "On Del Toro's wheel through the late chase. Visma's secondary GC card running well after Vingegaard's Paris-Nice win — the Ardennes set-up moving into rhythm.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Valgren wins Tirreno Stage 5", "lang": "en" }]
+}

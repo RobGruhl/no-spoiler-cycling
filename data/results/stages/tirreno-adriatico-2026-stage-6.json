@@ -1,0 +1,21 @@
+{
+  "raceId": "tirreno-adriatico-2026", "stageNumber": 6, "stageName": "San Severino Marche → Camerino", "stageDate": "2026-03-14", "stageType": "mountain", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Isaac del Toro won the summit finish at Camerino three seconds clear of Johannessen and Jorgenson — the GC sealed on the queen stage. Pellizzari fourth at +9 lost contact with the lead trio.",
+  "podium": [
+    { "position": 1, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "4h 46m 50s" },
+    { "position": 2, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+0:03" },
+    { "position": 3, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike", "gap": "+0:03" }
+  ],
+  "narrative": { "headline": "Del Toro's queen-stage stamp", "body": "188 km, summit finish at Camerino. Del Toro attacked late on the climb; only Johannessen could follow with Jorgenson on his wheel. Pellizzari, the secondary GC threat, lost six seconds." },
+  "gcImpact": { "headline": "GC sealed for Del Toro", "body": "Stage win + bonus seconds + three-second margin on the climbing rivals. The week was Del Toro's." },
+  "riderPerformances": [
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "role": "leader", "position": 3, "gap": "+0:03",
+      "narrative": "Stage 3, three seconds back on Del Toro's queen-stage move. The Ardennes form line getting drawn.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Del Toro wins Tirreno Stage 6", "lang": "en" }]
+}

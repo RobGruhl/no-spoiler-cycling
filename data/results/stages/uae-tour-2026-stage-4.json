@@ -1,0 +1,21 @@
+{
+  "raceId": "uae-tour-2026", "stageNumber": 4, "stageName": "Fujairah sprint", "stageDate": "2026-02-19", "stageType": "flat", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Jonathan Milan took his third win of 2026 in the Fujairah bunch sprint, beating Ethan Vernon and Matteo Milan after the break was caught in the final 300 metres. A Lidl-Trek-perfect lead-out on a stage where Pogačar's absence opened the sprint card.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek", "time": "stage winner" },
+    { "position": 2, "name": "Ethan Vernon", "team": "NSN Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Matteo Milan", "team": "Groupama-FDJ United", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Milan's third of the year", "body": "182 km, lumpy mid-section, flat run into Fujairah. The day's break was caught with about 300 m to go; Lidl-Trek's lead-out for Milan was textbook." },
+  "gcImpact": { "headline": "Evenepoel still in the lead", "body": "Time-bonus shuffling on sprint stages; Evenepoel keeps the overall." },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Third sprint win of the season. Milan's role at Lidl-Trek for 2026 — pure sprinter on the team's calendar around Pedersen's Classics block — getting expressed exactly where the calendar puts him.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Milan wins UAE Tour Stage 4", "lang": "en" }]
+}

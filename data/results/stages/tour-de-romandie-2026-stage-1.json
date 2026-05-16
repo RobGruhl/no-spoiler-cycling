@@ -1,0 +1,22 @@
+{
+  "raceId": "tour-de-romandie-2026", "stageNumber": 1, "stageName": "Martigny → Martigny", "stageDate": "2026-04-29", "stageType": "hilly", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Tadej Pogačar took the reduced-bunch finish in Martigny, with Lipowitz, Lenny Martinez and Visma's Jørgen Nordhagen all same time. Pogačar into yellow on day one of actual racing.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "3h 56m 55s" },
+    { "position": 2, "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "name": "Lenny Martinez", "team": "Bahrain Victorious", "gap": "s.t." },
+    { "position": 4, "name": "Jørgen Nordhagen", "team": "Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Pogačar takes yellow", "body": "171.2 km circuit around Martigny with three early laps of La Rasse. Reduced-bunch finish; Pogačar's sprint kick saw off Lipowitz and Lenny Martinez. Nordhagen — Visma's young Norwegian climber — 4th s.t." },
+  "gcImpact": { "headline": "Pogačar into yellow", "body": "From sixth in the prologue to leader's jersey on time bonuses and stage selection. The week's GC question now Pogačar's to answer." },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "3h 56m 55s",
+      "narrative": "First stage win of Romandie. Three days before Liège-Bastogne-Liège (which he'd also win), the form was confirmed.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Pogačar wins Romandie Stage 1", "lang": "en" }]
+}

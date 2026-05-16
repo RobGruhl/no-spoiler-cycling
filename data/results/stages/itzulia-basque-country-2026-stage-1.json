@@ -1,0 +1,21 @@
+{
+  "raceId": "itzulia-basque-country-2026", "stageNumber": 1, "stageName": "Bilbao ITT", "stageDate": "2026-04-06", "stageType": "itt", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Paul Seixas took the 13.8 km hilly ITT in Bilbao by 23 seconds over Vauquelin and 27 over Großschartner — the 19-year-old becoming the youngest WorldTour stage race leader of the year. Ayuso lost 1:16 in a defining early GC hit.",
+  "podium": [
+    { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM", "time": "stage winner" },
+    { "position": 2, "name": "Kévin Vauquelin", "team": "INEOS Grenadiers", "gap": "+0:23" },
+    { "position": 3, "name": "Felix Großschartner", "team": "UAE Team Emirates - XRG", "gap": "+0:27" }
+  ],
+  "narrative": { "headline": "Seixas takes the leader's jersey", "body": "Hilly 13.8 km ITT. Seixas posted the fastest time of the day, beating every billed GC favourite. Roglič 4th at +28; Großschartner the second man ever to defeat Roglič at an Itzulia TT." },
+  "gcImpact": { "headline": "Seixas into yellow", "body": "First WorldTour stage race leader's jersey of his career. Holds it most of the week." },
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Third major GC-relevant performance of the spring after Strade Bianche second. Took the Stage 1 ITT in Bilbao by 23 seconds — first WorldTour stage race leader's jersey of his career.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Seixas wins Itzulia Stage 1 ITT", "lang": "en" }]
+}

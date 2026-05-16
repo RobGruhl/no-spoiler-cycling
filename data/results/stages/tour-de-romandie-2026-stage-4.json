@@ -1,0 +1,21 @@
+{
+  "raceId": "tour-de-romandie-2026", "stageNumber": 4, "stageName": "Broc → Charmey", "stageDate": "2026-05-02", "stageType": "mountain", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Pogačar took a solo win after attacking on the final ascent of the Jaunpass — 14 seconds clear of Lipowitz, who again rode strongly on the climb without matching the closing kilometres. The chase group nearly two minutes back; Castrillo led them in.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "stage winner" },
+    { "position": 2, "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:14" },
+    { "position": 3, "name": "Pablo Castrillo", "team": "Movistar Team", "gap": "~+2:00" }
+  ],
+  "narrative": { "headline": "Pogačar's third stage win solo", "body": "149.6 km from Broc to Charmey with the cat-1 Jaunpass as the final ascent. Pogačar attacked late on the climb, took the descent solo, won by 14 seconds. Lipowitz's stage 2 of three top-3 finishes against Pogačar in a week." },
+  "gcImpact": { "headline": "Pogačar's margin secure", "body": "GC tightened around the leader; only Lipowitz close on time." },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Third stage win of the week. The Romandie domination sets up perfectly for Liège-Bastogne-Liège in twenty-four days.",
+      "incident": null
+    }
+  ],
+  "incidents": {}, "quotes": [],
+  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Pogačar solo on Jaunpass", "lang": "en" }]
+}

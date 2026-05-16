@@ -1,0 +1,24 @@
+{
+  "raceId": "tour-down-under-2026", "stageNumber": 1, "stageName": "Tanunda → Tanunda", "stageDate": "2026-01-21", "stageType": "flat", "researchedAt": "2026-05-16T22:30:00Z",
+  "tldr": "Tobias Lund Andresen edged Matthew Brennan and Sam Welsford in a Barossa Valley bunch sprint. Brennan's second moved him into the young rider classification lead — the first major data point of his 2026 season.",
+  "podium": [
+    { "position": 1, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM", "time": "2:49:18" },
+    { "position": 2, "name": "Matthew Brennan", "team": "Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 3, "name": "Sam Welsford", "team": "INEOS Grenadiers", "gap": "s.t." }
+  ],
+  "narrative": { "headline": "Lund Andresen the early sprinter find", "body": "120.6 km lumpy Barossa Valley circuit, hot, raced as a sprinter's day. Lund Andresen — Decathlon's quiet off-season signing — took his first major sprint of the year. Brennan, the day's second, took the young rider lead." },
+  "gcImpact": { "headline": "Brennan into white", "body": "Brennan's second put him in the young rider classification, where he stayed for the week." },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "role": "sprinter", "position": 2, "gap": "s.t.",
+      "narrative": "Second on Stage 1 behind Lund Andresen, claimed the young rider lead. The first major early-season pointer for the Visma development plan that ran through to his Arenberg lead-out for Van Aert at Roubaix in April.",
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/tour-down-under-tobias-lund-andresen-edges-matthew-brennan-to-win-stage-1/", "publication": "Cyclingnews", "title": "Lund Andresen edges Brennan to win Stage 1", "lang": "en" }
+  ]
+}
