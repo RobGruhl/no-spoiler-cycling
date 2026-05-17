@@ -40,6 +40,12 @@ jobs:
       - name: Build smoke test
         run: npm run test:smoke
 
+      - name: Results subsystem completeness
+        # Non-strict in CI: warnings (e.g. backfill in progress) don't block
+        # merges. Errors (missing forward-link, missing rendered page) do.
+        # Strict mode is run nightly via nightly-links.yml as a report.
+        run: node scripts/test-results-completeness.js
+
       - name: Emit JSON summary to job summary
         if: always()
         run: |

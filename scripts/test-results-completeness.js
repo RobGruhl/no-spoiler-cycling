@@ -250,6 +250,145 @@ function checkTeamCoverage() {
   return { expected: PRINCIPAL_TEAMS.length, errors, warnings, details };
 }
 
+// ---- Section: Cross-links (calendar → results) ----
+// Asserts that every past stage/race with results data has a forward
+// "View Results" link in the spoiler-safe calendar HTML. Catches the
+// regression class that prompted plan ok-i-found-the-ancient-grove.
+function checkCrossLinks() {
+  const errors = [];
+  const warnings = [];
+  const details = [];
+
+  const stagesDir = path.join(ROOT, 'data/results/stages');
+  const racesDir = path.join(ROOT, 'data/results/races');
+  const ridersDir = path.join(ROOT, 'data/results/riders');
+  const calendarStagesDir = path.join(ROOT, 'race-details');
+  const calendarRidersDir = path.join(ROOT, 'riders');
+  const calendarRidersWomenDir = path.join(ROOT, 'riders-women');
+
+  // Stage cross-links: each past stage results JSON must be linked from its
+  // calendar-side stage detail page.
+  if (fs.existsSync(stagesDir)) {
+    for (const f of fs.readdirSync(stagesDir).filter(f => f.endsWith('.json'))) {
+      const m = f.match(/^(.+?)-stage-(\d+)\.json$/);
+      if (!m) continue;
+      const [, raceId, stageN] = m;
+      const stageData = readJson(path.join(stagesDir, f));
+      const stageDate = stageData?.stageDate;
+      // Only require the link if the stage has a generated calendar HTML page.
+      const calendarHtml = path.join(calendarStagesDir, `${raceId}-stage-${stageN}.html`);
+      if (!fs.existsSync(calendarHtml)) {
+        details.push({ kind: 'stage', id: `${raceId}-S${stageN}`, hasCalendarHtml: false, hasLink: null });
+        continue;
+      }
+      const html = fs.readFileSync(calendarHtml, 'utf8');
+      const expectedHref = `../results/race/${raceId}-stage-${stageN}.html`;
+      const hasLink = html.includes(expectedHref);
+      details.push({ kind: 'stage', id: `${raceId}-S${stageN}`, date: stageDate, hasCalendarHtml: true, hasLink });
+      if (isPastRace({ raceDate: stageDate }) && !hasLink) {
+        errors.push(`past stage missing forward link in calendar HTML: ${raceId}-stage-${stageN}`);
+      }
+    }
+  }
+
+  // Race overview cross-links
+  if (fs.existsSync(racesDir)) {
+    for (const f of fs.readdirSync(racesDir).filter(f => f.endsWith('.json'))) {
+      const raceId = f.replace('.json', '');
+      const raceData = readJson(path.join(racesDir, f));
+      const calendarHtml = path.join(calendarStagesDir, `${raceId}.html`);
+      if (!fs.existsSync(calendarHtml)) {
+        details.push({ kind: 'race', id: raceId, hasCalendarHtml: false, hasLink: null });
+        continue;
+      }
+      const html = fs.readFileSync(calendarHtml, 'utf8');
+      const expectedHref = `../results/race/${raceId}.html`;
+      const hasLink = html.includes(expectedHref);
+      details.push({ kind: 'race', id: raceId, date: raceData?.raceDate, hasCalendarHtml: true, hasLink });
+      if (isPastRace({ raceDate: raceData?.raceDate }) && !hasLink) {
+        errors.push(`past race missing forward link in calendar HTML: ${raceId}`);
+      }
+    }
+  }
+
+  // Rider cross-links — assert every results-side rider page has a forward
+  // link from its calendar-side counterpart.
+  if (fs.existsSync(ridersDir)) {
+    for (const f of fs.readdirSync(ridersDir).filter(f => f.endsWith('.json'))) {
+      const slug = f.replace('.json', '');
+      const candidates = [
+        path.join(calendarRidersDir, `${slug}.html`),
+        path.join(calendarRidersWomenDir, `${slug}.html`),
+      ];
+      const calendarHtml = candidates.find(p => fs.existsSync(p));
+      if (!calendarHtml) {
+        warnings.push(`rider has season JSON but no calendar-side page: ${slug}`);
+        details.push({ kind: 'rider', id: slug, hasCalendarHtml: false, hasLink: null });
+        continue;
+      }
+      const html = fs.readFileSync(calendarHtml, 'utf8');
+      const expectedHref = `../results/rider/${slug}.html`;
+      const hasLink = html.includes(expectedHref);
+      details.push({ kind: 'rider', id: slug, hasCalendarHtml: true, hasLink });
+      if (!hasLink) {
+        errors.push(`rider with season data missing forward link from calendar page: ${slug}`);
+      }
+    }
+  }
+
+  return { errors, warnings, details };
+}
+
+// ---- Section: Photos ----
+// Every tracked rider (riders.json + outsiders.json + riders-women.json) has
+// a non-null photoUrl pointing to a local file that exists on disk.
+function checkPhotos() {
+  const errors = [];
+  const warnings = [];
+  const details = [];
+
+  const rostersToCheck = [
+    { path: 'data/riders.json', label: 'men' },
+    { path: 'data/riders-women.json', label: 'women' },
+    { path: 'data/outsiders.json', label: 'outsiders' },
+  ];
+
+  let totalChecked = 0;
+  let totalMissing = 0;
+  for (const roster of rostersToCheck) {
+    const fp = path.join(ROOT, roster.path);
+    if (!fs.existsSync(fp)) continue;
+    const data = readJson(fp);
+    for (const r of (data?.riders || [])) {
+      totalChecked++;
+      const slug = r.slug || r.id;
+      const photoUrl = r.photoUrl;
+      const localPath = photoUrl && photoUrl.startsWith('riders/') ? path.join(ROOT, photoUrl) : null;
+      const hasLocalFile = localPath && fs.existsSync(localPath);
+      details.push({ kind: 'photo', id: slug, roster: roster.label, photoUrl: photoUrl || null, hasLocalFile });
+      if (!photoUrl) {
+        warnings.push(`rider has no photoUrl: ${slug} (${roster.label})`);
+        totalMissing++;
+      } else if (localPath && !hasLocalFile) {
+        warnings.push(`rider photoUrl points to missing file: ${slug} → ${photoUrl}`);
+        totalMissing++;
+      }
+    }
+  }
+
+  // Also a CSS smoke test: top-crop rule must be present in the generated
+  // rider HTML so cropping puts faces in view rather than chopping them.
+  const riderIndexHtml = path.join(ROOT, 'riders.html');
+  if (fs.existsSync(riderIndexHtml)) {
+    const html = fs.readFileSync(riderIndexHtml, 'utf8');
+    if (!html.includes('object-position:top center')) {
+      errors.push(`riders.html missing CSS rule "object-position:top center" — photos will center-crop and chop faces`);
+    }
+  }
+
+  return { expected: totalChecked, errors, warnings, details };
+}
+
 // ---- Section: Manifest ----
 function checkManifest() {
   const errors = [];
@@ -297,8 +436,20 @@ function run() {
     stages: checkStages(),
     riders: checkRiders(),
     teams: checkTeamCoverage(),
+    crossLinks: checkCrossLinks(),
+    photos: checkPhotos(),
     manifest: checkManifest(),
   };
+
+  // Under --strict, promote the "rider has no seasonArc JSON" warning to an
+  // error so CI catches the regression class from
+  // plan ok-i-found-the-ancient-grove.
+  if (STRICT) {
+    const riderWarns = sections.riders.warnings || [];
+    const promoted = riderWarns.filter(w => w.startsWith('rider has no seasonArc JSON:'));
+    sections.riders.errors = (sections.riders.errors || []).concat(promoted);
+    sections.riders.warnings = riderWarns.filter(w => !w.startsWith('rider has no seasonArc JSON:'));
+  }
 
   // Output
   if (JSON_OUT) {
@@ -326,6 +477,8 @@ function print(sections) {
   printSection('Stages',              sections.stages,   'stage');
   printSection('Rider season pages',  sections.riders,   'rider');
   printSection('Team narrative coverage', sections.teams, 'team');
+  printSection('Cross-links (calendar → results)', sections.crossLinks, null);
+  printSection('Photos',              sections.photos,   'photo');
   printSection('Manifest consistency',sections.manifest, null);
 
   console.log(paint('═══ Summary ═══', c.bold));

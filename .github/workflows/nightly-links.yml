@@ -48,6 +48,15 @@ jobs:
           echo "STRICT_EXIT=$?" >> $GITHUB_ENV
           set -e
 
+      - name: Results subsystem strict completeness (report)
+        # Same pattern — report-only. Captures missing photos / forward
+        # links / seasonArc gaps under --strict.
+        run: |
+          set +e
+          node scripts/test-results-completeness.js --strict --verbose | tee results.log
+          echo "RESULTS_EXIT=$?" >> $GITHUB_ENV
+          set -e
+
       - name: Link audit (future races only, Playwright)
         run: |
           today=$(date -u +%Y-%m-%d)
@@ -63,6 +72,11 @@ jobs:
             echo '### Strict quality (last 30 lines)'
             echo '```'
             tail -n 30 strict.log || true
+            echo '```'
+            echo
+            echo '### Results subsystem strict completeness (last 30 lines)'
+            echo '```'
+            tail -n 30 results.log || true
             echo '```'
             echo
             echo '### Link audit (last 30 lines)'
