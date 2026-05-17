@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T00:30:14.790Z",
+  "lastUpdated": "2026-05-17T19:26:45.541Z",
   "riders": [
     {
       "id": "paul-seixas",
@@ -52,7 +52,10 @@
             "raceClass": "1.UWT"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/paul-seixas.jpg",
+      "weight": 64,
+      "height": 1.86
     },
     {
       "id": "jarno-widar",
@@ -447,12 +450,42 @@
         "status": "announced",
         "lastFetched": "2026-05-17T00:00:00Z",
         "races": [
-          { "raceName": "Tirreno-Adriatico", "raceSlug": "tirreno-adriatico", "raceDate": "2026-03-09", "raceClass": "2.UWT" },
-          { "raceName": "Tour of the Alps", "raceSlug": "tour-of-the-alps", "raceDate": "2026-04-20", "raceClass": "2.Pro" },
-          { "raceName": "Giro d'Italia", "raceSlug": "giro-d-italia", "raceDate": "2026-05-08", "raceClass": "2.UWT" },
-          { "raceName": "Donostia San Sebastián Klasikoa", "raceSlug": "donostia-san-sebastian-klasikoa", "raceDate": "2026-08-01", "raceClass": "1.UWT" },
-          { "raceName": "Vuelta a Burgos", "raceSlug": "vuelta-a-burgos", "raceDate": "2026-08-04", "raceClass": "2.Pro" },
-          { "raceName": "Giro dell'Emilia", "raceSlug": "giro-dell-emilia", "raceDate": "2026-10-03", "raceClass": "1.Pro" }
+          {
+            "raceName": "Tirreno-Adriatico",
+            "raceSlug": "tirreno-adriatico",
+            "raceDate": "2026-03-09",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour of the Alps",
+            "raceSlug": "tour-of-the-alps",
+            "raceDate": "2026-04-20",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Giro d'Italia",
+            "raceSlug": "giro-d-italia",
+            "raceDate": "2026-05-08",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Donostia San Sebastián Klasikoa",
+            "raceSlug": "donostia-san-sebastian-klasikoa",
+            "raceDate": "2026-08-01",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Vuelta a Burgos",
+            "raceSlug": "vuelta-a-burgos",
+            "raceDate": "2026-08-04",
+            "raceClass": "2.Pro"
+          },
+          {
+            "raceName": "Giro dell'Emilia",
+            "raceSlug": "giro-dell-emilia",
+            "raceDate": "2026-10-03",
+            "raceClass": "1.Pro"
+          }
         ]
       }
     }
