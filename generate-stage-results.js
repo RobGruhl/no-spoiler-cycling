@@ -67,11 +67,24 @@ function renderStagePage(raceId, stageNumber) {
   if (!fs.existsSync(dataPath)) throw new Error(`No stage result data: ${dataPath}`);
   const result = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-  // Adjacent stages
-  const allStages = (race.stages || []).slice().sort((a, b) => a.stageNumber - b.stageNumber);
-  const idx = allStages.findIndex(s => s.stageNumber === stageNumber);
-  const prevStage = idx > 0 ? allStages[idx - 1] : null;
-  const nextStage = idx < allStages.length - 1 ? allStages[idx + 1] : null;
+  // All stages of this race, sorted by date (rest days included for context)
+  const allStages = (race.stages || []).slice().sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+  // Which stages actually have a published results JSON (rest days never do)
+  const stagesDir = path.join(ROOT, 'data/results/stages');
+  const publishedSet = new Set();
+  if (fs.existsSync(stagesDir)) {
+    for (const f of fs.readdirSync(stagesDir)) {
+      const m = f.match(/^(.+)-stage-(\d+)\.json$/);
+      if (m && m[1] === raceId) publishedSet.add(parseInt(m[2], 10));
+    }
+  }
+  const racingStages = allStages.filter(s => s.stageType !== 'rest-day');
+  const publishedStages = racingStages.filter(s => publishedSet.has(s.stageNumber));
+  const idx = publishedStages.findIndex(s => s.stageNumber === stageNumber);
+  const prevStage = idx > 0 ? publishedStages[idx - 1] : null;
+  const nextStage = idx >= 0 && idx < publishedStages.length - 1 ? publishedStages[idx + 1] : null;
+  // Does the race overview page exist?
+  const overviewExists = fs.existsSync(path.join(ROOT, 'data/results/races', `${raceId}.json`));
 
   const stageId = `${raceId}-stage-${stageNumber}`;
 
@@ -302,16 +315,40 @@ function renderStagePage(raceId, stageNumber) {
       </div>
     </section>` : ''}
 
-    <!-- ADJACENT STAGES -->
+    <!-- ADJACENT STAGES (prev/next pair) -->
     <section class="r-section">
       <div class="r-section-head">
         <span class="r-eyebrow mono">§ X · Navigate</span>
       </div>
-      <div class="rs-key-moments" style="display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap">
-        <div>${prevStage ? `<a href="${raceId}-stage-${prevStage.stageNumber}.html" class="r-perf-name">← Stage ${prevStage.stageNumber}: ${htmlEscape(prevStage.name || '')}</a>` : ''}</div>
-        <div><a href="${raceId}.html" class="r-perf-name">${htmlEscape(race.name)} overall</a></div>
-        <div>${nextStage ? `<a href="${raceId}-stage-${nextStage.stageNumber}.html" class="r-perf-name">Stage ${nextStage.stageNumber}: ${htmlEscape(nextStage.name || '')} →</a>` : ''}</div>
+      <div class="r-stage-prevnext">
+        <div>${prevStage ? `<a href="${raceId}-stage-${prevStage.stageNumber}.html" class="r-stage-arrow">← Stage ${prevStage.stageNumber}: ${htmlEscape(prevStage.name || '')}</a>` : '<span class="r-stage-arrow-empty"></span>'}</div>
+        <div>${overviewExists ? `<a href="${raceId}.html" class="r-stage-arrow">${htmlEscape(race.name)} overall</a>` : `<span class="r-stage-arrow-empty mono">Overall — race in progress, no overview yet</span>`}</div>
+        <div>${nextStage ? `<a href="${raceId}-stage-${nextStage.stageNumber}.html" class="r-stage-arrow">Stage ${nextStage.stageNumber}: ${htmlEscape(nextStage.name || '')} →</a>` : '<span class="r-stage-arrow-empty"></span>'}</div>
       </div>
+    </section>
+
+    <!-- ALL STAGES PUBLISHED — the full list, current stage highlighted -->
+    <section class="r-section">
+      <div class="r-section-head">
+        <span class="r-eyebrow mono">§ X · All stages</span>
+        <h2 class="r-h2">${htmlEscape(race.name)} — every stage we've published</h2>
+      </div>
+      <ol class="r-stage-list">
+        ${racingStages.map(s => {
+          const has = publishedSet.has(s.stageNumber);
+          const isHere = s.stageNumber === stageNumber;
+          const href = has ? `${raceId}-stage-${s.stageNumber}.html` : null;
+          const inner = `
+            <div class="r-stage-list-num mono">S${s.stageNumber}</div>
+            <div class="r-stage-list-body">
+              <div class="r-stage-list-name">${htmlEscape(s.name || '')}</div>
+              <div class="r-stage-list-meta mono">${s.date || ''}${s.stageType ? ' · ' + s.stageType : ''}${s.distance ? ' · ' + s.distance + ' km' : ''}${has ? '' : ' · not yet published'}</div>
+            </div>`;
+          if (isHere) return `<li class="r-stage-list-item r-stage-list-here">${inner}<div class="r-stage-list-tag mono">YOU ARE HERE</div></li>`;
+          if (href) return `<li class="r-stage-list-item"><a class="r-stage-list-link" href="${href}">${inner}</a></li>`;
+          return `<li class="r-stage-list-item r-stage-list-pending">${inner}</li>`;
+        }).join('')}
+      </ol>
     </section>
 
     <!-- SOURCES -->

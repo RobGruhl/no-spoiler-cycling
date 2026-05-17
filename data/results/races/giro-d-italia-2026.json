@@ -1,0 +1,34 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "raceName": "Giro d'Italia",
+  "raceDate": "2026-05-08",
+  "researchedAt": "2026-05-17T00:30:00Z",
+  "inProgress": true,
+  "tldr": "The 2026 Giro is in progress — the race began 8 May in Bulgaria, finishes 31 May in Milan. This is a hub page for the stages we've published so far; the full race overview (GC, classifications, full team narratives, aftermath) will be written after the final stage rolls into Milan. Stages 1-7 are individually covered with podiums, narratives, and per-tracked-rider performances. Stage 8 onwards land each day as the race rolls.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "GC in progress", "team": "—", "gap": "race not yet over" }
+  ],
+  "narrative": {
+    "headline": "Race in progress — stages published as they finish",
+    "openingMoves": "Bulgarian Grande Partenza: Magnier won the opening sprint into Burgas (Stage 1), Silva took the small-group sprint into Veliko Tarnovo (Stage 2) on a day defined by a descent crash that wiped out four UAE Team Emirates riders simultaneously (Vine, Soler, Adam Yates, Baroncini all withdrawn), Magnier doubled up with a second sprint win in Sofia (Stage 3).",
+    "raceUnfolds": "After the rest-day transfer to Italy: Narváez salvaged UAE's first stage win in Cosenza (Stage 4), Igor Arrieta won a rain-affected hilly day to Potenza (Stage 5), Ballerini took a cobbled sprint into Naples (Stage 6).",
+    "decision": "Stage 7 — the Blockhaus 244 km queen stage — went to Vingegaard, 13 seconds clear of Gall, with Pellizzari 4th at +1:05 making the GC top-five on a home Italian mountain. The Giro's GC question is now mostly Visma's race to lose, with Decathlon's Gall the primary credible challenger.",
+    "finale": "Stages 8 onwards will be added as they finish. Final overall GC will be written once the race is over."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 2 — Veliko Tarnovo descent", "headline": "UAE's Bulgarian disaster", "description": "Mass crash on the rain-soaked descent into Veliko Tarnovo, ~21-23 km to go. Four UAE riders down at once. Vine (broken elbow + concussion), Soler (fractured pelvis), Adam Yates (delayed concussion), Baroncini all out within hours." },
+    { "kmFromFinish": null, "location": "Stage 7 — Blockhaus summit", "headline": "Vingegaard's GC claim", "description": "13.6 km final climb, 244 km stage, the longest of the Giro. Vingegaard attacked, only Gall could hold to within 13 seconds, the rest of the GC field lost a minute or more. Pellizzari held 4th." }
+  ],
+  "teamStories": [],
+  "riderPerformances": [],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Mid-race summary",
+    "quotes": [],
+    "body": "The Giro's first week was defined by Bulgarian sprinting (Magnier × 2, Ballerini), UAE's Bulgarian descent disaster (four riders out from a single crash), Italian climbing rebellion (Arrieta the surprise of Stage 5, Pellizzari emerging across multiple stages), and then Vingegaard claiming the GC with a Blockhaus win that confirmed the Paris-Nice form line. The final two weeks will decide whether Gall can press the gap closer, whether Pellizzari can climb onto the podium, and whether anyone else still has a card to play."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Giro d'Italia 2026 live coverage", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia/2026", "publication": "ProCyclingStats", "title": "Giro d'Italia 2026", "lang": "en" }
+  ]
+}

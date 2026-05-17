@@ -93,6 +93,20 @@ function renderRacePage(raceId) {
   if (!fs.existsSync(resultPath)) throw new Error(`Result data not found: ${resultPath}`);
   const result = JSON.parse(fs.readFileSync(resultPath, 'utf8'));
 
+  // Identify which stage results pages we've published for this race
+  const stagesDir = path.join(ROOT, 'data/results/stages');
+  const publishedStageNums = new Set();
+  if (fs.existsSync(stagesDir)) {
+    for (const f of fs.readdirSync(stagesDir)) {
+      const m = f.match(/^(.+)-stage-(\d+)\.json$/);
+      if (m && m[1] === raceId) publishedStageNums.add(parseInt(m[2], 10));
+    }
+  }
+  const raceStages = (race.stages || []).slice()
+    .filter(s => s.stageType !== 'rest-day')
+    .sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+  const hasStagePages = publishedStageNums.size > 0;
+
   const isMonument = (race.prestige || []).includes('monument');
   const isGrandTour = (race.prestige || []).includes('grand-tour');
   const prestigeLabel = isGrandTour ? 'GRAND TOUR' : isMonument ? 'MONUMENT' : (race.category || 'RACE');
@@ -201,6 +215,28 @@ function renderRacePage(raceId) {
         }).join('')}
       </aside>
     </section>
+
+    <!-- ALL PUBLISHED STAGES (stage races only) -->
+    ${hasStagePages ? `<section class="r-section">
+      <div class="r-section-head">
+        <span class="r-eyebrow mono">§ · Stages</span>
+        <h2 class="r-h2">${result.inProgress ? 'Stages published so far' : 'Every stage we covered'}</h2>
+      </div>
+      <ol class="r-stage-list">
+        ${raceStages.map(s => {
+          const has = publishedStageNums.has(s.stageNumber);
+          const href = has ? `${raceId}-stage-${s.stageNumber}.html` : null;
+          const inner = `
+            <div class="r-stage-list-num mono">S${s.stageNumber}</div>
+            <div class="r-stage-list-body">
+              <div class="r-stage-list-name">${htmlEscape(s.name || '')}</div>
+              <div class="r-stage-list-meta mono">${s.date || ''}${s.stageType ? ' · ' + s.stageType : ''}${s.distance ? ' · ' + s.distance + ' km' : ''}${has ? '' : ' · not yet published'}</div>
+            </div>`;
+          if (href) return `<li class="r-stage-list-item"><a class="r-stage-list-link" href="${href}">${inner}</a></li>`;
+          return `<li class="r-stage-list-item r-stage-list-pending">${inner}</li>`;
+        }).join('')}
+      </ol>
+    </section>` : ''}
 
     <!-- THE RACE IN 90 SECONDS -->
     ${result.narrative ? `<section class="r-section">
