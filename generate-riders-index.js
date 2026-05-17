@@ -164,7 +164,7 @@ function buildRidersIndex(riders, opts = {}) {
 .rc:hover{background:var(--paper-2)}
 .rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
 .rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
-.rc-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.15) contrast(1.02)}
+.rc-photo img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:grayscale(.15) contrast(1.02)}
 .rc-rank{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
 .rc-name{font-family:var(--font-sans);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.1;margin-bottom:4px}
 .rc-team{font-size:11px;color:var(--ink-2);letter-spacing:.04em;margin-bottom:8px;line-height:1.3}

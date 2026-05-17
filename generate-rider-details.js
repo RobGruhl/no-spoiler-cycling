@@ -167,7 +167,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
 
 .hero{display:grid;grid-template-columns:240px 1.3fr 1fr;gap:40px;padding:40px 0 32px;border-bottom:3px solid var(--ink)}
 .hero .photo{aspect-ratio:1/1;background:var(--paper-2);border:1px solid var(--rule);overflow:hidden;display:flex;align-items:center;justify-content:center}
-.hero .photo img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.12) contrast(1.03)}
+.hero .photo img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:grayscale(.12) contrast(1.03)}
 .hero .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
 .hero h1{font-family:var(--font-sans);font-weight:800;font-size:clamp(48px,5.5vw,84px);line-height:.9;letter-spacing:-.04em;margin:0}
 .hero h1 .em{font-weight:500;font-style:italic;color:var(--signal);display:block}
