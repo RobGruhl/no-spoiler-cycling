@@ -1,20 +1,34 @@
 {
-  "raceId": "giro-d-italia-2026", "stageNumber": 8, "stageName": "Chieti → Fermo", "stageDate": "2026-05-16", "stageType": "hilly", "researchedAt": "2026-05-17T01:00:00Z",
-  "tldr": "Jhonatan Narváez took UAE's second stage win in five days, a solo ride into Fermo's hill-circuit muri after teammate Mikkel Bjerg's late attack opened the gap. Leknessund 2nd at +32, Tjøtta 3rd at +42 for an Uno-X double. The day Vingegaard's leader's jersey defended itself — no GC threats in the break.",
+  "raceId": "giro-d-italia-2026", "stageNumber": 8, "stageName": "Chieti → Fermo", "stageDate": "2026-05-16", "stageType": "hilly", "researchedAt": "2026-05-17T05:45:00Z",
+  "tldr": "Jhonatan Narváez took his second stage win of this Giro, accelerating on the Muro di Capodarco at 10 km to go and soloing into Fermo. Leknessund 2nd at +0:32, Tjøtta 3rd at +0:42 (an Uno-X 2-3). Afonso Eulálio retained pink — Vingegaard and Hindley snatched 2 seconds at the line over GC rivals. GC frame from Stage 7 essentially holds.",
   "podium": [
     { "position": 1, "name": "Jhonatan Narváez", "team": "UAE Team Emirates - XRG", "time": "3h 27m 26s" },
     { "position": 2, "name": "Andreas Leknessund", "team": "Uno-X Mobility", "gap": "+0:32" },
-    { "position": 3, "name": "Martin Tjøtta", "team": "Uno-X Mobility", "gap": "+0:42" }
+    { "position": 3, "name": "Martin Tjøtta", "team": "Uno-X Mobility", "gap": "+0:42" },
+    { "position": 4, "name": "Guillermo Thomas Silva", "team": "Equipo Kern Pharma", "gap": "+0:44" },
+    { "position": 5, "name": "Lorenzo Milesi", "team": "Movistar Team", "gap": "+0:44" }
   ],
   "narrative": {
-    "headline": "Narváez wins again, UAE rebuild continues",
-    "body": "156 km from Chieti to Fermo. First 100 km uncomplicated; the closing 55 km dense with the Muri in Le Marche — Montefiore d'Aso KOM at ~60 km to go, Capodarco (2.5 km at 6.1%), the steep final wall climb back into Fermo inside the closing 10 km.\n\nThe stage played out as everyone expected: breakaway day, GC peloton content to ride tempo behind. The pre-final-circuit break thinned across the four closing climbs to a trio of Narváez, Bjerg (both UAE) and Leknessund. Bjerg attacked at 10 km to go on the climb back to Fermo — a deliberate UAE 1-2 move; Leknessund couldn't hold the Dane's pace. Narváez then went over the top of Bjerg's effort and rode the closing kilometres solo to the line. Leknessund 32 seconds back, Tjøtta + the next chase 42 seconds."
+    "headline": "Narváez wins from the Capodarco — Eulálio still in pink",
+    "body": "~155 km Chieti → Fermo, with the closing 55 km studded with the Muri of Le Marche: Montefiore dell'Aso at the front of the finale, Capodarco, then the steep wall back into Fermo inside 10 km to go.\n\nAttacks from the gun. Six riders including Alberto Bettiol got clear, were reeled in, and Bettiol went again with Filippo Ganna — 30 seconds for the two Italians until they were caught with roughly 100 km to ride. The racing never settled. Inside the final 75 km a large break formed, and from it Mikkel Bjerg, Jhonatan Narváez and Andreas Leknessund pushed clear to a minute's lead.\n\nOn Montefiore dell'Aso a ~40-rider chase group formed — Scaroni, Christen, Arrieta, Poels, van den Broek, Zana, Strong, López and others — but cooperation never came together. Javier Romo tried a solo bridge to the leaders and failed.\n\nOn the Muro di Capodarco, Narváez accelerated. He opened a gap; Leknessund clawed back to him once; Narváez kicked again and was clear for good. The steep climbs in the finale suited him, and he soloed to his second Giro stage win. Leknessund + 0:32, Tjøtta + 0:42 from the chase.\n\nThe peloton arrived almost two minutes after Narváez. Hindley and Vingegaard sprinted to gain two seconds at the line on their GC rivals."
   },
-  "gcImpact": { "headline": "Vingegaard defends without spending", "body": "GC unchanged on a day designed for the break. The Blockhaus margins from Stage 7 hold; the GC question stays open between Vingegaard and Gall heading into the second-week climbing stages." },
-  "riderPerformances": [],
-  "incidents": {
-    "abandons": [{ "riderId": null, "reason": "Fabio Christen (UAE) — DNF during stage" }, { "riderId": null, "reason": "Jake Stewart — DNF during stage" }]
-  },
+  "gcImpact": { "headline": "Eulálio retains pink; Vingegaard +3:15 in second", "body": "GC after Stage 8: Eulálio still in maglia rosa, Vingegaard 2nd at +3:15, Gall 3rd at +3:34, Scaroni 4th at +4:18, Hindley 5th at +4:23, Pellizzari 6th at +4:28, O'Connor 7th at +4:32. The Blockhaus frame from Stage 7 carries forward — a hilly transition day didn't move the needle, but Vingegaard and Hindley snatched 2 seconds with a finish-line dig over the rest of the GC group." },
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers",
+      "role": "stage-hunter", "position": null, "gap": null,
+      "narrative": "Late-bridge attempt with Alberto Bettiol after the initial six-rider break was reeled in. Got to a 30-second gap as a 2-up move before being absorbed with around 100 km to go. Not a win-shape effort, but the kind of aggressive scouting INEOS now uses Ganna for on hilly stages where his TT engine can hold a break together. No GC consequence.",
+      "keyMoments": [
+        { "km": null, "what": "Bridged with Bettiol after initial break caught; held 30s, absorbed with ~100 km to go" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
   "quotes": [],
-  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Narváez wins Giro Stage 8 solo to Fermo", "lang": "en" }, { "url": "https://www.cyclingweekly.com/", "publication": "Cycling Weekly", "title": "Giro Stage 8 — Narváez's solo finish", "lang": "en" }]
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-8-italy-results-2026/", "publication": "Cycling Stage", "title": "Giro 2026: Narvaéz wins from break, Eulálio still in pink", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/giro-2026-results/", "publication": "Cycling Stage", "title": "Giro 2026 — Results overview (Stage 8 row + GC)", "lang": "en" },
+    { "url": "https://www.giroditalia.it/en/tappe/stage-8-of-the-giro-ditalia-2026-chieti-fermo/", "publication": "Giro d'Italia official", "title": "Stage 8 of the Giro d'Italia 2026: Chieti, Fermo", "lang": "en" }
+  ]
 }
