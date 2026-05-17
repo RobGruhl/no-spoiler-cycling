@@ -180,6 +180,33 @@ Sections: `schema`, `crossrefs`, `invariants`, `spoilers`, `data`, `details`, `b
 
 The wiped-startlist regression test reads `HEAD~1:data/race-data.json` via `git show` so it requires `fetch-depth: 2` in the workflow checkout.
 
+## Results subsystem
+
+A separate set of **spoiler-gated** pages under `/results/` for post-race analysis: podiums, narratives, GC impact, per-rider performances, team storylines. Opposite contract from the calendar — these pages deliberately contain spoilers, gated by a client-side interstitial.
+
+**Data layout:**
+- `data/results/races/<race-id>.json` — race overviews (one-day races, stage-race hubs)
+- `data/results/stages/<race-id>-stage-N.json` — per-stage results
+- `data/results/riders/<slug>.json` — per-rider seasonArc paragraph (the rider page also auto-pulls riderPerformances from race/stage JSONs)
+
+**Generators:**
+```bash
+node generate-results.js --race RACE_ID         # race overview HTML
+node generate-stage-results.js --race RACE_ID   # all stages for a race
+node generate-rider-season.js --rider SLUG      # rider season page
+node generate-rider-season.js --all
+```
+
+**Skills:**
+- `/race-rider-team-results` — full methodology: Perplexity → Firecrawl deep-scrape → JSON write → HTML generate. Use this when populating any new result.
+- `/backfill-rider-seasonarcs` — one iteration of the backfill loop. Driven by `/loop /backfill-rider-seasonarcs`. Processes ~5 riders per iteration; idempotent.
+
+**Quality gate:** `node scripts/test-results-completeness.js [--strict] [--verbose] [--json]`. Checks: race + stage coverage, rider seasonArc presence, team narrative coverage, **forward cross-links** (calendar → results), **photo presence + top-crop CSS**, manifest consistency. Wired into CI as a non-strict step; `--strict` runs nightly as a report.
+
+**Forward-link invariants:** every past stage / race / rider with results data has a "View Results" link in its spoiler-safe calendar page (red link styled as `var(--signal)` with a small "spoilers" subscript). The completeness test errors out if any are missing.
+
+**Photo rule:** rider photos use `object-position: top center` so head-shots aren't cropped to torsos. Procyclingstats only hosts 160×240 thumbnails — that's the working ceiling. See `scripts/fetch-rider-photos.js`.
+
 ## Batch Update Strategy
 
 For large updates (20+ races), use 3 parallel agents:

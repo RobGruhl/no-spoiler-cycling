@@ -272,6 +272,82 @@ For an in-progress stage race (Giro in May, Tour in July, Vuelta in Aug–Sep), 
 8. `node generate-stage-results.js --race <race-id>` + `node generate-results.js --race <race-id>` + `node generate-rider-season.js --all` (cheap, just rerenders HTML).
 9. `node scripts/test-results-completeness.js` — verify no new errors.
 
+## Calendar-side cross-links
+
+The calendar-side (spoiler-safe) pages link forward to their results-side counterparts when both:
+- the relevant date has passed (stage / race only), and
+- the corresponding results JSON exists on disk.
+
+When you create a new stage/race/rider result, you don't need to touch the calendar-side generators — the existing helpers re-evaluate on every build:
+
+| Generator | Helper | Forward link target |
+| --- | --- | --- |
+| `generate-race-details.js → renderStage()` | `hasStageResults(raceId, n)` + `isPastDate(stage.date)` | `../results/race/<race-id>-stage-N.html` |
+| `generate-race-details.js → renderOneDay/renderStageRace()` | `hasRaceResults(raceId)` + `isPastDate(race.raceDate)` | `../results/race/<race-id>.html` |
+| `generate-race-details.js → renderStageRace()` stage rows | per-stage `hasStageResults()` | inline `R` badge linking to stage results |
+| `generate-rider-details.js` | `hasRiderResults(slug)` (checks HTML on disk) | `../results/rider/<slug>.html` |
+
+The link styling uses `var(--signal)` (red) with a small "spoilers" subscript so users know what they're clicking into.
+
+**The completeness test enforces these invariants** — see `scripts/test-results-completeness.js → checkCrossLinks()`. If you add a new result file and forget to regenerate the calendar HTML, the test errors out.
+
+After updating any results data file, also regenerate the calendar-side pages so the link materialises:
+```bash
+node generate-race-details.js --stages <race-id>   # for stage races
+node generate-race-details.js --race <race-id>     # for one-day
+node generate-rider-details.js --all               # men + outsiders
+node generate-rider-details.js --all --gender women
+```
+
+## Backfill workflow
+
+When the completeness test reports riders with `riderPerformances[]` but no `data/results/riders/<slug>.json` — that's seasonArc backfill work. The mechanism is `/loop /backfill-rider-seasonarcs`:
+
+```text
+/loop /backfill-rider-seasonarcs
+```
+
+Each iteration processes up to 5 riders and commits as `Loop iter N: <slug-list> seasonArcs`. The loop terminates when the missing list is empty.
+
+Full per-iteration recipe is in `.claude/commands/backfill-rider-seasonarcs.md`. Priority order is documented there too — GC headliners first (Pogacar, Vingegaard, Almeida, Evenepoel, Roglič, Pidcock, Gall, Onley, Ayuso, Carapaz), then sprinters & classics, then climbers, then outsiders.
+
+**Idempotency**: re-running on a slice that was already committed is a no-op because Phase 0 reads `hasJson` from the completeness JSON.
+
+**Failure handling**: per-rider failures don't fail the iteration. After two consecutive iterations with the same rider failing, reduce `MAX_PER_ITER` to 2 via `/loop /backfill-rider-seasonarcs --max 2`.
+
+## Photos
+
+Rider photos come from procyclingstats via `scripts/fetch-rider-photos.js`:
+
+```bash
+node scripts/fetch-rider-photos.js                  # all rosters
+node scripts/fetch-rider-photos.js --outsiders      # neo-pros, the gap-fillers
+node scripts/fetch-rider-photos.js --rider <slug>   # one rider, any roster
+node scripts/fetch-rider-photos.js --force          # re-download
+```
+
+Photos land in `riders/photos/<slug>.jpg`. The script writes the local path back to the roster's `photoUrl` field, plus opportunistically backfills dateOfBirth, height, weight, nationality.
+
+**Known limitation — PCS only hosts 160×240 thumbnails.** Probed alternate URL patterns (`/images/large/`, `/images/orig/`, `-large.jpg`, `-hd.jpg`) — all 302 redirect. The `/images/riders/<2>/<2>/<slug>-<year>.jpg` form IS the high-res form they serve. The top-crop CSS (`object-position: top center`) does the heavier lifting for visual quality.
+
+**Top-crop CSS** (`generate-riders-index.js` and `generate-rider-details.js`):
+```css
+.rc-photo img      { object-fit: cover; object-position: top center; ... }
+.hero .photo img   { object-fit: cover; object-position: top center; ... }
+```
+
+The completeness test asserts the top-crop rule is in the generated HTML — see `checkPhotos()`.
+
+**Perplexity fallback (manual)**: for outsiders whose PCS profile lacks a photo (rare), search Perplexity for `'<name> cycling photo headshot'` and pick a non-licensed alternative. Don't automate — the false-positive rate is too high for an unattended path.
+
+## Teams
+
+(Pending: WS4 of plan ok-i-found-the-ancient-grove — generate-teams.js + generate-team-results.js + nav additions. When implemented, teams have the same calendar / results-side split as riders, with team-slug helper in `lib/team-utils.js`.)
+
+The `PRINCIPAL_TEAMS` list in `scripts/test-results-completeness.js:69` is the single source of truth for team coverage. Substring matching by the first token (e.g. `'UAE'` matches `'UAE Team Emirates - XRG'`, `'Visma'` matches `'Visma | Lease a Bike'`).
+
+To improve a team's coverage today, add a `teamStories[]` entry in a race overview JSON. Strategic narrative (what they tried, who they backed) is more useful than results-summary prose.
+
 ## Spoiler-safety contract for the results subsystem
 
 The results subsystem **deliberately contains spoilers**. It's gated by a client-side interstitial (`<gate>` element in each rendered page) that asks the user to confirm before revealing content. This is the opposite contract from the spoiler-safe calendar at `/`.

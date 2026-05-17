@@ -31,9 +31,20 @@ Every link is evaluated for spoiler safety before being added.
 
 The site uses a UCI Roadbook aesthetic — paper/ink tones, Inter Tight + JetBrains Mono, and the UCI rainbow (blue/red/black/yellow/green) as a structural accent. All pages share `shared.css`.
 
+## How it's built
+
+Two parallel page systems share the same project:
+
+1. **The calendar** (the main site) is spoiler-safe. Race pages, stage detail sheets, rider pages, and broadcast info — all curated to never reveal results.
+2. **The results subsystem** (under `/results/`) is spoiler-gated. Each race / stage / rider page lives behind a click-through interstitial; once dismissed it persists per-browser. This is where podiums, narratives, GC standings, per-rider performances, and team storylines live.
+
+Both systems link to each other — the calendar page for a finished stage has a small "View Results →" link that lands on the gate; the results page for the same stage has a link back to the spoiler-safe view. The gate makes the boundary explicit: nothing accidentally leaks.
+
+Data is curated, not scraped at request time. `data/race-data.json` is the spoiler-safe calendar source; `data/results/{races,stages,riders}/*.json` is the results-subsystem source. Generators turn JSON into HTML. See `CLAUDE.md` for the full architecture + skill recipes.
+
 ## For Developers
 
-Static site: vanilla HTML/CSS/JS, generated from `data/race-data.json`. No backend, no database, deployed on GitHub Pages.
+Static site: vanilla HTML/CSS/JS, generated from `data/race-data.json` and `data/results/*`. No backend, no database, deployed on GitHub Pages.
 
 ```bash
 # Regenerate everything
