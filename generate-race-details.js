@@ -26,6 +26,24 @@ function parseUTC(ymd) {
   return new Date(Date.UTC(y, m - 1, d));
 }
 
+const TODAY = new Date().toISOString().slice(0, 10);
+
+function isPastDate(ymd) {
+  return !!ymd && ymd <= TODAY;
+}
+
+function hasStageResults(raceId, stageNumber) {
+  return fs.existsSync(`./data/results/stages/${raceId}-stage-${stageNumber}.json`);
+}
+
+function hasRaceResults(raceId) {
+  return fs.existsSync(`./data/results/races/${raceId}.json`);
+}
+
+function resultsStat(href) {
+  return `<div class="stat results-stat"><span class="k">Results</span><span class="v sm"><a href="${href}" style="border-bottom:1px solid var(--signal);color:var(--signal);font-weight:600">View → <small style="font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:400">spoilers</small></a></span></div>`;
+}
+
 function fmtLongDate(ymd) {
   const d = parseUTC(ymd);
   if (!d) return '';
@@ -500,6 +518,8 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
+.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -714,6 +734,7 @@ function renderOneDay(race) {
         <div class="stat"><span class="k">Key climbs</span><span class="v mono">${climbsCount || '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 
@@ -796,8 +817,10 @@ function renderStageRace(race) {
     const hasDetails = s.stageDetails && Object.keys(s.stageDetails).length > 0;
     const tag = hasDetails ? 'a' : 'div';
     const attrs = hasDetails ? ` href="${href}"` : '';
+    const showResults = isPastDate(s.date) && hasStageResults(race.id, n);
+    const resultsBadge = showResults ? `<a class="res-tag" href="../results/race/${race.id}-stage-${n}.html" title="View stage results (spoilers)">R</a>` : '';
     return `<${tag} class="stage${isQueen ? ' qs' : ''}"${attrs}>
-      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span></div>
+      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span>${resultsBadge}</div>
       <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
       <div class="c dt">${fmtShortDate(s.date)}</div>
       <div class="c rt">${htmlEscape(routeText).replace(/→/g, '<span class="arr">→</span>')}</div>
@@ -851,6 +874,7 @@ function renderStageRace(race) {
         <div class="stat"><span class="k">Total km</span><span class="v mono">${totalKm ? Math.round(totalKm) : '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 
@@ -984,6 +1008,7 @@ function renderStage(race, stage) {
         <div class="stat"><span class="k">Distance</span><span class="v mono">${stage.distance || '—'}${stage.distance ? '<small style="font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px">km</small>' : ''}</span></div>
         <div class="stat"><span class="k">Terrain</span><span class="v sm">${htmlEscape(terrCodes)}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
+        ${isPastDate(stage.date) && hasStageResults(race.id, stage.stageNumber) ? resultsStat(`../results/race/${race.id}-stage-${stage.stageNumber}.html`) : ''}
       </aside>
     </section>
 

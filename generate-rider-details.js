@@ -60,6 +60,10 @@ function parseUTC(ymd) {
   return new Date(Date.UTC(y, m - 1, d));
 }
 
+function hasRiderResults(slug) {
+  return fs.existsSync(`./results/rider/${slug}.html`);
+}
+
 function fmtShortDate(ymd) {
   const d = parseUTC(ymd);
   if (!d) return '';
@@ -264,6 +268,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
         <div class="stat"><span class="k">Points</span><span class="v mono">${rider.points || '—'}</span></div>
         <div class="stat"><span class="k">Team</span><span class="v sm">${htmlEscape(rider.team || 'TBD')}</span></div>
         <div class="stat"><span class="k">2026 Races</span><span class="v">${programCount || '—'}</span></div>
+        ${hasRiderResults(rider.slug || rider.id) ? `<div class="stat results-stat"><span class="k">Season Results</span><span class="v sm"><a href="../results/rider/${htmlEscape(rider.slug || rider.id)}.html" style="border-bottom:1px solid var(--signal);color:var(--signal);font-weight:600">View → <small style="font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:400">spoilers</small></a></span></div>` : ''}
       </aside>
     </section>
 
