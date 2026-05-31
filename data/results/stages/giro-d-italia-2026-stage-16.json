@@ -1,0 +1,174 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 16,
+  "stageName": "Bellinzona → Carì",
+  "stageDate": "2026-05-26",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "On the first stage after the second rest day, Jonas Vingegaard attacked 6.5 km from the Carì summit and soloed to his fourth mountain stage win of the 2026 Giro, stretching his maglia rosa lead to more than four minutes over Felix Gall.",
+  "podium": [
+    {
+      "position": 1,
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "riderId": "jonas-vingegaard",
+      "time": "2:57:40"
+    },
+    {
+      "position": 2,
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "riderId": "felix-gall",
+      "gap": "+1:09"
+    },
+    {
+      "position": 3,
+      "name": "Jai Hindley",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+1:11"
+    },
+    {
+      "position": 4,
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "riderId": "thymen-arensman",
+      "gap": "+1:14"
+    },
+    {
+      "position": 5,
+      "name": "Derek Gee-West",
+      "team": "Israel - Premier Tech",
+      "gap": "+1:18"
+    }
+  ],
+  "narrative": {
+    "headline": "Vingegaard stamps his authority again, soloing to a fourth mountain win at Carì",
+    "body": "The first stage out of the second rest day was a compact 113 km Swiss mountain test from Bellinzona to the climb at Carì, and Visma | Lease a Bike controlled it from the gun. An early move with Johan Jacobs, Diego Ulissi, Markel Beloki, Nelson Oliveira and others was kept on a short leash, never allowed beyond roughly two minutes. Across the day's earlier climbs the breakaway reshuffled, with Giulio Ciccone cresting first repeatedly to chase the mountains jersey, leading over the opening two climbs and pressing on the third and fourth before the race left the Brenno valley circuit.\n\nOn the final ascent to Carì the GC group thinned quickly. Giulio Pellizzari was dropped early and faded badly, while Afonso Eulálio and Ben O'Connor also lost contact with the leaders. With 6.5 km to go the lead group held just Vingegaard, Davide Piganzoli, Gall, Arensman, Bernal and Hindley when the pink jersey attacked. He opened a gap immediately and, as on previous mountain days, only Felix Gall briefly responded before cracking and slipping back to the chasers.\n\nVingegaard rode out to a lead of more than a minute. Inside the final 2 km Thymen Arensman attacked the chase group, with only Gall and Hindley able to follow and Derek Gee-West clawing back on just before the flamme rouge. Vingegaard took the win uncontested, Gall produced a sharp late acceleration to take second, Hindley was third and Arensman fourth. The result tightened the battle behind: Gall, Arensman and Hindley are now all within a minute of one another on GC, setting up a fascinating fight for the final podium in the last week."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard extends to over four minutes; a three-man scrap forms for the podium",
+    "body": "Jonas Vingegaard retains the maglia rosa and pushes his overall lead to +4:03 over Felix Gall, who climbs to second. Thymen Arensman moves up to third at +4:27 and Jai Hindley sits fourth at +5:00 — the trio separated by under a minute and primed for a podium battle. Afonso Eulálio holds fifth at +5:40 after a reshuffle, ahead of Derek Gee-West (+7:09), Michael Storer (+7:14) and Davide Piganzoli (+7:57). Ben O'Connor (+9:20) and Egan Bernal (+9:44) round out the top ten. The day's big GC loser was Giulio Pellizzari, dropped early on the Carì climb and conceding more than 18 minutes on the stage, ending his outsider podium hopes."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Vingegaard's Visma team controlled the stage throughout, never letting the break gain more than two minutes. On the final climb to Carì he launched his trademark attack with 6.5 km remaining, instantly distanced the GC group and built a lead of over a minute. He soloed in for his fourth mountain stage win of this Giro, adding Carì to Blockhaus, Corno alle Scale and Pila. The victory stretched his overall lead to more than four minutes and stamped his control over the race heading into the final week.",
+      "keyMoments": [
+        { "km": 6.5, "what": "Attacked from the lead group on the climb to Carì, immediately opening a gap" },
+        { "km": 2, "what": "Lead had grown to more than a minute as chasers fought behind" },
+        { "km": 0, "what": "Soloed to a fourth mountain stage win, extending GC lead to +4:03" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+1:09",
+      "narrative": "Gall was again the only rider able to react when Vingegaard attacked at 6.5 km to go, but his resistance was brief before he dropped back to the chasers. In the closing kilometres he recovered and, with a sharp acceleration inside the final 2 km, dropped Hindley and Arensman to take second on the stage. The ride lifts him to second overall at +4:03, the best of the rest behind the dominant maglia rosa.",
+      "keyMoments": [
+        { "km": 6.5, "what": "Briefly followed Vingegaard's attack before being dropped" },
+        { "km": 2, "what": "Recovered and accelerated sharply to take second on the stage" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+1:14",
+      "narrative": "Arensman was present in the elite group when Vingegaard went clear and launched his own attack from the chasers inside the final 2 km. Only Gall and Hindley could follow, and Gee-West rejoined before the flamme rouge. He took fourth on the stage and, crucially, climbed to third overall at +4:27, putting himself squarely in the fight for the final podium.",
+      "keyMoments": [
+        { "km": 2, "what": "Attacked the chase group; only Gall and Hindley could follow" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal",
+      "name": "Egan Bernal",
+      "team": "INEOS Grenadiers",
+      "role": "domestique",
+      "position": 7,
+      "gap": "+2:04",
+      "narrative": "Bernal was in the select lead group of six that remained when Vingegaard attacked at 6.5 km, but could not respond to the surge. He came home seventh on the stage at +2:04 and sits tenth overall at +9:44, holding a top-ten GC place but well off the podium battle.",
+      "keyMoments": [
+        { "km": 6.5, "what": "In the six-rider GC group at the moment Vingegaard attacked but unable to follow" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer",
+      "name": "Michael Storer",
+      "team": "Tudor Pro Cycling Team",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+2:18",
+      "narrative": "Storer rode a solid mountain stage to finish eighth at +2:18 and consolidate his position in the GC top ten, sitting seventh overall at +7:14 after the day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Ciccone was the animator of the day's breakaway in pursuit of the mountains jersey. He crested the first climb at the front and took maximum points on the second, briefly pressing on to gain half a minute before sitting up to wait for fellow escapees. He continued to contest the points on the third and fourth climbs.",
+      "keyMoments": [
+        { "km": null, "what": "First over the opening climb and took maximum KOM points on the second climb" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 49,
+      "gap": "+18:06",
+      "narrative": "A grim day for the young Italian outsider. Pellizzari was dropped early on the final climb to Carì and haemorrhaged time, eventually finishing 49th at +18:06. The collapse ends any lingering podium ambitions and sees him slide out of GC contention.",
+      "keyMoments": [
+        { "km": null, "what": "Dropped early on the Carì climb, losing more than 18 minutes" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-16-italy-results-2026/",
+      "publication": "CyclingStage",
+      "title": "Giro 2026: Vingegaard underlines dominance with fourth mountain finish win",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingweekly.com/racing/who-is-leading-the-giro-d-italia-2026",
+      "publication": "Cycling Weekly",
+      "title": "Who is leading the Giro d'Italia 2026?",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/giro-d-italia-gc-standings-2026/",
+      "publication": "Cyclingnews",
+      "title": "Giro d'Italia 2026 GC standings",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.giroditalia.it/en/news/jonas-vingegaard-wins-stage-16-of-the-2026-giro-ditalia/",
+      "publication": "Giro d'Italia (official)",
+      "title": "Carì turns Pink: Vingegaard claims fourth Giro d'Italia stage win",
+      "lang": "en"
+    }
+  ]
+}

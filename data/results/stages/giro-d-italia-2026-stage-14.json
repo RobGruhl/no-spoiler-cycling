@@ -1,0 +1,144 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 14,
+  "stageName": "Aosta → Pila",
+  "stageDate": "2026-05-23",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Jonas Vingegaard solos to a third stage win on the summit finish at Pila and rips the maglia rosa off Afonso Eulálio, who haemorrhages 2:26 and slips to second overall. Felix Gall is best of the rest at +0:49 and climbs to third in the new GC.",
+  "podium": [
+    { "position": 1, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "riderId": "jonas-vingegaard", "time": "3:53:01" },
+    { "position": 2, "name": "Felix Gall", "team": "Decathlon AG2R La Mondiale Team", "riderId": "felix-gall", "gap": "+0:49" },
+    { "position": 3, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:58" },
+    { "position": 4, "name": "Davide Piganzoli", "team": "Polti VisitMalta", "gap": "+1:03" },
+    { "position": 5, "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "riderId": "giulio-pellizzari", "gap": "s.t. (+1:03)" }
+  ],
+  "narrative": {
+    "headline": "Vingegaard's Pila masterclass overturns the Giro",
+    "body": "Visma | Lease a Bike seized the day from the gun and never let go, controlling a five-climb Aosta Valley stage in unseasonable heat. A huge early move went clear over the opening Saint-Barthélemy — Mattia Bais first, then a swollen group including Giulio Ciccone, Enric Mas, Jan Christen, Jhonatan Narváez, Wout Poels and Einer Rubio — but its maximum advantage of around four minutes was always on a Visma leash, shrinking to roughly two minutes as the race hit the final climb to Pila.\n\nThe decisive selection came on the 16.5 km haul to the ski resort. With about 9 km to the summit, Wout Poels accelerated and only Ciccone and Rubio could follow immediately; further down the slope the pink jersey of Afonso Eulálio cracked and lost contact with the GC group, with Derek Gee-West and Ben O'Connor also distanced. The breakaway remnants were swallowed as the favourites closed; Ciccone and Rubio rolled the dice with a last attack inside 5.5 km to go before a Davide Piganzoli-led acceleration came past 400 m later.\n\nWith 4.6 km remaining, Vingegaard launched and the race was effectively over. Metre by metre the Dane distanced everyone and soloed to victory — his third stage win of this Giro, all on summit finishes. Felix Gall, the best of the rest for the third time, crossed 49 seconds back, with Jai Hindley at +0:58 and Piganzoli and Giulio Pellizzari a little further adrift.\n\nEulálio limped home 2:26 down. He keeps second place, but the buffer he had carried since stage 5 is gone — Vingegaard now wears pink for the first time in his career and leads the Giro by 2:26."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard takes the maglia rosa",
+    "body": "Vingegaard TAKES the pink jersey for the first time in his career, overturning Eulálio's long-held breakaway buffer in a single climb. New GC: 1. Vingegaard; 2. Afonso Eulálio +2:26 (loses pink but holds second after shipping 2:26 on the Pila climb); 3. Felix Gall +2:50 (up from a podium-edge position, swapping with Arensman); 4. Thymen Arensman +3:03 (drops to fourth); 5. Jai Hindley +3:43; 6. Giulio Pellizzari +4:22; 7. Michael Storer +4:46; 8. Ben O'Connor +5:22. Eulálio's overturned advantage — he had led since stage 5 — is the headline: he went from race leader to 2:26 down in one stage, while Vingegaard converted a deficit into a 2:26 lead."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "The complete performance. Vingegaard's team smothered the stage from the start and set him up perfectly on the climb to Pila. When the late attacks were neutralised he simply accelerated with 4.6 km to go and rode away solo, distancing the entire GC group metre by metre. It was his third stage win of the race, all on summit finishes, and it earned him the maglia rosa for the first time in his career. He now leads the Giro by 2:26 over Eulálio.",
+      "keyMoments": [
+        { "km": null, "what": "Visma | Lease a Bike controls the front of the race all day" },
+        { "km": 4.6, "what": "Launches the winning solo move on the climb to Pila" },
+        { "km": 0, "what": "Solos to a third stage win and takes the pink jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon AG2R La Mondiale Team",
+      "role": "gc-contender",
+      "position": 2,
+      "gap": "+0:49",
+      "narrative": "Best of the rest for the third time in this Giro. When Vingegaard accelerated, Gall could not respond and spent the final ~4.5 km chasing from ever further behind, ultimately conceding 49 seconds. The ride moved him up to third overall, swapping places with Arensman, and confirmed him as the strongest of the chasers behind Vingegaard.",
+      "keyMoments": [
+        { "km": 4.6, "what": "Can't follow Vingegaard's attack, settles into chase" },
+        { "km": 0, "what": "Crosses second at +0:49, moves up to third on GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "gc-contender",
+      "position": 5,
+      "gap": "+1:03",
+      "narrative": "The young Italian held with the front of the GC group on Pila and came home fifth on the stage, same time as Piganzoli at +1:03. It was a solid day that kept him in the top six overall, sitting sixth at +4:22 in the reshaped general classification.",
+      "keyMoments": [
+        { "km": 0, "what": "Fifth on the stage, holds sixth overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "gc-contender",
+      "position": 6,
+      "gap": "+1:23",
+      "narrative": "Arensman limited his losses to 1:23 on the stage, sixth across the line, but it was enough to cost him a place on GC. He dropped from third to fourth overall as Gall leapfrogged him, now sitting at +3:03 behind the new leader Vingegaard.",
+      "keyMoments": [
+        { "km": 0, "what": "Sixth on the stage at +1:23; slips from third to fourth overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer",
+      "name": "Michael Storer",
+      "team": "Tudor Pro Cycling Team",
+      "role": "gc-contender",
+      "position": 7,
+      "gap": "+1:35",
+      "narrative": "Storer came in seventh at +1:35, keeping himself inside the GC top ten. He holds seventh overall at +4:46 in the new classification after the Pila shake-up.",
+      "keyMoments": [
+        { "km": 0, "what": "Seventh on the stage, holds seventh overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal",
+      "name": "Egan Bernal",
+      "team": "INEOS Grenadiers",
+      "role": "gc-contender",
+      "position": 10,
+      "gap": "+2:08",
+      "narrative": "Bernal finished tenth on the stage at +2:08, same time as Wout Poels and Jan Hirt, riding into the line with the tail of the front group. A respectable day in the high mountains that kept him in contention behind the leaders.",
+      "keyMoments": [
+        { "km": 0, "what": "Tenth on the stage at +2:08" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "breakaway",
+      "position": null,
+      "gap": null,
+      "narrative": "Ciccone was the most active breakaway rider, going clear over the early Saint-Barthélemy and collecting mountain points all day, beating Van der Lee on the third climb and topping the first summit. He responded to Poels' acceleration on Pila and made a final all-or-nothing attack alongside Einer Rubio inside the last 5.5 km, but the move was caught by the surging favourites about 400 m later.",
+      "keyMoments": [
+        { "km": null, "what": "Joins the early move on the Saint-Barthélemy, takes mountain points" },
+        { "km": 9, "what": "Follows Poels' acceleration on the Pila climb" },
+        { "km": 5.5, "what": "Last-gasp attack with Rubio, caught ~400 m later" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-14-italy-results-2026/",
+      "publication": "Cycling Stage",
+      "title": "Giro 2026: Vingegaard strikes a double blow in Pila",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.giroditalia.it/en/news/jonas-vingegaard-wins-stage-14-of-the-2026-giro-ditalia-and-takes-the-maglia-rosa/",
+      "publication": "giroditalia.it",
+      "title": "Jonas Vingegaard: a hat-trick and the Maglia Rosa in Pila",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-2026-stage-14-jonas-vingegaard-seizes-first-maglia-rosa-of-his-career-with-third-stage-win-after-visma-masterclass-in-the-mountains",
+      "publication": "CyclingUpToDate",
+      "title": "Results Giro d'Italia 2026 Stage 14 — Vingegaard seizes first Maglia Rosa of his career",
+      "lang": "en"
+    }
+  ]
+}

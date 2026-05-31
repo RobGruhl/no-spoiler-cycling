@@ -1,23 +1,88 @@
 {
-  "raceId": "giro-d-italia-2026", "stageNumber": 1, "stageName": "Nessebar → Burgas", "stageDate": "2026-05-08", "stageType": "flat", "researchedAt": "2026-05-17T00:00:00Z",
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 1,
+  "stageName": "Nessebar → Burgas",
+  "stageDate": "2026-05-08",
+  "stageType": "flat",
+  "researchedAt": "2026-05-17T00:00:00Z",
   "tldr": "Paul Magnier opened the Giro with a flat Black Sea bunch sprint in Burgas — first WorldTour Grand Tour stage win, first maglia rosa, in the Bulgarian Grande Partenza. Lund Andresen 2nd, Vernon 3rd. Milan fourth in his Giro opener.",
   "podium": [
-    { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "time": "3h 21m 08s" },
-    { "position": 2, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM", "gap": "s.t." },
-    { "position": 3, "name": "Ethan Vernon", "team": "NSN Cycling Team", "gap": "s.t." },
-    { "position": 4, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek", "gap": "s.t." }
+    {
+      "position": 1,
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "time": "3h 21m 08s"
+    },
+    {
+      "position": 2,
+      "name": "Tobias Lund Andresen",
+      "team": "Decathlon CMA CGM",
+      "gap": "s.t."
+    },
+    {
+      "position": 3,
+      "name": "Ethan Vernon",
+      "team": "NSN Cycling Team",
+      "gap": "s.t."
+    },
+    {
+      "position": 4,
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "gap": "s.t."
+    }
   ],
-  "narrative": { "headline": "Magnier takes Stage 1 and the pink", "body": "147 km along the Bulgarian Black Sea coast from Nessebar to Burgas, finishing on two laps of a short city circuit. A late crash inside the final 3 km meant same-time bunch credit for GC; the front of the sprint was contested clean. Magnier — Soudal's 22-year-old French sprinter — claimed his first Grand Tour stage and the first maglia rosa of the 2026 Giro." },
-  "gcImpact": { "headline": "Magnier in pink", "body": "First leader's jersey to Magnier on time bonuses. The opening trio of stages in Bulgaria were always going to be a holding period for GC; the climbing returned with Stage 7." },
+  "narrative": {
+    "headline": "Magnier takes Stage 1 and the pink",
+    "body": "147 km along the Bulgarian Black Sea coast from Nessebar to Burgas, finishing on two laps of a short city circuit. A late crash inside the final 3 km meant same-time bunch credit for GC; the front of the sprint was contested clean. Magnier — Soudal's 22-year-old French sprinter — claimed his first Grand Tour stage and the first maglia rosa of the 2026 Giro."
+  },
+  "gcImpact": {
+    "headline": "Magnier in pink",
+    "body": "First leader's jersey to Magnier on time bonuses. The opening trio of stages in Bulgaria were always going to be a holding period for GC; the climbing returned with Stage 7."
+  },
   "riderPerformances": [
     {
-      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek",
-      "role": "sprinter", "position": 4, "gap": "s.t.",
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Opened the 2026 Giro with a clean bunch-sprint win in Burgas on the Bulgarian Grande Partenza, pulling on the first maglia rosa of the edition. The 21-year-old Soudal Quick-Step fast man timed the gallop perfectly to announce himself as the sprint to beat.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Won the opening bunch sprint into Burgas; first maglia rosa of the race"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "role": "sprinter",
+      "position": 4,
+      "gap": "s.t.",
       "narrative": "Fourth in the Giro opener — solid but Lidl-Trek's lead-out couldn't quite get Milan to the front of the sprint train. The week ahead had three more flat stages for him to convert.",
       "incident": null
     }
   ],
-  "incidents": { "crashes": [{ "description": "Late crash inside the final 3 km on the Burgas circuit; same-time rule applied." }] },
+  "incidents": {
+    "crashes": [
+      {
+        "description": "Late crash inside the final 3 km on the Burgas circuit; same-time rule applied."
+      }
+    ]
+  },
   "quotes": [],
-  "sources": [{ "url": "https://www.cyclingnews.com/", "publication": "Cyclingnews", "title": "Magnier wins Giro Stage 1", "lang": "en" }]
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/",
+      "publication": "Cyclingnews",
+      "title": "Magnier wins Giro Stage 1",
+      "lang": "en"
+    }
+  ]
 }

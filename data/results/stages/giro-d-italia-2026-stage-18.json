@@ -1,0 +1,110 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 18,
+  "stageName": "Fai della Paganella → Pieve di Soligo",
+  "stageDate": "2026-05-28",
+  "stageType": "hilly",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Paul Magnier completes a hat-trick of stage wins in a bunch sprint despite the late Muro di Ca' del Poggio; Jonas Vingegaard retains the maglia rosa with three stages to go.",
+  "podium": [
+    { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "riderId": "paul-magnier", "time": "3:46:50" },
+    { "position": 2, "name": "Edoardo Zambanini", "team": "Bahrain Victorious", "gap": "+0:00" },
+    { "position": 3, "name": "Jonathan Milan", "team": "Lidl-Trek", "riderId": "jonathan-milan", "gap": "+0:00" },
+    { "position": 4, "name": "Francesco Busatto", "team": "Intermarché-Wanty", "gap": "+0:00" },
+    { "position": 5, "name": "Corbin Strong", "team": "Israel-Premier Tech", "riderId": "corbin-strong", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Magnier completes hat-trick, Vingegaard retains pink",
+    "body": "It took 35 kilometres of relentless attacking before the day's move finally stuck. Andrea Mifsud and Mattia Bais slipped clear, were joined by James Shaw, and with 106 km remaining Jonas Geens bridged across to make it a four-man break. Their advantage never grew beyond just over two minutes, and with 20 km to go the escape was effectively over; only Geens fought on alone before being swept up at the foot of the Muro di Ca' del Poggio.\n\nThe brutally steep Muro, tucked inside the final 10 kilometres, is exactly the kind of wall that can blow a sprint apart. Afonso Eulálio attacked on its slopes but was reeled in by the GC group just before the summit, with Corbin Strong and Orluis Aular also active. Crucially, the peloton — most of the fast men still aboard — was never far adrift, and the selection failed to truly take hold over the top.\n\nInside the final 6 km Johannes Kulset jumped away and Eulálio chased across, but the peloton closed the chase group down and caught the pair right before the flamme rouge, teeing up the bunch finish. Jasper Stuyven delivered a textbook lead-out and Paul Magnier powered to his third win of this Giro in convincing fashion, holding off Edoardo Zambanini and Jonathan Milan while also reclaiming the maglia ciclamino points jersey from Jhonatan Narváez.\n\nThe general classification was untouched: Vingegaard stays in pink with Felix Gall and Thymen Arensman completing the podium. Three stages remain — the queen stage 19 to Piani di Pezzè, stage 20 over Piancavallo, and the processional finale in Rome on Sunday."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard retains pink",
+    "body": "Jonas Vingegaard finished safely in the bunch and keeps the maglia rosa, a lead he has held since Pila on stage 14. Behind him the GC remains unchanged: Felix Gall sits second at +4:03, Thymen Arensman third at +4:27, Jai Hindley fourth at +5:00, Afonso Eulálio fifth at +5:40, Derek Gee sixth at +7:09 and Michael Storer seventh at +7:14. With three stages left — the queen stage 19 (Feltre → Piani di Pezzè) and the Piancavallo summit on stage 20 offering the last realistic chances to overturn the GC before the Rome finale on Sunday — the real overall battle now hinges on the two remaining mountain days."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Magnier capped a stunning Giro with his third stage victory, completing a sprint hat-trick. The young Frenchman survived the steep Muro di Ca' del Poggio inside the final 10 km, staying near the front as the climb failed to fragment the bunch decisively. With the escapees caught just before the flamme rouge, his team set up the finale and Jasper Stuyven delivered a perfect lead-out. Magnier launched and powered clear convincingly, holding off Edoardo Zambanini and Jonathan Milan. The win also restored the maglia ciclamino to his shoulders, reclaiming the points lead from Jhonatan Narváez. It is the headline performance of his race — three wins from a single Grand Tour confirming his arrival among the sport's elite fast men.",
+      "keyMoments": [
+        { "km": null, "what": "Survived the Muro di Ca' del Poggio inside the final 10 km as the climb failed to split the sprinters out" },
+        { "km": null, "what": "Received a textbook lead-out from Jasper Stuyven in the closing kilometres" },
+        { "km": null, "what": "Won the bunch sprint convincingly for his third stage win, also reclaiming the ciclamino points jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:00",
+      "narrative": "Milan made it over the Muro di Ca' del Poggio with the front group and contested the sprint on home roads, but came up short again, finishing third behind Magnier and Zambanini. The Italian was denied a stage win once more by the in-form Frenchman, who has now beaten him repeatedly in this Giro's bunch finishes.",
+      "keyMoments": [
+        { "km": null, "what": "Contested the bunch sprint but was beaten to the line, finishing third" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "corbin-strong",
+      "name": "Corbin Strong",
+      "team": "Israel-Premier Tech",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:00",
+      "narrative": "Strong was active in the finale, featuring in the mix over the Muro di Ca' del Poggio alongside the GC group and attackers before the regroup. He held position into the bunch sprint and rounded out the top five, a solid result on a punchy finishing circuit that suited his all-round qualities.",
+      "keyMoments": [
+        { "km": null, "what": "In the mix on the Muro di Ca' del Poggio with the front selection before the regroup" },
+        { "km": null, "what": "Sprinted to fifth in the bunch finish" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Visma-Lease a Bike",
+      "role": "gc-leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Vingegaard navigated the punchy Prosecco-country finale without trouble, his GC group neutralising Afonso Eulálio's attack on the Muro di Ca' del Poggio just before the summit. He finished safely in the bunch to retain the maglia rosa he has worn since Pila on stage 14, with his lead over Felix Gall and Thymen Arensman intact at 4:03 and 4:27 respectively. The Dane now turns his attention to defending pink across the two remaining mountain stages before Rome.",
+      "keyMoments": [
+        { "km": null, "what": "GC group caught Afonso Eulálio's attack on the Muro di Ca' del Poggio before the summit" },
+        { "km": null, "what": "Finished safely in the peloton to keep the maglia rosa" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-18-italy-results-2026/",
+      "publication": "CyclingStage",
+      "title": "Giro 2026: Magnier completes hat-trick, Vingegaard retains pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.rte.ie/sport/cycling/2026/0528/1575797-magnier-sprints-to-stage-win-as-vingegaard-stays-in-pink/",
+      "publication": "RTÉ Sport",
+      "title": "Magnier sprints to stage win as Vingegaard stays in pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.channelnewsasia.com/sport/magnier-sprints-third-win-giro-vingegaard-stays-in-pink-6147896",
+      "publication": "Channel News Asia (Reuters)",
+      "title": "Magnier sprints to third win of Giro, Vingegaard stays in pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/cycling/giro-ditalia-stage-18-results-paul-magnier-jonathan-milan-b2985382.html",
+      "publication": "The Independent",
+      "title": "Paul Magnier claims hat-trick of Giro d'Italia stage wins as Jonathan Milan denied again",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 10,
+  "stageName": "Viareggio → Massa",
+  "stageDate": "2026-05-19",
+  "stageType": "itt",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Filippo Ganna crushed the 42 km individual time trial along the Tyrrhenian coast in 45:53, beating teammate Thymen Arensman by 1:54 for an INEOS Grenadiers 1-2. Arensman jumped to 3rd overall. The GC was reshaped but not overturned: Afonso Eulálio held pink despite finishing 41st (+4:57), with Vingegaard gaining nearly two minutes but falling short of the jersey — the lead is now just 27 seconds.",
+  "podium": [
+    {
+      "position": 1,
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "time": "45:53",
+      "riderId": "filippo-ganna"
+    },
+    {
+      "position": 2,
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "gap": "+1:54",
+      "riderId": "thymen-arensman"
+    },
+    {
+      "position": 3,
+      "name": "Rémi Cavagna",
+      "team": "Groupama-FDJ",
+      "gap": "+1:59"
+    },
+    {
+      "position": 4,
+      "name": "Sjoerd Bax",
+      "team": "Team Picnic PostNL",
+      "gap": "+2:04"
+    },
+    {
+      "position": 5,
+      "name": "Derek Gee-West",
+      "team": "Lidl-Trek",
+      "gap": "+2:16"
+    }
+  ],
+  "narrative": {
+    "headline": "Ganna dominant in the ITT — Eulálio holds pink by 27 seconds",
+    "body": "A pancake-flat 42 km individual time trial from Viareggio to Massa along the Tyrrhenian Sea, the day after the second rest day — a course made for the pure power men, and Filippo Ganna treated it as a race of his own.\n\nGanna was fastest at every intermediate split and the margins only grew. At time check 1 (16.7 km) he was already 30 seconds up on Arensman and 32 on Cavagna. By time check 2 (28.9 km) the gap to the next best had ballooned past a minute (Cavagna +1:07, Arensman +1:10). At the final split (38.4 km) Arensman was +1:42 and Cavagna +1:45, the two trading places behind the runaway leader. Ganna stopped the clock at 45:53.\n\nBehind him the day became a Netcompany-Ineos statement: Thymen Arensman set the early standard among the GC men, finished 2nd at +1:54 and produced the single biggest mover of the day, leaping up to 3rd overall. Rémi Cavagna rounded out the podium at +1:59, with Sjoerd Bax and a strong Derek Gee-West filling out the top five.\n\nFor the maglia rosa, the stage was a test rather than a coronation. Eulálio, no time-trial specialist, started 2:24 clear of Vingegaard and conceded heavily — 41st on the day at +4:57 — but he had built enough cushion to survive. Vingegaard was the fastest of the overall contenders (13th, +3:00), gaining nearly two minutes but not the jersey. The Giro's only ITT shook the GC hard without flipping it: Eulálio's buffer shrank from 2:24 to 27 seconds."
+  },
+  "gcImpact": {
+    "headline": "Eulálio retains pink by 27 seconds over Vingegaard; Arensman vaults to 3rd",
+    "body": "GC after Stage 10: Afonso Eulálio (Bahrain Victorious) still in pink, Vingegaard 2nd at +0:27 (cut from +2:24 at the start of the day), Arensman 3rd at +1:57, Gall 4th at +2:24, O'Connor 5th at +2:48, Hindley 6th at +3:06, Storer 7th at +3:28, Gee-West 8th at +3:34, Pellizzari 9th at +3:36, Beloki 10th at +4:16. Vingegaard took the chunk everyone expected but came up short of the takeover; Arensman's ride moved him ahead of Gall into 3rd. O'Connor (11th-fastest on the stage), Storer and Gee-West were the other GC winners of the day. Eulálio retains the jersey — but with the margin now down to under half a minute, the leadership is fragile heading into the mountains."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "A textbook Ganna time trial on a course built for him. He set the fastest time at all three intermediate checks and steadily extended his advantage — already +0:30 over the field at 16.7 km, more than a minute clear by 28.9 km, and finishing nearly two minutes ahead of the next man. His 45:53 was untouchable; this was the dominant TT victory expected of a world-class engine on a flat coastal parcours. No GC stakes for Ganna, but it spearheaded an INEOS 1-2.",
+      "keyMoments": [
+        {
+          "km": 16.7,
+          "what": "Time check 1: fastest, +0:30 on Arensman, +0:32 on Cavagna"
+        },
+        {
+          "km": 28.9,
+          "what": "Time check 2: lead out past a minute (+1:07 to Cavagna, +1:10 to Arensman)"
+        },
+        {
+          "km": 42,
+          "what": "Won the stage in 45:53, the only ITT of the Giro"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+1:54",
+      "narrative": "The day's biggest GC mover. Arensman set the early benchmark among the overall contenders and never relinquished 2nd on the stage, completing an INEOS 1-2 at +1:54. Crucially he gained more than a minute on Vingegaard, climbing from outside the podium into 3rd overall, now exactly 1:30 behind the Dane and ahead of Felix Gall. A statement TT that reframed his Giro as a genuine GC campaign.",
+      "keyMoments": [
+        {
+          "km": 16.7,
+          "what": "2nd at time check 1, +0:30 to Ganna"
+        },
+        {
+          "km": 42,
+          "what": "Finished 2nd at +1:54; moved up to 3rd on GC, +1:57"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 13,
+      "gap": "+3:00",
+      "narrative": "The fastest of the GC contenders and the man widely expected to seize pink, but the day fell short of a takeover. Starting 2:24 behind Eulálio, Vingegaard finished 13th on the stage at +3:00 to Ganna and clawed back nearly two minutes on the leader — yet not enough. He remains 2nd overall, now just 27 seconds off the maglia rosa, having also lost more than a minute of his own buffer over a flying Arensman behind him. A frustrating result for Visma despite real time gained on the climbers.",
+      "keyMoments": [
+        {
+          "km": 42,
+          "what": "13th on the stage, +3:00; closed Eulálio's lead from 2:24 to 0:27 but missed the jersey"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon AG2R La Mondiale",
+      "role": "leader",
+      "position": 33,
+      "gap": "+4:22",
+      "narrative": "A pure climber on a flat TT, Gall did roughly what was expected — limiting losses but not improving. He finished 33rd at +4:22 and held his ground relative to Hindley, but Arensman's surge dropped him from 3rd to 4th overall, now just under two minutes (+2:24) from pink. Still very much in the GC fight ahead of the mountains.",
+      "keyMoments": [
+        {
+          "km": 42,
+          "what": "33rd at +4:22; slipped to 4th overall behind Arensman"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer",
+      "name": "Michael Storer",
+      "team": "Tudor Pro Cycling Team",
+      "role": "leader",
+      "position": 15,
+      "gap": "+3:05",
+      "narrative": "A quietly excellent ride that may have flown under the radar. Storer's 15th place at +3:05 was strong for a rider not known as a tester, and it lifted him into 7th overall at +3:28, ahead of teammate Mathys Rondel. A solid platform for Tudor heading into the high mountains.",
+      "keyMoments": [
+        {
+          "km": 42,
+          "what": "15th on the stage, +3:05; rose to 7th overall"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull-BORA-hansgrohe",
+      "role": "leader",
+      "position": 18,
+      "gap": "+3:18",
+      "narrative": "The young Italian outsider handled the ITT respectably, finishing 18th at +3:18 and holding 9th overall at +3:36 for Red Bull. A controlled effort that keeps him in the GC top ten as the climbing stages approach.",
+      "keyMoments": [
+        {
+          "km": 42,
+          "what": "18th on the stage, +3:18; held 9th overall"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-10-italy-results-2026/",
+      "publication": "Cycling Stage",
+      "title": "Giro 2026: Ganna dominant in ITT, Eulálio holds on to pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.domestiquecycling.com/en/news/the-2026-giro-after-stage-10-time-trial-where-do-the-gc-contenders-stand/",
+      "publication": "Domestique Cycling",
+      "title": "The 2026 Giro after stage 10 time trial: Where do the GC contenders stand?",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-2026-stage-10-filippo-ganna-crushes-time-trial-as-afonso-eulalio-survives-another-jonas-vingegaard-pink-jersey-threat",
+      "publication": "Cycling Up To Date",
+      "title": "Results Giro d'Italia 2026 Stage 10 - Filippo Ganna crushes time trial as Afonso Eulálio survives Vingegaard pink jersey threat",
+      "lang": "en"
+    }
+  ]
+}

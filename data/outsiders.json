@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T19:26:45.541Z",
+  "lastUpdated": "2026-05-28T19:37:50.640Z",
   "riders": [
     {
       "id": "paul-seixas",
@@ -107,7 +107,10 @@
             "raceClass": "1.UWT"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/jarno-widar.jpg",
+      "weight": 54,
+      "height": 1.66
     },
     {
       "id": "antonio-tiberi",
@@ -141,7 +144,10 @@
             "raceClass": "2.UWT"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/antonio-tiberi.jpg",
+      "weight": 62,
+      "height": 1.82
     },
     {
       "id": "matthew-riccitello",
@@ -181,7 +187,10 @@
             "raceClass": "2.UWT"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/matthew-riccitello.jpg",
+      "weight": 55,
+      "height": 1.72
     },
     {
       "id": "pablo-torres",
@@ -201,7 +210,9 @@
         "status": "not-announced",
         "lastFetched": "2026-05-11T00:29:53.485Z",
         "races": []
-      }
+      },
+      "photoUrl": "riders/photos/pablo-torres.jpg",
+      "height": 1.74
     },
     {
       "id": "leo-bisiaux",
@@ -254,7 +265,10 @@
             "raceClass": "2.UWT"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/leo-bisiaux.jpg",
+      "weight": 58,
+      "height": 1.81
     },
     {
       "id": "johannes-staune-mittet",
@@ -275,7 +289,10 @@
         "status": "not-announced",
         "lastFetched": "2026-05-11T00:29:58.608Z",
         "races": []
-      }
+      },
+      "photoUrl": "riders/photos/johannes-staune-mittet.jpg",
+      "weight": 67,
+      "height": 1.82
     },
     {
       "id": "jakob-soderqvist",
@@ -303,7 +320,10 @@
             "raceClass": "2.Pro"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/jakob-soderqvist.jpg",
+      "weight": 83,
+      "height": 1.91
     },
     {
       "id": "tim-rex",
@@ -323,7 +343,10 @@
         "status": "not-announced",
         "lastFetched": "2026-05-11T00:30:04.068Z",
         "races": []
-      }
+      },
+      "photoUrl": "riders/photos/tim-rex.jpg",
+      "weight": 70,
+      "height": 1.9
     },
     {
       "id": "alex-baudin",
@@ -344,7 +367,10 @@
         "status": "not-announced",
         "lastFetched": "2026-05-11T00:30:07.431Z",
         "races": []
-      }
+      },
+      "photoUrl": "riders/photos/alex-baudin.jpg",
+      "weight": 64,
+      "height": 1.83
     },
     {
       "id": "albert-withen-philipsen",
@@ -372,7 +398,9 @@
             "raceClass": "2.Pro"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/albert-withen-philipsen.jpg",
+      "height": 1.84
     },
     {
       "id": "lorenzo-finn",
@@ -412,7 +440,10 @@
             "raceClass": null
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/lorenzo-finn.jpg",
+      "weight": 63,
+      "height": 1.81
     },
     {
       "id": "tom-pidcock",
@@ -429,7 +460,46 @@
       ],
       "isOutsider": true,
       "outsiderNote": "Moved to Pinarello-Q36.5 from INEOS for 2026 — Sanremo 2nd by centimetres to Pogačar, Eschborn-Frankfurt 2nd, Strade 7th. The spring's most consistent runner-up.",
-      "pcsUrl": "https://www.procyclingstats.com/rider/tom-pidcock"
+      "pcsUrl": "https://www.procyclingstats.com/rider/tom-pidcock",
+      "photoUrl": "riders/photos/tom-pidcock.jpg",
+      "weight": 58,
+      "height": 1.7,
+      "raceProgram": {
+        "status": "announced",
+        "lastFetched": "2026-05-28T19:37:46.691Z",
+        "races": [
+          {
+            "raceName": "GP Gippingen",
+            "raceSlug": "gp-du-canton-d-argovie",
+            "raceDate": "2026-06-14",
+            "raceClass": null
+          },
+          {
+            "raceName": "Tour de Suisse",
+            "raceSlug": "tour-de-suisse",
+            "raceDate": "2026-06-17",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Tour de France",
+            "raceSlug": "tour-de-france",
+            "raceDate": "2026-07-04",
+            "raceClass": "2.UWT"
+          },
+          {
+            "raceName": "Grand Prix Cycliste de Québec",
+            "raceSlug": "gp-quebec",
+            "raceDate": "2026-09-11",
+            "raceClass": "1.UWT"
+          },
+          {
+            "raceName": "Grand Prix Cycliste de Montréal",
+            "raceSlug": "gp-montreal",
+            "raceDate": "2026-09-13",
+            "raceClass": "1.UWT"
+          }
+        ]
+      }
     },
     {
       "id": "giulio-pellizzari",
@@ -487,7 +557,10 @@
             "raceClass": "1.Pro"
           }
         ]
-      }
+      },
+      "photoUrl": "riders/photos/giulio-pellizzari.jpg",
+      "weight": 66,
+      "height": 1.83
     }
   ]
 }

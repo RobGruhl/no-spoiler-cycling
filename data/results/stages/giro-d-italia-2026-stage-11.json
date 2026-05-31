@@ -1,0 +1,92 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 11,
+  "stageName": "Porcari → Chiavari",
+  "stageDate": "2026-05-20",
+  "stageType": "hilly",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Jhonatan Narváez (UAE Team Emirates XRG) completes a hat-trick of stage wins on this 195 km hilly day through the Cinque Terre, beating Enric Mas in a two-up sprint at Chiavari after a long breakaway. Afonso Eulálio crosses over three minutes down in the peloton and keeps the pink jersey for a seventh consecutive day, with Jonas Vingegaard at +0:27.",
+  "podium": [
+    { "position": 1, "name": "Jhonatan Narváez", "team": "UAE Team Emirates XRG", "time": "4:33:45" },
+    { "position": 2, "name": "Enric Mas", "team": "Movistar Team", "gap": "s.t." },
+    { "position": 3, "name": "Diego Ulissi", "team": "XDS Astana", "gap": "+0:11" }
+  ],
+  "narrative": {
+    "headline": "Narváez seals hat-trick from the break, Eulálio still in pink",
+    "body": "An aggressive start saw a large group with Giulio Ciccone, Jasper Stuyven, Koen Bouwman and Christian Scaroni among others force an early gap, but the peloton clawed it back to gruppo compatto after roughly 30 km. The day stayed unsettled until Chris Harper, Andreas Leknessund and Mattia Bais got away and were joined by a dozen riders including Alberto Bettiol, Stuyven, Diego Ulissi, Aleksandr Vlasov and Ludovico Crescioli. Their lead stretched to 1:30 before the climb at La Foce dragged it under a minute, prompting Enric Mas and Lennert Van Eetvelt to give chase. They bridged across on the Passo del Termine alongside Jhonatan Narváez, Christian Scaroni, Brieuc Rolland, Filippo Zana and Warren Barguil.\n\nThe Colle di Guaitarola whittled the front group down, and the leaders crested four minutes clear of the peloton. On the descent Van Eetvelt, Zana and Scaroni hit the deck. Stuyven, Vlasov and Narváez jumped clear to start the Colla dei Scioli with a small lead before being rejoined; Ulissi then attacked inside the last 2 km, with only Harper, Mas, Vlasov and Narváez able to follow immediately. On the climb to Cogorno, Mas accelerated with Narváez glued to his wheel, and the pair moved through the village 26 seconds up on the chasers.\n\nThe two rode together to the line in Chiavari, where Narváez won the sprint with ease for his third stage win of this Giro. Over three minutes later the GC group rolled in together, leaving the overall standings untouched at the top and Eulálio safely in pink."
+  },
+  "gcImpact": {
+    "headline": "Eulálio holds pink for a seventh day, Vingegaard still 27 seconds back",
+    "body": "The breakaway took the spoils so the GC went unchanged among the contenders, who finished together in the peloton at +3:24. Afonso Eulálio retains the maglia rosa for a seventh consecutive day. Behind him the order holds: Jonas Vingegaard at +0:27, Thymen Arensman +1:57, Felix Gall +2:24, Ben O'Connor +2:48, Jai Hindley +3:06, Michael Storer +3:28 and Derek Gee-West +3:34, with Giulio Pellizzari ninth at +3:36 and Markel Beloki tenth at +4:16. With Vingegaard sitting under half a minute back, the pressure on Eulálio's pink jersey continues to build ahead of the harder stages to come."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jhonatan-narvaez",
+      "name": "Jhonatan Narváez",
+      "team": "UAE Team Emirates XRG",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Narváez bridged into the move on the Passo del Termine and was a constant presence at the front through the closing climbs. He marked Diego Ulissi's late attack inside the final 2 km and then sat on Enric Mas's wheel as the Spaniard accelerated to Cogorno, letting Mas do almost all the work over the top. In the two-up finale at Chiavari he came around comfortably to take the sprint, claiming his third stage win of this Giro.",
+      "keyMoments": [
+        { "km": null, "what": "Bridged into the leading group on the Passo del Termine" },
+        { "km": 2, "what": "Followed Ulissi's late attack along with Harper, Mas and Vlasov" },
+        { "km": null, "what": "Sat on Mas's wheel up the climb to Cogorno, then won the two-up sprint at Chiavari" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "+1:13",
+      "narrative": "Scaroni was active from the gun, featuring in the early aggressive group, and later made it into the main breakaway after the chase reshuffled the front. He was caught in a crash on the descent of the Colle di Guaitarola together with Van Eetvelt and Zana, which cost him contact with the leaders. He recovered to finish sixth on the stage at +1:13.",
+      "keyMoments": [
+        { "km": null, "what": "Part of the aggressive early move and later the main breakaway" },
+        { "km": null, "what": "Crashed on the descent of the Colle di Guaitarola with Van Eetvelt and Zana" }
+      ],
+      "incident": "Crashed on the descent of the Colle di Guaitarola; remounted and finished sixth."
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": null,
+      "gap": "+3:24",
+      "narrative": "Pellizzari stayed protected in the peloton with the GC group, finishing safely at +3:24 with the other contenders. He sits ninth overall at +3:36 after the stage, holding his place in the top ten without any change to the classification.",
+      "keyMoments": [
+        { "km": null, "what": "Finished in the GC group at +3:24, holding ninth overall at +3:36" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "what": "Lennert Van Eetvelt, Filippo Zana and Christian Scaroni crashed on the descent of the Colle di Guaitarola; all three lost contact with the front of the breakaway." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-11-italy-results-2026/",
+      "publication": "CyclingStage",
+      "title": "Giro 2026: Narváez seals hat-trick from breakaway, Eulálio still in pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://sport.sky.it/ciclismo/2026/05/20/giro-italia-2026-tappa-11-oggi-classifica-live",
+      "publication": "Sky Sport",
+      "title": "Giro d'Italia 2026, Narváez vince la tappa di oggi, Eulalio in maglia rosa",
+      "lang": "it"
+    },
+    {
+      "url": "https://www.giroditalia.it/news/jhonatan-narvaez-vince-tappa-11-del-giro-ditalia-2026/",
+      "publication": "Giro d'Italia (official)",
+      "title": "L'appetito vien mangiando: tris di Narváez a Chiavari!",
+      "lang": "it"
+    }
+  ]
+}

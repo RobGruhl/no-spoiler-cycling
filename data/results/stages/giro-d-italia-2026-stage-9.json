@@ -1,0 +1,144 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 9,
+  "stageName": "Cervia → Corno alle Scale",
+  "stageDate": "2026-05-17",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Jonas Vingegaard soloed to his second stage win of the Giro atop the brutally steep Corno alle Scale, distancing his only real rival Felix Gall just after the flamme rouge. Afonso Eulálio finished fifth in the GC group to retain the maglia rosa, still holding a buffer of well over two minutes ahead of the stage-10 individual time trial.",
+  "podium": [
+    { "position": 1, "name": "Jonas Vingegaard", "team": "Visma - Lease a Bike", "time": "4h 20m 21s", "riderId": "jonas-vingegaard" },
+    { "position": 2, "name": "Felix Gall", "team": "Decathlon AG2R La Mondiale", "gap": "+0:12", "riderId": "felix-gall" },
+    { "position": 3, "name": "Davide Piganzoli", "team": "Polti VisitMalta", "gap": "+0:34" },
+    { "position": 4, "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:34", "riderId": "thymen-arensman" }
+  ],
+  "narrative": {
+    "headline": "Vingegaard goes solo on the Corno, Eulálio clings to pink",
+    "body": "An early move by Lorenzo Milesi, Davide Ballerini and Edward Planckaert opened the road, fluctuating around half a minute as attacks flew behind. After 30km Planckaert peeled off and a fresh group — Jonas Geens, Martin Marceluzzi, Einer Rubio, Tim Naberman, Mattia Bais and Sakarias Koller Løland — pushed the gap beyond two minutes. With 75km to go Giulio Ciccone launched the chase alongside Diego Ulissi and Toon Aerts, bridging across 15km later.\n\nThe eleven leaders hit the climb to Querciola 2'24\" clear of the peloton, the front whittling down to Ciccone, Ulissi, Milesi, Rubio and Aerts as they passed through the village still around two minutes up. Ciccone attacked with just under 12km left, Rubio latching on, and when the Italian kicked again inside 7.5km to go he was alone.\n\nJust before the savage final 3km section, Giulio Pellizzari was dropped from the GC group. Once onto the steep ramps Felix Gall attacked and Vingegaard followed him like a shadow; the pair quickly mopped up Rubio and caught Ciccone inside the final 1.8km. The two strongest men of the Giro dropped the attacker, and after Gall set the pace, Vingegaard launched the decisive move just after the flamme rouge to take his second win in three days.\n\nAfonso Eulálio rode a measured race in the maglia rosa, finishing fifth on the day at +0:41 to defend his lead. Vingegaard chipped a little more time out of the Portuguese rider but the buffer remained well over two minutes heading into the stage-10 time trial."
+  },
+  "gcImpact": {
+    "headline": "Eulálio retains pink, Vingegaard closes to +2:24",
+    "body": "Afonso Eulálio (POR) keeps the maglia rosa he has worn since stage 5, his big breakaway buffer now trimmed but intact. Jonas Vingegaard moves up to second at +2:24 after taking the stage and clawing back time. Felix Gall is third at +2:59, the only other rider able to follow Vingegaard on the Corno. The gaps then balloon: Jai Hindley fourth at +4:32, Christian Scaroni fifth at +4:43, Thymen Arensman sixth at +5:00, Mathys Rondel seventh at +5:01, Ben O'Connor eighth at +5:03, Giulio Pellizzari ninth at +5:15 after losing contact early on the final ramp, and Michael Storer tenth at +5:20. The stage-10 individual time trial looms as the next test of Eulálio's lead."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Visma - Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Vingegaard was the strongest man on the Corno alle Scale. When Gall attacked on the steep final 3km, he marked the move like a shadow, and the pair caught lone leaders Rubio and then Ciccone inside the final 1.8km. After letting Gall set the pace, Vingegaard launched his decisive attack just after the flamme rouge to ride away alone for his second stage win in three days. He moved up to second on GC at +2:24, taking another bite out of Eulálio's lead.",
+      "keyMoments": [
+        { "km": 3, "what": "Followed Gall's attack on the steep final 3km ramps" },
+        { "km": 1.8, "what": "Caught and dropped breakaway survivor Ciccone with Gall" },
+        { "km": 0.9, "what": "Attacked just after the flamme rouge to solo to the win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon AG2R La Mondiale",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:12",
+      "narrative": "Gall lit the GC battle, attacking as soon as the road reared up into the final 3km. Only Vingegaard could follow. He drove the pace at the front as the pair caught the break, but could not respond when the Dane kicked after the flamme rouge, finishing second at +0:12. He climbed to third overall at +2:59.",
+      "keyMoments": [
+        { "km": 3, "what": "Attacked at the foot of the steep final section, only Vingegaard followed" },
+        { "km": 1, "what": "Set the pace at the front before being dropped by Vingegaard's flamme-rouge kick" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:34",
+      "narrative": "Arensman limited his losses well on the summit finish, coming in fourth on the stage at +0:34, same time as Piganzoli. He moved up to sixth overall at +5:00, consolidating his place among the GC contenders behind the leading trio.",
+      "keyMoments": [
+        { "km": 0, "what": "Finished fourth on the stage at +0:34, top GC finisher behind Vingegaard and Gall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer",
+      "name": "Michael Storer",
+      "team": "Tudor Pro Cycling",
+      "role": "leader",
+      "position": 10,
+      "gap": "+0:50",
+      "narrative": "Storer stayed with the GC group on the climb, finishing tenth on the stage at +0:50. He sits tenth overall at +5:20.",
+      "keyMoments": [
+        { "km": 0, "what": "Finished tenth on the stage with the GC group at +0:50" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal",
+      "name": "Egan Bernal",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 17,
+      "gap": "+1:12",
+      "narrative": "Bernal could not match the very best on the Corno, conceding a little over a minute to finish 17th at +1:12.",
+      "keyMoments": [
+        { "km": 0, "what": "Finished 17th at +1:12, losing modest time to the GC leaders" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 22,
+      "gap": "+1:28",
+      "narrative": "A day to forget for the young Italian. Pellizzari was dropped from the GC group just before the start of the steep final 3km section and could never regain contact, trailing in 22nd at +1:28. He slipped to ninth overall at +5:15.",
+      "keyMoments": [
+        { "km": 3, "what": "Dropped from the GC group just before the steep final 3km" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Ciccone was the animator of the day. With 75km to go he launched the chase to bridge to the early break, dragging Ulissi and Aerts across 15km later. He attacked from the front group with just under 12km to go, and accelerated again inside 7.5km to ride solo at the head of the race. He held the lead until Gall and Vingegaard caught him inside the final 1.8km on the steep ramps.",
+      "keyMoments": [
+        { "km": 75, "what": "Launched the chase to bridge to the breakaway with Ulissi and Aerts" },
+        { "km": 12, "what": "Attacked from the front group" },
+        { "km": 7.5, "what": "Accelerated again to go solo at the front" },
+        { "km": 1.8, "what": "Caught by Vingegaard and Gall on the steep finale" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-9-italy-results-2026/",
+      "publication": "Cycling Stage",
+      "title": "Giro 2026: Vingegaard triumphs at Corno alle Scale, Eulálio retains pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingnews.com/pro-cycling/live/giro-d-italia-stage-9-live-big-summit-finish-on-the-menu-at-corno-alle-scale-with-gc-action-almost-certain/",
+      "publication": "Cyclingnews",
+      "title": "Giro d'Italia: Jonas Vingegaard sends signal to rivals with solo stage 9 victory atop Corno alle Scale",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.domestiquecycling.com/en/news/the-2026-giro-after-corno-alle-scale-where-do-the-gc-contenders-stand/",
+      "publication": "Domestique Cycling",
+      "title": "The 2026 Giro after Corno alle Scale: where do the GC contenders stand?",
+      "lang": "en"
+    }
+  ]
+}

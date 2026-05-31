@@ -1,0 +1,75 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 15,
+  "stageName": "Voghera → Milano",
+  "stageDate": "2026-05-24",
+  "stageType": "flat",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "A four-man breakaway stunned a complacent peloton on the pancake-flat run into Milan, with Fredrik Dversnes (Uno-X Mobility) outsprinting his three Italian companions for Uno-X's first-ever Giro stage win. The sprinters' teams misjudged the catch and were beaten to the line. Jonas Vingegaard keeps the maglia rosa with the GC unchanged.",
+  "podium": [
+    { "position": 1, "name": "Fredrik Dversnes", "team": "Uno-X Mobility", "time": "3:03:18" },
+    { "position": 2, "name": "Mirco Maestri", "team": "Team Polti VisitMalta", "gap": "+0:00" },
+    { "position": 3, "name": "Martin Marcellusi", "team": "Bardiani CSF Faizanè 7 Saber", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Dversnes shocks the sprinters with a four-up breakaway win in Milan",
+    "body": "On paper, the 157 km from Voghera to Milan looked like a guaranteed bunch sprint — completely flat, fast, and tailor-made for the fast men. Instead, a four-man move slipped clear inside the opening kilometres: Fredrik Dversnes (Uno-X Mobility) alongside Italians Mirco Maestri and Mattia Bais (both Team Polti VisitMalta) and Martin Marcellusi (Bardiani CSF Faizanè 7 Saber). The quartet built a maximum advantage of around three minutes while the sprinters' teams calmly assumed the catch was a formality.\n\nThat assumption proved costly. As the breakaway entered the final lap of the Milan finishing circuit the gap had fallen under a minute, and inside the last six kilometres it was halved again — but then it stubbornly hovered, refusing to close. With a crash-reduced peloton snapping at their heels, what had looked like a routine sprint stage turned into a golden opportunity for the escapees.\n\nIn the four-up sprint Mattia Bais opened up early to lead out his teammate Maestri, but Dversnes timed his effort perfectly, powering past to take the most unexpected of victories — the first Giro d'Italia stage win in Uno-X Mobility's history. Maestri held on for second ahead of Marcellusi and Bais. Paul Magnier won the bunch gallop nine seconds back for fifth, the best of the thwarted sprinters. With the GC group's stage effectively neutralised in the closing kilometres, nothing changed in the overall standings.",
+    "neutralizationNote": "Reports indicate the stage was neutralised for the GC contenders inside the final ~16 km, so no general-classification time gaps changed on the day."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard retains the pink jersey",
+    "body": "A breakaway day with the GC group's effort neutralised in the finale left the general classification untouched. Jonas Vingegaard, who took the maglia rosa at Pila on stage 14, stays in pink. He leads Afonso Eulálio by 2:26, with Felix Gall third at 2:50, Thymen Arensman fourth at 3:03, and Jai Hindley fifth at 3:43. Behind them Giulio Pellizzari (+4:22), Michael Storer (+4:46) and Ben O'Connor (+5:22) round out the top eight, with no changes resulting from a stage decided by the breakaway."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:09",
+      "narrative": "Magnier was the fastest of the sprinters but found himself racing for scraps. With the four-man breakaway holding on to the line, the bunch arrived nine seconds too late. He won the peloton's gallop for fifth on the day, leading home the disappointed fast men in Milan.",
+      "keyMoments": [
+        { "km": null, "what": "Won the bunch sprint for 5th, +0:09 behind the breakaway" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tobias-lund-andresen",
+      "name": "Tobias Lund Andresen",
+      "team": "Team Picnic PostNL",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:09",
+      "narrative": "Lund Andresen was active in the chasing peloton and contested the bunch sprint, taking seventh on the day. Like the rest of the sprinters he was undone by the breakaway's survival and could only fight for placings behind the four escapees.",
+      "keyMoments": [
+        { "km": null, "what": "7th in the bunch sprint, +0:09" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "The race leader had a comfortable day in pink. With the breakaway taking the stage and the GC group's finale effectively neutralised, Vingegaard retained the maglia rosa he claimed at Pila on stage 14 with his overall advantage intact. He leads Afonso Eulálio by 2:26 heading out of the second week.",
+      "keyMoments": [
+        { "km": null, "what": "Retained the GC lead; no time changes on a breakaway/neutralised day" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "note": "A crash affected the peloton during the chase, and reports indicate the GC contenders' stage was neutralised inside the final ~16 km."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-15-italy-results-2026/", "publication": "CyclingStage", "title": "Giro 2026: Dversnes wins four-up sprint, Vingegaard retains lead", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/giro-d-italia-fredrik-dversnes-shocks-with-stage-15-victory-as-sprinters-are-thwarted-by-breakaway-in-milan/", "publication": "Cyclingnews", "title": "Fredrik Dversnes shocks with stage 15 victory as sprinters are thwarted by breakaway in Milan", "lang": "en" },
+    { "url": "https://www.giroditalia.it/en/news/fredrik-dversnes-wins-stage-15-of-the-2026-giro-ditalia/", "publication": "Giro d'Italia (official)", "title": "Fredrik Dversnes' hammer blow stuns the peloton in Milan", "lang": "en" },
+    { "url": "https://www.rte.ie/sport/results/cycling/giro-ditalia/912749/results/5062954/", "publication": "RTÉ Sport", "title": "Giro d'Italia 2026 Results - Stage 15: Voghera - Milano", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/racing/fredrik-dversnes-wins-stage-15-of-the-giro-d-italia-after-the-breakaway-survive-in-milan", "publication": "Cycling Weekly", "title": "'This was my big shot' - Fredrik Dversnes wins stage 15 of the Giro d'Italia", "lang": "en" }
+  ]
+}

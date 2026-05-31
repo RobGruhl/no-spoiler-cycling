@@ -1,0 +1,75 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 21,
+  "stageName": "Roma → Roma",
+  "stageDate": "2026-05-31",
+  "stageType": "flat",
+  "researchedAt": "2026-05-31T18:00:00Z",
+  "tldr": "Jonathan Milan powered to a bunch-sprint victory on the Via del Circo Massimo in Rome to close the 2026 Giro, after Filippo Ganna lit up the final two laps with Jasper Stuyven and Matteo Sobrero before being caught with 3 km to go. Jonas Vingegaard rolled home safely in the peloton to seal his first Giro d'Italia overall title, ahead of Felix Gall and Jai Hindley.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek", "time": "3h 05m 50s" },
+    { "position": 2, "name": "Giovanni Lonardi", "team": "Team Polti VisitMalta", "gap": "+0:00" },
+    { "position": 3, "name": "Paul Penhoët", "team": "Groupama - FDJ United", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Milan wins in Rome; Vingegaard crowned champion",
+    "body": "The 131 km closing circuit in Rome began as a parade to the coast and back before igniting inside the final 70 km. Ben Turner and Andrea Mifsud went first, holding around 20 seconds until they were caught at 53 km to go; Tobias Bayer, Rémy Rochas, Matteo Sobrero and Victor Campenaerts followed, with the gap again never stretching beyond 20 seconds.\n\nThe show came on the finishing laps: just after the penultimate finish passage Filippo Ganna took control at the front, Jasper Stuyven and Sobrero glued to his wheel as the time-trial powerhouse drove the move. They led by 18 seconds onto the final lap before the catch came with 3 km to go. Mirco Maestri's late dig didn't stick, and it came down to a bunch sprint on the Via del Circo Massimo.\n\nJonathan Milan timed it perfectly, powering to a convincing victory ahead of Giovanni Lonardi and Paul Penhoët. Behind, Jonas Vingegaard crossed safely in the peloton to confirm the maglia rosa — champion of the 109th Giro d'Italia."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard wins the 2026 Giro d'Italia — Gall 2nd, Hindley 3rd",
+    "body": "Final GC: 1. Jonas Vingegaard (Team Visma | Lease a Bike); 2. Felix Gall +5:22; 3. Jai Hindley +6:25; 4. Thymen Arensman +7:02; 5. Derek Gee-West +7:56; 6. Afonso Eulálio +9:39; 7. Michael Storer +10:13; 8. Davide Piganzoli +10:52; 9. Damiano Caruso +11:24; 10. Egan Bernal +12:54. The ceremonial stage left the overall untouched: Vingegaard takes his first Giro title to add to his Tour de France palmarès, completing a race he led from Stage 14. Giulio Ciccone secured the King of the Mountains classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek",
+      "role": "stage-hunter", "position": 1, "gap": null,
+      "narrative": "The fastest man in the race finally got the win his three weeks deserved — and on the grandest stage. After a string of near-misses in the bunch gallops (3rd in Pieve di Soligo among them), Milan was perfectly positioned out of the Rome chaos and powered clear on the Via del Circo Massimo, beating Lonardi and Penhoët with daylight. A fitting headline sprint to close the Giro for the Lidl-Trek star.",
+      "keyMoments": [
+        { "km": 3, "what": "Peloton caught the Ganna group; Milan launched the bunch sprint on the Via del Circo Massimo and won clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers",
+      "role": "stage-hunter", "position": null, "gap": null,
+      "narrative": "Ganna gave the Rome crowd a show, taking control on the final two laps with Stuyven and Sobrero on his wheel and driving an 18-second lead onto the last lap before the catch at 3 km to go. It capped an excellent Giro for the Italian, who had already won the Stage 10 time trial in Massa — a reminder that his engine remains among the very best.",
+      "keyMoments": [
+        { "km": null, "what": "Drove the front group on the final two Rome laps; caught at 3 km" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tobias-lund-andresen", "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter", "position": 7, "gap": "+0:00",
+      "narrative": "The young Dane was in the mix again in the Rome bunch sprint, taking 7th on the day — another top-10 to round out a Giro spent chasing the fast finishes against the very best sprinters.",
+      "keyMoments": [
+        { "km": null, "what": "7th in the Rome bunch sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "corbin-strong", "name": "Corbin Strong", "team": "NSN Cycling Team",
+      "role": "stage-hunter", "position": 8, "gap": "+0:00",
+      "narrative": "Strong closed his three weeks with another front-of-race finish, 8th in the Rome sprint — a consistent, combative Giro for the New Zealander and his NSN ProTeam, even if the marquee win never quite came.",
+      "keyMoments": [
+        { "km": null, "what": "8th in the Rome bunch sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard", "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "A formality to finish: Vingegaard sat safely in the bunch through the Rome circuit to confirm the maglia rosa. It is his first Giro d'Italia title — won with five stage victories and a race led from the Stage 14 summit at Pila — and a landmark addition to his Grand Tour record.",
+      "keyMoments": [
+        { "km": null, "what": "Finished safely in the peloton to seal the overall victory" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-21-italy-results-2026/", "publication": "Cycling Stage", "title": "Giro 2026: Milan wins in Rome, Vingegaard seals GC", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/giro-2026-results/", "publication": "Cycling Stage", "title": "Giro d'Italia 2026 — results overview (final GC)", "lang": "en" }
+  ]
+}

@@ -81,24 +81,50 @@ function roleLabel(role) {
 }
 
 function aggregateForRider(riderId) {
-  const racesDir = path.join(ROOT, 'data/results/races');
-  if (!fs.existsSync(racesDir)) return [];
   const entries = [];
-  for (const f of fs.readdirSync(racesDir).filter(f => f.endsWith('.json'))) {
-    const result = JSON.parse(fs.readFileSync(path.join(racesDir, f), 'utf8'));
-    const perf = (result.riderPerformances || []).find(p => p.riderId === riderId);
-    if (perf) {
-      entries.push({
-        ...perf,
-        raceId: result.raceId,
-        raceName: result.raceName,
-        raceDate: result.raceDate,
-        racePrestige: findRace(result.raceId)?.prestige || []
-      });
+
+  // Race-overview performances (one-day races + stage-race final/overall entries).
+  const racesDir = path.join(ROOT, 'data/results/races');
+  if (fs.existsSync(racesDir)) {
+    for (const f of fs.readdirSync(racesDir).filter(f => f.endsWith('.json'))) {
+      const result = JSON.parse(fs.readFileSync(path.join(racesDir, f), 'utf8'));
+      const perf = (result.riderPerformances || []).find(p => p.riderId === riderId);
+      if (perf) {
+        entries.push({
+          ...perf,
+          raceId: result.raceId,
+          raceName: result.raceName,
+          raceDate: result.raceDate,
+          racePrestige: findRace(result.raceId)?.prestige || []
+        });
+      }
     }
   }
+
+  // Per-stage performances — stage races (in-progress or finished) store rider
+  // detail per stage. Surfacing them here matches the documented "auto-pulls
+  // riderPerformances from race/stage JSONs" contract. The stage's results page
+  // lives at results/race/<raceId>-stage-N.html, so we point the entry there.
+  const stagesDir = path.join(ROOT, 'data/results/stages');
+  if (fs.existsSync(stagesDir)) {
+    for (const f of fs.readdirSync(stagesDir).filter(f => f.endsWith('.json'))) {
+      const result = JSON.parse(fs.readFileSync(path.join(stagesDir, f), 'utf8'));
+      for (const perf of (result.riderPerformances || [])) {
+        if (perf.riderId !== riderId) continue;
+        const baseName = findRace(result.raceId)?.name || result.raceName || result.raceId;
+        entries.push({
+          ...perf,
+          raceId: `${result.raceId}-stage-${result.stageNumber}`,
+          raceName: `${baseName} — Stage ${result.stageNumber}${result.stageName ? `: ${result.stageName}` : ''}`,
+          raceDate: result.stageDate,
+          racePrestige: findRace(result.raceId)?.prestige || []
+        });
+      }
+    }
+  }
+
   // Newest first
-  return entries.sort((a, b) => b.raceDate.localeCompare(a.raceDate));
+  return entries.sort((a, b) => (b.raceDate || '').localeCompare(a.raceDate || ''));
 }
 
 function resultClass(position) {
@@ -387,15 +413,19 @@ function renderRiderPage(riderId) {
 // ============================================================================
 
 function ridersWithPerformances() {
-  const racesDir = path.join(ROOT, 'data/results/races');
-  if (!fs.existsSync(racesDir)) return [];
   const ids = new Set();
-  for (const f of fs.readdirSync(racesDir).filter(f => f.endsWith('.json'))) {
-    const result = JSON.parse(fs.readFileSync(path.join(racesDir, f), 'utf8'));
-    for (const perf of (result.riderPerformances || [])) {
-      if (perf.riderId) ids.add(perf.riderId);
+  const collect = (dir) => {
+    const full = path.join(ROOT, dir);
+    if (!fs.existsSync(full)) return;
+    for (const f of fs.readdirSync(full).filter(f => f.endsWith('.json'))) {
+      const result = JSON.parse(fs.readFileSync(path.join(full, f), 'utf8'));
+      for (const perf of (result.riderPerformances || [])) {
+        if (perf.riderId) ids.add(perf.riderId);
+      }
     }
-  }
+  };
+  collect('data/results/races');
+  collect('data/results/stages');
   return [...ids];
 }
 

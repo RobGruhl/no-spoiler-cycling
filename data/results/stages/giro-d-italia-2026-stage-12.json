@@ -1,0 +1,84 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 12,
+  "stageName": "Imperia → Novi Ligure",
+  "stageDate": "2026-05-21",
+  "stageType": "flat",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "On a 175km day expected to end in a bunch sprint, Bahrain Victorious time-trial specialist Alec Segaert sprang a late solo attack with 3.4km to go and held off the charging peloton for the biggest win of his career, ahead of Toon Aerts and Guillermo Silva. Race leader Afonso Eulálio (Segaert's teammate) grabbed bonus seconds at the intermediate sprint and not only retained the maglia rosa but extended his overall advantage.",
+  "podium": [
+    { "position": 1, "name": "Alec Segaert", "team": "Bahrain Victorious", "time": "3:53:00" },
+    { "position": 2, "name": "Toon Aerts", "team": "Intermarché-Wanty", "gap": "+0:03" },
+    { "position": 3, "name": "Guillermo Silva", "team": "Movistar", "gap": "+0:03" }
+  ],
+  "narrative": {
+    "headline": "Segaert springs a late solo to upend the sprinters in Novi Ligure",
+    "body": "On a small climb inside the opening 10km, an early move formed with Jonas Geens, Jardi Christiaan van der Lee, Juan Pedro López, Mattia Bais and Manuele Tarozzi, who built a maximum lead of around two minutes. With well over 100km still to ride, the gap dropped under a minute and prompted a wave of bridging attempts; Johan Jacobs attacked and linked up with Geens, Van der Lee and Tarozzi plus Jonas Rutsch and Fredrik Dversnes Lavik to open up a fresh two-minute advantage.\n\nThe race tilted on the day's two categorised climbs. On the Colle Giovo, Movistar drove so hard on the front that sprinters Dylan Groenewegen, Pascal Ackermann and Tobias Lund Andresen were shelled out the back, and the pace was high enough that the breakaway was reeled in as a by-product. On the Bric Berton, NSN helped Movistar keep the hammer down, distancing Casper van Uden and Paul Magnier, while Jonathan Milan was dropped inside the final kilometre of the climb. The three crested roughly a minute down, regrouped with teammates, and tried to chase — but made no inroads and abandoned the effort with 20km to go.\n\nAt the intermediate sprint, pink jersey Afonso Eulálio scooped six bonus seconds and Ben O'Connor took four. Then, just before a corner with 3.4km remaining, Alec Segaert jumped. The Bahrain Victorious time-trial specialist opened an immediate gap, and with the chase failing to organise behind, the 23-year-old Giro debutant powered to the biggest win of his career. Behind him, Toon Aerts edged Guillermo Silva for second.\n\nThe day that looked nailed-on for a sprint instead delivered a finisseur's masterclass — and, thanks to Eulálio's bonus seconds, left the GC picture marginally tighter in the leader's favour rather than unchanged."
+  },
+  "gcImpact": {
+    "headline": "Eulálio extends pink lead with intermediate-sprint bonus seconds",
+    "body": "Afonso Eulálio (Bahrain Victorious) holds the maglia rosa and slightly extended his cushion after taking six bonus seconds at the intermediate sprint. Jonas Vingegaard remains his nearest challenger at +0:33, with Thymen Arensman third at +2:03. Felix Gall sits fourth at +2:30, Ben O'Connor fifth at +2:50 (he also picked up four bonus seconds), Jai Hindley sixth at +3:12 and Michael Storer seventh at +3:34. The flat run-in produced no change among the GC group, so the order held — Eulálio retains, rather than cedes, the lead heading toward the mountains.",
+    "leader": "Afonso Eulálio",
+    "leaderTeam": "Bahrain Victorious",
+    "topGaps": [
+      { "position": 1, "name": "Afonso Eulálio", "team": "Bahrain Victorious", "gap": "leader" },
+      { "position": 2, "name": "Jonas Vingegaard", "team": "Visma | Lease a Bike", "gap": "+0:33" },
+      { "position": 3, "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+2:03" },
+      { "position": 4, "name": "Felix Gall", "team": "Decathlon AG2R", "gap": "+2:30" },
+      { "position": 5, "name": "Ben O'Connor", "team": "Jayco AlUla", "gap": "+2:50" },
+      { "position": 6, "name": "Jai Hindley", "team": "Red Bull-BORA-hansgrohe", "gap": "+3:12" },
+      { "position": 7, "name": "Michael Storer", "team": "Tudor", "gap": "+3:34" }
+    ]
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "The fast man saw his sprint chances unravel on the day's climbs. After Movistar's brutal pace-setting thinned the bunch, Milan was dropped inside the final kilometre of the Bric Berton climb, cresting roughly a minute behind the peloton. He regrouped with Casper van Uden and Paul Magnier and several teammates to mount a chase, but they made no inroads and abandoned the effort with 20km remaining, taking him out of contention for the day.",
+      "keyMoments": [
+        { "km": null, "what": "Dropped in the last kilometre of the Bric Berton climb" },
+        { "km": 20, "what": "Chase group abandons the catch attempt with 20km to go" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Magnier was another sprinter undone by the climbing tempo. He lost contact alongside Casper van Uden on the Bric Berton as NSN and Movistar lifted the pace. He came back together with Van Uden and Jonathan Milan about a minute down over the summit and joined their chase, but with no gains being made the group gave up the pursuit 20km from the line, ending his hopes of a fast finish.",
+      "keyMoments": [
+        { "km": null, "what": "Distanced with Van Uden on the Bric Berton climb" },
+        { "km": 20, "what": "Chase called off with 20km remaining" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tobias-lund-andresen",
+      "name": "Tobias Lund Andresen",
+      "team": "Picnic PostNL",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "The Danish sprinter never made it to the finale as a contender. On the Colle Giovo, Movistar's ferocious tempo on the front shelled him along with Dylan Groenewegen and Pascal Ackermann. The high pace that dropped them also swept up the breakaway, and Andresen was unable to feature in the run-in.",
+      "keyMoments": [
+        { "km": null, "what": "Dropped on the Colle Giovo as Movistar set a hard pace" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-12-italy-results-2026/", "publication": "CyclingStage", "title": "Giro 2026: Segaert wins with late attack, Eulálio retains pink", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/giro-d-italia-long-range-attack-lands-alec-segaert-surprise-victory-on-stage-12/", "publication": "Cyclingnews", "title": "Giro d'Italia: Late solo attack lands Alec Segaert surprise victory on stage 12", "lang": "en" },
+    { "url": "https://www.rte.ie/sport/cycling/2026/0521/1574590-segaert-takes-giro-stage-win-eulalio-extends-his-lead/", "publication": "RTÉ Sport", "title": "Segaert takes Giro stage win; Eulalio extends his lead", "lang": "en" },
+    { "url": "https://www.giroditalia.it/en/news/alec-segaert-wins-stage-12-of-giro-ditalia-2026/", "publication": "Giro d'Italia (official)", "title": "Alec Segaert, textbook strike in Novi Ligure!", "lang": "en" }
+  ]
+}

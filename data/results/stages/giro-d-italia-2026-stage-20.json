@@ -1,0 +1,77 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 20,
+  "stageName": "Gemona del Friuli → Piancavallo",
+  "stageDate": "2026-05-30",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-31T12:00:00Z",
+  "tldr": "Jonas Vingegaard capped a dominant Giro by winning the final mountain stage at Piancavallo — attacking 11 km from the summit and soloing to his fifth stage victory. Felix Gall and Jai Hindley came in together at +1:15, the same order they hold on GC. Egan Bernal's pacing saved Thymen Arensman's fourth place. With only the ceremonial Rome stage left, the maglia rosa is Vingegaard's.",
+  "podium": [
+    { "position": 1, "riderId": "jonas-vingegaard", "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "time": "5h 03m 55s" },
+    { "position": 2, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+1:15" },
+    { "position": 3, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:15" },
+    { "position": 4, "name": "Derek Gee-West", "team": "Israel - Premier Tech", "gap": "+1:15" },
+    { "position": 5, "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+1:19" }
+  ],
+  "narrative": {
+    "headline": "Vingegaard solos to a fifth win on the last mountain — the Giro is all but won",
+    "body": "The final mountain stage — 200 km from Gemona del Friuli to a summit finish at Piancavallo (14.4 km at 7.8%), the climb tackled twice — followed the script of the whole race. An early break of Jonas Geens, Axel Huens, Jack Haig, Andreas Leknessund and Guillermo Thomas Silva built a five-minute lead, later joined by Tarozzi and Warbasse, but the gap tumbled on the first ascent of Piancavallo.\n\nWith 11 km still to climb on the final ascent, Vingegaard simply rode away from the GC group, powering past the breakaway remnants and soloing toward his fifth stage win. Felix Gall set off in pursuit at a distance but could never close.\n\nThe only late tension was behind: Derek Gee-West attacked fourth-placed Thymen Arensman and Jai Hindley followed, the pair bridging to Gall and briefly threatening Arensman's overall position. But Egan Bernal shepherded his INEOS teammate back to the wheels, and the danger passed. Vingegaard crossed the line a convincing winner; Gall and Hindley came home together at +1:15 — second and third on the stage, exactly as they sit on GC.\n\nWith only the ceremonial Rome circuit to come, Vingegaard's overall victory is secure."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard seals the Giro; final pre-Rome podium is Vingegaard–Gall–Hindley",
+    "body": "GC after Stage 20: 1. Vingegaard (maglia rosa); 2. Felix Gall +5:22; 3. Jai Hindley +6:25; 4. Thymen Arensman +7:02; 5. Derek Gee-West +7:56; 6. Afonso Eulálio +9:39; 7. Michael Storer +10:13; 8. Davide Piganzoli +10:52; 9. Damiano Caruso +11:24; 10. Egan Bernal +12:54. Vingegaard extended his winning margin to 5:22 over Gall on the last mountain day. The podium is locked — Gall second, Hindley third — and Arensman held fourth thanks to Bernal's pacing. Only Stage 21, the ceremonial circuit in Rome, remains, and it will not change the overall."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard", "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 1, "gap": null,
+      "narrative": "A statement to close the mountains. Vingegaard attacked from the GC group with 11 km still to climb on the final ascent of Piancavallo and rode solo to his fifth stage win of the race — equalling the Giro's most successful stage winner tally and stretching his overall lead to 5:22. After overturning Eulálio's early buffer at Pila and stamping his authority at Carì and on the queen stage, this was the exclamation point: the maglia rosa, won the hard way, now effectively secured with only Rome to come.",
+      "keyMoments": [
+        { "km": 11, "what": "Attacked from the GC group on the final climb and soloed to his fifth stage win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 2, "gap": "+1:15",
+      "narrative": "Gall again rode as best-of-the-rest, chasing Vingegaard's final-climb attack at a distance and coming home second on the stage at +1:15 alongside Hindley. He secures second overall at +5:22 — the standout Grand Tour result of his career and confirmation as the nearest, if distant, rival to the dominant maglia rosa.",
+      "keyMoments": [
+        { "km": null, "what": "Chased Vingegaard's attack; 2nd on the stage, locks up 2nd overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 5, "gap": "+1:19",
+      "narrative": "Arensman survived a late scare. When Gee-West and Hindley attacked on the final climb and briefly threatened his fourth place, it was teammate Egan Bernal who paced him back into contact. He finished 5th on the stage and held fourth overall at +7:02 — a fine first Grand Tour as a protected GC leader.",
+      "keyMoments": [
+        { "km": null, "what": "Paced back by Bernal after Gee-West's attack; held 4th overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers",
+      "role": "domestique", "position": 6, "gap": "+1:25",
+      "narrative": "The senior road captain's most important ride of the Giro. When Gee-West's attack threatened to dislodge Arensman from fourth, Bernal — a former Giro champion himself — guided his Dutch teammate back onto the rivals' wheels before finishing sixth on the stage. A telling sign of his continued comeback: strong enough to be decisive in the finale of a Grand Tour mountain stage in service of a teammate.",
+      "keyMoments": [
+        { "km": null, "what": "Guided Arensman back to the GC group to protect his 4th place" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team",
+      "role": "leader", "position": 9, "gap": "+2:13",
+      "narrative": "Storer rounded out a consistent three weeks, finishing ninth on the last mountain stage and holding seventh overall at +10:13 — a high-quality Grand Tour GC ride for the Tudor ProTeam.",
+      "keyMoments": [
+        { "km": null, "what": "9th on the stage; holds 7th overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-20-italy-results-2026/", "publication": "Cycling Stage", "title": "Giro 2026: Vingegaard caps dominant Giro with fifth stage victory", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/giro-2026-results/", "publication": "Cycling Stage", "title": "Giro d'Italia 2026 — results overview (Stage 20 row + GC)", "lang": "en" }
+  ]
+}

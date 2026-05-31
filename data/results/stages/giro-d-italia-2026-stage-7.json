@@ -1,40 +1,130 @@
 {
-  "raceId": "giro-d-italia-2026", "stageNumber": 7, "stageName": "Formia → Blockhaus", "stageDate": "2026-05-15", "stageType": "mountain", "researchedAt": "2026-05-17T05:30:00Z",
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 7,
+  "stageName": "Formia → Blockhaus",
+  "stageDate": "2026-05-15",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-17T05:30:00Z",
   "tldr": "Jonas Vingegaard won the Giro's first mountain finish at Blockhaus, soloing the final 7 km to take 13 seconds over Felix Gall — but Afonso Eulálio survived the day to retain the pink jersey, with his Stage 6 cushion halved. Hindley led the next chase 1:02 back, edging Pellizzari and O'Connor in a 3-way sprint. Vingegaard is now the clear GC threat, but Eulálio still leads.",
   "podium": [
-    { "position": 1, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "time": "6h 09m 15s" },
-    { "position": 2, "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+0:13" },
-    { "position": 3, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:02" },
-    { "position": 4, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:05" },
-    { "position": 5, "name": "Ben O'Connor", "team": "Jayco AlUla", "gap": "+1:05" }
+    {
+      "position": 1,
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "time": "6h 09m 15s"
+    },
+    {
+      "position": 2,
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM",
+      "gap": "+0:13"
+    },
+    {
+      "position": 3,
+      "name": "Jai Hindley",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+1:02"
+    },
+    {
+      "position": 4,
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+1:05"
+    },
+    {
+      "position": 5,
+      "name": "Ben O'Connor",
+      "team": "Jayco AlUla",
+      "gap": "+1:05"
+    }
   ],
-  "narrative": { "headline": "Vingegaard stakes his Giro claim at Blockhaus — but Eulálio holds pink", "body": "245 km, the longest stage of the Giro, ~4,500 m of climbing weighted to the second half. The day's break (Milan, Sevilla, Zukowski, van der Lee, Naberman) was a points-jersey skirmish more than a GC threat; Milan dropped back after the intermediate sprint, Sevilla kept gathering KOM points until Vingegaard later jeopardised the blue jersey too.\n\nVisma took control as the race approached the 13 km Blockhaus climb. Piganzoli and Kuss launched Vingegaard, who attacked with 7 km to go. Eulálio was dropped seconds before the move — only Pellizzari could initially follow, with Gall close behind. Pellizzari cracked at 5 km to go and Gall came across to be the lone chaser, never closing inside 13 seconds.\n\nVingegaard's first Grand Tour stage outside the Tour de France. Hindley won the 3-way sprint for third over Pellizzari and O'Connor 1:02 back. Crucially, Eulálio crossed about three minutes down — he lost half his lead but kept the maglia rosa." },
-  "gcImpact": { "headline": "Eulálio still in pink, Vingegaard now the clear chaser", "body": "Eulálio retains the maglia rosa after a strong defensive ride from the Stage 6 breakaway leader. Vingegaard is now the principal GC threat, with Gall close behind. Pellizzari moved further into the GC top six. Hindley and O'Connor stayed in the conversation. The race's GC tension has reset: not yet 'Vingegaard's to lose,' but the Dane is closer to pink than anyone outside Eulálio's own breakaway group from Stage 6." },
+  "narrative": {
+    "headline": "Vingegaard stakes his Giro claim at Blockhaus — but Eulálio holds pink",
+    "body": "245 km, the longest stage of the Giro, ~4,500 m of climbing weighted to the second half. The day's break (Milan, Sevilla, Zukowski, van der Lee, Naberman) was a points-jersey skirmish more than a GC threat; Milan dropped back after the intermediate sprint, Sevilla kept gathering KOM points until Vingegaard later jeopardised the blue jersey too.\n\nVisma took control as the race approached the 13 km Blockhaus climb. Piganzoli and Kuss launched Vingegaard, who attacked with 7 km to go. Eulálio was dropped seconds before the move — only Pellizzari could initially follow, with Gall close behind. Pellizzari cracked at 5 km to go and Gall came across to be the lone chaser, never closing inside 13 seconds.\n\nVingegaard's first Grand Tour stage outside the Tour de France. Hindley won the 3-way sprint for third over Pellizzari and O'Connor 1:02 back. Crucially, Eulálio crossed about three minutes down — he lost half his lead but kept the maglia rosa."
+  },
+  "gcImpact": {
+    "headline": "Eulálio still in pink, Vingegaard now the clear chaser",
+    "body": "Eulálio retains the maglia rosa after a strong defensive ride from the Stage 6 breakaway leader. Vingegaard is now the principal GC threat, with Gall close behind. Pellizzari moved further into the GC top six. Hindley and O'Connor stayed in the conversation. The race's GC tension has reset: not yet 'Vingegaard's to lose,' but the Dane is closer to pink than anyone outside Eulálio's own breakaway group from Stage 6."
+  },
   "riderPerformances": [
     {
-      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
-      "role": "leader", "position": 4, "gap": "+1:05",
-      "narrative": "Followed Vingegaard's attack at 7 km to go — the only rider to initially stay on the Dane's wheel. Cracked at ~5 km to go after 'going above what he could,' losing contact with Gall on the steepest section. Recovered to finish 4th in the 3-way sprint behind Hindley. The day Pellizzari's stage-race credibility cleared from 'top-five at Tirreno' to 'Grand Tour mountain-stage top-five on home Italian roads' — Red Bull-Bora's GC plan around him has its strongest data point yet.",
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won the 244 km Blockhaus queen stage — the longest of the Giro — attacking on the 13.6 km final climb and taking 13 seconds on Felix Gall, the only rider able to follow, while the rest of the GC field shipped a minute or more. The GC statement of the first week, even though Afonso Eulálio's breakaway buffer kept the maglia rosa out of reach for now.",
       "keyMoments": [
-        { "km": 7, "what": "Followed Vingegaard's attack — only rider initially able to" },
-        { "km": 5, "what": "Cracked under his own pace, dropped by Gall" },
-        { "km": 0, "what": "4th in the 3-way sprint behind Hindley, alongside O'Connor" }
+        {
+          "km": null,
+          "what": "Attacked on the Blockhaus final climb; only Gall held to within 13s"
+        }
       ],
       "incident": null
     },
     {
-      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl-Trek",
-      "role": "stage-hunter", "position": null, "gap": null,
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:05",
+      "narrative": "Followed Vingegaard's attack at 7 km to go — the only rider to initially stay on the Dane's wheel. Cracked at ~5 km to go after 'going above what he could,' losing contact with Gall on the steepest section. Recovered to finish 4th in the 3-way sprint behind Hindley. The day Pellizzari's stage-race credibility cleared from 'top-five at Tirreno' to 'Grand Tour mountain-stage top-five on home Italian roads' — Red Bull-Bora's GC plan around him has its strongest data point yet.",
+      "keyMoments": [
+        {
+          "km": 7,
+          "what": "Followed Vingegaard's attack — only rider initially able to"
+        },
+        {
+          "km": 5,
+          "what": "Cracked under his own pace, dropped by Gall"
+        },
+        {
+          "km": 0,
+          "what": "4th in the 3-way sprint behind Hindley, alongside O'Connor"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
       "narrative": "In the early breakaway, taking 12 maglia ciclamino points at the intermediate sprint before dropping back to the bunch. A points-jersey play, not a stage-result one — the right use of a queen-mountain stage for the race's lead sprinter.",
-      "keyMoments": [{ "km": null, "what": "In the day's break; took 12 points at intermediate sprint" }],
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "In the day's break; took 12 points at intermediate sprint"
+        }
+      ],
       "incident": null
     }
   ],
   "incidents": {},
   "quotes": [],
   "sources": [
-    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-stage-7-jonas-vingegaard-conquers-blockhaus-gall-second-and-eulalio-defends-pink-jersey", "publication": "Cycling Up To Date", "title": "Results Giro d'Italia stage 7 - Jonas Vingegaard conquers Blockhaus: Gall second and Eulálio defends pink jersey", "lang": "en" },
-    { "url": "https://www.cyclingstage.com/giro-2026-results/", "publication": "Cycling Stage", "title": "Giro 2026 — Results overview", "lang": "en" },
-    { "url": "https://www.cyclingnews.com/pro-cycling/live/giro-d-italia-stage-7-live-the-mighty-blockhaus-finish-offers-a-gc-battle/", "publication": "Cyclingnews", "title": "Giro d'Italia Stage 7 live — Blockhaus finish", "lang": "en" }
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-stage-7-jonas-vingegaard-conquers-blockhaus-gall-second-and-eulalio-defends-pink-jersey",
+      "publication": "Cycling Up To Date",
+      "title": "Results Giro d'Italia stage 7 - Jonas Vingegaard conquers Blockhaus: Gall second and Eulálio defends pink jersey",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/",
+      "publication": "Cycling Stage",
+      "title": "Giro 2026 — Results overview",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingnews.com/pro-cycling/live/giro-d-italia-stage-7-live-the-mighty-blockhaus-finish-offers-a-gc-battle/",
+      "publication": "Cyclingnews",
+      "title": "Giro d'Italia Stage 7 live — Blockhaus finish",
+      "lang": "en"
+    }
   ]
 }

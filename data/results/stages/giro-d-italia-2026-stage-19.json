@@ -1,0 +1,88 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 19,
+  "stageName": "Feltre → Alleghe (Piani di Pezzè)",
+  "stageDate": "2026-05-29",
+  "stageType": "mountain",
+  "researchedAt": "2026-05-31T12:00:00Z",
+  "tldr": "Sepp Kuss won an enthralling Dolomite queen stage from the breakaway, catching Giulio Ciccone on the final climb to Piani di Pezzè and soloing in. Ciccone took the Cima Coppi on the Passo Giau and seized the King of the Mountains jersey from Vingegaard. Up the road in the GC group, Gall attacked and only Vingegaard could fully hold; Jai Hindley climbed onto the podium (3rd) as Thymen Arensman slipped to 4th. Vingegaard kept the maglia rosa, 4:03 ahead of Gall.",
+  "podium": [
+    { "position": 1, "name": "Sepp Kuss", "team": "Team Visma | Lease a Bike", "time": "4h 28m 33s" },
+    { "position": 2, "name": "Derek Gee-West", "team": "Israel - Premier Tech", "gap": "+0:13" },
+    { "position": 3, "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Lidl - Trek", "gap": "+0:36" },
+    { "position": 4, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+0:39" },
+    { "position": 5, "riderId": "jonas-vingegaard", "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "gap": "+0:39" }
+  ],
+  "narrative": {
+    "headline": "Kuss wins the Queen Stage from the break — Ciccone steals the mountains jersey, Hindley moves onto the podium",
+    "body": "The Dolomite queen stage — 151 km from Feltre over the Passo Duran, Forcella Staulanza, the Passo Giau (Cima Coppi, 2,305 m) and Passo Falzarego before the final ramp to Piani di Pezzè — split apart from the first climb. A huge move went clear on the Passo Duran, including Sepp Kuss, Giulio Ciccone, Einer Rubio, Damiano Caruso, Derek Gee-West, Giulio Pellizzari, Michael Storer, Enric Mas and Alberto Bettiol, cresting nearly a minute ahead of the chasers and two up on the peloton.\n\nCiccone made the day his mountains-classification statement: he won the points sprints on the Duran and Forcella Staulanza, then took the Cima Coppi atop the Passo Giau — 50 mountain points that lifted him past Jonas Vingegaard into the King of the Mountains jersey. On the Falzarego, Gee-West's group built a three-minute cushion that put the Canadian virtually onto the GC podium, and he grabbed six bonus seconds on the climb's mid-point sprint.\n\nOver the top, Ciccone and Rubio led onto the descent before the final climb to Piani di Pezzè (4.9 km at 9.8%). Kuss and Pellizzari opened the chase from the foot of the climb; Kuss accelerated clear, caught Ciccone with 2.2 km to go, and rode straight past to a solo win — Gee-West holding on for second at +0:13.\n\nBehind, the GC group lit up: Felix Gall attacked and only Vingegaard and Hindley could go with him. Hindley was briefly dropped but Pellizzari sat up to pace his Red Bull teammate back. Gall and Vingegaard crossed together at +0:39, Hindley four seconds later — enough for the Australian to leapfrog Thymen Arensman, who lost more than a minute, into third overall."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard retains pink; Hindley up to 3rd, Arensman down to 4th; Ciccone takes the mountains jersey",
+    "body": "GC after Stage 19: 1. Vingegaard (maglia rosa); 2. Felix Gall +4:03 (unchanged); 3. Jai Hindley +5:04 (up from 4th); 4. Thymen Arensman +5:33 (down from 3rd); 5. Derek Gee-West +6:31; 6. Afonso Eulálio +7:26; 7. Michael Storer +7:50; 8. Davide Piganzoli +8:29; 9. Damiano Caruso +9:01; 10. Egan Bernal +11:19. Vingegaard's overall lead is untouched, but the podium order flipped behind Gall — Hindley's late resilience put him third and dropped Arensman to fourth. The day's other jersey news: Giulio Ciccone wrested the King of the Mountains classification from Vingegaard with his Cima Coppi haul. One mountain stage (Piancavallo) and the Rome finale remain."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Lidl - Trek",
+      "role": "stage-hunter", "position": 3, "gap": "+0:36",
+      "narrative": "The animator and moral victor of the queen stage. Ciccone made the early Passo Duran break and turned it into a mountains-jersey raid — winning the points sprints on the Duran and Forcella Staulanza, then taking the Cima Coppi atop the Passo Giau for 50 points that lifted him past Vingegaard into the maglia azzurra. He led over the Giau with Rubio and was still clear on the final climb until Sepp Kuss reeled him in with 2.2 km to go; he held on for third on the stage. A perfect home-roads ride that delivered the King of the Mountains jersey on the Giro's biggest mountain day.",
+      "keyMoments": [
+        { "km": null, "what": "Won the Cima Coppi on the Passo Giau (50 pts) to take the King of the Mountains jersey from Vingegaard" },
+        { "km": 2.2, "what": "Caught by Kuss on the final climb to Piani di Pezzè; finished 3rd on the stage" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "domestique", "position": null, "gap": null,
+      "narrative": "A selfless, race-shaping ride from the breakaway. Pellizzari attacked on the Passo Giau and was part of the front move with Ciccone and Kuss, then opened the chase of Ciccone on the final climb. Crucially, when his GC leader Jai Hindley was distanced by Gall's attack in the favourites' group, Pellizzari sat up to pace him back — work that helped Hindley climb onto the overall podium. The kind of teammate ride that wins jerseys for others.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked with Ciccone on the Passo Giau; later opened the chase of Ciccone on the final climb" },
+        { "km": null, "what": "Waited to pace teammate Hindley after Gall's attack, helping him into 3rd overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 4, "gap": "+0:39",
+      "narrative": "Gall went on the offensive on the final climb to Piani di Pezzè, the only GC man willing to test Vingegaard. He briefly distanced Hindley but could not shake the maglia rosa, the pair finishing together for 4th and 5th on the stage. He holds second overall at +4:03 — the gap unchanged — and remains the clear, if distant, challenger with only Piancavallo left to try something.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on the final climb; only Vingegaard (and briefly Hindley) could follow" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard", "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 5, "gap": "+0:39",
+      "narrative": "Calm control on the hardest day. Vingegaard answered Gall's final-climb attack without flinching, marking the Austrian all the way to the line for 5th on the stage and protecting his 4:03 overall cushion. The one concession was symbolic: Ciccone's Cima Coppi raid stripped him of the King of the Mountains jersey. With his Visma teammate Kuss soloing to the stage win up the road, it was a near-perfect day for the maglia rosa.",
+      "keyMoments": [
+        { "km": null, "what": "Marked Gall's attack on the final climb to retain the overall lead (+4:03)" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 12, "gap": "+1:45",
+      "narrative": "A costly day for the INEOS man. Unable to follow when Gall and Vingegaard lifted the pace on the final climb, Arensman conceded more than a minute (12th at +1:45) and slipped from third to fourth overall, leapfrogged by Jai Hindley. He now sits 4th at +5:33 with only Piancavallo left to try to win the place back.",
+      "keyMoments": [
+        { "km": null, "what": "Distanced on the final climb; dropped from 3rd to 4th overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team",
+      "role": "stage-hunter", "position": 10, "gap": "+1:19",
+      "narrative": "Storer made the day's big breakaway as one of the best-placed riders on GC, riding aggressively over the Dolomite passes before the front group thinned on the Giau. He came home 10th on the stage and sits 7th overall at +7:50 — a strong, consistent Grand Tour for the Tudor ProTeam.",
+      "keyMoments": [
+        { "km": null, "what": "In the queen-stage breakaway; 10th on the stage, holds 7th overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/giro-2026-results/stage-19-italy-results-2026/", "publication": "Cycling Stage", "title": "Giro 2026: Kuss wins enthralling Queen Stage", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/giro-2026-results/", "publication": "Cycling Stage", "title": "Giro d'Italia 2026 — results overview (Stage 19 row + GC)", "lang": "en" }
+  ]
+}

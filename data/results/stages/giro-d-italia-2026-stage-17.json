@@ -1,0 +1,119 @@
+{
+  "raceId": "giro-d-italia-2026",
+  "stageNumber": 17,
+  "stageName": "Cassano d'Adda → Andalo",
+  "stageDate": "2026-05-27",
+  "stageType": "hilly",
+  "researchedAt": "2026-05-28T12:00:00Z",
+  "tldr": "Michael Valgren (EF Education-EasyPost) timed a perfect attack just before the flamme rouge in Andalo to win from the breakaway — his first ever Grand Tour stage victory at age 34 — ahead of Andreas Leknessund and Damiano Caruso. The GC peloton rolled in more than five minutes later with no movement among the leaders: Jonas Vingegaard retained the maglia rosa, ahead of Felix Gall (+4:03) and Thymen Arensman (+4:27). (Note: the cyclingstage index table lists 'Valgren' in the leader column; that is a scrape artifact conflating the stage winner with the GC leader. The verified maglia rosa is Vingegaard.)",
+  "podium": [
+    { "position": 1, "name": "Michael Valgren", "team": "EF Education-EasyPost", "time": "4:41:33" },
+    { "position": 2, "name": "Andreas Leknessund", "team": "Uno-X Mobility", "gap": "+0:03" },
+    { "position": 3, "name": "Damiano Caruso", "team": "Bahrain Victorious", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Valgren steals a breakaway thriller in Andalo for a first Grand Tour win at 34",
+    "body": "Stage 17, a long 202 km transitional day from Cassano d'Adda to an uphill finish at Andalo, was destined for the break from the gun. Attacks flew from the start before Niklas Larsen, Jan Christen, Rémi Cavagna, Michael Valgren, Alessandro Tonelli, Manuele Tarozzi and Andreas Leknessund finally got clear, stretching their lead to two minutes. A chasing group formed almost immediately, and before the summit of the Passo dei Tre Termini, Davide Bais, Lorenzo Milesi, Mick van Dijke and Frank van den Broek bridged across to the leaders. A larger third group containing Jhonathan Narváez, Enric Mas, Einer Rubio, Giulio Ciccone, David de la Cruz, Aleksandr Vlasov and others crested the climb around 50 seconds back, with the peloton drifting steadily out of contention.\n\nOn the Cocca di Lodrino, Rémi Cavagna pushed on alone while the groups behind merged. The Frenchman built a two-minute gap on the chasers and six minutes on a peloton content to let the day go, but on the climb to Roncone he was reeled in. At the Roncone summit Narváez took the intermediate sprint to reclaim the maglia ciclamino from Paul Magnier.\n\nValgren, Caruso, Leknessund, Juan Pedro López and Gianmarco Garofoli forced the front split, then Rubio, Vlasov, Igor Arrieta, Van Dijke and De la Cruz joined to make a ten-man leading group with roughly 30 km to go. On the Andalo Lever climb Rubio attacked and briefly distanced everyone before Valgren and Arrieta clawed back; the leaders crested with a slim lead over the chase. The six leaders regrouped inside the final two kilometres, and Valgren kicked clear just before the flamme rouge. He opened an instant gap; Leknessund launched the chase but it was too late. Valgren soloed home for an emotional maiden Grand Tour stage win, with the GC group arriving more than five minutes down and the overall picture unchanged."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard keeps pink on a breakaway day — 'Valgren leader' is a scrape error",
+    "body": "This was a pure breakaway stage; the GC contenders sat up in the peloton and finished together more than five minutes behind winner Michael Valgren, so there was no change at the top. Jonas Vingegaard retains the maglia rosa. The cyclingstage.com results-index table shows 'Valgren' in the post-stage leader column, but that is an artifact of the scrape conflating the stage winner with the GC leader — Michael Valgren is an EF classics rider, not a GC contender, and multiple sources (giroditalia.it, quotidiano.net, cyclinguptodate.com, and cyclingstage's own race report headlined 'Vingegaard still in pink') confirm Vingegaard kept the lead. The verified GC after stage 17: 1. Jonas Vingegaard; 2. Felix Gall +4:03; 3. Thymen Arensman +4:27; 4. Jai Hindley +5:00; 5. Afonso Eulálio +5:40; 6. Derek Gee-West +7:09; 7. Michael Storer +7:14. Vingegaard, who took pink at Pila on stage 14 and held it through stage 16, continues to lead and remains in pink after stage 18."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": "+5:00 (approx., in peloton)",
+      "narrative": "Vingegaard had a quiet day in the maglia rosa, watching the breakaway day unfold from the peloton with no threat to his lead from anyone in the GC top ten. His Danish compatriot Valgren took the stage win from the front group while Vingegaard followed the finale over race radio, finishing in the bunch more than five minutes down. He retained pink comfortably with a 4:03 cushion to Felix Gall and continues to control the race heading into the final week. No attacks materialised among the GC men on the day's uphill finish.",
+      "keyMoments": [
+        { "km": null, "what": "Sat in the peloton as the breakaway was allowed to contest the stage" },
+        { "km": null, "what": "Finished safely in the GC group ~5 min down, retaining the maglia rosa" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon AG2R La Mondiale",
+      "role": "leader",
+      "position": null,
+      "gap": "+5:00 (approx., in peloton)",
+      "narrative": "Gall remained second overall at 4:03 behind Vingegaard, holding his position without incident on a stage that the GC contenders conceded to the breakaway. He finished in the main peloton group more than five minutes behind Valgren. With no attacking on the Andalo finish among the favourites, Gall's deficit to the pink jersey was unchanged. He stays the leading challenger to Vingegaard going into the decisive final mountain stages.",
+      "keyMoments": [
+        { "km": null, "what": "Marked Vingegaard in the GC group; no attacks on the uphill finish" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer",
+      "name": "Michael Storer",
+      "team": "Tudor Pro Cycling",
+      "role": "domestique",
+      "position": null,
+      "gap": "+5:00 (approx., in peloton)",
+      "narrative": "Storer sat seventh overall at 7:14 after stage 17, holding his place in the GC group on a day controlled by the breakaway. He did not feature in the day's escape and finished in the peloton with the other classification riders. His top-ten GC position was unaffected.",
+      "keyMoments": [
+        { "km": null, "what": "Remained in the GC peloton; held seventh overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Ciccone was active in the move of the day, featuring in the large chasing group behind the initial breakaway alongside Narváez, Mas, Rubio and others. The group crested the early climbs around a minute behind the leaders but Ciccone was not part of the front selection that ultimately contested the win at Andalo. He animated the stage without reaching the decisive ten-man group inside the final 30 km.",
+      "keyMoments": [
+        { "km": null, "what": "Bridged into the second chasing group on the Passo dei Tre Termini" },
+        { "km": 30, "what": "Was distanced as Valgren's group formed the front selection on the run-in to Andalo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "UAE Team Emirates-XRG",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Christen was part of the very first move that established the breakaway, getting clear early with Larsen, Cavagna, Valgren, Tonelli, Tarozzi and Leknessund. He helped build the break's initial two-minute advantage but was not present in the front group that fought for the win at the finish in Andalo.",
+      "keyMoments": [
+        { "km": null, "what": "Among the first riders to form the day's breakaway" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/giro-2026-results/stage-17-italy-results-2026/",
+      "publication": "CyclingStage",
+      "title": "Giro 2026: Valgren wins thriller, Vingegaard still in pink",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.giroditalia.it/en/news/michael-valgren-won-stage-17-of-the-2026-giro-ditalia/",
+      "publication": "Giro d'Italia (official)",
+      "title": "Tactics and power: Valgren triumphs in Andalo",
+      "lang": "en"
+    },
+    {
+      "url": "https://sport.quotidiano.net/en/ciclismo/giro-ditalia-2026-tappa-17-vince-valgren-ordine-darrivo-e-classifica-generale-abe98498",
+      "publication": "Quotidiano.net Sport",
+      "title": "Giro d'Italia 2026, stage 17: Valgren wins. Finishing order and overall standings",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-2026-stage-17-michael-valgren-stuns-breakaway-rivals-with-late-attack-in-andalo",
+      "publication": "CyclingUpToDate",
+      "title": "Results Giro d'Italia 2026 Stage 17 - Michael Valgren stuns breakaway rivals with late attack in Andalo",
+      "lang": "en"
+    }
+  ]
+}
