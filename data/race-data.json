@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T05:14:04.499Z",
+  "lastUpdated": "2026-05-31T23:54:38.038Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -967,6 +967,128 @@
           "classification": "young",
           "description": "Top under-23 rider."
         }
+      ],
+      "topRiders": [
+        {
+          "id": "ally-wollaston",
+          "name": "WOLLASTON Ally",
+          "team": "FDJ United - SUEZ",
+          "ranking": 16,
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ]
+        },
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "mavi-garcia",
+          "name": "GARCÍA Mavi",
+          "team": "UAE Team ADQ",
+          "ranking": 23,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "dominika-wlodarczyk",
+          "name": "WŁODARCZYK Dominika",
+          "team": "UAE Team ADQ",
+          "ranking": 33,
+          "nationality": "Poland",
+          "nationalityCode": "PO",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "sarah-van-dam",
+          "name": "VAN DAM Sarah",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 36,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "paula-blasi",
+          "name": "BLASI Paula",
+          "team": "UAE Team ADQ",
+          "ranking": 38,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "barbara-malcotti",
+          "name": "MALCOTTI Barbara",
+          "team": "Human Powered Health",
+          "ranking": 40,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "amanda-spratt",
+          "name": "SPRATT Amanda",
+          "team": "Lidl - Trek",
+          "ranking": 42,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "chloe-dygert",
+          "name": "DYGERT Chloé",
+          "team": "CANYON//SRAM zondacrypto",
+          "ranking": 48,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "time-trialist",
+            "track"
+          ]
+        }
       ]
     },
     {
@@ -1805,6 +1927,80 @@
           "kind": "raceDetails",
           "text": "Limited pre-race preview material was published for this edition. Stage and result data may be available via the organizer site."
         }
+      ],
+      "topRiders": [
+        {
+          "id": "ally-wollaston",
+          "name": "WOLLASTON Ally",
+          "team": "FDJ United - SUEZ",
+          "ranking": 16,
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "all-rounder",
+            "climber"
+          ]
+        },
+        {
+          "id": "mavi-garcia",
+          "name": "GARCÍA Mavi",
+          "team": "UAE Team ADQ",
+          "ranking": 23,
+          "nationality": "Spain",
+          "nationalityCode": "SP",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "dominika-wlodarczyk",
+          "name": "WŁODARCZYK Dominika",
+          "team": "UAE Team ADQ",
+          "ranking": 33,
+          "nationality": "Poland",
+          "nationalityCode": "PO",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "sarah-van-dam",
+          "name": "VAN DAM Sarah",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 36,
+          "nationality": "Netherlands",
+          "nationalityCode": "NE",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        },
+        {
+          "id": "amanda-spratt",
+          "name": "SPRATT Amanda",
+          "team": "Lidl - Trek",
+          "ranking": 42,
+          "nationality": "Australia",
+          "nationalityCode": "AU",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "chloe-dygert",
+          "name": "DYGERT Chloé",
+          "team": "CANYON//SRAM zondacrypto",
+          "ranking": 48,
+          "nationality": "United States",
+          "nationalityCode": "US",
+          "specialties": [
+            "time-trialist",
+            "track"
+          ]
+        }
       ]
     },
     {
@@ -2326,6 +2522,20 @@
         {
           "kind": "raceDetails",
           "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
         }
       ]
     },
@@ -5052,6 +5262,20 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
         }
       ]
     },
@@ -8753,6 +8977,19 @@
           }
         }
       },
+      "raceDetails": {
+        "spoilerSafe": true
+      },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
+        },
+        {
+          "kind": "raceDetails",
+          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
+        }
+      ],
       "topRiders": [
         {
           "id": "lorena-wiebes",
@@ -8791,19 +9028,6 @@
             "puncheur"
           ],
           "notes": "All-terrain veteran — perennial Hageland contender."
-        }
-      ],
-      "raceDetails": {
-        "spoilerSafe": true
-      },
-      "editorialNotes": [
-        {
-          "kind": "broadcast",
-          "text": "FloBikes did not publish a dedicated event page for this 2026 edition. Try searching flobikes.com directly for stage replays or highlight clips."
-        },
-        {
-          "kind": "raceDetails",
-          "text": "Limited public course/preview coverage was published for this national-tier edition. Race data is preserved at the basic level seen here."
         }
       ]
     },
@@ -9682,7 +9906,21 @@
         ],
         "historicalContext": "Strade Bianche Women was first held in 2015 and quickly became a marquee event on the women's calendar. The race showcases the unique white clay gravel roads of the Crete Senesi region of Tuscany. It shares the same iconic Piazza del Campo finish with the men's event and has produced some of the most dramatic finishes in women's cycling.",
         "watchNotes": "Key moments come on sectors 5-8 in the final 50km where the gravel gets more demanding and the hills steeper. The race often comes down to a small group or solo attack on the final gravel sectors before the Via Santa Caterina climb. Disable autoplay and avoid sidebar recommendations."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "paris-nice-2026",
@@ -11647,7 +11885,45 @@
         ],
         "historicalContext": "The women's edition of Milano-Sanremo was previously held as a separate race (Primavera Rosa, 1999-2005) before being discontinued. Its return to the WWT calendar in 2025-2026 marks a major addition to the women's Monument-tier calendar.",
         "watchNotes": "As with the men's race, the action is in the closing 50km. Watch the Poggio for puncheur attacks aiming to drop the sprinters before the Via Roma finish."
-      }
+      },
+      "topRiders": [
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "turnhout-gravel-2026",
@@ -14406,7 +14682,34 @@
         "watchNotes": "Tune in for the final 90 minutes - the race opens up on the Wolvenberg (82km to go) and the Molenberg (70km to go) is historically where the winning move is launched. The critical TV window is the final hour from Berg Ten Houte (40km to go) through the final Kwaremont/Paterberg. Spoiler caution: avoid YouTube sidebar and autoplay as highlights often reveal the finish."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=6uUqBv7vr8Q",
-      "videoNote": "FloBikes 2026 Tour of Flanders / Ronde van Vlaanderen Femmes full race broadcast (3:12:32). Per youtube-cycling-analyzer: USABLE — winner confirmed at approximately the 2h35m mark (~81% through); ~2h34m of clean race footage precedes it. Soft spoiler at 11km-to-go (~2h19m) hints the likely winner by name. To preserve spoiler-free viewing, stop before the 2h19m mark. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "FloBikes 2026 Tour of Flanders / Ronde van Vlaanderen Femmes full race broadcast (3:12:32). Per youtube-cycling-analyzer: USABLE — winner confirmed at approximately the 2h35m mark (~81% through); ~2h34m of clean race footage precedes it. Soft spoiler at 11km-to-go (~2h19m) hints the likely winner by name. To preserve spoiler-free viewing, stop before the 2h19m mark. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations.",
+      "topRiders": [
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "cyclocross",
+            "mtb"
+          ]
+        },
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "cholet-agglo-tour-2026",
@@ -16074,7 +16377,33 @@
         "watchNotes": "Tune in for the full race from the opening cobbled sectors - with the new 2026 format there's no quiet opening and chaos often strikes early. The critical TV window is the final hour from Mons-en-Pévèle (48.6km to go) through Carrefour de l'Arbre (17.1km to go). The velodrome finish is must-watch. Spoiler caution: YouTube search results and thumbnails often show the winner - disable autoplay."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=kCu-cibQzgE",
-      "videoNote": "NBC Sports official 2026 Paris-Roubaix Femmes extended highlights (17:49). Per youtube-cycling-analyzer: USABLE/SAFE — extended-highlights format, opens mid-race at the cobbled sectors, winner only at the natural velodrome finish. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "NBC Sports official 2026 Paris-Roubaix Femmes extended highlights (17:49). Per youtube-cycling-analyzer: USABLE/SAFE — extended-highlights format, opens mid-race at the cobbled sectors, winner only at the natural velodrome finish. Tier 1 official broadcaster. Disable autoplay and avoid sidebar recommendations.",
+      "topRiders": [
+        {
+          "id": "elisa-balsamo",
+          "name": "BALSAMO Elisa",
+          "team": "Lidl - Trek",
+          "ranking": 5,
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "sprinter",
+            "one-day"
+          ]
+        },
+        {
+          "id": "linda-zanetti",
+          "name": "ZANETTI Linda",
+          "team": "Uno-X Mobility",
+          "ranking": 26,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "puncheur"
+          ]
+        }
+      ]
     },
     {
       "id": "worthersee-gravel-race-2026",
@@ -17571,7 +17900,21 @@
         "historicalContext": "The Amstel Gold Race Ladies Edition has been part of the Women's WorldTour with the revitalised event returning on a modern course in 2017. Previous editions have been won by Marianne Vos, Demi Vollering, and in 2025 by Mischa Bredewold. It is part of the Ardennes triptych alongside La Flèche Wallonne Féminine and Liège-Bastogne-Liège Femmes. The race has grown steadily in prestige and now covers over 150km - among the longest one-day races on the women's calendar.",
         "watchNotes": "Tune in for the final 90 minutes - especially the third Cauberg pass (39km to go) onwards. Attacks often go on the fourth Cauberg (21.6km to go) or on the Bemelerberg. The finish comes just past the final Cauberg summit, which means the last 1.7km is the decisive section for any sprint from a small group. Spoiler caution: avoid YouTube sidebar, autoplay, and comments."
       },
-      "_notes": "Direct deep link to women's replay within the shared 2026 Amstel Gold Race event page (men + women)."
+      "_notes": "Direct deep link to women's replay within the shared 2026 Amstel Gold Race event page (men + women).",
+      "topRiders": [
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "monaco-gravel-race-2026",
@@ -18540,7 +18883,21 @@
       },
       "_notes": "FloBikes women's (Femmes) event page. Full race replay: /collections/6799323-full-race-replays?playing=15811651 ; Highlights: /video/15813998-highlights-2026-fleche-wallonne-femmes.",
       "youtubeHighlights": "https://www.youtube.com/watch?v=P7G-RaIBfKs",
-      "videoNote": "NBC Sports official 2026 Flèche Wallonne Femmes extended highlights (20:10). Per youtube-cycling-analyzer: SAFE — full race narrative, winner only at the natural finish-line moment; longest spoiler-free experience available. Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "NBC Sports official 2026 Flèche Wallonne Femmes extended highlights (20:10). Per youtube-cycling-analyzer: SAFE — full race narrative, winner only at the natural finish-line moment; longest spoiler-free experience available. Disable autoplay and avoid sidebar recommendations.",
+      "topRiders": [
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "vuelta-asturias-2026",
@@ -20201,7 +20558,34 @@
         "watchNotes": "The key window for viewing is the final 90 minutes - from the Wanne-Stockeu-Haute-Levée trio at 88km to go through to the finish. La Redoute at 34km remaining is historically where the winning move is launched; if the group is still together on the Roche-aux-Faucons, watch for explosive attacks in the final 13km. Spoiler caution: avoid YouTube autoplay and sidebar recommendations as these frequently preview the finale."
       },
       "youtubeHighlights": "https://www.youtube.com/watch?v=MKJsVDB_ufE",
-      "videoNote": "NBC Sports official 2026 Liège-Bastogne-Liège Femmes extended highlights (17:00). Per youtube-cycling-analyzer: USABLE — neutral title, official broadcaster, substantial 17-min extended highlights package; winner reveal expected only at the natural finish line per the broadcast standard. Tier 1 official broadcaster (NBC Sports). Disable autoplay and avoid sidebar recommendations."
+      "videoNote": "NBC Sports official 2026 Liège-Bastogne-Liège Femmes extended highlights (17:00). Per youtube-cycling-analyzer: USABLE — neutral title, official broadcaster, substantial 17-min extended highlights package; winner reveal expected only at the natural finish line per the broadcast standard. Tier 1 official broadcaster (NBC Sports). Disable autoplay and avoid sidebar recommendations.",
+      "topRiders": [
+        {
+          "id": "pauline-ferrand-prevot",
+          "name": "FERRAND-PRÉVOT Pauline",
+          "team": "Team Visma | Lease a Bike",
+          "ranking": 13,
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "all-rounder",
+            "cyclocross",
+            "mtb"
+          ]
+        },
+        {
+          "id": "magdeleine-vallieres",
+          "name": "VALLIERES Magdeleine",
+          "team": "EF Education-Oatly",
+          "ranking": 46,
+          "nationality": "Canada",
+          "nationalityCode": "CA",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ]
     },
     {
       "id": "tour-de-romandie-2026",
@@ -21536,6 +21920,20 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider — top GC rider under 26."
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "noemi-ruegg",
+          "name": "RÜEGG Noemi",
+          "team": "EF Education-Oatly",
+          "ranking": 20,
+          "nationality": "Switzerland",
+          "nationalityCode": "SW",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
         }
       ]
     },
@@ -24650,6 +25048,37 @@
           }
         }
       ],
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot à Pois",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ],
       "topRiders": [
         {
           "id": "demi-vollering",
@@ -24748,37 +25177,6 @@
             "classics",
             "puncheur"
           ]
-        }
-      ],
-      "jerseys": [
-        {
-          "name": "Maillot Jaune",
-          "nameEn": "Yellow Jersey",
-          "color": "#fde047",
-          "classification": "gc",
-          "description": "Overall GC leader on aggregate time."
-        },
-        {
-          "name": "Maillot Vert",
-          "nameEn": "Green Jersey",
-          "color": "#22c55e",
-          "classification": "points",
-          "description": "Points classification leader."
-        },
-        {
-          "name": "Maillot à Pois",
-          "nameEn": "Polka Dot Jersey",
-          "color": "#ffffff",
-          "pattern": "polka-dot-red",
-          "classification": "kom",
-          "description": "King of the Mountains."
-        },
-        {
-          "name": "Maillot Blanc",
-          "nameEn": "White Jersey",
-          "color": "#ffffff",
-          "classification": "young",
-          "description": "Best Young Rider."
         }
       ]
     },
@@ -26170,6 +26568,37 @@
           }
         }
       ],
+      "jerseys": [
+        {
+          "name": "Maillot Rojo",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Maillot Verde",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Maillot de la Montaña",
+          "nameEn": "Mountain Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-blue",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Maillot Blanco",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ],
       "topRiders": [
         {
           "id": "demi-vollering",
@@ -26256,37 +26685,6 @@
             "classics",
             "puncheur"
           ]
-        }
-      ],
-      "jerseys": [
-        {
-          "name": "Maillot Rojo",
-          "nameEn": "Red Jersey",
-          "color": "#dc2626",
-          "classification": "gc",
-          "description": "Overall GC leader."
-        },
-        {
-          "name": "Maillot Verde",
-          "nameEn": "Green Jersey",
-          "color": "#22c55e",
-          "classification": "points",
-          "description": "Points classification leader."
-        },
-        {
-          "name": "Maillot de la Montaña",
-          "nameEn": "Mountain Jersey",
-          "color": "#ffffff",
-          "pattern": "polka-dot-blue",
-          "classification": "kom",
-          "description": "King of the Mountains."
-        },
-        {
-          "name": "Maillot Blanco",
-          "nameEn": "White Jersey",
-          "color": "#ffffff",
-          "classification": "young",
-          "description": "Best Young Rider."
         }
       ]
     },
@@ -29297,7 +29695,98 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "topRiders": [
+        {
+          "id": "biniam-girmay",
+          "name": "GIRMAY Biniam",
+          "team": "Intermarché-Wanty",
+          "nationality": "Eritrea",
+          "nationalityCode": "ER",
+          "specialties": [
+            "sprinter",
+            "puncheur",
+            "classics"
+          ]
+        },
+        {
+          "id": "arnaud-de-lie",
+          "name": "DE LIE Arnaud",
+          "team": "Lotto",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "puncheur",
+            "sprinter",
+            "classics"
+          ]
+        },
+        {
+          "id": "corbin-strong",
+          "name": "STRONG Corbin",
+          "team": "Israel-Premier Tech",
+          "nationality": "New Zealand",
+          "nationalityCode": "NZ",
+          "specialties": [
+            "sprinter",
+            "puncheur"
+          ]
+        }
+      ],
+      "raceDetails": {
+        "courseSummary": "The 85th Circuit Franco-Belge runs 196.5 km from the historic Grand-Place of Tournai to an uphill finish at Mont-de-l'Enclus, with roughly 2,350 m of climbing across the rolling Franco-Belgian border country of Hainaut and Flanders. After an opening loop of about 77.6 km that takes in the Mont-Saint-Aubert, the race settles onto a finishing circuit covered five times that strings together three short, sharp côtes before the line is drawn near the top of the Mont-de-l'Enclus (Kluisberg).",
+        "keyClimbs": [
+          {
+            "name": "Mont-Saint-Aubert (Col de la Croix Jubaru)",
+            "category": "3",
+            "length": "1.5 km",
+            "avgGradient": "5.5%",
+            "kmFromFinish": null,
+            "notes": "First difficulty of the day on the opening Tournai loop; thins the bunch early but rarely decisive."
+          },
+          {
+            "name": "Trieu-Knokteberg",
+            "category": "3",
+            "length": "1.2 km",
+            "avgGradient": "7.3%",
+            "notes": "Steepest of the three finishing-circuit climbs; the toughest launchpad for late attacks, repeated five times."
+          },
+          {
+            "name": "Col du Hortilin",
+            "category": "4",
+            "length": "1.3 km",
+            "avgGradient": "4.4%",
+            "notes": "Middle climb of the finishing circuit; a tempo-grinder that keeps the pace high but is too shallow to split the race alone."
+          },
+          {
+            "name": "Mont-de-l'Enclus (Kluisberg)",
+            "category": "3",
+            "length": "1.3 km",
+            "avgGradient": "5.8%",
+            "kmFromFinish": 0,
+            "notes": "Finish climb. Covered five times; the line falls on its slopes, so the winner is decided by an uphill drag-race kick rather than a flat sprint."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Strong, fast-finishing classics riders who can survive five passages of the finishing climbs and unleash an uphill sprint"
+          ],
+          "sprinters": [
+            "Heavy-legged sprinters with a hill in their legs who can hang on over the côtes and contest a reduced, uphill bunch kick"
+          ],
+          "puncheur-classics": [
+            "Aggressive riders who may try to ride clear over the steep Trieu-Knokteberg on the final lap rather than gamble on a group finish"
+          ]
+        },
+        "narratives": [
+          "An uphill finish at Mont-de-l'Enclus tilts the race away from pure bunch sprinters and toward fast puncheurs and sprinters who climb well, exactly the profile of recent winners.",
+          "The five-lap finishing circuit with three short climbs invites late attacks; teams must decide whether to chase moves on the Trieu-Knokteberg or trust a reduced uphill sprint.",
+          "Crosswinds across the exposed Hainaut and Flanders farmland can splinter the bunch and reshape the finale before the climbs even begin.",
+          "As a ProSeries one-dayer in a busy spring window, it draws ambitious ProTeams hunting WorldTour-quality scalps alongside the established classics names."
+        ],
+        "historicalContext": "First run in 1924, the Circuit Franco-Belge is one of Belgium's oldest one-day races, staged for decades as a multi-stage event and known as the Tour de l'Eurométropole from 2012 to 2021 before reverting to its historic name. Since becoming a one-day race it has built a roll of honour rich in WorldTour quality: Fabio Jakobsen (2021), Alexander Kristoff (2022), Arnaud De Lie (2023), Biniam Girmay (2024) and Jonas Abrahamsen (2025), reflecting how the Mont-de-l'Enclus finish rewards versatile fast men.",
+        "watchNotes": "Watch the five passages of the finishing circuit, especially the steep Trieu-Knokteberg, where any decisive attack is most likely to launch. With the line drawn on the Mont-de-l'Enclus climb itself, save your attention for the final kilometre: this is an uphill sprint or a small-group dash, not a flat lead-out. Keep an eye on the wind across the open border roads, which can blow the race apart before the climbs."
+      }
     },
     {
       "id": "tour-feminin-international-des-pyrenees-2026",
@@ -29319,7 +29808,7 @@
         "hilly"
       ],
       "distance": 1000,
-      "gender": "men",
+      "gender": "women",
       "discipline": "road",
       "broadcast": {
         "lastUpdated": "2026-01-29T00:00:00Z",
@@ -29451,7 +29940,87 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "topRiders": [
+        {
+          "id": "usoa-ostolaza",
+          "name": "OSTOLAZA Usoa",
+          "team": "Laboral Kutxa-Fundacion Euskadi",
+          "nationality": "Spain",
+          "nationalityCode": "ES",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        },
+        {
+          "id": "paula-blasi",
+          "name": "BLASI Paula",
+          "team": "UAE Team ADQ",
+          "nationality": "Spain",
+          "nationalityCode": "ES",
+          "specialties": [
+            "climber",
+            "young-rider"
+          ]
+        },
+        {
+          "id": "dominika-wlodarczyk",
+          "name": "WLODARCZYK Dominika",
+          "team": "UAE Team ADQ",
+          "nationality": "Poland",
+          "nationalityCode": "PL",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ],
+      "raceDetails": {
+        "courseSummary": "Three days of climbing-focused racing in the French Pyrenees (12-14 June 2026), the fifth edition and first under the UCI ProSeries (2.Pro) banner. The race opens with a hilly stage from Saint-Jean-de-Luz to Mourenx, builds to a decisive high-mountain stage that climbs the legendary Col du Tourmalet, and closes with a hilly finale where the GC can still be defended or overturned. Total distance is compact (roughly 370 km), so time gaps are made on the climbs rather than in volume.",
+        "keyClimbs": [
+          {
+            "name": "Col du Tourmalet",
+            "category": "HC",
+            "length": "17 km",
+            "avgGradient": "7.4%",
+            "kmFromFinish": null,
+            "notes": "The roof of the 2026 edition and the GC-decisive ascent of the mountain stage. At 2,115 m it is the highest paved pass in the central Pyrenees; sustained 7-9% gradients with ramps over 10% near the summit will splinter the field and define the overall classification.",
+            "stage": 2
+          },
+          {
+            "name": "Col du Soulor",
+            "category": "1",
+            "length": "19.5 km",
+            "avgGradient": "5.2%",
+            "kmFromFinish": null,
+            "notes": "A long, two-phase climb that has been a regular GC selector in this race; the gradient bites after Arrens-Marsous with stretches at 10% or steeper. Used to soften the legs ahead of, or in combination with, the higher passes on the mountain stage.",
+            "stage": 2
+          }
+        ],
+        "favorites": {
+          "gcContenders": [
+            "Usoa Ostolaza",
+            "Ane Santesteban",
+            "Marta Cavalli",
+            "Brodie Chapman",
+            "Paula Blasi"
+          ],
+          "stageHunters": [
+            "Usoa Ostolaza",
+            "Brodie Chapman",
+            "Dominika Wlodarczyk"
+          ]
+        },
+        "narratives": [
+          "Two-time defending champion Usoa Ostolaza (Laboral Kutxa) arrives as the rider to beat, hunting a third straight overall on home-favourite Pyrenean roads where her measured, climber's approach has twice proved decisive.",
+          "The promotion to UCI ProSeries (2.Pro) raises the stakes and the field strength, pulling in WorldTeam climbing units and ambitious ProTeams chasing a marquee stage-race result before the summer's bigger objectives.",
+          "With the Col du Tourmalet on the menu for the fifth edition, the GC battle is built around one explosive mountain day sandwiched between two hilly stages that reward aggressive, opportunistic racing."
+        ],
+        "historicalContext": "First held in 2022, the Tour Feminin International des Pyrenees quickly became a notable June stage race for the women's peloton, raced over three days in the Pyrenees-Atlantiques and Hautes-Pyrenees. Past overall winners: Kristabel Doebel-Hickok (2022), Marta Cavalli (2023, after her composed climb of Hautacam), and Usoa Ostolaza in both 2024 and 2025, making her the race's only two-time champion. Previously a UCI 2.1 race, it stepped up to the UCI ProSeries (2.Pro) from 2026.",
+        "watchNotes": "A pure climber's race decided on the mountain stage - watch the Tourmalet day for the definitive GC selection. The hilly bookend stages can reshuffle bonus seconds and reward breakaway riders, so the overall is rarely settled before the final kilometres. As a future race, no results exist yet; this is pre-race information only.",
+        "gcDynamics": "Stage 1 (hilly, Saint-Jean-de-Luz to Mourenx) likely produces small GC gaps and bonus-second jockeying, with a reduced bunch or breakaway deciding the first leader's jersey. Stage 2 (mountain, featuring the Col du Tourmalet) is the queen stage where the overall is won or lost - expect the strongest climbers to distance the field on the HC ascent and establish the GC pecking order. Stage 3 (hilly) gives any rider within striking distance a final chance to attack on the punchy terrain, so the leader must stay vigilant; barring a major upset the Tourmalet result should hold to the finish in the Pau/Jurancon area."
+      }
     },
     {
       "id": "dwars-door-het-hageland-2026",
@@ -30305,7 +30874,10 @@
           "Belgian Spring stage race for classics-and-puncheur specialists.",
           "Cobbled Flemish climbs feature on the closing stages.",
           "Transition between the Belgian one-day classics season and the Spring GC peak."
-        ]
+        ],
+        "watchNotes": "A five-day race that pivots on the Stage 3 individual time trial, framed by sprint-friendly opening days and a hilly Ardennes-flavoured back end. For neutral viewing, the bunch-sprint stages (1 and 2) deliver the fast finishes — watch the lead-out trains of Alpecin-Premier Tech, Soudal-Quick-Step and Decathlon CMA CGM. Stage 3's ITT is the GC pivot: the time-trial specialists and rouleurs settle the overall here. The closing hilly stages reward puncheurs and breakaway opportunists on punchy Ardennes and Brabant climbs. As ever on YouTube, disable autoplay and avoid sidebar recommendations — bunch finishes attract spoiler-heavy thumbnails.",
+        "historicalContext": "First run in 1908 as the Tour of Belgium (Ronde van België) and held almost continuously since 2002, the Baloise Belgium Tour is one of cycling's oldest stage races. Tony Martin holds the record with three overall wins; Remco Evenepoel won back-to-back editions in 2019 and 2021. Recent champions reflect the race's hybrid identity — classics man Mathieu van der Poel (2023), time-trial winner Søren Wærenskjold (2024) and Filippo Baroncini (2025). A 2.Pro race on the calendar's June run-in, it serves as a key Tour de France form-finder and a showcase for Belgium's home talent.",
+        "gcDynamics": "The general classification is decided primarily by the Stage 3 individual time trial, where pure rouleurs and TT specialists can carve out the decisive margin over a compact, sprint-heavy field. With the bonus seconds on the flatter days and the short, punchy climbs of the closing hilly stages, a versatile rider who can survive the bunch finishes, deliver a strong ITT, and follow the puncheur moves late typically takes yellow. Time gaps are usually small, so seconds gained at intermediate sprints and bonus lines, plus any splits in crosswinds, can prove pivotal. Expect the overall to remain in the balance until the final hilly stage."
       },
       "jerseys": [
         {
@@ -30336,6 +30908,50 @@
           "color": "#ffffff",
           "classification": "young",
           "description": "Best Young Rider."
+        }
+      ],
+      "topRiders": [
+        {
+          "id": "jasper-philipsen",
+          "name": "PHILIPSEN Jasper",
+          "team": "Alpecin-Premier Tech",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "tim-merlier",
+          "name": "MERLIER Tim",
+          "team": "Soudal-Quick-Step",
+          "nationality": "Belgium",
+          "nationalityCode": "BE",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "olav-kooij",
+          "name": "KOOIJ Olav",
+          "team": "Decathlon CMA CGM Team",
+          "nationality": "Netherlands",
+          "nationalityCode": "NL",
+          "specialties": [
+            "sprinter"
+          ]
+        },
+        {
+          "id": "soren-waerenskjold",
+          "name": "WAERENSKJOLD Soren",
+          "team": "Uno-X Mobility",
+          "nationality": "Norway",
+          "nationalityCode": "NO",
+          "specialties": [
+            "time-trialist",
+            "sprinter",
+            "gc-contender"
+          ]
         }
       ]
     },
@@ -30446,6 +31062,20 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
+        },
+        {
+          "id": "tom-pidcock",
+          "name": "PIDCOCK Tom",
+          "team": "Pinarello-Q36.5 Pro Cycling",
+          "nationality": "United Kingdom",
+          "nationalityCode": "GB",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Moved to Pinarello-Q36.5 from INEOS for 2026 — Sanremo 2nd by centimetres to Pogačar, Eschborn-Frankfurt 2nd, Strade 7th. The spring's most consistent runner-up."
         }
       ],
       "gender": "men",
@@ -30869,7 +31499,9 @@
           "stageHunters": [
             "Sprinters target opening stage; puncheurs hunt hilly days."
           ]
-        }
+        },
+        "gcDynamics": "As a 2.Pro five-stage race, the Tour of Slovenia is decided over a small number of decisive moments rather than a sustained week of attrition. The opening days favour fast finishers and break specialists, but the general classification is shaped almost entirely by the queen Stage 4 to Kranjska Gora, where the GC contenders go clear on the climbs to Vrsic and the final ascent. Time gaps elsewhere are typically small, so the climbers who survive Stage 4 carry slim leads into the rolling Stage 5 finale at Novo mesto. Bonus seconds on the punchier finishes can swing the podium, and a strong home Slovenian contingent of ProTeam and Continental riders adds unpredictability through aggressive breakaway racing.",
+        "historicalContext": "First run in 1993, the Tour of Slovenia is the country's premier stage race and a historic springboard for its golden generation: Primoz Roglic (2018, 2019), Tadej Pogacar and Matej Mohoric all built early reputations here. In recent editions the WorldTour superstars have largely moved on to bigger June targets, leaving the race as a proving ground for emerging GC talents and ProTeam climbers - the 2025 edition was won overall by Anders Halland Johannessen (Uno-X Mobility). The Kranjska Gora mountain finish has repeatedly been the GC-deciding stage, cementing the race's identity as a climbers' contest with a passionate home crowd."
       },
       "jerseys": [
         {
@@ -31123,6 +31755,42 @@
           ]
         }
       },
+      "jerseys": [
+        {
+          "name": "Gelbes Trikot",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Rotes Trikot",
+          "nameEn": "Red Jersey",
+          "color": "#dc2626",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Blaues Trikot",
+          "nameEn": "Blue Jersey",
+          "color": "#2563eb",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Weißes Trikot",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ],
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ],
       "topRiders": [
         {
           "id": "demi-vollering",
@@ -31210,42 +31878,6 @@
             "climber",
             "gc-contender"
           ]
-        }
-      ],
-      "jerseys": [
-        {
-          "name": "Gelbes Trikot",
-          "nameEn": "Yellow Jersey",
-          "color": "#fde047",
-          "classification": "gc",
-          "description": "Overall GC leader."
-        },
-        {
-          "name": "Rotes Trikot",
-          "nameEn": "Red Jersey",
-          "color": "#dc2626",
-          "classification": "points",
-          "description": "Points classification leader."
-        },
-        {
-          "name": "Blaues Trikot",
-          "nameEn": "Blue Jersey",
-          "color": "#2563eb",
-          "classification": "kom",
-          "description": "King of the Mountains."
-        },
-        {
-          "name": "Weißes Trikot",
-          "nameEn": "White Jersey",
-          "color": "#ffffff",
-          "classification": "young",
-          "description": "Best Young Rider."
-        }
-      ],
-      "editorialNotes": [
-        {
-          "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
       ]
     },
@@ -31782,7 +32414,56 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "topRiders": [
+        {
+          "id": "antonia-niedermaier",
+          "name": "NIEDERMAIER Antonia",
+          "team": "Canyon//SRAM zondacrypto",
+          "nationality": "Germany",
+          "nationalityCode": "DE",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ]
+        }
+      ],
+      "raceDetails": {
+        "courseSummary": "A hilly 123.8 km one-day race (132.2 km including the neutral zone) starting and finishing in the centre of Gera, looping through the Vogtland and East Thuringia via Dörtendorf (Dürtendorf), Triebes and Zeulenroda. Despite the modest distance the course packs more than 2,000 m of climbing across four categorized climbs, making it a genuine race of attrition rather than a bunch-sprint affair. The finish is on the De-Smit-Straße in central Gera, where a hard, repeatedly climbed parcours typically reduces the front group to a small selection of climbers and strong all-rounders before the run-in.",
+        "keyClimbs": [
+          {
+            "name": "Ferberturm",
+            "category": "3",
+            "kmFromFinish": null,
+            "notes": "Signature climb on the Gera city circuit, used as a categorized Bergwertung; its repeated ascents are the principal launchpad for selections close to the finish."
+          },
+          {
+            "name": "Dörtendorf (Dürtendorf)",
+            "category": "3",
+            "kmFromFinish": null,
+            "notes": "Climb in the Vogtland section near Dörtendorf, one of the four categorized ascents that build the 2,000 m+ of total elevation gain."
+          }
+        ],
+        "favorites": {
+          "riderTypes": [
+            "Climbers who can handle a punchy, repeatedly climbed circuit",
+            "All-rounders and puncheurs who survive the elevation and contest a reduced-group finish",
+            "Strong solo/breakaway riders capable of going clear on the late Ferberturm ascents"
+          ],
+          "examples": [
+            "Antonia Niedermaier (Canyon//SRAM zondacrypto) — climber suited to the elevation",
+            "Ricarda Bauernfeind (Lidl-Trek) — German all-rounder strong on punchy terrain"
+          ],
+          "note": "Pure sprinters are unlikely to feature; the 2,000 m+ of climbing over a short distance favours climbers and hardy all-rounders. Named examples are riders from confirmed participating teams whose profiles fit the course; final per-rider starters were not yet confirmed at time of research."
+        },
+        "narratives": [
+          "Debut edition of the LOTTO Thüringen Women Cycling Challenge, the UCI 1.Pro one-day successor to the long-running LOTTO Thüringen Ladies Tour, which ended after 36 editions — the highest-ranked women's road race in Germany.",
+          "A short but climb-heavy parcours (2,000 m+ over 123.8 km, four categorized climbs) should force aggressive racing and a selective, reduced-group or solo finish in central Gera.",
+          "Mixed field of WorldTeams, ProTeams and a large contingent of Continental squads gives the home and development teams a rare shot at a top-level result."
+        ],
+        "historicalContext": "First held in 2026, the race was created by the organisers of the former LOTTO Thüringen Ladies Tour after that stage race was discontinued following 36 editions. The City of Gera signed the hosting contract, and the UCI classified the new event in its top one-day ProSeries (1.Pro) category, making it the highest-category women's road race in Germany.",
+        "watchNotes": "Start is at 10:30 in central Gera (De-Smit-Straße), finishing on the same city circuit. Watch the Ferberturm and Dörtendorf ascents as the decisive points — selections are most likely on the closing laps of the finishing circuit. As an inaugural 1.Pro event, live coverage may be limited to regional/organiser streams; check the organiser site (lotto-thueringen-women-cycling-challenge.de) for broadcast details."
+      }
     },
     {
       "id": "eislek-gravel-luxembourg-2026",
@@ -33281,6 +33962,20 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Italian GC kid; beat Del Toro on summit at UAE Tour 2026"
+        },
+        {
+          "id": "tom-pidcock",
+          "name": "PIDCOCK Tom",
+          "team": "Pinarello-Q36.5 Pro Cycling",
+          "nationality": "United Kingdom",
+          "nationalityCode": "GB",
+          "specialties": [
+            "one-day",
+            "climber",
+            "puncheur"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "Moved to Pinarello-Q36.5 from INEOS for 2026 — Sanremo 2nd by centimetres to Pogačar, Eschborn-Frankfurt 2nd, Strade 7th. The spring's most consistent runner-up."
         }
       ],
       "gender": "men",
@@ -34935,6 +35630,19 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
+        },
+        {
+          "id": "giulio-pellizzari",
+          "name": "PELLIZZARI Giulio",
+          "team": "Red Bull - BORA - hansgrohe",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "22yo Italian climber — Red Bull-Bora-Hansgrohe's emerging GC card; Tirreno-Adriatico top-five all week, Tour of the Alps Stage 5 solo win, now top-5 at the Giro Blockhaus stage"
         }
       ],
       "discipline": "road",
@@ -35363,6 +36071,37 @@
           ]
         }
       },
+      "jerseys": [
+        {
+          "name": "Maillot Jaune",
+          "nameEn": "Yellow Jersey",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader on aggregate time — the most prestigious jersey in cycling."
+        },
+        {
+          "name": "Maillot Vert",
+          "nameEn": "Green Jersey",
+          "color": "#22c55e",
+          "classification": "points",
+          "description": "Points classification leader — sprint stages and intermediate sprints."
+        },
+        {
+          "name": "Maillot à Pois Rouges",
+          "nameEn": "Polka Dot Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains — best climber across categorised ascents."
+        },
+        {
+          "name": "Maillot Blanc",
+          "nameEn": "White Jersey",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider — top GC rider under 26."
+        }
+      ],
       "topRiders": [
         {
           "id": "demi-vollering",
@@ -35511,37 +36250,6 @@
             "climber",
             "gc-contender"
           ]
-        }
-      ],
-      "jerseys": [
-        {
-          "name": "Maillot Jaune",
-          "nameEn": "Yellow Jersey",
-          "color": "#fde047",
-          "classification": "gc",
-          "description": "Overall GC leader on aggregate time — the most prestigious jersey in cycling."
-        },
-        {
-          "name": "Maillot Vert",
-          "nameEn": "Green Jersey",
-          "color": "#22c55e",
-          "classification": "points",
-          "description": "Points classification leader — sprint stages and intermediate sprints."
-        },
-        {
-          "name": "Maillot à Pois Rouges",
-          "nameEn": "Polka Dot Jersey",
-          "color": "#ffffff",
-          "pattern": "polka-dot-red",
-          "classification": "kom",
-          "description": "King of the Mountains — best climber across categorised ascents."
-        },
-        {
-          "name": "Maillot Blanc",
-          "nameEn": "White Jersey",
-          "color": "#ffffff",
-          "classification": "young",
-          "description": "Best Young Rider — top GC rider under 26."
         }
       ]
     },
@@ -36075,6 +36783,37 @@
           ]
         }
       },
+      "jerseys": [
+        {
+          "name": "Koszulka Żółta",
+          "nameEn": "Yellow Leader",
+          "color": "#fde047",
+          "classification": "gc",
+          "description": "Overall GC leader."
+        },
+        {
+          "name": "Koszulka Niebieska",
+          "nameEn": "Blue Points",
+          "color": "#2563eb",
+          "classification": "points",
+          "description": "Points classification leader."
+        },
+        {
+          "name": "Koszulka KOM",
+          "nameEn": "KOM Jersey",
+          "color": "#ffffff",
+          "pattern": "polka-dot-red",
+          "classification": "kom",
+          "description": "King of the Mountains."
+        },
+        {
+          "name": "Koszulka Biała",
+          "nameEn": "White Young",
+          "color": "#ffffff",
+          "classification": "young",
+          "description": "Best Young Rider."
+        }
+      ],
       "topRiders": [
         {
           "id": "isaac-del-toro",
@@ -36171,37 +36910,6 @@
             "sprinter"
           ]
         }
-      ],
-      "jerseys": [
-        {
-          "name": "Koszulka Żółta",
-          "nameEn": "Yellow Leader",
-          "color": "#fde047",
-          "classification": "gc",
-          "description": "Overall GC leader."
-        },
-        {
-          "name": "Koszulka Niebieska",
-          "nameEn": "Blue Points",
-          "color": "#2563eb",
-          "classification": "points",
-          "description": "Points classification leader."
-        },
-        {
-          "name": "Koszulka KOM",
-          "nameEn": "KOM Jersey",
-          "color": "#ffffff",
-          "pattern": "polka-dot-red",
-          "classification": "kom",
-          "description": "King of the Mountains."
-        },
-        {
-          "name": "Koszulka Biała",
-          "nameEn": "White Young",
-          "color": "#ffffff",
-          "classification": "young",
-          "description": "Best Young Rider."
-        }
       ]
     },
     {
@@ -36276,6 +36984,19 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Decathlon's hilly-classics future; Seixas's running mate"
+        },
+        {
+          "id": "giulio-pellizzari",
+          "name": "PELLIZZARI Giulio",
+          "team": "Red Bull - BORA - hansgrohe",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "22yo Italian climber — Red Bull-Bora-Hansgrohe's emerging GC card; Tirreno-Adriatico top-five all week, Tour of the Alps Stage 5 solo win, now top-5 at the Giro Blockhaus stage"
         }
       ],
       "gender": "men",
@@ -37536,6 +38257,12 @@
           ]
         }
       },
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+        }
+      ],
       "topRiders": [
         {
           "id": "jasper-philipsen",
@@ -37591,12 +38318,6 @@
           "specialties": [
             "sprinter"
           ]
-        }
-      ],
-      "editorialNotes": [
-        {
-          "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
       ]
     },
@@ -45810,6 +46531,19 @@
             "gc-contender",
             "climber"
           ]
+        },
+        {
+          "id": "giulio-pellizzari",
+          "name": "PELLIZZARI Giulio",
+          "team": "Red Bull - BORA - hansgrohe",
+          "nationality": "Italy",
+          "nationalityCode": "IT",
+          "specialties": [
+            "climber",
+            "gc-contender"
+          ],
+          "isOutsider": true,
+          "outsiderNote": "22yo Italian climber — Red Bull-Bora-Hansgrohe's emerging GC card; Tirreno-Adriatico top-five all week, Tour of the Alps Stage 5 solo win, now top-5 at the Giro Blockhaus stage"
         }
       ],
       "gender": "men",
