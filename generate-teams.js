@@ -42,11 +42,18 @@ function fmtDate(ymd) {
 function findRider(id) { return ALL_TRACKED.find(r => r.id === id || r.slug === id) || null; }
 function raceMeta(id) { return RACE_DATA.races.find(r => r.id === id) || null; }
 
-// Normalise a team name to a grouping key by dropping the sponsor suffix after
-// the first " - " / " | " separator, so "UAE Team Emirates - XRG" and
-// "UAE Team Emirates" collapse to one card.
+// Normalise a team name to a grouping key so naming drift across races collapses
+// to a single card. Drops everything after the first sponsor separator (" | ",
+// " - ", or " / "), strips the filler word "team" (so "Team Visma | Lease a Bike"
+// and "Visma | Lease a Bike" both → "visma"; "UAE Team Emirates - XRG" and
+// "UAE Team Emirates" both → "uae emirates"), and normalises punctuation.
 function teamKey(team) {
-  return team.toLowerCase().split(/\s+[-|]\s+/)[0].replace(/[^a-z0-9]+/g, ' ').trim();
+  return team.toLowerCase()
+    .split(/\s*[|/]\s*|\s+-\s+/)[0]
+    .replace(/\bteam\b/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
 }
 
 // ============================================================================
