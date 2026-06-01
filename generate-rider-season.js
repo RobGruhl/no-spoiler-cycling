@@ -270,7 +270,8 @@ function renderRiderPage(riderId) {
       <nav class="navstrip">
         <a href="../../index.html">01 — Calendar</a>
         <a href="${ridersIndexPath}">${isWomen ? '03 — Women\'s Riders' : '02 — Men\'s Riders'}</a>
-        <a href="../../about.html">04 — About</a>
+        <a href="../teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="../../about.html">05 — About</a>
         <span class="spacer"></span>
         <a href="${riderSpoilerFreePath}" class="back-spoilerfree mono">← spoiler-free rider sheet</a>
       </nav>

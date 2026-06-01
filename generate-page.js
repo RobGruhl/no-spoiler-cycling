@@ -67,6 +67,7 @@ function transformRace(r) {
     otherGeos,
     stages: Array.isArray(r.stages) ? r.stages.length : 0,
     slug: r.id,
+    hasResults: fs.existsSync(`./data/results/races/${r.id}.json`),
   };
 }
 
@@ -112,8 +113,12 @@ function buildHtml(rows, stats, updatedLabel) {
 .showing{font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:auto}
 .showing b{color:var(--ink);font-weight:600}
 .cal{margin-top:0}
-.row{display:grid;grid-template-columns:56px 56px 120px 1fr 140px 90px 44px 120px 80px;gap:0;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:center;transition:background .08s}
+.row{display:grid;grid-template-columns:56px 56px 120px 1fr 140px 90px 44px 120px 80px;gap:0;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:center;transition:background .08s;cursor:pointer}
 .row:hover{background:var(--paper-2)}
+.row:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.res-link{flex:0 0 auto;margin-left:10px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:1px 6px;white-space:nowrap}
+.res-link:hover{background:var(--signal);color:#fff}
+.res-link .sp{font-size:8px;letter-spacing:.12em;opacity:.7}
 .row .c{padding:0 10px;display:flex;align-items:center;min-width:0}
 .row .c.first{padding-left:0}
 .row .stars{letter-spacing:.08em}
@@ -173,7 +178,8 @@ function buildHtml(rows, stats, updatedLabel) {
         <a href="index.html" class="on">01 — Calendar</a>
         <a href="riders.html">02 — Men's Riders</a>
         <a href="riders-women.html">03 — Women's Riders</a>
-        <a href="about.html">04 — About</a>
+        <a href="results/teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="about.html">05 — About</a>
         <span class="spacer"></span>
         <span class="edition mono">EN</span>
       </nav>
@@ -373,17 +379,20 @@ function buildHtml(rows, stats, updatedLabel) {
     const href = r.slug ? \`race-details/\${r.slug}.html\` : "#";
     const cls = r.prestige.includes("grand_tour")?"gt":r.prestige.includes("monument")?"mon":r.prestige.includes("worlds")?"wc":"";
     const codeCls = r.prestige.includes("worlds")?"code wc":(r.cat.includes("UWT")||r.cat.includes("WWT"))?"code inv":"code";
-    return \`<a class="row \${cls}" href="\${href}">
+    const resLink = r.hasResults
+      ? \`<a class="res-link" href="results/race/\${r.slug}.html" title="Post-race analysis — contains spoilers">results<span class="sp">spoilers</span></a>\`
+      : "";
+    return \`<div class="row \${cls}" data-href="\${href}" tabindex="0" role="link" aria-label="\${r.name}">
       <div class="c first">\${starsHtml(r.rating)}</div>
       <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
       <div class="c dt">\${r.d}</div>
-      <div class="c"><span class="name">\${r.name}</span></div>
+      <div class="c"><span class="name">\${r.name}</span>\${resLink}</div>
       <div class="c loc">\${r.loc}</div>
       <div class="c terr">\${terrHtml(r.terrain)}</div>
       <div class="c gender">\${genderLbl[r.gender]||""}</div>
       <div class="c bc">\${geoCell(r)}</div>
       <div class="c stg">\${r.format==="stage"?(r.stages?r.stages+" stg":"stg"):r.format.toUpperCase()}</div>
-    </a>\`;
+    </div>\`;
   }
 
   function render(){
@@ -442,6 +451,23 @@ function buildHtml(rows, stats, updatedLabel) {
     if (toggleBtn){
       toggleBtn.addEventListener('click', () => { showOlder = !showOlder; render(); });
     }
+  }
+
+  // Row navigation: rows are <div role="link"> so a real results <a> can nest
+  // inside without an invalid anchor-in-anchor. Clicking the results link works
+  // natively; clicking anywhere else on the row goes to the spoiler-free page.
+  const calHost = document.getElementById("cal");
+  if (calHost){
+    calHost.addEventListener("click", e => {
+      if (e.target.closest(".res-link")) return;        // let the results link do its thing
+      const row = e.target.closest(".row[data-href]");
+      if (row) window.location.href = row.dataset.href;
+    });
+    calHost.addEventListener("keydown", e => {
+      if (e.key !== "Enter") return;
+      const row = e.target.closest(".row[data-href]");
+      if (row && e.target === row) window.location.href = row.dataset.href;
+    });
   }
 
   document.querySelectorAll(".chip[data-f]").forEach(btn => {

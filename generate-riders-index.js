@@ -84,10 +84,15 @@ function buildRidersIndex(riders, opts = {}) {
       specialtyData,
       programCount,
       slug: r.slug || r.id,
+      hasSeason: fs.existsSync(`./data/results/riders/${r.slug || r.id}.json`),
     };
   });
 
-  const cardsHtml = riderRows.map(r => `<a class="rc" data-sp="${htmlEscape(r.specialtyData)}" href="${riderPagesDir}/${htmlEscape(r.slug)}.html">
+  const seasonBadge = (r) => r.hasSeason
+    ? `<a class="rc-season" href="results/rider/${htmlEscape(r.slug)}.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>`
+    : '';
+
+  const cardsHtml = riderRows.map(r => `<div class="rc" data-sp="${htmlEscape(r.specialtyData)}" data-href="${riderPagesDir}/${htmlEscape(r.slug)}.html" role="link" tabindex="0" aria-label="${r.name}">
     <div class="rc-num">№ ${r.num}</div>
     <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -96,8 +101,9 @@ function buildRidersIndex(riders, opts = {}) {
       <div class="rc-team mono">${r.team}</div>
       <div class="rc-tags mono">${r.specialtyTags || ''}</div>
       <div class="rc-foot mono"><span>${r.flag} ${r.nat}</span><span>${r.programCount ? r.programCount + ' races' : 'TBD'}</span></div>
+      ${seasonBadge(r)}
     </div>
-  </a>`).join('');
+  </div>`).join('');
 
   const outsiderRows = (outsiders || []).map((r, i) => {
     const flag = NATIONALITY_FLAGS[r.nationalityCode] || NATIONALITY_FLAGS.XX;
@@ -115,10 +121,11 @@ function buildRidersIndex(riders, opts = {}) {
       programCount,
       slug: r.slug || r.id,
       note: htmlEscape(r.outsiderNote || ''),
+      hasSeason: fs.existsSync(`./data/results/riders/${r.slug || r.id}.json`),
     };
   });
 
-  const outsiderCardsHtml = outsiderRows.map(r => `<a class="rc rc-out" href="${riderPagesDir}/${htmlEscape(r.slug)}.html">
+  const outsiderCardsHtml = outsiderRows.map(r => `<div class="rc rc-out" data-href="${riderPagesDir}/${htmlEscape(r.slug)}.html" role="link" tabindex="0" aria-label="${r.name}">
     <div class="rc-num">✦ ${r.num}</div>
     <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -127,8 +134,9 @@ function buildRidersIndex(riders, opts = {}) {
       <div class="rc-team mono">${r.team}</div>
       <div class="rc-tags mono">${r.specialtyTags || ''}</div>
       <div class="rc-foot mono"><span>${r.flag} ${r.nat}</span><span>${r.programCount ? r.programCount + ' races' : 'TBD'}</span></div>
+      ${seasonBadge(r)}
     </div>
-  </a>`).join('');
+  </div>`).join('');
 
   const title = gender === 'women' ? 'Top Women Riders 2026' : 'Top Men Riders 2026';
 
@@ -159,9 +167,13 @@ function buildRidersIndex(riders, opts = {}) {
 .showing b{color:var(--ink);font-weight:600}
 
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:24px;border-top:1px solid var(--rule)}
-.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit}
+.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit;cursor:pointer}
 .rc:nth-child(4n){border-right:0}
 .rc:hover{background:var(--paper-2)}
+.rc:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.rc-season{align-self:start;justify-self:start;margin-top:8px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:2px 7px}
+.rc-season:hover{background:var(--signal);color:#fff}
+.rc-season .sp{font-size:8px;letter-spacing:.1em;opacity:.7}
 .rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
 .rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
 .rc-photo img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:grayscale(.15) contrast(1.02)}
@@ -209,7 +221,8 @@ function buildRidersIndex(riders, opts = {}) {
         <a href="index.html">01 — Calendar</a>
         <a href="riders.html"${navOn==='men'?' class="on"':''}>02 — Men's Riders</a>
         <a href="riders-women.html"${navOn==='women'?' class="on"':''}>03 — Women's Riders</a>
-        <a href="about.html">04 — About</a>
+        <a href="results/teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="about.html">05 — About</a>
         <span class="spacer"></span>
         <span class="edition mono">EN</span>
       </nav>
@@ -267,6 +280,20 @@ function buildRidersIndex(riders, opts = {}) {
 
   <script>
   (function(){
+    // Cards are <div role="link"> so the optional season-log <a> can nest
+    // without an invalid anchor-in-anchor. The season link works natively;
+    // clicking elsewhere on the card opens the spoiler-free rider page.
+    document.addEventListener('click', e => {
+      if (e.target.closest('.rc-season')) return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card) window.location.href = card.dataset.href;
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card && e.target === card) window.location.href = card.dataset.href;
+    });
+
     const chips = document.querySelectorAll('.chip[data-f="sp"]');
     const grid = document.getElementById('grid');
     const shown = document.getElementById('shown');

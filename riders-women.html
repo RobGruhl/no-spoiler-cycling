@@ -25,9 +25,13 @@
 .showing b{color:var(--ink);font-weight:600}
 
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:24px;border-top:1px solid var(--rule)}
-.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit}
+.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit;cursor:pointer}
 .rc:nth-child(4n){border-right:0}
 .rc:hover{background:var(--paper-2)}
+.rc:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.rc-season{align-self:start;justify-self:start;margin-top:8px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:2px 7px}
+.rc-season:hover{background:var(--signal);color:#fff}
+.rc-season .sp{font-size:8px;letter-spacing:.1em;opacity:.7}
 .rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
 .rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
 .rc-photo img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:grayscale(.15) contrast(1.02)}
@@ -75,7 +79,8 @@
         <a href="index.html">01 — Calendar</a>
         <a href="riders.html">02 — Men's Riders</a>
         <a href="riders-women.html" class="on">03 — Women's Riders</a>
-        <a href="about.html">04 — About</a>
+        <a href="results/teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="about.html">05 — About</a>
         <span class="spacer"></span>
         <span class="edition mono">EN</span>
       </nav>
@@ -113,7 +118,7 @@
       </div>
     </section>
 
-    <section class="grid" id="grid"><a class="rc" data-sp="climber gc-contender time-trialist" href="riders-women/demi-vollering.html">
+    <section class="grid" id="grid"><div class="rc" data-sp="climber gc-contender time-trialist" data-href="riders-women/demi-vollering.html" role="link" tabindex="0" aria-label="D. Vollering">
     <div class="rc-num">№ 01</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Vollering" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -122,8 +127,9 @@
       <div class="rc-team mono">FDJ United - SUEZ</div>
       <div class="rc-tags mono">CLIMBER · GC · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/lorena-wiebes.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/lorena-wiebes.html" role="link" tabindex="0" aria-label="L. Wiebes">
     <div class="rc-num">№ 02</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Wiebes" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -132,8 +138,9 @@
       <div class="rc-team mono">Team SD Worx - Protime</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/marlen-reusser.html">
+  </div><div class="rc" data-sp="time-trialist climber" data-href="riders-women/marlen-reusser.html" role="link" tabindex="0" aria-label="M. Reusser">
     <div class="rc-num">№ 03</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Reusser" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -142,8 +149,9 @@
       <div class="rc-team mono">Movistar Team</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="classics climber time-trialist" href="riders-women/elisa-longo-borghini.html">
+  </div><div class="rc" data-sp="classics climber time-trialist" data-href="riders-women/elisa-longo-borghini.html" role="link" tabindex="0" aria-label="B. Longo">
     <div class="rc-num">№ 04</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="B. Longo" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -152,8 +160,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/elisa-balsamo.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/elisa-balsamo.html" role="link" tabindex="0" aria-label="E. Balsamo">
     <div class="rc-num">№ 05</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Balsamo" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -162,8 +171,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/elise-chabbey.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/elise-chabbey.html" role="link" tabindex="0" aria-label="E. Chabbey">
     <div class="rc-num">№ 06</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Chabbey" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -172,8 +182,9 @@
       <div class="rc-team mono">FDJ United - SUEZ</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/juliette-berthet.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/juliette-berthet.html" role="link" tabindex="0" aria-label="J. Berthet">
     <div class="rc-num">№ 07</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="J. Berthet" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -182,8 +193,9 @@
       <div class="rc-team mono">FDJ United - SUEZ</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/kimberley-le-court-pienaar.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/kimberley-le-court-pienaar.html" role="link" tabindex="0" aria-label="C. Le">
     <div class="rc-num">№ 08</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Le" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -192,8 +204,9 @@
       <div class="rc-team mono">AG Insurance - Soudal Team</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Mauritius</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/mischa-bredewold.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/mischa-bredewold.html" role="link" tabindex="0" aria-label="M. Bredewold">
     <div class="rc-num">№ 09</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Bredewold" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -202,8 +215,9 @@
       <div class="rc-team mono">Team SD Worx - Protime</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender classics" href="riders-women/anna-van-der-breggen.html">
+  </div><div class="rc" data-sp="climber gc-contender classics" data-href="riders-women/anna-van-der-breggen.html" role="link" tabindex="0" aria-label="D. Van">
     <div class="rc-num">№ 10</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -212,8 +226,9 @@
       <div class="rc-team mono">Team SD Worx - Protime</div>
       <div class="rc-tags mono">CLIMBER · GC · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/niamh-fisher-black.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/niamh-fisher-black.html" role="link" tabindex="0" aria-label="N. Fisher-black">
     <div class="rc-num">№ 11</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Fisher-black" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -222,8 +237,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇳🇿 New Zealand</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/karlijn-swinkels.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/karlijn-swinkels.html" role="link" tabindex="0" aria-label="K. Swinkels">
     <div class="rc-num">№ 12</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Swinkels" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -232,8 +248,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="all-rounder cyclocross mtb" href="riders-women/pauline-ferrand-prevot.html">
+  </div><div class="rc" data-sp="all-rounder cyclocross mtb" data-href="riders-women/pauline-ferrand-prevot.html" role="link" tabindex="0" aria-label="P. Ferrand-prévot">
     <div class="rc-num">№ 13</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Ferrand-prévot" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -242,8 +259,9 @@
       <div class="rc-team mono">Team Visma | Lease a Bike</div>
       <div class="rc-tags mono">ALL-ROUNDER · CYCLOCROSS · MTB</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/kasia-niewiadoma.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/kasia-niewiadoma.html" role="link" tabindex="0" aria-label="K. Niewiadoma">
     <div class="rc-num">№ 14</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Niewiadoma" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -252,8 +270,9 @@
       <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇵🇹 Poland</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="cyclocross classics" href="riders-women/yara-kastelijn.html">
+  </div><div class="rc" data-sp="cyclocross classics" data-href="riders-women/yara-kastelijn.html" role="link" tabindex="0" aria-label="Y. Kastelijn">
     <div class="rc-num">№ 15</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="Y. Kastelijn" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -262,8 +281,9 @@
       <div class="rc-team mono">Fenix-Premier Tech</div>
       <div class="rc-tags mono">CYCLOCROSS · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="all-rounder climber" href="riders-women/ally-wollaston.html">
+  </div><div class="rc" data-sp="all-rounder climber" data-href="riders-women/ally-wollaston.html" role="link" tabindex="0" aria-label="A. Wollaston">
     <div class="rc-num">№ 16</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Wollaston" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -272,8 +292,9 @@
       <div class="rc-team mono">FDJ United - SUEZ</div>
       <div class="rc-tags mono">ALL-ROUNDER · CLIMBER</div>
       <div class="rc-foot mono"><span>🇳🇿 New Zealand</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="cyclocross all-rounder classics" href="riders-women/puck-pieterse.html">
+  </div><div class="rc" data-sp="cyclocross all-rounder classics" data-href="riders-women/puck-pieterse.html" role="link" tabindex="0" aria-label="P. Pieterse">
     <div class="rc-num">№ 17</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Pieterse" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -282,8 +303,9 @@
       <div class="rc-team mono">Fenix-Premier Tech</div>
       <div class="rc-tags mono">CYCLOCROSS · ALL-ROUNDER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="all-rounder sprinter classics" href="riders-women/marianne-vos.html">
+  </div><div class="rc" data-sp="all-rounder sprinter classics" data-href="riders-women/marianne-vos.html" role="link" tabindex="0" aria-label="M. Vos">
     <div class="rc-num">№ 18</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Vos" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -292,8 +314,9 @@
       <div class="rc-team mono">Team Visma | Lease a Bike</div>
       <div class="rc-tags mono">ALL-ROUNDER · SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber time-trialist" href="riders-women/cat-ferguson.html">
+  </div><div class="rc" data-sp="climber time-trialist" data-href="riders-women/cat-ferguson.html" role="link" tabindex="0" aria-label="C. Ferguson">
     <div class="rc-num">№ 19</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Ferguson" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -302,8 +325,9 @@
       <div class="rc-team mono">Movistar Team</div>
       <div class="rc-tags mono">CLIMBER · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/noemi-ruegg.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/noemi-ruegg.html" role="link" tabindex="0" aria-label="N. Rüegg">
     <div class="rc-num">№ 20</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Rüegg" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -312,8 +336,9 @@
       <div class="rc-team mono">EF Education-Oatly</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>7 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/cedrine-kerbaol.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/cedrine-kerbaol.html" role="link" tabindex="0" aria-label="C. Kerbaol">
     <div class="rc-num">№ 21</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Kerbaol" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -322,8 +347,9 @@
       <div class="rc-team mono">EF Education-Oatly</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/chiara-consonni.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/chiara-consonni.html" role="link" tabindex="0" aria-label="C. Consonni">
     <div class="rc-num">№ 22</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Consonni" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -332,8 +358,9 @@
       <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/mavi-garcia.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/mavi-garcia.html" role="link" tabindex="0" aria-label="M. García">
     <div class="rc-num">№ 23</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. García" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -342,8 +369,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/monica-trinca-colonel.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/monica-trinca-colonel.html" role="link" tabindex="0" aria-label="C. Trinca">
     <div class="rc-num">№ 24</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Trinca" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -352,8 +380,9 @@
       <div class="rc-team mono">Liv AlUla Jayco</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/katrine-aalerud.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/katrine-aalerud.html" role="link" tabindex="0" aria-label="K. Aalerud">
     <div class="rc-num">№ 25</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="K. Aalerud" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -362,8 +391,9 @@
       <div class="rc-team mono">Uno-X Mobility</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/linda-zanetti.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/linda-zanetti.html" role="link" tabindex="0" aria-label="L. Zanetti">
     <div class="rc-num">№ 26</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Zanetti" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -372,8 +402,9 @@
       <div class="rc-team mono">Uno-X Mobility</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>6 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/mie-bjorndal-ottestad.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/mie-bjorndal-ottestad.html" role="link" tabindex="0" aria-label="M. Ottestad">
     <div class="rc-num">№ 27</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Ottestad" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -382,8 +413,9 @@
       <div class="rc-team mono">Uno-X Mobility</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/usoa-ostolaza.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/usoa-ostolaza.html" role="link" tabindex="0" aria-label="U. Ostolaza">
     <div class="rc-num">№ 28</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="U. Ostolaza" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -392,8 +424,9 @@
       <div class="rc-team mono">Laboral Kutxa - Fundación Euskadi</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/riejanne-markus.html">
+  </div><div class="rc" data-sp="time-trialist climber" data-href="riders-women/riejanne-markus.html" role="link" tabindex="0" aria-label="R. Markus">
     <div class="rc-num">№ 29</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="R. Markus" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -402,8 +435,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="classics sprinter all-rounder" href="riders-women/lotte-kopecky.html">
+  </div><div class="rc" data-sp="classics sprinter all-rounder" data-href="riders-women/lotte-kopecky.html" role="link" tabindex="0" aria-label="L. Kopecky">
     <div class="rc-num">№ 30</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Kopecky" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -412,8 +446,9 @@
       <div class="rc-team mono">Team SD Worx - Protime</div>
       <div class="rc-tags mono">CLASSICS · SPRINTER · ALL-ROUNDER</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/lara-gillespie.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/lara-gillespie.html" role="link" tabindex="0" aria-label="L. Gillespie">
     <div class="rc-num">№ 31</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Gillespie" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -422,8 +457,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Ireland</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="classics puncheur" href="riders-women/liane-lippert.html">
+  </div><div class="rc" data-sp="classics puncheur" data-href="riders-women/liane-lippert.html" role="link" tabindex="0" aria-label="L. Lippert">
     <div class="rc-num">№ 32</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="L. Lippert" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -432,8 +468,9 @@
       <div class="rc-team mono">Movistar Team</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Germany</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/dominika-wlodarczyk.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/dominika-wlodarczyk.html" role="link" tabindex="0" aria-label="D. Włodarczyk">
     <div class="rc-num">№ 33</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Włodarczyk" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -442,8 +479,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇵🇹 Poland</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="time-trialist climber" href="riders-women/anna-henderson.html">
+  </div><div class="rc" data-sp="time-trialist climber" data-href="riders-women/anna-henderson.html" role="link" tabindex="0" aria-label="A. Henderson">
     <div class="rc-num">№ 34</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Henderson" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -452,8 +490,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/urska-zigart.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/urska-zigart.html" role="link" tabindex="0" aria-label="U. Žigart">
     <div class="rc-num">№ 35</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="U. Žigart" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -462,8 +501,9 @@
       <div class="rc-team mono">AG Insurance - Soudal Team</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇸🇮 Slovenia</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/sarah-van-dam.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/sarah-van-dam.html" role="link" tabindex="0" aria-label="D. Van">
     <div class="rc-num">№ 36</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -472,8 +512,9 @@
       <div class="rc-team mono">Team Visma | Lease a Bike</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/antonia-niedermaier.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/antonia-niedermaier.html" role="link" tabindex="0" aria-label="A. Niedermaier">
     <div class="rc-num">№ 37</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Niedermaier" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -482,8 +523,9 @@
       <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🏳️ Germany</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/paula-blasi.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/paula-blasi.html" role="link" tabindex="0" aria-label="P. Blasi">
     <div class="rc-num">№ 38</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="P. Blasi" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -492,8 +534,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/eleonora-camilla-gasparrini.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/eleonora-camilla-gasparrini.html" role="link" tabindex="0" aria-label="E. Gasparrini">
     <div class="rc-num">№ 39</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Gasparrini" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -502,8 +545,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/barbara-malcotti.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/barbara-malcotti.html" role="link" tabindex="0" aria-label="B. Malcotti">
     <div class="rc-num">№ 40</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="B. Malcotti" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -512,8 +556,9 @@
       <div class="rc-team mono">Human Powered Health</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/caroline-andersson.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/caroline-andersson.html" role="link" tabindex="0" aria-label="C. Andersson">
     <div class="rc-num">№ 41</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Andersson" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -522,8 +567,9 @@
       <div class="rc-team mono">Liv AlUla Jayco</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🏳️ Sweden</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/amanda-spratt.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/amanda-spratt.html" role="link" tabindex="0" aria-label="A. Spratt">
     <div class="rc-num">№ 42</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="A. Spratt" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -532,8 +578,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇦🇺 Australia</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="all-rounder cyclocross" href="riders-women/silvia-persico.html">
+  </div><div class="rc" data-sp="all-rounder cyclocross" data-href="riders-women/silvia-persico.html" role="link" tabindex="0" aria-label="S. Persico">
     <div class="rc-num">№ 43</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="S. Persico" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -542,8 +589,9 @@
       <div class="rc-team mono">UAE Team ADQ</div>
       <div class="rc-tags mono">ALL-ROUNDER · CYCLOCROSS</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders-women/susanne-andersen.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders-women/susanne-andersen.html" role="link" tabindex="0" aria-label="S. Andersen">
     <div class="rc-num">№ 44</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="S. Andersen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -552,8 +600,9 @@
       <div class="rc-team mono">Uno-X Mobility</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="time-trialist classics" href="riders-women/ellen-van-dijk.html">
+  </div><div class="rc" data-sp="time-trialist classics" data-href="riders-women/ellen-van-dijk.html" role="link" tabindex="0" aria-label="D. Van">
     <div class="rc-num">№ 45</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -562,8 +611,9 @@
       <div class="rc-team mono">Retired</div>
       <div class="rc-tags mono">TIME TRIAL · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/magdeleine-vallieres.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/magdeleine-vallieres.html" role="link" tabindex="0" aria-label="M. Vallieres">
     <div class="rc-num">№ 46</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="M. Vallieres" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -572,8 +622,9 @@
       <div class="rc-team mono">EF Education-Oatly</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇨🇦 Canada</span><span>7 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/nienke-veenhoven.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/nienke-veenhoven.html" role="link" tabindex="0" aria-label="N. Veenhoven">
     <div class="rc-num">№ 47</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="N. Veenhoven" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -582,8 +633,9 @@
       <div class="rc-team mono">Team Visma | Lease a Bike</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="time-trialist track" href="riders-women/chloe-dygert.html">
+  </div><div class="rc" data-sp="time-trialist track" data-href="riders-women/chloe-dygert.html" role="link" tabindex="0" aria-label="C. Dygert">
     <div class="rc-num">№ 48</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="C. Dygert" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -592,8 +644,9 @@
       <div class="rc-team mono">CANYON//SRAM zondacrypto</div>
       <div class="rc-tags mono">TIME TRIAL · TRACK</div>
       <div class="rc-foot mono"><span>🇺🇸 United States</span><span>4 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders-women/evita-muzic.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders-women/evita-muzic.html" role="link" tabindex="0" aria-label="É. Muzic">
     <div class="rc-num">№ 49</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="É. Muzic" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -602,8 +655,9 @@
       <div class="rc-team mono">FDJ United - SUEZ</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber puncheur" href="riders-women/eline-jansen.html">
+  </div><div class="rc" data-sp="climber puncheur" data-href="riders-women/eline-jansen.html" role="link" tabindex="0" aria-label="E. Jansen">
     <div class="rc-num">№ 50</div>
     <div class="rc-photo"><img loading="lazy" src="riders-women/photos/placeholder.jpg" alt="E. Jansen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -612,8 +666,9 @@
       <div class="rc-team mono">VolkerWessels Cycling Team</div>
       <div class="rc-tags mono">CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>TBD</span></div>
+      
     </div>
-  </a></section>
+  </div></section>
 
     
 
@@ -621,13 +676,27 @@
       <div class="foot-row">
         <span>No Spoiler Cycling · 2026 Roadbook</span>
         <span>§ 03 — Women's Riders</span>
-        <span>Built 2026-05-31</span>
+        <span>Built 2026-06-01</span>
       </div>
     </footer>
   </main>
 
   <script>
   (function(){
+    // Cards are <div role="link"> so the optional season-log <a> can nest
+    // without an invalid anchor-in-anchor. The season link works natively;
+    // clicking elsewhere on the card opens the spoiler-free rider page.
+    document.addEventListener('click', e => {
+      if (e.target.closest('.rc-season')) return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card) window.location.href = card.dataset.href;
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card && e.target === card) window.location.href = card.dataset.href;
+    });
+
     const chips = document.querySelectorAll('.chip[data-f="sp"]');
     const grid = document.getElementById('grid');
     const shown = document.getElementById('shown');

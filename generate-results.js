@@ -107,6 +107,28 @@ function renderRacePage(raceId) {
     .sort((a, b) => (a.date || '').localeCompare(b.date || ''));
   const hasStagePages = publishedStageNums.size > 0;
 
+  // Cross-link the race hub to every tracked rider who features anywhere in
+  // this race (overview perfs, team rosters, OR any stage) and has a published
+  // season page. Grand-Tour hubs carry their per-rider detail at stage level,
+  // so without this the overview links to no riders at all.
+  const trackedRiderIds = new Set();
+  for (const p of (result.riderPerformances || [])) if (p.riderId) trackedRiderIds.add(p.riderId);
+  for (const t of (result.teamStories || [])) for (const id of (t.riderIds || [])) trackedRiderIds.add(id);
+  if (fs.existsSync(stagesDir)) {
+    for (const f of fs.readdirSync(stagesDir)) {
+      const m = f.match(/^(.+)-stage-(\d+)\.json$/);
+      if (!m || m[1] !== raceId) continue;
+      const sd = JSON.parse(fs.readFileSync(path.join(stagesDir, f), 'utf8'));
+      for (const p of (sd.riderPerformances || [])) if (p.riderId) trackedRiderIds.add(p.riderId);
+    }
+  }
+  const trackedRiders = [...trackedRiderIds]
+    .map(id => findRider(id))
+    .filter(Boolean)
+    .filter((r, i, a) => a.findIndex(x => (x.slug || x.id) === (r.slug || r.id)) === i)
+    .filter(r => fs.existsSync(path.join(ROOT, 'results/rider', `${r.slug || r.id}.html`)))
+    .sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
   const isMonument = (race.prestige || []).includes('monument');
   const isGrandTour = (race.prestige || []).includes('grand-tour');
   const prestigeLabel = isGrandTour ? 'GRAND TOUR' : isMonument ? 'MONUMENT' : (race.category || 'RACE');
@@ -177,7 +199,8 @@ function renderRacePage(raceId) {
         <a href="../../index.html">01 — Calendar</a>
         <a href="../../riders.html">02 — Men's Riders</a>
         <a href="../../riders-women.html">03 — Women's Riders</a>
-        <a href="../../about.html">04 — About</a>
+        <a href="../teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="../../about.html">05 — About</a>
         <span class="spacer"></span>
         <a href="../../race-details/${raceId}.html" class="back-spoilerfree mono">← spoiler-free page</a>
       </nav>
@@ -236,6 +259,17 @@ function renderRacePage(raceId) {
           return `<li class="r-stage-list-item r-stage-list-pending">${inner}</li>`;
         }).join('')}
       </ol>
+    </section>` : ''}
+
+    <!-- TRACKED RIDERS (cross-link to season pages) -->
+    ${trackedRiders.length ? `<section class="r-section">
+      <div class="r-section-head">
+        <span class="r-eyebrow mono">§ · Riders we're tracking</span>
+        <h2 class="r-h2">Tracked riders in this race</h2>
+      </div>
+      <div class="r-team-riders mono" style="display:flex;flex-wrap:wrap;gap:8px 18px">
+        ${trackedRiders.map(r => `<a href="../rider/${r.slug || r.id}.html" class="r-team-rider">${htmlEscape(r.name)} <span style="color:var(--signal)">season →</span></a>`).join('')}
+      </div>
     </section>` : ''}
 
     <!-- THE RACE IN 90 SECONDS -->

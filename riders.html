@@ -25,9 +25,13 @@
 .showing b{color:var(--ink);font-weight:600}
 
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:24px;border-top:1px solid var(--rule)}
-.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit}
+.rc{display:grid;grid-template-rows:auto auto;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:16px;transition:background .08s;min-height:260px;color:inherit;cursor:pointer}
 .rc:nth-child(4n){border-right:0}
 .rc:hover{background:var(--paper-2)}
+.rc:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.rc-season{align-self:start;justify-self:start;margin-top:8px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:2px 7px}
+.rc-season:hover{background:var(--signal);color:#fff}
+.rc-season .sp{font-size:8px;letter-spacing:.1em;opacity:.7}
 .rc-num{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.2em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
 .rc-photo{width:100%;aspect-ratio:1/1;background:var(--paper-2);margin-bottom:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-soft)}
 .rc-photo img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:grayscale(.15) contrast(1.02)}
@@ -75,7 +79,8 @@
         <a href="index.html">01 — Calendar</a>
         <a href="riders.html" class="on">02 — Men's Riders</a>
         <a href="riders-women.html">03 — Women's Riders</a>
-        <a href="about.html">04 — About</a>
+        <a href="results/teams.html">04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="about.html">05 — About</a>
         <span class="spacer"></span>
         <span class="edition mono">EN</span>
       </nav>
@@ -113,7 +118,7 @@
       </div>
     </section>
 
-    <section class="grid" id="grid"><a class="rc" data-sp="climber one-day gc-contender" href="riders/tadej-pogacar.html">
+    <section class="grid" id="grid"><div class="rc" data-sp="climber one-day gc-contender" data-href="riders/tadej-pogacar.html" role="link" tabindex="0" aria-label="T. Pogačar">
     <div class="rc-num">№ 01</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/tadej-pogacar.jpg" alt="T. Pogačar" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -122,8 +127,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">CLIMBER · CLASSICS · GC</div>
       <div class="rc-foot mono"><span>🇸🇮 Slovenia</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/tadej-pogacar.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day climber gc-contender" href="riders/isaac-del-toro.html">
+  </div><div class="rc" data-sp="one-day climber gc-contender" data-href="riders/isaac-del-toro.html" role="link" tabindex="0" aria-label="T. Del">
     <div class="rc-num">№ 02</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/isaac-del-toro.jpg" alt="T. Del" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -132,8 +138,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇲🇽 Mexico</span><span>2 races</span></div>
+      <a class="rc-season" href="results/rider/isaac-del-toro.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender climber time-trialist" href="riders/jonas-vingegaard.html">
+  </div><div class="rc" data-sp="gc-contender climber time-trialist" data-href="riders/jonas-vingegaard.html" role="link" tabindex="0" aria-label="J. Vingegaard">
     <div class="rc-num">№ 03</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jonas-vingegaard.jpg" alt="J. Vingegaard" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -142,8 +149,9 @@
       <div class="rc-team mono">Team Visma \| Lease a Bike</div>
       <div class="rc-tags mono">GC · CLIMBER · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇩🇪 Denmark</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/jonas-vingegaard.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender climber time-trialist" href="riders/joao-almeida.html">
+  </div><div class="rc" data-sp="gc-contender climber time-trialist" data-href="riders/joao-almeida.html" role="link" tabindex="0" aria-label="J. Almeida">
     <div class="rc-num">№ 04</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/joao-almeida.jpg" alt="J. Almeida" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -152,8 +160,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">GC · CLIMBER · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇵🇹 Portugal</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day puncheur sprinter" href="riders/mads-pedersen.html">
+  </div><div class="rc" data-sp="one-day puncheur sprinter" data-href="riders/mads-pedersen.html" role="link" tabindex="0" aria-label="M. Pedersen">
     <div class="rc-num">№ 05</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/mads-pedersen.jpg" alt="M. Pedersen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -162,8 +171,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR · SPRINTER</div>
       <div class="rc-foot mono"><span>🇩🇪 Denmark</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/mads-pedersen.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="time-trialist climber gc-contender" href="riders/remco-evenepoel.html">
+  </div><div class="rc" data-sp="time-trialist climber gc-contender" data-href="riders/remco-evenepoel.html" role="link" tabindex="0" aria-label="R. Evenepoel">
     <div class="rc-num">№ 06</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/remco-evenepoel.jpg" alt="R. Evenepoel" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -172,8 +182,9 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>6 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day climber puncheur" href="riders/thomas-pidcock.html">
+  </div><div class="rc" data-sp="one-day climber puncheur" data-href="riders/thomas-pidcock.html" role="link" tabindex="0" aria-label="T. Pidcock">
     <div class="rc-num">№ 07</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/thomas-pidcock.jpg" alt="T. Pidcock" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -182,8 +193,9 @@
       <div class="rc-team mono">Pinarello-Q36.5 Pro Cycling Team</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day puncheur sprinter" href="riders/mathieu-van-der-poel.html">
+  </div><div class="rc" data-sp="one-day puncheur sprinter" data-href="riders/mathieu-van-der-poel.html" role="link" tabindex="0" aria-label="D. Van">
     <div class="rc-num">№ 08</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/mathieu-van-der-poel.jpg" alt="D. Van" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -192,8 +204,9 @@
       <div class="rc-team mono">Alpecin-Premier Tech</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR · SPRINTER</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/mathieu-van-der-poel.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender climber puncheur" href="riders/oscar-onley.html">
+  </div><div class="rc" data-sp="gc-contender climber puncheur" data-href="riders/oscar-onley.html" role="link" tabindex="0" aria-label="O. Onley">
     <div class="rc-num">№ 09</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/oscar-onley.jpg" alt="O. Onley" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -202,8 +215,9 @@
       <div class="rc-team mono">INEOS Grenadiers</div>
       <div class="rc-tags mono">GC · CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day sprinter puncheur" href="riders/arnaud-de-lie.html">
+  </div><div class="rc" data-sp="one-day sprinter puncheur" data-href="riders/arnaud-de-lie.html" role="link" tabindex="0" aria-label="L. De">
     <div class="rc-num">№ 10</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/arnaud-de-lie.jpg" alt="L. De" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -212,8 +226,9 @@
       <div class="rc-team mono">Lotto Intermarché</div>
       <div class="rc-tags mono">CLASSICS · SPRINTER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>4 races</span></div>
+      <a class="rc-season" href="results/rider/arnaud-de-lie.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day sprinter" href="riders/paul-magnier.html">
+  </div><div class="rc" data-sp="one-day sprinter" data-href="riders/paul-magnier.html" role="link" tabindex="0" aria-label="P. Magnier">
     <div class="rc-num">№ 11</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/paul-magnier.jpg" alt="P. Magnier" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -222,8 +237,9 @@
       <div class="rc-team mono">Soudal Quick-Step</div>
       <div class="rc-tags mono">CLASSICS · SPRINTER</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/paul-magnier.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber gc-contender one-day" href="riders/juan-ayuso-pesquera.html">
+  </div><div class="rc" data-sp="climber gc-contender one-day" data-href="riders/juan-ayuso-pesquera.html" role="link" tabindex="0" aria-label="J. Ayuso">
     <div class="rc-num">№ 12</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/juan-ayuso-pesquera.jpg" alt="J. Ayuso" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -232,8 +248,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLIMBER · GC · CLASSICS</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender one-day" href="riders/giulio-ciccone.html">
+  </div><div class="rc" data-sp="climber gc-contender one-day" data-href="riders/giulio-ciccone.html" role="link" tabindex="0" aria-label="G. Ciccone">
     <div class="rc-num">№ 13</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/giulio-ciccone.jpg" alt="G. Ciccone" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -242,8 +259,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLIMBER · GC · CLASSICS</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/giulio-ciccone.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day climber" href="riders/christian-scaroni.html">
+  </div><div class="rc" data-sp="one-day climber" data-href="riders/christian-scaroni.html" role="link" tabindex="0" aria-label="C. Scaroni">
     <div class="rc-num">№ 14</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/christian-scaroni.jpg" alt="C. Scaroni" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -252,8 +270,9 @@
       <div class="rc-team mono">XDS Astana Team</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/christian-scaroni.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender time-trialist climber" href="riders/brandon-mcnulty.html">
+  </div><div class="rc" data-sp="gc-contender time-trialist climber" data-href="riders/brandon-mcnulty.html" role="link" tabindex="0" aria-label="B. Mcnulty">
     <div class="rc-num">№ 15</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/brandon-mcnulty.jpg" alt="B. Mcnulty" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -262,8 +281,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">GC · TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🏳️ United States</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender time-trialist climber" href="riders/kevin-vauquelin.html">
+  </div><div class="rc" data-sp="gc-contender time-trialist climber" data-href="riders/kevin-vauquelin.html" role="link" tabindex="0" aria-label="K. Vauquelin">
     <div class="rc-num">№ 16</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/kevin-vauquelin.jpg" alt="K. Vauquelin" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -272,8 +292,9 @@
       <div class="rc-team mono">INEOS Grenadiers</div>
       <div class="rc-tags mono">GC · TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day" href="riders/tim-merlier.html">
+  </div><div class="rc" data-sp="sprinter one-day" data-href="riders/tim-merlier.html" role="link" tabindex="0" aria-label="T. Merlier">
     <div class="rc-num">№ 17</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/tim-merlier.jpg" alt="T. Merlier" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -282,8 +303,9 @@
       <div class="rc-team mono">Soudal Quick-Step</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>5 races</span></div>
+      <a class="rc-season" href="results/rider/tim-merlier.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day puncheur time-trialist" href="riders/wout-van-aert.html">
+  </div><div class="rc" data-sp="one-day puncheur time-trialist" data-href="riders/wout-van-aert.html" role="link" tabindex="0" aria-label="A. Van">
     <div class="rc-num">№ 18</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/wout-van-aert.jpg" alt="A. Van" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -292,8 +314,9 @@
       <div class="rc-team mono">Team Visma \| Lease a Bike</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/wout-van-aert.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="sprinter puncheur" href="riders/jonathan-milan.html">
+  </div><div class="rc" data-sp="sprinter puncheur" data-href="riders/jonathan-milan.html" role="link" tabindex="0" aria-label="J. Milan">
     <div class="rc-num">№ 19</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jonathan-milan.jpg" alt="J. Milan" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -302,8 +325,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">SPRINTER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/jonathan-milan.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="sprinter one-day puncheur" href="riders/jasper-philipsen.html">
+  </div><div class="rc" data-sp="sprinter one-day puncheur" data-href="riders/jasper-philipsen.html" role="link" tabindex="0" aria-label="J. Philipsen">
     <div class="rc-num">№ 20</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jasper-philipsen.jpg" alt="J. Philipsen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -312,8 +336,9 @@
       <div class="rc-team mono">Alpecin-Premier Tech</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/jasper-philipsen.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="time-trialist climber gc-contender" href="riders/jay-vine.html">
+  </div><div class="rc" data-sp="time-trialist climber gc-contender" data-href="riders/jay-vine.html" role="link" tabindex="0" aria-label="J. Vine">
     <div class="rc-num">№ 21</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jay-vine.jpg" alt="J. Vine" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -322,8 +347,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇦🇺 Australia</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/jay-vine.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day climber" href="riders/ben-healy.html">
+  </div><div class="rc" data-sp="one-day climber" data-href="riders/ben-healy.html" role="link" tabindex="0" aria-label="B. Healy">
     <div class="rc-num">№ 22</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/ben-healy.jpg" alt="B. Healy" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -332,8 +358,9 @@
       <div class="rc-team mono">EF Education - EasyPost</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER</div>
       <div class="rc-foot mono"><span>🏳️ Ireland</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender climber" href="riders/florian-lipowitz.html">
+  </div><div class="rc" data-sp="gc-contender climber" data-href="riders/florian-lipowitz.html" role="link" tabindex="0" aria-label="F. Lipowitz">
     <div class="rc-num">№ 23</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/florian-lipowitz.jpg" alt="F. Lipowitz" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -342,8 +369,9 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">GC · CLIMBER</div>
       <div class="rc-foot mono"><span>🏳️ Germany</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="sprinter one-day puncheur" href="riders/olav-kooij.html">
+  </div><div class="rc" data-sp="sprinter one-day puncheur" data-href="riders/olav-kooij.html" role="link" tabindex="0" aria-label="O. Kooij">
     <div class="rc-num">№ 24</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/olav-kooij.jpg" alt="O. Kooij" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -352,8 +380,9 @@
       <div class="rc-team mono">Decathlon CMA CGM Team</div>
       <div class="rc-tags mono">SPRINTER · CLASSICS · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders/michael-storer.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders/michael-storer.html" role="link" tabindex="0" aria-label="M. Storer">
     <div class="rc-num">№ 25</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/michael-storer.jpg" alt="M. Storer" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -362,8 +391,9 @@
       <div class="rc-team mono">Tudor Pro Cycling Team</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇦🇺 Australia</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/michael-storer.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender climber puncheur" href="riders/matteo-jorgenson.html">
+  </div><div class="rc" data-sp="gc-contender climber puncheur" data-href="riders/matteo-jorgenson.html" role="link" tabindex="0" aria-label="M. Jorgenson">
     <div class="rc-num">№ 26</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/matteo-jorgenson.jpg" alt="M. Jorgenson" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -372,8 +402,9 @@
       <div class="rc-team mono">Team Visma \| Lease a Bike</div>
       <div class="rc-tags mono">GC · CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ United States</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/matteo-jorgenson.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber gc-contender" href="riders/felix-gall.html">
+  </div><div class="rc" data-sp="climber gc-contender" data-href="riders/felix-gall.html" role="link" tabindex="0" aria-label="F. Gall">
     <div class="rc-num">№ 27</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/felix-gall.jpg" alt="F. Gall" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -382,8 +413,9 @@
       <div class="rc-team mono">Decathlon CMA CGM Team</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇦🇺 Austria</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/felix-gall.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="puncheur one-day climber" href="riders/romain-gregoire1.html">
+  </div><div class="rc" data-sp="puncheur one-day climber" data-href="riders/romain-gregoire1.html" role="link" tabindex="0" aria-label="R. Grégoire">
     <div class="rc-num">№ 28</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/romain-gregoire1.jpg" alt="R. Grégoire" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -392,8 +424,9 @@
       <div class="rc-team mono">Groupama - FDJ United</div>
       <div class="rc-tags mono">PUNCHEUR · CLASSICS · CLIMBER</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender climber one-day" href="riders/mattias-skjelmose-jensen.html">
+  </div><div class="rc" data-sp="gc-contender climber one-day" data-href="riders/mattias-skjelmose-jensen.html" role="link" tabindex="0" aria-label="M. Skjelmose">
     <div class="rc-num">№ 29</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/mattias-skjelmose-jensen.jpg" alt="M. Skjelmose" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -402,8 +435,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">GC · CLIMBER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇩🇪 Denmark</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="" href="riders/matthew-brennan.html">
+  </div><div class="rc" data-sp="" data-href="riders/matthew-brennan.html" role="link" tabindex="0" aria-label="M. Brennan">
     <div class="rc-num">№ 30</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/matthew-brennan.jpg" alt="M. Brennan" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -412,8 +446,9 @@
       <div class="rc-team mono">Team Visma \| Lease a Bike</div>
       <div class="rc-tags mono"></div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>2 races</span></div>
+      <a class="rc-season" href="results/rider/matthew-brennan.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber one-day" href="riders/lenny-martinez.html">
+  </div><div class="rc" data-sp="climber one-day" data-href="riders/lenny-martinez.html" role="link" tabindex="0" aria-label="L. Martinez">
     <div class="rc-num">№ 31</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/lenny-martinez.jpg" alt="L. Martinez" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -422,8 +457,9 @@
       <div class="rc-team mono">Bahrain - Victorious</div>
       <div class="rc-tags mono">CLIMBER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender time-trialist" href="riders/primoz-roglic.html">
+  </div><div class="rc" data-sp="climber gc-contender time-trialist" data-href="riders/primoz-roglic.html" role="link" tabindex="0" aria-label="P. Roglič">
     <div class="rc-num">№ 32</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/primoz-roglic.jpg" alt="P. Roglič" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -432,8 +468,9 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">CLIMBER · GC · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇸🇮 Slovenia</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender puncheur one-day" href="riders/jhonatan-narvaez.html">
+  </div><div class="rc" data-sp="gc-contender puncheur one-day" data-href="riders/jhonatan-narvaez.html" role="link" tabindex="0" aria-label="J. Narváez">
     <div class="rc-num">№ 33</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jhonatan-narvaez.jpg" alt="J. Narváez" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -442,8 +479,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">GC · PUNCHEUR · CLASSICS</div>
       <div class="rc-foot mono"><span>🏳️ Ecuador</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/jhonatan-narvaez.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="gc-contender climber time-trialist" href="riders/thymen-arensman.html">
+  </div><div class="rc" data-sp="gc-contender climber time-trialist" data-href="riders/thymen-arensman.html" role="link" tabindex="0" aria-label="T. Arensman">
     <div class="rc-num">№ 34</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/thymen-arensman.jpg" alt="T. Arensman" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -452,8 +490,9 @@
       <div class="rc-team mono">INEOS Grenadiers</div>
       <div class="rc-tags mono">GC · CLIMBER · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇳🇱 Netherlands</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/thymen-arensman.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="time-trialist puncheur gc-contender" href="riders/filippo-ganna.html">
+  </div><div class="rc" data-sp="time-trialist puncheur gc-contender" data-href="riders/filippo-ganna.html" role="link" tabindex="0" aria-label="F. Ganna">
     <div class="rc-num">№ 35</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/filippo-ganna.jpg" alt="F. Ganna" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -462,8 +501,9 @@
       <div class="rc-team mono">INEOS Grenadiers</div>
       <div class="rc-tags mono">TIME TRIAL · PUNCHEUR · GC</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/filippo-ganna.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="puncheur one-day" href="riders/corbin-strong.html">
+  </div><div class="rc" data-sp="puncheur one-day" data-href="riders/corbin-strong.html" role="link" tabindex="0" aria-label="C. Strong">
     <div class="rc-num">№ 36</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/corbin-strong.jpg" alt="C. Strong" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -472,8 +512,9 @@
       <div class="rc-team mono">NSN Cycling Team</div>
       <div class="rc-tags mono">PUNCHEUR · CLASSICS</div>
       <div class="rc-foot mono"><span>🇳🇱 New Zealand</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/corbin-strong.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day" href="riders/emilien-jeanniere.html">
+  </div><div class="rc" data-sp="one-day" data-href="riders/emilien-jeanniere.html" role="link" tabindex="0" aria-label="E. Jeannière">
     <div class="rc-num">№ 37</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/emilien-jeanniere.jpg" alt="E. Jeannière" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -482,8 +523,9 @@
       <div class="rc-team mono">TotalEnergies</div>
       <div class="rc-tags mono">CLASSICS</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="climber gc-contender puncheur" href="riders/simon-yates.html">
+  </div><div class="rc" data-sp="climber gc-contender puncheur" data-href="riders/simon-yates.html" role="link" tabindex="0" aria-label="S. Yates">
     <div class="rc-num">№ 38</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/simon-yates.jpg" alt="S. Yates" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -492,8 +534,9 @@
       <div class="rc-team mono">Unknown</div>
       <div class="rc-tags mono">CLIMBER · GC · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day climber gc-contender" href="riders/neilson-powless.html">
+  </div><div class="rc" data-sp="one-day climber gc-contender" data-href="riders/neilson-powless.html" role="link" tabindex="0" aria-label="N. Powless">
     <div class="rc-num">№ 39</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/neilson-powless.jpg" alt="N. Powless" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -502,8 +545,9 @@
       <div class="rc-team mono">EF Education - EasyPost</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🏳️ United States</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="" href="riders/tobias-lund-andresen.html">
+  </div><div class="rc" data-sp="" data-href="riders/tobias-lund-andresen.html" role="link" tabindex="0" aria-label="T. Andresen">
     <div class="rc-num">№ 40</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/tobias-lund-andresen.jpg" alt="T. Andresen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -512,8 +556,9 @@
       <div class="rc-team mono">Decathlon CMA CGM Team</div>
       <div class="rc-tags mono"></div>
       <div class="rc-foot mono"><span>🇩🇪 Denmark</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/tobias-lund-andresen.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="one-day puncheur sprinter" href="riders/biniam-girmay.html">
+  </div><div class="rc" data-sp="one-day puncheur sprinter" data-href="riders/biniam-girmay.html" role="link" tabindex="0" aria-label="B. Girmay">
     <div class="rc-num">№ 41</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/biniam-girmay.jpg" alt="B. Girmay" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -522,8 +567,9 @@
       <div class="rc-team mono">NSN Cycling Team</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR · SPRINTER</div>
       <div class="rc-foot mono"><span>🏳️ Eritrea</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day sprinter" href="riders/jordi-meeus.html">
+  </div><div class="rc" data-sp="one-day sprinter" data-href="riders/jordi-meeus.html" role="link" tabindex="0" aria-label="J. Meeus">
     <div class="rc-num">№ 42</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jordi-meeus.jpg" alt="J. Meeus" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -532,8 +578,9 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">CLASSICS · SPRINTER</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>5 races</span></div>
+      <a class="rc-season" href="results/rider/jordi-meeus.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber gc-contender one-day" href="riders/adam-yates.html">
+  </div><div class="rc" data-sp="climber gc-contender one-day" data-href="riders/adam-yates.html" role="link" tabindex="0" aria-label="A. Yates">
     <div class="rc-num">№ 43</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/adam-yates.jpg" alt="A. Yates" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -542,8 +589,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">CLIMBER · GC · CLASSICS</div>
       <div class="rc-foot mono"><span>🏳️ Great Britain</span><span>1 races</span></div>
+      <a class="rc-season" href="results/rider/adam-yates.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="" href="riders/soren-waerenskjold.html">
+  </div><div class="rc" data-sp="" data-href="riders/soren-waerenskjold.html" role="link" tabindex="0" aria-label="S. Wærenskjold">
     <div class="rc-num">№ 44</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/soren-waerenskjold.jpg" alt="S. Wærenskjold" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -552,8 +600,9 @@
       <div class="rc-team mono">Uno-X Mobility</div>
       <div class="rc-tags mono"></div>
       <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="one-day puncheur sprinter" href="riders/michael-matthews.html">
+  </div><div class="rc" data-sp="one-day puncheur sprinter" data-href="riders/michael-matthews.html" role="link" tabindex="0" aria-label="M. Matthews">
     <div class="rc-num">№ 45</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/michael-matthews.jpg" alt="M. Matthews" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -562,8 +611,9 @@
       <div class="rc-team mono">Team Jayco AlUla</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR · SPRINTER</div>
       <div class="rc-foot mono"><span>🇦🇺 Australia</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender climber puncheur" href="riders/egan-bernal.html">
+  </div><div class="rc" data-sp="gc-contender climber puncheur" data-href="riders/egan-bernal.html" role="link" tabindex="0" aria-label="E. Bernal">
     <div class="rc-num">№ 46</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/egan-bernal.jpg" alt="E. Bernal" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -572,8 +622,9 @@
       <div class="rc-team mono">INEOS Grenadiers</div>
       <div class="rc-tags mono">GC · CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇨🇴 Colombia</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/egan-bernal.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber gc-contender puncheur" href="riders/pello-bilbao.html">
+  </div><div class="rc" data-sp="climber gc-contender puncheur" data-href="riders/pello-bilbao.html" role="link" tabindex="0" aria-label="P. Bilbao">
     <div class="rc-num">№ 47</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/pello-bilbao.jpg" alt="P. Bilbao" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -582,8 +633,9 @@
       <div class="rc-team mono">Bahrain - Victorious</div>
       <div class="rc-tags mono">CLIMBER · GC · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="gc-contender climber" href="riders/lorenzo-fortunato.html">
+  </div><div class="rc" data-sp="gc-contender climber" data-href="riders/lorenzo-fortunato.html" role="link" tabindex="0" aria-label="L. Fortunato">
     <div class="rc-num">№ 48</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/lorenzo-fortunato.jpg" alt="L. Fortunato" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -592,8 +644,9 @@
       <div class="rc-team mono">XDS Astana Team</div>
       <div class="rc-tags mono">GC · CLIMBER</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc" data-sp="" href="riders/jan-christen.html">
+  </div><div class="rc" data-sp="" data-href="riders/jan-christen.html" role="link" tabindex="0" aria-label="J. Christen">
     <div class="rc-num">№ 49</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jan-christen.jpg" alt="J. Christen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -602,8 +655,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono"></div>
       <div class="rc-foot mono"><span>🇨🇭 Switzerland</span><span>3 races</span></div>
+      <a class="rc-season" href="results/rider/jan-christen.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc" data-sp="climber gc-contender puncheur" href="riders/richard-carapaz.html">
+  </div><div class="rc" data-sp="climber gc-contender puncheur" data-href="riders/richard-carapaz.html" role="link" tabindex="0" aria-label="R. Carapaz">
     <div class="rc-num">№ 50</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/richard-carapaz.jpg" alt="R. Carapaz" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -612,15 +666,16 @@
       <div class="rc-team mono">EF Education - EasyPost</div>
       <div class="rc-tags mono">CLIMBER · GC · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🏳️ Ecuador</span><span>1 races</span></div>
+      
     </div>
-  </a></section>
+  </div></section>
 
     
     <section class="outsider-band">
       <h2><span class="mark">✦</span>Outsiders <span class="em" style="font-style:italic;font-weight:500;color:var(--signal)">&amp; Espoirs</span></h2>
       <div class="lede">Riders to watch beyond the top 50 — neo-pros, breakouts, and dangerous wildcards.</div>
     </section>
-    <section class="grid"><a class="rc rc-out" href="riders/paul-seixas.html">
+    <section class="grid"><div class="rc rc-out" data-href="riders/paul-seixas.html" role="link" tabindex="0" aria-label="P. Seixas">
     <div class="rc-num">✦ 01</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/paul-seixas.jpg" alt="P. Seixas" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -629,8 +684,9 @@
       <div class="rc-team mono">Decathlon - CMA CGM Team</div>
       <div class="rc-tags mono">CLIMBER · GC · TIME TRIAL</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>5 races</span></div>
+      <a class="rc-season" href="results/rider/paul-seixas.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc rc-out" href="riders/jarno-widar.html">
+  </div><div class="rc rc-out" data-href="riders/jarno-widar.html" role="link" tabindex="0" aria-label="J. Widar">
     <div class="rc-num">✦ 02</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jarno-widar.jpg" alt="J. Widar" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -639,8 +695,9 @@
       <div class="rc-team mono">Lotto</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>5 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/antonio-tiberi.html">
+  </div><div class="rc rc-out" data-href="riders/antonio-tiberi.html" role="link" tabindex="0" aria-label="A. Tiberi">
     <div class="rc-num">✦ 03</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/antonio-tiberi.jpg" alt="A. Tiberi" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -649,8 +706,9 @@
       <div class="rc-team mono">Bahrain Victorious</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>2 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/matthew-riccitello.html">
+  </div><div class="rc rc-out" data-href="riders/matthew-riccitello.html" role="link" tabindex="0" aria-label="M. Riccitello">
     <div class="rc-num">✦ 04</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/matthew-riccitello.jpg" alt="M. Riccitello" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -659,8 +717,9 @@
       <div class="rc-team mono">Israel - Premier Tech</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🏳️ United States</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/pablo-torres.html">
+  </div><div class="rc rc-out" data-href="riders/pablo-torres.html" role="link" tabindex="0" aria-label="P. Torres">
     <div class="rc-num">✦ 05</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/pablo-torres.jpg" alt="P. Torres" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -669,8 +728,9 @@
       <div class="rc-team mono">UAE Team Emirates - XRG</div>
       <div class="rc-tags mono">CLIMBER</div>
       <div class="rc-foot mono"><span>🏳️ Spain</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/leo-bisiaux.html">
+  </div><div class="rc rc-out" data-href="riders/leo-bisiaux.html" role="link" tabindex="0" aria-label="L. Bisiaux">
     <div class="rc-num">✦ 06</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/leo-bisiaux.jpg" alt="L. Bisiaux" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -679,8 +739,9 @@
       <div class="rc-team mono">Decathlon - CMA CGM Team</div>
       <div class="rc-tags mono">PUNCHEUR · CLIMBER · CLASSICS</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>5 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/johannes-staune-mittet.html">
+  </div><div class="rc rc-out" data-href="riders/johannes-staune-mittet.html" role="link" tabindex="0" aria-label="J. Staune-mittet">
     <div class="rc-num">✦ 07</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/johannes-staune-mittet.jpg" alt="J. Staune-mittet" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -689,8 +750,9 @@
       <div class="rc-team mono">Decathlon - CMA CGM Team</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇳🇴 Norway</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/jakob-soderqvist.html">
+  </div><div class="rc rc-out" data-href="riders/jakob-soderqvist.html" role="link" tabindex="0" aria-label="J. Söderqvist">
     <div class="rc-num">✦ 08</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/jakob-soderqvist.jpg" alt="J. Söderqvist" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -699,8 +761,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">TIME TRIAL · CLIMBER</div>
       <div class="rc-foot mono"><span>🇨🇭 Sweden</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/tim-rex.html">
+  </div><div class="rc rc-out" data-href="riders/tim-rex.html" role="link" tabindex="0" aria-label="T. Rex">
     <div class="rc-num">✦ 09</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/tim-rex.jpg" alt="T. Rex" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -709,8 +772,9 @@
       <div class="rc-team mono">Team Visma | Lease a Bike</div>
       <div class="rc-tags mono">CLIMBER</div>
       <div class="rc-foot mono"><span>🇧🇪 Belgium</span><span>TBD</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/alex-baudin.html">
+  </div><div class="rc rc-out" data-href="riders/alex-baudin.html" role="link" tabindex="0" aria-label="A. Baudin">
     <div class="rc-num">✦ 10</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/alex-baudin.jpg" alt="A. Baudin" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -719,8 +783,9 @@
       <div class="rc-team mono">EF Education - EasyPost</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇫🇷 France</span><span>TBD</span></div>
+      <a class="rc-season" href="results/rider/alex-baudin.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc rc-out" href="riders/albert-withen-philipsen.html">
+  </div><div class="rc rc-out" data-href="riders/albert-withen-philipsen.html" role="link" tabindex="0" aria-label="P. Withen">
     <div class="rc-num">✦ 11</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/albert-withen-philipsen.jpg" alt="P. Withen" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -729,8 +794,9 @@
       <div class="rc-team mono">Lidl - Trek</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇩🇪 Denmark</span><span>1 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/lorenzo-finn.html">
+  </div><div class="rc rc-out" data-href="riders/lorenzo-finn.html" role="link" tabindex="0" aria-label="L. Finn">
     <div class="rc-num">✦ 12</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/lorenzo-finn.jpg" alt="L. Finn" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -739,8 +805,9 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">CLASSICS · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>3 races</span></div>
+      
     </div>
-  </a><a class="rc rc-out" href="riders/tom-pidcock.html">
+  </div><div class="rc rc-out" data-href="riders/tom-pidcock.html" role="link" tabindex="0" aria-label="T. Pidcock">
     <div class="rc-num">✦ 13</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/tom-pidcock.jpg" alt="T. Pidcock" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -749,8 +816,9 @@
       <div class="rc-team mono">Pinarello-Q36.5 Pro Cycling</div>
       <div class="rc-tags mono">CLASSICS · CLIMBER · PUNCHEUR</div>
       <div class="rc-foot mono"><span>🇬🇧 United Kingdom</span><span>5 races</span></div>
+      <a class="rc-season" href="results/rider/tom-pidcock.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a><a class="rc rc-out" href="riders/giulio-pellizzari.html">
+  </div><div class="rc rc-out" data-href="riders/giulio-pellizzari.html" role="link" tabindex="0" aria-label="G. Pellizzari">
     <div class="rc-num">✦ 14</div>
     <div class="rc-photo"><img loading="lazy" src="riders/photos/giulio-pellizzari.jpg" alt="G. Pellizzari" onerror="this.style.display='none'"/></div>
     <div class="rc-body">
@@ -759,20 +827,35 @@
       <div class="rc-team mono">Red Bull - BORA - hansgrohe</div>
       <div class="rc-tags mono">CLIMBER · GC</div>
       <div class="rc-foot mono"><span>🇮🇹 Italy</span><span>6 races</span></div>
+      <a class="rc-season" href="results/rider/giulio-pellizzari.html" title="2026 season log — contains spoilers">season log<span class="sp">spoilers</span></a>
     </div>
-  </a></section>
+  </div></section>
 
     <footer class="foot">
       <div class="foot-row">
         <span>No Spoiler Cycling · 2026 Roadbook</span>
         <span>§ 02 — Men's Riders</span>
-        <span>Built 2026-05-31</span>
+        <span>Built 2026-06-01</span>
       </div>
     </footer>
   </main>
 
   <script>
   (function(){
+    // Cards are <div role="link"> so the optional season-log <a> can nest
+    // without an invalid anchor-in-anchor. The season link works natively;
+    // clicking elsewhere on the card opens the spoiler-free rider page.
+    document.addEventListener('click', e => {
+      if (e.target.closest('.rc-season')) return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card) window.location.href = card.dataset.href;
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const card = e.target.closest('.rc[data-href]');
+      if (card && e.target === card) window.location.href = card.dataset.href;
+    });
+
     const chips = document.querySelectorAll('.chip[data-f="sp"]');
     const grid = document.getElementById('grid');
     const shown = document.getElementById('shown');

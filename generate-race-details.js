@@ -579,7 +579,8 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
         <a href="../index.html"${navOn==='cal'?' class="on"':''}>01 — Calendar</a>
         <a href="../riders.html"${navOn==='men'?' class="on"':''}>02 — Men's Riders</a>
         <a href="../riders-women.html"${navOn==='women'?' class="on"':''}>03 — Women's Riders</a>
-        <a href="../about.html"${navOn==='about'?' class="on"':''}>04 — About</a>
+        <a href="../results/teams.html"${navOn==='teams'?' class="on"':''}>04 — Teams <sup style="color:var(--signal);font-size:.58em;letter-spacing:.1em;text-transform:uppercase;font-weight:600">spoilers</sup></a>
+        <a href="../about.html"${navOn==='about'?' class="on"':''}>05 — About</a>
         <span class="spacer"></span>
         <span class="edition mono">§ Race Sheet</span>
       </nav>

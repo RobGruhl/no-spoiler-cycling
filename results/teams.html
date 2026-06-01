@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Results — Teams 2026 — No Spoiler Cycling</title>
+<meta name="robots" content="noindex"/>
+<meta name="description" content="Spoiler-gated season-long team-by-team analysis. Read only if you are caught up on the 2026 season."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="../shared.css"/>
+<link rel="stylesheet" href="_assets/results.css"/>
+<style>
+  .t-grid{display:grid;grid-template-columns:1fr;gap:0}
+  .t-card{padding:22px 0;border-bottom:1px solid var(--rule-soft)}
+  .t-card-meta{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+  .t-appearances{margin-top:14px;display:flex;flex-direction:column;gap:16px}
+  .t-appear{padding-left:16px;border-left:2px solid var(--rule)}
+  .t-appear-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px;margin-bottom:5px}
+  .t-appear-race{font-family:var(--font-sans);font-weight:700;font-size:15px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--signal)}
+  .t-appear-race:hover{color:var(--signal)}
+  .t-appear-date{font-size:11px;color:var(--ink-3);letter-spacing:.08em}
+  .t-appear-narrative{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink-2)}
+  .t-appear-riders{margin-top:6px;font-size:11px;color:var(--ink-3)}
+  .t-appear-riders .lbl{letter-spacing:.16em;text-transform:uppercase}
+  .t-empty{color:var(--ink-3);font-size:12px;letter-spacing:.06em;padding:8px 0}
+  .t-toggle{display:flex;gap:8px;margin:8px 0 28px}
+  .t-toggle .chip{cursor:pointer}
+  .t-section.hidden{display:none}
+</style>
+</head>
+<body class="needs-consent">
+
+<!-- =========== SPOILER INTERSTITIAL =========== -->
+<div id="spoiler-gate" class="spoiler-gate">
+  <div class="spoiler-rainbow"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="frame">
+    <div class="gate-inner">
+      <div class="gate-mark mono">NSC / RESULTS — SPOILERS BEYOND THIS PAGE</div>
+      <h1 class="gate-h1">You're about to read<br/><span class="em">how the teams' seasons went.</span></h1>
+      <div class="gate-meta">
+        <div><span class="mono lbl">View</span><div class="val">Team-by-team · 2026</div></div>
+        <div><span class="mono lbl">Teams</span><div class="val">16 covered</div></div>
+        <div><span class="mono lbl">Scope</span><div class="val">Every analysed race so far</div></div>
+      </div>
+      <p class="gate-prose">
+        This page aggregates per-race team verdicts and analysis across the whole season —
+        wins, losses, and how each squad's campaign unfolded. Read no further if you intend
+        to watch any of these races unspoiled.
+      </p>
+      <div class="gate-actions">
+        <button class="gate-btn primary" id="gate-continue">Continue — I'm caught up</button>
+        <a class="gate-btn ghost" href="../index.html">Take me back to the spoiler-free calendar</a>
+      </div>
+      <div class="gate-checks">
+        <label><input type="checkbox" id="gate-allclear"/>
+          <span>Stop asking me for the rest of the 2026 season — I'm caught up.</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =========== CONTENT (revealed after consent) =========== -->
+<div id="content" hidden>
+  <div class="rainbow thick"></div>
+  <header class="masthead results-masthead">
+    <div class="frame">
+      <div class="masthead-inner">
+        <div>
+          <div class="wordmark">No<span class="slash">/</span>Spoiler<br/>Cycling
+            <span class="sub">Results · Team-by-Team · Édition 2026</span>
+          </div>
+        </div>
+        <div class="mast-meta">
+          <span class="results-badge mono">RESULTS</span><br/>
+          Document <b>NSC/RES/TEAMS</b><br/>
+          16 teams covered
+        </div>
+      </div>
+      <nav class="navstrip">
+        <a href="../index.html">01 — Calendar</a>
+        <a href="../riders.html">02 — Men's Riders</a>
+        <a href="../riders-women.html">03 — Women's Riders</a>
+        <a href="teams.html" class="on">04 — Teams</a>
+        <a href="../about.html">05 — About</a>
+        <span class="spacer"></span>
+        <a href="../index.html" class="back-spoilerfree mono">← spoiler-free site</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame">
+
+    <!-- BREADCRUMBS -->
+    <div class="crumbs mono">
+      <a href="../index.html">Calendar</a><span class="sep">›</span>
+      <span>Teams · Results</span>
+    </div>
+
+    <!-- HERO -->
+    <section class="r-hero">
+      <div>
+        <div class="r-eyebrow mono">§ R · TEAM-BY-TEAM · 2026</div>
+        <h1 class="r-h1">The teams'<br/><span class="em">season so far.</span></h1>
+        <p class="r-lede">Every squad's 2026, assembled race by race from our post-race analysis — who pressed, who missed, and how the campaigns are shaping up. Spoiler-gated.</p>
+      </div>
+    </section>
+
+    <!-- GENDER TOGGLE -->
+    <div class="t-toggle" role="tablist" aria-label="Filter teams by gender">
+      <button class="chip on" data-gf="all">All</button>
+      <button class="chip" data-gf="men">Men</button>
+      <button class="chip" data-gf="women">Women</button>
+    </div>
+
+    <section class="r-section t-section" data-gender="men">
+    <div class="r-section-head">
+      <span class="r-eyebrow mono">§ · UWT</span>
+      <h2 class="r-h2">Men&#39;s Teams</h2>
+    </div>
+    <div class="r-teams t-grid"><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">UAE Team Emirates - XRG</div>
+      <div class="t-card-meta mono">14 races · 7 marked wins</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tour-down-under-2026.html">Tour Down Under</a>
+          <span class="t-appear-date mono">Jan 20</span>
+          <span class="r-team-verdict mono win">Vine repeats the TDU GC formula</span>
+        </div>
+        <p class="t-appear-narrative">UAE arrived without Pogačar, with Vine as designated GC card, and won the way they always do — climbing stages, controlled defence, a minute-plus margin by week&#39;s end.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/uae-tour-2026.html">UAE Tour</a>
+          <span class="t-appear-date mono">Feb 16</span>
+          <span class="r-team-verdict mono win">Del Toro the protected card, Pogačar absent</span>
+        </div>
+        <p class="t-appear-narrative">UAE&#39;s home tour is always a leadership question — Pogačar usually skips it, the team&#39;s secondary GC card takes the protected role. In 2026 that card was Del Toro, who delivered on stage 1.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/strade-bianche-2026.html">Strade Bianche</a>
+          <span class="t-appear-date mono">Mar 7</span>
+          <span class="r-team-verdict mono win">1-3 on the gravel</span>
+        </div>
+        <p class="t-appear-narrative">Pogačar attacks, Del Toro holds long enough to ride the chase and salvage third. The UAE pattern for 2026 — leader and a young protected co-card — got its first Monument-level expression. Del Toro&#39;s third place is a result Pogačar himself would have called a podium had it been his own three years ago.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-nice-2026.html">Paris-Nice</a>
+          <span class="t-appear-date mono">Mar 8</span>
+          <span class="r-team-verdict mono loss">Ayuso abandons, no GC platform</span>
+        </div>
+        <p class="t-appear-narrative">Ayuso&#39;s Stage 4 crash ended UAE&#39;s GC platform week. Pogačar was riding Tirreno simultaneously, leaving Ayuso the protected card; the early abandonment cancelled the race for the team.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tirreno-adriatico-2026.html">Tirreno-Adriatico</a>
+          <span class="t-appear-date mono">Mar 9</span>
+          <span class="r-team-verdict mono win">Del Toro into the leader&#39;s jersey</span>
+        </div>
+        <p class="t-appear-narrative">Del Toro&#39;s gravel ride into second on Stage 2 elevated him into the overall lead. Same template as UAE Tour two weeks earlier: protected card delivers on the right terrain.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono win">Won the Monument that has tortured them</span>
+        </div>
+        <p class="t-appear-narrative">Tactically the only race UAE could win was a selective one — sprinters off, climbers thinned, two or three men into the Poggio. They got it, plus a crash they had to absorb at 32 km to go. Almeida, McNulty and Vine paced their leader back without panic; Pogačar then over-spent on the Cipressa exactly the way the plan demanded. The first cobbled Sanremo. The one that&#39;s been getting away.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-vlaanderen-2026.html">Ronde Van Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 5</span>
+          <span class="r-team-verdict mono win">Defended the Ronde with a single rider, won it the same way</span>
+        </div>
+        <p class="t-appear-narrative">UAE&#39;s plan for the Ronde was minimal because Pogačar was the plan. Almeida, McNulty, Vine, Narváez and Adam Yates ran tempo control through the first half of the bergs; once the favourites&#39; group resolved into the final 50 km, the team&#39;s job was positioning, not pace-making. Pogačar made the rest of it simple by attacking earlier than anyone expected on the Kwaremont. Defending Ronde champion makes it back-to-back.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/itzulia-basque-country-2026.html">Itzulia Basque Country</a>
+          <span class="t-appear-date mono">Apr 6</span>
+          <span class="r-team-verdict mono neutral">Großschartner beats Roglič in a TT (rare); Ayuso loses 1:16</span>
+        </div>
+        <p class="t-appear-narrative">Two storylines: Großschartner third at +27 and the second man ever to beat Roglič in an Itzulia TT, plus Ayuso — defending overall champion now at Lidl-Trek — losing 1:16 on day 1. The UAE-Lidl flip between the two front-row Spaniards is the week&#39;s quieter narrative.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono loss">Cooked by three punctures</span>
+        </div>
+        <p class="t-appear-narrative">UAE rode the only plan that could have worked: detonate the race long before the velodrome. Pogačar&#39;s domestiques drove the Briastre tempo, then committed to position him front-wheel into every star sector. The plan was foiled by mechanical fate, not by team selection — three punctures and three bike changes, including a long solo chase before Arenberg. Politt finished ninth, the only other UAE rider near the finale. Pogačar to Wielerflits: &#39;I did everything to drop Wout. On Carrefour I felt he still didn&#39;t crack. In the sprint he was simply stronger. I have no excuses.&#39; One Monument remains on his career list.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/amstel-gold-race-2026.html">Amstel Gold Race</a>
+          <span class="t-appear-date mono">Apr 19</span>
+          <span class="r-team-verdict mono neutral">Cosnefroy at the front without Pogačar</span>
+        </div>
+        <p class="t-appear-narrative">Pogačar skipped Amstel to recover for Flèche and Liège. Cosnefroy carried the team&#39;s Ardennes card and took third — the kind of result that justifies UAE&#39;s depth.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/la-fleche-wallonne-2026.html">La Flèche Wallonne</a>
+          <span class="t-appear-date mono">Apr 22</span>
+          <span class="r-team-verdict mono neutral">Cosnefroy 4th, no Pogačar</span>
+        </div>
+        <p class="t-appear-narrative">Pogačar deliberately skipped Flèche in 2026 to peak for Liège (which he duly won). UAE&#39;s protected card on the Mur became Benoît Cosnefroy — the team&#39;s most consistent Ardennes second-tier presence over the past three seasons. Fourth on the line, same time as Tulett, on a day the team treated as a recovery operation between the Liège and Roubaix-period bigger bets. With Del Toro also out injured from the Itzulia crash, Cosnefroy was carrying the entire spring&#39;s Ardennes weight for UAE.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/liege-bastogne-liege-2026.html">Liège-Bastogne-Liège</a>
+          <span class="t-appear-date mono">Apr 26</span>
+          <span class="r-team-verdict mono win">Third Liège; the spring closes 3 from 5 Monuments</span>
+        </div>
+        <p class="t-appear-narrative">UAE&#39;s Ardennes plan is one of the simplest in cycling: protect Pogačar to the Redoute, set him up to attack at exactly the right ramp, watch him ride alone to Liège. Adam Yates and Almeida did the pacework on the central Stockeu-Wanne sequence; the closing 40 km were Pogačar&#39;s to time. Three from five Monuments this calendar year (Sanremo, Flanders, Liège), with Roubaix lost to Van Aert and Lombardia still to come.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tour-de-romandie-2026.html">Tour de Romandie</a>
+          <span class="t-appear-date mono">Apr 28</span>
+          <span class="r-team-verdict mono neutral">Pogačar conservative at +7</span>
+        </div>
+        <p class="t-appear-narrative">UAE&#39;s plan was conservative: keep Pogačar in GC range without burning the legs on a 3.2 km technical TT before climbing stages. Mission completed at +7. Oliveira&#39;s second on stage gave the team an early secondary podium card.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tadej-pogacar.html" class="r-team-rider">POGAČAR Tadej</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/giro-d-italia-2026.html">Giro d&#39;Italia</a>
+          <span class="t-appear-date mono">May 8</span>
+          
+        </div>
+        <p class="t-appear-narrative">UAE&#39;s Giro was upended on Stage 2, when a rain-soaked descent crash put Vine, Soler, Adam Yates and Baroncini out in a single afternoon. From that wreckage Jhonatan Narváez salvaged a remarkable campaign — three stage wins (Cosenza, Fermo, Chiavari) — turning a decimated roster into the race&#39;s busiest stage-hunting outfit, with youngster Jan Christen prominent in the breakaways.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Visma | Lease a Bike</div>
+      <div class="t-card-meta mono">11 races · 2 marked wins</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tour-down-under-2026.html">Tour Down Under</a>
+          <span class="t-appear-date mono">Jan 20</span>
+          <span class="r-team-verdict mono neutral">Brennan&#39;s young-rider win, the start of a year</span>
+        </div>
+        <p class="t-appear-narrative">Brennan started the season at home — well, his adopted-pro home — and led the young rider classification after a Stage 1 second. The thread runs all the way through to his Arenberg lead-out for Van Aert at Roubaix in April.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/matthew-brennan.html" class="r-team-rider">BRENNAN Matthew</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/cadel-evans-great-ocean-road-race-2026.html">Cadel Evans Great Ocean Road Race</a>
+          <span class="t-appear-date mono">Feb 1</span>
+          <span class="r-team-verdict mono neutral">Brennan&#39;s first big result of the year</span>
+        </div>
+        <p class="t-appear-narrative">Brennan, billed as Visma&#39;s emerging Classics leader, took second on home Aussie soil — a clean early-season validation that ran through to his Arenberg lead-out for Van Aert at Roubaix.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/matthew-brennan.html" class="r-team-rider">BRENNAN Matthew</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/strade-bianche-2026.html">Strade Bianche</a>
+          <span class="t-appear-date mono">Mar 7</span>
+          <span class="r-team-verdict mono neutral">Top 10 with Jorgenson and Van Aert, never in the move</span>
+        </div>
+        <p class="t-appear-narrative">Visma rode two leaders in Jorgenson (the day&#39;s actual finisher) and Van Aert (returning to gravel after a long absence). Neither could match Pogačar&#39;s Monte Sante Marie selection. Jorgenson 8th, Van Aert 10th — clean top-10 ride, no Monument bid.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a>, <a href="rider/matteo-jorgenson.html" class="r-team-rider">JORGENSON Matteo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-nice-2026.html">Paris-Nice</a>
+          <span class="t-appear-date mono">Mar 8</span>
+          <span class="r-team-verdict mono win">Vingegaard&#39;s career reboot</span>
+        </div>
+        <p class="t-appear-narrative">Paris-Nice was Visma&#39;s first major statement of the year — Vingegaard back in GC form, the team riding around him with the structure that made the 2022-23 Tours look easy. Jorgenson supporting, Brennan stage hunting from the bunch, Van Aert preparing for the cobbled spring on different roads.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/matteo-jorgenson.html" class="r-team-rider">JORGENSON Matteo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono neutral">Stuck in the bunch, salvaged the podium</span>
+        </div>
+        <p class="t-appear-narrative">Visma rode reactive on the Cipressa and paid the price — they could not place a rider in the selection and ended up depending on chase cohesion behind. Van Aert had the legs but not the position, and won the bunch sprint for third from the second group on the road. Jorgenson was the day&#39;s most visible Visma support; Brennan in the bunch.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a>, <a href="rider/matteo-jorgenson.html" class="r-team-rider">JORGENSON Matteo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/e3-saxo-classic-2026.html">E3 Saxo Classic</a>
+          <span class="t-appear-date mono">Mar 27</span>
+          <span class="r-team-verdict mono neutral">Strand Hagenes — the youngest leader-grade Visma classics rider takes a podium</span>
+        </div>
+        <p class="t-appear-narrative">Without Van Aert on the start sheet, the team handed leadership to Per Strand Hagenes. Second place at E3, on his own, three seconds back, is the kind of result the team will quote in succession-plan discussions for years. Brennan, the other young Classics prospect, missed this one.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/gent-wevelgem-2026.html">Gent-Wevelgem</a>
+          <span class="t-appear-date mono">Mar 29</span>
+          <span class="r-team-verdict mono neutral">Van Aert in the move, Laporte on the podium</span>
+        </div>
+        <p class="t-appear-narrative">Van Aert was in the three-man late move with Van der Poel and Segaert, taking the same kind of long-shot that won him Roubaix two weeks later. Caught with metres to go; Laporte then sprinted to third from the catch, his second podium of the spring.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/dwars-door-vlaanderen-2026.html">Dwars Door Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 1</span>
+          <span class="r-team-verdict mono neutral">Van Aert&#39;s Roubaix dress rehearsal</span>
+        </div>
+        <p class="t-appear-narrative">Van Aert&#39;s long-range attack at Dwars was a near-perfect dress rehearsal for what he&#39;d do at Roubaix eleven days later. Same instinct: don&#39;t wait for the sprint, force the move. Same outcome: caught at the line. Eleven days later the move stuck.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-vlaanderen-2026.html">Ronde Van Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 5</span>
+          <span class="r-team-verdict mono neutral">Fourth and fifth, but never in the move</span>
+        </div>
+        <p class="t-appear-narrative">Visma&#39;s Flanders plan has always assumed Van Aert can survive into the front group on the Kwaremont. He did, then could not match the acceleration that ended the race. Jorgenson and Strand Hagenes kept him in position; Brennan was the day&#39;s most visible support. Van Aert&#39;s fourth-place sprint from the bunch was the maximum return from his position. The team&#39;s bigger Monument bet, two weeks later, would land Roubaix.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a>, <a href="rider/matteo-jorgenson.html" class="r-team-rider">JORGENSON Matteo</a>, <a href="rider/matthew-brennan.html" class="r-team-rider">BRENNAN Matthew</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono win">Won the day they&#39;d been chasing for years</span>
+        </div>
+        <p class="t-appear-narrative">Single-leader Roubaix, ridden as a team plan rather than a free-for-all. Brennan lead-out into Arenberg; Per Strand Hagenes burned on the long mid-race pulls neutralising counter-attacks; Laporte sacrificed before Carrefour to keep the gap open, then survived to fifth. DS Grischa Niermann told Wielerflits: &#39;We didn&#39;t ride anyone as plan B today. It was all about Wout. Everybody knew they had to empty themselves for him.&#39; Van Aert dedicated the victory to Michael Goolaerts, the Belgian who died on the pavé in 2018.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/wout-van-aert.html" class="r-team-rider">VAN AERT Wout</a>, <a href="rider/matthew-brennan.html" class="r-team-rider">BRENNAN Matthew</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/la-fleche-wallonne-2026.html">La Flèche Wallonne</a>
+          <span class="t-appear-date mono">Apr 22</span>
+          <span class="r-team-verdict mono neutral">Tulett third on the climb where everyone fades</span>
+        </div>
+        <p class="t-appear-narrative">Ben Tulett — Visma&#39;s 22-year-old British climber, ridden to fifth on Itzulia Stage 2 a fortnight earlier — took on Flèche as the team&#39;s protected card and rode the wheel beautifully until the gradient eased. Schmid&#39;s surge cost him second; the final podium step was still the season&#39;s biggest result and a clean validation of Visma&#39;s bet on him for the Ardennes block. Jorgenson was the senior support on the day.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/matteo-jorgenson.html" class="r-team-rider">JORGENSON Matteo</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Alpecin-Premier Tech</div>
+      <div class="t-card-meta mono">8 races · 3 marked wins</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tirreno-adriatico-2026.html">Tirreno-Adriatico</a>
+          <span class="t-appear-date mono">Mar 9</span>
+          <span class="r-team-verdict mono win">Van der Poel takes the gravel stage</span>
+        </div>
+        <p class="t-appear-narrative">Stage 2 was the kind of wet-gravel chaos Van der Poel uses to mark out his Strade Bianche form. Won the stage by riding gravel the way only he does on wet Italian roads.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono loss">Followed correctly, cracked on the Poggio</span>
+        </div>
+        <p class="t-appear-narrative">Van der Poel did everything right — was on the Cipressa move, was the third man over the top — and then couldn&#39;t hold Pogačar&#39;s Poggio acceleration. For a rider whose entire history says he wins Sanremo on the Poggio kick, being dropped on the Poggio is the rare outcome. Philipsen as sprint plan B never had a bunch sprint to contest.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a>, <a href="rider/jasper-philipsen.html" class="r-team-rider">PHILIPSEN Jasper</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-brugge-2026.html">Ronde Van Brugge</a>
+          <span class="t-appear-date mono">Mar 25</span>
+          <span class="r-team-verdict mono neutral">Philipsen 2nd — sprint card runner-up</span>
+        </div>
+        <p class="t-appear-narrative">Philipsen was the favourite and finished second behind Groenewegen — clean second-place for the team&#39;s sprint card.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/jasper-philipsen.html" class="r-team-rider">PHILIPSEN Jasper</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/e3-saxo-classic-2026.html">E3 Saxo Classic</a>
+          <span class="t-appear-date mono">Mar 27</span>
+          <span class="r-team-verdict mono win">The Flanders rehearsal goes to plan</span>
+        </div>
+        <p class="t-appear-narrative">Van der Poel used E3 the way the Belgians have always used it: as a course-specific test for the Ronde. Won solo with the exact climbing-sequence attack he&#39;d attempt on April 5. The Ronde would not go the same way.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/gent-wevelgem-2026.html">Gent-Wevelgem</a>
+          <span class="t-appear-date mono">Mar 29</span>
+          <span class="r-team-verdict mono win">Van der Poel as decoy, Philipsen as finisher</span>
+        </div>
+        <p class="t-appear-narrative">Alpecin&#39;s Gent-Wevelgem template — Van der Poel pulls the dangerous moves forward, the chase exhausts trying to bring it back, Philipsen wins the bunch. Worked again.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a>, <a href="rider/jasper-philipsen.html" class="r-team-rider">PHILIPSEN Jasper</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-vlaanderen-2026.html">Ronde Van Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 5</span>
+          <span class="r-team-verdict mono loss">Van der Poel cracked on his own climb</span>
+        </div>
+        <p class="t-appear-narrative">Alpecin rode the perfect Van der Poel race — sheltered through the first six bergs, brought to the front clean for the final Kwaremont with multiple lieutenants — and watched their leader fail to follow the wheel that mattered. There is no tactical critique here. Van der Poel was, on the day, second-best on a climb where he has historically been first.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a>, <a href="rider/jasper-philipsen.html" class="r-team-rider">PHILIPSEN Jasper</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono loss">Two punctures, one career-defining Arenberg</span>
+        </div>
+        <p class="t-appear-narrative">A four-peat bid undone in the worst possible 2,400 metres of road. Van der Poel&#39;s race was a tactical certainty until Arenberg; afterwards it was triage. The team had planned to move on Orchies, attack before the final hour, exploit Mathieu&#39;s Carrefour gear. None of it could happen. Philipsen never got a clean run at his sprint card. Fourth place is salvage of the highest order, but it is salvage. A team source told Velo101: &#39;We had a very clear plan to attack before the final hour. When Mathieu punctures twice in Arenberg, everything collapses. We lost the race there.&#39;</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a>, <a href="rider/jasper-philipsen.html" class="r-team-rider">PHILIPSEN Jasper</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/liege-bastogne-liege-2026.html">Liège-Bastogne-Liège</a>
+          <span class="t-appear-date mono">Apr 26</span>
+          <span class="r-team-verdict mono neutral">Verstrynge — a cyclocrosser at the front of an Ardennes Monument</span>
+        </div>
+        <p class="t-appear-narrative">Emiel Verstrynge, a cyclocross specialist on Alpecin&#39;s roster, finished fourth at Liège. The day&#39;s strangest line on a result sheet, and one of the spring&#39;s quiet validations of what the new Alpecin programme is for. Did not contest the podium sprint; held position in the Evenepoel group.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">INEOS Grenadiers</div>
+      <div class="t-card-meta mono">7 races · 2 marked wins</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tirreno-adriatico-2026.html">Tirreno-Adriatico</a>
+          <span class="t-appear-date mono">Mar 9</span>
+          <span class="r-team-verdict mono neutral">Ganna&#39;s TT, then ceded the GC on gravel</span>
+        </div>
+        <p class="t-appear-narrative">INEOS opened with a Ganna-and-Arensman 1-2 in the ITT, then lost the leader&#39;s jersey on Stage 2&#39;s wet gravel. The week&#39;s tactical lesson: GC weeks rarely turn on time-trial dominance alone.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/filippo-ganna.html" class="r-team-rider">GANNA Filippo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/dwars-door-vlaanderen-2026.html">Dwars Door Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 1</span>
+          <span class="r-team-verdict mono win">Ganna finally turns the pattern into a win</span>
+        </div>
+        <p class="t-appear-narrative">Ganna&#39;s spring has had a half-dozen of these — long Classics where he survives the selection and gets out-sprinted by a true puncheur. This time the puncheur was Van Aert, and the long Classics scenario suited the Italian. Double bike change inside the closing 50 km and he still won. Cyclingnews and Rouleur had been predicting this exact result for two years.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/filippo-ganna.html" class="r-team-rider">GANNA Filippo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/itzulia-basque-country-2026.html">Itzulia Basque Country</a>
+          <span class="t-appear-date mono">Apr 6</span>
+          <span class="r-team-verdict mono neutral">Vauquelin 2nd, Van Wilder 5th — two cards top 5</span>
+        </div>
+        <p class="t-appear-narrative">INEOS placed two riders top five on Stage 1 — Vauquelin 2nd at +23, Van Wilder 5th at +29. Strong opening platform for a week where neither was billed as the headline rider.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono neutral">Ganna&#39;s late chase, a hint of what could have been</span>
+        </div>
+        <p class="t-appear-narrative">Ganna was always going to need a Roubaix that finished in a group of six or fewer to take advantage of his sprint after attrition. The race went the opposite way — pure two-up. Inner Ring put him &#39;thirty seconds behind and closing, towing Jordi Meeus across&#39; in the closing kilometres. He didn&#39;t quite get there. The Italian&#39;s Roubaix question — whether the diesel can land the explosive selection — remains open.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/filippo-ganna.html" class="r-team-rider">GANNA Filippo</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/liege-bastogne-liege-2026.html">Liège-Bastogne-Liège</a>
+          <span class="t-appear-date mono">Apr 26</span>
+          <span class="r-team-verdict mono neutral">Bernal in the top five — the comeback measured in podium proximity</span>
+        </div>
+        <p class="t-appear-narrative">Egan Bernal, five years past the crash that almost ended his career, finished fifth at Liège-Bastogne-Liège. Survived the closing climbs in the Evenepoel group, didn&#39;t have the legs to contest the podium sprint. The week&#39;s most under-reported result.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/tour-de-romandie-2026.html">Tour de Romandie</a>
+          <span class="t-appear-date mono">Apr 28</span>
+          <span class="r-team-verdict mono win">Godon prologue win, control of day 1</span>
+        </div>
+        <p class="t-appear-narrative">Day-one stage win + leader&#39;s jersey is the clean opening INEOS would have predicted. Godon&#39;s TT power matched the technical short course.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/giro-d-italia-2026.html">Giro d&#39;Italia</a>
+          <span class="t-appear-date mono">May 8</span>
+          
+        </div>
+        <p class="t-appear-narrative">A strong supporting Giro: Filippo Ganna dominated the Stage 10 time trial and lit up the Rome finale, while Thymen Arensman rode into the GC podium fight, ultimately finishing fourth overall with former champion Egan Bernal a decisive road captain — it was Bernal&#39;s pacing on Piancavallo that protected Arensman&#39;s place in the closing mountains.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Lidl-Trek</div>
+      <div class="t-card-meta mono">6 races</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono neutral">Pedersen 4th, never in the move</span>
+        </div>
+        <p class="t-appear-narrative">Lidl-Trek planned for a reduced sprint with Pedersen and got something close to it — but the Cipressa selection happened a layer above them and they spent the descent and run-in trying to bring it back rather than contesting it. Pedersen&#39;s fourth is the textbook Monument near-miss; the Skjelmose and Ciccone follow-on cards never had a chance to deploy.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mads-pedersen.html" class="r-team-rider">PEDERSEN Mads</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-vlaanderen-2026.html">Ronde Van Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 5</span>
+          <span class="r-team-verdict mono neutral">Top five, no move</span>
+        </div>
+        <p class="t-appear-narrative">Pedersen reached the closing kilometres with the right group and the wrong legs to follow Pogačar; fifth in the bunch sprint behind Van Aert was a clean ride without a result. Milan, the team&#39;s sprint backup, never had a bunch sprint to contest.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mads-pedersen.html" class="r-team-rider">PEDERSEN Mads</a>, <a href="rider/jonathan-milan.html" class="r-team-rider">MILAN Jonathan</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/itzulia-basque-country-2026.html">Itzulia Basque Country</a>
+          <span class="t-appear-date mono">Apr 6</span>
+          <span class="r-team-verdict mono loss">Ayuso opens on the back foot</span>
+        </div>
+        <p class="t-appear-narrative">Ayuso&#39;s transfer to Lidl-Trek over the off-season was meant to give him protected GC leadership; his Stage 1 TT was poor and the GC bid was effectively cancelled before the climbing stages started. Skjelmose remained a viable secondary card.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono neutral">Pedersen sacrificed, Stuyven stole the podium</span>
+        </div>
+        <p class="t-appear-narrative">Lidl-Trek arrived with a dual-leader plan — Pedersen the protected card, Stuyven the second option. A bike change put Pedersen on a long lonely chase through the convoy. He never got back to the favourites. With the hierarchy resolved by the road, the team explicitly switched: Pedersen turned domestique for Stuyven. Stuyven, sensing the watchful silence between Visma and UAE after Pogačar&#39;s puncture, attacked across to the front of the chase group and held it home. Stuyven to Wielerflits: &#39;Mads really sacrificed himself for me. The other guys all rode themselves into the ground to keep me in position. It was all worth it.&#39; Milan never had the legs to feature.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mads-pedersen.html" class="r-team-rider">PEDERSEN Mads</a>, <a href="rider/jonathan-milan.html" class="r-team-rider">MILAN Jonathan</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/amstel-gold-race-2026.html">Amstel Gold Race</a>
+          <span class="t-appear-date mono">Apr 19</span>
+          <span class="r-team-verdict mono neutral">Skjelmose runner-up in his title defence</span>
+        </div>
+        <p class="t-appear-narrative">Defending champion finishes one second short. The Ardennes block was always going to be the team&#39;s most contested terrain this spring; finishing the first one of three by one second is a clean result.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/la-fleche-wallonne-2026.html">La Flèche Wallonne</a>
+          <span class="t-appear-date mono">Apr 22</span>
+          <span class="r-team-verdict mono neutral">Skjelmose 5th, no Mur kick</span>
+        </div>
+        <p class="t-appear-narrative">Skjelmose held the second-tier chase group through the closing kilometres without ever threatening the front trio. Fifth on the same time as Baudin; the Ardennes week&#39;s two-from-three Skjelmose pursuit (he was second at Amstel, sixth ish-time at Liège to come) made him the most consistently top-10 Lidl-Trek Ardennes rider of the spring.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Decathlon CMA CGM Team</div>
+      <div class="t-card-meta mono">5 races · 5 marked wins</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/cadel-evans-great-ocean-road-race-2026.html">Cadel Evans Great Ocean Road Race</a>
+          <span class="t-appear-date mono">Feb 1</span>
+          <span class="r-team-verdict mono win">Lund Andresen the early-season find</span>
+        </div>
+        <p class="t-appear-narrative">Decathlon&#39;s signing of Lund Andresen had been one of the quieter off-season moves; his early-season pace makes it look louder in retrospect.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/strade-bianche-2026.html">Strade Bianche</a>
+          <span class="t-appear-date mono">Mar 7</span>
+          <span class="r-team-verdict mono win">Seixas&#39;s coming-out at 19</span>
+        </div>
+        <p class="t-appear-narrative">Paul Seixas, the Tour de l&#39;Avenir champion making his Strade debut, followed Pogačar over Monte Sante Marie and held on long enough to take a solo second. Decathlon&#39;s bet on the 19-year-old as a Monument-tier rider lands two months before Liège would confirm it again.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/paul-seixas.html" class="r-team-rider">SEIXAS Paul</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/itzulia-basque-country-2026.html">Itzulia Basque Country</a>
+          <span class="t-appear-date mono">Apr 6</span>
+          <span class="r-team-verdict mono win">Seixas in the leader&#39;s jersey</span>
+        </div>
+        <p class="t-appear-narrative">Decathlon&#39;s leader was 19 years old and wearing the leader&#39;s jersey of a WorldTour stage race. The first leader&#39;s jersey of Itzulia 2026 — and the third major performance of his spring after Strade Bianche second and before the Liège podium.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/paul-seixas.html" class="r-team-rider">SEIXAS Paul</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/la-fleche-wallonne-2026.html">La Flèche Wallonne</a>
+          <span class="t-appear-date mono">Apr 22</span>
+          <span class="r-team-verdict mono win">Seixas&#39;s Flèche first time out</span>
+        </div>
+        <p class="t-appear-narrative">Decathlon arrived as overwhelming favourites — Itzulia GC win three weeks earlier, Strade Bianche podium in March, the most-watched rider of the spring on his debut at Flèche. Their plan was control, not chaos: rotate the front through the closing 80 km, neutralise long-range threats, deliver Seixas to the base of the Mur in the top five. Worked exactly. Post-race Seixas: &#39;They gave it their all, 200%, and rode the whole time. Sometimes I had to fend for myself a bit, but they gave it their all.&#39;</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/paul-seixas.html" class="r-team-rider">SEIXAS Paul</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/liege-bastogne-liege-2026.html">Liège-Bastogne-Liège</a>
+          <span class="t-appear-date mono">Apr 26</span>
+          <span class="r-team-verdict mono win">The Seixas year, in capital letters</span>
+        </div>
+        <p class="t-appear-narrative">Decathlon arrived with a 19-year-old French climber whose outsider tag has been getting harder to justify each week. Strade Bianche second to Pogačar. Now Liège second to Pogačar. Cosnefroy did the most-aware front-of-race tempo work in the closing 50 km, dropping Evenepoel before Pogačar&#39;s Redoute move and protecting Seixas&#39;s position. For Decathlon, this is no longer development. This is leadership.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/paul-seixas.html" class="r-team-rider">SEIXAS Paul</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Red Bull - BORA - hansgrohe</div>
+      <div class="t-card-meta mono">5 races · 1 marked win</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-nice-2026.html">Paris-Nice</a>
+          <span class="t-appear-date mono">Mar 8</span>
+          <span class="r-team-verdict mono neutral">Martínez salvages second</span>
+        </div>
+        <p class="t-appear-narrative">Dani Martínez held on for second in his first Red Bull-Bora Paris-Nice. 4:23 down with Vingegaard in this form is not a tactical critique.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-vlaanderen-2026.html">Ronde Van Vlaanderen</a>
+          <span class="t-appear-date mono">Apr 5</span>
+          <span class="r-team-verdict mono neutral">Evenepoel takes his first Ronde podium</span>
+        </div>
+        <p class="t-appear-narrative">Evenepoel rode his first Tour of Flanders as Red Bull-Bora&#39;s Classics leader and went off the front of the chase group on the run-in to take third clear of Van Aert and Pedersen. A debut podium in the Ronde; the message that the move from Soudal hasn&#39;t blunted the one-day form. He told the post-race Flemish press: &#39;A podium in my first Ronde is something I can be satisfied with, but there is still work to do to win this race.&#39;</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/itzulia-basque-country-2026.html">Itzulia Basque Country</a>
+          <span class="t-appear-date mono">Apr 6</span>
+          <span class="r-team-verdict mono neutral">Roglič&#39;s TT held early lead, lost late</span>
+        </div>
+        <p class="t-appear-narrative">Roglič held the on-course benchmark through both intermediate checks before being passed by Großschartner and Seixas in the final times. Fourth at +28 — within GC contention for the week, but not the day&#39;s headline.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/amstel-gold-race-2026.html">Amstel Gold Race</a>
+          <span class="t-appear-date mono">Apr 19</span>
+          <span class="r-team-verdict mono win">Evenepoel&#39;s first major in new colours</span>
+        </div>
+        <p class="t-appear-narrative">After the Ronde podium and the Liège third still to come, Amstel was Evenepoel&#39;s first major win in Red Bull-Bora-Hansgrohe kit. The 42-km solo is signature.</p>
+        
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/liege-bastogne-liege-2026.html">Liège-Bastogne-Liège</a>
+          <span class="t-appear-date mono">Apr 26</span>
+          <span class="r-team-verdict mono neutral">Evenepoel led 140 km, podium at home in Liège</span>
+        </div>
+        <p class="t-appear-narrative">Red Bull-Bora chose the long-range tactic — Evenepoel in the early break, leading 140 km, removing the team&#39;s chase obligation for two-thirds of the race. The downside arrived when Cosnefroy dropped him before Pogačar&#39;s attack, leaving him 1:42 back. Third place in his first Liège in Red Bull kit; the team&#39;s Ardennes block ends here, the GC programme starts next.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Soudal Quick-Step</div>
+      <div class="t-card-meta mono">3 races</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono neutral">Wrong race for Merlier and Magnier</span>
+        </div>
+        <p class="t-appear-narrative">Soudal needed a bunch sprint and the Cipressa attacks neutralised that scenario two hours before it would have happened. Merlier was the sprint plan, Magnier the long-shot, both shelved when the front blew apart. No top-10.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tim-merlier.html" class="r-team-rider">MERLIER Tim</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/paris-roubaix-2026.html">Paris-Roubaix</a>
+          <span class="t-appear-date mono">Apr 12</span>
+          <span class="r-team-verdict mono neutral">Stayed out of the carnage, never landed in the move</span>
+        </div>
+        <p class="t-appear-narrative">Lampaert tried for the early break, didn&#39;t make it, then was the first big-name domestique dropped on the Briastre tempo. Merlier was Plan B if Roubaix came down to a group sprint; Roubaix did not come down to a group sprint. He admitted to Belgian press he &#39;didn&#39;t have top legs&#39; and pivoted early to working for Van Baarle. No one from the team made the front split at Sector 12.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tim-merlier.html" class="r-team-rider">MERLIER Tim</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/giro-d-italia-2026.html">Giro d&#39;Italia</a>
+          <span class="t-appear-date mono">May 8</span>
+          
+        </div>
+        <p class="t-appear-narrative">Soudal built their Giro around Paul Magnier&#39;s sprint, and the 21-year-old delivered a hat-trick — Burgas (Stage 1), Sofia (Stage 3) and Pieve di Soligo (Stage 18) — while fighting Narváez for the maglia ciclamino. With Jasper Stuyven marshalling the lead-outs (and animating the Rome finale), the Belgian squad turned the bunch finishes into a showcase for cycling&#39;s next great fast man.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Pinarello-Q36.5 Pro Cycling</div>
+      <div class="t-card-meta mono">2 races</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/strade-bianche-2026.html">Strade Bianche</a>
+          <span class="t-appear-date mono">Mar 7</span>
+          <span class="r-team-verdict mono neutral">Pidcock&#39;s debut in new colours, top 10</span>
+        </div>
+        <p class="t-appear-narrative">Tom Pidcock&#39;s first major race in Pinarello-Q36.5 kit — formerly INEOS, now riding for the smaller WorldTour outfit. 7th at Strade is a clean opening statement; two weeks later he&#39;d come within centimetres of beating Pogačar at Sanremo.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tom-pidcock.html" class="r-team-rider">PIDCOCK Tom</a></div>
+      </div><div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/eschborn-frankfurt-2026.html">Eschborn-Frankfurt</a>
+          <span class="t-appear-date mono">May 1</span>
+          <span class="r-team-verdict mono neutral">Pidcock another close runner-up</span>
+        </div>
+        <p class="t-appear-narrative">Pidcock&#39;s spring has had three runner-up finishes (Sanremo by centimetres, Eschborn here, plus another). The pattern of the wrong margin is becoming notable.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tom-pidcock.html" class="r-team-rider">PIDCOCK Tom</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Bahrain Victorious</div>
+      <div class="t-card-meta mono">1 race</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/uae-tour-2026.html">UAE Tour</a>
+          <span class="t-appear-date mono">Feb 16</span>
+          <span class="r-team-verdict mono neutral">Tiberi on the stage 1 podium</span>
+        </div>
+        <p class="t-appear-narrative">Tiberi&#39;s third on stage 1 set him up as the principal non-UAE GC threat of the week. The Bahrain Victorious 2026 spring depended on his progression; this was the opening signal.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">EF Education-EasyPost</div>
+      <div class="t-card-meta mono">1 race</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/la-fleche-wallonne-2026.html">La Flèche Wallonne</a>
+          <span class="t-appear-date mono">Apr 22</span>
+          <span class="r-team-verdict mono neutral">Baudin top 6 — Decathlon&#39;s neighbours notice</span>
+        </div>
+        <p class="t-appear-narrative">Alex Baudin&#39;s sixth on the same time as Skjelmose was the season&#39;s first top-10 statement from the French climber EF have built around for the Ardennes. The team&#39;s quietly-targeted long-shot card lined up against Seixas&#39;s overwhelming-favourite card and finished a couple of seconds back.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/alex-baudin.html" class="r-team-rider">BAUDIN Alex</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">INEOS Grenadiers / Pinarello-Q36.5</div>
+      <div class="t-card-meta mono">1 race</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/milano-sanremo-2026.html">Milano-Sanremo</a>
+          <span class="t-appear-date mono">Mar 21</span>
+          <span class="r-team-verdict mono neutral">A second-place that was a tactical masterclass</span>
+        </div>
+        <p class="t-appear-narrative">Pidcock — racing for Pinarello-Q36.5 now, not INEOS — read the race correctly: don&#39;t wait for the Poggio, follow Pogačar on the Cipressa, save the legs for a two-up sprint. Every step worked except the last one. Losing Sanremo by centimetres to the form rider on the planet is not a failure. It&#39;s the closest anyone got to him on a hilly Monument all spring.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/tom-pidcock.html" class="r-team-rider">PIDCOCK Tom</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Jayco AlUla</div>
+      <div class="t-card-meta mono">1 race · 1 marked win</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/ronde-van-brugge-2026.html">Ronde Van Brugge</a>
+          <span class="t-appear-date mono">Mar 25</span>
+          <span class="r-team-verdict mono win">Groenewegen&#39;s first big spring sprint</span>
+        </div>
+        <p class="t-appear-narrative">Bruges was Groenewegen&#39;s first major spring win. The team&#39;s calendar through the cobbled block had been thin; this was the strongest opening day.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Lotto Intermarché</div>
+      <div class="t-card-meta mono">1 race · 1 marked win</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/eschborn-frankfurt-2026.html">Eschborn-Frankfurt</a>
+          <span class="t-appear-date mono">May 1</span>
+          <span class="r-team-verdict mono win">Zimmermann at home</span>
+        </div>
+        <p class="t-appear-narrative">Home win for the German rider in his fifth year as a professional. Lotto-Intermarché&#39;s calendar leans on these single-race days; this was the season&#39;s biggest return.</p>
+        
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Netherlands</div>
+      <div class="t-card-meta mono">1 race · 1 marked win</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/cx-world-championships-2026-men.html">UCI Cyclocross World Championships - Men Elite</a>
+          <span class="t-appear-date mono">Feb 1</span>
+          <span class="r-team-verdict mono win">Van der Poel&#39;s record at home</span>
+        </div>
+        <p class="t-appear-narrative">Cyclocross Worlds are national-team races, and the Dutch arrived in Hulst with Van der Poel as the only rider who mattered for the result. Joris Nieuwenhuis, Lars van der Haar and the supporting cast played the limiting role — the day was always the leader&#39;s.</p>
+        <div class="t-appear-riders mono"><span class="lbl">Riders:</span> <a href="rider/mathieu-van-der-poel.html" class="r-team-rider">VAN DER POEL Mathieu</a></div>
+      </div>
+    </div>
+  </article><article class="r-team-card t-card">
+    <header class="r-team-head">
+      <div class="r-team-name">Team Visma | Lease a Bike</div>
+      <div class="t-card-meta mono">1 race</div>
+    </header>
+    <div class="t-appearances">
+      <div class="t-appear">
+        <div class="t-appear-head">
+          <a class="t-appear-race" href="race/giro-d-italia-2026.html">Giro d&#39;Italia</a>
+          <span class="t-appear-date mono">May 8</span>
+          
+        </div>
+        <p class="t-appear-narrative">A near-flawless Grand Tour. Visma came with Vingegaard as the overwhelming favourite and delivered exactly that — patient while Eulálio&#39;s break held pink, then methodically dismantling the GC with summit wins at Blockhaus, Corno alle Scale, Pila (where pink changed hands), Carì and Piancavallo, plus Sepp Kuss&#39;s queen-stage win. With Wout van Aert lending early support, the team controlled the race front to back and rode their leader to his first maglia rosa.</p>
+        
+      </div>
+    </div>
+  </article></div>
+  </section>
+    <section class="r-section t-section" data-gender="women">
+    <div class="r-section-head">
+      <span class="r-eyebrow mono">§ · WWT</span>
+      <h2 class="r-h2">Women&#39;s Teams</h2>
+    </div>
+    <p class="t-empty mono">No women's teams results published yet — these populate as women's races are raced and analysed.</p>
+  </section>
+
+    <footer class="r-footer">
+      <p class="mono">Aggregated from per-race team analysis across the 2026 season. Research via Perplexity (English + native-language press). Synthesis and prose by Claude.</p>
+    </footer>
+
+  </main>
+</div>
+
+<!-- =========== GATE + TOGGLE SCRIPT =========== -->
+<script>
+(function() {
+  const SEEN = 'nsc:results:seen-teams';
+  const ALLCLEAR = 'nsc:results:all-clear';
+  const gate = document.getElementById('spoiler-gate');
+  const content = document.getElementById('content');
+  const body = document.body;
+
+  function reveal() {
+    gate.hidden = true;
+    content.hidden = false;
+    body.classList.remove('needs-consent');
+  }
+  try {
+    if (localStorage.getItem(SEEN) || localStorage.getItem(ALLCLEAR)) { reveal(); }
+  } catch (e) {}
+
+  document.getElementById('gate-continue').addEventListener('click', () => {
+    try {
+      localStorage.setItem(SEEN, '1');
+      if (document.getElementById('gate-allclear').checked) localStorage.setItem(ALLCLEAR, '1');
+    } catch (e) {}
+    reveal();
+  });
+
+  // Gender filter
+  const chips = document.querySelectorAll('.t-toggle .chip[data-gf]');
+  const sections = document.querySelectorAll('.t-section[data-gender]');
+  chips.forEach(btn => btn.addEventListener('click', () => {
+    const v = btn.dataset.gf;
+    chips.forEach(b => b.classList.toggle('on', b === btn));
+    sections.forEach(s => s.classList.toggle('hidden', v !== 'all' && s.dataset.gender !== v));
+  }));
+})();
+</script>
+
+</body>
+</html>

@@ -98,3 +98,6 @@ tmp/
 temp/
 # Claude harness session state
 .claude/
+
+# Playwright MCP scratch output
+.playwright-mcp/
