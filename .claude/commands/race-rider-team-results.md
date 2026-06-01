@@ -30,6 +30,16 @@ This skill captures the methodology for the **results subsystem** — the `/resu
 
 ### Step 1 — Perplexity discovery (find authoritative live reports)
 
+> **Canonical Perplexity client.** The distilled, reusable client lives at
+> `~/Projects/hello-perplexity/lib/perplexity.js` — `search()` (flat-rate raw results + citations),
+> `chat()` (synthesised answer, `sonar-pro`), `deepResearch()` (exhaustive, ~6 min), `reason()`
+> (chain-of-thought). It supports `allowDomains`/`blockDomains`, `recency`, and `startDate`/`endDate`.
+> Reach for it whenever you hit **missing information** — a result you can't confirm, a team/rider not
+> in the curated data, a contested fact. Run it with the key loaded, e.g.
+> `node --env-file=~/Projects/hello-perplexity/.env -e "import('/Users/robgruhl/Projects/hello-perplexity/lib/perplexity.js').then(async ({chat}) => { const r = await chat('…'); console.log(r.answer, r.citations); })"`.
+> `lib/perplexity-utils.js → perplexitySearch` below is this project's thin in-repo wrapper over the same
+> Search API; either works, but prefer the canonical client for synthesis (`chat`/`deepResearch`).
+
 Use `lib/perplexity-utils.js → perplexitySearch` for a direct query. Don't use `searchRaceDetailsSafe` — that's date-filtered for the spoiler-safe calendar; for results work we WANT post-race coverage.
 
 ```bash
@@ -167,8 +177,16 @@ Two shapes:
   },
   "decisiveMoments": [ { "kmFromFinish": 35, "location": "Trouée d'Arenberg", "headline": "...", "description": "..." } ],
   "teamStories": [
-    { "team": "Visma | Lease a Bike", "story": "How this race fit into their season — strategy, success/failure, context." }
+    {
+      "team": "Visma | Lease a Bike",          // canonical name — see "Team-name consistency" below
+      "verdict": "Maglia rosa + five stages",   // short pill headline (≤6 words)
+      "verdictClass": "win",                    // "win" | "neutral" | "loss" — drives the pill colour + "marked wins" count
+      "narrative": "How this race fit into their season — strategy, who they backed, what worked, what didn't.",
+      "riderIds": ["jonas-vingegaard", "wout-van-aert"]  // tracked riders who actually rode (links to season pages; unknown riders degrade to plain text)
+    }
   ],
+  // ⚠️ The narrative key is "narrative", NOT "story". generate-results.js / generate-teams.js read t.narrative;
+  //    a "story" key renders an EMPTY paragraph. verdict/verdictClass/riderIds are optional but expected.
   "riderPerformances": [ /* per-tracked-rider, same shape as in stages */ ],
   "incidents": {},
   "aftermath": {
@@ -237,6 +255,32 @@ To improve a team's coverage:
 3. Or add a `riderPerformances[]` entry naming a domestique whose role illuminates the team's strategy.
 
 Avoid: team narratives that just summarise GC standings. Team narratives should be **strategic** — what they tried to do, who they backed, what worked, what didn't.
+
+### Coverage-gap recognition (don't leave teams blank, don't fabricate)
+
+The teams page (`results/teams.html`, built by `generate-teams.js`) shows one card per team aggregating its `teamStories[]` across every race. After populating a Grand Tour, **every squad that started is a candidate for a chapter** — but the curated race JSON usually only names the teams that won stages or made the podium. That absence is a *data gap*, not evidence a team skipped the race.
+
+**Recognise the gap explicitly:** list the race's start-list teams, diff against the teams that already have a `teamStories[]` entry. For each missing team, you have incomplete information — so **research it** (see below) before deciding. The two failure modes to avoid:
+- Leaving a team that rode with no chapter → "all teams up to date" silently false.
+- Inventing a result for a team you didn't verify → fabrication.
+
+**Fill the gap with Perplexity** — use the canonical client (see "Canonical Perplexity client" near the top of this skill):
+```js
+// ~/Projects/hello-perplexity/lib/perplexity.js
+import('/Users/robgruhl/Projects/hello-perplexity/lib/perplexity.js').then(async ({ chat }) => {
+  const r = await chat(
+    "At the 2026 Giro d'Italia, did <Team> start, and what was their best result " +
+    "(stage win, GC placing, jersey, or team-classification position)? If they did not start, say so.",
+    { model: 'sonar-pro', maxTokens: 500 });
+  console.log(r.answer); console.log(r.citations);
+});
+```
+Run it from a dir whose `.env` has `PERPLEXITY_API_KEY` (e.g. `node --env-file=~/Projects/hello-perplexity/.env -e '...'`).
+Then write an **honest** chapter: a real result → `verdictClass: "win"`; rode without a notable result → a one-to-two-sentence `"neutral"` chapter ("anonymous Giro, best result 10th in the team classification"); confirmed did-not-start → omit. Reconcile against the curated race data — keep facts consistent (same overall winner, etc.).
+
+### Team-name consistency (so the teams page groups correctly)
+
+`generate-teams.js` groups appearances by a normalised `teamKey` (strips the filler word "Team", drops sponsor suffixes after `|` / `-` / `/`). Use **one canonical name per team across all races** anyway — writing "Team Visma | Lease a Bike" in one race and "Visma | Lease a Bike" in another nearly split Visma into two cards (the normaliser now catches it, but don't rely on it). Match the name already used in `data/riders.json`'s `team` field.
 
 ## Generation + verification loop
 
@@ -342,11 +386,21 @@ The completeness test asserts the top-crop rule is in the generated HTML — see
 
 ## Teams
 
-(Pending: WS4 of plan ok-i-found-the-ancient-grove — generate-teams.js + generate-team-results.js + nav additions. When implemented, teams have the same calendar / results-side split as riders, with team-slug helper in `lib/team-utils.js`.)
+**Shipped.** `generate-teams.js` builds `results/teams.html` — a single spoiler-gated, gender-filtered
+(Men / Women) page that aggregates every race's `teamStories[]` into one card per team, sorted by
+appearance count. Each card links to the race results pages and to the riders' season pages. It's wired
+into the main nav site-wide as "04 — Teams (spoilers)" and into `build:all` / `build:teams`. There is no
+separate per-team JSON or `lib/team-utils.js`; coverage is still derived entirely from `teamStories[]`
+references in race overviews (see "Team narratives → Coverage-gap recognition" above for filling gaps).
 
-The `PRINCIPAL_TEAMS` list in `scripts/test-results-completeness.js:69` is the single source of truth for team coverage. Substring matching by the first token (e.g. `'UAE'` matches `'UAE Team Emirates - XRG'`, `'Visma'` matches `'Visma | Lease a Bike'`).
+Build it: `node generate-teams.js` (or `npm run build:teams`). It groups by a normalised `teamKey`, so
+keep team names consistent (see "Team-name consistency" above).
 
-To improve a team's coverage today, add a `teamStories[]` entry in a race overview JSON. Strategic narrative (what they tried, who they backed) is more useful than results-summary prose.
+The `PRINCIPAL_TEAMS` list in `scripts/test-results-completeness.js:69` is the source of truth for the
+completeness test's team-coverage check. Substring matching by the first token (e.g. `'UAE'` matches
+`'UAE Team Emirates - XRG'`, `'Visma'` matches `'Visma | Lease a Bike'`). That check only verifies the
+principal squads appear *somewhere*; it does NOT verify per-race completeness, so use the coverage-gap
+recognition step after each Grand Tour to catch teams that started but have no chapter.
 
 ## Spoiler-safety contract for the results subsystem
 

@@ -16,10 +16,13 @@ All tools are called via `node -e "import { fn } from './lib/...'; fn(...).then(
 | Library | Purpose | Key Functions |
 |---------|---------|---------------|
 | `lib/firecrawl-utils.js` | Web discovery (Firecrawl API) | `youtubeSearch`, `flobikeSearch`, `peacockSearch`, `scrapeContent`, `searchContent` |
-| `lib/perplexity-utils.js` | Race research (Perplexity API) | `searchRaceDetailsSafe`, `searchStagePreviewSafe`, `searchRaceBroadcast`, `searchGrandTourStages`, `searchClassicRace`, `searchRaceMultiLanguage` |
+| `lib/perplexity-utils.js` | Race research (Perplexity API — in-repo wrapper) | `searchRaceDetailsSafe`, `searchStagePreviewSafe`, `searchRaceBroadcast`, `searchGrandTourStages`, `searchClassicRace`, `searchRaceMultiLanguage` |
+| `~/Projects/hello-perplexity/lib/perplexity.js` | **Canonical Perplexity client** (search/synthesis/deep research) | `search`, `chat`, `deepResearch`, `reason` |
 | `lib/youtube-utils.js` | Tiered YouTube discovery | `discoverYouTubeContent`, `searchYouTubeChannel` |
 
 **Perplexity tips**: Functions often return `answer: null` - extract from `results[].snippet`. Run raceDetails and broadcast searches in parallel. Verify AI-synthesized answers against multiple sources.
+
+**Missing information → research, don't guess.** When the curated data is silent on something it *should* cover (a team that started a race but has no `teamStories[]` chapter, a rider with no performance entry, a contested result), treat it as a **gap to fill**, not proof of absence. Use the canonical client at `~/Projects/hello-perplexity/lib/perplexity.js` — `chat()`/`deepResearch()` for synthesis, `search()` for raw cited results — run with the key loaded (`node --env-file=~/Projects/hello-perplexity/.env -e "import('/Users/robgruhl/Projects/hello-perplexity/lib/perplexity.js').then(...)"`). Then write an honest entry from what you find, or omit only once you've *confirmed* absence (e.g. "did not start"). Never fabricate to fill a gap. See `/race-rider-team-results → Coverage-gap recognition`.
 
 **Broadcast discovery**: `data/broadcasters.json` has geo + YouTube channel mappings. YouTube is a primary source - licensed broadcasters often have channels with extended highlights.
 

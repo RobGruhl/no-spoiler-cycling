@@ -120,6 +120,15 @@ if (issues.length) {
 
 ### Step 4: Data Completeness Summary
 
+> **Results-subsystem gaps.** For coverage of the spoiler-gated `/results/` pages, also run
+> `node scripts/test-results-completeness.js --strict --verbose`. When it flags (or you spot) a gap the
+> curated data *should* cover — a team that started a race but has no `teamStories[]` chapter, a rider
+> who featured but has no performance entry, a result you can't confirm — that's **missing information to
+> research, not absence**. Fill it with the canonical Perplexity client
+> (`~/Projects/hello-perplexity/lib/perplexity.js` → `chat`/`deepResearch`/`search`), then write an honest
+> entry or omit only once you've confirmed (e.g. a team that did not start). See
+> `/race-rider-team-results → Coverage-gap recognition` and CLAUDE.md → "Missing information → research".
+
 ```bash
 node -e "
 const data = require('./data/race-data.json');
