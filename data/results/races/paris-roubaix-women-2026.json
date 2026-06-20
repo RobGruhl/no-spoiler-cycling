@@ -1,0 +1,217 @@
+{
+  "raceId": "paris-roubaix-women-2026",
+  "raceName": "Paris-Roubaix Femmes",
+  "raceDate": "2026-04-12",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "voice": "Synthesized by Claude from English-language race reports (Domestique Cycling, Cycling Up To Date, Cycling Stage, ProCyclingStats) cross-checked against the published results table. Tactical, sober register — the result and gaps confirmed across four sources.",
+
+  "tldr": "Franziska Koch produced the standout ride of her career to win the sixth Paris-Roubaix Femmes, beating Marianne Vos in a two-up velodrome sprint despite being outnumbered two-to-one by Visma | Lease a Bike. The race only ignited at Mons-en-Pévèle with 46 km to go, where defending champion Pauline Ferrand-Prévot's acceleration split a quartet clear — Koch, Vos, Ferrand-Prévot and Blanka Vas. Vas was dropped with 23 km left, leaving the German national champion alone against the two Visma riders. Visma never managed to break her: Koch was strongest on the cobbles, Vos sat the wheels, and when Ferrand-Prévot led out the sprint for Vos on the boards, Koch held her line and edged ahead at the line. Vos, racing days after the death of her father, came agonisingly close to an emotional win. Kopecky led the chase home in fourth at 1:30.",
+
+  "podium": [
+    { "position": 1, "riderId": "franziska-koch", "name": "Franziska Koch", "team": "FDJ United - SUEZ", "time": "3h 30m 16s" },
+    { "position": 2, "riderId": "marianne-vos", "name": "Marianne Vos", "team": "Team Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 3, "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Team Visma | Lease a Bike", "gap": "+0:06" },
+    { "position": 4, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "gap": "+1:30" },
+    { "position": 5, "riderId": null, "name": "Megan Jastrab", "team": "UAE Team ADQ", "gap": "+1:30" },
+    { "position": 6, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "gap": "+2:20" },
+    { "position": 7, "riderId": null, "name": "Charlotte Kool", "team": "Fenix-Premier Tech", "gap": "+2:20" },
+    { "position": 8, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "+2:20" },
+    { "position": 9, "riderId": null, "name": "Arlenis Sierra", "team": "Movistar Team", "gap": "+2:20" },
+    { "position": 10, "riderId": null, "name": "Lucinda Brand", "team": "Lidl - Trek", "gap": "+2:20" }
+  ],
+
+  "narrative": {
+    "headline": "Koch breaks the Visma numbers to win the Hell of the North",
+    "openingMoves": "The 143.1 km route from Denain to Roubaix carried three more cobbled sectors than previous editions — twenty 'secteurs' totalling over 33 kilometres of pavé, but crucially without the Trouée d'Arenberg that wrecked the men's race a few hours earlier. The race was fast from the gun and, as in the men's event, no breakaway of any consequence got clear; whatever moved up the road was reeled in well before the decisive phase. The peloton fractured repeatedly on the relentless run of sectors — splits forced by crashes and the sheer attrition of the cobbles rather than by tactics — but the main contenders were still together approaching Mons-en-Pévèle.",
+    "raceUnfolds": "The race truly opened with 46 km to go. Ferrand-Prévot — the defending champion — accelerated on a slight rise just after the Mons-en-Pévèle sector, and only three riders could follow: her teammate Marianne Vos, Franziska Koch, and SD Worx's Blanka Vas. The quartet, each with an interest in keeping the move alive, quickly built a gap that would decide the race. SD Worx were caught out structurally — neither Lotte Kopecky nor Lorena Wiebes had made the front group, and when Vas was dropped with 23 km remaining, SD Worx had no one left up the road at all. That left Koch alone against the two Visma riders.",
+    "decision": "Koch, the strongest on the cobbles, kept turning the screw. She raised the pressure on the later sectors, dropping Vas and briefly distancing Ferrand-Prévot, but the Frenchwoman fought back each time to keep the Visma duo two-up at the front into Carrefour de l'Arbre. With Vos content to follow and not collaborate, Ferrand-Prévot could always come back. Vos tested the others on the Carrefour but held her powder, aware of the numerical advantage. Behind, the last realistic chase ended when Lucinda Brand — who had briefly bridged across to Kopecky and Jastrab — crashed after contact with a spectator on the Carrefour de l'Arbre.",
+    "finale": "Inside the final 5 km Koch attacked once more; Vos answered instantly and glued herself to the wheel while Ferrand-Prévot had to close a small gap before the trio reached the velodrome together. On the track Ferrand-Prévot led out for Vos in what looked like a textbook Visma finish. The sprint opened early, Koch and Vos side by side down the final straight — but Koch held her line and edged ahead at the line, taking the biggest win of her career. Vos, just 0.06 of the way back officially measured as same time, was denied an emotional victory; Ferrand-Prévot rolled in third at +0:06. Kopecky led the chase home in fourth at 1:30."
+  },
+
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 46,
+      "location": "Mons-en-Pévèle",
+      "headline": "Ferrand-Prévot lights the race — a quartet goes clear",
+      "description": "The defending champion attacked on a slight rise just after the Mons-en-Pévèle cobbled sector with 46 km to go. Only three riders could follow: teammate Marianne Vos, Franziska Koch and SD Worx's Blanka Vas. The four immediately opened a gap that would never be closed, settling the race down to these names. SD Worx's leaders Kopecky and Wiebes had missed the split entirely."
+    },
+    {
+      "kmFromFinish": 23,
+      "location": "Cobbled sectors after Mons-en-Pévèle",
+      "headline": "Vas dropped — Koch alone against two Visma riders",
+      "description": "Koch increased the pace on the cobbles and shed Blanka Vas with 23 km to go. With Vas gone, SD Worx had nobody left in the move, and the German national champion was left one-against-two with the Visma pair of Vos and Ferrand-Prévot — a numerical disadvantage that should, on paper, have decided the race against her."
+    },
+    {
+      "kmFromFinish": 18,
+      "location": "Carrefour de l'Arbre",
+      "headline": "Visma hold the wheels; Brand crashes out of the chase",
+      "description": "On the five-star Carrefour de l'Arbre, Koch kept attacking and briefly distanced Ferrand-Prévot, but the Frenchwoman clawed back each time while Vos shadowed without working. Vos tested the others here but held back, leaning on the numerical edge. Behind, Lucinda Brand — who had bridged to the Kopecky/Jastrab chase — crashed after contact with a spectator, ending any realistic pursuit from behind."
+    },
+    {
+      "kmFromFinish": 5,
+      "location": "Approach to the Roubaix Velodrome",
+      "headline": "Koch's last attack — the trio reforms for the track",
+      "description": "Inside the final 5 km Koch attacked again. Vos responded immediately and stayed on her wheel; Ferrand-Prévot had to close a small gap but rejoined, so the three arrived at the velodrome together. Confident in Vos' sprint, Visma elected to take it to the track rather than gamble on another move."
+    },
+    {
+      "kmFromFinish": 0.3,
+      "location": "Roubaix Velodrome",
+      "headline": "Koch holds her line to deny Vos",
+      "description": "Ferrand-Prévot led out the sprint for Vos in a textbook two-on-one setup. The sprint opened early with Koch and Vos side by side down the home straight. Koch held her line and edged ahead at the line, beating the veteran Vos in a head-to-head sprint and breaking Visma's numerical advantage. Ferrand-Prévot took third."
+    }
+  ],
+
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Outnumbered, undefeated",
+      "verdictClass": "win",
+      "narrative": "FDJ won the Hell of the North off the back of a single rider riding above herself. Franziska Koch — the German national champion who had spent the spring as a domestique for Demi Vollering — was the only non-Visma rider in the four-up move at Mons-en-Pévèle, then the only rider left at all once Vas was dropped. One against two, she refused to be controlled: strongest on the cobbles, repeatedly forcing Ferrand-Prévot to chase, and ice-cold in the velodrome where she held her line against Vos' lead-out. Coming a week after FDJ's win at the women's Tour of Flanders, it capped a banner cobbled spring for the squad and announced Koch as a Classics winner in her own right, not just a luxury helper.",
+      "riderIds": ["franziska-koch", "demi-vollering"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Two cards, no win",
+      "verdictClass": "loss",
+      "narrative": "Visma did everything a two-up advantage should allow and still lost. Ferrand-Prévot lit the decisive move at Mons-en-Pévèle and then played the perfect foil — chasing back every time Koch attacked so Vos never had to work, then leading out the sprint on the velodrome. Vos, racing only days after the death of her father, sat the wheels exactly as planned and came to the line as the supposedly faster sprinter. But Koch held her line and the textbook finish came up 0.06 short. The most painful kind of defeat: numerically dominant, tactically disciplined, beaten by one rider who simply would not be neutralised.",
+      "riderIds": ["marianne-vos", "pauline-ferrand-prevot"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Missed the split, salvaged fourth",
+      "verdictClass": "neutral",
+      "narrative": "SD Worx's day went wrong at the one moment that mattered. When Ferrand-Prévot detonated the race after Mons-en-Pévèle, neither Lotte Kopecky nor Lorena Wiebes was in the front group — only Blanka Vas made the quartet, and she was dropped 20-odd km later, leaving the team with nobody up the road in the finale. Kopecky rode a strong chase to take fourth at 1:30 and Wiebes mopped up sixth, but for a team built to win the biggest one-day races, being on the wrong side of the decisive selection is the story. A podium-less Roubaix that came down to positioning, not legs.",
+      "riderIds": ["lotte-kopecky", "lorena-wiebes"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Best of the rest",
+      "verdictClass": "neutral",
+      "narrative": "UAE Team ADQ were the most consistent squad behind the big two, putting Megan Jastrab into fifth (level on time with Kopecky at 1:30) and Lara Gillespie into eighth in the chase group at 2:20. Two riders inside the top eight of a Monument is a genuinely strong team result, even if neither was ever a factor for the win once the Mons-en-Pévèle move went clear. A day that confirmed the team's growing depth on the cobbles rather than a missed chance at victory.",
+      "riderIds": ["lara-gillespie"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Brand's chase ended by a crash",
+      "verdictClass": "loss",
+      "narrative": "Lidl-Trek's best hope of disrupting the front was Lucinda Brand, the cobbles and cyclocross specialist, who bridged across to the Kopecky/Jastrab chase group and looked the rider most likely to drag a pursuit back into contention. Her race ended on the Carrefour de l'Arbre when she crashed after contact with a spectator — the kind of bad luck that the Hell of the North dispenses without sentiment. She was classified tenth at 2:20; the result flatters a day that promised more before the fall.",
+      "riderIds": []
+    }
+  ],
+
+  "riderPerformances": [
+    {
+      "riderId": "franziska-koch",
+      "name": "Franziska Koch",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 1,
+      "gap": "3h 30m 16s",
+      "narrative": "The ride of her career. The German national champion was the only rider outside Visma to make the four-up move that Ferrand-Prévot launched at Mons-en-Pévèle, and once Vas was dropped at 23 km she stood alone against the two Visma riders. Rather than wait to be controlled, she attacked the situation — strongest on the cobbles, dropping Vas, repeatedly forcing Ferrand-Prévot to chase back, and going again inside the final 5 km. On the velodrome she refused the cat-and-mouse, held her line in a side-by-side sprint against Vos and edged ahead at the line. A spring spent supporting Demi Vollering ended with Koch a Monument winner in her own right.",
+      "keyMoments": [
+        { "km": 46, "what": "Only non-Visma rider able to follow Ferrand-Prévot's move at Mons-en-Pévèle" },
+        { "km": 23, "what": "Raised the pace on the cobbles to drop Blanka Vas — left alone against two Visma riders" },
+        { "km": 18, "what": "Attacked repeatedly on the run to Carrefour de l'Arbre, briefly gapping Ferrand-Prévot" },
+        { "km": 5, "what": "Attacked again before the velodrome — the trio reformed for the track" },
+        { "km": 0.3, "what": "Held her line in the velodrome sprint and beat Vos at the line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "marianne-vos",
+      "name": "Marianne Vos",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "The agonising near-miss. Vos had only returned to racing this week following the death of her father — she had missed the Tour of Flanders — and came to Roubaix as Visma's designated finisher. The plan worked almost perfectly: Ferrand-Prévot lit the race and then did the chasing and the lead-out so Vos could conserve, shadowing Koch's every move without contributing to the pace. As the supposedly faster sprinter she should have won the velodrome two-up, but Koch held her line and came up the marginally better. Second by the width of a tyre, in a race that would have been one of the most emotional victories of her career.",
+      "keyMoments": [
+        { "km": 46, "what": "Followed her teammate Ferrand-Prévot into the four-up move" },
+        { "km": 18, "what": "Sat the wheels through Carrefour de l'Arbre, leaving the work to Ferrand-Prévot" },
+        { "km": 0.3, "what": "Led to the line by Ferrand-Prévot, but narrowly out-sprinted by Koch" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "pauline-ferrand-prevot",
+      "name": "Pauline Ferrand-Prévot",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:06",
+      "narrative": "The defending champion was the engine of the winning move and, ultimately, its sacrifice. She attacked on the rise just after Mons-en-Pévèle to create the four-up split, then spent the finale closing every gap Koch opened so that Vos could ride for the sprint. It was selfless, disciplined racing in service of a teammate — and it didn't pay off. She had to fight back onto the front more than once, closed a final gap before the velodrome, then led out the sprint for Vos. Third at +0:06 is the price of being the rider who does all the work in a plan that comes up one bike-length short.",
+      "keyMoments": [
+        { "km": 46, "what": "Attacked on the rise after Mons-en-Pévèle to create the decisive quartet" },
+        { "km": 18, "what": "Repeatedly chased back to Koch to keep Visma two-up into Carrefour de l'Arbre" },
+        { "km": 5, "what": "Closed a small gap to rejoin Koch and Vos before the velodrome" },
+        { "km": 0.3, "what": "Led out the velodrome sprint for Vos" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lotte-kopecky",
+      "name": "Lotte Kopecky",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:30",
+      "narrative": "A former Roubaix winner (2024) caught on the wrong side of the day's only decisive split. When Ferrand-Prévot detonated the race after Mons-en-Pévèle, Kopecky wasn't in the front group, and with Vas the only SD Worx rider up the road — soon dropped — the team's leaders were left chasing. Kopecky led the pursuit home for fourth at 1:30, the strongest of the riders who missed the move, but it was a podium-less Roubaix decided by positioning rather than her undoubted cobbled class.",
+      "keyMoments": [
+        { "km": 46, "what": "Missed the four-up split at Mons-en-Pévèle" },
+        { "km": 0, "what": "Led the chase group home for fourth at 1:30" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes",
+      "name": "Lorena Wiebes",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 6,
+      "gap": "+2:20",
+      "narrative": "The fastest finisher in the race, but never in a position to use it. Like teammate Kopecky, Wiebes missed the front group when the race split at Mons-en-Pévèle, and SD Worx had only the short-lived Vas up the road. Once the cobbles had done their selecting, the win was decided among three riders far ahead. Wiebes took sixth in the chase at 2:20 — a sprint for the minor places that confirmed her legs were fine and her team's positioning at the key moment was not.",
+      "keyMoments": [
+        { "km": 46, "what": "Caught behind the decisive Mons-en-Pévèle split" },
+        { "km": 0, "what": "Won the sprint of the chase group for sixth at 2:20" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lara-gillespie",
+      "name": "Lara Gillespie",
+      "team": "UAE Team ADQ",
+      "role": "helper",
+      "position": 8,
+      "gap": "+2:20",
+      "narrative": "Part of UAE Team ADQ's strong collective day. Gillespie came home eighth in the chase group at 2:20, backing up teammate Megan Jastrab's fifth place to give the team two riders inside the top eight of a Monument. Never a factor for the win once the front move went clear at Mons-en-Pévèle, but a solid ride deep into the result on one of the hardest one-day courses on the calendar.",
+      "keyMoments": [
+        { "km": 0, "what": "Eighth in the chase group at 2:20 — two UAE riders in the top eight" }
+      ],
+      "incident": null
+    }
+  ],
+
+  "incidents": {
+    "crashes": [
+      { "km": 18, "riderId": null, "description": "Lucinda Brand (Lidl-Trek) crashed after contact with a spectator on the Carrefour de l'Arbre, having bridged across to the chase group; the crash ended the last realistic pursuit of the leading trio. She was classified tenth at 2:20." }
+    ],
+    "abandons": [],
+    "mechanicals": [],
+    "notes": "The peloton split repeatedly across the twenty cobbled sectors due to crashes and attrition; unlike the men's race earlier the same day, the route did not include the Trouée d'Arenberg, avoiding a repeat of the puncture carnage that ruined Van der Poel's race."
+  },
+
+  "aftermath": {
+    "headline": "A maiden Monument for Koch, heartbreak for Vos",
+    "quotes": [],
+    "body": "Two stories leave Roubaix 2026. The first is Franziska Koch's: a rider who spent the spring as Demi Vollering's helper at FDJ United-SUEZ produced the standout ride of her career to win the Hell of the North outright, beating one of the greatest one-day racers of all time in a head-to-head sprint while outnumbered two-to-one. A week after FDJ's win at the Tour of Flanders, it confirmed the squad's command of the cobbled spring and recast Koch as a Classics winner in her own right.\n\nThe second is Marianne Vos': racing only days after the death of her father, with the perfect lead-out from Ferrand-Prévot and the numerical advantage, she came within 0.06 of an emotional victory and was denied at the line. For Visma it is the most painful kind of defeat — everything went to plan except the result. Ferrand-Prévot's selfless ride as the engine and lead-out earned her only third, the price of doing all the work in a plan that fell a bike-length short."
+  },
+
+  "sources": [
+    { "url": "https://www.domestiquecycling.com/en/news/koch-overcomes-visma-numbers-to-deny-vos-emotional-paris-roubaix-win/", "publication": "Domestique Cycling", "title": "Koch overcomes Visma numbers to deny Vos emotional Paris-Roubaix win", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/paris-roubaix-femmes/2026/race-results/", "publication": "Domestique Cycling", "title": "Paris-Roubaix Femmes 2026 — Race results", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-paris-roubaix-femmes-2026-visma-loses-out-on-almost-certain-win-as-franziska-koch-takes-surprise-victory", "publication": "Cycling Up To Date", "title": "Visma loses out on almost certain win as Franziska Koch takes surprise victory", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/paris-roubaix-femmes-2026/results-pr-2026-women/", "publication": "Cycling Stage", "title": "Paris-Roubaix Femmes 2026 — Koch outguns Vos and Ferrand-Prévot", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/paris-roubaix-we/2026/result", "publication": "ProCyclingStats", "title": "Paris-Roubaix Femmes 2026 results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Paris%E2%80%93Roubaix_Femmes", "publication": "Wikipedia", "title": "2026 Paris–Roubaix Femmes", "lang": "en" }
+  ]
+}

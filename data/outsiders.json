@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T12:00:00.000Z",
+  "lastUpdated": "2026-06-20T23:48:55.019Z",
   "riders": [
     {
       "id": "franziska-koch",
@@ -8,11 +8,16 @@
       "team": "FDJ United - SUEZ",
       "nationality": "Germany",
       "nationalityCode": "DE",
-      "specialties": ["classics", "puncheur"],
+      "specialties": [
+        "classics",
+        "puncheur"
+      ],
       "isOutsider": true,
       "outsiderNote": "German national champion; won Paris-Roubaix Femmes 2026 for the standout result of her career, beating Marianne Vos in a velodrome sprint after a spring spent supporting Demi Vollering",
       "pcsUrl": "https://www.procyclingstats.com/rider/franziska-koch",
-      "photoUrl": "riders/photos/franziska-koch.jpg"
+      "photoUrl": "riders/photos/franziska-koch.jpg",
+      "dateOfBirth": "2000-07-13",
+      "height": 1.84
     },
     {
       "id": "paul-seixas",
