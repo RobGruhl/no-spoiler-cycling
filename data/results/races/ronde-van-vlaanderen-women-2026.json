@@ -1,0 +1,209 @@
+{
+  "raceId": "ronde-van-vlaanderen-women-2026",
+  "raceName": "Ronde van Vlaanderen Women / Tour of Flanders Women",
+  "raceDate": "2026-04-05",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Demi Vollering won her first Tour of Flanders, attacking from the foot of the final Oude Kwaremont with 18 km to go and soloing to Oudenaarde for FDJ United-SUEZ. Pauline Ferrand-Prévot (Visma) outsprinted Puck Pieterse (Fenix-Premier Tech) for second at 42 seconds, both well clear of a chase led home by four-time winner Lotte Kopecky. The 23rd edition was wrecked by crashes: pre-race favourites Marlen Reusser and Kim Le Court both broke bones in a pile-up before the Koppenberg, and Lorena Wiebes also abandoned.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "4h 16m 37s" },
+    { "position": 2, "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Team Visma | Lease a Bike", "gap": "+0:42" },
+    { "position": 3, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech", "gap": "+0:42" },
+    { "position": 4, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "gap": "+1:04" },
+    { "position": 5, "riderId": null, "name": "Zoe Bäckstedt", "team": "CANYON//SRAM zondacrypto", "gap": "+1:04" },
+    { "position": 6, "riderId": "karlijn-swinkels", "name": "Karlijn Swinkels", "team": "UAE Team ADQ", "gap": "+1:04" },
+    { "position": 7, "riderId": "silvia-persico", "name": "Silvia Persico", "team": "UAE Team ADQ", "gap": "+1:07" },
+    { "position": 8, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+1:07" },
+    { "position": 9, "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime", "gap": "+1:58" },
+    { "position": 10, "riderId": null, "name": "Franziska Koch", "team": "FDJ United - SUEZ", "gap": "+1:58" }
+  ],
+  "narrative": {
+    "headline": "Vollering wins her first Ronde with a long-range Kwaremont solo",
+    "openingMoves": "The 23rd women's Tour of Flanders ran 164.1 km out-and-back from Oudenaarde over the same Flemish bergs as the men, with a tailwind forecast for the finale. Lotte Kopecky, the three-time champion, headlined on home roads; Demi Vollering returned to the Ronde for FDJ United-SUEZ for the first time as a rival rather than Kopecky's team-mate, and Marlen Reusser arrived in form after winning Dwars door Vlaanderen mid-week. The opening seventy mostly flat kilometres stayed together before the hill zone began at the Wolvenberg.",
+    "raceUnfolds": "The edition was defined as much by crashes as by climbs. Cofidis lost Victoire Berteau to a broken radius in a crash with just over 80 km to go, and the decisive blow to the start list came on the nervous approach to the Koppenberg with just over 40 km remaining, where a mass pile-up took down both Reusser and AG Insurance-Soudal's Kim Le Court-Pienaar — Reusser with a fractured lumbar vertebra, Le Court with a wrist fracture, neither able to continue. Lorena Wiebes, caught in two separate crashes, also abandoned. The favourites' group thinned through the Koppenberg, Steenbeekdries, Taaienberg and Kruisberg into the closing two climbs.",
+    "decision": "On the final Oude Kwaremont, with roughly 18 km to go, Vollering launched a full-gas attack from the bottom of the climb and immediately opened a gap on what was left of the lead group. Nobody could match the acceleration; the advantage held over the top and grew on the Paterberg, where she stretched her lead toward half a minute with around 12 km to race.",
+    "finale": "Behind, Puck Pieterse briefly distanced Pauline Ferrand-Prévot on the Paterberg, but the Frenchwoman fought back to her on the run-in and the pair worked together to stay clear of the chase. Vollering soloed into Oudenaarde for her first Ronde; in the sprint for second, Ferrand-Prévot — runner-up here in 2025 too — came past Pieterse in the final 500 m to take the place. Kopecky led home the chase group at 1:04 for fourth, ahead of Bäckstedt and a UAE Team ADQ trio."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 40, "location": "Approach to the Koppenberg", "headline": "Crash ends Reusser and Le Court's Ronde", "description": "A mass pile-up in the jostling for position before the Koppenberg took down pre-race favourites Marlen Reusser (Movistar) and Kim Le Court-Pienaar (AG Insurance-Soudal). Reusser suffered a fractured lumbar vertebra, Le Court a wrist fracture requiring surgery; both abandoned on the spot. Reusser had won Dwars door Vlaanderen three days earlier." },
+    { "kmFromFinish": 18, "location": "Oude Kwaremont (final passage)", "headline": "Vollering attacks from the bottom", "description": "Vollering went full gas from the foot of the final Oude Kwaremont and immediately opened a gap on the remnants of the lead group. No rider could follow the acceleration; the gap held over the cobbled top and the race was effectively decided there." },
+    { "kmFromFinish": 12, "location": "Paterberg", "headline": "Lead stretches past 25 seconds", "description": "Over the Paterberg Vollering extended her advantage toward half a minute. Behind, Pieterse briefly dropped Ferrand-Prévot on the climb before the Frenchwoman rejoined on the flat, the two settling into the fight for second." },
+    { "kmFromFinish": 0, "location": "Oudenaarde", "headline": "Vollering solo; Ferrand-Prévot takes the sprint for second", "description": "Vollering arrived alone for her first Tour of Flanders. Ferrand-Prévot, second here in 2025, came past Pieterse inside the final 500 m to take runner-up at 42 seconds; both finished clear of the Kopecky-led chase at 1:04." }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "First Ronde for Vollering",
+      "verdictClass": "win",
+      "narrative": "Vollering's first season back at the Ronde for FDJ delivered the win she had never managed here, with a committed long-range solo from the foot of the final Oude Kwaremont rather than a finale poker game. The squad's depth showed across the result sheet — Franziska Koch took tenth and Strade Bianche winner Elise Chabbey was inside the top fifteen — but the day was about a single, decisive acceleration that nobody could answer.",
+      "riderIds": ["demi-vollering", "elise-chabbey"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Ferrand-Prévot second again",
+      "verdictClass": "neutral",
+      "narrative": "Ferrand-Prévot was the strongest of the pursuers and the only rider to limit Vollering's damage, recovering after being briefly dropped by Pieterse on the Paterberg and then winning the two-up sprint for second in the final 500 m. It was a repeat of her 2025 runner-up finish — confirmation of her standing among the Ronde's very best, still chasing the win.",
+      "riderIds": ["pauline-ferrand-prevot"]
+    },
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "Pieterse on the podium",
+      "verdictClass": "win",
+      "narrative": "Puck Pieterse turned her cobbled-classics promise into a Monument podium, getting into the day's decisive front split and even briefly distancing Ferrand-Prévot on the Paterberg. She led out the sprint for second but was passed by the more patient Ferrand-Prévot in the closing metres, settling for third — a major result for the young Dutch rider and her team.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Three in the top eight",
+      "verdictClass": "win",
+      "narrative": "UAE Team ADQ produced the strongest collective ride of the day, placing Karlijn Swinkels (6th), Silvia Persico (7th) and Elisa Longo Borghini (8th) all inside the top eight from the first chasing group. Without a rider able to follow Vollering's Kwaremont move, the numbers translated into placings rather than a podium, but it underlined the squad's classics depth.",
+      "riderIds": ["karlijn-swinkels", "silvia-persico", "elisa-longo-borghini"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Crash-hit, Kopecky fourth",
+      "verdictClass": "loss",
+      "narrative": "The three-time champion's home Monument unravelled. Lorena Wiebes, the sprint card, was caught in two crashes and abandoned, leaving Lotte Kopecky to ride the finale without her usual firepower around her. Kopecky made the chase group but had no answer to Vollering and won the sprint for fourth; Mischa Bredewold backed her up in ninth. For a team that had won this race three times in four years, fourth was a disappointment.",
+      "riderIds": ["lotte-kopecky", "mischa-bredewold", "lorena-wiebes"]
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Reusser crashes out injured",
+      "verdictClass": "loss",
+      "narrative": "Reusser arrived as a genuine favourite on the back of a Dwars door Vlaanderen win three days earlier, then saw her Ronde end in the pile-up before the Koppenberg with a fractured lumbar vertebra. It was a brutal blow to a rider in the form of her life, ruling her out of the rest of the cobbled block.",
+      "riderIds": ["marlen-reusser"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "4h 16m 37s",
+      "narrative": "Won her first Tour of Flanders with a long-range solo, attacking from the bottom of the final Oude Kwaremont with about 18 km to go and never being seen again. The gap opened instantly and grew over the Paterberg; she crossed in Oudenaarde 42 seconds clear. After winning here as Kopecky's rival for the first time, it was the missing Monument on a palmarès already full of one-day and stage-race wins.",
+      "keyMoments": [
+        { "km": 18, "what": "Attacked from the foot of the final Oude Kwaremont, dropped the lead group" },
+        { "km": 12, "what": "Stretched the lead toward 30 seconds over the Paterberg" },
+        { "km": 0, "what": "Solo into Oudenaarde, 42 seconds ahead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 2, "gap": "+0:42",
+      "narrative": "The strongest pursuer and the only rider to keep Vollering's gap from ballooning. Briefly distanced by Pieterse on the Paterberg, she fought back on the flat run-in and then timed the two-up sprint for second perfectly, coming past inside the final 500 m. A second straight runner-up finish at the Ronde.",
+      "keyMoments": [
+        { "km": 12, "what": "Dropped by Pieterse on the Paterberg, rejoined on the flat" },
+        { "km": 0, "what": "Outsprinted Pieterse in the final 500 m for second" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech",
+      "role": "leader", "position": 3, "gap": "+0:42",
+      "narrative": "Made the decisive front move and even briefly dropped Ferrand-Prévot on the Paterberg, but couldn't shake her on the run-in. Led out the sprint for second from around 500 m and was passed late, taking third. A standout Monument result for the young Dutch all-rounder.",
+      "keyMoments": [
+        { "km": 12, "what": "Briefly distanced Ferrand-Prévot on the Paterberg" },
+        { "km": 0, "what": "Led out the sprint for second, passed for third" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 4, "gap": "+1:04",
+      "narrative": "The three-time winner, chasing a record fourth on home roads, made the front chase group but had no answer to Vollering's Kwaremont attack. With SD Worx hit hard by crashes — Wiebes out, others delayed — she rode the finale isolated and won the sprint for fourth, more than a minute down.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the sprint for fourth from the chase group" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "karlijn-swinkels", "name": "Karlijn Swinkels", "team": "UAE Team ADQ",
+      "role": "stage-hunter", "position": 6, "gap": "+1:04",
+      "narrative": "Best of the three UAE Team ADQ riders in the top eight, taking sixth from the first chase group. Part of the squad's strongest collective showing of the cobbled spring.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "silvia-persico", "name": "Silvia Persico", "team": "UAE Team ADQ",
+      "role": "stage-hunter", "position": 7, "gap": "+1:07",
+      "narrative": "Seventh, the middle of UAE Team ADQ's three-rider block inside the top eight. Solid classics ride without ever being able to bridge to Vollering.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ",
+      "role": "leader", "position": 8, "gap": "+1:07",
+      "narrative": "The 2024 Ronde winner finished eighth, completing UAE Team ADQ's trio in the top eight. Active in the run-in but unable to match the day's best on the Kwaremont.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime",
+      "role": "lieutenant", "position": 9, "gap": "+1:58",
+      "narrative": "Ninth, backing up Kopecky after SD Worx lost Wiebes to crashes. The best support result on a difficult day for the team.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elise-chabbey", "name": "Elise Chabbey", "team": "FDJ United - SUEZ",
+      "role": "lieutenant", "position": 15, "gap": "+4:55",
+      "narrative": "The Strade Bianche winner rode in support of Vollering and came home inside the top fifteen, part of FDJ's deep team effort behind the winning move.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek",
+      "role": "stage-hunter", "position": 13, "gap": "+3:45",
+      "narrative": "Lidl-Trek's best finisher in thirteenth, present in the front of the race through the early hill zone but distanced once the climbs hardened.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly",
+      "role": "leader", "position": 12, "gap": "+1:58",
+      "narrative": "Twelfth for EF Education-Oatly, finishing on the same time as Bredewold and Koch just behind the leading chase group — a strong classics ride at the front end of the race.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": null, "gap": "DNF",
+      "narrative": "SD Worx's sprint and finale card never got to play. Involved in two separate crashes during the race, the Dutch champion abandoned with abrasions and bruising but no major injury, leaving Kopecky without her usual lead support.",
+      "keyMoments": [],
+      "incident": "Did not finish — involved in two crashes"
+    },
+    {
+      "riderId": "marlen-reusser", "name": "Marlen Reusser", "team": "Movistar Team",
+      "role": "leader", "position": null, "gap": "DNF",
+      "narrative": "Arrived as a top favourite after winning Dwars door Vlaanderen three days earlier, then crashed out in the pile-up before the Koppenberg with around 40 km to go. Movistar later confirmed a fractured lumbar vertebra, ending her cobbled campaign.",
+      "keyMoments": [],
+      "incident": "Did not finish — crashed before the Koppenberg, fractured lumbar vertebra"
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "marlen-reusser", "location": "approach to the Koppenberg (~40 km to go)", "outcome": "fractured lumbar vertebra, abandoned" },
+      { "name": "Kim Le Court-Pienaar", "team": "AG Insurance - Soudal", "location": "approach to the Koppenberg (~40 km to go)", "outcome": "wrist fracture requiring surgery, abandoned" },
+      { "name": "Victoire Berteau", "team": "Cofidis Women Team", "location": "~80 km to go", "outcome": "broken radius, abandoned" },
+      { "riderId": "lorena-wiebes", "location": "two crashes during the race", "outcome": "abrasions and bruising, did not finish" }
+    ],
+    "abandons": [
+      { "riderId": "marlen-reusser", "reason": "crash, fractured lumbar vertebra" },
+      { "name": "Kim Le Court-Pienaar", "reason": "crash, wrist fracture" },
+      { "name": "Victoire Berteau", "reason": "crash, broken radius" },
+      { "riderId": "lorena-wiebes", "reason": "involved in two crashes" }
+    ],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Vollering completes her Monument set on the bergs as crashes batter the peloton",
+    "quotes": [],
+    "body": "A crash-marred edition that the survivors will remember for the carnage as much as the racing: Reusser, Le Court and Berteau all left with fractures, and Wiebes with another spring abandon. At the front, the result was clean and decisive — Vollering's first Tour of Flanders, taken the hard way with a long solo from the canonical climb, and Ferrand-Prévot once again second. For SD Worx, the loss of Wiebes and a fourth-place finish for three-time champion Kopecky was a setback in the heart of the cobbled block."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/ronde-van-vlaanderen-we/2026/result", "publication": "ProCyclingStats", "title": "Ronde van Vlaanderen WE 2026 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-of-flanders-women-demi-vollering-sails-to-victory-with-solo-attack-on-oude-kwaremont/", "publication": "Cyclingnews", "title": "Tour of Flanders Women: Demi Vollering sails to victory with solo attack on Oude Kwaremont", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/womens-peloton-left-battered-after-crash-filled-tour-of-flanders/", "publication": "Domestique Cycling", "title": "Women's peloton left battered after crash-filled Tour of Flanders", "lang": "en" },
+    { "url": "https://www.idlprocycling.com/cycling/crash-hit-tour-of-flanders-femmes-how-are-reusser-le-court-wiebes-and-the-others-doing", "publication": "IDL Pro Cycling", "title": "Crash-hit Tour of Flanders Femmes: how are Reusser, Le Court, Wiebes and the others doing", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_of_Flanders_(women%27s_race)", "publication": "Wikipedia", "title": "2026 Tour of Flanders (women's race)", "lang": "en" }
+  ]
+}
