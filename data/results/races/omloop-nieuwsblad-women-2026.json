@@ -1,0 +1,164 @@
+{
+  "raceId": "omloop-nieuwsblad-women-2026",
+  "raceName": "Omloop Het Nieuwsblad Women",
+  "raceDate": "2026-02-28",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Demi Vollering (FDJ United - SUEZ) opened the 2026 women's classics season by winning Omloop Het Nieuwsblad, the 21st edition, from a two-up sprint in Ninove. Reigning European champion Vollering and Kasia Niewiadoma (CANYON//SRAM zondacrypto) escaped over the Muur van Geraardsbergen after FDJ's Franziska Koch shredded the bunch, then cooperated over the Bosberg to the line, where Vollering proved the faster. Lorena Wiebes (Team SD Worx - Protime) won the sprint of the chase group for third, 21 seconds back.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "3h 35m 51s" },
+    { "position": 2, "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto", "gap": "+0:00" },
+    { "position": 3, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "gap": "+0:21" },
+    { "position": 4, "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team", "gap": "+0:21" },
+    { "position": 5, "riderId": "franziska-koch", "name": "Franziska Koch", "team": "FDJ United - SUEZ", "gap": "+0:21" },
+    { "position": 6, "riderId": "karlijn-swinkels", "name": "Karlijn Swinkels", "team": "UAE Team ADQ", "gap": "+0:21" },
+    { "position": 7, "riderId": null, "name": "Shari Bossuyt", "team": "AG Insurance - Soudal Team", "gap": "+0:21" },
+    { "position": 8, "riderId": null, "name": "Millie Couzens", "team": "Fenix-Premier Tech", "gap": "+0:21" },
+    { "position": 9, "riderId": null, "name": "Nina Berton", "team": "EF Education-Oatly", "gap": "+0:21" },
+    { "position": 10, "riderId": null, "name": "Letizia Paternoster", "team": "Liv AlUla Jayco", "gap": "+0:21" }
+  ],
+  "narrative": {
+    "headline": "Vollering opens the cobbled spring with an Omloop two-up sprint win",
+    "openingMoves": "137.2 km from Ghent to Ninove over the cobbled hills of the Vlaamse Ardennen. After the neutral roll-out from Ghent the racing was aggressive immediately. An early four-rider move went up the road but was kept on a short leash by SD Worx-Protime in the crosswinds. Once it was reeled in, Elise Chabbey (FDJ United - SUEZ) lit a counter that formed the day's main break alongside Eleonora Gasparrini, Nina Berton and a young Norwegian rider; the WorldTeams allowed it only 30 seconds to a minute, never letting it threaten to decide the race.",
+    "raceUnfolds": "Tension built through the middle hours as the bunch headed towards the closing climbs. With around 23 km to go, in the run towards the Muur/Bosberg sequence, a big crash split the peloton and delayed several contenders, scattering the field just as the race approached the decisive cobbles. Most of the principal classics favourites, Vollering and Niewiadoma among them, stayed safe at the front.",
+    "decision": "The race was settled on the Muur van Geraardsbergen. FDJ United - SUEZ massed at the front and German champion Franziska Koch drove a ferocious tempo up the steep cobbles that decimated the bunch and mopped up the last of the break. As the Muur steepened, only a handful held the pace; Niewiadoma climbed superbly and over the top she and Vollering emerged together as a leading duo, two former Tour de France Femmes winners clear of a shattered field.",
+    "finale": "Over the Bosberg and across the run-in to Ninove the pair cooperated, holding their advantage over a reduced chase group as no organised pursuit came together. In the two-up sprint reigning European champion Vollering was clearly the faster, taking her first Omloop Het Nieuwsblad. Twenty-one seconds back, Dutch champion Lorena Wiebes won the sprint of the chasers for third, with Cat Ferguson and Koch next across the line."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 23, "location": "Approach to the Muur", "headline": "Crash splits the bunch", "description": "A big crash in the run towards the Muur/Bosberg sequence scattered the peloton and delayed several contenders just before the decisive climbs, though most of the classics favourites stayed safe at the front." },
+    { "kmFromFinish": 18, "location": "Muur van Geraardsbergen", "headline": "Koch detonates the race, Vollering and Niewiadoma clear", "description": "FDJ's Franziska Koch set a ferocious pace up the Muur that shattered the bunch and caught the break. Over the top Demi Vollering and Kasia Niewiadoma emerged together as the leading duo." },
+    { "kmFromFinish": 13, "location": "Bosberg", "headline": "The duo consolidates", "description": "Vollering and Niewiadoma cooperated over the Bosberg and the run to Ninove, holding their gap as no organised chase formed behind." },
+    { "kmFromFinish": 0, "location": "Ninove", "headline": "Vollering wins the two-up sprint", "description": "In the sprint of the leading pair Vollering was clearly faster than Niewiadoma; 21 seconds later Lorena Wiebes won the chase-group sprint for third." }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Vollering wins, Koch lights the fuse",
+      "verdictClass": "win",
+      "narrative": "FDJ United - SUEZ controlled the decisive phase and turned it into a victory. After Elise Chabbey animated the mid-race break, the team massed at the front for the Muur, where German champion Franziska Koch drove the tempo that blew the race apart and sprang Demi Vollering clear with Niewiadoma. Vollering took the two-up sprint for her first Omloop, and the depth showed with Koch fifth and Juliette Berthet eleventh. A near-perfect season opener.",
+      "riderIds": ["demi-vollering", "franziska-koch", "elise-chabbey"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Niewiadoma matches Vollering to the line",
+      "verdictClass": "neutral",
+      "narrative": "Kasia Niewiadoma was the only rider able to go with the FDJ-fuelled selection on the Muur, reportedly setting the fastest time up the climb on the day, and she made the winning two-up move with Vollering. She cooperated to the line but came up short in the sprint, taking a strong second on a cobbled course that suits the pure classics riders more than her. A confident classics opener for the Pole.",
+      "riderIds": ["kasia-niewiadoma"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Wiebes best of the rest, third",
+      "verdictClass": "neutral",
+      "narrative": "SD Worx-Protime spent the early race policing the crosswinds and the first break, but were unable to follow the two leaders over the Muur. Dutch champion Lorena Wiebes salvaged the day by winning the sprint of the reduced chase group for third at 21 seconds, the best result available once Vollering and Niewiadoma were gone.",
+      "riderIds": ["lorena-wiebes"]
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Ferguson fourth on debut day",
+      "verdictClass": "neutral",
+      "narrative": "Nineteen-year-old British talent Cat Ferguson was Movistar's standout, surviving the Muur selection in the chase group and taking fourth in the bunch sprint behind Wiebes. A high-class opening-weekend ride for one of the sport's most promising young classics riders.",
+      "riderIds": ["cat-ferguson"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Swinkels into the top six",
+      "verdictClass": "neutral",
+      "narrative": "Karlijn Swinkels led UAE Team ADQ home in sixth, in the front chase group that contested the minor placings into Ninove. A solid collective ride on a day defined by the Vollering-Niewiadoma escape.",
+      "riderIds": ["karlijn-swinkels"]
+    },
+    {
+      "team": "AG Insurance - Soudal Team",
+      "verdict": "Bossuyt seventh",
+      "verdictClass": "neutral",
+      "narrative": "Shari Bossuyt was the home team's best, taking seventh from the chase-group sprint. A respectable opening-weekend result for the Belgian squad on its own roads.",
+      "riderIds": []
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "Berton in the break and top ten",
+      "verdictClass": "neutral",
+      "narrative": "Nina Berton spent a long spell in the day's main breakaway and then recovered to finish ninth in the chase group, an aggressive and rewarded ride for EF Education-Oatly.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Vollering opened her classics season in style. Shepherded to the front by an FDJ team that controlled the Muur, she went clear over the top with Niewiadoma as Franziska Koch's tempo blew the race apart. The reigning European champion cooperated over the Bosberg and through the run-in, then won the two-up sprint in Ninove decisively for her first Omloop Het Nieuwsblad, a statement first win of the cobbled spring.",
+      "keyMoments": [
+        { "km": 18, "what": "Went clear over the Muur van Geraardsbergen with Niewiadoma after Koch's pace-setting" },
+        { "km": 0, "what": "Won the two-up sprint in Ninove" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "Niewiadoma was the only rider able to follow the FDJ-driven selection on the Muur, climbing it fastest of anyone on the day, and made the winning two-up move with Vollering. She did her share of the work to the line but was beaten in the sprint, taking second on a course that favours the pure cobbled-classics riders. A strong, aggressive start to her classics campaign.",
+      "keyMoments": [
+        { "km": 18, "what": "Matched Vollering over the Muur to form the leading duo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 3, "gap": "+0:21",
+      "narrative": "Unable to follow the two leaders over the Muur, Wiebes regrouped in the chase and used her sprint to take third at 21 seconds, winning the bunch kick of the reduced front group. The Dutch champion delivered the best result available once Vollering and Niewiadoma were clear.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the chase-group sprint for third" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team",
+      "role": "leader", "position": 4, "gap": "+0:21",
+      "narrative": "The 19-year-old Briton confirmed her rising classics reputation, surviving the Muur selection in the chase group and finishing fourth in the sprint behind Wiebes. A high-class result on a hard cobbled course.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "franziska-koch", "name": "Franziska Koch", "team": "FDJ United - SUEZ",
+      "role": "helper", "position": 5, "gap": "+0:21",
+      "narrative": "Koch was the engine of the winning move, driving a ferocious pace up the Muur that decimated the bunch and sprang Vollering and Niewiadoma clear. Having done the decisive teamwork, the German champion still finished fifth in the chase-group sprint, a standout domestique-plus performance.",
+      "keyMoments": [
+        { "km": 18, "what": "Set the race-shattering tempo on the Muur that launched Vollering's move" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "karlijn-swinkels", "name": "Karlijn Swinkels", "team": "UAE Team ADQ",
+      "role": "leader", "position": 6, "gap": "+0:21",
+      "narrative": "Swinkels was UAE Team ADQ's best on the day, holding the front chase group over the closing climbs and taking sixth in the sprint into Ninove.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elise-chabbey", "name": "Elise Chabbey", "team": "FDJ United - SUEZ",
+      "role": "helper", "position": null, "gap": null,
+      "narrative": "Chabbey animated the race for FDJ by launching the counter-attack that formed the day's main breakaway, stretching the bunch and forcing rival teams to commit before the team's leaders took over on the Muur. A typically aggressive, selfless ride in service of Vollering's win.",
+      "keyMoments": [
+        { "km": 70, "what": "Counter-attacked to form the day's main break" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Peloton crash", "km": 23, "description": "A large crash in the approach to the Muur/Bosberg sequence around 23 km to go split the peloton and delayed several contenders; most classics favourites stayed safe at the front." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Vollering lays down a marker for the cobbled spring",
+    "quotes": [],
+    "body": "Winning the traditional season-opener from a two-up sprint, after her team had blown the race apart on the Muur, established Vollering as the rider to beat heading into the cobbled classics. It was the first of what would become a near-total spring for the European champion. For Niewiadoma, matching Vollering on the Muur signalled strong early form, while Wiebes' third confirmed SD Worx-Protime would again be the bunch-sprint reference whenever the pure climbers did not get away."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/omloop-het-nieuwsblad-we/2026/result", "publication": "ProCyclingStats", "title": "Omloop Het Nieuwsblad WE 2026 results", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/omloop-het-nieuwsblad-we-2026/result", "publication": "CyclingFlash", "title": "Omloop Het Nieuwsblad WE 2026 result", "lang": "en" },
+    { "url": "https://www.omloophetnieuwsblad.be/nl/wedstrijd/elite-vrouwen/wedstrijdinfo", "publication": "Omloop Het Nieuwsblad", "title": "Omloop Het Nieuwsblad Elite Vrouwen 2026 wedstrijdinfo", "lang": "nl" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Omloop_Het_Nieuwsblad_(women's_race)", "publication": "Wikipedia", "title": "2026 Omloop Het Nieuwsblad (women's race)", "lang": "en" }
+  ]
+}
