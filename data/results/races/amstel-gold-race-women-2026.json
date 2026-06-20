@@ -1,0 +1,142 @@
+{
+  "raceId": "amstel-gold-race-women-2026",
+  "raceName": "Amstel Gold Race Ladies Edition",
+  "raceDate": "2026-04-19",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Paula Blasi (UAE Team ADQ) won the 12th edition of the Amstel Gold Race Ladies Edition with a long solo, dropping fellow attacker Nienke Vinke on the penultimate ascent of the Cauberg with 22 km to go and surviving a late chase from the favourites. Over the closing circuit the 23-year-old Spaniard extended her lead to more than a minute and held on for a breakthrough victory; behind her Kasia Niewiadoma (Canyon//SRAM zondacrypto) out-sprinted Demi Vollering (FDJ United - SUEZ) for second, both at 27 seconds. The 158.1 km race included 21 climbs over the Limburg hills around the Cauberg.",
+  "podium": [
+    { "position": 1, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "time": "4h 02m 15s" },
+    { "position": 2, "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto", "gap": "+0:27" },
+    { "position": 3, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "gap": "+0:27" },
+    { "position": 4, "riderId": null, "name": "Letizia Paternoster", "team": "Liv AlUla Jayco", "gap": "+0:43" },
+    { "position": 5, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly", "gap": "+0:43" },
+    { "position": 6, "riderId": "karlijn-swinkels", "name": "Karlijn Swinkels", "team": "UAE Team ADQ", "gap": "+0:43" },
+    { "position": 7, "riderId": null, "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike", "gap": "+0:43" },
+    { "position": 8, "riderId": null, "name": "Riejanne Markus", "team": "Lidl - Trek", "gap": "+0:43" },
+    { "position": 9, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+0:43" },
+    { "position": 10, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech", "gap": "+0:43" }
+  ],
+  "narrative": {
+    "headline": "Blasi crowns a long solo on the Cauberg for a breakthrough Amstel win",
+    "openingMoves": "158.1 km over 21 of the Limburg hills with the finishing circuit built around the Cauberg. Annelies Nijssen was the day's first attacker, riding clear to a 30-second lead before being joined by Nicole Steigenga, Kiara Lylyk, Heidi Franz and Scarlett Souren. The break stretched its advantage to over three minutes before the race entered the closing circuits.",
+    "raceUnfolds": "On the Keutenberg, Lylyk and Souren were dropped from the move, and the remaining escapees were swept up on the circuit. Attacks then came thick and fast without anyone getting clear, but the relentless pace thinned the bunch dramatically. Lorena Wiebes was among those distanced on a Cauberg passage, and two-time winner Marianne Vos briefly struggled on the Geulhemmerberg before clawing back when the tempo eased on the run to the Bemelerberg.",
+    "decision": "The action intensified again and, on the penultimate ascent of the Cauberg, Nienke Vinke and Paula Blasi forged clear at the front. The 23-year-old Spaniard pressed on alone, hearing the bell for the final lap ring out a full half-minute before what remained of the peloton. From there she rode away from the race — over the top of the Bemelerberg she was already more than a minute clear.",
+    "finale": "Blasi still held that minute-plus advantage as she hit the final Cauberg, and although Kasia Niewiadoma opened the chase on the day's last climb with Demi Vollering on her wheel, it was far too late. Blasi soloed home for a triumphant breakthrough win; Niewiadoma out-sprinted Vollering for second, both crossing 27 seconds down, with Letizia Paternoster leading the reduced bunch sprint for fourth at +43 seconds."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 150, "location": "Early break", "headline": "Nijssen lights the fuse", "description": "Annelies Nijssen was the first attacker of the day, building a 30-second gap before being joined by Nicole Steigenga, Kiara Lylyk, Heidi Franz and Scarlett Souren. The quintet's lead peaked at over three minutes." },
+    { "kmFromFinish": 40, "location": "Keutenberg / circuit", "headline": "The break unravels", "description": "Lylyk and Souren were dropped on the Keutenberg and the remaining escapees were caught on the circuit, after which a barrage of attacks thinned the peloton without anyone escaping." },
+    { "kmFromFinish": 22, "location": "Cauberg (penultimate ascent)", "headline": "Blasi drops Vinke and goes solo", "description": "On the penultimate ascent of the Cauberg, Nienke Vinke and Paula Blasi got clear together; Blasi then pressed on alone, hearing the bell for the final lap half a minute ahead of the chase and extending her lead to more than a minute over the closing climbs." },
+    { "kmFromFinish": 0.5, "location": "Cauberg (final)", "headline": "Too little, too late from the favourites", "description": "Niewiadoma opened the chase on the final Cauberg with Vollering on her wheel, but Blasi's advantage was insurmountable. Niewiadoma out-sprinted Vollering for second at the line, both at 27 seconds." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Blasi's breakthrough solo, plus 6th",
+      "verdictClass": "win",
+      "narrative": "A statement Ardennes opener for UAE Team ADQ. Paula Blasi, just 23, turned a two-up move on the penultimate Cauberg into a long-range solo and held off the favourites for the biggest win of her career, while team-mate Karlijn Swinkels rounded out a superb day with sixth in the chase sprint. It was the launchpad for a purple patch that continued days later when Blasi took third at La Flèche Wallonne, confirming UAE Team ADQ as one of the in-form squads of the spring classics.",
+      "riderIds": ["paula-blasi", "karlijn-swinkels"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Niewiadoma best of the chasers, 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Kasia Niewiadoma, a former Amstel winner, was the most active of the favourites, opening the chase on the final Cauberg and then out-sprinting Demi Vollering for second. She could not bridge to Blasi's long-range move, but salvaged the best possible result behind it and signalled strong form heading into the rest of the Ardennes block.",
+      "riderIds": ["kasia-niewiadoma"]
+    },
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Vollering caught out, 3rd",
+      "verdictClass": "neutral",
+      "narrative": "Demi Vollering, the 2023 Amstel champion and the pre-race favourite on the back of a dominant spring, was marked into a reactive role and could only follow Niewiadoma's chase on the final climb. Beaten to second in the sprint, she took third at 27 seconds — a rare off-key classics result that she answered emphatically three days later with victory at La Flèche Wallonne.",
+      "riderIds": ["demi-vollering"]
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "Rüegg leads the chase sprint, 5th",
+      "verdictClass": "neutral",
+      "narrative": "Noemi Rüegg was EF Education-Oatly's standout, hanging with the reduced front group over the closing climbs and taking fifth in the sprint for the minor placings at 43 seconds. A consistent hilly-classics ride from the in-form Swiss puncheur.",
+      "riderIds": ["noemi-ruegg"]
+    },
+    {
+      "team": "Liv AlUla Jayco",
+      "verdict": "Paternoster wins the bunch sprint, 4th",
+      "verdictClass": "neutral",
+      "narrative": "Letizia Paternoster timed the sprint for fourth to perfection, leading home the reduced front group at 43 seconds — the best of the riders who couldn't follow the podium trio on the Cauberg, and a strong day for Liv AlUla Jayco on a parcours that doesn't always suit a fast finisher.",
+      "riderIds": []
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Van der Breggen 9th, Wiebes distanced",
+      "verdictClass": "neutral",
+      "narrative": "Anna van der Breggen, the inaugural women's Amstel winner in 2017, was again in the front group on the Cauberg and finished ninth at 43 seconds, but SD Worx-Protime never controlled the race the way the squad usually does. Lorena Wiebes was distanced on a Cauberg passage as the relentless pace thinned the bunch, leaving the team without a podium card on a finish that favoured the long-range move.",
+      "riderIds": ["anna-van-der-breggen"]
+    },
+    {
+      "team": "Fenix - Premier Tech",
+      "verdict": "Pieterse rounds out the top ten",
+      "verdictClass": "neutral",
+      "narrative": "Puck Pieterse was in the elite group over the final Cauberg and took tenth at 43 seconds. The mountain-bike convert couldn't influence Blasi's escape but stayed at the sharp end of the race, a building block before her near-miss title defence at La Flèche Wallonne days later.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Van Dam 7th; Vos battles back",
+      "verdictClass": "neutral",
+      "narrative": "Sarah Van Dam was Visma's best on the day with seventh in the chase sprint at 43 seconds. Two-time former winner Marianne Vos briefly cracked on the Geulhemmerberg but fought back into contention when the tempo eased — a gritty ride that kept the team in the front group without producing a result on the Cauberg.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 2, "gap": "+0:27",
+      "narrative": "A former Amstel winner, Niewiadoma was the most aggressive of the favourites in the finale, opening the chase on the final Cauberg with Vollering on her wheel. The gap to Blasi was already too big to close, but she had the legs to out-sprint Vollering for second at 27 seconds — the best result available behind the long-range solo, and a marker of strong form for the Ardennes ahead.",
+      "keyMoments": [
+        { "km": 0.5, "what": "Opened the chase on the final Cauberg, dragging Vollering along" },
+        { "km": 0, "what": "Out-sprinted Vollering for second at the line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly",
+      "role": "leader", "position": 5, "gap": "+0:43",
+      "narrative": "Rüegg stayed with the reduced front group over the closing climbs and took fifth in the sprint for the minor placings at 43 seconds, EF Education-Oatly's leading finisher. A solid hilly-classics result that underlined her consistency through the spring.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech",
+      "role": "leader", "position": 10, "gap": "+0:43",
+      "narrative": "Pieterse was in the elite group on the final Cauberg but could not follow Blasi's long-range move, taking tenth at 43 seconds in the chase. A low-key Amstel by her standards, it preceded a near-perfect title defence at La Flèche Wallonne days later where she was beaten only on the line.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "The parcours and the relentless pace conspired against Wiebes, who was among the riders distanced on a Cauberg passage as the bunch shattered. Without her fast finish in the front group, SD Worx-Protime lacked a card for the chase sprint, and the team was left chasing a race that had got away on the climbs.",
+      "keyMoments": [
+        { "km": 22, "what": "Distanced on a penultimate-circuit Cauberg passage as the pace thinned the bunch" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A 23-year-old upsets the favourites to open the Ardennes",
+    "quotes": [],
+    "body": "Blasi's solo was the kind of long-range commitment that pays off only when the favourites mark each other, and on the Cauberg circuit that is exactly what happened: Niewiadoma and Vollering watched one another while the Spaniard rode out of sight. The win launched a standout week for the 23-year-old — three days later she backed it up with third at La Flèche Wallonne — and confirmed UAE Team ADQ as one of the most dangerous squads of the women's spring. For Vollering, third was a rare blemish she immediately erased by winning Flèche and, four days after that, a record third Liège-Bastogne-Liège to complete the Ardennes double."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/amstel-gold-race-2026-women/results-agr-2026-women/", "publication": "Cycling Stage", "title": "Amstel Gold Race Ladies Edition 2026: Blasi crowns long solo effort", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/amstel-gold-race-ladies-paula-blasi-fights-off-strong-chasers-to-upset-the-favourites-and-claim-impressive-solo-victory/", "publication": "Cyclingnews", "title": "Amstel Gold Race Ladies: Paula Blasi fights off strong chasers to upset the favourites and claim impressive solo victory", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/amstel-gold-race-ladies-edition-we-2026/result", "publication": "CyclingFlash", "title": "Amstel Gold Race Ladies Edition WE 2026 — result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/amstel-gold-race-we/2026/result", "publication": "ProCyclingStats", "title": "Amstel Gold Race Ladies Edition 2026 result", "lang": "en" }
+  ]
+}
