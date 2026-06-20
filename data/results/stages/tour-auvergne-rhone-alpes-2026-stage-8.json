@@ -1,0 +1,76 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 8,
+  "stageName": "Beaufort → Plateau de Solaison",
+  "stageDate": "2026-06-14",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Isaac del Toro (UAE Team Emirates XRG) attacked on the final climb to Plateau de Solaison, winning the queen stage and overturning Luke Tuckwell's yellow jersey to seal the overall title. Juan Ayuso took second on the day and completed the podium; Paul Seixas abandoned.",
+  "podium": [
+    { "position": 1, "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "3h 35m 07s" },
+    { "position": 2, "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek", "gap": "+1:00" },
+    { "position": 3, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+1:02" }
+  ],
+  "narrative": {
+    "headline": "Del Toro completes the turnaround to win stage and GC",
+    "body": "Laurens De Plus opened the action on the Col du Pré, joined by Georg Steinhauser, Carlos Rodríguez, Léo Bisiaux, Valentin Paret-Peintre, Harold Tejada and KOM leader Clément Braz Afonso; Kévin Vauquelin later bridged. Paul Seixas, having paid for his stage 7 crash and chase, was dropped on the Col du Pré and abandoned early on the Montée de Bisanne. On the final climb to Plateau de Solaison, Paret-Peintre attacked and was joined by De Plus and Rodríguez, but Isaac del Toro caught them with 8.5 km to go, the rest of the GC contenders already distanced. He soloed clear to win the stage by a minute. Juan Ayuso dropped the chase group to take second at +1:00 with Johannessen third. Tuckwell fought to the line in yellow but conceded too much.",
+    "gcConsequence": "Del Toro's stage win flipped the overall — he took the yellow jersey from Tuckwell on the final climb to win the inaugural Tour Auvergne-Rhône-Alpes."
+  },
+  "gcImpact": {
+    "headline": "Del Toro takes yellow on the last climb",
+    "body": "Isaac del Toro won the overall, the first champion of the rebranded race. Luke Tuckwell, who had worn yellow since stage 6, finished second at +0:54 after a brave defence, with Juan Ayuso third at +1:17. Matteo Jorgenson (+1:36) and Tobias Halland Johannessen (+1:46) completed the top five. Del Toro also took the young rider classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Del Toro completed one of the great late-race turnarounds: tenth and +3:22 down after stage 6, he won both summit-finish stages to take the overall by 54 seconds. He bridged to the day's escapees with 8.5 km left and soloed to the Plateau de Solaison win and the yellow jersey, also securing the young rider classification.",
+      "keyMoments": [
+        { "km": 8.5, "what": "Caught the leaders on the final climb and soloed clear for stage win and GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek",
+      "role": "leader", "position": 2, "gap": "+1:00",
+      "narrative": "Ayuso again was the best of the rest, dropping Jorgenson, Johannessen and Cristián Rodríguez late to take second on the stage at +1:00 and climb onto the final podium in third overall at +1:17 — a strong recovery from his stage 6 setback.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 10, "gap": "+1:43",
+      "narrative": "Jorgenson couldn't hold del Toro and Ayuso on the final climb, fading to tenth on the stage and fourth overall at +1:36 — narrowly missing the podium after a consistent week built on Visma's TTT win.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen", "name": "Mattias Skjelmose", "team": "Lidl - Trek",
+      "role": "leader", "position": 4, "gap": "+1:31",
+      "narrative": "Skjelmose took fourth on the stage at +1:31, helping Lidl–Trek put two riders (with Ayuso) at the sharp end. He finished sixth overall at +2:41.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin", "name": "Kévin Vauquelin", "team": "INEOS Grenadiers",
+      "role": "domestique", "position": null, "gap": null,
+      "narrative": "Vauquelin went on the offensive, bridging to the day's breakaway on the early climbs before being distanced on the final ascent — an aggressive end to a race where he had briefly sat second overall after the TTT.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon - CMA CGM Team",
+      "role": "leader", "position": null, "gap": "DNF",
+      "narrative": "Paying for his stage 7 crash and marathon chase, Seixas was dropped on the Col du Pré and abandoned early on the Montée de Bisanne. A disappointing end for the 19-year-old after he had ridden into the GC top six, but a week that still showed his class against the sport's best.",
+      "keyMoments": [],
+      "incident": { "type": "abandon", "detail": "Abandoned on the Montée de Bisanne, having been dropped on the Col du Pré" }
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [{ "riderId": "paul-seixas", "reason": "Abandoned on the Montée de Bisanne after being dropped, in the aftermath of his stage 7 crash" }], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-8-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 8 results & final GC — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-auvergne-rhone-alpes-2026-stage-8-isaac-del-toro-completes-turnaround-with-dominant-stage-and-gc-double-on-final-climb", "publication": "Cycling Uptodate", "title": "Del Toro completes turnaround with dominant stage and GC double", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

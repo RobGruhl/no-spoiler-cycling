@@ -1,0 +1,180 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "raceName": "Tour Auvergne-Rhône-Alpes",
+  "raceDate": "2026-06-07",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "inProgress": false,
+  "tldr": "Isaac del Toro (UAE Team Emirates XRG) won the inaugural Tour Auvergne-Rhône-Alpes — the rebranded Critérium du Dauphiné — with one of the great late-race turnarounds, climbing from tenth and +3:22 down after a stage-6 split to overall victory by winning both summit-finish stages. Luke Tuckwell (Red Bull–BORA–hansgrohe) lost the yellow jersey on the final climb to take second at +0:54, with Juan Ayuso (Lidl–Trek) third at +1:17. Alex Baudin wore yellow for the first five days from a stage-1 breakaway win.",
+  "podium": [
+    { "position": 1, "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "29h 35m 05s" },
+    { "position": 2, "name": "Luke Tuckwell", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:54" },
+    { "position": 3, "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek", "gap": "+1:17" },
+    { "position": 4, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike", "gap": "+1:36" },
+    { "position": 5, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+1:46" }
+  ],
+  "jerseys": {
+    "gc": { "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG" },
+    "points": { "name": "Nadav Raisberg", "team": "NSN Cycling Team" },
+    "mountains": { "name": "Clément Braz Afonso", "team": "Groupama - FDJ United" },
+    "youth": { "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG" },
+    "team": "Visma | Lease a Bike"
+  },
+  "narrative": {
+    "headline": "Del Toro turns it upside down on the final climb",
+    "openingMoves": "The first edition of the rebranded race — Critérium du Dauphiné is now the Tour Auvergne-Rhône-Alpes — opened with a breakaway day. Alex Baudin (EF Education–EasyPost) soloed clear of a big move on the hilly run to Saint-Ismier to take stage 1 and the first yellow jersey. Anthon Charmig won the 234 km marathon stage 2 from the break, and Baudin kept the lead as the escapes decided the early days.",
+    "raceUnfolds": "Stage 3's 28.4 km team time trial in Perreux began to draw the GC lines: Visma | Lease a Bike won it from Netcompany–INEOS, moving Matteo Jorgenson and Kévin Vauquelin up the standings, while UAE Team Emirates' slower team ride left Isaac del Toro +1:16 down — the worst-placed of the favourites. Quinn Simmons (stage 4) and Wout van Aert (stage 5 sprint) won from break and bunch respectively, with Baudin holding yellow for five straight days.",
+    "decision": "The race turned inside out on stage 6 to Crest-Voland: an early split caught yellow jersey Baudin and every GC contender on the wrong side. Maxim Van Gils won at Crest-Voland and Luke Tuckwell seized the overall lead, with the pre-race favourites — del Toro, Ayuso, Skjelmose — scattered minutes back. Del Toro then began his comeback on stage 7, soloing to the Grand Colombier win to climb to third. On the final stage to Plateau de Solaison he caught the day's breakaway with 8.5 km to go and rode away from everyone, taking the stage and overturning Tuckwell's jersey.",
+    "finale": "Del Toro won the overall by 54 seconds over Tuckwell, who defended the yellow jersey bravely until the last climb. Juan Ayuso recovered from his stage-6 setback to take third at +1:17, second on both mountain stages. Jorgenson (4th, +1:36) and Johannessen (5th, +1:46) completed the top five. Del Toro also won the young rider classification."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 1 — Saint-Ismier", "headline": "Baudin wins from the break, takes first yellow", "description": "Alex Baudin soloed from the day's move to win and claim the inaugural leader's jersey, which he held for five days." },
+    { "kmFromFinish": null, "location": "Stage 3 — Perreux TTT", "headline": "Visma win the team time trial; del Toro loses time", "description": "Visma | Lease a Bike beat Netcompany–INEOS by 9 seconds; UAE's slower ride left del Toro +1:16 down, the worst-placed favourite." },
+    { "kmFromFinish": null, "location": "Stage 6 — Crest-Voland", "headline": "The split that blew up the race", "description": "An early split caught yellow jersey Baudin and all the GC favourites; Van Gils won and Tuckwell took yellow, with del Toro and Ayuso losing over three minutes." },
+    { "kmFromFinish": null, "location": "Stage 7 — Grand Colombier", "headline": "Del Toro's comeback begins", "description": "Del Toro soloed to the Grand Colombier win to cut his deficit to 49 seconds; Seixas crashed and chased back 70 km." },
+    { "kmFromFinish": 8.5, "location": "Stage 8 — Plateau de Solaison", "headline": "Del Toro takes the title on the last climb", "description": "Del Toro caught the breakaway with 8.5 km left and soloed clear to win the stage and the overall, knocking Tuckwell out of yellow." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Del Toro wins overall + 2 stages",
+      "verdictClass": "win",
+      "narrative": "UAE's race looked compromised after the stage-3 TTT (del Toro +1:16) and again after the stage-6 split (+3:22, tenth overall). But the team backed del Toro to ride himself back into it on the two summit finishes — and he delivered emphatically, winning stages 7 and 8 to take the overall by 54 seconds plus the young rider jersey. A statement Dauphiné-window result and ideal Tour de France preparation.",
+      "riderIds": ["isaac-del-toro"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Tuckwell yellow days 6-7, 2nd overall",
+      "verdictClass": "neutral",
+      "narrative": "Luke Tuckwell exploited the stage-6 split brilliantly to seize the yellow jersey and defended it doggedly across two mountain stages before del Toro's final-climb attack proved too much. Second overall at +0:54 is a breakthrough week for the Australian, even if the team will rue letting the jersey slip on the very last climb.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Ayuso 3rd, two stage wins",
+      "verdictClass": "win",
+      "narrative": "Lidl–Trek had the most consistent firepower: Quinn Simmons won stage 4 from the break, and Juan Ayuso — backed by Mattias Skjelmose — recovered from the stage-6 split to finish second on both mountain stages and take third overall. A two-pronged GC approach that salvaged a podium from a difficult mid-race.",
+      "riderIds": ["juan-ayuso-pesquera", "mattias-skjelmose-jensen"]
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "TTT + stage 5, Jorgenson 4th, team classification",
+      "verdictClass": "win",
+      "narrative": "Visma won the stage-3 team time trial and Wout van Aert's stage-5 sprint, and took the team classification. Matteo Jorgenson rode the TTT foundation into a consistent GC week, sitting on the podium fringe before fading to fourth on the final climb. A productive Tour warm-up across multiple objectives.",
+      "riderIds": ["matteo-jorgenson", "wout-van-aert"]
+    },
+    {
+      "team": "EF Education - EasyPost",
+      "verdict": "Baudin stage 1 + 5 days in yellow",
+      "verdictClass": "win",
+      "narrative": "Alex Baudin's stage-1 breakaway win gave EF the inaugural leader's jersey, which the team defended for five days before the stage-6 split ended the spell. A standout result for Baudin and an aggressive, high-visibility week for the team even without a GC finish.",
+      "riderIds": ["alex-baudin"]
+    },
+    {
+      "team": "Decathlon - CMA CGM Team",
+      "verdict": "Seixas top-6 then crash + abandon",
+      "verdictClass": "neutral",
+      "narrative": "Decathlon built the race around 19-year-old Paul Seixas, who attacked the favourites on stage 6 and rode into the GC top six. But a stage-7 crash forced a brutal ~70 km chase, and the accumulated cost saw him dropped and abandon on stage 8's Montée de Bisanne. A week that flashed his immense potential against the sport's best, ended by misfortune. Léo Bisiaux supported with a stage-1 podium and aggressive riding.",
+      "riderIds": ["paul-seixas", "leo-bisiaux"]
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Vauquelin 2nd after TTT, aggressive finale",
+      "verdictClass": "neutral",
+      "narrative": "Racing as Netcompany–INEOS, the team led the stage-3 TTT at both checkpoints before settling for second, briefly putting Kévin Vauquelin second overall and Oscar Onley in the top ten. Both lost ground once the mountains arrived; Vauquelin went on the attack on the final stage. A solid if podium-less week.",
+      "riderIds": ["kevin-vauquelin", "oscar-onley"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Charmig stage 2, Johannessen 5th overall",
+      "verdictClass": "win",
+      "narrative": "A strong all-round week for the ProTeam: Anthon Charmig won the marathon stage 2 from the break, and Tobias Halland Johannessen climbed superbly across the mountain stages — second on stage 6, third on both stages 7 and 8 — to take fifth overall. Excellent value from the wildcard squad.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto - Intermarché",
+      "verdict": "Van Gils wins stage 6",
+      "verdictClass": "win",
+      "narrative": "Maxim Van Gils made the decisive stage-6 split and timed his sprint perfectly at Crest-Voland to win the day that blew the race apart — the headline result of the team's week.",
+      "riderIds": []
+    },
+    {
+      "team": "Groupama - FDJ United",
+      "verdict": "Braz Afonso wins KOM jersey",
+      "verdictClass": "win",
+      "narrative": "Clément Braz Afonso rode aggressively in the early breakaways, mopping up climbing points across the opening stages to win the mountains classification — a tangible jersey reward from a week spent up the road.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "The story of the race. Tenth and +3:22 down after the stage-6 split, del Toro won both summit finishes — soloing to the Grand Colombier and then to Plateau de Solaison — to overturn Tuckwell's lead and win the overall by 54 seconds, plus the young rider classification. A ruthless display of climbing and tactical patience that marks him as a Grand Tour favourite.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 7: soloed to the Grand Colombier win to move to third overall" },
+        { "km": 8.5, "what": "Stage 8: caught the break and rode clear to win the stage and the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek",
+      "role": "leader", "position": 3, "gap": "+1:17",
+      "narrative": "Ayuso was caught in the stage-6 split but responded with two podium finishes on the mountain stages, second behind del Toro on both, to recover to third overall. A resilient week that re-established him in the GC conversation ahead of the summer.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 4, "gap": "+1:36",
+      "narrative": "Built on Visma's TTT win, Jorgenson was the best-placed favourite after stage 6 and sat second overall after stage 7, but couldn't match del Toro and Ayuso on the final climb, finishing fourth — narrowly off the podium after the most consistent week of any contender.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen", "name": "Mattias Skjelmose", "team": "Lidl - Trek",
+      "role": "leader", "position": 6, "gap": "+2:41",
+      "narrative": "Skjelmose supported Lidl–Trek's two-pronged GC bid, riding consistently in the mountains (fourth on stage 8) to finish sixth overall.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon - CMA CGM Team",
+      "role": "leader", "position": null, "gap": "DNF",
+      "narrative": "The 19-year-old was Decathlon's GC card and rode into the top six, attacking the favourites on stage 6. A stage-7 crash and 70 km chase, then an abandon on stage 8, ended his race — but the week confirmed his exceptional ceiling.",
+      "keyMoments": [],
+      "incident": { "type": "abandon", "detail": "Crashed stage 7, abandoned stage 8 on the Montée de Bisanne" }
+    },
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter", "position": null, "gap": null,
+      "narrative": "Van Aert won the stage-5 bunch sprint at the Parc des Oiseaux in commanding fashion, a confidence-building result in a Visma week that also delivered the TTT and the team classification.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
+      "role": "stage-hunter", "position": null, "gap": null,
+      "narrative": "Baudin's stage-1 solo from the breakaway won him both the stage and five days in the yellow jersey before the stage-6 split ended his lead. The standout result of his season to date and a high-visibility week for EF.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin", "name": "Kévin Vauquelin", "team": "INEOS Grenadiers",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Vauquelin briefly sat second overall after INEOS's strong stage-3 TTT before the mountains moved him down. He attacked on the final stage, finishing an aggressive week without a GC result.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [{ "riderId": "paul-seixas", "detail": "Crashed stage 7 on the descent of the Côte de Saint-Maurice-de-Rotherens" }], "abandons": [{ "riderId": "paul-seixas", "reason": "Abandoned stage 8 on the Montée de Bisanne" }], "controversies": [] },
+  "aftermath": {
+    "headline": "A Tour de France warm-up that crowned a comeback",
+    "quotes": [],
+    "body": "The inaugural Tour Auvergne-Rhône-Alpes — the race long known as the Critérium du Dauphiné — kept its role as the key June Tour de France rehearsal and produced a dramatic one. Isaac del Toro's recovery from a three-minute mid-race deficit to win both summit finishes and the overall confirmed him as a Grand Tour contender in form. The result, plus Ayuso's resilient podium and Jorgenson's consistency, set the GC narrative going into July; Paul Seixas's bad luck was the week's hard-luck story."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/", "publication": "Cycling Stage", "title": "Tour Auvergne-Rhône-Alpes 2026 — overview, stages, GC", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/tour-auvergne-rhone-alpes-2026-final-classifications-isaac-del-toro-snatches-overall-victory-as-luke-tuckwell-loses-yellow-and-juan-ayuso-completes-podium", "publication": "Cycling Uptodate", "title": "Final classifications: del Toro snatches overall victory", "lang": "en" }
+  ]
+}
