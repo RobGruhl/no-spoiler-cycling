@@ -1,0 +1,179 @@
+{
+  "raceId": "milano-sanremo-donne-2026",
+  "raceName": "Milano-Sanremo Donne",
+  "raceDate": "2026-03-21",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Lotte Kopecky added another Monument to her palmarès, winning a five-up sprint on the Via Roma ahead of Noemi Rüegg and Eleonora Camilla Gasparrini. The race was reshaped by a heavy crash on the Cipressa descent that took out aggressors Kasia Niewiadoma and Kim Le Court, then decided when Puck Pieterse's acceleration on the Poggio forged a front group of five that held off a fast-closing peloton by a handful of seconds.",
+  "podium": [
+    { "position": 1, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "time": "3h 47m 17s" },
+    { "position": 2, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly", "gap": "+0:00" },
+    { "position": 3, "riderId": "eleonora-camilla-gasparrini", "name": "Eleonora Camilla Gasparrini", "team": "UAE Team ADQ", "gap": "+0:00" },
+    { "position": 4, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech", "gap": "+0:00" },
+    { "position": 5, "riderId": "dominika-wlodarczyk", "name": "Dominika Włodarczyk", "team": "UAE Team ADQ", "gap": "+0:04" },
+    { "position": 6, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "gap": "+0:09" },
+    { "position": 7, "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United - SUEZ", "gap": "+0:09" },
+    { "position": 8, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "gap": "+0:09" },
+    { "position": 9, "riderId": null, "name": "Charlotte Kool", "team": "Picnic PostNL", "gap": "+0:09" },
+    { "position": 10, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto", "gap": "+0:09" }
+  ],
+  "narrative": {
+    "headline": "Kopecky reads Milano-Sanremo best, winning a five-up Via Roma sprint",
+    "openingMoves": "Over the 156 km from Genova to Sanremo, it took about an hour for the day's break to form, with Eleonora Le Bella, Constance Valentin, Sofia Arici, Katia Ragusa, Lara Crestanello, Heidi Franz, Eleonora Deotto, Sara Luccon and Bodine Vollering opening a lead of around four minutes. After the three capi (Mele, Cervo, Berta) the move had been whittled down to Bodine Vollering, Franz and Arici, and the escape was reeled in on the run-in to the Cipressa with SD Worx-Protime largely controlling the bunch for a sprint.",
+    "raceUnfolds": "The Cipressa lit the race up. Femke de Vries attacked first, prompting a flurry of counters; when Kasia Niewiadoma took over at the front it briefly distanced Lorena Wiebes and Lotte Kopecky, who fought back. Inside the final kilometre of the climb Lieke Nooijen jumped clear and crested with a ~30-second lead. Then disaster struck on the technical descent: a heavy crash brought down several riders including Niewiadoma and Kim Le Court, removing two of the most aggressive contenders just as the decisive phase opened. The aftermath let a larger group briefly reform, keeping a sprint alive — but only as far as the Poggio.",
+    "decision": "On the Poggio the race finally split for good. Nooijen's leftover advantage was extinguished early, Nikola Nosková took up the attacking, and inside the final kilometre to the summit Puck Pieterse surged past her. Only four riders could follow her wheel — Lotte Kopecky, Dominika Włodarczyk, Eleonora Camilla Gasparrini and Noemi Rüegg — and that quintet crested with a slender gap. Włodarczyk drove the descent and flat run-in in support of UAE teammate Gasparrini while Kopecky sat composed, the move holding roughly eight seconds over the chasing peloton into Sanremo.",
+    "finale": "On the Via Roma the five had just enough. Pieterse opened the sprint and Kopecky came off her wheel immediately, powering past to take her biggest win of the young season and another Monument. Rüegg finished glued to Kopecky's wheel for second, with Gasparrini holding third for a home podium. Pieterse faded to fourth at the same time and Włodarczyk, having emptied herself on the front, took fifth at +0:04. Wiebes led the fast-closing bunch home for sixth at +0:09, the front five's narrow gap surviving to the line."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 60, "location": "The Cipressa (lead-in)", "headline": "SD Worx reels in the break", "description": "After an early nine-rider move built a ~4-minute lead, the capi and a controlling SD Worx-Protime peloton brought the last escapees back ahead of the Cipressa, setting up a sprinter-friendly scenario that the climbs would soon dismantle." },
+    { "kmFromFinish": 30, "location": "Cipressa summit", "headline": "Attacks split the bunch, Nooijen leads over the top", "description": "Femke de Vries opened the attacking, Niewiadoma's pull briefly distanced Wiebes and Kopecky, and Lieke Nooijen jumped clear in the final kilometre of the climb to crest with a ~30-second gap." },
+    { "kmFromFinish": 27, "location": "Cipressa descent", "headline": "Heavy crash takes out Niewiadoma and Le Court", "description": "A heavy crash on the technical Cipressa descent brought down several riders including Kasia Niewiadoma and Kim Le Court, eliminating two of the day's most aggressive contenders and reshaping the finale." },
+    { "kmFromFinish": 5, "location": "The Poggio", "headline": "Pieterse's acceleration forges the winning five", "description": "After Nooijen and then Nosková were caught, Puck Pieterse surged inside the final kilometre of the Poggio. Only Kopecky, Włodarczyk, Gasparrini and Rüegg could follow, and the quintet crested with a small but durable advantage." },
+    { "kmFromFinish": 0.2, "location": "Via Roma", "headline": "Kopecky wins the five-up sprint", "description": "The break held ~8 seconds into Sanremo. Pieterse opened the sprint, Kopecky came past immediately and powered to victory ahead of Rüegg and Gasparrini, with the chasing peloton arriving just +0:09 down." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Kopecky wins the Monument",
+      "verdictClass": "win",
+      "narrative": "SD Worx controlled the bulk of the race for a sprint, reeling in the break ahead of the Cipressa, but their day was ultimately made by Kopecky's race-craft rather than a leadout. Briefly distanced on the Cipressa, she fought back, made the Poggio selection off Pieterse's move, and timed the Via Roma sprint perfectly for her biggest win of the young season. Lorena Wiebes, caught behind the Poggio split, salvaged sixth as the best of the chase — a near-perfect outcome with the team's puncheur winning where the pure sprinter couldn't follow.",
+      "riderIds": ["lotte-kopecky", "lorena-wiebes"]
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "Rüegg second in the sprint",
+      "verdictClass": "neutral",
+      "narrative": "Noemi Rüegg confirmed her sparkling early-season form by making the decisive Poggio quintet and finishing runner-up on the Via Roma, glued to Kopecky's wheel. A second straight strong Monument-level result for the Swiss, beaten only by one of the sport's best finishers — a podium that underlines her arrival as a one-day contender.",
+      "riderIds": ["noemi-ruegg"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Gasparrini third, two in the front five",
+      "verdictClass": "neutral",
+      "narrative": "UAE Team ADQ placed two riders in the winning quintet and came away with a home podium. Eleonora Camilla Gasparrini followed the Poggio selection and held third on the Via Roma, while Dominika Włodarczyk rode an unselfish finale — emptying herself on the front to keep the break clear and protect Gasparrini before taking fifth herself. Numbers in the decisive move turned into a podium, even if the win was beyond them.",
+      "riderIds": ["eleonora-camilla-gasparrini", "dominika-wlodarczyk"]
+    },
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "Pieterse forces the move, fourth",
+      "verdictClass": "neutral",
+      "narrative": "Puck Pieterse was the rider who blew the race apart, attacking inside the final kilometre of the Poggio to create the winning five. She led the sprint out on the Via Roma but, having done the damage on the climb, was passed and finished fourth at the same time. The animator of the finale without the reward — but a statement of strength on her Monument terrain.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Niewiadoma crashes out of the finale",
+      "verdictClass": "loss",
+      "narrative": "Kasia Niewiadoma was among the most aggressive riders on the Cipressa, her pull splitting the bunch, but her race ended in the heavy crash on the descent that also caught Kim Le Court. With their lead aggressor down, the team salvaged tenth through Chiara Consonni out of the chasing bunch sprint — a frustrating day undone by misfortune on the descent.",
+      "riderIds": ["kasia-niewiadoma", "chiara-consonni"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "3h 47m 17s",
+      "narrative": "A masterclass in reading Milano-Sanremo. Kopecky was briefly distanced when Niewiadoma drove the Cipressa but fought back to the bunch. On the Poggio she was one of only four able to follow Pieterse's decisive acceleration, then sat composed in the front five, letting Włodarczyk and Pieterse do the work into Sanremo. When Pieterse opened the sprint on the Via Roma, Kopecky came off her wheel and powered past for her biggest win of the young season and another Monument to her palmarès, fresh off a win at Nokere Koerse earlier in the week.",
+      "keyMoments": [
+        { "km": 5, "what": "Followed Pieterse's Poggio acceleration — one of only four able to" },
+        { "km": 0.2, "what": "Came past Pieterse to win the five-up Via Roma sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "Rüegg confirmed her strong early-season by making the four-rider response to Pieterse's Poggio move and contesting the win. In the sprint she settled onto Kopecky's wheel and held second, unable to come around the Belgian but well clear of the chasers. A standout one-day result that marks her out as a genuine Monument contender.",
+      "keyMoments": [
+        { "km": 5, "what": "Followed the Poggio selection into the front five" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "eleonora-camilla-gasparrini", "name": "Eleonora Camilla Gasparrini", "team": "UAE Team ADQ",
+      "role": "leader", "position": 3, "gap": "+0:00",
+      "narrative": "The Italian followed the Poggio selection and benefited from teammate Włodarczyk's selfless work to keep the break clear. On the Via Roma she held third behind Kopecky and Rüegg for a home Monument podium — a career-defining result and reward for UAE Team ADQ's strength in numbers in the decisive group.",
+      "keyMoments": [
+        { "km": 5, "what": "Made the winning five over the Poggio" },
+        { "km": 0.2, "what": "Held third in the sprint for a home podium" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech",
+      "role": "leader", "position": 4, "gap": "+0:00",
+      "narrative": "The architect of the decisive selection. Pieterse surged inside the final kilometre of the Poggio, a move only Kopecky, Włodarczyk, Gasparrini and Rüegg could follow, and her acceleration is what created the winning five. She opened the sprint on the Via Roma but, having done the hard work on the climb, was overhauled and finished fourth at the same time — the race's animator without the win.",
+      "keyMoments": [
+        { "km": 5, "what": "Attacked inside the final km of the Poggio to forge the winning five" },
+        { "km": 0.2, "what": "Launched the sprint but was passed, fourth s.t." }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "dominika-wlodarczyk", "name": "Dominika Włodarczyk", "team": "UAE Team ADQ",
+      "role": "domestique", "position": 5, "gap": "+0:04",
+      "narrative": "A selfless ride from the Pole. After following the Poggio split, Włodarczyk emptied herself driving the front five's descent and flat run-in to keep the move clear and protect teammate Gasparrini's podium chance. Spent from her efforts, she took fifth at +0:04 — a textbook domestique's race that delivered a UAE podium and a top-five for herself.",
+      "keyMoments": [
+        { "km": 5, "what": "Followed the Poggio selection" },
+        { "km": 2, "what": "Drove the front five to keep the break clear for Gasparrini" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 6, "gap": "+0:09",
+      "narrative": "The defending champion and pre-race sprint favourite was caught behind the Poggio selection after being briefly distanced on the Cipressa. Unable to make the winning five, she led the chasing peloton home for sixth at +0:09 — the best of the rest, but on a day the climbs denied the pure sprinters and her own teammate took the win.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Led the chasing bunch sprint for sixth, +0:09 down" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek",
+      "role": "leader", "position": 8, "gap": "+0:09",
+      "narrative": "Balsamo couldn't follow the Poggio selection and was left in the chasing peloton, sprinting to eighth at +0:09. A solid result on her home Monument but short of the front group, on a day decided by the puncheurs over the top of the Poggio.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 10, "gap": "+0:09",
+      "narrative": "With team leader Niewiadoma crashing out on the Cipressa descent, Consonni salvaged the day for Canyon//SRAM, sprinting to tenth out of the chasing bunch at +0:09. A top-ten on a day her team's main card was undone by misfortune.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": null, "gap": "—",
+      "narrative": "One of the most aggressive riders on the day, Niewiadoma drove the front on the Cipressa, briefly distancing Wiebes and Kopecky. But her race ended in the heavy crash on the Cipressa descent that also brought down Kim Le Court, ruling her out of a finale she had been animating.",
+      "keyMoments": [
+        { "km": 30, "what": "Drove the Cipressa, briefly distancing Wiebes and Kopecky" }
+      ],
+      "incident": { "type": "crash", "note": "Caught in the heavy Cipressa-descent crash and unable to contest the finale" }
+    },
+    {
+      "riderId": "kimberley-le-court-pienaar", "name": "Kimberley Le Court Pienaar", "team": "AG Insurance - Soudal Team",
+      "role": "leader", "position": null, "gap": "—",
+      "narrative": "Le Court was among the aggressors before crashing on the technical Cipressa descent alongside Niewiadoma, ending her hopes in a race she had been positioned to contest.",
+      "keyMoments": [],
+      "incident": { "type": "crash", "note": "Brought down in the Cipressa-descent crash" }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "kasia-niewiadoma", "note": "Heavy crash on the Cipressa descent ended her finale" },
+      { "riderId": "kimberley-le-court-pienaar", "note": "Brought down in the same Cipressa-descent crash as Niewiadoma" }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Kopecky's race-craft beats the climbers and the sprinters alike",
+    "quotes": [],
+    "body": "Milano-Sanremo Donne 2026 turned on two moments — a chaotic Cipressa descent crash that removed aggressors Niewiadoma and Le Court, and Puck Pieterse's Poggio acceleration that forged the winning five. In the end it wasn't the strongest attacker (Pieterse) or the fastest pure sprinter (Wiebes, denied by the climb) who prevailed, but Lotte Kopecky, the rider who best navigated every phase. The result added another Monument to her palmarès in a week she had already won Nokere Koerse, while Noemi Rüegg's second and Eleonora Camilla Gasparrini's third — two riders deep in the UAE-strong front group — were the day's other headlines."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/milano-san-remo-donne-2026/results-msr-2026-women/", "publication": "Cycling Stage", "title": "Milano - San Remo Donne 2026: Kopecky wins five-up sprint", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-milano-sanremo-women-2026-lotte-kopecky-adds-another-monument-win-to-palmares-as-crash-chaos-ruins-hopes-of-many", "publication": "Cycling Up To Date", "title": "Results Milano-Sanremo Women 2026 | Lotte Kopecky adds another Monument win to palmares as crash chaos ruins hopes of many", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/milano-sanremo-donne-we-2026/result", "publication": "CyclingFlash", "title": "Milano-Sanremo Donne 2026 - Results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Milan%E2%80%93San_Remo_Women", "publication": "Wikipedia", "title": "2026 Milan–San Remo Women", "lang": "en" }
+  ]
+}
