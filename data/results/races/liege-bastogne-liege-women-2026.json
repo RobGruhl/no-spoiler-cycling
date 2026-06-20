@@ -1,0 +1,168 @@
+{
+  "raceId": "liege-bastogne-liege-women-2026",
+  "raceName": "Liège-Bastogne-Liège Femmes",
+  "raceDate": "2026-04-26",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Demi Vollering (FDJ United - SUEZ) won the 10th edition of Liège-Bastogne-Liège Femmes with a 35 km solo, attacking on the Côte de la Redoute and never being threatened again. It was her record third La Doyenne and completed an Ardennes double after Flèche Wallonne, capping a spring in which she also won Omloop Het Nieuwsblad and the Tour of Flanders. Puck Pieterse (Fenix-Premier Tech) and Kasia Niewiadoma (CANYON//SRAM zondacrypto) sprinted for the minor placings 1:29 down.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "4h 10m 22s" },
+    { "position": 2, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech", "gap": "+1:29" },
+    { "position": 3, "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto", "gap": "+1:29" },
+    { "position": 4, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+1:29" },
+    { "position": 5, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+1:48" },
+    { "position": 6, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+1:48" },
+    { "position": 7, "riderId": "elise-chabbey", "name": "Elise Chabbey", "team": "FDJ United - SUEZ", "gap": "+1:56" },
+    { "position": 8, "riderId": null, "name": "Magdeleine Vallieres", "team": "EF Education-Oatly", "gap": "+1:56" },
+    { "position": 9, "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United - SUEZ", "gap": "+1:56" },
+    { "position": 10, "riderId": null, "name": "Axelle Dubau-Prévot", "team": "EF Education-Oatly", "gap": "+1:56" }
+  ],
+  "narrative": {
+    "headline": "Vollering soloes from La Redoute for a record third La Doyenne",
+    "openingMoves": "156 km from Bastogne to Liège over the second half of the men's course, with about 2,830 m of climbing across the Ardennes. The race stayed controlled over the early climbs, the WorldTeams keeping moves on a short leash. On the false flat towards the Baraque de Fraiture, the highest point of the day, Femke Gerritse went clear and built a maximum lead of over two minutes before being reeled in just before the Côte de la Haute-Levée.",
+    "raceUnfolds": "With the day's break neutralised, the big squads massed at the front for the decisive Ardennes climbs. Team SD Worx-Protime did early tempo work to protect Anna van der Breggen before FDJ United - SUEZ took over the head of the bunch as the race approached the Côte de la Redoute, the traditional launchpad for the winning move.",
+    "decision": "The race exploded on the Côte de la Redoute, around 34-35 km from the line, when Demi Vollering took the initiative and immediately distanced her rivals. She crested the climb roughly 10 seconds clear of Isabella Holmgren, Puck Pieterse, Kasia Niewiadoma and Niamh Fisher-Black, then doubled her advantage on the following rise to Cornémont. Powering on without looking back, Vollering dropped any threat of a chase coming together; Fisher-Black was distanced from the group behind, and the leader crested the Côte de la Roche-aux-Faucons about 1:10 ahead of Holmgren, Pieterse and Niewiadoma.",
+    "finale": "Inside the final 10 km, Van der Breggen bridged across to the chasing trio and immediately drove the pace, which proved too much for Holmgren, who was dropped. But the victory was never in doubt after La Redoute. Vollering soloed into Liège to take her third Liège-Bastogne-Liège, becoming the outright record holder. A minute and a half later Pieterse won the sprint for second ahead of Niewiadoma, with Van der Breggen fourth."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 100, "location": "Baraque de Fraiture", "headline": "Gerritse's long-range solo", "description": "Femke Gerritse attacked on the false flat towards the Baraque de Fraiture and built a lead of more than two minutes before being caught just before the Côte de la Haute-Levée." },
+    { "kmFromFinish": 34, "location": "Côte de la Redoute", "headline": "Vollering blows the race apart", "description": "Vollering attacked on La Redoute and instantly dropped every rival, cresting around 10 seconds clear and extending the gap on the rise to Cornémont — the winning move." },
+    { "kmFromFinish": 13, "location": "Côte de la Roche-aux-Faucons", "headline": "Lead out to 1:10", "description": "Vollering topped the final categorised climb about 1:10 ahead of the Holmgren-Pieterse-Niewiadoma chase, with Fisher-Black already distanced from that group." },
+    { "kmFromFinish": 10, "location": "Run-in to Liège", "headline": "Van der Breggen bridges and forces the pace", "description": "Anna van der Breggen caught the chasing trio with 10 km to go and immediately took up the pace, dropping Holmgren but unable to threaten Vollering's lead." }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Vollering's record third La Doyenne",
+      "verdictClass": "win",
+      "narrative": "FDJ United - SUEZ controlled the front into La Redoute and unleashed Demi Vollering for a 35 km solo that turned the Ardennes finale into a procession. It crowned an extraordinary spring for the team and rider — Vollering's fourth one-day win of the season after Omloop Het Nieuwsblad, the Tour of Flanders and Flèche Wallonne — and made her the outright record holder at Liège. The depth showed too, with Elise Chabbey (7th) and Juliette Berthet (9th) both in the top ten.",
+      "riderIds": ["demi-vollering", "elise-chabbey", "juliette-berthet"]
+    },
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "Pieterse best of the rest",
+      "verdictClass": "neutral",
+      "narrative": "Puck Pieterse was among the few able to follow Vollering's initial acceleration on La Redoute and led the chase thereafter, but the gap only grew. She salvaged the best possible outcome by winning the sprint for second 1:29 down — a strong Ardennes result for a rider still establishing herself on the road against the classics specialists.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Niewiadoma rounds out the podium",
+      "verdictClass": "neutral",
+      "narrative": "Kasia Niewiadoma marked the dangerous moves and stayed with the lead chase group all the way to Liège, taking third in the sprint behind Pieterse. A composed, consistent Ardennes ride that delivered a WorldTour podium against an in-form Vollering.",
+      "riderIds": ["kasia-niewiadoma"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Van der Breggen fourth after bridging",
+      "verdictClass": "neutral",
+      "narrative": "SD Worx-Protime set early tempo to protect Anna van der Breggen, who timed her late bridge across to the chase group inside 10 km and immediately forced the pace, dropping Holmgren. It earned her fourth on the day, just off the podium and unable to close on a long-gone Vollering.",
+      "riderIds": ["anna-van-der-breggen"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Holmgren in the chase, fades to 6th",
+      "verdictClass": "neutral",
+      "narrative": "Isabella Holmgren was one of the riders who limited the damage on La Redoute and rode in the front chase group for most of the finale, but she was dropped when Van der Breggen lifted the pace inside 10 km and slipped to sixth. A promising Ardennes showing from the young Canadian.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Blasi top five",
+      "verdictClass": "neutral",
+      "narrative": "Paula Blasi was UAE Team ADQ's standout, climbing to fifth on the day at 1:48. A solid Ardennes result that put the Spaniard among the best of the riders behind the elite chase trio.",
+      "riderIds": ["paula-blasi"]
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "Two in the top ten",
+      "verdictClass": "neutral",
+      "narrative": "EF Education-Oatly placed two riders in the top ten — Magdeleine Vallieres (8th) and Axelle Dubau-Prévot (10th), both at 1:56 — in the group that contested the lower placings into Liège. No headline result, but strong collective depth on a hard Ardennes day.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Vollering produced the defining ride of the women's spring. After FDJ massed at the front, she attacked on the Côte de la Redoute about 34-35 km out and dropped everyone instantly, cresting around 10 seconds clear and doubling the gap on the climb to Cornémont. She rode a measured 35 km solo, topping the Roche-aux-Faucons roughly 1:10 ahead and extending to win by 1:29. It was her record third Liège-Bastogne-Liège, an Ardennes double with Flèche Wallonne, and her fourth one-day victory of a season that also delivered Omloop Het Nieuwsblad and the Tour of Flanders.",
+      "keyMoments": [
+        { "km": 34, "what": "Attacked on the Côte de la Redoute and immediately dropped all rivals" },
+        { "km": 30, "what": "Doubled her lead on the rise to Cornémont" },
+        { "km": 13, "what": "Crested the Roche-aux-Faucons about 1:10 clear of the chase" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech",
+      "role": "leader", "position": 2, "gap": "+1:29",
+      "narrative": "Pieterse was one of the few to briefly follow Vollering's move on La Redoute and then anchored the chase group through the finale, but the leader was never coming back. She won the sprint for second at 1:29, a high-class Ardennes result against the established classics riders.",
+      "keyMoments": [
+        { "km": 34, "what": "Among the small group that limited losses to ~10s over the top of La Redoute" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 3, "gap": "+1:29",
+      "narrative": "Niewiadoma stayed with the lead chase group from La Redoute to the line and took third in the sprint behind Pieterse, a composed and consistent ride for a WorldTour podium on a day defined by Vollering's solo.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 4, "gap": "+1:29",
+      "narrative": "Protected early by SD Worx-Protime's tempo work, Van der Breggen produced the most aggressive move of the chase, bridging across with about 10 km to go and immediately lifting the pace — enough to drop Holmgren but not to threaten Vollering. She finished fourth, just off the podium.",
+      "keyMoments": [
+        { "km": 10, "what": "Bridged to the chase trio and forced the pace, dropping Holmgren" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ",
+      "role": "leader", "position": 5, "gap": "+1:48",
+      "narrative": "Blasi was UAE Team ADQ's best finisher, taking fifth at 1:48 and heading the riders just behind the elite chase trio — a strong Ardennes ride for the Spaniard.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elise-chabbey", "name": "Elise Chabbey", "team": "FDJ United - SUEZ",
+      "role": "helper", "position": 7, "gap": "+1:56",
+      "narrative": "Chabbey backed up the winning move with seventh on the day, part of FDJ's overwhelming team performance that placed three riders in the top nine behind Vollering's solo.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United - SUEZ",
+      "role": "helper", "position": 9, "gap": "+1:56",
+      "narrative": "Berthet completed FDJ's top-ten clean sweep of supporting riders with ninth, rounding out a dominant collective Ardennes display behind Vollering.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Fisher-Black was in the select group that crested La Redoute close behind Vollering, but she was distanced from the chase before the Roche-aux-Faucons and finished outside the top placings.",
+      "keyMoments": [
+        { "km": 34, "what": "Among the riders ~10s behind Vollering over La Redoute, before being dropped from the chase" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Vollering closes a near-total spring sweep",
+    "quotes": [],
+    "body": "Liège-Bastogne-Liège completed one of the great spring classics campaigns: Vollering won Omloop Het Nieuwsblad, the Tour of Flanders, Flèche Wallonne and La Doyenne, sealing the Ardennes double and becoming the outright record holder at Liège with a third title. The manner of it — a controlled 35 km solo from La Redoute — underlined that the reigning European champion was the rider to beat across every type of one-day terrain in 2026."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/liege-bastogne-liege-femmes-2026/results-women-lbl-2026/", "publication": "Cycling Stage", "title": "Liège-Bastogne-Liège Femmes 2026: Vollering solos to victory from La Redoute", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/liege-bastogne-liege-femmes-live-can-demi-vollering-take-a-third-win-or-can-someone-spring-a-surprise/", "publication": "Cyclingnews", "title": "Liège-Bastogne-Liège Femmes live report", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/liege-bastogne-liege-femmes/2026", "publication": "ProCyclingStats", "title": "Liège-Bastogne-Liège Femmes 2026 results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Li%C3%A8ge%E2%80%93Bastogne%E2%80%93Li%C3%A8ge_Femmes", "publication": "Wikipedia", "title": "2026 Liège-Bastogne-Liège Femmes", "lang": "en" }
+  ]
+}
