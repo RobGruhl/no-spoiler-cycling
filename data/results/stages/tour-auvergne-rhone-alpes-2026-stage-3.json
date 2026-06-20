@@ -1,0 +1,59 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 3,
+  "stageName": "Perreux → Perreux (TTT)",
+  "stageDate": "2026-06-09",
+  "stageType": "ttt",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Visma | Lease a Bike won the 28.4 km team time trial, beating Netcompany–INEOS by 9 seconds; Alex Baudin kept the yellow jersey as the TTT redrew the GC behind him.",
+  "podium": [
+    { "position": 1, "name": "Visma | Lease a Bike", "team": "Visma | Lease a Bike", "time": "32m 52s" },
+    { "position": 2, "name": "Netcompany - INEOS", "team": "Netcompany - INEOS", "gap": "+0:09" },
+    { "position": 3, "name": "EF Education - EasyPost", "team": "EF Education - EasyPost", "gap": "+0:29" }
+  ],
+  "narrative": {
+    "headline": "Visma win the team time trial",
+    "body": "Over the 28.4 km Perreux loop, Netcompany–INEOS led at both intermediate splits (Coutievre and Montagny), but Visma | Lease a Bike turned the screw in the closing kilometres to win by nine seconds. EF Education–EasyPost took third at +0:29, protecting Alex Baudin's overall lead, while Lidl–Trek (+0:32) and Red Bull–BORA–hansgrohe (+0:40) kept their GC men in contention. UAE Team Emirates lost over a minute as a team (+1:01), dropping Isaac del Toro down the early GC.",
+    "gcConsequence": "Baudin kept yellow with EF's strong ride, but the gaps between GC teams here would matter for the eventual podium."
+  },
+  "gcImpact": {
+    "headline": "Baudin holds yellow; the TTT separates the GC men",
+    "body": "Alex Baudin retained the lead. Behind him the GC reshuffled along team lines: Kévin Vauquelin (+0:12) and Oscar Onley moved up via INEOS's strong TTT, with Matteo Jorgenson (+0:15) close behind for Visma. Juan Ayuso and Mattias Skjelmose sat at +0:47 for Lidl–Trek, while Isaac del Toro was already +1:16 down after UAE's slower team ride — a deficit that framed his eventual late-race comeback."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 4, "gap": "+0:15",
+      "narrative": "Jorgenson's Visma squad won the team time trial, lifting him to the fringe of the GC top three at +0:15. The strong TTT was the foundation of his week, keeping him in podium contention until the final climbs.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin", "name": "Kévin Vauquelin", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 2, "gap": "+0:12",
+      "narrative": "Netcompany–INEOS led the TTT at both checkpoints before fading to second by nine seconds. The ride vaulted Vauquelin to second on GC at +0:12, his best position of the race.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek",
+      "role": "leader", "position": 5, "gap": "+0:47",
+      "narrative": "Lidl–Trek's solid fourth-place team ride kept Ayuso and Skjelmose at +0:47, a manageable deficit going into the mountains.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 16, "gap": "+1:16",
+      "narrative": "UAE Team Emirates' modest TTT (+1:01 as a team, ninth) left del Toro +1:16 down on GC — the worst-placed of the genuine favourites. Recovering that minute-plus would define his fight back over the final two mountain days.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-3-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 3 TTT results — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

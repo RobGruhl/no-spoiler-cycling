@@ -1,0 +1,91 @@
+{
+  "raceId": "copenhagen-sprint-2026",
+  "raceName": "Copenhagen Sprint",
+  "raceDate": "2026-06-14",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Jasper Philipsen (Alpecin - Premier Tech) won the second men's Copenhagen Sprint in a chaotic, rain-soaked finale, catching a stubborn breakaway inside the final kilometre and beating Danish home hope Tobias Lund Andresen (Decathlon CMA CGM) and Sam Welsford (Netcompany INEOS). A late crash had split the peloton on the technical city circuit, turning an expected bunch gallop into a reduced sprint.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "4h 48m 21s" },
+    { "position": 2, "riderId": "tobias-lund-andresen", "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Sam Welsford", "team": "Netcompany INEOS", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Philipsen survives the chaos to deny the Danes at home",
+    "openingMoves": "228.2 km from Roskilde to a city-centre finish in Copenhagen, the second edition of the men's race. Rune Herregodts, Anders Foldager, William Blume, Frederik Rodenberg and Mads Andersen formed the day's main breakaway; Rodenberg was later dropped, leaving a resilient quartet to carry the move deep into the capital.",
+    "raceUnfolds": "What looked set for a controlled bunch sprint changed shape inside the final 20 kilometres. A crash near the front split the peloton on the Copenhagen circuit, catching several Lotto riders, while Decathlon CMA CGM took control of a reduced front group for Tobias Lund Andresen. Rain then arrived on the technical, corner-heavy city loop, leaving wet roads and a frantic chase to decide the race.",
+    "decision": "The break refused to fade. Its lead was around 20 seconds before the crash, then held near 15 with 10 km to go as the split gave the escapees fresh hope. Foldager took a huge turn as the gap fell to five seconds inside the last two kilometres; Herregodts attacked from the move as the catch loomed. Decathlon led into the final kilometre with two riders ahead of Lund Andresen once the break was finally swept up.",
+    "finale": "In the reduced, wet sprint Danny van Poppel opened it up for Red Bull - BORA - hansgrohe before Philipsen came over the top, proving strongest to deny the Danish home hopes. Andresen took second, Welsford third — all on the same time."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 20, "location": "Copenhagen circuit", "headline": "Crash splits the peloton", "description": "A crash near the front fractured the bunch on the technical city loop, catching several Lotto riders and giving the breakaway fresh life as Decathlon took control of the reduced front group." },
+    { "kmFromFinish": 1, "location": "Copenhagen", "headline": "Breakaway caught on the line", "description": "After Herregodts' late dig from the move, the quartet was finally reeled in inside the last kilometre, setting up a reduced sprint that Philipsen won." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Philipsen wins the sprint",
+      "verdictClass": "win",
+      "narrative": "Alpecin drove the reduced chase to bring back the breakaway, then delivered Philipsen into a chaotic, wet finish where he came over the top of Van Poppel's lead-out. A clean WorldTour one-day win in conditions that scrambled the script — exactly the kind of opportunism that defines Philipsen's racing.",
+      "riderIds": ["jasper-philipsen"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Andresen 2nd, Gudmestad 4th",
+      "verdictClass": "neutral",
+      "narrative": "Decathlon took control of the reduced front group after the crash and committed fully to Tobias Lund Andresen, the Danish home hope. They led into the final kilometre with two riders ahead of him, but Philipsen was a step quicker. Andresen second and Tord Gudmestad fourth gave the team two in the top four — a strong showing without the win.",
+      "riderIds": ["tobias-lund-andresen"]
+    },
+    {
+      "team": "Netcompany INEOS",
+      "verdict": "Welsford rounds out the podium",
+      "verdictClass": "neutral",
+      "narrative": "Netcompany came forward late for Sam Welsford, who navigated the wet, crash-affected finale to take third. A solid podium for the sprinter on a day that punished hesitation.",
+      "riderIds": []
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Van Poppel leads out, 5th",
+      "verdictClass": "neutral",
+      "narrative": "Danny van Poppel launched the sprint, opening it up only for Philipsen to come past. Van Poppel held on for fifth — the lead-out man left as the bridesmaid when the timing went against him.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Philipsen kept his composure through a finale of crashes, rain and a breakaway that wouldn't die. With the escape caught inside the final kilometre, he sat on Van Poppel's lead-out and came over the top in the reduced sprint to take the win on wet Copenhagen streets, denying the Danish home crowd.",
+      "keyMoments": [
+        { "km": 1, "what": "Tracked Van Poppel's lead-out, then came over the top to win the reduced sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tobias-lund-andresen", "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "The Danish home favourite had his whole team behind him — Decathlon controlled the reduced front group and led into the final kilometre with two riders ahead of him. He launched but couldn't match Philipsen's kick, settling for second on home roads.",
+      "keyMoments": [
+        { "km": 1, "what": "Led out by two Decathlon team-mates after the break was caught" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "kmFromFinish": 20, "description": "Crash near the front split the peloton on the Copenhagen circuit, catching several Lotto riders." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Opportunism wins a chaotic Danish one-dayer",
+    "quotes": [],
+    "body": "A second edition that delivered drama the route's flat profile didn't promise: rain, a late crash and a breakaway that nearly stole it. Philipsen, the pre-race favourite, was the one rider with the positioning and the kick to make the chaos work for him, while the Danish duo of Andresen and Gudmestad gave the home crowd plenty to cheer even without the win."
+  },
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-copenhagen-sprint-2026-jasper-philipsen-wins-chaotic-wet-finale-after-late-crash-splits-peloton", "publication": "CyclingUpToDate", "title": "Results Copenhagen Sprint 2026 - Jasper Philipsen wins chaotic wet finale after late crash splits peloton", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/copenhagen-sprint-men/", "publication": "Cyclingnews", "title": "Copenhagen Sprint: Breakaway caught on the line as Jasper Philipsen avoids crashes and chaos to claim sprint victory", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Copenhagen_Sprint_(men's_race)", "publication": "Wikipedia", "title": "2026 Copenhagen Sprint (men's race)", "lang": "en" }
+  ]
+}

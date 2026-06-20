@@ -1,0 +1,55 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 1,
+  "stageName": "Vizille → Saint-Ismier",
+  "stageDate": "2026-06-07",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Alex Baudin (EF Education–EasyPost) survived from a big early breakaway to win solo from the reduced front group on the hilly Saint-Ismier finish, taking the first yellow jersey of the rebranded race.",
+  "podium": [
+    { "position": 1, "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost", "time": "3h 43m 58s" },
+    { "position": 2, "name": "Ramses Debruyne", "team": "Alpecin - Premier Tech", "gap": "+0:32" },
+    { "position": 3, "riderId": "leo-bisiaux", "name": "Léo Bisiaux", "team": "Decathlon - CMA CGM Team", "gap": "+0:32" }
+  ],
+  "narrative": {
+    "headline": "Baudin opens the new-era race from the break",
+    "body": "The opening kilometres were frenetic before a ten-rider breakaway settled, featuring Alex Baudin, Sergio Samitier, Georg Zimmermann, Clément Braz Afonso, Raúl García Pierna and others; they led the peloton by around 50 seconds over the Col de l'Arzelier. Samitier and Braz Afonso traded the early KOM points across the Côte de Seyssins and the Côte de Quaix-en-Chartreuse. Over the Col de Vence only Baudin, George Bennett and Braz Afonso remained out front. The peloton clawed the gap back to roughly 34 seconds late on, but never closed it on the hilly run-in to Saint-Ismier. Baudin held off the chase to win solo, with Ramses Debruyne and Léo Bisiaux leading the bunch in 32 seconds down.",
+    "gcConsequence": "Baudin took the first leader's jersey, 32 seconds clear of the chasing GC group on the road."
+  },
+  "gcImpact": {
+    "headline": "Baudin in yellow, GC favourites grouped behind",
+    "body": "Alex Baudin leads the GC after stage 1. Debruyne and Bisiaux sit second and third at +0:32, with the main favourites — Onley, Tuckwell, Vauquelin — also at +0:32 in the front group. Del Toro and Ayuso lost a little more time on the day, setting up a week where the punchy and mountain stages would reshuffle everything."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
+      "role": "stage-hunter", "position": 1, "gap": "0:00",
+      "narrative": "Baudin played the breakaway perfectly, getting into the day's move and outlasting his fellow escapees on the closing hills. Reaching Saint-Ismier alone gave him both the stage and the first yellow jersey — a result he would defend deep into the week.",
+      "keyMoments": [
+        { "km": null, "what": "Made the ten-rider early breakaway, then narrowed it to three over the Col de Vence" },
+        { "km": null, "what": "Held off a chasing peloton closing to ~34 seconds to win solo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "leo-bisiaux", "name": "Léo Bisiaux", "team": "Decathlon - CMA CGM Team",
+      "role": "helper", "position": 3, "gap": "+0:32",
+      "narrative": "Bisiaux sprinted to third out of the front group at 32 seconds, a strong opening for the young Decathlon climber-puncheur supporting Paul Seixas's GC bid.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley", "name": "Oscar Onley", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 10, "gap": "+0:32",
+      "narrative": "Onley came home safely in the front group at +0:32, keeping his GC options open without expending energy on the opening day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-1-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 1 results & report — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

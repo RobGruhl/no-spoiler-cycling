@@ -1,0 +1,38 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 4,
+  "stageName": "Le Puy-en-Velay → Montrond-les-Bains",
+  "stageDate": "2026-06-10",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Quinn Simmons (Lidl–Trek) outsprinted his breakaway companions in Montrond-les-Bains to win from the day's move; Alex Baudin held yellow.",
+  "podium": [
+    { "position": 1, "name": "Quinn Simmons", "team": "Lidl - Trek", "time": "3h 34m 08s" },
+    { "position": 2, "name": "Finn Fisher-Black", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "name": "Mattéo Vercher", "team": "Team TotalEnergies", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Simmons takes the break sprint",
+    "body": "It took until the Côte du Temple, around halfway, before a breakaway finally formed. Quinn Simmons, Jordan Jegat and Andreas Kron made the first move, with George Bennett, Pablo Castrillo, Raúl García Pierna, Mattéo Vercher, Jan Castellon, Marco Frigo, Sam Watson, Finn Fisher-Black and Lars Craps bridging on the Côte de Chougoirland. Watson dropped out after a crash. The escapees' lead never exceeded two minutes and shrank to under 30 seconds with 10 km to go, yet the peloton failed to bring them back. In Montrond-les-Bains, Simmons outsprinted Fisher-Black and Vercher, while Baudin came in four seconds down with the bunch to retain the jersey.",
+    "gcConsequence": "Another breakaway day with no GC change at the top; Baudin still in yellow."
+  },
+  "gcImpact": {
+    "headline": "GC unchanged; Baudin still leads",
+    "body": "The GC was static at the top: Baudin in yellow, Vauquelin and Onley at +0:12, Jorgenson at +0:15, with Ayuso and Skjelmose at +0:47 and del Toro at +1:16. The favourites were saving themselves for the mountain weekend."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
+      "role": "leader", "position": null, "gap": "in yellow",
+      "narrative": "Baudin again came home safely with the peloton, four seconds behind the breakaway, to keep the yellow jersey through the race's first half.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-4-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 4 results & report — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

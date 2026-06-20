@@ -1,0 +1,76 @@
+{
+  "raceId": "tour-de-suisse-2026",
+  "raceName": "Tour de Suisse",
+  "raceDate": "2026-06-17",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "inProgress": true,
+  "tldr": "Through three stages, Tadej Pogačar owns the Tour de Suisse. He blew the race apart on day one with a 71-kilometre solo in Sondrio to take the stage and a commanding lead, then defended it across two hilly breakaway days in Locarno (won by Romain Grégoire) and Bad Ragaz (won by his own UAE teammate Jhonatan Narváez). He leads Richard Carapaz by 2:50 heading into the stage 4 individual time trial.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Pogačar Tadej", "team": "UAE Team Emirates - XRG", "gap": "race leader, GC in progress" },
+    { "position": 2, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "gap": "+2:50" },
+    { "position": 3, "name": "Andrea Bagioli", "team": "Soudal Quick-Step", "gap": "+3:07" }
+  ],
+  "narrative": {
+    "headline": "Pogačar's day-one ambush has the race in a stranglehold",
+    "openingMoves": "Pogačar settled the question of who is strongest on the opening road stage. On the 144 km hilly loop around Sondrio he attacked with just over 71 kilometres to go, caught the lone breakaway, and soloed to victory and the first leader's jersey. Only Richard Carapaz had the nerve to chase, finishing second at 2:14; Andrea Bagioli was third. By the end of day one the GC margin was already 2:22.",
+    "raceUnfolds": "The next two hilly stages went to the breakaway while Pogačar managed his lead. In Locarno (stage 2) a fourteen-rider move thinned to six, with Romain Grégoire powering clear for the win; Pogačar drove the finish himself with Mathias Vacek and finished eighth, four seconds back, stretching his overall lead to 2:50. In a storm-lashed stage 3 to Bad Ragaz, UAE teammate Jhonatan Narváez won a two-up sprint over Xandro Meurisse as the chase fell just short; Pogačar sat in for 12th and kept his margin intact.",
+    "decision": "Still to come — the stage 4 individual time trial in Aarburg and the mountain stages that follow will decide the final classification.",
+    "finale": "Not yet raced (as of 2026-06-20, after stage 3 of 9)."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 71, "location": "Sondrio circuit (Stage 1)", "headline": "Pogačar's 71 km solo", "description": "Pogačar rode away from the entire field on the opening stage, soloing to the win and the leader's jersey and opening a 2:22 GC gap on day one." },
+    { "kmFromFinish": null, "location": "Locarno finale (Stage 2)", "headline": "Pogačar marks the climbs himself", "description": "Rather than control from behind, Pogačar drove the first finishing climb with Vacek and chased the break to within four seconds, extending his lead to 2:50." },
+    { "kmFromFinish": null, "location": "Bad Ragaz (Stage 3)", "headline": "UAE double up via Narváez", "description": "Pogačar's teammate Jhonatan Narváez took the breakaway win in the rain, letting the leader's team enjoy a quiet day with the GC lead untouched." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Yellow jersey + two stages",
+      "verdictClass": "win",
+      "narrative": "Total dominance through three stages. Tadej Pogačar made his Tour de Suisse debut a statement, soloing to the stage 1 win and the leader's jersey from 71 kilometres out, then defending it aggressively. With the GC effectively locked early, the team could even race for stages from the break — Jhonatan Narváez delivered, winning the rain-soaked stage 3 in Bad Ragaz. A near-perfect opening half-week.",
+      "riderIds": ["tadej-pogacar"]
+    },
+    {
+      "team": "EF Education - EasyPost",
+      "verdict": "Best of the rest, +2:50",
+      "verdictClass": "neutral",
+      "narrative": "Richard Carapaz was the only rider willing to take Pogačar on, chasing alone on stage 1 to finish second and establish himself as best-placed GC challenger. He sits second overall at 2:50 — a strong showing, but the day-one ambush left him with a near-impossible gap to overturn.",
+      "riderIds": []
+    },
+    {
+      "team": "Groupama-FDJ",
+      "verdict": "Stage 2 breakaway win",
+      "verdictClass": "win",
+      "narrative": "Romain Grégoire read the stage 2 finale perfectly, surviving in the breakaway over the closing climbs and unleashing a dominant sprint from the final corner in Locarno to take the win ahead of Camprubí and Lemmen — a tidy reward for aggressive racing on a day the GC was always going to stay quiet.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Pogačar Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Has been on another level. The stage 1 solo from 71 kilometres out was the defining act of the race so far — a win that doubled as a GC knockout blow. He then raced offensively on stage 2, driving the climbs and chasing the break to eighth (four seconds down) to add time, and rode safely on stage 3 with a teammate winning from the front. Through three stages he leads by 2:50 and looks the clear favourite ahead of the time trial.",
+      "keyMoments": [
+        { "km": 71, "what": "Stage 1: solo attack to the win and the leader's jersey" },
+        { "km": null, "what": "Stage 2: led the final climbs, chased to 8th, extended lead to 2:50" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Mid-race summary after stage 3",
+    "quotes": [],
+    "body": "As of 20 June 2026, after three of nine stages, Tadej Pogačar leads the Tour de Suisse by 2:50 over Richard Carapaz, with Andrea Bagioli third at 3:07. The stage 4 individual time trial in Aarburg and the mountain stages still to come will shape the final classification, but Pogačar's opening-day raid has put the race firmly in his control."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-1-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Pogacar delivers early knockout punch", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-2-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Grégoire wins six-up sprint", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-3-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Breakaway bonanza - Narváez wins", "lang": "en" },
+    { "url": "https://www.tourdesuisse.ch/en/", "publication": "Tour de Suisse (official)", "title": "Tour de Suisse 2026 official site", "lang": "en" }
+  ]
+}

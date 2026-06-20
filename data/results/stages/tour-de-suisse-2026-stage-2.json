@@ -1,0 +1,57 @@
+{
+  "raceId": "tour-de-suisse-2026",
+  "stageNumber": 2,
+  "stageName": "Locarno → Locarno",
+  "stageDate": "2026-06-18",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Romain Grégoire powered to victory from a six-man breakaway sprint on the hilly Locarno circuit, holding off the chasing Pogačar by four seconds. Marcel Camprubí was second, Bart Lemmen third. Pogačar finished eighth on the stage and extended his GC lead to nearly three minutes.",
+  "podium": [
+    { "position": 1, "name": "Romain Grégoire", "team": "Groupama-FDJ", "time": "3h 26m 25s" },
+    { "position": 2, "name": "Marcel Camprubí", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Bart Lemmen", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Grégoire wins the break sprint as Pogačar's chase falls just short",
+    "body": "The 157.7-kilometre circuit around Locarno crossed the Monte Ceneri early and finished with two climbs in the finale. After repeated attacks it took 35 kilometres for a move to stick, a fourteen-rider breakaway forming with Grégoire, Camprubí, Lemmen, Filippo Zana, Emiel Verstrynge, Finlay Pickering, Afonso Eulálio, Julian Alaphilippe and others. The gap stretched to three minutes across the flat middle before tumbling on the run-in.\n\nOn the first of the two finishing climbs Pogačar led teammate Jhonatan Narváez up the ascent; only Mathias Vacek could follow. Narváez was dropped near the summit, and Pogačar and Vacek pressed on together, picking up the distanced Eulálio. The pair worked well but fell just short of bridging to the front group.\n\nThe breakaway had been whittled to six — Verstrynge, Grégoire, Zana, Pickering, Lemmen and Camprubí. Grégoire took the final corner first, launched immediately, and powered to a dominant win ahead of Camprubí and Lemmen. Pogačar crossed four seconds later in eighth, comfortably keeping the overall lead."
+  },
+  "gcImpact": {
+    "headline": "Pogačar extends his lead to 2:50",
+    "body": "Pogačar retains the leader's jersey and now leads Richard Carapaz by 2:50, with Andrea Bagioli third at 3:07 and Mathias Vacek up to fourth at 4:16. By marking the dangerous riders himself on the final climbs, Pogačar added a little more cushion rather than losing any."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Pogačar Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 8,
+      "gap": "+0:04",
+      "narrative": "Raced aggressively from the front rather than sitting in. On the first finishing climb Pogačar drove the pace himself, dropping all but Mathias Vacek, and the two chased the breakaway hard to the line. They came up just four seconds short of the win, but the move netted Pogačar more time on his GC rivals — he extended his overall lead to 2:50 over Carapaz. Eighth on the stage, but a leader's ride.",
+      "keyMoments": [
+        { "km": null, "what": "Led the pace on the first of two finishing climbs, only Vacek able to follow" },
+        { "km": null, "what": "Worked with Vacek in the chase, finishing 8th at 4 seconds and gaining GC time" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Martinez Lenny",
+      "team": "Bahrain - Victorious",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Tried to make the early move, bridging across to an attacking group on the Monte Ceneri ascent alongside Louis Vervaeke and Nairo Quintana, but the peloton reeled the move back over the top before the day's lasting breakaway formed without him.",
+      "keyMoments": [
+        { "km": null, "what": "Bridged to an early attack on the Monte Ceneri before it was brought back" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-2-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Grégoire wins six-up sprint, Pogacar still leads", "lang": "en" },
+    { "url": "https://www.tourdesuisse.ch/en/gregoire-takes-the-stage-win-pogacar-stays-in-yellow/", "publication": "Tour de Suisse (official)", "title": "Grégoire takes the stage win – Pogačar stays in yellow", "lang": "en" }
+  ]
+}

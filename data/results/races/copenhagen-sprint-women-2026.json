@@ -1,0 +1,96 @@
+{
+  "raceId": "copenhagen-sprint-women-2026",
+  "raceName": "Copenhagen Sprint Women",
+  "raceDate": "2026-06-13",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Lorena Wiebes (Team SD Worx-Protime) made a winning return from her Giro d'Italia Women disqualification, taking the second women's Copenhagen Sprint with a commanding bunch-sprint victory. She launched inside the final 400 metres to beat Charlotte Kool (Fenix-Premier Tech) and Nienke Veenhoven (Team Visma | Lease a Bike) — her 127th career win and back-to-back at this race.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx-Protime", "time": "3h 41m 46s" },
+    { "position": 2, "riderId": null, "name": "Charlotte Kool", "team": "Fenix-Premier Tech", "gap": "s.t." },
+    { "position": 3, "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Wiebes returns from DSQ and wins again in Copenhagen",
+    "openingMoves": "156 km from Roskilde to a city-centre finish in Copenhagen. The flat, fast profile pointed to a sprint, but rain and wind made the early kilometres nervous. A seven-rider move — Andrea Casagranda, Olympia Norrid-Mortensen, Solbjørk Minke Anderson, April Tacey, Ida Krickau Ketelsen, Senne Knaven and Maira Susann Jasch — went clear and contested the intermediate sprints.",
+    "raceUnfolds": "The break was never given real freedom: its gap was only 28 seconds when it first formed and around 1:10–1:25 at its peak with 100 km to go. SD Worx-Protime and EF Education-Oatly drove the peloton, conscious of a rare flat opportunity for their fast finishers. The weather improved as the day went on, easing the chaos for the finale.",
+    "decision": "A crash in the break with about 61 km to go involved Krickau Ketelsen, Knaven and Jasch, and the escape was already coming back. On the run-in, Charlotte Kool recovered from a late bike change with 11 km remaining to still contest the sprint, while SD Worx-Protime assembled their lead-out for Wiebes.",
+    "finale": "SD Worx-Protime controlled the finale and delivered Wiebes into the final straight. She launched inside the last 400 metres and proved too strong, beating Kool and Veenhoven in a controlled bunch sprint on the city-centre circuit."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 61, "location": "Copenhagen approach", "headline": "Crash in the breakaway", "description": "A crash in the escape involving Krickau Ketelsen, Knaven and Jasch disrupted the move as the gap was already coming down toward the sprint teams." },
+    { "kmFromFinish": 11, "location": "Copenhagen circuit", "headline": "Kool's late bike change", "description": "Charlotte Kool was forced into a bike change with 11 km to go but fought back to contest — and ultimately take second in — the sprint." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team SD Worx-Protime",
+      "verdict": "Wiebes wins on return",
+      "verdictClass": "win",
+      "narrative": "SD Worx-Protime turned a flat day into a textbook lead-out, driving the chase alongside EF and then setting up Wiebes for the final straight. In her first race back from the Giro d'Italia Women disqualification, the team gave her the cleanest possible platform and she answered with her 127th career win — back-to-back Copenhagen Sprints.",
+      "riderIds": ["lorena-wiebes"]
+    },
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "Kool 2nd after bike change",
+      "verdictClass": "neutral",
+      "narrative": "Charlotte Kool's day looked compromised by a bike change with 11 km to go, but she fought back into the finale and produced the second-fastest sprint behind an in-form Wiebes. Second place that rewarded persistence on a nervy, weather-affected course.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Veenhoven on the podium",
+      "verdictClass": "neutral",
+      "narrative": "Nienke Veenhoven delivered a strong third place for Visma, holding her line in a fast bunch finish to round out the podium behind the two established sprinters.",
+      "riderIds": ["nienke-veenhoven"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx-Protime",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Returning from her Giro d'Italia Women disqualification, Wiebes answered every question in the sprint. SD Worx-Protime controlled the finale and delivered her into the final straight, where she launched inside the last 400 metres and was simply too strong. It was her 127th career victory and a second straight Copenhagen Sprint title.",
+      "keyMoments": [
+        { "km": 0.4, "what": "Launched the sprint inside the final 400 m and held off Kool" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 3, "gap": "s.t.",
+      "narrative": "Veenhoven produced a strong third place for Visma in the bunch sprint, getting the better of a deep field of fast finishers to claim a WorldTour podium behind Wiebes and Kool.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "linda-zanetti", "name": "Linda Zanetti", "team": "Uno-X Mobility",
+      "role": "leader", "position": 4, "gap": "s.t.",
+      "narrative": "Zanetti was the best of the rest in fourth for Uno-X Mobility, just off the podium in a tightly bunched sprint.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek",
+      "role": "leader", "position": 6, "gap": "s.t.",
+      "narrative": "Balsamo finished sixth in the bunch sprint, in the mix but unable to challenge Wiebes on the day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "kmFromFinish": 61, "description": "Crash in the breakaway involving Ida Krickau Ketelsen, Senne Knaven and Maira Susann Jasch; Knaven and Jasch rejoined." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A statement return for Wiebes",
+    "quotes": [],
+    "body": "After the controversy of her Giro d'Italia Women disqualification, Wiebes used Copenhagen to reset the narrative around her sprinting. A flat course, a disciplined SD Worx-Protime lead-out and a decisive late kick produced exactly the kind of clear-cut win she needed — and reaffirmed her status as the fastest finisher in the women's peloton heading deeper into the season."
+  },
+  "sources": [
+    { "url": "https://procyclinguk.com/copenhagen-sprint-women-2026-lorena-wiebes-wins-first-race-back-since-giro-ditalia-women-disqualification/", "publication": "ProCyclingUK", "title": "Copenhagen Sprint Women 2026: Lorena Wiebes wins first race back since Giro d'Italia Women disqualification", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/copenhagen-sprint-women/", "publication": "Cyclingnews", "title": "Lorena Wiebes makes a winning comeback with a commanding victory at the Copenhagen Sprint", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Copenhagen_Sprint_(women's_race)", "publication": "Wikipedia", "title": "2026 Copenhagen Sprint (women's race)", "lang": "en" }
+  ]
+}

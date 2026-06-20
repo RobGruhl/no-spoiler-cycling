@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T23:54:38.038Z",
+  "lastUpdated": "2026-06-20T23:39:42.470Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -4925,6 +4925,17 @@
               "subscription": true,
               "url": "https://www.discoveryplus.com"
             }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live in North America (FloBikes ~$39.99/mo). Search FloBikes for the event page."
+            }
           }
         },
         "youtubeChannels": [
@@ -5197,13 +5208,13 @@
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
-              "broadcasterId": "flobikes",
+              "broadcaster": "HBO Max",
+              "broadcasterId": "hbo-max",
               "type": "streaming",
-              "url": "https://www.flobikes.com/events/15255352-2026-uae-tour-women",
+              "url": "https://www.max.com",
               "coverage": "live",
               "subscription": true,
-              "notes": "Full live coverage and replays"
+              "notes": "US via HBO Max — RCS Sport races moved to WBD/HBO Max for 2026 (was FloBikes)."
             }
           },
           "CA": {
@@ -5508,6 +5519,17 @@
               "coverage": "live",
               "subscription": true,
               "url": "https://www.discoveryplus.com"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live in North America (FloBikes ~$39.99/mo). Search FloBikes for the event page."
             }
           }
         },
@@ -6423,6 +6445,17 @@
               "subscription": true,
               "url": "https://www.discoveryplus.com"
             }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live in North America (FloBikes ~$39.99/mo). Search FloBikes for the event page."
+            }
           }
         },
         "youtubeChannels": [
@@ -6583,6 +6616,17 @@
               "coverage": "live",
               "subscription": true,
               "url": "https://www.discoveryplus.com"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "Live in North America (FloBikes ~$39.99/mo). Search FloBikes for the event page."
             }
           }
         },
@@ -6928,13 +6972,13 @@
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
-              "broadcasterId": "flobikes",
+              "broadcaster": "HBO Max",
+              "broadcasterId": "hbo-max",
               "type": "streaming",
-              "url": "https://www.flobikes.com/events/15255362-2026-uae-tour-men",
+              "url": "https://www.max.com",
               "coverage": "live",
               "subscription": true,
-              "notes": "Full live coverage and replays"
+              "notes": "US via HBO Max — RCS Sport races moved to WBD/HBO Max for 2026 (was FloBikes)."
             }
           },
           "UK": {
@@ -7238,6 +7282,17 @@
               "subscription": true,
               "url": "https://www.discoveryplus.com"
             }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "HBO Max",
+              "broadcasterId": "hbo-max",
+              "type": "streaming",
+              "url": "https://www.max.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "US via HBO Max (Eurosport/WBD). UK on TNT Sports/Discovery+."
+            }
           }
         },
         "youtubeChannels": [
@@ -7523,6 +7578,17 @@
               "coverage": "live",
               "subscription": true,
               "url": "https://www.discoveryplus.com"
+            }
+          },
+          "US": {
+            "primary": {
+              "broadcaster": "HBO Max",
+              "broadcasterId": "hbo-max",
+              "type": "streaming",
+              "url": "https://www.max.com",
+              "coverage": "live",
+              "subscription": true,
+              "notes": "US via HBO Max (Eurosport/WBD). UK on TNT Sports/Discovery+."
             }
           }
         },

@@ -1,0 +1,38 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 2,
+  "stageName": "Saint-Martin-le-Vinoux → Le Puy-en-Velay",
+  "stageDate": "2026-06-08",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Anthon Charmig (Uno-X Mobility) won the marathon 234 km hilly stage to Le Puy-en-Velay from the day's breakaway; Alex Baudin held yellow.",
+  "podium": [
+    { "position": 1, "name": "Anthon Charmig", "team": "Uno-X Mobility", "time": "—" },
+    { "position": 2, "name": "Henri-François Renard-Haquin", "team": "Cofidis", "gap": "+0:41" },
+    { "position": 3, "name": "Vlad Van Mechelen", "team": "Alpecin - Premier Tech", "gap": "+0:41" }
+  ],
+  "narrative": {
+    "headline": "Charmig wins the marathon day from the break",
+    "body": "On the longest stage of the race — 234 km to Le Puy-en-Velay — a six-rider move went from the flag with Anthon Charmig, Baptiste Veistroffer, Alex Díaz, Nadav Raisberg, Benjamin Thomas and Henri-François Renard-Haquin, later joined by a chase group including Raúl García Pierna, Vlad Van Mechelen, Jordan Jegat and Clément Braz Afonso. The peloton let the lead balloon to around six minutes. With 47 km left the move splintered repeatedly; Benjamin Thomas tried a late solo before the Côte de Saint-Vidal but was reeled in by the strongest survivors. Charmig timed the finale best to take the win at Le Puy-en-Velay, with Renard-Haquin and Van Mechelen 41 seconds back.",
+    "gcConsequence": "The breakaway stayed clear, so the GC was untouched at the top — Baudin retained yellow."
+  },
+  "gcImpact": {
+    "headline": "Baudin keeps yellow as the break decides the stage",
+    "body": "With the day's move contesting the win well clear of the bunch, Alex Baudin retained the leader's jersey. The GC favourites finished together and conserved energy ahead of the stage 3 team time trial that would start to draw the real GC lines."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
+      "role": "leader", "position": null, "gap": "in yellow",
+      "narrative": "A quiet day in the bunch for the race leader. Baudin let the breakaway go and finished safely in the peloton to keep the yellow jersey on a stage where no GC time was at stake.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-2-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 2 results & report — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

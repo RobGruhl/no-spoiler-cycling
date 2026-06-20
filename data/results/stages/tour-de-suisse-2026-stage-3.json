@@ -1,0 +1,56 @@
+{
+  "raceId": "tour-de-suisse-2026",
+  "stageNumber": 3,
+  "stageName": "Bad Ragaz → Bad Ragaz",
+  "stageDate": "2026-06-19",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Jhonatan Narváez won a storm-lashed two-up sprint in Bad Ragaz, beating breakaway companion Xandro Meurisse as the chasing peloton arrived just too late. Magnus Cort led the bunch home for third. Pogačar finished 12th in the bunch and kept a firm grip on the overall lead.",
+  "podium": [
+    { "position": 1, "name": "Jhonatan Narváez", "team": "UAE Team Emirates - XRG", "time": "3h 34m 46s" },
+    { "position": 2, "name": "Xandro Meurisse", "team": "Alpecin-Deceuninck", "gap": "s.t." },
+    { "position": 3, "name": "Magnus Cort", "team": "Uno-X Mobility", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Narváez survives the rain to win a two-up dash in Bad Ragaz",
+    "body": "The 157.4-kilometre loop from Bad Ragaz featured the Wildhaus climb and a nervy, rain-soaked finale. A large early move was assembled and brought back by an unwilling peloton just after the summit. The attacks continued, and Jhonatan Narváez went again, this time with Michał Kwiatkowski and Xandro Meurisse; Kwiatkowski could not hold the pace and slipped back into a chase group that included Antonio Tiberi.\n\nNarváez and Meurisse stayed clear and were never truly threatened until the closing kilometres. As torrential rain swept the course, the peloton slashed a maximum gap of 4:30 down to barely a minute heading into the final 10 kilometres.\n\nInto the finishing straight Narváez manoeuvred Meurisse to the front, then launched off the Belgian's wheel and powered to a clear win as the bunch loomed behind. Magnus Cort headed the peloton sprint for third. Pogačar came home 12th in the group to keep hold of the race lead."
+  },
+  "gcImpact": {
+    "headline": "Pogačar's lead unchanged at 2:50",
+    "body": "With the breakaway taking the honours and the GC contenders all finishing together in the bunch, the overall standings held steady. Pogačar still leads Richard Carapaz by 2:50, Andrea Bagioli is third at 3:07 and Mathias Vacek fourth at 4:16 ahead of the stage 4 individual time trial in Aarburg."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Pogačar Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 12,
+      "gap": null,
+      "narrative": "A controlled day in the leader's jersey. With UAE teammate Narváez up the road in the winning move, Pogačar had no need to chase and rode safely through the rain-hit finale, finishing 12th in the bunch. His GC lead of 2:50 over Carapaz was untouched heading into the time trial.",
+      "keyMoments": [
+        { "km": null, "what": "Sat in the peloton with teammate Narváez winning from the break; 12th, lead retained" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonio-tiberi",
+      "name": "Tiberi Antonio",
+      "team": "Bahrain - Victorious",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Made it into a chasing group on the move after the Wildhaus climb, alongside the dropped Kwiatkowski, Verstrynge, Vlasov and Schachmann, but the chasers were swept up by the peloton before the storm-lashed finale and Tiberi finished in the bunch.",
+      "keyMoments": [
+        { "km": null, "what": "Featured in a mid-stage chase group that was caught with ~48 km to go" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-3-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Breakaway bonanza - Narváez wins", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-suisse-2026-stage-3-jhonatan-narvaez-beats-xandro-meurisse-in-storm-lashed-finale-as-sprint-chase-comes-too-late", "publication": "Cycling Uptodate", "title": "Narvaez beats Meurisse in storm-lashed finale", "lang": "en" }
+  ]
+}

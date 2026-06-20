@@ -1,0 +1,68 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 6,
+  "stageName": "Saint-Vulbas → Crest-Voland",
+  "stageDate": "2026-06-12",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "An early echelon-style split caught yellow jersey Alex Baudin and the favourites on the wrong side; Maxim Van Gils (Lotto–Intermarché) won from the front group at Crest-Voland and Luke Tuckwell (Red Bull–BORA–hansgrohe) seized the overall lead.",
+  "podium": [
+    { "position": 1, "name": "Maxim Van Gils", "team": "Lotto - Intermarché", "time": "4h 06m 53s" },
+    { "position": 2, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 3, "name": "Luke Tuckwell", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "The race turns inside out: Tuckwell takes yellow as Baudin cracks",
+    "body": "The peloton split soon after the start and — crucially — yellow jersey Alex Baudin and all the GC contenders were caught on the wrong side. With only Decathlon contributing to the chase, the front group's lead grew to as much as five minutes. Over the penultimate climb, the Côte d'Héry-sur-Ugine, the lead group of 22 included Maxim Van Gils, Georg Steinhauser, Tobias Halland Johannessen, Guillaume Martin, Bruno Armirail, Pablo Torres and Luke Tuckwell. Steinhauser attacked first on the final climb but was overhauled by Van Gils and Johannessen; Torres and Tuckwell bridged. Behind, Paul Seixas attacked the GC group and only del Toro and Jorgenson could match him before Jorgenson cracked. At the line Van Gils edged Johannessen, with Tuckwell third just behind to claim the yellow jersey.",
+    "gcConsequence": "Baudin lost over four minutes and the jersey; Tuckwell moved into the overall lead with the original favourites scattered minutes back."
+  },
+  "gcImpact": {
+    "headline": "Tuckwell in yellow; the GC is blown apart",
+    "body": "Luke Tuckwell took the overall lead, +1:12 ahead of Bruno Armirail and +2:34 over Guillaume Martin. Matteo Jorgenson (+2:37) was the best-placed pre-race favourite. Crucially, the UAE and Lidl–Trek leaders were caught out: Juan Ayuso, Mattias Skjelmose (both +3:15) and Isaac del Toro (+3:22) all conceded big time, leaving them with a mountain to climb across the final two summit-finish stages."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon - CMA CGM Team",
+      "role": "leader", "position": 21, "gap": "+3:15",
+      "narrative": "With Decathlon left to chase the front split alone, Seixas tried to limit the damage by attacking the favourites' group on the final climb — only del Toro and Jorgenson could follow before Jorgenson cracked. He came in alongside del Toro, +3:15 down, sitting seventh overall at +3:06. A hard day for the 19-year-old, who shouldered the chase his team could not complete.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked the GC group on the final climb; only del Toro and Jorgenson could initially follow" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 20, "gap": "+3:15",
+      "narrative": "Caught in the unfavourable split, del Toro followed Seixas's attack to limit losses, finishing +3:15 down and sliding to tenth overall at +3:22 — a sizeable deficit he would erase entirely over the next two days.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 22, "gap": "+3:28",
+      "narrative": "Jorgenson initially matched Seixas's move but cracked late, losing 13 seconds to del Toro and Seixas on the day. Still, fourth overall at +2:37 kept him the best-placed favourite heading into the high mountains.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera", "name": "Juan Ayuso", "team": "Lidl - Trek",
+      "role": "leader", "position": 24, "gap": "+3:37",
+      "narrative": "Ayuso was on the wrong side of the early split and lost +3:37, dropping to +3:15 overall. The damage set up his aggressive final two days alongside teammate Skjelmose.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
+      "role": "leader", "position": 34, "gap": "+4:47",
+      "narrative": "The split that caught the GC group ended Baudin's spell in yellow — he lost +4:47 and dropped out of overall contention after leading for five days.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-6-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 6 results & report — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}

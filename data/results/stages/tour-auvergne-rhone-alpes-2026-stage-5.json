@@ -1,0 +1,40 @@
+{
+  "raceId": "tour-auvergne-rhone-alpes-2026",
+  "stageNumber": 5,
+  "stageName": "Saint-Chamond → Villars-les-Dombes",
+  "stageDate": "2026-06-11",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T12:00:00Z",
+  "tldr": "Wout van Aert (Visma | Lease a Bike) won the bunch sprint at the Parc des Oiseaux in commanding fashion after the day's break was caught; Alex Baudin retained yellow.",
+  "podium": [
+    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "time": "4h 31m 59s" },
+    { "position": 2, "name": "Hugo Hofstetter", "team": "Israel - Premier Tech", "gap": "s.t." },
+    { "position": 3, "name": "Phil Bauhaus", "team": "Team Bahrain Victorious", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Van Aert wins the sprint at the Parc des Oiseaux",
+    "body": "A six-rider break — Pepijn Reinderink, Thibault Guernalec, Julen Arriolabengoa, Felix Engelhardt, Hugo Houle and Robbe Dhondt — formed early and saw their lead fluctuate between two and three minutes before being caught with 12 km remaining. The day was always going to end in a sprint, and Wout van Aert delivered it emphatically at Villars-les-Dombes (Parc des Oiseaux), beating Hugo Hofstetter and Phil Bauhaus. Baudin finished in the bunch to retain the yellow jersey.",
+    "gcConsequence": "A sprint stage with no GC change; Baudin held the lead for a fifth straight day."
+  },
+  "gcImpact": {
+    "headline": "GC frozen before the mountains; Baudin in yellow",
+    "body": "The GC was unchanged ahead of the mountain weekend: Baudin in yellow, Vauquelin and Onley at +0:12, Jorgenson at +0:15, Ayuso and Skjelmose at +0:47, del Toro at +1:16. Everything would be decided on stages 6, 7 and 8."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter", "position": 1, "gap": "0:00",
+      "narrative": "Van Aert capped a strong Visma week — the team had won the stage 3 TTT — by taking the bunch sprint in commanding fashion at the Parc des Oiseaux. A confidence-building win for the Belgian ahead of his summer goals.",
+      "keyMoments": [
+        { "km": 12, "what": "Break caught; Visma controlled the run-in for the sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-auvergne-rhone-alpes-2026/stage-5-results-tara-2026/", "publication": "Cycling Stage", "title": "Stage 5 results & report — Tour Auvergne-Rhône-Alpes 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_Auvergne-Rh%C3%B4ne-Alpes", "publication": "Wikipedia", "title": "2026 Tour Auvergne-Rhône-Alpes", "lang": "en" }
+  ]
+}
