@@ -1,0 +1,75 @@
+{
+  "raceId": "figueira-champions-classic-2026",
+  "raceName": "Figueira Champions Classic",
+  "raceDate": "2026-02-14",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Home favourite António Morgado defended his Figueira Champions Classic title, outsprinting Alex Aranburu in a two-man dash to the line after the pair escaped on the final ramp inside the last 6 km. UAE Team Emirates set the race up — Brandon McNulty did the splitting, then dropped back to protect the lead group — and 21-year-old Pau Martí (NSN) took third at nine seconds, a strong day for the Portuguese under-23 generation on a wind-swept day in Figueira da Foz.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "António Morgado", "team": "UAE Team Emirates - XRG", "time": "4h 19m 13s" },
+    { "position": 2, "riderId": null, "name": "Alex Aranburu", "team": "Cofidis", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Pau Martí", "team": "NSN Cycling Team", "gap": "+0:09" },
+    { "position": 4, "riderId": null, "name": "Jarno Widar", "team": "Lotto Intermarché", "gap": "+0:09" },
+    { "position": 5, "riderId": null, "name": "Ion Izagirre", "team": "Cofidis", "gap": "+0:09" },
+    { "position": 6, "riderId": "brandon-mcnulty", "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:09" },
+    { "position": 7, "riderId": null, "name": "Marc Hirschi", "team": "Tudor Pro Cycling Team", "gap": "+0:21" },
+    { "position": 8, "riderId": null, "name": "Felix Großschartner", "team": "UAE Team Emirates - XRG", "gap": "+0:21" },
+    { "position": 9, "riderId": null, "name": "Daniel Felipe Martínez", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:21" },
+    { "position": 10, "riderId": null, "name": "Thomas Gloag", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "+0:21" }
+  ],
+  "narrative": {
+    "headline": "Morgado defends at home, beating Aranburu in a two-up sprint",
+    "openingMoves": "192.7 km on the Figueira da Foz loops, raced under the strong winds that hit Portugal and Spain that Saturday — the same gusts that forced the neutralisation of the Vuelta a Murcia's final stage. An early break of five home riders — Rafael Reis, Pedro Pinto, Diogo Narciso, Diogo Pinto and Daniel Viegas — went clear and was given a leash through the long opening section before the race converged on the finishing circuit.",
+    "raceUnfolds": "The finishing circuit — three laps, each with two climbs — is where the race ignited. Pinto went solo, then was reeled in by Reis along with Cedric Beullens and Iker Gómez bridging from the bunch. With two laps to go Brandon McNulty attacked out of the peloton and took Daniel Martínez, Max Poole and Riley Sheehan with him; the dangerous quartet hung out front for a long stretch before the bunch's firepower pulled them back into the final lap.",
+    "decision": "McNulty went again on the circuit's big climb on the last lap, this time dragging clear a select group of António Morgado, Alex Aranburu, Tom Gloag, Pau Martí, Jarno Widar and Daniel Martínez. McNulty then sacrificed his own chances, riding to keep the group clear of the chasing remnants of the peloton — a textbook UAE set-up for his leader.",
+    "finale": "On the final ramp, just under 6 km out, Aranburu attacked first; Morgado countered on the steepest pitch and only the Basque could follow. The two collaborated to the line, and despite Aranburu's reputation as a fast finisher, Morgado's explosivity told — a second consecutive Figueira win for the 22-year-old home rider. Pau Martí led the chase group home for third at nine seconds, ahead of Widar and Izagirre; Hirschi headed the next group at +21."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 30, "location": "Finishing circuit — early laps", "headline": "McNulty's first move splinters the race", "description": "With two laps to go Brandon McNulty attacked from the peloton with Daniel Martínez, Max Poole and Riley Sheehan. The quartet held a meaningful gap before the bunch hauled them back into the last lap — but the move softened the field for what came next." },
+    { "kmFromFinish": 12, "location": "Circuit big climb — final lap", "headline": "McNulty splits it for good, then sacrifices himself", "description": "McNulty attacked the major climb again on the last lap, this time forming the decisive group of Morgado, Aranburu, Martí, Widar, Gloag and Martínez. He then drilled the front to keep the group clear, working for leader Morgado rather than his own result." },
+    { "kmFromFinish": 6, "location": "Final ramp", "headline": "Aranburu attacks, Morgado counters — two clear", "description": "Aranburu jumped first on the closing ramp; Morgado answered on the steepest pitch and only Aranburu could hold the wheel. The pair worked together to the finish, where Morgado's sprint settled a two-up dash for the title." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Title defended, perfect team race",
+      "verdictClass": "win",
+      "narrative": "A model UAE one-day performance and the team's second win of the day after Marc Soler's overall at the Vuelta a Murcia. Brandon McNulty was the engine — splitting the race twice and then burying himself to protect the lead group — while Felix Großschartner gave the squad another card up the road (8th). Leader António Morgado finished it off, countering Aranburu on the final ramp and winning the two-up sprint for back-to-back Figueira titles. Win number 10 of the season for UAE.",
+      "riderIds": ["brandon-mcnulty"]
+    },
+    {
+      "team": "Cofidis",
+      "verdict": "2nd and 5th, just short",
+      "verdictClass": "neutral",
+      "narrative": "Cofidis put two riders in the front group and very nearly won: Alex Aranburu forced the move on the final ramp and was the only rider able to go with Morgado, but came up short in the two-man sprint for second. Veteran Ion Izagirre backed him up in fifth from the chase group at nine seconds. A strong, aggressive day that lacked only the finishing kick.",
+      "riderIds": []
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Martí 3rd at 21",
+      "verdictClass": "win",
+      "narrative": "A landmark result for the small NSN outfit and for 21-year-old Pau Martí, who made the decisive selection over the circuit's final-lap climb and then sprinted to third behind the escaped leaders. A podium against WorldTour firepower is the headline ride of the team's day and an early-season marker for one of the under-23 talents the race always seems to surface.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Widar 4th in the chase",
+      "verdictClass": "neutral",
+      "narrative": "Climber Jarno Widar made the final-lap split and contested the chase-group sprint, taking fourth at nine seconds. A punchy day for a rider better known for the high mountains, and a sign of the 20-year-old's range on a hilly classic finish.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Back-to-back at home, and a stamp on the Portuguese spring",
+    "quotes": [],
+    "body": "Morgado's second straight Figueira title puts him level with Casper Pedersen on the race's honour roll behind only his own brace, and confirms the 22-year-old as the headline name of his home calendar. The result also underscored UAE's early-season depth — two wins in a day across two countries — and gave Pau Martí a podium that announced him as one of the spring's young riders to watch."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/figueira-champions-classic/2026/result", "publication": "ProCyclingStats", "title": "Figueira Champions Classic 2026 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-figueira-champions-classic-2026-antonio-morgado-revalidates-title-with-sprint-victory-over-alex-aranburu", "publication": "CyclingUpToDate", "title": "António Morgado revalidates title with sprint victory over Alex Aranburu", "lang": "en" },
+    { "url": "https://www.cyclingranking.com/races/2026/figueira-champions-classic", "publication": "CyclingRanking", "title": "Results Figueira Champions Classic 2026", "lang": "en" },
+    { "url": "https://www.velo-club.net/resultats/figueira-champions-classic-morgado-resultat/", "publication": "Velo-Club", "title": "António Morgado remporte la Figueira Champions Classic", "lang": "fr" }
+  ]
+}
