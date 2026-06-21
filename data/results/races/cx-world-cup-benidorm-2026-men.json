@@ -1,0 +1,78 @@
+{
+  "raceId": "cx-world-cup-benidorm-2026-men",
+  "raceName": "UCI Cyclocross World Cup Benidorm — Men Elite",
+  "raceDate": "2026-01-18",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "inProgress": false,
+  "tldr": "Mathieu van der Poel went solo at the end of the opening lap and rode the entire field off his wheel on the dusty Benidorm hills, taking his sixth World Cup round win of the season and clinching the overall 2025–2026 UCI Cyclo-cross World Cup. Thibau Nys dropped home-favourite Felipe Orts on the last lap for second; Orts held on for a Spanish-soil podium in third.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech", "time": "1h 01m 04s" },
+    { "position": 2, "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:28" },
+    { "position": 3, "name": "Felipe Orts", "team": "Ridley Racing Team", "gap": "+0:32" },
+    { "position": 4, "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "gap": "+0:44" },
+    { "position": 5, "name": "Niels Vandeputte", "team": "Alpecin-Premier Tech Development Team", "gap": "+0:44" },
+    { "position": 6, "name": "Mees Hendrikx", "team": "Heizomat - Cube", "gap": "+0:45" },
+    { "position": 7, "name": "Joris Nieuwenhuis", "team": "Ridley Racing Team", "gap": "+0:46" },
+    { "position": 8, "name": "Martin Groslambert", "team": "Sebmotobikes CX Team", "gap": "+0:48" },
+    { "position": 9, "name": "Toon Aerts", "team": "Charles Liégeois - Deschacht", "gap": "+0:52" },
+    { "position": 10, "name": "Joran Wyseure", "team": "Crelan - Corendon", "gap": "+0:56" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel solos from lap one; Nys edges Orts for second on home dust",
+    "openingMoves": "Benidorm's Costa Blanca circuit — fast, dry, dusty and punchy rather than the deep mud of the Belgian rounds — favoured raw power, and the world champion had it. Van der Poel slipped slightly off the line and let Tibor Del Grosso take the holeshot, but the race turned on the first pass over the hurdles: Toon Aerts crashed on Van der Poel's wheel and briefly blocked the chasers, handing Van der Poel and Del Grosso an instant gap.",
+    "raceUnfolds": "Van der Poel needed no second invitation. He accelerated away at the end of the opening lap and was never seen again by the front of the race. By the end of lap two a reshuffled chase group — Nys, Nieuwenhuis, Vandeputte, Hendrikx, Orts, Aerts, Del Grosso and others — sat around 30 seconds adrift and made no real impression. Nieuwenhuis tried a dig on lap three, the group swelled again as the mid-race pace eased, and Nys even swapped bikes in a lull, but the leader's margin held comfortably.",
+    "decision": "The win was decided by the lap-one move; the only live contest was for the minor podium steps. On lap five Spanish champion Felipe Orts attacked in front of his home crowd and opened a small gap, with Nys bridging across. The pair briefly trimmed about seven seconds from Van der Poel's lead but were never a threat to the win.",
+    "finale": "On the final lap Nys accelerated and dropped Orts, who made a mistake at the worst moment, to take second at +0:28. Orts recovered to hold third at +0:32 and celebrate a podium on home soil. Van der Poel crossed alone in 1h 01m 04s — his sixth World Cup round victory of the campaign and the result that sealed the overall series title."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Lap 1 hurdles", "headline": "Aerts crash opens the door", "description": "Toon Aerts crashed on Van der Poel's wheel at the first hurdle pass, briefly blocking the chasers and gifting Van der Poel and Del Grosso an early gap." },
+    { "kmFromFinish": null, "location": "End of lap 1", "headline": "Van der Poel goes solo", "description": "Van der Poel accelerated clear at the end of the opening lap and was never brought back, building roughly 30 seconds by the end of lap two." },
+    { "kmFromFinish": null, "location": "Final lap", "headline": "Nys drops Orts for second", "description": "After Orts had attacked on lap five and Nys bridged, Nys kicked clear on the last lap as Orts made a mistake, settling second and third." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Win + 4th + 5th",
+      "verdictClass": "win",
+      "narrative": "A total Alpecin show. Mathieu van der Poel did exactly what he had done all winter — turned a single early opening into an unbridgeable gap — and his teammates filled the placings behind: Tibor Del Grosso took the holeshot and finished fourth, while development-squad rider Niels Vandeputte was fifth. Benidorm sealed the world champion's overall World Cup title in a season he never lost a round he started.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "Best of the rest, 2nd",
+      "verdictClass": "neutral",
+      "narrative": "With the win never on the table once Van der Poel was gone, Thibau Nys raced for the best available result and got it — patient through the mid-race lull, then decisive on the final lap to drop Felipe Orts and claim second. A clean afternoon of damage limitation against an unbeatable leader.",
+      "riderIds": []
+    },
+    {
+      "team": "Ridley Racing Team",
+      "verdict": "Home podium (3rd) + 7th",
+      "verdictClass": "win",
+      "narrative": "Spanish champion Felipe Orts lit up his home round, attacking on lap five to force the podium fight before being narrowly dropped by Nys on the last lap — third on home soil, the standout Spanish result of the World Cup. Joris Nieuwenhuis backed it up in seventh.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "A signature Van der Poel cyclocross win on terrain — fast, dry, power-based — that suited him perfectly. He used the lap-one hurdles crash to open a gap and simply rode away, soloing from the end of the first lap to the line for his sixth World Cup round win of the season and remaining unbeaten in every round he started. The victory clinched his second career overall UCI Cyclo-cross World Cup title and carried him into the road season in dominant form.",
+      "keyMoments": [
+        { "lap": 1, "what": "Accelerated clear at the end of the opening lap and was never brought back" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [ { "name": "Toon Aerts", "team": "Charles Liégeois - Deschacht", "detail": "Crashed at the first hurdle pass on lap one, briefly blocking the chasers; recovered to finish ninth." } ], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Overall World Cup sealed; into the road season unbeaten",
+    "quotes": [],
+    "body": "Benidorm was the round that mathematically locked up the 2025–2026 UCI Cyclo-cross World Cup overall for Van der Poel, his second series title, capping a winter in which he never lost a round he started. For Nys, second confirmed his status as the clear best of the chasers all season; for Orts, third in front of a Spanish crowd was a career-highlight World Cup podium on home soil."
+  },
+  "sources": [
+    { "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2025-2026/benidorm-3", "publication": "UCI Cyclo-cross World Cup (Flanders Classics)", "title": "Benidorm — Calendar / Results", "lang": "en" },
+    { "url": "https://cx.procyclingstats.com/race2/cyclocross-benidorm/2026/me/results", "publication": "ProCyclingStats", "title": "Cyclocross Benidorm 2026 — Men Elite results", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/uci-cyclo-cross-world-cup-benidorm-2026/result", "publication": "CyclingFlash", "title": "UCI Cyclo-cross World Cup Benidorm 2026 — Men results", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/uci-cyclo-cross-world-cup-benidorm-mathieu-van-der-poel-devastates-opposition-with-stunning-solo-long-distance-attack/", "publication": "Cyclingnews", "title": "Van der Poel devastates opposition with stunning solo long-distance attack", "lang": "en" }
+  ]
+}

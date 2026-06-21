@@ -1,0 +1,67 @@
+{
+  "raceId": "cx-world-cup-benidorm-2026-women",
+  "raceName": "UCI Cyclocross World Cup Benidorm — Women Elite",
+  "raceDate": "2026-01-18",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "inProgress": false,
+  "tldr": "Lucinda Brand attacked at the end of lap two and soloed to victory on the dusty Benidorm circuit, securing her second consecutive overall 2025–2026 UCI Cyclo-cross World Cup title. Ceylin del Carmen Alvarado was the strongest of the chasers in second, with France's Amandine Fouquenet best of the rest for third.",
+  "podium": [
+    { "position": 1, "name": "Lucinda Brand", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "time": "52m 01s" },
+    { "position": 2, "name": "Ceylin del Carmen Alvarado", "team": "Fenix - Premier Tech", "gap": "+0:10" },
+    { "position": 3, "name": "Amandine Fouquenet", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+0:12" },
+    { "position": 4, "name": "Célia Gery", "team": "AS Bike Racing / France Literie", "gap": "+0:12" },
+    { "position": 5, "name": "Kristýna Zemanová", "team": "VIF Cycling Team", "gap": "+0:52" },
+    { "position": 6, "name": "Shirin van Anrooij", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:59" },
+    { "position": 7, "name": "Fleur Moors", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+1:08" },
+    { "position": 8, "name": "Marie Schreiber", "team": "Team SD Worx - Protime", "gap": "+1:14" },
+    { "position": 9, "name": "Kata Blanka Vas", "team": "Team SD Worx - Protime", "gap": "+1:25" },
+    { "position": 10, "name": "Zoe Backstedt", "team": "Canyon//SRAM Racing zondacrypto", "gap": "+1:27" }
+  ],
+  "narrative": {
+    "headline": "Brand solos to the win and clinches a second straight overall World Cup",
+    "openingMoves": "Brand arrived in Benidorm already leading the World Cup standings and as the most consistent rider of the winter. The Costa Blanca course — dry, dusty and power-favouring rather than muddy — suited a strength rider, and Brand controlled the opening from the front of a tight lead group.",
+    "raceUnfolds": "The decisive move came at the end of lap two, when Brand accelerated and went clear on her own. From there she rode solo at the front, progressively stretching her advantage through the middle and closing laps without ever being seriously threatened.",
+    "decision": "With Brand gone, the race behind became a fight for the remaining podium places. Ceylin del Carmen Alvarado established herself as the strongest pursuer and settled into a secure second, while a small chasing group disputed third.",
+    "finale": "Brand crossed alone in 52m 01s. Alvarado came home at +0:10 for second; France's Amandine Fouquenet emerged best of the rest at +0:12 to take third, just edging compatriot Célia Gery on the same time in fourth. The win sealed Brand's second consecutive overall UCI Cyclo-cross World Cup title."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "End of lap 2", "headline": "Brand goes solo", "description": "Lucinda Brand attacked at the end of the second lap and went clear alone, never to be brought back." },
+    { "kmFromFinish": null, "location": "Mid-to-late race", "headline": "Alvarado settles into second", "description": "Ceylin del Carmen Alvarado distanced the rest of the chasers to secure second behind the soloing Brand." },
+    { "kmFromFinish": null, "location": "Final lap", "headline": "Fouquenet takes third by inches", "description": "Amandine Fouquenet emerged best of the chasing group for third at +0:12, just ahead of Célia Gery on the same time." }
+  ],
+  "teamStories": [
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "Win + 6th + 7th",
+      "verdictClass": "win",
+      "narrative": "A dominant team afternoon. Lucinda Brand did the headline work — a clean lap-two solo that delivered the win and locked up her second straight overall World Cup title — while teammates Shirin van Anrooij (6th) and Fleur Moors (7th) packed the chase behind. The depth underlined why Baloise controlled the women's series all winter.",
+      "riderIds": []
+    },
+    {
+      "team": "Fenix - Premier Tech",
+      "verdict": "Best of the rest, 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Ceylin del Carmen Alvarado was the only rider who could respond once Brand was gone, pulling clear of the rest of the chasers to take a solo second at +0:10. No answer to the winner, but comfortably the strongest of the pursuit.",
+      "riderIds": []
+    },
+    {
+      "team": "Pauwels Sauzen - Altez Industriebouw",
+      "verdict": "Podium, 3rd",
+      "verdictClass": "win",
+      "narrative": "France's Amandine Fouquenet won the scrap for the final podium step, taking third at +0:12 and just holding off compatriot Célia Gery on the same time — a standout World Cup result against a deep field.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Brand makes it two World Cup titles in a row",
+    "quotes": [],
+    "body": "Benidorm confirmed Lucinda Brand as the 2025–2026 UCI Cyclo-cross World Cup overall winner for the second year running, the reward for the most consistent women's campaign of the winter. Alvarado's second extended a strong run as the closest challenger, while Fouquenet's third capped an excellent series for the French rider."
+  },
+  "sources": [
+    { "url": "https://www.ucicyclocrossworldcup.com/en/calendar/2025-2026/benidorm-3", "publication": "UCI Cyclo-cross World Cup (Flanders Classics)", "title": "Benidorm — Calendar / Results", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/uci-cyclo-cross-world-cup-benidorm-we-2026/result", "publication": "CyclingFlash", "title": "UCI Cyclo-cross World Cup Benidorm 2026 — Women results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UCI_Cyclo-cross_World_Cup", "publication": "Wikipedia", "title": "2025–26 UCI Cyclo-cross World Cup — Benidorm round", "lang": "en" }
+  ]
+}
