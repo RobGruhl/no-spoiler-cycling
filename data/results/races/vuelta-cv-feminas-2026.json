@@ -1,0 +1,83 @@
+{
+  "raceId": "vuelta-cv-feminas-2026",
+  "raceName": "Vuelta CV Féminas",
+  "raceDate": "2026-02-08",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Liane Lippert (Movistar Team) won the 8th Vuelta CV Féminas (VCV Féminas GP Tuawa) with a late solo move, slipping clear in the closing kilometres after her team controlled the finale and just holding off the chasing front group along the long seafront straight into Valencia. Shari Bossuyt (AG Insurance-Soudal) won the sprint behind for second, with Lippert's teammate Cat Ferguson third — a home-style one-two on the podium for Movistar on Spanish roads.",
+  "podium": [
+    { "position": 1, "riderId": "liane-lippert", "name": "Liane Lippert", "team": "Movistar Team", "time": "2h 33m 01s" },
+    { "position": 2, "riderId": null, "name": "Shari Bossuyt", "team": "AG Insurance - Soudal Team", "gap": "+0:06" },
+    { "position": 3, "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team", "gap": "+0:06" },
+    { "position": 4, "riderId": "eleonora-camilla-gasparrini", "name": "Eleonora Camilla Gasparrini", "team": "UAE Team ADQ", "gap": "+0:06" },
+    { "position": 5, "riderId": "anna-henderson", "name": "Anna Henderson", "team": "Lidl - Trek", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Lippert times a late solo to perfection as Movistar lock out the front of the race",
+    "openingMoves": "The 8th edition of the Vuelta CV Féminas (officially the VCV Féminas GP Tuawa) ran 93.8 km from Bétera to a finish at Valencia's Marina — the same course the men contested a few hours earlier. Sixteen teams from Spain, Norway, the United States, Belgium, the UAE, France, Italy, Australia and the United Kingdom lined up, and after a relatively flat opening out of Bétera an early break went up the road on a short leash from the sprinter- and puncheur-led peloton.",
+    "raceUnfolds": "The two ascents of the Puerto del Garbí were the day's hinge point, the long climb thinning the bunch and stripping out the pure fast finishers. Movistar drove the selection hard, setting up two options at once: a reduced-group sprint and, in reserve, a late attack. As Spanish champion Sara Martín explained afterwards, the original plan was to wear down the remaining sprinters with a high tempo — until Lippert got a few metres of daylight and the team eased off its own attacks to commit fully behind her.",
+    "decision": "That switch triggered a roughly 10-kilometre chase by the group behind, but the decisive blow came late: Lippert kicked clear in the closing kilometres — solo with about 3 km to go — and committed everything to staying away. Movistar's numbers in the front group meant the chasers had to do the work while the German rode for the line.",
+    "finale": "Entering Valencia on the long, exposed straight running parallel to Malvarrosa beach, it briefly looked as though Lippert would be swept up, but she held on all the way to the line. Six seconds back, Shari Bossuyt won the gallop for second ahead of Movistar's 19-year-old Cat Ferguson, with Eleonora Camilla Gasparrini (UAE Team ADQ) and Anna Henderson (Lidl - Trek) completing the top five, all on the same time."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 40, "location": "Puerto del Garbí", "headline": "Garbí splits the race", "description": "The two ascents of the long Puerto del Garbí climb (roughly 5 km at ~7%) were the day's key selection point, thinning the peloton and dropping the pure sprinters to leave a reduced front group." },
+    { "kmFromFinish": 10, "location": "run-in to Valencia", "headline": "Movistar control, then commit to Lippert", "description": "Movistar had set up a high tempo to wear down the remaining sprinters; when Lippert gained a few metres the team eased off its own attacks to ride for her, sparking a roughly 10 km chase from the group behind." },
+    { "kmFromFinish": 3, "location": "approach to Valencia's Marina", "headline": "Lippert goes solo", "description": "Lippert launched her decisive solo move with about 3 km remaining and committed fully, the chasing front group unable to organise quickly enough to bring her back." },
+    { "kmFromFinish": 0, "location": "Malvarrosa beach straight, Valencia", "headline": "Held to the line", "description": "On the long seafront straight it looked as though Lippert might be caught, but she held on by six seconds as Shari Bossuyt won the sprint behind for second from Cat Ferguson." }
+  ],
+  "teamStories": [
+    {
+      "team": "Movistar Team",
+      "verdict": "Lippert solo + Ferguson 3rd",
+      "verdictClass": "win",
+      "narrative": "Movistar rode a textbook two-pronged finale on a course they clearly relished. They drove the Garbí selection to strip out the sprinters, then set a high tempo to wear down the survivors — and when Liane Lippert found a gap, Sara Martín and company immediately shut down their own attacks to commit behind her. Lippert's late solo and the team's blocking numbers in the front group did the rest, while 19-year-old Cat Ferguson capped a perfect day by taking third in the sprint behind. It made Movistar the only women's team to win the VCV Féminas twice, after Floortje Mackaij's 2023 victory, also in Movistar colours.",
+      "riderIds": ["liane-lippert", "cat-ferguson"]
+    },
+    {
+      "team": "AG Insurance - Soudal Team",
+      "verdict": "Bossuyt 2nd in sprint",
+      "verdictClass": "neutral",
+      "narrative": "With Movistar holding the front of the race and Lippert up the road, AG Insurance-Soudal's Shari Bossuyt was left to race for the best of the rest. She delivered, winning the gallop of the chasing group for second at six seconds — a strong early-season marker even if the win was beyond reach once Movistar committed to their solo move.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Gasparrini 4th",
+      "verdictClass": "neutral",
+      "narrative": "UAE Team ADQ kept Eleonora Camilla Gasparrini in the front group over the Garbí and into Valencia, and the young Italian took fourth in the bunch sprint behind Lippert. A solid opening result on a punchy course, confirming her as one of the squad's emerging one-day cards alongside her spring ambitions.",
+      "riderIds": ["eleonora-camilla-gasparrini"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "eleonora-camilla-gasparrini", "name": "Eleonora Camilla Gasparrini", "team": "UAE Team ADQ",
+      "role": "leader", "position": 4, "gap": "+0:06",
+      "narrative": "Gasparrini survived the selection on the two ascents of the Garbí to make the reduced front group, exactly where UAE Team ADQ needed her on this punchy course. Once Lippert slipped clear in the closing kilometres there was no answer to the Movistar solo, but Gasparrini was sharp in the gallop behind, taking fourth on the same time as the second and third placed riders. A clean early-season ride that fits the trajectory of a rider building toward her one-day classics targets.",
+      "keyMoments": [
+        { "km": 40, "what": "Made the front-group selection over the Puerto del Garbí" },
+        { "km": 0, "what": "Sprinted to fourth in the chasing group, six seconds behind solo winner Lippert" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A statement opener for Movistar — and a special day in Spain for Lippert",
+    "quotes": [
+      { "rider": "Sara Martín", "team": "Movistar Team", "quote": "We were planning to set a hard pace to wear down the sprinters, but Liane went a few metres clear and we eased off the attacks." },
+      { "rider": "Liane Lippert", "team": "Movistar Team", "quote": "It was emotional to hear the fans constantly calling my name. It's true that I have a special relationship with Spain." }
+    ],
+    "body": "On a course shared with the men's race and decided by the Garbí, Movistar turned tactical flexibility into a dominant result — winning the race and putting two riders on the podium. For Lippert it was an emotional victory on roads she loves, and the win made Movistar the first women's team to take the VCV Féminas twice. Behind her, Bossuyt's second and Gasparrini's fourth were the standout markers from a deep, international field at this early point in the season."
+  },
+  "sources": [
+    { "url": "https://vueltacv.com/en/liane-lippert-wins-the-vcv-feminas-in-a-dream-race/", "publication": "VCV (Volta a la Comunitat Valenciana)", "title": "Liane Lippert wins the VCV Féminas in a dream race", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/vuelta-cv-feminas/2026/race-results/", "publication": "Domestique", "title": "Vuelta CV Feminas 2026 - Race results", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/vuelta-cv-feminas-we-2026/result", "publication": "Cyclingflash", "title": "Vuelta CV Feminas 2026 - Results", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/vuelta-cv-feminas-liane-lippert-grabs-victory-with-late-solo-move-after-perfect-teamwork-from-movistar/", "publication": "Cyclingnews", "title": "Vuelta CV Feminas: Liane Lippert grabs victory with late solo move after perfect teamwork from Movistar", "lang": "en" },
+    { "url": "https://www.youtube.com/watch?v=iPXi-feXUB4", "publication": "TNT Sports", "title": "SNEAKY MOVE! | Vuelta CV Feminas Final KM's", "lang": "en" }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "raceId": "navarra-womens-classic-2026",
+  "raceName": "Navarra Women's Classic",
+  "raceDate": "2026-05-12",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Cat Ferguson (Movistar Team) won the 2026 Navarra Women's Elite Classic from a small front group in Pamplona, out-sprinting Ruby Roseman-Gannon (Liv AlUla Jayco) and Fiona Mangan (Mayenne Monbana My Pie) at the end of a selective 133.4 km day over the rolling Navarran walls. The 20-year-old Briton became the first rider to win the race twice. A series of muros in the final third splintered the peloton, sweeping up the day's early break, and the reduced lead group came back together for a sprint that Ferguson controlled from the front.",
+  "podium": [
+    { "position": 1, "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team", "time": "3h 37m 23s" },
+    { "position": 2, "riderId": null, "name": "Ruby Roseman-Gannon", "team": "Liv AlUla Jayco", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Fiona Mangan", "team": "Mayenne Monbana My Pie", "gap": "+0:00" },
+    { "position": 4, "riderId": null, "name": "Fleur Moors", "team": "Lidl - Trek", "gap": "+0:00" },
+    { "position": 5, "riderId": null, "name": "Nina Berton", "team": "EF Education-Oatly", "gap": "+0:00" },
+    { "position": 6, "riderId": null, "name": "Pfeiffer Georgi", "team": "Team Picnic PostNL", "gap": "+0:00" },
+    { "position": 7, "riderId": null, "name": "Arianna Fidanza", "team": "Laboral Kutxa - Fundación Euskadi", "gap": "+0:00" },
+    { "position": 8, "riderId": null, "name": "Katie Scott", "team": "DAS - Hutchinson", "gap": "+0:00" },
+    { "position": 9, "riderId": null, "name": "Julia Borgström", "team": "Hitec Products - Fluid Control", "gap": "+0:00" },
+    { "position": 10, "riderId": null, "name": "Sandra Alonso", "team": "Spain", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Ferguson doubles up in Pamplona, mastering a sprint from a reduced group",
+    "openingMoves": "The 133.4 km race around Pamplona packed in roughly 1,805 m of climbing across nine classified muros, the kind of short, sharp southern-European walls that wear a peloton down rather than blow it apart in one go. A break of six went clear over the opening climbs, with Megan Arens (Team Picnic PostNL) the most active, letting the bigger teams sit on with a rider up the road.",
+    "raceUnfolds": "As the race entered its second half the early break's advantage began to fall, and a counter-attacking group jumped across from the peloton — Mara Roldan among them — bridging up to the leaders. Arens was the last survivor of the original move able to live with the new pace, taking strong pulls to keep the merged front group around a minute clear heading into the steepest climb of the day.",
+    "decision": "The steepest muro in the final third was the main selection point. The high pace there finally swept up or dropped the remnants of the early break and thinned the front into a reduced group of the strongest puncheurs and classics riders. Roldan was among those distanced; Pfeiffer Georgi made it over in the front selection. Over the top, with attacks failing to stick on the rolling run-in, the race condensed toward a sprint.",
+    "finale": "On the slightly rising finish the reduced lead group came together and Cat Ferguson launched a long, controlled sprint, holding off Ruby Roseman-Gannon and Fiona Mangan to take the win. Fleur Moors and Nina Berton completed the top five, all credited with the same time, while Georgi led the chase for sixth. The victory made Ferguson the first two-time winner of the race."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 110, "location": "Opening muros", "headline": "Six go clear, Arens active", "description": "A break of six formed over the early climbs, with Megan Arens (Team Picnic PostNL) the most prominent. The bigger teams allowed it room, content to control from the peloton with a rider represented up front." },
+    { "kmFromFinish": 60, "location": "Mid-race", "headline": "Counter bridges across", "description": "As the break's lead fell in the second half, a counter-attacking group including Mara Roldan jumped from the peloton and bridged to the front, merging into a stronger lead group that hovered around a minute clear." },
+    { "kmFromFinish": 30, "location": "Steepest muro", "headline": "The race splinters on the wall", "description": "The steepest climb of the day was the decisive selection point. The pace dropped the breakaway remnants and reduced the front to the strongest classics riders; Roldan was distanced while Pfeiffer Georgi made the front group." },
+    { "kmFromFinish": 0.2, "location": "Pamplona finish", "headline": "Ferguson controls the sprint", "description": "On the rising finish the reduced group regrouped for a sprint, and Cat Ferguson opened a long effort to hold off Ruby Roseman-Gannon and Fiona Mangan for her second Navarra title." }
+  ],
+  "teamStories": [
+    {
+      "team": "Movistar Team",
+      "verdict": "Ferguson wins again",
+      "verdictClass": "win",
+      "narrative": "Movistar set up the finish for Cat Ferguson on a parcours that suited her perfectly — selective enough to shed the pure sprinters, but coming back together for a fast finish she could win from the front. The 20-year-old delivered, becoming the first two-time winner of the Navarra Women's Elite Classic and adding another marquee one-day result to a season built around the spring classics and a debut Giro d'Italia Women.",
+      "riderIds": ["cat-ferguson"]
+    },
+    {
+      "team": "Liv AlUla Jayco",
+      "verdict": "Roseman-Gannon 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Ruby Roseman-Gannon was the best of the rest, surviving the selective walls in the reduced front group and taking second in the sprint behind Ferguson. A strong day on hilly terrain for the Australian, who timed her finish well but had no answer to the winner's long effort.",
+      "riderIds": []
+    },
+    {
+      "team": "Mayenne Monbana My Pie",
+      "verdict": "Mangan rounds out the podium, 3rd",
+      "verdictClass": "win",
+      "narrative": "Fiona Mangan capped an excellent ride for the French Continental squad with third place from the front group, a standout result for the team against WorldTour and ProTeam opposition on a demanding course.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Picnic PostNL",
+      "verdict": "Active all day, Georgi 6th",
+      "verdictClass": "neutral",
+      "narrative": "On their first appearance at the race, Picnic PostNL animated it from the gun. Megan Arens made the early break of six and was its last survivor in the merged front group, taking long pulls to keep it clear before the decisive wall. Mara Roldan bridged across in the counter-move but was distanced on the steepest climb as she works back from an injury-hit start to 2026. Pfeiffer Georgi was positioned into the reduced front group and produced the team's result with sixth in the sprint.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "cat-ferguson",
+      "name": "Cat Ferguson",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Ferguson rode a controlled, classics-rider's race, staying in the front selection over the decisive walls in the final third and refusing to let any late move slip away on the rolling run-in. When the reduced group regrouped for the sprint on the rising finish, she launched early and held a long effort to the line, out-sprinting Ruby Roseman-Gannon and Fiona Mangan. The win made the 20-year-old Briton the first two-time winner of the Navarra Women's Elite Classic and underlined her standing as one of the peloton's most complete young all-rounders.",
+      "keyMoments": [
+        { "km": 30, "what": "Made the front selection over the steepest muro that split the race" },
+        { "km": 0.2, "what": "Launched a long sprint from the reduced group to win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "A second Navarra title in a breakout classics spring",
+    "quotes": [],
+    "body": "Ferguson's win in Pamplona continued a standout 2026 spring for the young Movistar rider, who built her programme around the spring classics and a debut Giro d'Italia Women. Becoming the first rider to win the Navarra Women's Elite Classic twice added a notable one-day result to a season already marked by an early-season win in Spain, and reinforced her case as one of the leading all-rounders of her generation."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/navarra-women-s-elite-classics/2026/result", "publication": "ProCyclingStats", "title": "Navarra Women's Elite Classic 2026 - Results", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/cat-ferguson-blasts-from-small-group-for-victory-at-navarra-womens-elite-classic/", "publication": "Cyclingnews", "title": "Cat Ferguson blasts from small group for victory at Navarra Women's Elite Classic", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/racing/cat-ferguson-doubles-up-with-sprint-victory-at-spanish-one-day-race", "publication": "Cycling Weekly", "title": "Cat Ferguson doubles up with sprint victory at Spanish one-day race", "lang": "en" },
+    { "url": "https://www.teampicnicpostnl.com/navarra-womens-elite-classic-race-report/", "publication": "Team Picnic PostNL", "title": "Navarra Women's Elite Classic | Race Report", "lang": "en" }
+  ]
+}
