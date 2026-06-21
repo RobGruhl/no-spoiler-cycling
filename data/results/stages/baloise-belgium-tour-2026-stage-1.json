@@ -1,0 +1,56 @@
+{
+  "raceId": "baloise-belgium-tour-2026",
+  "stageNumber": 1,
+  "stageName": "Scherpenheuvel-Zichem → Scherpenheuvel-Zichem",
+  "stageDate": "2026-06-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Biniam Girmay opened the Baloise Belgium Tour with a sprint win on the 188.3 km loop around Scherpenheuvel-Zichem, taking the first leader's jersey ahead of Tim Merlier and Max Kanter.",
+  "podium": [
+    { "position": 1, "riderId": "biniam-girmay", "name": "Girmay Biniam", "team": "NSN Cycling Team", "time": "4h 05m 50s" },
+    { "position": 2, "riderId": "tim-merlier", "name": "Merlier Tim", "team": "Soudal Quick-Step", "gap": "+0:04" },
+    { "position": 3, "name": "Kanter Max", "team": "XDS Astana Team", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Girmay edges the bunch sprint to grab the first leader's jersey",
+    "body": "The 95th Baloise Belgium Tour began with a 188.3 km circuit-heavy day around Scherpenheuvel-Zichem, a route punchy enough to thin the field but always likely to come down to the fast men. The breakaway of the day was reeled in inside the closing laps and the sprinters' teams set up the finale. In a tight, slightly uphill-tinged dash Biniam Girmay timed his effort best, holding off Tim Merlier and Max Kanter. Søren Wærenskjold, Emilien Jeannière and the other quick finishers were packed into the same second behind. With time bonuses, Girmay took the first overall lead of the race, two seconds clear of Bart Kortleve."
+  },
+  "gcImpact": {
+    "headline": "Girmay into the leader's jersey on bonuses",
+    "body": "Girmay's stage win plus the 10-second winner's bonus put him in the race lead, two seconds ahead of Bart Kortleve (Metec-SOLARWATT) and three over Robbe Mellaerts. Tim Merlier sat fourth at four seconds, with the GC tightly bunched among the sprinters and puncheurs ahead of the harder days to come."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "biniam-girmay",
+      "name": "Girmay Biniam",
+      "team": "NSN Cycling Team",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "A statement opening day for Girmay in his NSN colours. He read the slightly draggy finish perfectly, came off the wheels at the right moment and held off Merlier and Kanter to win the stage and pull on the first leader's jersey. The bonus seconds gave him a small but real overall cushion to defend.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the bunch sprint and took the race lead via time bonuses" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Merlier Tim",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:04",
+      "narrative": "Merlier was right in the mix in the opening sprint but was beaten to the line by Girmay, settling for second. He picked up the runner-up bonus seconds, leaving him fourth on GC and well placed to strike on the flatter sprint days.",
+      "keyMoments": [
+        { "km": 0, "what": "Second in the bunch sprint, took runner-up time bonus" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-1-gc", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 GC after Stage 1", "lang": "en" }
+  ]
+}

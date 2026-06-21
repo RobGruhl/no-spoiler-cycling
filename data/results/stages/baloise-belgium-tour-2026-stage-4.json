@@ -1,0 +1,56 @@
+{
+  "raceId": "baloise-belgium-tour-2026",
+  "stageNumber": 4,
+  "stageName": "Begijnendijk-Betekom → Aarschot",
+  "stageDate": "2026-06-20",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Olav Kooij won the bunch sprint into Aarschot on the 183.4 km stage 4, beating Tim Merlier and Jasper Philipsen. Alex Aranburu kept the overall lead, while Philipsen's sprint bonus lifted him to second on GC.",
+  "podium": [
+    { "position": 1, "riderId": "olav-kooij", "name": "Kooij Olav", "team": "Decathlon CMA CGM Team", "time": "4h 07m 42s" },
+    { "position": 2, "riderId": "tim-merlier", "name": "Merlier Tim", "team": "Soudal Quick-Step", "gap": "+0:00" },
+    { "position": 3, "riderId": "jasper-philipsen", "name": "Philipsen Jasper", "team": "Alpecin-Premier Tech", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Kooij takes the sprint in Aarschot as Aranburu holds the lead",
+    "body": "Stage 4 covered 183.4 km from Begijnendijk-Betekom to Aarschot, a return to flat terrain that handed the initiative back to the sprinters while the GC teams protected Alex Aranburu's slim advantage. A modest break was kept on a short leash and brought back well before the finale. In the bunch sprint Olav Kooij launched late and powered clear of Tim Merlier and Jasper Philipsen for the win — turning the tables on Merlier after his stage 2 defeat. The dash did not split the GC group on time, so the overall stayed intact at the top, though the sprint bonuses reshuffled the minor placings just behind the leader."
+  },
+  "gcImpact": {
+    "headline": "Aranburu keeps yellow; Philipsen climbs to second on bonuses",
+    "body": "Alex Aranburu retained the overall lead after the Aarschot sprint produced no time gaps among the GC men. The bonus seconds, however, lifted Jasper Philipsen to second overall at two seconds, level on time with Jenno Berckmoes (third). Quinten Hermans sat fourth at three seconds and Lewis Askey fifth at four, with Carlos Canal sixth at six. The race-deciding queen stage already run, only the final stage to Hoeilaart remained, leaving the overall delicately poised within a handful of seconds."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Philipsen Jasper",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:00",
+      "narrative": "Philipsen was third in the Aarschot sprint behind Kooij and Merlier, but the bonus seconds he collected proved the most consequential outcome of the day for the standings: they lifted him to second overall at just two seconds off Aranburu. Having survived the Durbuy queen stage well enough to stay in GC range, he is the best-placed of the fast men with one stage to come.",
+      "keyMoments": [
+        { "km": 0, "what": "Third in the bunch sprint; bonus seconds moved him to second on GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Merlier Tim",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Merlier was beaten in a straight sprint for once, getting boxed out of the win by a late-launching Kooij and having to settle for second. Already distanced on GC by the Durbuy climbs, the result was about stage prestige rather than the overall, and on this day Kooij had the better legs.",
+      "keyMoments": [
+        { "km": 0, "what": "Second in the bunch sprint, beaten by Kooij's late kick" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-4-gc", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 GC after Stage 4", "lang": "en" }
+  ]
+}

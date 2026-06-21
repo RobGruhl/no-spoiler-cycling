@@ -1,0 +1,118 @@
+{
+  "raceId": "baloise-belgium-tour-2026",
+  "raceName": "Baloise Belgium Tour",
+  "raceDate": "2026-06-17",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "inProgress": true,
+  "tldr": "Through four of five stages, Alex Aranburu (Cofidis) leads the Baloise Belgium Tour after powering up the Muur van Durbuy to win the stage 3 queen stage and seize the jersey from the sprinters. The opening two flat days went to Biniam Girmay and Tim Merlier, who each briefly led on bonus seconds, and Olav Kooij won the stage 4 sprint in Aarschot. With the GC tight — Jasper Philipsen sits second at just two seconds after picking up sprint bonuses — only the final stage to Hoeilaart remains.",
+  "podium": [
+    { "position": 1, "name": "Aranburu Alex", "team": "Cofidis", "gap": "race leader, GC in progress" },
+    { "position": 2, "riderId": "jasper-philipsen", "name": "Philipsen Jasper", "team": "Alpecin-Premier Tech", "gap": "+0:02" },
+    { "position": 3, "name": "Berckmoes Jenno", "team": "Lotto Intermarché", "gap": "+0:02" }
+  ],
+  "narrative": {
+    "headline": "Aranburu's Durbuy raid flips a sprinters' race on its head",
+    "openingMoves": "The first two stages belonged to the fast men. On the 188.3 km opening loop around Scherpenheuvel-Zichem, Biniam Girmay edged a tight uphill-tinged sprint ahead of Tim Merlier and Max Kanter to take the win and the first leader's jersey on bonus seconds. The next day, a flat 197.6 km run to the coast at Knokke-Heist saw Merlier turn the tables, beating Olav Kooij and Jasper Philipsen and taking over the race lead — leaving the overall to be settled by bonus seconds among the sprinters until the climbs arrived.",
+    "raceUnfolds": "Stage 3 was the queen stage, a 173 km circuit-fest around Durbuy finishing on the savage Muur van Durbuy. After the breakaway was controlled, the climb exploded the race: Lewis Askey opened the uphill sprint but Alex Aranburu came over the top of him in the final metres, with Carlos Canal third. Aranburu took the leader's jersey as Merlier and the pure sprinters were distanced and dropped out of GC contention.",
+    "decision": "The Muur van Durbuy on stage 3 is where the overall was effectively decided — but the margins are tiny. Aranburu leads Philipsen and Berckmoes by just two seconds, so the flat final stage to Hoeilaart and its bonus sprints could still overturn the standings.",
+    "finale": "Not yet raced. Stage 5 (Gingelom → Hoeilaart) takes place on 21 June 2026, after this update."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0, "location": "Scherpenheuvel-Zichem (Stage 1)", "headline": "Girmay grabs the first jersey", "description": "Biniam Girmay won the opening bunch sprint and took the first leader's jersey on bonus seconds, two seconds clear of Bart Kortleve." },
+    { "kmFromFinish": 0, "location": "Knokke-Heist (Stage 2)", "headline": "Merlier takes over the lead", "description": "Tim Merlier won the flat coastal sprint ahead of Kooij and Philipsen, his win and bonus seconds moving him into the overall lead over Girmay." },
+    { "kmFromFinish": 0, "location": "Muur van Durbuy (Stage 3)", "headline": "Aranburu wins the queen stage", "description": "Alex Aranburu surged past Lewis Askey on the brutal final climb to win the queen stage and seize the overall lead, distancing the sprinters who had led the race." },
+    { "kmFromFinish": 0, "location": "Aarschot (Stage 4)", "headline": "Kooij wins the sprint, Philipsen climbs to second", "description": "Olav Kooij took the bunch sprint in Aarschot ahead of Merlier and Philipsen; no GC time gaps opened, but Philipsen's bonus seconds lifted him to second overall, two seconds behind Aranburu." }
+  ],
+  "teamStories": [
+    {
+      "team": "Cofidis",
+      "verdict": "Queen stage + race lead",
+      "verdictClass": "win",
+      "narrative": "Cofidis have the race lead with one stage to go thanks to a perfectly judged ride from Alex Aranburu on the Durbuy queen stage. He timed his uphill sprint to come over the top of Lewis Askey on the Muur van Durbuy, winning the stage and taking the jersey from the sprinters. The challenge now is to defend a two-second margin on a flat final day made for the fast men.",
+      "riderIds": []
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Stage 2 win, lost lead at Durbuy",
+      "verdictClass": "neutral",
+      "narrative": "Tim Merlier delivered the stage 2 sprint win in Knokke-Heist and briefly wore the leader's jersey, but as a pure sprinter he was always going to struggle on the Durbuy climbs, and he lost the lead and dropped out of GC contention on the queen stage. A second place behind Kooij in Aarschot on stage 4 underlined that the legs were there for the flat days but not the hills.",
+      "riderIds": ["tim-merlier"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Stage 4 sprint win",
+      "verdictClass": "win",
+      "narrative": "Olav Kooij banked the stage 4 sprint in Aarschot, launching late to beat Merlier and Philipsen after finishing second to Merlier on stage 2 — a tidy reward on a day the GC was always going to stay quiet at the top.",
+      "riderIds": ["olav-kooij"]
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Stage 1 win + 2nd at Durbuy",
+      "verdictClass": "win",
+      "narrative": "An aggressive, productive week for NSN: Biniam Girmay won the opening stage and the first leader's jersey in a bunch sprint, and Lewis Askey then went close on the queen stage, leading out the Muur van Durbuy sprint only to be passed by Aranburu in the final metres for second. Two different riders contending on two very different stage profiles.",
+      "riderIds": ["biniam-girmay"]
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Second on GC at +0:02",
+      "verdictClass": "neutral",
+      "narrative": "Jasper Philipsen has quietly assembled the best GC position of the sprinters by surviving the Durbuy queen stage and scooping bonus seconds in the bunch finishes. His stage 4 third place in Aarschot lifted him to second overall, just two seconds off Aranburu — putting Alpecin in position to attack the lead on the bonus sprints of the flat final stage.",
+      "riderIds": ["jasper-philipsen"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "biniam-girmay",
+      "name": "Girmay Biniam",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:56",
+      "narrative": "Girmay set the tone of the race by winning stage 1 and the first leader's jersey, then taking second on the road to Merlier across the flat days. The Durbuy climbs ended his GC bid, but he remained a factor in the sprints, taking fifth in Aarschot. A strong week of racing in his NSN colours.",
+      "keyMoments": [
+        { "km": 0, "what": "Stage 1: won the sprint and the first leader's jersey" },
+        { "km": 0, "what": "Stage 4: fifth in the Aarschot bunch sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Merlier Tim",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Merlier was the strongest sprinter of the flat days, taking second on stage 1 and winning stage 2 in Knokke-Heist to grab the leader's jersey. The Durbuy queen stage dropped him out of GC contention, and on stage 4 he was beaten into second by Kooij's late kick. A win and a leader's jersey to show for the week, but no overall.",
+      "keyMoments": [
+        { "km": 0, "what": "Stage 2: won the sprint and took the race lead" },
+        { "km": 0, "what": "Stage 3: distanced on the Durbuy climbs, lost GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Philipsen Jasper",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:02",
+      "narrative": "Philipsen has been the smartest sprinter on GC, taking a stage 2 third and a stage 4 third while surviving the Durbuy queen stage well enough to stay in overall range. The bonus seconds from his consistent finishes lifted him to second overall, two seconds behind Aranburu — the best-placed fast man heading into the final stage.",
+      "keyMoments": [
+        { "km": 0, "what": "Stage 4: third in Aarschot, bonus seconds to second on GC" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Mid-race summary after stage 4 of 5",
+    "quotes": [],
+    "body": "As of 20 June 2026, after four of five stages, Alex Aranburu (Cofidis) leads the Baloise Belgium Tour by two seconds over Jasper Philipsen and Jenno Berckmoes, with Quinten Hermans fourth at three seconds and Lewis Askey fifth at four. Aranburu's win on the Durbuy queen stage was the decisive act, distancing the sprinters who had traded the lead on the first two days. With the overall this tight, the flat final stage to Hoeilaart and its bonus sprints leave the door open for the fast men to overturn the standings."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-4-gc", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 GC after Stage 4", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/baloise-belgium-tour-alex-aranburu-seizes-control-with-stage-3-sprint-victory/", "publication": "Cyclingnews", "title": "Baloise Belgium Tour: Alex Aranburu seizes control with stage 3 sprint victory", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/baloise-belgium-tour-tim-merlier-wins-stage-2-to-claim-race-lead/", "publication": "Cyclingnews", "title": "Baloise Belgium Tour: Tim Merlier wins stage 2 to claim race lead", "lang": "en" }
+  ]
+}

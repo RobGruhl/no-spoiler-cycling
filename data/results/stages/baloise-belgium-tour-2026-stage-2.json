@@ -1,0 +1,70 @@
+{
+  "raceId": "baloise-belgium-tour-2026",
+  "stageNumber": 2,
+  "stageName": "Merelbeke-Melle → Knokke-Heist",
+  "stageDate": "2026-06-18",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Tim Merlier won the coastal sprint into Knokke-Heist on the 197.6 km stage 2, beating Olav Kooij and Jasper Philipsen and taking over the race lead from Biniam Girmay.",
+  "podium": [
+    { "position": 1, "riderId": "tim-merlier", "name": "Merlier Tim", "team": "Soudal Quick-Step", "time": "4h 18m 31s" },
+    { "position": 2, "riderId": "olav-kooij", "name": "Kooij Olav", "team": "Decathlon CMA CGM Team", "gap": "+0:10" },
+    { "position": 3, "riderId": "jasper-philipsen", "name": "Philipsen Jasper", "team": "Alpecin-Premier Tech", "gap": "+0:12" }
+  ],
+  "narrative": {
+    "headline": "Merlier wins the bunch kick to Knokke-Heist and takes the lead",
+    "body": "Stage 2 ran 197.6 km from Merelbeke-Melle to the North Sea resort of Knokke-Heist, a flat day tailor-made for the sprinters and exposed to potential crosswind splits along the coast. The break was controlled and a full bunch arrived for the gallop. Tim Merlier produced his trademark turn of speed to win clearly ahead of Olav Kooij and Jasper Philipsen, with Max Kanter and Emilien Jeannière close behind. The win and bonus seconds vaulted Merlier into the overall lead, ahead of stage 1 winner Girmay."
+  },
+  "gcImpact": {
+    "headline": "Merlier takes the leader's jersey from Girmay",
+    "body": "Merlier's stage win and the 10-second bonus moved him into the overall lead, six seconds clear of Biniam Girmay and eight over Bart Kortleve. With the GC still dictated by sprint bonuses, the leadership was set to be decided on the next day's hilly queen stage around Durbuy."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier",
+      "name": "Merlier Tim",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Merlier converted his stage 1 second place into a clean win in Knokke-Heist, getting the better of Kooij and Philipsen in a straight sprint. The victory and bonus seconds handed him the leader's jersey, though it was a lead he would only hold until the climbs of Durbuy the following day.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the bunch sprint and took the overall lead on bonuses" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Philipsen Jasper",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:12",
+      "narrative": "Philipsen was in the front group for the Knokke-Heist sprint but had to settle for third behind Merlier and Kooij. The bonus seconds he collected kept him in touch on GC and would prove valuable once the harder stages reshuffled the standings.",
+      "keyMoments": [
+        { "km": 0, "what": "Third in the bunch sprint, picked up minor time bonus" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "emilien-jeanniere",
+      "name": "Jeannière Emilien",
+      "team": "TotalEnergies",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:16",
+      "narrative": "Jeannière was again among the fastest finishers, taking fifth in the Knokke-Heist sprint to back up a consistent opening to the week. He was unable to match Merlier and Kooij at the very front but stayed in the points and near the top of the bunch.",
+      "keyMoments": [
+        { "km": 0, "what": "Fifth in the bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-belgium/2026/stage-2-gc", "publication": "ProCyclingStats", "title": "Baloise Belgium Tour 2026 GC after Stage 2", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/baloise-belgium-tour-tim-merlier-wins-stage-2-to-claim-race-lead/", "publication": "Cyclingnews", "title": "Baloise Belgium Tour: Tim Merlier wins stage 2 to claim race lead", "lang": "en" }
+  ]
+}
