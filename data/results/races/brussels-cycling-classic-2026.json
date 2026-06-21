@@ -1,0 +1,110 @@
+{
+  "raceId": "brussels-cycling-classic-2026",
+  "raceName": "Brussels Cycling Classic",
+  "raceDate": "2026-06-07",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Jordi Meeus (Red Bull - BORA - hansgrohe) won the 106th Brussels Cycling Classic with a powerful sprint in Brussels, holding off Belgian compatriot Milan Fretin (Cofidis) and Biniam Girmay (NSN Cycling Team) after Red Bull controlled a long, chaotic chase. Meeus had briefly missed the front selection when the peloton split on the climbs around Geraardsbergen, but his team pulled the race back together and led him out for a clean win over 206.3 km from Etterbeek to Brussels.",
+  "podium": [
+    { "position": 1, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "time": "4h 32m 54s" },
+    { "position": 2, "riderId": null, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "riderId": "biniam-girmay", "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Frits Biesterbos", "team": "Team Picnic PostNL", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Arvid de Kleijn", "team": "Tudor Pro Cycling Team", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Tobias Müller", "team": "Unibet Rose Rockets", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Anthony Turgis", "team": "TotalEnergies", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Toon Aerts", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Anders Foldager", "team": "Team Jayco AlUla", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Paul Penhoët", "team": "Groupama - FDJ United", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Meeus survives the splits to win a frantic Brussels sprint",
+    "openingMoves": "206.3 km from Etterbeek to a finish in Brussels for the 106th edition of the ProSeries one-dayer. After a quiet opening, the day's main breakaway formed with Titouan Fontaine, Casper Pedersen, Sebastien Grignard, Marius Mayrhofer and Henrik Pedersen. TotalEnergies' Alexys Brunel tried to bridge across but was brought back before contact, and the leaders built an advantage of around three and a half minutes.",
+    "raceUnfolds": "The race turned on three passages over the Muur van Geraardsbergen, Bosberg and Congoberg. The climbs gradually ate into the break's lead and also splintered the peloton: Mayrhofer and then Fontaine lost contact up front, while behind a front group of around 30 riders formed with Girmay, Fretin and Jonas Abrahamsen. Crucially, Meeus initially missed that selection, leaving Red Bull's plan in jeopardy until Team Flanders - Baloise helped drag the peloton back together before the run to Brussels.",
+    "decision": "Given a second chance, Red Bull took control. Laurence Pithie and Danny van Poppel drove the chase over the Rosweg cobbles, bringing the breakaway into sight before the last escapees were caught on the Heiligekruiswegstraat with around 145 km raced. Uno-X Mobility tried repeatedly to break up a sprint — Abrahamsen attacked at 13 km to go, Rasmus Tiller followed and Erik Resell briefly opened a gap — but each move was shut down, and Abrahamsen's renewed dig inside the final six kilometres also came to nothing.",
+    "finale": "A crash with four kilometres remaining brought down several riders, including Team Flanders - Baloise's Ferre Geeraerts, who continued, but the favourites stayed safely at the front. Red Bull kept Meeus protected into the final kilometre and delivered a strong lead-out. Fretin and Girmay both surged in the closing metres, but Meeus had the speed to hold his line and take the win, with all three Belgians-and-Girmay finishing on the same time."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 60, "location": "Muur van Geraardsbergen / Bosberg / Congoberg", "headline": "Climbs split the peloton and isolate Meeus", "description": "The three passages over the local climbs splintered the bunch into a front group of around 30 with Girmay and Fretin, while Meeus missed the selection — only for Team Flanders - Baloise's chase to bring the race back together." },
+    { "kmFromFinish": 13, "location": "Run-in to Brussels", "headline": "Uno-X throw everything at a sprint", "description": "Jonas Abrahamsen, Rasmus Tiller and Erik Resell all attacked in turn to deny the sprinters, but Red Bull patrolled the front and shut every move down inside the final kilometres." },
+    { "kmFromFinish": 4, "location": "Brussels finishing circuit", "headline": "Late crash thins the front", "description": "A crash with 4 km to go brought down several riders including Ferre Geeraerts, but the favourites stayed clear and Red Bull kept Meeus protected for the sprint." }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Meeus wins the sprint",
+      "verdictClass": "win",
+      "narrative": "A complicated day rescued by depth and discipline. When the climbs around Geraardsbergen split the field and Meeus missed the front group, the win looked gone — but after the peloton came back together Red Bull seized control, with Laurence Pithie and Danny van Poppel driving the chase over the cobbles to reel in the break. They protected Meeus through a late crash and delivered a textbook lead-out that the Belgian finished off for the win.",
+      "riderIds": ["jordi-meeus"]
+    },
+    {
+      "team": "Cofidis",
+      "verdict": "Fretin 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Milan Fretin made the decisive front selection on the climbs and was perfectly placed in the finale, surging in the closing metres. He came up just short of Meeus but took second on home Belgian roads — a strong result that confirms his sprint form in a hectic finish.",
+      "riderIds": []
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Girmay 3rd",
+      "verdictClass": "neutral",
+      "narrative": "Biniam Girmay survived the splits on the climbs to make the front group and contested the sprint hard, but couldn't overhaul Meeus or Fretin, taking third. A podium that shows his legs are there even if the win still eludes him this stretch of the season.",
+      "riderIds": ["biniam-girmay"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Repeated attacks fall short",
+      "verdictClass": "neutral",
+      "narrative": "Uno-X refused to settle for a bunch sprint, throwing Jonas Abrahamsen, Rasmus Tiller and Erik Resell at the race in the closing kilometres. Each move was patiently closed down by Red Bull, leaving the aggressive Norwegian outfit empty-handed despite the entertainment.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Flanders - Baloise",
+      "verdict": "Chase reshapes the race",
+      "verdictClass": "neutral",
+      "narrative": "The Belgian ProTeam played an outsized role, helping to bring the climb-splintered peloton back together — the move that handed Meeus his second chance. Ferre Geeraerts was caught in the late crash but continued. A day of working for others rather than a result.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Meeus' day looked compromised when he missed the front selection on the climbs around Geraardsbergen, but his team's chase pulled him back into contention. From there Red Bull controlled the run-in, protected him through a crash at 4 km, and launched him with a strong lead-out. He held his line against late surges from Fretin and Girmay to take the win.",
+      "keyMoments": [
+        { "km": 60, "what": "Missed the climb-induced front selection before the peloton was brought back together" },
+        { "km": 1, "what": "Led out by Red Bull and held off Fretin and Girmay for the win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "biniam-girmay", "name": "Biniam Girmay", "team": "NSN Cycling Team",
+      "role": "leader", "position": 3, "gap": "s.t.",
+      "narrative": "Girmay was sharp enough to make the front group of around 30 when the climbs split the race, then contested the sprint in Brussels. He came strongly in the final metres but couldn't get past Meeus or Fretin, settling for third on the same time.",
+      "keyMoments": [
+        { "km": 60, "what": "Made the front selection on the climbs around Geraardsbergen" },
+        { "km": 1, "what": "Surged late in the sprint but was edged for the win, taking third" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "kmFromFinish": 4, "description": "A crash with 4 km remaining brought down several riders, including Ferre Geeraerts of Team Flanders - Baloise, who was able to continue." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Red Bull's depth turns a near-miss into a win",
+    "quotes": [],
+    "body": "The Brussels Cycling Classic delivered more attrition than its sprinter billing suggested, with the climbs around Geraardsbergen splitting the field and Uno-X attacking relentlessly to prevent a bunch gallop. That it still came down to a sprint owed everything to Red Bull's chasing, first to recover Meeus into the front group and then to control the finale — turning a day that nearly slipped away into a Belgian home win."
+  },
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-brussels-cycling-classic-2026-jordi-meeus-powers-past-milan-fretin-and-biniam-girmay-after-red-bull-control-frantic-finale", "publication": "CyclingUpToDate", "title": "Results Brussels Cycling Classic 2026 - Jordi Meeus powers past Milan Fretin and Biniam Girmay after Red Bull control frantic finale", "lang": "en" },
+    { "url": "https://www.wielerflits.be/wielerkalender/brussels-cycling-classic-2026/resultaat", "publication": "WielerFlits", "title": "Uitslag Brussels Cycling Classic 2026", "lang": "nl" },
+    { "url": "https://www.brusselscyclingclassic.be/en/race/brussels-cycling-classic/race-info", "publication": "Brussels Cycling Classic (official)", "title": "Men Elite race info - results 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Brussels_Cycling_Classic", "publication": "Wikipedia", "title": "2026 Brussels Cycling Classic", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/brussels-cycling-classic/", "publication": "Cyclingnews", "title": "Brussels Cycling Classic: Jordi Meeus wins tight sprint after hectic finale", "lang": "en" }
+  ]
+}
