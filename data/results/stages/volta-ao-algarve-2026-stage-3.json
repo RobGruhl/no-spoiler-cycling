@@ -1,0 +1,152 @@
+{
+  "raceId": "volta-ao-algarve-2026",
+  "stageNumber": 3,
+  "stageName": "Vilamoura → Vilamoura (ITT)",
+  "stageDate": "2026-02-20",
+  "stageType": "itt",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Filippo Ganna (INEOS Grenadiers) won the 19.5 km Vilamoura time trial at 53.5 km/h, but the GC story was Juan Ayuso limiting his loss to six seconds in second to defend the leader's jersey. Jakob Söderqvist was a surprise third for Lidl-Trek; Seixas held second overall.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "time": "21m 53s"
+    },
+    {
+      "position": 2,
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "gap": "+0:06"
+    },
+    {
+      "position": 3,
+      "riderId": null,
+      "name": "Jakob Söderqvist",
+      "team": "Lidl - Trek",
+      "gap": "+0:08"
+    },
+    {
+      "position": 4,
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "gap": "+0:13"
+    },
+    {
+      "position": 5,
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "gap": "+0:23"
+    }
+  ],
+  "narrative": {
+    "headline": "Ganna wins the Vilamoura test; Ayuso defends yellow",
+    "body": "The 19.5 km individual time trial around Vilamoura was a flat, fast power test, and Filippo Ganna was in a class of his own, completing the course in 21:53 at an average of 53.5 km/h. It was a routine win for one of the era's great time triallists.\n\nThe race against the clock that mattered, though, was for the overall. Juan Ayuso produced an excellent ride for a pure climber, conceding only six seconds to Ganna to take second on the stage and emphatically protect his yellow jersey. Lidl-Trek's young Swede Jakob Söderqvist was the surprise of the day in third at +8. Paul Seixas limited his deficit to Ayuso, fourth at +13, while Thymen Arensman (+23) and Kévin Vauquelin (+24) gave INEOS strong rides ahead of Stefan Küng in seventh.\n\nGanna's day in the saddle moved him no closer to the GC — he started the day far down the standings — but Ayuso's effort cemented his grip on the race with two days left."
+  },
+  "gcImpact": {
+    "headline": "Ayuso strengthens his lead against the clock",
+    "body": "By taking second on the stage and minimising his time loss to Ganna, Ayuso reinforced his overall lead over Seixas, who remained second. Vauquelin and Arensman climbed into the GC top five behind, with the race set up for the GC men to settle matters on the final two stages."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Ganna was untouchable in the Vilamoura time trial, winning by six seconds at 53.5 km/h to add another stage-race ITT to his palmarès. With no GC ambitions in the Algarve's mountainous edition, the time trial was his target and he delivered the team's first stage win of the race.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Won the 19.5 km Vilamoura ITT in 21:53, 53.5 km/h average"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:06",
+      "narrative": "Ayuso's second place, just six seconds off Ganna, was arguably the ride of the day for a climber-GC rider and locked down the yellow jersey. It gave him breathing room over Seixas going into the final mountain stage.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Second in the ITT, conceding only 6s to Ganna"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:13",
+      "narrative": "Seixas turned in a composed time trial for a 19-year-old, fourth on the stage and losing only a handful of seconds to Ayuso. He held second overall and kept the GC alive for the final day.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Fourth in the ITT, limiting losses to Ayuso"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:23",
+      "narrative": "Arensman was fifth in the Vilamoura ITT, the best of the climbing-GC types behind Ayuso and Seixas, moving up the overall. He finished ninth on GC as part of a strong INEOS collective showing.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Fifth in the ITT at +23, moving up the GC"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin",
+      "name": "Kévin Vauquelin",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:24",
+      "narrative": "Vauquelin was sixth in the time trial, a second behind teammate Arensman, keeping INEOS with multiple riders high on GC. He went on to finish fifth overall and animated the final stage with an attack in the Malhão hills.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Sixth in the ITT at +24"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.procyclingstats.com/race/volta-ao-algarve/2026/stage-3/result/result",
+      "publication": "ProCyclingStats",
+      "title": "Volta ao Algarve 2026 Stage 3 ITT result",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingstage.com/volta-ao-algarve-2026/stage-3-results-vaa-2026/",
+      "publication": "Cycling Stage",
+      "title": "Volta ao Algarve 2026 Stage 3 results",
+      "lang": "en"
+    }
+  ]
+}

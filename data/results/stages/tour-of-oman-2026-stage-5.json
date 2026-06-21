@@ -1,0 +1,57 @@
+{
+  "raceId": "tour-of-oman-2026",
+  "stageNumber": 5,
+  "stageName": "Nizwa → Jabal al Akhdhar (Green Mountain)",
+  "stageDate": "2026-02-11",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Christian Scaroni attacked inside the final kilometre of the Jabal al Akhdhar / Green Mountain summit finish to win the queen stage and overturn his four-second deficit, sealing the stage and the overall in one move. Team-mate Cristián Rodríguez was second on the stage to complete an XDS Astana 1-2; Luke Plapp took third. Overnight leader Mauro Schmid cracked and slid off the podium.",
+  "podium": [
+    { "position": 1, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "time": "3h 23m 19s" },
+    { "position": 2, "riderId": null, "name": "Cristián Rodríguez", "team": "XDS Astana Team", "gap": "+0:03" },
+    { "position": 3, "riderId": null, "name": "Luke Plapp", "team": "Team Jayco-AlUla", "gap": "+0:06" },
+    { "position": 4, "riderId": "adam-yates", "name": "Adam Yates", "team": "UAE Team Emirates - XRG", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Scaroni's last-km move seizes stage and overall on Green Mountain",
+    "body": "The 155.9 km Stage 5 from Nizwa climbed to the brutal Jabal al Akhdhar / Green Mountain summit finish — 5.7 km averaging around 10.4% with gradients over 10% and nowhere to hide. After four tightly controlled days the GC fight finally cracked open on the climb. Adam Yates launched the first serious acceleration roughly 2 km from the top, splintering the favourites' group and putting overnight leader Mauro Schmid in immediate trouble. Scaroni, starting the day four seconds down, positioned himself perfectly behind the moves. When he launched his own attack inside the final kilometre there was no response — he surged clear to win the stage outright. Behind him, team-mate Cristián Rodríguez came home second on the stage to underline XDS Astana's grip on the finale, with Luke Plapp salvaging third after a late acceleration. Schmid, unable to follow the pure climbers, slipped from the lead off the podium."
+  },
+  "gcImpact": {
+    "headline": "Scaroni takes the overall — Astana 1-2",
+    "body": "Scaroni's stage win and time bonus overturned his four-second deficit, handing him the final overall by 24 seconds from team-mate Cristián Rodríguez — an XDS Astana 1-2. Adam Yates took the final podium step at +44s, with the deposed Schmid fourth (also +44s) and Paul Double fifth (+44s). The short, savage Green Mountain finish reshaped the GC exactly as it traditionally does." },
+  "riderPerformances": [
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 1,
+      "gap": "stage winner",
+      "narrative": "Scaroni saved his race for the only climb that mattered. Sitting four seconds off Schmid, he shadowed Yates's early acceleration without panicking, then detonated his own move inside the final kilometre on the 10%+ slopes. Nobody could respond, and he soloed to the stage win — the time gain and bonus overturning his deficit to claim the overall in a single stroke. His second stage-race GC in as many seasons and the standout result of his 2026.",
+      "keyMoments": [
+        { "km": 1, "what": "Attacked inside the final km, went unanswered, soloed to the stage win and the overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "adam-yates",
+      "name": "Adam Yates",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:06",
+      "narrative": "Yates was the aggressor who broke the race open, launching the first serious acceleration around 2 km from the summit that splintered the favourites and dropped leader Schmid. He couldn't match Scaroni's late counter and came home fourth on the stage, but the move was decisive in shaping the overall and secured him third on the final GC.",
+      "keyMoments": [
+        { "km": 2, "what": "First serious acceleration on Jabal al Akhdhar — broke the favourites' group and distressed the leader" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-of-oman-2026-christian-scaroni-overturns-schmid-to-seize-gc-for-astana-on-jebel-akhdar", "publication": "Cycling Up To Date", "title": "Christian Scaroni overturns Schmid to seize GC for Astana on Jebel Akhdar", "lang": "en" },
+    { "url": "https://firstcycling.com/race.php?r=57&y=2026&e=5", "publication": "FirstCycling", "title": "Tour of Oman 2026 Stage 5 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/tour-of-oman-late-attack-on-jebel-al-akhdhar-clinches-christian-scaroni-stage-win-and-overall/", "publication": "Cyclingnews", "title": "Late attack on Jebel al Akhdhar clinches Scaroni stage win and overall", "lang": "en" }
+  ]
+}

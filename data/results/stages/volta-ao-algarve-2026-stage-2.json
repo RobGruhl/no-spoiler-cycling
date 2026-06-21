@@ -1,0 +1,120 @@
+{
+  "raceId": "volta-ao-algarve-2026",
+  "stageNumber": 2,
+  "stageName": "Portimão → Fóia (Monchique)",
+  "stageDate": "2026-02-19",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Paul Seixas (Decathlon CMA CGM) won the queen-stage summit finish at Fóia ahead of Juan Ayuso, but Ayuso's bonus seconds and the time gaps behind moved the Spaniard into the overall lead. João Almeida was third on the day at +7s, with Onley and Riccitello rounding out the GC selection.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "time": "3h 49m 50s"
+    },
+    {
+      "position": 2,
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "gap": "s.t."
+    },
+    {
+      "position": 3,
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "gap": "+0:07"
+    },
+    {
+      "position": 4,
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "INEOS Grenadiers",
+      "gap": "+0:14"
+    },
+    {
+      "position": 5,
+      "riderId": "matthew-riccitello",
+      "name": "Matthew Riccitello",
+      "team": "Decathlon CMA CGM",
+      "gap": "+0:16"
+    }
+  ],
+  "narrative": {
+    "headline": "Seixas wins at Fóia, Ayuso climbs into yellow",
+    "body": "The 147.2 km stage from Portimão to the Algarve's highest point, the Fóia climb above Monchique, was the first GC test of the race. The favourites came together for the long final ascent, the bunch shedding the sprinters and stripping back to a small group of climbers.\n\nNineteen-year-old Paul Seixas had the legs to win the sprint to the line at the summit, taking the stage from Juan Ayuso at the same time. João Almeida followed at seven seconds, with Oscar Onley at +14 and Seixas's Decathlon teammate Matthew Riccitello at +16 completing the day's selection. Daniel Martínez was the next GC man home at +32.\n\nDespite losing the stage sprint, Ayuso took the overall lead: the combination of his runner-up bonus and the time he gained on the chasers, set against Seixas's small advantages elsewhere, left the Lidl-Trek leader in yellow by a handful of seconds over Seixas with Almeida third."
+  },
+  "gcImpact": {
+    "headline": "Ayuso into yellow, Seixas the closest rival",
+    "body": "After the first summit finish, Ayuso leads the GC with Seixas his nearest challenger and Almeida third at +0:07. Onley sits fourth at +0:14 and Riccitello fifth at +0:16, with Martínez heading the next group at +0:32. The race for the overall narrowed to Ayuso, Seixas and Almeida."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "At 19, Seixas outsprinted Ayuso for the stage win atop Fóia, a marquee result for the Decathlon prodigy and confirmation that he could climb with the best GC men in the race. He sat second overall after the stage and would defend it all the way to a runner-up finish in Faro, also sealing the white young-rider jersey.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Won the uphill sprint at the Fóia summit ahead of Ayuso"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Making his Lidl-Trek debut, Ayuso could not beat Seixas in the sprint but rode into the leader's jersey on the strength of bonus seconds and the gaps he opened on the rest of the GC field. He held the lead from here to the finish, capping it with the stage win at Malhão.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Second on the stage; moved into the overall lead"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:14",
+      "narrative": "Onley, in his first season at INEOS Grenadiers, was fourth at Fóia at +14, keeping himself in the GC frame. He went on to win the time-trial-free GC battle for fourth and was runner-up on the final stage at Malhão.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Fourth on the Fóia summit finish, +14s"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.procyclingstats.com/race/volta-ao-algarve/2026/stage-2/result/result",
+      "publication": "ProCyclingStats",
+      "title": "Volta ao Algarve 2026 Stage 2 result",
+      "lang": "en"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Volta_ao_Algarve",
+      "publication": "Wikipedia",
+      "title": "2026 Volta ao Algarve",
+      "lang": "en"
+    }
+  ]
+}

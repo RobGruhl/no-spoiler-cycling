@@ -1,0 +1,136 @@
+{
+  "raceId": "volta-ao-algarve-2026",
+  "stageNumber": 1,
+  "stageName": "Vila Real de Santo António → Tavira",
+  "stageDate": "2026-02-18",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Paul Magnier (Soudal Quick-Step) opened his Algarve account with a bunch sprint into Tavira, taking the leader's jersey on bonus seconds over the 183.5 km flat stage. Jordi Meeus and Pavel Bittner completed the podium; Santiago Mesa was relegated from fifth.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "time": "4h 21m 04s"
+    },
+    {
+      "position": 2,
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+0:04"
+    },
+    {
+      "position": 3,
+      "riderId": null,
+      "name": "Pavel Bittner",
+      "team": "Team Picnic PostNL",
+      "gap": "+0:06"
+    },
+    {
+      "position": 4,
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "gap": "+0:10"
+    },
+    {
+      "position": 5,
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "gap": "+0:10"
+    }
+  ],
+  "narrative": {
+    "headline": "Magnier takes the opener and the leader's jersey at Tavira",
+    "body": "The 183.5 km opening stage from Vila Real de Santo António to Tavira ran to the expected sprint script along the flat eastern Algarve coast. The breakaway was reeled in and the fast men's teams set up for a bunch finish into Tavira.\n\nPaul Magnier timed his effort best in a crowded gallop, holding off Jordi Meeus by four seconds on the line (with the bonus-second margin included) and Pavel Bittner in third. Jasper Philipsen and Arnaud De Lie led the next wave home at the same time as the bunch leaders. Santiago Mesa crossed the line fifth but was relegated to 157th by the commissaires for irregular sprinting, promoting De Lie into the top five.\n\nWith the 10-second winner's time bonus, Magnier moved into the overall lead, four seconds clear of Meeus heading into the Fóia summit finish."
+  },
+  "gcImpact": {
+    "headline": "Magnier leads on bonus seconds",
+    "body": "Time bonuses (10-6-4 for the top three) decided the early GC. Magnier holds the leader's jersey four seconds ahead of Meeus and six ahead of Bittner, with the GC men all bunched in the same time pending the Fóia summit finish on stage 2."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Magnier delivered Soudal Quick-Step's first win of the Algarve, edging Meeus in the bunch sprint into Tavira and pulling on the leader's jersey via the winner's bonus. It was the first leg of what became a two-stage haul for the young Frenchman and an early statement of his sprint form for the spring.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Won the bunch sprint into Tavira ahead of Meeus and Bittner"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:04",
+      "narrative": "Meeus was the closest challenger to Magnier in the opening sprint, taking second and the runner-up bonus. He would finish second to the same rider again on stage 4, leaving the week as the nearly-man of the Algarve sprints.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Second in the Tavira sprint, beaten by Magnier"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+0:10",
+      "narrative": "Philipsen was in the mix but could not get on terms with Magnier and Meeus, taking fourth at the same time as the bunch. A solid early-season hit-out rather than a result for the Alpecin sprinter.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Fourth in the bunch sprint, same time as the leaders"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:10",
+      "narrative": "De Lie was promoted to fifth after Santiago Mesa's relegation, finishing in the front group at the same time as the podium. A workmanlike opening sprint for the Lotto Intermarché fast man as he built towards the cobbled classics.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Promoted to fifth after Mesa's relegation from the sprint"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.procyclingstats.com/race/volta-ao-algarve/2026/stage-1/result/result",
+      "publication": "ProCyclingStats",
+      "title": "Volta ao Algarve 2026 Stage 1 result",
+      "lang": "en"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Volta_ao_Algarve",
+      "publication": "Wikipedia",
+      "title": "2026 Volta ao Algarve",
+      "lang": "en"
+    }
+  ]
+}

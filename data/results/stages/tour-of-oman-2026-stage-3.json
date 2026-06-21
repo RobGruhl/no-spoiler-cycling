@@ -1,0 +1,41 @@
+{
+  "raceId": "tour-of-oman-2026",
+  "stageNumber": 3,
+  "stageName": "Samail → Misfat al Abriyeen (Eastern Mountain)",
+  "stageDate": "2026-02-09",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Mauro Schmid won the Stage 3 uphill finish at Misfat al Abriyeen ahead of Christian Scaroni (same time) to take the leader's jersey on the first GC selection of the race, building a four-second cushion over Scaroni with Martin Tjøtta third.",
+  "podium": [
+    { "position": 1, "name": "Mauro Schmid", "team": "Team Jayco-AlUla", "time": "4h 13m 17s" },
+    { "position": 2, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 3, "name": "Martin Tjøtta", "team": "Uno-X Mobility", "gap": "+0:03" }
+  ],
+  "narrative": {
+    "headline": "Schmid takes the lead on the first climb",
+    "body": "The 191.3 km Stage 3 finished uphill at Misfat al Abriyeen in the Eastern Mountains and produced the race's first real GC selection. Mauro Schmid (Jayco-AlUla) won the day, with Christian Scaroni right alongside him on the same time and Martin Tjøtta third at +3s. The result handed Schmid the overall lead and a slender four-second advantage over Scaroni heading into the back half of the week."
+  },
+  "gcImpact": {
+    "headline": "Schmid takes pink-equivalent, four seconds over Scaroni",
+    "body": "Schmid leads the GC after Stage 3 from Scaroni at +4s and Tjøtta at +9s. The climbers' hierarchy for the overall was now set; Stage 4 was a sprint day that would not disturb it, leaving everything to Green Mountain on Stage 5." },
+  "riderPerformances": [
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Scaroni was the only rider able to match Schmid on the Misfat al Abriyeen uphill, taking second on the same time and slotting into second overall just four seconds back. He didn't chase the leader's jersey here — he banked a deficit small enough to overturn on the far harder Green Mountain finish two days later, which is exactly what he did.",
+      "keyMoments": [
+        { "km": null, "what": "2nd on the uphill, only rider to follow Schmid, sits +4s on GC" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://firstcycling.com/race.php?r=57&y=2026&e=3", "publication": "FirstCycling", "title": "Tour of Oman 2026 Stage 3 result", "lang": "en" }
+  ]
+}

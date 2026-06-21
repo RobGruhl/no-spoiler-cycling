@@ -1,0 +1,360 @@
+{
+  "raceId": "volta-ao-algarve-2026",
+  "raceName": "Volta ao Algarve",
+  "raceDate": "2026-02-18",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Juan Ayuso won the 2026 Volta ao Algarve on his Lidl-Trek debut, sealing the overall with a stage win in the yellow jersey atop the Alto do Malhão. Nineteen-year-old Paul Seixas (Decathlon) was a revelation in second, also taking the young-rider jersey after winning at Fóia; João Almeida was third on home roads. Paul Magnier won two sprints and the points jersey, Filippo Ganna took the ITT, and INEOS Grenadiers won the team classification.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "time": "15h 51m 12s"
+    },
+    {
+      "position": 2,
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "gap": "+0:14"
+    },
+    {
+      "position": 3,
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "gap": "+0:59"
+    }
+  ],
+  "narrative": {
+    "headline": "Ayuso opens his Lidl-Trek era with the Algarve",
+    "openingMoves": "Paul Magnier opened the race with a bunch sprint into Tavira on stage 1, taking the leader's jersey on bonus seconds ahead of Jordi Meeus. The flat eastern-Algarve coast stage went to script for the fast men before the GC riders took over.",
+    "raceUnfolds": "Stage 2 to the Fóia summit was the first GC test: Paul Seixas won the uphill sprint at 19, but Juan Ayuso's bonus seconds and gaps moved him into yellow ahead of Seixas and João Almeida. In the stage 3 Vilamoura ITT, Filippo Ganna won at 53.5 km/h while Ayuso's superb second place (only 6s down) cemented his lead. Magnier doubled up with a second sprint win at Lagos on stage 4, leaving the GC untouched.",
+    "decision": "The race was decided on the final-stage summit finish at the Alto do Malhão. Almeida split the GC group on the first ascent, and a Vauquelin/Lipowitz/Alaphilippe move briefly threatened the lead before Lidl-Trek controlled it at the foot of the last climb.",
+    "finale": "Ayuso won the uphill sprint at Malhão in the yellow jersey, beating Onley and Seixas, to clinch the overall by 14 seconds over Seixas with Almeida third at +59. Onley was fourth, Vauquelin fifth."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": null,
+      "location": "Alto da Fóia (Stage 2)",
+      "headline": "Seixas wins, Ayuso takes yellow",
+      "description": "The first summit finish split the GC field; Seixas won the sprint but Ayuso climbed into the overall lead on bonuses and gaps."
+    },
+    {
+      "kmFromFinish": null,
+      "location": "Vilamoura ITT (Stage 3)",
+      "headline": "Ayuso defends against the clock",
+      "description": "Ganna won the time trial, but Ayuso lost only six seconds to him, an exceptional ride for a climber that locked down the jersey."
+    },
+    {
+      "kmFromFinish": 0,
+      "location": "Alto do Malhão (Stage 5)",
+      "headline": "Ayuso seals it with the stage win",
+      "description": "After surviving a Vauquelin/Lipowitz counter-attack, Ayuso won the uphill sprint in yellow to confirm the GC."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Ayuso's GC, two stage wins",
+      "verdictClass": "win",
+      "narrative": "A dream Algarve for Lidl-Trek's new signing-led project: Juan Ayuso delivered the overall on his team debut, racing aggressively to take yellow at Fóia, defend it against Ganna in the ITT, and seal it with the stage win at Malhão. The team had the firepower to shut down the dangerous late move on the final stage, and young Swede Jakob Söderqvist's surprise ITT podium underlined the squad's depth.",
+      "riderIds": [
+        "juan-ayuso-pesquera"
+      ]
+    },
+    {
+      "team": "Decathlon CMA CGM",
+      "verdict": "Seixas 2nd + youth jersey",
+      "verdictClass": "win",
+      "narrative": "Decathlon were the standout climbing team of the race. Nineteen-year-old Paul Seixas won the Fóia summit finish, held second overall all the way to Faro, and took the white young-rider jersey, with Matthew Riccitello backing him to sixth overall and launching him in the Malhão finale. A breakthrough week for one of the sport's brightest GC prospects.",
+      "riderIds": [
+        "paul-seixas",
+        "matthew-riccitello"
+      ]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Almeida 3rd on home roads",
+      "verdictClass": "neutral",
+      "narrative": "João Almeida led UAE aggressively on home Portuguese roads, splitting the GC group on the first Malhão ascent and driving the pace on the final climb, but he could not crack Ayuso, Onley or Seixas and finished third overall. A combative, podium ride that fell just short of the win.",
+      "riderIds": [
+        "joao-almeida"
+      ]
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "ITT win + team classification",
+      "verdictClass": "win",
+      "narrative": "INEOS spread their bets and cashed several in: Filippo Ganna dominated the Vilamoura time trial, Kévin Vauquelin (5th) and Thymen Arensman (9th) gave the squad two riders in the GC top ten, Oscar Onley took fourth overall and was runner-up at Malhão, and the depth delivered the team classification. Vauquelin's late counter-attack on the final stage was the move that briefly put the leaders under pressure.",
+      "riderIds": [
+        "filippo-ganna",
+        "kevin-vauquelin",
+        "thymen-arensman",
+        "oscar-onley"
+      ]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Magnier x2 + points jersey",
+      "verdictClass": "win",
+      "narrative": "Soudal Quick-Step owned the bunch sprints through Paul Magnier, who won stages 1 and 4 into Tavira and Lagos, beating Jordi Meeus both times and sealing the green points classification. A clean two-from-two haul in the flat stages for the young Frenchman.",
+      "riderIds": [
+        "paul-magnier"
+      ]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Two sprint seconds, no win",
+      "verdictClass": "neutral",
+      "narrative": "Jordi Meeus was twice the bridesmaid, finishing second to Magnier on both sprint stages, while Florian Lipowitz (8th overall) animated the final stage with his counter-attack and Daniel Martínez took seventh on GC. A productive but win-less week for the squad.",
+      "riderIds": [
+        "jordi-meeus"
+      ]
+    },
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Philipsen short of the sprints",
+      "verdictClass": "neutral",
+      "narrative": "Jasper Philipsen used the Algarve as early-season sprint preparation, getting into the mix on stage 1 (fourth) but unable to match Magnier and Meeus across the flat stages. A form-building week ahead of the cobbled classics rather than a results one.",
+      "riderIds": [
+        "jasper-philipsen"
+      ]
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "De Lie building form",
+      "verdictClass": "neutral",
+      "narrative": "Arnaud De Lie sprinted to a promoted fifth on the opener and rode in support through the sprint days, while Jarno Widar climbed to seventh overall — a quietly useful Algarve for Lotto Intermarché with no win but encouraging signs across two profiles.",
+      "riderIds": [
+        "arnaud-de-lie",
+        "jarno-widar"
+      ]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "GC winner",
+      "narrative": "Ayuso won the GC on his Lidl-Trek debut with a near-flawless week: second at the Fóia summit (taking yellow on bonuses), an outstanding second in the Vilamoura ITT only six seconds off Ganna, and the decisive stage win in yellow atop the Alto do Malhão. He survived a late Vauquelin/Lipowitz threat on the final day before sprinting clear of Onley and Seixas. A statement opening GC of his new chapter.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 2 — 2nd at Fóia, took the yellow jersey"
+        },
+        {
+          "km": null,
+          "what": "Stage 3 — 2nd in the ITT, only 6s off Ganna, defended yellow"
+        },
+        {
+          "km": null,
+          "what": "Stage 5 — won at Malhão to seal the overall"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:14",
+      "narrative": "At 19, Seixas finished second overall and won the young-rider classification — a breakthrough Algarve. He won the Fóia summit sprint, time-trialled well to limit losses, and was third on the final stage at Malhão, holding second from stage 2 to the finish. Confirmation of a major GC talent.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 2 — won the Fóia summit finish"
+        },
+        {
+          "km": null,
+          "what": "Final — 2nd overall + white young-rider jersey"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:22",
+      "narrative": "Onley finished fourth overall in his first Algarve with INEOS and was runner-up on the final stage, leading out the Malhão sprint before being pipped by Ayuso. Consistent climbing across Fóia and Malhão marked strong early-season form.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 5 — launched the final sprint, 2nd on the day"
+        },
+        {
+          "km": null,
+          "what": "Final — 4th overall"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin",
+      "name": "Kévin Vauquelin",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 5,
+      "gap": "+1:40",
+      "narrative": "Vauquelin took fifth overall and was the chief aggressor of the final stage, counter-attacking with Lipowitz to bridge to Alaphilippe and briefly threatening the yellow jersey before Lidl-Trek closed the gap. Sixth in the ITT underlined his all-round form.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 5 — counter-attacked, came within a minute of yellow before being caught"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "INEOS Grenadiers",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "ITT winner",
+      "narrative": "Ganna's target was the Vilamoura time trial and he duly dominated it, winning by six seconds at 53.5 km/h for INEOS's first stage win of the race. With no GC ambitions on this mountainous edition, the ITT was the prize and he took it comfortably.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 3 — won the 19.5 km Vilamoura ITT at 53.5 km/h"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": null,
+      "gap": "9th GC +2:18",
+      "narrative": "Arensman was ninth overall and INEOS's third rider in the GC top ten, fifth in the Vilamoura ITT. Part of the team's collective strength that delivered the team classification.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 3 — 5th in the ITT; 9th overall"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "2 stage wins + points jersey",
+      "narrative": "Magnier was the dominant sprinter of the Algarve, winning stages 1 and 4 into Tavira and Lagos — beating Jordi Meeus both times — and sealing the green points classification. The leader's jersey on day one and two clean sprint wins capped a strong opening to his season.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 1 — won at Tavira, took the leader's jersey"
+        },
+        {
+          "km": null,
+          "what": "Stage 4 — won at Lagos for his second stage"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "two 2nd places",
+      "narrative": "Meeus was second to Magnier on both sprint stages, the consistent runner-up of the week but unable to find a win. Strong early-season sprint form, just shy of the top step each time.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stages 1 & 4 — second behind Magnier both times"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "4th on Stage 1",
+      "narrative": "Philipsen got into the sprint mix on stage 1 (fourth) but could not match Magnier and Meeus, using the Algarve mainly as early-season preparation for the cobbled classics.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 1 — 4th in the bunch sprint"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "5th on Stage 1",
+      "narrative": "De Lie was promoted to fifth on the opening stage after a relegation ahead of him and rode in support through the sprint days, building form for the spring with Lotto Intermarché.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Stage 1 — promoted to 5th in the sprint"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      {
+        "riderId": null,
+        "name": "Max Schachmann",
+        "reason": "crashed on the hilly approach to the Malhão finish on stage 5"
+      }
+    ],
+    "abandons": [],
+    "controversies": [
+      {
+        "name": "Santiago Mesa",
+        "reason": "relegated from 5th to 157th on stage 1 for irregular sprinting"
+      }
+    ]
+  },
+  "aftermath": {
+    "headline": "A new-team GC for Ayuso and a star turn for Seixas",
+    "quotes": [],
+    "body": "The 2026 Volta ao Algarve doubled as an early-season statement for two storylines: Juan Ayuso's switch to Lidl-Trek paying off immediately with a complete GC win, and 19-year-old Paul Seixas announcing himself as a top-tier GC prospect with a stage win, second overall and the young-rider jersey. INEOS left with the time trial, the team classification and three riders in the GC top ten, while Paul Magnier's two sprint wins and points jersey made him the race's other big winner. With João Almeida third on home roads, the race set the table for the spring stage-race calendar."
+  },
+  "sources": [
+    {
+      "url": "https://www.procyclingstats.com/race/volta-ao-algarve/2026/gc/result/result",
+      "publication": "ProCyclingStats",
+      "title": "Volta ao Algarve 2026 final GC",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-volta-ao-algarve-2026-juan-ayuso-wins-volta-ao-algarve-with-convincing-triumph-on-the-alto-do-malhao",
+      "publication": "Cycling Up To Date",
+      "title": "Juan Ayuso wins Volta ao Algarve with convincing triumph on the Alto do Malhão",
+      "lang": "en"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Volta_ao_Algarve",
+      "publication": "Wikipedia",
+      "title": "2026 Volta ao Algarve",
+      "lang": "en"
+    }
+  ]
+}

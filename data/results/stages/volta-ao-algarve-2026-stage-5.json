@@ -1,0 +1,150 @@
+{
+  "raceId": "volta-ao-algarve-2026",
+  "stageNumber": 5,
+  "stageName": "Faro → Malhão (Loulé)",
+  "stageDate": "2026-02-22",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Juan Ayuso (Lidl-Trek) sealed the overall with a stage win in the yellow jersey atop the Alto do Malhão, outsprinting Oscar Onley after a tense day that saw an Alaphilippe/Lipowitz/Vauquelin move briefly threaten the GC. Paul Seixas was third on the day and second overall.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "time": "3h 20m 02s"
+    },
+    {
+      "position": 2,
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "INEOS Grenadiers",
+      "gap": "s.t."
+    },
+    {
+      "position": 3,
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "gap": "s.t."
+    },
+    {
+      "position": 4,
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "gap": "+0:04"
+    },
+    {
+      "position": 5,
+      "riderId": null,
+      "name": "Thomas Gloag",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "gap": "+0:06"
+    }
+  ],
+  "narrative": {
+    "headline": "Ayuso wins atop Malhão to clinch the Algarve",
+    "body": "The 148.4 km final stage from Faro to the Alto do Malhão above Loulé was always going to settle the race over its hilly run-in and twin ascents of the short, sharp Malhão climb. A luxury breakaway formed with Julian Alaphilippe, Max Schachmann, Jan Tratnik, Luca van Boven and Tobias Bayer.\n\nOn the first ascent of the 2.6 km Malhão, João Almeida lit the GC group up and split it to just four followers, but with no collaboration the move stalled. As the GC group rejoined, Florian Lipowitz and Kévin Vauquelin counter-attacked and bridged to a by-then isolated Alaphilippe (Schachmann had crashed on the hilly approach). With Vauquelin briefly under a minute from yellow, Lidl-Trek had the firepower to control the threat and reeled the leaders in at the very base of the final climb.\n\nUAE drove the pace and Almeida hit the front early on the closing ascent to burn off rivals; only the key men followed. Matthew Riccitello launched Paul Seixas inside the final kilometre, but with no gaps opening it came down to a sprint. Onley went first, but Ayuso had the better kick and won the stage in yellow ahead of Onley and Seixas — confirming the overall victory in the most emphatic way."
+  },
+  "gcImpact": {
+    "headline": "Ayuso wins the Volta ao Algarve overall",
+    "body": "Ayuso's stage win in the leader's jersey sealed the general classification. Final GC: 1. Ayuso; 2. Seixas +0:14; 3. Almeida +0:59; 4. Onley +1:22; 5. Vauquelin +1:40; 6. Riccitello +1:53; 7. Daniel Martínez +1:53; 8. Lipowitz +2:15; 9. Arensman +2:18; 10. Yannis Voisard +2:35. Seixas also won the white young-rider jersey, Magnier the points classification, Tomás Contte the mountains, and INEOS Grenadiers the team classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Ayuso capped a near-perfect Algarve by winning the Malhão summit sprint in the yellow jersey, the exclamation point on his Lidl-Trek debut victory. Across the week he was second at Fóia, second in the ITT (only 6s off Ganna), and the strongest in the finale, defending then extending his lead. It was a statement GC win to open his new chapter.",
+      "keyMoments": [
+        {
+          "km": 0,
+          "what": "Won the uphill sprint at Malhão ahead of Onley and Seixas to seal the GC"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Onley was runner-up on the day, leading out the final sprint but pipped by Ayuso, and finished fourth overall in his INEOS debut Algarve. A strong, aggressive final stage that confirmed his climbing form for the spring.",
+      "keyMoments": [
+        {
+          "km": 0,
+          "what": "Launched the final sprint but was beaten by Ayuso for the stage"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Riccitello launched Seixas inside the final kilometre, but when no gaps appeared the 19-year-old took third on the stage and held second overall, also winning the white young-rider jersey. A breakthrough week confirming Seixas as one of the sport's brightest GC talents.",
+      "keyMoments": [
+        {
+          "km": 1,
+          "what": "Launched by Riccitello inside the final km; third on the stage"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin",
+      "name": "Kévin Vauquelin",
+      "team": "INEOS Grenadiers",
+      "role": "leader",
+      "position": 11,
+      "gap": "+2:53",
+      "narrative": "Vauquelin was the day's chief aggressor, counter-attacking with Lipowitz to bridge to Alaphilippe and briefly threatening the yellow jersey before Lidl-Trek shut the move down at the foot of the final climb. The effort cost him on the run-in but he held fifth overall.",
+      "keyMoments": [
+        {
+          "km": null,
+          "what": "Counter-attacked with Lipowitz, briefly within a minute of yellow before being caught"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      {
+        "riderId": null,
+        "name": "Max Schachmann",
+        "reason": "crashed on the hilly approach to the finish, ending his presence in the day's break"
+      }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.procyclingstats.com/race/volta-ao-algarve/2026/stage-5/result/result",
+      "publication": "ProCyclingStats",
+      "title": "Volta ao Algarve 2026 Stage 5 result",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-volta-ao-algarve-2026-juan-ayuso-wins-volta-ao-algarve-with-convincing-triumph-on-the-alto-do-malhao",
+      "publication": "Cycling Up To Date",
+      "title": "Juan Ayuso wins Volta ao Algarve with convincing triumph on the Alto do Malhão",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingnews.com/pro-cycling/live/volta-ao-algarve-stage-5-live-gc-in-the-balance-ahead-of-tough-climactic-stage/",
+      "publication": "Cyclingnews",
+      "title": "Volta ao Algarve Stage 5 live",
+      "lang": "en"
+    }
+  ]
+}
