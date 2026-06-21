@@ -1,0 +1,69 @@
+{
+  "raceId": "gp-de-denain-2026",
+  "raceName": "Grand Prix de Denain - Porte du Hainaut",
+  "raceDate": "2026-03-19",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Alec Segaert (Bahrain Victorious) stole the 67th GP de Denain with an audacious late solo, flying past long-time companion Per Strand Hagenes inside the final 2.5 km and holding off a sprinting peloton by a handful of metres. Milan Menten won the bunch kick for second, Anthony Turgis third — both timed at +2s on a 200.4 km cobbled course with 13 pavé sectors.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Alec Segaert", "team": "Bahrain Victorious", "time": "4h 21m 23s" },
+    { "position": 2, "riderId": null, "name": "Milan Menten", "team": "Lotto Intermarché", "gap": "+0:02" },
+    { "position": 3, "riderId": null, "name": "Anthony Turgis", "team": "TotalEnergies", "gap": "+0:02" }
+  ],
+  "narrative": {
+    "headline": "Segaert times a flying late jump to win Denain by metres",
+    "openingMoves": "The 67th Grand Prix de Denain, second round of the FDJ United Series, ran 200.4 km from Denain to Denain across 13 cobbled sectors — the spring's traditional Paris-Roubaix dress rehearsal one day before Nokere Koerse and ahead of Milan-Sanremo. Defending champion Matthew Brennan's win in 2025 had set the tone; this edition again rewarded the long-range cobbled rouleurs over the pure sprinters who hoped to survive to a group finish.",
+    "raceUnfolds": "The decisive selection came on the cobbles with just under 50 km remaining, where a front group splintered on the long Maing-Quérénaing sector. Per Strand Hagenes (Visma | Lease a Bike) helped force a group of around ten that whittled to six, then lit the touchpaper himself on the longest sector — and only Alec Segaert could go with him. The pair pressed clear, building roughly 30 seconds on the chasers with two sectors left.",
+    "decision": "On the final cobbled sector Hagenes tried to ride Segaert off his wheel, opening a gap of around 20 metres and holding it for nearly 10 km. Segaert never closed it but never cracked, sitting a few bike lengths back as the peloton clawed the lead down. With Hagenes visibly tiring and the bunch looming, Segaert launched a flying acceleration at roughly 2.5 km to go, rode straight past the Norwegian and went solo.",
+    "finale": "Segaert held the surging peloton off by a handful of metres, crossing in 4h 21m 23s. Behind him the sprint of the chasing bunch went to Milan Menten (Lotto Intermarché) at +2s, with Anthony Turgis (TotalEnergies) third and Henri Uhlig and Axel Zingle completing the top five — all on the same +2s. Hagenes, after his long day off the front, was swept up before the line and out of the top ten."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 50, "location": "Maing-Quérénaing cobbled sector", "headline": "The race splits on the longest pavé", "description": "On the longest sector with just under 50 km to go, the front of the race shattered. Hagenes attacked on the cobbles and only Segaert could follow, the two riding clear of a chase that had been ten then six strong." },
+    { "kmFromFinish": 15, "location": "Final cobbled sectors", "headline": "Hagenes tries to drop Segaert", "description": "On the last sector Hagenes opened a gap of about 20 metres and held it for nearly 10 km, but could not shake Segaert, who tracked a few bike lengths back as the peloton closed to within striking distance." },
+    { "kmFromFinish": 2.5, "location": "Run-in to Denain", "headline": "Segaert's flying late jump", "description": "With Hagenes tiring and the bunch nearly on them, Segaert took a flying launch off the Norwegian's wheel at around 2.5 km, accelerated straight past and rode solo to the line, holding the sprinting peloton off by metres." }
+  ],
+  "teamStories": [
+    {
+      "team": "Bahrain Victorious",
+      "verdict": "Segaert's audacious solo steal",
+      "verdictClass": "win",
+      "narrative": "Bahrain Victorious turned a two-up move into a prestige win through nerve rather than power. Segaert sat patiently behind Hagenes for nearly 10 km, conceding 20 metres without panicking, then judged the peloton's closing speed perfectly and jumped late enough that no one could respond. A statement cobbled result for the 23-year-old Belgian rouleur a week out from the cobbled Monument build-up.",
+      "riderIds": []
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Hagenes does the work, gets nothing",
+      "verdictClass": "loss",
+      "narrative": "Visma's Per Strand Hagenes was the most aggressive rider on the day — forcing the early selection, lighting the decisive split on Maing-Quérénaing, then trying to drop Segaert on the final sector. Having animated the entire finale he ran out of road, caught by the peloton before the line and out of the top ten. Axel Zingle salvaged fifth from the chasing sprint, but the team left the win on the table after riding the race apart. A fortnight after Hagenes's solo second at E3, another long-range Visma effort that came up just short.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Menten wins the bunch sprint for second",
+      "verdictClass": "neutral",
+      "narrative": "With the leaders gone up the road, Lotto Intermarché backed Milan Menten in the dash for the minor places. He won the sprint of the chasing peloton for second at +2s, the best of those who couldn't make the front split — a solid return on a cobbled day that didn't suit a fast finisher.",
+      "riderIds": []
+    },
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Two in the top ten, none on the podium",
+      "verdictClass": "neutral",
+      "narrative": "Alpecin-Premier Tech placed two riders in the top ten — Henri Uhlig fourth and Roubaix-bound prospect Tibor Del Grosso ninth — but neither could bridge to the front duo when the race split on the cobbles. A useful Paris-Roubaix warm-up returning numbers without a result.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A cobbled-classics calling card",
+    "quotes": [],
+    "body": "GP de Denain again did its job as the spring's pavé barometer, rewarding a long-range rouleur over the sprinters. Segaert succeeds Matthew Brennan on the palmarès and underlines Bahrain Victorious's depth on the cobbles heading into the Roubaix build-up, while Visma will reflect that aggression without a finisher cost them a winnable race for the second classic in a fortnight."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/gran-prix-de-denain-alec-segaert-fends-off-peloton-by-handful-of-metres-for-stunning-solo-win/", "publication": "Cyclingnews", "title": "Grand Prix de Denain: Alec Segaert fends off peloton by a handful of metres for stunning solo win", "lang": "en" },
+    { "url": "https://bahraincyclingteam.com/segaert-takes-victory-at-gp-de-denain/", "publication": "Bahrain Victorious", "title": "Segaert takes victory at GP de Denain", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/grand-prix-de-denain-porte-du-hainaut-2026/result", "publication": "CyclingFlash", "title": "Grand Prix de Denain - Porte du Hainaut 2026 result", "lang": "en" },
+    { "url": "https://www.velo-club.net/resultats/grand-prix-de-denain-2026-alec-segaert-resultat/", "publication": "Velo-Club", "title": "Grand Prix de Denain 2026 : Alec Segaert résultat (FirstCycling classement)", "lang": "fr" },
+    { "url": "https://www.directvelo.com/actualite/125903/grand-prix-de-denain-le-parcours-2026", "publication": "DirectVelo", "title": "Grand Prix de Denain : Le parcours 2026", "lang": "fr" }
+  ]
+}
