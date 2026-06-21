@@ -1,0 +1,39 @@
+{
+  "raceId": "volta-comunitat-valenciana-2026",
+  "stageNumber": 2,
+  "stageName": "Carlet → Alginet (ITT)",
+  "stageDate": "2026-02-05",
+  "stageType": "itt",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Remco Evenepoel laid down a marker in the 17 km individual time trial from Carlet to Alginet, winning the stage and stamping his GC authority ahead of Red Bull team-mate Aleksandr Vlasov and Mathias Vacek.",
+  "podium": [
+    { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "20m 12s" },
+    { "position": 2, "riderId": null, "name": "Aleksandr Vlasov", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:08" },
+    { "position": 3, "riderId": null, "name": "Mathias Vacek", "team": "Lidl - Trek", "gap": "+0:16" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel wins the race of truth in Alginet",
+    "body": "The 17 km individual time trial between Carlet and Alginet was always going to reshuffle the general classification, and Remco Evenepoel — one of the best time-triallists in the world — delivered as expected. He stopped the clock at 20:12, fastest on the day by a clear margin. His Red Bull - BORA - hansgrohe team-mate Aleksandr Vlasov took second at eight seconds, with Lidl - Trek's Mathias Vacek third at sixteen. The ride moved Evenepoel into a commanding position on GC, though Biniam Girmay's earlier bonuses meant the leader's jersey was not yet settled."
+  },
+  "gcImpact": {
+    "headline": "Evenepoel surges up the GC, Girmay clings to the lead",
+    "body": "Evenepoel's time-trial win vaulted him to the top of the GC contenders, gapping rivals Almeida, Pellizzari and Tiberi who all conceded time against the clock. Biniam Girmay retained the overall lead on the strength of his Stage 1 bonus seconds, but the writing was on the wall for the summit-style finish to come on the queen stage."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Evenepoel did exactly what a world-class time-triallist does on a 17 km test: he won it, and won it clearly, at 20:12. The performance announced his GC intentions for the week and set up the platform he would convert into the overall on the queen stage. Beating his own team-mate Vlasov by eight seconds underlined the depth of Red Bull's classification firepower.",
+      "keyMoments": [
+        { "km": null, "what": "Fastest split-to-split on the 17 km Carlet–Alginet ITT, winning by 8 seconds" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclingflash.com/race/volta-comunitat-valenciana-2026/result/stage-2", "publication": "CyclingFlash", "title": "Volta a la Comunitat Valenciana 2026 Stage 2 ITT result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Volta Comunitat Valenciana 2026 Stage 2", "lang": "en" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "raceId": "volta-comunitat-valenciana-2026",
+  "stageNumber": 4,
+  "stageName": "La Nucía → Teulada Moraira (queen stage)",
+  "stageDate": "2026-02-07",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Remco Evenepoel won the queen stage to Teulada Moraira and seized the overall lead, with João Almeida and Giulio Pellizzari completing the stage podium that would become the final GC top three.",
+  "podium": [
+    { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "4h 14m 01s" },
+    { "position": 2, "riderId": "joao-almeida", "name": "João Almeida", "team": "UAE Team Emirates - XRG", "gap": "+0:24" },
+    { "position": 3, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "same time" },
+    { "position": 4, "riderId": null, "name": "Antonio Tiberi", "team": "Bahrain Victorious", "gap": "same time" },
+    { "position": 5, "riderId": null, "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "same time" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel takes the queen stage and the race lead",
+    "body": "The 172 km queen stage from La Nucía to Teulada Moraira was the day the general classification was settled. After a hard day's climbing through the hinterland of the Costa Blanca, the GC group came down to its strongest names. Remco Evenepoel, already the strongest against the clock, proved the best on the decisive terrain too, winning the stage and lifting the leader's jersey from Biniam Girmay. João Almeida was the only rider able to limit his losses to within striking distance, finishing second at 24 seconds, with Giulio Pellizzari, Antonio Tiberi and Brandon McNulty completing the top five in the same group behind Almeida. The result locked in the GC hierarchy for the final day."
+  },
+  "gcImpact": {
+    "headline": "Evenepoel takes the overall lead into the final stage",
+    "body": "Evenepoel moved into the overall lead with his queen-stage win, displacing Girmay. Behind him the GC tightened around the Red Bull and UAE camps: Almeida sat second, Pellizzari third, Tiberi fourth and McNulty fifth — the exact order in which they would finish the race in Valencia. With a flat-ish final day to come, the overall was all but decided."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "This was the day Evenepoel converted his time-trial advantage into the overall. He was the strongest climber in the decisive group and finished it off with the stage win at Teulada Moraira, taking the leader's jersey from Girmay. The 24-second buffer he opened on Almeida here was essentially the winning margin of the race, since the final stage offered no GC-relevant terrain.",
+      "keyMoments": [
+        { "km": null, "what": "Won the queen stage at Teulada Moraira and took the overall lead from Girmay" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida", "name": "João Almeida", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 2, "gap": "+0:24",
+      "narrative": "Almeida was the only GC rider able to follow Evenepoel's pace on the queen stage and limit his losses to 24 seconds, the rest of the contenders trailing in behind him. It confirmed Almeida as the clear second-best stage racer in the field and set up his runner-up finish overall — a solid but not decisive early-season GC showing as UAE's leader for the week.",
+      "keyMoments": [
+        { "km": null, "what": "Second on the queen stage, only rider to stay within 24s of Evenepoel" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "domestique", "position": 3, "gap": "+0:24",
+      "narrative": "Pellizzari finished third on the stage in the chase group behind Almeida, doubling as Evenepoel's most important mountain support and his own GC ride. The young Italian's climbing form delivered both a podium finish overall and the youth classification, an encouraging early-season marker for one of Red Bull's brightest GC prospects.",
+      "keyMoments": [
+        { "km": null, "what": "Third on the queen stage in the Almeida chase group" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclingflash.com/race/volta-comunitat-valenciana-2026/result/stage-4", "publication": "CyclingFlash", "title": "Volta a la Comunitat Valenciana 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-of-valencia-2026/", "publication": "Cycling Stage", "title": "Tour of Valencia 2026 stages and queen stage", "lang": "en" }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "raceId": "volta-comunitat-valenciana-2026",
+  "raceName": "Volta a la Comunitat Valenciana",
+  "raceDate": "2026-02-04",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Remco Evenepoel opened his 2026 season with overall victory at the Volta a la Comunitat Valenciana, winning the Stage 2 individual time trial and the Stage 4 queen stage to beat João Almeida by 31 seconds and his own Red Bull team-mate Giulio Pellizzari by 34. Biniam Girmay wore the early leader's jersey after winning Stage 1 and took the points classification; Pellizzari claimed the youth jersey and Danny van der Tuuk the mountains.",
+  "podium": [
+    { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "13h 10m 12s" },
+    { "position": 2, "riderId": "joao-almeida", "name": "João Almeida", "team": "UAE Team Emirates - XRG", "gap": "+0:31" },
+    { "position": 3, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:34" },
+    { "position": 4, "riderId": null, "name": "Antonio Tiberi", "team": "Bahrain Victorious", "gap": "+0:36" },
+    { "position": 5, "riderId": null, "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:50" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel's early-season statement on the Costa Blanca",
+    "openingMoves": "Biniam Girmay set the tone on Stage 1, winning the bunch sprint in Torreblanca on his NSN Cycling Team debut and taking the first leader's jersey. The 17 km Stage 2 individual time trial from Carlet to Alginet then handed Remco Evenepoel the chance to make his statement, which he duly took, winning the stage ahead of team-mate Aleksandr Vlasov and beginning to draw clear of the other GC men.",
+    "raceUnfolds": "Stage 3 to San Vicente del Raspeig turned chaotic over the Puerto de Tibi, where GC attacks splintered the field before Andrew August soloed clear late for his maiden professional win; Girmay survived to keep the jersey. The race was then decided on the Stage 4 queen stage to Teulada Moraira.",
+    "decision": "On the 172 km queen stage, Evenepoel was the strongest climber as well as the best time-triallist, winning the stage and lifting the leader's jersey from Girmay. Only João Almeida could limit his losses, finishing 24 seconds back, with Pellizzari, Tiberi and McNulty filling out the order that would hold to the finish.",
+    "finale": "The short, aggressive Stage 5 into Valencia went to a breakaway, Raúl García Pierna of Movistar taking the win, while Evenepoel navigated a chaotic finale safely to confirm overall victory by 31 seconds over Almeida and 34 over Pellizzari."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 2 ITT, Carlet–Alginet", "headline": "Evenepoel wins the race of truth", "description": "The 17 km time trial gave Evenepoel the GC platform, winning by 8 seconds and gapping his climbing rivals against the clock." },
+    { "kmFromFinish": null, "location": "Stage 4 queen stage, Teulada Moraira", "headline": "Evenepoel takes the stage and the lead", "description": "The decisive day: Evenepoel won the queen stage, took the leader's jersey from Girmay, and opened the 24-second buffer on Almeida that became the winning margin." }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Overall win + youth jersey",
+      "verdictClass": "win",
+      "narrative": "An emphatic opening to the year for Red Bull: Evenepoel delivered the overall via the time trial and the queen stage, while Giulio Pellizzari rode to third overall and the youth classification as both protected card and key mountain support. With Vlasov second on the Stage 2 ITT and Arne Marit on the Stage 1 sprint podium, the team showed depth across every terrain of the week.",
+      "riderIds": ["remco-evenepoel", "giulio-pellizzari"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "2nd and 5th on GC",
+      "verdictClass": "neutral",
+      "narrative": "UAE backed João Almeida as their GC leader and he delivered the only real resistance to Evenepoel, taking second overall and second on the queen stage. Brandon McNulty's fifth gave the team two riders in the GC top five, but with no stage win it was a solid rather than spectacular early-season block for the squad.",
+      "riderIds": ["joao-almeida"]
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Stage 1 win + points jersey",
+      "verdictClass": "win",
+      "narrative": "Biniam Girmay's move to the new NSN Cycling Team began perfectly: a Stage 1 sprint win, the first leader's jersey held for three days, and the points classification by week's end. For a ProTeam outfit, fronting the race lead through the first half and walking away with the points jersey was a headline result.",
+      "riderIds": []
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Andrew August's maiden pro win",
+      "verdictClass": "win",
+      "narrative": "INEOS animated Stage 3 and were rewarded when 20-year-old Andrew August timed a daring late move to hold off the bunch for his first professional victory in San Vicente del Raspeig — an encouraging marker for one of the team's young talents.",
+      "riderIds": []
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Stage 5 win from the break",
+      "verdictClass": "win",
+      "narrative": "Spanish home win to close the race: Raúl García Pierna had been active all week, taking mountain points on Stage 3, and capped it by winning the aggressive short final stage into Valencia from the breakaway.",
+      "riderIds": []
+    },
+    {
+      "team": "Bahrain Victorious",
+      "verdict": "Tiberi 4th overall",
+      "verdictClass": "neutral",
+      "narrative": "Antonio Tiberi was Bahrain Victorious's GC card and finished a close fourth overall, just outside the podium and only two seconds behind Pellizzari — a respectable opener that flagged his early-season climbing form.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "GC winner",
+      "narrative": "Evenepoel won the race the way a complete stage racer does: he took the Stage 2 time trial to build the margin and then proved the strongest climber on the Stage 4 queen stage to secure the lead. The 31-second final winning margin over Almeida was essentially banked at Teulada Moraira. A clean, controlled overall to open his 2026 in his new Red Bull colours.",
+      "keyMoments": [
+        { "km": null, "what": "Won Stage 2 ITT" },
+        { "km": null, "what": "Won Stage 4 queen stage and took the overall lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida", "name": "João Almeida", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 2, "gap": "+0:31",
+      "narrative": "Almeida was the best of the rest, the only rider able to follow Evenepoel on the queen stage and limit the damage to 24 seconds there. Second overall confirmed him as UAE's clear GC leader and the strongest stage racer behind the winner across the week, a steady early-season foundation.",
+      "keyMoments": [
+        { "km": null, "what": "Second on the Stage 4 queen stage, only rider within 24s of Evenepoel" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 3, "gap": "+0:34",
+      "narrative": "Pellizzari combined a GC podium with the youth classification, riding both as a protected card and as Evenepoel's mountain lieutenant. Third on the queen stage and third overall, the young Italian opened his season by reaffirming his status as one of Red Bull's brightest GC prospects.",
+      "keyMoments": [
+        { "km": null, "what": "Third on the queen stage; third overall and youth-classification winner" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "An early-season GC marker for Evenepoel and Red Bull",
+    "quotes": [],
+    "body": "The Volta a la Comunitat Valenciana is one of the first stage-race tests of the European season, and in 2026 it doubled as an early statement from Evenepoel in his new team. A time-trial win plus the queen stage is the textbook formula for a punchy week-long stage race, and he executed it cleanly. Beyond the overall, the race gave Girmay a flying start at NSN, the youth jersey to Pellizzari, and a maiden professional win to INEOS's Andrew August."
+  },
+  "sources": [
+    { "url": "https://cyclingflash.com/race/volta-comunitat-valenciana-2026/result/stage-5/gc", "publication": "CyclingFlash", "title": "Volta a la Comunitat Valenciana 2026 final GC", "lang": "en" },
+    { "url": "https://www.ciclo21.com/5a-volta-comunitat-valenciana-2026-evenepoel/", "publication": "Ciclo21", "title": "Evenepoel gana la Volta a la Comunitat Valenciana 2026", "lang": "es" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Volta_a_la_Comunitat_Valenciana", "publication": "Wikipedia", "title": "2026 Volta a la Comunitat Valenciana", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/volta-a-la-comunitat-valenciana-remco-evenepoel-navigates-chaotic-final-to-secure-overall-victory-as-raul-garcia-pierna-wins-stage-5-from-breakaway/", "publication": "Cyclingnews", "title": "Evenepoel secures overall victory as García Pierna wins Stage 5", "lang": "en" }
+  ]
+}

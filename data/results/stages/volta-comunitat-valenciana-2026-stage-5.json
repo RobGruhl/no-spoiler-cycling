@@ -1,0 +1,39 @@
+{
+  "raceId": "volta-comunitat-valenciana-2026",
+  "stageNumber": 5,
+  "stageName": "Bétera → Valencia",
+  "stageDate": "2026-02-08",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Raúl García Pierna won the short final stage into Valencia from the breakaway, while Remco Evenepoel navigated a chaotic finale to secure the overall victory ahead of João Almeida and Giulio Pellizzari.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Raúl García Pierna", "team": "Movistar Team", "time": "2h 09m 44s" },
+    { "position": 2, "riderId": null, "name": "Emil Herzog", "team": "Red Bull - BORA - hansgrohe", "gap": "same time" },
+    { "position": 3, "riderId": null, "name": "Jasper Schoofs", "team": "Soudal Quick-Step", "gap": "same time" }
+  ],
+  "narrative": {
+    "headline": "García Pierna wins from the break in Valencia as Evenepoel seals the overall",
+    "body": "The short 94.7 km final stage from Bétera into Valencia was an aggressive, attacking day rather than a routine bunch sprint. A breakaway went clear and stayed away to the line, with Spaniard Raúl García Pierna of Movistar Team taking the stage win ahead of Red Bull's Emil Herzog and Soudal Quick-Step's young Jasper Schoofs. Behind, Remco Evenepoel navigated a chaotic finale safely to protect his overall lead and seal the general classification."
+  },
+  "gcImpact": {
+    "headline": "Evenepoel confirmed overall winner",
+    "body": "Remco Evenepoel finished safely to secure the 2026 Volta a la Comunitat Valenciana, his 31-second buffer over João Almeida and 34 seconds over Giulio Pellizzari intact from the queen stage. Antonio Tiberi and Brandon McNulty rounded out the GC top five. García Pierna's breakaway success had no bearing on the overall, the day's drama coming only from the finale rather than the classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": null, "gap": "GC winner",
+      "narrative": "Evenepoel rode the chaotic short stage into Valencia conservatively, staying safe and out of trouble to bring home the overall. The win — built on his Stage 2 time trial and Stage 4 queen-stage victory — was a clean, controlled early-season GC statement to open his 2026 campaign.",
+      "keyMoments": [
+        { "km": null, "what": "Stayed safe in a chaotic finale to confirm the overall victory" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclingflash.com/race/volta-comunitat-valenciana-2026/result/stage-5", "publication": "CyclingFlash", "title": "Volta a la Comunitat Valenciana 2026 Stage 5 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/volta-a-la-comunitat-valenciana-remco-evenepoel-navigates-chaotic-final-to-secure-overall-victory-as-raul-garcia-pierna-wins-stage-5-from-breakaway/", "publication": "Cyclingnews", "title": "Evenepoel navigates chaotic final to secure overall victory as García Pierna wins Stage 5", "lang": "en" }
+  ]
+}
