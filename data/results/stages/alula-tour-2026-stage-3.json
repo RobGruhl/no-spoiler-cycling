@@ -1,0 +1,34 @@
+{
+  "raceId": "alula-tour-2026",
+  "stageNumber": 3,
+  "stageName": "Winter Park → Bir Jaydah Mountain Wirkah",
+  "stageDate": "2026-01-29",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Yannis Voisard (Tudor Pro Cycling) timed the uphill sprint to perfection on the race's only summit finish at Bir Jaydah Mountain Wirkah, beating Afonso Eulálio and Sergio Higuita to win the stage and take the overall lead. Jan Christen attacked first at 2.2 km but was caught when Eulálio bridged across.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Yannis Voisard", "team": "Tudor Pro Cycling Team", "time": "3h 22m 00s" },
+    { "position": 2, "riderId": null, "name": "Afonso Eulálio", "team": "Bahrain - Victorious", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Sergio Higuita", "team": "XDS Astana Team", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Voisard lunges late on the summit to grab the maglia",
+    "body": "The 142.1 km stage from Winter Park to the summit of Bir Jaydah Mountain Wirkah was the only uphill finish of the race and the day the GC took shape. With no wind to speak of, the day's small breakaway (Hazazi and a Malaysian duo) was caught comfortably with 36 km to go, and there was little tension until a high-speed crash on the final descent involving a UAE Team Emirates rider. The peloton then hit the final climb in a line, with Team Jayco AlUla leading. Paul Double launched first, drawing out a few riders, before Jan Christen counter-attacked from behind with 2.2 km to go and looked the likely winner. But the wide, exposed desert ramp caused several riders to misjudge their effort: Afonso Eulálio bridged across to Christen with team-mate Kevin Vermaerke on his wheel, and after Higuita opened his sprint first, it was Yannis Voisard who proved strongest on the uphill drag, lunging past for the win ahead of Eulálio, with Higuita third."
+  },
+  "gcImpact": {
+    "headline": "Voisard takes the lead by 4 seconds over Eulálio",
+    "body": "Voisard's stage win and bonus moved him into the overall lead, with Afonso Eulálio second at +4s and Sergio Higuita third at +6s after the summit-finish time gaps. The pure sprinters who had led the early GC dropped down the order, and the race became a fight among the all-rounders and climbers. Jan Christen, after his early attack was neutralised, remained within striking distance heading into the Stage 4 sprint day."
+  },
+  "riderPerformances": [],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Unnamed UAE Team Emirates rider", "reason": "High-speed crash on the final descent before the climb." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/alula-tour/2026/stage-3", "publication": "ProCyclingStats", "title": "2026 AlUla Tour — Stage 3 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-alula-tour-2026-yannis-voisard-takes-victory-on-key-stage-3-summit-finish", "publication": "Cycling Up To Date", "title": "AlUla Tour 2026 — Yannis Voisard takes victory on key stage 3 summit finish", "lang": "en" },
+    { "url": "https://www.thealulatour.com/en/news/2026/stage-3/voisard-times-it-to-perfection/102", "publication": "The AlUla Tour", "title": "Voisard times it to perfection", "lang": "en" }
+  ]
+}

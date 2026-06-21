@@ -1,0 +1,33 @@
+{
+  "raceId": "alula-tour-2026",
+  "stageNumber": 1,
+  "stageName": "AlUla Camel Cup Track → AlUla Camel Cup Track",
+  "stageDate": "2026-01-27",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Jonathan Milan (Lidl - Trek) opened the AlUla Tour with a crosswind-shaped sprint win on the 158 km Camel Cup circuit, coming off Hugo Page's wheel to beat Milan Fretin and Matteo Moschetti from an 18-rider front group and take the first leader's jersey on bonuses. The day's big GC story was Jan Christen, who crashed twice and lost 11 seconds in the echelons.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek", "time": "3h 36m 32s" },
+    { "position": 2, "riderId": null, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Matteo Moschetti", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Milan wins the desert echelon sprint; Christen crashes and loses 11s",
+    "body": "The 158 km opener on the exposed circuit around the AlUla Camel Cup Track was decided by the wind. An early four-man break (Al-Wahibi, Alrahbi, Al Shaikhahmed, Rosli) was reeled in with about 65 km to go, and from there strong desert crosswinds tore the field apart. An 18-rider front group containing most of the top sprinters — Milan, Bauhaus, Fretin, Gaviria and others — gained around 30 seconds and was never fully recaught. Inside the final kilometre Timo de Jong tried to surprise the sprinters but Hugo Page closed him down; Milan then used Page as a de-facto lead-out and came past in the last 100 m to win clearly from Fretin and Moschetti. Behind, Jan Christen crashed once and then again with about 15 km to go, chasing back to the bunch with heavy UAE support but missing the front split."
+  },
+  "gcImpact": {
+    "headline": "Milan into the lead; Christen already 11s down",
+    "body": "Thanks to the stage win and time bonus Jonathan Milan took the first overall lead, with Milan Fretin second at +4s and Matteo Moschetti third at +6s. The crosswind split left several GC riders with small deficits — Jan Christen, having missed the 18-man front group after his crashes, sat well down the order at +11s, a gap that would shape his whole week."
+  },
+  "riderPerformances": [],
+  "incidents": {
+    "crashes": [
+      { "riderId": "jan-christen", "name": "Jan Christen", "reason": "Crashed twice (once ~15 km to go) in the crosswinds; chased back to the bunch but missed the front split, losing 11 seconds." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/alula-tour/2026/stage-1", "publication": "ProCyclingStats", "title": "2026 AlUla Tour — Stage 1 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_AlUla_Tour", "publication": "Wikipedia", "title": "2026 AlUla Tour", "lang": "en" }
+  ]
+}
