@@ -1,0 +1,95 @@
+{
+  "raceId": "trofeo-laigueglia-2026",
+  "raceName": "Trofeo Laigueglia",
+  "raceDate": "2026-03-04",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Santiago Buitrago (Bahrain - Victorious) launched a solo attack with around 11 km to go on the finishing circuit and rode clear to win the 63rd Trofeo Laigueglia alone, his first victory in over a year. Romain Grégoire (Groupama - FDJ United) led the chase to take second at 25 seconds, with Buitrago's teammate Antonio Tiberi third at the same time. The 192 km ProSeries opener of the Italian season ran from Albenga to Laigueglia over 2,900 m of climbing, with the race exploding on the Colla Micheri after Louis Vervaeke's long solo break was caught.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Santiago Buitrago", "team": "Bahrain - Victorious", "time": "4h 38m 50s" },
+    { "position": 2, "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United", "gap": "+0:25" },
+    { "position": 3, "riderId": "antonio-tiberi", "name": "Antonio Tiberi", "team": "Bahrain - Victorious", "gap": "+0:25" },
+    { "position": 4, "riderId": null, "name": "Diego Ulissi", "team": "XDS Astana Team", "gap": "+0:40" },
+    { "position": 5, "riderId": null, "name": "Andrea Vendrame", "team": "Team Jayco AlUla", "gap": "+0:44" },
+    { "position": 6, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:44" },
+    { "position": 7, "riderId": null, "name": "António Morgado", "team": "UAE Team Emirates - XRG", "gap": "+0:44" },
+    { "position": 8, "riderId": null, "name": "Simone Gualdi", "team": "Lotto Intermarché", "gap": "+0:44" },
+    { "position": 9, "riderId": null, "name": "Mattéo Vercher", "team": "TotalEnergies", "gap": "+0:44" },
+    { "position": 10, "riderId": null, "name": "Mauri Vansevenant", "team": "Soudal Quick-Step", "gap": "+0:44" }
+  ],
+  "narrative": {
+    "headline": "Buitrago solos clear on the Laigueglia circuit for first win in over a year",
+    "openingMoves": "The 63rd Trofeo Laigueglia, the ProSeries opener of the Italian season, ran 192 km from Albenga along the Ligurian coast and inland over 2,900 m of climbing to the finish on Corso Badarò in Laigueglia. An early breakaway formed on the inland climbs, and Louis Vervaeke took matters into his own hands with a long solo move, attacking clear from the lead group and cresting Testico and Cima Paravenna alone with an advantage of nearly three minutes over the peloton.",
+    "raceUnfolds": "Vervaeke held the front of the race for much of the day, but the chase intensified once the course reached the finishing circuit around Laigueglia. The peloton steadily reeled in the Belgian, who was finally caught as the attacks began on the steep slopes of the Colla Micheri. From there the race fractured rapidly: repeated accelerations on the climb thinned the field until Buitrago, Grégoire and Tiberi emerged as the strongest and moved clear together.",
+    "decision": "The leading trio worked briefly to hold off the chasers, but with around 11 km remaining Buitrago launched a decisive solo attack and immediately opened a gap. The Colombian kept extending his advantage over the closing kilometres while Grégoire and Tiberi were left to organise the chase behind, unable to bring him back.",
+    "finale": "Buitrago carried his lead over the final ascent of Capo Mele, which crests just over a kilometre from the line, and held on to win alone in Laigueglia. Grégoire led the chase home for second at 25 seconds, with Tiberi third at the same time to complete a Bahrain - Victorious double on the podium. Diego Ulissi was best of the rest in fourth at 40 seconds, leading a cluster of Italians across the line."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 11, "location": "Laigueglia finishing circuit", "headline": "Buitrago's winning solo attack", "description": "After Buitrago, Grégoire and Tiberi had ridden clear on the Colla Micheri, Buitrago launched a solo move with roughly 11 km to go, immediately opened daylight and continued to extend his lead all the way to the finish for the win alone." },
+    { "kmFromFinish": 17, "location": "Colla Micheri", "headline": "Vervaeke caught and the race explodes", "description": "Louis Vervaeke's long solo break was reeled in as the attacks started on the steep Colla Micheri. Repeated accelerations split the field and produced the decisive lead trio of Buitrago, Grégoire and Tiberi." }
+  ],
+  "teamStories": [
+    {
+      "team": "Bahrain - Victorious",
+      "verdict": "Buitrago wins, Tiberi third",
+      "verdictClass": "win",
+      "narrative": "Bahrain - Victorious controlled the decisive phase and turned a numerical advantage in the lead trio into a dominant result. Buitrago was the strongest on the Colla Micheri and timed his solo move perfectly with around 11 km to go, while Tiberi marked Grégoire and rode in for third at the same time. A double on the podium and Buitrago's first victory in over a year, an emphatic season-opening statement for the team.",
+      "riderIds": ["antonio-tiberi"]
+    },
+    {
+      "team": "Groupama - FDJ United",
+      "verdict": "Grégoire second, isolated in finale",
+      "verdictClass": "neutral",
+      "narrative": "Romain Grégoire was among the very strongest, making the decisive split on the Colla Micheri and reaching the lead trio. But with two Bahrain riders alongside him he was outnumbered when Buitrago attacked, and despite leading the chase he could not close the gap, taking second at 25 seconds. A strong early-season result for the young puncheur-climber on terrain that suits him, just short of the win.",
+      "riderIds": ["romain-gregoire1"]
+    },
+    {
+      "team": "XDS Astana Team",
+      "verdict": "Ulissi fourth, Scaroni sixth",
+      "verdictClass": "neutral",
+      "narrative": "XDS Astana placed two riders in the top six on home roads, with the veteran Diego Ulissi best of the chasers in fourth and Christian Scaroni sixth in the reduced group. The team was active throughout but lacked the legs to follow the decisive trio over the Colla Micheri, leaving them racing for the minor placings behind Buitrago.",
+      "riderIds": ["christian-scaroni"]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Vansevenant tenth, two in top eleven",
+      "verdictClass": "neutral",
+      "narrative": "Soudal Quick-Step ended the day with Mauri Vansevenant tenth and Gianmarco Garofoli eleventh, both surviving the Colla Micheri selection to finish in the front chase group at 44 seconds. A solid if unspectacular opener that kept the team in the mix without troubling the podium.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United",
+      "role": "leader", "position": 2, "gap": "+0:25",
+      "narrative": "Grégoire confirmed his strong early-season form on the punchy Ligurian finale. He made the decisive selection on the Colla Micheri and was one of only three riders able to go clear with Buitrago and Tiberi. Outnumbered two-to-one by Bahrain, he was unable to respond when Buitrago attacked with around 11 km to go, and despite driving the chase he had to settle for second at 25 seconds. An encouraging podium that fits his late-winter one-day campaign ahead of the spring Classics.",
+      "keyMoments": [
+        { "km": 17, "what": "Made the decisive split on the Colla Micheri to reach the lead trio" },
+        { "km": 11, "what": "Left outnumbered when Buitrago attacked; led the chase but could not close" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team",
+      "role": "leader", "position": 6, "gap": "+0:44",
+      "narrative": "Scaroni was again among XDS Astana's most active riders on Italian roads, surviving the repeated accelerations on the Colla Micheri to finish sixth in the front chase group at 44 seconds. He could not match the decisive trio but backed up teammate Ulissi's fourth place for a strong collective showing by the home team.",
+      "keyMoments": [
+        { "km": 17, "what": "Held the front group through the Colla Micheri selection" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A solo win to open the Italian season",
+    "quotes": [],
+    "body": "The Trofeo Laigueglia has long served as the curtain-raiser for the Italian one-day calendar, and the 2026 edition rewarded an aggressive, well-drilled team performance. Bahrain - Victorious read the finale perfectly, using their numbers in the lead trio to set up Buitrago's solo move, and the Colombian's first win in over a year provided an early marker of form. For Grégoire, second on terrain that suits him was a positive sign heading toward the Classics; for the Italian contingent led by Ulissi and Scaroni, it was a day of strong but ultimately frustrated placings behind a stronger move."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/trofeo-laigueglia/2026/result", "publication": "ProCyclingStats", "title": "63rd Trofeo Laigueglia 2026 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-trofeo-laigueglia-2026-santiago-buitrago-solos-to-first-victory-in-over-a-year-after-late-attack", "publication": "CyclingUpToDate", "title": "Results Trofeo Laigueglia 2026 | Santiago Buitrago solos to first victory in over a year after late attack", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Trofeo_Laigueglia", "publication": "Wikipedia", "title": "2026 Trofeo Laigueglia", "lang": "en" },
+    { "url": "https://fr.wikipedia.org/wiki/Trofeo_Laigueglia_2026", "publication": "Wikipédia", "title": "Trofeo Laigueglia 2026", "lang": "fr" },
+    { "url": "https://sport.quotidiano.net/en/ciclismo/trofeo-laigueglia-2026-buitrago-vince-davanti-a-tiberi-700235c0", "publication": "Quotidiano Nazionale", "title": "2026 Laigueglia Trophy: Buitrago wins ahead of Tiberi", "lang": "en" }
+  ]
+}
