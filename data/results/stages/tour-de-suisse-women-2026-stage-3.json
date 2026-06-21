@@ -1,0 +1,47 @@
+{
+  "raceId": "tour-de-suisse-women-2026",
+  "stageNumber": 3,
+  "stageName": "Bad Ragaz → Bad Ragaz",
+  "stageDate": "2026-06-19",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Zoe Bäckstedt (Canyon//SRAM) powered to a dominant bunch sprint in Bad Ragaz after the day's breakaway was caught, beating Lily Williams and Shari Bossuyt. Elisa Longo Borghini retained the yellow jersey on a day disrupted by a late crash that dropped Lauren Dickson from second on GC.",
+  "podium": [
+    { "position": 1, "name": "Bäckstedt Zoe", "team": "Canyon//SRAM", "time": "2h 49m 29s" },
+    { "position": 2, "name": "Williams Lily", "team": "Human Powered Health", "gap": "+0:00" },
+    { "position": 3, "name": "Bossuyt Shari", "team": "AG Insurance - Soudal Team", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Bäckstedt blasts the sprint in Bad Ragaz",
+    "body": "Stage 3 was a 120 km circuit-based road stage around Bad Ragaz that ended in a reduced bunch sprint. The day's breakaway was reeled in with just over 20 kilometres remaining, setting up a hectic run-in. Canyon//SRAM organised the lead-out and Zoe Bäckstedt launched from distance in the final straight, winning by several bike lengths over Lily Williams and Shari Bossuyt — the British rider's ninth professional victory.\n\nThe finale was chaotic: Lauren Dickson, lying second overall, crashed inside the final 5 kilometres. With a five-kilometre run-in rule in play the time consequences were initially uncertain, but she fell out of second place on the general classification. The GC contenders finished safely together, leaving the overall picture among the favourites unchanged ahead of the time trial."
+  },
+  "gcImpact": {
+    "headline": "Longo Borghini holds yellow before the time trial",
+    "body": "Elisa Longo Borghini retained the overall lead after the bunch finish, with Marlen Reusser now sitting at around 55 seconds in the GC picture heading into the stage 4 time trial. Bäckstedt's win came from well down the standings (she is not a GC factor) and did not alter the top of the classification. The principal change among the leaders was Lauren Dickson dropping out of second overall following her late crash."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Longo Borghini Elisa",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "A quiet, successful day for the race leader: Longo Borghini stayed out of trouble in the bunch finish and retained the yellow jersey, conceding nothing to her GC rivals ahead of the decisive time trial.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "name": "Lauren Dickson", "team": "FDJ United - SUEZ", "reason": "Crashed inside the final 5 km; dropped from second on GC" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.domestiquecycling.com/en/news/zoe-backstedt-delivers-devastating-sprint-to-win-suisse-women-stage-3/", "publication": "Domestique", "title": "Zoe Bäckstedt delivers devastating sprint to win Suisse Women stage 3", "lang": "en" },
+    { "url": "https://www.blick.ch/fr/sport/autres-sports/longo-borghini-reste-en-jaune-zoe-baeckstedt-simpose-a-bad-ragaz-id22042881.html", "publication": "Blick", "title": "Longo Borghini reste en jaune, Zoe Bäckstedt s'impose à Bad Ragaz", "lang": "fr" },
+    { "url": "https://www.cyclingweekly.com/racing/zoe-backstedt-takes-dominant-sprint-win-on-tour-de-suisse-women-stage-3", "publication": "Cycling Weekly", "title": "Zoe Bäckstedt takes dominant sprint win on Tour de Suisse Women stage 3", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse-women/2026/stage-3", "publication": "ProCyclingStats", "title": "Tour de Suisse Women 2026 Stage 3 result", "lang": "en" }
+  ]
+}

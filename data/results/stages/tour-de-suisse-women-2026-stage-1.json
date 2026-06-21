@@ -1,0 +1,76 @@
+{
+  "raceId": "tour-de-suisse-women-2026",
+  "stageNumber": 1,
+  "stageName": "Sondrio → Sondrio",
+  "stageDate": "2026-06-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Femke de Vries (Visma | Lease a Bike) won the opening stage in Sondrio with a two-up sprint over Lauren Dickson after the pair broke clear on the final climb, taking her first professional victory and the first yellow jersey.",
+  "podium": [
+    { "position": 1, "riderId": "femke-de-vries", "name": "de Vries Femke", "team": "Team Visma | Lease a Bike", "time": "2h 56m 23s" },
+    { "position": 2, "name": "Dickson Lauren", "team": "FDJ United - SUEZ", "gap": "+0:00" },
+    { "position": 3, "riderId": "cedrine-kerbaol", "name": "Kerbaol Cédrine", "team": "EF Education-Oatly", "gap": "+0:29" }
+  ],
+  "narrative": {
+    "headline": "De Vries lands her first pro win on a demanding opener",
+    "body": "The 2026 Tour de Suisse Women began with a hard 109 km circuit-based road stage in and around Sondrio, with repeated ascents of the Triangia climb stripping the bunch back. On the second-to-last pass of Triangia, Femke de Vries and Lauren Dickson broke clear of the favourites' group and committed to the move together. Despite several attacks behind from the GC contenders, the pair held their advantage to the line.\n\nDe Vries proved the stronger in the two-up sprint, beating Dickson for her first professional victory and the first leader's jersey of the race. Cédrine Kerbaol led the chase home 29 seconds back for third, ahead of a compact group containing Kim Le Court-Pienaar, Sarah Van Dam, Elisa Longo Borghini, Steffi Häberlin, Marlen Reusser and Kasia Niewiadoma, all at 38 seconds. The win also handed De Vries the early leads in the mountains and points classifications."
+  },
+  "gcImpact": {
+    "headline": "De Vries takes the first yellow jersey",
+    "body": "Femke de Vries leads the general classification after stage 1, with Lauren Dickson second at 4 seconds (a deficit set by time bonuses) and Cédrine Kerbaol third at 35 seconds. The main GC favourites — Le Court-Pienaar (+0:48), Longo Borghini (+0:48), Reusser (+0:48) and Niewiadoma — all finished together in the chasing group and sit clustered just under a minute down."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "cedrine-kerbaol",
+      "name": "Kerbaol Cédrine",
+      "team": "EF Education-Oatly",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:29",
+      "narrative": "Kerbaol was the best of the chasers on the opening stage, leading the favourites' group home for third behind the two escapees. The result put her third on GC at 35 seconds and into the virtual best-young-rider lead, a strong start to her week.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Longo Borghini Elisa",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 7,
+      "gap": "+0:48",
+      "narrative": "Longo Borghini marked the GC moves but could not bridge to the De Vries–Dickson break, finishing safely in the chase group at 48 seconds. A controlled, no-mistakes opener that left her well within striking distance of the lead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Reusser Marlen",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 8,
+      "gap": "+0:48",
+      "narrative": "Reusser stayed attentive in the favourites' group and finished eighth at 48 seconds, conceding little on a punchy day that did not suit her. With the stage 4 time trial circled on the route, she was content to keep her losses minimal on the opening stage.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma",
+      "name": "Niewiadoma Kasia",
+      "team": "Canyon-SRAM zondacrypto",
+      "role": "leader",
+      "position": 9,
+      "gap": "+0:48",
+      "narrative": "Niewiadoma raced into the front group on the climbs and finished with the other favourites at 48 seconds, staying in contention without expending energy chasing the two-up move ahead.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.tourdesuisse.ch/en/de-vries-gewinnt-den-auftakt-in-sondrio/", "publication": "Tour de Suisse", "title": "De Vries wins the opener in Sondrio", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/tour-de-suisse-women-stage-1-live-challenging-finale-sets-the-tone-for-the-week-in-opening-stage/", "publication": "Cyclingnews", "title": "Femke de Vries outsprints Lauren Dickson to claim first professional victory on hard-fought stage 1", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse-women/2026/stage-1", "publication": "ProCyclingStats", "title": "Tour de Suisse Women 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/tour-de-suisse-women/2026/stage-1/", "publication": "Domestique", "title": "Tour de Suisse Women 2026 Stage 1", "lang": "en" }
+  ]
+}

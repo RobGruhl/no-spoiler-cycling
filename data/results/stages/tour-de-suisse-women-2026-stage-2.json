@@ -1,0 +1,90 @@
+{
+  "raceId": "tour-de-suisse-women-2026",
+  "stageNumber": 2,
+  "stageName": "Locarno → Locarno",
+  "stageDate": "2026-06-18",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Elisa Longo Borghini (UAE Team ADQ) attacked solo on the final climb to win stage 2 in Locarno and take the yellow jersey, a finale marred by Reusser and Niewiadoma riding off course inside the final 3 km and a heavy crash for Urška Žigart at the flamme rouge.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-longo-borghini", "name": "Longo Borghini Elisa", "team": "UAE Team ADQ", "time": "2h 34m 35s" },
+    { "position": 2, "name": "Van Dam Sarah", "team": "Team Visma | Lease a Bike", "gap": "+0:30" },
+    { "position": 3, "name": "Häberlin Steffi", "team": "Team SD Worx - Protime", "gap": "+0:47" }
+  ],
+  "narrative": {
+    "headline": "Longo Borghini goes solo for the win and the lead in Locarno",
+    "body": "Stage 2 was a mostly flat 105 km loop around Locarno, but two short ascents near the finish turned it into a GC day. An early breakaway of Carlotta Cipressi and Margot Vanpachtenbeke shaped the race, while leader Femke de Vries crashed early. On the first of the two finishing climbs, Marlen Reusser and Kasia Niewiadoma attacked and split the group down to the best climbers; Niewiadoma was followed by Longo Borghini and De Vries.\n\nOn the final steeper ascent — around 1.5 km long — Longo Borghini went clear alone as De Vries cracked. With roughly 3 km to go the chase imploded when Reusser and Niewiadoma rode off the prescribed route, ending any hope of bringing Longo Borghini back. Sarah Van Dam, who stayed on course, rode across the error to take second in isolation, with Steffi Häberlin third. Longo Borghini soloed to the stage win and into the yellow jersey. Urška Žigart suffered a heavy crash at the flamme rouge and was taken to hospital, reported conscious."
+  },
+  "gcImpact": {
+    "headline": "Longo Borghini takes yellow in Locarno",
+    "body": "Elisa Longo Borghini moved into the overall lead after her solo win. Sarah Van Dam's second place lifted her to second on GC at 34 seconds; Häberlin third at 53s. Reusser (4th on GC, +0:57) and Niewiadoma (6th, +0:57) lost ground through their wrong-course detour but stayed close enough to keep the time trial as their lever. Dickson dropped down the order after the climbs but sat second on the stage's points but seventh on GC at this point."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Longo Borghini Elisa",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Longo Borghini timed her move perfectly, going solo on the final 1.5 km climb after the Reusser–Niewiadoma attack had thinned the group. She held her advantage to the line for the stage win and the yellow jersey, capitalising further when her two nearest rivals rode off course behind her.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked solo on the final climb as De Vries cracked" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Reusser Marlen",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": null,
+      "gap": "+0:47",
+      "narrative": "Reusser was one of the aggressors, attacking with Niewiadoma on the first finishing climb to blow the group apart. But the move backfired in the chaotic finale: with around 3 km to go she and Niewiadoma rode off the marked course, conceding the chase to Longo Borghini. She came home at 47 seconds and sat fifth on GC, banking on the stage 4 time trial to recover.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on the first finishing climb to split the group" },
+        { "km": 3, "what": "Rode off the prescribed course with Niewiadoma, ending the chase" }
+      ],
+      "incident": { "type": "wrong-course", "description": "Rode off the marked route with ~3 km to go" }
+    },
+    {
+      "riderId": "kasia-niewiadoma",
+      "name": "Niewiadoma Kasia",
+      "team": "Canyon-SRAM zondacrypto",
+      "role": "leader",
+      "position": null,
+      "gap": "+0:47",
+      "narrative": "Niewiadoma instigated the decisive selection alongside Reusser, but the pair's navigational error inside the final 3 km cost them the chance to chase Longo Borghini. She finished at 47 seconds and sixth on GC, her overall hopes dented but not extinguished.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked with Reusser on the first finishing climb" },
+        { "km": 3, "what": "Rode off course with Reusser in the finale" }
+      ],
+      "incident": { "type": "wrong-course", "description": "Rode off the marked route with ~3 km to go" }
+    },
+    {
+      "riderId": "femke-de-vries",
+      "name": "de Vries Femke",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "The race leader's day unravelled twice: an early crash, then a complete crack on the final climb after initially following the moves. De Vries surrendered the yellow jersey but her teammate Sarah Van Dam salvaged the day for Visma with second on the stage.",
+      "keyMoments": [
+        { "km": null, "what": "Crashed early in the stage" },
+        { "km": null, "what": "Cracked on the final climb and lost the race lead" }
+      ],
+      "incident": { "type": "crash", "description": "Early-stage crash; later distanced on the final climb" }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "name": "Urška Žigart", "team": "AG Insurance - Soudal Team", "reason": "Heavy crash at the flamme rouge; taken to hospital, reported conscious" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-suisse-women-2026-stage-2-elisa-longo-borghini-takes-stage-win-and-race-lead-reusser-and-niewiadoma-ride-off-course-in-the-final-kilometers", "publication": "CyclingUpToDate", "title": "Longo Borghini takes stage win and lead; Reusser and Niewiadoma ride off course", "lang": "en" },
+    { "url": "https://www.tourdesuisse.ch/en/women/", "publication": "Tour de Suisse", "title": "Longo Borghini takes yellow in Locarno", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse-women/2026/stage-2", "publication": "ProCyclingStats", "title": "Tour de Suisse Women 2026 Stage 2 result", "lang": "en" }
+  ]
+}

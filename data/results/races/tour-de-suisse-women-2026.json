@@ -1,0 +1,150 @@
+{
+  "raceId": "tour-de-suisse-women-2026",
+  "raceName": "Tour de Suisse Women",
+  "raceDate": "2026-06-17",
+  "researchedAt": "2026-06-20T19:15:00Z",
+  "inProgress": true,
+  "tldr": "Through four of five stages, Marlen Reusser leads the Tour de Suisse Women. After Femke de Vries won the Sondrio opener and Elisa Longo Borghini took yellow with a solo win in Locarno, Reusser's dominant stage 4 time trial in Aarburg flipped the race: she holds a 10-second overall lead over Longo Borghini, with Zoe Bäckstedt's stage 3 sprint the other highlight. Only the final mountain stage to Villars-sur-Ollon remains.",
+  "podium": [
+    { "position": 1, "riderId": "marlen-reusser", "name": "Reusser Marlen", "team": "Movistar Team", "gap": "race leader, GC in progress" },
+    { "position": 2, "riderId": "elisa-longo-borghini", "name": "Longo Borghini Elisa", "team": "UAE Team ADQ", "gap": "+0:10" },
+    { "position": 3, "riderId": "cedrine-kerbaol", "name": "Kerbaol Cédrine", "team": "EF Education-Oatly", "gap": "+1:20" }
+  ],
+  "narrative": {
+    "headline": "Reusser's home time trial seizes the lead with one stage to go",
+    "openingMoves": "The race opened with a demanding 109 km circuit around Sondrio, where Femke de Vries (Visma | Lease a Bike) and Lauren Dickson broke clear on the final climb and De Vries won the two-up sprint for her first professional victory and the first yellow jersey. The GC favourites — Longo Borghini, Reusser, Niewiadoma, Le Court-Pienaar — all finished together at 48 seconds, keeping their powder dry.",
+    "raceUnfolds": "Stage 2 around Locarno turned on its two late climbs. Reusser and Niewiadoma attacked to split the group, but Elisa Longo Borghini went solo on the final ascent to win and take yellow — and the chase collapsed when Reusser and Niewiadoma rode off the marked course inside the final 3 km. Sarah Van Dam stayed on route to take second. The finale also brought a heavy crash for Urška Žigart at the flamme rouge. Stage 3 in Bad Ragaz was a reduced bunch sprint won emphatically by Zoe Bäckstedt over Lily Williams and Shari Bossuyt after the break was caught; Longo Borghini held the lead, though Dickson crashed out of second on GC inside the final 5 km.",
+    "decision": "The stage 4 individual time trial in Aarburg decided the GC. Time-trial specialist Marlen Reusser, on home roads, posted 29:36 at 48 km/h to win the 23.7 km test by 11 seconds over Bäckstedt and turn her deficit into a 10-second overall lead. Longo Borghini limited her loss to 1:04 (5th) to stay within striking distance for the final day.",
+    "finale": "Still to come — the stage 5 mountain stage to Villars-sur-Ollon on 21 June, where Longo Borghini (10s back) and the other climbers will attack Reusser to try to overturn the time trial deficit. The race is not yet decided."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Sondrio circuit (Stage 1)", "headline": "De Vries wins the opener from a two-up move", "description": "De Vries and Dickson broke clear on the final climb of Triangia; De Vries took the sprint, her first pro win, and the first yellow jersey while the favourites sat at 48 seconds." },
+    { "kmFromFinish": 3, "location": "Locarno finale (Stage 2)", "headline": "Longo Borghini takes yellow; Reusser and Niewiadoma ride off course", "description": "Longo Borghini went solo on the final climb to win and lead the race, while chief chasers Reusser and Niewiadoma rode off the marked route inside the final 3 km, conceding the win and time." },
+    { "kmFromFinish": 5, "location": "Bad Ragaz (Stage 3)", "headline": "Bäckstedt blasts the bunch sprint; Dickson crashes", "description": "Zoe Bäckstedt won a reduced sprint by lengths after the break was caught; Lauren Dickson crashed inside the final 5 km and fell out of second on GC, while Longo Borghini kept the lead." },
+    { "kmFromFinish": 0, "location": "Aarburg ITT (Stage 4)", "headline": "Reusser's time trial takes the lead", "description": "Reusser won the 23.7 km Aarburg time trial by 11 seconds at 48 km/h, seizing the yellow jersey by 10 seconds over Longo Borghini with only the mountain stage remaining." }
+  ],
+  "teamStories": [
+    {
+      "team": "Movistar Team",
+      "verdict": "Yellow jersey before the finale",
+      "verdictClass": "win",
+      "narrative": "Movistar built its week around the Aarburg time trial, and Marlen Reusser delivered. After keeping her losses minimal on the punchy opening stages — and recovering from an off-course error in Locarno — the Swiss specialist won the stage 4 ITT on home roads by 11 seconds to seize the overall lead by 10 seconds. The team now has to defend a slim margin against the climbers on the final mountain stage.",
+      "riderIds": ["marlen-reusser"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Stage win + yellow held for 2 days, now 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Elisa Longo Borghini was the aggressor of the first half, soloing to the stage 2 win in Locarno and wearing yellow through stages 2 and 3. She lost the lead only to a time-trial specialist on stage 4, limiting her ITT damage to 1:04 to sit second at just 10 seconds. The final mountain stage is set up perfectly for her to try to win the race back.",
+      "riderIds": ["elisa-longo-borghini"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Stage 1 win + early yellow",
+      "verdictClass": "win",
+      "narrative": "Visma struck first: Femke de Vries took her maiden professional win and the opening yellow jersey in Sondrio, and also led the mountains classification. When De Vries faded on stage 2, Sarah Van Dam salvaged second on the day by staying on course amid the finale chaos, and the pair sit fourth and fifth on GC — a productive, opportunistic week.",
+      "riderIds": ["femke-de-vries", "sarah-van-dam"]
+    },
+    {
+      "team": "Canyon//SRAM",
+      "verdict": "Stage 3 sprint win",
+      "verdictClass": "win",
+      "narrative": "Canyon//SRAM converted on the one bunch-sprint day, organising the lead-out for Zoe Bäckstedt to win stage 3 in Bad Ragaz by several lengths — her ninth professional victory. Bäckstedt also leads the points classification and was runner-up in the time trial, while Kasia Niewiadoma carries the team's GC hopes into the mountain finale from sixth at 1:49.",
+      "riderIds": ["kasia-niewiadoma"]
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "3rd on GC + youth lead",
+      "verdictClass": "neutral",
+      "narrative": "Cédrine Kerbaol has quietly assembled a strong week: third on the Sondrio opener, a solid time trial, and a hold on third overall at 1:20 along with the young rider classification lead. EF heads into the final mountain stage with a genuine podium and youth-jersey defence to manage.",
+      "riderIds": ["cedrine-kerbaol"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "marlen-reusser",
+      "name": "Reusser Marlen",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Reusser raced a patient, calculated week. She conceded little on the hilly opening stages, survived an off-course moment in Locarno, then unleashed a dominant home time trial in Aarburg — 29:36 at 48 km/h, winning by 11 seconds — to take the yellow jersey by 10 seconds. She now defends a slim lead against the climbers on the final mountain stage.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 2: attacked with Niewiadoma but rode off course in the finale" },
+        { "km": 23.7, "what": "Stage 4: won the Aarburg ITT by 11s to take the overall lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Longo Borghini Elisa",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:10",
+      "narrative": "Longo Borghini was the strongest road racer of the opening half, soloing to the stage 2 win and wearing yellow for two days. She defended well in the time trial — losing only 1:04 to a specialist — and sits second at just 10 seconds, primed to attack on the closing mountain stage.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 2: solo win and took the yellow jersey" },
+        { "km": 23.7, "what": "Stage 4: limited ITT loss to 1:04, sits 10s off the lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "cedrine-kerbaol",
+      "name": "Kerbaol Cédrine",
+      "team": "EF Education-Oatly",
+      "role": "leader",
+      "position": 3,
+      "gap": "+1:20",
+      "narrative": "Kerbaol has been a consistent presence near the front: third on the Sondrio opener and a steady time trial keep her third overall at 1:20 and in the young rider lead heading into the mountain finale.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 1: 3rd, leading the favourites' group home" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "femke-de-vries",
+      "name": "de Vries Femke",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+1:43",
+      "narrative": "De Vries opened the race in style with her first professional win and the yellow jersey in Sondrio, also leading the mountains classification. After cracking on stage 2 she rebuilt to fifth overall at 1:43 — a breakthrough week for the young Dutchwoman.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 1: won the opener and took the first yellow jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma",
+      "name": "Niewiadoma Kasia",
+      "team": "Canyon-SRAM zondacrypto",
+      "role": "leader",
+      "position": 6,
+      "gap": "+1:49",
+      "narrative": "Niewiadoma raced aggressively on stage 2 but lost time to her own off-course error, and the time trial pushed her to sixth at 1:49. As a climber she will target the final mountain stage to move up the overall.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 2: attacked with Reusser, then rode off course" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "name": "Urška Žigart", "team": "AG Insurance - Soudal Team", "reason": "Stage 2 — heavy crash at the flamme rouge, taken to hospital, reported conscious" },
+      { "name": "Lauren Dickson", "team": "FDJ United - SUEZ", "reason": "Stage 3 — crashed inside the final 5 km, dropped from second on GC" }
+    ]
+  },
+  "aftermath": {
+    "headline": "Mid-race summary after stage 4 (of 5)",
+    "quotes": [],
+    "body": "As of 20 June 2026, after four of five stages, Marlen Reusser leads the Tour de Suisse Women by 10 seconds over Elisa Longo Borghini, with Cédrine Kerbaol third at 1:20, Sarah Van Dam fourth at 1:35 and Femke de Vries fifth at 1:43. Reusser's stage 4 time trial flipped a race that Longo Borghini had led since Locarno. The final mountain stage to Villars-sur-Ollon on 21 June is the last and decisive chapter: with only 10 seconds separating the top two, the climbers — Longo Borghini foremost — will look to overturn the deficit. The jersey competitions are led by Bäckstedt (points), De Vries (mountains) and Kerbaol (young rider)."
+  },
+  "sources": [
+    { "url": "https://www.tourdesuisse.ch/en/de-vries-gewinnt-den-auftakt-in-sondrio/", "publication": "Tour de Suisse", "title": "De Vries wins the opener in Sondrio (Stage 1)", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-suisse-women-2026-stage-2-elisa-longo-borghini-takes-stage-win-and-race-lead-reusser-and-niewiadoma-ride-off-course-in-the-final-kilometers", "publication": "CyclingUpToDate", "title": "Stage 2 — Longo Borghini takes win and lead; Reusser, Niewiadoma off course", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/zoe-backstedt-delivers-devastating-sprint-to-win-suisse-women-stage-3/", "publication": "Domestique", "title": "Stage 3 — Bäckstedt's sprint win; Longo Borghini holds yellow", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-suisse-women-2026-stage-4-marlen-reusser-flies-into-race-lead-with-dominating-time-trial-win", "publication": "CyclingUpToDate", "title": "Stage 4 — Reusser flies into race lead with dominating time trial win", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse-women/2026/stage-4-gc", "publication": "ProCyclingStats", "title": "Tour de Suisse Women 2026 — GC after stage 4", "lang": "en" }
+  ]
+}

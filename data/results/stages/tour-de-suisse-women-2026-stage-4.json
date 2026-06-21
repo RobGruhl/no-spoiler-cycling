@@ -1,0 +1,81 @@
+{
+  "raceId": "tour-de-suisse-women-2026",
+  "stageNumber": 4,
+  "stageName": "Aarburg → Aarburg (ITT)",
+  "stageDate": "2026-06-20",
+  "stageType": "itt",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Marlen Reusser (Movistar) crushed the 23.7 km Aarburg time trial, posting 29:36 at 48 km/h to win by 11 seconds over Zoe Bäckstedt and take the yellow jersey from Elisa Longo Borghini, who is now 10 seconds down on GC with only the final mountain stage to come.",
+  "podium": [
+    { "position": 1, "riderId": "marlen-reusser", "name": "Reusser Marlen", "team": "Movistar Team", "time": "29:36" },
+    { "position": 2, "name": "Bäckstedt Zoe", "team": "Canyon//SRAM", "gap": "+0:11" },
+    { "position": 3, "name": "Adegeest Loes", "team": "Lidl - Trek", "gap": "+0:54" },
+    { "position": 5, "riderId": "elisa-longo-borghini", "name": "Longo Borghini Elisa", "team": "UAE Team ADQ", "gap": "+1:04" }
+  ],
+  "narrative": {
+    "headline": "Reusser's time trial masterclass flips the race",
+    "body": "Stage 4 was the 23.7 km individual time trial in Aarburg — the day circled on the route as the GC-defining test. World-class against the clock, Marlen Reusser delivered exactly the ride Movistar needed, stopping the clock at 29:36.46 for an average of 48.028 km/h, the fastest time of the day by a clear margin.\n\nZoe Bäckstedt, a strong time triallist herself, was the best of the rest at 11 seconds. Loes Adegeest (+0:54) and Franziska Koch (+1:02) rounded out the top four. Crucially, race leader Elisa Longo Borghini limited her loss to 1:04 for fifth on the stage — a respectable ride against a specialist, but not enough to keep the jersey. Reusser's win moved her into the overall lead by 10 seconds over Longo Borghini, with the final mountain stage at Villars-sur-Ollon left to settle the race."
+  },
+  "gcImpact": {
+    "headline": "Reusser takes yellow by 10 seconds before the mountain finale",
+    "body": "Marlen Reusser leads the general classification after stage 4 with a total time of 8:51:25. Elisa Longo Borghini is second at just 10 seconds, Cédrine Kerbaol third at 1:20, Sarah Van Dam fourth at 1:35 and Femke de Vries fifth at 1:43. Niewiadoma sits sixth at 1:49 and Le Court-Pienaar seventh at 2:01. The slender 10-second margin sets up a decisive showdown on the stage 5 mountain stage to Villars-sur-Ollon, where the pure climbers — Longo Borghini chief among them — will look to overturn the time trial deficit. In the jersey competitions, Bäckstedt leads the points classification, De Vries the mountains (QOM) classification, and Kerbaol the young rider classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "marlen-reusser",
+      "name": "Reusser Marlen",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "A trademark Reusser time trial. The Swiss specialist, racing on home roads, posted 29:36 at 48 km/h to win the stage by 11 seconds and turn a 55-second GC deficit into a 10-second lead. After staying patient and conceding minimal time on the punchy opening stages, she executed the ITT she had been targeting all week to seize the yellow jersey from Longo Borghini before the final mountain stage. She also moved up to second in the points classification.",
+      "keyMoments": [
+        { "km": 23.7, "what": "Fastest time of the day, 29:36 at 48.028 km/h, to win the stage and take the overall lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Longo Borghini Elisa",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 5,
+      "gap": "+1:04",
+      "narrative": "Longo Borghini lost the yellow jersey but kept the race alive. Riding a strong time trial for a non-specialist, she limited her loss to Reusser to 1:04 — fifth on the stage — and sits just 10 seconds off the overall lead. That deficit is well within reach on the closing mountain stage, where she will be the favourite to attack and try to win the race back.",
+      "keyMoments": [
+        { "km": 23.7, "what": "Limited her ITT loss to 1:04 (5th), staying 10s off the GC lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "cedrine-kerbaol",
+      "name": "Kerbaol Cédrine",
+      "team": "EF Education-Oatly",
+      "role": "leader",
+      "position": 10,
+      "gap": "+1:14",
+      "narrative": "Kerbaol rode a solid time trial for tenth and consolidated her position on the overall podium and her lead in the young rider classification. She sits third on GC at 1:20, still a podium threat depending on how the mountain stage plays out.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma",
+      "name": "Niewiadoma Kasia",
+      "team": "Canyon-SRAM zondacrypto",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "The time trial was never going to be Niewiadoma's day, and she sits sixth overall at 1:49 after stage 4. As a climber she will pin her hopes on the final mountain stage to claw back time on the GC leaders.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-suisse-women-2026-stage-4-marlen-reusser-flies-into-race-lead-with-dominating-time-trial-win", "publication": "CyclingUpToDate", "title": "Marlen Reusser flies into race lead with dominating time trial win", "lang": "en" },
+    { "url": "https://www.watson.ch/sport/velo/180932973-tour-de-suisse-reusser-uebernimmt-nach-dem-zeitfahren-die-gesamtfuehrung", "publication": "Watson", "title": "Reusser übernimmt nach dem Zeitfahren die Gesamtführung", "lang": "de" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse-women/2026/stage-4", "publication": "ProCyclingStats", "title": "Tour de Suisse Women 2026 Stage 4 (ITT) result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_de_Suisse_Women", "publication": "Wikipedia", "title": "2026 Tour de Suisse Women — stage 4 / GC after stage 4", "lang": "en" }
+  ]
+}
