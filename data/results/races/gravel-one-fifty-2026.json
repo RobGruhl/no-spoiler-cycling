@@ -1,0 +1,56 @@
+{
+  "raceId": "gravel-one-fifty-2026",
+  "raceName": "Gravel One Fifty",
+  "raceDate": "2026-04-25",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Kamiel Notebaert (Bataia Brigade) and Romy Kasper (PAS Racing) won the elite races at the 2026 Gravel One Fifty, the UCI Gravel World Series round on a flat, fast 150 km course around Roden in Drenthe, the Netherlands. Notebaert took the men's race in 4:01:55 out of a tight front group, beating Tijmen Eising (BEAT CC p/b Saxo) and Rick Ottema (EEW-VDK Cyclingteam) in a same-time finish. Kasper won the women's elite race ahead of Clara Lundmark and Wendy Oosterwoud. The largely pan-flat Drenthe course (a previous edition logged just 267 m of climbing) made for a fast, group-dominated day, and as a World Series qualifier the top 25% of each category booked a place at the 2026 Gravel Worlds in Nannup, Australia.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Kamiel Notebaert", "team": "Bataia Brigade", "time": "4h 01m 55s", "note": "Men's elite" },
+    { "position": 2, "riderId": null, "name": "Tijmen Eising", "team": "BEAT CC p/b Saxo", "gap": "+0:00", "note": "Men's elite" },
+    { "position": 3, "riderId": null, "name": "Rick Ottema", "team": "EEW-VDK Cyclingteam", "gap": "+0:00", "note": "Men's elite" },
+    { "position": 1, "riderId": null, "name": "Romy Kasper", "team": "PAS Racing", "note": "Women's elite" },
+    { "position": 2, "riderId": null, "name": "Clara Lundmark", "team": "Minimax Cycling", "note": "Women's elite" },
+    { "position": 3, "riderId": null, "name": "Wendy Oosterwoud", "team": "—", "note": "Women's elite" }
+  ],
+  "narrative": {
+    "headline": "A flat, fast Drenthe day settled by Notebaert and Kasper",
+    "openingMoves": "150 km of fast Dutch gravel out and back from Roden, in the province of Drenthe — a predominantly flat, low-elevation course (a previous edition logged only around 267 m of climbing) that rewards positioning, group riding and a punchy finish rather than pure climbing. The Gravel One Fifty is one of the biggest gravel events on the World Series calendar by participation, with elite-age men and women contesting the 150 km distance and shorter 80-85 km options for the older categories.",
+    "raceUnfolds": "With no significant climbs to splinter the field, the men's race stayed largely together and came down to a front group of around five riders contesting the win. The flat parcours kept the elite men's race tight, with the top finishers separated by only a couple of seconds. In the women's race Romy Kasper of PAS Racing forced the decisive selection.",
+    "decision": "The men's race was decided in a tight finish among the lead group, Kamiel Notebaert of Bataia Brigade timing it best to take the win in a near photo-finish from Tijmen Eising and Rick Ottema, with Adne Koster and Niek Hoornsman just one and two seconds back. In the women's race Kasper got clear of her rivals to ride toward a solo or small-group victory.",
+    "finale": "Notebaert won in 4:01:55, with Eising and Ottema credited at the same time on the line. Romy Kasper took the women's elite race ahead of Clara Lundmark and Wendy Oosterwoud. The fast, flat day produced bunched-up results typical of Drenthe gravel, and the World Series qualification on offer — top 25% per age/gender category — sent a large contingent of finishers toward the 2026 Gravel Worlds in Nannup, Australia."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 1, "location": "Roden finish", "headline": "Men's race goes to a tight group sprint", "description": "On the flat Drenthe course the men's race stayed together to a front group of around five; Kamiel Notebaert won the close finish from Tijmen Eising and Rick Ottema, all credited the same time." },
+    { "kmFromFinish": 20, "location": "Drenthe gravel, women's race", "headline": "Kasper makes the winning move", "description": "Romy Kasper got clear of her women's rivals to take the elite win ahead of Clara Lundmark and Wendy Oosterwoud." }
+  ],
+  "teamStories": [
+    {
+      "team": "Bataia Brigade",
+      "verdict": "Notebaert wins the men's race",
+      "verdictClass": "win",
+      "narrative": "The Bataia Brigade gravel outfit took the headline men's win through 23-year-old Kamiel Notebaert, who read the flat, fast Drenthe finish best to win a tight group sprint from Tijmen Eising and Rick Ottema. A pure power-and-positioning result on a course with almost no climbing to thin the field.",
+      "riderIds": []
+    },
+    {
+      "team": "PAS Racing",
+      "verdict": "Kasper wins the women's race",
+      "verdictClass": "win",
+      "narrative": "Germany's Romy Kasper delivered the women's elite victory for PAS Racing, getting clear of Clara Lundmark and Wendy Oosterwoud to take one of the bigger one-day gravel wins on the World Series calendar.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A fast Dutch qualifier with bunched-up results",
+    "quotes": [],
+    "body": "The Gravel One Fifty is the antithesis of a climber's gravel race — 150 km of flat, fast Drenthe gravel that keeps the field together and rewards positioning and a sharp finish. That suited Kamiel Notebaert, who won the men's race by metres, and produced a clear women's win for Romy Kasper. As a UCI Gravel World Series qualifier, the top 25% of finishers in each age and gender category earned direct entry to the 2026 UCI Gravel World Championships in Nannup, Western Australia."
+  },
+  "sources": [
+    { "url": "https://www.gravelonefifty.nl/en/", "publication": "Gravel One Fifty (official)", "title": "Gravel One Fifty 2026 — race report", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/national-race/uci-world-gravel-series-gravel-one-fifty/2026/result", "publication": "ProCyclingStats", "title": "UCI Gravel World Series ME - Gravel One Fifty 2026 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/uci-gravel-world-series-romy-kasper-and-kamiel-notebaert-win-at-gravel-one-fifty/", "publication": "Cyclingnews", "title": "Romy Kasper and Kamiel Notebaert win at Gravel One Fifty", "lang": "en" },
+    { "url": "https://www.gravel-results.com/race/23175", "publication": "Gravel Results", "title": "Gravel One Fifty 2026 results", "lang": "en" }
+  ]
+}

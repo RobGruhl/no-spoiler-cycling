@@ -1,0 +1,57 @@
+{
+  "raceId": "monaco-gravel-race-2026",
+  "raceName": "Monaco Gravel Race",
+  "raceDate": "2026-04-19",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Romain Bardet (Factor Racing RCC) and Sophie Wright (Ribble Outliers) won the elite races at the 2026 UCI Gravel World Series round in Monaco, a 120 km / ~2,400 m course climbing from the perched village of Peille into the Mercantour National Park over the Col des Banquettes and Col de Braus. Bardet soloed clear to win the men's race in 3:47:38, more than three minutes ahead of Paul Voss (Autsaid x Rose Bikes) with Sascha Weber third. Wright attacked her breakaway companions to take the women's race in 4:27:35 ahead of Nicole Frain (Factor Racing) and Jade Wiel (FDJ United Suez). As a World Series qualifier, the top 25% in each age/gender category earned a place at the 2026 UCI Gravel World Championships in Nannup, Australia.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Romain Bardet", "team": "Factor Racing RCC", "time": "3h 47m 38s", "note": "Men's elite" },
+    { "position": 2, "riderId": null, "name": "Paul Voss", "team": "Autsaid x Rose Bikes", "gap": "+3:14", "note": "Men's elite" },
+    { "position": 3, "riderId": null, "name": "Sascha Weber", "team": "—", "gap": "+3:32", "note": "Men's elite" },
+    { "position": 1, "riderId": null, "name": "Sophie Wright", "team": "Ribble Outliers", "time": "4h 27m 35s", "note": "Women's elite" },
+    { "position": 2, "riderId": null, "name": "Nicole Frain", "team": "Factor Racing Team", "gap": "+7:55", "note": "Women's elite" },
+    { "position": 3, "riderId": null, "name": "Jade Wiel", "team": "FDJ United Suez", "gap": "+19:50", "note": "Women's elite" }
+  ],
+  "narrative": {
+    "headline": "Bardet and Wright solo to the win in the Mercantour above Monaco",
+    "openingMoves": "A 120 km gravel course with roughly 2,400 m of climbing, starting from Peille — a village perched at 650 m in the Alpes-Maritimes — and heading up into the Mercantour National Park. The route took in the Col des Banquettes and the Col de Braus, the latter made famous by the 2024 Tour de France, on a punishing parcours that favoured pure climbing strength. Run on the same elite course for men and women, with shorter 83 km options for the older age categories, the field was a mix of road pros turned gravel privateers and dedicated gravel specialists.",
+    "raceUnfolds": "The relentless climbing through the Mercantour stretched both fields out over the day, with the decisive selections coming on the long ascents rather than in any bunch finish. In the men's race Romain Bardet — already a 2026 UCI Gravel winner at the Castellon Gravel Race and at RADL GRVL in Australia — used his Grand Tour climbing pedigree to ride away from the front group.",
+    "decision": "Bardet attacked and soloed to the finish, opening more than three minutes on the chase. Behind him the podium battle settled with Paul Voss and Sascha Weber clear of the rest, the trio separated from a tightly packed group fighting for the remaining top-ten places (Perry Benjamin, Nils Brun and Petr Vakoc all within seconds of the Weber). In the women's race Sophie Wright, riding for Ribble Outliers, attacked her breakaway companions to ride clear alone.",
+    "finale": "Bardet crossed the line in 3:47:38, with Voss (+3:14) and Weber (+3:32) completing the men's podium. Wright won the women's race in 4:27:35, with Nicole Frain second at +7:55 and Jade Wiel — the WorldTour road sprinter of FDJ United Suez — third at +19:50, the large gaps underlining how selective the Mercantour climbing proved. With top-25%-per-category qualification on offer, dozens of riders secured tickets to the 2026 Gravel Worlds in Nannup."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 60, "location": "Mercantour National Park climbs (Col des Banquettes / Col de Braus)", "headline": "The climbs do the selecting", "description": "On the long ascents through the Mercantour the elite fields fractured; there was no bunch sprint to come, only a war of attrition decided by climbing legs." },
+    { "kmFromFinish": 20, "location": "Mercantour, men's race", "headline": "Bardet rides clear", "description": "Romain Bardet attacked and soloed to the finish, distancing Paul Voss and Sascha Weber by more than three minutes." },
+    { "kmFromFinish": 20, "location": "Mercantour, women's race", "headline": "Wright drops her companions", "description": "Sophie Wright attacked the leading group of women and rode alone to the line, building a near-eight-minute margin over Nicole Frain." }
+  ],
+  "teamStories": [
+    {
+      "team": "Factor Racing RCC",
+      "verdict": "Men's win + women's second",
+      "verdictClass": "win",
+      "narrative": "The Factor Racing program was the standout squad in Monaco, taking the men's elite win through Romain Bardet — his third UCI Gravel victory of the 2026 season after Castellon and RADL GRVL — and adding the women's runner-up spot through Nicole Frain. Petr Vakoc also finished inside the top six of the men's race. Gravel's privateer landscape rarely produces a clean team narrative, but Factor's road-to-gravel crossover riders dominated the Riviera round.",
+      "riderIds": []
+    },
+    {
+      "team": "Ribble Outliers",
+      "verdict": "Wright wins the women's race",
+      "verdictClass": "win",
+      "narrative": "Sophie Wright delivered the women's elite victory for the Ribble Outliers privateer outfit, attacking her breakaway companions in the Mercantour climbs and soloing to the line nearly eight minutes clear. A standout climbing performance on one of the harder courses on the World Series calendar.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A mountain gravel race that rewarded the climbers",
+    "quotes": [],
+    "body": "Monaco's UCI Gravel World Series round is one of the more vertical events on the calendar — 2,400 m of climbing through the Mercantour over passes the WorldTour peloton knows from the Tour de France. That profile suited Grand Tour climber Romain Bardet perfectly, and a similarly selective day in the women's race let Sophie Wright ride away alone. As a World Series qualifier the result mattered well beyond the podium: the top 25% of each age and gender category earned direct entry to the 2026 UCI Gravel World Championships in Nannup, Western Australia, on 10-11 October 2026."
+  },
+  "sources": [
+    { "url": "https://www.granfondoguide.com/Contents/IndexFull/9123/sophie-wright-and-romain-bardet-win-2026-uci-monaco-gravel", "publication": "Gran Fondo Guide", "title": "Sophie Wright and Romain Bardet win 2026 UCI Monaco Gravel", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/uci-gravel-world-series-romain-bardet-and-sophie-wright-stretch-the-gaps-to-win-monaco-gravel-race/", "publication": "Cyclingnews", "title": "Romain Bardet and Sophie Wright stretch the gaps to win Monaco Gravel Race", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/uci-gravel-world-series-monaco-gravel-race-2026/result", "publication": "CyclingFlash", "title": "UCI Gravel World Series - Monaco Gravel Race 2026 result", "lang": "en" },
+    { "url": "https://www.jmgchrono.com/resultats/2026/monacogravel/classements", "publication": "JMG Chrono (official timing)", "title": "2026 UCI Monaco Gravel classements", "lang": "fr" }
+  ]
+}

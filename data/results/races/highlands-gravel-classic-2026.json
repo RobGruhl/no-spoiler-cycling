@@ -1,0 +1,42 @@
+{
+  "raceId": "highlands-gravel-classic-2026",
+  "raceName": "Highlands Gravel Classic",
+  "raceDate": "2026-04-25",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Daxton Mock and Jenna Rinehart won the elite races at the 2026 Highlands Gravel Classic, the UCI Gravel World Series qualifier in Fayetteville/Goshen, Arkansas — the only U.S. qualifier for the Gravel World Championships. On a hilly, 95% gravel course of about 67 miles (~106 km) and 4,850 ft of climbing through the Boston Mountains of the Ozarks, Mock attacked and soloed to win the men's race in 3:25:37, with Lance Lakoski second (+1:46) and Oscar Mauricio Pachón Melo third (+6:15). Rinehart won the women's race in 3:50:17 ahead of Emily Newsom (+4:40) and Dylan Baker (+17:22). The top 25% of each category earned places at the 2026 Gravel Worlds in Nannup, Australia.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Daxton Mock", "team": "—", "time": "3h 25m 37s", "note": "Men's elite" },
+    { "position": 2, "riderId": null, "name": "Lance Lakoski", "team": "—", "gap": "+1:46", "note": "Men's elite" },
+    { "position": 3, "riderId": null, "name": "Oscar Mauricio Pachón Melo", "team": "—", "gap": "+6:15", "note": "Men's elite" },
+    { "position": 1, "riderId": null, "name": "Jenna Rinehart", "team": "—", "time": "3h 50m 17s", "note": "Women's elite" },
+    { "position": 2, "riderId": null, "name": "Emily Newsom", "team": "—", "gap": "+4:40", "note": "Women's elite" },
+    { "position": 3, "riderId": null, "name": "Dylan Baker", "team": "—", "gap": "+17:22", "note": "Women's elite" }
+  ],
+  "narrative": {
+    "headline": "Mock and Rinehart win the only U.S. Gravel Worlds qualifier",
+    "openingMoves": "About 67 miles (~106 km) and 4,850 ft of climbing on a hilly, 95%-gravel course through the Boston Mountains of the Ozarks, starting and finishing around Fayetteville/Goshen, Arkansas — the first UCI-designated Bike City in the United States and the only U.S. qualifier for the UCI Gravel World Championships. The 'Highlands' route for the elite age categories featured rolling ridgelines and more than a dozen climbs, including a decisive three-mile ascent, with a shorter 53-mile 'Farmlands' course for the older categories. Conditions on the day were demanding and the parcours rewarded climbing strength and technical handling.",
+    "raceUnfolds": "With repeated climbing on offer there was no waiting for a finish-line sprint — the men's race split apart on the ascents, while in the women's race Jenna Rinehart, a repeat winner here, was again to the fore.",
+    "decision": "In the men's race Daxton Mock attacked and rode away alone, soloing to the finish to win by nearly two minutes. Behind him Lance Lakoski took second and Oscar Mauricio Pachón Melo third, the climbing course producing clear gaps rather than a bunch result. In the women's race Rinehart established a winning margin over Emily Newsom.",
+    "finale": "Mock won in 3:25:37, with Lakoski at +1:46 and Pachón Melo at +6:15 completing the men's podium. Rinehart won the women's race in 3:50:17, with Newsom second at +4:40 and Dylan Baker third at +17:22 — the spread of times reflecting how selective the Ozark climbing proved. As the only U.S. World Series qualifier, the top 25% of finishers in each age and gender category booked entry to the 2026 Gravel Worlds in Nannup, Australia."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 40, "location": "Boston Mountains climbs, Ozarks", "headline": "The climbs split the men's race", "description": "More than a dozen climbs, including a decisive three-mile ascent, fractured the men's field; there would be no bunch finish." },
+    { "kmFromFinish": 30, "location": "Ozark gravel, men's race", "headline": "Mock solos clear", "description": "Daxton Mock attacked and rode alone to the finish, winning by nearly two minutes over Lance Lakoski." },
+    { "kmFromFinish": 20, "location": "Ozark gravel, women's race", "headline": "Rinehart rides to a repeat win", "description": "Jenna Rinehart established a winning margin over Emily Newsom to take the women's elite title in Arkansas." }
+  ],
+  "teamStories": [],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "The U.S. gateway to Gravel Worlds rewards the climbers",
+    "quotes": [],
+    "body": "The Highlands Gravel Classic carries outsized weight as the only United States qualifier for the UCI Gravel World Championships, drawing a deep North American field to the Ozarks each spring. Its hilly, 95%-gravel parcours through the Boston Mountains suits strong climbers, and in 2026 it produced solo-flavoured wins for Daxton Mock in the men's race and a repeat title for Jenna Rinehart in the women's race. The top 25% of finishers in each age and gender category earned direct entry to the 2026 UCI Gravel World Championships in Nannup, Western Australia, on 10-11 October 2026. Note: team affiliations are largely unlisted for this privateer-heavy field, so podium 'team' fields are left blank where unconfirmed.",
+    "note": "Coverage caveat: ProCyclingStats indexes only the men's elite (ME) result for the 2026 edition; the women's elite podium is drawn from the Gran Fondo Guide race report and official timing. The 2024 edition was also won by Jenna Rinehart and Brennan Wertz — care was taken not to conflate the two years (a 2024 Velo article surfaced in searches and was excluded)."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/national-race/uci-world-gravel-series-highlands-gravel-classic/2026/result", "publication": "ProCyclingStats", "title": "UCI Gravel World Series ME - Highlands Gravel Classic 2026 result", "lang": "en" },
+    { "url": "https://www.granfondoguide.com/Contents/IndexFull/9137/jenna-rinehart-and-daxton-mock-take-victory-at-2026-uci-highlands-gravel-classic", "publication": "Gran Fondo Guide", "title": "Jenna Rinehart and Daxton Mock take Victory at 2026 UCI Highlands Gravel Classic", "lang": "en" },
+    { "url": "https://www.highlandsgravelclassic.com/Race/Results/124365", "publication": "Highlands Gravel Classic (official)", "title": "2026 Highlands Gravel Classic results", "lang": "en" }
+  ]
+}
