@@ -1,0 +1,119 @@
+{
+  "raceId": "circuit-franco-belge-2026",
+  "raceName": "Circuit Franco-Belge",
+  "raceDate": "2026-06-10",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Corbin Strong (NSN Cycling Team) won the 85th Circuit Franco-Belge from a reduced uphill sprint at Mont-de-l'Enclus, edging Anders Foldager (Jayco-AlUla) and Giro points winner Paul Magnier (Soudal-Quick-Step) for his first victory of 2026. The top nine were timed together in 4h 32' 18\" after a fragmented finale that a long Visma-led pace effort failed to crack open.",
+  "podium": [
+    { "position": 1, "riderId": "corbin-strong", "name": "Corbin Strong", "team": "NSN Cycling Team", "time": "4h 32m 18s" },
+    { "position": 2, "riderId": null, "name": "Anders Foldager", "team": "Team Jayco AlUla", "gap": "+0:00" },
+    { "position": 3, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "+0:00" },
+    { "position": 4, "riderId": null, "name": "Rick Pluimers", "team": "Tudor Pro Cycling Team", "gap": "+0:00" },
+    { "position": 5, "riderId": null, "name": "Jenno Berckmoes", "team": "Lotto Intermarché", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Strong nails the reduced sprint at Mont-de-l'Enclus for his first win of 2026",
+    "openingMoves": "The 85th Circuit Franco-Belge, a UCI ProSeries 1.Pro one-day race, ran 195.6 km from Tournai to a finishing circuit at Mont-de-l'Enclus with 25 teams on the line — ten WorldTeams, twelve ProTeams and three Continental squads. A ten-rider break went clear early; the move was reeled in gradually, with Alexis Brunel the last survivor caught before the race tipped into a phase of relentless counterattacks.",
+    "raceUnfolds": "The decisive churn began with around 61 km to go, when Leander Van Hautegem attacked and was joined by Wilco Kelderman, the pair opening more than a minute. Van Hautegem cracked on the Col du Horlitin at roughly 41 km to go, leaving Kelderman alone out front. At about 26.5 km a counter of Johan Jacobs, Colby Simmons and Dries De Bondt bridged across, reaching Kelderman as the final lap began near 22.7 km to go — but the peloton was only some 17 seconds back, and the escape was living on borrowed time.",
+    "decision": "On the Mont-de-l'Enclus climbs the race was thinned rather than blown apart by a single move. De Bondt tried again with a handful of riders but was shut down before the climb, and Visma-Lease a Bike countered with Louis Barré driving the pace to grind down the fast finishers and shed the move. That set up a reduced lead group for the uphill drag to the line, where Soudal-Quick-Step massed at the front to deliver Paul Magnier.",
+    "finale": "NSN's Riley Sheehan brought Corbin Strong up early in the closing metres, and the New Zealander launched first on the rising finish. Magnier faded as the sprint wound out while Anders Foldager surged late, coming past for second; Strong held on to take it by a bike length. The top nine were all credited with the same 4h 32' 18\" — Pluimers fourth and Berckmoes fifth completing the front — with Alexandre Delettre the first rider at a gap, 10th at +0:03."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 61, "location": "Open roads before the Mont-de-l'Enclus circuit", "headline": "Van Hautegem and Kelderman go clear", "description": "Leander Van Hautegem attacked and was joined by Wilco Kelderman, the two building a lead of more than a minute and forcing the race into its decisive phase." },
+    { "kmFromFinish": 26.5, "location": "Run-in to the final lap", "headline": "Counter bridges to Kelderman", "description": "Johan Jacobs, Colby Simmons and Dries De Bondt counterattacked and bridged to a lone Kelderman, but with the peloton only around 17 seconds back the move was under immediate pressure as the last lap started near 22.7 km to go." },
+    { "kmFromFinish": 10, "location": "Mont-de-l'Enclus climbs", "headline": "Visma lifts the pace, Soudal sets up Magnier", "description": "A late De Bondt move was shut down and Visma's Louis Barré drove the pace on the climbs to shed the pure sprinters, leaving a reduced lead group. Soudal-Quick-Step then controlled the closing kilometres for Paul Magnier." },
+    { "kmFromFinish": 0.2, "location": "Uphill finish, Mont-de-l'Enclus", "headline": "Strong launches first and holds", "description": "Riley Sheehan brought Corbin Strong to the front and the New Zealander jumped first on the rising drag. Magnier faded and Anders Foldager came past late for second, but Strong held on for the win." }
+  ],
+  "teamStories": [
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Strong's perfectly judged uphill win",
+      "verdictClass": "win",
+      "narrative": "NSN turned a chaotic, attack-laden finale into a clean lead-out. Rather than chase the early moves themselves, the team let Visma and others burn matches lifting the pace, then committed late: Riley Sheehan delivered Corbin Strong to the front for the uphill drag, and Strong launched first to hold off Foldager and Magnier. A first win of 2026 for the New Zealander and a marquee ProSeries result for the squad, which also fielded former Franco-Belge winner and home-roads sprinter Biniam Girmay.",
+      "riderIds": ["corbin-strong"]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Magnier marshalled but out-sprinted",
+      "verdictClass": "neutral",
+      "narrative": "Soudal-Quick-Step rode as one of the pre-race favourites, massing at the front to control the closing kilometres for Paul Magnier, the Giro d'Italia points-classification winner. They delivered him into the reduced sprint in position, but the uphill finish blunted his kick — Magnier led out and faded to third as Strong and Foldager came over the top. The team did its job tactically yet left the win on the road.",
+      "riderIds": ["paul-magnier"]
+    },
+    {
+      "team": "Team Jayco AlUla",
+      "verdict": "Foldager surges late for second",
+      "verdictClass": "neutral",
+      "narrative": "Jayco-AlUla's Anders Foldager timed the strongest finishing surge of the day, coming past a fading Magnier in the final metres to take second, only narrowly denied by Strong's early launch. A near-miss that confirmed the Dane's form on punchy finishes after surviving a finale designed to drop the fast men.",
+      "riderIds": []
+    },
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Animated the finale, no reward",
+      "verdictClass": "loss",
+      "narrative": "Visma-Lease a Bike were the most active team in the decisive phase. Wilco Kelderman spent a long spell off the front in the day's key move, and once it was caught Louis Barré drove the pace on the Mont-de-l'Enclus climbs to shed the sprinters. The work thinned the group but never created a gap for a teammate, and the race came back to a reduced sprint they couldn't win — aggression without a finisher.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Berckmoes fifth as De Lie sacrifices",
+      "verdictClass": "neutral",
+      "narrative": "Lotto-Intermarché backed Jenno Berckmoes, with home star Arnaud De Lie working for him on the front before sitting up roughly 13-15 km from the line, his job done. Berckmoes survived the climbs and the late pace to take fifth from the reduced sprint — a solid leader's result delivered by a committed team effort even if it came up short of the podium.",
+      "riderIds": ["arnaud-de-lie"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "corbin-strong",
+      "name": "Corbin Strong",
+      "team": "NSN Cycling Team",
+      "role": "leader",
+      "position": 1,
+      "gap": "0:00",
+      "narrative": "Strong rode a patient, opportunistic race, letting rival teams animate the brutal finale before NSN committed in the final kilometres. Sheehan delivered him to the front for the uphill drag and Strong launched first, holding his line as Magnier faded and Foldager surged. It was the New Zealander's first win of 2026 and a statement that his fast, punchy finish travels to rising finishes, not just flat sprints.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Brought up by Riley Sheehan and launched first on the uphill finish, holding off Foldager and Magnier" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 3,
+      "gap": "0:00",
+      "narrative": "Magnier came in as a marked favourite off his Giro d'Italia points-classification win, and Soudal controlled the closing kilometres to set him up. But the rising finish didn't suit a pure fast man being asked to win off a long lead-out: he led out the sprint and was passed by both Strong and the late-surging Foldager, settling for third. A reminder that his ceiling on uphill drags is below his flat-sprint level.",
+      "keyMoments": [
+        { "km": 1, "what": "Soudal massed at the front to control the run-in for him" },
+        { "km": 0.1, "what": "Led out the sprint but faded on the rise, passed for the win and second" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "role": "domestique",
+      "position": null,
+      "gap": null,
+      "narrative": "On home roads in his first race day after the Tour de France build-up, De Lie rode in service of teammate Jenno Berckmoes rather than for himself. He worked on the front through the climbs before sitting up around 13-15 km from the finish, his job done, and did not contest the result. Berckmoes rewarded the effort with fifth from the reduced sprint.",
+      "keyMoments": [
+        { "km": 14, "what": "Sat up after working for Berckmoes, ending his day to leave the leader fresh" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A punchy ProSeries scalp for Strong",
+    "quotes": [],
+    "body": "Circuit Franco-Belge again rewarded a finisher tough enough to survive the Mont-de-l'Enclus climbs, and Corbin Strong's first win of 2026 underlines that NSN can deliver in the chaos of a one-day finale. Strong succeeds Jonas Abrahamsen (12th here) on the palmares, joining a recent roll of winners including Biniam Girmay (2024) and Arnaud De Lie (2023). For Magnier, the third place is a near-miss that maps the limits of his sprint on rising finishes; for Visma, it is another race animated without a result to show for it."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/circuit-franco-belge/2026/result", "publication": "ProCyclingStats", "title": "Circuit Franco-Belge 2026 - Results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Circuit_Franco-Belge", "publication": "Wikipedia", "title": "2026 Circuit Franco-Belge", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/circuit-franco-belge-corbin-strong-out-paces-paul-magnier-for-first-win-of-2026/", "publication": "Cyclingnews", "title": "Circuit Franco-Belge: Corbin Strong out-paces Paul Magnier for first win of 2026", "lang": "en" },
+    { "url": "https://fr.wikipedia.org/wiki/Circuit_franco-belge_2026", "publication": "Wikipédia", "title": "Circuit franco-belge 2026", "lang": "fr" }
+  ]
+}
