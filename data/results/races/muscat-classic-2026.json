@@ -1,0 +1,80 @@
+{
+  "raceId": "muscat-classic-2026",
+  "raceName": "Muscat Classic",
+  "raceDate": "2026-02-06",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "Mauro Schmid won a numerically lopsided two-up sprint on the final climb to Al Bustan, with Team Jayco AlUla outmanoeuvring a lone Adam Yates (UAE) — Schmid first, Yates second, and Plapp holding on for third to complete the Jayco one-two-three setup. The Swiss champion's punch capped a perfectly executed team move on the 176.2 km ProSeries opener to the Oman week.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Mauro Schmid", "team": "Team Jayco AlUla", "time": "4h 14m 36s" },
+    { "position": 2, "riderId": "adam-yates", "name": "Adam Yates", "team": "UAE Team Emirates - XRG", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Luke Plapp", "team": "Team Jayco AlUla", "gap": "+0:04" },
+    { "position": 4, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:13" }
+  ],
+  "narrative": {
+    "headline": "Jayco overpower a lone Yates as Schmid takes the two-up sprint",
+    "openingMoves": "A 176.2 km route from Al Mouj Muscat to Al Bustan, the standalone one-day curtain-raiser the day before the Tour of Oman proper. Baptiste Veistroffer (Lotto-Intermarché) was the only rider to commit to an early move, forming a token breakaway that the peloton never let drift far.",
+    "raceUnfolds": "With the day always set to be decided on the climbs around Al Bustan, the bunch reeled Veistroffer in with around 23 km to go. Movistar tried to force matters on the penultimate ascent to play their numbers, but the move was neutralised and the race came back together for the decisive final climb.",
+    "decision": "On the last climb Paul Double lit it up off the front, stretching the peloton to breaking point. Adam Yates surged across, but when the dust settled he had only managed to take the Jayco pair of Schmid and Plapp with him — leaving the UAE leader outnumbered two-to-one against a duo that also held the faster finisher.",
+    "finale": "Plapp drove the front through the final kilometre to keep the chase at bay, then peeled off to deliver Schmid, who comfortably outsprinted Yates for the win. Plapp held third, completing a Jayco one-and-three around the isolated UAE rider. Top times were tight: Scaroni and Lemmen at +0:13, with the chase group filtering in at +0:15."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 23, "location": "Run-in to Al Bustan", "headline": "Lone break caught", "description": "Baptiste Veistroffer, the day's only attacker, is reeled in with roughly 23 km left, setting up a finale on the closing climbs." },
+    { "kmFromFinish": 5, "location": "Final climb", "headline": "Double lights the fuse, Yates jumps", "description": "Paul Double attacks to stretch the bunch; Adam Yates bridges across but brings the Jayco duo of Schmid and Plapp with him, leaving himself outnumbered in the decisive selection." },
+    { "kmFromFinish": 1, "location": "Al Bustan finish", "headline": "Plapp leads out, Schmid sprints clear", "description": "Plapp drives the final kilometre to deny any regroup, then launches Schmid, who beats Yates in the two-up sprint while Plapp salvages third." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team Jayco AlUla",
+      "verdict": "Textbook numbers game, 1st + 3rd",
+      "verdictClass": "win",
+      "narrative": "Jayco played the finale to perfection. Getting two riders into the decisive split against a single UAE leader handed them control of the sprint: Plapp buried himself on the front to prevent a regroup and then lead out, while Schmid finished the job. A clean opening statement of the season's punch-and-team-tactics blueprint, and the kind of result that justifies a deep, finisher-led squad at a ProSeries one-dayer.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Yates isolated, beaten in numbers",
+      "verdictClass": "neutral",
+      "narrative": "Adam Yates was the strongest individual on the final climb but rode himself into a trap, dragging two Jayco riders clear with no UAE teammate for company. Second place and an early-season podium were a useful pointer to his climbing form ahead of the Tour of Oman GC, but the finale exposed how a lone leader gets picked off by a team that arrives at the line with the numbers. Rui Oliveira's seventh added a second UAE rider to the top ten.",
+      "riderIds": ["adam-yates"]
+    },
+    {
+      "team": "XDS Astana Team",
+      "verdict": "Two in the top eight",
+      "verdictClass": "neutral",
+      "narrative": "Astana were active and well-represented in the closing kilometres: Christian Scaroni took fourth at +0:13 and Henok Mulubrhan rounded out the top eight, a solid collective showing on the punchy finale even if they never had the firepower to match the Jayco move.",
+      "riderIds": ["christian-scaroni"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "adam-yates", "name": "Adam Yates", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "The defending Tour of Oman champion was the day's strongest climber, jumping across to Paul Double's late move on the final climb. But the surge only succeeded in towing the Jayco pair of Schmid and Plapp clear, leaving Yates outnumbered with no UAE teammate in the group. He could not shake the duo, and with Plapp controlling the kilometre and Schmid holding the faster kick, Yates was beaten into second in the two-up sprint. An encouraging early-season podium for his climbing legs, but a tactical lesson on the limits of riding alone.",
+      "keyMoments": [
+        { "km": 5, "what": "Bridged to Double's attack on the final climb — but brought Schmid and Plapp with him" },
+        { "km": 1, "what": "Marked Plapp's lead-out, then lost the two-up sprint to Schmid" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team",
+      "role": "leader", "position": 4, "gap": "+0:13",
+      "narrative": "Scaroni was Astana's best finisher, leading the chase group home in fourth at +0:13, just behind the Jayco-UAE trio that settled the win. He could not follow the decisive split on the final climb but was clearly among the strongest of the rest, a tidy season-opening result on a finale that suited his classics-puncheur profile.",
+      "keyMoments": [
+        { "km": 1, "what": "Led the first chasers across the line, 13 seconds down on the winning move" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Oman week opens on Jayco's terms",
+    "quotes": [],
+    "body": "The Muscat Classic is the standalone one-day appetiser the day before the Tour of Oman begins, and Jayco AlUla took it with a model of tactical execution — two riders in the decisive move, a controlled lead-out, and Schmid's sprint to finish. Adam Yates left Al Bustan with a podium and visible climbing form ahead of the Tour of Oman GC defence, but also a reminder that a lone leader can be outvoted at the line."
+  },
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-muscat-classic-2026-mauro-schmid-takes-the-win-as-jayco-overpower-uae-on-explosive-finale", "publication": "CyclingUpToDate", "title": "Results Muscat Classic 2026 | Mauro Schmid takes the win as Jayco overpower UAE on explosive finale", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/muscat-classic/2026/result", "publication": "ProCyclingStats", "title": "Muscat Classic 2026 result", "lang": "en" },
+    { "url": "https://www.bikeworldnews.com/2026/02/06/2026-muscat-classic-results/", "publication": "BikeWorldNews", "title": "2026 Muscat Classic Results", "lang": "en" }
+  ]
+}
