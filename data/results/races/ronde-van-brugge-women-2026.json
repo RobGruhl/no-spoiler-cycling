@@ -1,0 +1,110 @@
+{
+  "raceId": "ronde-van-brugge-women-2026",
+  "raceName": "Ronde Van Brugge (Women)",
+  "raceDate": "2026-03-26",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "On a brutally windy day in West Flanders, 19-year-old Carys Lloyd (Movistar) produced a stunning long sprint to win the Classic Brugge-De Panne Women from a reduced bunch, holding off Elisa Balsamo and Nienke Veenhoven. Defending champion Lorena Wiebes was boxed in without an SD Worx lead-out and could only manage 9th.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Carys Lloyd", "team": "Movistar Team", "time": "3h 31m 23s" },
+    { "position": 2, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "gap": "+0:00" },
+    { "position": 3, "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike", "gap": "+0:00" },
+    { "position": 4, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto", "gap": "+0:00" },
+    { "position": 5, "riderId": null, "name": "Shari Bossuyt", "team": "AG Insurance - Soudal Team", "gap": "+0:00" },
+    { "position": 6, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "+0:00" },
+    { "position": 7, "riderId": null, "name": "Katrijn De Clercq", "team": "Lotto Intermarché Ladies", "gap": "+0:00" },
+    { "position": 8, "riderId": null, "name": "Marjolein van 't Geloof", "team": "Laboral Kutxa - Fundación Euskadi", "gap": "+0:00" },
+    { "position": 9, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "gap": "+0:00" },
+    { "position": 10, "riderId": null, "name": "Alexandra Volstad", "team": "EF Education-Oatly", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Teenager Carys Lloyd stuns the sprinters in the Bruges crosswinds",
+    "openingMoves": "The ninth edition of the women's Classic Brugge-De Panne ran 143.7 km out-and-back from Bruges across exposed West Flanders, and crosswinds tore at the bunch from the gun. No early breakaway could get clear and stay away — the wind kept the race nervous and bunched, with the peloton stretched single-file for long stretches.",
+    "raceUnfolds": "With around 59 km to go, Katrijn De Clercq (Lotto Intermarché) took the intermediate sprint. As the day wore on the crosswinds intensified and a torrential hailstorm swept the course, and the peloton began to fracture into echelons. Splits kept forming and reforming, thinning the front group but never quite shattering the race — the sprinters' teams fought to keep their leaders in the first echelon. Defending champion Lorena Wiebes was a notable casualty of the chaos: with SD Worx unable to assemble a lead-out train, she was left isolated and boxed in.",
+    "decision": "It came down to a reduced bunch sprint from a front group of around 30-40 riders. Carys Lloyd, the 19-year-old Brit in her neo-pro season at Movistar, opened the sprint early and long.",
+    "finale": "Lloyd held her advantage all the way to the line, resisting the late surge of Elisa Balsamo (Lidl-Trek) to take a breakthrough first WorldTour victory. Nienke Veenhoven (Visma) was third ahead of Chiara Consonni; Wiebes salvaged 9th."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 59, "location": "Intermediate sprint, West Flanders", "headline": "De Clercq takes the bonus sprint", "description": "Katrijn De Clercq won the intermediate sprint with about 59 km remaining, a marker of Lotto Intermarché's aggression on a day when no breakaway could establish itself." },
+    { "kmFromFinish": 50, "location": "Exposed coastal roads", "headline": "Hail and crosswinds split the bunch", "description": "A hailstorm combined with strengthening crosswinds caused the peloton to fracture into echelons, repeatedly forming and reforming splits and isolating riders who lost their teammates — most notably defending champion Lorena Wiebes." },
+    { "kmFromFinish": 0, "location": "Bruges finish", "headline": "Lloyd's long sprint holds", "description": "From the reduced bunch, Carys Lloyd launched a long sprint and held off Elisa Balsamo to the line for a surprise victory at 19." }
+  ],
+  "teamStories": [
+    {
+      "team": "Movistar Team",
+      "verdict": "Lloyd's breakthrough WorldTour win",
+      "verdictClass": "win",
+      "narrative": "Movistar's women's project landed its headline spring result through 19-year-old neo-pro Carys Lloyd, who timed a long sprint to perfection on a chaotic, wind-and-hail-battered day. A statement first WorldTour victory from a teenager — exactly the kind of emerging-talent breakthrough the team has been building toward.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Balsamo 2nd in the sprint",
+      "verdictClass": "neutral",
+      "narrative": "Elisa Balsamo was the strongest of the established sprinters on the day, surging late but running out of road to catch Lloyd. A clean second place that confirmed her form, but a missed win against a surprise opponent.",
+      "riderIds": ["elisa-balsamo"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Veenhoven on the podium",
+      "verdictClass": "neutral",
+      "narrative": "Nienke Veenhoven survived the echelons and the hail to take third from the bunch sprint, a solid podium for Visma's developing sprint card on a day that rewarded riders who stayed attentive in the crosswinds.",
+      "riderIds": ["nienke-veenhoven"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "No lead-out, Wiebes 9th",
+      "verdictClass": "loss",
+      "narrative": "Defending champion Lorena Wiebes came in as the marked favourite but SD Worx could not build a sprint train in the crosswind chaos. Wiebes was left isolated and boxed in, unable to contest the finish and salvaging only 9th — a rare off-day for the sport's most reliable sprint operation.",
+      "riderIds": ["lorena-wiebes"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "Balsamo was the fastest of the proven sprinters but was caught out by Lloyd's early, long acceleration. She closed hard in the final metres but couldn't quite get on terms, taking second from the reduced bunch in difficult, windy conditions.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 3, "gap": "+0:00",
+      "narrative": "Veenhoven rode an attentive race to stay in the front echelon through the splits and contest the sprint, taking third for a strong early-season podium against more established names.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 4, "gap": "+0:00",
+      "narrative": "Consonni was in the mix at the finish and finished fourth, just off the podium in the bunch kick — a consistent sprint result on a day where positioning in the crosswinds was as decisive as raw speed.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ",
+      "role": "leader", "position": 6, "gap": "+0:00",
+      "narrative": "Gillespie placed sixth from the reduced sprint, holding her position through the echelons for another solid top-10 in the windy West Flanders classic.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 9, "gap": "+0:00",
+      "narrative": "The defending champion and pre-race favourite was undone by the conditions rather than her legs: without an SD Worx lead-out in the crosswind chaos she was left isolated and boxed in, unable to launch and finishing ninth.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A surprise winner in a sprinters' classic turned survival test",
+    "quotes": [],
+    "body": "Billed as a sprinters' day, the 2026 Classic Brugge-De Panne Women instead became a test of survival in crosswinds and hail, and the youngest contender came out on top. Carys Lloyd's win — over Balsamo, Veenhoven and Consonni, with defending champion Wiebes ninth — was one of the standout breakthrough results of the cobbled-classics block and announced the 19-year-old as a sprinter to watch for the rest of the season."
+  },
+  "sources": [
+    { "url": "https://rondevanbrugge.be/en/26-03-2026-elite-women/", "publication": "Ronde van Brugge (official)", "title": "26.03.2026 - Elite women - results", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/classic-brugge-de-panne-we/2026/result", "publication": "ProCyclingStats", "title": "Classic Brugge-De Panne WE 2026 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/ronde-van-brugge-women-live-sprinters-to-face-off-on-a-windy-day-through-west-flanders/", "publication": "Cyclingnews", "title": "Ronde van Brugge Women LIVE: A surprise winner in the bunch sprint", "lang": "en" },
+    { "url": "https://de.wikipedia.org/wiki/Ronde_van_Brugge_2026_(Frauen)", "publication": "Wikipedia (DE)", "title": "Ronde van Brugge 2026 (Frauen)", "lang": "de" }
+  ]
+}
