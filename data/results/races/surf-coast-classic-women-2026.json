@@ -1,0 +1,55 @@
+{
+  "raceId": "surf-coast-classic-women-2026",
+  "raceName": "Surf Coast Classic Women",
+  "raceDate": "2026-01-28",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "The 2026 women's Surf Coast Classic (Lorne to Torquay, scheduled 28 January) was cancelled owing to extreme heat and high bushfire risk in the Great Ocean Road region. Organisers replaced it with the 40km 'Cadel's Criterium' on a 2km circuit in Geelong's Eastern Gardens, won by Martina Fidanza (Visma | Lease a Bike) ahead of the SD Worx-Protime pair of Marta Lach and Barbara Guarischi. The criterium result does not count toward official UCI win tallies.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "No official result (race cancelled)", "team": "—", "time": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Bushfire risk cancels the road race; Fidanza wins the stand-in crit",
+    "openingMoves": "The women's Surf Coast Classic was scheduled as a coastal road race from Lorne to Torquay on Wednesday 28 January, a crosswind-prone day that often splits the bunch. It never started.",
+    "raceUnfolds": "Organisers and the Surf Coast Shire cancelled the race owing to extreme heat and a heightened bushfire and weather warning across the Great Ocean Road region, with the men's race called off the next day for the same reasons.",
+    "decision": "To preserve a race day, organisers staged 'Cadel's Criterium', a 40km event on a technical 2km circuit at Eastern Gardens in Geelong.",
+    "finale": "The criterium came down to a bunch sprint, with Martina Fidanza (Visma | Lease a Bike) holding off the SD Worx-Protime duo of Marta Lach and Barbara Guarischi. As a replacement event, the win is unofficial and does not appear on the UCI calendar."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": null,
+      "location": "Great Ocean Road region",
+      "headline": "Race cancelled the day before for bushfire risk",
+      "description": "Extreme heat and a heightened bushfire/weather warning forced cancellation of the women's road race on 28 January; the men's road race was cancelled the following day."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Visma | Lease a Bike",
+      "verdict": "Fidanza wins the stand-in crit",
+      "verdictClass": "neutral",
+      "narrative": "With the road race scrapped, Martina Fidanza delivered Visma | Lease a Bike's first win of 2026 in the substitute Cadel's Criterium, finding her lead-out in the final 500m of a chaotic sprint to beat two SD Worx-Protime riders. The result carries no UCI points but opened the team's account for the year.",
+      "riderIds": []
+    },
+    {
+      "team": "SD Worx-Protime",
+      "verdict": "Second and third in the crit",
+      "verdictClass": "neutral",
+      "narrative": "SD Worx-Protime placed both Marta Lach and Barbara Guarischi on the podium of the replacement criterium, Lach taking second after being squeezed off the lead-out and finding an alternate route to the front.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "An Australian-summer race lost to fire risk",
+    "quotes": [],
+    "body": "The women's Surf Coast Classic had risen in calendar status for 2026, but extreme heat and bushfire danger made the coastal route untenable. Cadel's Criterium kept the women's peloton racing ahead of the Cadel Evans Great Ocean Road Race weekend, but the official Surf Coast Classic has no 2026 winner."
+  },
+  "sources": [
+    { "url": "https://www.surfcoast.vic.gov.au/About-us/News-and-media/Latest-news/2026-Surf-Coast-Classic-cancelled", "publication": "Surf Coast Shire Council", "title": "2026 Surf Coast Classic cancelled", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_UCI_ProSeries_(women)", "publication": "Wikipedia", "title": "2026 UCI Women's ProSeries", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/ready-for-anything-welsford-and-fidanza-win-replacement-races-in-australia/", "publication": "Domestique", "title": "'Ready for anything' - Welsford and Fidanza win replacement races in Australia", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/martina-fidanza-wins-womens-cadels-criterium-holds-off-pursuit-of-sd-worx-duo/", "publication": "Cyclingnews", "title": "Martina Fidanza wins women's Cadel's Criterium, holds off pursuit from SD Worx-Protime duo", "lang": "en" }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "raceId": "surf-coast-classic-men-2026",
+  "raceName": "Surf Coast Classic Men",
+  "raceDate": "2026-01-29",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "The 2026 men's Surf Coast Classic (Lorne to Torquay, scheduled 29 January) was cancelled the day before owing to extreme heat and high bushfire risk in the Great Ocean Road region. In its place organisers staged 'Cadel's Criterium', a ~50km race on a 2km circuit in Geelong's Eastern Gardens, won by Sam Welsford (INEOS Grenadiers) ahead of Jensen Plowright and Matteo Sobrero. The criterium result does not count toward official UCI win tallies.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "No official result (race cancelled)", "team": "—", "time": "n/a" }
+  ],
+  "narrative": {
+    "headline": "Bushfire risk cancels the road race; Cadel's Criterium fills the day",
+    "openingMoves": "The men's Surf Coast Classic was scheduled as a 157km road race from Lorne to Torquay on Thursday 29 January, the WorldTour-adjacent curtain-raiser to Cadel Evans week. It never started.",
+    "raceUnfolds": "On 28 January, with the women's race already called off, organisers and the Surf Coast Shire confirmed the men's road race would not proceed due to the evolving bushfire and weather situation in the Great Ocean Road region. The full Lorne-Torquay route along exposed coastal roads was deemed unsafe in the heat.",
+    "decision": "Rather than lose a race day, organisers improvised 'Cadel's Criterium', a compact ~50km event on a technical 2km circuit at Eastern Gardens in Geelong on the original Thursday slot.",
+    "finale": "Sam Welsford (INEOS Grenadiers) took the criterium from an eight-rider move, beating Jensen Plowright (Alpecin) and Matteo Sobrero (Lidl-Trek). Because it replaced rather than was the Surf Coast Classic, the win is unofficial and does not appear on the UCI calendar."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": null,
+      "location": "Great Ocean Road region",
+      "headline": "Race cancelled the day before for bushfire risk",
+      "description": "Extreme heat and a heightened bushfire/weather warning across the Great Ocean Road region forced cancellation of the men's road race on 28 January, in line with the already-cancelled women's event."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "Welsford wins the stand-in crit",
+      "verdictClass": "neutral",
+      "narrative": "With the road race scrapped, Sam Welsford gave INEOS the spoils in the substitute Cadel's Criterium, going clear in an eight-man move that his teammates protected, then winning the sprint. It capped a strong opening to his INEOS tenure after the Australian Criterium title, though the result carries no UCI points.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "An Australian-summer race lost to fire risk",
+    "quotes": [],
+    "body": "The Surf Coast Classic had moved up the calendar's profile for 2026, but extreme heat and bushfire danger made the coastal Lorne-Torquay route untenable. Cadel's Criterium kept teams racing ahead of the Cadel Evans Great Ocean Road Race that weekend, but the official Surf Coast Classic has no 2026 winner."
+  },
+  "sources": [
+    { "url": "https://www.surfcoast.vic.gov.au/About-us/News-and-media/Latest-news/2026-Surf-Coast-Classic-cancelled", "publication": "Surf Coast Shire Council", "title": "2026 Surf Coast Classic cancelled", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/Surf_Coast_Classic", "publication": "Wikipedia", "title": "Surf Coast Classic", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/ready-for-anything-welsford-and-fidanza-win-replacement-races-in-australia/", "publication": "Domestique", "title": "'Ready for anything' - Welsford and Fidanza win replacement races in Australia", "lang": "en" },
+    { "url": "https://www.quibicisport.it/2026/01/29/cadels-criterium-successi-per-martina-fidanza-e-sam-welsford/", "publication": "QuiBiciSport", "title": "Cadel's Criterium: successi per Martina Fidanza e Sam Welsford", "lang": "it" }
+  ]
+}
