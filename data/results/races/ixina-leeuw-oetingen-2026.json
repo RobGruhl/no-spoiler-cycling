@@ -1,0 +1,91 @@
+{
+  "raceId": "ixina-leeuw-oetingen-2026",
+  "raceName": "IXINA Leeuw-Oetingen p/b Lotto",
+  "raceDate": "2026-03-11",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Lorena Wiebes (Team SD Worx - Protime) won the women's IXINA Leeuw-Oetingen for the third time in her career, but for once not in a bunch sprint. The Dutch champion attacked over the day's final climb, the Zavelberg, inside the last three kilometres and only Fleur Moors (Lidl - Trek) could follow; Wiebes then comfortably beat the 20-year-old Belgian in a two-up sprint à deux. Megan Jastrab (UAE Team ADQ) won the sprint for third from the reduced peloton, eleven seconds back.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "3h 40m 03s" },
+    { "position": 2, "riderId": null, "name": "Fleur Moors", "team": "Lidl - Trek", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Megan Jastrab", "team": "UAE Team ADQ", "gap": "+0:11" },
+    { "position": 4, "riderId": null, "name": "Ilse Pluimers", "team": "AG Insurance - Soudal Team", "gap": "+0:12" },
+    { "position": 5, "riderId": null, "name": "Marta Lach", "team": "Team SD Worx - Protime", "gap": "+0:23" },
+    { "position": 6, "riderId": null, "name": "Katharina Sadnik", "team": "Team Visma | Lease a Bike", "gap": "+0:23" },
+    { "position": 7, "riderId": null, "name": "Quinty Ton", "team": "Liv AlUla Jayco", "gap": "+0:23" },
+    { "position": 8, "riderId": null, "name": "Clara Copponi", "team": "Lidl - Trek", "gap": "+0:23" },
+    { "position": 9, "riderId": null, "name": "Anna Van Wersch", "team": "Lotto - Intermarché", "gap": "+0:29" },
+    { "position": 10, "riderId": "eline-jansen", "name": "Eline Jansen", "team": "VolkerWessels Cycling Team", "gap": "+0:29" }
+  ],
+  "narrative": {
+    "headline": "Wiebes skips the sprint, attacks over the Zavelberg and wins Oetingen for a third time",
+    "openingMoves": "The women's IXINA Leeuw-Oetingen p/b Lotto, a 140 km 1.Pro one-day race, started for the second year running in the neighbouring town of Sint-Pieters-Leeuw and finished, as tradition demands, in Oetingen. After a long run-in the race tackled a 12 km finishing circuit five times, each lap featuring two cobbled sectors and the short, sharp Zavelberg (0.6 km at 6.5%), whose summit sat less than three kilometres from the line and offered an obvious launchpad for a late attack. Despite that climb, the race profile favoured a fast finisher, and Lorena Wiebes started as the clear top favourite.",
+    "raceUnfolds": "There was no early breakaway. The peloton stayed together until crosswinds split the field into several echelons after around 60 km, but the riders caught out behind were soon able to regroup. As the finishing circuits ticked down the pace stayed high and the bunch was steadily thinned. Cleo Kiekens (Citymesh - Customm) tried to slip away solo but could not hold off the chase, and a two-up move from Anneke Dijkstra (VolkerWessels) and Marta Lach (SD Worx - Protime) was also reeled in, leaving the race set up for a sprint from a reduced group.",
+    "decision": "The decisive moment came on the final ascent of the Zavelberg. With a mass sprint looking likely, Wiebes chose not to wait and instead accelerated over the climb, taking the race by surprise. She could not get clear alone — Fleur Moors, the 20-year-old Belgian of Lidl - Trek, was the only rider able to latch onto her wheel as the pair opened a gap on the run to the line.",
+    "finale": "What looked like becoming a bunch kick turned into a sprint à deux. Wiebes and Moors stayed clear off the top of the Zavelberg, and in the two-up sprint the Dutch national champion won decisively, claiming her third Oetingen victory and a more attacking win than her previous two. Eleven seconds back, Megan Jastrab (UAE Team ADQ) won the bunch sprint for third ahead of Ilse Pluimers (AG Insurance - Soudal) at +0:12, with Lach completing a strong SD Worx day in fifth."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 80, "location": "Open roads", "headline": "Crosswinds split the field", "description": "After about 60 km the wind shattered the peloton into echelons, but the race regrouped before any selection stuck, leaving a large bunch heading into the finishing circuits." },
+    { "kmFromFinish": 20, "location": "Finishing circuit", "headline": "Late attacks neutralised", "description": "On the 12 km finishing laps, solo and small-group moves from Cleo Kiekens and then Anneke Dijkstra with Marta Lach were all brought back, setting the race up for a sprint from a thinned-out group." },
+    { "kmFromFinish": 3, "location": "Zavelberg", "headline": "Wiebes attacks over the final climb", "description": "Rather than wait for the sprint, Wiebes accelerated over the Zavelberg (0.6 km at 6.5%), whose summit sits inside the last three kilometres. Only Fleur Moors could follow as the duo gapped the bunch." },
+    { "kmFromFinish": 0, "location": "Oetingen", "headline": "Wiebes wins the sprint à deux", "description": "The two leaders held to the line and Wiebes beat Moors comfortably in the two-up sprint for her third Oetingen win; Jastrab took the bunch sprint for third at +0:11." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Wiebes wins, Lach fifth",
+      "verdictClass": "win",
+      "narrative": "SD Worx controlled the race around its top favourite and was rewarded with the win, though by an unusual route. Rather than deliver Lorena Wiebes to a bunch sprint, the team backed her decision to attack over the Zavelberg, a gamble that paid off when only Fleur Moors could follow and Wiebes won the resulting two-up sprint. The squad's depth showed too: Marta Lach was prominent in the late attacking, going clear briefly with Anneke Dijkstra, and recovered to take fifth from the chase. A clean, dominant team performance on a day that suited them.",
+      "riderIds": ["lorena-wiebes"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Moors second, Copponi eighth",
+      "verdictClass": "win",
+      "narrative": "Lidl - Trek's day belonged to 20-year-old Fleur Moors, the only rider quick and strong enough to react when Wiebes attacked over the Zavelberg. She earned her place in the two-up sprint but had no answer to the Dutch champion's finishing speed, taking a high-quality second place against the spring's fastest finisher. Clara Copponi added depth in eighth from the chasing group, a solid all-round showing for the team.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Jastrab wins sprint for third",
+      "verdictClass": "neutral",
+      "narrative": "With the win gone up the road, UAE Team ADQ's focus shifted to the bunch sprint for the minor placings, and Megan Jastrab delivered, taking third on her debut spring for her new team by winning the sprint from the reduced peloton eleven seconds behind the leaders. A podium that confirmed her speed even if the race had been decided ahead of her by Wiebes's late move.",
+      "riderIds": []
+    },
+    {
+      "team": "AG Insurance - Soudal Team",
+      "verdict": "Pluimers just off the podium",
+      "verdictClass": "neutral",
+      "narrative": "AG Insurance - Soudal placed Ilse Pluimers fourth, narrowly beaten in the sprint for third and finishing just twelve seconds down on the winner. A near-miss on home Belgian roads that underlined the team's strength in the reduced front group, without quite producing a podium.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "3h 40m 03s",
+      "narrative": "The clear pre-race favourite delivered, but not in her usual fashion. With a bunch sprint looming and the race seemingly set up for her, Wiebes instead chose to attack over the final ascent of the Zavelberg inside the last three kilometres, catching the field by surprise. She could not drop Fleur Moors, but having forced the move she then won the two-up sprint comfortably for her third career victory in Oetingen — a more aggressive, complete win than her previous bunch-sprint successes, and another marker of her dominance over the 2026 women's spring whenever she reaches the finale.",
+      "keyMoments": [
+        { "km": 3, "what": "Attacked over the Zavelberg rather than waiting for the sprint; only Moors could follow" },
+        { "km": 0, "what": "Won the two-up sprint à deux decisively for her third Oetingen title" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A third Oetingen win, the attacking way, for the spring's fastest finisher",
+    "quotes": [],
+    "body": "IXINA Leeuw-Oetingen reaffirmed Lorena Wiebes as the benchmark fast finisher of the 2026 women's spring, but the manner of victory was the talking point: where her 2024 win came in a bunch sprint, here she read a punchy finishing circuit and won by attacking, dropping the bunch over the Zavelberg and only needing to beat one rider at the line. For Fleur Moors it was a standout result against the best sprinter in the race, and for Megan Jastrab a podium on her spring debut for UAE Team ADQ. A relatively low-key 1.Pro one-day on the Belgian calendar, but a useful early-season form check for SD Worx ahead of the bigger cobbled targets."
+  },
+  "sources": [
+    { "url": "https://cyclingflash.com/race/ixina-leeuw-oetingen-pb-lotto-we-2026/result", "publication": "Cyclingflash", "title": "IXINA Leeuw-Oetingen p/b Lotto 2026 - Results (Women Elite)", "lang": "en" },
+    { "url": "https://www.wielerflits.be/nieuws/lorena-wiebes-kiest-verrassend-voor-late-uitval-in-gp-oetingen-en-klopt-fleur-moors-in-sprint-a-deux/", "publication": "WielerFlits", "title": "Lorena Wiebes kiest verrassend voor late uitval in GP Oetingen en klopt Fleur Moors in sprint-à-deux", "lang": "nl" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/leeuw-oetingen-lorena-wiebes-finds-a-new-way-to-win-the-race-for-a-third-time/", "publication": "Cyclingnews", "title": "Leeuw-Oetingen: Lorena Wiebes finds a new way to win the race for a third time", "lang": "en" }
+  ]
+}
