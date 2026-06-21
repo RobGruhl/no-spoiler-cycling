@@ -1,0 +1,65 @@
+{
+  "raceId": "setmana-volta-femenina-comunitat-valenciana-2026",
+  "stageNumber": 4,
+  "stageName": "Sagunt → Valencia",
+  "stageDate": "2026-02-15",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Demi Vollering completed the double, attacking over the day's main climb and winning the five-rider group sprint in Valencia to seal the overall. Liane Lippert was second on the stage and Maeva Squiban third; Vollering took both the stage and the general classification.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "2h 54' 40\"" },
+    { "position": 2, "riderId": "liane-lippert", "name": "Liane Lippert", "team": "Movistar Team", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Maeva Squiban", "team": "UAE Team ADQ", "gap": "+0:00" },
+    { "position": 4, "riderId": "mie-bjorndal-ottestad", "name": "Mie Bjørndal Ottestad", "team": "Uno-X Mobility", "gap": "+0:00" },
+    { "position": 5, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM zondacrypto", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Vollering wins the group sprint in Valencia to seal the overall",
+    "body": "The 117 km finale from Sagunt to Valencia was the last chance to dislodge the leader after the queen stage was lost to the wind. Four riders went clear early and built a useful gap before being reeled in on the day's main climb, where race leader Vollering forced the selection and went clear over the top with one other rider.\n\nA chasing trio bridged across after the descent with about 15 km to go, forming a five-rider leading group. In Valencia the leaders sprinted for it, and Vollering proved fastest as well as strongest — beating Liane Lippert and Maeva Squiban to take the stage and, with it, the overall title. The small front group all finished on the same time, with the next group home at +0:15."
+  },
+  "gcImpact": {
+    "headline": "Vollering takes the overall; Squiban and Ottestad complete the podium",
+    "body": "Vollering's stage win sealed the general classification. The final GC reads Vollering first, Maeva Squiban second at +1:02 and Mie Bjørndal Ottestad third at +1:12, with Antonia Niedermaier fourth (also +1:12) and Liane Lippert — boosted by her Stage 4 finish bonus — into the top group on GC. Vollering's day-one Barx solo, never tested by the cancelled mountains, was enough to control the race from start to finish."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Closed the race the way she opened it. Vollering forced the selection on the final climb, went clear over the top, then out-sprinted the regrouped five-rider front group in Valencia to win the stage and the overall. A wire-to-wire victory in her season opener, with both stage wins to her name.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked over the day's main climb, going clear with one rider" },
+        { "km": 15, "what": "Absorbed the bridging trio to form a five-rider lead group" },
+        { "km": null, "what": "Won the group sprint in Valencia to seal the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "liane-lippert", "name": "Liane Lippert", "team": "Movistar Team",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "Movistar's GC card made the front group over the final climb and sprinted to second on the stage behind Vollering, the finish bonus lifting her up the overall on the closing day. The best of the chasers on a stage that had no answer to the race leader.",
+      "keyMoments": [{ "km": null, "what": "In the five-rider lead group, second in the sprint" }],
+      "incident": null
+    },
+    {
+      "riderId": "mie-bjorndal-ottestad", "name": "Mie Bjørndal Ottestad", "team": "Uno-X Mobility",
+      "role": "leader", "position": 4, "gap": "+0:00",
+      "narrative": "Held her GC position through the finale, making the lead group on the final climb and finishing fourth on the stage to lock up third overall at +1:12 — the standout GC result of the race for Uno-X.",
+      "keyMoments": [{ "km": null, "what": "Made the lead group to secure third on the final GC" }],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 5, "gap": "+0:00",
+      "narrative": "Completed the five-rider lead group and finished fifth on the stage, sealing fourth overall (+1:12) — a solid GC week for Canyon//SRAM after she was the only rider able to initially follow Vollering on Stage 1.",
+      "keyMoments": [{ "km": null, "what": "In the lead group; fifth on the stage, fourth on final GC" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/category/womens-cycling/setmana-valenciana-all-conquering-demi-vollering-blasts-to-overall-victory-and-second-stage-win-in-four-days-in-small-group-sprint/", "publication": "Cyclingnews", "title": "Setmana Valenciana: Demi Vollering blasts to overall victory and second stage win in small-group sprint", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/setmana-ciclista-valenciana/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Setmana Ciclista Valenciana 2026 — Stage 4", "lang": "en" },
+    { "url": "https://www.teampicnicpostnl.com/setmana-ciclista-valenciana-race-report/", "publication": "Team Picnic PostNL", "title": "Setmana Ciclista Valenciana race report", "lang": "en" }
+  ]
+}

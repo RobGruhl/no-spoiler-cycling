@@ -1,0 +1,44 @@
+{
+  "raceId": "setmana-volta-femenina-comunitat-valenciana-2026",
+  "stageNumber": 2,
+  "stageName": "Vila-Real → Vila-Real",
+  "stageDate": "2026-02-13",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Cat Ferguson (Movistar) won the sprint into Vila-Real ahead of Letizia Paternoster and Letizia Borghesi after the early climbs gave way to a long flat run-in. Demi Vollering finished safely in the front group and kept the overall lead.",
+  "podium": [
+    { "position": 1, "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team", "time": "3h 04' 15\"" },
+    { "position": 2, "riderId": null, "name": "Letizia Paternoster", "team": "Liv AlUla Jayco", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Letizia Borghesi", "team": "AG Insurance - Soudal Team", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Ferguson takes the sprint in Vila-Real as Vollering holds the lead",
+    "body": "The 115.5 km circuit around Vila-Real packed its climbing into the first half before roughly 50 km of mostly downhill and flat roads back to the line — a profile that pointed to a sprint if the fast finishers survived the hills. They did, and the day came down to a group gallop.\n\nMovistar's 19-year-old Cat Ferguson timed the finish best, winning ahead of Letizia Paternoster (Liv AlUla Jayco) and Letizia Borghesi (AG Insurance-Soudal). The tight time spread among the leaders confirmed a bunch finish rather than a successful long break. Demi Vollering came in safely with the front of the race and retained the overall lead heading into the scheduled queen stage."
+  },
+  "gcImpact": {
+    "headline": "No change at the top — Vollering still leads",
+    "body": "Ferguson's stage win came with the time bonus but from well down on GC, so the overall order at the front was unchanged: Vollering led from Squiban (+0:56) and Chladoňová (+0:58), with Chladoňová still in the youth jersey. The flat finish kept the GC contenders together and left the race to be settled on the mountains — or so it seemed before the weather intervened."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team",
+      "role": "stage-hunter", "position": 1, "gap": "stage winner",
+      "narrative": "Movistar's young all-rounder survived the first-half climbs and produced the fastest finish into Vila-Real, beating Paternoster and Borghesi for her first win of the 2026 season. A statement sprint at just 19, and Movistar's stage of the race.",
+      "keyMoments": [{ "km": null, "what": "Won the reduced bunch sprint in Vila-Real ahead of Paternoster and Borghesi" }],
+      "incident": null
+    },
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": null, "gap": "same time, front group",
+      "narrative": "Rode a controlled defensive day, staying out of trouble in the front group on the flat run-in to Vila-Real and keeping the leader's jersey intact ahead of the scheduled summit-finish queen stage.",
+      "keyMoments": [{ "km": null, "what": "Finished safely in the front group to retain the overall lead" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/setmana-ciclista-valenciana/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Setmana Ciclista Valenciana 2026 — Stage 2", "lang": "en" },
+    { "url": "https://humanpoweredhealthcycling.com/news/setmana-ciclista-valenciana-stage-by-stage-guide/", "publication": "Human Powered Health", "title": "Setmana Ciclista Valenciana — stage-by-stage guide", "lang": "en" }
+  ]
+}

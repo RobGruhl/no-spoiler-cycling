@@ -1,0 +1,49 @@
+{
+  "raceId": "setmana-volta-femenina-comunitat-valenciana-2026",
+  "stageNumber": 1,
+  "stageName": "Gandia → Gandia",
+  "stageDate": "2026-02-12",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "tldr": "Demi Vollering opened the race exactly to the script, attacking on the Alt de Barx and soloing the final ~18.7 km to win alone in Gandia and take the first leader's jersey. Maeva Squiban won the reduced-group sprint for second, +52\", with Viktória Chladoňová third.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "2h 54' 49\"" },
+    { "position": 2, "riderId": null, "name": "Maeva Squiban", "team": "UAE Team ADQ", "gap": "+0:52" },
+    { "position": 3, "riderId": null, "name": "Viktória Chladoňová", "team": "Team Visma | Lease a Bike", "gap": "+0:52" },
+    { "position": 5, "riderId": "mie-bjorndal-ottestad", "name": "Mie Bjørndal Ottestad", "team": "Uno-X Mobility", "gap": "+1:02" }
+  ],
+  "narrative": {
+    "headline": "Vollering converts a 20 km Barx solo into the opening stage and the leader's jersey",
+    "body": "The 113 km loop from Gandia back to Gandia hinged on the Alt de Barx, the 6 km climb that crests just under 20 km from the line. FDJ United-SUEZ lit the climb at its base to thin the bunch, and Vollering was the first to attack, going clear over the top with only Antonia Niedermaier able to follow.\n\nWhen the move stalled, Vollering attacked again with about 18.7 km remaining, dropped Niedermaier and committed to a long solo. She extended the gap across the plateau and the descent into Gandia and won alone by a clear margin. Behind, a reduced chase of around nine riders sprinted for the minor places: Maeva Squiban took second and Viktória Chladoňová third, both at +52\". The win, plus the time bonus, handed Vollering the first leader's jersey of the race."
+  },
+  "gcImpact": {
+    "headline": "Vollering straight into the lead",
+    "body": "Vollering leads the GC after Stage 1 with the time bonus on top of her solo margin, ahead of Squiban (+0:56 on GC) and Chladoňová (+0:58), with Niedermaier and Ottestad heading the next group. Chladoňová's ride also put her into the white youth jersey. With a sprint-friendly Stage 2 to come and the queen stage looming, the GC battle was already shaped around Vollering's climbing."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "A textbook season-opener. After her FDJ team softened the bunch on the Alt de Barx, Vollering attacked over the top, shed Niedermaier when the cooperation broke down, and rode the final ~18.7 km solo to win alone and take the leader's jersey. The same Barx blow she has used here before, executed cleanly on day one.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on the Alt de Barx (~6 km climb, summit ~20 km out), going clear with Niedermaier" },
+        { "km": null, "what": "Attacked again with ~18.7 km to go, dropped Niedermaier, soloed to the win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM zondacrypto",
+      "role": "stage-hunter", "position": 4, "gap": "+1:02",
+      "narrative": "The only rider able to follow Vollering's first Barx acceleration, but unable or unwilling to commit to the move; once Vollering went again she was distanced and dropped back to the chase, eventually fourth on the day at +1:02 and into the GC top five.",
+      "keyMoments": [{ "km": null, "what": "Followed Vollering's first attack on the Barx before being dropped on the second move" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/setmana-valenciana-demi-vollering-converts-20km-solo-to-opening-stage-victory/", "publication": "Cyclingnews", "title": "Setmana Valenciana: Demi Vollering converts 20km solo to opening stage victory", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/setmana-ciclista-valenciana/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Setmana Ciclista Valenciana 2026 — Stage 1", "lang": "en" },
+    { "url": "https://procyclinguk.com/setmana-valenciana-2026-stage-1-vollering-leads-safety-vote-then-delivers-familiar-barx-blow-to-take-first-leaders-jersey-in-gandia/", "publication": "ProCycling UK", "title": "Vollering delivers familiar Barx blow to take first leader's jersey in Gandia", "lang": "en" }
+  ]
+}

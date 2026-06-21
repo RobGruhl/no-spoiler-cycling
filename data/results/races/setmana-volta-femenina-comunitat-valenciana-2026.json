@@ -1,0 +1,114 @@
+{
+  "raceId": "setmana-volta-femenina-comunitat-valenciana-2026",
+  "raceName": "Setmana Ciclista Valenciana",
+  "raceDate": "2026-02-12",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "inProgress": false,
+  "tldr": "Demi Vollering (FDJ United-SUEZ) won the 2026 Setmana Ciclista Valenciana wire to wire, taking the leader's jersey with a 20 km solo over the Alt de Barx on Stage 1 and never giving it back. The GC-deciding queen stage was cancelled for high winds, so Vollering simply controlled the race to the final day and added a second win in the Stage 4 group sprint in Valencia. Maeva Squiban (UAE Team ADQ) was second overall at +1:02 and Mie Bjørndal Ottestad (Uno-X Mobility) third at +1:12; Cat Ferguson (Movistar) won the only stage Vollering didn't, Stage 2 in Vila-Real.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "Overall winner" },
+    { "position": 2, "riderId": null, "name": "Maeva Squiban", "team": "UAE Team ADQ", "gap": "+1:02" },
+    { "position": 3, "riderId": "mie-bjorndal-ottestad", "name": "Mie Bjørndal Ottestad", "team": "Uno-X Mobility", "gap": "+1:12" }
+  ],
+  "narrative": {
+    "headline": "Vollering's Barx blow on day one wins a race the wind cut to three stages",
+    "openingMoves": "Vollering struck immediately on Stage 1, the 113 km Gandia loop. After FDJ-SUEZ lit the Alt de Barx, she attacked over the top with Antonia Niedermaier, then went again with ~18.7 km to go and soloed to the win and the first leader's jersey. Maeva Squiban led the chase home for second, with Viktória Chladoňová third and into the youth jersey.",
+    "raceUnfolds": "Stage 2 around Vila-Real reverted to type: the climbs came early, a long flat run-in followed, and 19-year-old Cat Ferguson won the bunch sprint for Movistar ahead of Letizia Paternoster and Letizia Borghesi. Vollering sat in safely and the GC held.",
+    "decision": "The race was supposed to be decided on the Stage 3 queen stage from Agost to La Nucía, with the Cat. 1 Alto de Tudons and Cat. 2 Alto de Confrides — but it was cancelled on safety grounds after an AEMET orange wind alert for Alicante. With the mountains gone, Vollering's Stage 1 cushion stood and the overall was effectively settled.",
+    "finale": "On the 117 km Stage 4 from Sagunt to Valencia, an early break was caught on the main climb, Vollering forced the selection over the top, a chasing trio bridged at ~15 km to go, and the five-rider group sprinted in Valencia. Vollering won again ahead of Liane Lippert and Squiban, sealing the stage and the GC. Final podium: Vollering, Squiban (+1:02), Ottestad (+1:12)."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 18, "location": "Stage 1 — Alt de Barx", "headline": "Vollering's solo wins the jersey", "description": "Vollering attacked over the Alt de Barx and rode the final ~18.7 km alone to win Stage 1 in Gandia and take a lead she never relinquished." },
+    { "kmFromFinish": null, "location": "Stage 3 — Agost → La Nucía", "headline": "Queen stage cancelled by wind", "description": "The GC-deciding mountain stage was called off after AEMET's orange wind warning for Alicante, freezing the classification and removing the climbers' best chance to attack Vollering." },
+    { "kmFromFinish": 15, "location": "Stage 4 — Valencia run-in", "headline": "Vollering doubles up", "description": "Vollering went clear over the final climb, a five-rider group formed, and she won the sprint in Valencia to add a second stage and confirm the overall." }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Overall + two stages",
+      "verdictClass": "win",
+      "narrative": "A near-perfect season opener for FDJ-SUEZ built entirely around Demi Vollering. The team softened the Alt de Barx on Stage 1 to launch her decisive solo, defended the jersey on the flat Stage 2, and saw the toughest test removed when the queen stage was cancelled. Vollering closed it out herself with the Stage 4 group sprint — two stage wins and the overall, the kind of dominant opening week the squad wanted from its marquee signing.",
+      "riderIds": ["demi-vollering"]
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Ferguson wins Stage 2; Lippert 2nd on the final day",
+      "verdictClass": "win",
+      "narrative": "Movistar took the only stage Vollering didn't, with 19-year-old Cat Ferguson winning the Stage 2 sprint in Vila-Real — a statement result for one of the team's brightest young talents. On the final day Liane Lippert made the lead group and sprinted to second behind Vollering, the finish bonus lifting her on GC. Two cards, two highlights, on either end of the age scale.",
+      "riderIds": ["cat-ferguson", "liane-lippert"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Squiban 2nd overall",
+      "verdictClass": "win",
+      "narrative": "UAE Team ADQ rode consistently with Maeva Squiban, who was best of the rest behind Vollering: second on Stage 1, in the leading group on Stage 4, and second overall at +1:02. Eleonora Gasparrini added points-classification presence as a sprinting card, giving the team both a GC and a fast finisher across the week.",
+      "riderIds": ["eleonora-camilla-gasparrini"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Ottestad 3rd overall",
+      "verdictClass": "win",
+      "narrative": "Uno-X Mobility's Mie Bjørndal Ottestad rode a clean, consistent week — top five on Stage 1, in the front group on Stage 4 — to take third overall at +1:12, the team's GC headline of the race.",
+      "riderIds": ["mie-bjorndal-ottestad"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Niedermaier 4th overall",
+      "verdictClass": "neutral",
+      "narrative": "Antonia Niedermaier was the only rider able to follow Vollering's first Barx acceleration on Stage 1 and backed it up in the Stage 4 lead group to finish fourth overall (+1:12). A strong GC ride for Canyon//SRAM that fell just short of the podium when the mountains that might have suited her were cancelled.",
+      "riderIds": ["antonia-niedermaier"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Chladoňová 3rd Stage 1 + youth jersey spell",
+      "verdictClass": "neutral",
+      "narrative": "Team Visma's 19-year-old Viktória Chladoňová impressed with third on the opening stage and a spell in the white youth jersey, the standout result for the squad in a race where she briefly sat third overall before the final day reshuffled the gaps.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "Overall winner",
+      "narrative": "Dominant from the first climb. Vollering's 20 km Barx solo on Stage 1 won the leader's jersey, and once the queen stage was cancelled she controlled the race comfortably, sealing it with a second win in the Stage 4 group sprint in Valencia. Two stages and the overall in her season opener.",
+      "keyMoments": [
+        { "km": null, "what": "Soloed the final ~18.7 km of Stage 1 to win and take the lead" },
+        { "km": null, "what": "Won the Stage 4 group sprint in Valencia to seal the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "cat-ferguson", "name": "Cat Ferguson", "team": "Movistar Team",
+      "role": "stage-hunter", "position": null, "gap": "Stage 2 winner",
+      "narrative": "The 19-year-old took the only stage Vollering didn't, winning the Stage 2 bunch sprint in Vila-Real ahead of Paternoster and Borghesi — a confidence-building first win of her 2026 season.",
+      "keyMoments": [{ "km": null, "what": "Won the Stage 2 sprint in Vila-Real" }],
+      "incident": null
+    },
+    {
+      "riderId": "liane-lippert", "name": "Liane Lippert", "team": "Movistar Team",
+      "role": "leader", "position": 2, "gap": "Stage 4 (2nd)",
+      "narrative": "Movistar's GC option made the Stage 4 lead group and sprinted to second behind Vollering, the finish bonus moving her up the overall on the closing day after a quiet opening to the week.",
+      "keyMoments": [{ "km": null, "what": "Second on Stage 4 from the five-rider lead group" }],
+      "incident": null
+    },
+    {
+      "riderId": "mie-bjorndal-ottestad", "name": "Mie Bjørndal Ottestad", "team": "Uno-X Mobility",
+      "role": "leader", "position": 3, "gap": "+1:12",
+      "narrative": "Consistent across all three raced days, Ottestad made every key selection and finished third overall at +1:12 — the best GC result of the race for Uno-X Mobility.",
+      "keyMoments": [{ "km": null, "what": "Top five Stage 1, in the Stage 4 lead group, third overall" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [{ "summary": "Stage 3 (queen stage, Agost → La Nucía) cancelled by the organisers after AEMET's orange wind warning for Alicante, reducing the race to three contested stages." }] },
+  "aftermath": {
+    "headline": "A wind-shortened race, controlled from day one",
+    "quotes": [],
+    "body": "The 2026 Setmana Ciclista Valenciana belonged to Demi Vollering from the moment she crested the Alt de Barx alone on Stage 1. The cancellation of the Agost–La Nucía queen stage for safety took away the only terrain on which the climbers might have attacked her lead, turning the rest of the race into a defence she completed with a second stage win in Valencia. Behind her, UAE Team ADQ's Maeva Squiban (2nd, +1:02) and Uno-X's Mie Bjørndal Ottestad (3rd, +1:12) filled the podium, while Movistar split the week between teenager Cat Ferguson's Stage 2 sprint win and Liane Lippert's runner-up finish on the final day."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/setmana-ciclista-valenciana/2026/gc", "publication": "ProCyclingStats", "title": "Setmana Ciclista Valenciana 2026 — GC", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/setmana-ciclista-valenciana/2026/results/start", "publication": "ProCyclingStats", "title": "Setmana Ciclista Valenciana 2026 — Winners and leaders", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/category/womens-cycling/setmana-valenciana-all-conquering-demi-vollering-blasts-to-overall-victory-and-second-stage-win-in-four-days-in-small-group-sprint/", "publication": "Cyclingnews", "title": "Demi Vollering blasts to overall victory and second stage win", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/setmana-ciclista-valenciana-queen-stage-cancelled-due-to-strong-winds/", "publication": "Domestique", "title": "Setmana Ciclista Valenciana Queen Stage cancelled due to strong winds", "lang": "en" }
+  ]
+}
