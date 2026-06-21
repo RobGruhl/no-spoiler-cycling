@@ -149,11 +149,13 @@
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -241,7 +243,7 @@
         <div class="stat"><span class="k">Total km</span><span class="v mono">852</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">FloBikes</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">2.UWT</span></div>
-        <div class="stat results-stat"><span class="k">Results</span><span class="v sm"><a href="../results/race/tour-de-romandie-2026.html" style="border-bottom:1px solid var(--signal);color:var(--signal);font-weight:600">View → <small style="font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:400">spoilers</small></a></span></div>
+        <div class="stat"><span class="k">Worth watching</span><span class="v sm" title="Spoiler-safe drama rating: 3/5">🔥 3/5</span></div><div class="stat results-stat"><span class="k">Results</span><span class="v sm"><a href="../results/race/tour-de-romandie-2026.html" style="border-bottom:1px solid var(--signal);color:var(--signal);font-weight:600">View → <small style="font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:400">spoilers</small></a></span></div>
       </aside>
     </section>
 
@@ -295,7 +297,7 @@
       <h2>The route, day by day</h2>
       <div class="stages">
         <div class="stage has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-0.html" aria-label="Stage Prologue details"></a>
-      <div class="c first"><span class="no">P</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-0.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no">P</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-0.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 2/5">🔥2</span></span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Apr 28</div>
       <div class="c rt">Villars-sur-Glâne</div>
@@ -303,7 +305,7 @@
       <div class="c terrcell">ITT</div>
       <div class="c desc">Short opening prologue around Villars-sur-Glâne to set the initial GC order.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-1.html" aria-label="Stage 1 details"></a>
-      <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no">1</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-1.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 3/5">🔥3</span></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Apr 29</div>
       <div class="c rt">Martigny - Martigny</div>
@@ -311,7 +313,7 @@
       <div class="c terrcell">HILLY · MOUNTAIN</div>
       <div class="c desc">Valley-road stage ending with a 12km climb at Ovronnaz (9.1% avg) before a 33km descent to Martigny for a likely reduced sprint.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-2.html" aria-label="Stage 2 details"></a>
-      <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no">2</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-2.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 2/5">🔥2</span></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Apr 30</div>
       <div class="c rt">Rue - Vucherens</div>
@@ -319,7 +321,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Relentless punchy day with three circuits over the cat-3 Vuillens climb - stage for puncheurs.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-3.html" aria-label="Stage 3 details"></a>
-      <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no">3</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-3.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 2/5">🔥2</span></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, May 1</div>
       <div class="c rt">Orbe - Orbe</div>
@@ -327,7 +329,7 @@
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Jura Mountains stage with the major 21.8km Col Mollendruz climb before a 32km descent to Orbe.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-4.html" aria-label="Stage 4 details"></a>
-      <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no">4</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-4.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 3/5">🔥3</span></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, May 2</div>
       <div class="c rt">Broc - Charmey</div>
@@ -335,7 +337,7 @@
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Shortest road stage but hardest per kilometre - two category-2 and two category-1 climbs with double Jaunpass ascents.</div>
     </div><div class="stage qs has-link"><a class="stage-cover" href="tour-de-romandie-2026-stage-5.html" aria-label="Stage 5 details"></a>
-      <div class="c first"><span class="no qs">5</span><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
+      <div class="c first"><span class="no qs">5</span><span class="badges"><a class="res-tag" href="../results/race/tour-de-romandie-2026-stage-5.html" title="View stage results (spoilers)">R</a><span class="watch-flame" title="Worth-watching rating: 3/5">🔥3</span></span></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sun, May 3</div>
       <div class="c rt">Lucens - Leysin</div>

@@ -149,11 +149,13 @@
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -286,7 +288,7 @@
       <h2>The route, day by day</h2>
       <div class="stages">
         <div class="stage has-link"><a class="stage-cover" href="princess-maha-chakri-sirindhorns-cup-womens-tour-of-thailand-2026-stage-1.html" aria-label="Stage 1 details"></a>
-      <div class="c first"><span class="no">1</span></div>
+      <div class="c first"><span class="no">1</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, Mar 31</div>
       <div class="c rt">Stage 1</div>
@@ -294,7 +296,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Opening day of the Princess Maha Chakri Sirindhorn&#39;s Cup Women&#39;s Tour of Thailand (2.1).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="princess-maha-chakri-sirindhorns-cup-womens-tour-of-thailand-2026-stage-2.html" aria-label="Stage 2 details"></a>
-      <div class="c first"><span class="no">2</span></div>
+      <div class="c first"><span class="no">2</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Apr 1</div>
       <div class="c rt">Stage 2</div>
@@ -302,7 +304,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Middle day of the 3-stage race.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="princess-maha-chakri-sirindhorns-cup-womens-tour-of-thailand-2026-stage-3.html" aria-label="Stage 3 details"></a>
-      <div class="c first"><span class="no">3</span></div>
+      <div class="c first"><span class="no">3</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Apr 2</div>
       <div class="c rt">Stage 3</div>

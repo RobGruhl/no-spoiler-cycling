@@ -149,11 +149,13 @@
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -286,7 +288,7 @@
       <h2>The route, day by day</h2>
       <div class="stages">
         <div class="stage">
-      <div class="c first"><span class="no">P</span></div>
+      <div class="c first"><span class="no">P</span><span class="badges"></span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Sun, Feb 22</div>
       <div class="c rt">BK Arena - Amahoro Stadium</div>
@@ -294,7 +296,7 @@
       <div class="c terrcell">ITT</div>
       <div class="c desc">Opening prologue time trial in Kigali</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">1</span></div>
+      <div class="c first"><span class="no">1</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Feb 23</div>
       <div class="c rt">Rukomo - Kayonza</div>
@@ -302,7 +304,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Rolling stage through eastern Rwanda</div>
     </div><div class="stage qs">
-      <div class="c first"><span class="no qs">2</span></div>
+      <div class="c first"><span class="no qs">2</span><span class="badges"></span></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Tue, Feb 24</div>
       <div class="c rt">Kigali - Musanze</div>
@@ -310,7 +312,7 @@
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Mountain stage toward the Virunga volcanoes</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">3</span></div>
+      <div class="c first"><span class="no">3</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Feb 25</div>
       <div class="c rt">Musanze - Gisenyi</div>
@@ -318,7 +320,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Stage from Musanze to Lake Kivu</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">4</span></div>
+      <div class="c first"><span class="no">4</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Feb 26</div>
       <div class="c rt">Lake Kivu</div>
@@ -326,7 +328,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Scenic stage along Lake Kivu</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">5</span></div>
+      <div class="c first"><span class="no">5</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, Feb 27</div>
       <div class="c rt">Stage 5</div>
@@ -334,7 +336,7 @@
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Mountain stage through the interior</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">6</span></div>
+      <div class="c first"><span class="no">6</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Feb 28</div>
       <div class="c rt">Stage 6</div>
@@ -342,7 +344,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Rolling stage heading back toward Kigali</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">7</span></div>
+      <div class="c first"><span class="no">7</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sun, Mar 1</div>
       <div class="c rt">Stage 7</div>
@@ -350,7 +352,7 @@
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Penultimate mountain stage</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">8</span></div>
+      <div class="c first"><span class="no">8</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Mar 2</div>
       <div class="c rt">Kigali</div>

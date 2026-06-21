@@ -5,6 +5,7 @@
 // index.html alongside the new-design markup and shared.css at the repo root.
 
 import fs from 'fs';
+import { flamesForRace } from './lib/watchability.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -68,6 +69,8 @@ function transformRace(r) {
     stages: Array.isArray(r.stages) ? r.stages.length : 0,
     slug: r.id,
     hasResults: fs.existsSync(`./data/results/races/${r.id}.json`),
+    // spoiler-safe "worth watching" flame count (1–5) for raced events; 0/absent otherwise
+    watch: flamesForRace(r.id, { resultsDir: './data/results', rating: r.rating || 0 }) || 0,
   };
 }
 
@@ -119,6 +122,7 @@ function buildHtml(rows, stats, updatedLabel) {
 .res-link{flex:0 0 auto;margin-left:10px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:1px 6px;white-space:nowrap}
 .res-link:hover{background:var(--signal);color:#fff}
 .res-link .sp{font-size:8px;letter-spacing:.12em;opacity:.7}
+.watch-flame{flex:0 0 auto;margin-left:10px;display:inline-flex;align-items:center;gap:2px;font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);cursor:default;white-space:nowrap}
 .row .c{padding:0 10px;display:flex;align-items:center;min-width:0}
 .row .c.first{padding-left:0}
 .row .stars{letter-spacing:.08em}
@@ -386,7 +390,7 @@ function buildHtml(rows, stats, updatedLabel) {
       <div class="c first">\${starsHtml(r.rating)}</div>
       <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
       <div class="c dt">\${r.d}</div>
-      <div class="c"><span class="name">\${r.name}</span>\${resLink}</div>
+      <div class="c"><span class="name">\${r.name}</span>\${r.watch?\`<span class="watch-flame" title="Worth-watching rating: \${r.watch}/5">🔥\${r.watch}</span>\`:""}\${resLink}</div>
       <div class="c loc">\${r.loc}</div>
       <div class="c terr">\${terrHtml(r.terrain)}</div>
       <div class="c gender">\${genderLbl[r.gender]||""}</div>

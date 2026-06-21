@@ -15,6 +15,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { flamesForRace, flamesForStage } from './lib/watchability.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -42,6 +43,12 @@ function hasRaceResults(raceId) {
 
 function resultsStat(href) {
   return `<div class="stat results-stat"><span class="k">Results</span><span class="v sm"><a href="${href}" style="border-bottom:1px solid var(--signal);color:var(--signal);font-weight:600">View → <small style="font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:400">spoilers</small></a></span></div>`;
+}
+
+// Spoiler-safe "worth watching" stat for the hero (flame + number, no explanation).
+function watchStat(flames) {
+  if (!flames) return '';
+  return `<div class="stat"><span class="k">Worth watching</span><span class="v sm" title="Spoiler-safe drama rating: ${flames}/5">🔥 ${flames}/5</span></div>`;
 }
 
 function fmtLongDate(ymd) {
@@ -518,11 +525,13 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -738,7 +747,7 @@ function renderOneDay(race) {
         <div class="stat"><span class="k">Key climbs</span><span class="v mono">${climbsCount || '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
-        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? resultsStat(`../results/race/${race.id}.html`) : ''}
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 
@@ -826,8 +835,10 @@ function renderStageRace(race) {
     const stageCover = hasDetails ? `<a class="stage-cover" href="${href}" aria-label="Stage ${n === 0 ? 'Prologue' : n} details"></a>` : '';
     const showResults = isPastDate(s.date) && hasStageResults(race.id, n);
     const resultsBadge = showResults ? `<a class="res-tag" href="../results/race/${race.id}-stage-${n}.html" title="View stage results (spoilers)">R</a>` : '';
+    const stageFlames = showResults ? flamesForStage(race.id, n, { resultsDir: './data/results', rating: race.rating || 0 }) : null;
+    const flameBadge = stageFlames ? `<span class="watch-flame" title="Worth-watching rating: ${stageFlames}/5">🔥${stageFlames}</span>` : '';
     return `<div class="stage${isQueen ? ' qs' : ''}${hasDetails ? ' has-link' : ''}">${stageCover}
-      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span>${resultsBadge}</div>
+      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span><span class="badges">${resultsBadge}${flameBadge}</span></div>
       <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
       <div class="c dt">${fmtShortDate(s.date)}</div>
       <div class="c rt">${htmlEscape(routeText).replace(/→/g, '<span class="arr">→</span>')}</div>
@@ -881,7 +892,7 @@ function renderStageRace(race) {
         <div class="stat"><span class="k">Total km</span><span class="v mono">${totalKm ? Math.round(totalKm) : '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
-        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? resultsStat(`../results/race/${race.id}.html`) : ''}
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 
@@ -1015,7 +1026,7 @@ function renderStage(race, stage) {
         <div class="stat"><span class="k">Distance</span><span class="v mono">${stage.distance || '—'}${stage.distance ? '<small style="font-family:var(--font-mono);font-size:11px;color:var(--ink-3);letter-spacing:.12em;text-transform:uppercase;margin-left:4px">km</small>' : ''}</span></div>
         <div class="stat"><span class="k">Terrain</span><span class="v sm">${htmlEscape(terrCodes)}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
-        ${isPastDate(stage.date) && hasStageResults(race.id, stage.stageNumber) ? resultsStat(`../results/race/${race.id}-stage-${stage.stageNumber}.html`) : ''}
+        ${isPastDate(stage.date) && hasStageResults(race.id, stage.stageNumber) ? watchStat(flamesForStage(race.id, stage.stageNumber, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}-stage-${stage.stageNumber}.html`) : ''}
       </aside>
     </section>
 

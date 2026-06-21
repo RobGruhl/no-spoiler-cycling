@@ -149,11 +149,13 @@
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -295,7 +297,7 @@
       <h2>The route, day by day</h2>
       <div class="stages">
         <div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-1.html" aria-label="Stage 1 details"></a>
-      <div class="c first"><span class="no">1</span></div>
+      <div class="c first"><span class="no">1</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Apr 25</div>
       <div class="c rt">Opening Road Stage</div>
@@ -303,7 +305,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Opening rolling road stage in eastern Brittany</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-2.html" aria-label="Stage 2 details"></a>
-      <div class="c first"><span class="no">2</span></div>
+      <div class="c first"><span class="no">2</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Apr 26</div>
       <div class="c rt">Coastal Stage</div>
@@ -311,7 +313,7 @@
       <div class="c terrcell">FLAT · CROSSWIND-RISK</div>
       <div class="c desc">Coastal stage with crosswind risk along the Atlantic seafront</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-3.html" aria-label="Stage 3 details"></a>
-      <div class="c first"><span class="no">3</span></div>
+      <div class="c first"><span class="no">3</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Apr 27</div>
       <div class="c rt">Punchy Finish</div>
@@ -319,7 +321,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Hilly stage with a punchy uphill finish</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-4.html" aria-label="Stage 4 details"></a>
-      <div class="c first"><span class="no">4</span></div>
+      <div class="c first"><span class="no">4</span><span class="badges"></span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Apr 28</div>
       <div class="c rt">Individual Time Trial</div>
@@ -327,7 +329,7 @@
       <div class="c terrcell">ITT</div>
       <div class="c desc">Short individual time trial that often decides GC</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-5.html" aria-label="Stage 5 details"></a>
-      <div class="c first"><span class="no">5</span></div>
+      <div class="c first"><span class="no">5</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Apr 29</div>
       <div class="c rt">Rolling Midweek Stage</div>
@@ -335,7 +337,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Rolling stage with breakaway potential</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-6.html" aria-label="Stage 6 details"></a>
-      <div class="c first"><span class="no">6</span></div>
+      <div class="c first"><span class="no">6</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Apr 30</div>
       <div class="c rt">Queen Stage</div>
@@ -343,7 +345,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Queen stage with the most climbing of the week</div>
     </div><div class="stage has-link"><a class="stage-cover" href="tour-de-bretagne-2026-stage-7.html" aria-label="Stage 7 details"></a>
-      <div class="c first"><span class="no">7</span></div>
+      <div class="c first"><span class="no">7</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, May 1</div>
       <div class="c rt">Final Stage</div>

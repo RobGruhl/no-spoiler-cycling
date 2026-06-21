@@ -149,11 +149,13 @@
 .stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
 .stage .res-tag{position:relative;z-index:2}
-.stage .c.first{padding-left:0}
-.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
+.stage .c.first{padding-left:0;display:flex;flex-direction:column;align-items:flex-start;gap:3px;justify-content:center}
+.stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em;line-height:1}
 .stage .no.qs{color:var(--signal)}
-.stage .res-tag{display:inline-block;margin-left:6px;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none;vertical-align:top}
+.stage .badges{position:relative;z-index:2;display:flex;align-items:center;gap:5px}
+.stage .res-tag{display:inline-block;padding:2px 6px;font-family:var(--font-mono);font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--signal);color:var(--paper);border:1px solid var(--signal);text-decoration:none}
 .stage .res-tag:hover{background:var(--ink);border-color:var(--ink)}
+.stage .watch-flame{font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);white-space:nowrap;cursor:default}
 .stage .lbl{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .stage .dt{font-family:var(--font-mono);font-size:12px;letter-spacing:.02em}
 .stage .rt{font-family:var(--font-sans);font-weight:600;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -286,7 +288,7 @@
       <h2>The route, day by day</h2>
       <div class="stages">
         <div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-1.html" aria-label="Stage 1 details"></a>
-      <div class="c first"><span class="no">1</span></div>
+      <div class="c first"><span class="no">1</span><span class="badges"></span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Sat, Aug 22</div>
       <div class="c rt">Monaco <span class="arr">→</span> Monaco</div>
@@ -294,7 +296,7 @@
       <div class="c terrcell">ITT</div>
       <div class="c desc">Opening 9km individual time trial through the Principality of Monaco.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-2.html" aria-label="Stage 2 details"></a>
-      <div class="c first"><span class="no">2</span></div>
+      <div class="c first"><span class="no">2</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Aug 23</div>
       <div class="c rt">Monaco <span class="arr">→</span> Manosque</div>
@@ -302,7 +304,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Long hilly transfer day with two Cat 3 climbs in the first half.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-3.html" aria-label="Stage 3 details"></a>
-      <div class="c first"><span class="no">3</span></div>
+      <div class="c first"><span class="no">3</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Mon, Aug 24</div>
       <div class="c rt">Gruissan <span class="arr">→</span> Font Romeu</div>
@@ -310,7 +312,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">First summit finish at Font Romeu (1,800m) via Col de Mont-Louis.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-4.html" aria-label="Stage 4 details"></a>
-      <div class="c first"><span class="no">4</span></div>
+      <div class="c first"><span class="no">4</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Tue, Aug 25</div>
       <div class="c rt">Andorra la Vella <span class="arr">→</span> Andorra la Vella</div>
@@ -318,7 +320,7 @@
       <div class="c terrcell">MOUNTAIN · CIRCUIT</div>
       <div class="c desc">Short, savage Andorran circuit with four Cat 1/3 climbs in 104km.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-5.html" aria-label="Stage 5 details"></a>
-      <div class="c first"><span class="no">5</span></div>
+      <div class="c first"><span class="no">5</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Aug 26</div>
       <div class="c rt">Falset</div>
@@ -326,7 +328,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Catalan hilly stage with the Alto de Paüls late.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-6.html" aria-label="Stage 6 details"></a>
-      <div class="c first"><span class="no">6</span></div>
+      <div class="c first"><span class="no">6</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Thu, Aug 27</div>
       <div class="c rt">Alcossebre <span class="arr">→</span> Castelló</div>
@@ -334,7 +336,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Medium-mountain stage finishing atop Pal (Cat 1, 9.6km @ 6.3%).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-7.html" aria-label="Stage 7 details"></a>
-      <div class="c first"><span class="no">7</span></div>
+      <div class="c first"><span class="no">7</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, Aug 28</div>
       <div class="c rt">Vall d&#39;Alba <span class="arr">→</span> Aramón Valdelinares</div>
@@ -342,7 +344,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Pyrenean stage with summit finish at Cerler (12.1km @ 5.8%).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-8.html" aria-label="Stage 8 details"></a>
-      <div class="c first"><span class="no">8</span></div>
+      <div class="c first"><span class="no">8</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Aug 29</div>
       <div class="c rt">Puçol <span class="arr">→</span> Xeraco</div>
@@ -350,7 +352,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Mediterranean coast sprint stage — the Puerto de Barx is the only obstacle.</div>
     </div><div class="stage qs has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-9.html" aria-label="Stage 9 details"></a>
-      <div class="c first"><span class="no qs">9</span></div>
+      <div class="c first"><span class="no qs">9</span><span class="badges"></span></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sun, Aug 30</div>
       <div class="c rt">La Vila Joiosa <span class="arr">→</span> Alto de Aitana</div>
@@ -358,7 +360,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Six categorised climbs ending atop the legendary Alto de Aitana (Cat 1).</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">P</span></div>
+      <div class="c first"><span class="no">P</span><span class="badges"></span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, Aug 31</div>
       <div class="c rt">Rest Day</div>
@@ -366,7 +368,7 @@
       <div class="c terrcell"></div>
       <div class="c desc">First rest day.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-10.html" aria-label="Stage 10 details"></a>
-      <div class="c first"><span class="no">10</span></div>
+      <div class="c first"><span class="no">10</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, Sep 1</div>
       <div class="c rt">Alcaraz–Elche de la Sierra <span class="arr">→</span> Elche de la Sierra</div>
@@ -374,7 +376,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Rolling Castilla–La Mancha stage with the Puerto de Socovos late.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-11.html" aria-label="Stage 11 details"></a>
-      <div class="c first"><span class="no">11</span></div>
+      <div class="c first"><span class="no">11</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Sep 2</div>
       <div class="c rt">Cartagena–Lorca <span class="arr">→</span> Lorca</div>
@@ -382,7 +384,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Sprint opportunity with the Alto del Morrón mid-stage.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-12.html" aria-label="Stage 12 details"></a>
-      <div class="c first"><span class="no">12</span></div>
+      <div class="c first"><span class="no">12</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Thu, Sep 3</div>
       <div class="c rt">Vera–Calar Alto <span class="arr">→</span> Calar Alto</div>
@@ -390,7 +392,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Andalusian mountain stage to the high-altitude Calar Alto observatory (2,100m+).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-13.html" aria-label="Stage 13 details"></a>
-      <div class="c first"><span class="no">13</span></div>
+      <div class="c first"><span class="no">13</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Sep 4</div>
       <div class="c rt">Almuñécar–Loja <span class="arr">→</span> Loja</div>
@@ -398,7 +400,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Medium-mountain Granada-province stage with two Cat 1/2 climbs.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-14.html" aria-label="Stage 14 details"></a>
-      <div class="c first"><span class="no">14</span></div>
+      <div class="c first"><span class="no">14</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, Sep 5</div>
       <div class="c rt">Jaén–Sierra de la Pandera <span class="arr">→</span> Sierra de la Pandera</div>
@@ -406,7 +408,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Brutal short mountain stage finishing atop the Sierra de la Pandera.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-15.html" aria-label="Stage 15 details"></a>
-      <div class="c first"><span class="no">15</span></div>
+      <div class="c first"><span class="no">15</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Sep 6</div>
       <div class="c rt">Palma del Río–Córdoba <span class="arr">→</span> Córdoba</div>
@@ -414,7 +416,7 @@
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Three Cat 3 climbs en route to Córdoba with Puerto Artafi 30km out.</div>
     </div><div class="stage">
-      <div class="c first"><span class="no">P</span></div>
+      <div class="c first"><span class="no">P</span><span class="badges"></span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, Sep 7</div>
       <div class="c rt">Rest Day</div>
@@ -422,7 +424,7 @@
       <div class="c terrcell"></div>
       <div class="c desc">Second rest day.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-16.html" aria-label="Stage 16 details"></a>
-      <div class="c first"><span class="no">16</span></div>
+      <div class="c first"><span class="no">16</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, Sep 8</div>
       <div class="c rt">Cortegana–La Rábida <span class="arr">→</span> La Rábida</div>
@@ -430,7 +432,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Rolling first half then flat coastal finish near Huelva.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-17.html" aria-label="Stage 17 details"></a>
-      <div class="c first"><span class="no">17</span></div>
+      <div class="c first"><span class="no">17</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Sep 9</div>
       <div class="c rt">Dos Hermanas–Sevilla <span class="arr">→</span> Sevilla</div>
@@ -438,7 +440,7 @@
       <div class="c terrcell">FLAT</div>
       <div class="c desc">The flattest stage of the entire race — pure sprint into Seville.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-18.html" aria-label="Stage 18 details"></a>
-      <div class="c first"><span class="no">18</span></div>
+      <div class="c first"><span class="no">18</span><span class="badges"></span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Thu, Sep 10</div>
       <div class="c rt">El Puerto de Santa María <span class="arr">→</span> Jerez de la Frontera</div>
@@ -446,7 +448,7 @@
       <div class="c terrcell">ITT · CROSSWIND-RISK</div>
       <div class="c desc">32km flat coastal ITT — likely GC-decisive race-of-truth.</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-19.html" aria-label="Stage 19 details"></a>
-      <div class="c first"><span class="no">19</span></div>
+      <div class="c first"><span class="no">19</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Sep 11</div>
       <div class="c rt">Vélez-Málaga <span class="arr">→</span> Peñas Blancas</div>
@@ -454,7 +456,7 @@
       <div class="c terrcell">HILLY · SUMMIT-FINISH</div>
       <div class="c desc">Three categorised climbs with summit finish at Peñas Blancas (Cat 1).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-20.html" aria-label="Stage 20 details"></a>
-      <div class="c first"><span class="no">20</span></div>
+      <div class="c first"><span class="no">20</span><span class="badges"></span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, Sep 12</div>
       <div class="c rt">La Calahorra <span class="arr">→</span> Collado del Alguacil</div>
@@ -462,7 +464,7 @@
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Decisive penultimate mountain stage — Cat Especial finish at Collado del Alguacil (8.3km @ 9.8%).</div>
     </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-espana-2026-stage-21.html" aria-label="Stage 21 details"></a>
-      <div class="c first"><span class="no">21</span></div>
+      <div class="c first"><span class="no">21</span><span class="badges"></span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Sep 13</div>
       <div class="c rt">Carrefour Granada <span class="arr">→</span> Granada</div>
