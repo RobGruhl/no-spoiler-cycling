@@ -1,0 +1,93 @@
+{
+  "raceId": "tour-feminin-international-des-pyrenees-2026",
+  "raceName": "Tour Féminin International des Pyrénées",
+  "raceDate": "2026-06-12",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "inProgress": false,
+  "tldr": "Paula Blasi (UAE Team ADQ) won the 5th CIC-Tour Féminin des Pyrénées (2.Pro WE) with a master-class on the Col du Tourmalet on Stage 2, attacking more than 10 km from the summit and soloing all the way to Bagnères-de-Bigorre to build a near-two-minute lead she never relinquished. UAE Team ADQ completed a 1-2 overall, with Dominika Włodarczyk second at 1:57 and FDJ United-SUEZ's Juliette Berthet third. Martina Alzini (Cofidis) opened the race with a Stage 1 bunch sprint in Mourenx; Eline Jansen (VolkerWessels Cycling) closed it with a breakaway win in Jurançon despite crashing on Stage 3. Final winning time 9h 02' 21\".",
+  "podium": [
+    { "position": 1, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "time": "9h 02' 21\"" },
+    { "position": 2, "riderId": null, "name": "Dominika Włodarczyk", "team": "UAE Team ADQ", "gap": "+1:57" },
+    { "position": 3, "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United-SUEZ", "gap": "+1:57" }
+  ],
+  "narrative": {
+    "headline": "Blasi tames the Tourmalet to seal a UAE Team ADQ overall 1-2",
+    "openingMoves": "The race opened on Friday 12 June with a 118.6 km run from Saint-Jean-de-Luz to Mourenx, the clearest sprinters' day before the mountains. Eliška Kvasničková (VIF Cycling Team) went solo with just under 60 km to go and built a gap of more than three minutes, but Cofidis, UAE Team ADQ, Liv AlUla Jayco and FDJ United-SUEZ organised the chase and reeled her in inside the final 11 km. Martina Alzini (Cofidis) won the bunch sprint ahead of Federica Venturelli (UAE Team ADQ) and French champion Marie Le Net (FDJ United-SUEZ), taking the first leader's jersey. A large mid-stage crash forced several abandons.",
+    "raceUnfolds": "Stage 2 on Saturday was the queen stage — a short, brutal mountain day from Arrens-Marsous over the Col du Tourmalet and down to Bagnères-de-Bigorre. Paula Blasi attacked on the Tourmalet more than 10 km from the summit, dropped the GC group and kept extending her lead on the climb and the long descent. She won solo in 2h 42' 15\", 1:59 ahead of a chase group led home by her UAE Team ADQ teammate Dominika Włodarczyk — a result that effectively decided the overall in a single afternoon.",
+    "decision": "The Tourmalet was where the race was won. Blasi's solo move turned a three-day stage race into a procession: she took the stage, the leader's jersey and the climber's classification at a stroke, and UAE Team ADQ placed Włodarczyk into second overall behind her, giving the squad a stranglehold on the podium with one day to race.",
+    "finale": "Stage 3 on Sunday, 114.4 km from Nay to Jurançon, offered attackers a last chance. A 10-rider breakaway went clear and stayed away; Eline Jansen (VolkerWessels Cycling) crashed inside the closing kilometres but remounted and surged to win the stage ahead of Léa Curinier (FDJ United-SUEZ). With no threat to the lead, Blasi rode safely home to seal the overall — final winning time 9h 02' 21\", 1:57 over Włodarczyk and Berthet, who shared the same time in the GC."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 11, "location": "Stage 1 — approach to Mourenx", "headline": "Kvasničková's long solo caught", "description": "Eliška Kvasničková's 60 km solo breakaway, which peaked at over three minutes, was finally reeled in inside the last 11 km, setting up Martina Alzini's bunch-sprint win and the first leader's jersey." },
+    { "kmFromFinish": null, "location": "Stage 2 — Col du Tourmalet", "headline": "Blasi attacks over 10 km from the summit", "description": "Paula Blasi launched her decisive move more than 10 km from the top of the Tourmalet, soloing over the summit and down to Bagnères-de-Bigorre to win by 1:59 and take a commanding overall lead — the move that won the race." },
+    { "kmFromFinish": null, "location": "Stage 3 — run-in to Jurançon", "headline": "Jansen crashes but wins from the break", "description": "Eline Jansen crashed out of the day's 10-rider breakaway in the closing kilometres but remounted and sprinted clear to win the final stage ahead of Léa Curinier, while Blasi shepherded her lead home for the overall." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Overall 1-2, queen stage, two jerseys",
+      "verdictClass": "win",
+      "narrative": "A total domination of the race. Paula Blasi's Tourmalet solo on Stage 2 won the stage, the overall and the climber's classification in one move, and the squad converted its depth into a GC 1-2 with Dominika Włodarczyk second at 1:57. Federica Venturelli added the points classification (and a Stage 1 sprint second), making UAE Team ADQ the clear best team of the week — the only mountain stage decided everything and they owned it.",
+      "riderIds": ["paula-blasi"]
+    },
+    {
+      "team": "FDJ United-SUEZ",
+      "verdict": "3rd overall, two stage podiums",
+      "verdictClass": "neutral",
+      "narrative": "The best of the rest behind UAE. Juliette Berthet rode into third overall (same time as Włodarczyk at 1:57), Marie Le Net was third on the Stage 1 sprint, and Léa Curinier was second on the breakaway Stage 3 — a consistent week of podium placings without a stage win, beaten by Blasi's single decisive mountain move.",
+      "riderIds": ["juliette-berthet"]
+    },
+    {
+      "team": "Cofidis",
+      "verdict": "Stage 1 win + leader's jersey",
+      "verdictClass": "win",
+      "narrative": "Cofidis got the opening day exactly right: they helped close down Kvasničková's long break and delivered Martina Alzini to the Stage 1 sprint in Mourenx, her first win in three years and the first leader's jersey of the race. With Kristýna Burlová also in the Stage 1 top five it was a strong sprint week, though the mountains were always going to belong to others.",
+      "riderIds": []
+    },
+    {
+      "team": "VolkerWessels Cycling",
+      "verdict": "Closing stage win from the break",
+      "verdictClass": "win",
+      "narrative": "Eline Jansen salvaged the squad's race on the final day, making the decisive 10-rider breakaway to Jurançon, crashing in the closing kilometres, then remounting to win the stage ahead of Léa Curinier — a gritty result on a day the GC riders let the move go.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "paula-blasi",
+      "name": "Paula Blasi",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Blasi rode the perfect short stage race. She sat safely in the bunch through the Stage 1 sprint, then detonated the race on the Col du Tourmalet on Stage 2, attacking more than 10 km from the summit and soloing to victory in Bagnères-de-Bigorre by 1:59 — a margin that effectively ended the GC contest. She also took the climber's classification on the same ride, and controlled the final stage to Jurançon to seal the overall by 1:57. At 23 it was a headline win that anchored her early-season as a genuine GC and climbing leader for UAE Team ADQ.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 2: attacked on the Tourmalet over 10 km from the summit and soloed to the stage win and race lead" },
+        { "km": null, "what": "Won Stage 2 in 2h 42' 15\", 1:59 clear of the chase led by teammate Włodarczyk" },
+        { "km": null, "what": "Took the overall and the climber's classification; final winning time 9h 02' 21\"" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [],
+    "crashes": [
+      { "riderId": null, "name": "Eline Jansen", "stage": 3, "note": "Crashed in the closing kilometres while in the decisive breakaway, remounted and still won the stage." }
+    ]
+  },
+  "aftermath": {
+    "headline": "Blasi confirms her status as a Pyrenean climbing leader",
+    "quotes": [
+      { "rider": "Paula Blasi", "team": "UAE Team ADQ", "quote": "Last year, the Tour des Pyrénées was the first race where I really came as a leader for the general classification, and it was a very tough experience. Today, I'm here as the winner." }
+    ],
+    "body": "A year after coming to the Pyrénées as a GC leader for the first time, Blasi returned and won, doubling up with the Tourmalet stage and the climber's jersey while UAE Team ADQ locked out the top two overall. The result reads as a marker of her progression as a stage-race climber heading into the heart of the women's season."
+  },
+  "sources": [
+    { "url": "https://www.les-sports.info/cyclisme-sur-route-cic-tour-feminin-des-pyrenees-resultats-2026-epr138123.html", "publication": "Les-Sports.info", "title": "CIC-Tour Féminin des Pyrénées 2026 — Résultats (classement général)", "lang": "fr" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-feminin-des-pyrenees-paula-blasi-tames-the-tourmalet-to-take-stage-2-victory-and-commanding-overall-lead/", "publication": "Cyclingnews", "title": "Paula Blasi tames the Tourmalet to take stage 2 victory and commanding overall lead", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-feminin-des-pyrenees-paula-blasi-claims-overall-victory-as-unstoppable-breakaway-rider-eline-jansen-crashes-and-goes-on-to-take-stage-3-win/", "publication": "Cyclingnews", "title": "Paula Blasi claims overall victory as Eline Jansen crashes and takes stage 3 win", "lang": "en" },
+    { "url": "https://procyclinguk.com/tour-feminin-des-pyrenees-2026-stage-1-martina-alzini-wins-bunch-sprint-in-mourenx/", "publication": "ProCyclingUK", "title": "Tour Féminin des Pyrénées 2026 stage 1: Martina Alzini wins bunch sprint in Mourenx", "lang": "en" },
+    { "url": "https://www.welovecycling.com/wide/2026/06/15/paula-blasi-seals-tour-feminin-des-pyrenees-overall-victory/", "publication": "We Love Cycling", "title": "\"Today, I'm here as the winner:\" Paula Blasi seals Tour Féminin des Pyrénées Overall Victory", "lang": "en" },
+    { "url": "https://fr.wikipedia.org/wiki/Tour_f%C3%A9minin_des_Pyr%C3%A9n%C3%A9es_2026", "publication": "Wikipédia", "title": "Tour féminin des Pyrénées 2026", "lang": "fr" }
+  ]
+}

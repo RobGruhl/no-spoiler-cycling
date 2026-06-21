@@ -1,0 +1,50 @@
+{
+  "raceId": "tour-feminin-international-des-pyrenees-2026",
+  "stageNumber": 3,
+  "stageName": "Nay → Jurançon",
+  "stageDate": "2026-06-14",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Eline Jansen (VolkerWessels Cycling) won the closing stage in Jurançon from the day's 10-rider breakaway, crashing in the final kilometres but remounting to beat Léa Curinier (FDJ United-SUEZ), while Paula Blasi rode safely home to seal the overall.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Eline Jansen", "team": "VolkerWessels Cycling", "time": "—" },
+    { "position": 2, "riderId": null, "name": "Léa Curinier", "team": "FDJ United-SUEZ", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Breakaway group", "team": "—", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Jansen wins from the break after a late crash; Blasi takes the overall",
+    "body": "The 114.4 km final stage from Nay to Jurançon gave the attackers one last chance, and a 10-rider breakaway went up the road and stayed clear of a peloton content to let the move go with the GC settled. Eline Jansen (VolkerWessels Cycling) was the strongest of the escapees, surging in the closing kilometres.\n\nJansen crashed on her own inside the final kilometre but remounted and still had enough to win the stage ahead of Léa Curinier (FDJ United-SUEZ). Behind, Paula Blasi shepherded her near-two-minute lead safely to the line to seal the overall victory — her final winning time 9h 02' 21\", 1:57 ahead of teammate Dominika Włodarczyk and FDJ United-SUEZ's Juliette Berthet, who shared second and third on the same time."
+  },
+  "gcImpact": {
+    "headline": "Blasi seals it; UAE Team ADQ 1-2 confirmed",
+    "body": "With the breakaway no GC threat, the overall was unchanged: Paula Blasi (UAE Team ADQ) won the Tour Féminin des Pyrénées in 9h 02' 21\", Dominika Włodarczyk (UAE Team ADQ) second at 1:57 and Juliette Berthet (FDJ United-SUEZ) third at the same time. Federica Venturelli (UAE Team ADQ) took the points classification and Blasi the climber's classification. Usoa Ostolaza was the best-placed roster rider at seventh overall, 3:57 down."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paula-blasi",
+      "name": "Paula Blasi",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": null,
+      "gap": "—",
+      "narrative": "With the race already won on the Tourmalet, Blasi rode a controlled final stage from Nay to Jurançon, letting the 10-rider breakaway contest the win and bringing her lead home untouched. She sealed the overall by 1:57 and kept the climber's classification — a composed close to a dominant week.",
+      "keyMoments": [
+        { "km": null, "what": "Marked the GC group as the breakaway was allowed up the road, protecting her lead" },
+        { "km": null, "what": "Finished safely in the bunch to confirm the overall and the climber's jersey" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Eline Jansen", "note": "Crashed alone inside the final kilometre while leading the breakaway, remounted and still won the stage." }
+    ],
+    "abandons": []
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-feminin-des-pyrenees-paula-blasi-claims-overall-victory-as-unstoppable-breakaway-rider-eline-jansen-crashes-and-goes-on-to-take-stage-3-win/", "publication": "Cyclingnews", "title": "Paula Blasi claims overall victory as Eline Jansen crashes and takes stage 3 win", "lang": "en" },
+    { "url": "https://www.directvelo.com/actualite/129619/cic-tour-feminin-des-pyrenees-et-3-classements", "publication": "DirectVelo", "title": "CIC-Tour Féminin des Pyrénées - Ét. 3 : Classements", "lang": "fr" },
+    { "url": "https://www.les-sports.info/cyclisme-sur-route-cic-tour-feminin-des-pyrenees-resultats-2026-epr138123.html", "publication": "Les-Sports.info", "title": "CIC-Tour Féminin des Pyrénées 2026 — Résultats (classement général)", "lang": "fr" }
+  ]
+}

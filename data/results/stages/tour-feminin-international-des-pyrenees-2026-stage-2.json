@@ -1,0 +1,46 @@
+{
+  "raceId": "tour-feminin-international-des-pyrenees-2026",
+  "stageNumber": 2,
+  "stageName": "Arrens-Marsous → Bagnères-de-Bigorre (Col du Tourmalet)",
+  "stageDate": "2026-06-13",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "tldr": "Paula Blasi (UAE Team ADQ) attacked on the Col du Tourmalet more than 10 km from the summit and soloed to Bagnères-de-Bigorre to win the queen stage by 1:59, taking the leader's jersey and the climber's classification and effectively deciding the overall.",
+  "podium": [
+    { "position": 1, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "time": "2h 42' 15\"" },
+    { "position": 2, "riderId": null, "name": "Dominika Włodarczyk", "team": "UAE Team ADQ", "gap": "+1:59" },
+    { "position": 3, "riderId": null, "name": "Emily Dixon", "team": "—", "gap": "+1:59" }
+  ],
+  "narrative": {
+    "headline": "Blasi's Tourmalet solo wins the queen stage and the race",
+    "body": "The short mountain stage from Arrens-Marsous tackled the mighty Col du Tourmalet before a long descent and run to Bagnères-de-Bigorre — the only summit-class climbing of the race and the obvious place for the GC to be decided. Paula Blasi (UAE Team ADQ) made it count, attacking on the Tourmalet more than 10 km from the top and riding clear of the GC group.\n\nBlasi continued to gain time on the fragmented field all the way to the summit and on the descent, crossing the line solo in 2h 42' 15\". The chase group, led home by her teammate Dominika Włodarczyk, came in 1:59 down — a margin that turned the three-day race into a procession. With the stage win Blasi also took the overall lead and the climber's classification, and UAE Team ADQ moved Włodarczyk into second on GC."
+  },
+  "gcImpact": {
+    "headline": "Blasi takes a commanding lead; UAE 1-2 forms",
+    "body": "Paula Blasi seized the leader's jersey with her Tourmalet solo, opening a near-two-minute buffer on the field. Teammate Dominika Włodarczyk moved to second overall as the chase group's leader, giving UAE Team ADQ control of the top two places with only the flatter final stage to come. Blasi also added the climber's classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paula-blasi",
+      "name": "Paula Blasi",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Blasi produced the decisive ride of the race on the Tourmalet, attacking more than 10 km from the summit and never being seen again. She extended her advantage over the climb and the descent to win solo in 2h 42' 15\", 1:59 clear of a chase led by teammate Włodarczyk, simultaneously claiming the stage, the leader's jersey and the climber's classification. It was the move that won her the overall.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on the Col du Tourmalet over 10 km from the summit" },
+        { "km": null, "what": "Soloed to the line in 2h 42' 15\", 1:59 ahead of the chase" },
+        { "km": null, "what": "Took the leader's jersey and the climber's classification" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-feminin-des-pyrenees-paula-blasi-tames-the-tourmalet-to-take-stage-2-victory-and-commanding-overall-lead/", "publication": "Cyclingnews", "title": "Paula Blasi tames the Tourmalet to take stage 2 victory and commanding overall lead", "lang": "en" },
+    { "url": "https://procyclinguk.com/tour-feminin-des-pyrenees-2026-stage-2-paula-blasi-conquers-tourmalet-to-take-solo-win-and-race-lead/", "publication": "ProCyclingUK", "title": "Stage 2: Paula Blasi conquers Tourmalet to take solo win and race lead", "lang": "en" },
+    { "url": "https://www.marca.com/ciclismo/2026/06/13/paula-blasi-sigue-haciendo-historia-asalta-tourmalet-deja-sentenciado-tour-pirineos.html", "publication": "Marca", "title": "Paula Blasi asalta el Tourmalet y deja sentenciado el Tour de los Pirineos", "lang": "es" }
+  ]
+}
