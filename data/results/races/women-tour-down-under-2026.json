@@ -1,0 +1,134 @@
+{
+  "raceId": "women-tour-down-under-2026",
+  "raceName": "Santos Women's Tour Down Under",
+  "raceDate": "2026-01-17",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Noemi Rüegg (EF Education-Oatly) won the Santos Women's Tour Down Under for the second year running, outwitting a three-on-one UAE Team ADQ attack on the double ascent of Corkscrew Road to win the decisive final stage in Campbelltown and seal the overall. Ally Wollaston (FDJ United-SUEZ) lit up the first two stages with back-to-back wins and held the ochre jersey into the final day before being dropped on the climbs. Mavi Garcia and Paula Blasi completed the GC podium for UAE Team ADQ.",
+  "podium": [
+    { "position": 1, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly", "time": "10h 27m 36s" },
+    { "position": 2, "riderId": null, "name": "Margarita Victoria Garcia", "team": "UAE Team ADQ", "gap": "+0:11" },
+    { "position": 3, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+0:14" },
+    { "position": 4, "riderId": null, "name": "Dominika Wlodarczyk", "team": "UAE Team ADQ", "gap": "+0:17" },
+    { "position": 5, "riderId": "sarah-van-dam", "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike", "gap": "+0:25" },
+    { "position": 6, "riderId": null, "name": "Nina Buijsman", "team": "Human Powered Health", "gap": "+0:29" },
+    { "position": 7, "riderId": "amanda-spratt", "name": "Amanda Spratt", "team": "Lidl - Trek", "gap": "+0:29" }
+  ],
+  "narrative": {
+    "headline": "Rüegg goes back-to-back on the Corkscrew",
+    "openingMoves": "The Women's WorldTour season opened in the Adelaide Hills with three hilly stages and barely any time gaps to start with, putting a premium on bonus seconds and a strong sprint on uphill finishes. Ally Wollaston (FDJ United-SUEZ) set the tone on Stage 1 around Willunga, catching long-range attacker Alessia Vigilia (Uno-X Mobility) inside the final 300 metres on Lower Willunga Hill to take both the stage and the ochre leader's jersey ahead of Josie Nelson and Femke Gerritse.",
+    "raceUnfolds": "Stage 2 from Magill to Paracombe was raced at a ferocious tempo in extreme heat, with Visma, UAE Team ADQ and Fenix-Premier Tech all trying to force an early selection. A long solo move by Wilma Aintila was reeled in by an FDJ-led chase, and on the final climb defending champion Noemi Rüegg (EF Education-Oatly) opened the sprint first — only for Wollaston to come past her in the last metres for a second straight win, extending her overall lead with Nelson again third.",
+    "decision": "Everything came down to Stage 3's double ascent of the Category 1 Corkscrew Road between Norwood and Campbelltown. A big early break by Carina Schrempf and Mikayla Harvey held nearly six minutes before being caught as the GC teams organised. The instant the road pitched up the first time, race leader Wollaston was dropped, ending her overall hopes and blowing the GC wide open.",
+    "finale": "A small group went clear over the climbs, and on the run-in UAE Team ADQ pinned Rüegg three-against-one with Mavi Garcia, Paula Blasi and Dominika Wlodarczyk. Rüegg — nursed back to the front earlier by teammate Magdeleine Vallières — followed every attack and refused to crack. The four reached Campbelltown together and, despite the numerical disadvantage, Rüegg produced the fastest sprint 500 m out to win the stage and the overall title, with Garcia and Blasi completing both the stage and the GC podium."
+  },
+  "decisiveMoments": [
+    {
+      "stage": 1,
+      "kmFromFinish": 0,
+      "location": "Lower Willunga Hill",
+      "headline": "Wollaston catches Vigilia for the opener",
+      "description": "Ally Wollaston ran down long-range attacker Alessia Vigilia inside the final 300 metres of the uphill finish to win Stage 1 and pull on the first ochre jersey of the year."
+    },
+    {
+      "stage": 2,
+      "kmFromFinish": 0,
+      "location": "Paracombe",
+      "headline": "Wollaston goes two from two",
+      "description": "On the Paracombe finishing climb Rüegg launched first, but Wollaston came from slightly deeper to surge past in the final metres for a second consecutive stage win and a firmer grip on the lead."
+    },
+    {
+      "stage": 3,
+      "kmFromFinish": 30,
+      "location": "Corkscrew Road (first ascent)",
+      "headline": "The leader is dropped",
+      "description": "As soon as the Category 1 Corkscrew was hit for the first time, race leader Wollaston was distanced, ending her overall bid and forcing a new GC to be decided on the road."
+    },
+    {
+      "stage": 3,
+      "kmFromFinish": 0,
+      "location": "Campbelltown",
+      "headline": "Rüegg beats the UAE trio three-on-one",
+      "description": "Outnumbered by Garcia, Blasi and Wlodarczyk over the second Corkscrew and into the finish, Rüegg marked every move and out-sprinted all three from 500 m to take the stage and defend her title."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "EF Education - Oatly",
+      "verdict": "Stage 3 + overall title",
+      "verdictClass": "win",
+      "narrative": "EF rode patiently for two days, letting FDJ and UAE control the racing, then executed a near-perfect final stage. Noemi Rüegg was paced back to the front group by world champion teammate Magdeleine Vallières after a wobble on the first Corkscrew, then survived a three-on-one UAE ambush to win the decisive stage and the overall — the first back-to-back Women's Tour Down Under winner since Amanda Spratt's run ended in 2019.",
+      "riderIds": ["noemi-ruegg"]
+    },
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Two stages, jersey lost late",
+      "verdictClass": "neutral",
+      "narrative": "FDJ owned the opening two days, with Ally Wollaston winning both Stage 1 and Stage 2 from uphill sprints and Amber Kraak driving the chase to defend the ochre jersey. The plan held until the Corkscrew on the final stage, where Wollaston was dropped and the GC slipped away — but two WorldTour wins and the retained points classification made it a strong week regardless.",
+      "riderIds": ["ally-wollaston"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Two GC podiums, QOM, no win",
+      "verdictClass": "neutral",
+      "narrative": "UAE Team ADQ were the most aggressive GC outfit and put three riders in the move that decided the race, taking second (Mavi Garcia) and third (Paula Blasi) overall plus the Queen of the Mountains jersey through Blasi. But with a three-to-one numerical advantage over Rüegg into Campbelltown they failed to convert: by Blasi's own admission the riders 'misunderstood each other' inside the final 500 m and let the Swiss rider sprint clear.",
+      "riderIds": ["paula-blasi"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Van Dam fifth overall",
+      "verdictClass": "neutral",
+      "narrative": "Visma raced aggressively throughout, helping force selections on the hard middle stage, and were rewarded with Sarah Van Dam in the decisive final-stage group. Isolated against the UAE numbers on the run-in, she came home fifth overall — a solid GC marker to open the season for the Canadian.",
+      "riderIds": ["sarah-van-dam"]
+    },
+    {
+      "team": "Team Picnic PostNL",
+      "verdict": "Two stage podiums for Nelson",
+      "verdictClass": "neutral",
+      "narrative": "Josie Nelson was a consistent presence at the sharp end of the uphill sprints, finishing second on Stage 1 and third on Stage 2 behind Wollaston. Picnic PostNL came away without a win but with a fast, in-form rider near the front on both bunch-finish days.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Rüegg came in as defending champion and delivered a textbook title defence. She was beaten to the line on Stage 2 by Wollaston but kept herself perfectly placed in GC, then produced the ride of the race on Stage 3: dropped briefly and paced back by Magdeleine Vallières, she then held off a three-on-one UAE Team ADQ attack over the double Corkscrew and out-sprinted Garcia, Blasi and Wlodarczyk in Campbelltown to win the stage and the overall. It made her the first back-to-back Women's Tour Down Under winner since 2019.",
+      "keyMoments": [
+        { "stage": 2, "where": "Paracombe finish", "what": "Launched the sprint first but was passed by Wollaston for second on the stage" },
+        { "stage": 3, "where": "First Corkscrew", "what": "Distanced briefly, then nursed back to the front group by teammate Vallières" },
+        { "stage": 3, "where": "Final 500 m, Campbelltown", "what": "Out-sprinted the three UAE riders to win the stage and seal the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Wollaston opened the WorldTour season in style, winning Stage 1 by catching Alessia Vigilia inside the final 300 m and then beating Rüegg in the Stage 2 sprint at Paracombe for back-to-back wins and the ochre jersey. She defended the lead through two days with strong FDJ teamwork, but the double-Corkscrew final stage was a climb too far: she was dropped on the first ascent and lost the overall, salvaging the week with two stage wins and the retained points classification.",
+      "keyMoments": [
+        { "stage": 1, "where": "Final 300 m, Lower Willunga Hill", "what": "Caught long-range attacker Vigilia to win and take the leader's jersey" },
+        { "stage": 2, "where": "Paracombe finish", "what": "Came past Rüegg in the last metres for a second straight win" },
+        { "stage": 3, "where": "First Corkscrew ascent", "what": "Dropped as the climb began, ending her GC hopes" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Rüegg defends, UAE rue the numbers game",
+    "quotes": [
+      { "rider": "Noemi Rüegg", "team": "EF Education - Oatly", "quote": "I knew if I went into the last 500m with them then nothing can happen anymore. Every day we could execute our plan almost to perfection, today totally to perfection." },
+      { "rider": "Paula Blasi", "team": "UAE Team ADQ", "quote": "At the last 500m we misunderstood each other. We didn't communicate that well, we tried to play our cards before the finish line." }
+    ],
+    "body": "Rüegg's repeat win opened the 2026 Women's WorldTour with a statement of climbing and sprinting versatility, while UAE Team ADQ were left to dissect how a three-to-one advantage on the final climb turned into second, third and fourth overall. Wollaston's two stage wins marked her as one of the form sprinters of the early season heading into the rest of the Australian summer and the Cadel Evans Great Ocean Road Race."
+  },
+  "sources": [
+    { "url": "https://cyclingflash.com/race/santos-tour-down-under-we-2026/result/stage-3/OIC", "publication": "CyclingFlash", "title": "Santos Tour Down Under 2026 - Overall Individual Classification", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-womens-tour-down-under-2026-stage-3-noemi-ruegg-beats-uae-trio-to-win-stage-and-overall-in-campbelltown", "publication": "CyclingUpToDate", "title": "Noemi Ruegg beats UAE trio to win stage and overall in Campbelltown", "lang": "en" },
+    { "url": "https://tourdownunder.com.au/blog-articles/race-report-hyundai-women-s-stage-3-norwood-to-campbelltown", "publication": "Tour Down Under (official)", "title": "Race report: Hyundai Women's Stage 3 - Norwood to Campbelltown", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Women%27s_Tour_Down_Under", "publication": "Wikipedia", "title": "2026 Women's Tour Down Under", "lang": "en" }
+  ]
+}

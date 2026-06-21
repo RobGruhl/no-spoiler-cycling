@@ -1,0 +1,66 @@
+{
+  "raceId": "women-tour-down-under-2026",
+  "stageNumber": 3,
+  "stageName": "Norwood to Campbelltown",
+  "stageDate": "2026-01-19",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Noemi Rüegg (EF Education-Oatly) defended her Women's Tour Down Under title in dramatic fashion, surviving a three-on-one UAE Team ADQ attack over the double ascent of the Category 1 Corkscrew and out-sprinting Mavi Garcia, Paula Blasi and Dominika Wlodarczyk in Campbelltown to win both the decisive stage and the overall.",
+  "podium": [
+    { "position": 1, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly", "time": "3h 24m 02s" },
+    { "position": 2, "riderId": null, "name": "Margarita Victoria Garcia", "team": "UAE Team ADQ", "gap": "+0:01" },
+    { "position": 3, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+0:01" },
+    { "position": 4, "riderId": null, "name": "Dominika Wlodarczyk", "team": "UAE Team ADQ", "gap": "+0:02" },
+    { "position": 5, "riderId": "sarah-van-dam", "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike", "gap": "+0:12" }
+  ],
+  "narrative": {
+    "headline": "Rüegg beats the UAE trio to seal back-to-back titles",
+    "body": "The 126.5 km final stage from Norwood to Campbelltown was built around the double ascent of the Category 1 Corkscrew Road and was always going to decide the GC. Carina Schrempf and Mikayla Harvey built a big early lead — at one point almost six minutes — before the GC teams reeled them in on the approach to the climb.\n\nThe instant the road pitched up for the first time, race leader Ally Wollaston was dropped, ending her overall hopes and splitting the race apart. A select group formed over the top featuring UAE Team ADQ's Mavi Garcia and Dominika Wlodarczyk, plus Sarah Van Dam and Noemi Rüegg. On the descent and run-in, Garcia and Wlodarczyk combined to isolate Van Dam before Wlodarczyk went clear alone.\n\nWlodarczyk carried a small lead into the second Corkscrew, but Rüegg — earlier paced back to the front by world-champion teammate Magdeleine Vallières — bridged across, bringing Garcia and Blasi with her and leaving herself outnumbered three to one. UAE attacked repeatedly on the climb and descent, but Rüegg followed every move. The four reached Campbelltown together, and from 500 m out the Swiss rider produced the fastest sprint to take the stage and the title."
+  },
+  "gcImpact": {
+    "headline": "Rüegg takes the overall from Wollaston",
+    "body": "Winning the stage and its bonus seconds, Rüegg seized the ochre jersey on the final day to finish 11 seconds clear of Mavi Garcia, with Paula Blasi third overall at +0:14 and Dominika Wlodarczyk fourth at +0:17 — a UAE Team ADQ lockout of the next three places behind the champion. Sarah Van Dam was fifth at +0:25. Wollaston, dropped on the first Corkscrew, lost the lead but retained the points classification, while Blasi took the Queen of the Mountains jersey. Rüegg became the first back-to-back Women's Tour Down Under winner since Amanda Spratt in 2019."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Rüegg rode the stage of the race to defend her title. She briefly looked in trouble on the first Corkscrew before teammate Magdeleine Vallières paced her back to the front, then bridged to a UAE move on the second ascent that left her outnumbered three to one. She marked every attack from Garcia, Wlodarczyk and Blasi, took the group to the line together, and won the sprint from 500 m out to claim both the stage and the overall — back-to-back Tour Down Under crowns.",
+      "keyMoments": [
+        { "where": "First Corkscrew", "what": "Distanced briefly, then nursed back to the lead group by Vallières" },
+        { "where": "Second Corkscrew", "what": "Bridged across to the UAE move despite being outnumbered three to one" },
+        { "where": "Final 500 m, Campbelltown", "what": "Out-sprinted the three UAE riders to win the stage and seal the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "sarah-van-dam", "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 5, "gap": "+0:12",
+      "narrative": "Van Dam made the decisive front group over the first Corkscrew but was actively isolated by the UAE Team ADQ riders on the descent and run-in. Unable to follow the final selection, she came home fifth on the stage and fifth overall — a strong season-opening GC result for the Canadian.",
+      "keyMoments": [
+        { "where": "Corkscrew descent", "what": "Targeted and isolated by UAE Team ADQ before the final selection went clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "The two-time stage winner and overnight leader had no answer when the Corkscrew was hit for the first time, getting dropped immediately and losing the ochre jersey. She still salvaged the points classification from her two stage wins earlier in the week.",
+      "keyMoments": [
+        { "where": "First Corkscrew ascent", "what": "Dropped as the climb began, ending her overall hopes" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [
+    { "rider": "Noemi Rüegg", "team": "EF Education - Oatly", "quote": "I knew if I went into the last 500m with them then nothing can happen anymore. Every day we could execute our plan almost to perfection, today totally to perfection." },
+    { "rider": "Paula Blasi", "team": "UAE Team ADQ", "quote": "At the last 500m we misunderstood each other. We didn't communicate that well, we tried to play our cards before the finish line." }
+  ],
+  "sources": [
+    { "url": "https://cyclingflash.com/race/santos-tour-down-under-we-2026/result/stage-3", "publication": "CyclingFlash", "title": "Santos Tour Down Under 2026 - Results Stage 3", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/santos-tour-down-under-we-2026/result/stage-3/OIC", "publication": "CyclingFlash", "title": "Santos Tour Down Under 2026 - Overall Individual Classification", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-womens-tour-down-under-2026-stage-3-noemi-ruegg-beats-uae-trio-to-win-stage-and-overall-in-campbelltown", "publication": "CyclingUpToDate", "title": "Noemi Ruegg beats UAE trio to win stage and overall in Campbelltown", "lang": "en" },
+    { "url": "https://tourdownunder.com.au/blog-articles/race-report-hyundai-women-s-stage-3-norwood-to-campbelltown", "publication": "Tour Down Under (official)", "title": "Race report: Hyundai Women's Stage 3 - Norwood to Campbelltown", "lang": "en" }
+  ]
+}

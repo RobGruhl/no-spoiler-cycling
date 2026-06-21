@@ -1,0 +1,50 @@
+{
+  "raceId": "women-tour-down-under-2026",
+  "stageNumber": 1,
+  "stageName": "Willunga to Willunga",
+  "stageDate": "2026-01-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Ally Wollaston (FDJ United-SUEZ) opened the 2026 Women's WorldTour season by catching long-range attacker Alessia Vigilia inside the final 300 metres on Lower Willunga Hill, winning Stage 1 and taking the first ochre leader's jersey ahead of Josie Nelson and Femke Gerritse.",
+  "podium": [
+    { "position": 1, "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United - SUEZ" },
+    { "position": 2, "riderId": null, "name": "Josie Nelson", "team": "Team Picnic PostNL", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Femke Gerritse", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 4, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Wollaston runs down Vigilia on Willunga",
+    "body": "The opening stage of the Women's WorldTour season covered 137.4 km of hilly racing in and around Willunga, with the day decided on the uphill finish of Lower Willunga Hill. After a day of attacking on the rolling circuit, Alessia Vigilia (Uno-X Mobility) committed to a long-range solo bid that looked like it might stick.\n\nWollaston, the in-form New Zealander sprinting for FDJ United-SUEZ, judged the chase to perfection. She caught Vigilia inside the final 300 metres and surged clear to win the stage, with Josie Nelson (Picnic PostNL) second and Femke Gerritse (SD Worx - Protime) third, defending champion Noemi Rüegg just behind in fourth.\n\nThe win handed Wollaston the first ochre leader's jersey of the year along with the points lead, setting up FDJ to control the race from the front."
+  },
+  "gcImpact": {
+    "headline": "Wollaston into ochre on day one",
+    "body": "With the front group given the same time, Wollaston took the overall lead courtesy of the stage win and its bonus seconds. Nelson, Gerritse and Rüegg sat right behind on the same time, leaving the GC tightly bunched and to be settled by bonuses and the final climbing stage."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Wollaston timed the season opener perfectly, holding her effort until the Lower Willunga Hill finish where she ran down the long-range attacker Vigilia inside the last 300 m. The win gave her both the stage and the first ochre jersey of 2026, an emphatic statement of early-season sprint form.",
+      "keyMoments": [
+        { "where": "Final 300 m, Lower Willunga Hill", "what": "Caught solo attacker Alessia Vigilia and surged to the win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education - Oatly",
+      "role": "leader", "position": 4, "gap": "s.t.",
+      "narrative": "The defending champion stayed safely in the lead group on the uphill finish, taking fourth on the same time as the winner. It was a low-key, controlled opener that kept her right in GC contention for the stages to come.",
+      "keyMoments": [
+        { "where": "Lower Willunga Hill finish", "what": "Finished fourth in the front group, same time as the winner" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclingflash.com/race/santos-tour-down-under-we-2026/result/stage-1/OPC", "publication": "CyclingFlash", "title": "Santos Tour Down Under 2026 - Results Stage 1", "lang": "en" },
+    { "url": "https://veloracycling.com/races/santos-tour-down-under-women-2026/result/ally-wollaston-wins-tour-down-under-stage-1-2026", "publication": "Velora Cycling", "title": "Ally Wollaston catches solo breakaway to claim Tour Down Under Stage 1", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/womens-tour-down-under-stage-1-live-sprinters-to-make-their-mark-on-opening-day-in-willunga/", "publication": "Cyclingnews", "title": "New Zealander sprints into leader's jersey on stage 1 of Women's Tour Down Under", "lang": "en" }
+  ]
+}
