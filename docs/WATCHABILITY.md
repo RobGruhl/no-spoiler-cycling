@@ -34,7 +34,9 @@ and then applies modifiers.
 
 | Modifier | Δ | Notes |
 |---|---|---|
-| Novelty / upset (un-notable winner, surprise) | **+15** | *blended only — never shown alone* |
+| Novelty / upset (un-notable winner, surprise, maiden Monument) | **+15** | *blended only — never shown alone* |
+| Beloved / emotional win (dedication, tribute, fairy-tale, "finally") | **+8** | *blended only* — "everyone loved that they got it" |
+| Long-range move (winning move went from far out) | +8 | the "from 100 km is fun" principle; skipped for long-solo (already in base) |
 | Expected favourite in a routine sprint/short solo | −8 | |
 | Photo finish (same time, sprint/2-up) | +8 | |
 | Ultra-close (≤3 s, non-solo) | +5 | |
@@ -43,6 +45,10 @@ and then applies modifiers.
 | GC carnage (stage races) | +8 | |
 | Hard parcours (cobbles/gravel/walls), one-day | +4 | |
 | Processional / uneventful | −12 | |
+
+Archetype detection checks two-up / duel **before** solo (a 60 km duel is the story
+even if the winner "rode away" at the end). "Worth watching" attaches to each
+**watchable unit**: a one-day race, or an individual stage — never a stage-race average.
 
 ## Spoiler safety (the whole point)
 
