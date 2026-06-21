@@ -1,0 +1,105 @@
+{
+  "raceId": "scheldeprijs-2026",
+  "raceName": "Scheldeprijs",
+  "raceDate": "2026-04-08",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Tim Merlier (Soudal Quick-Step) completed a hat-trick of consecutive Scheldeprijs wins, surging out of the wheels to take a reduced bunch sprint in Schoten after a crash-strewn final 10 km thinned the field. Pavel Bittner was second for Picnic PostNL and Emilien Jeannière third for TotalEnergies.",
+  "podium": [
+    { "position": 1, "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "4h 25m 01s" },
+    { "position": 2, "riderId": null, "name": "Pavel Bittner", "team": "Team Picnic PostNL", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Emilien Jeannière", "team": "TotalEnergies", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Dušan Rajović", "team": "Solution Tech NIPPO Rali", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Žak Eržen", "team": "Bahrain - Victorious", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Hugo Hofstetter", "team": "NSN Cycling Team", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "David Dekker", "team": "BEAT CC p/b Saxo", "gap": "s.t." },
+    { "position": 8, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Steffen De Schuyteneer", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Tom Crabbe", "team": "Team Flanders - Baloise", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Merlier makes it three in a row after late crashes carve up the Schoten sprint",
+    "openingMoves": "205.2 km from Terneuzen in the Netherlands to Schoten in Belgium, the flattest day on the cobbled-classics calendar. A six-rider break of Robin Carpenter, Đorđe Đurić, Bram Dissel, Joost Nat, Jelle Harteel and Jonah Killy got up the road early, but the sprinters' teams never let it run free.",
+    "raceUnfolds": "With almost no wind to splinter the bunch, Soudal Quick-Step, Unibet Rose Rockets and Picnic PostNL took turns dictating the tempo across the flat run toward Schoten. On the finishing circuit the break was whittled to Carpenter, Dissel and Killy, but their lead never stretched past about thirty seconds and the trio was reeled in just inside the final four kilometres.",
+    "decision": "What looked like a routine bunch gallop was reshaped by a string of crashes inside the last 10 km. Dylan Groenewegen and Phil Bauhaus were taken out of contention in one incident; Milan Fretin and Milan Menten were delayed in another moments later. A reduced front group of the survivors — Merlier, Philipsen, Meeus and Bittner among them — pressed on into the finale.",
+    "finale": "Inside the final kilometre Alpecin briefly massed at the front for Philipsen while Jordi Meeus opened his sprint from further back. Merlier sat patiently in the wheels, then unleashed a trademark surge to come past everyone and win clearly, sealing a third straight Scheldeprijs. Bittner took second, Jeannière third, and Philipsen could manage only eighth out of the chaos."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 4, "location": "Schoten finishing circuit", "headline": "Last of the break caught", "description": "The remnants of the day's break — Carpenter, Dissel and Killy — were absorbed just inside 4 km to go, handing full control to the sprinters' lead-out trains." },
+    { "kmFromFinish": 8, "location": "Run-in to Schoten", "headline": "Crashes thin the sprint field", "description": "A series of crashes inside the final 10 km fractured the peloton. Dylan Groenewegen and Phil Bauhaus were eliminated from contention in one pile-up; Milan Fretin and Milan Menten were caught behind in a second incident, leaving a reduced group to contest the win." },
+    { "kmFromFinish": 0.2, "location": "Schoten finish straight", "headline": "Merlier comes from the wheels", "description": "With Alpecin setting up Philipsen and Meeus launching early, Merlier held his position before powering past the lot in the closing 200 metres for a decisive win." }
+  ],
+  "teamStories": [
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Merlier's Scheldeprijs hat-trick",
+      "verdictClass": "win",
+      "narrative": "Soudal Quick-Step rode Scheldeprijs exactly the way it suits Merlier: control the tempo all day on the flat, keep him out of trouble through the crash-hit finale, and trust his sprint to settle it from the wheels. Merlier obliged with a third straight win in Schoten — confirmation that on a pure, flat sprint this is his race more than anyone's.",
+      "riderIds": ["tim-merlier"]
+    },
+    {
+      "team": "Team Picnic PostNL",
+      "verdict": "Bittner second after helping set the tempo",
+      "verdictClass": "neutral",
+      "narrative": "Picnic PostNL spent the day among the teams driving the chase on the flat to Schoten, and 23-year-old Pavel Bittner repaid the work with a strong second place — beaten only by Merlier and a clear best of the rest in the reduced bunch.",
+      "riderIds": []
+    },
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Philipsen eighth, lead-out came up short",
+      "verdictClass": "loss",
+      "narrative": "Alpecin massed at the front in the final kilometre to deliver Jasper Philipsen, but he had to settle for eighth as Merlier came over the top from the wheels. A flat day that should have suited Philipsen's sprint instead slipped away in the crash-disrupted, scrappy finale.",
+      "riderIds": ["jasper-philipsen"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step",
+      "role": "leader", "position": 1, "gap": "4h 25m 01s",
+      "narrative": "Stayed perfectly positioned and out of trouble through the late crashes that wrecked the sprint, then waited in the wheels in the final kilometre while Alpecin set up Philipsen and Meeus went early. His surge in the last 200 metres carried him clear for a third consecutive Scheldeprijs — underlining that on a flat, pure-sprint finish he is the strongest in the world right now.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Surged from the wheels past Meeus and Philipsen to win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech",
+      "role": "sprinter", "position": 8, "gap": "s.t.",
+      "narrative": "Alpecin moved to the front inside the final kilometre to launch him, but Philipsen couldn't hold off Merlier and faded to eighth in the reduced bunch. A flat finish that nominally suited him, undone by the crash-hit, chaotic run-in.",
+      "keyMoments": [
+        { "km": 1, "what": "Alpecin set up the lead-out at the front" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "sprinter", "position": null, "gap": "in front group",
+      "narrative": "Came through the late crashes safely and was launched into his sprint from slightly further back than the front lead-out trains. Opened early but couldn't match Merlier's late surge, finishing outside the top placings.",
+      "keyMoments": [
+        { "km": 0.3, "what": "Launched his sprint from further back in the reduced bunch" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Dylan Groenewegen", "reason": "Caught in a crash inside the final 10 km, taken out of contention" },
+      { "riderId": null, "name": "Phil Bauhaus", "reason": "Caught in the same late crash, taken out of contention" },
+      { "riderId": null, "name": "Milan Fretin", "reason": "Delayed in a second crash in the finale" },
+      { "riderId": null, "name": "Milan Menten", "reason": "Delayed in a second crash in the finale" }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A third straight Scheldeprijs cements Merlier's grip on the pure-sprint classic",
+    "quotes": [],
+    "body": "Scheldeprijs again proved the truest sprinters' test on the spring calendar, and again it belonged to Tim Merlier. With three consecutive wins he now stands among the race's most dominant modern champions, and the result reaffirmed his standing as the fastest finisher in the classics bunch ahead of the cobbled and grand-tour sprint battles to come. For Philipsen, eighth on a day built for him was a reminder of how much late-race chaos can scramble a flat finish."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/scheldeprijs/2026/result", "publication": "ProCyclingStats", "title": "Scheldeprijs 2026 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-scheldeprijs-2026-tim-merlier-completes-hat-trick-after-late-crashes-strip-back-sprint-field-in-schoten", "publication": "CyclingUpToDate", "title": "Results Scheldeprijs 2026 | Tim Merlier completes hat-trick after late crashes strip back sprint field in Schoten", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/scheldeprijs/2026/race-results/", "publication": "Domestique Cycling", "title": "Race results - Scheldeprijs 2026", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Scheldeprijs", "publication": "Wikipedia", "title": "2026 Scheldeprijs", "lang": "en" }
+  ]
+}
