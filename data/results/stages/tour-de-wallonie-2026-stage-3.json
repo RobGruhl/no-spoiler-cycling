@@ -1,0 +1,42 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "stageNumber": 3,
+  "stageName": "Habay → Vaux-sur-Sûre",
+  "stageDate": "2026-06-03",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "A mass crash inside the final 2 km tore the peloton apart, and Laurence Pithie sprinted clear of the survivors for Red Bull - BORA - hansgrohe to win in Vaux-sur-Sûre on a slight uphill drag to the line.",
+  "podium": [
+    { "position": 1, "name": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe", "time": "4h 06m 30s" },
+    { "position": 2, "name": "Kim Heiduk", "team": "Netcompany INEOS", "gap": "s.t." },
+    { "position": 3, "name": "Krists Neilands", "team": "NSN Cycling Team", "gap": "+0:07" }
+  ],
+  "narrative": {
+    "headline": "Pithie wins a crash-shattered sprint",
+    "body": "Stage 3 from Habay to Vaux-sur-Sûre (176.9 km) was a mostly flat day pointed at the sprinters and puncheurs, with a slight rise to the line making for a tricky finish. The day's breakaway — Jonah Killy, George Wood, Álvaro Sagrado, Filippo Conca, Jarno Bellens and Senne Thonnon — never threatened and was reeled in just outside the final 10 km. With every team saving its cards for a bunch sprint, a crash just outside the final kilometre split the peloton completely, leaving only a handful of riders at the front. Red Bull - BORA - hansgrohe had numbers there: Jordi Meeus and Danny van Poppel drove the lead-out and Laurence Pithie sprinted to victory, beating INEOS's Kim Heiduk to the line with Krists Neilands (NSN) third. All three picked up valuable bonus seconds for the overall."
+  },
+  "gcImpact": {
+    "headline": "Heiduk moves into the lead as the GC tightens",
+    "body": "The crash and the bonus seconds reshuffled a GC already separated by only a few seconds. Kim Heiduk took over the race lead heading into stage 4, holding a three-second margin over Jordi Meeus, Ben Oliver and Laurence Pithie — leaving the overall poised for the bonus-second skirmishes of the final two days."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "helper", "position": null, "gap": null,
+      "narrative": "Rather than chasing the win himself, Meeus turned lead-out man, working with Danny van Poppel to deliver Laurence Pithie through the chaos of the crash-split finale. It was a selfless ride from the stage-1 winner that kept Red Bull - BORA - hansgrohe at the front of both the stage and the GC, with Meeus himself still inside three seconds of the new race leader.",
+      "keyMoments": [
+        { "km": 1, "what": "Drove the Red Bull lead-out alongside van Poppel after a crash inside the final km split the bunch" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [ { "riderId": null, "description": "A mass crash just outside the final kilometre brought down much of the peloton, splitting the bunch and leaving only a small front group to contest the sprint." } ],
+    "abandons": []
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-3-laurence-pithie-sprints-to-win-as-mass-crash-takes-down-entire-peloton", "publication": "CyclingUpToDate", "title": "Laurence Pithie sprints to win as mass crash takes down entire peloton", "lang": "en" }
+  ]
+}

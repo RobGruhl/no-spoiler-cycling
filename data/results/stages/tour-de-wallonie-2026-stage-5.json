@@ -1,0 +1,43 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "stageNumber": 5,
+  "stageName": "Bassenge → Aubel",
+  "stageDate": "2026-06-05",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Ben Oliver completed a stunning double, winning the Ardennes finale in Aubel ahead of Killian Théot and Arnaud De Lie to seal the overall title for Modern Adventure Pro Cycling by two seconds.",
+  "podium": [
+    { "position": 1, "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling", "time": "4h 08m 44s" },
+    { "position": 2, "name": "Killian Théot", "team": "Van Rysel Roubaix", "gap": "s.t." },
+    { "position": 3, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Oliver seals the title with a final-day double",
+    "body": "The 176.5 km closing stage from Bassenge to Aubel served up an Ardennes feast, taking in the legendary Côte de la Redoute — the decisive climb of Liège-Bastogne-Liège — at mid-distance before a tough finishing circuit around Aubel, crossing the line twice in the final 70 km. With Ben Oliver, Riley Sheehan, Arnaud De Lie and Laurence Pithie separated by just ten seconds, every bonus second mattered. The peloton drove a brutal pace, holding an eleven-rider break in check and trimming the bunch to around 40 with 85 km left. A bonus sprint with 35 km to go saw Sheehan take three seconds and Pithie two in the GC tug-of-war. Late attacks from Pim Ronhaar and Álvaro Sagrado, then Natnael Tesfatsion inside 3 km, were all controlled, with Adrien Boichis driving the pace for Red Bull. Liam Slock set up De Lie inside the final kilometre, but it was Oliver who came around the Belgian with 50 m to go, throwing his arms up ahead of Killian Théot to claim both the stage and the overall."
+  },
+  "gcImpact": {
+    "headline": "Oliver wins the Tour de Wallonie by two seconds",
+    "body": "Oliver's stage win plus the ten-second bonus sealed the general classification for the New Zealander and Modern Adventure Pro Cycling. Riley Sheehan (NSN Cycling Team) took second overall at two seconds, having led the race earlier in the week, with Arnaud De Lie (Lotto Intermarché) completing the podium at five seconds. Oliver, who also won stage 2 and led from there with one interruption, capped the week with the points classification as well."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "stage-hunter", "position": 3, "gap": "s.t.",
+      "narrative": "A day after his emotional Eupen win, De Lie went for the double and the GC heist on the Aubel circuit. Liam Slock launched him inside the final kilometre, but Oliver came around him with 50 m to go, leaving De Lie third on the stage and third overall at five seconds. It was a strong week from the Belgian — a stage win and a home GC podium — even if the title narrowly eluded him.",
+      "keyMoments": [
+        { "km": 1, "what": "Liam Slock launched the Lotto Intermarché lead-out, but Oliver came over De Lie inside the final 50 m" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [ { "riderId": null, "description": "A late crash occurred in the closing kilometres of the Aubel finale." } ],
+    "abandons": []
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/stage-5/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 Stage 5 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-5-ben-oliver-takes-sensational-stage-victory-to-seal-general-classification-win", "publication": "CyclingUpToDate", "title": "Ben Oliver takes sensational stage victory to seal GC win", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-wallonie-ben-oliver-outpaces-arnaud-de-lie-to-win-closing-stage-and-snatch-overall-title/", "publication": "Cyclingnews", "title": "Ben Oliver outpaces Arnaud De Lie to win closing stage and snatch overall title", "lang": "en" }
+  ]
+}

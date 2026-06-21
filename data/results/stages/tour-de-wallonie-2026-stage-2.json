@@ -1,0 +1,37 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "stageNumber": 2,
+  "stageName": "Jodoigne → Libramont-Chevigny",
+  "stageDate": "2026-06-02",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Ben Oliver stunned the sprint favourites in a rain-hit finale in Libramont-Chevigny, handing George Hincapie's Modern Adventure Pro Cycling its first European win and moving the New Zealander into the overall lead.",
+  "podium": [
+    { "position": 1, "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling", "time": "4h 39m 28s" },
+    { "position": 2, "name": "Yorben Lauryssen", "team": "Tarteletto - Isorex", "gap": "+0:04" },
+    { "position": 3, "name": "Riley Sheehan", "team": "NSN Cycling Team", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Oliver stuns the sprinters in the rain",
+    "body": "A 192.1 km route from Jodoigne to Libramont-Chevigny ended in a rain-hit finale that scrambled the expected sprint. A six-rider break (Asbjørn Hellemose, Anton Lennemann, Matteo Melotte, Matthew Kingston, Iben Rommelaere and Kevin Avoine) went clear early, with Hellemose mopping up intermediate bonus seconds in Rochefort and Wideumont-Village to briefly lead the race on the road. The escape was reeled in, but the wet, attacking finale split the favourites' plans. Ben Oliver came out on top against a field that included stage-1 winner Jordi Meeus and Arnaud De Lie, delivering the biggest result in the short history of George Hincapie's American Modern Adventure Pro Cycling team — its first win in Europe and its first at 2.Pro level. Yorben Lauryssen (Tarteletto - Isorex) and Riley Sheehan (NSN Cycling Team) followed at four and six seconds."
+  },
+  "gcImpact": {
+    "headline": "Oliver takes the lead from Meeus",
+    "body": "Oliver's stage win and time bonuses lifted him past Jordi Meeus into the overall lead. The GC remained tightly bunched within seconds at the top, with the bonus-second battle and reduced-bunch finishes set to decide the race over the closing three days."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 5, "gap": "s.t.",
+      "narrative": "Defending the leader's jersey he had won on stage 1, Meeus was back in the mix in the rain-hit Libramont-Chevigny finale but couldn't match Oliver's late move, finishing fifth on the stage same time as the lead group. He surrendered the overall lead to Oliver but stayed in close contention near the top of a GC separated by only a handful of seconds.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-2-george-hincapies-modern-adventure-team-land-biggest-win-yet-as-ben-oliver-stuns-sprint-favourites", "publication": "CyclingUpToDate", "title": "Modern Adventure land biggest win yet as Ben Oliver stuns sprint favourites", "lang": "en" }
+  ]
+}

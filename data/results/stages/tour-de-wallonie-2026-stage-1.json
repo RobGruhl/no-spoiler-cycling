@@ -1,0 +1,40 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "stageNumber": 1,
+  "stageName": "Manage → Lobbes",
+  "stageDate": "2026-06-01",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Jordi Meeus survived repeated ascents of the cobbled Thuin wall to win a reduced bunch sprint in Lobbes, taking Red Bull - BORA - hansgrohe's stage and the first leader's jersey on the opening day of the Tour de Wallonie.",
+  "podium": [
+    { "position": 1, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "time": "4h 13m 32s" },
+    { "position": 2, "name": "Anders Foldager", "team": "Team Jayco AlUla", "gap": "+0:03" },
+    { "position": 3, "name": "Kim Heiduk", "team": "Netcompany INEOS", "gap": "+0:03" }
+  ],
+  "narrative": {
+    "headline": "Meeus masters the Thuin wall to open in yellow",
+    "body": "The 47th Tour de Wallonie opened a day after the Giro d'Italia finished, with a punchy 180.7 km from Manage to Lobbes built around repeated ascents of the short, cobbled Thuin wall (0.3 km at 8.7%). The repeated efforts shredded the bunch, but the fast finishers who could climb survived to contest a reduced sprint into Lobbes. Jordi Meeus — a headline name in the transfer market, with reports linking him to Lidl-Trek for 2027 — coped smoothly with the cumulative wear and finished off Red Bull - BORA - hansgrohe's lead-out to take the win. Anders Foldager (Jayco AlUla) and Kim Heiduk (Netcompany INEOS) completed the podium at three seconds, both clipped by the time gaps the climb opened up. Meeus took the first overall lead, extending a strong run after his recent win at the Four Days of Dunkirk."
+  },
+  "gcImpact": {
+    "headline": "Meeus into the first leader's jersey",
+    "body": "Stage win plus time bonuses put Jordi Meeus into the overall lead on day one. With the Thuin wall splitting the field, the GC was already condensed to a handful of seconds at the front, setting up a bonus-second battle over the remaining four punchy stages."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "4h 13m 32s",
+      "narrative": "Meeus delivered exactly the kind of result that has made him one of the peloton's most dependable hard-route finishers, handling the repeated cobbled Thuin ascents and then winning the reduced sprint in Lobbes. It was a continuation of his strong spring form after the Four Days of Dunkirk, and it put him into the leader's jersey on the opening day. The win came amid heavy transfer-market chatter linking him to Lidl-Trek as a lead-out and finisher for 2027.",
+      "keyMoments": [
+        { "km": null, "what": "Survived multiple ascents of the cobbled Thuin wall (0.3 km at 8.7%) that reduced the bunch" },
+        { "km": 0, "what": "Won the reduced bunch sprint in Lobbes ahead of Foldager and Heiduk" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-1-jordi-meeus-takes-big-win-while-in-the-transfer-market-spotlight", "publication": "CyclingUpToDate", "title": "Jordi Meeus takes big win while in the transfer-market spotlight", "lang": "en" }
+  ]
+}

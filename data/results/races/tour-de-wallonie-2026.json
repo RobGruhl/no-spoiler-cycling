@@ -1,0 +1,106 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "raceName": "Tour de Wallonie",
+  "raceDate": "2026-06-01",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "New Zealander Ben Oliver pulled off the surprise of the week, winning the 47th Ethias-Tour de Wallonie overall by just two seconds for George Hincapie's American Modern Adventure Pro Cycling. Oliver took stage 2 and a stunning final-day double in Aubel, holding off former leader Riley Sheehan (NSN) and home favourite Arnaud De Lie (Lotto Intermarché), who completed the podium at five seconds. The five hilly stages were decided almost entirely by bonus seconds, with no day separating the GC contenders by more than a handful of ticks.",
+  "podium": [
+    { "position": 1, "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling", "time": "21h 15m 51s" },
+    { "position": 2, "name": "Riley Sheehan", "team": "NSN Cycling Team", "gap": "+0:02" },
+    { "position": 3, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "+0:05" }
+  ],
+  "jerseys": {
+    "gc": { "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling" },
+    "points": { "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling" },
+    "mountains": { "name": "George Wood", "team": "Mg.K Vis Costruzioni e Ambiente" },
+    "youth": { "name": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe" }
+  },
+  "narrative": {
+    "headline": "Oliver's two-second heist crowns a bonus-seconds thriller",
+    "openingMoves": "The 47th Tour de Wallonie opened a day after the Giro d'Italia, with five punchy, hilly stages and no summit finishes — a race built for puncheurs and fast finishers, and one always likely to be decided on time bonuses. Jordi Meeus (Red Bull - BORA - hansgrohe) drew first blood on stage 1, surviving repeated ascents of the cobbled Thuin wall to win the reduced sprint in Lobbes and take the first leader's jersey.",
+    "raceUnfolds": "Stage 2 to Libramont-Chevigny delivered the race's defining surprise: in a rain-hit finale, Ben Oliver beat the sprint favourites to give George Hincapie's Modern Adventure Pro Cycling its first-ever European win and move into the overall lead. Stage 3 to Vaux-sur-Sûre was thrown into chaos by a mass crash inside the final kilometre, from which Laurence Pithie sprinted clear for Red Bull off a Meeus–van Poppel lead-out; Kim Heiduk (Netcompany INEOS) took over the race lead with the GC condensed to three seconds. On stage 4 in Eupen, Arnaud De Lie launched inside the final 500 m to deny Riley Sheehan a thrilling home win.",
+    "decision": "With Oliver, Sheehan, De Lie and Pithie all within ten seconds going into the final stage, the title came down to the Ardennes finale to Aubel. Over the Côte de la Redoute and a hard finishing circuit, the bonus sprints and the line itself were everything.",
+    "finale": "Liam Slock launched De Lie inside the last kilometre in Aubel, but Oliver came around the Belgian with 50 m to go to win the stage and seal the overall. The double — stage win plus the ten-second bonus — gave Oliver the title by two seconds over Sheehan, with De Lie third at five. Oliver also took the points classification; George Wood won the mountains jersey and Pithie the young-rider classification."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 2 — Libramont-Chevigny", "headline": "Oliver stuns the sprinters in the rain", "description": "Ben Oliver beat Meeus and De Lie in a rain-hit finale for Modern Adventure Pro Cycling's first European win, taking the overall lead." },
+    { "kmFromFinish": 1, "location": "Stage 3 — Vaux-sur-Sûre", "headline": "Mass crash splits the peloton", "description": "A crash just outside the final kilometre shattered the bunch; Pithie won the reduced sprint and Heiduk inherited the race lead with the GC inside three seconds." },
+    { "kmFromFinish": 0.5, "location": "Stage 4 — Eupen", "headline": "De Lie's 500 m kick", "description": "De Lie launched inside the final 500 m to overhaul Sheehan for an emotional home win and a haul of GC bonus seconds." },
+    { "kmFromFinish": 0.05, "location": "Stage 5 — Aubel", "headline": "Oliver seals it at 50 m", "description": "Oliver came around De Lie with 50 m to go on the Aubel circuit, winning the stage and the Tour de Wallonie by two seconds." }
+  ],
+  "teamStories": [
+    {
+      "team": "Modern Adventure Pro Cycling",
+      "verdict": "Overall + points + 2 stages",
+      "verdictClass": "win",
+      "narrative": "The week of George Hincapie's American Continental project. Ben Oliver's stage 2 win in the Libramont-Chevigny rain was the team's first European victory and its biggest result by some distance, and from there he raced a tactically perfect bonus-seconds campaign. The final-day double in Aubel sealed the overall by two seconds and the points classification too — a landmark result for a squad targeting an American revival and one of the standout giant-killing performances of the season.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Stage 4 win + GC podium",
+      "verdictClass": "win",
+      "narrative": "Lotto Intermarché backed Arnaud De Lie and were rewarded with a thrilling home stage win in Eupen and a GC podium. De Lie chased the win all week, timed his stage-4 sprint perfectly, then went for the double-and-heist in Aubel with Liam Slock launching him inside the final kilometre — only to be edged by Oliver at the line. Third overall at five seconds and a stage on Belgian roads made it a strong, if narrowly bittersweet, week.",
+      "riderIds": ["arnaud-de-lie"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Two stages, no GC reward",
+      "verdictClass": "neutral",
+      "narrative": "Red Bull were the busiest team of the week, winning two stages from two different riders. Jordi Meeus opened with the stage 1 win and first leader's jersey, then turned lead-out man on stage 3 — combining with Danny van Poppel to deliver Laurence Pithie through a crash-split finale for a second stage win. Pithie also took the young-rider classification. But with the GC settled on bonus seconds at the line, the squad couldn't convert its firepower into the overall.",
+      "riderIds": ["jordi-meeus"]
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "2nd overall by 2 seconds",
+      "verdictClass": "neutral",
+      "narrative": "The Latvian-registered NSN Cycling Team punched well above its weight, with Riley Sheehan animating the finales all week, leading the race at one point and finishing second overall by just two seconds. Sheehan was denied a stage win by De Lie in Eupen and scrapped for every bonus second to the final day, while Krists Neilands added a podium on stage 3. A near-miss for the GC, but a hugely encouraging week for the ProTeam.",
+      "riderIds": []
+    },
+    {
+      "team": "Netcompany INEOS",
+      "verdict": "Wore the leader's jersey",
+      "verdictClass": "neutral",
+      "narrative": "Kim Heiduk was a fixture at the front, taking podiums on stages 1 and 3 and holding the race lead into stage 4 before the bonus-seconds battle slipped away. Netcompany INEOS were consistently in the mix on the punchy finishes without quite landing a stage or the overall.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "leader", "position": 3, "gap": "+0:05",
+      "narrative": "De Lie was Lotto Intermarché's protected card all week and delivered the win he wanted on stage 4 in Eupen, kicking inside the final 500 m to deny Riley Sheehan. He went for the GC heist on the final day too, with Liam Slock launching him inside the last kilometre in Aubel, but Oliver came around him with 50 m to go. A stage win and third overall at five seconds on home Belgian roads made it a strong week, even with the title narrowly out of reach.",
+      "keyMoments": [
+        { "km": null, "what": "Won stage 4 in Eupen with a kick inside the final 500 m" },
+        { "km": null, "what": "Third on stage 5 and third overall after Oliver edged him in Aubel" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter", "position": null, "gap": null,
+      "narrative": "Meeus opened the race with the stage 1 win on the cobbled Thuin wall and the first leader's jersey, confirming strong form after the Four Days of Dunkirk amid transfer-market talk of a 2027 move to Lidl-Trek. He lost the lead to Oliver on stage 2, then selflessly switched to lead-out duty on stage 3, helping deliver Laurence Pithie to a second Red Bull win. A stage victory and a productive supporting role, even without a GC reward.",
+      "keyMoments": [
+        { "km": null, "what": "Won stage 1 in Lobbes and took the first leader's jersey" },
+        { "km": null, "what": "Led out Pithie on stage 3 for a second Red Bull stage win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [ { "riderId": null, "description": "A mass crash just outside the final kilometre of stage 3 brought down much of the peloton in the run to Vaux-sur-Sûre." } ],
+    "abandons": []
+  },
+  "aftermath": {
+    "headline": "A giant-killing week on the Walloon roads",
+    "quotes": [],
+    "body": "The 2026 Tour de Wallonie will be remembered as Ben Oliver's breakthrough and Modern Adventure Pro Cycling's arrival on the European stage. Across five hilly days with no summit finishes, the race was a bonus-seconds chess match in which a Continental team out-thought and out-sprinted a field full of WorldTour and ProTeam firepower. For the home crowd, Arnaud De Lie's stage win and podium provided the Belgian highlight, while Red Bull's two stage wins and Riley Sheehan's two-second runner-up underlined how little separated the contenders all week."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 final GC", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-wallonie-ben-oliver-outpaces-arnaud-de-lie-to-win-closing-stage-and-snatch-overall-title/", "publication": "Cyclingnews", "title": "Ben Oliver snatches overall title; Sheehan 2nd by two seconds, De Lie third at five", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-5-ben-oliver-takes-sensational-stage-victory-to-seal-general-classification-win", "publication": "CyclingUpToDate", "title": "Ben Oliver takes sensational stage victory to seal GC win", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_de_Wallonie", "publication": "Wikipedia", "title": "2026 Tour de Wallonie", "lang": "en" }
+  ]
+}

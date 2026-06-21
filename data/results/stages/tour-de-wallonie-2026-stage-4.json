@@ -1,0 +1,44 @@
+{
+  "raceId": "tour-de-wallonie-2026",
+  "stageNumber": 4,
+  "stageName": "Dison → Eupen",
+  "stageDate": "2026-06-04",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Arnaud De Lie launched inside the final 500 m to overhaul Riley Sheehan and win a thrilling stage 4 in Eupen for Lotto Intermarché, his first victory of the race after a fast, attacking finale.",
+  "podium": [
+    { "position": 1, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "time": "4h 07m 57s" },
+    { "position": 2, "name": "Riley Sheehan", "team": "NSN Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Ben Oliver", "team": "Modern Adventure Pro Cycling", "gap": "+0:04" }
+  ],
+  "narrative": {
+    "headline": "De Lie denies Sheehan with a 500 m kick",
+    "body": "The 166.7 km stage from Dison to Eupen began with an eight-rider break — Samuel Flórez, Pim Ronhaar, Kristians Belohvosciks, Anton Lennemann, Théo Demarcin, George Wood, Jonah Killy and Robin Kull — that splintered after halfway before being caught with 23 km to go. Kim Heiduk had started the day in the race lead, three seconds up on Jordi Meeus, Ben Oliver and Laurence Pithie, with the GC still wafer-thin. Jordi Meeus flatted before the catch but chased back. Riley Sheehan (NSN) attacked inside the final 6 km and led into the closing stages, with Pithie also active from 4 km out, but Arnaud De Lie timed his sprint perfectly, launching inside the last 500 m to come over Sheehan in the final straight. Ben Oliver took third at four seconds, protecting his GC position. It was an emotional, hard-fought win for the Belgian on home roads."
+  },
+  "gcImpact": {
+    "headline": "GC still decided by bonus seconds going into the finale",
+    "body": "De Lie's stage win and Oliver's third place kept the overall razor-thin heading into the decisive final day. Ben Oliver, Riley Sheehan, Arnaud De Lie and Laurence Pithie were all separated by roughly ten seconds, leaving the Aubel finale — and its bonus sprints — to settle the title."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "stage-hunter", "position": 1, "gap": "4h 07m 57s",
+      "narrative": "De Lie produced the win he had been chasing all week, holding back through a fast, attacking finale and then unleashing his sprint inside the final 500 m to overhaul Riley Sheehan, who had jumped inside the last 6 km. The thrilling last-gasp victory on home roads in Eupen was an emotional moment for the Belgian and moved him firmly into overall contention with the bonus seconds it carried, setting up his pursuit of the GC podium on the final stage.",
+      "keyMoments": [
+        { "km": 0.5, "what": "Launched his sprint inside the final 500 m to come over Sheehan in the closing straight" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [ { "riderId": "jordi-meeus", "description": "Jordi Meeus suffered a flat tyre before the breakaway was caught but returned to the peloton, keeping Red Bull - BORA - hansgrohe represented near the top of the GC." } ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-wallonie/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Tour de Wallonie 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-wallonie-2026-stage-4-arnaud-de-lie-denies-riley-sheehan-in-eupen-as-belgian-powers-to-thrilling-last-gasp-victory", "publication": "CyclingUpToDate", "title": "Arnaud De Lie denies Riley Sheehan in Eupen as Belgian powers to thrilling last-gasp victory", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-wallonie-relief-for-arnaud-de-lie-with-hard-fought-victory-on-stage-4/", "publication": "Cyclingnews", "title": "Relief for Arnaud De Lie with hard-fought victory on stage 4", "lang": "en" }
+  ]
+}
