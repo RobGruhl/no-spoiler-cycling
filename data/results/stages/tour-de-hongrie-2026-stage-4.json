@@ -1,0 +1,47 @@
+{
+  "raceId": "tour-de-hongrie-2026",
+  "stageNumber": 4,
+  "stageName": "Mohács → Pécs",
+  "stageDate": "2026-05-16",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "The rain-shortened queen stage to Pécs decided the race: Jakob Söderqvist (Lidl-Trek) attacked clear on the climbing circuit to win the stage and seize the overall lead, distancing Adrián Benito (+0:32) and the GC group led home by Luke Plapp, Junior Lecerf and overnight leader Benoît Cosnefroy.",
+  "podium": [
+    { "position": 1, "riderId": "jakob-soderqvist", "name": "Jakob Söderqvist", "team": "Lidl - Trek", "time": "2h 58m 08s" },
+    { "position": 2, "riderId": null, "name": "Adrián Benito", "team": "Team Polti VisitMalta", "gap": "+0:32" },
+    { "position": 3, "riderId": null, "name": "Luke Plapp", "team": "Team Jayco AlUla", "gap": "+0:41" },
+    { "position": 4, "riderId": null, "name": "Junior Lecerf", "team": "Soudal Quick-Step", "gap": "+0:41" },
+    { "position": 5, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "gap": "+0:41" }
+  ],
+  "narrative": {
+    "headline": "Söderqvist climbs clear in Pécs to take the stage and the overall",
+    "body": "Heavy rain forced the organisers to shorten the queen stage from its planned 188.2 km to 147 km, cutting the Villány-Siklós-Harkány loop but keeping the punishing Pécs climbing circuit with its repeated ascents of the Bárány út / Lapis climb and the uphill finish at Pécs Zoo. The repeated climbing on the wet final circuit shredded the field and reduced the front to the GC men. Jakob Söderqvist proved the strongest climber on the day, going clear on the final ascent to win alone in Pécs. Adrián Benito limited his losses to take second at +0:32, while the chasing GC group — Luke Plapp, Junior Lecerf and overnight leader Benoît Cosnefroy — came in together at +0:41. The result transformed the general classification and handed Söderqvist the overall lead with one stage to go."
+  },
+  "gcImpact": {
+    "headline": "Söderqvist takes the maillot — Cosnefroy slips to second",
+    "body": "Söderqvist's stage-winning ride flipped the GC: he took over the overall lead from Benoît Cosnefroy, who dropped to second at +0:40. Luke Plapp moved to third at +0:52, with Junior Lecerf fourth at +0:56. With only the hilly finale to Veszprém remaining, Söderqvist held a slim but workable margin to defend."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jakob-soderqvist",
+      "name": "Jakob Söderqvist",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "stage win",
+      "narrative": "This was the ride of Söderqvist's race. On the rain-shortened queen stage's repeated climbs of the Bárány út / Lapis circuit above Pécs, the young Lidl-Trek rider was the strongest of the GC men, attacking on the final ascent to win alone at Pécs Zoo. He put 32 seconds into the next-best climber, Adrián Benito, and over 40 into the rest of the GC contenders including overnight leader Cosnefroy, vaulting himself into the overall lead. It was the decisive blow of the week and the platform for his first stage-race overall victory.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on the final ascent of the Pécs climbing circuit to win the stage alone" },
+        { "km": null, "what": "Took over the overall lead from Cosnefroy with the stage win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://tdh.hu/news/248-stage-4-of-tour-de-hongrie-has-been-shortened", "publication": "Tour de Hongrie", "title": "Stage 4 of Tour de Hongrie has been shortened", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/tour-de-hongrie-2026/result/stage-4", "publication": "CyclingFlash", "title": "Tour de Hongrie 2026 Stage 4 result", "lang": "en" }
+  ]
+}

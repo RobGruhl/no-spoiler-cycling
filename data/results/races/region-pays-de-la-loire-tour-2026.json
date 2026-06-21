@@ -1,0 +1,101 @@
+{
+  "raceId": "region-pays-de-la-loire-tour-2026",
+  "raceName": "Région Pays de La Loire Tour",
+  "raceDate": "2026-04-07",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Twenty-year-old Antoine L'Hote (Decathlon CMA CGM) won the 72nd Région Pays de la Loire Tour, soloing to victory on the final stage into Le Mans to take both his first professional win and the overall, edging Alexander Kamp by 12 seconds. Britain's Ethan Vernon (NSN Cycling) was the dominant sprinter, winning the two flat road stages.",
+  "podium": [
+    { "position": 1, "name": "Antoine L'Hote", "team": "Decathlon CMA CGM Team", "time": "16h 08m 56s" },
+    { "position": 2, "name": "Alexander Kamp", "team": "Uno-X Mobility", "gap": "+0:12" },
+    { "position": 3, "riderId": "corbin-strong", "name": "Corbin Strong", "team": "NSN Cycling Team", "gap": "+0:18" },
+    { "position": 4, "name": "Clément Venturini", "team": "Unibet Rose Rockets", "gap": "+0:25" },
+    { "position": 5, "name": "Martin Marcellusi", "team": "Bardiani CSF 7 Saber", "gap": "+0:31" }
+  ],
+  "narrative": {
+    "headline": "A breakout overall for 20-year-old Antoine L'Hote, who turns a final-stage solo into the win of his young career.",
+    "openingMoves": "The race ran as a four-stage UCI 2.Pro event across the Pays de la Loire (April 7-10), opening with two bunch-sprint road stages that handed early control to the fast men rather than the GC riders. Ethan Vernon (NSN Cycling Team) won the opener from Fontevraud-l'Abbaye to Vertou ahead of Erlend Blikra (Uno-X Mobility), then doubled up the next day into Les Sables-d'Olonne, again beating Blikra. With time bonuses the only separators, the general classification stayed bunched and unresolved through the flat days.",
+    "raceUnfolds": "The terrain tilted on the hilly stage from Avrillé to Sainte-Suzanne-et-Chammes. Antoine L'Hote forced the move in the finale, getting a small gap before being joined by a five-rider group including Benjamin Thomas (Cofidis); the leaders watched each other on the final rise but held off the chasing peloton. Alexander Kamp, the 2023 winner of the race, won the reduced sprint ahead of Gabriele Bessega and L'Hote, and took over the leader's jersey on the eve of the finish.",
+    "decision": "The GC was settled on the closing stage from Brûlon to Le Mans. Already aggressive the day before, L'Hote attacked clear inside the final 15 kilometres and committed to a solo bid, resisting the return of the chase group all the way into the streets of Le Mans.",
+    "finale": "L'Hote soloed home for the stage win — only the second professional victory of his career — ahead of Corbin Strong and Clément Venturini, and the time he gained vaulted him into the overall lead. He finished 12 seconds clear of Kamp, with Strong third at 18 seconds, Venturini fourth at 25 seconds and Marcellusi fifth at 31 seconds: a tightly stacked GC decided entirely by the punchy closing two days."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 0,
+      "location": "Vertou & Les Sables-d'Olonne (flat stages)",
+      "headline": "Vernon owns the sprints",
+      "description": "Ethan Vernon won both opening road stages from the bunch, beating Erlend Blikra each time. With no breakaway surviving, the flat days produced no GC gaps beyond time bonuses."
+    },
+    {
+      "kmFromFinish": 5,
+      "location": "Sainte-Suzanne-et-Chammes (hilly stage)",
+      "headline": "Kamp takes the jersey on the climbs",
+      "description": "A late selection of six riders forced by L'Hote held off the peloton; Kamp, the 2023 race winner, won the reduced sprint and took the leader's jersey one day from the finish."
+    },
+    {
+      "kmFromFinish": 15,
+      "location": "Brûlon → Le Mans (final stage)",
+      "headline": "L'Hote's winning solo",
+      "description": "L'Hote attacked alone with about 15 km to go and held off the chase into Le Mans, claiming the stage and the overall in one move — the decisive ride of the race."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Final stage + overall win",
+      "verdictClass": "win",
+      "narrative": "Decathlon CMA CGM left with the biggest prize through one of their youngest riders. Twenty-year-old Antoine L'Hote was active across both decisive days — third on the hilly stage, then the architect of his own GC win with a committed solo attack inside the final 15 km of the Le Mans stage. He converted it into the stage win and the overall, his first two professional victories, and the squad also placed Noa Isidore inside the GC top ten. A standout early-season return built around an emerging talent rather than an established leader.",
+      "riderIds": []
+    },
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Two stage wins + GC podium",
+      "verdictClass": "win",
+      "narrative": "NSN Cycling were arguably the strongest collective of the week, even without the overall. Ethan Vernon was untouchable in the bunch sprints, winning both flat stages and leading the race in its early days, while Corbin Strong rode a consistent, front-of-race week to finish third on GC and runner-up on the final stage in Le Mans. Two stage wins plus a podium is a heavy haul for the ProTeam against the WorldTour squads in the field.",
+      "riderIds": ["corbin-strong"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Stage win + 2nd overall",
+      "verdictClass": "win",
+      "narrative": "Uno-X Mobility were a constant presence and came within 12 seconds of the overall. Erlend Blikra was the nearly-man of the sprints, second behind Vernon on both flat stages, while Alexander Kamp delivered the team's headline day — winning the hilly stage to take the leader's jersey, a result that echoed his 2023 victory here. L'Hote's final-day solo ultimately denied Kamp the repeat, leaving him second overall, but a stage and the runner-up GC spot made for a strong race.",
+      "riderIds": []
+    },
+    {
+      "team": "Unibet Rose Rockets",
+      "verdict": "4th overall, final-stage podium",
+      "verdictClass": "neutral",
+      "narrative": "Clément Venturini gave the Unibet Rose Rockets a place in every decisive finale, taking third on the closing Le Mans stage and finishing fourth overall at 25 seconds. For the Continental-level outfit it was a strong showing against deeper-resourced teams, even if the podium and a stage win stayed narrowly out of reach.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "corbin-strong",
+      "name": "Corbin Strong",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:18",
+      "narrative": "Strong was the more consistent half of NSN's two-pronged week, working in support of Ethan Vernon's sprints while keeping himself in GC contention. He was sixth on the flat opener and present in the front group on the hilly stage, then produced his best day on the finale into Le Mans, finishing second behind the soloing L'Hote. That runner-up stage placing, combined with a week without losing time on the GC favourites, lifted him to third overall at 18 seconds — a podium that fit his 2026 profile of always being in the right move without quite landing the marquee win.",
+      "keyMoments": [
+        { "km": 0, "what": "2nd on the final stage in Le Mans behind L'Hote's solo, sealing 3rd overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": []
+  },
+  "aftermath": {
+    "headline": "A French ProTeam talent announces himself in the spring.",
+    "quotes": [],
+    "body": "The 72nd Région Pays de la Loire Tour confirmed its long-standing identity as a race for fast rouleurs and punchy finishers rather than pure climbers, with the GC decided across two days of aggressive, hilly racing after the sprinters had their say. The headline was Antoine L'Hote: at 20, the Decathlon CMA CGM rider turned his first professional win into an overall victory in the same afternoon, a result that marks him as one of the French scene's emerging stage-race prospects. NSN Cycling's two-win, one-podium week — Vernon in the sprints, Strong on GC — was the other story of a tightly contested early-season race. Note: the actual 2026 edition was contested over four in-line stages with no individual time trial, differing from the three-stage ITT format anticipated in pre-race planning; the results above reflect the race as it was raced."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/region-pays-de-la-loire/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Région Pays de la Loire Tour 2026 final general classification", "lang": "en" },
+    { "url": "https://www.velo101.com/courses/region-pays-de-la-loire-tour/region-pays-de-la-loire-tour-2026-triomphe-total-pour-antoine-lhote/", "publication": "Vélo 101", "title": "Région Pays de la Loire Tour 2026 : triomphe total pour Antoine L'Hote", "lang": "fr" },
+    { "url": "https://www.velo-club.net/resultats/region-pays-loire-tour-2026-resultats-antoine-lhote-vainqueur-final/", "publication": "Vélo Club", "title": "Région Pays de la Loire Tour 2026 : Antoine L'Hote vainqueur final", "lang": "fr" },
+    { "url": "https://fr.wikipedia.org/wiki/R%C3%A9gion_Pays_de_la_Loire_Tour_2026", "publication": "Wikipédia", "title": "Région Pays de la Loire Tour 2026", "lang": "fr" }
+  ]
+}

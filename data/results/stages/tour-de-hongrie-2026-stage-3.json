@@ -1,0 +1,42 @@
+{
+  "raceId": "tour-de-hongrie-2026",
+  "stageNumber": 3,
+  "stageName": "Kaposvár → Szekszárd",
+  "stageDate": "2026-05-15",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Tim Merlier (Soudal Quick-Step) took his second win of the race on the hilly 152.3 km stage to Szekszárd, surviving the lumpy run-in to outsprint Fernando Gaviria (Caja Rural) and Juan Sebastián Molano (UAE).",
+  "podium": [
+    { "position": 1, "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "3h 32m 18s" },
+    { "position": 2, "riderId": null, "name": "Fernando Gaviria", "team": "Caja Rural - Seguros RGA", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Juan Sebastián Molano", "team": "UAE Team Emirates - XRG", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Merlier doubles up on the hilly day to Szekszárd",
+    "body": "The 152.3 km stage to Szekszárd was billed as hilly and offered the faster men a chance to be dropped, but the punchy parcours stayed together enough for a reduced-bunch sprint. Tim Merlier held his form over the lumps and proved fastest again, beating Fernando Gaviria and Juan Sebastián Molano for his second win of the week. The GC men kept their powder dry, leaving Benoît Cosnefroy comfortably in the overall lead ahead of the decisive Pécs stage."
+  },
+  "gcImpact": {
+    "headline": "No change at the top — Cosnefroy holds the lead",
+    "body": "The reduced sprint did not disturb the overall standings; Benoît Cosnefroy retained the leader's jersey heading into the queen stage to Pécs, where the GC would finally be settled."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "stage win",
+      "narrative": "Merlier backed up his opening-day win with a second victory on the hillier stage to Szekszárd, surviving the lumpy course to win a reduced-bunch sprint ahead of Gaviria and Molano. That he could win on a hilly day as well as the pan-flat openers underlined his form, and it kept him firmly in command of the points classification he would go on to win.",
+      "keyMoments": [
+        { "km": null, "what": "Survived the hilly run-in and won the reduced-bunch sprint in Szekszárd for his second stage win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Stage 3 result", "lang": "en" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "raceId": "region-pays-de-la-loire-tour-2026",
+  "stageNumber": 3,
+  "stageName": "Avrillé → Sainte-Suzanne-et-Chammes / Brûlon → Le Mans (closing stages)",
+  "stageDate": "2026-04-09",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "The hilly finale decided the race: Alexander Kamp won the Sainte-Suzanne-et-Chammes stage to take the jersey, before 20-year-old Antoine L'Hote (Decathlon CMA CGM) soloed to the closing-stage win in Le Mans to seize the overall by 12 seconds, with Corbin Strong third.",
+  "podium": [
+    { "position": 1, "name": "Antoine L'Hote", "team": "Decathlon CMA CGM Team", "time": "4h 11m 44s" },
+    { "position": 2, "riderId": "corbin-strong", "name": "Corbin Strong", "team": "NSN Cycling Team", "gap": "+0:00" },
+    { "position": 3, "name": "Clément Venturini", "team": "Unibet Rose Rockets", "gap": "+0:00" },
+    { "position": 4, "name": "Alexander Kamp", "team": "Uno-X Mobility", "gap": "+0:00" },
+    { "position": 5, "name": "Quinten Hermans", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "L'Hote attacks alone into Le Mans and rides the stage win into the overall.",
+    "body": "After two flat sprint days the race turned on its hilly closing stages, where the general classification was finally made. On the stage to Sainte-Suzanne-et-Chammes, Antoine L'Hote (Decathlon CMA CGM) lit the finale, getting a small gap before a six-rider group — including Benjamin Thomas (Cofidis) — came across. The leaders watched one another on the final rise but held off the chasing peloton, and Alexander Kamp, winner of this race in 2023, took the reduced sprint ahead of Gabriele Bessega and L'Hote to claim the leader's jersey one day out.\n\nThe overall was decided on the run to Le Mans. Already aggressive the day before, L'Hote attacked clear inside the final 15 kilometres and committed everything to a solo move, resisting the return of the chase group all the way into the streets of Le Mans. He soloed across the line for the stage — only the second professional win of his career — ahead of Corbin Strong and Clément Venturini.\n\nThe time L'Hote gained flipped the GC: he took the overall by 12 seconds from Kamp, with Strong third at 18 seconds, Venturini fourth at 25 and Martin Marcellusi fifth at 31. (Note: in the actual 2026 race these were two separate stages — Kamp's hilly stage 3 and L'Hote's stage 4 into Le Mans — combined here to fit the calendar's single closing road stage.)"
+  },
+  "gcImpact": {
+    "headline": "L'Hote snatches the overall on the final day; Strong holds the podium.",
+    "body": "Antoine L'Hote wins the general classification, 12 seconds clear of Alexander Kamp, with Corbin Strong third at 18 seconds, Clément Venturini fourth at 25 seconds and Martin Marcellusi fifth at 31 seconds. The overall changed hands twice in two days — Kamp taking it on the first hilly stage, L'Hote taking it back with his closing-stage solo — leaving a tightly stacked final podium decided entirely on the punchy finale."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "corbin-strong",
+      "name": "Corbin Strong",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Strong saved his best for the finale. Present in the decisive groups across the hilly closing stages, he was the fastest of the chasers behind the soloing L'Hote on the run into Le Mans, taking second on the stage. The placing and his week-long consistency lifted him onto the final GC podium in third at 18 seconds — a reward for an opportunistic, front-of-race ride rather than a single big move.",
+      "keyMoments": [
+        { "km": 0, "what": "2nd on the line behind L'Hote's solo, securing 3rd overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/region-pays-de-la-loire/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Région Pays de la Loire Tour 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/region-pays-de-la-loire/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Région Pays de la Loire Tour 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.velo101.com/courses/region-pays-de-la-loire-tour/region-pays-de-la-loire-tour-2026-triomphe-total-pour-antoine-lhote/", "publication": "Vélo 101", "title": "Région Pays de la Loire Tour 2026 : triomphe total pour Antoine L'Hote", "lang": "fr" },
+    { "url": "https://www.velo101.com/courses/region-pays-de-la-loire-tour/region-pays-de-la-loire-tour-alexander-kamp-fait-coup-double/", "publication": "Vélo 101", "title": "3ème étape : Alexander Kamp fait coup double", "lang": "fr" }
+  ]
+}

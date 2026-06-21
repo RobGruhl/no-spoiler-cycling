@@ -1,0 +1,43 @@
+{
+  "raceId": "tour-de-hongrie-2026",
+  "stageNumber": 5,
+  "stageName": "Balatonalmádi → Veszprém",
+  "stageDate": "2026-05-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Tim Merlier (Soudal Quick-Step) capped the race with his third stage win, taking the bunch sprint in Veszprém ahead of Alexis Renard and Fernando Gaviria, while Jakob Söderqvist (Lidl-Trek) safely defended the leader's jersey to win the overall.",
+  "podium": [
+    { "position": 1, "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "3h 29m 36s" },
+    { "position": 2, "riderId": null, "name": "Alexis Renard", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Fernando Gaviria", "team": "Caja Rural - Seguros RGA", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Merlier completes his hat-trick as Söderqvist seals the overall",
+    "body": "The 147.1 km hilly finale to Veszprém offered one last chance for the sprinters, and Tim Merlier took it, winning the bunch kick ahead of Alexis Renard and Fernando Gaviria for his third stage win of the week. Behind the sprint, Jakob Söderqvist and Lidl-Trek controlled the GC group to protect the lead the Swede had won the day before in Pécs, bringing him safely to the line to claim the overall victory. Merlier's third win wrapped up the points classification to go with his stage haul."
+  },
+  "gcImpact": {
+    "headline": "Söderqvist confirmed as overall winner",
+    "body": "With the bunch finishing together and no GC attacks sticking on the hilly run-in, the standings from Pécs held: Jakob Söderqvist won the 47th Tour de Hongrie, with Benoît Cosnefroy second at +0:40 and Luke Plapp third at +0:49 on the final classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "stage win",
+      "narrative": "Merlier closed his Tour de Hongrie with a third stage win, taking the bunch sprint in Veszprém ahead of Renard and Gaviria. Three wins across the flat and hilly stages made him comfortably the fastest man at the race and secured the points classification. It was a near-perfect block of racing for the Belgian sprinter and the headline individual return of the week for Soudal Quick-Step.",
+      "keyMoments": [
+        { "km": null, "what": "Won the final bunch sprint in Veszprém — his third stage win and the points jersey clincher" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/stage-5/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Stage 5 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Final GC", "lang": "en" }
+  ]
+}

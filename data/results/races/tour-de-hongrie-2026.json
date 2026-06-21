@@ -1,0 +1,105 @@
+{
+  "raceId": "tour-de-hongrie-2026",
+  "raceName": "Tour de Hongrie",
+  "raceDate": "2026-05-13",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Jakob Söderqvist (Lidl-Trek) won the 47th Tour de Hongrie with a single decisive blow on the rain-shortened queen stage to Pécs, attacking clear on the climbing circuit to take the stage and seize the overall lead, which he defended to the finish in Veszprém. He finished 40 seconds ahead of Benoît Cosnefroy (UAE Team Emirates), who had led for two days, with Luke Plapp (Jayco-AlUla) third at +0:49. The sprints belonged to Tim Merlier (Soudal Quick-Step), who took three stages — the two flat openers' bookends plus the hilly Szekszárd day — and the points classification.",
+  "podium": [
+    { "position": 1, "riderId": "jakob-soderqvist", "name": "Jakob Söderqvist", "team": "Lidl - Trek", "time": "16h 57m 21s" },
+    { "position": 2, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "gap": "+0:40" },
+    { "position": 3, "riderId": null, "name": "Luke Plapp", "team": "Team Jayco AlUla", "gap": "+0:49" },
+    { "position": 4, "riderId": null, "name": "Junior Lecerf", "team": "Soudal Quick-Step", "gap": "+0:56" },
+    { "position": 5, "riderId": null, "name": "Alessandro Fancellu", "team": "MBH Bank CSB Telecom Fort", "gap": "+1:14" }
+  ],
+  "narrative": {
+    "headline": "Söderqvist's one big climb wins the race; Merlier sweeps the sprints",
+    "openingMoves": "The 2.Pro race opened with two days for the fast men. Tim Merlier (Soudal Quick-Step) won the pan-flat first stage in Békéscsaba ahead of Juan Sebastián Molano and Phil Bauhaus to take the first leader's jersey on time bonuses. The longest day of the race, the 205.8 km Stage 2 to Paks, did not finish in a clean bunch sprint: Benoît Cosnefroy (UAE Team Emirates) won from a late move ahead of Alexis Renard and Max Kanter, and the win plus bonus seconds lifted the Frenchman into the overall lead.",
+    "raceUnfolds": "Stage 3 to Szekszárd was nominally hilly but stayed together for a reduced-bunch sprint, which Merlier won again ahead of Fernando Gaviria and Molano for his second victory. Cosnefroy comfortably held the lead through the transitional days, leaving the general classification to be settled on the queen stage to Pécs.",
+    "decision": "The Mohács-Pécs queen stage was the race. Heavy rain forced the organisers to shorten it from 188.2 km to 147 km, but the brutal Pécs climbing circuit — repeated ascents of the Bárány út / Lapis climb and an uphill finish at the zoo — was kept intact. The repeated climbing on a wet circuit reduced the front to the GC men, and Jakob Söderqvist attacked clear on the final ascent to win alone. He put 32 seconds into Adrián Benito and over 40 into the rest of the GC group, taking the overall lead from Cosnefroy in a single move.",
+    "finale": "With his slim lead won in Pécs, Söderqvist and Lidl-Trek controlled the hilly Stage 5 finale to Veszprém, where Merlier completed his hat-trick of stage wins. The Swede crossed the line safely to win the overall by 40 seconds from Cosnefroy, with Luke Plapp third at +0:49 and Söderqvist's own team-mate Junior Lecerf fourth at +0:56. Merlier took the points classification to cap a dominant sprinting week."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Paks (Stage 2 finish)", "headline": "Cosnefroy steals the longest stage and the lead", "description": "Cosnefroy won the 205.8 km stage to Paks from a late move ahead of Renard and Kanter, taking the overall lead from Merlier on the stage win and bonus seconds." },
+    { "kmFromFinish": null, "location": "Pécs climbing circuit (Stage 4)", "headline": "Söderqvist's race-winning attack", "description": "On the rain-shortened queen stage's repeated Bárány út / Lapis climbs, Söderqvist attacked on the final ascent to win alone at Pécs Zoo, distancing Benito by 32 seconds and the GC group by over 40 to seize the overall lead from Cosnefroy." }
+  ],
+  "teamStories": [
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Overall victory via the queen stage",
+      "verdictClass": "win",
+      "narrative": "Lidl-Trek built the entire week around one stage and executed it perfectly. Jakob Söderqvist was held in reserve through the sprint days and then unleashed on the rain-shortened Pécs queen stage, attacking clear on the final climb to win the stage and take the overall lead in a single move. The team then locked the race down on the hilly Veszprém finale to protect a 40-second buffer all the way to the line. For a developing rider it was a breakthrough stage-race overall and a clean tactical win for the team.",
+      "riderIds": ["jakob-soderqvist"]
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Three stages + the points jersey",
+      "verdictClass": "win",
+      "narrative": "Soudal Quick-Step turned the race into a sprint showcase for Tim Merlier, who won three stages — the flat opener in Békéscsaba, the hilly Szekszárd day, and the Veszprém finale — and the points classification with it. The team also placed Junior Lecerf in the GC mix, the young climber surviving the Pécs queen stage in the front group to finish fourth overall at +0:56. A win-everywhere week: the sprints with Merlier, a GC top-five with Lecerf.",
+      "riderIds": ["tim-merlier"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Stage 2 + two days in the lead, 2nd overall",
+      "verdictClass": "neutral",
+      "narrative": "UAE had the race's most aggressive opening week through Benoît Cosnefroy, who won the long Stage 2 to Paks and held the overall lead for two days before the queen stage. He couldn't follow Söderqvist's climb on the wet Pécs circuit and slipped to second overall at +0:40, while Juan Sebastián Molano added sprint placings (2nd on Stage 1, 3rd on Stage 3). A strong, controlling week that fell just short of the win when the road tilted up.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Jayco AlUla",
+      "verdict": "Plapp third overall",
+      "verdictClass": "neutral",
+      "narrative": "Luke Plapp carried Jayco-AlUla's GC card and rode a steady, consistent week to the final podium. On the decisive Pécs queen stage he was in the lead GC group, finishing third on the stage and limiting his losses to Söderqvist, which was enough to secure third overall at +0:49. A solid, if unspectacular, podium result for the Australian.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Polti VisitMalta",
+      "verdict": "Benito 2nd on the queen stage",
+      "verdictClass": "neutral",
+      "narrative": "Team Polti VisitMalta's headline came on the queen stage, where Adrián Benito was the best of the rest behind Söderqvist, taking second on the day at +0:32 on the Pécs climbs — the only rider able to get within striking distance of the eventual overall winner on the decisive afternoon.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jakob-soderqvist",
+      "name": "Jakob Söderqvist",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "GC winner",
+      "narrative": "Won the overall on the strength of a single, perfectly timed ride. Söderqvist was kept out of the sprint chaos in the first three days, then produced the move of the race on the rain-shortened queen stage to Pécs: an attack on the final ascent of the climbing circuit that won the stage alone and overturned the GC in one stroke, distancing both overnight leader Cosnefroy and every other contender. Lidl-Trek protected his 40-second margin on the Veszprém finale to deliver him the overall — a breakthrough stage-race victory.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 4 — attacked on the final Pécs climb to win alone and take the overall lead" },
+        { "km": null, "what": "Stage 5 — sat in the protected GC group to defend the lead to the finish" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "3 stage wins + points jersey",
+      "narrative": "The fastest man at the race by a distance. Merlier won three of the five stages — the flat opener in Békéscsaba, the hilly day to Szekszárd, and the Veszprém finale — and sealed the points classification. Winning on the lumpy Szekszárd stage as well as the flat days showed his range, and the haul made the Tour de Hongrie a near-perfect sprinting block for the Belgian and Soudal Quick-Step.",
+      "keyMoments": [
+        { "km": null, "what": "Won Stage 1 (Békéscsaba), Stage 3 (Szekszárd) and Stage 5 (Veszprém)" },
+        { "km": null, "what": "Took the points classification" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A queen-stage coup and a sprinter's hat-trick",
+    "quotes": [],
+    "body": "The 47th Tour de Hongrie followed a familiar 2.Pro script: sprinters dominating the flat and rolling days, the whole GC compressed into a single mountain afternoon. Weather forced the organisers to trim the Mohács-Pécs queen stage, but its climbing heart survived and did its job, with Jakob Söderqvist's lone attack settling the overall in one move. For Lidl-Trek it was a clean, well-managed stage-race win for a developing rider; for Soudal Quick-Step, Tim Merlier's three-win, points-jersey week was the individual highlight. Benoît Cosnefroy's two days in the lead and second overall, plus Luke Plapp's podium, rounded out a race decided, as it so often is in Hungary, on the Pécs climbs."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Final GC", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.uaeteamemirates.com/benoit-cosnefroy-finishes-second-overall-at-the-tour-de-hongrie/", "publication": "UAE Team Emirates", "title": "Benoît Cosnefroy finishes second overall at the Tour de Hongrie", "lang": "en" },
+    { "url": "https://tdh.hu/news/248-stage-4-of-tour-de-hongrie-has-been-shortened", "publication": "Tour de Hongrie", "title": "Stage 4 of Tour de Hongrie has been shortened", "lang": "en" }
+  ]
+}

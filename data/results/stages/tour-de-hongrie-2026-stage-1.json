@@ -1,0 +1,42 @@
+{
+  "raceId": "tour-de-hongrie-2026",
+  "stageNumber": 1,
+  "stageName": "Gyula → Békéscsaba",
+  "stageDate": "2026-05-13",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Tim Merlier (Soudal Quick-Step) opened the 47th Tour de Hongrie with a textbook bunch sprint in Békéscsaba, beating Juan Sebastián Molano (UAE) and Phil Bauhaus (Bahrain-Victorious) on the 143.1 km flat first stage to take the win and the first leader's jersey on time bonuses.",
+  "podium": [
+    { "position": 1, "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "3h 19m 36s" },
+    { "position": 2, "riderId": null, "name": "Juan Sebastián Molano", "team": "UAE Team Emirates - XRG", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Phil Bauhaus", "team": "Bahrain - Victorious", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Merlier takes the opener in Békéscsaba",
+    "body": "The 143.1 km flat opening stage from Gyula to Békéscsaba played out as expected, with the sprinters' teams keeping the day's break on a short leash and bringing everything back for a mass gallop into Békéscsaba. Tim Merlier had the strongest finishing kick, holding off Juan Sebastián Molano and Phil Bauhaus at the line. The win, with the accompanying 10-second time bonus, handed Merlier the first leader's jersey of the race."
+  },
+  "gcImpact": {
+    "headline": "Merlier into the leader's jersey",
+    "body": "With the bunch finishing together, the stage's time bonuses decided the early general classification. Merlier leads on bonus seconds from the other fast finishers heading into the second flat day to Paks."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "stage win",
+      "narrative": "Merlier delivered exactly what Soudal Quick-Step came to Hungary for, winning the opening bunch sprint in Békéscsaba ahead of Molano and Bauhaus. It was the first of what would become a three-win haul at the race for the Belgian, who used the early time bonus to pull on the first leader's jersey. The performance set the tone for his dominant week in the sprints and his eventual points-classification victory.",
+      "keyMoments": [
+        { "km": null, "what": "Won the bunch sprint into Békéscsaba and took the first leader's jersey on time bonuses" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-de-hongrie/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Tour de Hongrie 2026 Stage 1 result", "lang": "en" }
+  ]
+}
