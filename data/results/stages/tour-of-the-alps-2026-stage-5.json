@@ -1,0 +1,64 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "stageNumber": 5,
+  "stageName": "Trento → Bolzano",
+  "stageDate": "2026-04-24",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Giulio Pellizzari turned a four-second overnight lead into a commanding overall win, soloing on the Montoppio climb to take both the final stage and the Tour of the Alps title — his first career GC victory. Bernal was the most resilient chaser for second; Arensman cracked and slipped to third overall.",
+  "podium": [
+    { "position": 1, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "time": "stage winner" },
+    { "position": 2, "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers", "gap": "~+0:30" },
+    { "position": 3, "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team", "gap": "+0:00 (Bernal group region)" },
+    { "position": 4, "name": "Jakob Omrzel", "team": "Bahrain Victorious", "gap": "chase group" },
+    { "position": 5, "name": "Chris Harper", "team": "Q36.5 Pro Cycling Team", "gap": "chase group" }
+  ],
+  "narrative": {
+    "headline": "Pellizzari solos on Montoppio to seal the overall",
+    "body": "The final stage opened at a relentless pace, with repeated attacks before a large, dangerous breakaway formed — Tom Pidcock, Stage 4 winner Lennart Jasch, Sam Oomen and Koen Bouwman among them. The move built over two minutes, briefly putting Juan Felipe Rodriguez into the virtual race lead and forcing Red Bull - BORA - hansgrohe to defend Pellizzari's slender four-second cushion. On the 12.7 km climb to Nobls/Montoppio the break shattered and was reeled in, with Pidcock and Rodriguez among the last caught. Pellizzari then attacked from the reduced group, immediately separating from Arensman and Bernal. Behind, Michael Storer raised the pace; Bernal followed but Arensman couldn't respond and lost ground — the split that reshaped the podium. Pellizzari crested the climb alone and extended his lead on the descent to win the stage by around 30 seconds, converting his overnight lead into a clear overall victory."
+  },
+  "gcImpact": {
+    "headline": "Pellizzari wins overall; Bernal second, Arensman third",
+    "body": "Pellizzari sealed the maiden GC win of his career, finishing 40 seconds clear of Egan Bernal and 50 seconds ahead of Thymen Arensman in the final general classification. Michael Storer was fourth at +1:09 and Tudor's Mathys Rondel fifth at +1:45, with Aleksandr Vlasov sixth and Pidcock seventh. Pellizzari also took the youth classification; the points jersey went to Tommaso Dati and the mountains jersey to Lennart Jasch, with Red Bull - BORA - hansgrohe winning the team classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "stage winner + overall victory",
+      "narrative": "The defining day of his young career. Defending a four-second lead, Pellizzari attacked from the GC group on the Montoppio climb, dropped Arensman and Bernal, and rode clear to win both the stage and the Tour of the Alps overall — the first GC title of his career, taken on Italian roads as the perfect Giro d'Italia tune-up. He extended his lead on the descent to finish around 30 seconds up, sealing the win by 40s over Bernal.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked from the reduced group on the Montoppio climb, immediately splitting Arensman and Bernal" },
+        { "km": null, "what": "Crested alone and extended the gap on the descent to win the stage and the overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 2, "gap": "~+0:30",
+      "narrative": "Bernal was Pellizzari's most resilient challenger, the only GC rider able to follow Michael Storer's surge and limit the damage on Montoppio while Arensman cracked behind. Second on the stage and second overall at +40 — a strong marker on his ongoing comeback and a clear win in the INEOS internal battle with Arensman.",
+      "keyMoments": [{ "km": null, "what": "Followed Storer's pace on the final climb to secure 2nd overall as Arensman dropped" }],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": "GC group", "gap": "+0:50 overall",
+      "narrative": "Second overall starting the day, Arensman couldn't follow when Pellizzari attacked and Storer lifted the pace on Montoppio. He lost ground at the critical moment and slipped from second to third overall at +50, ceding the runner-up spot to teammate Bernal — a frustrating end to an otherwise consistent week.",
+      "keyMoments": [{ "km": null, "what": "Unable to respond on the final climb; dropped from 2nd to 3rd overall" }],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team",
+      "role": "leader", "position": 3, "gap": "+1:09 overall",
+      "narrative": "The defending champion was a key animator on the final climb, raising the pace behind Pellizzari in a move that helped drop Arensman. He took third on the stage and finished fourth overall at +1:09 — Tudor's leading GC card in a race where the team also won the mountains classification through Lennart Jasch.",
+      "keyMoments": [{ "km": null, "what": "Lifted the pace on Montoppio, splitting the chase and dropping Arensman" }],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-of-the-alps-2026-stage-5-giulio-pellizzari-solos-to-first-gc-victory-of-his-career-with-decisive-final-stage-attack", "publication": "CyclingUpToDate", "title": "Tour of the Alps 2026 Stage 5 — Pellizzari solos to GC victory", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-the-alps/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Tour of the Alps 2026 final GC", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-of-the-alps-2026/stage-5-route-tota-2026/", "publication": "Cycling Stage", "title": "Tour of the Alps 2026 Stage 5", "lang": "en" }
+  ]
+}

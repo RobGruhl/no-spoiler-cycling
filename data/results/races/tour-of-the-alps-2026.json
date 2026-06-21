@@ -1,0 +1,134 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "raceName": "Tour of the Alps",
+  "raceDate": "2026-04-20",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Giulio Pellizzari (Red Bull - BORA - hansgrohe) won the 2026 Tour of the Alps on home roads, the first GC victory of his career and the perfect Giro d'Italia tune-up. He took the lead with a summit win at Val Martello on Stage 2, defended a knife-edge advantage through two breakaway stages, then turned a four-second overnight cushion into a 40-second win by soloing on the final climb to Bolzano. Egan Bernal was second and Thymen Arensman third, completing an INEOS one-two-three near-miss; the five-stage climbing race produced four different stage winners (Dati, Pellizzari, Pidcock, Jasch).",
+  "podium": [
+    { "position": 1, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "time": "19h 01m 52s" },
+    { "position": 2, "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers", "gap": "+0:40" },
+    { "position": 3, "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:50" },
+    { "position": 4, "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team", "gap": "+1:09" },
+    { "position": 5, "name": "Mathys Rondel", "team": "Tudor Pro Cycling Team", "gap": "+1:45" }
+  ],
+  "jerseys": {
+    "gc": { "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe" },
+    "points": { "name": "Tommaso Dati", "team": "Team Ukyo" },
+    "mountains": { "name": "Lennart Jasch", "team": "Tudor Pro Cycling Team" },
+    "youth": { "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe" },
+    "teams": "Red Bull - BORA - hansgrohe"
+  },
+  "narrative": {
+    "headline": "Pellizzari conquers the Alps as the Giro favourites take their measure",
+    "openingMoves": "The five-stage climbing race — Innsbruck to Bolzano, no time trials, the definitive Giro d'Italia tune-up — opened with a sprint. Tommaso Dati of the Japanese-Italian development outfit Team Ukyo took a tactical masterclass on Stage 1 in Innsbruck, sitting invisible in the draft while INEOS Grenadiers burned a full lead-out and floated Thymen Arensman as a late foil, then accelerating out of Tom Pidcock's slipstream in the final 150 metres. Dati took the first leader's jersey with the GC men all on the same time.",
+    "raceUnfolds": "Stage 2's summit finish at Val Martello settled the hierarchy: Giulio Pellizzari accelerated clear on the final ramps to win on home roads and take the lead, with Arensman the only rider able to follow him to the line and Bernal and Vlasov in the front group. Stage 3 to Arco descended into chaos — a 30-rider crash just after the start neutralised the race and forced abandons including Red Bull's Lorenzo Finn (sixth overall) — before Pidcock, back from his Catalunya crash, timed a perfect sprint to win after the break was caught with 4 km left. The GC stayed frozen.",
+    "decision": "Stage 4's Arco–Trento queen stage went to the break, where Tudor's Lennart Jasch soloed to a surprise win while the GC men marked each other home 20 seconds down. That deferred everything to the final day: Pellizzari led Arensman and Bernal by just four seconds, with six seconds covering the top four. On Stage 5's climb to Nobls/Montoppio, Pellizzari attacked from the reduced GC group, dropped his rivals immediately, and rode clear. Behind, Michael Storer's pacing helped split Arensman from Bernal — the move that decided the podium order.",
+    "finale": "Pellizzari crested Montoppio alone and extended his lead on the descent into Bolzano, winning the stage by around 30 seconds and the overall by 40 over Bernal, with Arensman third at +50. Storer (4th, +1:09) and his Tudor teammate Mathys Rondel (5th, +1:45) completed the top five. Pellizzari added the youth jersey to his GC win; Dati took the points classification, Jasch the mountains, and Red Bull - BORA - hansgrohe the team classification."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0, "location": "Stage 2 — Val Martello summit", "headline": "Pellizzari takes the jersey", "description": "Pellizzari accelerated clear on the final ramps of the first summit finish to win the stage and take the overall lead on home roads — the move that set the course for victory." },
+    { "kmFromFinish": null, "location": "Stage 3 — Arco", "headline": "30-rider crash neutralises the race", "description": "A mass crash just after the start halted the stage and forced abandons including Red Bull's Lorenzo Finn, sixth overall and second in the youth standings." },
+    { "kmFromFinish": null, "location": "Stage 5 — Montoppio climb", "headline": "Pellizzari solos to win the race", "description": "Defending a four-second lead, Pellizzari attacked from the GC group on the 12.7 km Montoppio climb, dropped Arensman and Bernal, and rode clear — Storer's pacing behind splitting Arensman to settle the podium." }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "GC, youth, team classification",
+      "verdictClass": "win",
+      "narrative": "A complete week. Pellizzari, 22 and on home South Tyrolean roads, took the leader's jersey on Stage 2 at Val Martello and defended it through a chaotic mountain week before extending it to a decisive 40 seconds with a final-stage solo on Montoppio — his maiden GC victory and an ideal Giro d'Italia springboard. The team controlled the race front-to-back, lost domestique Lorenzo Finn (sixth overall) to the Stage 3 crash, and still walked away with the GC, youth and team classifications, with Aleksandr Vlasov sixth overall as a secondary card.",
+      "riderIds": ["giulio-pellizzari"]
+    },
+    {
+      "team": "INEOS Grenadiers",
+      "verdict": "2nd and 3rd overall — near one-two",
+      "verdictClass": "neutral",
+      "narrative": "INEOS placed two riders on the GC podium but couldn't break Pellizzari. Egan Bernal was the most resilient challenger all week and the only rider to follow Storer's final-climb surge, taking second overall on his ongoing comeback. Thymen Arensman, the team's nominal leader, led the chase as runner-up into the last day but cracked on Montoppio, slipping to third — a frustrating internal flip that handed Bernal the runner-up spot. A strong collective showing, but the headline win went elsewhere.",
+      "riderIds": ["egan-bernal", "thymen-arensman"]
+    },
+    {
+      "team": "Tudor Pro Cycling Team",
+      "verdict": "Stage 4 win + mountains jersey",
+      "verdictClass": "win",
+      "narrative": "Tudor turned an aggressive week into tangible rewards. Lennart Jasch soloed from the break to a breakthrough win on the Stage 4 queen stage in Trento and rode himself into the mountains classification, which he won. Defending champion Michael Storer was a key animator on the final climb — his pacing helped drop Arensman — and finished fourth overall, with neo-pro Mathys Rondel fifth, giving Tudor two riders in the top five.",
+      "riderIds": ["michael-storer"]
+    },
+    {
+      "team": "Team Ukyo",
+      "verdict": "Stage 1 win + points jersey",
+      "verdictClass": "win",
+      "narrative": "The Japanese-Italian development team delivered the race's feel-good story. Tommaso Dati won the opening stage in Innsbruck with a tactical masterclass, beating Pidcock and the WorldTour names from the draft, took the first leader's jersey, and held the points classification to the finish — a statement that Ukyo's talent pipeline can beat the biggest teams on the road.",
+      "riderIds": []
+    },
+    {
+      "team": "Q36.5 Pro Cycling Team",
+      "verdict": "Pidcock's Stage 3 win on return",
+      "verdictClass": "win",
+      "narrative": "Tom Pidcock used the race to confirm his form after a Volta a Catalunya crash, going close on Stage 1 before nailing a perfectly timed sprint to win Stage 3 in Arco. Seventh overall and a willing animator of the final-stage break, he left for the Ardennes with his speed and confidence restored. Chris Harper added a top-five finish on the last stage to Bolzano.",
+      "riderIds": ["tom-pidcock"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "The defining result of his young career. Pellizzari won the Stage 2 summit finish at Val Martello to take the lead on home roads, defended a knife-edge advantage through the chaotic mid-race, and then put the race away with a final-stage solo on Montoppio, winning the overall by 40 seconds. He took both the GC and the youth classification — the perfect platform heading into his Giro d'Italia campaign.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 2 summit win at Val Martello — took the leader's jersey" },
+        { "km": null, "what": "Stage 5 solo on Montoppio — won the stage and sealed the overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 2, "gap": "+0:40",
+      "narrative": "Bernal was Pellizzari's most persistent rival, in the front group every mountain day and third on Stage 3 in Arco. On the final climb he was the only GC man able to follow Storer's pace surge while teammate Arensman cracked, securing second overall — another substantial marker on a comeback that keeps trending upward.",
+      "keyMoments": [{ "km": null, "what": "Followed Storer on the final climb to take 2nd overall as Arensman dropped" }],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 3, "gap": "+0:50",
+      "narrative": "INEOS's nominal leader rode a consistent week — second behind Pellizzari at Val Martello, in the GC group throughout, and runner-up overall into the final day. But he couldn't respond on Montoppio when Pellizzari attacked and Storer lifted the pace, dropping to third overall behind teammate Bernal. A solid Giro tune-up undercut by the final-climb crack.",
+      "keyMoments": [{ "km": null, "what": "2nd on Stage 2; cracked on the final climb to finish 3rd overall" }],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team",
+      "role": "leader", "position": 4, "gap": "+1:09",
+      "narrative": "The defending champion couldn't retain his title but had a strong, aggressive week. On the final climb his pacing behind Pellizzari helped split Arensman from Bernal, and he took third on the stage and fourth overall — Tudor's leading GC card in a race where the team also took the Stage 4 win and the mountains jersey through Lennart Jasch.",
+      "keyMoments": [{ "km": null, "what": "Lifted the pace on Montoppio to help drop Arensman; 4th overall" }],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Q36.5 Pro Cycling Team",
+      "role": "stage-hunter", "position": 7, "gap": "+2:00",
+      "narrative": "Pidcock used the Tour of the Alps to rebuild after his Volta a Catalunya crash, going close on Stage 1 before winning Stage 3 in Arco with a perfectly timed sprint. He animated the final-stage break aggressively and finished seventh overall, leaving for the Ardennes with his form and confidence confirmed.",
+      "keyMoments": [
+        { "km": null, "what": "2nd on Stage 1, then won Stage 3 in Arco from a reduced group" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "name": "Lorenzo Finn", "team": "Red Bull - BORA - hansgrohe", "reason": "Abandoned after the Stage 3 mass crash; had been 6th overall and 2nd in youth" }
+    ],
+    "crashes": [
+      { "stage": 3, "description": "Mass crash involving around 30 riders just after the Stage 3 start; race temporarily neutralised, several abandons." }
+    ],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A maiden GC win and a clear Giro signal",
+    "quotes": [],
+    "body": "The Tour of the Alps did its traditional job as the last hard climbing test before the Giro d'Italia — and it crowned a new Italian GC name in the process. Pellizzari's win, built on a summit-finish jersey grab and a final-day solo, marked him as a genuine Giro protagonist rather than a prospect. For INEOS, two riders on the podium was a strong collective showing but underlined that neither Bernal nor Arensman could yet match the home favourite on the steepest day. Tudor (a stage and the mountains jersey) and Team Ukyo (a stage and the points jersey) both left with hardware that punched above their billing."
+  },
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_of_the_Alps", "publication": "Wikipedia", "title": "2026 Tour of the Alps", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-the-alps/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Tour of the Alps 2026 final GC", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-of-the-alps-2026-stage-5-giulio-pellizzari-solos-to-first-gc-victory-of-his-career-with-decisive-final-stage-attack", "publication": "CyclingUpToDate", "title": "Tour of the Alps 2026 Stage 5 — Pellizzari solos to GC victory", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-of-the-alps-2026/", "publication": "Cycling Stage", "title": "Tour of the Alps 2026", "lang": "en" },
+    { "url": "https://www.bikeraceinfo.com/stageraces/alps-tour/2026-tour-alps.html", "publication": "BikeRaceInfo", "title": "2026 Tour of the Alps", "lang": "en" }
+  ]
+}

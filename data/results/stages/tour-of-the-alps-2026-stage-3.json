@@ -1,0 +1,47 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "stageNumber": 3,
+  "stageName": "Laces (Latsch) → Arco",
+  "stageDate": "2026-04-22",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Back from his Catalunya crash, Tom Pidcock won a chaotic, crash-hit Stage 3 in Arco, sprinting clear after the breakaway was caught with 4 km to go. Pellizzari kept the lead; the day's biggest casualty was Red Bull's Lorenzo Finn, sixth overall, who abandoned after an early mass crash.",
+  "podium": [
+    { "position": 1, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Q36.5 Pro Cycling Team", "time": "4h 23m 24s" },
+    { "position": 2, "name": "Tommaso Dati", "team": "Team Ukyo", "gap": "+0:00" },
+    { "position": 3, "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers", "gap": "+0:00" },
+    { "position": 4, "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:00" },
+    { "position": 5, "name": "Aleksandr Vlasov", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Pidcock back from injury with a bang in Arco",
+    "body": "A massive crash involving around 30 riders just after the official start forced organisers to neutralise the race; several riders abandoned, including Red Bull - BORA - hansgrohe's Lorenzo Finn, who had begun the day sixth overall and second in the youth classification. Once racing resumed, Red Bull imposed control on the opening climb of Hofmahdjoch / Passo Castrin. Sam Oomen and Darren Rafferty formed the day's defining two-man break, building close to two minutes and taking bonus seconds at Tenno before the bunch hauled them back inside the final 4 km. Egan Bernal and Ben O'Connor probed with late attacks but no split stuck, leaving a select group to contest the finish. Tom Pidcock — fresh off his Volta a Catalunya crash — timed his sprint to perfection in the final few hundred metres, holding off Tommaso Dati for the win, with Bernal third and Vlasov fifth."
+  },
+  "gcImpact": {
+    "headline": "Pellizzari holds, GC stays knotted",
+    "body": "The general classification hierarchy was unchanged: Giulio Pellizzari retained the lead from Bernal and Arensman, with the top of the standings still tightly packed within seconds. The loss of Lorenzo Finn to the early crash thinned Red Bull's support but didn't dent Pellizzari's grip on the jersey heading into the Arco–Trento queen stage."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Q36.5 Pro Cycling Team",
+      "role": "stage-hunter", "position": 1, "gap": "stage winner",
+      "narrative": "After his near-miss on Stage 1 and his recent Catalunya crash, Pidcock got the timing exactly right in Arco, launching his sprint at the perfect moment to beat Dati after the late catch of the break. A statement win for the Q36.5 leader confirming his form ahead of the Ardennes — and a reminder of his class on a punchy reduced-group finish.",
+      "keyMoments": [{ "km": 4, "what": "Followed the catch of the break, then sprinted clear in the final 300 m" }],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 3, "gap": "+0:00",
+      "narrative": "Bernal stayed aggressive, attacking inside the final 3 km to test the GC group before settling for third on the stage in the same time as the winner. He stayed locked to Pellizzari's wheel throughout the tightly packed GC week, second overall in waiting.",
+      "keyMoments": [{ "km": 3, "what": "Attacked the GC group inside the final 3 km" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "abandons": [{ "name": "Lorenzo Finn", "team": "Red Bull - BORA - hansgrohe", "reason": "Abandoned after an early mass crash; had started the day 6th overall and 2nd in the youth classification" }] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-of-the-alps-2026-stage-3-tom-pidcock-back-from-injury-with-a-bang-brit-wins-after-late-catch-as-crash-hit-stage-explodes-in-final-kilometres", "publication": "CyclingUpToDate", "title": "Tour of the Alps 2026 Stage 3 — Pidcock wins crash-hit stage", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/tour-of-the-alps-2026/result/stage-3", "publication": "CyclingFlash", "title": "Tour of the Alps 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://www.bikeraceinfo.com/stageraces/alps-tour/2026-tour-alps.html", "publication": "BikeRaceInfo", "title": "2026 Tour of the Alps", "lang": "en" }
+  ]
+}

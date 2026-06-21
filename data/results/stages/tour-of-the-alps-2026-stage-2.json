@@ -1,0 +1,54 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "stageNumber": 2,
+  "stageName": "Telfs → Val Martello",
+  "stageDate": "2026-04-21",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "On the brutal Val Martello summit finish, Giulio Pellizzari (Red Bull - BORA - hansgrohe) outkicked Thymen Arensman to take the stage and the overall lead on home roads — the move that set the course for his maiden GC victory. Bernal and Vlasov rounded out the GC group at the top.",
+  "podium": [
+    { "position": 1, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "time": "3h 28m 17s" },
+    { "position": 2, "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:00" },
+    { "position": 3, "name": "Mattia Gaffuri", "team": "Team Picnic PostNL", "gap": "+0:00" },
+    { "position": 4, "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers", "gap": "+0:00" },
+    { "position": 5, "name": "Aleksandr Vlasov", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Pellizzari takes the summit and the jersey at Val Martello",
+    "body": "The first true mountain test of the race climbed to the Val Martello (Martell) summit finish at the head of the South Tyrolean valley. Red Bull - BORA - hansgrohe controlled the day for their home-roads leader and Pellizzari delivered, accelerating clear on the final ramps and holding off a select group of favourites. Thymen Arensman was the only rider able to stay closest, taking second on the line; Mattia Gaffuri sprinted in for third, with Egan Bernal and Aleksandr Vlasov completing the lead group. The win flipped the race lead onto Pellizzari's shoulders — the move that, as the week would show, set the course for overall victory."
+  },
+  "gcImpact": {
+    "headline": "Pellizzari takes the overall lead",
+    "body": "Giulio Pellizzari moved into the leader's jersey with his stage win, displacing opening-day winner Tommaso Dati. The GC compressed to a tight knot at the top — Arensman, Bernal and Vlasov all within striking distance — setting up three more mountain stages in which the margins would stay measured in single-digit seconds until the final climb."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "On home roads in South Tyrol, the 22-year-old Italian took the summit finish at Val Martello and with it the leader's jersey — the decisive opening move of his maiden GC campaign. He out-climbed Arensman on the final ramps and would defend the lead through two flatter mountain stages before extending it dramatically on the last day.",
+      "keyMoments": [{ "km": 0, "what": "Accelerated clear on the final ramps to win the summit finish and take the jersey" }],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 2, "gap": "+0:00",
+      "narrative": "INEOS's GC leader for the race, Arensman was the only rider able to follow Pellizzari to the line at Val Martello, taking second on the stage and sitting within a handful of seconds of the lead. He would hold a podium position all week before cracking on the final climb to slip to third overall.",
+      "keyMoments": [{ "km": 0, "what": "Followed Pellizzari's summit-finish attack, finished 2nd on the stage" }],
+      "incident": null
+    },
+    {
+      "riderId": "egan-bernal", "name": "Egan Bernal", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 4, "gap": "+0:00",
+      "narrative": "The 2019 Tour and 2021 Giro champion was in the front group at Val Martello, fourth on the stage in the same time as the winner — another marker on his long comeback arc. He would emerge as Pellizzari's most resilient challenger across the week, ultimately taking second overall.",
+      "keyMoments": [{ "km": 0, "what": "In the GC group at the summit, 4th on the stage" }],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/tour-of-the-alps/2026/stage-2", "publication": "ProCyclingStats", "title": "Tour of the Alps 2026 Stage 2", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/tour-of-the-alps-2026/result/stage-2", "publication": "CyclingFlash", "title": "Tour of the Alps 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://www.bikeraceinfo.com/stageraces/alps-tour/2026-tour-alps.html", "publication": "BikeRaceInfo", "title": "2026 Tour of the Alps", "lang": "en" }
+  ]
+}

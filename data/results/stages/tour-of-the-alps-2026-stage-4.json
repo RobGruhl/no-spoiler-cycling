@@ -1,0 +1,40 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "stageNumber": 4,
+  "stageName": "Arco → Trento",
+  "stageDate": "2026-04-23",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Lennart Jasch (Tudor Pro Cycling) soloed from the break to a surprise win in Trento, with the GC group rolling in 20 seconds down. The overall stayed agonisingly tight: Pellizzari held the lead by just four seconds over the INEOS pair of Arensman and Bernal heading into the final day.",
+  "podium": [
+    { "position": 1, "name": "Lennart Jasch", "team": "Tudor Pro Cycling Team", "time": "4h 28m 06s" },
+    { "position": 2, "name": "Matteo Sobrero", "team": "Lidl-Trek", "gap": "+0:10" },
+    { "position": 3, "name": "Federico Iacomoni", "team": "Team Ukyo", "gap": "+0:11" },
+    { "position": 4, "name": "Florian Stork", "team": "Tudor Pro Cycling Team", "gap": "+0:20" },
+    { "position": 5, "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:20" }
+  ],
+  "narrative": {
+    "headline": "Jasch solos to a surprise win as the GC stays frozen",
+    "body": "The 167.8 km queen stage from Arco to Trento went to the breakaway. Lennart Jasch attacked clear of the move and soloed to the biggest win of his career in Trento, with Matteo Sobrero (+10s) and Federico Iacomoni (+11s) chasing home behind. The GC favourites watched each other up the road, the leaders' group arriving 20 seconds after Jasch with Florian Stork and Thymen Arensman among them. Jasch's points across the day's climbs also moved him toward the mountains classification, which he would go on to win. With nobody willing to blink among the GC men, the overall battle was deferred to the final stage."
+  },
+  "gcImpact": {
+    "headline": "Four seconds covers the top three into the final day",
+    "body": "Pellizzari retained the leader's jersey but the margins were razor-thin: he led Thymen Arensman and Egan Bernal by just four seconds, with Aleksandr Vlasov a further couple of seconds back and Mattia Gaffuri close behind. With six seconds covering the top four, the Trento–Bolzano finale loomed as a genuine showdown — exactly the scenario that suited a pure climber on home roads."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "thymen-arensman", "name": "Thymen Arensman", "team": "INEOS Grenadiers",
+      "role": "leader", "position": 5, "gap": "+0:20",
+      "narrative": "Arensman finished safely in the GC group at +20, sitting second overall just four seconds off Pellizzari with one stage to go. INEOS held two cards in the top three (Arensman and Bernal level on time), but Arensman would be the one to crack on the final climb the next day, dropping to third overall.",
+      "keyMoments": [{ "km": 0, "what": "In the GC group at +20, held 2nd overall at four seconds" }],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingweekly.com/racing/from-bonking-to-winning-you-can-see-how-far-ive-come-says-surprise-winner-of-tour-of-the-alps-stage-4", "publication": "Cycling Weekly", "title": "Tour of the Alps 2026 Stage 4 — surprise winner Lennart Jasch", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-the-alps/2026/stage-4", "publication": "ProCyclingStats", "title": "Tour of the Alps 2026 Stage 4", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-of-the-alps-2026/stage-4-route-tota-2026/", "publication": "Cycling Stage", "title": "Tour of the Alps 2026 Stage 4", "lang": "en" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "raceId": "tour-of-the-alps-2026",
+  "stageNumber": 1,
+  "stageName": "Innsbruck → Innsbruck",
+  "stageDate": "2026-04-20",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Tommaso Dati (Team Ukyo) sprinted to a breakthrough win in Innsbruck, beating Tom Pidcock and Florian Stork after INEOS Grenadiers burned their lead-out train — and used Thymen Arensman as a late-attack foil — only to be reeled in inside the final metres. Dati took the first leader's jersey; the GC favourites all finished on the same time.",
+  "podium": [
+    { "position": 1, "name": "Tommaso Dati", "team": "Team Ukyo", "time": "3h 21m 35s" },
+    { "position": 2, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Q36.5 Pro Cycling Team", "gap": "+0:00" },
+    { "position": 3, "name": "Florian Stork", "team": "Tudor Pro Cycling Team", "gap": "+0:00" },
+    { "position": 4, "name": "Ben O'Connor", "team": "Decathlon AG2R La Mondiale Team", "gap": "+0:00" },
+    { "position": 5, "name": "Ethan Hayter", "team": "INEOS Grenadiers", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Dati's tactical masterclass denies Pidcock in Innsbruck",
+    "body": "A modest three-man break (Nolde, Dirnbauer, Zangerle) never threatened over the double ascent of the Gotzens climb (4 km at 7%), and the controlled pace kept the bunch largely intact for a sprint. Inside the final 5 km INEOS Grenadiers lit up a full lead-out on a short ramp into Innsbruck, then let a gap open for Thymen Arensman, who attacked solo with 4 km to go. The peloton only swallowed Arensman inside the final metres. Team Ukyo held their nerve: Tommaso Dati sat invisible in the draft until the last 150 metres of the Brandjochstraße finish, then accelerated out of Pidcock's slipstream to take a superb win — his second pro victory. Pidcock's lead-out was perfect but his sprint lacked the final pop. Dati took the first leader's jersey of the race."
+  },
+  "gcImpact": {
+    "headline": "Dati in the leader's jersey",
+    "body": "With the bunch finish leaving the GC favourites on the same time, bonus seconds put Tommaso Dati (Team Ukyo) into the first leader's jersey, with Tom Pidcock second and Florian Stork third overall. The race against the clock among the climbers had not yet begun — every GC threat was within seconds heading into the Val Martello summit finish."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Q36.5 Pro Cycling Team",
+      "role": "stage-hunter", "position": 2, "gap": "+0:00",
+      "narrative": "Returning from his Volta a Catalunya crash, Pidcock got a perfect lead-out onto the Brandjochstraße ramp but couldn't hold off Dati's slipstream acceleration in the final 150 metres. A near-miss on day one that hinted his form was already back — confirmed two days later with his Stage 3 win.",
+      "keyMoments": [{ "km": 0, "what": "Led the sprint from the front, edged by Dati in the last 150 m" }],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-of-the-alps-2026-stage-1-arensman-and-pidcock-near-miss-as-tomasso-dati-takes-breakthrough-win-on-opening-sprint", "publication": "CyclingUpToDate", "title": "Tour of the Alps 2026 Stage 1 — Dati takes breakthrough win", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-of-the-alps-tommaso-dati-beats-tom-pidcock-to-the-line-in-opening-stage-sprint-finish/", "publication": "Cyclingnews", "title": "Tour of the Alps: Tommaso Dati beats Tom Pidcock in opening stage", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-of-the-alps/2026/stage-1", "publication": "ProCyclingStats", "title": "Tour of the Alps 2026 Stage 1", "lang": "en" }
+  ]
+}
