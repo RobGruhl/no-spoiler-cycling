@@ -1,0 +1,73 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 7,
+  "stageName": "La Pola Llaviana/Pola de Laviana → L'Angliru",
+  "stageDate": "2026-05-09",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "On the legendary Angliru, Paula Blasi attacked the fading race leader Anna van der Breggen 3.7 km from the summit, overturning an 18-second deficit to win La Vuelta Femenina overall by 24 seconds. Petra Stiasny then caught and passed Blasi in the final kilometres for a stunning solo stage win; Blasi was second at 23 seconds.",
+  "podium": [
+    { "position": 1, "name": "Petra Stiasny", "team": "Human Powered Health", "time": "4h 09m 40s" },
+    { "position": 2, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+0:23" },
+    { "position": 3, "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United - SUEZ", "gap": "+0:43" },
+    { "position": 4, "name": "Marion Bunel", "team": "Team Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 5, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+0:59" }
+  ],
+  "narrative": {
+    "headline": "Blasi cracks Van der Breggen on the Angliru to steal the Vuelta",
+    "body": "The 132.9 km queen stage from Pola de Laviana finished atop the fearsome Alto de l'Angliru, with its 20%-plus ramps the perfect stage on which to overturn the 18-second GC deficit Paula Blasi carried into the day. A three-rider breakaway was swallowed up on the final climb, and as the gradients ramped up, riders including Marion Bunel, Petra Stiasny and Gaia Realini drove the pace to shred the front GC group.\n\nWhen race leader Anna van der Breggen began to struggle on the steepest ramps, Blasi pounced. She dropped the Dutchwoman roughly 3.7 km from the top and rode clear, gaining the time she needed to flip the general classification. Van der Breggen, in difficulty, ceded enough ground that her overnight lead evaporated.\n\nThe stage win, however, escaped Blasi: Petra Stiasny, climbing superbly, bridged across and then powered past her in the closing kilometres to take a stunning solo victory for Human Powered Health. Blasi crossed the line second at 23 seconds, more than content — she had finished 36 seconds ahead of Van der Breggen on the day, enough to claim the overall by 24 seconds."
+  },
+  "gcImpact": {
+    "headline": "Blasi wins La Vuelta Femenina by 24 seconds",
+    "body": "Paula Blasi (UAE Team ADQ) is the overall winner, finishing in 22:17:03 with Anna van der Breggen second at 24 seconds and Marion Bunel — also winner of the best young rider classification — third at 49 seconds. Usoa Ostolaza climbed to fourth at 2:31 and Juliette Berthet's superb Angliru ride lifted her to fifth at 2:36. Blasi also sealed the mountains classification, while Lotte Kopecky took the points jersey and SD Worx the team classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paula-blasi",
+      "name": "Paula Blasi",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:23",
+      "narrative": "Delivered the ride of her life. Starting the day 18 seconds down on Van der Breggen, Blasi waited for the steepest slopes of the Angliru, attacked when the race leader cracked around 3.7 km from the summit, and rode clear to overturn the GC. Though Petra Stiasny came past her late for the stage win, Blasi's second place put 36 seconds into Van der Breggen on the day — enough to win La Vuelta Femenina overall by 24 seconds, plus the mountains classification. A breakthrough Grand Tour victory for the 23-year-old.",
+      "keyMoments": [
+        { "km": 3.7, "what": "Attacked the fading race leader Van der Breggen near the top of the Angliru to seize the overall lead" },
+        { "km": 0, "what": "Finished 2nd on the stage, 36s ahead of Van der Breggen, to win the GC by 24s" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:59",
+      "narrative": "Carried an 18-second lead onto the Angliru but couldn't match Blasi's acceleration on the brutal upper ramps, cracking when it mattered and conceding the time that cost her the race. Fifth on the stage at 59 seconds dropped her to second overall by 24 seconds — an agonisingly narrow defeat after she had looked the strongest rider at Les Praeres a day earlier.",
+      "keyMoments": [
+        { "km": 3.7, "what": "Distanced by Blasi on the upper Angliru, losing the red jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juliette-berthet",
+      "name": "Juliette Berthet",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:43",
+      "narrative": "Saved her best for the Angliru, climbing to third on the stage and leaping all the way to fifth overall, the standout GC ride of FDJ United - SUEZ's race. After two anonymous days in the GC group, her finishing effort on the hardest climb of the race showed her form had peaked at exactly the right moment.",
+      "keyMoments": [
+        { "km": 0, "what": "Third on the Angliru, jumping to 5th overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-7/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 7 result and final GC", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-la-vuelta-femenina-2026-stage-7-paula-blasi-cracks-anna-van-der-breggen-in-incredible-gc-turnaround-on-angliru-as-petra-stiasny-takes-stunning-solo-stage-win", "publication": "Cycling Up To Date", "title": "Paula Blasi cracks Van der Breggen on the Angliru as Stiasny takes solo win", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/la-vuelta-femenina-gc-standings-2026/", "publication": "Cyclingnews", "title": "La Vuelta Femenina 2026 GC standings", "lang": "en" }
+  ]
+}

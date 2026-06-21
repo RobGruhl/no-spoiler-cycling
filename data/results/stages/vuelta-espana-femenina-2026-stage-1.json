@@ -1,0 +1,58 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 1,
+  "stageName": "Marín → Salvaterra de Miño",
+  "stageDate": "2026-05-03",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "La Vuelta Femenina opened in the wet around Galicia, and Noemi Rüegg timed the uphill drag to perfection, holding off Lotte Kopecky by four seconds to take the stage and the first red jersey. Franziska Koch was third. A late crash that briefly caught Marianne Vos disrupted the finale before the bunch came back together.",
+  "podium": [
+    { "position": 1, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly", "time": "2h 53m 50s" },
+    { "position": 2, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "gap": "+0:04" },
+    { "position": 3, "name": "Franziska Koch", "team": "FDJ United - SUEZ", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Rüegg pounces on the opening day in the rain",
+    "body": "The 113.9 km opener from Marín to Salvaterra de Miño was raced in wet conditions, and although several early moves went clear nothing was allowed to stick. The peloton stayed largely intact through the first half before the lumpy run-in began thinning the bunch inside the final 30 kilometres.\n\nFranziska Koch took the intermediate bonus sprint, and then the finale was thrown into chaos by a crash that involved Marianne Vos. A five-rider group briefly opened a gap in the confusion, but the move was reeled back with about 3 km to go, and Vos clawed her way back into the peloton with 2 km left, just as the lead-out trains assembled.\n\nOn the rising drag to the line Noemi Rüegg judged her effort best, kicking clear and holding off a fast-closing Lotte Kopecky by four seconds, with Koch third. Rüegg took the stage and the first red leader's jersey of the race."
+  },
+  "gcImpact": {
+    "headline": "Rüegg into red on day one",
+    "body": "Noemi Rüegg leads the general classification after taking the opening stage and the time bonus, with Kopecky and the rest of the favourites grouped just behind. The GC gaps are tiny — a handful of seconds from the stage time and bonifications — and the real selection is still days away in Asturias."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "noemi-ruegg",
+      "name": "Noemi Rüegg",
+      "team": "EF Education-Oatly",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Read the wet, punchy finale perfectly. Rüegg stayed out of trouble through a chaotic finish marked by a late crash, then produced the best kick on the uphill drag to Salvaterra de Miño to win by four seconds over Lotte Kopecky and pull on the first red jersey of the Vuelta. A statement opening to her race before the GC riders took over.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the uphill bunch finish to take stage 1 and the first red leader's jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lotte-kopecky",
+      "name": "Lotte Kopecky",
+      "team": "Team SD Worx - Protime",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:04",
+      "narrative": "Second on the opening day, beaten by four seconds by Rüegg on the rising finish. It set the tone for Kopecky's week: a constant presence in the sprints and reduced-bunch finales that would build into the points jersey.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "marianne-vos", "reason": "Caught in a late crash inside the final kilometres; chased back to the peloton with 2 km to go" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://www.lavueltafemenina.es", "publication": "La Vuelta Femenina (official)", "title": "Etapa 1 — Marín / Salvaterra de Miño", "lang": "es" }
+  ]
+}

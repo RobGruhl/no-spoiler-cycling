@@ -1,0 +1,60 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 6,
+  "stageName": "Gijón/Xixón → Les Praeres (Nava)",
+  "stageDate": "2026-05-08",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Anna van der Breggen seized the first Asturian summit finish, dropping everyone on the brutal Les Praeres wall to win solo and take the red leader's jersey. Paula Blasi resisted longest to take second at 18 seconds, and Marion Bunel was third — setting up an 18-second showdown on the Angliru.",
+  "podium": [
+    { "position": 1, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "time": "3h 01m 45s" },
+    { "position": 2, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+0:18" },
+    { "position": 3, "name": "Marion Bunel", "team": "Team Visma | Lease a Bike", "gap": "+0:41" }
+  ],
+  "narrative": {
+    "headline": "Van der Breggen conquers Les Praeres and takes red",
+    "body": "The 106.5 km stage from Gijón to the Les Praeres wall above Nava was raced in the wet, with multiple crashes thinning the field and forcing the abandon of Maeve Squiban. A four-rider breakaway was reeled in inside the final 10 km, setting up the GC showdown on the savage final climb.\n\nAnna van der Breggen raised the pace on the steep ramps of Les Praeres and quickly went clear. Paula Blasi and Marion Bunel hung on the longest before cracking, leaving Van der Breggen to ride solo to the stage win and the red leader's jersey. Blasi limited her losses to 18 seconds for second, with Bunel third at 41 seconds."
+  },
+  "gcImpact": {
+    "headline": "Van der Breggen leads, Blasi within 18 seconds",
+    "body": "Anna van der Breggen took over the overall lead with her Les Praeres win, but the gap to the podium was small: Paula Blasi sat just 18 seconds back in second, with young Marion Bunel third. With only the queen stage to the Angliru remaining, the GC was wide open — 18 seconds was nothing on a climb as brutal as the Angliru, and Blasi made clear she would attack."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Produced the ride of the race so far, attacking on the vicious Les Praeres wall and distancing every GC rival to win solo and take the red jersey. After her late-career return, it looked like the platform for an overall victory — she led Blasi by 18 seconds with one stage to go. The Angliru would prove a step too far against the climbing of Blasi.",
+      "keyMoments": [
+        { "km": 0, "what": "Attacked on the Les Praeres wall, soloed to the win and took the red leader's jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paula-blasi",
+      "name": "Paula Blasi",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:18",
+      "narrative": "Resisted Van der Breggen the longest on Les Praeres and limited her loss to just 18 seconds — a hugely important margin, because it kept the overall within reach for the final summit finish. Second on the stage moved her to second overall and set up her decisive Angliru attack 24 hours later.",
+      "keyMoments": [
+        { "km": 0, "what": "Last rider to hold Van der Breggen's wheel; conceded only 18s to stay in GC contention" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": null, "reason": "Maeve Squiban (UAE Team ADQ) abandoned after a crash in the wet" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-6/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 6 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/la-vuelta-femenina-stage-6-live-gc-contenders-to-do-battle-in-asturias-on-first-of-two-mountain-top-finishes/", "publication": "Cyclingnews", "title": "La Vuelta Femenina stage 6 — Les Praeres", "lang": "en" }
+  ]
+}

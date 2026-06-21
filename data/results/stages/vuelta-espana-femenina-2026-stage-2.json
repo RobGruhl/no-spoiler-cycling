@@ -1,0 +1,48 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 2,
+  "stageName": "Lobios → San Cibrao das Viñas",
+  "stageDate": "2026-05-04",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Shari Bossuyt won a reduced bunch sprint in San Cibrao das Viñas ahead of Franziska Koch and Évita Muzic. The day's big story came earlier: race leader Noemi Rüegg crashed and abandoned, handing the red jersey to Koch.",
+  "podium": [
+    { "position": 1, "name": "Shari Bossuyt", "team": "AG Insurance - Soudal Team", "time": "2h 55m 50s" },
+    { "position": 2, "name": "Franziska Koch", "team": "FDJ United - SUEZ", "gap": "s.t." },
+    { "position": 3, "riderId": "evita-muzic", "name": "Évita Muzic", "team": "FDJ United - SUEZ", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Bossuyt sprints to victory as Rüegg crashes out of the lead",
+    "body": "After a calm start to the 109.8 km stage from Lobios to San Cibrao das Viñas, a five-rider breakaway formed but was hauled back at the start of the finale. The decisive incident came when race leader Noemi Rüegg crashed and was forced to abandon, ending her hold on the red jersey just a day after winning it.\n\nAttacks on the final climb came to nothing, and the day was settled in a reduced bunch sprint. Shari Bossuyt was quickest, beating Franziska Koch and Évita Muzic to the line. With Rüegg out, Koch's second place lifted her into the overall lead."
+  },
+  "gcImpact": {
+    "headline": "Koch inherits the red jersey",
+    "body": "With Noemi Rüegg abandoning after a crash, Franziska Koch (FDJ United - SUEZ) moved into the overall lead on the back of her second place and bonus seconds. The GC remained tightly bunched among the puncheurs and sprinters, with the mountains still to come deciding the real classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "evita-muzic",
+      "name": "Évita Muzic",
+      "team": "FDJ United - SUEZ",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Third in the reduced sprint behind Bossuyt and her own teammate Koch, picking up bonus seconds and keeping FDJ United - SUEZ in control of the race lead. Muzic stayed near the front through the hilly Galician stages as the team rode for both Koch's jersey and her own GC ambitions.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "noemi-ruegg", "reason": "Crashed and abandoned while in the red leader's jersey" }
+    ],
+    "abandons": [
+      { "riderId": "noemi-ruegg", "reason": "Did not finish after a crash; lost the race lead" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://www.lavueltafemenina.es", "publication": "La Vuelta Femenina (official)", "title": "Etapa 2 — Lobios / San Cibrao das Viñas", "lang": "es" }
+  ]
+}

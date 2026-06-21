@@ -1,0 +1,54 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 4,
+  "stageName": "Monforte de Lemos → Antas de Ulla",
+  "stageDate": "2026-05-06",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Lotte Kopecky finally converted her week of podiums into a win, leading home an SD Worx one-two ahead of Anna van der Breggen in Antas de Ulla. The victory and bonus seconds put Kopecky into the red leader's jersey.",
+  "podium": [
+    { "position": 1, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "time": "3h 07m 11s" },
+    { "position": 2, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 3, "name": "Letizia Paternoster", "team": "Liv AlUla Jayco", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Kopecky wins from an SD Worx one-two and takes red",
+    "body": "The 114 km stage from Monforte de Lemos to Antas de Ulla was animated by a two-rider attack that was later joined by two more solo riders, with Allione mopping up the mountain points to take over the QOM jersey. Hanson and Jaskulska were the last escapees to be caught before the bunch sprint.\n\nIt came down to a reduced bunch sprint, and Team SD Worx - Protime controlled it perfectly: Lotte Kopecky took the win ahead of teammate Anna van der Breggen, with Letizia Paternoster third. The victory and its time bonus moved Kopecky into the red leader's jersey."
+  },
+  "gcImpact": {
+    "headline": "Kopecky into red, SD Worx in command",
+    "body": "Lotte Kopecky took over the overall lead courtesy of the stage win and bonus seconds, with SD Worx now holding the red jersey and looking dominant in the run to the mountains. With two summit finishes still to come in Asturias, the GC battle was set to be reshaped entirely, but for now the Belgian led and her teammate Van der Breggen sat poised among the favourites."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "lotte-kopecky",
+      "name": "Lotte Kopecky",
+      "team": "Team SD Worx - Protime",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "After three near-misses, Kopecky finally won, taking the reduced sprint in Antas de Ulla ahead of teammate Van der Breggen to claim the stage and the red leader's jersey. It was the centrepiece of the points-classification campaign she would carry all the way to the green jersey in Madrid-style fashion on the Angliru.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the reduced bunch sprint and moved into the red leader's jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Second behind her own teammate, a tidy result that kept the SD Worx GC leader near the top of the standings and within striking distance heading into the decisive mountain stages. Van der Breggen was clearly the team's protected rider for the overall, with Kopecky free to chase stages and points.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.lavueltafemenina.es", "publication": "La Vuelta Femenina (official)", "title": "Etapa 4 — Monforte de Lemos / Antas de Ulla", "lang": "es" }
+  ]
+}

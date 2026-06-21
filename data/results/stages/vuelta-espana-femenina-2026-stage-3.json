@@ -1,0 +1,65 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 3,
+  "stageName": "Padrón → A Coruña",
+  "stageDate": "2026-05-05",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Cédrine Kerbaol turned the flattest stage of the race into a late-attack win, jumping clear with 2 km to go in A Coruña and holding off Lotte Kopecky and Sarah Van Dam. Bonus seconds again shuffled the tight GC.",
+  "podium": [
+    { "position": 1, "riderId": "cedrine-kerbaol", "name": "Cédrine Kerbaol", "team": "EF Education-Oatly", "time": "3h 14m 17s" },
+    { "position": 2, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "gap": "+0:04" },
+    { "position": 3, "riderId": "sarah-van-dam", "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Kerbaol attacks late to deny the sprinters in A Coruña",
+    "body": "The 121.2 km run from Padrón to A Coruña was the flattest stage on the route and looked destined for a bunch finish. Felicity Wilson-Haffenden and Sterre Vervloet attacked from the gun, with Wilson-Haffenden eventually going solo before being recaptured after the intermediate sprint.\n\nThe finale was lit up by constant attacks from the peloton, and it was Cédrine Kerbaol who read it best, launching a decisive move roughly 2 km from the line. She held off the chasers to take the win ahead of Lotte Kopecky and Sarah Van Dam, with the sprinters denied a clean run to the line."
+  },
+  "gcImpact": {
+    "headline": "GC stays bunched before the mountains",
+    "body": "The overall remained tight and bonus-second-driven heading out of Galicia. Kopecky continued to bank seconds with another podium, while the climbers — including Paula Blasi, who finished safely in the front group in fifth — bided their time for the Asturian mountain finishes on stages 6 and 7 that would decide the race."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "cedrine-kerbaol",
+      "name": "Cédrine Kerbaol",
+      "team": "EF Education-Oatly",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Showed her trademark aggression on the one genuinely flat day of the race, attacking around 2 km from the finish in A Coruña and timing it so well the bunch never closed her down. The win gave EF Education-Oatly a second stage of the week after Rüegg's opener and underlined Kerbaol's knack for stealing victories from punchy finales.",
+      "keyMoments": [
+        { "km": 2, "what": "Launched the decisive late attack and held off the chase to win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lotte-kopecky",
+      "name": "Lotte Kopecky",
+      "team": "Team SD Worx - Protime",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:04",
+      "narrative": "Another runner-up finish, four seconds back, as Kerbaol's late move stuck. Kopecky kept accumulating high finishes and bonus seconds that were quietly building toward the green points jersey she would seal by the end of the week.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "sarah-van-dam",
+      "name": "Sarah Van Dam",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Third in A Coruña, a strong result for the young Visma rider on a day the sprinters expected to control. Van Dam was consistently near the front through the opening Galician stages as Visma split duties between her finishes and Marion Bunel's GC campaign.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://www.lavueltafemenina.es", "publication": "La Vuelta Femenina (official)", "title": "Etapa 3 — Padrón / A Coruña", "lang": "es" }
+  ]
+}

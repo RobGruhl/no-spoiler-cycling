@@ -1,0 +1,59 @@
+{
+  "raceId": "vuelta-espana-femenina-2026",
+  "stageNumber": 5,
+  "stageName": "León → Astorga",
+  "stageDate": "2026-05-07",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Mischa Bredewold completed an SD Worx sprint masterclass in Astorga, winning the stage with leader Lotte Kopecky as her lead-out and finishing second. The big GC scare came when Anna van der Breggen was caught in a major crash but was awarded the same finish time.",
+  "podium": [
+    { "position": 1, "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime", "time": "2h 54m 07s" },
+    { "position": 2, "riderId": "lotte-kopecky", "name": "Lotte Kopecky", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 3, "name": "Letizia Paternoster", "team": "Liv AlUla Jayco", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "SD Worx double up as Bredewold wins from Kopecky's lead-out",
+    "body": "On the transitional 119.6 km stage from León to Astorga — the race leaving Galicia for León province — three Spanish riders attacked early and were later joined by two more. Alice Coutinho swept both KOM sprints to take over the mountains jersey from a teammate.\n\nThe day was not without drama: Letizia Paternoster crashed but remounted and recovered, while race leader Anna van der Breggen was caught in a major crash, though she was awarded the same finish time. The sprint itself was an SD Worx clinic — Lotte Kopecky delivered the lead-out and then finished second behind teammate Mischa Bredewold, with Paternoster third."
+  },
+  "gcImpact": {
+    "headline": "GC intact ahead of the Asturian double",
+    "body": "Despite the late crashes, the GC favourites all finished on the same time, leaving the overall unchanged going into the mountain finishes. The red jersey stayed within the SD Worx camp and Anna van der Breggen — protected for the GC — emerged with her position intact, setting up the queen stages at Les Praeres and the Angliru as the decisive battleground."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mischa-bredewold",
+      "name": "Mischa Bredewold",
+      "team": "Team SD Worx - Protime",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Took the biggest sprint win of the week off a perfect lead-out from her own race leader Lotte Kopecky, who then rolled in second. It capped a dominant team performance on the flat stages and gave SD Worx a third stage win of the race before the mountains arrived.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the bunch sprint with Kopecky leading her out, SD Worx 1-2" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": null,
+      "gap": "s.t.",
+      "narrative": "Caught in a major crash late in the stage but awarded the same finish time, so her GC position was unaffected. It was an anxious moment for the SD Worx GC plan, but Van der Breggen came through unscathed and would take the red jersey two days later at Les Praeres.",
+      "keyMoments": [],
+      "incident": "Involved in a major late crash but given the same finish time as the bunch"
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "anna-van-der-breggen", "reason": "Major late crash; awarded same finish time" },
+      { "riderId": null, "reason": "Letizia Paternoster crashed but remounted and recovered" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-5/result/result", "publication": "ProCyclingStats", "title": "La Vuelta Femenina 2026 Stage 5 result", "lang": "en" },
+    { "url": "https://www.lavueltafemenina.es", "publication": "La Vuelta Femenina (official)", "title": "Etapa 5 — León / Astorga", "lang": "es" }
+  ]
+}
