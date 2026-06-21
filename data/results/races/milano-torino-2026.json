@@ -1,0 +1,108 @@
+{
+  "raceId": "milano-torino-2026",
+  "raceName": "Milano-Torino",
+  "raceDate": "2026-03-18",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Tom Pidcock won the 106th Milano-Torino on his debut, timing a perfectly judged attack with around 600 metres to go on the steep slopes of Superga to drop a select group of climbers. Tobias Halland Johannessen (Uno-X Mobility) limited his losses to take second at four seconds, with Primož Roglič (Red Bull - BORA - hansgrohe) third after driving much of the earlier selection. Italy's oldest classic, 174 km from Rho to the Superga summit above Turin.",
+  "podium": [
+    { "position": 1, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello - Q36.5 Pro Cycling Team", "time": "3h 48m 45s" },
+    { "position": 2, "riderId": null, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+0:04" },
+    { "position": 3, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:05" },
+    { "position": 4, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:11" },
+    { "position": 5, "riderId": null, "name": "Cian Uijtdebroeks", "team": "Movistar Team", "gap": "+0:13" },
+    { "position": 6, "riderId": null, "name": "Jefferson Alexander Cepeda", "team": "EF Education - EasyPost", "gap": "+0:15" },
+    { "position": 7, "riderId": null, "name": "Sebastian Berwick", "team": "Caja Rural - Seguros RGA", "gap": "+0:18" },
+    { "position": 8, "riderId": "lorenzo-fortunato", "name": "Lorenzo Fortunato", "team": "XDS Astana Team", "gap": "+0:25" },
+    { "position": 9, "riderId": null, "name": "Alessandro Fancellu", "team": "MBH Bank CSB Telecom Fort", "gap": "+0:36" },
+    { "position": 10, "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team", "gap": "+0:41" }
+  ],
+  "narrative": {
+    "headline": "Pidcock picks his moment on Superga to win on debut",
+    "openingMoves": "The 106th Milano-Torino ran 174 km from Rho, north-west of Milan, to the climb of Superga above Turin. A six-rider breakaway controlled the early kilometres before being gradually reeled in by a combination of Pinarello Q36.5, Red Bull - BORA - hansgrohe and UAE Team Emirates - XRG, setting up a finale on the repeated ascents of Superga.",
+    "raceUnfolds": "As the peloton reached the first ascent of Superga the race intensified rapidly. Roglič accelerated on the steepest ramps, forcing an immediate selection and reducing the field to a small group of contenders. Even before the final climb the race was fracturing: Pidcock and Cian Uijtdebroeks both launched aggressive moves during the transition phase, trying to avoid a controlled finish. Adrien Boichis then attacked clear, briefly handing Red Bull a tactical advantage with Roglič sitting on, before being caught just before the last climb.",
+    "decision": "On the final climb the repeated changes of pace thinned the front group. Roglič kept testing with accelerations while Movistar briefly took control to stabilise the pace for Uijtdebroeks. Inside the final two kilometres the race split again into a select group of Pidcock, Roglič, Johannessen and Uijtdebroeks, with Pellizzari among those losing contact under the sustained pressure.",
+    "finale": "Roglič lifted the tempo inside the final kilometre and Uijtdebroeks countered, but neither created a gap. Pidcock chose his moment best, launching with around 600 metres to go and opening daylight on the steep gradient that nobody could close. Johannessen limited his losses to take second at four seconds, Roglič third at five."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0.6, "location": "Superga, final ramp", "headline": "Pidcock's winning attack", "description": "After Roglič and Uijtdebroeks failed to open a gap with their late moves, Pidcock launched with roughly 600 m remaining on the steep gradient and immediately rode clear, holding to the line for the win on debut." },
+    { "kmFromFinish": 2, "location": "Superga, final climb", "headline": "The decisive selection forms", "description": "Inside the last two kilometres the front group split to Pidcock, Roglič, Johannessen and Uijtdebroeks; Giulio Pellizzari and the other survivors lost contact under repeated accelerations." }
+  ],
+  "teamStories": [
+    {
+      "team": "Pinarello - Q36.5 Pro Cycling Team",
+      "verdict": "Pidcock wins on debut",
+      "verdictClass": "win",
+      "narrative": "Pidcock made his Milano-Torino debut count, with the team helping control the early break before he rode the Superga finale as an aggressor and then delivered the perfectly timed winning move. A statement result on Italy's oldest classic ahead of the spring's bigger one-day objectives.",
+      "riderIds": ["tom-pidcock"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Roglič third, two in top four",
+      "verdictClass": "neutral",
+      "narrative": "Red Bull animated the climb, with Roglič repeatedly forcing the selection on Superga and Adrien Boichis attacking to give the team a tactical card. Roglič's accelerations shaped the race but could not shake Pidcock, and he had to settle for third; Pellizzari backed him up in fourth, a strong collective ride that lacked the final kick.",
+      "riderIds": ["primoz-roglic", "giulio-pellizzari"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Johannessen second",
+      "verdictClass": "neutral",
+      "narrative": "Tobias Halland Johannessen was the strongest in pursuit when Pidcock went clear, chasing across the final 600 metres to take second at four seconds. A standout result for the Norwegian ProTeam on a parcours that suited the pure climbers.",
+      "riderIds": []
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Uijtdebroeks fifth, active finale",
+      "verdictClass": "neutral",
+      "narrative": "Movistar raced aggressively around Cian Uijtdebroeks, who was among the most active on the Superga climbs and briefly had teammates control the pace for him. He countered Roglič inside the final kilometre but couldn't match Pidcock's acceleration, finishing fifth at thirteen seconds.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello - Q36.5 Pro Cycling Team",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Pidcock raced the Superga finale on the front foot, throwing in attacks during the transition phase to keep the race honest rather than waiting for a controlled sprint. When Roglič and Uijtdebroeks both failed to make their late moves stick inside the final kilometre, he held his nerve and launched with around 600 metres to go, opening an immediate gap on the steep gradient that no one could close. A debut win at Italy's oldest classic.",
+      "keyMoments": [
+        { "km": 2, "what": "Among the active riders forcing the decisive selection on the final climb" },
+        { "km": 0.6, "what": "Launched the winning attack and rode clear to the line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "helper", "position": 4, "gap": "+0:11",
+      "narrative": "Pellizzari was part of the lead group through the repeated Superga accelerations but lost contact with the very front quartet inside the final two kilometres as the pace told. He recovered to take fourth at eleven seconds, capping a strong Red Bull collective effort behind Roglič.",
+      "keyMoments": [
+        { "km": 2, "what": "Lost contact with the leading group of four under sustained pressure" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-storer", "name": "Michael Storer", "team": "Tudor Pro Cycling Team",
+      "role": "leader", "position": 10, "gap": "+0:41",
+      "narrative": "Storer survived the Superga selection to finish just inside the top ten at forty-one seconds, the best of the Tudor riders on a climber's day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 11, "gap": "+0:41",
+      "narrative": "Christen led UAE's effort on the Superga finale and came home eleventh, just outside the top ten. The young Swiss was in the mix through the climbs but lacked the legs of the leading group on the steepest gradients.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "An aggressive Superga finale rewards the boldest move",
+    "quotes": [],
+    "body": "Milano-Torino, the oldest of the Italian classics, increasingly serves as a pure climbers' test on its Superga finishing circuit, and the 2026 edition delivered a relentlessly aggressive finale. Roglič and Red Bull tried to control it with raw power, Uijtdebroeks and Movistar with numbers, but the day went to the rider who picked the cleanest moment. For Pidcock it was a debut win that signalled strong climbing legs heading into the heart of the spring."
+  },
+  "sources": [
+    { "url": "https://cyclingflash.com/race/milano-torino-2026/result", "publication": "CyclingFlash", "title": "Milano - Torino 2026 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/milano-torino/2026/result", "publication": "ProCyclingStats", "title": "106th Milano - Torino 2026 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-milano-torino-2026-powerful-tom-pidcock-takes-victory-ahead-of-johannessen-and-roglic-with-perfectly-timed-late-move", "publication": "CyclingUpToDate", "title": "Results Milano-Torino 2026 | Powerful Tom Pidcock takes victory ahead of Johannessen and Roglic", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/milano-torino-tom-pidcock-wins-superga-battle-to-seal-victory-on-debut/", "publication": "Cyclingnews", "title": "Milano-Torino: Tom Pidcock wins Superga battle on debut", "lang": "en" }
+  ]
+}
