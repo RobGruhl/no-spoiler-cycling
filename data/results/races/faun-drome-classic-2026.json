@@ -1,0 +1,138 @@
+{
+  "raceId": "faun-drome-classic-2026",
+  "raceName": "Faun Drôme Classic",
+  "raceDate": "2026-03-01",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Romain Grégoire out-kicked Matteo Jorgenson in a two-man uphill sprint in Étoile-sur-Rhône to win the 2026 Faun Drôme Classic. The pair had escaped on the steep Mur d'Allex inside the final 15 km and held off the chase; Lenny Martinez led the small group home two seconds back for third. The result handed Groupama-FDJ United a polished win on the Drôme's wall-heavy parcours the day after the Faun-Ardèche Classic.",
+  "podium": [
+    { "position": 1, "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United", "time": "4h 14m 11s" },
+    { "position": 2, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike", "gap": "+0:00" },
+    { "position": 3, "riderId": "lenny-martinez", "name": "Lenny Martinez", "team": "Bahrain - Victorious", "gap": "+0:02" },
+    { "position": 4, "riderId": null, "name": "Quinten Hermans", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "+0:02" },
+    { "position": 5, "riderId": null, "name": "Paul Lapeira", "team": "Decathlon CMA CGM Team", "gap": "+0:02" },
+    { "position": 6, "riderId": null, "name": "Dorian Godon", "team": "INEOS Grenadiers", "gap": "+0:02" },
+    { "position": 7, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:02" },
+    { "position": 8, "riderId": null, "name": "Alex Aranburu", "team": "Cofidis", "gap": "+0:02" },
+    { "position": 9, "riderId": null, "name": "Lukas Nerurkar", "team": "EF Education - EasyPost", "gap": "+0:02" },
+    { "position": 10, "riderId": null, "name": "Clément Venturini", "team": "Unibet Rose Rockets", "gap": "+0:10" }
+  ],
+  "narrative": {
+    "headline": "Grégoire times the uphill sprint to beat Jorgenson in Étoile-sur-Rhône",
+    "openingMoves": "189 km around Étoile-sur-Rhône, the Drôme's punchy answer to the previous day's Faun-Ardèche Classic: 17 categorised climbs and more than 2,200 m of climbing on repeated short, steep walls. An early breakaway went clear and was steadily reeled back through the middle of the race as the wall-after-wall attrition began to bite.",
+    "raceUnfolds": "With the break gone, the elite selection formed on the longer climbs in the closing circuits. A flurry of attacks lit up the final 20 km, the bunch already cut to around 40 riders by the cumulative effect of the climbing. None of the early moves stuck until the race reached its decisive wall.",
+    "decision": "The winning move came on the Mur d'Allex — 0.6 km at 8.6% — inside the final 15 km. Matteo Jorgenson accelerated and only Romain Grégoire could follow; the two immediately carved out a gap of around 25 seconds. Bridging attempts from behind lacked cohesion and the duo took their advantage into the last 10 km.",
+    "finale": "The final climb of Étoile-sur-Rhône, 1 km at 5.6%, was the last chance to break the deadlock, but neither rider could shake the other and they resumed working together over the top. Entering the last kilometre with Grégoire on his wheel, Jorgenson led out the two-up sprint on the uphill finish; Grégoire came off the wheel and edged ahead in the final metres. Lenny Martinez led the chase group home two seconds down for third, just ahead of Quinten Hermans and Paul Lapeira."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 14, "location": "Mur d'Allex (0.6 km @ 8.6%)", "headline": "Jorgenson and Grégoire spring clear", "description": "On the steep Mur d'Allex inside the final 15 km, Jorgenson attacked and only Grégoire could go with him. The pair opened around 25 seconds almost instantly; disorganised chasing behind let the gap hold into the closing kilometres." },
+    { "kmFromFinish": 1, "location": "Final climb, Étoile-sur-Rhône (1 km @ 5.6%)", "headline": "Deadlock survives the last wall", "description": "Neither leader could drop the other on the final 5.6% rise, so they kept collaborating over the crest, ensuring the winner would come from the two-man move rather than the chasers." },
+    { "kmFromFinish": 0, "location": "Uphill finish, Étoile-sur-Rhône", "headline": "Grégoire out-kicks Jorgenson", "description": "Jorgenson led out the uphill two-up sprint with Grégoire glued to his wheel; the Frenchman came past in the final metres to take the win by a bike length on the same time." }
+  ],
+  "teamStories": [
+    {
+      "team": "Groupama - FDJ United",
+      "verdict": "Grégoire wins the wall sprint",
+      "verdictClass": "win",
+      "narrative": "Groupama-FDJ United landed the marquee result of the Drôme-Ardèche weekend through Romain Grégoire, who read the finale perfectly: he covered Jorgenson's decisive Mur d'Allex move, shared the work to keep the chase at bay, then beat the Visma rider in the uphill two-up sprint. A win built on patience and positioning rather than spectacle, and a confidence-builder for the 23-year-old Frenchman early in the Classics season.",
+      "riderIds": ["romain-gregoire1"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Jorgenson shapes finale, second",
+      "verdictClass": "neutral",
+      "narrative": "Matteo Jorgenson was the aggressor who made the race: his attack on the Mur d'Allex created the winning two-man move and forced everyone else to chase. He couldn't quite finish it off, leading out the uphill sprint only for Grégoire to come off his wheel in the final metres. An active, front-of-race ride that just missed the win.",
+      "riderIds": ["matteo-jorgenson"]
+    },
+    {
+      "team": "Bahrain - Victorious",
+      "verdict": "Martinez best of the rest",
+      "verdictClass": "neutral",
+      "narrative": "Lenny Martinez was the strongest of the chasers, leading the reduced group home two seconds behind the leaders to round out the podium in third. The young climber couldn't get across to the Grégoire–Jorgenson move once it went on the Mur d'Allex, but salvaged a podium from the disorganised pursuit behind.",
+      "riderIds": ["lenny-martinez"]
+    },
+    {
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "verdict": "Hermans fourth in the chase",
+      "verdictClass": "neutral",
+      "narrative": "Quinten Hermans was again prominent in a hilly finale, taking fourth at the head of the chase group two seconds down. The Belgian puncheur survived the 17 climbs and contested the sprint for the minor placings, but the decisive move had already gone clear on the Mur d'Allex.",
+      "riderIds": []
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Lapeira completes the top five",
+      "verdictClass": "neutral",
+      "narrative": "Paul Lapeira was in the front group throughout the demanding finale and took fifth on the same time as the chase, just behind Hermans. A solid early-season ride on home roads, though the team couldn't put a rider into the two-up move that decided the race.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "romain-gregoire1",
+      "name": "Romain Grégoire",
+      "team": "Groupama - FDJ United",
+      "role": "leader",
+      "position": 1,
+      "gap": "+0:00",
+      "narrative": "Grégoire rode a patient, opportunistic race. Rather than forcing the issue on the early walls, he waited for the decisive selection, then was the only rider able to follow Jorgenson's acceleration on the Mur d'Allex with about 14 km to go. He shared the work in the two-man move to hold off the chase, sat on Jorgenson's wheel through the final climb and into the last kilometre, then produced the sharper finish to take the uphill sprint. A win defined by timing and positioning, and an early-season statement from the 23-year-old.",
+      "keyMoments": [
+        { "km": 14, "what": "Followed Jorgenson's attack on the Mur d'Allex — the only rider who could go with it" },
+        { "km": 0, "what": "Came off Jorgenson's wheel to win the two-up uphill sprint by a bike length" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Jorgenson was the most aggressive rider in the finale. He lit the decisive move on the Mur d'Allex inside the final 15 km, immediately opening around 25 seconds with only Grégoire for company. He drove the break to keep the chasers at arm's length and led out the uphill sprint, but Grégoire came past in the final metres and he had to settle for second on the same time. An attacking ride that made the race without the reward.",
+      "keyMoments": [
+        { "km": 14, "what": "Attacked on the Mur d'Allex to create the winning two-man move" },
+        { "km": 0, "what": "Led out the uphill sprint but was edged on the line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martinez",
+      "team": "Bahrain - Victorious",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:02",
+      "narrative": "Martinez was the strongest of the chasers once the Grégoire–Jorgenson move went clear. Unable to bridge across on the Mur d'Allex, he marshalled the reduced front group and led it home two seconds down to claim third, beating Hermans and Lapeira in the sprint for the minor placings. A podium that confirms the young climber's early-season form on a punchy parcours.",
+      "keyMoments": [
+        { "km": 0, "what": "Led the chase group across the line for third, two seconds behind the leaders" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 7,
+      "gap": "+0:02",
+      "narrative": "Scaroni was again well-placed in a hilly finale, surviving the 17 climbs to make the front group and finish seventh on the same time as the chase. He couldn't follow the decisive Mur d'Allex move but was active in the closing kilometres, adding another top-ten classics result for XDS Astana early in the season.",
+      "keyMoments": [
+        { "km": 0, "what": "Sprinted to seventh in the chase group, two seconds down" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A patient win to bookend the Drôme-Ardèche weekend",
+    "quotes": [],
+    "body": "Where the Faun-Ardèche Classic the day before had been settled by a long-range solo, the Drôme Classic was decided by collective aggression and a single well-timed move. The repeated short walls and the 2,200 m of climbing steadily thinned the field before the Mur d'Allex provided the launchpad, and from there it became a tactical two-up affair. For Grégoire it was a victory built on patience and positioning — a reminder that on the Drôme's walls, timing often outweighs brute force — and an encouraging marker of form heading deeper into the spring."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/la-drome-classic/2026/result", "publication": "ProCyclingStats", "title": "La Drôme Classic 2026 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-faun-drome-classic-2026-romain-gregoire-outkicks-matteo-jorgenson-to-win-in-dramatic-finale", "publication": "Cycling Up To Date", "title": "Romain Grégoire outkicks Matteo Jorgenson to win in dramatic finale", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/faun-drome-classic/2026/race-results/", "publication": "Domestique Cycling", "title": "Faun Drôme Classic 2026 race results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_La_Dr%C3%B4me_Classic", "publication": "Wikipedia", "title": "2026 La Drôme Classic", "lang": "en" },
+    { "url": "https://www.teamvismaleaseabike.com/race-report/news/jorgenson-just-misses-out-on-victory-at-faun-dr%C3%B4me-classic/", "publication": "Team Visma | Lease a Bike", "title": "Jorgenson just misses out on victory at Faun Drôme Classic", "lang": "en" }
+  ]
+}
