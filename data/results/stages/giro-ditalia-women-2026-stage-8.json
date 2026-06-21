@@ -1,0 +1,99 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 8,
+  "stageName": "Rivoli → Colle delle Finestre",
+  "stageDate": "2026-06-06",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "On a queen stage shortened from a planned 106 km Sestriere finish to 77.4 km — cut to a makeshift line near the Colle delle Finestre summit after an unstable ice block forced a re-route — Demi Vollering attacked repeatedly on the gravel and won ahead of Holmgren, Niedermaier and van der Breggen, all within a second. Van der Breggen held pink but carried only +0:49 into the final stage.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "2h 27m 47s" },
+    { "position": 2, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+0:01" },
+    { "position": 3, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM", "gap": "+0:01" },
+    { "position": 4, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+0:01" },
+    { "position": 5, "riderId": null, "name": "Femke de Vries", "team": "Team Visma | Lease a Bike", "gap": "+0:53" },
+    { "position": 6, "riderId": "marlen-reusser", "name": "Marlen Reusser", "team": "Movistar Team", "gap": "+0:56" },
+    { "position": 7, "riderId": null, "name": "Lauren Dickson", "team": "FDJ United - SUEZ", "gap": "+1:09" },
+    { "position": 8, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+1:38" },
+    { "position": 9, "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek", "gap": "+1:46" },
+    { "position": 10, "riderId": null, "name": "Valentina Cavallar", "team": "Team SD Worx - Protime", "gap": "+2:17" }
+  ],
+  "narrative": {
+    "headline": "Vollering wins on the Finestre as the queen stage is cut short",
+    "body": "The queen stage from Rivoli was due to run 106 km over the Colle delle Finestre to a summit finish at Sestriere, but an unstable ice block roughly 150 m above the route near the Finestre summit forced organisers to shorten it dramatically — to 77.4 km, finishing at a makeshift line about a kilometre below the Finestre's gravel summit.\n\nAfter a flat opening, the favourites caught the break on the lower slopes of the 18.1 km Finestre. FDJ - SUEZ again drove the front, with Célia Gery and Lauren Dickson setting a pace that dropped Reusser and Lore De Schepper. Van der Breggen lost her last helper, Valentina Cavallar, around 36 km out and was left isolated. On the gravel, Vollering attacked repeatedly; only van der Breggen, Niedermaier and Holmgren could follow.\n\nWith news of the shortened finish reaching the riders, van der Breggen led to defend, but Vollering surged again inside the final 2 km and won the sprint to the makeshift line for her second stage win, with Holmgren, Niedermaier and van der Breggen all credited at +0:01. The finish was chaotic and foggy — soigneurs were not in place at the relocated line, and teams scrambled to look after their finishers."
+  },
+  "gcImpact": {
+    "headline": "Van der Breggen holds pink, +0:49 over Vollering into the final day",
+    "body": "GC after Stage 8: van der Breggen retained the maglia rosa, with Vollering 2nd at +0:49, Niedermaier 3rd at +1:20, Holmgren 4th at +1:55, Reusser 5th at +2:58, de Vries 6th at +3:30, Longo Borghini 7th at +3:44, Fisher-Black 8th at +4:18. The bonus seconds and the makeshift finish left van der Breggen with a slim cushion of under a minute over Vollering for the final mountain stage."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering",
+      "name": "Demi Vollering",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won the shortened queen stage with relentless gravel attacks on the Finestre, but could only shake van der Breggen at the line — leaving her +0:49 down going into the final stage. Her second win of the race and the launchpad for the next day's overall-winning raid.",
+      "keyMoments": [
+        { "km": 2, "what": "Surged again inside the final 2 km to win the sprint to the makeshift line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:01",
+      "narrative": "Isolated from ~36 km out after losing helper Cavallar, she still followed every Vollering attack on the Finestre to limit the damage to a single second and keep the maglia rosa. A defensive masterclass that protected a +0:49 lead into the last day.",
+      "keyMoments": [
+        { "km": 36, "what": "Lost final helper Cavallar but tracked Vollering's attacks solo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier",
+      "name": "Antonia Niedermaier",
+      "team": "CANYON//SRAM",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:01",
+      "narrative": "Third on the stage in the four-rider lead group, holding 3rd overall and setting up her final-day attack.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Marlen Reusser",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:56",
+      "narrative": "Dropped early on the Finestre by FDJ's pace, conceding nearly a minute and slipping further down GC.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 8,
+      "gap": "+1:38",
+      "narrative": "Distanced on the gravel, finishing 8th at +1:38 — but still well-placed to attack on the final stage, which she would.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "notes": "Stage shortened from 106 km (planned Sestriere finish) to 77.4 km due to an unstable ice block ~150 m above the route near the Finestre summit; finish relocated to a makeshift line ~1 km below the summit. Chaotic, foggy finish with soigneurs not in place."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-stage-8-demi-vollering-takes-win-as-race-shortened-to-finish-on-finestre-over-unstable-ice", "publication": "CyclingUpToDate", "title": "Stage 8: Vollering takes win as race shortened to finish on Finestre over unstable ice", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-8/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 8 result", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/racing/demi-vollering-wins-atop-colle-delle-finestre-on-shortened-giro-ditalia-women-queen-stage", "publication": "Cycling Weekly", "title": "Vollering wins atop Colle delle Finestre on shortened queen stage", "lang": "en" }
+  ]
+}

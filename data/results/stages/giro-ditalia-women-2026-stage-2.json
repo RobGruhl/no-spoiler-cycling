@@ -1,0 +1,71 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 2,
+  "stageName": "Roncade → Caorle",
+  "stageDate": "2026-05-31",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Elisa Balsamo won the bunch sprint into Caorle in the maglia rosa, her first road win of the season and a second straight Lidl - Trek stage. Lara Gillespie was 2nd, Chiara Consonni 3rd. Balsamo retained pink and the points lead.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "time": "3h 57m 49s" },
+    { "position": 2, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 3, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Charlotte Kool", "team": "Fenix-Premier Tech", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Barbara Guarischi", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Arlenis Sierra", "team": "Movistar Team", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Maggie Coles-Lyster", "team": "Human Powered Health", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Alessia Zambelli", "team": "Top Girls Fassa Bortolo", "gap": "s.t." },
+    { "position": 9, "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Linda Zanetti", "team": "Uno-X Mobility", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Balsamo wins again in pink in Caorle",
+    "body": "The 146 km second stage from Roncade to Caorle followed the script of a sprinters' day. The break of the day — La Bella, Elisa De Vallier, Sara Luccon, then a second trio of Giorgia Serena, Josie Nelson and Fariba Hashimi — built a lead of more than six minutes before the bunch organised the chase, reeling them in with around 15 km to go. The day's lone categorised climb, Cà del Poggio, came too early to affect the finale; Eleonora La Bella crested it first to take the mountains points and the maglia azzurra.\n\nUAE Team ADQ, with Elisa Longo Borghini driving for Lara Gillespie, led the run-in, but Lidl - Trek delivered Balsamo to the front in the closing metres. She launched and held off Gillespie and Consonni for her first road win of the season, in the pink jersey. \"This isn't the way I wanted the maglia rosa, but I'll honour it,\" she said, referencing the Stage 1 disqualification that had handed her the lead."
+  },
+  "gcImpact": {
+    "headline": "Balsamo retains pink",
+    "body": "GC after Stage 2: Balsamo in pink, Gillespie at +0:08, Consonni at +0:12, then a large group (Kool, Zanetti, Baker, Zambelli, Sierra, Verhulst-Wild and others) at +0:20. The GC favourites all sat in the bunch with no time lost."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-balsamo",
+      "name": "Elisa Balsamo",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won her first road sprint of the season in the maglia rosa, with Lucinda Brand and the Lidl - Trek train delivering her to the front in Caorle. A clear, controlled win that reinforced her grip on both the pink and points jerseys.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni",
+      "name": "Chiara Consonni",
+      "team": "CANYON//SRAM",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Third again in the bunch sprint, the most consistent of the fast finishers chasing Balsamo through the opening week.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "nienke-veenhoven",
+      "name": "Nienke Veenhoven",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 9,
+      "gap": "s.t.",
+      "narrative": "Ninth in the bunch sprint, Visma's best finisher on the day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.giroditaliawomen.it/en/news/elisa-balsamo-roars-to-victory-in-the-maglia-rosa-on-stage-2-of-the-2026-giro-ditalia-women/", "publication": "Giro d'Italia Women (official)", "title": "Elisa Balsamo roars to victory in the maglia rosa on Stage 2", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Giro_d'Italia_Women,_Stage_1_to_Stage_9", "publication": "Wikipedia", "title": "2026 Giro d'Italia Women, Stage 1 to Stage 9", "lang": "en" }
+  ]
+}

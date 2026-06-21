@@ -1,0 +1,78 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 1,
+  "stageName": "Cesenatico → Ravenna",
+  "stageDate": "2026-05-30",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Lorena Wiebes won the bunch sprint into Ravenna on the road, but was disqualified that evening when her bike was found ~20 g under the UCI minimum weight. Elisa Balsamo (Lidl - Trek), 2nd across the line, was awarded the stage and the first maglia rosa. The day was marred by a peloton crash that forced Movistar's Cat Ferguson to abandon.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "time": "3h 18m 22s" },
+    { "position": 2, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 3, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Georgia Baker", "team": "Liv AlUla Jayco", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Charlotte Kool", "team": "Fenix-Premier Tech", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Linda Zanetti", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Gladys Verhulst-Wild", "team": "AG Insurance - Soudal Team", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Célia Gery", "team": "FDJ United - SUEZ", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Lily Williams", "team": "Human Powered Health", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Alessia Zambelli", "team": "Top Girls Fassa Bortolo", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Wiebes wins then is disqualified; Balsamo inherits stage and pink",
+    "body": "The 139 km opening stage from Cesenatico to Ravenna was always likely to end in a bunch sprint, and it did — but the result took hours to settle. An early three-rider Italian break (Valeria Curnis, Sharon Spimi, Sofia Arici) mopped up the early intermediate and KOM points before being reeled in.\n\nThe finale was nervous and crash-affected. A large peloton pile-up on a long straight brought down several riders; Movistar's Cat Ferguson stayed down and abandoned, ending her race on day one. The sprint trains reassembled in the closing kilometres, and Lorena Wiebes launched off a Barbara Guarischi lead-out to cross the line first, taking what looked like the win and the first maglia rosa, with Elisa Balsamo 2nd on the road and Lara Gillespie 3rd.\n\nThat evening the result changed. A post-stage technical check found Wiebes's bike to be roughly 20 grams under the UCI 6.8 kg minimum weight. She was disqualified from the stage and ejected from the race entirely. Balsamo was awarded the stage win and the first pink jersey of the 2026 Giro d'Italia Women, with the rest of the bunch promoted accordingly."
+  },
+  "gcImpact": {
+    "headline": "Balsamo in pink after the Wiebes DQ",
+    "body": "With Wiebes removed, Elisa Balsamo took the maglia rosa, with small finish-bonus gaps separating the front of the GC: Gillespie at +0:04, Consonni at +0:06, then a cluster (Baker, Kool, Zanetti, Verhulst-Wild) at +0:10. The GC favourites all finished safely in the bunch."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-balsamo",
+      "name": "Elisa Balsamo",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Second across the line behind Wiebes, Balsamo was awarded the stage and the first maglia rosa after the Dutchwoman's disqualification. A strong sprint that became a win, and the start of a dominant opening week for her and Lidl - Trek.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni",
+      "name": "Chiara Consonni",
+      "team": "CANYON//SRAM",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Third in the bunch sprint, in the mix on the opening day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "cat-ferguson",
+      "name": "Cat Ferguson",
+      "team": "Movistar Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Caught in the late peloton crash, she stayed down and abandoned, ending Movistar's fast-finish hopes on the opening day.",
+      "keyMoments": [],
+      "incident": "Abandoned after a crash in the finale"
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "cat-ferguson", "reason": "Crash in the finale" }
+    ],
+    "disqualifications": [
+      { "riderId": "lorena-wiebes", "reason": "Crossed the line first but disqualified post-stage for a bike ~20 g under the UCI minimum weight; ejected from the race" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-stage-1-lorena-wiebes-takes-first-pink-jersey-as-cat-ferguson-abandons-on-crash-marred-opening-day", "publication": "CyclingUpToDate", "title": "Stage 1: Wiebes takes first pink as Cat Ferguson abandons on crash-marred opening day", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://road.cc/tech-news/was-lorena-wiebes-disqualified-from-the-giro-ditalia-1x-chainring-set-up-mystery-underweight-bike", "publication": "road.cc", "title": "Was Lorena Wiebes disqualified from the Giro d'Italia — underweight bike", "lang": "en" }
+  ]
+}

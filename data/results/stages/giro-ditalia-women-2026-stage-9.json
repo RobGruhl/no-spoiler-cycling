@@ -1,0 +1,116 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 9,
+  "stageName": "Saluzzo → Saluzzo",
+  "stageDate": "2026-06-07",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Elisa Longo Borghini won the final-stage four-up sprint in Saluzzo, but the day belonged to Demi Vollering, who overturned a +0:49 deficit to win the Giro overall. After Niedermaier, Longo Borghini and Fisher-Black went clear on the Montoso, Vollering attacked on the last climb, dropped Anna van der Breggen, then bridged across and took a bonus to seal a 30-second GC win and complete the women's Grand Tour Triple Crown.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "time": "3h 45m 09s" },
+    { "position": 2, "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 3, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM", "gap": "+0:02" },
+    { "position": 4, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "gap": "+0:03" },
+    { "position": 5, "riderId": null, "name": "Femke de Vries", "team": "Team Visma | Lease a Bike", "gap": "+2:23" },
+    { "position": 6, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+2:23" },
+    { "position": 7, "riderId": null, "name": "Sigrid Ytterhus Haugset", "team": "Uno-X Mobility", "gap": "+5:59" },
+    { "position": 8, "riderId": null, "name": "Lauren Dickson", "team": "FDJ United - SUEZ", "gap": "+5:59" },
+    { "position": 9, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+6:01" },
+    { "position": 10, "riderId": "magdeleine-vallieres", "name": "Magdeleine Vallières", "team": "EF Education-Oatly", "gap": "+6:01" }
+  ],
+  "narrative": {
+    "headline": "Longo Borghini wins in Saluzzo as Vollering steals the Giro",
+    "body": "The 145 km final stage looped out from and back to Saluzzo over two major climbs, and Vollering started it +0:49 down on race leader Anna van der Breggen — close enough to attack, far enough to need a perfect day.\n\nOn the Montoso (8.9 km at 9.4%, about 90 km out) FDJ - SUEZ shredded the bunch to roughly seven. Over the top, Antonia Niedermaier attacked with Elisa Longo Borghini and Niamh Fisher-Black, building a gap of around 2:15 that briefly put Niedermaier into virtual pink. Lauren Dickson paced van der Breggen's group to keep the leaders at about 1:40.\n\nThe race was decided on the final climb, the Colletto di Brondello. Vollering attacked roughly a kilometre from the summit, dropped van der Breggen, and crested first to also secure the mountains classification. She descended, bridged across to the leading trio, and took 6 bonus seconds at the Colletta di Rossana intermediate sprint to move into the virtual overall lead. The four leaders contested the sprint in Saluzzo, where Longo Borghini — the Italian champion — beat Fisher-Black, Niedermaier and Vollering. Van der Breggen, isolated and out of contention, came in +2:23 and lost the maglia rosa on the final day."
+  },
+  "gcImpact": {
+    "headline": "Vollering wins the Giro by 30 seconds; van der Breggen drops to 3rd",
+    "body": "Final GC: Demi Vollering wins overall, Antonia Niedermaier 2nd at +0:30, Anna van der Breggen 3rd at +1:37, Elisa Longo Borghini 4th at +2:44, Niamh Fisher-Black 5th at +3:26, Femke de Vries 6th at +5:07, Isabella Holmgren 7th at +7:10. Vollering also won the mountains jersey; Elisa Balsamo took the points classification, Holmgren the best young rider, and Lidl - Trek the teams classification. Vollering completed the women's Grand Tour Triple Crown in a single season."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won the final stage in Saluzzo, beating Fisher-Black, Niedermaier and Vollering in the four-up sprint after joining Niedermaier's Montoso move. An emotional home win for the Italian champion to cap 4th overall.",
+      "keyMoments": [
+        { "km": 90, "what": "Joined Niedermaier's attack over the Montoso, then won the four-up sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "demi-vollering",
+      "name": "Demi Vollering",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:03",
+      "narrative": "The overall-winning ride. Down +0:49 at the start, she had FDJ shred the bunch on the Montoso, attacked on the final climb to drop van der Breggen and clinch the mountains jersey, then bridged to the leaders and took a 6-second bonus to win the Giro by 30 seconds — completing the women's Grand Tour Triple Crown.",
+      "keyMoments": [
+        { "km": 15, "what": "Attacked ~1 km from the top of the Colletto di Brondello to drop van der Breggen" },
+        { "km": null, "what": "Took the Colletta di Rossana intermediate-sprint bonus to move into the virtual lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier",
+      "name": "Antonia Niedermaier",
+      "team": "CANYON//SRAM",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:02",
+      "narrative": "Lit the race by attacking over the Montoso and building enough of a gap to ride into virtual pink before Vollering bridged across. Third on the stage and 2nd overall at +0:30 — her best Grand Tour result.",
+      "keyMoments": [
+        { "km": 90, "what": "Attacked over the Montoso, briefly moving into virtual pink" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "niamh-fisher-black",
+      "name": "Niamh Fisher-Black",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Joined the decisive Montoso move and finished 2nd on the stage, climbing to 5th overall — a strong end to a consistent Grand Tour.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 6,
+      "gap": "+2:23",
+      "narrative": "Isolated on the final climb when Vollering attacked, she could not respond and lost the maglia rosa she had held since Stage 4, finishing +2:23 and dropping to 3rd overall. A painful end to a race she led for five days.",
+      "keyMoments": [
+        { "km": 15, "what": "Dropped by Vollering's attack on the Colletto di Brondello, losing the overall lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "magdeleine-vallieres",
+      "name": "Magdeleine Vallières",
+      "team": "EF Education-Oatly",
+      "role": "stage-hunter",
+      "position": 10,
+      "gap": "+6:01",
+      "narrative": "Tenth on the final stage, a solid result on the toughest mountain day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "notes": "No major crashes or abandons reported on the final stage. Three yellow cards issued on the day, all to AG Insurance - Soudal Team."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-demi-vollering-completes-grand-tour-triple-crown-after-final-stage-ambush-as-elisa-longo-borghini-wins-stage-9", "publication": "CyclingUpToDate", "title": "Vollering completes Grand Tour Triple Crown after final-stage ambush as Longo Borghini wins Stage 9", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-9/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 9 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/gc", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 final GC", "lang": "en" },
+    { "url": "https://www.giroditaliawomen.it/en/news/demi-vollering-wins-the-2026-giro-ditalia-women/", "publication": "Giro d'Italia Women (official)", "title": "Demi Vollering wins the 2026 Giro d'Italia Women", "lang": "en" }
+  ]
+}

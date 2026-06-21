@@ -1,0 +1,62 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 6,
+  "stageName": "Ala → Brescello",
+  "stageDate": "2026-06-04",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Elisa Balsamo won the bunch sprint in Brescello for her fourth stage win of the Giro, launched by a long Lucinda Brand pull through a technical finale. A mid-stage Uno-X split briefly caught out Vollering and Reusser but they regained; Anna van der Breggen kept pink with no GC change.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "time": "3h 54m 02s" },
+    { "position": 2, "riderId": null, "name": "Maggie Coles-Lyster", "team": "Human Powered Health", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Georgia Baker", "team": "Liv AlUla Jayco", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Célia Gery", "team": "FDJ United - SUEZ", "gap": "s.t." },
+    { "position": 5, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Gladys Verhulst-Wild", "team": "AG Insurance - Soudal Team", "gap": "s.t." },
+    { "position": 7, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Lily Williams", "team": "Human Powered Health", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Alessia Zambelli", "team": "Top Girls Fassa Bortolo", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Alexandra Volstad", "team": "EF Education-Oatly", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Balsamo's fourth win in a technical Brescello sprint",
+    "body": "The 160 km flat-to-rolling stage from Ala to Brescello returned the race to the sprinters, but not without drama. An early four-rider Italian break (Bezzone, Spimi, Segato, Cagnazzo) reached around four minutes before being reeled in. Mid-stage, Uno-X drove a split in the peloton: van der Breggen made the front group, but Vollering and Reusser were briefly caught behind before Movistar and UAE chased it back together with no decisive gap.\n\nIn the finale, Giorgia Serena soloed about a minute clear with 12 km to go before being caught. With only Lucinda Brand left as a lead-out, Lidl - Trek still produced a long pull through the twisting closing kilometre — Movistar even briefly turned the wrong way inside the final km. Balsamo launched from around fifth wheel and won decisively for her fourth stage win of the race (the first awarded after Wiebes's DQ, plus Stages 2, 3 and 6 on the road)."
+  },
+  "gcImpact": {
+    "headline": "No GC change; van der Breggen retains pink",
+    "body": "GC after Stage 6 was unchanged from Stage 5, all contenders finishing in the bunch: van der Breggen in pink, Vollering 2nd at +1:00, Niedermaier 3rd at +1:24, Holmgren 4th at +2:01, Reusser 5th at +2:03, Longo Borghini 6th at +2:12, Fisher-Black 7th at +2:33. Balsamo extended her points-jersey lead with the win and an intermediate-sprint bonus."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-balsamo",
+      "name": "Elisa Balsamo",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won her fourth stage of the Giro despite having only Lucinda Brand left to lead her out, launching from fifth wheel through a technical finish. The win and intermediate points cemented her hold on the points jersey.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni",
+      "name": "Chiara Consonni",
+      "team": "CANYON//SRAM",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Fifth in the bunch sprint, in the mix again on a sprinters' day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "notes": "Uno-X forced a mid-stage split that briefly distanced Vollering and Reusser; both regained the front before the finish. No crashes or abandons reported."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-stage-6-elisa-balsamo-powers-to-fourth-stage-win-after-technical-brescello-finale", "publication": "CyclingUpToDate", "title": "Stage 6: Balsamo powers to fourth stage win after technical Brescello finale", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-6/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 6 result", "lang": "en" },
+    { "url": "https://www.giroditalia.it/en/news/giro-ditalia-women-2026-elisa-balsamo-wins-stage-6/", "publication": "Giro d'Italia (official)", "title": "Elisa Balsamo wins Stage 6", "lang": "en" }
+  ]
+}

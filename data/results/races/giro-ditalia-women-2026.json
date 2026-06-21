@@ -1,0 +1,216 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "raceName": "Giro d'Italia Women",
+  "raceDate": "2026-05-30",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "inProgress": false,
+  "tldr": "Demi Vollering (FDJ United - SUEZ) overturned a near-minute deficit on the final day to win the 2026 Giro d'Italia Women, completing the women's Grand Tour Triple Crown (Tour de France Femmes + Vuelta Femenina + Giro) in a single season — only the second woman ever, after Annemiek van Vleuten. Anna van der Breggen had led from her crushing Stage 4 uphill time trial all the way to Stage 9, but a Stage 9 ambush over the Montoso and Colletto di Brondello flipped the race: Antonia Niedermaier (CANYON//SRAM) climbed to 2nd at +0:30, van der Breggen slipped to 3rd at +1:37, and Elisa Longo Borghini won the final stage in Saluzzo. Vollering also took the mountains jersey; Elisa Balsamo (Lidl - Trek) the points (maglia rossa), and Isabella Holmgren (Lidl - Trek) best young rider. Lorena Wiebes won Stage 1 on the road but was disqualified that evening for an underweight bike.",
+  "podium": [
+    { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "29h 54m 19s" },
+    { "position": 2, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM", "gap": "+0:30" },
+    { "position": 3, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+1:37" },
+    { "position": 4, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+2:44" },
+    { "position": 5, "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek", "gap": "+3:26" },
+    { "position": 6, "riderId": null, "name": "Femke de Vries", "team": "Team Visma | Lease a Bike", "gap": "+5:07" },
+    { "position": 7, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+7:10" }
+  ],
+  "jerseys": [
+    { "classification": "General (Maglia Rosa)", "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ" },
+    { "classification": "Points (Maglia Rossa)", "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek" },
+    { "classification": "Mountains (Maglia Azzurra)", "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ" },
+    { "classification": "Young Rider (Maglia Bianca)", "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek" },
+    { "classification": "Teams", "riderId": null, "name": "Lidl - Trek", "team": "Lidl - Trek" }
+  ],
+  "narrative": {
+    "headline": "Vollering's final-day ambush completes the Triple Crown",
+    "openingMoves": "The opening trio of sprint stages belonged entirely to Elisa Balsamo and Lidl - Trek. Lorena Wiebes (SD Worx - Protime) actually crossed the line first on the crash-marred Stage 1 into Ravenna — where Movistar's Cat Ferguson abandoned after a peloton pile-up — but was disqualified that evening when her bike was found roughly 20 grams under the UCI 6.8 kg minimum. Balsamo inherited the stage and the first maglia rosa, then won Stages 2 and 3 outright, surviving a Demi Vollering attack on the Montenars climb on Stage 3 to keep the lead. Through three stages the GC favourites all sat together at +0:30.",
+    "raceUnfolds": "Stage 4's 12.7 km uphill time trial to Nevegal was the first true GC day, and Anna van der Breggen delivered a statement: 31:38 to win by 1:04 over TT world champion Marlen Reusser and 1:10 over Vollering, taking pink off Balsamo. The next day at Santo Stefano di Cadore, FDJ - SUEZ ran a textbook mountain stage — Lauren Dickson buried herself from the early break to set up Vollering, who attacked repeatedly and won the four-up sprint for her first-ever Giro stage. The bonus seconds trimmed her deficit to van der Breggen to exactly one minute, but the pink jersey held. Balsamo's fourth stage win came on the flat Stage 6 into Brescello; Stage 7's hilly run to Salice Terme saw a Longo Borghini-instigated move deliver 20-year-old Célia Gery (FDJ - SUEZ) her first Grand Tour win, while van der Breggen survived a heavy crash with ~50 km to go and chased back to defend pink.",
+    "decision": "The Giro was decided across the final weekend. The shortened Stage 8 queen stage to the Colle delle Finestre — cut from a planned 106 km Sestriere finish to 77.4 km after an unstable ice block forced a makeshift line near the summit — saw Vollering attack repeatedly on the gravel, taking the stage ahead of Holmgren, Niedermaier and van der Breggen, all within a second. But van der Breggen still carried +0:49 into Stage 9. On the final stage in Saluzzo, FDJ - SUEZ shredded the bunch on the Montoso (8.9 km at 9.4%); Niedermaier, Longo Borghini and Fisher-Black went clear and Niedermaier briefly rode into virtual pink. On the last climb, the Colletto di Brondello, Vollering attacked ~1 km from the top, dropped van der Breggen, took the mountains-jersey-clinching points, then bridged to the leaders and grabbed a 6-second intermediate-sprint bonus to secure the overall.",
+    "finale": "Longo Borghini, the Italian champion, won the four-up sprint in Saluzzo ahead of Fisher-Black, Niedermaier and Vollering. Vollering's day-9 raid was enough to flip a ~49-second deficit into a 30-second overall win over Niedermaier; van der Breggen, isolated on the final climb, finished +2:23 on the stage and dropped to third overall at +1:37. Vollering thus took both the maglia rosa and the mountains jersey, completing the season's Grand Tour Triple Crown."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0, "location": "Ravenna (Stage 1)", "headline": "Wiebes wins, then is disqualified", "description": "Lorena Wiebes crossed first and took the first maglia rosa, but a post-stage check found her bike ~20 g under the UCI minimum; she was disqualified and ejected, handing the stage and pink to Elisa Balsamo." },
+    { "kmFromFinish": 0, "location": "Nevegal ITT (Stage 4)", "headline": "Van der Breggen seizes pink in the time trial", "description": "Anna van der Breggen won the 12.7 km uphill TT by 1:04 over Reusser and 1:10 over Vollering, taking the overall lead she would hold until the final day." },
+    { "kmFromFinish": 30, "location": "Colle delle Finestre (Stage 8)", "headline": "Vollering wins the shortened queen stage", "description": "On a stage cut to 77.4 km by an ice block near the summit, Vollering attacked on the gravel and won, but van der Breggen limited the damage to leave Stage 9 with a +0:49 cushion." },
+    { "kmFromFinish": 15, "location": "Colletto di Brondello (Stage 9)", "headline": "Vollering's final-climb attack flips the Giro", "description": "After Niedermaier, Longo Borghini and Fisher-Black went clear on the Montoso, Vollering attacked on the last climb, dropped van der Breggen, then bridged across and took an intermediate-sprint bonus to win the overall by 30 seconds." }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Maglia rosa + mountains + Triple Crown",
+      "verdictClass": "win",
+      "narrative": "The defining squad of the race, even from a deficit. FDJ raced from behind for eight stages, using Lauren Dickson as a destroyer in the breakaways (Stage 5, Stage 9) and 20-year-old Célia Gery both as a finisher — she won Stage 7 — and a climbing helper. The whole plan was built around launching Vollering on the steepest terrain. It paid off twice: a first-ever Giro stage win at Santo Stefano di Cadore, the queen-stage win on the Finestre, and the final-day ambush that overturned van der Breggen's lead. Vollering left with the maglia rosa, the mountains jersey, and the women's Grand Tour Triple Crown.",
+      "riderIds": ["demi-vollering"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Pink for a week, then 3rd",
+      "verdictClass": "neutral",
+      "narrative": "SD Worx looked to have won the Giro through Anna van der Breggen, whose stunning Nevegal time trial took pink and whose defence held through a Stage 7 crash and the shortened Finestre stage. But the team could not protect her on Stage 9: helper Valentina Cavallar was distanced on the Montoso, leaving van der Breggen isolated when Vollering attacked on the final climb. She finished 3rd overall — a bitter end to a race she led from Stage 4 to the last day. Their early-race story was overshadowed by Lorena Wiebes's Stage 1 disqualification for an underweight bike.",
+      "riderIds": ["anna-van-der-breggen", "lorena-wiebes"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "4 stages + points + white + teams",
+      "verdictClass": "win",
+      "narrative": "Lidl - Trek owned the flat days and the secondary classifications. Elisa Balsamo won four stages (1 awarded after Wiebes's DQ, plus 2, 3 and 6 on the road) and the points jersey; Niamh Fisher-Black climbed to 5th overall and 2nd on the final stage; and 21-year-old Isabella Holmgren took the best-young-rider white jersey and finished 7th overall after a Stage 8 podium on the Finestre. The squad also won the teams classification — a hugely productive Giro short only of the maglia rosa.",
+      "riderIds": ["elisa-balsamo", "niamh-fisher-black"]
+    },
+    {
+      "team": "CANYON//SRAM",
+      "verdict": "2nd overall, final-day aggression",
+      "verdictClass": "win",
+      "narrative": "Antonia Niedermaier rode the most aggressive GC race of anyone on the final day. After sitting in the top group all week, she attacked over the Montoso on Stage 9 with Longo Borghini and Fisher-Black, building enough of a gap to ride briefly into virtual pink before Vollering bridged across. She held on for 2nd overall at +0:30 — CANYON//SRAM's headline result of the race — with Chiara Consonni adding consistent top-10 sprint placings on the flat stages.",
+      "riderIds": ["antonia-niedermaier", "chiara-consonni"]
+    },
+    {
+      "team": "UAE Team ADQ",
+      "verdict": "Final-stage win, 4th overall",
+      "verdictClass": "win",
+      "narrative": "UAE Team ADQ built the race around Elisa Longo Borghini and finished it in style. The Italian champion was a constant aggressor — instigating the winning Stage 7 move that set up Gery, then attacking on Stage 9's Montoso and winning the final-stage sprint in Saluzzo. She finished 4th overall at +2:44, supported by Silvia Persico's climbing work and Lara Gillespie's sprinting (a Stage 7 bunch-sprint win behind the breakaway). A satisfying home Giro for the squad.",
+      "riderIds": ["elisa-longo-borghini", "silvia-persico", "lara-gillespie"]
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Reusser podium near-miss, Ferguson DNF",
+      "verdictClass": "neutral",
+      "narrative": "Movistar's Giro was a story of what might have been. Marlen Reusser was 2nd in the Nevegal time trial and sat 2nd overall after Stage 4, but faded on the high mountains — dropped on Stage 8's Finestre and again on Stage 9's Montoso — to finish well down on GC. The team also lost sprinter Cat Ferguson to an abandon after the crash-marred Stage 1. Reusser's TT remained the squad's highlight in a race that slipped away on the steepest climbs.",
+      "riderIds": ["marlen-reusser", "cat-ferguson", "liane-lippert"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "6th overall via de Vries",
+      "verdictClass": "neutral",
+      "narrative": "Visma's best GC result came from young climber Femke de Vries, who quietly rode into 6th overall at +5:07 with steady performances on the mountain stages (5th on both Stage 8 and Stage 9). With no win to show for the race, it was nonetheless a solid Grand Tour from a developing rider, with Nienke Veenhoven adding top-10 sprint placings on the flat days.",
+      "riderIds": ["nienke-veenhoven"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "demi-vollering",
+      "name": "Demi Vollering",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Won the overall, the mountains jersey, and two stages (5 and 8), completing the women's Grand Tour Triple Crown in a single season. Third in the Nevegal TT left her ~1:10 down, and she still trailed van der Breggen by +0:49 going into the final day. Her Stage 9 raid — shredding the bunch on the Montoso through her team, then attacking on the last climb to drop van der Breggen and bridging to the leaders, plus a 6-second intermediate bonus — flipped the deficit into a 30-second overall win. The decisive ride of the race.",
+      "keyMoments": [
+        { "km": null, "what": "Won Stage 5 (Santo Stefano di Cadore) four-up sprint for her first Giro stage" },
+        { "km": null, "what": "Won the shortened Stage 8 queen stage on the Colle delle Finestre" },
+        { "km": 15, "what": "Attacked on Stage 9's final climb, dropped van der Breggen, and won the Giro" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 3,
+      "gap": "+1:37",
+      "narrative": "Led the Giro from Stage 4 to the final day after a dominant Nevegal time trial (won by 1:04). She defended through a Stage 7 crash and the shortened Finestre stage, but was isolated on Stage 9's final climb when Vollering attacked — losing +2:23 on the stage and dropping from 1st to 3rd overall. A near-miss at a Grand Tour victory in her comeback season.",
+      "keyMoments": [
+        { "km": null, "what": "Won the Stage 4 uphill ITT by 1:04 to take pink" },
+        { "km": null, "what": "Held pink despite a heavy Stage 7 crash with ~50 km to go" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier",
+      "name": "Antonia Niedermaier",
+      "team": "CANYON//SRAM",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:30",
+      "narrative": "Rode the most aggressive GC ride of the race on the final day, attacking over the Montoso with Longo Borghini and Fisher-Black and briefly moving into virtual pink before Vollering bridged across. Held on for 2nd overall at +0:30 — her best Grand Tour result and the key to her runner-up finish.",
+      "keyMoments": [
+        { "km": 90, "what": "Attacked on the Montoso on Stage 9, building a gap that put her in virtual pink" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 4,
+      "gap": "+2:44",
+      "narrative": "The Italian champion was a relentless aggressor and finished 4th overall, signing off with the final-stage win in Saluzzo. She instigated the move that produced Gery's Stage 7 win, attacked on Stage 9's Montoso, and won the four-up sprint at the line. An emotional home result.",
+      "keyMoments": [
+        { "km": 20, "what": "Attacked on Stage 7's Pietragavina climb to bridge to the break and set up the winning move" },
+        { "km": 0, "what": "Won the Stage 9 four-up sprint in Saluzzo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "niamh-fisher-black",
+      "name": "Niamh Fisher-Black",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 5,
+      "gap": "+3:26",
+      "narrative": "Climbed steadily to 5th overall and was 2nd on the final stage, joining the Stage 9 attack with Niedermaier and Longo Borghini. A strong, consistent Grand Tour as part of a deep Lidl - Trek squad.",
+      "keyMoments": [
+        { "km": 90, "what": "Joined the Stage 9 Montoso move and finished 2nd in Saluzzo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-balsamo",
+      "name": "Elisa Balsamo",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "The dominant sprinter of the race: four stage wins (Stage 1 awarded after Wiebes's DQ, plus 2, 3 and 6 on the road), the points jersey, and the first maglia rosa, which she held through three stages. She even survived a Vollering attack on Stage 3's Montenars to win the reduced sprint. A standout opening week.",
+      "keyMoments": [
+        { "km": null, "what": "Won Stages 1 (awarded), 2, 3 and 6; took the points jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Marlen Reusser",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Second in the Nevegal time trial and 2nd overall after Stage 4, but the TT world champion faded badly on the highest mountains — dropped on the Finestre and again on the Montoso — to slip out of GC contention. Her time trial remained Movistar's race highlight.",
+      "keyMoments": [
+        { "km": null, "what": "2nd in the Stage 4 uphill TT, +1:04 to van der Breggen" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "cat-ferguson",
+      "name": "Cat Ferguson",
+      "team": "Movistar Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Abandoned on the crash-marred Stage 1 into Ravenna after a large peloton pile-up, ending Movistar's sprint hopes before the race had really begun.",
+      "keyMoments": [],
+      "incident": "Abandoned Stage 1 after a peloton crash"
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "cat-ferguson", "reason": "Crash on Stage 1, did not finish" }
+    ],
+    "disqualifications": [
+      { "riderId": "lorena-wiebes", "reason": "Stage 1: crossed the line first but disqualified and ejected from the race after a post-stage check found her bike ~20 g under the UCI 6.8 kg minimum weight" }
+    ]
+  },
+  "aftermath": {
+    "headline": "A Triple Crown and a final-day heist",
+    "quotes": [],
+    "body": "Vollering's win made her the second woman ever, after Annemiek van Vleuten, to win all three women's Grand Tours in a single season — the same year Jonas Vingegaard chased a men's equivalent. The manner of it, overturning a ~49-second deficit on the last day against a rider who had led since Stage 4, made it one of the most dramatic finales in the race's history. For Anna van der Breggen it was a painful near-miss in her comeback; for Niedermaier and Longo Borghini, a final weekend of aggression that earned 2nd overall and the final-stage win respectively."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/gc", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 — Final GC", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-demi-vollering-completes-grand-tour-triple-crown-after-final-stage-ambush-as-elisa-longo-borghini-wins-stage-9", "publication": "CyclingUpToDate", "title": "Demi Vollering completes Grand Tour Triple Crown after final-stage ambush", "lang": "en" },
+    { "url": "https://www.giroditaliawomen.it/en/news/demi-vollering-wins-the-2026-giro-ditalia-women/", "publication": "Giro d'Italia Women (official)", "title": "Demi Vollering wins the 2026 Giro d'Italia Women", "lang": "en" },
+    { "url": "https://www.giroditaliawomen.it/en/rankings/", "publication": "Giro d'Italia Women (official)", "title": "Final classifications", "lang": "en" },
+    { "url": "https://road.cc/tech-news/was-lorena-wiebes-disqualified-from-the-giro-ditalia-1x-chainring-set-up-mystery-underweight-bike", "publication": "road.cc", "title": "Lorena Wiebes disqualified — underweight bike", "lang": "en" }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 7,
+  "stageName": "Sorbolo Mezzani → Salice Terme",
+  "stageDate": "2026-06-05",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Twenty-year-old Célia Gery (FDJ - SUEZ) took her first Grand Tour win, coming over the top of Lucinda Brand in a small-group sprint after Elisa Longo Borghini instigated a late move on the Pietragavina climb. Anna van der Breggen survived a heavy crash ~50 km out to keep the maglia rosa.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Célia Gery", "team": "FDJ United - SUEZ", "time": "3h 51m 13s" },
+    { "position": 2, "riderId": null, "name": "Lucinda Brand", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Chantal Pegolo", "team": "Isolmant - Premac - Vittoria", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Alison Jackson", "team": "St Michel - Preference Home - Auber93", "gap": "s.t." },
+    { "position": 5, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+0:03" },
+    { "position": 6, "riderId": null, "name": "Gaia Segato", "team": "Vini Fantini - BePink", "gap": "+0:03" },
+    { "position": 7, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "+0:08" },
+    { "position": 8, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM", "gap": "+0:08" },
+    { "position": 9, "riderId": null, "name": "Millie Couzens", "team": "Fenix-Premier Tech", "gap": "+0:08" },
+    { "position": 10, "riderId": null, "name": "Josie Nelson", "team": "Team Picnic - PostNL", "gap": "+0:08" }
+  ],
+  "narrative": {
+    "headline": "Gery's late attack delivers a first Grand Tour win",
+    "body": "The 159 km hilly stage from Sorbolo Mezzani to Salice Terme produced an aggressive, attacking day. A five-rider break (Alison Jackson, Chantal Pegolo, Marjolein van 't Geloof, Sara Luccon, Gaia Segato) went up the road early.\n\nOn the category-3 Pietragavina climb with about 20 km to go, Elisa Longo Borghini attacked from the peloton, dragging teammate Silvia Persico, U23 world champion Célia Gery and Lucinda Brand across to the break to form a lead group of around seven with a gap of more than 30 seconds. In the finale Persico peeled off after her work, and Brand launched the sprint first — but the 20-year-old Gery came over the top to take her first Grand Tour stage win. Lara Gillespie won the chasing bunch sprint about eight seconds back.\n\nBehind, the GC day was defined by a major crash with around 50 km to go that brought down race leader Anna van der Breggen. She lost up to 1:30 but chased back to the bunch within about 7 km, saving the maglia rosa."
+  },
+  "gcImpact": {
+    "headline": "Van der Breggen crashes but retains pink",
+    "body": "Despite a heavy crash with ~50 km to go, Anna van der Breggen chased back and kept the maglia rosa with her GC lead intact heading into the queen stage. The GC contenders behind her — Vollering, Niedermaier, Holmgren, Reusser and Longo Borghini — remained within striking range, with the standings essentially carried over from the previous mountain day. Two riders were disqualified during the stage for holding onto team cars."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:03",
+      "narrative": "Lit up the stage by attacking on the Pietragavina climb to bridge to the break and create the winning move — even though it ultimately delivered Gery the win. Finished 5th and stayed in the GC picture, showing the aggression that would define her final weekend.",
+      "keyMoments": [
+        { "km": 20, "what": "Attacked on the Pietragavina climb, dragging the eventual winning move clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni",
+      "name": "Chiara Consonni",
+      "team": "CANYON//SRAM",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+0:08",
+      "narrative": "Eighth in the chasing bunch sprint behind the breakaway.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Crashed with about 50 km to go and lost as much as 1:30, but chased back to the bunch within roughly 7 km to defend the maglia rosa. A scare that could have ended her race lead, weathered.",
+      "keyMoments": [
+        { "km": 50, "what": "Brought down in a peloton crash, then chased back to save the pink jersey" }
+      ],
+      "incident": "Crashed ~50 km from the finish, chased back"
+    }
+  ],
+  "incidents": {
+    "notes": "Major peloton crash ~50 km to go involving race leader van der Breggen. Two riders were disqualified during the stage for holding onto team cars."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-stage-7-celia-gery-takes-brilliant-late-attack-win-ahead-of-lucinda-brand-and-elisa-longo-borghini", "publication": "CyclingUpToDate", "title": "Stage 7: Célia Gery takes brilliant late-attack win ahead of Brand and Longo Borghini", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-7/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 7 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/giro-d-italia-women-celia-gery-wins-stage-7-as-elisa-longo-borghini-goes-on-the-attack-for-time/", "publication": "Cyclingnews", "title": "Célia Gery wins Stage 7 as Longo Borghini attacks", "lang": "en" }
+  ]
+}

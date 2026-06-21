@@ -1,0 +1,84 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 3,
+  "stageName": "Bibione → Buja",
+  "stageDate": "2026-06-01",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Elisa Balsamo took her third straight win in an uphill reduced-bunch sprint at Buja, surviving a Demi Vollering attack on the Montenars climb that briefly split the GC and dropped the maglia rosa. The favourites regrouped and the GC stayed bunched at +0:30; Balsamo kept pink.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-balsamo", "name": "Elisa Balsamo", "team": "Lidl - Trek", "time": "3h 43m 43s" },
+    { "position": 2, "riderId": null, "name": "Lily Williams", "team": "Human Powered Health", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Femke Gerritse", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 4, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 5, "riderId": "silvia-persico", "name": "Silvia Persico", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Pfeiffer Georgi", "team": "Team Picnic - PostNL", "gap": "s.t." },
+    { "position": 7, "riderId": "marlen-reusser", "name": "Marlen Reusser", "team": "Movistar Team", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Célia Gery", "team": "FDJ United - SUEZ", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Cecilie Uttrup Ludwig", "team": "CANYON//SRAM", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Émilie Morier", "team": "St Michel - Auber93", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Balsamo survives the climb to make it three from three",
+    "body": "The 154 km hilly stage from Bibione to Buja brought the first real GC tension. A six-rider break (Cristina Tonetti, Alison Jackson, Eleonora Deotto, Barbara Guarischi, Nienke Veenhoven, Marta Pavesi) built more than three minutes before being reeled in around 26 km from the line, ahead of the day's decisive Montenars climb.\n\nOn Montenars, Demi Vollering attacked, splitting the peloton into a select group with Longo Borghini, Reusser, van der Breggen, Fisher-Black and Holmgren — and briefly dropping race leader Balsamo. For a moment the maglia rosa was under genuine threat. But the lead group failed to cooperate on the descent and run-in to Buja, the bunch regrouped, and Balsamo clawed her way back.\n\nA late solo by Sigrid Ytterhus Haugset inside the final 5 km was caught in the closing kilometre, and Balsamo then sprinted clear up the finishing rise (the final 500 m at ~5%) to take her third straight stage. With the GC group back together, the standings held at +0:30."
+  },
+  "gcImpact": {
+    "headline": "Balsamo holds pink; favourites still at +0:30",
+    "body": "GC after Stage 3: Balsamo retained the maglia rosa, with Lily Williams at +0:24 and then a large cluster of GC riders at +0:30 — Longo Borghini, Margaux Vigié, Célia Gery, Anna van der Breggen, Niamh Fisher-Black, Silvia Persico, Demi Vollering and Lauren Dickson all level. Anna van der Breggen took over the mountains lead after cresting Montenars first. The real GC gaps would not open until the Stage 4 time trial."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-balsamo",
+      "name": "Elisa Balsamo",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Dropped on the Montenars climb when Vollering attacked, Balsamo fought back to the regrouped bunch and then won the uphill reduced sprint for a remarkable third straight stage. A display of resilience as much as speed, keeping the maglia rosa on a day designed to take it off her.",
+      "keyMoments": [
+        { "km": 26, "what": "Distanced on Montenars by Vollering's attack, then chased back to the regrouped bunch" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "Made the Montenars split and finished 4th in the reduced sprint, sitting 3rd on GC. An aggressive ride that signalled UAE Team ADQ's intent for the mountains to come.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "silvia-persico",
+      "name": "Silvia Persico",
+      "team": "UAE Team ADQ",
+      "role": "domestique",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Fifth on the stage, in the front group alongside team leader Longo Borghini.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Marlen Reusser",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 7,
+      "gap": "s.t.",
+      "narrative": "Made the front split on Montenars and finished 7th, well-positioned ahead of the Stage 4 time trial that suited her.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.tourtrackerprocycling.com/2026-giro-ditalia-women-stage-3-results-recap/", "publication": "Tour Tracker", "title": "2026 Giro d'Italia Women Stage 3 results recap", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Giro_d'Italia_Women,_Stage_1_to_Stage_9", "publication": "Wikipedia", "title": "2026 Giro d'Italia Women, Stage 1 to Stage 9", "lang": "en" }
+  ]
+}

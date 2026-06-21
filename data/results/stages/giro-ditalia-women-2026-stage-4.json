@@ -1,0 +1,98 @@
+{
+  "raceId": "giro-ditalia-women-2026",
+  "stageNumber": 4,
+  "stageName": "Belluno → Nevegal (ITT)",
+  "stageDate": "2026-06-02",
+  "stageType": "itt",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Anna van der Breggen crushed the 12.7 km uphill time trial to Nevegal, winning in 31:38 — 1:04 clear of TT world champion Marlen Reusser and 1:10 over Demi Vollering — to take the maglia rosa off Elisa Balsamo and seize control of the GC.",
+  "podium": [
+    { "position": 1, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "time": "31m 38s" },
+    { "position": 2, "riderId": "marlen-reusser", "name": "Marlen Reusser", "team": "Movistar Team", "gap": "+1:04" },
+    { "position": 3, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "gap": "+1:10" },
+    { "position": 4, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM", "gap": "+1:26" },
+    { "position": 5, "riderId": null, "name": "Monica Trinca Colonel", "team": "Liv AlUla Jayco", "gap": "+1:31" },
+    { "position": 6, "riderId": null, "name": "Lauren Dickson", "team": "FDJ United - SUEZ", "gap": "+1:38" },
+    { "position": 7, "riderId": null, "name": "Femke de Vries", "team": "Team Visma | Lease a Bike", "gap": "+1:39" },
+    { "position": 8, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+1:51" },
+    { "position": 9, "riderId": null, "name": "Urška Žigart", "team": "AG Insurance - Soudal Team", "gap": "+1:54" },
+    { "position": 10, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+1:55" }
+  ],
+  "narrative": {
+    "headline": "Van der Breggen demolishes the field in the Nevegal TT",
+    "body": "The first true GC day was a 12.7 km uphill time trial from Belluno to Nevegal, and Anna van der Breggen turned it into a statement. She was already 36 seconds up on Vollering at the first intermediate split and only extended her advantage on the upper slopes, stopping the clock at 31:38.\n\nMarlen Reusser, the TT world champion, rode the discipline she dominates but could not match the climber — even after starting on a road bike and accelerating as the gradients steepened, she finished 1:04 down. Vollering went out fast, quicker than Reusser at the first checkpoint, but faded on the climb to come home 1:10 back in third.\n\nThe result transformed the race. After three days of Balsamo sprints with the GC bunched, van der Breggen took the maglia rosa with a real cushion over every rival, and the time-trial gaps would frame the GC battle all the way to the final weekend."
+  },
+  "gcImpact": {
+    "headline": "Van der Breggen takes pink with a commanding lead",
+    "body": "Because it was an individual time trial, the stage result equals the GC: van der Breggen in pink, Reusser 2nd at +1:04, Vollering 3rd at +1:10, Niedermaier 4th at +1:26, Trinca Colonel 5th at +1:31, Dickson +1:38, de Vries +1:39, Longo Borghini +1:51. Balsamo, the previous leader, dropped out of GC contention on the climb."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "anna-van-der-breggen",
+      "name": "Anna van der Breggen",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "A dominant uphill TT, winning by over a minute and taking the maglia rosa. The ride established her as the GC leader and the rider everyone else had to overturn on the mountains — a position she held until the final day.",
+      "keyMoments": [
+        { "km": 6, "what": "Already 36s up on Vollering at the first intermediate split" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "marlen-reusser",
+      "name": "Marlen Reusser",
+      "team": "Movistar Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "+1:04",
+      "narrative": "The TT world champion was beaten by 1:04 on a course too steep for her, but 2nd place moved her into 2nd overall — her high point of the race before the high mountains.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "demi-vollering",
+      "name": "Demi Vollering",
+      "team": "FDJ United - SUEZ",
+      "role": "leader",
+      "position": 3,
+      "gap": "+1:10",
+      "narrative": "Started faster than Reusser but faded on the upper slopes, conceding 1:10 to van der Breggen — a deficit she would chase for the rest of the race and ultimately overturn on the final day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "antonia-niedermaier",
+      "name": "Antonia Niedermaier",
+      "team": "CANYON//SRAM",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:26",
+      "narrative": "Fourth on the day, limiting her losses to keep herself in the GC mix.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "elisa-longo-borghini",
+      "name": "Elisa Longo Borghini",
+      "team": "UAE Team ADQ",
+      "role": "leader",
+      "position": 8,
+      "gap": "+1:51",
+      "narrative": "Lost significant time to her GC rivals in the TT, an 8th place that left her with ground to make up in the mountains.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [],
+    "notes": "Shirin van Anrooij (Lidl - Trek) did not start the stage due to illness."
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-giro-ditalia-women-2026-stage-4-anna-van-der-breggen-crushes-vollering-and-reusser-by-over-a-minute-in-nevegal-time-trial-to-take-pink", "publication": "CyclingUpToDate", "title": "Stage 4: Van der Breggen crushes Vollering and Reusser in Nevegal TT to take pink", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/giro-d-italia-women/2026/stage-4/result/result", "publication": "ProCyclingStats", "title": "Giro d'Italia Women 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/giro-d-italia-women-anna-van-der-breggen-crushes-opposition-with-stunning-uphill-time-trial-victory-on-stage-4-moves-into-pink-jersey/", "publication": "Cyclingnews", "title": "Van der Breggen crushes opposition with stunning uphill TT on Stage 4", "lang": "en" }
+  ]
+}
