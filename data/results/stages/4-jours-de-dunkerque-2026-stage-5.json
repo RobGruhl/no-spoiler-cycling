@@ -1,0 +1,51 @@
+{
+  "raceId": "4-jours-de-dunkerque-2026",
+  "stageNumber": 5,
+  "stageName": "Saint-Omer → Dunkerque",
+  "stageDate": "2026-05-24",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Jordi Meeus (Red Bull-BORA-hansgrohe) dominated the closing bunch sprint in Dunkerque, with lead-out man Danny Van Poppel completing a team 1-2. Laurence Pithie survived an early crash and a mechanical inside the final four kilometres to seal the overall — Red Bull bookending the race with stage wins and the pink jersey.",
+  "podium": [
+    { "position": 1, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "time": "4h 01m 44s" },
+    { "position": 2, "riderId": null, "name": "Danny Van Poppel", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Gianluca Pollefliet", "team": "Decathlon CMA CGM Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Meeus crushes the Dunkerque sprint as Pithie clinches the overall",
+    "body": "The 181.3 km final stage from Saint-Omer to Dunkerque was the flat sprint the GC men needed to neutralise, run at a blistering 45 km/h average. A major crash early in the stage caught up race leader Laurence Pithie, who needed a bike change but rode on with only minor injuries. The drama wasn't over: a mechanical four kilometres from the line forced Pithie onto team-mate Callum Thornley's bike, but he made it safely into the bunch to protect his seven-second lead. At the front Red Bull-BORA-hansgrohe ran the perfect lead-out, Danny Van Poppel delivering Jordi Meeus, who powered to a dominant win ahead of Van Poppel himself and Gianluca Pollefliet (Decathlon). It was Meeus's second win of the season and the bookend to a week Red Bull began and ended with a stage victory."
+  },
+  "gcImpact": {
+    "headline": "Pithie takes his first stage-race overall; Tesfatsion and Tiller complete the podium",
+    "body": "With no breakaway threat and the bunch together, the GC was settled: Laurence Pithie won the 2026 4 Jours de Dunkerque overall by seven seconds from Natnael Tesfatsion (Movistar) and eleven from Rasmus Tiller (Uno-X). Stan Dewulf (Decathlon, +14s) and Liam Slock (Lotto-Intermarché, +14s) rounded out the top five. Pithie also took the points and young-rider classifications, completing a clean sweep of the race's individual jerseys in his first professional stage-race victory; he succeeds Samuel Watson on the palmarès."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "stage winner",
+      "narrative": "Meeus delivered the win Red Bull wanted to cap the week, dominating the bunch sprint in Dunkerque with what his team called 'absolute dominance.' Set up by lead-out man Danny Van Poppel — who held on for second — Meeus had the legs to win comfortably ahead of a quality field of fast men. It was his second victory of the 2026 season and a fitting finish to a race his team controlled from the opening stage, where Pithie had already won. The result reaffirmed Meeus as a reliable closer in the bunch gallops as he builds toward his summer objectives.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Launched off Van Poppel's lead-out and powered clear for a dominant sprint win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Laurence Pithie", "reason": "Caught in a major crash early in the stage; took a bike change and continued with minor injuries, then suffered a mechanical 4 km from the finish before borrowing team-mate Callum Thornley's bike to reach the line and secure the GC." }
+    ],
+    "abandons": []
+  },
+  "quotes": [
+    { "rider": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "quote": "I'm absolutely delighted to have achieved this today. Danny really set the stage for my victory. I'm pleased that he managed to finish second himself, and that we were able to give the team a perfect end to the week." },
+    { "rider": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe", "quote": "It's my first overall victory, and I'm absolutely happy. It was a tough week, but the team did a really good job. Right from the first stage, we knew it was going to be difficult to control because of the strong teams. We had a lot of pressure and a lot of bad luck, but we managed to keep our heads up." }
+  ],
+  "sources": [
+    { "url": "https://www.bikeraceinfo.com/stageraces/Dunkirk/2026-Dunkirk.html", "publication": "BikeRaceInfo", "title": "2026 Four Days of Dunkirk — stage reports and results", "lang": "en" },
+    { "url": "https://www.directvelo.com/actualite/129071/4-jours-de-dunkerque-et-5-classements", "publication": "DirectVelo", "title": "4 Jours de Dunkerque — 5e étape et classements", "lang": "fr" }
+  ]
+}
