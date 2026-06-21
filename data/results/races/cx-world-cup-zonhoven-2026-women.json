@@ -1,0 +1,105 @@
+{
+  "raceId": "cx-world-cup-zonhoven-2026-women",
+  "raceName": "UCI Cyclocross World Cup Zonhoven — Women Elite",
+  "raceDate": "2026-01-04",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "In the snow and ice of Zonhoven, Ceylin del Carmen Alvarado (Fenix-Premier Tech) recovered from an early crash to take advantage of a final-lap mistake by overall leader Lucinda Brand and solo to victory — making her a back-to-back winner on the famously technical sand course. Brand (Baloise Verzekeringen-Het Poetsbureau Lions), who had led much of the race, veered into the fencing and lost the front, eventually finishing second at +0:23. Puck Pieterse (Fenix-Premier Tech), the project's tracked rider here, led early but fell on lap five and came home third at +0:49 to complete an all-Dutch podium.",
+  "podium": [
+    { "position": 1, "name": "Ceylin del Carmen Alvarado", "team": "Fenix - Premier Tech", "time": "51:33" },
+    { "position": 2, "name": "Lucinda Brand", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:23" },
+    { "position": 3, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech", "gap": "+0:49" },
+    { "position": 4, "name": "Amandine Fouquenet", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+1:27" },
+    { "position": 5, "name": "Shirin van Anrooij", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+1:39" },
+    { "position": 6, "name": "Aniek van Alphen", "team": "Seven Racing", "gap": "+1:46" },
+    { "position": 7, "name": "Leonie Bentveld", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+2:21" },
+    { "position": 8, "name": "Kristýna Zemanová", "team": "VIF Cycling Team", "gap": "+2:28" },
+    { "position": 9, "name": "Manon Bakker", "team": "Crelan - Corendon", "gap": "+2:29" },
+    { "position": 10, "name": "Zoe Bäckstedt", "team": "Canyon//SRAM Racing zondacrypto", "gap": "+2:42" }
+  ],
+  "narrative": {
+    "headline": "Alvarado capitalises on Brand's late slip to win again in the Zonhoven ice",
+    "openingMoves": "Zonhoven's technical, sandy circuit was raced in snow and ice, the De Kuil sand pit frozen and the off-camber lines treacherous. Puck Pieterse hit the front early and looked the strongest, while Ceylin del Carmen Alvarado's day began badly with an early crash that dropped her out of the lead group.",
+    "raceUnfolds": "Alvarado picked herself up and came from behind as the icy course punished her rivals one by one. Pieterse lost ground after a mistake and could no longer fight for the win, and the lead settled on overall World Cup leader Lucinda Brand, who pushed hard to go clear. Alvarado was the next-strongest rider, working her way back toward the front while Brand defended a slender advantage.",
+    "decision": "The race turned on lap five. Brand's eagerness to go clear proved her undoing — she lost control and veered into the fencing, losing precious time and dropping out of the lead, and was forced to pit for a bike change. That handed first place to Alvarado, who hit the front and led for most of the closing two laps. Pieterse fell again on the same lap, locking in her third place.",
+    "finale": "Alvarado only had to avoid disaster over the final half-lap and duly managed it, soloing to victory in 51:33. Brand recovered to take second at +0:23 and Pieterse held third at +0:49, completing an all-Dutch podium. The win made Alvarado a back-to-back winner at Zonhoven."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Early laps", "headline": "Alvarado crashes but recovers", "description": "Alvarado crashed early and dropped out of the lead group, then fought her way back from behind as the icy course caught out her rivals." },
+    { "kmFromFinish": null, "location": "Lap 5 fencing", "headline": "Brand veers into the fencing and loses the lead", "description": "Leader Lucinda Brand, pushing to go clear, lost control and veered into the course fencing, losing time and pitting for a bike change — handing the front of the race to Alvarado, who then led most of the final two laps." },
+    { "kmFromFinish": null, "location": "Lap 5", "headline": "Pieterse falls, settles for third", "description": "Already too far back to contest the win, Puck Pieterse fell again on lap five, confirming her third place and the all-Dutch podium." }
+  ],
+  "teamStories": [
+    {
+      "team": "Fenix - Premier Tech",
+      "verdict": "Win + 3rd",
+      "verdictClass": "win",
+      "narrative": "A double podium for Fenix-Premier Tech on a brutal, icy day. Ceylin del Carmen Alvarado bounced back from an early crash to read the conditions best of all, pouncing on Lucinda Brand's late mistake to solo to a back-to-back Zonhoven victory. Teammate Puck Pieterse — the project's tracked rider here — animated the early race from the front before two falls on the slick course relegated her to a hard-fought third. Two of the three podium steps for the squad.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "2nd + 5th; win slips away",
+      "verdictClass": "neutral",
+      "narrative": "So nearly the winning team. Overall World Cup leader Lucinda Brand led much of the race and looked set to go clear, but her eagerness cost her — she veered into the fencing on lap five, lost the front and had to take a bike change, ceding the win to Alvarado before recovering to second at +0:23. Shirin van Anrooij added fifth. A strong day undone by a single moment on the ice.",
+      "riderIds": []
+    },
+    {
+      "team": "Pauwels Sauzen - Altez Industriebouw",
+      "verdict": "4th + 7th",
+      "verdictClass": "neutral",
+      "narrative": "Amandine Fouquenet was the best of the non-Dutch riders, riding steadily through the carnage to fourth at +1:27, with Leonie Bentveld backing her up in seventh. A solid team result on a day defined by crashes among the favourites.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech",
+      "role": "leader", "position": 3, "gap": "+0:49",
+      "narrative": "The project's tracked rider in this CX-specialist field, Pieterse was the early aggressor, hitting the front and looking the strongest in the opening laps of the frozen Zonhoven course. But the ice undid her: a first mistake cost her contact with the leaders, and a second fall on lap five — when she had already lost too much ground to fight for the win — sealed her fate. She held on for third at +0:49 to round out an all-Dutch podium, a respectable winter result for a rider whose main targets lie on the road and mountain bike.",
+      "keyMoments": [
+        { "lap": 1, "what": "Hit the front early and looked the strongest on the ice" },
+        { "lap": 5, "what": "Fell for a second time, locking in third place" }
+      ],
+      "incident": "Fell twice on the icy course; third at +0:49."
+    },
+    {
+      "name": "Ceylin del Carmen Alvarado", "team": "Fenix - Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "A win forged out of adversity. Alvarado crashed early and dropped out of the lead group, but recovered to read the icy conditions better than anyone, working her way back to the front. When leader Lucinda Brand veered into the fencing on lap five, Alvarado hit the front and led for most of the closing two laps, needing only to stay upright over the final half-lap to solo home in 51:33. The win made her a back-to-back winner at Zonhoven.",
+      "keyMoments": [
+        { "lap": 1, "what": "Crashed early and dropped out of the lead group" },
+        { "lap": 5, "what": "Took the lead after Brand's mistake and led the final two laps to win" }
+      ],
+      "incident": "Crashed early but recovered to win."
+    },
+    {
+      "name": "Lucinda Brand", "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "role": "leader", "position": 2, "gap": "+0:23",
+      "narrative": "The overall World Cup leader led much of the race and pushed to go clear, but her eagerness was her undoing: she lost control and veered into the fencing on lap five, dropping out of the lead and pitting for a bike change. That mistake handed the win to Alvarado; Brand recovered to take second at +0:23.",
+      "keyMoments": [
+        { "lap": 5, "what": "Veered into the fencing while leading, lost the front and took a bike change" }
+      ],
+      "incident": "Crashed into the fencing on lap five while leading; second at +0:23."
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "name": "Ceylin del Carmen Alvarado", "team": "Fenix - Premier Tech", "detail": "Crashed early and dropped out of the lead group, but recovered to win." },
+      { "name": "Lucinda Brand", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "detail": "Veered into the course fencing on lap five while leading, lost control and pitted for a bike change, ceding the win." },
+      { "name": "Puck Pieterse", "team": "Fenix - Premier Tech", "detail": "Fell twice on the icy course, the second time on lap five, ending any hope of the win; finished third." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Back-to-back at Zonhoven, decided by the ice",
+    "quotes": [],
+    "body": "Round nine of the 2025–2026 UCI Cyclo-cross World Cup was a survival exercise on snow and ice, and Ceylin del Carmen Alvarado survived best — crashing early, recovering, and pouncing the moment overall leader Lucinda Brand slid into the fencing on the final two laps. The result made Alvarado a back-to-back Zonhoven winner and a double podium for Fenix-Premier Tech alongside Puck Pieterse's third. Brand kept the overall World Cup lead despite the slip, taking second, with Pieterse rounding out an all-Dutch top three."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/uci-cyclo-cross-world-cup-zonhoven-ceylin-del-carmen-alvarado-triumphs-in-the-ice-and-snow/", "publication": "Cyclingnews", "title": "Ceylin del Carmen Alvarado triumphs in the ice and snow", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/uci-cyclo-cross-world-cup-zonhoven-we-2026/result", "publication": "CyclingFlash", "title": "UCI Cyclo-cross World Cup Zonhoven 2026 — Women Elite results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_UCI_Cyclo-cross_World_Cup", "publication": "Wikipedia", "title": "2025–26 UCI Cyclo-cross World Cup", "lang": "en" }
+  ]
+}

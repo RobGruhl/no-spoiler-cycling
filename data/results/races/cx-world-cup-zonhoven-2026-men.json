@@ -1,0 +1,85 @@
+{
+  "raceId": "cx-world-cup-zonhoven-2026-men",
+  "raceName": "UCI Cyclocross World Cup Zonhoven — Men Elite",
+  "raceDate": "2026-01-04",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "On a frozen, snow-dusted Zonhoven course Mathieu van der Poel led the field into the circuit, went clear early and rode flawlessly through the icy sand pit of De Kuil to take his ninth straight win of the season — a 1-2 for Alpecin-Premier Tech as 22-year-old Tibor Del Grosso took second at +0:45 despite a mid-race crash. Emiel Verstrynge (Crelan-Corendon) completed the podium in third. The day's other headline was Thibau Nys flipping over the fencing into the crowd and breaking his handlebars on lap four; he remounted, took a spare bike and salvaged 19th.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech", "time": "59:36" },
+    { "position": 2, "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "gap": "+0:45" },
+    { "position": 3, "name": "Emiel Verstrynge", "team": "Crelan - Corendon", "gap": "+1:03" },
+    { "position": 4, "name": "Niels Vandeputte", "team": "Alpecin - Premier Tech Development Team", "gap": "+1:18" },
+    { "position": 5, "name": "Toon Aerts", "team": "Charles Liégeois - Deschacht", "gap": "+1:18" },
+    { "position": 6, "name": "Michael Vanthourenhout", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+1:40" },
+    { "position": 7, "name": "Joris Nieuwenhuis", "team": "Ridley Racing Team", "gap": "+1:45" },
+    { "position": 8, "name": "Felipe Orts", "team": "Ridley Racing Team", "gap": "+1:56" },
+    { "position": 9, "name": "Pim Ronhaar", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+2:04" },
+    { "position": 10, "name": "Mees Hendrikx", "team": "Heizomat - Cube", "gap": "+2:15" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel's flawless ninth-in-a-row on icy Zonhoven sand; Alpecin 1-2",
+    "openingMoves": "Zonhoven — the famously technical, sandy circuit built around the natural amphitheatre of the De Kuil sand pit — was raced this year in freezing conditions, the deep sand frozen hard and the off-camber lines glazed with snow and ice. Van der Poel had flagged the sand pit beforehand as likely to be the hardest part of the course; he answered the question immediately, leading the field into the circuit and setting a punishing tempo from the gun.",
+    "raceUnfolds": "The world champion built his lead even further at the start of the third lap, riding the frozen mud and the De Kuil sand without a visible error while the chase fractured behind him. Teammate Tibor Del Grosso was the strongest of the rest and briefly held second before he crashed and had to rejoin the chase group. The race for the podium reshuffled on the icy lines — Emiel Verstrynge of Crelan-Corendon rode steadily into third — while the day's biggest drama came on lap four.",
+    "decision": "On the fourth lap Thibau Nys, one of the pre-race favourites, crashed hard: he flipped over the course fencing into the crowd and broke the right side of his handlebars. He ran with the broken bike, took a replacement in the pits and dropped out of contention entirely. With the only credible challenger gone and the leader untouchable, the win was settled long before the bell.",
+    "finale": "Van der Poel crossed the line alone in 59:36 for his ninth season win in a row. Del Grosso recovered from his crash to secure second 45 seconds back, completing an Alpecin-Premier Tech 1-2, and Verstrynge held on for third at +1:03. Nys salvaged 19th, 3:22 down."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "De Kuil sand pit, opening laps", "headline": "Van der Poel masters the frozen sand", "description": "Van der Poel led into the circuit, identified the icy De Kuil sand pit as the decisive feature and rode it cleanly while extending his lead at the start of the third lap — the move that effectively decided the race." },
+    { "kmFromFinish": null, "location": "Lap 4 fencing", "headline": "Nys flips into the crowd, breaks his handlebars", "description": "Thibau Nys crashed over the course fencing into the spectators on lap four, snapping the right side of his handlebars. He remounted, ran with the broken bike and took a spare in the pits, dropping out of the podium fight and finishing 19th." },
+    { "kmFromFinish": null, "location": "Mid-race chase", "headline": "Del Grosso crashes but holds second", "description": "Tibor Del Grosso, briefly second, crashed and rejoined the chase before recovering to confirm the Alpecin-Premier Tech 1-2, 45 seconds behind his leader." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Win + 2nd (1-2)",
+      "verdictClass": "win",
+      "narrative": "A complete Alpecin afternoon on the ice. Mathieu van der Poel did what he had done all winter — led into the circuit, went clear early and rode the frozen De Kuil sand flawlessly for his ninth straight win of the season. Behind him, 22-year-old Tibor Del Grosso was the best of the chasers and, even after crashing out of an early second place, regrouped to take second at +0:45, completing a 1-2 for the squad. Development-team rider Niels Vandeputte added fourth.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Crelan - Corendon",
+      "verdict": "Podium, 3rd",
+      "verdictClass": "win",
+      "narrative": "With the Alpecin pair untouchable and Nys eliminated by his crash, Emiel Verstrynge rode the smartest race of the rest — steady and error-free on the treacherous icy off-cambers — to take third at +1:03, the best non-Alpecin result of the day and a strong Belgian podium on home soil.",
+      "riderIds": []
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "Nys crashes out of contention",
+      "verdictClass": "loss",
+      "narrative": "The team's day turned on a single moment: Thibau Nys, expected to be Van der Poel's nearest challenger, flipped over the fencing into the crowd on lap four and broke his handlebars, ending any hope of a result. He battled back to 19th on a spare bike. Pim Ronhaar salvaged ninth to put the squad in the top ten.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "A flawless ride on the kind of frozen, technical sand course where the smallest error is punished. Van der Poel led the field into the circuit, identified the icy De Kuil sand pit as the day's hardest test and rode it perfectly, extending his lead at the start of the third lap and never being threatened. The win — in 59:36 — was his ninth in a row this season and continued an unbeaten winter that would carry him to the overall World Cup title.",
+      "keyMoments": [
+        { "lap": 1, "what": "Led the field into the circuit and set a punishing early tempo" },
+        { "lap": 3, "what": "Extended his lead through the frozen De Kuil sand to settle the win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "detail": "Flipped over the course fencing into the crowd on lap four and broke the right side of his handlebars; ran with the broken bike, took a spare in the pits and salvaged 19th at +3:22." },
+      { "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "detail": "Crashed while briefly holding second, rejoined the chase group and recovered to finish second at +0:45." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Nine in a row on the ice; Nys's costly crash",
+    "quotes": [],
+    "body": "Zonhoven, round nine of the 2025–2026 UCI Cyclo-cross World Cup, was another step in Van der Poel's perfect winter — his ninth straight win, an Alpecin-Premier Tech 1-2 with the emerging Tibor Del Grosso second, and a confirmation that the frozen, technical sand of De Kuil held no fears for the world champion. For Thibau Nys it was the day that got away: a dramatic crash over the fencing and a broken handlebar ended his bid before the halfway mark and left him 19th. Emiel Verstrynge's third was the standout ride among the chasers."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/uci-cyclo-cross-world-cup-zonhoven-undefeated-mathieu-van-der-poel-claims-another-victory-in-flawless-performance-as-nys-is-ruled-out-after-crash/", "publication": "Cyclingnews", "title": "Undefeated Mathieu van der Poel claims another victory in flawless performance as Nys is ruled out after crash", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/uci-cyclo-cross-world-cup-zonhoven-2026/result", "publication": "CyclingFlash", "title": "UCI Cyclo-cross World Cup Zonhoven 2026 — Men Elite results", "lang": "en" },
+    { "url": "https://www.ucicyclocrossworldcup.com/en", "publication": "UCI Cyclo-cross World Cup (Flanders Classics)", "title": "UCI Cyclo-cross World Cup — Zonhoven round", "lang": "en" }
+  ]
+}
