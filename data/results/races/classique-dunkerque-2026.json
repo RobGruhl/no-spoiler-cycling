@@ -1,0 +1,89 @@
+{
+  "raceId": "classique-dunkerque-2026",
+  "raceName": "Classique Dunkerque",
+  "raceDate": "2026-05-19",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Artem Shmidt (Netcompany INEOS) won the 2nd Classique Dunkerque - Grand Prix des Hauts-de-France with a brave solo attack launched inside the final 14 km on the Mont-Saint-Eloi finishing circuit, riding clear in soaking, windy conditions to claim his first professional road victory and the first win of the Netcompany INEOS era. He held off the chasing group by four seconds, with Pierre Gautherat (Decathlon CMA CGM) taking second and Jordi Meeus (Red Bull - BORA - hansgrohe) third on a 202.7 km mostly flat course from Dunkirk to Mont-Saint-Eloi.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Artem Shmidt", "team": "Netcompany INEOS", "time": "5h 00m 50s" },
+    { "position": 2, "riderId": null, "name": "Pierre Gautherat", "team": "Decathlon CMA CGM Team", "gap": "+0:04" },
+    { "position": 3, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:04" },
+    { "position": 4, "riderId": null, "name": "Alessio Magagnotti", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:04" },
+    { "position": 5, "riderId": null, "name": "Tobias Müller", "team": "Unibet Rose Rockets", "gap": "+0:06" },
+    { "position": 6, "riderId": null, "name": "Thibaud Gruel", "team": "Groupama - FDJ United", "gap": "+0:06" },
+    { "position": 7, "riderId": null, "name": "Kim Heiduk", "team": "Netcompany INEOS", "gap": "+0:06" },
+    { "position": 8, "riderId": null, "name": "Marius Mayrhofer", "team": "Tudor Pro Cycling Team", "gap": "+0:06" },
+    { "position": 9, "riderId": null, "name": "Matys Grisel", "team": "Lotto Intermarché", "gap": "+0:06" },
+    { "position": 10, "riderId": null, "name": "Jon Barrenetxea", "team": "Movistar Team", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Shmidt's wet-weather solo lands Netcompany INEOS its first win",
+    "openingMoves": "The 2nd edition of the Classique Dunkerque - Grand Prix des Hauts-de-France ran 202.7 km from Dunkirk to Mont-Saint-Eloi, a mostly flat 1.Pro one-day race held the day before the Quatre Jours de Dunkerque stage race began. Cold, soaking rain and a stiff southerly wind defined the day - 13C and 16 km/h winds at the finish - and the crosswinds began thinning the bunch long before the closing circuit. A three-rider break went up the road and built a lead of nearly three minutes.",
+    "raceUnfolds": "With 45 km to go the front trio still held around 2 min 50 sec over a peloton already fractured by the wind. The chase gradually reeled the move in until only one escapee remained out front - Axel Mariault (CIC Pro Cycling Academy) - as the race reached the finishing circuit around Mont-Saint-Eloi. Behind, a reduced front group containing the day's fastest finishers organised the pursuit, with Decathlon CMA CGM and Red Bull - BORA - hansgrohe most prominent.",
+    "decision": "On the final lap, on the rise into Mont-Saint-Eloi that the riders pass just before the finish, Artem Shmidt attacked out of the reduced front group inside the last 14 km. He bridged across to lone leader Mariault, dropped him with a furious turn of pace, and pressed on alone. By 3 km to go his advantage was roughly 30-40 seconds over a disorganised chase strung out in the headwind.",
+    "finale": "Shmidt held his lead through the long, exposed run-in to win solo by four seconds - his first professional road victory and the first win of the newly rebranded Netcompany INEOS team. Behind him the chasing group sprinted for the minor places: Pierre Gautherat (Decathlon CMA CGM) took second and Jordi Meeus (Red Bull - BORA - hansgrohe) third, with Meeus's young teammate Alessio Magagnotti fourth, all at +4 seconds. Tobias Müller led home the next group at +6 seconds, and INEOS placed a second rider in the top ten with Kim Heiduk seventh."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 45, "location": "Open roads before the finishing circuit", "headline": "Crosswinds shatter the bunch as a trio leads by nearly three minutes", "description": "Echelon-inducing crosswinds and rain split the peloton repeatedly. With 45 km to go a three-rider break led by about 2 min 50 sec over a front group that was already a fraction of the original bunch." },
+    { "kmFromFinish": 14, "location": "Mont-Saint-Eloi finishing circuit", "headline": "Shmidt attacks and bridges to the lone leader", "description": "On the rise into Mont-Saint-Eloi, Artem Shmidt launched a solo move out of the reduced front group inside the final 14 km, bridged across to last survivor Axel Mariault and immediately rode away from him." },
+    { "kmFromFinish": 3, "location": "Headwind run-in to Mont-Saint-Eloi", "headline": "A 30-40 second gap holds into the headwind", "description": "By 3 km to go Shmidt had roughly 30-40 seconds on a scattered chase. The exposed, headwind finishing straight clawed time back but never enough, and he soloed to the line four seconds clear." }
+  ],
+  "teamStories": [
+    {
+      "team": "Netcompany INEOS",
+      "verdict": "First win of the new era",
+      "verdictClass": "win",
+      "narrative": "The newly rebranded Netcompany INEOS opened its account in style. 22-year-old American Artem Shmidt - the reigning national time-trial champion in his second pro season - read the wet, windy finale perfectly, jumping inside the final 14 km, bridging to the last escapee and soloing clear for his first professional road victory. The team backed it up with Kim Heiduk seventh out of the chasing group, animating the run-in and converting a brutal day of attrition into both the win and a top-ten. A statement result for the project's first race week under the new name.",
+      "riderIds": []
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Gautherat best of the rest",
+      "verdictClass": "neutral",
+      "narrative": "With Shmidt gone up the road, Decathlon CMA CGM drove the chase for Pierre Gautherat and were rewarded with the best of the rest. The 23-year-old won the dash of the reduced front group for second at +4 seconds, salvaging the podium step nearest the winner on a day the race slipped away on the circuit. Strong numbers and an aggressive finale, but the win was lost to Shmidt's timing.",
+      "riderIds": []
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Two in the top four, none on the top step",
+      "verdictClass": "neutral",
+      "narrative": "Red Bull - BORA - hansgrohe were among the most active in the chase, placing two riders in the top four: sprinter Jordi Meeus third and 19-year-old Alessio Magagnotti fourth, both at +4 seconds. The pace they helped set could not bring back Shmidt's solo, leaving Meeus to settle for third in the bunch kick. A solid block of riders without the result - the kind of near-miss that the squad's deep classics roster will want to convert next time.",
+      "riderIds": ["jordi-meeus"]
+    },
+    {
+      "team": "CIC Pro Cycling Academy",
+      "verdict": "Mariault's long day off the front",
+      "verdictClass": "neutral",
+      "narrative": "CIC Pro Cycling Academy's Axel Mariault was the last survivor of the day's three-man break, holding the front of the race until the Mont-Saint-Eloi circuit before Shmidt bridged across and rode away. Caught and distanced in the finale, he rolled home well down the result, but the move kept a ProTeam name at the front of a wet, attritional race for most of the day.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:04",
+      "narrative": "Meeus came to Dunkirk as one of the marked fast finishers but the crosswinds and Shmidt's late solo denied him a clean sprint. He made the reduced front group and, with the win up the road, contested the dash for the minor places, taking third at +4 seconds behind Gautherat. His young teammate Alessio Magagnotti was right alongside him in fourth. A podium on a hard, wet day, though not the bunch-sprint scenario that would have suited him best.",
+      "keyMoments": [
+        { "km": 14, "what": "Survived the crosswind-thinned front group as Shmidt attacked, then sprinted it out for third" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A breakthrough win to launch a team's new name",
+    "quotes": [],
+    "body": "The Classique Dunkerque gave Artem Shmidt his first professional road victory and handed the rebranded Netcompany INEOS its maiden win, a morale-setting result for the project on a brutal, rain-soaked day in the Hauts-de-France. For the fast men - Meeus chief among them - the crosswinds turned a nominal flat finish into a war of attrition that rewarded the boldest rather than the quickest. The race served as a curtain-raiser to the Quatre Jours de Dunkerque stage race that began the next day."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/classique-dunkerque/2026/result", "publication": "ProCyclingStats", "title": "Classique Dunkerque / Grand prix des Hauts de France 2026 - Results", "lang": "en" },
+    { "url": "https://www.bikeraceinfo.com/races/Classique-Dunkerque/2026-Classique-dunkirk.html", "publication": "BikeRaceInfo", "title": "2026 Classique Dunkerque", "lang": "en" },
+    { "url": "https://netcompanyineos.com/races/2026/classique-dunkerque/", "publication": "Netcompany INEOS", "title": "Shmidt claims memorable solo victory at Classique Dunkerque", "lang": "en" },
+    { "url": "https://lemagducyclisme.fr/resultats-2026/", "publication": "Le Mag du Cyclisme", "title": "Resultats 2026 : dates, courses et classements", "lang": "fr" }
+  ]
+}
