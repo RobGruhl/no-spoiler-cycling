@@ -1,0 +1,53 @@
+{
+  "raceId": "uae-tour-women-2026",
+  "stageNumber": 2,
+  "stageName": "Dubai Police Academy → Hamdan Bin Mohamed Smart University",
+  "stageDate": "2026-02-06",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Two from two for Lorena Wiebes, who held off Chiara Consonni and Nienke Veenhoven in a tense bunch sprint to keep the red jersey.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "3h 38m 44s" },
+    { "position": 2, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto", "gap": "+0:14" },
+    { "position": 3, "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike", "gap": "+0:16" }
+  ],
+  "narrative": {
+    "headline": "Wiebes makes it two from two",
+    "body": "The 145 km stage from the Dubai Police Academy to Hamdan Bin Mohamed Smart University stayed together as a single bunch despite a nervous, fast run-in. There was no decisive crosswind or echelon split; instead the day came down to positioning on a long, exposed highway finish, with a couple of late crashes adding to the tension.\n\nWiebes again proved strongest, surging clear in the final metres to beat Chiara Consonni and Nienke Veenhoven. The win extended SD Worx's grip on the race and kept Wiebes in the red jersey, with the sprinters still defining the GC ahead of the queen stage."
+  },
+  "gcImpact": {
+    "headline": "Wiebes retains red, GC still bunched",
+    "body": "Wiebes added more bonus seconds to retain the red jersey. The overall remained tightly packed among finishers, with the climbing GC contenders saving their effort for Jebel Hafeet. No meaningful time gaps opened among the favourites."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Backed up her stage 1 win with a second straight victory after a controlled run-in turned into a tense bunch sprint. Beat Consonni and Veenhoven to retain the red jersey and stay on course for a clean sweep of the flat stages.",
+      "keyMoments": [
+        { "km": 0, "what": "Surged clear in the final metres ahead of Consonni and Veenhoven" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto",
+      "role": "stage-hunter", "position": 2, "gap": "+0:14",
+      "narrative": "Second on stage 2, the closest anyone came to Wiebes on the flat stages. Consonni's consistent sprinting helped Canyon-SRAM build toward the team classification they would eventually win.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "nienke-veenhoven", "name": "Nienke Veenhoven", "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter", "position": 3, "gap": "+0:16",
+      "narrative": "Third on stage 2 for Visma | Lease a Bike, a strong sprint result for the 21-year-old in a deep field. One of two podium-level showings in the flat stages as Visma rode an aggressive, all-rounder week behind eventual GC podium finisher Femke de Vries.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/uae-tour-women/2026/stage-2", "publication": "ProCyclingStats", "title": "UAE Tour Women 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/lorena-wiebes-delivers-towering-sprint-to-win-uae-women-stage-2/", "publication": "Domestique", "title": "Lorena Wiebes delivers towering sprint to win UAE Women stage 2", "lang": "en" }
+  ]
+}

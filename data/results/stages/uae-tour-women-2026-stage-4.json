@@ -1,0 +1,76 @@
+{
+  "raceId": "uae-tour-women-2026",
+  "stageNumber": 4,
+  "stageName": "Al Ain Hazza Bin Zayed Stadium → Jebel Hafeet",
+  "stageDate": "2026-02-08",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Elisa Longo Borghini soloed clear inside the final 2.5 km of Jebel Hafeet to win the queen stage and seize the overall, her third UAE Tour Women title. Trinca Colonel and Femke de Vries completed the GC podium.",
+  "podium": [
+    { "position": 1, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "time": "4h 13m 04s" },
+    { "position": 2, "riderId": "monica-trinca-colonel", "name": "Monica Trinca Colonel", "team": "Liv AlUla Jayco", "gap": "+0:12" },
+    { "position": 3, "riderId": null, "name": "Femke de Vries", "team": "Team Visma | Lease a Bike", "gap": "+0:14" },
+    { "position": 5, "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Longo Borghini's Jebel Hafeet masterclass settles the race",
+    "body": "The 156 km queen stage from Al Ain ended on the iconic Jebel Hafeet, the only summit finish of the race and the climb that has decided every edition. The long, flat run-in from Al Ain was controlled rather than chaotic, with no breakaway allowed meaningful freedom as the GC teams kept the bunch intact for the climb.\n\nUAE Team ADQ moved to the front on the approach through Green Mubazzarah, and once the road tilted up the field shattered. Lorena Wiebes was dropped early, ending her hold on the red jersey. Inside the final six kilometres Monica Trinca Colonel's early attacks forced reactions but no separation; Longo Borghini then applied repeated accelerations to strip away the remaining domestiques.\n\nWith 2.5 km to go Longo Borghini made the decisive move, briefly joined by Kasia Niewiadoma before pressing on alone. Niewiadoma was shed, and Longo Borghini crested the summit solo for her second career Jebel Hafeet stage win — sealing the overall in the same move. Trinca Colonel rode clear of the chase for second on the stage, with Femke de Vries third."
+  },
+  "gcImpact": {
+    "headline": "Longo Borghini takes red on the summit; third overall title",
+    "body": "Longo Borghini overturned Wiebes's lead with her stage-winning solo, taking the red jersey and the overall by 16 seconds over Monica Trinca Colonel, with Femke de Vries third at +0:17. Kim Le Court-Pienaar moved up to fourth at +1:07 and Niewiadoma was fifth at +1:09. It was Longo Borghini's third UAE Tour Women GC title in the race's four editions, with a final winning time of 13h 06' 32\". Wiebes salvaged the green points jersey, Eleonora Ciabocco (6th overall) took the white young-rider jersey, and Canyon-SRAM won the team classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Won the queen stage and the overall in a single move, soloing clear on Jebel Hafeet with 2.5 km to go after a series of accelerations cracked the GC group. It was her second Jebel Hafeet stage win and her third UAE Tour Women title in four editions — a statement opening to her 2026 season on home roads for UAE Team ADQ. She had stayed safely in the bunch through the three flat sprint stages before the summit finish gave her the only real GC opportunity.",
+      "keyMoments": [
+        { "km": 6, "what": "Began applying pressure with repeated accelerations to isolate rivals" },
+        { "km": 2.5, "what": "Attacked decisively, dropped Niewiadoma, and soloed to the summit and the GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "monica-trinca-colonel", "name": "Monica Trinca Colonel", "team": "Liv AlUla Jayco",
+      "role": "leader", "position": 2, "gap": "+0:12",
+      "narrative": "Animated the finale with early attacks inside the last six kilometres before Longo Borghini's surge, then rode clear of the chase for second on the stage and second overall at +0:16. A career-level GC ride for the 26-year-old climber, the strongest of the non-UAE contenders on Jebel Hafeet.",
+      "keyMoments": [
+        { "km": 6, "what": "Launched the first serious attacks of the climb" },
+        { "km": 1, "what": "Opened a late gap from the chase group to take second on the stage" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto",
+      "role": "leader", "position": 5, "gap": "+0:00",
+      "narrative": "The only rider able to briefly follow Longo Borghini's decisive 2.5 km attack before being shed on the steeper slopes. Faded to fifth on the stage and fifth overall at +1:09, leading the Canyon-SRAM effort that also won the team classification.",
+      "keyMoments": [
+        { "km": 2.5, "what": "Briefly bridged to Longo Borghini's attack before being dropped" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "kim-le-court-pienaar", "name": "Kim Le Court-Pienaar", "team": "AG Insurance - Soudal Team",
+      "role": "leader", "position": 4, "gap": "+1:07",
+      "narrative": "Climbed to fourth overall at +1:07 on the Jebel Hafeet summit finish, the best GC result for AG Insurance - Soudal at the race. A solid early-season GC marker for the Mauritian all-rounder ahead of her spring classics campaign.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek",
+      "role": "leader", "position": 7, "gap": "+1:29",
+      "narrative": "Seventh overall at +1:29, the best of the Lidl-Trek climbers on Jebel Hafeet. A steady GC ride to open the season for the New Zealander, holding inside the top ten on the only mountain test of the week.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/uae-tour-women/2026/stage-4", "publication": "ProCyclingStats", "title": "UAE Tour Women 2026 Stage 4 result", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/uae-tour-women/2026/gc", "publication": "ProCyclingStats", "title": "UAE Tour Women 2026 final GC", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-uae-tour-women-stage-4-elisa-longo-borghini-conquers-jebel-hafeet-to-seal-overall-victory", "publication": "CyclingUpToDate", "title": "Longo Borghini conquers Jebel Hafeet to seal overall victory", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/uae-tour-women-elisa-longo-borghini-seals-third-overall-victory-with-another-jebel-hafeet-masterclass-on-stage-4/", "publication": "Cyclingnews", "title": "Longo Borghini seals third overall victory", "lang": "en" }
+  ]
+}

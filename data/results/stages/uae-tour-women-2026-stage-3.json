@@ -1,0 +1,46 @@
+{
+  "raceId": "uae-tour-women-2026",
+  "stageNumber": 3,
+  "stageName": "Abu Dhabi TeamLab Phenomena → Abu Dhabi Breakwater",
+  "stageDate": "2026-02-07",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "A hat-trick for Lorena Wiebes, who completed three flat-stage wins in a row at the Abu Dhabi Breakwater, ahead of Lara Gillespie and Amalie Dideriksen.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "2h 48m 37s" },
+    { "position": 2, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "+0:18" },
+    { "position": 3, "riderId": null, "name": "Amalie Dideriksen", "team": "Cofidis Women Team", "gap": "+0:26" }
+  ],
+  "narrative": {
+    "headline": "Wiebes completes the flat-stage hat-trick",
+    "body": "The 121 km loop finishing at the Abu Dhabi Breakwater was the third and final flat stage, and it produced a third straight bunch sprint. No breakaway threatened the sprinters' teams, and the day was again decided in a mass gallop on the seafront finish.\n\nWiebes was untouchable, taking her third win of the race to lock down the sprint dominance of the week, with Lara Gillespie second again and Amalie Dideriksen third for Cofidis. The result left the red jersey on Wiebes's shoulders going into the decisive Jebel Hafeet stage, where the climbers would finally get their chance."
+  },
+  "gcImpact": {
+    "headline": "Wiebes still in red as the climbers wait for Jebel Hafeet",
+    "body": "Wiebes carried the red jersey into the queen stage after three flat days, but with the entire GC effectively neutralised among the finishers, the overall was always going to be decided on the stage 4 summit finish. The pure climbers — Longo Borghini, Trinca Colonel, Niewiadoma — remained safely in the bunch, conceding nothing before the mountain."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Completed a perfect sweep of the three flat stages with a third straight bunch-sprint win at the Abu Dhabi Breakwater. The hat-trick, plus the points accumulated, secured the green points jersey for the week even though she would lose the red on the summit finish the next day.",
+      "keyMoments": [
+        { "km": 0, "what": "Won the seafront bunch sprint for a third straight stage" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ",
+      "role": "stage-hunter", "position": 2, "gap": "+0:18",
+      "narrative": "Second again on the final flat stage, her second runner-up finish behind Wiebes. Gillespie was consistently the best of the rest in the sprints, giving UAE Team ADQ a strong fast-finish card alongside Longo Borghini's GC effort.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/uae-tour-women/2026/stage-3", "publication": "ProCyclingStats", "title": "UAE Tour Women 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/uae-tour-women-elisa-longo-borghini-seals-third-overall-victory-with-another-jebel-hafeet-masterclass-on-stage-4/", "publication": "Cyclingnews", "title": "UAE Tour Women 2026 stage reports", "lang": "en" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "raceId": "uae-tour-women-2026",
+  "stageNumber": 1,
+  "stageName": "Al Mirfa → Madinat Zayed",
+  "stageDate": "2026-02-05",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Lorena Wiebes opened the race with a textbook bunch-sprint win in Madinat Zayed, taking the first red leader's jersey ahead of Lara Gillespie and Zoe Bäckstedt.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "2h 26m 17s" },
+    { "position": 2, "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ", "gap": "+0:04" },
+    { "position": 3, "riderId": null, "name": "Zoe Bäckstedt", "team": "CANYON//SRAM zondacrypto", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Wiebes wins the opener and pulls on the first red jersey",
+    "body": "The 111 km run from Al Mirfa to Madinat Zayed across the desert produced exactly the flat, controlled stage the sprinters wanted, with no breakaway given meaningful freedom on the open roads. The finish was a fast, congested affair as competing lead-out trains swamped the final kilometre and positioning became chaotic on the run-in.\n\nLorena Wiebes, kept near the front all day by SD Worx - Protime, found a gap along the barriers and surged through to take the win. Lara Gillespie was second for the home UAE Team ADQ squad with Zoe Bäckstedt third for Canyon-SRAM. The win, plus bonus seconds, gave Wiebes the first red leader's jersey of the race."
+  },
+  "gcImpact": {
+    "headline": "Wiebes in red after the opening sprint",
+    "body": "With time bonuses on a stage that finished together, Wiebes took the red jersey. The GC sat tightly bunched among the sprinters and finishers, with the climbers biding their time for the Jebel Hafeet summit finish on stage 4. Gillespie sat second on bonuses, Bäckstedt third."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Won the opening sprint and the first red jersey of the 2026 UAE Tour Women. SD Worx kept her positioned at the front through a nervous, congested finale, and she found the gap along the barriers to beat Gillespie and Bäckstedt. The first of what would become three straight sprint victories.",
+      "keyMoments": [
+        { "km": 0, "what": "Found a gap along the barriers to win the bunch sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lara-gillespie", "name": "Lara Gillespie", "team": "UAE Team ADQ",
+      "role": "stage-hunter", "position": 2, "gap": "+0:04",
+      "narrative": "Second on the opening stage for the home UAE Team ADQ team, beaten only by Wiebes. A strong sprint result on home roads that would be repeated through the flat stages as the team's fast finisher behind GC leader Longo Borghini.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/uae-tour-women/2026/stage-1", "publication": "ProCyclingStats", "title": "UAE Tour Women 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/uae-tour-women-lorena-wiebes-storms-to-victory-on-stage-1-sprint/", "publication": "Cyclingnews", "title": "Lorena Wiebes storms to victory on stage 1", "lang": "en" },
+    { "url": "https://www.giroditaliawomen.it/en/news/uae-tour-women-2026-lorena-wiebes-wins-stage-1-and-wears-the-1st-red-jersey/", "publication": "RCS Sport", "title": "Wiebes wins stage 1 and wears the 1st red jersey", "lang": "en" }
+  ]
+}
