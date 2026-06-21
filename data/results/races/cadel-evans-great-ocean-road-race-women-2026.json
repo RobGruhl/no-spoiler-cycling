@@ -1,0 +1,115 @@
+{
+  "raceId": "cadel-evans-great-ocean-road-race-women-2026",
+  "raceName": "Cadel Evans Great Ocean Road Race (Women)",
+  "raceDate": "2026-01-31",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Ally Wollaston (FDJ United-SUEZ) won back-to-back Cadel Evans titles, taking the sprint from a 12-rider front group on the Geelong waterfront ahead of Josie Nelson and Mireia Benito. It was her third victory of an electric Australian summer and the first rider to win the women's race in consecutive years.",
+  "podium": [
+    { "position": 1, "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United-SUEZ", "time": "3h54'55\"" },
+    { "position": 2, "riderId": null, "name": "Josie Nelson", "team": "Team Picnic-PostNL", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Mireia Benito", "team": "AG Insurance-Soudal Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Wollaston goes back-to-back from the Geelong sprint",
+    "openingMoves": "The 141.2 km Geelong race, traditional WorldTour close of the Australian summer, used the coastal loop before two laps of the Challambra finishing circuit. Petra Stiasny (Human Powered Health) went clear early in a long-range solo move and built a lead of over three and a half minutes with around 78 km to go, forcing the WorldTour teams to commit to the chase.",
+    "raceUnfolds": "The gap stabilised then came down as the race approached Geelong, with at least one significant crash behind the front of the bunch — a five-rider pile-up that brought down Olivia Baril and Gaia Realini on a fast section before the run-in. Stiasny was reeled in as the race hit the finishing circuits.",
+    "decision": "The two ascents of Challambra Crescent (1 km at 8.7%, max ~11%) did the selecting, thinning the field to a 12-rider front group that included the defending champion Wollaston and all her main rivals. FDJ United-SUEZ, with Wollaston and Amber Kraak in the move, rode tempo to discourage attacks and lock in a sprint.",
+    "finale": "On the run to Steampacket Gardens, Mavi García (UAE Team ADQ) was the first to wind up the pace, but Wollaston jumped from the small group and opened clear daylight. Josie Nelson started to close but never got fully alongside; Wollaston held on by more than a bike length, with Mireia Benito third. It made her the first back-to-back winner of the women's race and her third win of the summer."
+  },
+  "decisiveMoments": [
+    {
+      "location": "Challambra circuit",
+      "headline": "Challambra does the damage",
+      "description": "The two ascents of the Challambra Crescent climb (1 km at 8.7%, max ~11%) on the finishing circuits were the day's only real selection point, shedding the pure sprinters and whittling the race down to a 12-rider front group."
+    },
+    {
+      "location": "Final lap",
+      "headline": "FDJ neutralises the group",
+      "description": "With Wollaston as defending champion and Kraak alongside, FDJ United-SUEZ rode a controlling tempo over the second ascent and through the technical run-in, ensuring no late solo move could establish a gap and the race would come down to a sprint."
+    },
+    {
+      "kmFromFinish": 1,
+      "headline": "García opens, Wollaston finishes",
+      "description": "Mavi García was first to lift the pace on the run to the line, stretching the group, but Wollaston launched a long, decisive sprint that Nelson and Benito couldn't match."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "FDJ United-SUEZ",
+      "verdict": "Perfect title defence",
+      "verdictClass": "win",
+      "narrative": "FDJ rode the front group exactly as a defending champion's team should — Wollaston and Kraak both in the move, the tempo kept high enough to kill counter-attacks, and the sprint set up cleanly. Wollaston's third win of the Australian summer made her the first back-to-back Cadel Evans women's champion; Kraak rounded out the top 10.",
+      "riderIds": ["ally-wollaston"]
+    },
+    {
+      "team": "Team Picnic-PostNL",
+      "verdict": "Nelson closest to the champion",
+      "verdictClass": "neutral",
+      "narrative": "Josie Nelson was the only rider to get anywhere near Wollaston in the sprint, taking second from the front group — a strong early-season marker for the 23-year-old Briton.",
+      "riderIds": []
+    },
+    {
+      "team": "Liv AlUla Jayco",
+      "verdict": "Two in the top eight on home roads",
+      "verdictClass": "neutral",
+      "narrative": "The Australian outfit placed Mackenzie Coupland (4th) and Ella Wyllie (8th) in the decisive group, the best collective showing from a home team on the Geelong circuit.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Two in the move despite a late crash",
+      "verdictClass": "neutral",
+      "narrative": "Sarah Van Dam was caught in a crash in the bunch with a lap to go yet still recovered into the front group to take 6th, with Rosita Reijnhout 9th — a resilient ride from the pair.",
+      "riderIds": ["sarah-van-dam"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "ally-wollaston", "name": "Ally Wollaston", "team": "FDJ United-SUEZ",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Defended her title in style, surviving both ascents of Challambra in the 12-rider front group and producing the day's strongest sprint on the Geelong waterfront. Her third win of the Australian summer and the first back-to-back women's victory at Cadel Evans.",
+      "keyMoments": [
+        { "where": "Challambra circuit", "what": "Held position through both ascents of the climb to stay in the front group" },
+        { "where": "Finish", "what": "Launched the decisive sprint after García's acceleration and held off Nelson by more than a bike length" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "sarah-van-dam", "name": "Sarah Van Dam", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 6, "gap": "s.t.",
+      "narrative": "Caught in a crash in the group with one lap to go but recovered to make the 12-rider front selection and finish 6th, a gritty result on the Geelong circuit.",
+      "keyMoments": [
+        { "where": "Final lap", "what": "Recovered from a late crash to rejoin the front group" }
+      ],
+      "incident": "Crashed in the group with one lap to go, remounted and made the final front selection"
+    },
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly",
+      "role": "leader", "position": 7, "gap": "s.t.",
+      "narrative": "Made the decisive 12-rider group over Challambra and sprinted to 7th, a solid early-season day for the Swiss puncheur-sprinter.",
+      "keyMoments": [
+        { "where": "Challambra circuit", "what": "Survived the Challambra selection to contest the bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "description": "A five-rider crash behind the front of the bunch on a fast section before the Geelong run-in brought down Olivia Baril and Gaia Realini." },
+      { "description": "A crash in the group with one lap to go involved Sarah Van Dam, who recovered to make the final front group." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Australian summer ends with a back-to-back champion",
+    "quotes": [],
+    "body": "The Cadel Evans race is always the final WorldTour day of the Australian summer. Wollaston closed it out as the women's race's first back-to-back winner and with three wins from the summer, having already taken stages at the Tour Down Under — an early statement of form for the FDJ United-SUEZ leader."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/cadel-evans-great-ocean-road-race-women/", "publication": "Cyclingnews", "title": "Women's Cadel Evans Great Ocean Road Race: Ally Wollaston takes back-to-back win from small group sprint", "lang": "en" },
+    { "url": "https://velopressecollection.ouest-france.fr/route/classements/34725-cadel-evans-great-ocean-road-race-femmes-31-janvier-2026-classement.html", "publication": "Ouest-France Vélopresse", "title": "Cadel Evans Great Ocean Road Race femmes 31 janvier 2026 classement", "lang": "fr" },
+    { "url": "https://cyclingflash.com/race/mapei-cadel-evans-great-ocean-road-race-women-we-2026/result", "publication": "CyclingFlash", "title": "Mapei Cadel Evans Great Ocean Road Race - Women 2026 Results", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Cadel_Evans_Great_Ocean_Road_Race_(women's_race)", "publication": "Wikipedia", "title": "2026 Cadel Evans Great Ocean Road Race (women's race)", "lang": "en" }
+  ]
+}
