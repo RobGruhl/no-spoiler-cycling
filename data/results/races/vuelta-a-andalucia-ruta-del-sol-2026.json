@@ -1,0 +1,140 @@
+{
+  "raceId": "vuelta-a-andalucia-ruta-del-sol-2026",
+  "raceName": "Vuelta a Andalucía Ruta del Sol",
+  "raceDate": "2026-02-18",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Iván Romeo (Movistar Team) won the 72nd Ruta del Sol, taking the leader's jersey with a solo stage-2 victory and defending it all the way to Lucena to beat Andreas Leknessund by just seven seconds. Tom Pidcock soloed to the decisive final mountain stage to leap onto the podium in third, with Christophe Laporte, Milan Fretin and Tom Crabbe sharing the bunch-sprint stages.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Iván Romeo", "team": "Movistar Team", "time": "18h 47m 10s" },
+    { "position": 2, "riderId": null, "name": "Andreas Leknessund", "team": "Uno-X Mobility", "gap": "+0:07" },
+    { "position": 3, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+0:27" }
+  ],
+  "jerseys": {
+    "gc": { "name": "Iván Romeo", "team": "Movistar Team" },
+    "points": { "name": "Alex Aranburu", "team": "Cofidis" },
+    "mountains": { "name": "Josh Burnett", "team": "Burgos Burpellet BH" },
+    "youth": { "name": "Jan Christen", "team": "UAE Team Emirates - XRG" },
+    "teams": { "name": "Movistar Team" }
+  },
+  "narrative": {
+    "headline": "Romeo defends to the line; Pidcock steals the final-day spotlight",
+    "openingMoves": "The 163 km opener from Benahavís to Pizarra was lumpy but never hard enough to drop the fast men. Victor Campenaerts animated the start with a solo move and a second group went up the road, but a reduced peloton came to the line together and Christophe Laporte (Team Visma | Lease a Bike) won the bunch kick to take the first leader's jersey.",
+    "raceUnfolds": "The race turned on stage 2 (Torrox → Otura). Iván Romeo and Andreas Leknessund attacked on a big mid-stage climb and stayed clear; Romeo dropped the Norwegian inside the final 2 km to win solo and take the overall lead by seven seconds — a margin that would stand for the rest of the week. Stage 3 into Lopera went to Milan Fretin (Cofidis) on an uphill sprint, and stage 4 to 20-year-old Tom Crabbe (Team Flanders - Baloise) in Pozoblanco, both bunch days that left the top two GC riders untouched.",
+    "decision": "The decisive day was the final mountain stage 5 to Lucena. On the last ascent of the Alto de la Primera Cruz, Tom Pidcock accelerated and dropped everyone, soloing to the win. Romeo, with no team-mate left in the leaders, marked the most dangerous wheels and limited his loss to the front group to just 12 seconds — exactly enough.",
+    "finale": "Romeo secured the overall by seven seconds over Leknessund, with Pidcock's stage-win bonus vaulting him onto the podium in third at +0:27. Jan Christen and Romain Grégoire completed the top five at +0:44, Christen also taking the best-young-rider classification."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 2 — mid-stage climb to Otura", "headline": "Romeo and Leknessund go clear", "description": "Romeo and Leknessund forced the move that decided the GC; Romeo dropped Leknessund inside the final 2 km to win solo and take a seven-second overall lead he held to Lucena." },
+    { "kmFromFinish": null, "location": "Stage 4 — Golden Kilometre", "headline": "Grégoire grabs bonus seconds", "description": "With the early break caught, Grégoire took the maximum five seconds at the intermediate bonus sprint (Pidcock two), reshuffling the chasing GC order before the mountain finale." },
+    { "kmFromFinish": 5, "location": "Stage 5 — Alto de la Primera Cruz", "headline": "Pidcock attacks to win and podium", "description": "Pidcock's acceleration on the final climb dropped the field; his solo win and time bonus lifted him onto the GC podium, while Romeo limited his losses to 12 seconds to clinch the overall." }
+  ],
+  "teamStories": [
+    {
+      "team": "Movistar Team",
+      "verdict": "Overall + a stage + teams classification",
+      "verdictClass": "win",
+      "narrative": "Movistar's home race could hardly have gone better. Iván Romeo turned a stage-2 solo win into the leader's jersey and, despite having no team-mate among the leaders on the decisive final climb, defended the overall by seven seconds with a smart, controlled ride. The squad also took the teams classification, capping a near-perfect February for Spanish cycling's flagship team.",
+      "riderIds": []
+    },
+    {
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "verdict": "Final-stage win + GC podium",
+      "verdictClass": "win",
+      "narrative": "Pinarello-Q36.5 saved their week for the decisive day and were rewarded twice over: Tom Pidcock's solo attack on the final climb to Lucena delivered both the stage win and a jump onto the overall podium in third. A statement ride that justified holding their cards until the mountains.",
+      "riderIds": ["tom-pidcock"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Second overall by seven seconds",
+      "verdictClass": "neutral",
+      "narrative": "Andreas Leknessund was the one rider to go with Romeo's race-defining stage-2 move and paid for it by only seven seconds in the final standings — so near and yet so far. Sprinter Søren Wærenskjold added second on stage 4. A strong, aggressive week that came up just short of the overall win.",
+      "riderIds": []
+    },
+    {
+      "team": "Cofidis",
+      "verdict": "Stage 3 win + points jersey",
+      "verdictClass": "win",
+      "narrative": "Cofidis took the bunch-sprint spoils through Milan Fretin's win on the uphill drag into Lopera, while Alex Aranburu's consistency across the punchy and climbing days earned the points classification. A productive, multi-rider Andalucía for the French team.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Opening stage + first leader's jersey",
+      "verdictClass": "win",
+      "narrative": "Christophe Laporte gave Visma the perfect start, winning the reduced bunch sprint on stage 1 to claim the opening leader's jersey, and he stayed prominent in the sprints all week (third on stage 3). A clean early-season block for the Frenchman.",
+      "riderIds": []
+    },
+    {
+      "team": "Groupama - FDJ United",
+      "verdict": "Stage podium + GC top five",
+      "verdictClass": "neutral",
+      "narrative": "Romain Grégoire rode an intelligent GC week — raiding the stage-4 Golden Kilometre for bonus seconds, then taking third on the final mountain stage to finish fifth overall at +0:44. Paul Penhoët added second on stage 3. A promising all-round opening to 2026 for the team's young leaders.",
+      "riderIds": ["romain-gregoire1"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Youth jersey + GC top five",
+      "verdictClass": "neutral",
+      "narrative": "Jan Christen led the team's effort and delivered, taking second on the decisive final stage, fourth overall and the best-young-rider classification. At 21 the Swiss confirmed his rise as one of UAE's most promising stage-race talents.",
+      "riderIds": ["jan-christen"]
+    },
+    {
+      "team": "Team Flanders - Baloise",
+      "verdict": "Stage 4 win for a 20-year-old",
+      "verdictClass": "win",
+      "narrative": "ProTeam Flanders-Baloise grabbed a marquee scalp when 20-year-old Tom Crabbe powered off Axel Zingle's wheel to win the bunch sprint in Pozoblanco — his second victory of a fast-starting young season and a standout result for the development squad.",
+      "riderIds": []
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Climber Vlasov in the GC mix",
+      "verdictClass": "neutral",
+      "narrative": "Aleksandr Vlasov was Red Bull's GC card and rode into the front group on the final climb to finish seventh overall at +0:54. A solid if unspectacular early-season test without ever threatening the podium.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader", "position": 3, "gap": "+0:27",
+      "narrative": "Pidcock bided his time through the sprint days and produced the ride of the race on the final mountain stage, attacking on the last ascent of the Alto de la Primera Cruz, dropping everyone and soloing to victory in Lucena. The win and its time bonus carried him from outside the top five onto the overall podium in third at +0:27 — a strong early-season result for the new Pinarello-Q36.5 project.",
+      "keyMoments": [
+        { "km": null, "what": "8th on the punchy stage-3 uphill sprint, staying in the front group" },
+        { "km": 5, "what": "Stage 5 — attacked on the final climb, soloed to the win and the GC podium" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 4, "gap": "+0:44",
+      "narrative": "Christen was UAE's protected GC rider and delivered: best of the chasers behind Pidcock on the final stage for second on the day, fourth overall and the best-young-rider classification. The 21-year-old Swiss confirmed his standing as one of the team's brightest stage-race prospects for 2026.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 5 — 2nd on the day at +0:10, sealing the youth classification" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United",
+      "role": "leader", "position": 5, "gap": "+0:44",
+      "narrative": "Grégoire rode a canny GC week: he raided the stage-4 Golden Kilometre for the maximum five bonus seconds to move into the provisional top three, then climbed strongly to third on the final mountain stage. He finished fifth overall, level on time with Christen — a confident all-round opening to his 2026 season.",
+      "keyMoments": [
+        { "km": null, "what": "Stage 4 — took 5 bonus seconds at the Golden Kilometre" },
+        { "km": null, "what": "Stage 5 — 3rd on the day, finishing 5th overall" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A home win for Movistar and a calling card for Pidcock",
+    "quotes": [],
+    "body": "The 2026 Ruta del Sol reinforced February's strong start for Spanish cycling — Iván Romeo's overall win, off the back of his stage-2 solo, extended Movistar's bright early season. For Tom Pidcock the final-day solo and podium were the headline performance, an early sign that the Pinarello-Q36.5 venture would give him a platform to attack the punchy and mountainous one-week races. Jan Christen and Romain Grégoire both confirmed their progression as young stage-race leaders heading into the spring."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/ruta-del-sol-2026/stage-5-results-rds-2026/", "publication": "Cycling Stage", "title": "Ruta del Sol 2026: Pidcock brings late attack home, Romeo takes GC", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-andalucia-tom-pidcock-descends-to-final-stage-win-as-ivan-romeo-holds-on-for-overall/", "publication": "Cyclingnews", "title": "Vuelta a Andalucía: Tom Pidcock descends to final stage win as Iván Romeo holds on for overall", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/ruta-del-sol/2026/gc", "publication": "ProCyclingStats", "title": "Vuelta a Andalucía Ruta del Sol 2026 — Final GC and classifications", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Vuelta_a_Andaluc%C3%ADa", "publication": "Wikipedia", "title": "2026 Vuelta a Andalucía", "lang": "en" }
+  ]
+}

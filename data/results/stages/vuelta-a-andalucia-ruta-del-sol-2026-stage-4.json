@@ -1,0 +1,30 @@
+{
+  "raceId": "vuelta-a-andalucia-ruta-del-sol-2026", "stageNumber": 4, "stageName": "Montoro → Pozoblanco", "stageDate": "2026-02-21", "stageType": "hilly", "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "20-year-old Tom Crabbe (Team Flanders - Baloise) launched off Axel Zingle's wheel to win the bunch sprint in Pozoblanco on the longest stage (194 km), holding off Søren Wærenskjold and Sandy Dujardin. Iván Romeo retained the overall lead.",
+  "podium": [
+    { "position": 1, "name": "Tom Crabbe", "team": "Team Flanders - Baloise", "time": "3h 50m 02s" },
+    { "position": 2, "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 3, "name": "Sandy Dujardin", "team": "TotalEnergies", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Crabbe sprints to victory; Romeo retains lead",
+    "body": "Geoffrey Bouchard attacked first, joined by Nil Gimeno and then Luca Creti; the trio built a few minutes' lead but were reeled back well before the finish. With the day's early move neutralised, the intermediate 'Golden Kilometre' bonus sprint became the GC flashpoint: Romain Grégoire cleverly took maximum five bonus seconds there, with Tom Pidcock taking two — moves that would matter on the final-day GC. Inside the last 6 km, Tim Wellens attacked with Laporte and Marcin Budziński, but the peloton brought them back with 2.5 km to go. The finale went to the fast men. The 20-year-old Tom Crabbe seized his chance, launching from Axel Zingle's wheel and powering clear to a clean win — his second victory of the young season — ahead of Wærenskjold and Dujardin. Romeo stayed safe in the bunch to keep the jersey."
+  },
+  "gcImpact": { "headline": "Romeo holds; bonus seconds reshuffle the chase", "body": "Romeo retained the lead over Leknessund (+0:07). Behind, the Golden Kilometre bonuses lifted Romain Grégoire to third overall at +0:49, just ahead of Laporte (+0:50), Jon Barrenetxea (+0:51) and Pidcock (also +0:52). The race was set up for a decisive final mountain stage with only seven seconds between the top two." },
+  "riderPerformances": [
+    {
+      "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United",
+      "role": "leader", "position": null, "gap": "+0:49 GC",
+      "narrative": "Grégoire rode the GC intelligently on stage 4, targeting the day's intermediate 'Golden Kilometre' bonus sprint and collecting the maximum five seconds while Pidcock took two. The move moved him up to third overall at +0:49 and set him on course for a podium tilt on the final mountain day. It was the clearest sign of his ambitions for a strong opening to the 2026 season as a GC option for Groupama-FDJ.",
+      "keyMoments": [ { "km": null, "what": "Took max 5 bonus seconds at the Golden Kil, lifting him to 3rd on GC" } ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/ruta-del-sol-2026/stage-4-results-rds-2026/", "publication": "Cycling Stage", "title": "Ruta del Sol 2026: Crabbe sprints to victory, Romeo retains lead", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-andalucia-tom-crabbe-storms-to-stage-4-victory-claiming-second-career-win-this-season/", "publication": "Cyclingnews", "title": "Vuelta a Andalucía: Tom Crabbe storms to stage 4 victory", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/ruta-del-sol/2026/stage-4", "publication": "ProCyclingStats", "title": "Vuelta a Andalucía 2026 Stage 4", "lang": "en" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "raceId": "vuelta-a-andalucia-ruta-del-sol-2026", "stageNumber": 5, "stageName": "La Roda de Andalucía → Lucena", "stageDate": "2026-02-22", "stageType": "mountain", "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Tom Pidcock (Pinarello-Q36.5) attacked on the final ascent of the Alto de la Primera Cruz, dropped everyone and soloed to the win in Lucena ahead of Jan Christen and Romain Grégoire. Iván Romeo limited his loss to 12 seconds to secure overall victory by seven over Andreas Leknessund.",
+  "podium": [
+    { "position": 1, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "time": "3h 43m 52s" },
+    { "position": 2, "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates - XRG", "gap": "+0:10" },
+    { "position": 3, "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United", "gap": "+0:12" }
+  ],
+  "narrative": {
+    "headline": "Pidcock brings a late attack home; Romeo takes the GC",
+    "body": "Julius Johansen and Romet Pajur escaped first, with Milan Vader and Markus Hoelgaard later replacing Pajur up front; the trio built a lead of nearly three minutes before being reeled in on the first ascent of the Alto de la Primera Cruz. A flurry of attacks followed, Victor Campenaerts and Søren Wærenskjold the most dangerous before being recaptured just before the second and final climb of the day. There Tom Pidcock accelerated hard, dropped everyone from his wheel and crested alone, then consolidated on the descent to solo to the stage win in Lucena. Jan Christen led the chase home at +0:10 with Romain Grégoire at +0:12. Iván Romeo, marking the key wheels, limited his loss to 12 seconds — exactly enough to defend the overall."
+  },
+  "gcImpact": { "headline": "Romeo secures the overall; Pidcock climbs to the GC podium", "body": "Romeo took the final GC by seven seconds over Andreas Leknessund, with Tom Pidcock vaulting onto the podium in third at +0:27 on the strength of his stage win and time bonus. Jan Christen (+0:44) and Romain Grégoire (+0:44) rounded out the top five and Christen took the best-young-rider classification." },
+  "riderPerformances": [
+    {
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Pidcock saved his ride for the decisive final stage and produced the move of the race: a sharp acceleration on the last ascent of the Alto de la Primera Cruz that no one could follow. He crested alone and used his descending to consolidate, soloing to victory in Lucena. The win, with its finishing-line bonus, lifted him from outside the top five onto the final GC podium in third at +0:27 — a strong early-season statement for the Pinarello-Q36.5 project.",
+      "keyMoments": [
+        { "km": 5, "what": "Attacked on the final climb (~5 km to go), dropping all rivals" },
+        { "km": null, "what": "Soloed to the stage win and jumped onto the GC podium in 3rd" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 2, "gap": "+0:10",
+      "narrative": "Christen was the best of the chasers on the final climb, taking second on the stage at +0:10 behind Pidcock's solo move. The 21-year-old Swiss climbed to fourth overall at +0:44 and sealed the best-young-rider classification — a clean confirmation of his status as one of UAE's brightest GC prospects heading into the 2026 season.",
+      "keyMoments": [ { "km": null, "what": "Led the chase behind Pidcock to take 2nd on the stage and the youth jersey" } ],
+      "incident": null
+    },
+    {
+      "riderId": "romain-gregoire1", "name": "Romain Grégoire", "team": "Groupama - FDJ United",
+      "role": "leader", "position": 3, "gap": "+0:12",
+      "narrative": "Grégoire backed up his bonus-second raid from stage 4 with a strong final climb, taking third on the stage at +0:12. He finished fifth overall at +0:44, level on time with Christen — a solid GC week that underlined his all-round ambitions for Groupama-FDJ in 2026.",
+      "keyMoments": [ { "km": null, "what": "3rd on the stage; finished 5th overall at +0:44" } ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/ruta-del-sol-2026/stage-5-results-rds-2026/", "publication": "Cycling Stage", "title": "Ruta del Sol 2026: Pidcock brings late attack home, Romeo takes GC", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-andalucia-tom-pidcock-descends-to-final-stage-win-as-ivan-romeo-holds-on-for-overall/", "publication": "Cyclingnews", "title": "Vuelta a Andalucía: Tom Pidcock descends to final stage win as Iván Romeo holds on", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/ruta-del-sol/2026/gc", "publication": "ProCyclingStats", "title": "Vuelta a Andalucía 2026 Final GC", "lang": "en" }
+  ]
+}
