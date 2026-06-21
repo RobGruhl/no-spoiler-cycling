@@ -1,0 +1,52 @@
+{
+  "raceId": "vuelta-a-burgos-feminas-2026",
+  "stageNumber": 3,
+  "stageName": "Busto de Bureba → Medina de Pomar",
+  "stageDate": "2026-05-23",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "The hilly 126 km stage to Medina de Pomar broke the sprint pattern: a reduced front group went to the line and Mischa Bredewold gave SD Worx-Protime a third stage win, ahead of Mireia Benito and her leader Lorena Wiebes. Wiebes held the purple jersey into the queen stage, with Bredewold and Benito her closest GC rivals.",
+  "podium": [
+    { "position": 1, "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime", "time": "3h 23' 05\"" },
+    { "position": 2, "name": "Mireia Benito", "team": "AG Insurance - Soudal", "gap": "+0\"" },
+    { "position": 3, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "gap": "+11\"" }
+  ],
+  "narrative": {
+    "headline": "Bredewold completes the SD Worx hat-trick on the hilly day",
+    "body": "Stage 3's lumpier 126 km from Busto de Bureba to Medina de Pomar broke the pure-sprint pattern of the opening days. The climbs along the route thinned the bunch and a reduced front group contested the finish, with SD Worx-Protime again on the front — this time playing a different card.\n\nMischa Bredewold went clear in the closing kilometres and held on for the win over Mireia Benito (AG Insurance-Soudal), giving SD Worx a third straight stage and a second different winner. Lorena Wiebes took third on the stage at +11\" to protect her overall lead, with Ashleigh Moolman-Pasio, Usoa Ostolaza, Cédrine Kerbaol, Shirin van Anrooij and Évita Muzic all in the lead group. The result kept Wiebes in purple but tightened the GC just below her — Bredewold and Benito had moved within a handful of seconds — heading into the queen stage at Lagunas de Neila that fell outside this calendar's coverage."
+  },
+  "gcImpact": {
+    "headline": "Wiebes holds purple; GC tightens beneath her",
+    "body": "After Stage 3 Wiebes still led the general classification, but the gaps below her had compressed on the hilly day. Bredewold sat second at +3\", Mireia Benito third at +7\", then a cluster at +25\" headed by Cédrine Kerbaol, Usoa Ostolaza, Caroline Andersson, Shirin van Anrooij, Yara Kastelijn, Amanda Spratt and Maud Oudeman. The standings going into the queen stage were a sprinter-led GC about to be overturned by the climbers on the Lagunas de Neila summit finish (Stage 4, not covered here)."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime",
+      "role": "stage-hunter", "position": 1, "gap": "stage winner",
+      "narrative": "SD Worx's puncheur came good on the hilly day, attacking late and holding off Mireia Benito to win in Medina de Pomar. It was the team's third consecutive stage and gave them a second winner alongside Wiebes, while also moving Bredewold up to second on GC behind her leader.",
+      "keyMoments": [{ "km": null, "what": "Late move to win from the reduced front group" }],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 3, "gap": "+11\"",
+      "narrative": "Surviving the climbs to take third on a stage that wasn't built for her was the day's quiet headline — it protected the purple jersey through the last day before the mountains. With teammate Bredewold winning ahead of her, SD Worx controlled both the stage and the GC.",
+      "keyMoments": [{ "km": null, "what": "Held the lead group on the hilly stage to retain the jersey" }],
+      "incident": null
+    },
+    {
+      "riderId": "evita-muzic", "name": "Évita Muzic", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 10, "gap": "+12\"",
+      "narrative": "FDJ's GC card came through the hilly stage safely in the lead group, finishing 10th and positioning herself for the summit-finish queen stage where her climbing would count — the day the race would actually be decided.",
+      "keyMoments": [{ "km": null, "what": "Stayed in the front group, 10th on the stage" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/2026_Vuelta_a_Burgos_Feminas", "publication": "Wikipedia", "title": "2026 Vuelta a Burgos Feminas — Stage 3", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-burgos-feminas/2026/stage-3", "publication": "ProCyclingStats", "title": "Vuelta a Burgos Feminas 2026 — Stage 3", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/vuelta-a-burgos-feminas/stages/", "publication": "Cyclingnews", "title": "Vuelta a Burgos Feminas 2026 — stages", "lang": "en" }
+  ]
+}

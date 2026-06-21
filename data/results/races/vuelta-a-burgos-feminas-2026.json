@@ -1,0 +1,107 @@
+{
+  "raceId": "vuelta-a-burgos-feminas-2026",
+  "raceName": "Vuelta a Burgos Feminas",
+  "raceDate": "2026-05-21",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "inProgress": false,
+  "tldr": "Lorena Wiebes and Team SD Worx-Protime owned the first three days of the 2026 Vuelta a Burgos Feminas: Wiebes won the opening two bunch sprints and took third on the hilly Stage 3, where teammate Mischa Bredewold completed an SD Worx hat-trick. Wiebes carried the purple leader's jersey into the closing summit-finish queen stage at Lagunas de Neila (Stage 4, outside this calendar's three-stage coverage), where the climbers overturned the sprinter-led GC — Yara Kastelijn (Fenix-Premier Tech) won that stage and the overall ahead of Évita Muzic and Usoa Ostolaza. The standings below reflect the GC after Stage 3, the last day in this calendar's coverage.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "GC leader after Stage 3" },
+    { "position": 2, "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime", "gap": "+3\"" },
+    { "position": 3, "name": "Mireia Benito", "team": "AG Insurance - Soudal", "gap": "+7\"" }
+  ],
+  "narrative": {
+    "headline": "SD Worx sweeps the opening three days; the mountains wait for the queen stage",
+    "openingMoves": "The race began with two near-identical sprint days. On Stage 1's 127 km circuit around Burgos, SD Worx-Protime caught the early break ~17.5 km out and ran a textbook lead-out for Lorena Wiebes, who won in Gamonal ahead of Chiara Consonni and Georgia Baker and took the first purple jersey. Stage 2 through the Ribera del Duero wine country to Bodega Viña Pedrosa was the same story — break controlled, lead-out built, Wiebes clear of Elisa Balsamo and Ally Wollaston for win number two.",
+    "raceUnfolds": "Stage 3, the lumpier 126 km from Busto de Bureba to Medina de Pomar, broke the sprint pattern. The climbs reduced the bunch to a front group, and SD Worx changed cards: Mischa Bredewold attacked late and won over Mireia Benito for the team's third straight stage, with Wiebes third at +11\" to defend the jersey. The GC tightened beneath her — Bredewold to +3\", Benito to +7\", then a cluster of climbers (Kerbaol, Ostolaza, Andersson, Van Anrooij, Kastelijn, Spratt, Oudeman) at +25\".",
+    "decision": "Within this calendar's three-stage window the race was a sprinter-and-puncheur showcase that left Wiebes leading on bonuses with the real GC fight still pending. The decisive day was the Stage 4 summit finish at Lagunas de Neila (24 May), which falls outside the three stages covered here.",
+    "finale": "On the uncovered queen stage Yara Kastelijn attacked in the final kilometres at Lagunas de Neila, won alone, and took the overall — Évita Muzic second and Usoa Ostolaza third on the final GC. Jerseys: Wiebes points, Kastelijn QOM, Shirin van Anrooij youth, Liv AlUla Jayco teams. The podium recorded above is the GC after Stage 3 (the end of this calendar's coverage), not that final classification."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Stage 1 — Gamonal", "headline": "Wiebes takes the first jersey", "description": "SD Worx caught the break ~17.5 km out and lead-out Wiebes to a clear sprint win, handing her the purple leader's jersey on day one." },
+    { "kmFromFinish": null, "location": "Stage 3 — Medina de Pomar", "headline": "Bredewold's late move; SD Worx hat-trick", "description": "On the first hilly day Mischa Bredewold attacked from the reduced front group to win, SD Worx's third stage in a row, and moved to second on GC behind teammate Wiebes." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Three stages in three days",
+      "verdictClass": "win",
+      "narrative": "SD Worx-Protime dominated the opening half of the race, winning all three of the stages covered here: Wiebes' two bunch sprints plus Bredewold's late attack on the hilly Stage 3. They controlled every flat day from the front, kept Wiebes in the purple jersey throughout, and turned the GC's top two into an SD Worx 1-2 going into the mountains. The one thing the formula couldn't deliver was the summit-finish overall on the uncovered queen stage, where the pure climbers took over.",
+      "riderIds": ["lorena-wiebes", "mischa-bredewold"]
+    },
+    {
+      "team": "AG Insurance - Soudal",
+      "verdict": "Benito 2nd on Stage 3, into GC contention",
+      "verdictClass": "neutral",
+      "narrative": "AG Insurance-Soudal's Mireia Benito was the best non-SD Worx rider on the decisive hilly stage, second to Bredewold and into the GC top three (+7\") after Stage 3. With Ashleigh Moolman-Pasio also in the front group, the team had two climbing cards positioned for the summit finish to come.",
+      "riderIds": []
+    },
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "Kastelijn in the lead group, waiting for the climb",
+      "verdictClass": "neutral",
+      "narrative": "Within the three stages covered here Yara Kastelijn rode quietly into the front group on Stage 3 (8th at +25\" on GC), saving herself for the Lagunas de Neila summit finish on the uncovered queen stage — where she would attack, win, and take both the overall and the QOM jersey for Fenix-Premier Tech.",
+      "riderIds": ["yara-kastelijn"]
+    },
+    {
+      "team": "FDJ United - SUEZ",
+      "verdict": "Wollaston 3rd Stage 2; Muzic kept for the mountains",
+      "verdictClass": "neutral",
+      "narrative": "FDJ United-Suez played both ends: Ally Wollaston sprinted to third on Stage 2 and top-10 on Stage 1, while GC leader Évita Muzic stayed safe in the front groups (10th on Stage 3) waiting for the climbing finale. Muzic's race peaked beyond this coverage with second overall on the queen stage.",
+      "riderIds": ["ally-wollaston", "evita-muzic"]
+    },
+    {
+      "team": "CANYON//SRAM zondacrypto",
+      "verdict": "Consonni 2nd Stage 1, best of the chasers",
+      "verdictClass": "neutral",
+      "narrative": "Canyon//SRAM's Chiara Consonni was the closest challenger to Wiebes on the sprint days, second on Stage 1 and fifth on Stage 2, briefly sitting second on GC behind the SD Worx leader before the hilly day reshuffled the order.",
+      "riderIds": ["chiara-consonni"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Balsamo 2nd Stage 2; Van Anrooij the youth card",
+      "verdictClass": "neutral",
+      "narrative": "Lidl-Trek mixed sprinting and youth ambitions: Elisa Balsamo took second on Stage 2, while Shirin van Anrooij rode into the lead group on Stage 3 (+25\" on GC) en route to the youth classification she would secure on the queen stage. Amanda Spratt added a veteran climbing presence in the front group.",
+      "riderIds": ["elisa-balsamo", "amanda-spratt"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "GC leader after Stage 3",
+      "narrative": "The story of the opening three days. Two clear bunch-sprint wins (Stages 1 and 2) and a jersey-saving third place on the hilly Stage 3, holding the purple leader's jersey across the whole window covered here and locking up the points classification. The only thing beyond her reach was the summit-finish overall, decided on the uncovered queen stage.",
+      "keyMoments": [
+        { "km": null, "what": "Won Stage 1 sprint, took the leader's jersey" },
+        { "km": null, "what": "Won Stage 2 sprint" },
+        { "km": null, "what": "Third on hilly Stage 3 to defend the jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mischa-bredewold", "name": "Mischa Bredewold", "team": "Team SD Worx - Protime",
+      "role": "stage-hunter", "position": 2, "gap": "+3\"",
+      "narrative": "Gave SD Worx a second winner with a late attack on Stage 3 in Medina de Pomar, completing the team's three-in-a-row and moving to second on GC behind teammate Wiebes after the hilly day.",
+      "keyMoments": [{ "km": null, "what": "Won Stage 3 from the reduced front group" }],
+      "incident": null
+    },
+    {
+      "riderId": "evita-muzic", "name": "Évita Muzic", "team": "FDJ United - SUEZ",
+      "role": "leader", "position": 10, "gap": "+12\" (Stage 3)",
+      "narrative": "FDJ's GC leader rode the sprint days safely and made the front group on Stage 3 (10th), conserving for the climbing finale. Her race peaked on the uncovered Stage 4 queen stage with second on the day and second overall behind Kastelijn.",
+      "keyMoments": [{ "km": null, "what": "In the lead group on Stage 3, 10th" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A sprinter's race for three days, decided by the climbers on the fourth",
+    "quotes": [],
+    "body": "Across the three stages in this calendar's coverage the 2026 Vuelta a Burgos Feminas belonged to Team SD Worx-Protime — three wins, both ends of the GC, total control of the flat and hilly days. The race's true verdict came one day later, on the Lagunas de Neila summit finish that sits outside this three-stage window: Yara Kastelijn (Fenix-Premier Tech) attacked late, won alone and took the overall and the QOM, with Évita Muzic second and Usoa Ostolaza third. Final jerseys went to Wiebes (points), Kastelijn (QOM), Shirin van Anrooij (youth) and Liv AlUla Jayco (teams). The standings recorded on this page are the GC after Stage 3, before that summit finish reordered the classification."
+  },
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/2026_Vuelta_a_Burgos_Feminas", "publication": "Wikipedia", "title": "2026 Vuelta a Burgos Feminas", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-burgos-feminas/2026/gc", "publication": "ProCyclingStats", "title": "Vuelta a Burgos Feminas 2026 — GC", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/vuelta-a-burgos-feminas-2026/", "publication": "Cyclingnews", "title": "Vuelta a Burgos Feminas 2026 — coverage", "lang": "en" },
+    { "url": "https://www.siroko.com/tv/es/video/resumen-etapa-reina-vuelta-a-burgos-feminas-2026-lagunas-de-neila-deciden-la-clasificacion-general", "publication": "Siroko TV", "title": "Resumen etapa reina — Lagunas de Neila deciden la general", "lang": "es" }
+  ]
+}

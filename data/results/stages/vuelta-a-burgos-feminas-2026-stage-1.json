@@ -1,0 +1,45 @@
+{
+  "raceId": "vuelta-a-burgos-feminas-2026",
+  "stageNumber": 1,
+  "stageName": "Burgos → Burgos (Gamonal)",
+  "stageDate": "2026-05-21",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T19:30:00Z",
+  "tldr": "Lorena Wiebes opened the race exactly as billed, winning a controlled bunch sprint in Gamonal by a clear margin over Chiara Consonni and Georgia Baker to take the stage and the first purple leader's jersey. Team SD Worx-Protime ran the day from front to back.",
+  "podium": [
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "time": "3h 14' 41\"" },
+    { "position": 2, "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto", "gap": "+0\"" },
+    { "position": 3, "name": "Georgia Baker", "team": "Liv AlUla Jayco", "gap": "+0\"" }
+  ],
+  "narrative": {
+    "headline": "Wiebes gallops to the opening sprint and the first leader's jersey",
+    "body": "The opening 127 km circuit stage around Burgos followed the classic sprint-day script. A small early breakaway was allowed up the road on the rolling laps but never given much rope, with SD Worx-Protime riding tempo on the front throughout; the move was reeled in roughly 17.5 km from the line. From there the run-in to the Gamonal finish became a lead-out battle, and SD Worx took it over inside the final kilometres.\n\nThe SD Worx train delivered Lorena Wiebes to the front at high speed and she launched early, easily outsprinting Chiara Consonni and Georgia Baker to win by a clear margin. It was a near-perfectly executed team sprint and gave Wiebes both the stage and, with the time bonus, the first purple leader's jersey of the 2026 Vuelta a Burgos Feminas. She started the next stage with a handful of seconds in hand over Consonni and Baker."
+  },
+  "gcImpact": {
+    "headline": "Wiebes into purple",
+    "body": "Wiebes leads the GC after Stage 1 thanks to the stage win and finish bonus, ahead of Consonni and Baker on a few seconds. With three flat-to-hilly stages before the queen stage at Lagunas de Neila, the pure climbers stayed quiet and let the sprinters' teams dictate the opening days."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime",
+      "role": "leader", "position": 1, "gap": "stage winner",
+      "narrative": "Untouchable in the fast finish. Dropped off the SD Worx lead-out at speed inside the final 300 m, opened her sprint early and won clearly over Consonni and Baker. The win added the purple leader's jersey and the points lead, and continued her run as the spring's dominant sprinter.",
+      "keyMoments": [{ "km": null, "what": "Won the bunch sprint in Gamonal and took the leader's jersey" }],
+      "incident": null
+    },
+    {
+      "riderId": "chiara-consonni", "name": "Chiara Consonni", "team": "CANYON//SRAM zondacrypto",
+      "role": "stage-hunter", "position": 2, "gap": "+0\"",
+      "narrative": "Canyon//SRAM's fastest card was second on the day, unable to come around the SD Worx train but clearly the best of the rest. The runner-up finish put her second on GC behind Wiebes after Stage 1.",
+      "keyMoments": [{ "km": null, "what": "Second in the bunch sprint" }],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "quotes": [],
+  "sources": [
+    { "url": "https://en.wikipedia.org/wiki/2026_Vuelta_a_Burgos_Feminas", "publication": "Wikipedia", "title": "2026 Vuelta a Burgos Feminas — Stage 1", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/vuelta-a-burgos-feminas-unbeatable-lorena-wiebes-gallops-to-opening-sprint-victory-on-stage-1-by-huge-margin/", "publication": "Cyclingnews", "title": "Unbeatable Lorena Wiebes gallops to opening sprint victory on Stage 1", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-burgos-feminas/2026/stage-1", "publication": "ProCyclingStats", "title": "Vuelta a Burgos Feminas 2026 — Stage 1", "lang": "en" }
+  ]
+}
