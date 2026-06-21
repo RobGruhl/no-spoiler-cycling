@@ -1,0 +1,87 @@
+{
+  "raceId": "australian-road-nationals-men-2026",
+  "raceName": "Australian Road National Championships — Men's Elite Road Race",
+  "raceDate": "2026-01-11",
+  "researchedAt": "2026-06-20T19:00:00Z",
+  "inProgress": false,
+  "tldr": "Patrick Eddy (Team Brennan) — racing as a Continental rider — won a two-up sprint over Luke Plapp to take the green-and-gold Australian road champion's jersey, after Jayco AlUla's numerical strength backfired: their own late chase reeled in defending champion and solo leader Luke Durbridge with just 800 m to go, leaving Plapp to be out-kicked. Oscar Chamberlain (Decathlon CMA CGM) was third.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Patrick Eddy", "team": "Team Brennan", "time": "3h 55m 25s" },
+    { "position": 2, "riderId": null, "name": "Luke Plapp", "team": "Team Jayco AlUla", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Oscar Chamberlain", "team": "Decathlon CMA CGM Team", "gap": "+0:09" },
+    { "position": 4, "riderId": null, "name": "Leighton Cook", "team": "Falcons Pedal Mafia Racing", "gap": "+0:09" },
+    { "position": 5, "riderId": null, "name": "Matthew Dinham", "team": "Team Picnic PostNL", "gap": "+0:09" },
+    { "position": 6, "riderId": null, "name": "Brady Gilmore", "team": "NSN Cycling Team", "gap": "+0:09" },
+    { "position": 7, "riderId": null, "name": "Alastair Christie-Johnston", "team": "CCACHE x BODYWRAP", "gap": "+0:12" },
+    { "position": 8, "riderId": null, "name": "Carter Bettles", "team": "Roojai Insurance Winspace", "gap": "+0:15" },
+    { "position": 9, "riderId": null, "name": "Alastair MacKellar", "team": "EF Education - EasyPost", "gap": "+0:22" },
+    { "position": 10, "riderId": null, "name": "Kane Richards", "team": "Roojai Insurance Winspace", "gap": "+0:25" }
+  ],
+  "narrative": {
+    "headline": "Conti rider Eddy steals the jersey as Jayco AlUla over-races its own leader",
+    "openingMoves": "The 2026 nationals moved west to a punchy 13.5 km Kings Park / Perth CBD circuit — 176 km, almost 2,000 m of climbing across 13 laps, with the steep Malcolm Street pinch (\"Pedal Mafia Mountain\", >12%) cresting roughly 400 m from the line each lap. With pure sprinters all but ruled out in 35°C heat, the racing was aggressive from the gun. Sam Welsford (INEOS Grenadiers) made the early move that became a 14-rider breakaway holding around 4½ minutes; Jayco AlUla placed both Luke Durbridge and Ben O'Connor in it, with Luke Plapp held in reserve in the bunch.",
+    "raceUnfolds": "Through the middle laps the break controlled the race and the peloton looked beaten. Jayco lifted the tempo to shed Welsford; O'Connor looked the outright favourite, especially as Jay Vine (UAE Team Emirates - XRG) had missed the move and was stuck in no-man's-land trying to bridge. Vine then dropped back and drove the peloton chase almost single-handedly, slowly clawing the gap back and re-opening the race.",
+    "decision": "With about 40 km to go and only five riders left up front, Durbridge — the defending champion chasing a repeat of his 2025 long-range solo — attacked, with O'Connor disrupting behind to protect him. Durbridge soloed clear and still led by a minute over the chasers with two laps to run. But the move that mattered came from his own team: Plapp launched a decisive attack, dragging O'Connor, Chamberlain and Eddy across. The quartet's cooperation devoured Durbridge's lead.",
+    "finale": "Durbridge — gifted the title by Plapp a year earlier — was swept up with just 800 m remaining, his own teammates' chase having undone him. In the two-up sprint that followed, former WorldTour and Picnic PostNL rider Patrick Eddy out-kicked Plapp to take the title in sensational fashion, with Chamberlain leading in the rest of the splintered group at +0:09. Eddy will wear the green-and-gold bands of Australian champion through 2026 despite riding for a Continental squad."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 130, "location": "Kings Park circuit, lap 1", "headline": "14 up the road", "description": "Sam Welsford's early dig becomes a 14-rider breakaway containing Jayco's Durbridge and O'Connor; the gap balloons toward 4½ minutes and the peloton looks out of it." },
+    { "kmFromFinish": 60, "location": "Perth CBD laps", "headline": "Vine drives the chase", "description": "Having missed the break, Jay Vine (UAE) commits to a long, mostly solo turn on the front of the peloton, eroding the lead and bringing the race back to life before fading." },
+    { "kmFromFinish": 40, "location": "Malcolm Street climb", "headline": "Durbridge goes long", "description": "With five riders left in front, defending champion Luke Durbridge attacks solo to repeat his 2025 heroics; O'Connor blocks behind to extend the gap." },
+    { "kmFromFinish": 5, "location": "Final lap", "headline": "Plapp's chase backfires", "description": "Plapp attacks the chase and tows O'Connor, Chamberlain and Eddy across — the quartet's pace catches its own teammate Durbridge with 800 m to go." },
+    { "kmFromFinish": 0, "location": "Kings Park finish", "headline": "Eddy out-sprints Plapp", "description": "In the two-up sprint, Continental rider Patrick Eddy beats Luke Plapp for the national title; Chamberlain heads the chasers nine seconds back." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team Brennan",
+      "verdict": "Continental squad lands the jersey",
+      "verdictClass": "win",
+      "narrative": "A Continental-level team took the biggest domestic prize of the summer. Patrick Eddy, a former WorldTour and Picnic PostNL rider riding at Conti level in 2026, read the finale perfectly — sitting in the Plapp-led quartet that chased down Durbridge, then out-kicking Plapp two-up. It is the kind of result that re-frames a rider's season and gives a small team a year in the green-and-gold.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Jayco AlUla",
+      "verdict": "Strength in numbers, no title",
+      "verdictClass": "loss",
+      "narrative": "Jayco had the race in a vice — Durbridge and O'Connor in the front group, Plapp in reserve — and lost it to their own tactics. Durbridge's long-range solo was the percentage play, but Plapp's decisive chase attack towed three rivals across and caught his own leader inside the final kilometre, leaving Plapp to be beaten in the sprint. A year after gifting Durbridge the title, the numerical advantage produced silver, not gold.",
+      "riderIds": []
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Vine's TT title, road-race spadework",
+      "verdictClass": "neutral",
+      "narrative": "Jay Vine had already won the elite men's time trial title earlier in the week. In the road race he missed the key break, then spent himself driving the peloton's chase that reanimated the race before fading out of contention — unrewarded work that nonetheless shaped the finale.",
+      "riderIds": ["jay-vine"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Chamberlain salvages bronze",
+      "verdictClass": "neutral",
+      "narrative": "Twenty-year-old time-trial specialist Oscar Chamberlain was alert to Plapp's winning move, made the four-rider chase that caught Durbridge, and took the bunch sprint behind the leading pair for third — a strong national-championships ride for a young rider.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jay-vine", "name": "Jay Vine", "team": "UAE Team Emirates - XRG",
+      "role": "stage-hunter", "position": null, "gap": "n/a",
+      "narrative": "Vine arrived at nationals in form, taking the elite men's individual time trial title earlier in the week. In the road race he was on the wrong side of the split when the 14-rider break formed, tried and failed to bridge solo, then committed to a long, largely single-handed chase on the front of the peloton that clawed back the leaders' advantage and reopened the race. He had nothing left when the decisive moves came in the finale and finished out of the medals, but his work was the reason the bunch came back into contention at all.",
+      "keyMoments": [
+        { "km": 100, "what": "Missed the 14-rider break, attempted a solo bridge that stalled in no-man's-land" },
+        { "km": 60, "what": "Drove the peloton chase almost alone, eroding the breakaway's 4½-minute lead" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Green-and-gold to a Continental rider as the Aussie summer kicks off",
+    "quotes": [],
+    "body": "The road-race title opened the WorldTour-adjacent Australian summer that runs into the Tour Down Under and Cadel Evans Great Ocean Road Race. Eddy's win — a Continental rider beating a WorldTour-stacked Jayco AlUla through cooler racecraft — was the story of the men's championship, while Jayco's self-inflicted defeat (Plapp's chase undoing teammate Durbridge) was its sharpest sub-plot. Vine left Perth with the time-trial jersey and a road-race ride that headlined the chase but went unrewarded."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/nc-australia/2026/result", "publication": "ProCyclingStats", "title": "NC Australia ME Road Race 2026 — result", "lang": "en" },
+    { "url": "https://www.idlprocycling.com/cycling/drama-at-australian-championships-jayco-alula-bring-back-durbridge-in-final-conti-rider-eddy-steals-title", "publication": "IDL Pro Cycling", "title": "Drama at Australian Championships: Jayco AlUla bring back Durbridge in final, conti rider Eddy steals title", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/patrick-eddy-beats-luke-plapp-to-elite-mens-australian-road-race-title-after-jayco-alulas-strength-in-numbers-fails-in-final-kilometre/", "publication": "Cyclingnews", "title": "Patrick Eddy beats Luke Plapp to elite men's Australian road race title", "lang": "en" }
+  ]
+}
