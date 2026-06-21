@@ -1,0 +1,80 @@
+{
+  "raceId": "cx-world-cup-maasmechelen-2026-men",
+  "raceName": "UCI Cyclo-cross World Cup Maasmechelen — Men Elite",
+  "raceDate": "2026-01-24",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Mathieu van der Poel survived two punctures to win the penultimate round of the 2025–2026 UCI Cyclo-cross World Cup at Maasmechelen — his 50th career World Cup victory — and led an Alpecin-Premier Tech clean sweep of the podium ahead of teammates Tibor Del Grosso and Niels Vandeputte. The win stretched his overall World Cup lead over Thibau Nys to 38 points heading into the final round at Hoogerheide.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "1h 03m 52s" },
+    { "position": 2, "riderId": null, "name": "Tibor Del Grosso", "team": "Alpecin-Premier Tech", "gap": "+0:03" },
+    { "position": 3, "riderId": null, "name": "Niels Vandeputte", "team": "Alpecin-Premier Tech Development Team", "gap": "+0:04" }
+  ],
+  "fullTopTen": [
+    { "position": 4, "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:06" },
+    { "position": 5, "name": "Felipe Orts Lloret", "team": "Ridley Racing Team", "gap": "+0:24" },
+    { "position": 6, "name": "Gerben Kuypers", "team": "Pauwels Sauzen - Altez", "gap": "+0:43" },
+    { "position": 7, "name": "Kevin Kuhn", "team": "Heizomat - Cube", "gap": "+0:46" },
+    { "position": 8, "name": "Toon Vandebosch", "team": "Crelan-Corendon", "gap": "+0:54" },
+    { "position": 9, "name": "Mees Hendrikx", "team": "Heizomat - Cube", "gap": "+0:54" },
+    { "position": 10, "name": "Cameron Mason", "team": "Seven Racing", "gap": "+0:55" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel's 50th World Cup win — through two punctures, behind an Alpecin sweep",
+    "openingMoves": "Maasmechelen, the eleventh round of the World Cup, on the sandy, fast Limburg circuit that suits powerful riders. Van der Poel went to the front early in his usual fashion, dictating the pace and stretching the lead group thin over the opening laps.",
+    "raceUnfolds": "The day was not the procession it might have been: Van der Poel suffered two punctures that briefly reopened the race and let his Alpecin-Premier Tech teammates and Thibau Nys back into contention. Each time he recovered the gap, riding back through the field and onto the front, the rest of the lead group unable to hold the surge once he had clear track.",
+    "decision": "With the punctures behind him Van der Poel re-established control and rode away in the closing laps, while behind him the race for the minor placings was an all-Alpecin affair — Del Grosso and Vandeputte distancing the chase to lock out the podium for the team.",
+    "finale": "Van der Poel took it by three seconds from Del Grosso, with Vandeputte a further second back, completing an Alpecin-Premier Tech 1-2-3. Thibau Nys was the best of the rest at +0:06 in fourth. The win was Van der Poel's 50th in the World Cup and pushed his overall lead over Nys to 38 points with one round, Hoogerheide, remaining."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Maasmechelen circuit", "headline": "Two punctures for the leader", "description": "Van der Poel flatted twice during the race, each time losing the lead he had built and forcing a chase back through the group — the only real suspense of the day before he reasserted control." },
+    { "kmFromFinish": null, "location": "Closing laps", "headline": "Alpecin lock out the podium", "description": "Behind Van der Poel, teammates Tibor Del Grosso and Niels Vandeputte rode clear of the chase to complete an Alpecin-Premier Tech clean sweep of the podium, splitting Thibau Nys out of the top three by two seconds." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin-Premier Tech",
+      "verdict": "Podium sweep, 50th for MVDP",
+      "verdictClass": "win",
+      "narrative": "A complete day for Alpecin-Premier Tech: Mathieu van der Poel took the win — his 50th in the World Cup — through two punctures, and his teammates Tibor Del Grosso and Niels Vandeputte (riding for the development squad) filled the other two podium steps. A 1-2-3 in a World Cup round is the kind of demonstration that has become the team's CX signature in the Van der Poel era, and it tightened MVDP's grip on the overall standings before the closing round.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "Nys best of the rest, 4th",
+      "verdictClass": "neutral",
+      "narrative": "Thibau Nys was the leading non-Alpecin rider all day and finished fourth at six seconds, but with Van der Poel recovering twice from punctures and the Alpecin pair riding clear behind him, there was no podium on offer. Nys went into the final round at Hoogerheide trailing Van der Poel by 38 points in the overall — too large a margin to overturn in a single race. The team's Pim Ronhaar and Lars van der Haar had quieter days, Ronhaar abandoning.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Won Maasmechelen for his 50th career World Cup victory, and did it the hard way — two punctures during the race each cost him the lead and forced a chase back to the front, yet he still rode away in the closing laps to win by three seconds. The result, part of an Alpecin-Premier Tech podium sweep, extended his overall World Cup lead over Thibau Nys to 38 points before the final round. By 2026 Van der Poel is essentially uncontested in cyclocross when he chooses to start.",
+      "keyMoments": [
+        { "km": null, "what": "Punctured twice during the race, chasing back to the front each time" },
+        { "km": null, "what": "Rode clear in the closing laps to win by 0:03 — his 50th World Cup victory" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [
+      { "riderId": null, "name": "Joris Nieuwenhuis", "team": "Ridley Racing Team", "reason": "DNF" },
+      { "riderId": null, "name": "Pim Ronhaar", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "reason": "DNF" },
+      { "riderId": null, "name": "Joran Wyseure", "team": "Crelan-Corendon", "reason": "DNF" }
+    ],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Fifty World Cup wins, and a near-sealed overall",
+    "quotes": [],
+    "body": "Van der Poel's fiftieth World Cup victory came in a race he made look harder than he usually does, only because of two mechanicals rather than any rival's pace. The Alpecin-Premier Tech 1-2-3 underlined how thoroughly the team dominates the discipline's top end. With a 38-point cushion over Thibau Nys and only Hoogerheide to come, the overall World Cup was all but decided — Van der Poel would go on to seal it, having won every round he started across the 2025–2026 series."
+  },
+  "sources": [
+    { "url": "https://www.velo101.com/courses/coupe-du-monde-de-cyclocross/cyclo-cross-mathieu-van-der-poel-imperturbable-a-maasmechelen/", "publication": "Velo101", "title": "Cyclo-cross : Mathieu van der Poel imperturbable à Maasmechelen", "lang": "fr" },
+    { "url": "https://velopressecollection.ouest-france.fr/cyclo-cross/classements/34704-maasmachelen-24-janvier-2026-classement-coupe-du-monde-de-cyclo-cross.html", "publication": "Vélopresse Collection (Ouest-France)", "title": "Maasmechelen 24 janvier 2026 classement coupe du monde de cyclo-cross", "lang": "fr" },
+    { "url": "https://cyclingflash.com/race/uci-cyclo-cross-world-cup-maasmechelen-2026/result", "publication": "CyclingFlash", "title": "UCI Cyclo-cross World Cup - Maasmechelen 2026 - Results", "lang": "en" }
+  ]
+}

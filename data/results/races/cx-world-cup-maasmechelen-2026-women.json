@@ -1,0 +1,85 @@
+{
+  "raceId": "cx-world-cup-maasmechelen-2026-women",
+  "raceName": "UCI Cyclo-cross World Cup Maasmechelen — Women Elite",
+  "raceDate": "2026-01-24",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Puck Pieterse made a decisive move on the fourth lap to win the penultimate round of the 2025–2026 UCI Cyclo-cross World Cup at Maasmechelen — her first World Cup win of the season. She beat Fenix-Premier Tech teammate Ceylin del Carmen Alvarado by ten seconds, while Amandine Fouquenet held third despite a late puncture and bike change. World Cup leader Lucinda Brand could only manage tenth, off the podium of a cross she finished for the first time in two years.",
+  "podium": [
+    { "position": 1, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech", "time": "47m 33s" },
+    { "position": 2, "riderId": null, "name": "Ceylin del Carmen Alvarado", "team": "Fenix-Premier Tech", "gap": "+0:10" },
+    { "position": 3, "riderId": null, "name": "Amandine Fouquenet", "team": "Pauwels Sauzen - Altez", "gap": "+0:11" }
+  ],
+  "fullTopTen": [
+    { "position": 4, "name": "Sara Casasola", "team": "Crelan-Corendon", "gap": "+0:22" },
+    { "position": 5, "name": "Kristýna Zemanová", "team": "—", "gap": "+0:37" },
+    { "position": 6, "name": "Kata Blanka Vas", "team": "Team SD Worx - Protime", "gap": "+0:45" },
+    { "position": 7, "name": "Marion Norbert Riberolle", "team": "Crelan-Corendon", "gap": "+0:52" },
+    { "position": 8, "name": "Zoe Backstedt", "team": "Canyon//SRAM zondacrypto", "gap": "+0:55" },
+    { "position": 9, "name": "Shirin van Anrooij", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:55" },
+    { "position": 10, "name": "Lucinda Brand", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:56" }
+  ],
+  "narrative": {
+    "headline": "Pieterse's lap-four move; an all-Fenix one-two",
+    "openingMoves": "Maasmechelen, the eleventh round of the World Cup on the fast, sandy Limburg circuit. A lead group of the season's regulars formed early, with the Fenix-Premier Tech pair of Puck Pieterse and Ceylin del Carmen Alvarado, France's Amandine Fouquenet, and overall World Cup leader Lucinda Brand all present.",
+    "raceUnfolds": "Pieterse made the difference on the fourth lap, accelerating to drop Amandine Fouquenet and open a gap that none of the chasers could close. Behind her the order kept shifting: Fouquenet was holding second until a puncture in the penultimate lap forced a bike change, costing her the place to Alvarado.",
+    "decision": "Pieterse's fourth-lap acceleration settled the win; the rest of the podium was decided by Fouquenet's late mechanical, which dropped her behind Alvarado but not out of the top three.",
+    "finale": "Pieterse took her first World Cup victory of the season by ten seconds from Alvarado, completing a Fenix-Premier Tech one-two, with Fouquenet third at eleven seconds. Sara Casasola was fourth. Notably, World Cup leader Lucinda Brand finished only tenth — the first time in two years she had failed to podium at a cyclocross she finished."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Lap 4", "headline": "Pieterse attacks", "description": "Puck Pieterse accelerated on the fourth lap to drop Amandine Fouquenet and open a gap that held to the line — the move that won the race." },
+    { "kmFromFinish": null, "location": "Penultimate lap", "headline": "Fouquenet punctures", "description": "Holding second, Amandine Fouquenet suffered a puncture and had to change bikes, losing the place to Ceylin del Carmen Alvarado but salvaging third." }
+  ],
+  "teamStories": [
+    {
+      "team": "Fenix-Premier Tech",
+      "verdict": "One-two, Pieterse wins",
+      "verdictClass": "win",
+      "narrative": "A perfect day for Fenix-Premier Tech: Puck Pieterse took her first World Cup win of the season with a fourth-lap acceleration, and teammate Ceylin del Carmen Alvarado moved up to second when Fouquenet punctured, completing a team one-two. The result confirmed Pieterse — primarily a road and mountain-bike talent — as the fastest woman in the field on the day, and gave the team the top of the podium in the penultimate round of the series.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "Brand only 10th",
+      "verdictClass": "loss",
+      "narrative": "A rare off-day for the team that led the overall standings: World Cup leader Lucinda Brand finished only tenth, the first time in two years she had missed the podium at a cyclocross she completed. Teammate Shirin van Anrooij was just ahead in ninth. Brand still held the overall World Cup lead — she would go on to win the series — but Maasmechelen was a reminder that even the most consistent rider of the winter could be off the pace on the right day.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "Won Maasmechelen with a decisive acceleration on the fourth lap, dropping Amandine Fouquenet and riding clear for her first World Cup victory of the 2025–2026 season. She beat teammate Ceylin del Carmen Alvarado by ten seconds for a Fenix-Premier Tech one-two. For a rider whose primary ambitions are on the road and in cross-country mountain biking, the result underlined how formidable she remains when she dips into a cyclocross winter — and it set up a further win the next day in the series finale at Hoogerheide.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked on lap 4 to drop Fouquenet and open a winning gap" },
+        { "km": null, "what": "Won by 0:10 over teammate Alvarado — first World Cup win of the season" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "marianne-vos", "name": "Marianne Vos", "team": "Team Visma | Lease a Bike",
+      "role": "DNS road-rider data",
+      "position": "DNS",
+      "gap": "—",
+      "narrative": "Vos did not ride Maasmechelen. By 2026 her winter cyclocross appearances had become selective, and her focus through the off-season was on building toward a road spring rather than chasing World Cup cross points.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Pieterse's breakthrough day; Brand off the podium",
+    "quotes": [],
+    "body": "Maasmechelen was Puck Pieterse's first World Cup win of the winter, and the all-Fenix one-two with Alvarado made it a team statement in the penultimate round. The story of the chase was Amandine Fouquenet's late puncture, which cost her second but not the podium. The day's surprise was at the back of the top ten: overall World Cup leader Lucinda Brand finished only tenth, breaking a two-year run of podiums at every cyclocross she finished — though she would still go on to win the overall World Cup, and Pieterse would back up this victory the next day at Hoogerheide."
+  },
+  "sources": [
+    { "url": "https://www.velo-club.net/resultats/puck-pieterse-victoire-maasmechelen-coupe-monde-cyclo-cross-2026/", "publication": "Velo-Club", "title": "Puck Pieterse s'impose à Maasmechelen en Coupe du monde de cyclo-cross", "lang": "fr" },
+    { "url": "https://www.velo101.com/courses/coupe-du-monde-de-cyclocross/cyclo-cross-mathieu-van-der-poel-imperturbable-a-maasmechelen/", "publication": "Velo101", "title": "Cyclo-cross : Mathieu van der Poel imperturbable à Maasmechelen", "lang": "fr" },
+    { "url": "https://velopressecollection.ouest-france.fr/cyclo-cross/classements/34704-maasmachelen-24-janvier-2026-classement-coupe-du-monde-de-cyclo-cross.html", "publication": "Vélopresse Collection (Ouest-France)", "title": "Maasmechelen 24 janvier 2026 classement coupe du monde de cyclo-cross", "lang": "fr" }
+  ]
+}
