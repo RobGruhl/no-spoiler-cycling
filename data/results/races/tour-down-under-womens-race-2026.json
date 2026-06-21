@@ -1,0 +1,86 @@
+{
+  "raceId": "tour-down-under-womens-race-2026",
+  "raceName": "Santos Tour Down Under - Women's One Day Race",
+  "raceDate": "2026-01-21",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "tldr": "Maggie Coles-Lyster (Human Powered Health) won the fast, flat 94.2 km Women's One Day Race in Tanunda from a bunch sprint, beating Noemi Rüegg (EF Education-Oatly) and Marta Lach (Team SD Worx - Protime). The whole front group was given the same time after a quick (44.49 km/h average) day of circuit racing in the Barossa Valley.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Maggie Coles-Lyster", "team": "Human Powered Health", "time": "2h07'03\"" },
+    { "position": 2, "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Marta Lach", "team": "Team SD Worx - Protime", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Alexandra Manly", "team": "AG Insurance - Soudal Team", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Sofia Bertizzolo", "team": "FDJ United - SUEZ", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Emma Norsgaard", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Josie Nelson", "team": "Team Picnic PostNL", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Ruby Roseman-Gannon", "team": "Liv AlUla Jayco", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "Amelie Sanders", "team": "Australia (national team)", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Coles-Lyster snaps up the Tanunda sprint",
+    "openingMoves": "The Women's One Day Race is the festival's flat companion to the Women's Tour Down Under, a 94.2 km event run on the circuit through Tanunda in the heart of the Barossa Valley. With only 653 m of climbing across the laps and a string of intermediate sprints to animate the day, the profile pointed at the fast finishers from the gun.",
+    "raceUnfolds": "The peloton kept the race together through the repetitive circuit laps, the bunch staying compact at a high average speed of 44.49 km/h that left no room for a long-range move to stick.",
+    "decision": "With the field intact into the closing laps, the day came down to positioning for a bunch sprint — exactly the scenario the flat Tanunda circuit was always likely to produce, and one that suited the sprinters' teams controlling the front.",
+    "finale": "Maggie Coles-Lyster (Human Powered Health) timed her effort best to take the win, with Noemi Rüegg (EF Education-Oatly) second and Marta Lach (Team SD Worx - Protime) third. The entire front group was credited with the same time, underlining how the race stayed together to a mass gallop on the line."
+  },
+  "decisiveMoments": [
+    {
+      "headline": "A flat circuit that always meant a sprint",
+      "description": "With just 653 m of climbing over the 94.2 km of laps and no decisive selection point, the flat Tanunda circuit kept the peloton together and steered the race toward a bunch finish."
+    },
+    {
+      "kmFromFinish": 0,
+      "headline": "Coles-Lyster wins the gallop",
+      "description": "From the intact front group Maggie Coles-Lyster produced the fastest finish, holding off Noemi Rüegg and Marta Lach with the whole leading group given the same time."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Human Powered Health",
+      "verdict": "Sprint win in the Barossa",
+      "verdictClass": "win",
+      "narrative": "The Continental-level team landed the day's biggest prize, with Maggie Coles-Lyster reading the flat Tanunda finale perfectly to win the bunch sprint ahead of a WorldTour-heavy field — a standout early-season result for the Canadian sprinter and her squad.",
+      "riderIds": []
+    },
+    {
+      "team": "EF Education-Oatly",
+      "verdict": "Rüegg second on the line",
+      "verdictClass": "neutral",
+      "narrative": "Noemi Rüegg was the closest challenger to the winner, sprinting to second from the front group. After a strong Australian summer for the Swiss rider, it was another podium to add to her early-season tally even if the top step stayed out of reach.",
+      "riderIds": ["noemi-ruegg"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Lach completes the podium",
+      "verdictClass": "neutral",
+      "narrative": "Marta Lach took third in the sprint, giving the dominant women's super-team a podium on the flat Tanunda circuit through the in-form Polish classics rider.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "noemi-ruegg", "name": "Noemi Rüegg", "team": "EF Education-Oatly",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "Rüegg was EF's protected card on the flat Tanunda circuit and delivered, contesting the bunch sprint and taking second behind Coles-Lyster. It was another podium in a busy Australian summer for the Swiss all-rounder, who showed she can finish fast as well as climb.",
+      "keyMoments": [
+        { "where": "Finish", "what": "Sprinted to second from the front group, the closest rider to the winner" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A sprinters' day in the Barossa",
+    "quotes": [],
+    "body": "The Women's One Day Race rounds out the women's racing in the Santos Tour Down Under festival week with a flat, fast circuit event distinct from the climbing-focused stage race. Coles-Lyster's win from a mass sprint capped a busy stretch of Australian summer racing before the peloton moved on to the Cadel Evans Great Ocean Road Race."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/schwalbe-womens-one-day-classic/2026/result", "publication": "ProCyclingStats", "title": "Santos Tour Down Under - Women's One Day Race 2026 Results", "lang": "en" },
+    { "url": "https://cyclingflash.com/race/santos-tour-down-under-womens-one-day-race-we-2026/result", "publication": "CyclingFlash", "title": "Santos Tour Down Under - Women's One Day Race 2026 Results", "lang": "en" },
+    { "url": "https://tourdownunder.com.au/race/womens/results", "publication": "Santos Tour Down Under", "title": "Women's Race Results", "lang": "en" }
+  ]
+}
