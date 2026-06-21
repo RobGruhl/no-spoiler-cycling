@@ -1,0 +1,147 @@
+{
+  "raceId": "tour-of-slovenia-2026",
+  "raceName": "Tour of Slovenia",
+  "raceDate": "2026-06-17",
+  "researchedAt": "2026-06-20T20:00:00Z",
+  "inProgress": true,
+  "tldr": "Through four of five stages the 32nd Tour of Slovenia has been a Red Bull - BORA - hansgrohe demonstration. Laurence Pithie won two of the three sprint-friendly opening stages and wore the leader's jersey, then handed it to teammate Florian Lipowitz, who soloed to the queen-stage win in Kranjska Gora ahead of Giulio Pellizzari for a Red Bull one-two. Lipowitz leads overall by four seconds from Pellizzari, with Bahrain's Jakob Omrzel third. Only the hilly stage 5 to Novo mesto remains (June 21).",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "florian-lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "race leader after stage 4 — GC in progress"
+    },
+    {
+      "position": 2,
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+0:04"
+    },
+    {
+      "position": 3,
+      "riderId": null,
+      "name": "Jakob Omrzel",
+      "team": "Bahrain - Victorious",
+      "gap": "+1:32"
+    }
+  ],
+  "narrative": {
+    "headline": "Red Bull turn Slovenia into a Tour de France dress rehearsal",
+    "openingMoves": "The race opened with three stages suited to fast finishers, and Red Bull - BORA - hansgrohe dominated them. Laurence Pithie won stage 1 into Rogaška Slatina from a reduced sprint, ahead of teammate Arne Marit, to take the first leader's jersey. Stage 2 to Ormož — disrupted by a crash that forced a temporary neutralisation — was the one blemish, with Dušan Rajović (Solution Tech NIPPO Rali) edging Pithie, but the New Zealander kept the lead. On the hillier stage 3 to Celje, Pithie survived the Celjska koča climb in the front group and sprinted to his second win, extending his overall lead before the mountains.",
+    "raceUnfolds": "Stage 4, the 184.7 km queen stage from Kranj to Kranjska Gora over Dražgoše, Predel and Vršič, was always set to decide the race. Red Bull chased down a dangerous break featuring Fausto Masnada (briefly virtual leader) and Jon Agirre, with Pithie himself sacrificing his green jersey to work for his climbers. On Vršič, Florian Lipowitz and Giulio Pellizzari attacked clear of Omrzel and the GC group; Lipowitz dropped Pellizzari near the summit before the Italian rejoined on the descent, and the pair finished hand in hand for a Red Bull one-two more than a minute clear of Omrzel.",
+    "decision": "The queen stage settled the general classification ahead of the finale: Lipowitz took the overall lead with Pellizzari just four seconds back and Omrzel a clear third at 1:32. With only the hilly stage 5 to Novo mesto remaining, Red Bull control the podium and Lipowitz is firmly favoured to seal the win.",
+    "finale": "Stage 5 (Litija → Novo mesto, June 21) had not yet taken place at the time of writing; the overall result remained to be confirmed."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 0,
+      "location": "Rogaška Slatina (stage 1)",
+      "headline": "Pithie opens with the leader's jersey",
+      "description": "Laurence Pithie won the opening reduced sprint to put Red Bull in red from day one."
+    },
+    {
+      "kmFromFinish": 29,
+      "location": "Ormož approach (stage 2)",
+      "headline": "Crash forces neutralisation",
+      "description": "A crash with around 29 km to go forced organisers to neutralise the race for a time; Rajović later won the restart sprint over Pithie."
+    },
+    {
+      "kmFromFinish": 14,
+      "location": "Vršič (stage 4)",
+      "headline": "Lipowitz and Pellizzari decide the GC",
+      "description": "The Red Bull pair attacked on Vršič, distanced Omrzel and the GC group, and finished one-two in Kranjska Gora; Lipowitz took the overall lead."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Three stages + GC 1-2",
+      "verdictClass": "win",
+      "narrative": "A total domination en route to the Tour de France. The deepest squad in the race won stage 1 (Pithie) and stage 3 (Pithie) in the sprints, then turned the queen stage into a tactical masterclass: chasing down the break, using leader Pithie as a workhorse, and launching Lipowitz and Pellizzari clear on Vršič for a one-two finish. By stage 4 they held the top two on GC plus the points lead, with Lipowitz ending his 2026 win drought at the ideal moment. A near-flawless team performance.",
+      "riderIds": ["florian-lipowitz", "giulio-pellizzari"]
+    },
+    {
+      "team": "Bahrain - Victorious",
+      "verdict": "Best of the rest — Omrzel 3rd",
+      "verdictClass": "neutral",
+      "narrative": "With Red Bull untouchable, Bahrain Victorious focused on being the best of the rest, and 20-year-old Slovenian Jakob Omrzel delivered on home roads. He stayed prominent through the climbing stages and limited his losses on Vršič and its descent to take third on the queen stage and third overall, also moving into the white jersey as best young rider. Edoardo Zambanini added a stage 1 podium (third) from the early sprints.",
+      "riderIds": []
+    },
+    {
+      "team": "Solution Tech NIPPO Rali",
+      "verdict": "Rajović stage win",
+      "verdictClass": "win",
+      "narrative": "The lone team to break Red Bull's grip on the sprints. Dušan Rajović timed his finish perfectly on the restart after the stage 2 neutralisation, coming past race leader Pithie to take a standout victory in Ormož — one of the Serbian sprinter's best wins of the season and the only stage of the race's opening phase not claimed by Red Bull.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "florian-lipowitz",
+      "name": "Lipowitz Florian",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Red Bull's GC leader rode into the overall lead with a commanding queen-stage win, attacking on Vršič and soloing to victory in Kranjska Gora. His first win of 2026 came at the perfect time — two weeks before a Tour de France where he stood on the podium in 2025 — and left him four seconds clear of teammate Pellizzari with one stage to ride.",
+      "keyMoments": [
+        {
+          "km": 14,
+          "what": "Attacked on Vršič on stage 4, crested 30 seconds clear and soloed to the win and the race lead"
+        }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Pellizzari Giulio",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "helper",
+      "position": 2,
+      "gap": "+0:04",
+      "narrative": "Helped force the decisive selection on the queen stage and finished second in Kranjska Gora hand in hand with Lipowitz, completing Red Bull's one-two. Sitting second overall at just four seconds, the 22-year-old Italian again showcased the climbing maturity that has made him one of the team's brightest investments ahead of the Tour de France.",
+      "keyMoments": [
+        {
+          "km": 14,
+          "what": "Went clear with Lipowitz on Vršič before rejoining on the descent to take second on stage 4"
+        }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Mid-race summary — through stage 4 of 5",
+    "quotes": [],
+    "body": "As of June 20, with the queen stage complete, Florian Lipowitz leads the Tour of Slovenia by four seconds from teammate Giulio Pellizzari, with Jakob Omrzel third at 1:32 and best young rider. Red Bull - BORA - hansgrohe have won three of the four stages contested and control the top two on GC. Only the hilly stage 5 from Litija to Novo mesto remains on June 21 to confirm the overall result."
+  },
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-slovenia-2026-stage-4-florian-lipowitz-ends-winless-run-with-tour-de-france-statement-as-he-and-giulio-pellizzari-cross-line-hand-in-hand",
+      "publication": "Cycling Uptodate",
+      "title": "Florian Lipowitz ends winless run with Tour de France statement",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.procyclingstats.com/race/tour-of-slovenia/2026/stage-4/result/gc",
+      "publication": "ProCyclingStats",
+      "title": "Tour of Slovenia 2026 GC after stage 4",
+      "lang": "en"
+    },
+    {
+      "url": "https://tourofslovenia.si/en/live",
+      "publication": "Tour of Slovenia (official)",
+      "title": "Tour of Slovenia 2026 live / overall standings after S4",
+      "lang": "en"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_Tour_of_Slovenia",
+      "publication": "Wikipedia",
+      "title": "2026 Tour of Slovenia",
+      "lang": "en"
+    }
+  ]
+}
