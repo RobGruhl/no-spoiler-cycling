@@ -1,0 +1,93 @@
+{
+  "raceId": "clasica-de-almeria-2026",
+  "raceName": "Clásica de Almería",
+  "raceDate": "2026-02-15",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Biniam Girmay (NSN Cycling Team) took his second win of the young season at the Clásica de Almería, sprinting to victory off a flawless four-man NSN leadout in a chaotic, crash-marred finale into Roquetas de Mar. Defending champion Milan Fretin (Cofidis) was second and Dylan Groenewegen (Unibet Rose Rockets) third; Arnaud De Lie was sixth on his 2026 debut after a hard shoulder-bump with Girmay's leadout man Lewis Askey nearly brought the move down.",
+  "podium": [
+    { "position": 1, "riderId": "biniam-girmay", "name": "Biniam Girmay", "team": "NSN Cycling Team", "time": "4h 10m 36s" },
+    { "position": 2, "riderId": null, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Dylan Groenewegen", "team": "Unibet Rose Rockets", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Matteo Moschetti", "team": "Pinarello - Q36.5 Pro Cycling Team", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Phil Bauhaus", "team": "Bahrain Victorious", "gap": "s.t." },
+    { "position": 6, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Girmay strikes again as NSN deliver a leadout masterclass through the chaos",
+    "openingMoves": "189.7 km from Puebla de Vícar to a flat finish in Roquetas de Mar, the 39th edition of this early-season sprinters' classic and part of the UCI ProSeries. A few small climbs in the opening half gave the early break — Márton Dina, Ander Okamika, Brem Deman, Javier Ibáñez and Pablo Carrascosa — its platform, but the flat run to the coast meant the day was always shaped for the fast men.",
+    "raceUnfolds": "The break resisted until around 22 km to go, when the peloton lifted the pace and reeled it in. Wind played a role on the exposed coastal roads, but it was the tense, technical urban run-in that defined the finale: leadout trains were forced to fight for position far earlier than usual, and the lead-in to the line was punctuated by countless crashes inside the last 15 kilometres.",
+    "decision": "The final kilometres were frantic, leadouts hitting the front one at a time with no team able to settle the bunch. In the closing approach Arnaud De Lie battled to hold Girmay's wheel and clashed shoulders hard with NSN's Lewis Askey, who was driving the train — a bump that nearly took the whole leadout down. NSN held it together, and inside the final kilometre four of their riders surged to the front to deliver Girmay perfectly.",
+    "finale": "Launched from the front with ideal timing, Girmay had the legs to finish the job, holding off defending champion Milan Fretin with Dylan Groenewegen third. Moschetti, Bauhaus and a sixth-placed De Lie completed the top six, all credited with the same time."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 22, "location": "approach to Roquetas de Mar", "headline": "Break caught as the peloton winds up", "description": "The five-man early move was reeled in around 22 km from the line as the bunch increased its pace, setting up the expected sprint." },
+    { "kmFromFinish": 15, "location": "urban run-in", "headline": "Crashes scramble the finale", "description": "Wind and a tense, technical city lead-in forced leadout trains to fight for position early, triggering a string of crashes inside the final 15 kilometres." },
+    { "kmFromFinish": 1, "location": "Roquetas de Mar", "headline": "NSN's four-man leadout delivers Girmay", "description": "Inside the last kilometre NSN hit the front with four riders and launched Girmay from the front; De Lie's hard shoulder-clash with leadout man Lewis Askey nearly disrupted the move, but Girmay had the legs to hold off Fretin." }
+  ],
+  "teamStories": [
+    {
+      "team": "NSN Cycling Team",
+      "verdict": "Girmay wins off perfect leadout",
+      "verdictClass": "win",
+      "narrative": "NSN turned a chaotic, crash-marred finale into a textbook leadout. With four riders at the front inside the final kilometre — Hugo Hofstetter and Lewis Askey prominent in the train — they controlled the chase after the break was caught and delivered Biniam Girmay into the perfect position. It was Girmay's second win of the young season and the kind of collective execution that signalled NSN meant to be a force in the sprints.",
+      "riderIds": ["biniam-girmay"]
+    },
+    {
+      "team": "Cofidis",
+      "verdict": "Fretin defends to 2nd",
+      "verdictClass": "neutral",
+      "narrative": "Defending champion Milan Fretin couldn't repeat his 2025 victory but was the only rider able to come close to Girmay in the gallop, taking second on the same time. A strong opening marker for the French team's fastest finisher even without the win.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "De Lie 6th on debut",
+      "verdictClass": "neutral",
+      "narrative": "Everything was going to plan for Arnaud De Lie on his 2026 racing debut — sitting on Girmay's wheel behind the NSN train, set to launch his first sprint of the year — until a hard shoulder-bump with leadout man Lewis Askey in the final metres cost him momentum. He salvaged sixth, a serviceable opener for a sprinter still building form after an off-season ankle injury.",
+      "riderIds": ["arnaud-de-lie"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "biniam-girmay", "name": "Biniam Girmay", "team": "NSN Cycling Team",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Girmay was the beneficiary of a near-flawless team performance and finished the job himself. After NSN reeled in the break and held the chaotic, crash-strewn finale together, four of his teammates surged to the front inside the final kilometre and launched him with perfect timing. He came off the train at speed and had the legs to hold off defending champion Milan Fretin to the line — his second win of the season.",
+      "keyMoments": [
+        { "km": 1, "what": "Launched from the front of NSN's four-man leadout and held off Fretin to win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "leader", "position": 6, "gap": "s.t.",
+      "narrative": "On his first race of 2026, De Lie was perfectly placed for his season-opening sprint, tracking Girmay's wheel behind the NSN train and ready to launch. In the final metres he clashed shoulders hard with NSN leadout man Lewis Askey — 'it was him or me,' he said afterwards — a bump that nearly brought the whole leadout down and disrupted his own kick. He still came through for sixth, a respectable opener for a sprinter rebuilding form after an off-season ankle injury.",
+      "keyMoments": [
+        { "km": 0.3, "what": "Battling for Girmay's wheel, bumped shoulders hard with leadout man Lewis Askey, nearly bringing the NSN train down" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "kmFromFinish": 15, "description": "A string of crashes inside the final 15 km on the tense, technical urban run-in as leadout trains fought for position in the wind." }
+    ],
+    "abandons": [],
+    "controversies": [
+      { "description": "Arnaud De Lie and NSN leadout man Lewis Askey clashed shoulders hard in the final metres while battling for Girmay's wheel, nearly bringing the leadout down. De Lie: 'It was him or me.'" }
+    ]
+  },
+  "aftermath": {
+    "headline": "An early-season sprint statement amid the chaos",
+    "quotes": [
+      { "rider": "Arnaud De Lie", "team": "Lotto Intermarché", "quote": "It was him or me." }
+    ],
+    "body": "A flat profile promised a routine bunch gallop and instead delivered a frantic, crash-marred finale that rewarded the best-organised team. Girmay and NSN had both the positioning and the firepower to make the chaos work for them, while Fretin's second and a top-six debut for De Lie were the standout results behind the winner. For Girmay it was a second win of a fast-starting season; for De Lie a workable first hit-out after his injury-disrupted winter."
+  },
+  "sources": [
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/clasica-de-almeria/2026/race-results/", "publication": "Domestique", "title": "Clasica de Almeria 2026 - Race results", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/clasica-de-almeria/2026/result", "publication": "ProCyclingStats", "title": "Clasica de Almeria 2026 - Results", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-clasica-de-almeria-2026-biniam-girmay-strikes-again-as-nsn-put-on-leadout-masterclass", "publication": "CyclingUpToDate", "title": "Results Clasica de Almeria 2026 | Biniam Girmay strikes again as NSN put on leadout masterclass", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/binian-girmay-sprints-to-second-win-of-the-season-after-flawless-leadout-in-chaotic-finish/", "publication": "Cyclingnews", "title": "Clásica de Almería: Biniam Girmay sprints to second win of the season after flawless leadout in chaotic finish", "lang": "en" }
+  ]
+}
