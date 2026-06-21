@@ -1,0 +1,62 @@
+{
+  "raceId": "the-gralloch-2026",
+  "raceName": "The Gralloch",
+  "raceDate": "2026-05-16",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Two commanding solo wins at the fourth edition of The Gralloch, the UCI Gravel World Series round through Galloway Forest Park in southwest Scotland. In the elite men's race, Austrian former WorldTour pro Lukas Pöstlberger (Rose Racing Circle) — fresh off winning The Traka 200 — soloed clear to win in 3:03:32, with Jenson Young second at 1:18 and Niels Vandeputte third. In the elite women's race, Dutch rider Geerike Schreurs (Specialized Off-Road) became the first two-time Gralloch winner, taking it in 3:33:39 from Karolina Migoń (+0:02) and Wendy Oosterwoud. The 111 km course featured 1,761 m of climbing and more than 80% gravel; Canada's Michael Woods was a notable starter (7th in the men's race).",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Lukas Pöstlberger", "team": "Rose Racing Circle", "time": "3:03:32", "category": "Elite Men" },
+    { "position": 2, "riderId": null, "name": "Jenson Young", "team": "Ribble Outliers Gravel Racing Team", "gap": "+1:18", "category": "Elite Men" },
+    { "position": 3, "riderId": null, "name": "Niels Vandeputte", "team": "Alpecin - Deceuninck", "time": "3:06:04", "category": "Elite Men" },
+    { "position": 1, "riderId": null, "name": "Geerike Schreurs", "team": "Specialized Off-Road", "time": "3:33:39", "category": "Elite Women" },
+    { "position": 2, "riderId": null, "name": "Karolina Migoń", "team": "—", "gap": "+0:02", "category": "Elite Women" },
+    { "position": 3, "riderId": null, "name": "Wendy Oosterwoud", "team": "—", "time": "3:35:00", "category": "Elite Women" }
+  ],
+  "narrative": {
+    "headline": "Pöstlberger and Schreurs solo to Gralloch victories in Galloway",
+    "openingMoves": "A foggy start in Gatehouse of Fleet sent a star-studded field onto the 111 km Gralloch course through Galloway Forest Park — 1,761 m of climbing on more than 80% gravel, starting and finishing at Garries Park. The men's field featured high-profile names including Canadian Michael Woods, while the women's race brought together several of gravel's most consistent global performers.",
+    "raceUnfolds": "The relentless, technical course did the selecting. Lukas Pöstlberger — winner of The Traka 200 just two weeks earlier and one of gravel's form riders of 2026 — moved to the front of the men's race and pressed his advantage on the climbs. In the women's race Geerike Schreurs, a Gralloch winner already from 2024, controlled the front and kept the pressure on through the forest sectors.",
+    "decision": "Pöstlberger rode clear to win alone, well ahead of the chasing group. Schreurs likewise broke the women's race open, but Karolina Migoń stayed within touching distance to set up a tight finish.",
+    "finale": "Pöstlberger crossed in 3:03:32, with Jenson Young second at 1:18 and Niels Vandeputte third in 3:06:04; Tobias Mørch Kongstad and Benjamin Perry were split by less than a second for fourth and fifth, and Michael Woods took seventh in 3:06:25. Schreurs won the women's race in 3:33:39, just two seconds clear of Migoń, with Wendy Oosterwoud third in 3:35:00 and Danielle Shrosbree fourth a second later. Defending 2025 champion Tessa Neefjes finished eighth."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Galloway Forest Park climbs", "headline": "Pöstlberger rides clear", "description": "Carrying form from his Traka 200 win two weeks earlier, Lukas Pöstlberger forced the men's selection on the climbs of the 80%-gravel course and rode away solo to win by over a minute." },
+    { "kmFromFinish": null, "location": "Galloway Forest Park", "headline": "Schreurs holds off Migoń by two seconds", "description": "Two-time winner Geerike Schreurs broke the women's race open but could not fully shake Karolina Migoń, ultimately taking the win by just two seconds at Garries Park." }
+  ],
+  "teamStories": [
+    {
+      "team": "Rose Racing Circle",
+      "verdict": "Pöstlberger wins maiden men's UCI title",
+      "verdictClass": "win",
+      "narrative": "Austrian Lukas Pöstlberger, best known for winning the 2017 Giro d'Italia's opening stage in his WorldTour days, confirmed his transformation into one of gravel's leading riders. Two weeks after winning The Traka 200 he dominated The Gralloch's relentless Galloway course, attacking on the climbs and soloing to a maiden Gralloch UCI title more than a minute clear.",
+      "riderIds": []
+    },
+    {
+      "team": "Specialized Off-Road",
+      "verdict": "Schreurs first two-time Gralloch winner",
+      "verdictClass": "win",
+      "narrative": "Geerike Schreurs added a second Gralloch title to her 2024 win, becoming the first rider to win the race twice. She controlled the women's race through the forest sectors but had to dig deep at the finish, holding off a fast-closing Karolina Migoń by just two seconds — a measure of how consistently she performs across the global gravel circuit.",
+      "riderIds": []
+    },
+    {
+      "team": "Ribble Outliers Gravel Racing Team",
+      "verdict": "Young 2nd in the men's race",
+      "verdictClass": "neutral",
+      "narrative": "Jenson Young was the best of the rest behind Pöstlberger's solo, taking second at 1:18 and leading the chase home ahead of Vandeputte. A strong home-circuit result against an internationally stacked field.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Form riders dominate Scotland's gravel showcase",
+    "quotes": [],
+    "body": "The Gralloch capped a three-day gravel weekend in Galloway and again drew a deep international field to one of the UCI Gravel World Series' toughest courses. Pöstlberger's win extended a remarkable 2026 gravel run; Schreurs' second title underlined her standing as one of the discipline's most reliable winners. As at every Series round, the top 25% of finishers in each age and gender category qualified for the 2026 UCI Gravel World Championships in Australia and the UEC European Gravel Championships."
+  },
+  "sources": [
+    { "url": "https://granfondodailynews.com/2026/05/17/gralloch-gravel-2026-postlberger-schreurs-lead-star-studded-race-through-scottish-wilderness/", "publication": "Gran Fondo Daily News", "title": "Gralloch Gravel 2026: Pöstlberger, Schreurs lead star-studded race through Scottish wilderness", "lang": "en" },
+    { "url": "https://www.granfondoguide.com/Contents/IndexFull/9167/geerike-schreurs-and-lukas-postlberger-take-victory-at-2026-uci-gralloch-in-scotland", "publication": "Gran Fondo Guide", "title": "Geerike Schreurs and Lukas Pöstlberger take victory at 2026 UCI Gralloch in Scotland", "lang": "en" },
+    { "url": "https://www.grallochgravel.com/results", "publication": "The Gralloch (official)", "title": "The Gralloch 2026 results", "lang": "en" }
+  ]
+}

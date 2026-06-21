@@ -1,0 +1,92 @@
+{
+  "raceId": "marly-grav-race-2026",
+  "raceName": "Marly Grav Race",
+  "raceDate": "2026-05-10",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Two rainbow-jersey winners. In the elite men's race (153 km), Wout van Aert (Team Visma | Lease a Bike) made a winning return to competition — his first race since his Paris-Roubaix victory — attacking with 22 km to go and soloing to the line in Valkenburg ahead of Niels Vandeputte and Rick Ottema. In the elite women's race (135 km), reigning world gravel champion Lorena Wiebes (Team SD Worx - Protime) defended her Marly Grav title, winning a seven-up sprint over Larissa Hartog and Ilse Pluimers. The fourth edition of this UCI Gravel World Series qualifier ran through the South Limburg hills with 1,800 riders on the start line.",
+  "podium": [
+    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "category": "Elite Men" },
+    { "position": 2, "riderId": null, "name": "Niels Vandeputte", "team": "Alpecin - Deceuninck", "category": "Elite Men" },
+    { "position": 3, "riderId": null, "name": "Rick Ottema", "team": "—", "category": "Elite Men" },
+    { "position": 1, "riderId": "lorena-wiebes", "name": "Lorena Wiebes", "team": "Team SD Worx - Protime", "category": "Elite Women" },
+    { "position": 2, "riderId": null, "name": "Larissa Hartog", "team": "—", "category": "Elite Women" },
+    { "position": 3, "riderId": null, "name": "Ilse Pluimers", "team": "—", "category": "Elite Women" }
+  ],
+  "narrative": {
+    "headline": "Van Aert and Wiebes win the men's and women's Marly Grav Race",
+    "openingMoves": "On Sunday 10 May, 1,800 riders lined up in Valkenburg aan de Geul for the fourth edition of Marly Grav, a UCI Gravel World Series qualifier. The men tackled a 153 km course and the women raced 135 km, both routes combining gravel sectors with the short, sharp climbs and longer ascents of the South Limburg hills. Wout van Aert, a late addition to the start list racing for the first time since his Paris-Roubaix win, helped animate the men's race from the front alongside Niels Vandeputte, Rick Ottema, Florian Vermeersch and Jonathan Vervenne.",
+    "raceUnfolds": "The men's race was shaped by that strong lead group, with Van Aert riding aggressively rather than sitting in. In the women's race a group of fourteen riders set the tone at the front for much of the day before the decisive selection came on the climb of the Muur van Banholt, on the Molenweg, where seven riders broke clear: Wiebes, Hartog, Pluimers, Amandine Muller, Nele Laing, Schiff and Eisen.",
+    "decision": "Van Aert launched a powerful attack with 22 km remaining and rode solo to the finish, no one in the lead group able to follow. In the women's race the seven leaders stayed together to the line, setting up a sprint in Valkenburg.",
+    "finale": "Van Aert soloed home for the men's win ahead of Vandeputte and Ottema. In the women's sprint Wiebes opened first and held off her rivals to take the win — in the rainbow jersey, in her own backyard — ahead of Hartog, Pluimers, Muller, Laing, Schiff and Eisen."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 22, "location": "South Limburg gravel/climbs", "headline": "Van Aert attacks solo", "description": "Out of a select front group that he had helped build, Wout van Aert launched a decisive attack with 22 km to go and rode alone to the finish in Valkenburg." },
+    { "kmFromFinish": 30, "location": "Muur van Banholt / Molenweg", "headline": "Women's race splits to seven", "description": "After a fourteen-rider front group controlled the women's race, the decisive move came on the climb of the Muur van Banholt, where seven riders — including Wiebes, Hartog and Pluimers — broke clear to contest the win." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Van Aert wins on return",
+      "verdictClass": "win",
+      "narrative": "A statement first day back for Wout van Aert, who chose the Marly Grav gravel race as his comeback after winning Paris-Roubaix. He raced it on the front from early on and settled it with a long-range solo attack inside the final 22 km, soloing into Valkenburg for a win he said he simply turned up to enjoy. A reminder of the off-road range that makes Van Aert one of the sport's true all-rounders.",
+      "riderIds": ["wout-van-aert"]
+    },
+    {
+      "team": "Team SD Worx - Protime",
+      "verdict": "Wiebes defends in the rainbow jersey",
+      "verdictClass": "win",
+      "narrative": "World gravel champion Lorena Wiebes successfully defended her Marly Grav title in front of a home crowd, winning the seven-up sprint in Valkenburg in the rainbow jersey. After surviving the decisive split on the Muur van Banholt with a strong group, she trusted her finishing speed and opened the sprint herself, holding off Hartog and Pluimers. A clean confirmation of her status on gravel as well as the road.",
+      "riderIds": ["lorena-wiebes"]
+    },
+    {
+      "team": "Alpecin - Deceuninck",
+      "verdict": "Vandeputte 2nd in the men's race",
+      "verdictClass": "neutral",
+      "narrative": "Niels Vandeputte was part of the small front group that shaped the men's race and was best of the rest once Van Aert went clear, taking second on the day. A strong gravel ride from one of the discipline's regular animators, even if there was no answer to the winner's late solo move.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "category": "Elite Men",
+      "narrative": "Racing for the first time since his Paris-Roubaix victory, Van Aert treated Marly Grav as a fun off-road outing and still won it convincingly. He animated the front group with Vandeputte, Ottema and Vermeersch before launching a solo attack with 22 km to go and time-trialling to the line in Valkenburg. He said the race fitted his schedule perfectly and that he most wanted to enjoy himself — winning made it better.",
+      "keyMoments": [
+        { "km": null, "what": "Attacked solo with 22 km remaining and rode alone to the finish" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lorena-wiebes",
+      "name": "Lorena Wiebes",
+      "team": "Team SD Worx - Protime",
+      "role": "leader",
+      "position": 1,
+      "category": "Elite Women",
+      "narrative": "Wiebes defended her Marly Grav crown in the rainbow jersey on home roads. She made the decisive seven-rider split on the Muur van Banholt, then opened the sprint herself in Valkenburg and held off Hartog and Pluimers. She called it a tough but enjoyable race and a special win to take in her own backyard wearing the world champion's stripes.",
+      "keyMoments": [
+        { "km": null, "what": "Made the seven-rider selection on the Muur van Banholt, then won the sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "Two world champions trade road for gravel and both win",
+    "quotes": [
+      { "rider": "Wout van Aert", "team": "Team Visma | Lease a Bike", "quote": "The race fitted perfectly into my schedule and, as many people know, I really enjoy riding off-road. Most of all, I wanted to have fun — and I certainly did." },
+      { "rider": "Lorena Wiebes", "team": "Team SD Worx - Protime", "quote": "It's fantastic to win in the rainbow jersey in my own backyard. It was a tough race, but I really enjoyed the route and the atmosphere along the way." }
+    ],
+    "body": "Marly Grav's fourth edition drew two of the biggest names in the sport into a UCI Gravel World Series qualifier and both delivered, Van Aert with a long solo and Wiebes with a sprint. Beyond the headline elite results, the day's main purpose for most of the 1,800 starters was qualification: the top 25% in each age and gender category earned entry to the 2026 UCI Gravel World Championships in Nannup and the UEC European Gravel Championships in Houffalize."
+  },
+  "sources": [
+    { "url": "https://www.marlygrav.com/en/uitslag-race-2026", "publication": "Marly Grav (official)", "title": "Wout van Aert and Lorena Wiebes win Marly Grav Race", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/gravel/results-marly-grav-2026-wout-van-aert-wins-on-return-and-beats-another-uae-rainbow-jersey-in-first-race-since-paris-roubaix-victory", "publication": "CyclingUpToDate", "title": "Wout van Aert wins on return at Marly Grav 2026", "lang": "en" },
+    { "url": "https://www.idlprocycling.com/cycling/van-aert-steps-off-his-roubaix-cloud-and-immediately-wins-again-at-the-marly-grav", "publication": "IDL ProCycling", "title": "Van Aert steps off his Roubaix cloud and immediately wins again at the Marly Grav", "lang": "en" }
+  ]
+}

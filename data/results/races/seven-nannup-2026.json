@@ -1,0 +1,58 @@
+{
+  "raceId": "seven-nannup-2026",
+  "raceName": "SEVEN Gravel Race",
+  "raceDate": "2026-05-16",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Solo wins for two Australians on the 2026 UCI Gravel World Championships course in Nannup, Western Australia. In the elite men's race (125 km), Brendan Johnston (Giant) rode away in the closing kilometres from a leading trio to win in 3:55:56, seven seconds clear of defending champion Mark O'Brien, with Harrison Bebbington third. In the elite women's race, national champion Tiffany Cromwell (Canyon-SRAM zondacrypto) attacked on the closing loop and time-trialled to a dominant solo win in 4:28:52 — her third SEVEN title — ahead of New Zealand's Maria Laurie and Matilda Raynolds. This UCI Gravel World Series round doubled as a preview of the October World Championships on the same course.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Brendan Johnston", "team": "Giant", "time": "3:55:56", "category": "Elite Men" },
+    { "position": 2, "riderId": null, "name": "Mark O'Brien", "team": "—", "gap": "+0:07", "category": "Elite Men" },
+    { "position": 3, "riderId": null, "name": "Harrison Bebbington", "team": "—", "gap": "+0:29", "category": "Elite Men" },
+    { "position": 1, "riderId": null, "name": "Tiffany Cromwell", "team": "Canyon-SRAM zondacrypto", "time": "4:28:52", "category": "Elite Women" },
+    { "position": 2, "riderId": null, "name": "Maria Laurie", "team": "—", "gap": "+2:30", "category": "Elite Women" },
+    { "position": 3, "riderId": null, "name": "Matilda Raynolds", "team": "—", "gap": "+2:31", "category": "Elite Women" }
+  ],
+  "narrative": {
+    "headline": "Johnston and Cromwell win solo on the Nannup World Championships course",
+    "openingMoves": "Cool conditions and overnight rain greeted more than 2,000 participants from 29 countries rolling out of central Nannup from 7am for the UCI Gravel World Series round — the same Western Australian course that will host the 2026 UCI Gravel World Championships in October. The elite men's 125 km field included four former winners: Johnston, O'Brien, Tasman Nankervis and Adam Blazevic.",
+    "raceUnfolds": "In the men's race the lead group was steadily whittled down by attacks — to five, then four, until only Johnston, O'Brien and Harrison Bebbington remained at the front. O'Brien was the strongest on the long climbs, at one point distancing the others, but Johnston and Bebbington kept clawing back. In the women's race Cromwell used her experience to reduce the front group to herself, Matilda Raynolds and Maria Laurie.",
+    "decision": "The men's race looked set for a three-up sprint before Johnston, knowing the finish suited him, rode away in the closing kilometres. In the women's race Cromwell made her move on the closing loop, quickly building a 40-second lead that grew to over a minute as she went into 'time trial mode'.",
+    "finale": "Johnston won in 3:55:56, seven seconds clear of O'Brien, with Bebbington a further 22 seconds back — Johnston's fifth straight UCI gravel win. Cromwell soloed home in 4:28:52, becoming the first three-time SEVEN winner (also 2023 and 2025), with Laurie second at 2:30 and Raynolds third a second behind her."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 5, "location": "Closing kilometres", "headline": "Johnston rides away from the men's trio", "description": "After O'Brien repeatedly distanced the group on the long climbs only to be reeled back, the race came down to Johnston, O'Brien and Bebbington. Johnston, who knew the finish suited him, attacked in the closing kilometres and soloed to a seven-second win." },
+    { "kmFromFinish": 20, "location": "Closing loop", "headline": "Cromwell goes into time-trial mode", "description": "Having reduced the women's front group to three, Cromwell attacked on the closing loop, built a 40-second gap that quickly stretched past a minute, and rode the finish solo for her third SEVEN title." }
+  ],
+  "teamStories": [
+    {
+      "team": "Giant",
+      "verdict": "Johnston wins, fifth straight UCI gravel win",
+      "verdictClass": "win",
+      "narrative": "Brendan Johnston rode a patient, course-savvy race on the future Worlds parcours, sitting in while O'Brien tried to break the group on the climbs and then using his finishing knowledge to ride away in the closing kilometres. The win — his fifth consecutive UCI gravel victory and a repeat of his 2024 SEVEN title — banked valuable course intelligence ahead of October's World Championships on the same roads.",
+      "riderIds": []
+    },
+    {
+      "team": "Canyon-SRAM zondacrypto",
+      "verdict": "Cromwell's third SEVEN title",
+      "verdictClass": "win",
+      "narrative": "Australian national champion Tiffany Cromwell opened her gravel season with a commanding solo win, becoming the first three-time winner of SEVEN. She methodically reduced the front group, then attacked on the closing loop and time-trialled clear by over a minute. Cromwell framed it as a confidence-restoring result after a difficult few months and a marker as she eyes the rainbow jersey on the same Nannup course in October.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A dress rehearsal for the 2026 Gravel Worlds",
+    "quotes": [
+      { "rider": "Brendan Johnston", "team": "Giant", "quote": "This is my fifth straight UCI win, so that was something I had in my mind. I wanted to get to five of them in a row and it's where I wanted to do it. That knowledge of the course is going to be really helpful come world championships." },
+      { "rider": "Tiffany Cromwell", "team": "Canyon-SRAM zondacrypto", "quote": "It feels great actually. I haven't had the best last couple of months, a bit of soul searching, so that definitely was one that's helped with the confidence and gives me a little bit of spring back in my step." }
+    ],
+    "body": "SEVEN's value this year went beyond the win: it let riders sample the exact course that will decide the 2026 UCI Gravel World Championships in Nannup in October. Both winners pointed to the course knowledge as the real prize, with Cromwell already weighing a tilt at the rainbow jersey on home roads. For the bulk of the 2,000-plus field, the top 25% in each age and gender category secured qualification for those Worlds and the UEC European Gravel Championships."
+  },
+  "sources": [
+    { "url": "https://auscycling.org.au/news/tiffany-cromwell-and-brendan-johnston-win-2026-seven-gravel-race", "publication": "AusCycling (official)", "title": "Tiffany Cromwell and Brendan Johnston win 2026 SEVEN Gravel Race", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/uci-gravel-world-series-brendan-johnston-and-tiffany-cromwell-claim-victory-at-seven-as-field-samples-world-championships-course/", "publication": "Cyclingnews", "title": "UCI Gravel World Series: Brendan Johnston and Tiffany Cromwell claim victory at SEVEN", "lang": "en" },
+    { "url": "https://sevengravelrace.com/results-2/results-2026/", "publication": "SEVEN Gravel Race (official)", "title": "SEVEN Gravel Race 2026 results", "lang": "en" }
+  ]
+}
