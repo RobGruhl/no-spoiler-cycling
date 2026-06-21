@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -294,7 +297,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="tour-down-under-2026-stage-0.html">
+        <div class="stage has-link"><a class="stage-cover" href="tour-down-under-2026-stage-0.html" aria-label="Stage Prologue details"></a>
       <div class="c first"><span class="no">P</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-0.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Jan 20</div>
@@ -302,7 +305,7 @@
       <div class="c km">3.6<small>km</small></div>
       <div class="c terrcell">ITT · FLAT</div>
       <div class="c desc">Short 3.6km individual time trial from the City of Adelaide Tour Village to Victoria Park. Flat run-out with a twisting conclusion - a sharp wake-up call for legs after the off-season.</div>
-    </a><a class="stage" href="tour-down-under-2026-stage-1.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-down-under-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Jan 21</div>
@@ -310,7 +313,7 @@
       <div class="c km">120.6<small>km</small></div>
       <div class="c terrcell">HILLY · FLAT</div>
       <div class="c desc">Circuit through Barossa wine country with three ascents of Menglers Hill. Flat finish after a fast descent suits the sprinters, but breakaways could survive.</div>
-    </a><a class="stage" href="tour-down-under-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-down-under-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Thu, Jan 22</div>
@@ -318,7 +321,7 @@
       <div class="c km">148.1<small>km</small></div>
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">The feared Corkscrew Road (9.7% avg) features twice - midway and 14km from the finish. Also includes Norton Summit and Mount Lofty climbs. A true GC shaker.</div>
-    </a><a class="stage" href="tour-down-under-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-down-under-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Jan 23</div>
@@ -326,7 +329,7 @@
       <div class="c km">140.8<small>km</small></div>
       <div class="c terrcell">HILLY · MOUNTAIN</div>
       <div class="c desc">Starting at the beach but no holiday - Wickham Hill (3km at 7%, max 11%) comes early. Mount Barker climb at 115km is short but tough, possibly not enough to drop sprinters.</div>
-    </a><a class="stage qs" href="tour-down-under-2026-stage-4.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="tour-down-under-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no qs">4</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sat, Jan 24</div>
@@ -334,7 +337,7 @@
       <div class="c km">176<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Queen stage with 2,500m+ climbing. Three ascents of iconic Willunga Hill including two in the final 26km. The longest and hardest day - a climber&#39;s paradise.</div>
-    </a><a class="stage" href="tour-down-under-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-down-under-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span><a class="res-tag" href="../results/race/tour-down-under-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Jan 25</div>
@@ -342,7 +345,7 @@
       <div class="c km">169.8<small>km</small></div>
       <div class="c terrcell">HILLY · CIRCUIT · MOUNTAIN</div>
       <div class="c desc">Eight laps of a punchy 21km circuit with saw-blade profile. Four classified climbs plus Mount Barker Road finish (2km, 4% avg but 11% max). World championship-style finale where anything can happen.</div>
-    </a>
+    </div>
       </div>
     </section>
 

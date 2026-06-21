@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -285,7 +288,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="tour-de-france-femmes-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Aug 1</div>
@@ -293,7 +296,7 @@
       <div class="c km">137<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Swiss Grande Départ — 137km hilly opener around Lausanne with an uphill finish.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Aug 2</div>
@@ -301,7 +304,7 @@
       <div class="c km">149<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">149km from UCI headquarters in Aigle to Geneva — first sprint chance.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Aug 3</div>
@@ -309,7 +312,7 @@
       <div class="c km">157<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">157km crossing into the French Jura — sprinters&#39; day with rolling middle.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Aug 4</div>
@@ -317,7 +320,7 @@
       <div class="c km">21<small>km</small></div>
       <div class="c terrcell">ITT</div>
       <div class="c desc">21km individual time trial through the Burgundy vineyards from Gevrey-Chambertin to Dijon.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Aug 5</div>
@@ -325,7 +328,7 @@
       <div class="c km">140<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Beaujolais wine-country hills — 140km, breakaway terrain.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Aug 6</div>
@@ -333,7 +336,7 @@
       <div class="c km">153<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">153km into the Rhône valley — pre-mountains hilly transition.</div>
-    </a><a class="stage qs" href="tour-de-france-femmes-2026-stage-7.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no qs">7</span></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Fri, Aug 7</div>
@@ -341,7 +344,7 @@
       <div class="c km">144<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Mont Ventoux summit finish — 144km from the Rhône valley to the Giant of Provence.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-8.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-8.html" aria-label="Stage 8 details"></a>
       <div class="c first"><span class="no">8</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Aug 8</div>
@@ -349,7 +352,7 @@
       <div class="c km">175<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Longest stage at 175km — sprinter-friendly with a sting in the tail into Nice.</div>
-    </a><a class="stage" href="tour-de-france-femmes-2026-stage-9.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-femmes-2026-stage-9.html" aria-label="Stage 9 details"></a>
       <div class="c first"><span class="no">9</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sun, Aug 9</div>
@@ -357,7 +360,7 @@
       <div class="c km">99<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · CIRCUIT</div>
       <div class="c desc">Closing GC-decider — 99km Nice circuit with four ascents of the Col d&#39;Eze.</div>
-    </a>
+    </div>
       </div>
     </section>
 

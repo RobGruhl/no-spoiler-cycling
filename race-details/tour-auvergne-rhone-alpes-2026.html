@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -285,7 +288,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Jun 7</div>
@@ -293,7 +296,7 @@
       <div class="c km">140.1<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Opening hilly stage from Vizille north of Grenoble to Saint-Ismier.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Jun 8</div>
@@ -301,7 +304,7 @@
       <div class="c km">237.3<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Longest stage of the race — 237km from Grenoble to the volcanic city of Le Puy en Velay.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">TTT</div>
       <div class="c dt">Tue, Jun 9</div>
@@ -309,7 +312,7 @@
       <div class="c km">28.4<small>km</small></div>
       <div class="c terrcell">TTT</div>
       <div class="c desc">28km team time trial — major early GC shake-up.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Jun 10</div>
@@ -317,7 +320,7 @@
       <div class="c km">165.8<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">165km transitional hilly day from Le Puy down towards the Loire valley.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Jun 11</div>
@@ -325,7 +328,7 @@
       <div class="c km">198<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Longest flat stage at 198km — sprinters&#39; best chance.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-6.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Jun 12</div>
@@ -333,7 +336,7 @@
       <div class="c km">181.4<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">181km hilly transition into the Alps — pre-mountains warm-up.</div>
-    </a><a class="stage qs" href="tour-auvergne-rhone-alpes-2026-stage-7.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no qs">7</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-7.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sat, Jun 13</div>
@@ -341,7 +344,7 @@
       <div class="c km">133.3<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">First mountain summit finish — 133km to the Grand Colombier, one of the toughest climbs in the Jura.</div>
-    </a><a class="stage" href="tour-auvergne-rhone-alpes-2026-stage-8.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-auvergne-rhone-alpes-2026-stage-8.html" aria-label="Stage 8 details"></a>
       <div class="c first"><span class="no">8</span><a class="res-tag" href="../results/race/tour-auvergne-rhone-alpes-2026-stage-8.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sun, Jun 14</div>
@@ -349,7 +352,7 @@
       <div class="c km">120<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Final queen stage — 120km from Beaufort to the Plateau de Solaison summit finish.</div>
-    </a>
+    </div>
       </div>
     </section>
 

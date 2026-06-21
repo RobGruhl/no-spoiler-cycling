@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -285,7 +288,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="women-tour-down-under-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="women-tour-down-under-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/women-tour-down-under-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Jan 17</div>
@@ -293,7 +296,7 @@
       <div class="c km">137.4<small>km</small></div>
       <div class="c terrcell">HILLY · FLAT</div>
       <div class="c desc">Opening stage starting and finishing in Willunga. Features two mid-stage ascents and a short uphill finish suited to punchy sprinters.</div>
-    </a><a class="stage qs" href="women-tour-down-under-2026-stage-2.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="women-tour-down-under-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no qs">2</span><a class="res-tag" href="../results/race/women-tour-down-under-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sun, Jan 18</div>
@@ -301,7 +304,7 @@
       <div class="c km">130.7<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · HILLY</div>
       <div class="c desc">Queen stage featuring dual ascents of the iconic Corkscrew Road - the decisive stage for GC.</div>
-    </a><a class="stage" href="women-tour-down-under-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="women-tour-down-under-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/women-tour-down-under-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Jan 19</div>
@@ -309,7 +312,7 @@
       <div class="c km">126.5<small>km</small></div>
       <div class="c terrcell">HILLY · CIRCUIT</div>
       <div class="c desc">Final stage with circuit finish in Campbelltown - last chance to shake up the GC.</div>
-    </a>
+    </div>
       </div>
     </section>
 

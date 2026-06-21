@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -282,7 +285,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="giro-ditalia-women-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, May 30</div>
@@ -290,7 +293,7 @@
       <div class="c km">139<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Adriatic coast opener — flat 139km from Cesenatico to Ravenna. Day for the sprinters.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, May 31</div>
@@ -298,7 +301,7 @@
       <div class="c km">146<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Veneto coast stage from Roncade to Caorle. 146km of mostly flat terrain.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, Jun 1</div>
@@ -306,7 +309,7 @@
       <div class="c km">154<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">First test of legs in the Friuli hills. 154km finishing in Buja.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Jun 2</div>
@@ -314,7 +317,7 @@
       <div class="c km">12.7<small>km</small></div>
       <div class="c terrcell">ITT · SUMMIT-FINISH</div>
       <div class="c desc">Mountain time trial up to Nevegal Tudor — short 12.7km but uphill, will create GC gaps.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Wed, Jun 3</div>
@@ -322,7 +325,7 @@
       <div class="c km">138<small>km</small></div>
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">First Dolomite mountain stage — 138km through Cadore valleys with serious climbing.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-6.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Jun 4</div>
@@ -330,7 +333,7 @@
       <div class="c km">155<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Long 155km rolling stage from Trentino down to the Emilian plain.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-7.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no">7</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-7.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Jun 5</div>
@@ -338,7 +341,7 @@
       <div class="c km">165<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Longest stage at 165km, crossing the Po valley with hills towards Salice Terme.</div>
-    </a><a class="stage" href="giro-ditalia-women-2026-stage-8.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-8.html" aria-label="Stage 8 details"></a>
       <div class="c first"><span class="no">8</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-8.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, Jun 6</div>
@@ -346,7 +349,7 @@
       <div class="c km">101<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Short, savage Sestriere queen stage — 101km with summit finish at the iconic Olympic resort.</div>
-    </a><a class="stage qs" href="giro-ditalia-women-2026-stage-9.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="giro-ditalia-women-2026-stage-9.html" aria-label="Stage 9 details"></a>
       <div class="c first"><span class="no qs">9</span><a class="res-tag" href="../results/race/giro-ditalia-women-2026-stage-9.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sun, Jun 7</div>
@@ -354,7 +357,7 @@
       <div class="c km">143<small>km</small></div>
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Final mountain stage — 143km Western Alps loop from Saluzzo. Last chance to flip the GC.</div>
-    </a>
+    </div>
       </div>
     </section>
 

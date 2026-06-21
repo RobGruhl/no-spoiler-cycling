@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -285,7 +288,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="tour-de-france-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span></div>
       <div class="c lbl">TTT</div>
       <div class="c dt">Sat, Jul 4</div>
@@ -293,7 +296,7 @@
       <div class="c km">19.7<small>km</small></div>
       <div class="c terrcell">CIRCUIT</div>
       <div class="c desc">Team time trial with two climbs of Montjuïc; technical city-center course</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Jul 5</div>
@@ -301,7 +304,7 @@
       <div class="c km">180<small>km</small></div>
       <div class="c terrcell">HILLY · SUMMIT-FINISH</div>
       <div class="c desc">Repeated short climb to Montjuïc Castle (1.6 km at up to 13%), punchy circuit-style finish</div>
-    </a><a class="stage qs" href="tour-de-france-2026-stage-3.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="tour-de-france-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no qs">3</span></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Mon, Jul 6</div>
@@ -309,7 +312,7 @@
       <div class="c km">196<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">First summit finish at high Pyrenean ski station Les Angles</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, Jul 7</div>
@@ -317,7 +320,7 @@
       <div class="c km">182<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Hilly transition stage through the Pyrenean foothills</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Jul 8</div>
@@ -325,7 +328,7 @@
       <div class="c km">158<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat sprinters&#39; stage</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Thu, Jul 9</div>
@@ -333,7 +336,7 @@
       <div class="c km">186<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Classic Pyrenean giants: Col d&#39;Aspin and Col du Tourmalet before summit finish at Gavarnie-Gèdre</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-7.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no">7</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Jul 10</div>
@@ -341,7 +344,7 @@
       <div class="c km">175<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat sprinters&#39; stage through the Landes forest</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-8.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-8.html" aria-label="Stage 8 details"></a>
       <div class="c first"><span class="no">8</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Jul 11</div>
@@ -349,7 +352,7 @@
       <div class="c km">182<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat sprinters&#39; stage in the Dordogne</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-9.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-9.html" aria-label="Stage 9 details"></a>
       <div class="c first"><span class="no">9</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Jul 12</div>
@@ -357,7 +360,7 @@
       <div class="c km">185<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Hilly breakaway terrain in the Corrèze</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-0.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-0.html" aria-label="Stage Prologue details"></a>
       <div class="c first"><span class="no">P</span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, Jul 13</div>
@@ -365,7 +368,7 @@
       <div class="c km">—<small>km</small></div>
       <div class="c terrcell"></div>
       <div class="c desc">First rest day in the Cantal region</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-10.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-10.html" aria-label="Stage 10 details"></a>
       <div class="c first"><span class="no">10</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Tue, Jul 14</div>
@@ -373,7 +376,7 @@
       <div class="c km">167<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Bastille Day mountain stage in the Massif Central with summit finish at Le Lioran</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-11.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-11.html" aria-label="Stage 11 details"></a>
       <div class="c first"><span class="no">11</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Jul 15</div>
@@ -381,7 +384,7 @@
       <div class="c km">161<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat transition stage</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-12.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-12.html" aria-label="Stage 12 details"></a>
       <div class="c first"><span class="no">12</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Jul 16</div>
@@ -389,7 +392,7 @@
       <div class="c km">181<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat stage starting from the Magny-Cours racing circuit</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-13.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-13.html" aria-label="Stage 13 details"></a>
       <div class="c first"><span class="no">13</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Jul 17</div>
@@ -397,7 +400,7 @@
       <div class="c km">205<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Long hilly stage through the Jura foothills</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-14.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-14.html" aria-label="Stage 14 details"></a>
       <div class="c first"><span class="no">14</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, Jul 18</div>
@@ -405,7 +408,7 @@
       <div class="c km">155<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Vosges mountain stage: Grand Ballon, Col du Page, Ballon d&#39;Alsace, Col du Haag</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-15.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-15.html" aria-label="Stage 15 details"></a>
       <div class="c first"><span class="no">15</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sun, Jul 19</div>
@@ -413,7 +416,7 @@
       <div class="c km">184<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Very steep summit finish at Plateau de Solaison; includes Le Salève at ~11% avg over 4.7 km</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-0.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-0.html" aria-label="Stage Prologue details"></a>
       <div class="c first"><span class="no">P</span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, Jul 20</div>
@@ -421,7 +424,7 @@
       <div class="c km">—<small>km</small></div>
       <div class="c terrcell"></div>
       <div class="c desc">Second rest day before the Alpine finale</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-16.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-16.html" aria-label="Stage 16 details"></a>
       <div class="c first"><span class="no">16</span></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, Jul 21</div>
@@ -429,7 +432,7 @@
       <div class="c km">26<small>km</small></div>
       <div class="c terrcell">ITT</div>
       <div class="c desc">Individual time trial along Lake Geneva</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-17.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-17.html" aria-label="Stage 17 details"></a>
       <div class="c first"><span class="no">17</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Jul 22</div>
@@ -437,7 +440,7 @@
       <div class="c km">175<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat transition stage before the Alpine finale</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-18.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-18.html" aria-label="Stage 18 details"></a>
       <div class="c first"><span class="no">18</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Thu, Jul 23</div>
@@ -445,7 +448,7 @@
       <div class="c km">185<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Mountain stage with summit finish at the ski station Orcières-Merlette</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-19.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-19.html" aria-label="Stage 19 details"></a>
       <div class="c first"><span class="no">19</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, Jul 24</div>
@@ -453,7 +456,7 @@
       <div class="c km">128<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Short but brutal mountain stage finishing atop the legendary Alpe d&#39;Huez</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-20.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-20.html" aria-label="Stage 20 details"></a>
       <div class="c first"><span class="no">20</span></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, Jul 25</div>
@@ -461,7 +464,7 @@
       <div class="c km">171<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Queen stage: Col de la Croix de Fer, Col du Télégraphe, Col du Galibier (roof of the Tour), Col de Sarenne, Alpe d&#39;Huez. ~5,600m elevation gain</div>
-    </a><a class="stage" href="tour-de-france-2026-stage-21.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="tour-de-france-2026-stage-21.html" aria-label="Stage 21 details"></a>
       <div class="c first"><span class="no">21</span></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, Jul 26</div>
@@ -469,7 +472,7 @@
       <div class="c km">130<small>km</small></div>
       <div class="c terrcell">FLAT · CIRCUIT</div>
       <div class="c desc">Ceremonial finale with multiple ascents of Rue Lepic/Montmartre before Champs-Élysées sprint</div>
-    </a>
+    </div>
       </div>
     </section>
 

@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -279,7 +282,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/vuelta-a-andalucia-ruta-del-sol-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, Feb 18</div>
@@ -287,7 +290,7 @@
       <div class="c km">163<small>km</small></div>
       <div class="c terrcell">HILLY · MOUNTAIN</div>
       <div class="c desc">Opening stage through mountainous Andalusian terrain - first test for GC riders</div>
-    </a><a class="stage" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/vuelta-a-andalucia-ruta-del-sol-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, Feb 19</div>
@@ -295,7 +298,7 @@
       <div class="c km">133<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Punchy stage with uphill finish - favors attackers</div>
-    </a><a class="stage" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/vuelta-a-andalucia-ruta-del-sol-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, Feb 20</div>
@@ -303,7 +306,7 @@
       <div class="c km">162<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Rolling terrain - sprint possible if fast men survive</div>
-    </a><a class="stage" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/vuelta-a-andalucia-ruta-del-sol-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, Feb 21</div>
@@ -311,7 +314,7 @@
       <div class="c km">194<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Longest stage of the race - attrition through distance and terrain</div>
-    </a><a class="stage qs" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-5.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="vuelta-a-andalucia-ruta-del-sol-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no qs">5</span><a class="res-tag" href="../results/race/vuelta-a-andalucia-ruta-del-sol-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sun, Feb 22</div>
@@ -319,7 +322,7 @@
       <div class="c km">168<small>km</small></div>
       <div class="c terrcell">MOUNTAIN</div>
       <div class="c desc">Final stage through Andalusian mountains - last chance to reshape GC</div>
-    </a>
+    </div>
       </div>
     </section>
 

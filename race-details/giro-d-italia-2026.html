@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -282,7 +285,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="giro-d-italia-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, May 8</div>
@@ -290,7 +293,7 @@
       <div class="c km">147<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, May 9</div>
@@ -298,7 +301,7 @@
       <div class="c km">221<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, May 10</div>
@@ -306,7 +309,7 @@
       <div class="c km">175<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><div class="stage">
+    </div><div class="stage">
       <div class="c first"><span class="no">P</span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, May 11</div>
@@ -314,7 +317,7 @@
       <div class="c km">—<small>km</small></div>
       <div class="c terrcell"></div>
       <div class="c desc">Rest day with transfer from Bulgaria to southern Italy.</div>
-    </div><a class="stage" href="giro-d-italia-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, May 12</div>
@@ -322,7 +325,7 @@
       <div class="c km">138<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, May 13</div>
@@ -330,7 +333,7 @@
       <div class="c km">203<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-6.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, May 14</div>
@@ -338,7 +341,7 @@
       <div class="c km">142<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Official Giro d&#39;Italia highlights. Disable autoplay, avoid sidebar recommendations and comments.</div>
-    </a><a class="stage qs" href="giro-d-italia-2026-stage-7.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no qs">7</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-7.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Fri, May 15</div>
@@ -346,7 +349,7 @@
       <div class="c km">244<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">First mountain showdown — long day to the iconic Blockhaus summit.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-8.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-8.html" aria-label="Stage 8 details"></a>
       <div class="c first"><span class="no">8</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-8.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sat, May 16</div>
@@ -354,7 +357,7 @@
       <div class="c km">156<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Tirreno-style hilly day with four categorised climbs ending atop Fermo.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-9.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-9.html" aria-label="Stage 9 details"></a>
       <div class="c first"><span class="no">9</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-9.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sun, May 17</div>
@@ -362,7 +365,7 @@
       <div class="c km">184<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Apennine mountain stage with summit finish at Corno alle Scale.</div>
-    </a><div class="stage">
+    </div><div class="stage">
       <div class="c first"><span class="no">P</span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, May 18</div>
@@ -370,7 +373,7 @@
       <div class="c km">—<small>km</small></div>
       <div class="c terrcell"></div>
       <div class="c desc">First Italian rest day.</div>
-    </div><a class="stage" href="giro-d-italia-2026-stage-10.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-10.html" aria-label="Stage 10 details"></a>
       <div class="c first"><span class="no">10</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-10.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ITT</div>
       <div class="c dt">Tue, May 19</div>
@@ -378,7 +381,7 @@
       <div class="c km">42<small>km</small></div>
       <div class="c terrcell">ITT</div>
       <div class="c desc">Long 42km individual time trial along the Tuscan coast — major GC test.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-11.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-11.html" aria-label="Stage 11 details"></a>
       <div class="c first"><span class="no">11</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-11.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, May 20</div>
@@ -386,7 +389,7 @@
       <div class="c km">195<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Hilly Ligurian stage with Passo del Termine, Colle di Gualtarola and the San Bartolomeo finale.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-12.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-12.html" aria-label="Stage 12 details"></a>
       <div class="c first"><span class="no">12</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-12.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, May 21</div>
@@ -394,7 +397,7 @@
       <div class="c km">175<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Sprint day with two categorised climbs in the second half.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-13.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-13.html" aria-label="Stage 13 details"></a>
       <div class="c first"><span class="no">13</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-13.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Fri, May 22</div>
@@ -402,7 +405,7 @@
       <div class="c km">189<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Piemonte to Lago Maggiore with two Cat 3/4 climbs en route.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-14.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-14.html" aria-label="Stage 14 details"></a>
       <div class="c first"><span class="no">14</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-14.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, May 23</div>
@@ -410,7 +413,7 @@
       <div class="c km">133<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Alpine queen-stage prequel: short, sharp, five climbs ending at Pila.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-15.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-15.html" aria-label="Stage 15 details"></a>
       <div class="c first"><span class="no">15</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-15.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, May 24</div>
@@ -418,7 +421,7 @@
       <div class="c km">157<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Pure sprint into Milan — last flat opportunity before the high mountains.</div>
-    </a><div class="stage">
+    </div><div class="stage">
       <div class="c first"><span class="no">P</span></div>
       <div class="c lbl">REST</div>
       <div class="c dt">Mon, May 25</div>
@@ -426,7 +429,7 @@
       <div class="c km">—<small>km</small></div>
       <div class="c terrcell"></div>
       <div class="c desc">Second Italian rest day.</div>
-    </div><a class="stage" href="giro-d-italia-2026-stage-16.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-16.html" aria-label="Stage 16 details"></a>
       <div class="c first"><span class="no">16</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-16.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Tue, May 26</div>
@@ -434,7 +437,7 @@
       <div class="c km">113<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Swiss mountain stage with the brutal Carì summit (11.8km @ 8%).</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-17.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-17.html" aria-label="Stage 17 details"></a>
       <div class="c first"><span class="no">17</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-17.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, May 27</div>
@@ -442,7 +445,7 @@
       <div class="c km">202<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Long transitional stage with an uphill finale to Andalo.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-18.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-18.html" aria-label="Stage 18 details"></a>
       <div class="c first"><span class="no">18</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-18.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, May 28</div>
@@ -450,7 +453,7 @@
       <div class="c km">171<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Prosecco-country stage with the iconic Muro di Ca&#39; del Poggio in the finale.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-19.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-19.html" aria-label="Stage 19 details"></a>
       <div class="c first"><span class="no">19</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-19.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, May 29</div>
@@ -458,7 +461,7 @@
       <div class="c km">151<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Dolomites queen stage — Passo Giau as Cima Coppi (2,305m).</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-20.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-20.html" aria-label="Stage 20 details"></a>
       <div class="c first"><span class="no">20</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-20.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Sat, May 30</div>
@@ -466,7 +469,7 @@
       <div class="c km">200<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Last mountain stage — Piancavallo climbed twice, second time as the summit finish.</div>
-    </a><a class="stage" href="giro-d-italia-2026-stage-21.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="giro-d-italia-2026-stage-21.html" aria-label="Stage 21 details"></a>
       <div class="c first"><span class="no">21</span><a class="res-tag" href="../results/race/giro-d-italia-2026-stage-21.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, May 31</div>
@@ -474,7 +477,7 @@
       <div class="c km">131<small>km</small></div>
       <div class="c terrcell">FLAT · CIRCUIT</div>
       <div class="c desc">Ceremonial finale in Rome — maglia rosa parades and a final sprint.</div>
-    </a>
+    </div>
       </div>
     </section>
 

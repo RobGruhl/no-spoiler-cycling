@@ -512,9 +512,12 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -816,11 +819,14 @@ function renderStageRace(race) {
     const routeText = routeMatch ? routeMatch[1] : s.name;
     const href = `${race.id}-stage-${n}.html`;
     const hasDetails = s.stageDetails && Object.keys(s.stageDetails).length > 0;
-    const tag = hasDetails ? 'a' : 'div';
-    const attrs = hasDetails ? ` href="${href}"` : '';
+    // NOTE: the row is always a <div> (never an <a>). A "stretched link" overlay
+    // makes the whole row navigate to the stage page when details exist; this keeps
+    // the results badge (also an <a>) from being an illegal nested anchor — nested
+    // <a> tags make the browser auto-close the outer anchor and eject all the cells.
+    const stageCover = hasDetails ? `<a class="stage-cover" href="${href}" aria-label="Stage ${n === 0 ? 'Prologue' : n} details"></a>` : '';
     const showResults = isPastDate(s.date) && hasStageResults(race.id, n);
     const resultsBadge = showResults ? `<a class="res-tag" href="../results/race/${race.id}-stage-${n}.html" title="View stage results (spoilers)">R</a>` : '';
-    return `<${tag} class="stage${isQueen ? ' qs' : ''}"${attrs}>
+    return `<div class="stage${isQueen ? ' qs' : ''}${hasDetails ? ' has-link' : ''}">${stageCover}
       <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span>${resultsBadge}</div>
       <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
       <div class="c dt">${fmtShortDate(s.date)}</div>
@@ -828,7 +834,7 @@ function renderStageRace(race) {
       <div class="c km">${s.distance || '—'}<small>km</small></div>
       <div class="c terrcell">${terr}</div>
       <div class="c desc">${htmlEscape(s.description || '')}</div>
-    </${tag}>`;
+    </div>`;
   }).join('');
 
   // Startlist from topRiders — ranked first (limit 14), then outsiders below a subhead

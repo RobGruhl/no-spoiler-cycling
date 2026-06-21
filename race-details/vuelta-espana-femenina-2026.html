@@ -143,9 +143,12 @@
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
-.stage{display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
+.stage{position:relative;display:grid;grid-template-columns:68px 80px 120px 1.2fr 80px 80px 1fr;gap:0;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:center;color:inherit}
 .stage.qs{background:linear-gradient(90deg, rgba(200,16,46,.08), transparent 60%)}
+.stage.has-link{cursor:pointer}
+.stage-cover{position:absolute;inset:0;z-index:1;border:0;font-size:0;line-height:0}
 .stage .c{padding:0 10px;min-width:0}
+.stage .res-tag{position:relative;z-index:2}
 .stage .c.first{padding-left:0}
 .stage .no{font-family:var(--font-sans);font-weight:800;font-size:26px;letter-spacing:-.03em}
 .stage .no.qs{color:var(--signal)}
@@ -289,7 +292,7 @@
       <div class="eyebrow">§ 02 — Stages</div>
       <h2>The route, day by day</h2>
       <div class="stages">
-        <a class="stage" href="vuelta-espana-femenina-2026-stage-1.html">
+        <div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-1.html" aria-label="Stage 1 details"></a>
       <div class="c first"><span class="no">1</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-1.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Sun, May 3</div>
@@ -297,7 +300,7 @@
       <div class="c km">113.9<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">Galician opener — 114km from Marín on the Atlantic coast to inland Salvaterra de Miño.</div>
-    </a><a class="stage" href="vuelta-espana-femenina-2026-stage-2.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-2.html" aria-label="Stage 2 details"></a>
       <div class="c first"><span class="no">2</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-2.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Mon, May 4</div>
@@ -305,7 +308,7 @@
       <div class="c km">109.8<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">110km through southern Galicia from Lobios to San Cibrao das Viñas — hilly terrain.</div>
-    </a><a class="stage" href="vuelta-espana-femenina-2026-stage-3.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-3.html" aria-label="Stage 3 details"></a>
       <div class="c first"><span class="no">3</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-3.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Tue, May 5</div>
@@ -313,7 +316,7 @@
       <div class="c km">121.2<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat sprint day from Padrón to the Atlantic city of A Coruña.</div>
-    </a><a class="stage" href="vuelta-espana-femenina-2026-stage-4.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-4.html" aria-label="Stage 4 details"></a>
       <div class="c first"><span class="no">4</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-4.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Wed, May 6</div>
@@ -321,7 +324,7 @@
       <div class="c km">114<small>km</small></div>
       <div class="c terrcell">HILLY</div>
       <div class="c desc">114km hilly stage through Lugo province — Antas de Ulla finish.</div>
-    </a><a class="stage" href="vuelta-espana-femenina-2026-stage-5.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-5.html" aria-label="Stage 5 details"></a>
       <div class="c first"><span class="no">5</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-5.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">ROAD</div>
       <div class="c dt">Thu, May 7</div>
@@ -329,7 +332,7 @@
       <div class="c km">119.6<small>km</small></div>
       <div class="c terrcell">FLAT</div>
       <div class="c desc">Flat Castilian stage from León to Astorga — sprint chance before the mountains.</div>
-    </a><a class="stage" href="vuelta-espana-femenina-2026-stage-6.html">
+    </div><div class="stage has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-6.html" aria-label="Stage 6 details"></a>
       <div class="c first"><span class="no">6</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-6.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN</div>
       <div class="c dt">Fri, May 8</div>
@@ -337,7 +340,7 @@
       <div class="c km">106.5<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">First Asturian mountain stage — short 106km with brutal summit finish at Les Praeres in Nava.</div>
-    </a><a class="stage qs" href="vuelta-espana-femenina-2026-stage-7.html">
+    </div><div class="stage qs has-link"><a class="stage-cover" href="vuelta-espana-femenina-2026-stage-7.html" aria-label="Stage 7 details"></a>
       <div class="c first"><span class="no qs">7</span><a class="res-tag" href="../results/race/vuelta-espana-femenina-2026-stage-7.html" title="View stage results (spoilers)">R</a></div>
       <div class="c lbl">MTN<br/>QUEEN</div>
       <div class="c dt">Sat, May 9</div>
@@ -345,7 +348,7 @@
       <div class="c km">132.9<small>km</small></div>
       <div class="c terrcell">MOUNTAIN · SUMMIT-FINISH</div>
       <div class="c desc">Queen stage: 133km finishing on the legendary Angliru — one of cycling&#39;s most feared climbs.</div>
-    </a>
+    </div>
       </div>
     </section>
 
