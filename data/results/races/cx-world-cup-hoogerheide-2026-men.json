@@ -1,0 +1,87 @@
+{
+  "raceId": "cx-world-cup-hoogerheide-2026-men",
+  "raceName": "UCI Cyclocross World Cup Hoogerheide — Men Elite",
+  "raceDate": "2026-01-25",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Mathieu van der Poel won the World Cup finale at Hoogerheide solo, attacking early and riding the last laps as a controlled time trial — with enough margin to turn around and watch the sprint for second. His Alpecin–Premier Tech stablemates filled out the chase: Tibor Del Grosso and Niels Vandeputte took 2nd and 3rd in a photo-finish chase sprint, with Thibau Nys 4th. Cyclocross World Cup rounds are raced in trade-team kit (unlike the national-team Worlds a week later), so this page covers the trade squads.",
+  "podium": [
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech", "time": "58:41" },
+    { "position": 2, "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "gap": "+1:20" },
+    { "position": 3, "name": "Niels Vandeputte", "team": "Alpecin-Premier Tech Development Team", "gap": "+1:20" },
+    { "position": 4, "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+1:20" },
+    { "position": 5, "name": "Toon Aerts", "team": "Charles Liégeois - Deschacht", "gap": "+1:21" },
+    { "position": 6, "name": "Felipe Orts Lloret", "team": "Ridley Racing Team", "gap": "+1:23" },
+    { "position": 7, "name": "Joris Nieuwenhuis", "team": "Ridley Racing Team", "gap": "+1:23" },
+    { "position": 8, "name": "Gerben Kuypers", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+1:26" },
+    { "position": 9, "name": "Filippo Fontana", "team": "Italy", "gap": "+1:27" },
+    { "position": 10, "name": "Jente Michels", "team": "Alpecin - Premier Tech", "gap": "+1:27" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel solos the World Cup finale; an Alpecin one-three behind",
+    "openingMoves": "Hoogerheide — the GP Adrie van der Poel, the 12th and final round of the 2025–26 World Cup, run on the fast, power-heavy circuit Van der Poel grew up racing. From the first lap he sat near the front and forced an immediate selection, the elite group narrowing to a handful: Del Grosso, Vandeputte, Nys, Aerts and the rest of the favourites.",
+    "raceUnfolds": "The decisive move came mid-race. Van der Poel launched the long-range attack that has become his signature, stacking power efforts on the drags and straights to open a gap that grew to roughly half a minute. With clear air he rode his own lines through the technical sectors, eliminating risk and turning the back half of the race into a solo time trial.",
+    "decision": "The win was settled the moment the gap stuck — there was no answer to Van der Poel's pace from the chase. What was left to race for was the podium and the final World Cup points, contested by a large chasing group.",
+    "finale": "Van der Poel had so much margin he reportedly turned around to watch the sprint for second. Behind, the chase came down to a tight finish: Tibor Del Grosso edged Niels Vandeputte for 2nd in a photo finish, with Thibau Nys — who had led out the sprint — taken to 4th in the final metres, all three given the same +1:20. Toon Aerts was 5th at +1:21."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": null,
+      "location": "Mid-race",
+      "headline": "Van der Poel's long-range attack",
+      "description": "Van der Poel's mid-race acceleration on the power sections opened a gap that grew to around 30 seconds. Nobody in the chase could match it solo, and the race for the win was effectively over once the gap stabilised."
+    },
+    {
+      "kmFromFinish": null,
+      "location": "Finish straight",
+      "headline": "Photo-finish chase sprint for 2nd",
+      "description": "The chase group sprinted for the remaining podium places. Del Grosso took 2nd in a photo finish over Vandeputte for 3rd; Nys, who opened the sprint, was overhauled in the last metres and settled for 4th — all three credited with the same +1:20."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Win plus a near-sweep of the chase",
+      "verdictClass": "win",
+      "narrative": "Alpecin–Premier Tech owned the day. Van der Poel soloed to the win, and the team's young guns filled the chase — Tibor Del Grosso 2nd, development-team rider Niels Vandeputte 3rd, and Jente Michels rounding out the top 10. A World Cup finale won from the front and backed up across the result is exactly the depth picture the squad wanted heading into the following week's Worlds.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Baloise Verzekeringen - Het Poetsbureau Lions",
+      "verdict": "4th after leading the sprint",
+      "verdictClass": "neutral",
+      "narrative": "Thibau Nys was the strongest of the non-Alpecin riders and took the chase sprint on, opening it from the front — but he was swamped in the final metres and ended 4th, just off the podium. Team veteran Lars van der Haar was a little further back in 11th. A solid but unrewarded day against an in-form Alpecin block.",
+      "riderIds": []
+    },
+    {
+      "team": "Ridley Racing Team",
+      "verdict": "Two in the top seven",
+      "verdictClass": "neutral",
+      "narrative": "Felipe Orts (6th) and Joris Nieuwenhuis (7th) both landed inside the top seven, leading the second wave of the chase. A clean team result on Dutch terrain, if never in contention for the podium fight up front.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "A textbook home-soil World Cup performance. Van der Poel forced the selection on the opening lap, attacked mid-race, and built a ~30-second gap that turned the finale into a solo time trial. He had enough margin to watch the chase sprint for second behind him. The win, on the GP Adrie van der Poel circuit named for his father, closed out the World Cup season and set up his run at Worlds the following week — where he would go on to take a record eighth elite title.",
+      "keyMoments": [
+        { "km": null, "what": "Forced the early selection from the front on lap one" },
+        { "km": null, "what": "Launched the mid-race attack that opened the winning ~30s gap" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "World Cup season closed; Worlds next",
+    "quotes": [],
+    "body": "Hoogerheide was the final round of the 2025–26 UCI Cyclocross World Cup, and Van der Poel signed it off in the manner that defined his winter: a dominant solo on home terrain, with Alpecin–Premier Tech teammates filling the places behind. One week later came the cyclocross World Championships in Hulst, where Van der Poel took a record-extending eighth elite men's title. Of the road peloton's CX-capable riders, only Van der Poel still treats the discipline as a genuine target — Wout van Aert and Tom Pidcock were absent from this winter's CX calendar."
+  },
+  "sources": [
+    { "url": "https://cyclocross24.com/race/18079/", "publication": "Cyclocross24", "title": "UCI World Cup Hoogerheide 2026 - Men Elite (results)", "lang": "en" },
+    { "url": "https://cx.procyclingstats.com/race/gp-adrie-van-der-poel/2026/result", "publication": "ProCyclingStats", "title": "UCI World Cup Hoogerheide 2026 - Men Elite result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/races/uci-cyclo-cross-world-cup-hoogerheide-mathieu-van-der-poel-storms-to-dominant-record-breaking-victory-one-week-before-worlds/", "publication": "Cyclingnews", "title": "Van der Poel storms to dominant victory at Hoogerheide World Cup one week before Worlds", "lang": "en" }
+  ]
+}

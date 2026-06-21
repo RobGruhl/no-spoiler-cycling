@@ -1,0 +1,87 @@
+{
+  "raceId": "cx-world-cup-hoogerheide-2026-women",
+  "raceName": "UCI Cyclocross World Cup Hoogerheide — Women Elite",
+  "raceDate": "2026-01-25",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Puck Pieterse won the World Cup finale at Hoogerheide to complete a back-to-back weekend double after Maasmechelen the day before. She pared down the lead group with repeated accelerations and went clear on the final lap, holding off Kristýna Zemanová (2nd, +6s) and Amandine Fouquenet (3rd, +10s) on home Dutch terrain. World Cup rounds are raced in trade-team kit, so this page covers the trade squads.",
+  "podium": [
+    { "position": 1, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech", "time": "51:54" },
+    { "position": 2, "name": "Kristýna Zemanová", "team": "Czech Republic", "gap": "+0:06" },
+    { "position": 3, "name": "Amandine Fouquenet", "team": "Pauwels Sauzen - Altez Industriebouw", "gap": "+0:10" },
+    { "position": 4, "name": "Zoe Bäckstedt", "team": "Great Britain", "gap": "+0:11" },
+    { "position": 5, "name": "Shirin van Anrooij", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:18" },
+    { "position": 6, "name": "Viktória Chladoňová", "team": "Visma | Lease a Bike", "gap": "+0:29" },
+    { "position": 7, "name": "Sara Casasola", "team": "Crelan - Corendon", "gap": "+0:33" },
+    { "position": 8, "name": "Inge van der Heijden", "team": "Crelan - Corendon", "gap": "+0:35" },
+    { "position": 9, "name": "Rebecca Gariboldi", "team": "Alé Colnago Team", "gap": "+0:37" },
+    { "position": 10, "name": "Marion Norbert Riberolle", "team": "Crelan - Corendon", "gap": "+0:38" }
+  ],
+  "narrative": {
+    "headline": "Pieterse seals a World Cup weekend double on home sand",
+    "openingMoves": "Hoogerheide — the GP Adrie van der Poel, the 12th and final round of the 2025–26 World Cup, on a fast and technical Dutch circuit. Pieterse arrived a day after winning the Maasmechelen round and again proved the strongest from the gun, sitting in the front group as it formed over the opening laps.",
+    "raceUnfolds": "Across the seven laps the best of the field stayed in contention, but Pieterse kept applying pressure — using her acceleration on the climbs and her edge through the technical sectors to repeatedly trim the lead group down to a handful of riders.",
+    "decision": "The race was settled on the final lap. Pieterse launched the decisive move and pulled clear, opening a small but firm gap that the chase could not close in the run to the line.",
+    "finale": "Pieterse held on to win by roughly six seconds from Kristýna Zemanová, with Amandine Fouquenet taking 3rd at +10s and Zoe Bäckstedt narrowly off the podium in 4th at +11s. The close gaps underline how tight the chase was behind the winner."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": null,
+      "location": "Throughout",
+      "headline": "Pieterse whittles down the lead group",
+      "description": "Rather than one early split, Pieterse repeatedly accelerated on the climbs and technical sectors across the laps, steadily reducing the front group to a small selection of contenders."
+    },
+    {
+      "kmFromFinish": null,
+      "location": "Final lap",
+      "headline": "The winning move on the last lap",
+      "description": "Pieterse attacked on the final lap and went clear, building a small but decisive margin (about six seconds) that held to the finish — completing a back-to-back World Cup weekend double after Maasmechelen."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Fenix - Premier Tech",
+      "verdict": "Win and a weekend double",
+      "verdictClass": "win",
+      "narrative": "Pieterse delivered the team's marquee result of the World Cup finale weekend, backing up her Maasmechelen win 24 hours earlier with victory at Hoogerheide. A front-running, attack-from-distance win on home Dutch terrain — exactly the form line the squad wanted heading into the following week's Worlds.",
+      "riderIds": ["puck-pieterse"]
+    },
+    {
+      "team": "Pauwels Sauzen - Altez Industriebouw",
+      "verdict": "Podium with Fouquenet (3rd)",
+      "verdictClass": "win",
+      "narrative": "Amandine Fouquenet rode at the front for much of the race and held on for 3rd at +10s, a clean podium for the squad behind the in-form Pieterse and a strong neo-pro Zemanová.",
+      "riderIds": []
+    },
+    {
+      "team": "Crelan - Corendon",
+      "verdict": "Three in the top ten",
+      "verdictClass": "neutral",
+      "narrative": "Crelan–Corendon packed the lower top-10: Sara Casasola (7th), Inge van der Heijden (8th) and Marion Norbert Riberolle (10th) all finished within a handful of seconds of each other. Depth across the chase, if never quite in the podium fight.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech",
+      "role": "leader", "position": 1, "gap": "—",
+      "narrative": "A dominant, front-of-race ride on home soil. Pieterse repeatedly accelerated through the laps to pare down the lead group, then launched the decisive move on the final lap to win by about six seconds. The victory completed a back-to-back World Cup weekend double (Maasmechelen the day before) and capped her cyclocross winter on a high ahead of the World Championships.",
+      "keyMoments": [
+        { "km": null, "what": "Repeated accelerations on the climbs and technical sectors to thin the lead group" },
+        { "km": null, "what": "Final-lap attack to open the winning ~6s gap" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "World Cup winter signed off; Worlds next",
+    "quotes": [],
+    "body": "Hoogerheide was the final round of the 2025–26 UCI Cyclocross World Cup. Pieterse's win completed a perfect closing weekend and was a confidence boost into the cyclocross World Championships the following week. The overall World Cup classification had already been settled before this round. Marianne Vos, the project's other tracked CX-capable woman, was not part of this World Cup finale."
+  },
+  "sources": [
+    { "url": "https://cyclocross24.com/race/18080/", "publication": "Cyclocross24", "title": "UCI World Cup Hoogerheide 2026 - Women Elite (results)", "lang": "en" },
+    { "url": "https://cx.procyclingstats.com/race/gp-adrie-van-der-poel/2026/we/live", "publication": "ProCyclingStats", "title": "UCI World Cup Hoogerheide 2026 - Women Elite result", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/uci-cyclo-cross-world-cup-hoogerheide-puck-pieterse-dominates-with-back-to-back-victories-in-final-weekend-before-worlds/", "publication": "Cyclingnews", "title": "Puck Pieterse dominates with back-to-back victories in final weekend before Worlds", "lang": "en" }
+  ]
+}
