@@ -1,0 +1,84 @@
+{
+  "raceId": "koksijde-classic-2026",
+  "raceName": "Bredene Koksijde Classic",
+  "raceDate": "2026-03-20",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Dylan Groenewegen (Unibet Rose Rockets) won the 24th Bredene Koksijde Classic in a bunch sprint, the Dutchman coming past a long lead-out to take a flat-day sprinters' classic on the Flemish coast. Pascal Ackermann (Team Jayco AlUla) was second and Pavel Bittner (Team Picnic PostNL) third, all in 4h 27m 58s after a six-rider breakaway was reeled in inside the final 1.6 km.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Dylan Groenewegen", "team": "Unibet Rose Rockets", "time": "4h 27m 58s" },
+    { "position": 2, "riderId": null, "name": "Pascal Ackermann", "team": "Team Jayco AlUla", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Pavel Bittner", "team": "Team Picnic PostNL", "gap": "+0:00" },
+    { "position": 4, "riderId": null, "name": "Steffen De Schuyteneer", "team": "Lotto Intermarché", "gap": "+0:00" },
+    { "position": 5, "riderId": null, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "+0:00" },
+    { "position": 6, "riderId": null, "name": "Stanisław Aniołkowski", "team": "Cofidis", "gap": "+0:00" },
+    { "position": 7, "riderId": null, "name": "Luca Mozzato", "team": "Tudor Pro Cycling Team", "gap": "+0:00" },
+    { "position": 8, "riderId": null, "name": "Alexis Renard", "team": "Cofidis", "gap": "+0:00" },
+    { "position": 9, "riderId": null, "name": "Jason Tesson", "team": "TotalEnergies", "gap": "+0:00" },
+    { "position": 10, "riderId": null, "name": "Gerben Thijssen", "team": "Alpecin - Premier Tech", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Groenewegen rolls back the years to win the coastal sprint in Koksijde",
+    "openingMoves": "The 24th Bredene Koksijde Classic, a 1.Pro UCI ProSeries one-day race, ran 203.4 km from Ostend (Bredene) on the North Sea coast inland through West Flanders and back to a finishing circuit in Koksijde, where the bunch crossed the line three and a half times. On an almost entirely flat parcours built for the fast men, the race was always likely to come down to a sprint — the start list was stacked with pure finishers chasing an early-season classic on home roads, with defending champion Edward Theuns (Lidl-Trek) among them.",
+    "raceUnfolds": "The day's move went clear with 66 km remaining: Belgians Gil Gelders (Soudal Quick-Step), Cedric Beullens (Lotto Intermarché), Jelle Vermoote (Tarteletto-Isorex) and Michiel Coppens (Beat CC p/b Saxo), Frenchman Rayan Boulahoite (TotalEnergies) and Dane Henrik Pedersen (Uno-X Mobility) forming a six-man breakaway. The peloton kept them on a measured leash across the open, wind-exposed coastal sections, the gap never large enough to threaten the sprinters' teams controlling behind.",
+    "decision": "Vermoote was the first to crack, dropping back to the bunch with 15 km to go. The remaining five fugitives pressed on and fought the catch all the way to the line, but the surging peloton finally swallowed them inside the final 1.6 km, setting up the expected mass gallop on the Koksijde circuit.",
+    "finale": "Edward Theuns opened the sprint early but was swamped by the faster finishers behind him. Dylan Groenewegen surfed the chaos, came off the wheels and powered through to win in 4h 27m 58s at an average of 45.5 km/h. Pascal Ackermann took second and Pavel Bittner third, both given the same time, with Steffen De Schuyteneer and Max Kanter rounding out the top five on a day when the pure sprinters delivered exactly the finish the course promised."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 66, "location": "West Flanders inland roads", "headline": "Six-man break gets the gap", "description": "Gelders, Beullens, Vermoote, Coppens, Boulahoite and Pedersen formed the day's breakaway with 66 km to go, but the sprinters' teams never let the advantage grow beyond catching range on the flat, exposed course." },
+    { "kmFromFinish": 15, "location": "Approach to Koksijde", "headline": "Vermoote is dropped", "description": "Jelle Vermoote lost contact with the leaders at 15 km to go, reducing the break to five as the peloton wound up the chase toward the finishing circuit." },
+    { "kmFromFinish": 1.6, "location": "Koksijde finishing circuit", "headline": "Breakaway caught at the death", "description": "The five remaining escapees resisted until just 1.6 km from the line before the peloton reeled them in, guaranteeing a bunch sprint for the win." },
+    { "kmFromFinish": 0.2, "location": "Koksijde finish straight", "headline": "Theuns goes early, Groenewegen comes over the top", "description": "Defending champion Edward Theuns launched the sprint but was passed by several riders; Dylan Groenewegen produced the strongest finish to take the victory ahead of Ackermann and Bittner." }
+  ],
+  "teamStories": [
+    {
+      "team": "Unibet Rose Rockets",
+      "verdict": "Groenewegen delivers the win",
+      "verdictClass": "win",
+      "narrative": "The ProTeam's marquee sprinter justified his billing on the Flemish coast. Groenewegen kept position through a hectic, late catch of the breakaway, judged the run-in perfectly and powered past an early Theuns lead-out to win Bredene Koksijde Classic — a statement early-season classic result for a squad built around his fast finish.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Jayco AlUla",
+      "verdict": "Ackermann sprints to second",
+      "verdictClass": "neutral",
+      "narrative": "Pascal Ackermann, a two-time former winner of this race, again proved his enduring class on the Belgian coast, fighting through to second in the bunch sprint. Quick enough to be in the mix but unable to come around Groenewegen, the German left Koksijde with the frustration of a near-miss on a course that has suited him before.",
+      "riderIds": []
+    },
+    {
+      "team": "Team Picnic PostNL",
+      "verdict": "Bittner completes the podium",
+      "verdictClass": "neutral",
+      "narrative": "Young Czech sprinter Pavel Bittner continued his early-season progress with third place, holding his line in a frantic finale to round out the podium. A strong, repeatable result for Picnic PostNL's developing fast man against an experienced field of pure sprinters.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl-Trek",
+      "verdict": "Defence falls short after early jump",
+      "verdictClass": "loss",
+      "narrative": "Defending champion Edward Theuns opened the sprint but went too soon, getting swamped by the faster finishers behind and missing the top ten on a course where he had triumphed a year earlier. His early effort lit up the gallop but ultimately handed the slipstream to Groenewegen and the other fast men who came over the top.",
+      "riderIds": []
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "Break and bunch both deliver",
+      "verdictClass": "neutral",
+      "narrative": "Lotto Intermarché animated the race from both ends — Cedric Beullens spent the day in the six-man breakaway that survived to inside the final 1.6 km, while Steffen De Schuyteneer salvaged a strong fourth in the bunch sprint. Aggressive racing rewarded with a top-five, if not the win.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A coastal sprinters' classic goes to form",
+    "quotes": [],
+    "body": "Bredene Koksijde Classic again played out as the flat, wind-edged sprinters' race its parcours promises, the early break controlled and reeled in to set up the expected gallop. Groenewegen's win underlined his enduring speed and gave Unibet Rose Rockets a marquee early-season classic, while former winners Ackermann and defending champion Theuns were left to reflect on a finish that went to the day's fastest man."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/bredene-koksijde-classic/2026/result", "publication": "ProCyclingStats", "title": "Bredene Koksijde Classic 2026 - Results", "lang": "en" },
+    { "url": "https://fr.wikipedia.org/wiki/Bredene_Koksijde_Classic_2026", "publication": "Wikipédia", "title": "Bredene Koksijde Classic 2026 - récit de la course", "lang": "fr" },
+    { "url": "https://www.velo101.com/courses/bredene-koksijde-classic/dylan-groenewegen-remporte-la-bredene-koksijde-classic-2026/", "publication": "Velo 101", "title": "Dylan Groenewegen remporte la Bredene Koksijde Classic 2026", "lang": "fr" },
+    { "url": "https://cyclingflash.com/race/bredene-koksijde-classic-2026/result", "publication": "CyclingFlash", "title": "Bredene Koksijde Classic 2026 - Results", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-bredene-koksijde-classic-2026-dylan-groenewegen-rolls-back-the-years-with-powerful-long-range-sprint-win-for-unibet-rose-rockets", "publication": "CyclingUpToDate", "title": "Results Bredene Koksijde Classic 2026: Dylan Groenewegen rolls back the years", "lang": "en" }
+  ]
+}
