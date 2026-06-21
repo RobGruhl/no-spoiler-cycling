@@ -1,0 +1,109 @@
+{
+  "raceId": "kuurne-brussels-kuurne-2026",
+  "raceName": "Kuurne-Brussels-Kuurne",
+  "raceDate": "2026-03-01",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "Matthew Brennan, 20, won Kuurne-Brussels-Kuurne from a heavily reduced bunch sprint — his first Flemish Classic — with a flawless Christophe Laporte lead-out. Tudor took second and third through Luca Mozzato and Matteo Trentin. A repeated wave of late attacks over the closing climbs never stuck, and the Opening Weekend's second day came down to the fast men after all.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "4h 26m 05s" },
+    { "position": 2, "riderId": null, "name": "Luca Mozzato", "team": "Tudor Pro Cycling Team", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Matteo Trentin", "team": "Tudor Pro Cycling Team", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Brennan, 20, makes history with a reduced-bunch sprint at Kuurne",
+    "openingMoves": "From Kortrijk it took about half an hour of full-gas racing for the break to form: Matis Louvel, Dries De Bondt and Cole Kessler went first, with Johan Jacobs and Frits Biesterbos bridging quickly. Roger Adrià and Storm Ingebrigtsen needed roughly 60 km to make it across, completing a group of seven that built a maximum lead of around four minutes.",
+    "raceUnfolds": "Around halfway, Belgian champion Tim Wellens crashed and was unable to continue. The break's lead dropped below two minutes as Paul Magnier punctured on the cobbles of Mont Saint-Laurent; up front Jasper Philipsen, Matej Mohorič and Laurence Pithie lifted the tempo, distancing pure sprinters Jonathan Milan, Dylan Groenewegen and Arnaud De Lie, whose deficit grew past a minute.",
+    "decision": "Dylan van Baarle attacked on the Côte du Trieu with Timo Kielich, Mohorič, Daan Hoole, Mikkel Honoré and Riley Sheehan, but the move was reeled in with 62 km left. Van Baarle and Kielich tried again — this time with Matthew Brennan, Nils Politt, Jonas Abrahamsen, Matteo Trentin and others aboard — yet the peloton closed it down with 52 km to go. After the last of the seven climbs (the Kluisberg) there are 60 km of flat roads to Kuurne, and despite constant movement no attack could survive that run-in.",
+    "finale": "It came down to a clash of fast finishers from a thinned-out front group. In Kuurne, Christophe Laporte delivered a perfect lead-out and Brennan sealed it convincingly, Mozzato and Trentin a bike length back for the Tudor 2-3. Matevž Govekar and Mike Teunissen rounded out the top five at the same time."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 97, "location": "Mid-race", "headline": "Wellens crashes out", "description": "Around halfway, Belgian champion Tim Wellens went down and abandoned, removing one of the strongest engines from the front of the race." },
+    { "kmFromFinish": 80, "location": "Mont Saint-Laurent cobbles", "headline": "Sprinters distanced as the pace lifts", "description": "Magnier punctured on the Mont Saint-Laurent cobbles while Philipsen, Mohorič and Pithie raised the tempo at the front — pure sprinters Milan, Groenewegen and De Lie lost more than a minute and were effectively out of contention." },
+    { "kmFromFinish": 62, "location": "Côte du Trieu", "headline": "Van Baarle's first move caught", "description": "Van Baarle attacked on the Côte du Trieu with Kielich, Mohorič, Hoole, Honoré and Sheehan; the dangerous group was brought back with 62 km remaining." },
+    { "kmFromFinish": 52, "location": "Run after the climbs", "headline": "Second wave with Brennan aboard neutralised", "description": "A renewed move featuring Van Baarle, Kielich, Brennan, Politt, Abrahamsen and Trentin was caught with 52 km to go, all but guaranteeing a reduced-bunch sprint over the long flat finale." },
+    { "kmFromFinish": 0, "location": "Kuurne finish", "headline": "Laporte lead-out, Brennan sprints clear", "description": "Christophe Laporte launched Brennan perfectly in the finishing straight and the 20-year-old held off Mozzato and Trentin to win his first Flemish Classic." }
+  ],
+  "teamStories": [
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Brennan's breakthrough Classic",
+      "verdictClass": "win",
+      "narrative": "Visma rode for the sprint and executed it perfectly. With the climbs surviving into a reduced bunch, Christophe Laporte — a former winner of these Opening Weekend races himself — turned super-domestique and delivered a textbook lead-out for 20-year-old Matthew Brennan, who finished it off convincingly. It is the headline early-season confirmation of Visma's youngest Classics talent, and a marker for the spring after a quiet Opening Weekend day one.",
+      "riderIds": ["matthew-brennan"]
+    },
+    {
+      "team": "Tudor Pro Cycling Team",
+      "verdict": "Both podium steps, no win",
+      "verdictClass": "neutral",
+      "narrative": "Tudor were the strongest collective in the finale, placing two riders on the podium with Luca Mozzato second and the 36-year-old Matteo Trentin third. They had the numbers to dictate a sprint but lacked the single fastest wheel; against Brennan with a Laporte lead-out, second and third was the ceiling. A strong ProSeries result for the Swiss outfit, tempered by the sense that the race was winnable.",
+      "riderIds": []
+    },
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Magnier puncture, Rex top six",
+      "verdictClass": "neutral",
+      "narrative": "Soudal Quick-Step's nominal fast card Paul Magnier punctured on the Mont Saint-Laurent cobbles at the worst moment, as the front split. The team still salvaged a top-ten through Laurenz Rex in sixth from the reduced bunch — a respectable but not decisive return on a day they had hoped to contest the win.",
+      "riderIds": ["paul-magnier"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Two in the top eight",
+      "verdictClass": "neutral",
+      "narrative": "Decathlon placed two riders in the top eight of the reduced sprint — Tobias Lund Andresen seventh and Cees Bol eighth — a tidy double points haul without ever threatening the win. A solid Opening-Weekend showing of squad depth in the bunch finale.",
+      "riderIds": ["tobias-lund-andresen"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike",
+      "role": "leader", "position": 1, "gap": "4h 26m 05s",
+      "narrative": "The 20-year-old Briton won his first Flemish Classic in only his second season, surviving repeated attacks over the closing climbs to make the reduced bunch sprint, then finishing it convincingly off Christophe Laporte's lead-out. He had also been alert enough to follow the second Van Baarle move with 52 km to go before it was caught, showing he could read the race as well as sprint it. A landmark early-season result that stamps him as Visma's coming Classics man.",
+      "keyMoments": [
+        { "km": 143, "what": "Followed the late Van Baarle/Kielich move (caught 52 km out)" },
+        { "km": 195, "what": "Won the reduced-bunch sprint off Laporte's lead-out" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tobias-lund-andresen", "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter", "position": 7, "gap": "+0:00",
+      "narrative": "Made the front group over the climbs and contested the reduced bunch sprint for seventh, leading Decathlon's two-rider top-eight haul. A consistent points return for the 23-year-old Dane in the Opening Weekend, without the legs to challenge for the podium against Brennan and the Tudor pair.",
+      "keyMoments": [{ "km": 195, "what": "Seventh in the reduced bunch sprint" }],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter", "position": 10, "gap": "+0:00",
+      "narrative": "Red Bull's fast man survived into the reduced front group and took tenth in the sprint. A modest top-ten on a finish that suited a pure sprinter only if they could hold the climbs — Meeus did, but couldn't get into the leading positions for the dash to the line.",
+      "keyMoments": [{ "km": 195, "what": "Tenth in the reduced bunch sprint" }],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step",
+      "role": "leader", "position": null, "gap": "n/a",
+      "narrative": "One of the pre-race fast favourites, Magnier punctured on the Mont Saint-Laurent cobbles just as the front of the race split apart — exactly the wrong moment. The mechanical and the rising tempo ended his realistic chances of contesting the sprint he had been brought to win.",
+      "keyMoments": [{ "km": 80, "what": "Punctured on the Mont Saint-Laurent cobbles as the front split" }],
+      "incident": { "type": "mechanical", "detail": "Puncture on the Mont Saint-Laurent cobbles" }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "name": "Tim Wellens", "team": "UAE Team Emirates - XRG", "detail": "Crashed around halfway and abandoned" }
+    ],
+    "abandons": [
+      { "riderId": null, "name": "Tim Wellens", "reason": "Crash, did not finish" }
+    ],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A 20-year-old's first Classic, and a sprinters' Kuurne after all",
+    "quotes": [],
+    "body": "Kuurne stayed true to its template: seven climbs packed into 40 km, then 60 km of flat roads that let the fast men back in. Wave after wave of attacks over the bergs — Van Baarle twice, a Mohorič-led group, Brennan himself in the second move — all came back, and the heavily reduced bunch sprint went to the youngest man in it. For Visma it was a clean tactical win and an early sign of Brennan's ceiling; for Tudor, two podium places that underlined their strength without a winner. With the cobbled Monuments still weeks away, the Opening Weekend's second day belonged to the next generation."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/kuurne-brussels-kuurne-2026/results-kbk-2026", "publication": "Cycling Stage", "title": "Kuurne-Brussels-Kuurne 2026: Brennan powers to triumph", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/kuurne-brussel-kuurne/2026/result", "publication": "ProCyclingStats", "title": "Kuurne - Brussel - Kuurne 2026 result", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/kuurne-brussel-kuurne/2026/", "publication": "Domestique", "title": "Kuurne-Brussel-Kuurne 2026 race overview", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Kuurne%E2%80%93Brussels%E2%80%93Kuurne", "publication": "Wikipedia", "title": "2026 Kuurne-Brussels-Kuurne", "lang": "en" }
+  ]
+}

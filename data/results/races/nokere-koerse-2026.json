@@ -1,0 +1,99 @@
+{
+  "raceId": "nokere-koerse-2026",
+  "raceName": "Danilith Nokere Koerse",
+  "raceDate": "2026-03-18",
+  "researchedAt": "2026-06-20T00:00:00Z",
+  "inProgress": false,
+  "tldr": "Jasper Philipsen won the 80th Danilith Nokere Koerse, taking the uphill cobbled sprint on the Nokereberg ahead of Jordi Meeus and Juan Sebastián Molano. After 186.4 km from Deinze, the bunch came back together for the traditional drag-strip finish and Philipsen's top-end speed settled it — a clean sprinter's win in a 1.Pro semi-classic that doubles as Flemish-week form-finding.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "4h 16m 19s" },
+    { "position": 2, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Juan Sebastián Molano", "team": "UAE Team Emirates - XRG", "gap": "s.t." },
+    { "position": 4, "riderId": "emilien-jeanniere", "name": "Emilien Jeannière", "team": "TotalEnergies", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Milan Menten", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Lukáš Kubiš", "team": "Unibet Rose Rockets", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Jenthe Biermans", "team": "Cofidis", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Paul Penhoët", "team": "Groupama - FDJ United", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Steffen De Schuyteneer", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 10, "riderId": null, "name": "António Morgado", "team": "UAE Team Emirates - XRG", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Philipsen wins the uphill drag to Nokere",
+    "openingMoves": "186.4 km from Deinze through the East Flanders countryside, the 80th edition of this 1.Pro semi-classic and a fixture of the build-up to the cobbled Monuments. As ever, the day's break went up the road early; the sprinters' teams kept the leash short, knowing the race almost always comes down to the famous uphill cobbled finish on the Nokereberg.",
+    "raceUnfolds": "The local finishing circuits and the short, sharp bergs of the closing kilometres did their usual work of thinning the field without ever fully detonating it. The day's escapees were reeled in, and a large, fast group arrived together for the run to Nokere — the scenario the pure sprinters wanted.",
+    "decision": "The race was decided in the final 200 metres on the rising, cobbled Nokereberg, where positioning into the bottom of the drag matters as much as raw speed. The fastest men were all there together with the same time.",
+    "finale": "Philipsen timed the uphill effort best to come over the top first, with Jordi Meeus second and Juan Sebastián Molano third, all in the same bunch-sprint time of 4h 16m 19s. Emilien Jeannière and Milan Menten completed the top five."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0.2, "location": "Nokereberg", "headline": "The uphill cobbled sprint", "description": "Nokere Koerse is defined by its rising cobbled finishing straight. With the bunch back together, the win came down to who could best hold speed up the drag — Philipsen's top end and positioning carried him over the line first." }
+  ],
+  "teamStories": [
+    {
+      "team": "Alpecin - Premier Tech",
+      "verdict": "Philipsen wins the bunch sprint",
+      "verdictClass": "win",
+      "narrative": "Alpecin came to a sprinters' semi-classic with the fastest man in the race and got the result the form-sheet demanded. Controlling the day so the break was caught and delivering Philipsen to the foot of the Nokereberg in position is exactly the kind of mid-March work that sharpens a lead-out for the cobbled Monuments to come. A clean, professional win.",
+      "riderIds": ["jasper-philipsen"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Meeus second, beaten for speed",
+      "verdictClass": "neutral",
+      "narrative": "Jordi Meeus got himself into the right place for the uphill drag and was beaten only by Philipsen's top end. Second in a 1.Pro sprint is solid positioning and condition work, but on the day the pure speed belonged to Alpecin.",
+      "riderIds": ["jordi-meeus"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Molano third, Morgado in the top 10",
+      "verdictClass": "neutral",
+      "narrative": "UAE put two riders in the top ten — Juan Sebastián Molano onto the podium in third and the young António Morgado tenth — a tidy day's racing for a squad using the Flemish week to build legs. The podium without the win is a fair reflection of a sprint where Philipsen had the edge.",
+      "riderIds": []
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech",
+      "role": "leader", "position": 1, "gap": "4h 16m 19s",
+      "narrative": "Won the uphill cobbled sprint to Nokere, holding his speed up the Nokereberg to come over the top ahead of Meeus and Molano. A confidence-building win in the heart of Flemish week and a sharpening of the Alpecin lead-out ahead of the cobbled Monuments.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Held top-end speed up the Nokereberg drag to take the win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader", "position": 2, "gap": "s.t.",
+      "narrative": "Got into the right position for the uphill finish and led the chase to Philipsen, finishing second on the same time. Beaten only on raw top speed in a sprinter's semi-classic.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Second over the line, beaten for speed by Philipsen" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "emilien-jeanniere", "name": "Emilien Jeannière", "team": "TotalEnergies",
+      "role": "leader", "position": 4, "gap": "s.t.",
+      "narrative": "Fourth in the bunch sprint to Nokere, the best of the ProTeam sprinters behind the WorldTour fast men — a strong day's positioning on the uphill finish for TotalEnergies.",
+      "keyMoments": [
+        { "km": 0.2, "what": "Fourth in the uphill bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "A sprinter's tune-up before the cobbles",
+    "quotes": [],
+    "body": "Nokere Koerse 2026 played to its usual script: a sprinters' semi-classic decided on the rising cobbles of the Nokereberg, with the fastest finisher in the field taking it. For Philipsen and Alpecin, the win was a useful marker of speed and lead-out cohesion with the cobbled Monuments looming. For Meeus, Molano and Jeannière, the placings were respectable form-finding in a deep mid-March sprint field."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/nokere-koerse/2026/result", "publication": "ProCyclingStats", "title": "Danilith Nokere Koerse 2026 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Nokere_Koerse", "publication": "Wikipedia", "title": "2026 Nokere Koerse", "lang": "en" },
+    { "url": "https://uitslagen.kbwb-rlvb.com/uitslagen/2026/2026020-U.pdf", "publication": "KBWB / Belgian Cycling (official results)", "title": "Danilith Nokere Koerse men elite — official result", "lang": "nl" },
+    { "url": "https://cyclingflash.com/race/danilith-nokere-koerse-2026/result", "publication": "CyclingFlash", "title": "Danilith Nokere Koerse 2026 - Results", "lang": "en" }
+  ]
+}
