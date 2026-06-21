@@ -1,0 +1,102 @@
+{
+  "raceId": "boucles-de-la-mayenne-2026",
+  "raceName": "Boucles de la Mayenne",
+  "raceDate": "2026-05-28",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "inProgress": false,
+  "tldr": "Benoît Cosnefroy (UAE Team Emirates - XRG) won the 51st Boucles de la Mayenne, ripping the leader's jersey off prologue-winner Julius Johansen on the hilly Stage 2 to Pré-en-Pail-Saint-Samson and defending a 7-second margin over Thibaud Gruel (Groupama - FDJ United) to the line in Laval. Olav Kooij (Decathlon CMA CGM) bookended the race with two bunch-sprint wins (Stages 1 and 3) and the points jersey; Gruel took the youth classification and Groupama - FDJ United the team prize.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "time": "12h 21' 47\"" },
+    { "position": 2, "riderId": null, "name": "Thibaud Gruel", "team": "Groupama - FDJ United", "gap": "+0:07" },
+    { "position": 3, "riderId": null, "name": "Noa Isidore", "team": "Decathlon CMA CGM", "gap": "+0:12" },
+    { "position": 4, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "+0:13" }
+  ],
+  "narrative": {
+    "headline": "Cosnefroy seizes the race on the queen stage; Kooij sprints in twice",
+    "openingMoves": "A 5.4 km individual time trial in Laval opened the race. Julius Johansen (UAE Team Emirates - XRG) set the reference at 49.1 km/h, edging Lidl - Trek's Jakob Söderqvist by a single second and Decathlon's Oscar Chamberlain by six. Cosnefroy was already fourth at +6, keeping his team's GC card within a handful of seconds. Stage 1, a 172.4 km hilly run to Château-Gontier-sur-Mayenne, came back together for a bunch sprint that Olav Kooij (Decathlon CMA CGM) took ahead of Alessio Magagnotti and Anthony Turgis. Johansen sat safely in the bunch and kept yellow.",
+    "raceUnfolds": "Stage 2, the 215.1 km queen stage from Aron to Pré-en-Pail-Saint-Samson, decided everything. An early six-man break controlled the first half before Lidl - Trek lifted the tempo and the field shattered on the repeated late climbs; the move was caught with around 66 km to go. A flurry of attacks followed — Retailleau, then Brenner and Barré, then Aubin Sparfel inside the final 10 km — but Sparfel was reeled in with about 5 km left.",
+    "decision": "From the reduced front group Cosnefroy won the uphill sprint, taking the stage and prising the overall lead away from Johansen, who lost contact on the climbs. Noa Isidore (Decathlon) was second on the stage and Vincenzo Albanese third, the bonus seconds and time gaps reshuffling the GC behind the new leader.",
+    "finale": "Stage 3, a 147.7 km flat loop into Laval, was always going to be a sprinters' day, and Kooij duly took his second win of the week ahead of Mads Pedersen and John Degenkolb. With no GC riders distanced, Cosnefroy carried his Stage 2 cushion home: 7 seconds over Gruel and 12 over Isidore on the final podium, winning time 12h 21' 47\"."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": null, "location": "Prologue — Laval ITT", "headline": "Johansen takes the first yellow jersey", "description": "Julius Johansen won the 5.4 km opening time trial by a single second over Söderqvist, giving UAE the early lead and setting the GC within seconds across the favourites." },
+    { "kmFromFinish": 66, "location": "Stage 2 — climbs to Pré-en-Pail", "headline": "Lidl - Trek detonate the queen stage", "description": "Lidl - Trek lifted the pace to bring back the six-man break with roughly 66 km to go, and the peloton fractured on the repeated late climbs — the launchpad for the GC's only real shake-up." },
+    { "kmFromFinish": 0, "location": "Stage 2 — Pré-en-Pail-Saint-Samson", "headline": "Cosnefroy wins and takes yellow", "description": "After late attacks were neutralised inside 5 km, Cosnefroy won the uphill sprint from the reduced group, stripping the lead from Johansen, who was distanced on the climbs." }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Overall win + prologue, two jerseys converted",
+      "verdictClass": "win",
+      "narrative": "A near-flawless week. Johansen's prologue win banked the first yellow jersey and the early initiative, and when the race blew apart on the Stage 2 climbs UAE simply rotated their card to the puncheur best suited to the finish: Cosnefroy won the queen stage, took the lead, and held 7 seconds to Laval for the overall. Molano's fifth on Stage 1 gave them a sprint presence too. From two leaders they got an ITT win and the GC.",
+      "riderIds": []
+    },
+    {
+      "team": "Decathlon CMA CGM",
+      "verdict": "Two stages + points jersey, GC podium",
+      "verdictClass": "win",
+      "narrative": "The most prolific squad on stages. Kooij delivered the bookend bunch sprints on Stages 1 and 3 and walked off with the green points jersey, while neo-talent Noa Isidore rode into third overall and was second on the decisive Stage 2 — a strong climbing-and-sprinting double act that fell only on the wrong side of UAE's Stage 2 ambush.",
+      "riderIds": []
+    },
+    {
+      "team": "Groupama - FDJ United",
+      "verdict": "2nd overall, youth + team prizes",
+      "verdictClass": "win",
+      "narrative": "Beaten only by Cosnefroy's Stage 2 move. Thibaud Gruel was the best of the young riders all week, finished second overall at 7 seconds and claimed the white youth jersey, and with Molard and Decomble backing him the squad also won the team classification — the best collective return behind the winner.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Drove the queen stage, 4th overall",
+      "verdictClass": "neutral",
+      "narrative": "Lidl - Trek made the race hard on Stage 2 — their tempo brought back the break and split the field — but the move ultimately served Cosnefroy rather than themselves. Söderqvist's prologue second was the closest they came to yellow; Mads Pedersen took two stage podiums (2nd on Stage 3) and finished fourth overall, third in the points, without converting to a win.",
+      "riderIds": ["mads-pedersen"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Active but no result",
+      "verdictClass": "neutral",
+      "narrative": "Visma raced aggressively without a headline finish. Louis Barré was among the Stage 2 late movers and ended seventh overall, and Matthew Brennan was a fixture in the sprints, but the team left Mayenne without a stage or a jersey.",
+      "riderIds": ["matthew-brennan"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+0:13",
+      "narrative": "Pedersen used Mayenne as a sharpening block and was a constant presence: seventh in the Stage 1 sprint, then second behind Kooij on the flat Stage 3 run into Laval. His team set up the decisive Stage 2 by detonating the climbs, and Pedersen rode safely into fourth overall at 13 seconds and third in the points classification — a competitive, low-risk week without the win.",
+      "keyMoments": [
+        { "km": null, "what": "2nd on Stage 3 bunch sprint into Laval, beaten by Kooij" },
+        { "km": null, "what": "7th on the Stage 1 sprint to Château-Gontier" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 9,
+      "gap": "+1:10",
+      "narrative": "The young British sprinter contested the bunch finishes for Visma and survived the Stage 2 climbs well enough to finish ninth overall at 1:10. He didn't reach the podium on any stage, but staying in GC contact on the hilly queen stage was a useful marker for a rider still building his range beyond pure sprints.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [], "controversies": [] },
+  "aftermath": {
+    "headline": "A puncheur's stage race, decided in a single afternoon",
+    "quotes": [],
+    "body": "Boucles de la Mayenne ran true to type: a prologue to seed the GC, two sprint days for the fast men, and one hilly stage that settled everything. Cosnefroy timed his only real effort perfectly, turning a Stage 2 win into the overall, while Kooij's double and the points jersey made Decathlon the busiest team of the week. For the under-23s the race was a showcase — Gruel's second overall and youth jersey, and Isidore's podium, were the standout development results."
+  },
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/boucles-de-la-mayenne/2026/gc/result/result", "publication": "ProCyclingStats", "title": "Boucles de la Mayenne 2026 — Final GC", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Boucles_de_la_Mayenne", "publication": "Wikipedia", "title": "2026 Boucles de la Mayenne", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-boucles-de-la-mayenne-2026-stage-1-olav-kooij-takes-the-stage-win-in-his-first-sprint-of-the-year", "publication": "Cycling Up To Date", "title": "Boucles de la Mayenne 2026 Stage 1 — Olav Kooij", "lang": "en" },
+    { "url": "https://www.velo-club.net/resultats/boucles-de-la-mayenne-2026-julius-johansen-prologue/", "publication": "Vélo Club", "title": "Boucles de la Mayenne 2026 — Johansen prologue", "lang": "fr" }
+  ]
+}

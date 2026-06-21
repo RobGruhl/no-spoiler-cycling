@@ -1,0 +1,42 @@
+{
+  "raceId": "boucles-de-la-mayenne-2026",
+  "stageNumber": 1,
+  "stageName": "Saint-Berthevin → Château-Gontier-sur-Mayenne",
+  "stageDate": "2026-05-29",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "Olav Kooij (Decathlon CMA CGM) won the 172.4 km opening road stage in a bunch sprint ahead of Alessio Magagnotti and Anthony Turgis. Julius Johansen finished safely in the peloton and kept the leader's jersey.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Olav Kooij", "team": "Decathlon CMA CGM", "time": "3h 48' 49\"" },
+    { "position": 2, "riderId": null, "name": "Alessio Magagnotti", "team": "Red Bull - BORA - hansgrohe Rookies", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "Anthony Turgis", "team": "TotalEnergies", "gap": "+0:00" },
+    { "position": 7, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Kooij takes the bunch sprint; Johansen holds yellow",
+    "body": "The 172.4 km first road stage from Saint-Berthevin to Château-Gontier-sur-Mayenne rolled over hilly terrain but came back together for a mass sprint. Olav Kooij, opening his sprint account for the year with Decathlon CMA CGM, won cleanly ahead of the Red Bull Rookies' teenage talent Alessio Magagnotti and TotalEnergies' Anthony Turgis. Alessio Delle Vedove and Juan Sebastián Molano rounded out the top five.\n\nMads Pedersen was seventh in the gallop for Lidl - Trek. With the bunch arriving together, the time gaps stayed frozen and Julius Johansen retained the overall lead, the GC still tightly packed ahead of the decisive Stage 2."
+  },
+  "gcImpact": {
+    "headline": "No change at the top",
+    "body": "A bunch finish with no time gaps means Johansen keeps the leader's jersey ahead of Söderqvist, Chamberlain and Cosnefroy. Kooij's stage win and bonus seconds nudged him up the order but left the GC picture intact heading into the hilly queen stage."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:00",
+      "narrative": "Pedersen contested the opening sprint and was seventh, in the mix but not on terms with Kooij's turn of speed on the day. A low-key result in a tune-up week, with his bigger play coming on the flatter Stage 3 finale.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/boucles-de-la-mayenne/2026/stage-1/result/result", "publication": "ProCyclingStats", "title": "Boucles de la Mayenne 2026 Stage 1 result", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-boucles-de-la-mayenne-2026-stage-1-olav-kooij-takes-the-stage-win-in-his-first-sprint-of-the-year", "publication": "Cycling Up To Date", "title": "Boucles de la Mayenne 2026 Stage 1 — Olav Kooij", "lang": "en" }
+  ]
+}

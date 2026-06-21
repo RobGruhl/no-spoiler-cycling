@@ -1,0 +1,43 @@
+{
+  "raceId": "boucles-de-la-mayenne-2026",
+  "stageNumber": 3,
+  "stageName": "Cossé-le-Vivien → Laval",
+  "stageDate": "2026-05-31",
+  "stageType": "flat",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "Olav Kooij (Decathlon CMA CGM) won his second bunch sprint of the week on the flat 147.7 km final stage into Laval, beating Mads Pedersen and John Degenkolb. Benoît Cosnefroy held his lead to take the overall.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Olav Kooij", "team": "Decathlon CMA CGM", "time": "3h 13' 36\"" },
+    { "position": 2, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "+0:00" },
+    { "position": 3, "riderId": null, "name": "John Degenkolb", "team": "Team Picnic PostNL", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Kooij doubles up; Cosnefroy seals the overall",
+    "body": "The flat 147.7 km final stage from Cossé-le-Vivien to Laval was a sprinters' day, and Olav Kooij delivered again — his second stage win of the race — beating Mads Pedersen (Lidl - Trek) and the veteran John Degenkolb (Team Picnic PostNL) in the bunch sprint. Maikel Zijlaard and Marijn van den Berg completed the top five.\n\nWith no GC riders distanced, the day was about the stage win and the celebration of the overall. Benoît Cosnefroy rolled home in the bunch to confirm the general classification, finishing 7 seconds clear of Thibaud Gruel and 12 ahead of Noa Isidore. Kooij's double also locked up the green points jersey."
+  },
+  "gcImpact": {
+    "headline": "Cosnefroy confirmed; final podium set",
+    "body": "A bunch finish left the standings unchanged: Cosnefroy wins overall in 12h 21' 47\", with Gruel second at +7 (also youth winner) and Isidore third at +12. Pedersen finished fourth at +13. Groupama - FDJ United took the team classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Pedersen was the closest challenger to Kooij on the flat run into Laval but had to settle for second on the stage, again beaten for raw speed. The result capped a busy week — two stage podiums, fourth overall at +13 and third in the points classification — without converting to the win he was chasing.",
+      "keyMoments": [
+        { "km": null, "what": "2nd in the final bunch sprint into Laval, beaten by Kooij" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/boucles-de-la-mayenne/2026/stage-3/result/result", "publication": "ProCyclingStats", "title": "Boucles de la Mayenne 2026 Stage 3 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Boucles_de_la_Mayenne", "publication": "Wikipedia", "title": "2026 Boucles de la Mayenne", "lang": "en" }
+  ]
+}

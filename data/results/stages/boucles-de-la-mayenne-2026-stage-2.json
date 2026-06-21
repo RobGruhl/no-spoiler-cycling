@@ -1,0 +1,43 @@
+{
+  "raceId": "boucles-de-la-mayenne-2026",
+  "stageNumber": 2,
+  "stageName": "Aron → Pré-en-Pail-Saint-Samson",
+  "stageDate": "2026-05-30",
+  "stageType": "hilly",
+  "researchedAt": "2026-06-20T18:00:00Z",
+  "tldr": "On the 215.1 km queen stage, Benoît Cosnefroy (UAE Team Emirates - XRG) won the uphill sprint from a reduced group and took the overall lead from Julius Johansen, who was distanced on the climbs. Noa Isidore was second on the stage.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "time": "5h 12' 50\"" },
+    { "position": 2, "riderId": null, "name": "Noa Isidore", "team": "Decathlon CMA CGM", "gap": "+0:12" },
+    { "position": 3, "riderId": null, "name": "Vincenzo Albanese", "team": "EF Education - EasyPost", "gap": "+0:23" }
+  ],
+  "narrative": {
+    "headline": "Cosnefroy wins the queen stage and seizes yellow",
+    "body": "The 215.1 km Stage 2 from Aron to Pré-en-Pail-Saint-Samson was the hardest day of the race and the one that decided it. An early six-man breakaway controlled the first half before Lidl - Trek lifted the tempo and the peloton fractured on the repeated late climbs; the move was reeled in with roughly 66 km to go.\n\nThe finale became a war of attrition: Valentin Retailleau, then Marco Brenner and Louis Barré, and finally Aubin Sparfel inside the last 10 km all tried to go clear, but Sparfel was caught with about 5 km left. From the reduced front group Benoît Cosnefroy timed the uphill sprint perfectly, winning ahead of Decathlon's Noa Isidore and EF's Vincenzo Albanese.\n\nThe stakes were the overall: leader Julius Johansen lost contact on the climbs, and Cosnefroy's win — plus the splits behind him — handed UAE the leader's jersey with one flat stage to come."
+  },
+  "gcImpact": {
+    "headline": "Cosnefroy takes yellow; Gruel and Isidore close behind",
+    "body": "Cosnefroy moved into the overall lead and would carry it to the finish. Behind him the GC tightened around the day's survivors: Thibaud Gruel into second at +7, Noa Isidore third at +12, Mads Pedersen fourth at +13 and Clément Izquierdo fifth at +15. Prologue winner Johansen dropped out of contention after being distanced on the climbs."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "+0:13",
+      "narrative": "Lidl - Trek lit the fuse on this stage, raising the tempo that brought back the break and split the field on the climbs — a move that ultimately handed Cosnefroy the platform to win. Pedersen rode through safely in the reduced group and sat fourth overall at +13 afterwards, keeping his options open for the flat Stage 3 finale.",
+      "keyMoments": [
+        { "km": 66, "what": "Lidl - Trek lifted the pace to catch the break and shatter the peloton on the late climbs" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.procyclingstats.com/race/boucles-de-la-mayenne/2026/stage-2/result/result", "publication": "ProCyclingStats", "title": "Boucles de la Mayenne 2026 Stage 2 result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Boucles_de_la_Mayenne", "publication": "Wikipedia", "title": "2026 Boucles de la Mayenne", "lang": "en" }
+  ]
+}
