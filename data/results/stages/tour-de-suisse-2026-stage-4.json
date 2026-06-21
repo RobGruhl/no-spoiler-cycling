@@ -1,0 +1,46 @@
+{
+  "raceId": "tour-de-suisse-2026",
+  "stageNumber": 4,
+  "stageName": "Aarburg → Aarburg (ITT)",
+  "stageDate": "2026-06-20",
+  "stageType": "itt",
+  "researchedAt": "2026-06-20T18:30:00Z",
+  "tldr": "Tadej Pogačar added the stage 4 individual time trial to his haul, edging Mathieu van der Poel by just 0.04 seconds over the 23.7 km Aarburg loop for his third stage win of the week. Tobias Foss was third. Carapaz lost over a minute and a half against the clock, and Pogačar stretched his overall lead toward five minutes with one stage to go.",
+  "podium": [
+    { "position": 1, "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "26m 37.99s" },
+    { "position": 2, "name": "Mathieu van der Poel", "team": "Alpecin-Deceuninck", "gap": "+0.04" },
+    { "position": 3, "name": "Tobias Foss", "team": "INEOS Grenadiers", "gap": "+0:06" }
+  ],
+  "narrative": {
+    "headline": "Pogačar wins the race against the clock by four hundredths",
+    "body": "The 23.7-kilometre individual time trial around Aarburg was the one day rivals hoped Pogačar might surrender a little, but he won it too — barely. The world champion stopped the clock in 26:37.99 at an average of 53.4 km/h.\n\nMathieu van der Poel, riding a storming TT, came within four hundredths of a second of beating him, the two separated by a margin too small to see with the naked eye. Tobias Foss was the best of the rest at six seconds, with Mathias Vacek fourth at eleven seconds and Tim Wellens fifth.\n\nThe GC men suffered: Richard Carapaz conceded over a minute and a half against the clock, dropping more than a minute and a half down on the stage and tumbling time on the overall. Pogačar's third stage win of the week pushed his GC margin out toward five minutes ahead of the final mountain stage to Villars-sur-Ollon."
+  },
+  "gcImpact": {
+    "headline": "Pogačar's lead balloons to nearly five minutes",
+    "body": "Pogačar retains and extends the leader's jersey. After stage 4 he leads Richard Carapaz by 4:22, with Mathias Vacek moving up to third at 4:27 (only five seconds behind Carapaz), Andrea Bagioli fourth at 4:46 and Brandon McNulty fifth at 5:16. With only the stage 5 mountain finish remaining, the overall is all but decided; the live battle is now for the minor podium places."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Pogačar Tadej",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Completed a clean sweep of the disciplines on offer so far. Already dominant on the road, Pogačar won the 23.7 km Aarburg time trial as well, holding off a tremendous ride from Mathieu van der Poel by just 0.04 seconds at 53.4 km/h average. It was his third stage win in four days and stretched his GC lead to 4:22 over Carapaz, leaving the overall classification effectively settled before the final mountain stage.",
+      "keyMoments": [
+        { "km": 10.3, "what": "Fastest at the intermediate time check, level with Vacek and ahead of Van der Poel" },
+        { "km": 23.7, "what": "Held off Van der Poel by 0.04s for the stage win, extending his GC lead to 4:22" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-4-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026 stage 4: Pogacar wins time trial by 0.3 seconds", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-suisse/2026/stage-4", "publication": "ProCyclingStats", "title": "Tour de Suisse 2026 Stage 4 (ITT) result", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Tour_de_Suisse", "publication": "Wikipedia", "title": "2026 Tour de Suisse — Stage 4 and general classification", "lang": "en" },
+    { "url": "https://www.marca.com/ciclismo/2026/06/20/pogacar-tambien-manda-reloj-suma-victoria-tour-suiza.html", "publication": "Marca", "title": "Pogacar también manda contra el reloj en el Tour de Suiza", "lang": "es" }
+  ]
+}
