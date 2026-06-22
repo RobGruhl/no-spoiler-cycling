@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T02:15:16.066Z",
+  "lastUpdated": "2026-06-22T03:35:01.116Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -32527,6 +32527,137 @@
           "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
+    },
+    {
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com",
+      "type": "full-race",
+      "discoveredAt": "2026-06-22T03:35:01.058Z",
+      "id": "us-road-nationals-men-2026",
+      "name": "Men's Elite Road Race | 2026 US Pro Road National Championships",
+      "raceDate": "2026-06-21",
+      "raceDay": "Sunday",
+      "location": "Charleston, West Virginia",
+      "category": "NC",
+      "rating": 3,
+      "gender": "men",
+      "discipline": "road",
+      "terrain": [
+        "hilly"
+      ],
+      "distance": 198.6,
+      "description": "The elite men's road race for the stars-and-stripes jersey, on a hilly circuit around Charleston, West Virginia featuring the punishing Wertz Avenue climb each lap.",
+      "broadcast": {
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Live + on-demand on FloBikes (US home of USA Cycling Pro Road Nationals)"
+            }
+          }
+        },
+        "notes": "Domestic championship — primarily a US broadcast (FloBikes). USA Cycling provides live timing/results."
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "A 198.6 km elite men's road race on a hilly downtown-and-hills circuit around Charleston, WV. The decisive feature each lap is the steep Wertz Avenue climb, which repeatedly thins the field and is the launchpad for the race-winning move.",
+        "keyClimbs": [
+          {
+            "name": "Wertz Avenue climb",
+            "category": "3",
+            "notes": "Steep wall tackled every lap; traditional launchpad for the winning attack."
+          }
+        ],
+        "favorites": {
+          "puncheurs": [
+            "Quinn Simmons",
+            "Kevin Vermaerke",
+            "Magnus Sheffield"
+          ],
+          "allRounders": [
+            "Lawrence Warbasse",
+            "Sean Quinn",
+            "Matteo Jorgenson"
+          ]
+        },
+        "narratives": [
+          "WorldTour pros return home to contest the national title against the domestic peloton.",
+          "The Wertz Avenue climb makes this a race for puncheurs and strong all-rounders, not pure sprinters."
+        ],
+        "historicalContext": "Charleston, WV hosts the Pro Road National Championships again after first staging them in 2024. The winner earns the right to wear the stars-and-stripes jersey for a year.",
+        "watchNotes": "Disable autoplay and avoid the sidebar/comments on FloBikes for spoiler-safe viewing."
+      }
+    },
+    {
+      "platform": "FloBikes",
+      "url": "https://www.flobikes.com",
+      "type": "full-race",
+      "discoveredAt": "2026-06-22T03:35:01.116Z",
+      "id": "us-road-nationals-women-2026",
+      "name": "Women's Elite Road Race | 2026 US Pro Road National Championships",
+      "raceDate": "2026-06-21",
+      "raceDay": "Sunday",
+      "location": "Charleston, West Virginia",
+      "category": "NC",
+      "rating": 3,
+      "gender": "women",
+      "discipline": "road",
+      "terrain": [
+        "hilly"
+      ],
+      "description": "The elite women's road race for the stars-and-stripes jersey, on a hilly circuit around Charleston, West Virginia featuring the steep Wertz Avenue climb each lap.",
+      "broadcast": {
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "broadcasterId": "flobikes",
+              "type": "streaming",
+              "url": "https://www.flobikes.com",
+              "coverage": "full-race",
+              "subscription": true,
+              "notes": "Live + on-demand on FloBikes (US home of USA Cycling Pro Road Nationals)"
+            }
+          }
+        },
+        "notes": "Domestic championship — primarily a US broadcast (FloBikes). USA Cycling provides live timing/results."
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "A multi-lap elite women's road race on a hilly downtown-and-hills circuit around Charleston, WV. The steep Wertz Avenue climb each lap whittles the field down to a select group for the finale.",
+        "keyClimbs": [
+          {
+            "name": "Wertz Avenue climb",
+            "category": "3",
+            "notes": "Steep wall tackled every lap; the selection point of the race."
+          }
+        ],
+        "favorites": {
+          "climbers": [
+            "Kristen Faulkner",
+            "Kate Courtney"
+          ],
+          "puncheurs": [
+            "Lauren Stephens",
+            "Emma Langley",
+            "Kimberley Le Court"
+          ],
+          "sprinters": [
+            "Skylar Schneider"
+          ]
+        },
+        "narratives": [
+          "Two-time defending road champion Kristen Faulkner headlines a deep field returning home for the title.",
+          "The Wertz Avenue climb makes this a race for climbers and puncheurs; pure sprinters will struggle to survive the selection."
+        ],
+        "historicalContext": "Charleston, WV hosts the Pro Road National Championships again after first staging them in 2024. The winner earns the stars-and-stripes jersey for a year.",
+        "watchNotes": "Disable autoplay and avoid the sidebar/comments on FloBikes for spoiler-safe viewing."
+      }
     },
     {
       "id": "ghost-of-the-gravel-2026",

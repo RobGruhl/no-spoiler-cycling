@@ -1,0 +1,38 @@
+{
+  "raceId": "us-road-nationals-men-2026",
+  "raceName": "Men's Elite Road Race | 2026 US Pro Road National Championships",
+  "raceDate": "2026-06-21",
+  "researchedAt": "2026-06-21",
+  "tldr": "Quinn Simmons (Lidl-Trek) attacked from a select lead group on the Wertz Avenue climb with about 29 km to go and rode solo to the line in Charleston, claiming his third elite men's road race national title. Kevin Vermaerke (UAE Team Emirates XRG) won the sprint from the chase for second, just ahead of Lawrence Warbasse (Tudor).",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Quinn Simmons", "team": "Lidl-Trek" },
+    { "position": 2, "riderId": null, "name": "Kevin Vermaerke", "team": "UAE Team Emirates XRG" },
+    { "position": 3, "riderId": null, "name": "Lawrence Warbasse", "team": "Tudor Pro Cycling Team" }
+  ],
+  "narrative": {
+    "headline": "Simmons goes solo again for a third stars-and-stripes",
+    "openingMoves": "The elite men covered 198.6 km on the hilly Charleston circuit, the steep Wertz Avenue climb shredding the bunch lap after lap and shaping a strong lead group of WorldTour and domestic riders.",
+    "raceUnfolds": "Repeated efforts on Wertz Avenue distilled the race to a select front group, with Lidl-Trek, UAE Team Emirates XRG and Tudor all represented and the climb doing the selecting.",
+    "decision": "On the Wertz Avenue ascent with roughly 29 km remaining — almost the exact spot he has launched before — Quinn Simmons attacked alone and immediately opened a gap the chasers could not close.",
+    "finale": "Simmons time-trialled the run-in solo to take the title, while behind him Kevin Vermaerke jumped the chase sprint to edge Lawrence Warbasse for second."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 29, "location": "Wertz Avenue climb, Charleston", "headline": "Simmons attacks solo", "description": "Simmons accelerated clear of the select lead group on the steep Wertz Avenue wall with about 29 km to go and was never seen again." }
+  ],
+  "teamStories": [
+    { "team": "Lidl-Trek", "verdict": "Simmons solos to a third national title", "verdictClass": "win", "narrative": "The Classics man timed his trademark Wertz Avenue attack to perfection and soloed nearly 30 km to a commanding third elite road race title — the stars-and-stripes jersey back on his shoulders.", "riderIds": [] },
+    { "team": "UAE Team Emirates XRG", "verdict": "Vermaerke best of the rest", "verdictClass": "neutral", "narrative": "Kevin Vermaerke was the strongest of the chasers, winning the sprint for second once Simmons was gone.", "riderIds": [] },
+    { "team": "Tudor Pro Cycling Team", "verdict": "Warbasse rounds out the podium", "verdictClass": "neutral", "narrative": "Veteran Lawrence Warbasse took third from the chase group.", "riderIds": [] }
+  ],
+  "riderPerformances": [],
+  "incidents": {},
+  "aftermath": {
+    "headline": "A familiar Charleston script",
+    "quotes": [],
+    "body": "Simmons becomes a three-time elite men's road race champion, repeating the long-range Wertz Avenue move that has defined his national-title wins. The result keeps the jersey with a WorldTour rider against a deep domestic field."
+  },
+  "sources": [
+    { "url": "https://usacycling.org/article/courtney-and-simmons-win-elite-road-race-national-titles-on-the-final-day-of-the-2026-pro-road-national-championships", "publication": "USA Cycling", "title": "Courtney and Simmons Win Elite Road Race National Titles", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/us-road-championships-quinn-simmons-goes-solo-to-take-third-elite-mens-road-race-title/", "publication": "Cyclingnews", "title": "Quinn Simmons goes solo to take third elite men's road race title", "lang": "en" }
+  ]
+}

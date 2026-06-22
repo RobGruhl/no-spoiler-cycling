@@ -1,0 +1,38 @@
+{
+  "raceId": "us-road-nationals-women-2026",
+  "raceName": "Women's Elite Road Race | 2026 US Pro Road National Championships",
+  "raceDate": "2026-06-21",
+  "researchedAt": "2026-06-21",
+  "tldr": "Kate Courtney (She Sends Racing) outsprinted Lauren Stephens from a select group on the hilly Charleston circuit to win her first elite women's road race national title. Stephens finished 5 seconds back, with Grace Arlandson taking third from the chase, ending two-time defending champion Kristen Faulkner's road-race streak.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Kate Courtney", "team": "She Sends Racing", "time": "3h 02m 30s" },
+    { "position": 2, "riderId": null, "name": "Lauren Stephens", "team": "Aegis x Leaders of Enchantment", "gap": "+0:05" },
+    { "position": 3, "riderId": null, "name": "Grace Arlandson", "team": "Aegis x Leaders of Enchantment", "gap": "+0:09" },
+    { "position": 4, "riderId": null, "name": "Kira Payer", "team": "USA", "gap": "+0:13" }
+  ],
+  "narrative": {
+    "headline": "Courtney converts off-road class into a first road title",
+    "openingMoves": "The elite women raced a multi-lap circuit around Charleston, the steep Wertz Avenue climb the obvious selection point each time up.",
+    "raceUnfolds": "Attrition on Wertz Avenue cut the lead group down over the laps, with Aegis x Leaders of Enchantment well represented and two-time defending champion Kristen Faulkner among the marked riders.",
+    "decision": "The race came down to a select front group; rather than a long-range move, it was decided in the finale.",
+    "finale": "From the reduced group Kate Courtney — the former mountain-bike world champion — produced the fastest finish to outsprint Lauren Stephens by five seconds, with Grace Arlandson winning the chase sprint for third."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 1, "location": "Charleston finishing straight", "headline": "Courtney wins the group sprint", "description": "Courtney timed her sprint out of the select lead group to take the title ahead of Stephens." }
+  ],
+  "teamStories": [
+    { "team": "She Sends Racing", "verdict": "Courtney's first road national title", "verdictClass": "win", "narrative": "The MTB world champion translated her engine to the road, surviving every Wertz Avenue selection and winning the sprint from the lead group for a maiden elite road race title and the stars-and-stripes jersey.", "riderIds": [] },
+    { "team": "Aegis x Leaders of Enchantment", "verdict": "Two on the podium but no title", "verdictClass": "neutral", "narrative": "Lauren Stephens (2nd) and Grace Arlandson (3rd) put the squad on two podium steps but couldn't deny Courtney the win.", "riderIds": [] }
+  ],
+  "riderPerformances": [],
+  "incidents": {},
+  "aftermath": {
+    "headline": "A new name in stars-and-stripes",
+    "quotes": [],
+    "body": "Courtney claims her first elite road race national title, ending the run of two-time defending champion Kristen Faulkner. A reduced-group sprint finale after a hard, hilly circuit rewarded the strongest finisher among the survivors."
+  },
+  "sources": [
+    { "url": "https://usacycling.org/article/courtney-and-simmons-win-elite-road-race-national-titles-on-the-final-day-of-the-2026-pro-road-national-championships", "publication": "USA Cycling", "title": "Courtney and Simmons Win Elite Road Race National Titles", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/us-road-championships-kate-courtney-outsprints-lauren-stephens-to-win/", "publication": "Cyclingnews", "title": "Kate Courtney outsprints Lauren Stephens to win", "lang": "en" }
+  ]
+}
