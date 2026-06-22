@@ -19,6 +19,15 @@
  *   podium/narrative requirements, and only stages with date <= today are
  *   expected to have published results.
  *
+ * Error vs warning contract:
+ *   A *missing* results JSON for a past race/stage is a backfill-in-progress
+ *   gap, so it is a WARNING in the default (CI) mode and does not fail the run.
+ *   It is promoted to an ERROR only under --strict (the nightly report). Genuine
+ *   regressions — JSON present but HTML not rendered, missing forward cross-link,
+ *   manifest drift, missing photo CSS — are ERRORS in both modes. This keeps
+ *   unrelated pushes green during the day-or-two lag between a stage racing and
+ *   its results being researched & published.
+ *
  * Cyclocross World Championships and CX World Cup rounds are excluded —
  * they're national-team races with a different field from the tracked
  * road riders.
@@ -131,8 +140,11 @@ function checkRaces() {
     const entry = { id: race.id, name: race.name, date: race.raceDate, hasJson, hasHtml, stub };
     details.push(entry);
 
-    // Hard errors: missing JSON or HTML
-    if (!hasJson) errors.push(`race missing JSON: ${race.id} (${race.name}, ${race.raceDate})`);
+    // Missing JSON is a backfill-in-progress gap → warning in CI (non-strict),
+    // promoted to an error under --strict (nightly report). Keeps unrelated
+    // pushes green until the result is researched & published.
+    if (!hasJson) warnings.push(`race missing JSON: ${race.id} (${race.name}, ${race.raceDate})`);
+    // Hard error in all modes: data exists but the page didn't render (build regression).
     if (hasJson && !hasHtml) errors.push(`race JSON exists but HTML missing: ${race.id}`);
     // Warnings: stubs (could be hard error too, depending on strict mode)
     if (hasJson && stub) warnings.push(`race is a stub: ${race.id} (thin tldr/podium/narrative or marked as stub)`);
@@ -169,7 +181,11 @@ function checkStages() {
     const result = hasJson ? readJson(jsonPath) : null;
     const stub = result ? isStageStub(result) : false;
     details.push({ ...x, hasJson, hasHtml, stub });
-    if (!hasJson) errors.push(`stage missing JSON: ${stageId} (${x.raceName}, ${x.date})`);
+    // Missing JSON is a backfill-in-progress gap → warning in CI (non-strict),
+    // promoted to an error under --strict (nightly report). Without this, every
+    // push fails for the day or two between a stage racing and its results being
+    // researched & published — which is what spammed CI failure emails.
+    if (!hasJson) warnings.push(`stage missing JSON: ${stageId} (${x.raceName}, ${x.date})`);
     if (hasJson && !hasHtml) errors.push(`stage JSON exists but HTML missing: ${stageId}`);
     if (hasJson && stub) warnings.push(`stage is a stub: ${stageId}`);
   }
@@ -441,14 +457,21 @@ function run() {
     manifest: checkManifest(),
   };
 
-  // Under --strict, promote the "rider has no seasonArc JSON" warning to an
-  // error so CI catches the regression class from
-  // plan ok-i-found-the-ancient-grove.
+  // Under --strict (nightly report), promote backfill-in-progress warnings to
+  // errors so the nightly run still surfaces missing results data and the
+  // seasonArc regression class from plan ok-i-found-the-ancient-grove. In
+  // non-strict CI these stay warnings so unrelated pushes don't fail (and stop
+  // spamming failure emails) just because yesterday's stage isn't backfilled yet.
   if (STRICT) {
-    const riderWarns = sections.riders.warnings || [];
-    const promoted = riderWarns.filter(w => w.startsWith('rider has no seasonArc JSON:'));
-    sections.riders.errors = (sections.riders.errors || []).concat(promoted);
-    sections.riders.warnings = riderWarns.filter(w => !w.startsWith('rider has no seasonArc JSON:'));
+    const promote = (section, prefix) => {
+      const warns = section.warnings || [];
+      const promoted = warns.filter(w => w.startsWith(prefix));
+      section.errors = (section.errors || []).concat(promoted);
+      section.warnings = warns.filter(w => !w.startsWith(prefix));
+    };
+    promote(sections.riders, 'rider has no seasonArc JSON:');
+    promote(sections.races, 'race missing JSON:');
+    promote(sections.stages, 'stage missing JSON:');
   }
 
   // Output
