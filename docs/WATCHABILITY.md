@@ -17,10 +17,26 @@ node scripts/score-watchability-merge.js          # → data/results/watchabilit
 npm run build:all                                 # generators read the precomputed scores
 ```
 
-`data/results/watchability.json` is **integers only** (`{races:{id:1-5}, stages:{id:1-5}}`)
-— a flame count leaks nothing about who won. The spoiler-y per-unit rationales are
-written separately to `data/results/watchability-notes.json` for audit and are
-**never read by any generator**.
+`data/results/watchability.json` is **integers only**
+(`{races:{id:1-5}, stages:{id:1-5}, tours:{id:1-5}}`) — a flame count leaks nothing
+about who won. The spoiler-y per-unit rationales are written separately to
+`data/results/watchability-notes.json` for audit and are **never read by any generator**.
+
+### Watchable units + tour aggregates
+
+A flame attaches to each **watchable unit**: a one-day race (`races`) or an individual
+stage (`stages`). Stage races ("tours") ALSO get a single **aggregate** rating
+(`tours`) — judged by an Opus subagent holistically (sustained GC battle vs early
+procession, count of thrilling stages), NOT a naive average of the stages. Pipeline:
+
+```bash
+node scripts/score-tours-worklist.js 4     # → /tmp/watch/tour-batch-*.json (3★+ stage races, idempotent)
+# fan out 4 Opus subagents reading docs/watchability-tour-rubric-prompt.md → tour-out-N.json
+node scripts/score-watchability-merge.js   # folds tours[] into watchability.json
+```
+
+The calendar shows the tour aggregate on a stage-race row; the race-detail hero shows
+it for the overview; per-stage flames stay on the stage table.
 
 The heuristic engine below (`lib/watchability.js` `scoreResult`) is retained only as
 a reference/fallback; the live build uses the LLM judgements.

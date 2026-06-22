@@ -8,12 +8,18 @@ import path from 'path';
 const TMP = '/tmp/watch';
 const OUT = 'data/results/watchability.json';
 
-const races = {}, stages = {}, notes = {};
+// Preserve any existing scores so the pipeline is idempotent across re-runs.
+let prev = { races: {}, stages: {}, tours: {} };
+try { prev = JSON.parse(fs.readFileSync(OUT, 'utf8')); } catch {}
+const races = { ...(prev.races || {}) }, stages = { ...(prev.stages || {}) }, tours = { ...(prev.tours || {}) };
+let prevNotes = {}; try { prevNotes = JSON.parse(fs.readFileSync('data/results/watchability-notes.json', 'utf8')).notes || {}; } catch {}
+const notes = { ...prevNotes };
 let merged = 0, missing = [];
 
+// per-unit judgements (one-day races + stages)
 for (let i = 0; i < 64; i++) {
   const f = path.join(TMP, `out-${i}.json`);
-  if (!fs.existsSync(f)) { if (fs.existsSync(path.join(TMP, `batch-${i}.json`))) missing.push(i); continue; }
+  if (!fs.existsSync(f)) { if (fs.existsSync(path.join(TMP, `batch-${i}.json`))) missing.push('unit:' + i); continue; }
   let arr;
   try { arr = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { console.error(`! out-${i}.json parse error: ${e.message}`); continue; }
   for (const e of arr) {
@@ -26,6 +32,20 @@ for (let i = 0; i < 64; i++) {
   }
 }
 
+// aggregate tour judgements (stage races)
+for (let i = 0; i < 32; i++) {
+  const f = path.join(TMP, `tour-out-${i}.json`);
+  if (!fs.existsSync(f)) { if (fs.existsSync(path.join(TMP, `tour-batch-${i}.json`))) missing.push('tour:' + i); continue; }
+  let arr;
+  try { arr = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { console.error(`! tour-out-${i}.json parse error: ${e.message}`); continue; }
+  for (const e of arr) {
+    if (!e || !e.raceId) continue;
+    const flames = Math.max(0, Math.min(5, Math.round(Number(e.fire))));
+    if (Number.isNaN(flames)) continue;
+    tours[e.raceId] = flames; if (e.why) notes['tour:' + e.raceId] = e.why; merged++;
+  }
+}
+
 if (missing.length) console.error(`! missing out files for batches: ${missing.join(', ')}`);
 
 // Public, build-read file: INTEGERS ONLY — a flame count leaks nothing about who won.
@@ -33,7 +53,7 @@ const payload = {
   generatedBy: 'opus-subagents',
   generatedAt: new Date().toISOString().slice(0, 10),
   rubric: 'docs/WATCHABILITY.md',
-  races, stages,
+  races, stages, tours,
 };
 fs.writeFileSync(OUT, JSON.stringify(payload, null, 2) + '\n');
 // Separate audit file with the spoiler-y rationales — NOT read by any generator.

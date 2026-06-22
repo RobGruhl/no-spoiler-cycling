@@ -15,7 +15,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import { flamesForRace, flamesForStage } from './lib/watchability.js';
+import { flamesForRace, flamesForStage, flamesForTour } from './lib/watchability.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -747,7 +747,7 @@ function renderOneDay(race) {
         <div class="stat"><span class="k">Key climbs</span><span class="v mono">${climbsCount || '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
-        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}.html`) : ''}
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results' }) ?? flamesForTour(race.id, { resultsDir: './data/results' })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 
@@ -892,7 +892,7 @@ function renderStageRace(race) {
         <div class="stat"><span class="k">Total km</span><span class="v mono">${totalKm ? Math.round(totalKm) : '—'}</span></div>
         <div class="stat"><span class="k">Coverage</span><span class="v sm">${htmlEscape(coverage || 'TBD')}</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">${htmlEscape(category)}</span></div>
-        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}.html`) : ''}
+        ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results' }) ?? flamesForTour(race.id, { resultsDir: './data/results' })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
 

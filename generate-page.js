@@ -5,7 +5,7 @@
 // index.html alongside the new-design markup and shared.css at the repo root.
 
 import fs from 'fs';
-import { flamesForRace } from './lib/watchability.js';
+import { flamesForRace, flamesForTour } from './lib/watchability.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -69,8 +69,9 @@ function transformRace(r) {
     stages: Array.isArray(r.stages) ? r.stages.length : 0,
     slug: r.id,
     hasResults: fs.existsSync(`./data/results/races/${r.id}.json`),
-    // spoiler-safe "worth watching" flame count (1–5) for raced events; 0/absent otherwise
-    watch: flamesForRace(r.id, { resultsDir: './data/results', rating: r.rating || 0 }) || 0,
+    // spoiler-safe "worth watching" flame count (1–5): one-day race score, or the
+    // aggregate tour rating for a stage race; 0/absent otherwise
+    watch: (flamesForRace(r.id, { resultsDir: './data/results' }) ?? flamesForTour(r.id, { resultsDir: './data/results' })) || 0,
   };
 }
 
