@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T03:35:01.116Z",
+  "lastUpdated": "2026-06-22T03:58:05.353Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -32558,10 +32558,27 @@
               "coverage": "full-race",
               "subscription": true,
               "notes": "Live + on-demand on FloBikes (US home of USA Cycling Pro Road Nationals)"
-            }
+            },
+            "alternatives": [
+              {
+                "broadcaster": "FloBikes — YouTube highlights",
+                "type": "highlights",
+                "url": "https://www.youtube.com/watch?v=hSVSHs9lPPI",
+                "coverage": "highlights",
+                "subscription": false,
+                "notes": "Free official highlights reel (neutral title, spoiler-safe). Disable autoplay and avoid the sidebar recommendations and comments."
+              }
+            ]
           }
         },
-        "notes": "Domestic championship — primarily a US broadcast (FloBikes). USA Cycling provides live timing/results."
+        "notes": "Domestic championship — primarily a US broadcast (FloBikes). USA Cycling provides live timing/results.",
+        "youtubeChannels": [
+          {
+            "channel": "FloBikes",
+            "handle": "@FloBikes",
+            "contentType": "highlights"
+          }
+        ]
       },
       "raceDetails": {
         "spoilerSafe": true,
