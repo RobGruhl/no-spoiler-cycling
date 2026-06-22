@@ -9,14 +9,20 @@ fs.mkdirSync('/tmp/watch', { recursive: true });
 const RD = JSON.parse(fs.readFileSync('data/race-data.json', 'utf8'));
 const nameOf = {}, ratingOf = {};
 for (const r of RD.races) { nameOf[r.id] = r.name || r.id; ratingOf[r.id] = r.rating || 0; }
+// Idempotent: skip units already scored in watchability.json (pass --all to force).
+const force = process.argv.includes('--all');
+let w = { races: {}, stages: {} };
+try { w = JSON.parse(fs.readFileSync('data/results/watchability.json', 'utf8')); } catch {}
 const races = fs.readdirSync('data/results/races').filter(f => f.endsWith('.json')).map(f => f.replace('.json', ''));
 const stages = fs.readdirSync('data/results/stages').filter(f => f.endsWith('.json')).map(f => f.replace('.json', ''));
 const units = [];
 for (const id of races) {
   if (stages.some(s => s.startsWith(id + '-stage-'))) continue; // stage-race overview, skip
+  if (!force && w.races?.[id] != null) continue;                // already scored
   units.push({ key: 'race:' + id, kind: 'race', path: 'data/results/races/' + id + '.json', name: nameOf[id] || id, rating: ratingOf[id] || 0 });
 }
 for (const s of stages) {
+  if (!force && w.stages?.[s] != null) continue;                // already scored
   const raceId = s.replace(/-stage-\d+$/, '');
   units.push({ key: 'stage:' + s, kind: 'stage', path: 'data/results/stages/' + s + '.json', name: nameOf[raceId] || raceId, rating: ratingOf[raceId] || 0 });
 }
