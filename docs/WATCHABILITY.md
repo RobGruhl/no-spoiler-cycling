@@ -1,8 +1,33 @@
 # Watchability — spoiler-safe "is this worth watching?" rating
 
-A 1–5 🔥 **Drama Index** that helps a viewer decide whether to watch a stage or
-one-day race **without revealing who won or the final standings**. Derived from
-the spoiler-side results JSON; intended to surface on the spoiler-**safe** calendar.
+A 1–5 🔥 rating that helps a viewer decide whether to watch a stage or one-day race
+**without revealing who won or the final standings**. Surfaces on the spoiler-**safe**
+calendar + race pages.
+
+## How scores are produced (LLM judgement, not regex)
+
+Scores are **precomputed by parallel Opus subagents**, each reading a watchable
+unit's full spoiler results JSON and making a holistic 1–5 judgement against the
+descriptive rubric in `docs/watchability-rubric-prompt.md`. Pipeline:
+
+```bash
+node scripts/score-watchability-worklist.js 12   # → /tmp/watch/batch-*.json (one-day races + stages)
+# fan out 12 Opus subagents, each: read RUBRIC + its batch → /tmp/watch/out-N.json
+node scripts/score-watchability-merge.js          # → data/results/watchability.json (+ -notes.json)
+npm run build:all                                 # generators read the precomputed scores
+```
+
+`data/results/watchability.json` is **integers only** (`{races:{id:1-5}, stages:{id:1-5}}`)
+— a flame count leaks nothing about who won. The spoiler-y per-unit rationales are
+written separately to `data/results/watchability-notes.json` for audit and are
+**never read by any generator**.
+
+The heuristic engine below (`lib/watchability.js` `scoreResult`) is retained only as
+a reference/fallback; the live build uses the LLM judgements.
+
+---
+
+## Reference heuristic (legacy)
 
 ## The core idea
 
