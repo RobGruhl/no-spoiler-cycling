@@ -391,7 +391,7 @@ function buildHtml(rows, stats, updatedLabel) {
       <div class="c first">\${starsHtml(r.rating)}</div>
       <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
       <div class="c dt">\${r.d}</div>
-      <div class="c"><span class="name">\${r.name}</span>\${r.watch?\`<span class="watch-flame" title="Worth-watching rating: \${r.watch}/5">🔥\${r.watch}</span>\`:""}\${resLink}</div>
+      <div class="c"><span class="name">\${r.name}</span>\${r.watch>=4?\`<span class="watch-flame" title="Worth-watching rating: \${r.watch}/5">\${"🔥".repeat(r.watch-3)}</span>\`:""}\${resLink}</div>
       <div class="c loc">\${r.loc}</div>
       <div class="c terr">\${terrHtml(r.terrain)}</div>
       <div class="c gender">\${genderLbl[r.gender]||""}</div>

@@ -836,7 +836,8 @@ function renderStageRace(race) {
     const showResults = isPastDate(s.date) && hasStageResults(race.id, n);
     const resultsBadge = showResults ? `<a class="res-tag" href="../results/race/${race.id}-stage-${n}.html" title="View stage results (spoilers)">R</a>` : '';
     const stageFlames = showResults ? flamesForStage(race.id, n, { resultsDir: './data/results', rating: race.rating || 0 }) : null;
-    const flameBadge = stageFlames ? `<span class="watch-flame" title="Worth-watching rating: ${stageFlames}/5">🔥${stageFlames}</span>` : '';
+    // dense stage table: only flag standouts — 🔥🔥 = 5, 🔥 = 4, nothing for ≤3
+    const flameBadge = (stageFlames >= 4) ? `<span class="watch-flame" title="Worth-watching rating: ${stageFlames}/5">${'🔥'.repeat(stageFlames - 3)}</span>` : '';
     return `<div class="stage${isQueen ? ' qs' : ''}${hasDetails ? ' has-link' : ''}">${stageCover}
       <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span><span class="badges">${resultsBadge}${flameBadge}</span></div>
       <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
