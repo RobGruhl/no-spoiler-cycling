@@ -1,10 +1,24 @@
-# Daily stage-backfill routine (runbook)
+# Daily results routine (runbook)
 
 This is the **authoritative, self-contained** runbook for the scheduled cloud
-routine *"daily stage backfill."* It runs unattended in a fresh GitHub checkout
-and **commits straight to `main`**, so it must depend on **nothing outside this
-repo** — every command and schema it needs is inlined below. (The local
-`/backfill-stage-results` slash command points here too.)
+routine *"daily stage-results backfill."* It runs unattended in a fresh GitHub
+checkout and **commits straight to `main`**, so it must depend on **nothing
+outside this repo** — every command and schema it needs is inlined below. (The
+local `/backfill-stage-results` slash command points here too.)
+
+**What it covers each day** — a rolling window of **the last 2 days + today**
+(UTC), for both stage-race stages AND one-day races:
+
+- **Fill gaps** — any tracked race (men's road, 4–5★, cyclocross excluded) whose
+  stage or race date falls in the window and has no results JSON yet — a per-stage
+  result, a one-day race overview, or a stage race's overview hub.
+- **Refresh thin/provisional** — re-research an *existing* in-window result only
+  if it's a stub (thin) or was written same-day (re-verified once, the day after,
+  when sources have settled). It does **not** blindly re-research correct pages.
+
+Including "today" is safe: the routine runs at **19:23 UTC** (evening in Europe),
+so the day's racing is finished and indexed; anything not yet final is skipped by
+the Phase 2 guard and picked up tomorrow (the window self-heals a missed day).
 
 > The cloud checkout does **not** contain `.claude/commands/*` (gitignored) or
 > `~/Projects/hello-perplexity` (out of repo). Do **not** reference them. Use the
@@ -74,32 +88,36 @@ here and pass the literal path inline in Phase 2 and Phase 6.
 ```bash
 : > /tmp/nsc-cost.jsonl                   # fresh cost ledger for this run
 
-node scripts/test-results-completeness.js --json > /tmp/comp.json
-node -e "
-let d; try { d = require('/tmp/comp.json'); } catch (e) {
-  console.error('GATE_CRASH: completeness --json produced no/!valid output:', e.message);
-  process.exit(1);   // → Phase 6 posts a failure line; don't proceed blind
-}
-const missing = (d.sections.stages.details || [])
-  .filter(s => !s.hasJson)
-  .map(s => ({ raceId: s.raceId, raceName: s.raceName, stage: s.stageNumber, date: s.date }))
-  .sort((a,b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));   // oldest gap first
-require('fs').writeFileSync('/tmp/missing-stages.json', JSON.stringify(missing, null, 2));
-console.log('missing stages:', missing.length);
-console.log(JSON.stringify(missing.slice(0, 10), null, 2));
-"
+# The work-list for the last-2-days+today window: gaps (missing race/stage
+# results) and refreshes (in-window thin/stub or day-after-provisional entries).
+node scripts/results-worklist.js --window 2 --json > /tmp/worklist.json || \
+  { echo "WORKLIST_FAIL"; exit 1; }   # → Phase 6 posts a failure line
+cat /tmp/worklist.json
 ```
 
-If `missing.length === 0`: skip to **Phase 6** and post the Slack summary with 0
-stages (a clean no-op still reports — silence is itself a failure signal). Done.
+`/tmp/worklist.json` shape: `{ window:{from,to}, counts:{gaps,refreshes},
+gaps:[{kind:'race'|'stage', id, raceId?, stage?, date}],
+refreshes:[{kind, id, date, reason}] }`.
+
+If `counts.gaps === 0 && counts.refreshes === 0`: skip to **Phase 6** and post the
+Slack summary with 0 items (a clean no-op still reports — silence is a failure
+signal). Done.
 
 ## Phase 1 — Pick the slice
 
-`MAX_PER_ITER = 3`. Take the first 3 from `/tmp/missing-stages.json` (oldest gap
-first). Group consecutive stages of the same race together — they share GC
-context and source pages. Process them in order.
+`MAX_PER_RUN = 6`. Process **gaps first** (publishing missing results matters more
+than refreshing existing ones), then refreshes, oldest date first, up to the
+ceiling. Group items of the same race together — they share GC context and source
+pages. If the work-list exceeds the ceiling, process the first 6 and **note the
+dropped count in the Slack report** (no silent truncation — the rest are caught on
+the next run, still inside the window).
 
-## Phase 2 — Research each stage
+## Phase 2 — Research each item (stage, race, or refresh)
+
+Each work-list item is a `stage` or a `race` (one-day result, or a stage race's
+overview hub), and is either a **gap** (write new) or a **refresh** (re-research
+and overwrite an existing JSON). The research steps (2a–2c) are identical for all;
+2d/2e differ by `kind`; refreshes are covered in 2f.
 
 ### 2a. Perplexity discovery (in-repo wrapper)
 
@@ -188,8 +206,48 @@ Refresh a tracked rider's `data/results/riders/<slug>.json` `seasonArc` only if
 this stage is a genuine inflection (career-first GT podium, GC top-5, abandon);
 otherwise leave it.
 
-Repeat 2a–2d for each stage in the slice. **A stage that fails** (no sources,
-ambiguous GC, scrape error) → skip it, keep the rest, note it in the commit body.
+### 2e. Write `data/results/races/<race-id>.json` (kind: `race`)
+
+For a **one-day race** or a **stage race's overview hub**. Full schema +
+`teamStories[]` / `decisiveMoments[]` / `aftermath` detail is in
+`.claude/commands/race-rider-team-results.md` *when run locally* — but in the
+cloud follow this inlined shape (the `narrative` key is `narrative`, never
+`story`; `verdictClass` is `win`|`neutral`|`loss`):
+
+```jsonc
+{
+  "raceId": "<race-id>", "raceName": "<name>", "raceDate": "2026-06-21",
+  "researchedAt": "<ISO timestamp>",
+  "inProgress": false,              // true for an ONGOING stage race → relaxes podium/narrative
+  "tldr": "1–3 sentences: winner + headline.",
+  "podium": [ { "position": 1, "name": "First Last", "team": "Canonical Team" },
+              { "position": 2, "name": "...", "team": "...", "gap": "+0:14" },
+              { "position": 3, "name": "...", "team": "...", "gap": "+0:31" } ],
+  "narrative": { "headline": "...", "openingMoves": "...", "raceUnfolds": "...", "decision": "...", "finale": "..." },
+  "decisiveMoments": [ { "kmFromFinish": 35, "location": "...", "headline": "...", "description": "..." } ],
+  "teamStories": [ { "team": "Canonical Team", "verdict": "≤6-word pill", "verdictClass": "win", "narrative": "strategy, who they backed, what worked", "riderIds": ["<slug>"] } ],
+  "riderPerformances": [ /* same shape as the stage schema, tracked riders only */ ],
+  "incidents": {}, "aftermath": { "headline": "...", "quotes": [], "body": "..." },
+  "sources": [ { "url": "https://www.cyclingstage.com/...", "publication": "...", "title": "...", "lang": "en" } ]
+}
+```
+
+For an **ongoing** stage race's hub, set `inProgress: true`, a `podium` placeholder,
+and populated `narrative.openingMoves`/`raceUnfolds` + `decisiveMoments` so far.
+
+### 2f. Refreshes (re-research an existing entry)
+
+A refresh item already has a JSON on disk. Re-run 2a–2c, then **overwrite** the
+file with the corrected/enriched content (bump `researchedAt`). Refreshes exist to
+fix a *thin or same-day-provisional* page — so only overwrite when the new
+research is at least as complete and you've re-confirmed the podium/GC against ≥2
+sources. **If the new research is thinner or you can't reconfirm, leave the
+existing file untouched** and note "refresh skipped (no improvement)" — never
+regress a good page.
+
+Repeat 2a–2f for each item in the slice. **An item that fails** (no sources,
+ambiguous GC, scrape error, or a refresh with no improvement) → skip it, keep the
+rest, note it in the commit body.
 
 ## Phase 3 — Rebuild
 
@@ -230,9 +288,11 @@ commits do — ~5 calendar pages + the results files, not 1000).
 git config user.name  "no-spoiler-cycling backfill"
 git config user.email "noreply@anthropic.com"
 
-# Set these to what you actually processed this run:
-STAGE_IDS="tour-de-suisse-2026-stage-5"     # space-separated <race-id>-stage-N
-RACE_IDS="tour-de-suisse-2026"              # space-separated distinct race ids
+# Set these to what you actually wrote/overwrote this run (gaps AND refreshes):
+STAGE_IDS="tour-de-suisse-2026-stage-5"     # space-separated <race-id>-stage-N stage items
+RACE_IDS="tour-de-suisse-2026"              # one-day races + stage-race hubs you touched,
+                                            # PLUS the parent race id of any stage above
+                                            # (so its calendar page's R-badges get staged)
 RIDER_SLUGS=""                              # any rider seasonArcs you rewrote (often none)
 
 for id in $STAGE_IDS; do
@@ -258,20 +318,21 @@ git add results/_assets/manifest.json
 BAD=$(git diff --cached --name-only | grep -vE '^(data/results/|results/|race-details/|riders/|riders-women/)' || true)
 if [ -n "$BAD" ]; then echo "ABORT: staged path outside results subsystem:"; echo "$BAD"; git reset; exit 1; fi
 
-# Guard 2 — churn: a 1–3 stage backfill stages well under ~15 files. A larger set
-# means an accidental `git add .` swept in the ~1000-file day-granular build churn.
+# Guard 2 — churn: up to MAX_PER_RUN=6 items × ~3 files each + manifest stages well
+# under ~35 files. A larger set means an accidental `git add .` swept in the
+# ~1000-file day-granular build churn.
 N=$(git diff --cached --name-only | wc -l)
 echo "staged ($N):"; git diff --cached --name-only
-if [ "$N" -gt 25 ]; then echo "ABORT: staging too broad ($N) — investigate"; git reset; exit 1; fi
+if [ "$N" -gt 35 ]; then echo "ABORT: staging too broad ($N) — investigate"; git reset; exit 1; fi
 
-# Guard 3 — did we actually publish? If stages were due (missing>0) but nothing is
-# staged, this is a silent no-op masquerading as success — report it, don't fake it.
-if [ "$N" -eq 0 ]; then echo "NOTHING_STAGED — report 0 published in Slack, note why (all skipped?)"; fi
+# Guard 3 — did we actually publish? If work was due (gaps/refreshes > 0) but
+# nothing is staged, this is a silent no-op masquerading as success — report it.
+if [ "$N" -eq 0 ]; then echo "NOTHING_STAGED — report 0 in Slack, note why (all skipped?)"; fi
 
-[ "$N" -gt 0 ] && git commit -m "results: backfill $STAGE_IDS (daily routine)
+[ "$N" -gt 0 ] && git commit -m "results: daily window update ($STAGE_IDS $RACE_IDS)
 
-Auto-generated by the daily stage-backfill routine.
-<note any skipped stages + reason>"
+Auto-generated by the daily results routine (gaps + thin/provisional refreshes).
+<note any skipped items + reason>"
 [ "$N" -gt 0 ] && git push origin main
 ```
 
@@ -284,24 +345,30 @@ the ephemeral cloud checkout is discarded after the run.)
 Generate the cost breakdown from the ledger, then post it to Slack channel
 **`C0BBV37T43H`** (`#no-spoiler-cycling`):
 
-`--stage-ids` is **comma**-separated, but `$STAGE_IDS` above is space-separated —
-convert it (otherwise the report shows one mangled id):
+`--stages <N>` is the **total items** you committed this run (gaps + refreshes);
+`--stage-ids` takes their ids. Convert the space-separated `$STAGE_IDS`/`$RACE_IDS`
+to the comma-separated form the flag expects:
 
 ```bash
+IDS="$(echo $STAGE_IDS $RACE_IDS | xargs | tr ' ' ',')"
 node scripts/cost-ledger.js report \
-  --stages <N> --stage-ids "$(echo $STAGE_IDS | tr ' ' ',')" \
+  --stages <N> --stage-ids "$IDS" \
   --model claude-sonnet-4-6 --ledger /tmp/nsc-cost.jsonl --date "$(date -u +%F)"
 ```
 
 (`--model` must match the model the routine actually runs on — `claude-sonnet-4-6`
 in the trigger config. `--ledger` is the same literal path Phase 0/2 wrote to.)
 
-Post that exact text to `C0BBV37T43H` via the Slack tool (`slack_send_message`).
-Always post — even on a 0-stage day (a silent run is itself a failure signal).
-On failure, post: `⚠️ daily stage backfill failed: <one-line reason>`.
+Post that exact text to `C0BBV37T43H` via the Slack tool (`slack_send_message`),
+then **append a line** for anything you didn't finish: items skipped (with reason)
+and, if the work-list exceeded `MAX_PER_RUN`, `+K more in window, next run`.
+Always post — even on a 0-item day (a silent run is itself a failure signal). On
+failure, post: `⚠️ daily results routine failed: <one-line reason>`.
 
 ## Idempotency & cadence
 
-Re-running is safe: Phase 0 reads `hasJson` live, so already-published stages are
-filtered out. A no-missing-stages run is a clean no-op that still reports to Slack.
-Expect 0–2 new stages on a typical day during a Grand Tour, 0 most other days.
+Re-running is safe: the work-list is recomputed live each run, so already-complete
+gaps and already-refreshed entries drop out. A no-work run is a clean no-op that
+still reports to Slack. Expect a handful of items on active racing days (a Grand
+Tour stage + a one-day race or two, plus the prior day's same-day pages getting
+their one settle-refresh), and 0 on quiet days.

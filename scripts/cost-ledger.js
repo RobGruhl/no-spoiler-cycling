@@ -133,11 +133,11 @@ function report() {
 
   // Slack mrkdwn block.
   const stageList = stages === 0
-    ? '_none — nothing past-due to backfill_'
+    ? '_none — nothing due in the window_'
     : `${stages}${stageIds.length ? ` (${stageIds.join(', ')})` : ''}`;
   const lines = [
-    `📊 *No-spoiler-cycling — daily stage backfill* · ${date}`,
-    `• *Stages backfilled:* ${stageList}`,
+    `📊 *No-spoiler-cycling — daily results* · ${date}`,
+    `• *Items published/refreshed:* ${stageList}`,
     `• *Perplexity:* ${perplexity} quer${perplexity === 1 ? 'y' : 'ies'} × ~${usd(RATES.perplexityPerQuery)} = ~${usd(perplexityCost)}`,
     `• *Firecrawl:* ${firecrawl} scrape${firecrawl === 1 ? '' : 's'} × ~${usd(RATES.firecrawlPerScrape)} = ~${usd(firecrawlCost)}`,
     `• *Claude (${model}, ${claudeLabel}):* ~${(claudeIn / 1000).toFixed(0)}k in / ~${(claudeOut / 1000).toFixed(0)}k out = ~${usd(claudeCost)}`,
