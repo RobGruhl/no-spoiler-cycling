@@ -91,6 +91,14 @@ function isPastRace(r) {
   return r.raceDate <= TODAY && r.gender === 'men' && (r.rating === 4 || r.rating === 5);
 }
 
+// Date-only past check. Forward "View Results" links are emitted by
+// generate-race-details.js for ANY past race/stage that has results on disk
+// (no gender/rating filter), so the cross-link assertion must mirror that —
+// using isPastRace here made the error unreachable (gender/rating undefined).
+function isPastDate(d) {
+  return !!d && d <= TODAY;
+}
+
 function readJson(file) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return null; }
 }
@@ -301,7 +309,7 @@ function checkCrossLinks() {
       const expectedHref = `../results/race/${raceId}-stage-${stageN}.html`;
       const hasLink = html.includes(expectedHref);
       details.push({ kind: 'stage', id: `${raceId}-S${stageN}`, date: stageDate, hasCalendarHtml: true, hasLink });
-      if (isPastRace({ raceDate: stageDate }) && !hasLink) {
+      if (isPastDate(stageDate) && !hasLink) {
         errors.push(`past stage missing forward link in calendar HTML: ${raceId}-stage-${stageN}`);
       }
     }
@@ -321,7 +329,7 @@ function checkCrossLinks() {
       const expectedHref = `../results/race/${raceId}.html`;
       const hasLink = html.includes(expectedHref);
       details.push({ kind: 'race', id: raceId, date: raceData?.raceDate, hasCalendarHtml: true, hasLink });
-      if (isPastRace({ raceDate: raceData?.raceDate }) && !hasLink) {
+      if (isPastDate(raceData?.raceDate) && !hasLink) {
         errors.push(`past race missing forward link in calendar HTML: ${raceId}`);
       }
     }

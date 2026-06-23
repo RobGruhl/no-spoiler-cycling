@@ -16,27 +16,70 @@ repo** — every command and schema it needs is inlined below. (The local
    and `race-details/`, and `results/_assets/manifest.json`). **Never edit
    `data/race-data.json`** or any calendar page by hand. The only calendar-side
    change allowed is what `generate-race-details.js` emits automatically — the
-   forward "View Results" link. This keeps the spoiler-safe calendar safe by
-   construction.
-2. **Spoiler gate is a hard stop.** Before committing, `npm test` must report
-   **0 fail** and `node scripts/test-results-completeness.js` must report **0
-   errors**. If either regresses, revert the slice and commit nothing.
+   forward "View Results" link.
+   - **Why this is the real spoiler containment (architectural, not a test).**
+     Every spoiler-safe calendar generator reads `data/results/` only via
+     `fs.existsSync` (a presence check) — it never inlines any podium / winner /
+     tldr / narrative text into a calendar page. So the *worst* a run can do to
+     the spoiler-safe side is add a "View Results → spoilers" link pointing away
+     to the gated page. Honour rule 1 and result text cannot cross over.
+2. **Regression gate is a hard stop (NOT a results-spoiler gate).** Before
+   committing, `npm test` must report **0 fail** and
+   `node scripts/test-results-completeness.js` must report **0 errors**.
+   - ⚠️ Be clear what these catch: `npm test` reads only `data/race-data.json`
+     (which you never edit), so it catches *calendar* breakage, not a spoiler in
+     a results JSON — it cannot inspect what you wrote. Completeness catches
+     genuine regressions (JSON-without-HTML, manifest drift, missing forward
+     link). Neither verifies result *correctness* — that rests on the Phase 2c
+     cross-check. Treat these as "don't break the site," and rely on rule 1 for
+     spoiler safety.
 3. **In-repo libs only** (see note above).
-4. **Requires `PERPLEXITY_API_KEY` + `FIRECRAWL_API_KEY`** in the environment. If
-   either is missing, post the Slack failure line and exit — do not loop.
+4. **Requires `PERPLEXITY_API_KEY` + `FIRECRAWL_API_KEY`** in the environment.
+   Phase 0 checks both up front; if either is missing, post the Slack failure
+   line and exit — do not loop.
 5. **Never write speculative results.** If a stage finished < ~2h ago and no
-   per-stage results page is indexed yet, skip it; tomorrow's run gets it.
+   per-stage results page is indexed yet, skip it; tomorrow's run gets it. Quote
+   ≥2 distinct-domain sources in `sources[]` for every podium you publish.
 
 ## Phase 0 — Setup + find the work
 
+**Preflight BEFORE spending any money on research** — a missing key or missing
+git push credential should fail on day 1, not after a full paid research run
+whose output then can't be published:
+
 ```bash
-export NSC_COST_LEDGER="${NSC_COST_LEDGER:-/tmp/nsc-cost.jsonl}"
-: > "$NSC_COST_LEDGER"        # fresh ledger for this run
-npm ci                         # install deps in the fresh checkout
+# 1. API keys present? (guardrail 4)
+node -e "process.exit(process.env.PERPLEXITY_API_KEY && process.env.FIRECRAWL_API_KEY ? 0 : 1)" \
+  || { echo "PREFLIGHT_FAIL: missing PERPLEXITY_API_KEY / FIRECRAWL_API_KEY"; \
+       # → go straight to Phase 6 and post: "⚠️ daily stage backfill failed: missing API keys"
+       exit 1; }
+
+npm ci                                   # install deps in the fresh checkout
+
+# 2. Can we actually push to main? If not, don't pay for research we can't publish.
+git config user.name  "no-spoiler-cycling backfill"
+git config user.email "noreply@anthropic.com"
+git push --dry-run origin main \
+  || { echo "PREFLIGHT_FAIL: no git push credential for origin/main"; \
+       # → Phase 6: post "⚠️ daily stage backfill failed: cannot push to main (auth)"; do NOT retry with other creds
+       exit 1; }
+```
+
+The cost ledger uses a **fixed literal path** (`/tmp/nsc-cost.jsonl`) everywhere —
+`export NSC_COST_LEDGER=...` does NOT survive into the separate `node -e` shells
+the research steps run in (each Bash call is a fresh shell), so an exported var
+would leave the ledger empty and the cost report would lie "$0". Truncate it once
+here and pass the literal path inline in Phase 2 and Phase 6.
+
+```bash
+: > /tmp/nsc-cost.jsonl                   # fresh cost ledger for this run
 
 node scripts/test-results-completeness.js --json > /tmp/comp.json
 node -e "
-const d = require('/tmp/comp.json');
+let d; try { d = require('/tmp/comp.json'); } catch (e) {
+  console.error('GATE_CRASH: completeness --json produced no/!valid output:', e.message);
+  process.exit(1);   // → Phase 6 posts a failure line; don't proceed blind
+}
 const missing = (d.sections.stages.details || [])
   .filter(s => !s.hasJson)
   .map(s => ({ raceId: s.raceId, raceName: s.raceName, stage: s.stageNumber, date: s.date }))
@@ -48,7 +91,7 @@ console.log(JSON.stringify(missing.slice(0, 10), null, 2));
 ```
 
 If `missing.length === 0`: skip to **Phase 6** and post the Slack summary with 0
-stages. Done.
+stages (a clean no-op still reports — silence is itself a failure signal). Done.
 
 ## Phase 1 — Pick the slice
 
@@ -60,8 +103,12 @@ context and source pages. Process them in order.
 
 ### 2a. Perplexity discovery (in-repo wrapper)
 
+**Prefix EVERY research command** (`2a` and `2b`, and any ad-hoc query you add)
+with `NSC_COST_LEDGER=/tmp/nsc-cost.jsonl` so the call is counted for the cost
+report — the var must be on the same command, not exported in a prior step.
+
 ```bash
-node -e "
+NSC_COST_LEDGER=/tmp/nsc-cost.jsonl node -e "
 import('./lib/perplexity-utils.js').then(async m => {
   const r = await m.perplexitySearch('<Race> 2026 Stage <N> result winner podium GC <date>', { recencyFilter: 'week', maxResults: 6 });
   console.log('answer:', r.answer || '(none)');
@@ -79,7 +126,7 @@ sporza, nos, X/Twitter aggregators.
 ### 2b. Firecrawl deep-scrape the narrative
 
 ```bash
-node -e "
+NSC_COST_LEDGER=/tmp/nsc-cost.jsonl node -e "
 import('./lib/firecrawl-utils.js').then(async m => {
   const r = await m.scrapeContent('<cyclingstage per-stage results URL>', { formats: ['markdown'] });
   console.log((r.markdown || r.content || '').slice(0, 6000));
@@ -195,21 +242,37 @@ for race in $RACE_IDS; do
   git add "data/results/races/$race.json" "results/race/$race.html" "race-details/$race.html" 2>/dev/null
 done
 for slug in $RIDER_SLUGS; do
-  git add "data/results/riders/$slug.json" "results/rider/$slug.html" 2>/dev/null
+  # NEW rider arc → build:all also adds a forward link to the rider's CALENDAR
+  # page, so stage that too or the link silently drifts (gate reads the rebuilt
+  # working tree, not the index, so it won't catch the omission).
+  git add "data/results/riders/$slug.json" "results/rider/$slug.html" \
+          "riders/$slug.html" "riders-women/$slug.html" 2>/dev/null
 done
 git add results/_assets/manifest.json
 # Only if you added/changed a teamStories[] entry this run:  git add results/teams.html
 
-# Churn guard: a stage backfill stages a SMALL set. If it's huge, something's wrong.
+# Guard 1 — path allowlist (self-contained substitute for the PR-only path-guard,
+# since this pushes straight to main). EVERY staged path must live in the results
+# subsystem. If anything else is staged (race-data.json, lib/, scripts/, .github/,
+# package.json, a stray build artifact), ABORT — never commit it to main.
+BAD=$(git diff --cached --name-only | grep -vE '^(data/results/|results/|race-details/|riders/|riders-women/)' || true)
+if [ -n "$BAD" ]; then echo "ABORT: staged path outside results subsystem:"; echo "$BAD"; git reset; exit 1; fi
+
+# Guard 2 — churn: a 1–3 stage backfill stages well under ~15 files. A larger set
+# means an accidental `git add .` swept in the ~1000-file day-granular build churn.
 N=$(git diff --cached --name-only | wc -l)
 echo "staged ($N):"; git diff --cached --name-only
-if [ "$N" -gt 40 ]; then echo "ABORT: staging too broad — investigate"; git reset; exit 1; fi
+if [ "$N" -gt 25 ]; then echo "ABORT: staging too broad ($N) — investigate"; git reset; exit 1; fi
 
-git commit -m "results: backfill $STAGE_IDS (daily routine)
+# Guard 3 — did we actually publish? If stages were due (missing>0) but nothing is
+# staged, this is a silent no-op masquerading as success — report it, don't fake it.
+if [ "$N" -eq 0 ]; then echo "NOTHING_STAGED — report 0 published in Slack, note why (all skipped?)"; fi
+
+[ "$N" -gt 0 ] && git commit -m "results: backfill $STAGE_IDS (daily routine)
 
 Auto-generated by the daily stage-backfill routine.
 <note any skipped stages + reason>"
-git push origin main
+[ "$N" -gt 0 ] && git push origin main
 ```
 
 If `git push` fails for auth reasons, do **not** retry with other credentials —
@@ -221,11 +284,17 @@ the ephemeral cloud checkout is discarded after the run.)
 Generate the cost breakdown from the ledger, then post it to Slack channel
 **`C0BBV37T43H`** (`#no-spoiler-cycling`):
 
+`--stage-ids` is **comma**-separated, but `$STAGE_IDS` above is space-separated —
+convert it (otherwise the report shows one mangled id):
+
 ```bash
 node scripts/cost-ledger.js report \
-  --stages <N> --stage-ids <comma,separated,ids> \
-  --model claude-sonnet-4-6 --date "$(date -u +%F)"
+  --stages <N> --stage-ids "$(echo $STAGE_IDS | tr ' ' ',')" \
+  --model claude-sonnet-4-6 --ledger /tmp/nsc-cost.jsonl --date "$(date -u +%F)"
 ```
+
+(`--model` must match the model the routine actually runs on — `claude-sonnet-4-6`
+in the trigger config. `--ledger` is the same literal path Phase 0/2 wrote to.)
 
 Post that exact text to `C0BBV37T43H` via the Slack tool (`slack_send_message`).
 Always post — even on a 0-stage day (a silent run is itself a failure signal).

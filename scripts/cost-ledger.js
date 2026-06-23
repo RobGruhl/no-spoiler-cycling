@@ -47,9 +47,10 @@ const RATES = {
   firecrawlPerScrape: num(process.env.NSC_RATE_FIRECRAWL, 0.001),
 };
 // Claude per-million-token rates by model (input, output).
+// Per-MTok list prices (input, output), verified against the Claude model catalog.
 const CLAUDE_RATES = {
   'claude-sonnet-4-6': { in: 3, out: 15 },
-  'claude-opus-4-8': { in: 15, out: 75 },
+  'claude-opus-4-8': { in: 5, out: 25 },
   'claude-haiku-4-5': { in: 1, out: 5 },
 };
 // Heuristic token use per stage when actuals aren't supplied (context re-reads,
@@ -86,8 +87,13 @@ function report() {
   const date = flag('date', new Date().toISOString().slice(0, 10));
 
   const rows = readLedger(ledgerPath);
-  const perplexity = rows.filter(r => r.provider === 'perplexity').length;
-  const firecrawl = rows.filter(r => r.provider === 'firecrawl').length;
+  // Count only billable calls — providers generally don't charge for failed
+  // requests (429/5xx), and a retried call records both the failure and the
+  // success row, which would double-count. A row with no status predates the
+  // status field, so treat it as billable.
+  const billable = r => r.status === undefined || r.status < 400;
+  const perplexity = rows.filter(r => r.provider === 'perplexity' && billable(r)).length;
+  const firecrawl = rows.filter(r => r.provider === 'firecrawl' && billable(r)).length;
 
   const perplexityCost = perplexity * RATES.perplexityPerQuery;
   const firecrawlCost = firecrawl * RATES.firecrawlPerScrape;
