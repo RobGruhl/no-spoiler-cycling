@@ -1,0 +1,68 @@
+{
+  "raceId": "tour-de-suisse-2026",
+  "stageNumber": 5,
+  "stageName": "Villars-sur-Ollon → Villars-sur-Ollon",
+  "stageDate": "2026-06-21",
+  "stageType": "mountain",
+  "researchedAt": "2026-06-23T01:13:43Z",
+  "tldr": "Tadej Pogačar caught lone leader Lenny Martinez inside the final kilometre on the Queen Stage at Villars-sur-Ollon to take his third stage win in five days and seal a commanding overall victory by 6:32 over Richard Carapaz.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG" },
+    { "position": 2, "riderId": "lenny-martinez", "name": "Lenny Martinez", "team": "Bahrain - Victorious", "gap": "+0:07" },
+    { "position": 3, "name": "Bart Lemmen", "team": "Visma | Lease a Bike", "gap": "+1:33" },
+    { "position": 4, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto", "gap": "+1:53" },
+    { "position": 5, "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "Israel - Premier Tech", "gap": "+1:55" }
+  ],
+  "narrative": {
+    "headline": "Pogačar storms the Queen Stage to cap a Suisse rout",
+    "body": "On the race's only true mountain stage — a 151km loop around Villars-sur-Ollon climbing the Col de la Croix repeatedly for 4,226m of gain — an early move of Louis Vervaeke, Bauke Mollema, Lenny Martinez, Mauro Schmid and Paul Double crested the first ascent ahead before a counter-group bridged on the descent. The break carried roughly two minutes into the valley around Aigle, the gap holding near that mark for most of the day.\n\nOn the final 9.6km ascent to Villars, Bart Lemmen attacked from the break, with Nairo Quintana and Martinez joining him. The moment the gradient kicked up, Tadej Pogačar went from the GC group, immediately shedding Richard Carapaz and setting off after the leaders. Martinez distanced his breakaway companions to ride solo for the win, but Pogačar reeled him in metre by metre, making the catch with around 900m to go and soloing to the line.\n\nPogačar took the stage by seven seconds over Martinez, with Lemmen holding on for third at +1:33. The win — his third in five days after a 72km solo raid on stage 1 and the stage 4 time trial — confirmed overall victory."
+  },
+  "gcImpact": {
+    "headline": "Pogačar seals his maiden Tour de Suisse by 6:32",
+    "body": "Pogačar's stage win sealed the overall in dominant fashion. Richard Carapaz (EF Education - EasyPost) finished second at +6:32, with Mathias Vacek (Lidl-Trek) completing the final GC podium at +6:53. Tobias Foss was 4th (+7:34), Ilan Van Wilder 5th (+7:51), Brandon McNulty 6th (+7:53), Matthew Riccitello 7th (+8:46) and Primož Roglič 8th (+9:23)."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 1, "gap": "0:00",
+      "narrative": "Attacked the instant the final climb steepened, dropping Carapaz and bridging across to the breakaway leaders. He caught a soloing Lenny Martinez with ~900m to go and rode clear for his third stage win of the race, sealing the overall by more than six minutes — his maiden Tour de Suisse title.",
+      "keyMoments": [ { "km": 9, "what": "Attacked from the GC group at the foot of the final climb, immediately shedding Carapaz" }, { "km": 1, "what": "Caught lone leader Martinez ~900m from the line and soloed to the win" } ],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez", "name": "Lenny Martinez", "team": "Bahrain - Victorious",
+      "role": "stage-hunter", "position": 2, "gap": "+0:07",
+      "narrative": "Rode into the day's breakaway and was its strongest climber, distancing his companions on the final ascent to ride solo for the win. He held off everyone but Pogačar, who caught him inside the last kilometre, leaving Martinez a frustrated but impressive second.",
+      "keyMoments": [ { "km": 9, "what": "Joined Lemmen's move on the final climb, then went solo for the stage win" } ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz", "name": "Richard Carapaz", "team": "EF Education - EasyPost",
+      "role": "leader", "position": 7, "gap": "+2:00",
+      "narrative": "Was distanced the moment Pogačar attacked on the final climb and could only limit his losses, conceding two minutes on the stage. He held second overall at +6:32 to secure the runner-up spot on the final GC podium.",
+      "keyMoments": [ { "km": 9, "what": "Dropped from the GC group as soon as Pogačar accelerated" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto",
+      "role": "stage-hunter", "position": 4, "gap": "+1:53",
+      "narrative": "The young Belgian climbed strongly on the Queen Stage to take fourth on the day, a standout ride among the climbers chasing behind the Pogačar–Martinez duel.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "Israel - Premier Tech",
+      "role": "leader", "position": 5, "gap": "+1:55",
+      "narrative": "Fifth on the stage and seventh overall at +8:46, the American confirmed his form as one of the strongest young GC climbers in the field on the race's decisive mountain day.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-suisse-2026/stage-5-results-tds-2026/", "publication": "Cycling Stage", "title": "Tour de Suisse 2026: Pogacar caps overall success with third stage win", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/tour-de-suisse-2026-final-classifications-tadej-pogacar-secures-huge-gc-win-with-nearest-challenger-richard-carapaz-over-six-minutes-down", "publication": "CyclingUpToDate", "title": "Tour de Suisse 2026 Final Classifications", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/tour-de-suisse/", "publication": "Cyclingnews", "title": "Tadej Pogačar powers to stage 5 win and seals commanding overall victory", "lang": "en" }
+  ]
+}
