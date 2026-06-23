@@ -54,6 +54,13 @@ the Phase 2 guard and picked up tomorrow (the window self-heals a missed day).
 5. **Never write speculative results.** If a stage finished < ~2h ago and no
    per-stage results page is indexed yet, skip it; tomorrow's run gets it. Quote
    ≥2 distinct-domain sources in `sources[]` for every podium you publish.
+6. **The Slack report is SPOILER-FREE — this is non-negotiable.** Rob reads
+   `#no-spoiler-cycling` and must NOT be spoiled. Report only **which** races/
+   stages were updated (by name or id) and the cost. **NEVER** put a winner,
+   podium, finishing position, time, gap, jersey/GC, or any narrative/result
+   detail in a Slack message. The `scripts/cost-ledger.js report` output is
+   already safe (it knows only ids + counts) — post it as-is and do **not**
+   append a results summary, "✅ Pogačar won…" line, or any outcome text.
 
 ## Phase 0 — Setup + find the work
 
@@ -384,6 +391,13 @@ then **append a line** for anything you didn't finish: items skipped (with reaso
 and, if the work-list exceeded `MAX_PER_RUN`, `+K more in window, next run`.
 Always post — even on a 0-item day (a silent run is itself a failure signal). On
 failure, post: `⚠️ daily results routine failed: <one-line reason>`.
+
+🚫 **SPOILER-FREE (guardrail 6):** the report names only **which** races/stages
+were updated + the cost. The `cost-ledger.js report` output is already safe (ids
++ counts) — post it verbatim. Do **NOT** add any winner / podium / position /
+time / gap / GC / narrative. A skip reason must be generic ("not yet indexed",
+"sources disagreed") — never a result. If you're unsure whether a word is a
+spoiler, leave it out.
 
 ## Idempotency & cadence
 
