@@ -197,8 +197,11 @@ If `git push` fails for auth, note it in Slack and stop — do not retry other c
 ```bash
 IDS="$(echo $RACE_IDS | xargs | tr ' ' ',')"
 node scripts/cost-ledger.js report --stages <N> --stage-ids "$IDS" \
+  --label "daily calendar-footage" \
   --model claude-sonnet-4-6 --ledger /tmp/nsc-cost.jsonl --date "$(date -u +%F)"
 ```
+(The `--label` keeps this routine's Slack header distinct from the results routine's
+"daily results" — both post to the same channel.)
 Post that exact text to `#no-spoiler-cycling` (`C0BBV37T43H`) via `slack_send_message`,
 then append any skipped items with a **generic** reason. Always post — even a 0-item
 day. On failure: `⚠️ daily calendar-footage routine failed: <one-line reason>`.

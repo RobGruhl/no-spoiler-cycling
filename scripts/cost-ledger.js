@@ -85,6 +85,9 @@ function report() {
   const stageIds = (flag('stage-ids') || '').split(',').map(s => s.trim()).filter(Boolean);
   const model = flag('model', 'claude-sonnet-4-6');
   const date = flag('date', new Date().toISOString().slice(0, 10));
+  // --label distinguishes routines that share #no-spoiler-cycling (default keeps the
+  // long-standing "daily results" wording for the results routine).
+  const label = flag('label', 'daily results');
 
   const rows = readLedger(ledgerPath);
   // Count only billable calls — providers generally don't charge for failed
@@ -136,7 +139,7 @@ function report() {
     ? '_none — nothing due in the window_'
     : `${stages}${stageIds.length ? ` (${stageIds.join(', ')})` : ''}`;
   const lines = [
-    `📊 *No-spoiler-cycling — daily results* · ${date}`,
+    `📊 *No-spoiler-cycling — ${label}* · ${date}`,
     `• *Items published/refreshed:* ${stageList}`,
     `• *Perplexity:* ${perplexity} quer${perplexity === 1 ? 'y' : 'ies'} × ~${usd(RATES.perplexityPerQuery)} = ~${usd(perplexityCost)}`,
     `• *Firecrawl:* ${firecrawl} scrape${firecrawl === 1 ? '' : 's'} × ~${usd(RATES.firecrawlPerScrape)} = ~${usd(firecrawlCost)}`,
