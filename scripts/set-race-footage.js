@@ -48,12 +48,25 @@ const FILE = opt('file');
 const INLINE = opt('json');
 
 if (!RACE_ID || (!FILE && !INLINE)) {
-  console.error('usage: node scripts/set-race-footage.js --id RACE_ID (--file f.json | --json \'{…}\') [--dry-run]');
+  console.error('usage: node scripts/set-race-footage.js --id RACE_ID (--file f.json | --json \'{…}\') [--dry-run] [--approved]');
   process.exit(2);
 }
 
 const payload = JSON.parse(INLINE || fs.readFileSync(FILE, 'utf8'));
 const NO_VERIFY = argv.includes('--no-verify');
+
+// Spoiler-video quarantine: every footage entry this tool writes gets a `review`
+// record, and the generators render ONLY approved entries (lib/footage-review.js).
+// DEFAULT is `pending` — the automated daily routine's writes are held out of the
+// build until a human approves them (scripts/review-footage.js). A trusted human
+// doing a manual backfill may pass --approved to publish immediately. Default-pending
+// is the fail-closed backstop: if the routine forgets the flag, its video still
+// waits for review instead of going live.
+const APPROVED = argv.includes('--approved');
+const TODAY = new Date().toISOString().slice(0, 10);
+const reviewRecord = () => APPROVED
+  ? { status: 'approved', addedBy: 'manual', added: TODAY }
+  : { status: 'pending', addedBy: 'auto', added: TODAY };
 const isYouTube = (u) => typeof u === 'string' && /^https:\/\/(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)[\w-]+/.test(u);
 
 // Fetch the REAL video title (+ author) from YouTube oEmbed — title/author only, no
@@ -107,7 +120,11 @@ const changes = [];
 if (payload.raceLevelUrl) {
   race.platform = 'YouTube';
   race.url = payload.raceLevelUrl;
-  changes.push(`race.platform=YouTube url=${payload.raceLevelUrl}`);
+  // A footage write always (re)enters review: pending by default, approved only via
+  // --approved. Persisting a prior 'rejected' is handled upstream — the worklist
+  // treats a URL-bearing entry as filled, so the routine never re-submits it.
+  race.review = reviewRecord();
+  changes.push(`race.platform=YouTube url=${payload.raceLevelUrl} review=${race.review.status}`);
 }
 if (payload.watchNote || payload.spoilerSafe !== undefined || payload.raceLevelUrl) {
   if (!race.raceDetails || typeof race.raceDetails !== 'object') race.raceDetails = {};
@@ -120,7 +137,8 @@ for (const sIn of payload.stages || []) {
   if (!stage) { console.error(`✗ stage ${sIn.stageNumber} not found in ${RACE_ID}`); process.exit(1); }
   stage.platform = 'YouTube';
   stage.url = sIn.url;
-  changes.push(`stage ${sIn.stageNumber}.url=${sIn.url}`);
+  stage.review = reviewRecord();
+  changes.push(`stage ${sIn.stageNumber}.url=${sIn.url} review=${stage.review.status}`);
 }
 
 if (!changes.length) { console.log('no changes in payload'); process.exit(0); }

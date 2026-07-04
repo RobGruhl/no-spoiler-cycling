@@ -17,6 +17,7 @@ import fs from 'fs';
 import path from 'path';
 import { flamesForRace, flamesForStage, flamesForTour } from './lib/watchability.js';
 import { siteLegalFooter } from './lib/site-chrome.js';
+import { isFootageApproved } from './lib/footage-review.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -324,7 +325,11 @@ function renderYoutubeHighlightsBlock(race) {
 
 function renderStageWatchSection(race, stage) {
   const links = [];
-  if (stage.url && stage.url !== 'TBD' && stage.platform) {
+  // Spoiler-video quarantine gate: a footage link renders ONLY when its entry has
+  // been reviewed and approved (lib/footage-review.js). Auto-found videos land as
+  // `pending` and are held out of the build until a human approves them; this is
+  // the enforcing backstop even if the daily footage routine keeps committing.
+  if (stage.url && stage.url !== 'TBD' && stage.platform && isFootageApproved(stage)) {
     links.push({ label: stage.platform, url: stage.url, type: 'primary', tag: stage.duration ? `full · ${stage.duration}` : 'full replay' });
   }
   if (stage.youtubeHighlights && stage.youtubeHighlights !== 'TBD') {
