@@ -2,7 +2,7 @@
 
 A spoiler-free cycling race calendar for fans who want to watch races without knowing the results.
 
-**[View the Calendar](https://robgruhl.github.io/no-spoiler-cycling/)** · **[About](https://robgruhl.github.io/no-spoiler-cycling/about.html)**
+**[View the Calendar](https://nospoilercycling.com/)** · **[About](https://nospoilercycling.com/about.html)**
 
 ## The Problem
 
