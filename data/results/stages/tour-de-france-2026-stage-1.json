@@ -1,0 +1,208 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 1,
+  "stageName": "Barcelona → Barcelona",
+  "stageDate": "2026-07-04",
+  "stageType": "ttt",
+  "researchedAt": "2026-07-04T19:23:00.000Z",
+  "tldr": "Team Visma | Lease a Bike dominated the opening TTT in Barcelona, with Jonas Vingegaard riding clear on the Montjuïc climb to take the first yellow jersey. Filippo Ganna placed second individually for Netcompany Ineos (+8''), with Tadej Pogačar third (+12''). All GC rivals arrive behind Vingegaard from day one.",
+  "podium": [
+    {
+      "position": 1,
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "time": "21'47''",
+      "riderId": "jonas-vingegaard"
+    },
+    {
+      "position": 2,
+      "name": "Filippo Ganna",
+      "team": "Netcompany Ineos Cycling Team",
+      "gap": "+0:08",
+      "riderId": "filippo-ganna"
+    },
+    {
+      "position": 3,
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates XRG",
+      "gap": "+0:12",
+      "riderId": "tadej-pogacar"
+    }
+  ],
+  "narrative": {
+    "headline": "Vingegaard flies on Montjuïc as Visma claim history-making Barcelona TTT.",
+    "body": "The 113th Tour de France opens in Barcelona with a 19.6 km team time trial — the first TTT opener since 1971 and the first Grand Départ in Spain in decades. The format is the revisited Paris-Nice model: teams race as a unit, but each rider is credited with their individual crossing time for the GC, allowing climbers to solo off their teammates on the final uphill.\n\nCaja Rural-Seguros RGA roll down the ramp first from the seafront at Parc del Fòrum, winding through the city before the two ascents of Montjuïc. Alex Molenaar sets the early benchmark at 22'59''. French teams quickly dominate early, with Groupama-FDJ United's Romain Grégoire pushing the best mark to 22'28'' after attacking the final climbs.\n\nNetcompany Ineos briefly seize control at checkpoint 1 (km 5.1), sitting just ahead of Lidl-Trek and Visma. Kévin Vauquelin's puncture near the third checkpoint forces Filippo Ganna to carry the team alone over the finale; the Italian TT specialist still storms to 21'55'' — 31 seconds clear of Alpecin-Premier Tech's Mathieu van der Poel, who set a prior best of 22'26''. Lidl-Trek and Juan Ayuso impress (22'03''), and Remco Evenepoel puts Red Bull-Bora-Hansgrohe third at that point (+11'' on Ineos).\n\nVisma | Lease a Bike roll out last among the favourites and produce a collective performance that overwhelms the field. Into the final 3.7 km, Jonas Vingegaard unleashes an individual attack on the Montjuïc climb, leaving his teammates behind and finishing in 21'47'' — eight seconds faster than Ganna. UAE Emirates-XRG follow, with Tadej Pogačar also opting to sprint the finale and recording the fastest split over the closing section, but the Slovenian crosses the line 12 seconds behind the Dane."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard in yellow; Pogačar trails by 12 seconds, Evenepoel by 19.",
+    "body": "Jonas Vingegaard (Visma | Lease a Bike) takes the first yellow jersey, leading the GC with a time of 21'47''. Filippo Ganna (Netcompany Ineos) sits second at +8''. Tadej Pogačar (UAE Team Emirates XRG) is third at +12'' — his fastest-last-3.7km effort limits damage but leaves him already chasing. Juan Ayuso (Lidl-Trek) is fourth at +16'', holding the white jersey. Remco Evenepoel (Red Bull-Bora-Hansgrohe) is fifth at +19''. Isaac del Toro (UAE) sixth at +26''. Davide Piganzoli (Visma) seventh at +28''. Florian Lipowitz (Red Bull-Bora) eighth at +35''. Tobias Foss (Ineos) ninth at +38''. Paul Seixas (Decathlon CMA CGM) tenth at +39''."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Vingegaard spearheads Visma's collective performance and then delivers an individual hammer blow on the Montjuïc finale, riding clear of his own teammates to post 21'47'' — the fastest time of the day. The Dane wears his first yellow jersey since the 2023 final podium in Paris, arriving 12 seconds ahead of defending champion Pogačar. A statement of intent from day one.",
+      "keyMoments": [
+        { "km": 15.9, "what": "Visma lead all three time checks heading into the finale" },
+        { "km": 16, "what": "Vingegaard attacks on the Montjuïc climb, riding clear of teammates" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "Netcompany Ineos Cycling Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:08",
+      "narrative": "Ganna's TT mastery keeps Ineos in contention despite Kévin Vauquelin's puncture derailing their team structure near the third checkpoint. With the team plan disrupted, Ganna single-handedly powers to 21'55'' — a remarkable individual effort that holds the GC deficit to just 8 seconds. Ineos arrive at Stage 2 with strong time-trial form confirmed.",
+      "keyMoments": [
+        { "km": 10.5, "what": "Vauquelin punctures, Ganna must carry the team from checkpoint 3" },
+        { "km": 19.6, "what": "Crosses the line in 21'55'' for second-best individual time" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates XRG",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:12",
+      "narrative": "Pogačar uses his natural climbing ability to post the fastest split over the hilly final 3.7 km, earning the polka-dot jersey from the two Montjuïc ascents. However, the Slovenian's 12-second deficit to Vingegaard is the story — the defending champion arrives already in arrears on an opponent who has specialised his TTT preparation. He takes the stage result positively, noting the gap is controllable in the mountains ahead.",
+      "keyMoments": [
+        { "km": 15.9, "what": "UAE in third position at final checkpoint" },
+        { "km": 16, "what": "Pogačar attacks the Montjuïc climb, fastest of anyone over the final section" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - Bora - Hansgrohe",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:19",
+      "narrative": "Evenepoel and Red Bull-Bora-Hansgrohe deliver the third-fastest team time before Visma's run, temporarily sitting on the podium. The Belgian's individual time of +19'' is a reasonable starting deficit, though it underlines the strength of the Visma and Ineos TTT squads. The gap to Vingegaard is concerning but not race-ending for a climber of his calibre.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates XRG",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:26",
+      "narrative": "Del Toro plays a supporting role for Pogačar through the Barcelona streets and is rewarded with a solid GC start at +26''. The Mexican rider, a future GC star, demonstrates mature TTT positioning across the course. His presence as Pogačar's co-leader gives UAE depth in the mountain stages to come.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "florian-lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - Bora - Hansgrohe",
+      "role": "leader",
+      "position": 8,
+      "gap": "+0:35",
+      "narrative": "Lipowitz, third overall last year, finishes eighth on GC at +35'' — a deficit slightly larger than ideal but manageable for the mountain stages ahead. Red Bull-Bora's TTT showing confirms the team can work as a unit around their two GC leaders.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "helper",
+      "position": 11,
+      "gap": "+0:39",
+      "narrative": "Van der Poel anchors Alpecin-Premier Tech's TTT and sets an interim best of 22'26'' that stands for several teams before the GC squads arrive. He finishes 11th on the opening GC and will focus on stage wins rather than overall classification in the weeks ahead.",
+      "keyMoments": [
+        { "km": 19.6, "what": "Sets interim best time of 22'26'' for Alpecin-Premier Tech" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "antonio-tiberi",
+      "name": "Antonio Tiberi",
+      "team": "Bahrain Victorious",
+      "role": "leader",
+      "position": 13,
+      "gap": "+0:47",
+      "narrative": "Tiberi and Bahrain Victorious place ninth as a team at +0:46, putting the Italian GC hopeful at +47'' individually — a significant deficit that will need to be recovered in the mountains. Bahrain's TTT performance was workmanlike rather than exceptional.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martinez",
+      "team": "Bahrain Victorious",
+      "role": "leader",
+      "position": 15,
+      "gap": "+0:50",
+      "narrative": "Martinez finishes three seconds behind his Bahrain teammate Tiberi at +50'', reflecting the team's ninth-place TTT showing. The young Frenchman will look to make up ground once the road climbs in the coming days.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "michael-matthews",
+      "name": "Michael Matthews",
+      "team": "Team Jayco AlUla",
+      "role": "helper",
+      "position": 16,
+      "gap": "+0:51",
+      "narrative": "Matthews and Jayco AlUla finish tenth as a team at +0:50. The Australian sprinter makes his TTT contribution and will target flatter stage opportunities in the days ahead rather than contesting GC.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 18,
+      "gap": "+0:57",
+      "narrative": "Pidcock's Pinarello-Q36.5 squad completes the TTT with the British climber at +57'' — a significant gap that reflects a smaller team's TTT limitations. Pidcock will be targeting mountain stages and breakaway opportunities rather than an overall challenge.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [
+      { "riderId": null, "name": "Kévin Vauquelin", "team": "Netcompany Ineos Cycling Team", "detail": "Puncture near checkpoint 3 forced a bike change, disrupting Ineos's team structure" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.letour.fr/en/news/2026/stage-1/montjuics-magic-smiles-on-vingegaard/1333818",
+      "publication": "Tour de France Official",
+      "title": "Montjuïc's magic smiles on Vingegaard",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-1-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Visma wins TTT, Vingegaard takes yellow jersey",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.theguardian.com/sport/live/2026/jul/04/tour-de-france-2026-stage-one-race-begins-with-team-time-trial-in-barcelona-live",
+      "publication": "The Guardian",
+      "title": "Tour de France 2026 stage one: Vingegaard in yellow after team time trial success",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.letour.fr/en/rankings/stage-1",
+      "publication": "Tour de France Official",
+      "title": "2026 Rankings - Stage 1",
+      "lang": "en"
+    }
+  ]
+}
