@@ -161,6 +161,16 @@
           "properties": ["grand-tours", "monuments"],
           "subscription": true,
           "notes": "HBO Max - Eurosport content via Warner Bros Discovery"
+        },
+        {
+          "name": "HBO Max",
+          "id": "hbo-max",
+          "type": "streaming",
+          "url": "https://www.max.com",
+          "searchDomain": "max.com",
+          "properties": ["grand-tours", "monuments", "classics"],
+          "subscription": true,
+          "notes": "HBO Max (US) - Eurosport/TNT cycling via Warner Bros Discovery; alias of the Max entry used by races that carry the HBO Max broadcaster label"
         }
       ],
       "secondary": [
@@ -340,6 +350,32 @@
           "properties": ["cyclocross", "monuments", "flanders-classics"],
           "subscription": false,
           "notes": "Belgian Flemish public broadcaster — primary cyclocross and Belgian classics coverage"
+        }
+      ]
+    },
+    "FR": {
+      "primary": [
+        {
+          "name": "France Télévisions",
+          "id": "france-televisions",
+          "type": "free-to-air",
+          "url": "https://www.france.tv/sport/tour-de-france/",
+          "searchDomain": "france.tv",
+          "properties": ["tour-de-france", "grand-tours"],
+          "subscription": false,
+          "notes": "French public free-to-air host broadcaster — all Tour de France stages live and free on France 2/3 and france.tv (geo-restricted to France). ASO deal through 2030."
+        }
+      ],
+      "secondary": [
+        {
+          "name": "Eurosport / Max",
+          "id": "eurosport-fr",
+          "type": "streaming",
+          "url": "https://www.max.com/fr",
+          "searchDomain": "max.com",
+          "properties": ["grand-tours", "monuments", "world-tour"],
+          "subscription": true,
+          "notes": "Eurosport 1/2 in France, distributed via HBO Max (Max) Sport Option since the 2024 Discovery+/Max integration"
         }
       ]
     }
