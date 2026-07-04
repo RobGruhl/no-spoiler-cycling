@@ -77,6 +77,13 @@ video URL directly onto the spoiler-free calendar, and:
 ```bash
 node -e "process.exit(process.env.FIRECRAWL_API_KEY ? 0 : 1)" \
   || { echo "PREFLIGHT_FAIL: missing FIRECRAWL_API_KEY"; exit 1; }   # → Phase 6 failure line
+
+# set-race-footage.js vets the REAL video title via youtube.com/oembed, so the run
+# host must be able to reach www.youtube.com. In the cloud env this means
+# www.youtube.com is in the network allowlist. If it is NOT, oEmbed fails, the write
+# tool refuses every video, and the run is a silent no-op — so fail loudly instead:
+node -e "fetch('https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=jNQXAC9IVRw&format=json',{signal:AbortSignal.timeout(15000)}).then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))" \
+  || { echo "PREFLIGHT_FAIL: cannot reach www.youtube.com (oEmbed) — add it to the env network allowlist"; exit 1; }   # → Phase 6 failure line
 npm ci
 git config user.name  "no-spoiler-cycling footage"
 git config user.email "noreply@anthropic.com"
