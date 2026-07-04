@@ -16,6 +16,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { siteLegalFooter } from './lib/site-chrome.js';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname));
 const RACE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/race-data.json'), 'utf8'));
@@ -212,9 +213,7 @@ function renderRiderPage(riderId) {
 <title>Results — ${htmlEscape(given)} ${htmlEscape(displaySurname)} · Season 2026 — No Spoiler Cycling</title>
 <meta name="robots" content="noindex"/>
 <meta name="description" content="Spoiler-gated 2026 season log for ${htmlEscape(displayName)}. Read only if you have already watched the races referenced."/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="../../shared.css"/>
 <link rel="stylesheet" href="../_assets/results.css"/>
 </head>
@@ -377,7 +376,8 @@ function renderRiderPage(riderId) {
     </section>
 
     <footer class="r-footer">
-      <p class="mono">Compiled ${new Date().toUTCString()}. Per-race entries are synthesised from our race results data, written in Lanterne Rouge tonal register. Season log expands as more 2026 races are researched.</p>
+      <p class="mono">Compiled ${new Date().toUTCString()}. Per-race entries are synthesised from our race results data, written in a sober, tactical house style. Season log expands as more 2026 races are researched.</p>
+      ${siteLegalFooter('../../')}
     </footer>
   </main>
 </div>

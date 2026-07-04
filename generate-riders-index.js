@@ -5,6 +5,7 @@
 // generate-riders-women-index.js. Reuses the same buildRidersIndex() renderer.
 
 import fs from 'fs';
+import { riderPlaceholder, siteLegalFooter } from './lib/site-chrome.js';
 
 const SPECIALTY_LABELS = {
   'climber': 'Climber',
@@ -66,7 +67,7 @@ function buildRidersIndex(riders, opts = {}) {
 
   const riderRows = riders.map((r, i) => {
     const flag = NATIONALITY_FLAGS[r.nationalityCode] || NATIONALITY_FLAGS.XX;
-    const photo = r.photoUrl && r.photoUrl.startsWith(`${riderPagesDir}/`) ? r.photoUrl : `${riderPagesDir}/photos/placeholder.jpg`;
+    const placeholder = riderPlaceholder(r.name);
     const specialtyTags = (r.specialties || []).slice(0, 3).map(s => (SPECIALTY_LABELS[s] || s).toUpperCase()).join(' · ');
     const specialtyData = (r.specialties || []).join(' ');
     const programCount = r.raceProgram?.status === 'announced' ? (r.raceProgram?.races?.length || 0) : 0;
@@ -79,7 +80,7 @@ function buildRidersIndex(riders, opts = {}) {
       team: teamTag,
       flag,
       nat: htmlEscape(r.nationality || ''),
-      photo: htmlEscape(photo),
+      placeholder,
       specialtyTags,
       specialtyData,
       programCount,
@@ -94,7 +95,7 @@ function buildRidersIndex(riders, opts = {}) {
 
   const cardsHtml = riderRows.map(r => `<div class="rc" data-sp="${htmlEscape(r.specialtyData)}" data-href="${riderPagesDir}/${htmlEscape(r.slug)}.html" role="link" tabindex="0" aria-label="${r.name}">
     <div class="rc-num">№ ${r.num}</div>
-    <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
+    <div class="rc-photo">${r.placeholder}</div>
     <div class="rc-body">
       <div class="rc-rank mono">UCI #${r.rank}</div>
       <div class="rc-name">${r.name}</div>
@@ -107,7 +108,7 @@ function buildRidersIndex(riders, opts = {}) {
 
   const outsiderRows = (outsiders || []).map((r, i) => {
     const flag = NATIONALITY_FLAGS[r.nationalityCode] || NATIONALITY_FLAGS.XX;
-    const photo = r.photoUrl && r.photoUrl.startsWith(`${riderPagesDir}/`) ? r.photoUrl : `${riderPagesDir}/photos/placeholder.jpg`;
+    const placeholder = riderPlaceholder(r.name);
     const specialtyTags = (r.specialties || []).slice(0, 3).map(s => (SPECIALTY_LABELS[s] || s).toUpperCase()).join(' · ');
     const programCount = r.raceProgram?.status === 'announced' ? (r.raceProgram?.races?.length || 0) : 0;
     return {
@@ -116,7 +117,7 @@ function buildRidersIndex(riders, opts = {}) {
       team: htmlEscape(r.team || ''),
       flag,
       nat: htmlEscape(r.nationality || ''),
-      photo: htmlEscape(photo),
+      placeholder,
       specialtyTags,
       programCount,
       slug: r.slug || r.id,
@@ -127,7 +128,7 @@ function buildRidersIndex(riders, opts = {}) {
 
   const outsiderCardsHtml = outsiderRows.map(r => `<div class="rc rc-out" data-href="${riderPagesDir}/${htmlEscape(r.slug)}.html" role="link" tabindex="0" aria-label="${r.name}">
     <div class="rc-num">✦ ${r.num}</div>
-    <div class="rc-photo"><img loading="lazy" src="${r.photo}" alt="${r.name}" onerror="this.style.display='none'"/></div>
+    <div class="rc-photo">${r.placeholder}</div>
     <div class="rc-body">
       <div class="rc-rank mono">✦ Outsider</div>
       <div class="rc-name">${r.name}</div>
@@ -146,9 +147,7 @@ function buildRidersIndex(riders, opts = {}) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>${htmlEscape(title)} — No Spoiler Cycling</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="shared.css"/>
 <style>
 .hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
@@ -210,7 +209,7 @@ function buildRidersIndex(riders, opts = {}) {
     <div class="frame">
       <div class="masthead-inner">
         <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
-          <span class="sub">Union Cycliste Internationale · Startlist · Season MMXXVI</span>
+          <span class="sub">Unofficial spoiler-free cycling · Startlist · Season MMXXVI</span>
         </div>
         <div class="mast-meta">
           Document <b>${docCode}</b><br/>
@@ -275,6 +274,7 @@ function buildRidersIndex(riders, opts = {}) {
         <span>§ ${gender === 'women' ? '03 — Women\'s Riders' : '02 — Men\'s Riders'}</span>
         <span>Built ${built}</span>
       </div>
+      ${siteLegalFooter('')}
     </footer>
   </main>
 

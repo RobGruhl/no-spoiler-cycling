@@ -16,6 +16,7 @@
 import fs from 'fs';
 import path from 'path';
 import { flamesForRace, flamesForStage, flamesForTour } from './lib/watchability.js';
+import { siteLegalFooter } from './lib/site-chrome.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -380,9 +381,7 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>${htmlEscape(title)}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="../shared.css"/>
 <style>
 .crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
@@ -580,7 +579,7 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
     <div class="frame">
       <div class="masthead-inner">
         <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
-          <span class="sub">Union Cycliste Internationale · Race Sheet · Season MMXXVI</span>
+          <span class="sub">Unofficial spoiler-free cycling · Race Sheet · Season MMXXVI</span>
         </div>
         <div class="mast-meta">
           Document <b>${htmlEscape(docCode)}</b><br/>
@@ -608,6 +607,7 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
         <span>${htmlEscape(footerSection)}</span>
         <span>Built ${built}</span>
       </div>
+      ${siteLegalFooter('../')}
     </footer>
   </main>
 </body>

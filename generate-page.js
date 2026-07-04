@@ -6,6 +6,7 @@
 
 import fs from 'fs';
 import { flamesForRace, flamesForTour } from './lib/watchability.js';
+import { siteLegalFooter } from './lib/site-chrome.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -96,9 +97,7 @@ function buildHtml(rows, stats, updatedLabel) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>No Spoiler Cycling — 2026 Calendar</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="shared.css"/>
 <style>
 .hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;padding:44px 0 32px;border-bottom:1px solid var(--rule)}
@@ -170,7 +169,7 @@ function buildHtml(rows, stats, updatedLabel) {
       <div class="masthead-inner">
         <div>
           <div class="wordmark">No<span class="slash">/</span>Spoiler<br/>Cycling
-            <span class="sub">Union Cycliste Internationale · Calendrier Élite · Season MMXXVI</span>
+            <span class="sub">Unofficial spoiler-free cycling calendar · Season MMXXVI</span>
           </div>
         </div>
         <div class="mast-meta">
@@ -292,6 +291,7 @@ function buildHtml(rows, stats, updatedLabel) {
         <span>§ 01 — Calendar</span>
         <span>Built ${stamp}</span>
       </div>
+      ${siteLegalFooter('')}
     </footer>
   </main>
 

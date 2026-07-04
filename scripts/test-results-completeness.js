@@ -363,9 +363,11 @@ function checkCrossLinks() {
   return { errors, warnings, details };
 }
 
-// ---- Section: Photos ----
-// Every tracked rider (riders.json + outsiders.json + riders-women.json) has
-// a non-null photoUrl pointing to a local file that exists on disk.
+// ---- Section: Photos / placeholders ----
+// Rider photos were removed pending licensing (2026-07). Rider pages and cards
+// now render generated initials placeholders (see lib/site-chrome.js). This
+// section therefore checks that (a) no rider still carries a photoUrl pointing
+// at a removed image, and (b) the generated placeholders actually render.
 function checkPhotos() {
   const errors = [];
   const warnings = [];
@@ -377,40 +379,33 @@ function checkPhotos() {
     { path: 'data/outsiders.json', label: 'outsiders' },
   ];
 
-  let totalChecked = 0;
-  let totalMissing = 0;
+  // Guard against a stale photoUrl re-appearing (e.g. fetch-rider-photos re-run).
   for (const roster of rostersToCheck) {
     const fp = path.join(ROOT, roster.path);
     if (!fs.existsSync(fp)) continue;
     const data = readJson(fp);
     for (const r of (data?.riders || [])) {
-      totalChecked++;
       const slug = r.slug || r.id;
-      const photoUrl = r.photoUrl;
-      const localPath = photoUrl && photoUrl.startsWith('riders/') ? path.join(ROOT, photoUrl) : null;
-      const hasLocalFile = localPath && fs.existsSync(localPath);
-      details.push({ kind: 'photo', id: slug, roster: roster.label, photoUrl: photoUrl || null, hasLocalFile });
-      if (!photoUrl) {
-        warnings.push(`rider has no photoUrl: ${slug} (${roster.label})`);
-        totalMissing++;
-      } else if (localPath && !hasLocalFile) {
-        warnings.push(`rider photoUrl points to missing file: ${slug} → ${photoUrl}`);
-        totalMissing++;
+      if (r.photoUrl) {
+        warnings.push(`rider still has photoUrl (photos removed pending licensing): ${slug} (${roster.label})`);
+        details.push({ kind: 'photo', id: slug, roster: roster.label, photoUrl: r.photoUrl });
       }
     }
   }
 
-  // Also a CSS smoke test: top-crop rule must be present in the generated
-  // rider HTML so cropping puts faces in view rather than chopping them.
+  // Placeholders must render in the generated index. Absence means the
+  // placeholder wiring is broken and cards would show empty photo frames.
   const riderIndexHtml = path.join(ROOT, 'riders.html');
   if (fs.existsSync(riderIndexHtml)) {
     const html = fs.readFileSync(riderIndexHtml, 'utf8');
-    if (!html.includes('object-position:top center')) {
-      errors.push(`riders.html missing CSS rule "object-position:top center" — photos will center-crop and chop faces`);
+    const count = (html.match(/class="rider-ph"/g) || []).length;
+    if (count === 0) {
+      errors.push(`riders.html has no rider placeholders ("rider-ph") — placeholder rendering is broken`);
     }
+    details.push({ kind: 'placeholder', id: 'riders.html', placeholders: count });
   }
 
-  return { expected: totalChecked, errors, warnings, details };
+  return { expected: details.length, errors, warnings, details };
 }
 
 // ---- Section: Manifest ----

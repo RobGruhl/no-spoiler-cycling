@@ -2,6 +2,8 @@
 
 A spoiler-free cycling race calendar for fans who want to watch races without knowing the results.
 
+> **Unofficial fan project.** Not affiliated with, endorsed by, or connected to the UCI, race organizers, teams, riders, or broadcasters. Race names and trademarks belong to their respective owners and are used nominatively. See [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md).
+
 **[View the Calendar](https://nospoilercycling.com/)** · **[About](https://nospoilercycling.com/about.html)**
 
 ## The Problem
@@ -29,7 +31,7 @@ Every link is evaluated for spoiler safety before being added.
 
 ## Design
 
-The site uses a UCI Roadbook aesthetic — paper/ink tones, Inter Tight + JetBrains Mono, and the UCI rainbow (blue/red/black/yellow/green) as a structural accent. All pages share `shared.css`.
+The site uses a roadbook-style aesthetic — paper/ink tones, a system font stack (sans + mono, no external web fonts), and a rainbow accent bar (blue/red/black/yellow/green). All pages share `shared.css`.
 
 ## How it's built
 

@@ -6,6 +6,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { riderPlaceholder, siteLegalFooter } from './lib/site-chrome.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -136,9 +137,7 @@ function renderRaceProgram(rider, raceData) {
 function generateRiderDetailsHTML(rider, raceData, cfg) {
   const built = new Date().toISOString().slice(0, 10);
   const flag = NATIONALITY_FLAGS[rider.nationalityCode] || NATIONALITY_FLAGS.XX;
-  const photo = rider.photoUrl && rider.photoUrl.startsWith('riders')
-    ? `../${rider.photoUrl}`
-    : null;
+  const placeholder = riderPlaceholder(rider.name);
   const specialties = (rider.specialties || []).map(s => SPECIALTY_LABELS[s] || s);
   const age = computeAge(rider.dateOfBirth);
   const display = formatSurnameFirst(rider.name);
@@ -155,9 +154,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>${htmlEscape(display)} — No Spoiler Cycling</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="../shared.css"/>
 <style>
 .crumbs{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding:16px 0;border-bottom:1px solid var(--rule-soft)}
@@ -222,7 +219,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
     <div class="frame">
       <div class="masthead-inner">
         <div class="wordmark">No<span class="slash">/</span>Spoiler Cycling
-          <span class="sub">Union Cycliste Internationale · Rider Sheet · Season MMXXVI</span>
+          <span class="sub">Unofficial spoiler-free cycling · Rider Sheet · Season MMXXVI</span>
         </div>
         <div class="mast-meta">
           Document <b>${htmlEscape(cfg.docCode)}/${htmlEscape((rider.slug || rider.id || '').toUpperCase().slice(0, 10))}</b><br/>
@@ -247,7 +244,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
 
     <section class="hero">
       <div class="photo">
-        ${photo ? `<img src="${htmlEscape(photo)}" alt="${htmlEscape(display)}" onerror="this.parentNode.innerHTML='<span style=\\'font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)\\'>No photo</span>'"/>` : `<span style="font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)">No photo</span>`}
+        ${placeholder}
       </div>
       <div>
         <div class="tag">
@@ -296,6 +293,7 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
         <span>${htmlEscape(cfg.sectionLabel)} · ${htmlEscape(display)}</span>
         <span>Built ${built}</span>
       </div>
+      ${siteLegalFooter('../')}
     </footer>
   </main>
 </body>

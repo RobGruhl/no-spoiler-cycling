@@ -10,6 +10,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { siteLegalFooter } from './lib/site-chrome.js';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname));
 const RACE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/race-data.json'), 'utf8'));
@@ -96,9 +97,7 @@ function renderStagePage(raceId, stageNumber) {
 <title>Results — ${htmlEscape(race.name)} ${race.raceDate.slice(0, 4)} Stage ${stageNumber} — No Spoiler Cycling</title>
 <meta name="robots" content="noindex"/>
 <meta name="description" content="Spoiler-gated stage analysis. Read only if you have already watched ${htmlEscape(race.name)} Stage ${stageNumber}."/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="../../shared.css"/>
 <link rel="stylesheet" href="../_assets/results.css"/>
 </head>
@@ -368,7 +367,8 @@ function renderStagePage(raceId, stageNumber) {
     </section>` : ''}
 
     <footer class="r-footer">
-      <p class="mono">Compiled ${new Date(result.researchedAt || Date.now()).toUTCString()}. Stage research via Perplexity. Synthesis by Claude in Lanterne Rouge tonal register.</p>
+      <p class="mono">Compiled ${new Date(result.researchedAt || Date.now()).toUTCString()}. Stage research via Perplexity. Synthesis by Claude in a sober, tactical house style.</p>
+      ${siteLegalFooter('../../')}
     </footer>
 
   </main>

@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 
 /**
+ * NOTE (2026-07): Rider photos were removed from the site pending licensing.
+ * Generated pages now render initials-in-a-circle placeholders instead
+ * (see lib/site-chrome.js). Do NOT re-run the photo-download path against
+ * ProCyclingStats until image licensing is resolved. The race-program
+ * fetch below is unaffected by that concern.
+ *
  * Fetch rider data from ProCyclingStats.
  *
  * Downloads high-res rider photos (the /images/riders/<2>/<2>/<slug>-<year>.jpg

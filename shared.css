@@ -14,8 +14,9 @@
   --uci-yellow:#f5c518;
   --uci-green:#2e7d4f;
   --density: 1;                 /* Tweaks: 0.85 compact, 1 default, 1.2 loose */
-  --font-sans: 'Inter Tight', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+  /* System font stack — no external font requests (privacy). */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 [data-theme="dark"] {
   --paper:#0e0d0c; --paper-2:#1a1815; --ink:#f2ede2; --ink-2:#c9c2b4;
@@ -123,3 +124,12 @@ footer.foot{border-top:1px solid var(--rule);margin-top:60px;padding:22px 0 40px
 .tweaks .row:first-of-type{border-top:0}
 .tweaks button, .tweaks select{background:transparent;border:1px solid var(--ink);color:var(--ink);padding:4px 8px;font-family:var(--font-mono);font-size:11px;cursor:pointer;text-transform:uppercase;letter-spacing:.06em}
 .tweaks button.on{background:var(--ink);color:var(--paper)}
+
+/* Site-wide legal footer (unofficial-project notice + info links). Injected by
+   lib/site-chrome.js into every generated page's <footer>. */
+.site-legal{margin-top:14px;padding-top:12px;border-top:1px solid var(--rule-soft);display:flex;flex-direction:column;gap:6px}
+.site-legal-links{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.site-legal-links a{color:var(--ink-3);border-bottom:1px solid transparent}
+.site-legal-links a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.site-legal-note{margin:0;font-size:10.5px;letter-spacing:.04em;color:var(--ink-3);line-height:1.5;text-transform:none}
+.rider-ph{display:block;width:100%;height:100%}
