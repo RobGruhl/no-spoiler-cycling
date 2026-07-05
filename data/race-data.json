@@ -34370,8 +34370,8 @@
       "id": "tour-de-france-2026",
       "name": "Tour de France",
       "description": "2.UWT cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=U5br6kI5ha8",
       "type": "full-race",
       "raceDate": "2026-07-04",
       "endDate": "2026-07-26",
@@ -34461,8 +34461,8 @@
           ],
           "distance": 19.7,
           "date": "2026-07-04",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=U5br6kI5ha8",
           "description": "Team time trial with two climbs of Montjuïc; technical city-center course",
           "stageDetails": {
             "lastFetched": "2026-01-08T06:33:23.817Z",
@@ -34474,6 +34474,11 @@
               "TTT GC stakes: time gaps in this 19.7km effort can be 30+ seconds between top WT teams, meaning leaders with weaker TT teammates start the race already in deficit.",
               "Dauphiné/Suisse rehearsal payoff: teams that focused TTT work on stage 3 of the Dauphiné get tangible benefit here."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-07-05"
           }
         },
         {
@@ -35540,7 +35545,12 @@
           "classification": "young",
           "description": "Best Young Rider — top GC rider under 26."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-07-05"
+      }
     },
     {
       "id": "argenta-classic-deurne-2026",
