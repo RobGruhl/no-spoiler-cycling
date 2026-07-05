@@ -1,0 +1,217 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 2,
+  "stageName": "Tarragona → Barcelona",
+  "stageDate": "2026-07-05",
+  "stageType": "hilly",
+  "researchedAt": "2026-07-05T19:23:00.000Z",
+  "tldr": "Isaac del Toro overcame a mechanical issue with 60 km remaining to attack through the final Montjuïc corner and claim UAE's second stage in two days, becoming only the second Mexican to win a Tour de France stage. Tadej Pogačar rode in second to control behind his teammate, while Jonas Vingegaard held the yellow jersey after finishing fourth.",
+  "podium": [
+    {
+      "position": 1,
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates XRG",
+      "time": "3h 40' 01\"",
+      "riderId": "isaac-del-toro"
+    },
+    {
+      "position": 2,
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates XRG",
+      "gap": "+0:00",
+      "riderId": "tadej-pogacar"
+    },
+    {
+      "position": 3,
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - Bora - Hansgrohe",
+      "gap": "+0:00",
+      "riderId": "remco-evenepoel"
+    },
+    {
+      "position": 4,
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "gap": "+0:00",
+      "riderId": "jonas-vingegaard"
+    },
+    {
+      "position": 5,
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "gap": "+0:03",
+      "riderId": "mattias-skjelmose-jensen"
+    }
+  ],
+  "narrative": {
+    "headline": "Del Toro conquers Montjuïc despite mechanical nightmare to give UAE back-to-back stage wins.",
+    "body": "Stage 2 of the 2026 Tour de France follows the 168.5 km Catalan coast from Tarragona back to Barcelona, finishing on three laps of the Montjuïc circuit. Frank van den Broek, Alex Molenaar, and Felix Engelhardt escape in the opening kilometres and build a lead of over three minutes. The gap falls to 25 seconds on the Côte de Begues, where Molenaar wins the KOM sprint at the summit before van den Broek loses contact. The remaining two survivors cling on for dozens of kilometres before the peloton catches them entering the Montjuïc circuit.\n\nWith approximately 60 km remaining, Isaac del Toro suffers a mechanical problem. A radio miscommunication leaves the 22-year-old Mexican waiting by the roadside for a replacement bike — a potential race-ending delay. But del Toro shows his class, needing fewer than 10 km to fully reintegrate into the peloton and immediately resuming a central role in UAE's race plan.\n\nAs the peloton is gradually whittled down on the Montjuïc circuit, UAE control the race methodically. Brandon McNulty sets a fierce tempo during the first ascent of the Côte du Château de Montjuïc, Pogačar and three teammates take command during the second lap, and Visma respond through Matteo Jorgenson pushing on the penultimate climb. Mathieu van der Poel is among those dropped on the final ascent, leaving only around 15 riders at the front over the summit.\n\nOn the decisive final lap, Mattias Skjelmose launches an acceleration but del Toro immediately responds, reeling the Dane in. Carrying remarkable momentum through a corner, del Toro opens a gap nobody can close. Pogačar tracks his teammate to the line, content to let del Toro win while watching to ensure no one bridges across. Del Toro takes the victory — his first Tour de France stage win in just his second Tour appearance — with Pogačar second, Evenepoel third, and Vingegaard fourth, the Dane retaining the yellow jersey."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard retains yellow; Pogačar cuts deficit to 6 seconds.",
+    "body": "Jonas Vingegaard (Team Visma | Lease a Bike) retains the yellow jersey. Tadej Pogačar (UAE Team Emirates XRG) moves to second at +0:06 after earning the 6-second stage time bonus for finishing second — cutting 6 seconds from the opening-day TTT gap. Remco Evenepoel (Red Bull-Bora-Hansgrohe) jumps to third at +0:15 courtesy of the 4-second bonus. Isaac del Toro (UAE) rises to fourth at +0:16, gaining 10 seconds via the stage-win bonus. Juan Ayuso (Lidl-Trek) slips to fifth at +0:19 after losing 3 seconds in the stage. Paul Seixas (Decathlon CMA CGM) sixth at +0:42. Romain Grégoire (Groupama-FDJ) seventh at +0:44. Florian Lipowitz (Red Bull-Bora) eighth at +0:45. Lenny Martinez (Bahrain Victorious) ninth at +0:53. Tom Pidcock (Pinarello-Q36.5) tenth at +1:00."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Del Toro delivers one of the stage's most dramatic arcs: he suffers a mechanical issue near km 108, endures a roadside wait for a replacement bike due to a radio miscommunication, and still re-enters the decisive group in time for the Montjuïc finale. He reads the final ascent perfectly — chasing down Skjelmose's acceleration before counterattacking through a corner with speed no one can match. Pogačar tucks in behind but does not contest, allowing his teammate the victory. Del Toro becomes only the second Mexican to win a Tour de France stage, following Raul Alcala in 1986 — and he does it in just his second Tour appearance. GC moves to fourth at +0:16 after absorbing the 10-second stage bonus.",
+      "keyMoments": [
+        { "km": 108, "what": "Mechanical issue forces roadside wait for replacement bike" },
+        { "km": 155, "what": "Returns to the lead group during the Montjuïc circuit" },
+        { "km": 167, "what": "Chases down Skjelmose's attack then counterattacks through a corner" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates XRG",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Pogačar orchestrates UAE's stage-management brilliantly, using McNulty and teammates to control the Montjuïc laps before del Toro makes his race-winning move. The Slovenian follows his teammate to the line, keeps rivals behind him, and earns a 6-second time bonus — cutting his overall deficit to Vingegaard from 12 seconds to 6. He lifts del Toro at the finish line in a celebration that underlines UAE's collective confidence.",
+      "keyMoments": [
+        { "km": 158, "what": "Leads UAE group of four on second Montjuïc lap" },
+        { "km": 168, "what": "Sits on del Toro's wheel to the line, ensuring no rivals bridge across" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - Bora - Hansgrohe",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:00",
+      "narrative": "Evenepoel survives the Montjuïc circuit selection comfortably and earns the 4-second stage time bonus for third place, moving up to third in the GC at +0:15. He finishes just behind the UAE tandem and ahead of Vingegaard — a strong statement from Red Bull-Bora that their GC ambitions are intact despite the TTT gap. The Belgian punches his ticket into the top three overall.",
+      "keyMoments": [
+        { "km": 168.5, "what": "Third across the line ahead of Vingegaard, earns 4-second bonus" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:00",
+      "narrative": "Vingegaard controls the stage from yellow jersey, keeping Visma's Matteo Jorgenson near the front during the Montjuïc laps. He finishes fourth — same time as the stage winner — and retains the yellow jersey comfortably. He concedes the time bonuses to Pogačar and Evenepoel, who close the gaps slightly, but the Dane stays in command entering Stage 3 and the race's transition into France.",
+      "keyMoments": [
+        { "km": 158, "what": "Positions behind Jorgenson during the penultimate Montjuïc lap" },
+        { "km": 168.5, "what": "Finishes fourth, retains yellow jersey with 6-second lead over Pogačar" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:03",
+      "narrative": "Skjelmose initiates the stage-winning move on the final Montjuïc ascent, launching the attack that forces del Toro to respond. He is reeled in and then overpowered by the Mexican, finishing fifth at +3 seconds. The stage confirms Skjelmose's punch on the hilly finale, even if the win eludes him.",
+      "keyMoments": [
+        { "km": 166, "what": "Attacks on the final Montjuïc ascent, triggering the decisive split" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "romain-gregoire1",
+      "name": "Romain Grégoire",
+      "team": "Groupama-FDJ United",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:03",
+      "narrative": "Grégoire survives the Montjuïc selection and finishes seventh, just 3 seconds behind the stage winner. He moves to seventh in the GC at +0:44, confirming his ability to hold with the best on puncheur terrain. A promising return for the young Frenchman in only his second Tour.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martinez",
+      "team": "Bahrain Victorious",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+0:03",
+      "narrative": "Martinez finishes eighth in the lead group at +3 seconds, putting in a solid hilly-stage performance for Bahrain. He moves to ninth in the GC at +0:53 — a better-than-expected position for a team that posted a ninth-place TTT. The climb to Montjuïc suits his punch and he goes into Stage 3 with growing confidence.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "stage-hunter",
+      "position": 10,
+      "gap": "+0:03",
+      "narrative": "Pidcock holds on through the Montjuïc circuit to finish tenth at +3 seconds — a performance that puts him tenth overall in the GC at +1:00. The British climber's ability to stay with the best at the Montjuïc finale bodes well for the mountain stages ahead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "helper",
+      "position": null,
+      "gap": null,
+      "narrative": "Van der Poel is dropped on the final ascent of the Côte du Château de Montjuïc, leaving the lead group reduced to around 15 riders. His Tour focus on sprint and classic-style stage wins means this hilly circuit finale is not his preferred terrain, and he concedes time on the GC leaders.",
+      "keyMoments": [
+        { "km": 162, "what": "Dropped on the final Montjuïc ascent as the lead group shrinks to ~15" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [],
+    "abandons": [],
+    "mechanicals": [
+      {
+        "riderId": "isaac-del-toro",
+        "name": "Isaac del Toro",
+        "team": "UAE Team Emirates XRG",
+        "detail": "Mechanical issue ~60 km from finish; radio miscommunication left him waiting roadside for a replacement bike. Rejoined the peloton within 10 km."
+      }
+    ]
+  },
+  "quotes": [
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "quote": "It means really everything. As I said before, I'm very privileged. Plenty of confidence by the whole team. I cannot believe I just did it. It's just insane. You cannot believe how it feels now for me, especially for the country.",
+      "context": "Post-stage interview"
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "quote": "We made a plan for Tadej, I did it but then the gap was bigger and I just went with the flow to the finish line.",
+      "context": "On UAE's race strategy"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-2-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Tour de France 2026: Del Toro triumphs, Vingegaard still leads",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.usatoday.com/story/sports/cycling/tourdefrance/2026/07/05/tour-de-france-standings-results-stage-2/90811727007/",
+      "publication": "USA Today",
+      "title": "2026 Tour de France standings, results: Mexico's Del Toro wins Stage 2",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.reuters.com/sports/del-toro-wins-tour-de-france-stage-two-pogacar-closes-vingegaard-2026-07-05/",
+      "publication": "Reuters",
+      "title": "Del Toro wins Tour de France stage two as Pogacar closes in on Vingegaard",
+      "lang": "en"
+    }
+  ]
+}
