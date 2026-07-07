@@ -4,7 +4,7 @@
   "stageName": "Granollers → Les Angles",
   "stageDate": "2026-07-06",
   "stageType": "mountain",
-  "researchedAt": "2026-07-06T20:10:00.000Z",
+  "researchedAt": "2026-07-07T19:23:00.000Z",
   "tldr": "Tadej Pogacar launched a decisive sprint from Isaac del Toro's long lead-out on the Les Angles summit, beating Jonas Vingegaard by 2 seconds. The 10-second stage bonus vs. Vingegaard's 6 seconds cancels exactly the 6-second GC deficit from Stage 1 — Pogacar takes the yellow jersey on stage-win countback.",
   "podium": [
     {
@@ -35,7 +35,7 @@
   },
   "gcImpact": {
     "headline": "Pogacar in yellow; he and Vingegaard are identically level on time entering Stage 4.",
-    "body": "Tadej Pogacar (UAE Team Emirates XRG) wears the yellow jersey. He and Jonas Vingegaard (Team Visma | Lease a Bike) share the same aggregate race time — Pogacar leads on stage-win countback. Remco Evenepoel (Red Bull - BORA - hansgrohe) third at +0:23. Isaac del Toro (UAE) fourth at +0:24. Juan Ayuso (Lidl-Trek) fifth at +0:27. Paul Seixas (Decathlon CMA CGM) sixth at +0:48. Florian Lipowitz (Red Bull - BORA - hansgrohe) seventh at +0:53. Lenny Martinez (Bahrain - Victorious) eighth at +1:09. Tobias Halland Johannessen (Q8-Hirschvogel-Multivan) ninth at +1:11. Ilan Van Wilder (Red Bull - BORA - hansgrohe) tenth at +1:17. Tom Pidcock (Pinarello-Q36.5) eleventh at +1:22. Richard Carapaz (EF Education-EasyPost) twelfth at +1:45. Mattias Skjelmose (Lidl-Trek) fifteenth at +1:50 — loses 1:31 vs the GC leaders in a single stage from his joint-fifth position entering today. Thymen Arensman (INEOS Grenadiers) sixteenth at +2:19."
+    "body": "Tadej Pogacar (UAE Team Emirates XRG) wears the yellow jersey. He and Jonas Vingegaard (Team Visma | Lease a Bike) share the same aggregate race time — Pogacar leads on stage-win countback. Remco Evenepoel (Red Bull - BORA - hansgrohe) third at +0:23. Isaac del Toro (UAE) fourth at +0:24. Juan Ayuso (Lidl-Trek) fifth at +0:27. Paul Seixas (Decathlon CMA CGM) sixth at +0:48. Florian Lipowitz (Red Bull - BORA - hansgrohe) seventh at +0:53. Lenny Martinez (Bahrain - Victorious) eighth at +1:09. Tobias Halland Johannessen (Uno-X Mobility) ninth at +1:11. Ilan Van Wilder (Red Bull - BORA - hansgrohe) tenth at +1:17. Tom Pidcock (Pinarello-Q36.5) eleventh at +1:22. Richard Carapaz (EF Education-EasyPost) twelfth at +1:45. Mattias Skjelmose (Lidl-Trek) fifteenth at +1:50 — finishes 11th on the stage at +0:10 but already carried a deficit from the earlier stages. Thymen Arensman (Netcompany-INEOS Cycling Team) sixteenth at +2:19."
   },
   "riderPerformances": [
     {
@@ -80,7 +80,7 @@
     {
       "riderId": "remco-evenepoel",
       "name": "Remco Evenepoel",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "role": "leader",
       "position": 8,
       "gap": "+0:04",
@@ -117,11 +117,11 @@
     {
       "riderId": "mattias-skjelmose-jensen",
       "name": "Mattias Skjelmose",
-      "team": "Lidl - Trek",
+      "team": "Lidl-Trek",
       "role": "leader",
-      "position": null,
-      "gap": null,
-      "narrative": "Stage 3 is a damaging day for Skjelmose. The Dane entered the stage at approximately joint-fifth in GC at +0:19, alongside Lidl-Trek teammate Ayuso, but is dropped by the leading group before the Les Angles summit and loses 1:31 to the GC leaders. He slides to fifteenth overall at +1:50. A year after finishing well in the mountainous stages, his weakness on pure climbs here reopens questions about his GC ceiling at a Grand Tour.",
+      "position": 11,
+      "gap": "+0:10",
+      "narrative": "Skjelmose finishes 11th at +0:10, holding on closer to the summit group than feared but still unable to follow Pogacar's final surge. He sits 15th in GC at +1:50 after the stage — a gap that leaves him well outside the top-10 battle. On pure summit finishes the Dane continues to lag behind the elite GC climbers.",
       "keyMoments": [
         { "km": 165, "what": "Dropped from the leading GC group before the Les Angles summit finish" }
       ],
@@ -130,33 +130,33 @@
     {
       "riderId": "lenny-martinez",
       "name": "Lenny Martinez",
-      "team": "Bahrain - Victorious",
+      "team": "Bahrain Victorious",
       "role": "leader",
-      "position": null,
-      "gap": null,
-      "narrative": "Martinez entered Stage 3 eighth in GC at +0:53. He is not in the stage top 10 and loses 16 seconds to the GC leaders on this mountain day, ending the stage eighth overall at +1:09. A manageable gap on a hard day — he remains in the top 10 and within range of a potential top-5 finish in Paris.",
+      "position": 13,
+      "gap": "+0:12",
+      "narrative": "Martinez finishes 13th at +0:12, staying in contact with the top GC group through the summit. He sits 8th overall at +1:09 after the stage — a manageable gap for a rider with strong mountain instincts. He remains inside the top 10 and within range of a potential top-5 finish in Paris.",
       "keyMoments": [],
       "incident": null
     },
     {
       "riderId": "romain-gregoire1",
       "name": "Romain Grégoire",
-      "team": "Groupama - FDJ United",
+      "team": "Groupama-FDJ United",
       "role": "stage-hunter",
-      "position": null,
-      "gap": null,
-      "narrative": "Grégoire entered Stage 3 seventh in GC at +0:44 — a promising GC position for the young Frenchman. But the 196 km Pyrenean mountain stage proves too steep: he is dropped by the leading GC group and does not appear in the top 15 of the GC standings after the stage, losing more than a minute to the leaders. The first summit finish exposes a gap between his puncheur talents and the pure climbers dominating the race.",
+      "position": 75,
+      "gap": "+20:18",
+      "narrative": "A brutal day for Grégoire. The young Frenchman, promising in GC terms entering the Pyrenees, is dropped far from the summit and finishes 75th at +20:18 — well over 20 minutes adrift of the winner. The first true summit finish exposes the gap between his puncheur talents and the pure climbers leading the race. His GC ambitions are effectively ended by Stage 3.",
       "keyMoments": [],
       "incident": null
     },
     {
       "riderId": "thymen-arensman",
       "name": "Thymen Arensman",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany-INEOS Cycling Team",
       "role": "domestique",
-      "position": null,
-      "gap": null,
-      "narrative": "Arensman appears at sixteenth in GC at +2:19 after Stage 3. As an INEOS Grenadiers domestique on a mountain stage, his role was support work in the peloton; he loses ground after completing his duties, consistent with the team's plan to protect their GC riders through the Col du Calvaire.",
+      "position": 19,
+      "gap": "+0:27",
+      "narrative": "Arensman finishes 19th at +0:27 — a solid result from a Netcompany-INEOS domestique. He sits 16th in GC at +2:19 after the stage, slightly behind the top GC group but within the same peloton grouping. His climbing abilities keep him in the picture even if his primary job is protecting GC teammates.",
       "keyMoments": [],
       "incident": null
     },
@@ -165,20 +165,20 @@
       "name": "Mathieu van der Poel",
       "team": "Alpecin-Premier Tech",
       "role": "stage-hunter",
-      "position": null,
-      "gap": null,
-      "narrative": "Stage 3's 3,850 m of Pyrenean climbing is not van der Poel's terrain. He was already dropped on the Montjuïc ascent in Stage 2 and the full mountain day here is expected to cost him significant time in GC. Not a concern for his Tour ambitions — he remains Alpecin-Premier Tech's focal point for flatter stages ahead.",
+      "position": 125,
+      "gap": "+24:17",
+      "narrative": "Stage 3's Pyrenean climbing is not van der Poel's terrain. He finishes 125th at +24:17 — deep in the gruppetto — which is entirely expected and accepted. Not a concern for his Tour ambitions; he remains Alpecin-Premier Tech's focal point for flatter stages and sprints ahead.",
       "keyMoments": [],
       "incident": null
     },
     {
       "riderId": "tom-pidcock",
       "name": "Tom Pidcock",
-      "team": "Pinarello-Q36.5 Pro Cycling",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
       "role": "stage-hunter",
-      "position": null,
-      "gap": null,
-      "narrative": "Pidcock entered Stage 3 tenth in GC at +1:00 and finishes eleventh at +1:22 — losing 22 seconds to the GC leaders on the day. Shed from the lead group before the final sprint, he nonetheless limits his losses well enough to stay just outside the top 10 and remain a genuine stage-hunt threat for more suitable terrain.",
+      "position": 16,
+      "gap": "+0:18",
+      "narrative": "Pidcock finishes 16th at +0:18, limiting his losses on a pure mountain stage. He sits 11th in GC at +1:22 after the stage — staying within range of the top 10 and keeping his options open for more suitable terrain ahead.",
       "keyMoments": [],
       "incident": null
     },
@@ -187,8 +187,8 @@
       "name": "Alex Baudin",
       "team": "EF Education - EasyPost",
       "role": "stage-hunter",
-      "position": null,
-      "gap": null,
+      "position": 47,
+      "gap": "+4:08",
       "narrative": "Baudin is the star of Stage 3's breakaway. The young Frenchman crests the Col de Toses summit first, claiming the polka-dot jersey and becoming the new King of the Mountains ahead of Alex Molenaar. He attacks again on the Col du Calvaire, extending his KOM lead at that summit. Only caught 11 km from the Les Angles finish as UAE's peloton reduces the gap to seconds — Baudin delivers one of the most aggressive breakaway performances of the early Tour, and earns his team a 3rd-place stage result via Carapaz.",
       "keyMoments": [
         { "km": 115, "what": "Crests the Col de Toses summit first, takes the polka-dot jersey from Molenaar" },
