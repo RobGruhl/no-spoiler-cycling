@@ -1,0 +1,110 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 5,
+  "stageName": "Lannemezan → Pau",
+  "stageDate": "2026-07-08",
+  "stageType": "flat",
+  "researchedAt": "2026-07-08T19:23:00.000Z",
+  "tldr": "Olav Kooij powers through sprint chaos to win the Tour's first bunch sprint in Pau, in his Grand Tour debut. A late crash fractures the peloton but the Dutchman launches early and rides away cleanly; Torstein Træen retains the yellow jersey after crashing himself but recovering with the GC group.",
+  "podium": [
+    { "position": 1, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "time": "3h 29' 07''", "riderId": "olav-kooij" },
+    { "position": 2, "name": "Max Kanter", "team": "XDA Astana", "gap": "s.t." },
+    { "position": 3, "name": "Tim Merlier", "team": "Soudal Quick-Step", "gap": "s.t.", "riderId": "tim-merlier" },
+    { "position": 5, "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t.", "riderId": "jasper-philipsen" },
+    { "position": 6, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "s.t.", "riderId": "biniam-girmay" },
+    { "position": 7, "name": "Mads Pedersen", "team": "Lidl-Trek", "gap": "s.t.", "riderId": "mads-pedersen" }
+  ],
+  "narrative": {
+    "headline": "Kooij converts chaos into victory on a crash-torn sprint day in Pau.",
+    "body": "Stage 5 runs 158.3 km from Lannemezan through the gentle valleys of the Gers to Pau, the Tour's 64th finish in this Pyrénées-Atlantiques capital. Temperatures again touch 40°C: riders don ice vests, ice socks and water-cooled helmets from the neutralised start. Baptiste Veistroffer (Lotto-Intermarché), a Tour debutant, jumps clear immediately and spends the entire afternoon alone up front — the peloton never allowing more than a three-minute gap.\n\nThe only real climbs appear in a tight cluster between km 113 and km 132: the Côte de Casteide-Doat (1.5 km at 5.1%), Côte de Flancart (1 km at 6.4%) and the Cat-3 Côte de Baleix (1.3 km at 7%). After the KOM points on Baleix, Kasper Asgreen, Fred Wright and Valentin Paret-Peintre launch a counterattack from the peloton at around 17 km to go; their move is closed down quickly. Veistroffer himself is reeled in with 14 km remaining and the peloton readies for a bunch sprint in the Place de Verdun.\n\nWith roughly 5 km to go, a crash erupts in the peloton — yellow jersey Torstein Træen goes down. The Visma–Lease a Bike train of Jonas Vingegaard is already driving hard and Træen claws back onto the rear of the group: 'We went through a corner and suddenly I was on the ground. Luckily the Visma train was going fast and we got back.' The incident splits the bunch into several groups, stripping most sprinters of their lead-out trains.\n\nKooij, well clear of the crash, does not wait. He launches his sprint early in the Place de Verdun, producing an acceleration powerful enough that nobody reaches his wheel. Max Kanter (XDA Astana) takes second, Tim Merlier third. It is Kooij's first Tour de France stage victory — and his first Grand Tour start — achieved against the backdrop of a prolonged illness that had threatened his selection: 'I was tired for the first two months of the year. There were moments when I had no idea how long it would take.' The GC group, including Træen, Pogačar, Vingegaard and the full peloton block, arrives 14 seconds after the stage winner, leaving all GC gaps unchanged heading into Stage 6's Tourmalet summit finish."
+  },
+  "gcImpact": {
+    "headline": "GC unchanged — Træen (Uno-X Mobility) retains yellow; entire peloton arrives together 14 seconds down.",
+    "body": "Torstein Træen (Uno-X Mobility) leads. Sean Quinn (EF Education - EasyPost) 2nd at +0:28. Mathias Vacek (Lidl-Trek) 3rd at +3:50. Tadej Pogacar (UAE Team Emirates XRG) 4th at +7:53. Jonas Vingegaard (Team Visma | Lease a Bike) 5th at +7:53. Ramses Debruyne (Alpecin-Premier Tech) 6th at +8:06. Remco Evenepoel (Red Bull - BORA - hansgrohe) 7th at +8:16. Isaac del Toro (UAE Team Emirates XRG) 8th at +8:17. Juan Ayuso (Lidl-Trek) 9th at +8:20. Paul Seixas (Decathlon CMA CGM Team) 10th at +8:41. Florian Lipowitz (Red Bull - BORA - hansgrohe) 11th at +8:46. Lenny Martinez (Bahrain Victorious) 12th at +9:02. Tobias Halland Johannessen (Uno-X Mobility) 13th at +9:04. Ilan Van Wilder 14th at +9:10. Tom Pidcock (Pinarello-Q36.5) 15th at +9:15. Richard Carapaz (EF Education - EasyPost) 16th at +9:38. Mattias Skjelmose (Lidl-Trek) 18th at +9:43. Thymen Arensman (Netcompany-INEOS Cycling Team) 20th at +10:12."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "Kooij arrives at his debut Grand Tour having spent the first two months of the 2026 season battling a lingering illness that threatened to derail his Tour selection. His Decathlon CMA CGM team — led in the GC by Paul Seixas — gives Kooij full sprint support on Stage 5. The crash at 5 km to go breaks up lead-out trains across the peloton, but Kooij emerges unscathed and positioned perfectly. He opens his sprint before the chaos fully resolves, accelerating so decisively that no rival reaches his wheel. His first Tour stage victory, and his most significant career result.",
+      "keyMoments": [
+        { "km": 153, "what": "Avoids crash that splits peloton in final 5 km" },
+        { "km": 158, "what": "Launches early sprint in Place de Verdun, wins comfortably" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Merlier reaches the sprint but loses his lead-out in the crash-induced chaos with 5 km to go. He manages to stay upright and finishes a solid third on a day when Kooij was simply the stronger sprinter.",
+      "keyMoments": [
+        { "km": 153, "what": "Caught in lead-out disruption after crash" },
+        { "km": 158, "what": "3rd in sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Deceuninck",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Philipsen, the winner of the last Tour finish in Pau two editions ago, arrives as one of the pre-stage favourites. The late crash disrupts his lead-out. He finishes 5th, well behind Kooij's dominant sprint.",
+      "keyMoments": [
+        { "km": 153, "what": "Lead-out disrupted by crash; sprint contest compromised" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "biniam-girmay",
+      "name": "Biniam Girmay",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "s.t.",
+      "narrative": "Girmay finishes 6th after recovering well from Stage 4, where heat had sapped him badly in the break. On this flat sprint day he is contained within the bunch and contests the finish, though unable to match Kooij.",
+      "keyMoments": [
+        { "km": 158, "what": "6th in bunch sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "s.t.",
+      "narrative": "After his Stage 4 breakaway victory, Pedersen is back in the peloton for this pure sprint day. He finishes 7th — a consistent performance that keeps him active in the points competition.",
+      "keyMoments": [
+        { "km": 158, "what": "7th in bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "km": 153, "description": "A crash rocks the peloton just before the 5-kilometre safety zone, splitting the bunch and stripping sprinters of their lead-out trains. Yellow jersey Torstein Træen goes down but remounts and regains the GC group with Visma's assistance." }
+    ],
+    "abandons": []
+  },
+  "quotes": [
+    { "riderId": "olav-kooij", "speaker": "Olav Kooij", "text": "I was tired for the first two months of the year. There were moments when I had no idea how long it would take. We had made a lot of plans and a lot of the time we had to adjust them. Step by step, I got more confidence that I'd be ready for the Tour, but for sure it was a race against the clock." },
+    { "riderId": null, "speaker": "Torstein Træen", "text": "We went through a corner and suddenly I was on the ground. Luckily the Visma train was going fast and we got back to the group." }
+  ],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-5-results-tdf-2026/", "publication": "Cycling Stage", "title": "Tour de France 2026: Kooij powers to victory in Pau, Træen stays in yellow", "lang": "en" },
+    { "url": "https://www.theguardian.com/sport/2026/jul/08/olav-kooij-claims-tour-de-france-stage-five-with-tourmalet-test-looming-large", "publication": "The Guardian", "title": "Olav Kooij claims Tour de France stage five with Tourmalet test looming large", "lang": "en" },
+    { "url": "https://www.theguardian.com/sport/live/2026/jul/08/tour-de-france-2026-stage-five-updates-on-the-road-to-pau-live", "publication": "The Guardian (live blog)", "title": "Tour de France 2026: Olav Kooij sprints to stage five victory in Pau – as it happened", "lang": "en" },
+    { "url": "https://www.lemonde.fr/sport/live/2026/07/08/en-direct-tour-de-france-suivez-la-cinquieme-etape-entre-lannemezan-et-pau_6721837_3242.html", "publication": "Le Monde", "title": "Tour de France : Olav Kooij s'impose au sprint, Torstein Traeen conserve le maillot jaune malgré une chute dans le final", "lang": "fr" }
+  ]
+}
