@@ -1,0 +1,130 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 9,
+  "stageName": "Malemort → Ussel",
+  "stageDate": "2026-07-12",
+  "stageType": "hilly",
+  "researchedAt": "2026-07-12T19:23:00.000Z",
+  "tldr": "Mathieu van der Poel wins a four-up sprint in Ussel after a 154.6 km stage (shortened from 185.5 km due to a red heat-wave alert), beating Tobias Halland Johannessen and Tom Pidcock who overcame a mid-stage mechanical. GC unchanged — Pogačar retains yellow with the same gaps heading into the rest day before Stage 10 at Le Lioran.",
+  "podium": [
+    {
+      "position": 1,
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "time": "3h 27' 51''",
+      "riderId": "mathieu-van-der-poel"
+    },
+    {
+      "position": 2,
+      "name": "Tobias Halland Johannessen",
+      "team": "Uno-X Mobility",
+      "gap": "s.t."
+    },
+    {
+      "position": 3,
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "gap": "s.t.",
+      "riderId": "thomas-pidcock"
+    },
+    {
+      "position": 4,
+      "name": "Alex Baudin",
+      "team": "EF Education - EasyPost",
+      "gap": "s.t."
+    },
+    {
+      "position": 5,
+      "name": "Filippo Ganna",
+      "team": "Netcompany INEOS Cycling Team",
+      "gap": "+0:06",
+      "riderId": "filippo-ganna"
+    }
+  ],
+  "narrative": {
+    "headline": "Van der Poel wins heat-shortened Ussel battle in a four-up sprint",
+    "body": "Stage 9 was reduced from 185.5 km to 154.6 km by race directors due to a red canicule (heat-wave) alert in the Corrèze. From the shortened neutralised start in Malemort, early attackers — Quinten Hermans, Stefano Oldani, Alex Kirsch, Georg Steinhauser, and Ewen Costiou — were brought back before the intermediate sprint, which Mads Pedersen took ahead of Biniam Girmay. Mathieu van der Poel attempted to attack immediately after but could not get away.\n\nWith just under 100 km remaining, a large breakaway finally formed: Van der Poel, Tom Pidcock, Lennert Van Eetvelt, Marc Hirschi, Tobias Halland Johannessen, Tobias Foss, Derek Gee, Quinn Simmons, Alex Baudin, Valentin Paret-Peintre, Pablo Castrillo, Lars Craps, Ion Izagirre, Ewen Costiou, Jordan Jegat, and Clément Braz Afonso. Inside the break, Johannessen and Simmons attacked on the Suc au May climb, building a 30-second advantage. Pidcock gave chase with Gee and Van Eetvelt, while Van der Poel, Castrillo, and Baudin bridged across. The six chasers caught Johannessen and Simmons in the final kilometre of the climb, and the group of eight crested the summit 1'20'' ahead of the peloton.\n\nUAE Team Emirates led the bunch chase, later joined by Netcompany INEOS. The gap dipped below 1 minute on the Côte de la Croix de Pey before steadying near the 1-minute mark for several kilometres. On Mont Bessou, with 30 seconds separating the escapees from the peloton, Van der Poel accelerated sharply. He reached the summit with only Johannessen and Pidcock — the Briton having had a mechanical and then regained contact. Baudin also rejoined. Simmons and Gee sat up, leaving four at the front with 45 seconds over the peloton and 10 km to go.\n\nThe gap held as the four entered Ussel. Van der Poel led onto the rising finishing straight and launched his sprint inside the final 200 metres. Johannessen responded but could never come alongside. Pidcock held on for third, Baudin fourth. Behind, Filippo Ganna won the peloton sprint 6 seconds down in 5th, Mads Pedersen 6th. Pogačar crossed safely in 11th to retain the yellow jersey ahead of a rest day."
+  },
+  "gcImpact": {
+    "headline": "GC unchanged — Pogačar retains yellow with the same gaps going into the rest day.",
+    "body": "Stage 9 was a breakaway day; all general classification contenders finished safely in the peloton with no time lost between them. Time bonuses of −10'', −6'', −4'' went to Van der Poel, Johannessen, and Pidcock respectively — none are GC contenders. GC after Stage 9: Tadej Pogačar (UAE Team Emirates XRG) leads. Jonas Vingegaard (Team Visma | Lease a Bike) 2nd at +2:42. Isaac del Toro (UAE Team Emirates XRG) 3rd at +3:27. Remco Evenepoel (Red Bull - BORA - hansgrohe) 4th at +3:30. Juan Ayuso (Lidl-Trek) 5th at +3:34. Paul Seixas (Decathlon CMA CGM Team) 6th at +3:55. Florian Lipowitz (Red Bull - BORA - hansgrohe) 7th at +4:00. Lenny Martinez (Bahrain Victorious) 8th at +4:21. Mattias Skjelmose (Lidl-Trek) 9th at +4:57. Egan Bernal 10th at +9:12."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "A consummate performance from Van der Poel on a stage that perfectly suited his all-round engine: long-range efforts, repeated accelerations, and a finish-line sprint. After driving the early momentum in the peloton and failing to establish an early solo move, he waited for the right moment before joining the decisive break. On Mont Bessou he detonated the group of eight with a sharp acceleration, arriving at the summit with only Johannessen and Pidcock, then controlled the final 10 km before uncorking a powerful sprint in the last 200 metres — too fast for even Johannessen to match. His first Tour stage win of 2026 comes at the ideal moment, bridging the flat opening week to the Massif Central mountains.",
+      "keyMoments": [
+        { "km": 56, "what": "Failed solo attack after intermediate sprint; regrouped and joined the main break" },
+        { "km": 130, "what": "Bridged with Castrillo and Baudin to catch Johannessen and Simmons on Suc au May" },
+        { "km": 140, "what": "Decisive acceleration on Mont Bessou; selected final three-man group" },
+        { "km": 154.4, "what": "Launched sprint on rising finish; Johannessen could not come alongside" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Third place is an excellent result for Pidcock, made more impressive by a mid-race mechanical that threatened to eliminate him from the leading group on Mont Bessou. He chased back after the brief setback and rejoined the four-man front group in time for the final sprint. In the Ussel uphill finish he could not match Van der Poel's explosive speed but comfortably held third. For Pinarello-Q36.5, it is the team's best Tour result of 2026 — a podium that shows Pidcock is back near his best.",
+      "keyMoments": [
+        { "km": 95, "what": "Initiated the pursuit of Johannessen and Simmons on Suc au May" },
+        { "km": 140, "what": "Mechanical on Mont Bessou; temporarily dropped from the lead group" },
+        { "km": 143, "what": "Regained contact with the four leaders" },
+        { "km": 154.6, "what": "3rd in Ussel sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "domestique",
+      "position": 5,
+      "gap": "+0:06",
+      "narrative": "Ganna's stage day was primarily spent driving the Netcompany INEOS chase in the final 40 km alongside UAE Team Emirates, helping to keep the breakaway's lead manageable. He was rewarded with the fastest time in the peloton sprint — 5th on the stage, 6 seconds behind the winner. An efficient double role: chase engine and peloton sprint winner.",
+      "keyMoments": [
+        { "km": 115, "what": "Netcompany INEOS joins UAE at the front to drive the chase" },
+        { "km": 154.6, "what": "Won the peloton sprint for 5th" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "+0:06",
+      "narrative": "Pedersen won the intermediate sprint ahead of Girmay early in the day, then remained in the peloton as his teammate Quinn Simmons participated in the breakaway and later sat up to aid the chase. Pedersen finished 6th in the peloton sprint, content to collect points on a day where the win was always likely to go to the break.",
+      "keyMoments": [
+        { "km": 45, "what": "Won intermediate sprint ahead of Girmay" },
+        { "km": 154.6, "what": "6th in peloton sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-9-results-tdf-2026/",
+      "publication": "CyclingStage",
+      "title": "Tour de France 2026: Van der Poel wins epic battle, Pogacar still in yellow",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.letour.fr/en/rankings/stage-9",
+      "publication": "Tour de France Official Site",
+      "title": "Official classifications of Tour de France 2026 — Stage 9",
+      "lang": "en"
+    }
+  ]
+}
