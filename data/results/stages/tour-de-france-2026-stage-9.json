@@ -4,7 +4,7 @@
   "stageName": "Malemort → Ussel",
   "stageDate": "2026-07-12",
   "stageType": "hilly",
-  "researchedAt": "2026-07-12T19:23:00.000Z",
+  "researchedAt": "2026-07-13T19:23:00.000Z",
   "tldr": "Mathieu van der Poel wins a four-up sprint in Ussel after a 154.6 km stage (shortened from 185.5 km due to a red heat-wave alert), beating Tobias Halland Johannessen and Tom Pidcock who overcame a mid-stage mechanical. GC unchanged — Pogačar retains yellow with the same gaps heading into the rest day before Stage 10 at Le Lioran.",
   "podium": [
     {
@@ -31,7 +31,8 @@
       "position": 4,
       "name": "Alex Baudin",
       "team": "EF Education - EasyPost",
-      "gap": "s.t."
+      "gap": "s.t.",
+      "riderId": "alex-baudin"
     },
     {
       "position": 5,
@@ -43,7 +44,7 @@
   ],
   "narrative": {
     "headline": "Van der Poel wins heat-shortened Ussel battle in a four-up sprint",
-    "body": "Stage 9 was reduced from 185.5 km to 154.6 km by race directors due to a red canicule (heat-wave) alert in the Corrèze. From the shortened neutralised start in Malemort, early attackers — Quinten Hermans, Stefano Oldani, Alex Kirsch, Georg Steinhauser, and Ewen Costiou — were brought back before the intermediate sprint, which Mads Pedersen took ahead of Biniam Girmay. Mathieu van der Poel attempted to attack immediately after but could not get away.\n\nWith just under 100 km remaining, a large breakaway finally formed: Van der Poel, Tom Pidcock, Lennert Van Eetvelt, Marc Hirschi, Tobias Halland Johannessen, Tobias Foss, Derek Gee, Quinn Simmons, Alex Baudin, Valentin Paret-Peintre, Pablo Castrillo, Lars Craps, Ion Izagirre, Ewen Costiou, Jordan Jegat, and Clément Braz Afonso. Inside the break, Johannessen and Simmons attacked on the Suc au May climb, building a 30-second advantage. Pidcock gave chase with Gee and Van Eetvelt, while Van der Poel, Castrillo, and Baudin bridged across. The six chasers caught Johannessen and Simmons in the final kilometre of the climb, and the group of eight crested the summit 1'20'' ahead of the peloton.\n\nUAE Team Emirates led the bunch chase, later joined by Netcompany INEOS. The gap dipped below 1 minute on the Côte de la Croix de Pey before steadying near the 1-minute mark for several kilometres. On Mont Bessou, with 30 seconds separating the escapees from the peloton, Van der Poel accelerated sharply. He reached the summit with only Johannessen and Pidcock — the Briton having had a mechanical and then regained contact. Baudin also rejoined. Simmons and Gee sat up, leaving four at the front with 45 seconds over the peloton and 10 km to go.\n\nThe gap held as the four entered Ussel. Van der Poel led onto the rising finishing straight and launched his sprint inside the final 200 metres. Johannessen responded but could never come alongside. Pidcock held on for third, Baudin fourth. Behind, Filippo Ganna won the peloton sprint 6 seconds down in 5th, Mads Pedersen 6th. Pogačar crossed safely in 11th to retain the yellow jersey ahead of a rest day."
+    "body": "Stage 9 was reduced from 185.5 km to 154.6 km by race directors due to a red canicule (heat-wave) alert in the Corrèze. From the shortened neutralised start in Malemort, early attackers — Quinten Hermans, Stefano Oldani, Alex Kirsch, Georg Steinhauser, and Ewen Costiou — were brought back before the intermediate sprint, which Mads Pedersen took ahead of Biniam Girmay. Mathieu van der Poel attempted to attack immediately after but could not get away.\n\nWith just under 100 km remaining, a large breakaway finally formed: Van der Poel, Tom Pidcock, Lennert Van Eetvelt, Marc Hirschi, Tobias Halland Johannessen, Tobias Foss, Derek Gee, Quinn Simmons, Alex Baudin, Valentin Paret-Peintre, Pablo Castrillo, Lars Craps, Ion Izagirre, Ewen Costiou, Jordan Jegat, and Clément Braz Afonso. Inside the break, Johannessen and Simmons attacked on the Suc au May climb, building a 30-second advantage. Pidcock gave chase with Gee and Van Eetvelt, while Van der Poel, Castrillo, and Baudin bridged across. The six chasers caught Johannessen and Simmons in the final kilometre of the climb, and the group of eight crested the summit 1'20'' ahead of the peloton.\n\nUAE Team Emirates led the bunch chase, later joined by Netcompany INEOS. The gap dipped below 1 minute on the Côte de la Croix de Pey before steadying near the 1-minute mark for several kilometres. On Mont Bessou, with 30 seconds separating the escapees from the peloton, Van der Poel accelerated sharply. He reached the summit with only Johannessen and Pidcock — the Briton having had a mechanical and then regained contact. Baudin also rejoined. Simmons and Gee sat up, leaving four at the front with 45 seconds over the peloton and 10 km to go.\n\nThe gap held as the four entered Ussel. Van der Poel led onto the rising finishing straight and launched his sprint inside the final 200 metres. Johannessen responded but could never come alongside. Pidcock held on for third, Baudin fourth. Behind, Filippo Ganna won the peloton sprint 6 seconds down in 5th, Mads Pedersen 6th, Michael Matthews 7th. Pogačar crossed safely in 11th to retain the yellow jersey ahead of a rest day."
   },
   "gcImpact": {
     "headline": "GC unchanged — Pogačar retains yellow with the same gaps going into the rest day.",
@@ -83,6 +84,22 @@
       "incident": null
     },
     {
+      "riderId": "alex-baudin",
+      "name": "Alex Baudin",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "A strong showing from Baudin on a stage suited to his punchy climbing abilities. He was part of the main breakaway from the start and played a key bridging role on Suc au May, linking up with Van der Poel and Castrillo to catch the Johannessen/Simmons duo. Baudin then survived the Mont Bessou selection — briefly dropped when Van der Poel's surge split the group, but regained contact to form the decisive four-man lead group. He was unable to challenge Van der Poel in the uphill sprint but secured a well-earned 4th place, EF's best stage result of the 2026 Tour.",
+      "keyMoments": [
+        { "km": 57, "what": "Part of the main 16-man breakaway that formed with ~100 km to go" },
+        { "km": 130, "what": "Bridged with Van der Poel and Castrillo to the Johannessen/Simmons pair on Suc au May" },
+        { "km": 140, "what": "Survived Mont Bessou selection; part of final four into Ussel" },
+        { "km": 154.6, "what": "4th in Ussel sprint" }
+      ],
+      "incident": null
+    },
+    {
       "riderId": "filippo-ganna",
       "name": "Filippo Ganna",
       "team": "Netcompany INEOS Cycling Team",
@@ -109,6 +126,19 @@
         { "km": 154.6, "what": "6th in peloton sprint" }
       ],
       "incident": null
+    },
+    {
+      "riderId": "michael-matthews",
+      "name": "Michael Matthews",
+      "team": "Team Jayco AlUla",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:06",
+      "narrative": "Matthews finished 7th in the peloton sprint, confirming he remains one of the strongest finishers in the bunch on stages where the breakaway contests the win. On a day reduced to 154.6 km by the heat protocol, he conserved well and timed his effort in the sprint for 7th — a solid points-race result on a day with limited GC relevance.",
+      "keyMoments": [
+        { "km": 154.6, "what": "7th in peloton sprint" }
+      ],
+      "incident": null
     }
   ],
   "incidents": {},
@@ -124,6 +154,12 @@
       "url": "https://www.letour.fr/en/rankings/stage-9",
       "publication": "Tour de France Official Site",
       "title": "Official classifications of Tour de France 2026 — Stage 9",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/van-der-poel-rides-to-victory-in-tour-de-france-stage-nine-pogacar-retains-yellow",
+      "publication": "The Straits Times",
+      "title": "Mathieu van der Poel rides to victory in Tour de France Stage 9, Tadej Pogacar retains yellow",
       "lang": "en"
     }
   ]
