@@ -34743,8 +34743,8 @@
           ],
           "distance": 167,
           "date": "2026-07-14",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=1RCKK_G00GU",
           "description": "Bastille Day mountain stage in the Massif Central with summit finish at Le Lioran",
           "stageDetails": {
             "lastFetched": "2026-01-08T06:33:23.818Z",
@@ -34756,6 +34756,11 @@
               "Le Lioran ski station summit finish: short steep gradients suit puncheur-climbers.",
               "Often a breakaway day — GC teams may sit back ahead of the Alps and Vosges still to come."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-07-15"
           }
         },
         {
@@ -35668,8 +35673,8 @@
       "id": "tour-of-magnificent-qinghai-2026",
       "name": "Tour of Magnificent Qinghai",
       "description": "2.Pro cycling race in China",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=UInnP9lpdKo",
       "type": "full-race",
       "raceDate": "2026-07-05",
       "endDate": "2026-07-12",
@@ -35831,12 +35836,17 @@
             "hilly"
           ],
           "date": "2026-07-11",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=kwGaRBD4CCY",
           "description": "Day 7.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-07-15"
           }
         },
         {
@@ -35847,12 +35857,17 @@
             "flat"
           ],
           "date": "2026-07-12",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=1oTtY5yk1Io",
           "description": "Closing day.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Final stage. Sprint finale typical."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-07-15"
           }
         }
       ],
@@ -35896,7 +35911,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-07-15"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "hegau-gravel-festival-2026",
