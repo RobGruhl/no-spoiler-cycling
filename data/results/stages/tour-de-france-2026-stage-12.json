@@ -1,0 +1,114 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 12,
+  "stageName": "Circuit Nevers Magny-Cours → Chalon-sur-Saône",
+  "stageDate": "2026-07-16",
+  "stageType": "flat",
+  "researchedAt": "2026-07-16T19:23:00.000Z",
+  "tldr": "Tim Merlier claims his third stage win of the Tour de France in a sprint finish in Chalon-sur-Saône, edging Olav Kooij and Jasper Philipsen after a Gaviria crash disrupts the finale. The general classification remains unchanged with Tadej Pogačar holding a commanding overall lead.",
+  "podium": [
+    { "position": 1, "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "3h 38m 53s", "riderId": "tim-merlier" },
+    { "position": 2, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "olav-kooij" },
+    { "position": 3, "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t.", "riderId": "jasper-philipsen" },
+    { "position": 4, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "s.t.", "riderId": "biniam-girmay" },
+    { "position": 5, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Merlier makes it three — powers through Gaviria crash chaos to sprint to Chalon.",
+    "body": "Stage 12 of the 2026 Tour de France offered 179.1 kilometres of flat Burgundian countryside from the Formula 1 circuit at Magny-Cours to Chalon-sur-Saône — a textbook sprint day, but the finale provided anything but a clean script.\n\nBaptiste Veistroffer launched the day's move solo after 27 kilometres, building a two-minute gap over an unhurried peloton. Mads Pedersen took the intermediate sprint points, and a small pursuit group — Damiano Caruso, Ewen Costiou and Mattéo Vercher — bridged to Veistroffer at the 57-kilometre mark. Their collective lead never grew beyond one minute thirty, and with 62 kilometres remaining Veistroffer and Costiou pressed on ahead of the others, before Veistroffer continued alone into the final 50 kilometres.\n\nWith 35 kilometres to go, Quinn Simmons (Lidl-Trek) animated proceedings with a sharp attack on a short climb. Around a dozen riders followed, including Filippo Ganna, Florian Vermeersch, Georg Steinhauser, Daan Hoole, Fred Wright, Louis Vervaeke, Krists Neilands, Per Strand Hagenes, Davide Ballerini and Mathias Vacek. The group gobbled up Veistroffer, but with 24 kilometres remaining the peloton had reeled in all escapees. A subsequent attack by Simmons on the Côte de Montagny-lès-Buxy came to nothing, and the race was set for a bunch sprint.\n\nAlpecin-Premier Tech, spearheaded by Mathieu van der Poel, surged to the front in the final kilometre and set up a perfect train for Jasper Philipsen. Then, with 500 metres remaining, Fernando Gaviria crashed and brought down several riders in the middle of the peloton. Olav Kooij threaded through the chaos unscathed. Tim Merlier, briefly impeded, still found a path through and unleashed a devastating burst to claim his third stage victory of this Tour — his trademark late, powerful sprint leaving Kooij and Philipsen unable to respond. The general classification order is entirely unchanged, with Pogačar continuing to command the race."
+  },
+  "gcImpact": {
+    "headline": "GC undisturbed — Pogačar retains overall lead heading to Stage 13.",
+    "body": "No time changes among the general classification contenders on the flat transitional stage. Standings after Stage 12: 1. Tadej Pogačar (UAE Team Emirates XRG); 2. Jonas Vingegaard (Team Visma | Lease a Bike) +3:36; 3. Remco Evenepoel (Red Bull - BORA - hansgrohe) +4:06; 4. Juan Ayuso (Lidl-Trek) +4:22; 5. Paul Seixas (Decathlon CMA CGM Team) +4:35; 6. Florian Lipowitz (Red Bull - BORA - hansgrohe) +4:44; 7. Isaac del Toro (UAE Team Emirates XRG) +5:08; 8. Mattias Skjelmose (Lidl-Trek) +5:45; 9. Lenny Martinez (Bahrain Victorious) +6:34; 10. Thomas Pidcock (Pinarello-Q36.5 Pro Cycling Team) +11:49."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "A third Tour de France stage win for Merlier at this edition, demonstrating his consistency as the race's dominant sprinter. Despite being briefly caught up in the Gaviria crash chaos at 500 metres to go, Merlier maintained composure and his trademark late-burst sprint carried him clear of a crowded finish. His ability to accelerate through disruption and still find a gap past Van der Poel's train underscored his power advantage over the other sprinters this week. Three stage wins at one Tour is a significant mark.",
+      "keyMoments": [
+        { "km": 178, "what": "Gaviria crash at 500m disrupts final sprint; Merlier navigates through" },
+        { "km": 179, "what": "Powers through the sprint to beat Kooij and Philipsen for his third stage win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Kooij showed sharp bike-handling to thread through the Gaviria crash unscathed when others were caught out. He came close to a stage win but Merlier's late power was once again decisive. A consistent top-two performer in the sprint stages, Kooij — who won Stage 5 — continues to accumulate important results and points for his team.",
+      "keyMoments": [
+        { "km": 178, "what": "Avoids Gaviria crash at 500m and mounts his sprint" },
+        { "km": 179, "what": "Finishes second, cannot match Merlier's power in the closing metres" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Redemption of sorts for Philipsen after his relegation on Stage 11. Van der Poel's lead-out train was impeccable, delivering him into the sprint in the best possible position, but both Kooij and Merlier were stronger in the finale. Third place is a legitimate result on a day when the crash disrupted the ideal scenario.",
+      "keyMoments": [
+        { "km": 179, "what": "Finishes third on the road, result stands — no relegation this time" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "biniam-girmay",
+      "name": "Biniam Girmay",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "Girmay, wearing the green points jersey, took fourth in the sprint — a consistent performance that keeps his lead in the points classification secure. The Eritrean has been the most complete points competitor of the race, contesting every sprint and always finishing in the top group.",
+      "keyMoments": [
+        { "km": 179, "what": "Fourth in the sprint, strengthens his green jersey lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 9,
+      "gap": "s.t.",
+      "narrative": "Pedersen won the intermediate sprint earlier in the stage but could only manage ninth in the bunch finish. His teammate Simmons animated the race with attacks in the final 35 kilometres, but the moves came to nothing and Pedersen was left to contest the bunch sprint without a lead-out. Ninth is a modest return for a rider who has been one of the more aggressive presences in the race.",
+      "keyMoments": [
+        { "km": 95, "what": "Takes the intermediate sprint" },
+        { "km": 179, "what": "Finishes ninth in the bunch sprint" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "rider": "Fernando Gaviria", "kmFromFinish": 0.5, "description": "Crashed with approximately 500 metres remaining, bringing down several other riders and disrupting the sprint finale." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-12-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Tour de France 2026: Merlier powers to victory in Chalon-sur-Saône",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-12",
+      "publication": "ProCyclingStats",
+      "title": "2026 Tour de France Stage 12 Results",
+      "lang": "en"
+    }
+  ]
+}

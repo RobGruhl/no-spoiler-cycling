@@ -4,13 +4,13 @@
   "stageName": "Vichy → Nevers",
   "stageDate": "2026-07-15",
   "stageType": "flat",
-  "researchedAt": "2026-07-15T19:23:00.000Z",
+  "researchedAt": "2026-07-16T19:23:00.000Z",
   "tldr": "Søren Wærenskjold wins Stage 11 of the Tour de France with a long-range sprint in Nevers — the fastest stage in Tour history at 50.9 km/h — after Jasper Philipsen is relegated for impeding Pavel Bittner. Tadej Pogačar retains the yellow jersey and the general classification order is unchanged.",
   "podium": [
     { "position": 1, "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "time": "3h 10m 06s", "riderId": "soren-waerenskjold" },
     { "position": 2, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "olav-kooij" },
     { "position": 3, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." },
-    { "position": 4, "name": "Huub Artz", "team": "Lotto Dstny", "gap": "s.t." },
+    { "position": 4, "name": "Huub Artz", "team": "Lotto Intermarché", "gap": "s.t." },
     { "position": 5, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "s.t.", "riderId": "biniam-girmay" }
   ],
   "narrative": {
@@ -109,6 +109,12 @@
       "url": "https://www.rte.ie/sport/cycling/2026/0715/1583535-waerenskjold-wins-fastest-ever-tour-de-france-stage/",
       "publication": "RTÉ Sport",
       "title": "Waerenskjold wins fastest ever Tour de France stage",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-11",
+      "publication": "ProCyclingStats",
+      "title": "2026 Tour de France Stage 11 Results",
       "lang": "en"
     }
   ]
