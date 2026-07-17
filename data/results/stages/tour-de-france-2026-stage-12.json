@@ -4,7 +4,7 @@
   "stageName": "Circuit Nevers Magny-Cours → Chalon-sur-Saône",
   "stageDate": "2026-07-16",
   "stageType": "flat",
-  "researchedAt": "2026-07-16T19:23:00.000Z",
+  "researchedAt": "2026-07-17T19:23:00.000Z",
   "tldr": "Tim Merlier claims his third stage win of the Tour de France in a sprint finish in Chalon-sur-Saône, edging Olav Kooij and Jasper Philipsen after a Gaviria crash disrupts the finale. The general classification remains unchanged with Tadej Pogačar holding a commanding overall lead.",
   "podium": [
     { "position": 1, "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "3h 38m 53s", "riderId": "tim-merlier" },
@@ -94,6 +94,9 @@
   "incidents": {
     "crashes": [
       { "rider": "Fernando Gaviria", "kmFromFinish": 0.5, "description": "Crashed with approximately 500 metres remaining, bringing down several other riders and disrupting the sprint finale." }
+    ],
+    "abandons": [
+      { "rider": "Fernando Gaviria", "team": "Movistar Team", "reason": "fractured collarbone sustained in the sprint-finale crash" }
     ]
   },
   "quotes": [],
@@ -108,6 +111,12 @@
       "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-12",
       "publication": "ProCyclingStats",
       "title": "2026 Tour de France Stage 12 Results",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-de-france-2026-stage-12-tim-merlier-wins-chaotic-chalon-sur-saone-sprint-after-lidl-trek-tears-race-apart",
+      "publication": "Cycling Up To Date",
+      "title": "Results Tour de France 2026 Stage 12 — Tim Merlier wins chaotic Chalon-sur-Saône sprint",
       "lang": "en"
     }
   ]

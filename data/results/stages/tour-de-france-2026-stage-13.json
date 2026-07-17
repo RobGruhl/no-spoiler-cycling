@@ -1,0 +1,109 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 13,
+  "stageName": "Dole → Belfort",
+  "stageDate": "2026-07-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-07-17T19:23:00.000Z",
+  "tldr": "Mauro Schmid (Team Jayco AlUla) claims his first Tour de France stage win in a two-up sprint finish against Harold Tejada after breaking clear with 16 kilometres to go. Tom Pidcock finishes third from the breakaway, rocketing from 10th to 4th in the overall standings as the main peloton arrives 7 minutes 32 seconds adrift. Tadej Pogacar retains the yellow jersey.",
+  "podium": [
+    { "position": 1, "name": "Mauro Schmid", "team": "Team Jayco AlUla", "time": "4h 06m 58s" },
+    { "position": 2, "name": "Harold Tejada", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 3, "name": "Tom Pidcock", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "+0:02", "riderId": "thomas-pidcock" },
+    { "position": 4, "name": "Maxim Van Gils", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:02" },
+    { "position": 5, "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:02", "riderId": "brandon-mcnulty" }
+  ],
+  "narrative": {
+    "headline": "Schmid and Jayco break the duck as Pidcock rewrites the GC in Belfort.",
+    "body": "Stage 13, the Tour's longest parcours at 205.8 kilometres from Dole to Belfort, was scripted for a breakaway — and the peloton obliged. An early five-rider move by Kasper Asgreen, Michał Kwiatkowski, Louis Vervaeke, Georg Zimmermann and Alex Kirsch was chased down after 28 kilometres, but the race remained explosive. Shortly after, a group of 37 riders went clear, including Jasper Philipsen, Tom Pidcock, Brandon McNulty, Tim Wellens, Kévin Vauquelin, Maxim Van Gils, Mauro Schmid, and Fred Wright. The peloton continued to chase, only backing off when a second group of 20 riders — including Mads Pedersen, Harold Tejada, Michael Matthews, Biniam Girmay and Luke Plapp — bridged across to the leaders. The combined front group grew to roughly 57 riders while the peloton's deficit stretched beyond 8 minutes.\n\nWith Pidcock's Pinarello-Q36.5 team driving much of the tempo in what amounted to a small road race in front, the Briton and Team Jayco AlUla accumulated the most GC leverage. On the Ballon d'Alsace — the stage's principal climb beginning around 30km from the line — Pluimers and Craps launched early attacks that came to nothing. With 4km to the summit, Van Gils accelerated, immediately joined by Pidcock, Jegat, Vauquelin, Plapp, Schmid, McNulty, Tejada and Braz Afonso. Plapp led before the move was temporarily absorbed; Wellens bridged in the final kilometre before the summit, only to be immediately dropped by a fresh Pidcock surge. Pidcock crested the Ballon d'Alsace first, Schmid second, with the group at roughly 10 seconds on Wellens.\n\nThe 16km descent and flat run into Belfort proved decisive. Schmid and Tejada slipped clear of the nine-rider chase group and worked flawlessly together. Behind, Pidcock's group never found the rhythm to cut the gap, leaving the finish to Schmid versus Tejada. Colombia's Tejada launched the sprint with a powerful kick but the Swiss responded immediately, holding his line to take the victory — Jayco AlUla's first stage win of this Tour. Pidcock crossed 2 seconds later in third.\n\nThe peloton rolled in 7 minutes and 32 seconds after Schmid, leaving the general classification dramatically transformed: Pidcock, who had started the day 10th at 11 minutes 49 seconds, surged to 4th overall at 4 minutes 15 seconds — splitting apart the GC pack that had been almost undisturbed through two flat days. Stage 14 to Le Markstein Fellering, a true mountain stage, now looms as the week's first genuine GC test."
+  },
+  "gcImpact": {
+    "headline": "Pogacar retains yellow; Pidcock storms to 4th after stunning breakaway ride.",
+    "body": "The peloton's 7:32 deficit reshuffled the overall standings significantly. General classification after Stage 13: 1. Tadej Pogacar (UAE Team Emirates - XRG); 2. Jonas Vingegaard (Team Visma | Lease a Bike) +3:36; 3. Remco Evenepoel (Red Bull - BORA - hansgrohe) +4:06; 4. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +4:15 (up from 10th at +11:49); 5. Juan Ayuso (Lidl-Trek) +4:22; 6. Paul Seixas (Decathlon CMA CGM Team) +4:35; 7. Florian Lipowitz (Red Bull - BORA - hansgrohe) +4:44; 8. Isaac del Toro (UAE Team Emirates - XRG) +5:08; 9. Mattias Skjelmose (Lidl-Trek) +5:45; 10. Lenny Martinez (Bahrain Victorious) +6:34. Seven riders are now separated by just over 1 minute 30 seconds in the battle for second place, with Stage 14 to Le Markstein set to create further separations."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:02",
+      "narrative": "Pidcock delivered one of the defining rides of his Tour de France campaign on Stage 13, jumping from 10th overall at +11:49 to 4th at +4:15 — a gain of 7 minutes 34 seconds on the peloton. His Pinarello-Q36.5 team drove the pace of the big breakaway group for much of the day, and on the Ballon d'Alsace climb Pidcock was the aggressor: he crested the summit first and pushed hard on the descent. He could not claw back Schmid and Tejada in the run-in to Belfort, but third place at +0:02 meant a massive haul. With GC rivals Vingegaard, Evenepoel, Ayuso and Pogacar all in the peloton 7:32 behind, Pidcock is now a genuine top-four contender heading into the Alps.",
+      "keyMoments": [
+        { "km": 174, "what": "Crests the Ballon d'Alsace first, drops Wellens with a sharp acceleration" },
+        { "km": 190, "what": "Chase group cannot close the Schmid-Tejada gap with 15km to go" },
+        { "km": 206, "what": "Finishes third, moves from 10th (+11:49) to 4th (+4:15) in GC" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "UAE Team Emirates - XRG",
+      "role": "helper",
+      "position": 5,
+      "gap": "+0:02",
+      "narrative": "McNulty was UAE's presence in the big breakaway, joining the front group early alongside Tim Wellens. He was active over the Ballon d'Alsace and part of the chasing group behind Schmid and Tejada, finishing 5th on the stage. With Pogacar safely in the peloton and the yellow jersey secure, McNulty's role in the break was tactical — keeping a UAE wheel at the front — rather than for personal GC gain.",
+      "keyMoments": [
+        { "km": 174, "what": "Part of the nine-rider group over the Ballon d'Alsace summit" },
+        { "km": 206, "what": "Fifth on the stage in the chasing group at +0:02" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogacar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "+7:32",
+      "narrative": "Pogacar rode conservatively in the peloton on a stage that offered no GC opportunities. With UAE having men up the road in the breakaway and no points or time to fight for, he finished with the bunch at 7:32 down. The yellow jersey lead remains intact — Vingegaard still at +3:36 — and with Stage 14 (Le Markstein) tomorrow, Pogacar will have saved his legs for the first genuine mountain battle of the race.",
+      "keyMoments": [
+        { "km": 206, "what": "Arrives in peloton at +7:32, retains yellow jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": "+7:32",
+      "narrative": "Vingegaard was in the peloton for Stage 13 and lost no time to Pogacar, maintaining his deficit of 3 minutes 36 seconds. No Visma rider was in the breakaway. The unchanged GC means tomorrow's Stage 14 to Le Markstein is the first real occasion Vingegaard will test himself in the mountains at this Tour.",
+      "keyMoments": [
+        { "km": 206, "what": "Arrives in peloton at +7:32, gap to Pogacar unchanged at 3:36" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    {
+      "speaker": "Mauro Schmid",
+      "text": "I can't believe it. It was an incredibly hard day right from the start. The whole team was motivated to get into the breakaway. We'd tried several times over the last few days, but things hadn't gone according to plan until now. I felt good from the start, it was just full gas from the very first minute.",
+      "source": "Reuters"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-13-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Tour de France 2026: Schmid outguns Tejada in two-up sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.reuters.com/sports/schmid-claims-victory-tour-de-france-stage-13-pogacar-stays-yellow-2026-07-17/",
+      "publication": "Reuters",
+      "title": "Schmid claims victory in Tour de France stage 13, Pogacar stays in yellow",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-de-france-2026-stage-13-mauro-schmid-wins-breakaway-bonanza-in-belfort-whilst-tom-pidcock-enters-podium-fight",
+      "publication": "Cycling Up To Date",
+      "title": "Results Tour de France 2026 stage 13 — Mauro Schmid wins breakaway bonanza in Belfort",
+      "lang": "en"
+    }
+  ]
+}
