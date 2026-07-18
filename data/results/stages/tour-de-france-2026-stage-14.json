@@ -1,0 +1,229 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 14,
+  "stageName": "Mulhouse → Le Markstein",
+  "stageDate": "2026-07-18",
+  "stageType": "mountain",
+  "researchedAt": "2026-07-18T19:23:00.000Z",
+  "tldr": "Tadej Pogacar accelerates through the crowd-lined final ramps of the Col du Haag with 1.6 kilometres to the summit and solos to his fourth stage win of this Tour. Isaac del Toro sprints to second ahead of Paul Seixas, with Jonas Vingegaard fourth. Pogacar extends his overall lead to 4 minutes 30 seconds.",
+  "podium": [
+    { "position": 1, "name": "Tadej Pogacar", "team": "UAE Team Emirates - XRG", "time": "4h 00m 07s", "riderId": "tadej-pogacar" },
+    { "position": 2, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+0:38", "riderId": "isaac-del-toro" },
+    { "position": 3, "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "paul-seixas" },
+    { "position": 4, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "gap": "+0:44", "riderId": "jonas-vingegaard" },
+    { "position": 5, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:48", "riderId": "remco-evenepoel" }
+  ],
+  "narrative": {
+    "headline": "Pogacar reigns on Col du Haag for his fourth stage win in the Vosges.",
+    "body": "Stage 14's 155.3 kilometres from Mulhouse to Le Markstein opened with an intermediate sprint — Jasper Philipsen edging Mads Pedersen and Max Kanter while Tim Merlier stayed back, appearing to withdraw from the green-jersey fight. The racing exploded on the Grand Ballon, the day's first Category 1 climb at 21 kilometres. UAE did not chase early attacks, allowing around 38 riders to move clear, a group that included Richard Carapaz, Valentin Paret-Peintre, Ben Healy, Tobias and Anders Halland Johannessen, and Tom Pidcock's Pinarello-Q36.5 contingent. Paret-Peintre claimed maximum mountain points on the Grand Ballon — a move that would define his day — while the peloton trailed by just over a minute and a half.\n\nEiner Rubio bridged to the leaders on the Col du Page, while Thymen Arensman punctured and lost contact. Carapaz and Ben Healy briefly took a wrong turn at the start of the Ballon d'Alsace but rejoined the lead group; Paret-Peintre swept the KOM points there too as UAE began lifting the pace in the peloton. Healy then cracked on the Col du Hundsruck and Anders Halland Johannessen dropped just before the Col du Haag. At the foot of the final climb, the peloton was 1 minute 15 seconds behind the leaders.\n\nOn the Col du Haag (11.2 kilometres, Category 1), Decathlon's Tiesj Benoot and Nicolas Prodhomme set a withering tempo that thinned the peloton to around 15 riders. Sepp Kuss took over when UAE's Brandon McNulty and Adam Yates were dropped. Florian Lipowitz attacked at 11 kilometres with Paul Seixas on his wheel; Kuss shut them down and Jonas Vingegaard then drove the GC group hard, shedding Mattias Skjelmose, Lenny Martínez, and eventually Remco Evenepoel and Isaac del Toro with around 4 kilometres left. Carapaz and Tobias Halland Johannessen, who had been caught by the peloton, launched off the front but were reabsorbed.\n\nWith 1.6 kilometres to the summit, the gradient steepened past 16% and Pogacar detonated through the crowd, opening a gap that never closed. He crested the Col du Haag 25 seconds clear of Vingegaard and Seixas, with del Toro a few seconds further. On the short plateau and 5-kilometre run to the finish, Pogacar doubled his lead. Del Toro bridged across to Seixas and Vingegaard, then sprinted to second place — UAE's teammate delivering a one-two — while Seixas took a popular French podium and Vingegaard rolled in fourth."
+  },
+  "gcImpact": {
+    "headline": "Pogacar widens lead; Seixas surges to 4th; Pidcock falls from 4th to 9th.",
+    "body": "General classification after Stage 14: 1. Tadej Pogacar (UAE Team Emirates - XRG); 2. Jonas Vingegaard (Team Visma | Lease a Bike) +4:30 (was +3:36 — lost 54s today); 3. Remco Evenepoel (Red Bull - BORA - hansgrohe) +5:04 (was +4:06 — lost 58s); 4. Paul Seixas (Decathlon CMA CGM Team) +5:19 (was +4:35 — gained two places); 5. Juan Ayuso (Lidl-Trek) +5:22 (was +4:22); 6. Florian Lipowitz (Red Bull - BORA - hansgrohe) +5:44 (was +4:44); 7. Isaac del Toro (UAE Team Emirates - XRG) +5:50 (was +5:08); 8. Mattias Skjelmose (Lidl-Trek) +7:35 (was +5:45 — lost 1:50); 9. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +7:59 (was +4:15 — lost 3:44, falling five places); 10. Lenny Martínez (Bahrain Victorious) +8:25 (was +6:34). Pogacar's lead over Vingegaard grew from 3:36 to 4:30 on a single stage — a significant tightening of his grip on the yellow jersey entering the Alps."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogacar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Pogacar delivered a masterclass of patience before an explosive summit finale. UAE drove the peloton tempo on every climb without burning Pogacar's legs unnecessarily — Kuss, McNulty, Yates, and del Toro all took turns at the front before the final climb. When the gradient hit 16% with 1.6km to the summit of the Col du Haag, Pogacar's acceleration was decisive and immediate, and no rival could respond. He crested the summit 25 seconds clear, extended the gap on the descent, and won by 38 seconds. His fourth stage win of this Tour equals his haul from 2024. The overall lead is now 4:30 — with the Alps still to come, the race is moving firmly toward a third consecutive title.",
+      "keyMoments": [
+        { "km": 140, "what": "UAE sets tempo with Kuss leading on Col du Haag, McNulty and Yates already dropped" },
+        { "km": 149.7, "what": "Explosive attack at 16% gradient with 1.6km to summit — rivals cannot respond" },
+        { "km": 151.3, "what": "Summits Col du Haag 25 seconds clear, then stretches lead on plateau" },
+        { "km": 155.3, "what": "Solos to finish 38 seconds ahead of del Toro; 4th stage win of 2026 Tour" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:44",
+      "narrative": "Vingegaard drove hard on the Col du Haag after Decathlon set the initial pace — he expelled Skjelmose, Martínez, Evenepoel and del Toro from the front group. But when Pogacar fired his attack through the crowd at 1.6km from the summit, Vingegaard could not follow. He crossed the top with Seixas at roughly 20 seconds behind Pogacar and rolled in fourth at +0:44. His deficit to Pogacar has grown from 3:36 to 4:30 — meaningful, but with the Alps ahead, Vingegaard will bank on a better day in higher mountains.",
+      "keyMoments": [
+        { "km": 142, "what": "Takes over pace-setting on Col du Haag, thins the GC group" },
+        { "km": 149.7, "what": "Cannot follow Pogacar's attack at 1.6km to summit" },
+        { "km": 155.3, "what": "Fourth at +0:44; GC gap to Pogacar widens to 4:30" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:38",
+      "narrative": "Del Toro was dropped from the lead group with Evenepoel around 4 kilometres from the summit of Col du Haag, but showed resilience by closing back on Seixas and Vingegaard after the summit, then winning the sprint for second with a well-timed acceleration. It was his second stage win of this Tour (after Stage 2) and continues a remarkable debut Tour for the young Mexican. Despite the second place, his GC position fell slightly to 7th (+5:50) as rivals in the original break gained more time.",
+      "keyMoments": [
+        { "km": 148, "what": "Dropped from lead group with Evenepoel on final ramps" },
+        { "km": 151.3, "what": "Closes on Seixas and Vingegaard after summit" },
+        { "km": 155.3, "what": "Sprints to second — second stage win of 2026 Tour" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:38",
+      "narrative": "Seixas had a day of immense team and personal significance: his Decathlon CMA CGM squad drove the opening tempo through Benoot and Prodhomme on the Col du Haag, thinning the field. He survived Vingegaard's attacks in the GC group and Pogacar's final acceleration — finishing third on the stage and jumping from 6th to 4th in the GC (+5:19). He also keeps the white jersey as best young rider. A locally popular result for the French rider in his home mountains.",
+      "keyMoments": [
+        { "km": 137, "what": "Decathlon drives pace via Benoot and Prodhomme on Col du Haag" },
+        { "km": 144, "what": "Attacked alongside Lipowitz at 11km; shut down by Kuss" },
+        { "km": 155.3, "what": "Third at s.t. with del Toro; moves to 4th in GC at +5:19; retains white jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:48",
+      "narrative": "Evenepoel could not follow when del Toro was also dropped around 4 kilometres from the summit, losing contact with the leading trio of Pogacar, Vingegaard, and Seixas. He finished fifth at +0:48, retaining third in GC at +5:04 — but the gap to second place (Vingegaard) has actually shrunk slightly, making the fight for the podium tighter.",
+      "keyMoments": [
+        { "km": 148, "what": "Dropped alongside del Toro around 4km from summit" },
+        { "km": 155.3, "what": "Fifth at +0:48; retains 3rd in GC at +5:04" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl-Trek",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:50",
+      "narrative": "Ayuso was shed from the GC lead group in the final kilometres of the Col du Haag and finished sixth at +0:50. He remains fifth in GC at +5:22, exactly 1 minute behind Pogacar's eventual winning margin over Vingegaard — tight enough that Ayuso still has work to do in the Alps.",
+      "keyMoments": [
+        { "km": 155.3, "what": "Sixth at +0:50; 5th in GC at +5:22" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "florian-lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 7,
+      "gap": "+0:50",
+      "narrative": "Lipowitz launched the first attack on Col du Haag at 11 kilometres, joined by Seixas — an aggressive move that Sepp Kuss of UAE closed down. After that effort he finished seventh at +0:50 (s.t. with Ayuso). He stays 6th in GC at +5:44.",
+      "keyMoments": [
+        { "km": 144, "what": "Attacks with Seixas at 11km to go on Col du Haag; caught by Kuss" },
+        { "km": 155.3, "what": "Seventh at +0:50 s.t. with Ayuso; 6th GC at +5:44" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+1:18",
+      "narrative": "Carapaz animated the early break throughout the stage and launched a solo attack on Col du Haag at around 8 kilometres to the summit. He was caught and reabsorbed by the chasing GC group before the summit. Finished 8th at +1:18. Together with Ben Healy, Carapaz also briefly took a wrong turn at the start of the Ballon d'Alsace, but both managed to rejoin without losing the lead group.",
+      "keyMoments": [
+        { "km": 110, "what": "In lead break alongside Paret-Peintre, Healy, and Johannessen twins" },
+        { "km": 143, "what": "Launches solo attack at 8km to summit of Col du Haag; initially goes clear" },
+        { "km": 150, "what": "Caught and reabsorbed by GC group before summit" },
+        { "km": 155.3, "what": "Eighth at +1:18" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "role": "leader",
+      "position": 10,
+      "gap": "+1:40",
+      "narrative": "Skjelmose was among the riders dropped when Vingegaard set a hard pace on Col du Haag, finishing 10th at +1:40 s.t. with Tobias Halland Johannessen. His GC gap to Pogacar widened from +5:45 to +7:35, losing almost two minutes on this single stage — a significant setback for his overall ambitions.",
+      "keyMoments": [
+        { "km": 145, "what": "Dropped from GC group as Vingegaard raises the pace" },
+        { "km": 155.3, "what": "10th at +1:40 s.t.; GC drops from 9th at +5:45 to 8th at +7:35" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Pidcock was present in the large early breakaway that formed on the Grand Ballon, but the group was caught by the charging UAE-led peloton before the Col du Haag. On the final climb, he was unable to follow the GC pace and finished deep in the chasing groups. His GC deficit grew from +4:15 to +7:59 — a loss of 3:44 to Pogacar on the day — and he fell from 4th to 9th overall. Stage 13's spectacular gain was significantly erased on the first true mountain day. Pidcock now trails the main GC group by nearly 2:30 in an effort to re-enter the top five.",
+      "keyMoments": [
+        { "km": 38, "what": "In the large early break that forms over the Grand Ballon" },
+        { "km": 130, "what": "Break caught; Pidcock's group absorbed by the peloton" },
+        { "km": 155.3, "what": "Finishes in chasing group; falls from 4th to 9th in GC at +7:59" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "UAE Team Emirates - XRG",
+      "role": "helper",
+      "position": null,
+      "gap": null,
+      "narrative": "McNulty contributed UAE's early pace-setting in the peloton alongside Adam Yates and Sepp Kuss, but was dropped before Pogacar's final attack on the Col du Haag. His role was fulfilled — the yellow jersey was protected and del Toro unleashed.",
+      "keyMoments": [
+        { "km": 138, "what": "Dropped from the GC peloton on Col du Haag before the final selection" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "ben-healy",
+      "name": "Ben Healy",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Healy was in the lead break from the Grand Ballon alongside Carapaz, Paret-Peintre, and the Johannessen brothers. He briefly went the wrong way with Carapaz at the start of the Ballon d'Alsace, but they rejoined. Healy cracked on the Col du Hundsruck and was unable to continue with the leaders, finishing in a group behind the final GC selection.",
+      "keyMoments": [
+        { "km": 110, "what": "In five-man front group: Carapaz, Paret-Peintre, Healy, T. Johannessen, A. Johannessen" },
+        { "km": 118, "what": "Takes wrong turn with Carapaz at Ballon d'Alsace start; both rejoin" },
+        { "km": 132, "what": "Drops from leaders on Col du Hundsruck" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    {
+      "speaker": "Tadej Pogacar",
+      "text": "A really perfect day, we marked this stage since the beginning. I know it very well, it is beautiful and an incredible place for cycling.",
+      "source": "Reuters"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-14-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Tour de France 2026: Four and counting! Pogacar triumphs in Le Markstein",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.reuters.com/sports/pogacar-rides-solo-win-tour-de-france-stage-14-increase-overall-lead-2026-07-18/",
+      "publication": "Reuters",
+      "title": "Pogacar rides to solo win on Tour de France stage 14 to increase overall lead",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-de-france-2026-stage-14-tadej-pogacar-reaffirms-tour-dominance-with-col-du-haag-attack-and-fourth-stage-win",
+      "publication": "Cycling Up To Date",
+      "title": "Results Tour de France 2026 stage 14 — Tadej Pogacar reaffirms Tour dominance with Col du Haag attack and fourth stage win",
+      "lang": "en"
+    }
+  ]
+}
