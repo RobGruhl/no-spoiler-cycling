@@ -1,0 +1,198 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 15,
+  "stageName": "Champagnole → Plateau de Solaison",
+  "stageDate": "2026-07-19",
+  "stageType": "mountain",
+  "researchedAt": "2026-07-19T19:23:00.000Z",
+  "tldr": "Remco Evenepoel claims his first major mountain stage win at the Tour de France, neutralising two attacks from Isaac del Toro before sprinting to victory on the Plateau de Solaison, with Tadej Pogacar crossing in the same time. Jonas Vingegaard crashed at 20 kilometres to go and abandoned the race with a suspected fractured collarbone. Pogacar retains the yellow jersey; Evenepoel rises to second overall.",
+  "podium": [
+    { "position": 1, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "4h 23m 09s", "riderId": "remco-evenepoel" },
+    { "position": 2, "name": "Tadej Pogacar", "team": "UAE Team Emirates - XRG", "gap": "s.t.", "riderId": "tadej-pogacar" },
+    { "position": 3, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+0:06", "riderId": "isaac-del-toro" },
+    { "position": 4, "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "+0:58", "riderId": "paul-seixas" },
+    { "position": 5, "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t.", "riderId": "florian-lipowitz" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel sprints to first Tour mountain stage win as Vingegaard abandons after crash.",
+    "body": "Stage 15's 183.9 kilometres from Champagnole to the Plateau de Solaison was marked by drama from the opening kilometres. Overnight, Jonas Vingegaard underwent a doping test at 2am and Tadej Pogacar at 5am — Pogacar would later note he had slept just four hours. Team Visma | Lease a Bike arrived at the start with clear tactical intent: push Pogacar's fatigue and test the yellow jersey early.\n\nAfter an intermediate sprint in which Jasper Philipsen clawed five points back from Mads Pedersen, a 24-rider breakaway formed on the flat run-in to the climbs, featuring Tom Pidcock, Egan Bernal, Quinn Simmons, Ilan van Wilder, Ben Healy, Mauro Schmid, Ewen Costiou, Adam Yates, Einer Rubio, and others. Visma kept the gap at no more than two minutes rather than letting the break go. On the Col de la Croisette (the stage's key intermediate climb), Pidcock drilled the pace and shattered the breakaway, with Simmons escaping to crest five seconds ahead of Pidcock, Yannis Voisard, Yates, and Rubio. On the descent of the Côte du Mont, Schmid and Costiou rejoined the lead group.\n\nWith 20 kilometres to the summit finish, the stage — and the race — changed irreversibly. Jonas Vingegaard and Isaac del Toro were caught in the same crash on a technical section while Visma was setting a high pace in the peloton. Del Toro remounted and rejoined the GC group; Vingegaard, immediately in pain, did not — his withdrawal confirmed shortly afterward with a suspected fractured collarbone. Visma, without their leader, abandoned the front of the race.\n\nRed Bull - BORA - hansgrohe continued chasing to set up Evenepoel on the start of the Plateau de Solaison's 11-kilometre ascent. Pogacar then assumed control of the GC group, lifting the pace until only del Toro and Evenepoel could follow. The trio bridged to the remnants of the breakaway (Simmons leading the charge) with 5.5 kilometres remaining, sweeping through the exhausted escapees. Inside the final kilometre, del Toro attacked twice; both times Evenepoel accelerated onto his wheel and shut the move down. Half a kilometre from the line, Evenepoel launched his sprint, Pogacar settled for second without contesting, and del Toro crossed six seconds down."
+  },
+  "gcImpact": {
+    "headline": "Vingegaard abandons; Evenepoel to second, del Toro to third.",
+    "body": "General classification after Stage 15: 1. Tadej Pogacar (UAE Team Emirates - XRG); 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +5:00; 3. Isaac del Toro (UAE Team Emirates - XRG) +5:58; 4. Paul Seixas (Decathlon CMA CGM Team) +6:23; 5. Florian Lipowitz (Red Bull - BORA - hansgrohe) +6:48; 6. Juan Ayuso (Lidl-Trek) +7:25; 7. Mattias Skjelmose (Lidl-Trek) +9:38; 8. Lenny Martinez (Bahrain Victorious) +10:28; 9. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +10:56. Jonas Vingegaard (Team Visma | Lease a Bike) abandoned — DNF. Evenepoel's rise to second and del Toro's jump to third reshape the podium battle with the Alps not yet finished."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "A landmark win for Evenepoel: his first major mountain stage victory at the Tour de France. Red Bull - BORA - hansgrohe set the early tempo after Vingegaard's crash, and Evenepoel showed his tactical patience throughout the final climb, letting Pogacar dictate the pace while staying glued to his wheel. When del Toro attacked inside the final kilometre — twice — Evenepoel covered each move immediately and never allowed a gap to open. Half a kilometre from the line he launched his sprint, powerful enough that Pogacar did not respond. The win also moved him from third to second in the overall classification.",
+      "keyMoments": [
+        { "km": 164, "what": "Vingegaard and del Toro crash; Evenepoel in GC group and unscathed" },
+        { "km": 178.4, "what": "Trio (Pogacar, del Toro, Evenepoel) bridges to Simmons-led breakaway remnants" },
+        { "km": 183.3, "what": "Covers del Toro's first attack inside final km" },
+        { "km": 183.6, "what": "Covers second del Toro attack then launches own sprint 500m from line" },
+        { "km": 183.9, "what": "Wins by sprint margin; Pogacar second s.t.; del Toro third +0:06" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogacar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Pogacar controlled the stage from the GC group, accelerating on the Plateau de Solaison to shred all rivals except del Toro and Evenepoel. After the three bridged to the breakaway, Pogacar appeared to conserve energy in the final kilometre — he covered neither of del Toro's attacks nor contested Evenepoel's sprint, settling for second. Whether the overnight doping test and four hours of sleep affected his final kick is debatable; he remains firmly in yellow with a 5:00 advantage over Evenepoel.",
+      "keyMoments": [
+        { "km": 164, "what": "Visma abandons front after Vingegaard crash; Pogacar takes control of pace" },
+        { "km": 178.4, "what": "Trio bridges to breakaway with del Toro and Evenepoel as only followers" },
+        { "km": 183.9, "what": "Second in sprint, s.t.; retains yellow jersey, leads by 5:00" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:06",
+      "narrative": "Del Toro's stage was defined by two crashes and two attacks. He first hit the deck alongside Vingegaard with 20 kilometres to go — remounting and rejoining the GC group quickly. He then followed Pogacar's acceleration on the final climb as the only UAE rider (along with Evenepoel) who could stay with the yellow jersey. In the final kilometre he attacked twice in an attempt to shed Evenepoel; both were neutralised. He crossed six seconds down, still delivering a strong result and climbing from seventh to third in the overall classification.",
+      "keyMoments": [
+        { "km": 164, "what": "Crashes alongside Vingegaard in peloton incident; remounts and rejoins GC group" },
+        { "km": 178.4, "what": "One of only three riders to bridge to front with Pogacar and Evenepoel" },
+        { "km": 183.3, "what": "Attacks inside final km; shut down by Evenepoel" },
+        { "km": 183.6, "what": "Second attack; again covered; crosses +0:06 behind sprint winner" }
+      ],
+      "incident": "Crashed at 164km to go in same incident as Vingegaard; remounted and finished"
+    },
+    {
+      "riderId": "jonas-vingegaard",
+      "name": "Jonas Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Vingegaard's Tour ended on Stage 15. Visma had been pushing a high tempo to test Pogacar's fatigue following his overnight doping test. With 20 kilometres remaining, Vingegaard hit the deck in the same incident as del Toro on a technical section of the descent. He immediately showed signs of serious injury and withdrew shortly after, confirmed with a suspected fractured collarbone. At the point of his crash he was second overall at +4:30 — the race's closest rival to Pogacar.",
+      "keyMoments": [
+        { "km": 164, "what": "Crashes in technical descent section; immediately appears in significant pain" },
+        { "km": 164, "what": "Abandons the 2026 Tour de France — DNF, suspected fractured collarbone" }
+      ],
+      "incident": "Abandoned Tour de France after crash with 20km to go; suspected fractured collarbone"
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+0:58",
+      "narrative": "Seixas finished fourth for the second consecutive stage, arriving nearly a minute behind the podium trio. He was unable to follow when Pogacar ramped the pace on the Plateau de Solaison, chasing from behind along with Lipowitz. His overall position stays at fourth (+6:23), though the gap to del Toro in third has grown slightly.",
+      "keyMoments": [
+        { "km": 183.9, "what": "Finishes fourth at +0:58; fourth in GC +6:23" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "florian-lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Lipowitz came in fifth at the same time as Seixas, roughly a minute down on the stage winner. He rises one place in the GC to fifth overall (+6:48) with Vingegaard's abandon, and remains the second Red Bull - BORA - hansgrohe rider in the top five alongside stage winner Evenepoel.",
+      "keyMoments": [
+        { "km": 183.9, "what": "Fifth, s.t. with Seixas; moves to fifth GC +6:48" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martinez",
+      "team": "Bahrain Victorious",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "+1:57",
+      "narrative": "Martinez finished sixth, nearly two minutes down on the winner, but moved up to eighth in the overall classification (+10:28) as Vingegaard's abandon reshuffled the standings. A solid day for the young French climber on a demanding Alpine summit finish.",
+      "keyMoments": [
+        { "km": 183.9, "what": "Sixth at +1:57; climbs to eighth GC +10:28" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "s.t.",
+      "narrative": "Skjelmose came in seventh at the same time as Martinez, finishing at the same point as several GC rivals who had been dropped from the top trio. He moves to seventh overall (+9:38) with Vingegaard's withdrawal.",
+      "keyMoments": [
+        { "km": 183.9, "what": "Seventh, s.t. with Martinez; seventh GC +9:38" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+2:00",
+      "narrative": "Ayuso finished eighth, two minutes down on the stage. He moves to sixth in the overall classification (+7:25) after Vingegaard's abandon rearranged the standings.",
+      "keyMoments": [
+        { "km": 183.9, "what": "Eighth at +2:00; sixth GC +7:25" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "adam-yates",
+      "name": "Adam Yates",
+      "team": "UAE Team Emirates - XRG",
+      "role": "helper",
+      "position": 9,
+      "gap": "s.t.",
+      "narrative": "Yates was one of the UAE riders in the 24-man breakaway, supporting the team's presence up the road while Pogacar was in the peloton. He was eventually absorbed by the GC group. Ninth place at the same time as Ayuso.",
+      "keyMoments": [
+        { "km": 45, "what": "Part of 24-rider breakaway with UAE support role" },
+        { "km": 183.9, "what": "Ninth, s.t. with Ayuso" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Pidcock was the driving force of the breakaway, setting the tempo on the Col de la Croisette and briefly leading the race with around 9km to go on the Plateau de Solaison. However, the GC trio's pace on the final climb proved too fast and Pidcock was overtaken. He finished outside the top 10, losing nearly three minutes on the stage, and slips from ninth to ninth in the GC but at a widened gap of +10:56.",
+      "keyMoments": [
+        { "km": 90, "what": "Leads the pace in 24-rider breakaway on Col de la Croisette" },
+        { "km": 175, "what": "Still leading 9km from summit but overtaken by GC trio" },
+        { "km": 183.9, "what": "Finishes outside top 10; ninth GC +10:56 (was +7:59)" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "jonas-vingegaard", "reason": "crash — suspected fractured collarbone, 20km from finish" }
+    ],
+    "crashes": [
+      { "riderId": "jonas-vingegaard", "km": 164, "detail": "Technical descent section; race-ending crash" },
+      { "riderId": "isaac-del-toro", "km": 164, "detail": "Same incident as Vingegaard; remounted and finished" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-15-results-tdf-2026/", "publication": "Cycling Stage", "title": "Tour de France 2026: Evenepoel triumphs at Plateau de Solaison", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-france-2026-stage-15-remco-evenepoel-beats-tadej-pogacar-on-plateau-de-solaison-as-jonas-vingegaard-crashes-out-of-the-tour-de-france", "publication": "Cycling Up To Date", "title": "Results Tour de France 2026 stage 15 - Remco Evenepoel beats Tadej Pogacar on Plateau de Solaison as Jonas Vingegaard crashes out of the Tour de France", "lang": "en" },
+    { "url": "https://www.bicycling.com/tour-de-france/a71773141/tour-de-france-2026-stage-15-results/", "publication": "Bicycling", "title": "Vingegaard Abandons Tour de France After Stage 15 Crash", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-gc-standings-2026/", "publication": "Cycling News", "title": "Tour de France GC standings: Dramatic stage 15 delivers change in...", "lang": "en" }
+  ]
+}
