@@ -1,0 +1,138 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 16,
+  "stageName": "Évian-les-Bains → Thonon-les-Bains",
+  "stageDate": "2026-07-21",
+  "stageType": "itt",
+  "researchedAt": "2026-07-21T19:27:59.000Z",
+  "tldr": "Remco Evenepoel dominated the 26.1km individual time trial in 32:19, claiming back-to-back stage wins and trimming the gap to GC leader Tadej Pogačar by 28 seconds. Teammate Florian Lipowitz crashed 6km from the finish and abandoned the race.",
+  "podium": [
+    { "position": 1, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "32m 19s", "riderId": "remco-evenepoel" },
+    { "position": 2, "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "gap": "+0:28", "riderId": "tadej-pogacar" },
+    { "position": 3, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "+1:04", "riderId": "mattias-skjelmose-jensen" },
+    { "position": 4, "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "+1:16", "riderId": "paul-seixas" },
+    { "position": 5, "name": "Isaac Del Toro", "team": "UAE Team Emirates - XRG", "gap": "+1:21", "riderId": "isaac-del-toro" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel's TT masterclass brings back-to-back stage wins.",
+    "body": "Stage 16 — the only individual time trial of the 2026 Tour — sent riders 26.1 kilometres from Évian-les-Bains along Lake Geneva to Thonon-les-Bains, with a category 2 climb up the Côte de Larringes (16.4km) before a technical descent and fast closing kilometres into town.\n\nBruno Armirail set an early benchmark of 34:14, quickly bettered by Mattia Cattaneo in 34:01. Mattias Skjelmose then stormed through to take the provisional lead, but with over a minute in hand, the stage was ultimately decided by the last two riders to roll down the start ramp.\n\nRemco Evenepoel, starting second to last, was already 16 seconds quicker than Pogačar at the third checkpoint. He then accelerated through the flat finale to stop the clock at 32:19 — nearly half a minute faster than anyone else. Pogačar, who had a wobble at the same sharp corner near the finish where teammate Lipowitz crashed, crossed in 32:47 for second place.\n\nThe tragedy of the day was Florian Lipowitz, who slid into the kerb on a right-hand bend with 6km remaining and was unable to continue, reportedly with a shoulder injury. The German, who had been fifth in the overall standings, abandoned the race — ending what had been a promising Tour debut in a GC top-five spot."
+  },
+  "gcImpact": {
+    "headline": "Pogačar retains yellow; Evenepoel closes to 4:32.",
+    "body": "General classification after Stage 16: 1. Tadej Pogačar (UAE Team Emirates - XRG) 56h 14m 18s; 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +4:32; 3. Isaac del Toro (UAE Team Emirates - XRG) +6:51; 4. Paul Seixas (Decathlon CMA CGM Team) +7:11; 5. Juan Ayuso (Lidl-Trek) +9:22; 6. Mattias Skjelmose (Lidl-Trek) +10:14; 7. Lenny Martinez (Bahrain Victorious) +12:50; 8. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +12:58. Florian Lipowitz (Red Bull - BORA - hansgrohe) abandoned — DNF. Evenepoel's stage win trimmed his GC deficit from 5:00 to 4:32; three Alpine stages remain before Paris."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "World and Olympic time trial champion Evenepoel produced the performance of the day, stopping the clock at 32:19 to be nearly half a minute faster than Pogačar. He was already leading at every checkpoint — 16 seconds up on the Slovenian at the third split — and pulled clear through the fast final kilometres. The win made it back-to-back Tour stages after his mountain victory on Stage 15, and cut his GC deficit from 5:00 to 4:32 with three Alpine days to decide the race.",
+      "keyMoments": [
+        { "km": 10, "what": "Third checkpoint 16 seconds faster than Pogačar" },
+        { "km": 20, "what": "Accelerated through flat finale to seal victory" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:28",
+      "narrative": "Pogačar rode a controlled and strong TT — second fastest on the day at 32:47 — but could not match the world champion's pace. He had a wobble at the sharp corner near the finish where Lipowitz had crashed, losing a handful of seconds in recovery, but held it together to cross safely. His GC lead shrank by 28 seconds but at 4:32 over Evenepoel heading into the final Alpine trio, yellow remains firmly in Slovenian hands.",
+      "keyMoments": [
+        { "km": 20, "what": "Brief wobble at sharp corner where Lipowitz crashed, recovered safely" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+1:04",
+      "narrative": "Skjelmose was the best of the pure climbers in the TT, posting third place in 33:23 and holding the provisional lead until Evenepoel rolled down the ramp. The Danish rider moved up a place in the GC to sixth at +10:14 as teammate Florian Lipowitz abandoned, a solid day for Lidl-Trek in what is usually not their optimal terrain.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "role": "gc-contender",
+      "position": 4,
+      "gap": "+1:16",
+      "narrative": "The young Frenchman rode a composed effort to fourth in the stage, losing only 48 seconds to Pogačar and holding fourth in the GC at +7:11 — 20 seconds behind del Toro. A consistent performance for the revelation of this Tour, who continues to sit within a minute of the podium.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac Del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "gc-contender",
+      "position": 5,
+      "gap": "+1:21",
+      "narrative": "Del Toro retained third overall by finishing fifth in the stage, losing 53 seconds to Pogačar — a reasonable result for a pure climber in a TT. His GC gap widened slightly from +5:58 to +6:51 but the white jersey remains his. UAE's one-two in the GC top three means Pogačar has his strongest teammate well-placed heading into the final three mountain stages.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "thymen-arensman",
+      "name": "Thymen Arensman",
+      "team": "NetCompany INEOS Cycling Team",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+1:47",
+      "narrative": "Arensman posted seventh on the stage — a strong individual effort for a rider building his form through this Tour. Outside GC contention but showed his time trial capabilities on a course that suited the versatile Dutch rider.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "florian-lipowitz",
+      "name": "Florian Lipowitz",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Lipowitz's Tour ended in heartbreak. Riding fifth in the GC and on course for a career-defining podium, he slid into the kerb on a sharp right-hand bend approximately 6km from the finish, sustaining what appeared to be a shoulder injury. He was unable to continue. His abandonment robbed Red Bull - BORA - hansgrohe of their GC ambitions in what had been a resurgent Tour for the German following his 2026 season win at the Tour of Slovenia.",
+      "keyMoments": [
+        { "km": 6, "what": "Crashed on sharp right-hand bend, slid into kerb, unable to continue" }
+      ],
+      "incident": "crash-abandon"
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl-Trek",
+      "role": "gc-contender",
+      "position": null,
+      "gap": null,
+      "narrative": "Ayuso had a difficult TT, losing approximately two minutes to Pogačar and dropping from sixth to fifth in the GC. His deficit to yellow now stands at 9:22. The Spaniard will need the final Alpine stages to recover ground on those ahead of him.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "florian-lipowitz", "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "reason": "crash (6km from finish, shoulder injury)" }
+    ],
+    "crashes": [
+      { "riderId": "florian-lipowitz", "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "description": "Crashed on sharp right-hand bend ~6km from finish, slid into sidewalk kerb" }
+    ]
+  },
+  "quotes": [
+    { "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "text": "It's incredible. To win this time trial with such a performance, I'm just proud and happy. It's amazing to win two stages in a row." },
+    { "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "text": "It's a bittersweet pill with this victory. I wish him all the best. I will really miss him for the whole week." }
+  ],
+  "sources": [
+    { "url": "https://www.reuters.com/sports/evenepoel-wins-time-trial-tour-de-france-stage-16-shorten-pogacars-overall-lead-2026-07-21/", "publication": "Reuters", "title": "Evenepoel wins time trial in Tour de France stage 16 to shorten Pogacar's overall lead", "lang": "en" },
+    { "url": "https://www.usatoday.com/story/sports/cycling/tourdefrance/2026/07/21/tour-de-france-stage-16-remco-evenepoel-wins/90992768007/", "publication": "USA Today", "title": "Olympic time trial champion Remco Evenepoel wins Tour de France Stage 16", "lang": "en" },
+    { "url": "https://sportstar.thehindu.com/other-sports/tour-de-france-2026-remco-evenepoel-time-trial-16th-stage-win-tadej-pogacar-race-updates-highlights/article71250844.ece", "publication": "The Hindu Sportstar", "title": "Tour de France: Evenepoel wins time trial for back-to-back stage victories, Tadej Pogacar still leads", "lang": "en" }
+  ]
+}
