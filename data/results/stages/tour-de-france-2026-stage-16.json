@@ -4,7 +4,7 @@
   "stageName": "Évian-les-Bains → Thonon-les-Bains",
   "stageDate": "2026-07-21",
   "stageType": "itt",
-  "researchedAt": "2026-07-21T19:27:59.000Z",
+  "researchedAt": "2026-07-22T19:30:00.000Z",
   "tldr": "Remco Evenepoel dominated the 26.1km individual time trial in 32:19, claiming back-to-back stage wins and trimming the gap to GC leader Tadej Pogačar by 28 seconds. Teammate Florian Lipowitz crashed 6km from the finish and abandoned the race.",
   "podium": [
     { "position": 1, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "32m 19s", "riderId": "remco-evenepoel" },
@@ -88,7 +88,7 @@
       "team": "NetCompany INEOS Cycling Team",
       "role": "stage-hunter",
       "position": 7,
-      "gap": "+1:47",
+      "gap": "+1:46",
       "narrative": "Arensman posted seventh on the stage — a strong individual effort for a rider building his form through this Tour. Outside GC contention but showed his time trial capabilities on a course that suited the versatile Dutch rider.",
       "keyMoments": [],
       "incident": null
@@ -111,9 +111,20 @@
       "name": "Juan Ayuso",
       "team": "Lidl-Trek",
       "role": "gc-contender",
-      "position": null,
-      "gap": null,
-      "narrative": "Ayuso had a difficult TT, losing approximately two minutes to Pogačar and dropping from sixth to fifth in the GC. His deficit to yellow now stands at 9:22. The Spaniard will need the final Alpine stages to recover ground on those ahead of him.",
+      "position": 15,
+      "gap": "+2:22",
+      "narrative": "Ayuso had a difficult TT, losing around 1:54 to Pogačar and dropping to fifth in the GC at +9:22. The Spaniard's final position of 15th on the stage reflects that this TT profile — rolling rather than purely flat — did not suit his strengths as a pure climber. He will need the final Alpine stages to recover ground on those above him.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martinez",
+      "team": "Bahrain Victorious",
+      "role": "gc-contender",
+      "position": 20,
+      "gap": "+2:49",
+      "narrative": "Martinez lost 2:21 to Pogačar in the time trial, finishing 20th on the stage and dropping to seventh in the GC at +12:50. Not unexpected for a climber on a 26km rolling TT, and the Frenchman will look to claw back time on the three remaining Alpine stages.",
       "keyMoments": [],
       "incident": null
     }
@@ -133,6 +144,7 @@
   "sources": [
     { "url": "https://www.reuters.com/sports/evenepoel-wins-time-trial-tour-de-france-stage-16-shorten-pogacars-overall-lead-2026-07-21/", "publication": "Reuters", "title": "Evenepoel wins time trial in Tour de France stage 16 to shorten Pogacar's overall lead", "lang": "en" },
     { "url": "https://www.usatoday.com/story/sports/cycling/tourdefrance/2026/07/21/tour-de-france-stage-16-remco-evenepoel-wins/90992768007/", "publication": "USA Today", "title": "Olympic time trial champion Remco Evenepoel wins Tour de France Stage 16", "lang": "en" },
-    { "url": "https://sportstar.thehindu.com/other-sports/tour-de-france-2026-remco-evenepoel-time-trial-16th-stage-win-tadej-pogacar-race-updates-highlights/article71250844.ece", "publication": "The Hindu Sportstar", "title": "Tour de France: Evenepoel wins time trial for back-to-back stage victories, Tadej Pogacar still leads", "lang": "en" }
+    { "url": "https://sportstar.thehindu.com/other-sports/tour-de-france-2026-remco-evenepoel-time-trial-16th-stage-win-tadej-pogacar-race-updates-highlights/article71250844.ece", "publication": "The Hindu Sportstar", "title": "Tour de France: Evenepoel wins time trial for back-to-back stage victories, Tadej Pogacar still leads", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-16-results-tdf-2026/", "publication": "Cycling Stage", "title": "Tour de France 2026: Evenepoel dominates ITT, Pogacar retains lead", "lang": "en" }
   ]
 }

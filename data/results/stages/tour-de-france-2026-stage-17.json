@@ -1,0 +1,104 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 17,
+  "stageName": "Chambéry → Voiron",
+  "stageDate": "2026-07-22",
+  "stageType": "flat",
+  "researchedAt": "2026-07-22T19:30:00.000Z",
+  "tldr": "Jasper Philipsen ended a string of near-misses with a dominant reduced-bunch sprint in Voiron, set up perfectly by a tireless Mathieu van der Poel lead-out, while Tadej Pogačar rolled home safely in the peloton with his overall lead unchanged.",
+  "podium": [
+    { "position": 1, "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "time": "3h 41m 13s", "riderId": "jasper-philipsen" },
+    { "position": 2, "name": "Mauro Schmid", "team": "Team Jayco-AlUla", "gap": "s.t." },
+    { "position": 3, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "olav-kooij" },
+    { "position": 4, "name": "Lewis Askey", "team": "NSN Cycling Team", "gap": "s.t." },
+    { "position": 5, "name": "Rick Pluimers", "team": "Tudor Pro Cycling Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Philipsen conquers chaos to claim stage win in Voiron.",
+    "body": "Stage 17 covered 174.7km from Chambéry to Voiron through the Alpine foothills, nominally classified as flat but featuring 2,200m of climbing including a category 3 Col des Prés.\n\nFor the first 100km the peloton kept the road closed. Eventually a six-man breakaway formed, with Alpecin-Premier Tech wisely placing Edward Planckaert in the move. Also present was Mads Pedersen (Lidl-Trek), who collected maximum points at the intermediate sprint 27km from the finish. Jasper Stuyven then attacked out of the group and went solo, building a lead of around 20 seconds at 6km to go.\n\nWith 4km remaining, the sprint teams — led by a relentless Mathieu van der Poel — hauled Stuyven back. From there, Van der Poel continued to drive, fending off late attacks from Per Strand Hagenes, Quinn Simmons, and Joshua Tarling (who launched an effort with 1km remaining), before perfectly timing the lead-out for Philipsen.\n\nPhilipsen crossed the line several bike lengths clear of Mauro Schmid and Olav Kooij — his 11th Tour de France stage victory overall, and his first win in five editions of the race that he had not already won a stage in. The Belgian, who had come agonisingly close five times before in this year's race, described the earlier stages as \"horrible\" but credited his team's patience. The GC group arrived safely behind, the overall standings unchanged heading into the Alpine finale."
+  },
+  "gcImpact": {
+    "headline": "Pogačar retains yellow; GC standings unchanged ahead of three Alpine summit finishes.",
+    "body": "General classification after Stage 17 (unchanged from Stage 16): 1. Tadej Pogačar (UAE Team Emirates - XRG); 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +4:32; 3. Isaac del Toro (UAE Team Emirates - XRG) +6:51; 4. Paul Seixas (Decathlon CMA CGM Team) +7:11; 5. Juan Ayuso (Lidl-Trek) +9:22; 6. Mattias Skjelmose (Lidl-Trek) +10:14; 7. Lenny Martinez (Bahrain Victorious) +12:50; 8. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +12:58. Concern for UAE heading into the Alps: Adam Yates, Pogačar's key mountain domestique, suffered a severe stomach complaint and finished more than 26 minutes behind the stage winner, leaving Pogačar's summit-finish support significantly depleted."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Philipsen's 11th Tour stage win was the product of patience and perfect execution. After five near-misses earlier in this edition — often edged out before the final sprint — he and van der Poel finally locked in a flawless lead-out to Voiron. Philipsen moved to within seven points of Pedersen in the green jersey competition, setting up a sprint-versus-sprinter duel that may extend to Paris.",
+      "keyMoments": [
+        { "km": 174, "what": "Launched sprint from van der Poel's wheel, won several bike lengths clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "helper",
+      "position": null,
+      "gap": "s.t.",
+      "narrative": "Van der Poel was the architect of Alpecin's day. He drove the chase behind the Stuyven move, neutralised late attacks in the final 2.5km, and delivered Philipsen with a lead-out the former world champion called decisive. A selfless performance from a rider who could himself contest the sprint.",
+      "keyMoments": [
+        { "km": 6, "what": "Led Alpecin chase to bring back Stuyven" },
+        { "km": 1, "what": "Final lead-out for Philipsen" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Kooij finished third in a sprint he was well positioned for, taking another podium to add to his earlier stage win at this Tour. With Decathlon placing him in the front group, the Dutch sprinter continues to be a consistent top-five finisher whenever the road tilts toward a bunch finish.",
+      "keyMoments": [
+        { "km": 174, "what": "Finished third in sprint, close behind Philipsen and Schmid" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "s.t.",
+      "narrative": "Pedersen made a smart tactical move by gaining entry to the day's breakaway, which allowed him to sweep the intermediate sprint points 27km from the finish. He retains the green jersey but his lead over Philipsen has now been cut to just seven points — setting up a tense sprint classification fight over the final stages.",
+      "keyMoments": [
+        { "km": 27, "what": "Won the intermediate sprint from the breakaway group" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "adam-yates",
+      "name": "Adam Yates",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": null,
+      "gap": "+26:00",
+      "narrative": "Yates suffered a severe stomach complaint overnight after Stage 16, and was visibly struggling from early in Stage 17. He was unable to follow any move and eventually crossed the line more than 26 minutes behind Philipsen. As one of Pogačar's most important mountain domestiques, his condition ahead of three Alpine summit finishes (Stages 18–20) is a significant concern for UAE Team Emirates.",
+      "keyMoments": [],
+      "incident": "Stomach illness, dropped severely behind on a transition stage — concern for his ability to support in the Alps"
+    }
+  ],
+  "incidents": {
+    "illness": [
+      { "riderId": "adam-yates", "reason": "severe stomach complaint, finished 26+ minutes behind stage winner" }
+    ]
+  },
+  "quotes": [
+    { "riderId": "jasper-philipsen", "text": "I was prepared very, very well, I was in the shape of my life. The first stage was horrible, I couldn't find myself, I couldn't find the form I was hoping for. After 17 stages... we won for the team.", "context": "post-stage" },
+    { "riderId": "mathieu-van-der-poel", "text": "I think it was a very hard day all day, and I just tried to be in the front, be in each important group and then everything came together.", "context": "post-stage" }
+  ],
+  "sources": [
+    { "url": "https://www.rouleur.cc/racing/races/tour-de-france/2026/stages/17", "publication": "Rouleur", "title": "Tour de France stage 17 – Philipsen conquers chaos to win stage to Voiron", "lang": "en" },
+    { "url": "https://www.flobikes.com/articles/16081070-tour-de-france-2026-stage-17-results-heres-who-won", "publication": "FloBikes", "title": "Who Won Stage 17 Of The Tour de France 2026? See The Full TDF Results Here", "lang": "en" },
+    { "url": "https://www.reuters.com/sports/philipsen-sprints-victory-tour-de-france-stage-17-pogacar-retains-overall-lead-2026-07-22/", "publication": "Reuters", "title": "Philipsen sprints to victory in Tour de France stage 17, Pogacar retains overall lead", "lang": "en" }
+  ]
+}
