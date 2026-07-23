@@ -1,0 +1,137 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 18,
+  "stageName": "Voiron → Orcières-Merlette",
+  "stageDate": "2026-07-23",
+  "stageType": "mountain",
+  "researchedAt": "2026-07-23T19:23:00.000Z",
+  "tldr": "Richard Carapaz soloed to victory at Orcières-Merlette from a six-man breakaway, attacking twice on the final climb to win 45 seconds clear of Mauro Schmid and Matteo Jorgenson. The GC group rolled in together 4m 30s down, standings unchanged, while UAE Team Emirates-XRG's support crew was decimated by illness — Brandon McNulty abandoned mid-stage.",
+  "podium": [
+    { "position": 1, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "time": "4h 26m 21s", "riderId": "richard-carapaz" },
+    { "position": 2, "name": "Mauro Schmid", "team": "Team Jayco AlUla", "gap": "+0:45" },
+    { "position": 3, "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike", "gap": "+0:45", "riderId": "matteo-jorgenson" },
+    { "position": 4, "name": "Valentin Paret-Peintre", "team": "Soudal Quick-Step", "gap": "+1:14" },
+    { "position": 5, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+1:57" }
+  ],
+  "narrative": {
+    "headline": "Carapaz flies solo at Orcières as UAE illness crisis deepens ahead of Alpe d'Huez.",
+    "body": "Stage 18 covered 185.2km from Voiron into the Hautes-Alpes, opening the Alpine trilogy with five categorised climbs and a summit finish at the Orcières-Merlette ski station (1,850m). From the opening kilometres, a fierce battle raged for the breakaway, with Tadej Pogačar's powerful positioning on the Côte d'Engins (1st category) preventing large groups escaping early.\n\nA 14-rider leading group finally consolidated around the 70km mark, including Richard Carapaz, Matteo Jorgenson, Mads Pedersen, Mauro Schmid, Valentin Paret-Peintre, Tobias Johannessen and Raúl García Pierna. Pedersen, seizing the chance to extend his points lead, collected the maximum 25 points at the intermediate sprint 56km from the finish — pushing his lead over Jasper Philipsen from 7 to 32 points. He would later lose contact with the front group as the road tilted upward.\n\nWith 45km remaining, the leading group splintered. Six riders entered the final 7km climb to Orcières-Merlette with several minutes over the peloton: Carapaz, Jorgenson, Schmid, Paret-Peintre, Johannessen and García Pierna. At 4km to go Carapaz launched a first probing attack; the pace eased and he recovered contact. At 3.2km to go he attacked again — explosively — and this time the gap held and grew. Paret-Peintre cracked immediately; Jorgenson and Schmid chased hard but crossed the line 45 seconds behind.\n\nThe GC peloton arrived 4m 30s down with no time differences — standings unchanged heading into back-to-back Alpe d'Huez summit finishes (Stages 19 and 20). The day's deeper story belonged to UAE Team Emirates-XRG, swept by a virus since Monday's rest day: Brandon McNulty abandoned with 21km remaining; Tim Wellens and Florian Vermeersch struggled visibly; Adam Yates, already compromised from Stage 17, was limited throughout. Pogačar finished safely in yellow but enters the Alpine weekend short-handed."
+  },
+  "gcImpact": {
+    "headline": "GC standings unchanged; Carapaz moves into top 10; UAE support roster gutted.",
+    "body": "General classification after Stage 18 (no changes among GC contenders): 1. Tadej Pogačar (UAE Team Emirates - XRG); 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +4:32; 3. Isaac del Toro (UAE Team Emirates - XRG) +6:51; 4. Paul Seixas (Decathlon CMA CGM Team) +7:11; 5. Juan Ayuso (Lidl-Trek) +9:22; 6. Mattias Skjelmose (Lidl-Trek) +10:14; 7. Lenny Martínez (Bahrain Victorious) +12:50; 8. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +12:58; 9. Jordan Jegat (TotalEnergies) +14:04; 10. Richard Carapaz (EF Education-EasyPost) +21:00 (up 2 places, gaining 4:30+ on GC rivals via the breakaway). The KOM classification has tightened to a single point: Pogačar 70 pts, Paret-Peintre 69 pts, Carapaz 63 pts."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Carapaz claimed his second Tour de France stage win (after Superdévoluy in 2024) and 25th professional victory overall with a characteristic gutsy solo effort. He was marked as a danger from the gun but allowed into the breakaway given his remote GC position. On the final climb he attacked twice in quick succession — the second move, at 3.2km, created a gap that Jorgenson and Schmid could not close. The win also vaulted him into the top 10 overall at +21:00 and sharpened the KOM battle: Carapaz sits third in the polka-dot standings just 7 points off the lead.",
+      "keyMoments": [
+        { "km": 133, "what": "Consolidated in 6-man leading group after breakaway reshuffle" },
+        { "km": 4, "what": "First attack on Orcières-Merlette, group regrouped" },
+        { "km": 3.2, "what": "Second explosive attack — went solo and never looked back" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:45",
+      "narrative": "Jorgenson rode an excellent stage, helping shepherd the six-man front group and chasing hard after Carapaz's decisive attack. He could not match the Ecuadorian's acceleration and finished level with Schmid at 45 seconds, taking third on a summit finish that suits his profile. The result is a strong confidence marker for Visma ahead of the Alpe d'Huez stages.",
+      "keyMoments": [
+        { "km": 3.2, "what": "Attempted to chase Carapaz's winning move but could not close the gap" },
+        { "km": 0, "what": "Finished third alongside Schmid, 45s behind Carapaz" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "s.t. (peloton group)",
+      "narrative": "Pedersen executed a calculated mission — getting into the early breakaway specifically to contest the intermediate sprint. He secured all 25 available points at the sprint 56km from the finish, extending his green jersey lead over Philipsen from 7 to 32 points. With only one genuine sprint stage remaining (Stage 21, Paris), this move likely settles the points classification. Pedersen dropped from the front group as the climbing intensified and finished further back.",
+      "keyMoments": [
+        { "km": 56, "what": "Won intermediate sprint, 25 points, extending green jersey lead to 32 over Philipsen" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "role": "leader",
+      "position": null,
+      "gap": "+4:30 (GC group)",
+      "narrative": "Philipsen finished safely in the peloton and was unable to join the breakaway — the climbing terrain did not suit him. His green jersey lead over Pedersen was cut from 7 to a 32-point deficit, which now makes Philipsen the underdog in the points fight with only the Paris stage remaining as a realistic sprint opportunity.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "+4:30 (GC group, yellow jersey retained)",
+      "narrative": "Pogačar finished safely with the GC group, retaining yellow with a 4:32 lead over Evenepoel intact. The stage revealed his team's vulnerability: Brandon McNulty abandoned with illness mid-stage; Tim Wellens and Florian Vermeersch both showed signs of sickness. Despite his substantial overall lead, Pogačar heads into back-to-back Alpe d'Huez mountain top finishes with a depleted support roster. He remained upbeat: 'I think we can manage. It's the third week, all the teams are suffering.'",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": null,
+      "gap": "+4:32 (GC, 2nd overall)",
+      "narrative": "Evenepoel rode safely in the GC group, maintaining second overall at 4:32 behind Pogačar. With UAE losing domestiques to illness ahead of two Alpe d'Huez stages, Evenepoel's team is watching the opportunity closely — though a 4:32 gap on back-to-back summit finishes remains a steep target.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "adam-yates",
+      "name": "Adam Yates",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": null,
+      "gap": "finished (GC group or behind)",
+      "narrative": "After losing 26 minutes to stomach illness on Stage 17, Yates continued in Stage 18 but with limited capacity. Pogačar's post-stage comments suggested Yates was 'getting better', but his ability to support in two high-altitude summit finishes remains a critical unknown for UAE's Alpine strategy.",
+      "keyMoments": [],
+      "incident": "Continued racing after Stage 17 stomach illness — fitness uncertain for Alpine stages"
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": null,
+      "gap": "+4:30 (GC group, 8th overall at +12:58)",
+      "narrative": "Pidcock rode in the GC group and finished without incident, maintaining 8th overall. With two Alpe d'Huez stages ahead, the summit finish specialist will be aiming for a top-5 overall move — his form heading into the Alpine weekend is the key unknown.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "brandon-mcnulty", "reason": "illness (virus affecting UAE team) and pre-existing crash injuries from Stage 16 TT reconnaissance; abandoned with 21km remaining" }
+    ]
+  },
+  "quotes": [
+    { "riderId": "tadej-pogacar", "text": "I'm sad that Brandon could not finish. We will see in the next two days but Adam is getting better, and tomorrow, we will go with the flow. I think we can manage. It's the third week, all the teams are suffering. There are bodies everywhere on a stage like today. We will keep fighting and I believe we can do it.", "context": "post-stage" }
+  ],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-france-2026-stage-18-richard-carapaz-wins-in-orcieres-merlette-as-breakaway-take-glory-in-the-alps", "publication": "Cycling Up To Date", "title": "Results Tour de France 2026 stage 18 - Richard Carapaz wins in Orcières-Merlette as breakaway take glory in the Alps", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/tour-de-france-2026-classifications-update-stage-18-carapaz-jumps-into-top10-pedersen-reinforces-green-jersey-and-pogacar-risks-losing-kom", "publication": "Cycling Up To Date", "title": "Tour de France 2026 Classifications update Stage 18", "lang": "en" },
+    { "url": "https://www.theguardian.com/sport/2026/jul/23/tour-de-france-stage-18-report-tadej-pogacar-team-illness-richard-carapaz", "publication": "The Guardian", "title": "Tour de France worries emerge for Tadej Pogacar after illness sweeps through team", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/tour-de-france-stage-18-carapaz-breaks-away-to-claim-a-solo-victory/", "publication": "Tour Magazin", "title": "Tour de France – Stage 18: Carapaz breaks away to claim a solo victory", "lang": "en" }
+  ]
+}
