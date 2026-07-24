@@ -1,0 +1,172 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 19,
+  "stageName": "Gap → Alpe d'Huez",
+  "stageDate": "2026-07-24",
+  "stageType": "mountain",
+  "researchedAt": "2026-07-24T19:23:00.000Z",
+  "tldr": "Tadej Pogacar attacked from the GC group at the foot of Alpe d'Huez, caught and dropped a breakaway group containing Lenny Martinez and Richard Carapaz, then rode the final 800 metres solo to claim his fifth stage win of the Tour — and a new Alpe d'Huez record that broke Marco Pantani's 29-year-old mark. Martinez moved up two places in the GC via the breakaway; Juan Ayuso and Tom Pidcock cracked on the final climb and lost significant time.",
+  "podium": [
+    { "position": 1, "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "3h 17m 57s", "riderId": "tadej-pogacar" },
+    { "position": 2, "name": "Lenny Martínez", "team": "Bahrain Victorious", "gap": "+0:06", "riderId": "lenny-martinez" },
+    { "position": 3, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "gap": "+0:09", "riderId": "richard-carapaz" },
+    { "position": 4, "name": "Sepp Kuss", "team": "Team Visma | Lease a Bike", "gap": "+1:14" },
+    { "position": 5, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+2:07" }
+  ],
+  "narrative": {
+    "headline": "Pogacar shatters Pantani's Alpe d'Huez record for his fifth stage win; Ayuso and Pidcock crack.",
+    "body": "Stage 19 covered 128km from Gap to the summit of Alpe d'Huez — the first of two consecutive ascents of the 21-hairpin climb on the 2026 route. From the gun, a large breakaway formed, eventually settling into a group of around 14 riders on the approach to the Col d'Ornon. Valentin Paret-Peintre, overnight virtual KOM leader, dominated the early mountain sprints at the Col Bayard and Col du Noyer. Richard Carapaz, alert to the KOM battle, took maximum points at the Col d'Ornon summit, cutting Paret-Peintre's lead to just 5 points and ultimately wresting the polka-dot jersey away from the Frenchman by the finish.\n\nMads Pedersen, riding in the break to protect his green jersey, won the intermediate sprint in Le Périer before losing contact as the road climbed. At the foot of Alpe d'Huez, the leading group consisted of Lenny Martinez, Sepp Kuss, Richard Carapaz, Thymen Arensman, Tobias Halland Johannessen and several others; the GC peloton still contained Pogacar, Evenepoel, Del Toro, Skjelmose, Seixas and Pidcock — but Juan Ayuso was instantly dropped at the base of the 13.8km climb.\n\nWith 11.7km to go, Pogacar accelerated from the GC group. Nobody followed. He had roughly three and a half minutes to make up on the leading riders. On the final climb, Carapaz attacked repeatedly — dropping first Arensman and then Johannessen — but Martinez matched him each time and Kuss twice bridged back. With 3km remaining Pogacar swept through Kuss, and moments later made contact with Martinez and Carapaz. The trio passed under the red kite together.\n\nAt 800 metres from the line, on a brief flattening of the grade, Pogacar went again — and this time no one could follow. He crossed the line solo in a new Alpe d'Huez record of 35 minutes 27 seconds, erasing Marco Pantani's 1995 mark of 36:50. Martinez, six seconds back, moved up two places to fifth overall; Carapaz took third and the polka-dot jersey. Remco Evenepoel finished 6th to extend second place over his GC rivals, while Ayuso lost over six minutes and Pidcock over eight minutes."
+  },
+  "gcImpact": {
+    "headline": "Pogacar extends lead over Evenepoel to 7:11; Martinez rises to 5th, Ayuso falls to 7th.",
+    "body": "General classification after Stage 19: 1. Tadej Pogačar (UAE Team Emirates - XRG); 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +7:11 (from +4:32, lost 2:39 to Pogacar); 3. Isaac del Toro (UAE Team Emirates - XRG) +9:42 (from +6:51, lost 2:51); 4. Paul Seixas (Decathlon CMA CGM Team) +10:06 (from +7:11, lost 2:55); 5. Lenny Martínez (Bahrain Victorious) +13:00 (from +12:50 in 7th — gained 6 places via breakaway, lost only 0:10 on Pogacar); 6. Mattias Skjelmose (Lidl-Trek) +13:09 (from +10:14 in 6th, lost 2:55); 7. Juan Ayuso (Lidl-Trek) +15:58 (from +9:22 in 5th — lost 6:36 and two positions); 8. Richard Carapaz (EF Education-EasyPost) +21:15 (breakaway third, up from 10th); 9. Tom Pidcock (Pinarello Q36.5 Pro Cycling Team) +21:30 (from +12:58 in 8th — lost 8:32 and one position); 10. Jordan Jegat (TotalEnergies) +23:21 (from +14:04 in 9th — lost 9:17)."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Pogacar delivered one of the performances of the decade on the most iconic climb in cycling. Despite his team being decimated by illness entering the stage, he did not wait for reinforcements on the road — instead attacking from the yellow-jersey group 11.7km from the summit when the GC rivals were still trying to ride tempo behind the break. He caught Kuss, Martinez and Carapaz in sequence, then produced a devastating acceleratoon at 800 metres to go that neither climbing specialist could live with. His new Alpe d'Huez record of 35:27 broke Marco Pantani's 1995 mark by 83 seconds. His overall lead, already dominant at 4:32, now stretches to 7:11 with one Alpe d'Huez ascent remaining tomorrow.",
+      "keyMoments": [
+        { "km": 11.7, "what": "Attacks from the GC group at the foot of Alpe d'Huez — nobody follows" },
+        { "km": 3, "what": "Reaches Kuss, then within seconds Martinez and Carapaz" },
+        { "km": 0.8, "what": "Drops Martinez and Carapaz and rides solo to the line in a new Alpe d'Huez record (35:27)" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lenny-martinez",
+      "name": "Lenny Martínez",
+      "team": "Bahrain Victorious",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:06",
+      "narrative": "Martínez rode the performance of his Tour, surviving in a quality breakaway all day and then staying with Carapaz's repeated attacks on Alpe d'Huez. He was on Pogacar's wheel when the yellow jersey caught the front group, and pushed him all the way to 800 metres before Pogacar dropped him. Finishing six seconds behind Pogacar and moving from 7th to 5th overall — losing only 10 seconds on Pogacar for the day — is a stunning turnaround in GC context and sets him up as a dark horse for the second Alpe d'Huez tomorrow.",
+      "keyMoments": [
+        { "km": 3, "what": "Caught by Pogacar at the front of the breakaway group" },
+        { "km": 0.8, "what": "Unable to hold Pogacar's final acceleration, finishes 6 seconds back" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:09",
+      "narrative": "Back-to-back stage exploits from Carapaz. After winning at Orcières-Merlette yesterday, he was once again the engine of the breakaway, winning the Col d'Ornon mountain sprint to claw back within 5 points of the KOM lead. On Alpe d'Huez he launched multiple attacks that temporarily shed Kuss and others, but Martinez matched him each time. He was within 9 seconds of Pogacar at the line, which is enough to move him from 10th to 8th in GC and, crucially, into the polka-dot jersey — knocking overnight virtual leader Paret-Peintre off the KOM podium.",
+      "keyMoments": [
+        { "km": "Col d'Ornon", "what": "Takes maximum mountain points, cuts KOM gap to 5 points" },
+        { "km": 9, "what": "Multiple attacks on Alpe d'Huez temporarily drop Kuss and others" },
+        { "km": 0, "what": "Third on stage, takes KOM jersey from Paret-Peintre" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 6,
+      "gap": "+2:29",
+      "narrative": "Evenepoel rode a metronomic and controlled Alpe d'Huez, finishing 6th and losing 2:39 to Pogacar on the stage. Crucially he beat Del Toro by 12 seconds and Seixas by 16 seconds — slightly extending his margins in the GC battle for second through fourth places. The gap to Pogacar now stands at 7:11, making the overall defence unlikely barring a Pogacar collapse, but Evenepoel heads into the second Alpe d'Huez tomorrow with his second place secure.",
+      "keyMoments": [
+        { "km": 0, "what": "6th on stage, extends lead over del Toro and Seixas in GC fight for 2nd–4th" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 7,
+      "gap": "+2:41",
+      "narrative": "Del Toro finished 7th on the stage, 12 seconds behind Evenepoel and 2:41 behind Pogacar. He maintained third in GC but could not reduce the gap to Evenepoel. At 20 years old, finishing third overall in the Tour de France would be a generational result — he rides the second Alpe d'Huez tomorrow still in a strong position.",
+      "keyMoments": [
+        { "km": 0, "what": "7th on stage at +2:41, stays 3rd in GC at +9:42" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl-Trek",
+      "role": "leader",
+      "position": 8,
+      "gap": "+2:45",
+      "narrative": "Skjelmose finished 8th on the stage, losing 2:55 to Pogacar — more than Evenepoel or Del Toro, but critically less than his Lidl-Trek teammate Ayuso who lost over six minutes. Skjelmose now sits 6th overall at +13:09, having overtaken Ayuso in the GC standings. With Ayuso now behind him and Seixas just ahead (+10:06), Skjelmose has a mathematical chance at 4th overall with tomorrow's queen stage to go.",
+      "keyMoments": [
+        { "km": 0, "what": "8th at +2:45; moves above Ayuso in GC standings to 6th at +13:09" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 9,
+      "gap": "+2:45",
+      "narrative": "The 19-year-old Frenchman rode alongside Skjelmose in the GC group and finished 9th on the stage at the same time. He retains 4th overall at +10:06, ahead of Martinez (+13:00) by over 3 minutes. Another home Alpe d'Huez stage tomorrow gives Seixas a chance to defend — or improve — his position on the most mythical climb in France.",
+      "keyMoments": [
+        { "km": 0, "what": "9th at s.t. with Skjelmose (+2:45), maintains 4th in GC at +10:06" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl-Trek",
+      "role": "leader",
+      "position": 17,
+      "gap": "+6:26",
+      "narrative": "Stage 19 was a disaster for Ayuso. He was dropped from the GC group at the very foot of Alpe d'Huez — barely off the valley floor — and lost over six minutes on Pogacar and nearly four minutes on his own teammate Skjelmose. He fell from 5th to 7th overall, with Martínez and Skjelmose now both ahead of him. With his climbing legs clearly not at their best heading into Stage 20 (another Alpe d'Huez summit finish), a top-5 overall now appears out of reach.",
+      "keyMoments": [
+        { "km": 13.8, "what": "Dropped from GC group at the foot of Alpe d'Huez" },
+        { "km": 0, "what": "17th on stage at +6:26; falls from 5th to 7th in GC at +15:58" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 20,
+      "gap": "+8:22",
+      "narrative": "A shocking collapse for Pidcock, who had looked a genuine threat for top-5 overall heading into the Alpine weekend. He lost 8:22 on Stage 19, dropping from 8th to 9th in GC at +21:30 — deep enough that a top-8 finish seems the limit of the remaining ambition. The cause of his difficulties is unclear: no crash or incident was reported, but the time loss was dramatic even by the standards of a day when GC riders were losing significant time. Stage 20, another Alpe d'Huez summit finish, will be a crucial test of whether this was a one-day crisis or something deeper.",
+      "keyMoments": [
+        { "km": 0, "what": "20th at +8:22, falls from 8th to 9th in GC at +21:30" }
+      ],
+      "incident": "Suffered a significant crisis on Alpe d'Huez — losing 8:22 to Pogacar — though no specific cause reported"
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl-Trek",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "n/a (finished behind top 20)",
+      "narrative": "Pedersen rode into the breakaway with one mission: protect his green jersey lead by taking the intermediate sprint points. He succeeded, winning the sprint in Le Périer — adding further points to his lead over Jasper Philipsen. As expected, he lost contact with the leading group on the mountain climbs and finished far behind, but the points mission was complete.",
+      "keyMoments": [
+        { "km": "Le Périer", "what": "Wins intermediate sprint, extending green jersey points lead" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    { "riderId": "tadej-pogacar", "text": "It's really cool to win up here. There was a mad atmosphere all the way up the climb. I rode for my team-mates and I'm very happy to have won today. I'm in good form; I'm taking it day by day. Tomorrow is the Tour's queen stage.", "context": "post-stage" }
+  ],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-19-results-tdf-2026/", "publication": "Cycling Stage", "title": "Tour de France 2026: Pogacar triumphs in Alpe d'Huez", "lang": "en" },
+    { "url": "https://www.bikeradar.com/news/tadej-pogac-ar-storms-up-alpe-d-huez-to-set-new-record-and-win-the-stage", "publication": "BikeRadar", "title": "Tadej Pogačar wins on Alpe d'Huez to finally break Marco Pantani's record", "lang": "en" },
+    { "url": "https://www.letour.fr/en/news/2026/stage-19/supreme-pogacar-also-takes-alpe-dhuez/1354201", "publication": "Tour de France Official", "title": "Supreme Pogacar also takes Alpe d'Huez", "lang": "en" },
+    { "url": "https://www.theguardian.com/sport/live/2026/jul/24/tour-de-france-2026-stage-19-from-gap-to-alpe-dhuez-live", "publication": "The Guardian", "title": "Tour de France 2026: Pogacar devours Alpe d'Huez to win stage 19 and stretch lead", "lang": "en" }
+  ]
+}
