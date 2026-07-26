@@ -1,0 +1,144 @@
+{
+  "raceId": "tour-de-france-2026",
+  "stageNumber": 21,
+  "stageName": "Thoiry → Paris Champs-Élysées",
+  "stageDate": "2026-07-26",
+  "stageType": "flat",
+  "researchedAt": "2026-07-26T19:30:00.000Z",
+  "tldr": "Mathieu van der Poel won the final stage in a dramatic Montmartre-first sprint, holding off the peloton by centimetres after he and Tadej Pogacar attacked together on the third ascent. The stage was shortened to 89km due to forest fires, with GC times frozen before the Montmartre circuit — leaving Pogacar as Tour champion in the unchanged standings from Stage 20.",
+  "podium": [
+    { "position": 1, "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "1h 58m 49s", "riderId": "mathieu-van-der-poel" },
+    { "position": 2, "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t.", "riderId": "jasper-philipsen" },
+    { "position": 3, "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "s.t.", "riderId": "mads-pedersen" },
+    { "position": 4, "name": "Max Kanter", "team": "Soudal Quick-Step", "gap": "s.t." },
+    { "position": 5, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "olav-kooij" }
+  ],
+  "narrative": {
+    "headline": "Van der Poel and Pogacar turn Paris into Flanders — Van der Poel holds on by centimetres.",
+    "body": "Stage 21 was raced as an abbreviated 89km circuit around Paris rather than the planned 160km route from Thoiry, after forest fires across France required police and emergency resources elsewhere. The riders were transported to the capital by TGV. The first two laps of the Champs-Élysées were ridden at a ceremonial pace — riders took photos, teams celebrated, and the tunnel saw its annual toilet break — before UAE Team Emirates lifted the pace with 75km remaining. Baptiste Veistroffer attacked first; Xabier Mikel Azparren (Pinarello-Q36.5 Pro Cycling Team) and Thibault Guernalec (TotalEnergies) built a more durable lead of around 30 seconds. As the leaders crossed the finish line on the first racing lap, the jury froze all GC times — a safety measure due to the risk of slippery conditions on the cobbled Montmartre climb. Isaac del Toro, who suffered a puncture and needed a bike change, was among those fortunate that the freeze locked in Stage 20's standings.\n\nOn the first Montmartre ascent, Mads Pedersen — virtually guaranteed the green jersey — drove hard to the front, taking a large group over the top. The lead riders regrouped before the second Montmartre pass, where Pogacar attacked with genuine ferocity off a Florian Vermeersch lead-out, 400m from the summit. Only Van der Poel could match him. Evenepoel and Pedersen crested seconds behind; Evenepoel made it back on the descent but Pedersen was chasing with Olav Kooij's group. Decathlon CMA CGM, working in Kooij's and Seixas's interests, drove the peloton back together ahead of the decisive third ascent, reuniting the sprint trains — Jasper Philipsen and Biniam Girmay among them — with the front group.\n\nAt the top of the third and final Montmartre, with 10.4km remaining, Van der Poel and Pogacar held a handful of seconds over a first chase containing Jasper Stuyven, Matteo Jorgenson, Per Strand Hagenes, Ben Healy, Matej Mohoric, and Jonas Abrahamsen. The Decathlon peloton was 17 seconds back at 7km. The two leaders — one seeking a fifth Tour title in the GC standings, the other hunting a second stage win of the race — worked in tandem through the streets of Paris, their lead fluctuating around 8-10 seconds. With 2km to go, they still had 8 seconds. The sprint trains were closing and in the final 500m it looked all over: the peloton was almost upon them. Van der Poel launched one final, desperate kick. He appeared beaten. But he kept his front wheel ahead to win by centimetres. Philipsen crossed second, easing off the pedals in recognition that his team's lead-out man had prevailed. Pedersen took third. Pogacar, spent from the long battle, was swallowed by the sprint group behind."
+  },
+  "gcImpact": {
+    "headline": "GC frozen before Montmartre — standings unchanged; Pogacar wins Tour for a record-equalling fifth time.",
+    "body": "The jury froze general classification times before the Montmartre circuit, meaning Stage 21 produced no GC time changes. The final overall standings are identical to those after Stage 20. Final GC: 1. Tadej Pogacar (UAE Team Emirates - XRG); 2. Remco Evenepoel (Red Bull - BORA - hansgrohe) +6:26; 3. Isaac del Toro (UAE Team Emirates - XRG) +9:42; 4. Paul Seixas (Decathlon - CMA CGM Team) +11:56; 5. Lenny Martínez (Bahrain - Victorious) +13:02; 6. Mattias Skjelmose (Lidl - Trek) +14:59; 7. Juan Ayuso (Lidl - Trek) +17:48; 8. Richard Carapaz (EF Education - EasyPost) +20:00; 9. Tom Pidcock (Pinarello-Q36.5 Pro Cycling Team) +29:28; 10. Jordan Jegat +33:21. Pogacar's fifth Tour de France title equals the all-time record."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Van der Poel dominated the finale for the second time in three days in Paris, this time on Montmartre's cobbled slopes rather than the bunch sprint context one might have expected from a flat stage. He and Pogacar attacked in unison on the second and third Montmartre ascents, riding away from the peloton and then working together through the final 10km. In the closing 500m, with the sprint trains almost upon them, Van der Poel produced one final acceleration that seemed impossible given the effort he had expended — and held on by centimetres for his second stage win of the 2026 Tour.",
+      "keyMoments": [
+        { "km": 10.4, "what": "Crested final Montmartre with Pogacar, small lead over chasers" },
+        { "km": 0.5, "what": "Launched final acceleration as peloton closed — held on for photo-finish win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Philipsen played a patient game through the Montmartre laps, staying within the sprint group as Pogacar and Van der Poel attacked ahead. When the lead pair's gap came down to centimetres in the final sprint, Philipsen led Pedersen before easing on the pedals and crossing second — acknowledging that his teammate Van der Poel had stolen the win. An Alpecin-Premier Tech 1-2 in the final stage of the Tour de France.",
+      "keyMoments": [
+        { "km": 0.3, "what": "Led Pedersen in sprint, eased on approach to line when Van der Poel secured win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Pedersen rode an active final stage, attacking on the first Montmartre ascent and briefly making the front group on the second. He was dropped from the Pogacar-Van der Poel lead on the descent of the second Montmartre and had to chase with Kooij's group, but regrouped with the peloton ahead of the decisive third ascent. In the sprint he launched from a long way out, chased by Philipsen, and took third — sealing a strong Paris finale and, with his second place on stage 19 already securing an 82-point lead in the points classification, confirming the green jersey.",
+      "keyMoments": [
+        { "km": 0, "what": "Third in sprint, confirming green jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Kooij's Decathlon CMA CGM team rode the final stage as if it were Paris-Roubaix — driving the peloton back to the leaders before the third Montmartre, organising the sprint train that closed the Van der Poel and Pogacar lead from 17 seconds to near-zero, and delivering Kooij to a top-5 finish on the Champs-Élysées.",
+      "keyMoments": [
+        { "km": 7, "what": "Team drove chase; peloton 17s behind, slowly closing" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogacar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "absorbed in sprint group",
+      "narrative": "Pogacar turned the final stage of his fifth Tour-winning race into a monument-style battle, attacking hard on the second Montmartre with Vermeersch as lead-out and carrying only Van der Poel to the summit. He worked alongside the Dutchman for 10km, sharing the pace and the effort, clearly attempting to win the stage as a finale to his Tour. In the final sprint he was outpaced and absorbed by the charging peloton, finishing outside the top 10. The GC freeze before Montmartre meant his fifth Tour de France title was already secure regardless of the stage result.",
+      "keyMoments": [
+        { "km": 10.4, "what": "Led final Montmartre attack with Van der Poel; only 2 in the break" },
+        { "km": 0.5, "what": "Outsprinted and absorbed by peloton in final metres" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": null,
+      "gap": "absorbed in sprint group",
+      "narrative": "Evenepoel followed Pogacar over the summit of the second Montmartre with a small gap, then rejoined on the descent — but the four-rider group (Pogacar, Van der Poel, Evenepoel, Pedersen) was quickly reassembled by the Decathlon chase. He finished in the sprint group, ending a Tour in which he improved his final GC gap to Pogacar from previous editions, taking second overall.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "finished in peloton",
+      "narrative": "Del Toro suffered a puncture and had to change bikes early in the racing phase of Stage 21. The GC time freeze before the Montmartre circuit protected his third place overall — without the freeze, any time loss during the bike change might have cost him the podium position. He finished safely in the peloton and confirmed third overall in the final GC.",
+      "keyMoments": [
+        { "km": 75, "what": "Puncture and bike change; GC freeze protected third place" }
+      ],
+      "incident": "Puncture requiring bike change; no GC consequence due to jury's GC time freeze before Montmartre"
+    }
+  ],
+  "incidents": {
+    "other": [
+      { "note": "Stage shortened from ~160km to 89km due to forest fires in France requiring police and emergency resources. Start in Thoiry was cancelled; riders travelled to Paris by TGV." },
+      { "note": "GC times frozen before the Montmartre circuit by the race jury due to safety concerns (slippery conditions on cobbled climb). Final GC standings are those from after Stage 20." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/tour-de-france-2026-results/stage-21-results-tdf-2026/",
+      "publication": "Cycling Stage",
+      "title": "Tour de France 2026: Van der Poel triumphs in sensational finale",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/mathieu-van-der-poel-and-pogacar-provide-the-action-but-van-der-poel-takes-the-victory-in-paris",
+      "publication": "IDL Pro Cycling",
+      "title": "Tadej Pogačar wanted a yellow win in Paris, but Van der Poel stole the final Tour de France victory of 2026",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.bicycling.com/tour-de-france/a71773252/tour-de-france-2026-stage-21-results/",
+      "publication": "Bicycling",
+      "title": "The Performance Metric That Separates the Best Tour de France Riders from Their Competitors on Stage 21",
+      "lang": "en"
+    }
+  ]
+}
