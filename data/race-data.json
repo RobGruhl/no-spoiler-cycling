@@ -36964,8 +36964,8 @@
       "id": "tour-of-denmark-2026",
       "name": "Tour of Denmark",
       "description": "2.Pro cycling race in Denmark",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=owFXy_NknRc",
       "type": "full-race",
       "raceDate": "2026-07-29",
       "endDate": "2026-08-02",
@@ -37031,12 +37031,17 @@
             "flat"
           ],
           "date": "2026-07-29",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=owFXy_NknRc",
           "description": "Grand Départ from Aalborg in northern Jutland. 35th edition of the PostNord Danmark Rundt.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Danish race opener from Aalborg. Flat to rolling Jutland terrain — sprint-friendly start."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-07-30"
           }
         },
         {
@@ -37123,7 +37128,9 @@
           "Danish national stage race with strong home-roads atmosphere.",
           "Sprint-friendly with Jutland hilly day decisive for GC.",
           "Late-summer fixture for Northern European WT teams."
-        ]
+        ],
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
       },
       "jerseys": [
         {
@@ -37154,7 +37161,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-07-30"
+      }
     },
     {
       "id": "donostia-san-sebastian-klasikoa-2026",
