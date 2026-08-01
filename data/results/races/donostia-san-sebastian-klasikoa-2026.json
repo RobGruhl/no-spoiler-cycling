@@ -1,0 +1,100 @@
+{
+  "raceId": "donostia-san-sebastian-klasikoa-2026",
+  "raceName": "Donostia San Sebastian Klasikoa",
+  "raceDate": "2026-08-01",
+  "researchedAt": "2026-08-01T19:27:46Z",
+  "inProgress": false,
+  "tldr": "Remco Evenepoel (Red Bull-BORA-hansgrohe) survived a mid-race bike-change scare to attack alone with Richard Carapaz on the Murgil-Tontorra and out-sprint him in San Sebastián, claiming a record fourth Klasikoa win and passing Marino Lejarreta as the race's sole record holder. Ben Tulett won the group sprint behind for third.",
+  "podium": [
+    { "position": 1, "riderId": null, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "5h 23m 10s" },
+    { "position": 2, "riderId": null, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Team Visma | Lease a Bike", "gap": "+0:29" },
+    { "position": 4, "riderId": null, "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:29" },
+    { "position": 5, "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain Victorious", "gap": "+0:29" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel's fourth Klasikoa, forged in a mid-race chase",
+    "openingMoves": "An eight-man break — Tim Rex, Iñigo Elosegui, Ådne Holter, Valentin Ferron, Lorenzo Quatrucci, Nicolás Alustiza, Nickolas Zukowsky and Joan Bou — went clear around 20-25 km in and built a lead approaching three minutes while Red Bull-BORA-hansgrohe controlled the peloton through the opening climbs.",
+    "raceUnfolds": "The move started unravelling on the Jaizkibel, where Rex briefly rode clear alone before Bart Lemmen, Maxim Van Gils, Michael Leonard and Jay Vine bridged across from the bunch, giving Evenepoel a teammate up the road. The escapees were swept up near the summit, with Quatrucci having already banked the mountains points. Then, approaching the Erlaitz, Evenepoel was forced into a bike change and lost around 30 seconds without an immediate teammate to pace him back.",
+    "decision": "Louis Barré and Paul Double drove the pace on the Erlaitz itself before Giulio Ciccone took over and split the group further; Evenepoel had to chase twice — first back to a group containing Jan Christen, then solo on the descent — before teammate Giulio Pellizzari helped tow him back to the front on the run-in to the Murgil-Tontorra. Once reunited, Van Gils restored order for Red Bull-BORA-hansgrohe on the climb's lower slopes, and on the steepest ramps Evenepoel accelerated with only Richard Carapaz able to follow.",
+    "finale": "The pair crested the Murgil-Tontorra roughly ten seconds clear of Louis Barré and defending champion Giulio Ciccone, then extended the gap on the descent into San Sebastián. Carapaz kept working until he was pushed to the front inside the final kilometre, setting up Evenepoel's sprint from his wheel. Behind, a chase group of around nineteen — including Ben Tulett, Christian Scaroni, Pello Bilbao, Ciccone, Jan Christen, Marc Hirschi, Léo Bisiaux and Felix Gall — arrived together 29 seconds down, with Tulett taking the group sprint for third."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 0, "location": "Erlaitz (approach)", "headline": "Evenepoel's bike-change scare", "description": "A forced bike change left Evenepoel roughly 30 seconds behind the peloton without immediate team support, forcing two separate chases back into contention before the decisive climb." },
+    { "kmFromFinish": 0, "location": "Murgil-Tontorra", "headline": "Evenepoel and Carapaz ride away", "description": "On the steepest slopes of the Murgil-Tontorra, Evenepoel attacked and only Richard Carapaz could follow, the pair opening a race-winning gap that held to the finish." }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Fourth Klasikoa despite a mechanical scare",
+      "verdictClass": "win",
+      "narrative": "A mid-race bike change threatened to end Evenepoel's bid before it started, but Maxim Van Gils and Giulio Pellizzari both worked to pace him back into contention, and once reunited the team controlled the front of the race into the Murgil-Tontorra. Evenepoel's decisive attack made it a record fourth Klasikoa win, with Van Gils also finishing inside the top 25.",
+      "riderIds": ["giulio-pellizzari"]
+    },
+    {
+      "team": "Bahrain Victorious",
+      "verdict": "Bilbao fifth in the group sprint",
+      "verdictClass": "neutral",
+      "narrative": "Pello Bilbao made the front selection over the Murgil-Tontorra and rounded out the chase group's sprint for the minor placings, finishing fifth at 29 seconds — a solid result for the team's local card in a race he'd previously podiumed.",
+      "riderIds": ["pello-bilbao"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain Victorious",
+      "role": "leader", "position": 5, "gap": "+0:29",
+      "narrative": "Bilbao made the front group over the decisive Murgil-Tontorra climb and contested the sprint for the minor placings behind Evenepoel and Carapaz, finishing fifth at 29 seconds — his third top-five in this race.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": 7, "gap": "+0:29",
+      "narrative": "Christen was among the first to attack on the Erlaitz, helping split the group before the Murgil-Tontorra, and stayed with the chase group to the finish, taking seventh at 29 seconds.",
+      "keyMoments": [ { "km": 0, "what": "First to accelerate on the Erlaitz" } ],
+      "incident": null
+    },
+    {
+      "riderId": "leo-bisiaux", "name": "Léo Bisiaux", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": 10, "gap": "+0:29",
+      "narrative": "Bisiaux bridged to the front group late on the Erlaitz and held position through the Murgil-Tontorra, finishing tenth in the large chase group at 29 seconds.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team",
+      "role": "helper", "position": 18, "gap": "+0:29",
+      "narrative": "Gall also made the late bridge across the Erlaitz alongside teammate Bisiaux and finished within the same 29-second chase group, in 18th.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe",
+      "role": "domestique", "position": 89, "gap": "+11:17",
+      "narrative": "After Evenepoel's forced bike change near the Erlaitz, Pellizzari was the teammate who paced him back into the main group, spending himself in the effort and finishing well back in 89th, over 11 minutes down.",
+      "keyMoments": [ { "km": 0, "what": "Towed Evenepoel back to the peloton after his bike change" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto - Intermarché",
+      "role": "helper", "position": 26, "gap": "+1:56",
+      "narrative": "Widar finished outside the main chase groups, coming home 26th at 1:56 down.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": { "crashes": [], "abandons": [] },
+  "quotes": [],
+  "aftermath": {
+    "headline": "Evenepoel stands alone atop the Klasikoa roll of honour",
+    "quotes": [],
+    "body": "Evenepoel's win — his fourth from four Klasikoa appearances (2019, 2022, 2023, 2026) — moves him clear of Marino Lejarreta's three victories as the race's outright record holder."
+  },
+  "sources": [
+    { "url": "https://www.cyclingstage.com/clasica-de-san-sebastian-2026/results-klasikoa-2026/", "publication": "Cycling Stage", "title": "Clásica de San Sebastián 2026: Evenepoel outguns Carapaz in two-up sprint", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-clasica-san-sebastian-2026-remco-evenepoel-overcomes-bike-change-drama-to-beat-richard-carapaz-and-claim-record-fourth-win", "publication": "CyclingUpToDate", "title": "Results Clasica San Sebastian 2026 | Remco Evenepoel overcomes bike change drama to beat Richard Carapaz and claim record fourth win", "lang": "en" },
+    { "url": "https://sportnet.sme.sk/spravy/cyklistika-vysledky-dnes-remco-evenepoel-clasica-san-sebastian-2026/", "publication": "Sportnet (SME)", "title": "Rekordný titul pre Evenepoela", "lang": "sk" },
+    { "url": "https://velopressecollection.ouest-france.fr/route/classements/37939-classique-de-saint-sebastien-1er-aout-2026-classement.html", "publication": "Ouest-France Vélo Presse Collection", "title": "Classique de Saint-Sébastien 1er août 2026 classement", "lang": "fr" },
+    { "url": "https://www.teamvismaleaseabike.com/race-report/news/tulett-sprints-to-podium-after-attacking-display-by-team-visma-lease-a-bike-in-san-sebastian/", "publication": "Team Visma | Lease a Bike", "title": "Tulett sprints to podium after attacking display by Team Visma | Lease a Bike in San Sebastian", "lang": "en" }
+  ]
+}
