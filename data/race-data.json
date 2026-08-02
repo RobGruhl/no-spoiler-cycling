@@ -37378,8 +37378,8 @@
       "id": "tour-de-france-femmes-2026",
       "name": "Tour de France Femmes",
       "description": "2.WWT women's cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=asDywOvL6A0",
       "type": "full-race",
       "raceDate": "2026-08-01",
       "endDate": "2026-08-09",
@@ -37493,8 +37493,8 @@
           ],
           "distance": 137,
           "date": "2026-08-01",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=asDywOvL6A0",
           "description": "Swiss Grande Départ — 137km hilly opener around Lausanne with an uphill finish.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -37505,6 +37505,11 @@
               "Lake Geneva hills make this a puncheur's opener — the yellow jersey will favour a strong all-rounder, not a pure sprinter.",
               "Day-one yellow jersey gambit: small bonus seconds at the line can put a rider in yellow for a week."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-02"
           }
         },
         {
@@ -37718,7 +37723,7 @@
           "Nice GC decider: After Ventoux, the final stage in Nice tackles the Col d'Eze four times in a 99km circuit — race director Marion Rousse calls the route 'mischievous'.",
           "ASO scheduling: ASO chose to start a week after the men's race ends to avoid resource overlap, giving the women's race its own clear window."
         ],
-        "watchNotes": "Nine stages packed into nine days — fans should expect day-on-day GC pressure with no rest day. The Ventoux stage is the must-watch; the Dijon ITT and Nice finale are the other two decisive moments. Disable autoplay on YouTube — final-KM clips often surface in feeds.",
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results.",
         "historicalContext": "The Tour de France Femmes was relaunched in 2022 (after a long hiatus from earlier eras). Annemiek van Vleuten won the inaugural edition (2022), Demi Vollering claimed the 2023 edition, and Kasia Niewiadoma took the 2024 title. The 2026 route is the first to add Mont Ventoux, deliberately raising the GC bar.",
         "keyClimbs": [
           {
@@ -37931,7 +37936,12 @@
             "gc-contender"
           ]
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-02"
+      }
     },
     {
       "id": "gravel-tour-hlinsko-2026",
