@@ -1,0 +1,58 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 1,
+  "stageName": "Gdynia → Koszalin",
+  "stageDate": "2026-08-03",
+  "stageType": "flat",
+  "researchedAt": "2026-08-03T19:26:00Z",
+  "tldr": "Jonathan Milan (Lidl-Trek) won a chaotic bunch sprint in Koszalin at the end of the 234km opening stage from Gdynia, beating Paul Magnier and Noah Hobbs to take the race's first yellow jersey.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek", "time": "stage winner" },
+    { "position": 2, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "s.t." },
+    { "position": 3, "name": "Noah Hobbs", "team": "EF Education - EasyPost", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Milan out-guns Magnier in a frantic Koszalin sprint",
+    "body": "The 83rd Tour de Pologne got underway in Gdynia with the longest stage of the week, 234km across the flat-to-rolling terrain of Pomerania and Kashubia. A six-rider move including Kamil Malecki, Radoslaw Fratczak, Rudy Molard, Bart Lemmen, Simon Dalby and Patrick Gamper built an advantage of around two and a half minutes before Netcompany-Ineos, Lidl-Trek and Soudal Quick-Step took up the chase. Malecki was the most prolific escapee, sweeping intermediate sprint points and bonus seconds through his home town of Bytow before leading the group across the final intermediate sprint in Polanow.\n\nThe gap fell steadily as the finish approached, and the breakaway was finally caught with roughly 17km to go. Dries De Bondt countered immediately, soloing to the day's only KOM points atop Gora Chelmska before being reeled in with 5.6km left. Decathlon CMA CGM Team then drove the pace inside the final 5km as speeds rose toward 75km/h, with Marijn van den Berg leading into the finishing straight.\n\nMilan launched his sprint with around 300m to go and held off a hard-charging Magnier at the line, with Noah Hobbs completing the podium. It was Milan's first-ever Tour de Pologne stage win and put him in the yellow jersey after the hardest day of the opening week."
+  },
+  "gcImpact": {
+    "headline": "Milan takes the first yellow jersey",
+    "body": "Jonathan Milan leads the general classification after stage 1, also holding the points leader's white jersey. Dries De Bondt sits atop the mountains classification after his lone KOM effort at Gora Chelmska, and Kamil Malecki leads the most-combative classification after animating the day's breakaway. Bart Lemmen's bonus seconds from the break moved him into the top six overall."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Milan's Lidl-Trek team spent much of the 234km stage controlling the gap to the early break, then delivered him into position for the finale. With Decathlon CMA CGM and EF Education-EasyPost shaping the run-in, Milan opened his sprint with about 300m to go and held off Paul Magnier to win in Koszalin, taking the race's first yellow jersey along with the points lead.",
+      "keyMoments": [
+        { "km": 234, "what": "Won the bunch sprint in Koszalin to take stage 1 and the leader's jersey" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Magnier's Soudal Quick-Step team also put in a full day of work behind the breakaway. He was well placed in the finale but could not match Milan's closing speed, finishing second in the Koszalin sprint.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    { "rider": "Jonathan Milan", "team": "Lidl - Trek", "quote": "It was a really tough stage, and the pace was very high from the start. We knew we needed to be in the top ten position going into the last corner. I found myself in a perfect spot and just gave everything." }
+  ],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-1-jonathan-milan-beats-paul-magnier-in-koszalin-sprint-to-take-first-yellow-jersey", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 Stage 1 - Jonathan Milan beats Paul Magnier in Koszalin sprint to take first yellow jersey", "lang": "en" },
+    { "url": "https://www.tourdepologne.pl/2026/08/03/potezny-finisz-jonathana-milana-w-koszalinie-za-nami-1-etap-83-tour-de-pologne-uci-worldtour/", "publication": "Tour de Pologne (official)", "title": "Potężny finisz Jonathana Milana w Koszalinie! Za nami 1. etap 83. Tour de Pologne UCI WorldTour", "lang": "pl" },
+    { "url": "https://www.domestiquecycling.com/en/news/jonathan-milan-thunders-to-victory-in-frantic-tour-de-pologne-opener/", "publication": "Domestique", "title": "Jonathan Milan thunders to powerful victory in frantic Tour de Pologne opener", "lang": "en" },
+    { "url": "https://www.teamvismaleaseabike.com/race-report/news/lemmen-animates-opening-stage-of-tour-de-pologne-with-long-breakaway/", "publication": "Team Visma | Lease a Bike", "title": "Lemmen animates opening stage of Tour de Pologne with long breakaway", "lang": "en" }
+  ]
+}
