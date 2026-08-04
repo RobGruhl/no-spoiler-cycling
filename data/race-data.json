@@ -37549,8 +37549,8 @@
           ],
           "distance": 157,
           "date": "2026-08-03",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=BVZIH1e6kZo",
           "description": "157km crossing into the French Jura — sprinters' day with rolling middle.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -37561,6 +37561,11 @@
               "Bridge stage between flat sprinting and the Dijon ITT — riders save matches for tomorrow's decisive solo effort."
             ],
             "watchNotes": "Watch the breakaway composition — if the morning move contains GC-relevant riders, the peloton has to chase. Otherwise expect a reduced bunch sprint."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-04"
           }
         },
         {
@@ -38261,8 +38266,8 @@
       "id": "tour-de-pologne-2026",
       "name": "Tour de Pologne",
       "description": "2.UWT cycling race in Poland",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=br8qeRbxtqU",
       "type": "full-race",
       "raceDate": "2026-08-03",
       "endDate": "2026-08-09",
@@ -38333,12 +38338,17 @@
             "flat"
           ],
           "date": "2026-08-03",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=br8qeRbxtqU",
           "description": "Grand Départ from Gdynia on the Baltic coast.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Opening day from Gdynia — flat to rolling Baltic terrain. 2026 total race distance ~807km."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-04"
           }
         },
         {
@@ -38349,12 +38359,17 @@
             "flat"
           ],
           "date": "2026-08-04",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=1Z2LsM-L5UU",
           "description": "Day 2 of the Tour de Pologne.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Polish stage racing — terrain detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-04"
           }
         },
         {
@@ -38447,7 +38462,7 @@
           "Wieliczka finale: The finish in the UNESCO-listed salt-mining town of Wieliczka brings the race into the cultural heartland of Małopolska.",
           "Tour de France warm-down: For some of the WorldTour's GC contenders, the Tour de Pologne is the first hit-out after the Tour de France — fresh legs or fatigue can flip race tactics."
         ],
-        "watchNotes": "Bonus seconds at intermediate sprints have historically been decisive given how tight the GC tends to be in Poland — watch for sprinters' teams shifting from pure bunch-sprint mode to bonus hunting on transitional stages.",
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results.",
         "historicalContext": "Founded in 1928 as an amateur event and fully professional since 1993, the Tour de Pologne joined the UCI WorldTour in 2005. It remains the only WorldTour stage race in central Europe, organised by the company Lang since 1993. Past editions have featured a mix of climbing-test stages around Karpacz and Zakopane and bunch-sprint days on the way south.",
         "keyClimbs": [
           {
@@ -38605,7 +38620,12 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-04"
+      }
     },
     {
       "id": "vuelta-a-burgos-2026",
