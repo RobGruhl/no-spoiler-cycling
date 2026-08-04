@@ -1,0 +1,55 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 2,
+  "stageName": "Międzyzdroje → Szczecin",
+  "stageDate": "2026-08-04",
+  "stageType": "flat",
+  "researchedAt": "2026-08-04T19:35:00Z",
+  "tldr": "Jonathan Milan (Lidl-Trek) doubled up with a second straight bunch-sprint win, beating Paul Magnier again at the end of the 150km stage into Szczecin, and extends his overall lead through the finish bonus seconds.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek", "time": "3:05:37" },
+    { "position": 2, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "s.t." },
+    { "position": 3, "name": "Matteo Malucelli", "team": "XDS Astana Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Milan doubles up in a tense, technical Szczecin sprint",
+    "body": "The 150.1km run from Miedzyzdroje to Szczecin along the Baltic coast was pan-flat and built for the sprinters. A four-rider move — Patryk Stosz, Radoslaw Fratczak, Anton Schiffer and Jonas Rutsch — went clear early, and Dries De Bondt bridged across at kilometre 64 to make it five. Stosz then suffered a mechanical and was swallowed back up around the 75km mark, leaving four out front.\n\nLidl-Trek, Soudal Quick-Step and EF Education-EasyPost took up the chase, cutting the gap from around 1:20 to 45 seconds before the break was finally caught with 15km to go. Decathlon CMA CGM lifted the pace again inside the final 4km as a fresh peloton reorganised for the sprint.\n\nThe run-in was fast and dangerous, with several leadout trains struggling to hold their positions and a 180-degree corner over tram tracks just 300m from the line stretching the bunch out further. Astana had two riders up front through the corner, but Jonathan Milan chose not to chase the early move — instead following Ivan Garcia Cortina's opening effort before unleashing his own sprint.\n\nMilan powered clear by two bike lengths to beat Paul Magnier for the second day running, with Matteo Malucelli completing the podium. The win keeps Milan in yellow and extends his overall advantage through the stage's finish bonus seconds, setting up a bid for a hat-trick of wins on stage 3."
+  },
+  "gcImpact": {
+    "headline": "Milan retains yellow and stretches his cushion",
+    "body": "Jonathan Milan holds the general classification lead after stage 2, having started the day with a narrow two-second buffer over breakaway specialist Kamil Malecki. A second stage win and its finish-line bonus seconds grow that overnight margin further. Paul Magnier remains Milan's closest challenger in the bunch sprints but sits well back on GC; Malecki and the day's escapees are the riders best placed to trouble Milan on the road."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Milan's Lidl-Trek team helped chase down the day's break before he produced a decisive, patient sprint through a chaotic, tram-track finale — tracking Ivan Garcia Cortina's early move before powering past for a two-bike-length win. It's his second stage win in as many days, keeping him in yellow and extending his overall lead heading into stage 3.",
+      "keyMoments": [
+        { "km": 150, "what": "Won the technical Szczecin bunch sprint for a second straight stage victory" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Magnier was again the closest challenger to Milan, well placed by his Soudal Quick-Step leadout through the technical, tram-track finale but unable to match Milan's finishing speed for a second consecutive day, finishing runner-up in Szczecin.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-2-jonathan-milan-doubles-up-with-sprint-victory-in-szczecin", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 stage 2 - Jonathan Milan doubles up with sprint victory in Szczecin", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/milan-romps-to-back-to-back-stage-wins-at-tour-de-pologne/", "publication": "Domestique", "title": "Milan romps to back-to-back stage wins at Tour de Pologne", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/profi-radsport/rennen/tour-de-pologne-59843/etappe/stage-2-324138/", "publication": "Tour Magazin", "title": "Tour de Pologne 2026: Etappe 2, Miedzyzdroje - Szczecin", "lang": "de" }
+  ]
+}
