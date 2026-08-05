@@ -1,0 +1,45 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 3,
+  "stageName": "Gorzów Wielkopolski → Zielona Góra",
+  "stageDate": "2026-08-05",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-05T19:27:21Z",
+  "tldr": "Jonathan Milan (Lidl-Trek) completed a hat-trick of bunch-sprint wins, holding off Noah Hobbs on a technical, uphill-tinged finale in Zielona Góra to stretch his overall lead heading into the first true GC test of the race.",
+  "podium": [
+    { "position": 1, "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek", "time": "—" },
+    { "position": 2, "name": "Noah Hobbs", "team": "EF Education-EasyPost", "gap": "s.t." },
+    { "position": 3, "name": "Alessandro Romele", "team": "XDS Astana Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Milan survives a tricky finale to complete the hat-trick",
+    "body": "The 193.5km stage from Gorzów Wielkopolski to Zielona Góra carried six primes along the way — three sprints, two special primes and a category-three climb placed just 12km from the line — and a hillier profile than the first two pan-flat stages. Just over 10km after the start, Taco van der Hoorn (Lotto-Intermarché) went clear, with Radosław Frątczak bridging up to form a leading duo that held close to a two-minute gap before the intermediate sprint in Strzelce Krajeńskie.\n\nThe move grew to six as Enzo Paleni, Matteo Sobrero, Dries De Bondt, Sjoerd Bax and Fabio Christen joined, while EF Education-EasyPost and Soudal Quick-Step organised the chase behind. With just over 38km remaining the escapees still led by around a minute and a half. Van der Hoorn then tried to ride away from his companions alone, but the other five refused to let him go clear, and with Visma | Lease a Bike and UAE Team Emirates-XRG adding to the chase, the gap kept shrinking.\n\nBy the final 10km the breakaway's advantage had fallen to about 30 seconds as the category-three climb towards Przytok arrived. Twelve kilometres of rolling roads followed the summit, and the last of the escapees were swallowed up with 4km to go, setting up a fourth straight bunch gallop. Milan again read the finale perfectly, moving to the front of the peloton with 200 metres left, and Noah Hobbs could not come around him once the Italian launched — Milan taking his third stage win in three days as Alessandro Romele completed the podium."
+  },
+  "gcImpact": {
+    "headline": "Milan extends his overall lead to 18 seconds",
+    "body": "A third stage win and its bonus seconds stretch Jonathan Milan's overall lead to 18 seconds over Paul Magnier, with Noah Hobbs now 20 seconds back in third and Kamil Małecki fourth at 22 seconds. The route turns uphill from stage 4 onward, which will be the first real chance for the GC-focused riders behind Milan to close the gap."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Milan's Lidl-Trek team stayed patient through a hillier, breakaway-heavy stage, trusting the bunch to reel in the six-man move before the category-three climb at Przytok. With the escapees caught inside the final 4km, Milan moved into position with 200m to go and held off Noah Hobbs for his third straight stage win, growing his overall lead to 18 seconds heading into the race's first genuinely hilly stages.",
+      "keyMoments": [
+        { "km": 193, "what": "Won his third consecutive bunch sprint to extend his GC lead to 18 seconds" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.idlprocycling.com/cycling/jonathan-milan-completes-tour-of-poland-hat-trick-with-another-dominant-sprint-win", "publication": "IDL Pro Cycling", "title": "Jonathan Milan completes Tour of Poland hat-trick with another dominant sprint win", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-pologne-stage-3-unstoppable-jonathan-milan-claims-hat-trick-of-bunch-sprint-victories/", "publication": "Cyclingnews", "title": "Tour de Pologne stage 3: unstoppable Jonathan Milan claims hat-trick of bunch sprint victories", "lang": "en" },
+    { "url": "https://supersport.se.pl/pozostale-dyscypliny/kolarstwo/jonathan-milan-znow-najszybszy-w-tour-de-pologne-teraz-zaczynaja-sie-gory-aa-4bnK-iqMF-FJwy.html", "publication": "Super Sport (PAP)", "title": "Jonathan Milan znów najszybszy w Tour de Pologne. Teraz zaczynają się góry", "lang": "pl" },
+    { "url": "https://sport.tvp.pl/94704174/jonathan-milan-najlepszy-w-trzecim-etapie-tour-de-pologne-2026", "publication": "TVP Sport", "title": "Jonathan Milan najlepszy w trzecim etapie Tour de Pologne 2026", "lang": "pl" }
+  ]
+}
