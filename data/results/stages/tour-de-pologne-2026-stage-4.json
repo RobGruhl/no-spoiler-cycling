@@ -1,0 +1,63 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 4,
+  "stageName": "Żagań → Karpacz",
+  "stageDate": "2026-08-06",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-06T19:27:33Z",
+  "tldr": "A mass crash roughly 40km from the line neutralized the race and forced organisers to shorten the stage, but Bart Lemmen (Visma | Lease a Bike) survived the chaos to power away on the Orlinek climb for his first professional win, taking the race lead in the process.",
+  "podium": [
+    { "position": 1, "name": "Bart Lemmen", "team": "Team Visma | Lease a Bike", "time": "3:54:45" },
+    { "position": 2, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 3, "name": "Axel Laurance", "team": "Netcompany INEOS", "gap": "+0:14" }
+  ],
+  "narrative": {
+    "headline": "Lemmen survives a mass crash to win in Karpacz",
+    "body": "A four-man breakaway of Dries De Bondt, Matteo Malucelli, Patryk Stosz and Tobiasz Pawlak went clear early on the rolling run from Żagań, with De Bondt taking the first climb of the day at Antoniów. With roughly 42km still to race, a mass crash near Sobieszów brought down close to two dozen riders, including most of UAE Team Emirates-XRG and race leader João Almeida, who tore his shorts and cut his leg but remounted. The race was neutralized for medical treatment, and organisers shortened the remaining route by cutting a loop around Karpacz along with the Borowice climb and an intermediate sprint.\n\nOnce racing resumed, the breakaway was reeled in with roughly 8km to go. Visma | Lease a Bike then took control of the finale: Tijmen Graat attacked first, Marco Brenner countered, and Bart Lemmen followed his teammate's move with Christian Scaroni bridging across. Lemmen's rhythm on the climb dropped his rivals, and with just under 5km left he attacked alone, taking the first-category Karpacz mountain points on his way over the top.\n\nLemmen crested the short, steep Orlinek finishing climb with only a handful of seconds in hand as Scaroni clawed back the gap in the closing meters. The Dutchman held on for his first professional victory, with Scaroni second on the stage and Axel Laurance completing the podium 14 seconds back."
+  },
+  "gcImpact": {
+    "headline": "Lemmen takes the race lead after the shake-up",
+    "body": "Bart Lemmen moves into the overall lead, six seconds ahead of Christian Scaroni. Marco Brenner sits third at 26 seconds, with Matteo Sobrero fourth (+0:27) and Finn Fisher-Black fifth (+0:28). Jonathan Milan, the leader through the first three stages, drops out of GC contention on the day's only hilly test, though he keeps the points classification lead. João Almeida, caught in the crash and injured, lost roughly 16 minutes and is out of overall contention."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Scaroni followed Visma's late attacks on the Orlinek run-in, bridging across to Bart Lemmen's move before running out of road to close the final gap. He was edged out for the stage win in the closing meters but moves up to second overall, six seconds behind Lemmen, putting him firmly into the GC fight heading into the race's remaining mountain and hilly stages.",
+      "keyMoments": [
+        { "km": 171, "what": "Bridged across to the Visma-led selection on the Karpacz climb" },
+        { "km": 175, "what": "Closed hard on Lemmen in the final meters but couldn't get past" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates-XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "+16:00 (approx.)",
+      "narrative": "Almeida was among close to two dozen riders brought down in the mass crash roughly 42km from the finish, cutting his leg and tearing his shorts. He remounted after the race was neutralized for medical treatment but couldn't stay with the front group over the technical, wet finale, losing around 16 minutes and dropping out of overall contention.",
+      "keyMoments": [
+        { "km": 133, "what": "Caught up in the mass crash near Sobieszów, injuring his leg" }
+      ],
+      "incident": { "type": "crash", "description": "Crashed in a mass pile-up ~42km from the finish, sustaining a leg injury; remounted but lost significant time." }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "description": "Mass crash roughly 42km from the finish near Sobieszów brought down around 20 riders, including most of UAE Team Emirates-XRG and race leader João Almeida. The race was neutralized for medical treatment and the route shortened by about 15km." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-4-bart-lemmen-overcomes-mass-crash-to-take-first-pro-win-for-visma", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 stage 4 - Bart Lemmen overcomes mass crash to take first pro win for Visma", "lang": "en" },
+    { "url": "https://sport.tvp.pl/94721233/83-tour-de-pologne-czwarty-etap-skrocony-nowy-lider", "publication": "TVP Sport", "title": "83. Tour de Pologne: czwarty etap skrócony. Nowy lider wyścigu", "lang": "pl" },
+    { "url": "https://www.teraz.sk/sport/lemmen-vyhral-4etapu-okolo-polska-na/983271-clanok.html", "publication": "TASR/teraz.sk", "title": "Lemmen vyhral 4.etapu Okolo Poľska, na hromadný pád doplatil Almeida", "lang": "sk" },
+    { "url": "https://www.tag24.de/sport/radsport/massensturz-truebt-rad-klassiker-fahrer-schleppt-sich-mit-blutiger-wunde-ins-ziel-3522322", "publication": "TAG24", "title": "Massensturz trübt Rad-Klassiker: Fahrer schleppt sich mit blutiger Wunde ins Ziel", "lang": "de" }
+  ]
+}
