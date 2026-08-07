@@ -1,0 +1,82 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 5,
+  "stageName": "Opole → Kocierz Resort",
+  "stageDate": "2026-08-07",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-07T19:26:59Z",
+  "tldr": "Jan Christen (UAE Team Emirates-XRG) survived a late counter-attack from Marco Brenner to win a brutal uphill sprint at Kocierz Resort, where gradients hit close to 20%. Bart Lemmen defended the yellow jersey, finishing safely in the GC group, while race favourite João Almeida did not start after his crash injuries from stage 4.",
+  "podium": [
+    { "position": 1, "riderId": "jan-christen", "name": "Jan Christen", "team": "UAE Team Emirates-XRG", "time": "4:53:32" },
+    { "position": 2, "name": "Marco Brenner", "team": "Tudor Pro Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Louis Barré", "team": "Team Visma | Lease a Bike", "gap": "+0:04" },
+    { "position": 4, "name": "Axel Laurance", "team": "Netcompany INEOS", "gap": "+0:05" },
+    { "position": 5, "name": "Paul Lapeira", "team": "Decathlon CMA CGM Team", "gap": "+0:05" }
+  ],
+  "narrative": {
+    "headline": "Christen out-climbs the field, Lemmen defends yellow on 19% ramps",
+    "body": "A seven-rider breakaway of Rémi Cavagna, Paul Magnier, Patrick Gamper, Filip Maciejuk, Taco van der Hoorn, Tim Naberman and mountains leader Dries De Bondt built a gap of just under two minutes on a mostly flat run from Opole, with Maciejuk later dropping out after a puncture. The advantage evaporated on the first categorised climb to Przełęcz Przegibek as the peloton's GC teams wound up the pace, and the escapees were swept up in the finale.\n\nThe decisive test came on the short, brutally steep finishing climb into Kocierz Resort, 1.2-1.5km at an average gradient of 11.5% ramping to nearly 20% in places. The fight for position going in was fierce, and Neilson Powless set a pace on the lower slopes too hard for explosive attacks. With 2.1km to go, Jan Christen accelerated clear with no immediate response, even from race leader Bart Lemmen's group.\n\nIn the false-flat run to the line, Marco Brenner closed hard from the GC group and briefly passed Christen, who had eased up expecting a sprint. Christen found a last surge in the final uphill ramp to retake Brenner and hold on for his first WorldTour stage victory, with Louis Barré completing the podium four seconds back. Lemmen, defending yellow on terrain that suited the climbers far more than him, finished 11th in the group five seconds behind the winner to keep his overall lead intact."
+  },
+  "gcImpact": {
+    "headline": "Lemmen holds yellow; Christen and Brenner climb into the GC top four",
+    "body": "Bart Lemmen retains the overall lead, six seconds ahead of Christian Scaroni in second. Marco Brenner moves up to third at 15 seconds after matching the stage winner's time, and stage winner Jan Christen jumps to fourth overall at 18 seconds having not been a GC factor before Kocierz Resort. João Almeida, the pre-race favourite who lost time in the stage 4 crash, did not start stage 5 and is out of the race."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "UAE Team Emirates-XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Christen launched the decisive move 2.1km from the summit finish at Kocierz Resort, opening a gap that nobody in the GC group could close. He briefly lost the initiative when Marco Brenner overtook him on the false-flat run-in, having eased up too early, but found one more surge in the final ramp to retake the German and hold on for his first WorldTour victory. The result vaults him from outside GC contention into fourth overall, 18 seconds behind race leader Bart Lemmen, giving UAE Team Emirates-XRG a GC card to play after João Almeida's abandonment.",
+      "keyMoments": [
+        { "km": 216.8, "what": "Attacked alone 2.1km from the finish on the Kocierz Resort climb" },
+        { "km": 218.5, "what": "Held off a fast-finishing Marco Brenner in the final uphill meters to win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 9,
+      "gap": "s.t.",
+      "narrative": "Scaroni followed the key GC wheels up the Kocierz Resort finale and finished safely in the group behind the stage winner, taking no time losses. He remains second overall, six seconds behind Bart Lemmen, keeping himself in the GC fight with two stages remaining.",
+      "keyMoments": [
+        { "km": 217, "what": "Stayed with the front GC group over the steepest section of the finishing climb" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates-XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "DNS",
+      "narrative": "Almeida did not start stage 5, unable to recover from the leg injury sustained in the mass crash during stage 4. UAE Team Emirates-XRG confirmed his withdrawal from the race the morning of the stage, along with teammates Benoît Cosnefroy and Sebastian Molano, ending his overall bid at this year's Tour de Pologne.",
+      "keyMoments": [],
+      "incident": { "type": "abandon", "description": "Did not start stage 5, withdrawing from the race due to the leg injury sustained in the stage 4 mass crash." }
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "joao-almeida", "reason": "Did not start, recovering from a leg injury sustained in the stage 4 mass crash." }
+    ]
+  },
+  "quotes": [
+    { "who": "Robert Wagner (Visma | Lease a Bike sports director)", "text": "Everything went almost exactly as we had discussed beforehand. We had a good day as a team. It is just a shame that Louis couldn't win. He went into the final climb a little too far back, but then he rode an incredibly strong climb. He finished third in the end, but there was more there, and that is disappointing." }
+  ],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-5-uae-turn-disaster-race-around-as-jan-christen-wins-explosive-finale-in-kocierz", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 stage 5 - UAE turn disaster race around as Jan Christen wins explosive finale in Kocierz", "lang": "en" },
+    { "url": "https://www.idlprocycling.com/cycling/jan-christen-wins-brutal-tour-de-pologne-stage-5-as-bart-lemmen-keeps-yellow", "publication": "IDL Pro Cycling", "title": "Jan Christen wins brutal Tour de Pologne stage 5 as Bart Lemmen keeps yellow", "lang": "en" },
+    { "url": "https://www.teamvismaleaseabike.com/race-report/news/lemmen-retains-race-lead-after-tough-finale-in-tour-de-pologne/", "publication": "Team Visma | Lease a Bike (official)", "title": "Lemmen retains race lead after tough finale in Tour de Pologne", "lang": "en" },
+    { "url": "https://www.uaeteamemirates.com/jan-christen-claims-dramatic-summit-victory-tour-de-pologne/", "publication": "UAE Team Emirates-XRG (official)", "title": "Jan Christen claims dramatic summit victory at Tour de Pologne", "lang": "en" },
+    { "url": "https://sports.orange.fr/cyclisme/article/tour-de-pologne-e5-christen-l-emporte-trois-francais-dans-le-top-10-exclu-CNT000002r5RUA.html", "publication": "Orange Sport", "title": "Tour de Pologne (E5) : Christen l'emporte, trois Français dans le top 10", "lang": "fr" },
+    { "url": "https://www.tour-magazin.de/profi-radsport/rundfahrten/polen-rundfahrt/tour-de-pologne-5-etappe-christen-sprintet-brenner-in-den-karpaten-fuer-ersten-worldtour-sieg-ab/", "publication": "Tour Magazin", "title": "Jan Christen siegt auf 5. Tour-de-Pologne-Etappe", "lang": "de" },
+    { "url": "https://fanta-cycling.com/en/news/joo-almeida-costretto-al-ritiro-dal-tour-de-pologne", "publication": "Fanta Cycling", "title": "João Almeida forced to withdraw from the Tour de Pologne", "lang": "en" },
+    { "url": "https://cnnportugal.iol.pt/ciclismo/joao-almeida/ciclismo-joao-almeida-abandona-a-volta-a-polonia", "publication": "CNN Portugal", "title": "Ciclismo: João Almeida abandona a Volta à Polónia", "lang": "pt" }
+  ]
+}
