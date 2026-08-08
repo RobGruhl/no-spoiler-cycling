@@ -1,0 +1,58 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 6,
+  "stageName": "Bukovina Resort → Bukowina Tatrzańska",
+  "stageDate": "2026-08-08",
+  "stageType": "mountain",
+  "researchedAt": "2026-08-08T19:26:28Z",
+  "tldr": "Louis Barré soloed to his first professional win on the queen stage in the Tatras after bridging to and then dropping Santiago Buitrago on the Bukovina Wall, while bonus seconds in the GC group let Christian Scaroni leapfrog teammate Bart Lemmen into the overall lead.",
+  "podium": [
+    { "position": 1, "name": "Louis Barré", "team": "Team Visma | Lease a Bike", "time": "3:09:03" },
+    { "position": 2, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:10" },
+    { "position": 3, "name": "Marco Brenner", "team": "Tudor Pro Cycling Team", "gap": "+0:10" },
+    { "position": 4, "name": "Fredrik Dversnes Lavik", "team": "Uno-X Mobility", "gap": "+0:10" },
+    { "position": 5, "name": "Axel Laurance", "team": "Netcompany INEOS", "gap": "+0:10" }
+  ],
+  "narrative": {
+    "headline": "Barré solos to a first pro win in the Tatras as Scaroni takes yellow on bonus seconds",
+    "body": "A nine-rider break went clear early over the day's repeated categorised climbs, with Walter Calzoni the most active rider and the eventual mountains-classification leader; the move never gained enough of a cushion to threaten the stage win and Visma kept it on a controlled leash into the finishing circuits around Bukowina Tatrzańska.\n\nThe race for the GC only really opened on the penultimate ascent of the Bukovina Wall, roughly 37km from the line, when Santiago Buitrago attacked out of the yellow-jersey group. Louis Barré, sitting just 23 seconds behind race leader Bart Lemmen overall, countered and bridged across, instantly turning the move into a genuine GC threat as well as a stage-win bid. Wilco Kelderman was among those reacting behind as the pace splintered the group further.\n\nBarré and Buitrago carried 20–30 seconds into the base of the final Bukovina Wall, where Barré stopped riding through and attacked outright. Buitrago couldn't follow and was reeled in soon after, leaving the Frenchman alone at the front with about 25 seconds on the group over the summit. He held that cushion — dipping to around 15 seconds with 6km left before stretching back to 25–30 seconds inside the final 3km — for 13 solo kilometres into Bukowina Tatrzańska. Behind, Finn Fisher-Black and Alberto Bettiol both tried to force the pace in the final kilometre and Bart Lemmen reacted, but nobody closed the gap. Barré crossed alone in 3:09:03, his first professional victory, with Scaroni and Brenner outsprinting the rest of the group ten seconds back.\n\nThe bonus seconds at the line did the rest: Scaroni's sprint for second gave him just enough to overhaul teammate Lemmen, who had carried the jersey since stage 4, and take over the overall lead on the road."
+  },
+  "gcImpact": {
+    "headline": "Scaroni leads Barré and Lemmen in an all-Visma-adjacent top three",
+    "body": "Christian Scaroni takes the overall lead, three seconds ahead of stage winner Louis Barré, with Bart Lemmen — race leader coming into the stage — now third at five seconds. Marco Brenner sits fourth at eleven seconds and Jan Christen holds fifth at twenty-three seconds, unchanged in position from after stage 5 but with the gap widened slightly by bonus seconds elsewhere. The GC remains extremely tight — the top five are covered by well under thirty seconds — heading into stage 7's individual time trial in Wieliczka."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:10",
+      "narrative": "Scaroni followed the key GC moves over the Bukovina Wall and contested the sprint for second behind race winner Louis Barré, taking the time bonus he needed. Starting the day six seconds behind teammate-in-spirit Bart Lemmen on GC, the bonus seconds from his stage placing were enough to vault him past Lemmen and into the overall lead by three seconds — his first time in yellow at this Tour de Pologne, with the queen stage now behind the race and only the closing time trial to defend it.",
+      "keyMoments": [
+        { "km": 122, "what": "Contested the sprint for second in the chase group behind Barré" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 11,
+      "gap": "+0:15",
+      "narrative": "A day after his stage 5 win, Christen was distanced slightly from the front GC group on the closing climbs, finishing 11th, 15 seconds behind Barré. It cost him a few seconds on GC but not his placing — he holds fifth overall, 23 seconds off Scaroni's new lead, heading into the stage 7 time trial.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-6-visma-domination-continues-as-louis-barre-wins-solo-and-bart-lemmen-stays-in-yellow", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 Stage 6 - Visma domination continues as Louis Barre wins solo", "lang": "en" },
+    { "url": "https://www.leprogres.fr/sport/2026/08/08/louis-barre-remporte-la-6-sup-e-sup-etape-du-tour-de-pologne-2026", "publication": "Le Progrès", "title": "Louis Barré remporte la 6e étape du Tour de Pologne 2026", "lang": "fr" },
+    { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-de-pologne-stage-6-barre-takes-a-breakaway-to-the-finish-brenner-remains-in-contention-at-the-front/", "publication": "Tour Magazin", "title": "Louis Barré wins Stage 6 of the Tour de Pologne", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/tour-de-pologne/2026/stage-6/result/result", "publication": "ProCyclingStats", "title": "Tour de Pologne 2026 Stage 6 results", "lang": "en" }
+  ]
+}
