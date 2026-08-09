@@ -1,0 +1,56 @@
+{
+  "raceId": "tour-de-pologne-2026",
+  "stageNumber": 7,
+  "stageName": "Wieliczka → Wieliczka",
+  "stageDate": "2026-08-09",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-09T19:30:00Z",
+  "tldr": "Stefan Küng won the closing 12.4km time trial around Wieliczka for his first win with Tudor Pro Cycling Team since returning from a February crash, but it was teammate Marco Brenner who claimed the biggest prize of his career — the overall Tour de Pologne title, ten seconds ahead of Finn Fisher-Black, as overnight race leader Christian Scaroni slipped to seventh on GC.",
+  "podium": [
+    { "position": 1, "name": "Stefan Küng", "team": "Tudor Pro Cycling Team", "time": "14:25" },
+    { "position": 2, "name": "Finn Fisher-Black", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:04" },
+    { "position": 3, "name": "Callum Thornley", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:04" }
+  ],
+  "narrative": {
+    "headline": "Küng wins the finale as teammate Brenner steals the overall title",
+    "body": "The 12.4km closing time trial around the Wieliczka salt mine was always going to settle a general classification covered by just 38 seconds across the top 13 riders. Christian Scaroni rolled off last in the yellow jersey, three seconds up on Saturday's stage winner Louis Barré, five up on former leader Bart Lemmen, and eleven up on Jan Christen.\n\nCallum Thornley set an early marker on a course that started uphill before flattening into a fast finishing loop, but it was Stefan Küng who blitzed the second half at an average of nearly 52km/h to take the tightest of margins over Finn Fisher-Black and Thornley, both four seconds back. It was Küng's first win since returning from the femur fracture that ended his spring campaign at Omloop Nieuwsblad in February.\n\nFurther back, the overall picture was being rewritten. Marco Brenner, fourth overall at the start of the day, posted the seventh-fastest time — eleven seconds off Küng — enough to leapfrog everyone above him. Barré and Lemmen both beat Scaroni against the clock, and Christen matched a strong ride to hold position, leaving the overnight race leader unable to defend the jersey.",
+    "keyMoments": []
+  },
+  "gcImpact": {
+    "headline": "Brenner completes a career-best overall win as Scaroni slips to seventh",
+    "body": "Marco Brenner (Tudor Pro Cycling Team) wins the general classification, ten seconds ahead of Finn Fisher-Black, with Iván Romeo third at sixteen seconds. Louis Barré is fourth (+0:19) and Bart Lemmen fifth (+0:20). Jan Christen finishes sixth overall (+0:22), and overnight race leader Christian Scaroni drops to seventh (+0:25) after a modest time trial, closing out the 83rd Tour de Pologne."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "XDS Astana Team",
+      "role": "leader",
+      "position": 49,
+      "gap": "+0:47",
+      "narrative": "Scaroni started the final-day time trial in the yellow jersey, three seconds up on Louis Barré, but couldn't match the specialists on the 12.4km course around Wieliczka. He finished 49th on the day, 47 seconds down on stage winner Stefan Küng, and dropped from first to seventh overall as Brenner, Fisher-Black, Romeo, Barré, Lemmen and Christen all beat him against the clock — a flat finish to what had otherwise been a strong week defending the jersey through the mountain stages.",
+      "keyMoments": [
+        { "km": 12.4, "what": "Finished 47 seconds down on stage winner Küng, losing the overall race lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 16,
+      "gap": "+0:21",
+      "narrative": "Christen went into the time trial fourth overall, eleven seconds behind race leader Scaroni, and produced a solid ride against the specialists to finish 16th on the stage, 21 seconds down on Küng. It wasn't quite enough to hold his overnight position — stronger rides from Barré and Lemmen nudged him back to sixth overall — but it capped a big week that already included his stage 5 win.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-de-pologne-stage-7-tudor-shines-brenner-wins-the-tour-kueng-the-final-time-trial/", "publication": "Tour Magazin", "title": "Tour de Pologne – Stage 7: Tudor shines: Brenner wins the tour, Küng the final time trial", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-7-double-victory-for-tudor-as-marco-brenner-conquers-yellow-jersey-and-stefan-kung-wins-final-time-trial", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 stage 7 - DOUBLE victory for Tudor as Marco Brenner conquers yellow jersey and Stefan Küng wins final time trial", "lang": "en" },
+    { "url": "https://www.rouleur.cc/racing/races/tour-de-pologne/2026/stages/7/results", "publication": "Rouleur", "title": "Tour de Pologne 2026 — Stage 7 Results", "lang": "en" }
+  ]
+}
