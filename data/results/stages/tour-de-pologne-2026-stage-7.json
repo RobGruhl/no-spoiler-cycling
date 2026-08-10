@@ -4,7 +4,7 @@
   "stageName": "Wieliczka → Wieliczka",
   "stageDate": "2026-08-09",
   "stageType": "hilly",
-  "researchedAt": "2026-08-09T19:30:00Z",
+  "researchedAt": "2026-08-10T19:23:00Z",
   "tldr": "Stefan Küng won the closing 12.4km time trial around Wieliczka for his first win with Tudor Pro Cycling Team since returning from a February crash, but it was teammate Marco Brenner who claimed the biggest prize of his career — the overall Tour de Pologne title, ten seconds ahead of Finn Fisher-Black, as overnight race leader Christian Scaroni slipped to seventh on GC.",
   "podium": [
     { "position": 1, "name": "Stefan Küng", "team": "Tudor Pro Cycling Team", "time": "14:25" },
@@ -47,8 +47,20 @@
     }
   ],
   "incidents": {},
-  "quotes": [],
+  "quotes": [
+    {
+      "rider": "Marco Brenner",
+      "team": "Tudor Pro Cycling Team",
+      "quote": "Was this the time trial of my life? The short answer is yes. It was a perfect day for me. I knew I had a huge opportunity – if everything went well, winning the general classification was within my reach. The turning point was the second tough stage, where I finished second. A day earlier, I was involved in a crash and didn't know how things would unfold, but I didn't give up."
+    },
+    {
+      "rider": "Stefan Küng",
+      "team": "Tudor Pro Cycling Team",
+      "quote": "I felt really great all week, which is why I was so determined to fight for the win today. And I pulled it off! In my previous race, I had a nasty crash – I broke my femur and was out of racing for a very long time. At one point I even doubted whether I'd ever return to the top level. Winning the final stage of the Tour de Pologne feels almost unbelievable."
+    }
+  ],
   "sources": [
+    { "url": "https://www.tourdepologne.pl/en/2026/08/09/a-thrilling-finale-in-wieliczka-and-a-spectacular-triumph-for-marco-brenner/", "publication": "Tour de Pologne (official)", "title": "A Thrilling Finale in Wieliczka and a Spectacular Triumph for Marco Brenner", "lang": "en" },
     { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-de-pologne-stage-7-tudor-shines-brenner-wins-the-tour-kueng-the-final-time-trial/", "publication": "Tour Magazin", "title": "Tour de Pologne – Stage 7: Tudor shines: Brenner wins the tour, Küng the final time trial", "lang": "en" },
     { "url": "https://cyclinguptodate.com/cycling/results-tour-de-pologne-2026-stage-7-double-victory-for-tudor-as-marco-brenner-conquers-yellow-jersey-and-stefan-kung-wins-final-time-trial", "publication": "CyclingUpToDate", "title": "Results Tour de Pologne 2026 stage 7 - DOUBLE victory for Tudor as Marco Brenner conquers yellow jersey and Stefan Küng wins final time trial", "lang": "en" },
     { "url": "https://www.rouleur.cc/racing/races/tour-de-pologne/2026/stages/7/results", "publication": "Rouleur", "title": "Tour de Pologne 2026 — Stage 7 Results", "lang": "en" }
