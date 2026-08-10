@@ -37389,7 +37389,7 @@
       "name": "Tour de France Femmes",
       "description": "2.WWT women's cycling race in France",
       "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=asDywOvL6A0",
+      "url": "https://www.youtube.com/watch?v=u7bxCK_F4Xg",
       "type": "full-race",
       "raceDate": "2026-08-01",
       "endDate": "2026-08-09",
@@ -37737,8 +37737,8 @@
           ],
           "distance": 99,
           "date": "2026-08-09",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=u7bxCK_F4Xg",
           "description": "Closing GC-decider — 99km Nice circuit with four ascents of the Col d'Eze.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -37755,6 +37755,11 @@
               "99km short distance means full-gas racing from the gun, with attacking starts the norm.",
               "Côte d'Azur backdrop and Promenade des Anglais finish frame the closing TV showcase of the race."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-10"
           }
         }
       ],
@@ -37985,7 +37990,7 @@
       "review": {
         "status": "pending",
         "addedBy": "auto",
-        "added": "2026-08-02"
+        "added": "2026-08-10"
       }
     },
     {
@@ -38302,7 +38307,7 @@
       "name": "Tour de Pologne",
       "description": "2.UWT cycling race in Poland",
       "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=br8qeRbxtqU",
+      "url": "https://www.youtube.com/watch?v=2bQiHk0SXDU",
       "type": "full-race",
       "raceDate": "2026-08-03",
       "endDate": "2026-08-09",
@@ -38499,12 +38504,17 @@
             "hilly"
           ],
           "date": "2026-08-09",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=2bQiHk0SXDU",
           "description": "Closing day with finish in Wieliczka.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Final stage finishing in Wieliczka — known for its historic salt mines outside Kraków."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-10"
           }
         }
       ],
@@ -38679,15 +38689,15 @@
       "review": {
         "status": "pending",
         "addedBy": "auto",
-        "added": "2026-08-04"
+        "added": "2026-08-10"
       }
     },
     {
       "id": "vuelta-a-burgos-2026",
       "name": "Vuelta a Burgos",
       "description": "2.Pro cycling race in Spain",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=thHratgs9kI",
       "type": "full-race",
       "raceDate": "2026-08-04",
       "endDate": "2026-08-08",
@@ -38844,12 +38854,17 @@
             "hilly"
           ],
           "date": "2026-08-06",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Jm03h4SowTM",
           "description": "Day 3.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-10"
           }
         },
         {
@@ -38860,12 +38875,17 @@
             "hilly"
           ],
           "date": "2026-08-07",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=fwSSYdMbLeM",
           "description": "Day 4.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-10"
           }
         },
         {
@@ -38877,12 +38897,17 @@
             "summit-finish"
           ],
           "date": "2026-08-08",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=giNt_6QuSOU",
           "description": "Queen stage finale — traditionally a summit finish at Lagunas de Neila, the race's iconic climb.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Vuelta a Burgos closes annually with the brutal Lagunas de Neila summit finish — GC decider."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-10"
           }
         }
       ],
@@ -38926,7 +38951,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-10"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "volta-a-portugal-2026",
