@@ -39335,8 +39335,8 @@
       "id": "arctic-race-of-norway-2026",
       "name": "Arctic Race of Norway",
       "description": "2.Pro cycling race in Norway",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=vc8Hsfd2c70",
       "type": "full-race",
       "raceDate": "2026-08-13",
       "endDate": "2026-08-16",
@@ -39404,12 +39404,17 @@
           ],
           "distance": 181.7,
           "date": "2026-08-13",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=vc8Hsfd2c70",
           "description": "Opening 182km in Ofoten/Vesterålen — world's northernmost road race kicks off above the Arctic Circle.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Norwegian Arctic opener — Evenes to Myre. Expect a bunch sprint to start the race."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-15"
           }
         },
         {
@@ -39513,14 +39518,23 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-15"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "czech-tour-2026",
       "name": "Czech Tour",
       "description": "2.Pro cycling race in Czechia",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=cmpNWCpxY0c",
       "type": "full-race",
       "raceDate": "2026-08-13",
       "endDate": "2026-08-16",
@@ -39587,12 +39601,17 @@
           ],
           "distance": 173.9,
           "date": "2026-08-13",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=cmpNWCpxY0c",
           "description": "Opening 174km from Prague to the spa town Karlovy Vary in western Bohemia.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "17th Czech Tour opens with a Prague-to-Karlovy Vary traverse through western Bohemia."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-15"
           }
         },
         {
@@ -39605,8 +39624,8 @@
           ],
           "distance": 177.1,
           "date": "2026-08-14",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=JQD-7k0fUIg",
           "description": "Queen stage — 177km finishing on the iconic Ještěd mountain in the Jizera range.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -39618,6 +39637,11 @@
               }
             ],
             "watchNotes": "Ještěd is one of Central Europe's toughest summit finishes."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-15"
           }
         },
         {
@@ -39702,7 +39726,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-15"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "tour-de-pologne-women-2026",
