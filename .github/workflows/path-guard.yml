@@ -1,0 +1,32 @@
+# INSTALL to: no-spoiler-cycling/.github/workflows/path-guard.yml
+# Required status check. Fails if a PR changes anything outside the agent's allowlist
+# (data/results/** + generated HTML). Make this a REQUIRED check in branch protection so a
+# failing guard blocks auto-merge. Runs on ALL PRs — cheap insurance, not just agent PRs.
+name: Path guard
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  path-guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compute changed files
+        run: |
+          git diff --name-only \
+            "${{ github.event.pull_request.base.sha }}" \
+            "${{ github.event.pull_request.head.sha }}" > changed.txt
+          echo "Changed files:"; cat changed.txt
+      - name: Enforce allowlist
+        run: node .github/scripts/check-paths.mjs < changed.txt

@@ -1,0 +1,36 @@
+# INSTALL to: no-spoiler-cycling/.github/workflows/auto-merge.yml
+# Enables GitHub NATIVE auto-merge for agent PRs. The merge itself is performed by GitHub once all
+# REQUIRED status checks pass (your ci.yml jobs + path-guard) — this job only flips the auto-merge
+# switch. It uses the ephemeral workflow GITHUB_TOKEN (no long-lived secret) and only acts on a PR
+# that is (a) from a branch in THIS repo, (b) authored by the configured bot, (c) labeled.
+#
+# Prerequisites (one-time, by a repo admin — see cycling-agent/SETUP-CHECKLIST.md):
+#   - Settings → General → "Allow auto-merge" = ON
+#   - Branch protection on `main`: require status checks (ci jobs + "path-guard"), no bypass
+#   - Repo variable AGENT_BOT_LOGIN = the bot account's login
+name: Auto-merge agent results PRs
+
+on:
+  pull_request:
+    types: [labeled, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enable-auto-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    if: >
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.login == vars.AGENT_BOT_LOGIN &&
+      contains(github.event.pull_request.labels.*.name, 'agent-results')
+    steps:
+      - name: Enable native auto-merge (squash)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ github.event.pull_request.number }}" \
+            --auto --squash -R "${{ github.repository }}"
+          echo "Auto-merge enabled. GitHub will merge once required checks pass."
