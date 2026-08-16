@@ -1,0 +1,137 @@
+{
+  "raceId": "adac-cyclassics-2026",
+  "raceName": "ADAC Cyclassics",
+  "raceDate": "2026-08-16",
+  "researchedAt": "2026-08-16T19:25:39Z",
+  "inProgress": false,
+  "tldr": "Paul Magnier (Soudal Quick-Step) won the 29th ADAC Cyclassics in Hamburg with a dominant sprint from a reduced group, holding off Mike Teunissen (XDS Astana Team) and Laurence Pithie (Red Bull - BORA - hansgrohe) after 207km from Buxtehude. It was his first WorldTour one-day victory, backing up three Giro d'Italia stage wins earlier in the season, after a late split over the Waseberg cost several top sprinters their chance.",
+  "podium": [
+    { "position": 1, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "time": "4h 17m 55s" },
+    { "position": 2, "riderId": null, "name": "Mike Teunissen", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 3, "riderId": null, "name": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Paul Penhoët", "team": "Groupama - FDJ United", "gap": "s.t." },
+    { "position": 5, "riderId": null, "name": "Henri Uhlig", "team": "Alpecin - Premier Tech", "gap": "s.t." },
+    { "position": 6, "riderId": null, "name": "Milan Fretin", "team": "Cofidis", "gap": "s.t." },
+    { "position": 7, "riderId": null, "name": "Noah Hobbs", "team": "EF Education - EasyPost", "gap": "s.t." },
+    { "position": 8, "riderId": "soren-waerenskjold", "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 9, "riderId": null, "name": "Huub Artz", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 10, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Magnier survives a Waseberg split to sprint clear in Hamburg",
+    "openingMoves": "207km from Buxtehude to Hamburg, with five ascents of the cobbled Waseberg (700m at over 9% average) on the closing circuit. A six-rider break — Jonas Rutsch, Benjamin Thomas, Dries De Pooter, local rider Niklas Behrens, Loe van Belle and Filip Maciejczyk — built a lead of over four minutes before the bunch brought it back below two with 50km to go.",
+    "raceUnfolds": "The gap kept shrinking through a series of counter-moves — brothers Tim and Gianni Vermeesch briefly went clear before being reeled in — and by 37km to go De Pooter was struggling to hold the break's pace. Rutsch and Thomas pushed on alone over the final Waseberg climb but were swallowed up by the peloton on the descent, with Isaac del Toro driving the chase, bringing the race back together with 14km left.",
+    "decision": "In the finale a crash in a feed zone earlier in the race had already taken down Del Toro and Biniam Girmay (both continued unhurt), and on the run to the line the peloton split, with Jonathan Milan and Olav Kooij missing the front group as Soudal Quick-Step organised for Magnier.",
+    "finale": "Magnier was launched from 300m out and held off the chasing group by daylight, taking his seventh win of the season and his first at WorldTour one-day level. Mike Teunissen and Laurence Pithie completed the podium, with Paul Penhoët, Henri Uhlig, Milan Fretin, Noah Hobbs, Søren Wærenskjold, Huub Artz and Arnaud De Lie rounding out the top ten."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 100, "location": "Feed zone", "headline": "Crash takes down Del Toro and Girmay", "description": "Isaac del Toro and Biniam Girmay were both involved in a feed-zone crash roughly 100km from the finish; both continued unhurt but their chances were compromised." },
+    { "kmFromFinish": 16, "location": "Final ascent of the Waseberg", "headline": "Rutsch and Thomas caught on the descent", "description": "The last breakaway pair were reeled in on the descent off the final Waseberg climb, with Del Toro driving the chase, reuniting the race with 14km to go." },
+    { "kmFromFinish": 10, "location": "Run-in to Hamburg", "headline": "Peloton splits, Milan and Kooij miss out", "description": "A late split in the bunch cost Jonathan Milan and Olav Kooij their sprint chance, while Soudal Quick-Step organised the front for Magnier." }
+  ],
+  "teamStories": [
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Magnier wins the sprint",
+      "verdictClass": "win",
+      "narrative": "Soudal Quick-Step rode all day to bring back the early break and then controlled the closing kilometres, delivering Magnier perfectly for his sprint. It's his first WorldTour one-day win, adding to his three Giro d'Italia stage victories from earlier in the season.",
+      "riderIds": ["paul-magnier"]
+    },
+    {
+      "team": "Uno-X Mobility",
+      "verdict": "Wærenskjold 8th",
+      "verdictClass": "neutral",
+      "narrative": "Søren Wærenskjold survived the Waseberg selection and the late split to contest the sprint, finishing 8th on the same time as the winner.",
+      "riderIds": ["soren-waerenskjold"]
+    },
+    {
+      "team": "Lotto Intermarché",
+      "verdict": "De Lie 10th",
+      "verdictClass": "neutral",
+      "narrative": "Arnaud De Lie made the front selection through the finale and contested the reduced bunch sprint, rounding out the top ten.",
+      "riderIds": ["arnaud-de-lie"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step",
+      "role": "leader", "position": 1, "gap": "winner",
+      "narrative": "Magnier's team controlled the early break and kept the peloton together through the closing Waseberg circuits, then positioned him perfectly for the sprint. Launched from 300m out, he held off the chasing group by over a bike length for his first WorldTour one-day win and seventh victory of the season.",
+      "keyMoments": [
+        { "km": 191, "what": "Soudal Quick-Step helps bring the last breakaway pair back on the Waseberg descent" },
+        { "km": 207, "what": "Launches from 300m out and holds off the chase to win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "soren-waerenskjold", "name": "Søren Wærenskjold", "team": "Uno-X Mobility",
+      "role": "leader", "position": 8, "gap": "s.t.",
+      "narrative": "Wærenskjold made it through the repeated Waseberg ascents and the late split in the bunch to contest the sprint, crossing 8th on the same time as Magnier.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché",
+      "role": "leader", "position": 10, "gap": "s.t.",
+      "narrative": "De Lie stayed in the front group through the finale and was among the sprinters contesting the finish, taking 10th.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Racing for the first time since his Tour de France podium last month, Del Toro was caught up in a feed-zone crash around 100km from the finish but continued unhurt. He was later prominent on the front, driving the chase to reel in the last escapees on the final Waseberg descent, before the sprinters' teams took over for the finale.",
+      "keyMoments": [
+        { "km": 107, "what": "Involved in a feed-zone crash, continues unhurt" },
+        { "km": 193, "what": "Drives the chase that catches the last breakaway pair" }
+      ],
+      "incident": { "type": "crash", "description": "Feed-zone crash around 100km from the finish; continued without apparent injury." }
+    },
+    {
+      "riderId": "biniam-girmay", "name": "Biniam Girmay", "team": "NSN Cycling Team",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Girmay was also involved in the feed-zone crash around 100km from the finish and continued, but did not feature in the sprint for the win.",
+      "keyMoments": [
+        { "km": 107, "what": "Involved in a feed-zone crash, continues unhurt" }
+      ],
+      "incident": { "type": "crash", "description": "Feed-zone crash around 100km from the finish; continued without apparent injury." }
+    },
+    {
+      "riderId": "jonathan-milan", "name": "Jonathan Milan", "team": "Lidl - Trek",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Milan was caught out by a split in the peloton in the closing kilometres and missed the front group contesting the sprint.",
+      "keyMoments": [
+        { "km": 197, "what": "Misses the decisive late split in the bunch" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij", "name": "Olav Kooij", "team": "Decathlon CMA CGM Team",
+      "role": "leader", "position": null, "gap": null,
+      "narrative": "Kooij, like Milan, was on the wrong side of a late split in the bunch and missed the group that contested the sprint for the win.",
+      "keyMoments": [
+        { "km": 197, "what": "Misses the decisive late split in the bunch" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "kmFromFinish": 107, "description": "Isaac del Toro and Biniam Girmay were both involved in a crash in a feed zone roughly 100km from the finish; both continued without apparent injury." }
+    ],
+    "abandons": [],
+    "controversies": []
+  },
+  "aftermath": {
+    "headline": "Magnier backs up his Giro form with a first one-day WorldTour win",
+    "quotes": [],
+    "body": "Soudal Quick-Step set out to avoid a repeat of 2025, when an early break spoiled the sprinters' party — this time the team controlled the race from the front, reeled in the day's escapees, and delivered Magnier for the finish. A late split cost Milan and Kooij their chance, but Magnier's sprint was untouchable regardless, giving him his seventh win of the season and a signature victory ahead of the Deutschland Tour."
+  },
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-adac-cyclassics-hamburg-2026-dominant-paul-magnier-wins-sprint-as-split-in-bunch-sees-milan-and-kooij-miss-out", "publication": "CyclingUpToDate", "title": "Results ADAC Cyclassics Hamburg 2026 - Dominant Paul Magnier wins sprint as split in bunch sees Milan and Kooij miss out", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/we-wanted-to-avoid-the-scenario-of-last-year-paul-magnier-rights-wrongs-of-last-season-as-he-roars-to-sprint-victory-in-adac-cyclassics-hamburg", "publication": "CyclingUpToDate", "title": "\"We wanted to avoid the scenario of last year.\" - Paul Magnier rights wrongs of last season as he roars to sprint victory in ADAC Cyclassics Hamburg", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/adac-cyclassics-hamburg-paul-magnier-takes-sprint-win-after-perfect-leadout/", "publication": "Cyclingnews", "title": "ADAC Cyclassics Hamburg: Paul Magnier takes sprint win after Soudal-Quickstep takes control in final 10 kilometres", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/adac-cyclassics-magnier-wins-the-sprint-on-moenckebergstrasse/", "publication": "Tour Magazin", "title": "ADAC Cyclassics: Magnier wins the sprint on Mönckebergstraße", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/news/magnier-wins-adac-cyclassics-after-surviving-waseberg-selection/", "publication": "Domestique Cycling", "title": "Magnier wins ADAC Cyclassics after surviving Waseberg selection", "lang": "en" }
+  ]
+}
