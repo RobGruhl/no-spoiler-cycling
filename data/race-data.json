@@ -39427,12 +39427,17 @@
           ],
           "distance": 179.2,
           "date": "2026-08-14",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=6dKiPZPjol4",
           "description": "179km along Vesterålen's outer coast — Bø to Andenes at the archipelago's tip.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Vesterålen coastal stage — Arctic Ocean views, exposed terrain, possible crosswinds."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-16"
           }
         },
         {
@@ -39445,8 +39450,8 @@
           ],
           "distance": 142.5,
           "date": "2026-08-15",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=9g6065lKigw",
           "description": "Queen stage — 143km finishing on the Storheia summit above Melbu.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -39458,6 +39463,11 @@
               }
             ],
             "watchNotes": "GC settled here — Arctic Race's signature mountain finish."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-16"
           }
         },
         {
@@ -39741,8 +39751,8 @@
       "id": "tour-de-pologne-women-2026",
       "name": "Tour de Pologne Women",
       "description": "2.Pro women's cycling race in Poland",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=kaDxAwxHDsg",
       "type": "full-race",
       "raceDate": "2026-08-14",
       "endDate": "2026-08-16",
@@ -39809,12 +39819,17 @@
             "hilly"
           ],
           "date": "2026-08-14",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=kaDxAwxHDsg",
           "description": "Opening day of the Tour de Pologne Women (2.Pro).",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Polish women's race opener. The race traditionally features rolling-to-hilly stages."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-16"
           }
         },
         {
@@ -39825,12 +39840,17 @@
             "hilly"
           ],
           "date": "2026-08-15",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=WNO07U1uBbQ",
           "description": "Day 2.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-16"
           }
         },
         {
@@ -39883,7 +39903,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-16"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "gp-yvonne-reynders-2026",
