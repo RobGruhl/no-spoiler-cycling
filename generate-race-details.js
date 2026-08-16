@@ -18,6 +18,7 @@ import path from 'path';
 import { flamesForRace, flamesForStage, flamesForTour } from './lib/watchability.js';
 import { siteLegalFooter } from './lib/site-chrome.js';
 import { isFootageApproved } from './lib/footage-review.js';
+import { parseRiderName } from './lib/display-utils.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -95,20 +96,6 @@ function rankingToStars(ranking) {
   return 1;
 }
 
-// Parse "LASTNAME First" — surname may be multi-word for prefixes like
-// "VAN AERT Wout" or "DEL TORO Isaac". Recognises the surname run as the
-// leading sequence of ALL-CAPS tokens (any letter, including accents).
-function parseRiderName(fullName) {
-  const parts = (fullName || '').trim().split(/\s+/);
-  const isUpper = p => p && p === p.toUpperCase() && p !== p.toLowerCase();
-  let i = 0;
-  while (i < parts.length && isUpper(parts[i])) i++;
-  const titleCase = w => w.charAt(0) + w.slice(1).toLowerCase();
-  const surname = parts.slice(0, i || 1).map(titleCase).join(' ');
-  const given = parts.slice(i || 1).join(' ');
-  return { surname, given };
-}
-
 function prestigeClass(race) {
   const p = race.prestige || [];
   if (p.includes('grand-tour')) return 'gt';
@@ -175,10 +162,11 @@ const GEO_LABEL = {
   AU: { flag: '🇦🇺', name: 'Australia' },
   BE: { flag: '🇧🇪', name: 'Belgium' },
   NL: { flag: '🇳🇱', name: 'Netherlands' },
+  FR: { flag: '🇫🇷', name: 'France' },
   TH: { flag: '🇹🇭', name: 'Thailand' },
   INTL: { flag: '🌐', name: 'International' },
 };
-const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU', 'BE', 'NL', 'INTL'];
+const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU', 'BE', 'NL', 'FR', 'INTL'];
 
 function renderWatchSection(race) {
   const geos = race.broadcast?.geos || {};
@@ -832,7 +820,10 @@ function renderStageRace(race) {
     const routeMatch = s.name.match(/:\s*(.+?)(?:\s*\(|$)/);
     const routeText = routeMatch ? routeMatch[1] : s.name;
     const href = `${race.id}-stage-${n}.html`;
-    const hasDetails = s.stageDetails && Object.keys(s.stageDetails).length > 0;
+    // Rest days share stageNumber 0 with prologues but get no stage page, so a
+    // cover link would 404 (e.g. two TdF rest days both pointing at stage-0.html).
+    const isRest = s.stageType === 'rest-day';
+    const hasDetails = !isRest && s.stageDetails && Object.keys(s.stageDetails).length > 0;
     // NOTE: the row is always a <div> (never an <a>). A "stretched link" overlay
     // makes the whole row navigate to the stage page when details exist; this keeps
     // the results badge (also an <a>) from being an illegal nested anchor — nested
@@ -844,7 +835,7 @@ function renderStageRace(race) {
     // dense stage table: only flag standouts — 🔥🔥 = 5, 🔥 = 4, nothing for ≤3
     const flameBadge = (stageFlames >= 4) ? `<span class="watch-flame" title="Worth-watching rating: ${stageFlames}/5">${'🔥'.repeat(stageFlames - 3)}</span>` : '';
     return `<div class="stage${isQueen ? ' qs' : ''}${hasDetails ? ' has-link' : ''}">${stageCover}
-      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${n === 0 ? 'P' : n}</span><span class="badges">${resultsBadge}${flameBadge}</span></div>
+      <div class="c first"><span class="no${isQueen ? ' qs' : ''}">${isRest ? '—' : (n === 0 ? 'P' : n)}</span><span class="badges">${resultsBadge}${flameBadge}</span></div>
       <div class="c lbl">${code}${isQueen ? '<br/>QUEEN' : ''}</div>
       <div class="c dt">${fmtShortDate(s.date)}</div>
       <div class="c rt">${htmlEscape(routeText).replace(/→/g, '<span class="arr">→</span>')}</div>
