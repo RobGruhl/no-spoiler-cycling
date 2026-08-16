@@ -6,6 +6,7 @@
 
 import fs from 'fs';
 import { riderPlaceholder, siteLegalFooter } from './lib/site-chrome.js';
+import { shortRiderName } from './lib/display-utils.js';
 
 const SPECIALTY_LABELS = {
   'climber': 'Climber',
@@ -35,17 +36,10 @@ function parseUTC(ymd) {
   return new Date(Date.UTC(y, m - 1, d));
 }
 
-function formatSurnameFirst(name) {
-  // Data stores names as "POGAČAR Tadej" (surname first, uppercase surname).
-  // Render as "T. Pogačar" for display.
-  const parts = (name || '').trim().split(/\s+/);
-  if (parts.length < 2) return name || '';
-  const surname = parts[0];
-  const given = parts.slice(1).join(' ');
-  const titleCase = surname.charAt(0) + surname.slice(1).toLowerCase();
-  const initial = given.charAt(0);
-  return `${initial}. ${titleCase}`;
-}
+// Data stores names as "POGAČAR Tadej" (surname first, uppercase surname).
+// Render as "T. Pogačar" for display; multi-word surnames stay intact
+// ("VAN AERT Wout" → "W. Van Aert").
+const formatSurnameFirst = shortRiderName;
 
 function buildRidersIndex(riders, opts = {}) {
   const {

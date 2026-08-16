@@ -7,6 +7,7 @@
 import fs from 'fs';
 import path from 'path';
 import { riderPlaceholder, siteLegalFooter } from './lib/site-chrome.js';
+import { parseRiderName } from './lib/display-utils.js';
 
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -71,15 +72,6 @@ function fmtShortDate(ymd) {
   return `${WEEKDAY_SHORT[d.getUTCDay()]}, ${MONTH_SHORT[d.getUTCMonth()]} ${d.getUTCDate()}`;
 }
 
-function formatSurnameFirst(name) {
-  const parts = (name || '').trim().split(/\s+/);
-  if (parts.length < 2) return name || '';
-  const surname = parts[0];
-  const given = parts.slice(1).join(' ');
-  const titleCase = surname.charAt(0) + surname.slice(1).toLowerCase();
-  return `${given} ${titleCase}`;
-}
-
 function computeAge(dob) {
   const d = parseUTC(dob);
   if (!d) return null;
@@ -140,10 +132,8 @@ function generateRiderDetailsHTML(rider, raceData, cfg) {
   const placeholder = riderPlaceholder(rider.name);
   const specialties = (rider.specialties || []).map(s => SPECIALTY_LABELS[s] || s);
   const age = computeAge(rider.dateOfBirth);
-  const display = formatSurnameFirst(rider.name);
-  const nameParts = display.split(' ');
-  const given = nameParts[0];
-  const surname = nameParts.slice(1).join(' ');
+  const { surname, given } = parseRiderName(rider.name);
+  const display = `${given} ${surname}`.trim();
 
   const programHtml = renderRaceProgram(rider, raceData);
   const programCount = rider.raceProgram?.status === 'announced' ? (rider.raceProgram?.races?.length || 0) : 0;

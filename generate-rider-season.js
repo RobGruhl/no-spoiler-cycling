@@ -17,6 +17,7 @@
 import fs from 'fs';
 import path from 'path';
 import { siteLegalFooter } from './lib/site-chrome.js';
+import { parseRiderName } from './lib/display-utils.js';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname));
 const RACE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/race-data.json'), 'utf8'));
@@ -192,10 +193,7 @@ function renderRiderPage(riderId) {
   const seasonArc = buildSeasonArc(rider, entries);
   const healthStatus = loadHealthStatus(rider);
 
-  const surname = (rider.name || '').split(' ').filter(p => p === p.toUpperCase()).join(' ');
-  const given = (rider.name || '').split(' ').filter(p => p !== p.toUpperCase()).join(' ');
-  const titleCase = w => w ? w.charAt(0) + w.slice(1).toLowerCase() : '';
-  const displaySurname = surname.split(' ').map(titleCase).join(' ');
+  const { surname: displaySurname, given } = parseRiderName(rider.name);
   const displayName = `${given} ${displaySurname}`.trim();
   const cleanTeam = (rider.team || '').replace(/\\\|/g, '|');
 
