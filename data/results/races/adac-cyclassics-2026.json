@@ -2,7 +2,7 @@
   "raceId": "adac-cyclassics-2026",
   "raceName": "ADAC Cyclassics",
   "raceDate": "2026-08-16",
-  "researchedAt": "2026-08-16T19:25:39Z",
+  "researchedAt": "2026-08-17T19:25:55Z",
   "inProgress": false,
   "tldr": "Paul Magnier (Soudal Quick-Step) won the 29th ADAC Cyclassics in Hamburg with a dominant sprint from a reduced group, holding off Mike Teunissen (XDS Astana Team) and Laurence Pithie (Red Bull - BORA - hansgrohe) after 207km from Buxtehude. It was his first WorldTour one-day victory, backing up three Giro d'Italia stage wins earlier in the season, after a late split over the Waseberg cost several top sprinters their chance.",
   "podium": [
@@ -124,7 +124,10 @@
   },
   "aftermath": {
     "headline": "Magnier backs up his Giro form with a first one-day WorldTour win",
-    "quotes": [],
+    "quotes": [
+      { "speaker": "Paul Magnier", "text": "This is my first victory in a WorldTour race. I am proud that I was able to finish off the work of my teammates.", "context": "Post-race", "source": "CyclingUpToDate" },
+      { "speaker": "Paul Magnier", "text": "We wanted to avoid the scenario of last year. I want to thank my team, who did an incredible job all day, bringing back the breakaway riders and then riding very hard to keep the peloton together and prevent any attacks in the final part of the race. In the last kilometer, my teammates positioned me perfectly, from where I was able to launch my sprint. It's a huge pleasure to win here in Hamburg, on a course that suited me and in a prestigious race where so many great sprinters have triumphed over the last three decades.", "context": "On avoiding a repeat of 2025, when an early breakaway spoiled the sprinters' finish", "source": "CyclingUpToDate" }
+    ],
     "body": "Soudal Quick-Step set out to avoid a repeat of 2025, when an early break spoiled the sprinters' party — this time the team controlled the race from the front, reeled in the day's escapees, and delivered Magnier for the finish. A late split cost Milan and Kooij their chance, but Magnier's sprint was untouchable regardless, giving him his seventh win of the season and a signature victory ahead of the Deutschland Tour."
   },
   "sources": [
@@ -132,6 +135,7 @@
     { "url": "https://cyclinguptodate.com/cycling/we-wanted-to-avoid-the-scenario-of-last-year-paul-magnier-rights-wrongs-of-last-season-as-he-roars-to-sprint-victory-in-adac-cyclassics-hamburg", "publication": "CyclingUpToDate", "title": "\"We wanted to avoid the scenario of last year.\" - Paul Magnier rights wrongs of last season as he roars to sprint victory in ADAC Cyclassics Hamburg", "lang": "en" },
     { "url": "https://www.cyclingnews.com/pro-cycling/racing/adac-cyclassics-hamburg-paul-magnier-takes-sprint-win-after-perfect-leadout/", "publication": "Cyclingnews", "title": "ADAC Cyclassics Hamburg: Paul Magnier takes sprint win after Soudal-Quickstep takes control in final 10 kilometres", "lang": "en" },
     { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/adac-cyclassics-magnier-wins-the-sprint-on-moenckebergstrasse/", "publication": "Tour Magazin", "title": "ADAC Cyclassics: Magnier wins the sprint on Mönckebergstraße", "lang": "en" },
-    { "url": "https://www.domestiquecycling.com/en/news/magnier-wins-adac-cyclassics-after-surviving-waseberg-selection/", "publication": "Domestique Cycling", "title": "Magnier wins ADAC Cyclassics after surviving Waseberg selection", "lang": "en" }
+    { "url": "https://www.domestiquecycling.com/en/news/magnier-wins-adac-cyclassics-after-surviving-waseberg-selection/", "publication": "Domestique Cycling", "title": "Magnier wins ADAC Cyclassics after surviving Waseberg selection", "lang": "en" },
+    { "url": "https://radsportaktuell.de/radsport/ergebnisse-adac-cyclassics-hamburg-2026-dominanter-paul-magnier-gewinnt-den-sprint-riss-im-feld-lasst-milan-und-kooij-leer-ausgehen", "publication": "radsportaktuell", "title": "Ergebnisse ADAC Cyclassics Hamburg 2026 – Dominanter Paul Magnier gewinnt den Sprint, Riss im Feld lässt Milan und Kooij leer ausgehen", "lang": "de" }
   ]
 }
