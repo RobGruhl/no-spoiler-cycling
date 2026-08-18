@@ -39479,12 +39479,17 @@
           ],
           "distance": 190.8,
           "date": "2026-08-16",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=XgNHeIC27AQ",
           "description": "Final 191km from Sortland to the port city Narvik on the mainland.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Closing day — bridge crossings and coastal terrain into Narvik. Last GC opportunities."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-18"
           }
         }
       ],
@@ -39663,12 +39668,17 @@
           ],
           "distance": 211.2,
           "date": "2026-08-15",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=7Sux6xx-zMg",
           "description": "Longest stage at 211km — Pardubice through eastern Bohemia to Prostějov in Moravia.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Race's longest stage. Bohemia-Moravia transition with rolling terrain."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-18"
           }
         },
         {
@@ -39861,12 +39871,17 @@
             "hilly"
           ],
           "date": "2026-08-16",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=vx1BrGjPh0k",
           "description": "Closing day — historically the GC decider often in the Lubelskie region.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Final stage. Past editions have closed on demanding rolling courses (e.g. Nałęczów → Kraśnik)."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-18"
           }
         }
       ],
@@ -40026,8 +40041,8 @@
       "id": "adac-cyclassics-2026",
       "name": "ADAC Cyclassics",
       "description": "1.UWT cycling race in Germany",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=v6VAM6LSRbg",
       "type": "full-race",
       "raceDate": "2026-08-16",
       "endDate": "2026-08-17",
@@ -40092,7 +40107,7 @@
           "Waseberg as the launchpad: The final ascent of the Waseberg climb at ~16km from the finish is the canonical move-launching point — winning attacks of recent editions have all gone here.",
           "Hamburg festival: The race is the centrepiece of a multi-event cycling festival in Hamburg, with amateur races sharing the finish line through the city centre."
         ],
-        "watchNotes": "The Waseberg ascents in the closing 30km decide the race. A reduced group will reach Hamburg most years, with sprinters/puncheurs duking it out on the Elbe-side finish straight.",
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results.",
         "historicalContext": "First held in 1996, the ADAC Cyclassics (formerly the EuroEyes Cyclassics) has been on the UCI WorldTour since the series' 2005 launch. Hamburg's premier one-day race, traditionally held in mid-August after the Tour de France and before the Vuelta a España build-up.",
         "keyClimbs": [
           {
@@ -40185,7 +40200,12 @@
             "sprinter"
           ]
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-18"
+      }
     },
     {
       "id": "la-polynormande-2026",
