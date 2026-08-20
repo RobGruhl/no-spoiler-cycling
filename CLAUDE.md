@@ -49,6 +49,15 @@ docs, and git history cannot tell you.
   footage"). Runbooks and versioned trigger prompts: `docs/daily-*-routine.md`,
   `docs/*-trigger-prompt.md`. Expect their commits when diffing recent history, and fetch before
   pushing.
+- Metrics (since 2026-08-20): nospoilercycling.com is proxied through Cloudflare (Rob's account,
+  zone `51c5d807aa6566c53c738c13fb69572b`; SSL Full-strict; DNS edits now happen in the
+  Cloudflare dash, NOT Porkbun — Porkbun only holds the registration). Page views/visits are
+  counted at the edge, zero scripts on the site (privacy.html discloses this — keep it in sync).
+  Dashboard: https://robgruhl.github.io/apollo-telemetry/nsc.html, regenerated 4×/hour by
+  `~/Projects/apollo-telemetry` (`scripts/refresh.py`, day-series history in
+  `data/nsc-history.json`). Caveat: Porkbun's MX email-forwarding records were carried over, but
+  Porkbun forwarding may require their nameservers — if `@nospoilercycling.com` mail matters,
+  verify it or switch to Cloudflare Email Routing.
 
 ## Data curation standards (editorial; not derivable from code)
 
