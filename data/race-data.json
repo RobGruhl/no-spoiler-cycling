@@ -40715,8 +40715,8 @@
       "id": "renewi-tour-2026",
       "name": "Renewi Tour",
       "description": "2.UWT cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=JUASzZUcGL8",
       "type": "full-race",
       "raceDate": "2026-08-19",
       "endDate": "2026-08-23",
@@ -40886,12 +40886,17 @@
             "hilly"
           ],
           "date": "2026-08-19",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=JUASzZUcGL8",
           "description": "Grand Départ from Diest. 21st edition of the Renewi Tour (formerly Benelux Tour / BinckBank Tour / Eneco Tour).",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Opening day from Diest in Flemish Brabant. Classics-style terrain."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-20"
           }
         },
         {
@@ -40969,7 +40974,7 @@
           "ITT on day 2: A 13km flat ITT in the Netherlands gives TT specialists a chance to grab a GC buffer before the Flemish hills.",
           "Diest Grand Départ: 2026 launches from Diest, Flemish Brabant — a new opening for the race."
         ],
-        "watchNotes": "Stage 3 (Celles → Geraardsbergen) is the must-watch — the Muur loop will splinter the field. Stage 5 traditionally serves up a late GC twist if margins are thin. The day-2 ITT is the only race-of-truth, but only 13km worth.",
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results.",
         "historicalContext": "First held as the Eneco Tour in 2005, the race has cycled through multiple title sponsors (Eneco → BinckBank → Benelux → Renewi). It became a UCI WorldTour event in 2011. The combined Belgian/Dutch terrain — Flemish hills + Limburg climbs + coastal flats — has made it a perennial showcase for Classics-style riders.",
         "keyClimbs": [
           {
@@ -41033,7 +41038,12 @@
           "classification": "young",
           "description": "Best Young Rider."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-20"
+      }
     },
     {
       "id": "tour-of-britain-women-2026",
