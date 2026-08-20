@@ -1,0 +1,125 @@
+{
+  "$comment": "Verified broadcast-rights facts: (raceFamily, year, geo) -> rights-holding broadcaster. raceFamily is the race id minus its trailing -YYYY. Enforced against data/race-data.json by scripts/test-broadcast-rights.js (runs in npm test). Add an entry ONLY when the carrier is verified against a broadcaster-INDEPENDENT source (e.g. coursedujour.com live listings, official race broadcasting page) — never FloSports' own event pages or syndicated how-to-watch reprints, which list races FloBikes cannot stream in the US (Canada-only rights). Context: many races moved US streaming to HBO Max under the 2026 WBD deal while FloBikes kept Canada; see the Renewi Tour 2026 incident (fixed 2026-08-19).",
+  "entries": [
+    {
+      "raceFamily": "renewi-tour",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "coursedujour.com day listings 2026-08-19/20 (HBO Max (US), FloBikes (CA)) + user report",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "renewi-tour",
+      "year": 2026,
+      "geo": "CA",
+      "broadcaster": "FloBikes",
+      "source": "coursedujour.com day listings 2026-08-19/20",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "deutschland-tour",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "FloBikes",
+      "source": "coursedujour.com day listing 2026-08-19 tags 'FloBikes (CA, US)' for this race while tagging CA-only races distinctly; cyclingnews 2026 US streaming guide",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "deutschland-tour",
+      "year": 2026,
+      "geo": "CA",
+      "broadcaster": "FloBikes",
+      "source": "coursedujour.com day listing 2026-08-19 ('FloBikes (CA, US)')",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "tour-of-guangxi",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "FloBikes",
+      "source": "cabletv.com 2026 US UCI guide (updated 2026-08-18) per-race table; guide is trap-aware (correctly lists Renewi on HBO Max)",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "super-8-classic",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "2025 edition streamed live on hbomax.com US; WBD portfolio; adversarial re-check found no FloBikes US evidence. Medium confidence — re-verify near race day (Sep 19)",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "sparkassen-munsterland-giro",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "2025 edition live on hbomax.com US; WBD Eurosport portfolio; adversarial re-check found no FloBikes US evidence. Medium confidence — re-verify near race day (Oct 3)",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "tour-of-britain-women",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "Tour of Britain YouTube",
+      "source": "No dedicated US rights-holder in 2026; organiser streams all stages free on the official YouTube channel (ITV press release 2026-08-18; coursedujour 2026-08-19 lists YouTube free, no FloBikes/US carrier)",
+      "verifiedOn": "2026-08-19"
+    },
+    {
+      "raceFamily": "uae-tour",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "Perplexity 2026 US rights research, commit 27700446 (RCS races moved to WBD/HBO Max)",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "uae-tour-women",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "Perplexity 2026 US rights research, commit 27700446 (RCS races moved to WBD/HBO Max)",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "volta-ao-algarve",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "Perplexity 2026 US rights research, commit 27700446",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "vuelta-a-andalucia-ruta-del-sol",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "HBO Max",
+      "source": "Perplexity 2026 US rights research, commit 27700446",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "tour-of-oman",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "FloBikes",
+      "source": "Perplexity 2026 US rights research, commit 27700446",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "figueira-champions-classic",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "FloBikes",
+      "source": "Perplexity 2026 US rights research, commit 27700446",
+      "verifiedOn": "2026-06-20"
+    },
+    {
+      "raceFamily": "clasica-de-almeria",
+      "year": 2026,
+      "geo": "US",
+      "broadcaster": "FloBikes",
+      "source": "Perplexity 2026 US rights research, commit 27700446",
+      "verifiedOn": "2026-06-20"
+    }
+  ]
+}

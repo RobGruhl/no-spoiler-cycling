@@ -138,7 +138,26 @@ function renderEditorialNotes(race) {
   </section>`;
 }
 
+function isCancelled(race) {
+  return race.status === 'cancelled';
+}
+
+function cancelledBadge(race) {
+  return isCancelled(race)
+    ? '<span class="code" style="background:var(--uci-red);color:#fff;border-color:var(--uci-red)">CANCELLED</span>'
+    : '';
+}
+
+function cancelledBanner(race) {
+  if (!isCancelled(race)) return '';
+  return `<section class="cxl-banner" role="note">
+    <span class="cxl-mark">✕</span>
+    <div class="cxl-text"><b>This race will not take place.</b>${race.statusNote ? ' ' + htmlEscape(race.statusNote) : ''}</div>
+  </section>`;
+}
+
 function primaryBroadcaster(race) {
+  if (isCancelled(race)) return 'Cancelled';
   const order = ['US', 'UK', 'CA', 'AU', 'BE', 'NL'];
   const geos = race.broadcast?.geos || {};
   const isReal = v => v && v !== 'TBD';
@@ -169,6 +188,13 @@ const GEO_LABEL = {
 const PRIMARY_GEO_ORDER = ['US', 'CA', 'UK', 'AU', 'BE', 'NL', 'FR', 'INTL'];
 
 function renderWatchSection(race) {
+  if (isCancelled(race)) {
+    return `<section class="section">
+      <div class="eyebrow">§ Watch</div>
+      <h2>Race cancelled</h2>
+      <p class="prose">${htmlEscape(race.statusNote || 'This edition will not take place.')} No broadcast is scheduled.</p>
+    </section>`;
+  }
   const geos = race.broadcast?.geos || {};
   const entries = PRIMARY_GEO_ORDER
     .filter(g => geos[g]?.primary)
@@ -312,6 +338,13 @@ function renderYoutubeHighlightsBlock(race) {
 }
 
 function renderStageWatchSection(race, stage) {
+  if (isCancelled(race)) {
+    return `<section class="section">
+      <div class="eyebrow">§ Watch</div>
+      <h2>Race cancelled</h2>
+      <p class="prose">${htmlEscape(race.statusNote || 'This edition will not take place.')} No broadcast is scheduled.</p>
+    </section>`;
+  }
   const links = [];
   // Spoiler-video quarantine gate: a footage link renders ONLY when its entry has
   // been reviewed and approved (lib/footage-review.js). Auto-found videos land as
@@ -508,6 +541,10 @@ function pageScaffold({ title, docCode, navOn, crumbs, body, footerSection }) {
 .ed-notes .en-kind{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
 .ed-notes .en-text{font-family:var(--font-sans);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
 .prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+.cxl-banner{display:flex;align-items:center;gap:14px;margin:20px 0 0;padding:16px 18px;border:2px solid var(--uci-red);background:rgba(200,16,46,.06)}
+.cxl-banner .cxl-mark{font-family:var(--font-mono);font-weight:700;font-size:22px;color:var(--uci-red);line-height:1}
+.cxl-banner .cxl-text{font-family:var(--font-sans);font-size:14.5px;line-height:1.5;color:var(--ink)}
+.cxl-banner .cxl-text b{color:var(--uci-red);letter-spacing:.02em}
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
@@ -727,6 +764,7 @@ function renderOneDay(race) {
         <div class="tag">
           ${category ? `<span class="${codeCls}">${htmlEscape(category)}</span>` : ''}
           ${prestigeBadge}
+          ${cancelledBadge(race)}
           <span>${'★'.repeat(race.rating || 0)}</span>
           <span>${htmlEscape(dateLabel)}</span>
         </div>
@@ -743,6 +781,8 @@ function renderOneDay(race) {
         ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results' }) ?? flamesForTour(race.id, { resultsDir: './data/results' })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
+
+    ${cancelledBanner(race)}
 
     ${watchLinksSection}
 
@@ -876,6 +916,7 @@ function renderStageRace(race) {
       <div>
         <div class="tag">
           ${category ? `<span class="${codeCls}">${htmlEscape(category)}</span>` : ''}
+          ${cancelledBadge(race)}
           <span>Stage race · ${racingStages.length} stages${totalKm ? ' · ' + Math.round(totalKm) + ' km' : ''}</span>
           <span>${'★'.repeat(race.rating || 0)}</span>
         </div>
@@ -892,6 +933,8 @@ function renderStageRace(race) {
         ${isPastDate(race.raceDate) && hasRaceResults(race.id) ? watchStat(flamesForRace(race.id, { resultsDir: './data/results' }) ?? flamesForTour(race.id, { resultsDir: './data/results' })) + resultsStat(`../results/race/${race.id}.html`) : ''}
       </aside>
     </section>
+
+    ${cancelledBanner(race)}
 
     ${renderWatchSection(race)}
 
@@ -1012,6 +1055,7 @@ function renderStage(race, stage) {
       <div>
         <div class="tag">
           <span class="code">${htmlEscape(race.category || '')}</span>
+          ${cancelledBadge(race)}
           <span>Stage ${stage.stageNumber} · ${htmlEscape(stageTypeLabel)}</span>
           <span>${htmlEscape(fmtLongDate(stage.date))}</span>
         </div>
@@ -1026,6 +1070,8 @@ function renderStage(race, stage) {
         ${isPastDate(stage.date) && hasStageResults(race.id, stage.stageNumber) ? watchStat(flamesForStage(race.id, stage.stageNumber, { resultsDir: './data/results', rating: race.rating || 0 })) + resultsStat(`../results/race/${race.id}-stage-${stage.stageNumber}.html`) : ''}
       </aside>
     </section>
+
+    ${cancelledBanner(race)}
 
     ${renderStageWatchSection(race, stage)}
 

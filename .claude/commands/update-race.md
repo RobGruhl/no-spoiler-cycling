@@ -96,7 +96,18 @@ searchRaceBroadcastMultiGeo('RACE_NAME', YEAR, ['US', 'CA', 'UK']).then(r => con
 "
 ```
 
-Parse the results. Look for broadcaster names and URLs in the answer/snippets. Build broadcast object:
+Parse the results. Look for broadcaster names and URLs in the answer/snippets.
+
+> **US rights trap (learned 2026-08-19, Renewi Tour):** a FloBikes event page existing does NOT
+> prove FloBikes holds US rights — FloSports publishes "Watch X on FloBikes" pages and syndicated
+> how-to-watch articles even for races where it holds Canada-only rights. Since 2026 many races
+> stream US-side on HBO Max (WBD deal). Verify each geo against a broadcaster-INDEPENDENT source
+> (e.g. `curl -s https://coursedujour.com/day/RACE_DATE/` lists per-race, per-country carriers
+> like "HBO Max (US), FloBikes (CA)"). Never copy a carrier from FloSports' own pages. Record
+> each verified (race, geo, broadcaster) fact in `data/broadcast-rights.json` — `npm test`
+> (`test:rights`) then guards it against regressions.
+
+Build broadcast object (broadcaster below is an EXAMPLE — use what you verified per geo):
 
 ```bash
 cat << 'EOF' > /tmp/broadcast-update.json
@@ -106,10 +117,10 @@ cat << 'EOF' > /tmp/broadcast-update.json
     "geos": {
       "US": {
         "primary": {
-          "broadcaster": "FloBikes",
-          "broadcasterId": "flobikes",
+          "broadcaster": "HBO Max",
+          "broadcasterId": "hbo-max",
           "type": "streaming",
-          "url": "https://www.flobikes.com",
+          "url": "https://www.max.com",
           "coverage": "live",
           "subscription": true
         }

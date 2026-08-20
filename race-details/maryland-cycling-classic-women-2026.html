@@ -138,6 +138,10 @@
 .ed-notes .en-kind{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
 .ed-notes .en-text{font-family:var(--font-sans);font-size:13.5px;line-height:1.5;color:var(--ink-2)}
 .prose{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--ink-2);margin:10px 0;max-width:72ch}
+.cxl-banner{display:flex;align-items:center;gap:14px;margin:20px 0 0;padding:16px 18px;border:2px solid var(--uci-red);background:rgba(200,16,46,.06)}
+.cxl-banner .cxl-mark{font-family:var(--font-mono);font-weight:700;font-size:22px;color:var(--uci-red);line-height:1}
+.cxl-banner .cxl-text{font-family:var(--font-sans);font-size:14.5px;line-height:1.5;color:var(--ink)}
+.cxl-banner .cxl-text b{color:var(--uci-red);letter-spacing:.02em}
 .stamp{position:absolute;top:40px;right:0;transform:rotate(-6deg);border:2px solid var(--signal);color:var(--signal);padding:8px 14px;font-family:var(--font-mono);font-weight:600;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.1;text-align:center;pointer-events:none}
 .stamp b{display:block;font-size:16px;letter-spacing:.06em;color:var(--signal);margin-top:2px}
 .stages{display:grid;grid-template-columns:1fr;gap:0;margin-top:16px;border-top:1px solid var(--rule)}
@@ -206,7 +210,7 @@
         </div>
         <div class="mast-meta">
           Document <b>NSC/MARYLAND-CYCLI</b><br/>
-          Built <b>2026-08-16</b>
+          Built <b>2026-08-20</b>
         </div>
       </div>
       <nav class="navstrip">
@@ -228,6 +232,7 @@
       <div>
         <div class="tag">
           <span class="code">2.1</span>
+          <span class="code" style="background:var(--uci-red);color:#fff;border-color:var(--uci-red)">CANCELLED</span>
           <span>Stage race · 3 stages</span>
           <span>★★</span>
         </div>
@@ -239,47 +244,22 @@
         <div class="stat"><span class="k">Country</span><span class="v sm">United States</span></div>
         <div class="stat"><span class="k">Stages</span><span class="v">3</span></div>
         <div class="stat"><span class="k">Total km</span><span class="v mono">—</span></div>
-        <div class="stat"><span class="k">Coverage</span><span class="v sm">FloBikes</span></div>
+        <div class="stat"><span class="k">Coverage</span><span class="v sm">Cancelled</span></div>
         <div class="stat"><span class="k">Category</span><span class="v sm">2.1</span></div>
         
       </aside>
     </section>
 
-    <section class="section watch">
-    <div class="eyebrow">§ Watch</div>
-    <h2>Where to watch</h2>
-    <div class="wtable"><div class="wrow">
-      <div class="w-geo"><span class="w-flag">🇺🇸</span><span class="w-name">United States</span></div>
-      <div class="w-bc">
-        <div class="w-bc-name">FloBikes</div>
-        <div class="w-bc-meta mono">streaming · LIVE · $</div>
-        
-        <div class="w-alts"><span class="w-alt"><a href="https://www.youtube.com/@GCNRacing" target="_blank" rel="noopener">GCN Racing YouTube →</a><span class="w-altmeta mono">HIGHLIGHTS · free</span></span></div>
-      </div>
-      <div class="w-cta"><a class="watch-cta" href="https://www.flobikes.com" target="_blank" rel="noopener">Watch →</a></div>
-    </div><div class="wrow">
-      <div class="w-geo"><span class="w-flag">🇨🇦</span><span class="w-name">Canada</span></div>
-      <div class="w-bc">
-        <div class="w-bc-name">FloBikes</div>
-        <div class="w-bc-meta mono">streaming · LIVE · $</div>
-        
-        
-      </div>
-      <div class="w-cta"><a class="watch-cta" href="https://www.flobikes.com" target="_blank" rel="noopener">Watch →</a></div>
-    </div><div class="wrow">
-      <div class="w-geo"><span class="w-flag">🇬🇧</span><span class="w-name">United Kingdom</span></div>
-      <div class="w-bc">
-        <div class="w-bc-name">TNT Sports / Discovery+</div>
-        <div class="w-bc-meta mono">streaming · LIVE · $</div>
-        
-        
-      </div>
-      <div class="w-cta"><a class="watch-cta" href="https://www.discoveryplus.com" target="_blank" rel="noopener">Watch →</a></div>
-    </div></div>
-    
-    
-    <p class="prose" style="margin-top:10px;font-size:12px;letter-spacing:.04em">⚠️ Spoiler warning: live streams and broadcaster home pages may show current standings. Disable autoplay &amp; avoid sidebar recommendations on YouTube.</p>
+    <section class="cxl-banner" role="note">
+    <span class="cxl-mark">✕</span>
+    <div class="cxl-text"><b>This race will not take place.</b> Cancelled for 2026 (announced 2 July 2026) along with the men&#39;s race; organizers aim to return in 2027.</div>
   </section>
+
+    <section class="section">
+      <div class="eyebrow">§ Watch</div>
+      <h2>Race cancelled</h2>
+      <p class="prose">Cancelled for 2026 (announced 2 July 2026) along with the men&#39;s race; organizers aim to return in 2027. No broadcast is scheduled.</p>
+    </section>
 
     <section class="section">
       <div class="eyebrow">§ 02 — Stages</div>
@@ -365,10 +345,7 @@
     <h2>What we know &amp; don't know</h2>
     <ul class="ed-notes"><li>
     <span class="en-kind mono">Broadcast</span>
-    <span class="en-text">FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL.</span>
-  </li><li>
-    <span class="en-kind mono">Course / Race Details</span>
-    <span class="en-text">Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site.</span>
+    <span class="en-text">Race cancelled for 2026 — no broadcast exists; the former FloBikes entry was removed 2026-08-19.</span>
   </li></ul>
   </section>
   
@@ -376,7 +353,7 @@
       <div class="foot-row">
         <span>No Spoiler Cycling · 2026 Roadbook</span>
         <span>§ Race Manual · Maryland Cycling Classic Women</span>
-        <span>Built 2026-08-16</span>
+        <span>Built 2026-08-20</span>
       </div>
       <div class="site-legal">
         <nav class="site-legal-links mono">

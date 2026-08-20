@@ -226,8 +226,13 @@ const NOTE_KIND_TO_SECTIONS = {
 
 function applyEditorialNoteAcceptance(race, sections) {
   const notes = Array.isArray(race.editorialNotes) ? race.editorialNotes : [];
-  if (!notes.length) return;
   const acceptedSections = new Set();
+  // A cancelled race needs neither watch prep nor route detail — hold it to
+  // schema/invariant/spoiler standards only.
+  if (race.status === 'cancelled') {
+    acceptedSections.add('BROADCAST LINKS');
+    acceptedSections.add('RACE DETAILS');
+  }
   for (const n of notes) {
     if (!n || !n.text || n.text.length < 20) continue; // must be substantive
     const targets = NOTE_KIND_TO_SECTIONS[n.kind] || [];

@@ -61,6 +61,11 @@ docs, and git history cannot tell you.
   even without video URLs.
 - Broadcast links must be deep links; the acceptable login-gated root-URL exceptions are encoded
   in `lib/url-validator.js`.
+- A FloBikes event page is NOT evidence of US rights — FloSports publishes "Watch X on FloBikes"
+  pages for races where it holds Canada-only rights, and how-to-watch articles syndicate the
+  claim (Renewi Tour 2026 shipped wrong this way; many 2026 races moved US-side to HBO Max).
+  Verify geo carriers against broadcaster-independent listings (coursedujour.com day pages) and
+  record verified facts in `data/broadcast-rights.json` (enforced by `npm run test:rights`).
 
 ## Mid-migration state (2026-08-16 — delete these lines when resolved)
 

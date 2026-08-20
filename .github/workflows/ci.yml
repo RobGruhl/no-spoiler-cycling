@@ -33,6 +33,11 @@ jobs:
       - name: Quality check (non-strict, fast)
         run: npm run test:quick
 
+      - name: Broadcast rights registry check
+        # Guards verified (race, geo, broadcaster) facts in data/broadcast-rights.json
+        # against regressions (e.g. Renewi Tour 2026 US showing FloBikes instead of HBO Max).
+        run: npm run test:rights
+
       - name: Build all pages
         run: |
           npm run build:all

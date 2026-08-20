@@ -13,9 +13,10 @@
     "build:teams": "node generate-teams.js",
     "build:results": "node generate-results.js --all && node generate-stage-results.js --all && node generate-rider-season.js --all && node generate-teams.js",
     "build:all": "node generate-page.js && node generate-riders-index.js && node generate-riders-women-index.js && node generate-rider-details.js --all && node generate-rider-details.js --all --gender women && node generate-race-details.js --all && node generate-teams.js",
-    "test": "node scripts/test-race-quality.js --all --compact && node scripts/test-footage-review.js",
+    "test": "node scripts/test-race-quality.js --all --compact && node scripts/test-footage-review.js && node scripts/test-broadcast-rights.js",
     "test:quick": "node scripts/test-race-quality.js --all --compact",
     "test:footage": "node scripts/test-footage-review.js",
+    "test:rights": "node scripts/test-broadcast-rights.js",
     "test:strict": "node scripts/test-race-quality.js --all --compact --strict",
     "test:race": "node scripts/test-race-quality.js --race",
     "test:links": "node scripts/test-race-quality.js --all --check-links --compact",
@@ -23,7 +24,7 @@
     "test:results": "node scripts/test-results-completeness.js",
     "test:results-strict": "node scripts/test-results-completeness.js --strict",
     "test:results-verbose": "node scripts/test-results-completeness.js --verbose",
-    "test:ci": "npm run test:quick && npm run build:all && npm run test:smoke && npm run test:results"
+    "test:ci": "npm run test:quick && npm run test:rights && npm run build:all && npm run test:smoke && npm run test:results"
   },
   "engines": {
     "node": ">=20"

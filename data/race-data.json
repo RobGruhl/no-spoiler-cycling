@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T21:41:46.071Z",
+  "lastUpdated": "2026-08-20T02:12:24.214Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -40544,15 +40544,17 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14881619-2026-deutschland-tour",
+              "coverage": "live",
+              "broadcasterId": "flobikes",
+              "notes": "US+CA carriage confirmed via coursedujour live listing 2026-08-19 ('FloBikes (CA, US)')."
             },
             "alternatives": [
               {
@@ -40577,8 +40579,9 @@
               "broadcaster": "FloBikes",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.flobikes.com/events/14881619-2026-deutschland-tour",
+              "coverage": "live",
+              "broadcasterId": "flobikes"
             }
           }
         }
@@ -40700,7 +40703,7 @@
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+          "text": "US+CA on FloBikes confirmed via live listings 2026-08-19 (tagged FloBikes CA+US); deep link to the 2026 event page is set."
         },
         {
           "kind": "raceDetails",
@@ -40833,15 +40836,17 @@
       ],
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
+              "broadcaster": "HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com/events/15255525-2026-renewi-tour",
-              "coverage": "live"
+              "url": "https://www.max.com",
+              "coverage": "live",
+              "broadcasterId": "hbo-max",
+              "notes": "US live coverage moved to HBO Max for 2026 (WBD). The FloBikes event page for this race exists but FloBikes holds Canada-only rights — verified vs live TV listings 2026-08-19."
             },
             "alternatives": [
               {
@@ -41053,15 +41058,16 @@
       "distance": 200,
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "broadcaster": "Tour of Britain YouTube (official)",
+              "type": "free",
+              "subscription": false,
+              "url": "https://www.youtube.com/@TheTourofBritain",
+              "coverage": "live",
+              "notes": "No dedicated US rights-holder for 2026; the organiser streams every stage live and free on the official Tour of Britain YouTube channel (ITV press release 2026-08-18; coursedujour lists the stream as free/untagged). Former FloBikes claim removed — FloBikes does not carry this race in 2026."
             },
             "alternatives": [
               {
@@ -41078,15 +41084,6 @@
               "type": "streaming",
               "subscription": true,
               "url": "https://www.discoveryplus.com",
-              "coverage": "live"
-            }
-          },
-          "CA": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
               "coverage": "live"
             }
           }
@@ -41231,7 +41228,7 @@
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+          "text": "No dedicated US or CA rights-holder for 2026 (verified 2026-08-19); every stage streams live and free on the official Tour of Britain YouTube channel — the earlier FloBikes placeholder was wrong. Channel link is the intended destination, not a placeholder."
         }
       ]
     },
@@ -41257,25 +41254,8 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
-          "US": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
-          },
           "UK": {
             "primary": {
               "broadcaster": "TNT Sports / Discovery+",
@@ -41284,22 +41264,13 @@
               "url": "https://www.discoveryplus.com",
               "coverage": "live"
             }
-          },
-          "CA": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            }
           }
         }
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+          "text": "No US or Canada carrier exists for this race in 2026 — FloBikes does not carry it in any territory (verified vs live TV listings 2026-08-19). Belgian coverage is on Sporza and Proximus Pickx; no US/CA broadcast entry is intentional."
         },
         {
           "kind": "raceDetails",
@@ -43896,38 +43867,6 @@
       ],
       "distance": 200,
       "discipline": "road",
-      "broadcast": {
-        "lastUpdated": "2026-05-11T00:00:00Z",
-        "geos": {
-          "US": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com/live/225323-2026-tour-de-romandie-women",
-              "coverage": "live"
-            }
-          },
-          "UK": {
-            "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
-            }
-          },
-          "CA": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com/live/225323-2026-tour-de-romandie-women",
-              "coverage": "live"
-            }
-          }
-        }
-      },
       "stages": [
         {
           "stageNumber": 1,
@@ -44032,6 +43971,14 @@
           "classification": "kom",
           "description": "King of the Mountains."
         }
+      ],
+      "status": "cancelled",
+      "statusNote": "2026 edition postponed by the organizers (announced 12 May 2026, sponsor shortfall and crowded Swiss calendar) — next edition 10-12 September 2027.",
+      "editorialNotes": [
+        {
+          "kind": "broadcast",
+          "text": "Race postponed to 2027 — no 2026 broadcast exists; the former FloBikes entry was removed 2026-08-19."
+        }
       ]
     },
     {
@@ -44056,46 +44003,6 @@
       "distance": 1000,
       "gender": "men",
       "discipline": "road",
-      "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
-        "geos": {
-          "US": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
-          },
-          "UK": {
-            "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
-            }
-          },
-          "CA": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            }
-          }
-        }
-      },
       "stages": [
         {
           "stageNumber": 1,
@@ -44180,13 +44087,11 @@
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
-        },
-        {
-          "kind": "raceDetails",
-          "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
+          "text": "Race cancelled for 2026 — no broadcast exists; the former FloBikes entry was removed 2026-08-19."
         }
-      ]
+      ],
+      "status": "cancelled",
+      "statusNote": "Cancelled for 2026 (announced 2 July 2026) after the nonprofit that ran the race dissolved; organizers aim to return in 2027."
     },
     {
       "id": "classic-lorient-agglomeration-2026",
@@ -44290,46 +44195,6 @@
       ],
       "distance": 800,
       "discipline": "road",
-      "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
-        "geos": {
-          "US": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            },
-            "alternatives": [
-              {
-                "broadcaster": "GCN Racing YouTube",
-                "type": "free",
-                "url": "https://www.youtube.com/@GCNRacing",
-                "coverage": "highlights"
-              }
-            ]
-          },
-          "UK": {
-            "primary": {
-              "broadcaster": "TNT Sports / Discovery+",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.discoveryplus.com",
-              "coverage": "live"
-            }
-          },
-          "CA": {
-            "primary": {
-              "broadcaster": "FloBikes",
-              "type": "streaming",
-              "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
-            }
-          }
-        }
-      },
       "stages": [
         {
           "stageNumber": 1,
@@ -44414,13 +44279,11 @@
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
-        },
-        {
-          "kind": "raceDetails",
-          "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
+          "text": "Race cancelled for 2026 — no broadcast exists; the former FloBikes entry was removed 2026-08-19."
         }
-      ]
+      ],
+      "status": "cancelled",
+      "statusNote": "Cancelled for 2026 (announced 2 July 2026) along with the men's race; organizers aim to return in 2027."
     },
     {
       "id": "tout-commence-en-finistere-ladies-classic-2026",
@@ -47121,15 +46984,17 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
+              "broadcaster": "HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com/events/15255539-2026-super-8-classic",
-              "coverage": "live"
+              "url": "https://www.max.com",
+              "coverage": "live",
+              "broadcasterId": "hbo-max",
+              "notes": "US on HBO Max (WBD portfolio; 2025 edition streamed live on HBO Max US). FloBikes event page exists but is not proof of US rights — verified 2026-08-19, re-check near race day."
             },
             "alternatives": [
               {
@@ -48608,15 +48473,17 @@
       "gender": "men",
       "discipline": "road",
       "broadcast": {
-        "lastUpdated": "2026-01-29T00:00:00Z",
+        "lastUpdated": "2026-08-19T00:00:00Z",
         "geos": {
           "US": {
             "primary": {
-              "broadcaster": "FloBikes",
+              "broadcaster": "HBO Max",
               "type": "streaming",
               "subscription": true,
-              "url": "https://www.flobikes.com",
-              "coverage": "live"
+              "url": "https://www.max.com",
+              "coverage": "live",
+              "broadcasterId": "hbo-max",
+              "notes": "US on HBO Max (2025 edition live on HBO Max US; WBD Eurosport portfolio). Verified 2026-08-19, re-check near race day."
             },
             "alternatives": [
               {
@@ -48650,7 +48517,7 @@
       "editorialNotes": [
         {
           "kind": "broadcast",
-          "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
+          "text": "US carrier verified as HBO Max 2026-08-19 (2025 edition streamed on HBO Max US; WBD portfolio) — the earlier FloBikes placeholder was wrong. Deep link on max.com not published until near race day; root max.com link is the intended placeholder."
         },
         {
           "kind": "raceDetails",

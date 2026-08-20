@@ -69,6 +69,7 @@ function transformRace(r) {
     otherGeos,
     stages: Array.isArray(r.stages) ? r.stages.length : 0,
     slug: r.id,
+    ...(r.status === 'cancelled' ? { cxl: 1 } : {}),
     hasResults: fs.existsSync(`./data/results/races/${r.id}.json`),
     // spoiler-safe "worth watching" flame count (1–5): one-day race score, or the
     // aggregate tour rating for a stage race; 0/absent otherwise
@@ -122,6 +123,9 @@ function buildHtml(rows, stats, updatedLabel) {
 .res-link{flex:0 0 auto;margin-left:10px;display:inline-flex;align-items:baseline;gap:5px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--signal);text-decoration:none;border:1px solid rgba(200,16,46,.4);border-radius:2px;padding:1px 6px;white-space:nowrap}
 .res-link:hover{background:var(--signal);color:#fff}
 .res-link .sp{font-size:8px;letter-spacing:.12em;opacity:.7}
+.cxl-badge{flex:0 0 auto;margin-left:10px;display:inline-flex;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#fff;background:var(--uci-red);border-radius:2px;padding:2px 6px;white-space:nowrap}
+.row.cxl .name{text-decoration:line-through;color:var(--ink-3)}
+.row.cxl .c{opacity:.75}
 .watch-flame{flex:0 0 auto;margin-left:10px;display:inline-flex;align-items:center;gap:2px;font-family:var(--font-mono);font-size:11px;font-weight:600;line-height:1;color:var(--ink-2);cursor:default;white-space:nowrap}
 .row .c{padding:0 10px;display:flex;align-items:center;min-width:0}
 .row .c.first{padding-left:0}
@@ -364,6 +368,7 @@ function buildHtml(rows, stats, updatedLabel) {
   const genderLbl = {m:"M", w:"W", x:"MIX"};
   const GEO_FLAG = {US:"🇺🇸",CA:"🇨🇦",UK:"🇬🇧",AU:"🇦🇺",BE:"🇧🇪",NL:"🇳🇱",TH:"🇹🇭",INTL:"🌐"};
   const geoCell = (r) => {
+    if (r.cxl) return '<span class="bc tbd">—</span>';
     if (!r.geos.length && !r.otherGeos.length) return '<span class="bc tbd">no stream</span>';
     const main = r.geos.map(g => \`<span class="f" title="\${g}">\${GEO_FLAG[g]||g}</span>\`).join("");
     const extra = r.otherGeos.length ? \`<span class="more">+\${r.otherGeos.length}</span>\` : "";
@@ -387,11 +392,12 @@ function buildHtml(rows, stats, updatedLabel) {
     const resLink = r.hasResults
       ? \`<a class="res-link" href="results/race/\${r.slug}.html" title="Post-race analysis — contains spoilers">results<span class="sp">spoilers</span></a>\`
       : "";
-    return \`<div class="row \${cls}" data-href="\${href}" tabindex="0" role="link" aria-label="\${r.name}">
+    const cxlBadge = r.cxl ? '<span class="cxl-badge" title="This race will not take place">CANCELLED</span>' : "";
+    return \`<div class="row \${cls}\${r.cxl?" cxl":""}" data-href="\${href}" tabindex="0" role="link" aria-label="\${r.name}\${r.cxl?" (cancelled)":""}">
       <div class="c first">\${starsHtml(r.rating)}</div>
       <div class="c"><span class="\${codeCls}">\${r.cat}</span></div>
       <div class="c dt">\${r.d}</div>
-      <div class="c"><span class="name">\${r.name}</span>\${r.watch>=4?\`<span class="watch-flame" title="Worth-watching rating: \${r.watch}/5">\${"🔥".repeat(r.watch-3)}</span>\`:""}\${resLink}</div>
+      <div class="c"><span class="name">\${r.name}</span>\${cxlBadge}\${r.watch>=4?\`<span class="watch-flame" title="Worth-watching rating: \${r.watch}/5">\${"🔥".repeat(r.watch-3)}</span>\`:""}\${resLink}</div>
       <div class="c loc">\${r.loc}</div>
       <div class="c terr">\${terrHtml(r.terrain)}</div>
       <div class="c gender">\${genderLbl[r.gender]||""}</div>

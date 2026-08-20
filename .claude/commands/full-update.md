@@ -173,22 +173,39 @@ Build broadcast object from results and update:
 node scripts/update-race.js --id RACE_ID --file /tmp/broadcast.json
 ```
 
+> **US rights trap (learned 2026-08-19, Renewi Tour):** a FloBikes event page existing does NOT
+> prove FloBikes holds US rights — FloSports publishes "Watch X on FloBikes" pages and syndicated
+> how-to-watch articles even for races where it holds Canada-only rights. Since 2026 many races
+> stream US-side on HBO Max (WBD deal). Verify each geo against a broadcaster-INDEPENDENT source
+> (e.g. `curl -s https://coursedujour.com/day/RACE_DATE/` lists per-race, per-country carriers).
+> Record each verified (race, geo, broadcaster) fact in `data/broadcast-rights.json` — `npm run
+> test:rights` then guards it against regressions.
+
 ### Phase 5: Batch by Region (Efficiency)
 
 Group research queries by region to reduce API calls:
 
-**Broadcast Templates by Organizer:**
+**Broadcast HYPOTHESES by Organizer (starting point only — NEVER stamp these on
+without per-race verification):**
 
-| Organizer | US Broadcaster | UK Broadcaster | CA Broadcaster |
-|-----------|----------------|----------------|----------------|
+These organizer patterns are hypotheses for where to look first, not facts. Stamping
+them unverified is how Renewi Tour 2026 shipped as "FloBikes (US)" while the race
+actually streamed on HBO Max — the "Belgian → FloBikes US" template was wrong for
+2026. The US column especially is volatile (WBD/HBO Max absorbed many races' US
+rights in 2026, race by race, not organizer by organizer). Verify each race's US
+carrier independently, and record verified facts in `data/broadcast-rights.json`.
+
+| Organizer | US (verify per race!) | UK Broadcaster | CA Broadcaster |
+|-----------|----------------------|----------------|----------------|
 | ASO (TdF, Paris-Roubaix, LBL) | Peacock | TNT Sports / Discovery+ | FloBikes |
 | RCS (Giro, Milan-Sanremo) | HBO Max | TNT Sports / Discovery+ | FloBikes |
-| Flanders Classics (Ronde, G-W) | FloBikes | TNT Sports / Discovery+ | FloBikes |
-| Other Belgian | FloBikes | TNT Sports / Discovery+ | FloBikes |
+| Flanders Classics (Ronde, G-W) | FloBikes or HBO Max | TNT Sports / Discovery+ | FloBikes |
+| Other Belgian (incl. Golazo) | FloBikes or HBO Max | TNT Sports / Discovery+ | FloBikes |
 | French regional | HBO Max | TNT Sports / Discovery+ | FloBikes |
 | Italian regional | HBO Max | TNT Sports / Discovery+ | FloBikes |
 
-**Standard Broadcast JSON Templates:**
+**Standard Broadcast JSON Templates (fill in the VERIFIED broadcaster; the US
+primary in each template is illustrative, not a default):**
 
 ```bash
 # Belgian/FloBikes template

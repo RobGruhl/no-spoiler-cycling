@@ -70,6 +70,12 @@ searchRaceBroadcastMultiGeo('RACE_NAME', YEAR, ['US', 'CA', 'UK']).then(r => con
 "
 ```
 
+> **US rights trap:** FloSports publishes "Watch X on FloBikes" event pages even for races where
+> it holds Canada-only rights, and how-to-watch articles syndicate that claim. Since 2026 many
+> races stream US-side on HBO Max. Confirm the US carrier against a broadcaster-independent
+> source (e.g. `curl -s https://coursedujour.com/day/RACE_DATE/`) before writing it, and record
+> the verified fact in `data/broadcast-rights.json` (enforced by `npm run test:rights`).
+
 #### 2c. Stage Details (only if --stages flag AND race has stages)
 For stage races, also search per-stage info using tour code:
 ```bash
