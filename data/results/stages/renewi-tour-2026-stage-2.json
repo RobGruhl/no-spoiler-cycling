@@ -1,0 +1,105 @@
+{
+  "raceId": "renewi-tour-2026",
+  "stageNumber": 2,
+  "stageName": "Blankenberge → Ardooie",
+  "stageDate": "2026-08-20",
+  "stageType": "flat",
+  "researchedAt": "2026-08-20T19:27:09Z",
+  "tldr": "Jasper Philipsen (Alpecin - Premier Tech) won a hectic, crosswind-hit stage 2 into Ardooie and inherited the race lead after overnight leader Jonathan Milan was swept up in a mass crash and lapped by the peloton, losing more than six minutes. Philipsen's ten-second winner's bonus puts him four seconds clear of Olav Kooij and Dries De Bondt heading into Friday's Geraardsbergen stage, the race's first real GC test.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "3h 11m 27s" },
+    { "position": 2, "name": "Joshua Giddings", "team": "Lotto - Intermarché", "gap": "s.t." },
+    { "position": 3, "riderId": "soren-waerenskjold", "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Milan's crash-marred day hands Philipsen the yellow jersey in Ardooie",
+    "body": "The 173.9 km run from Blankenberge to Ardooie was flat on paper but nervous from the start, with crosswinds along the coastal roads threatening splits and keeping the bunch strung out and alert well before the finale.\n\nWith roughly 67 km to go, a front-to-rear wheel contact involving Tobias Bayer triggered a mass crash that brought down a large section of the peloton on a narrow, straight stretch of road — race leader Jonathan Milan among the worst affected. Milan remounted but repeatedly examined his wrist and struggled to hold his handlebars steadily; he continued alongside teammate Simone Consonni, but their deficit grew past six minutes, and with roughly 5 km still to race at the front, the peloton caught and lapped the pair on the finishing circuit, forcing them to pull aside as the race that Milan had led passed him. Amaury Capiot was taken to hospital after abandoning following the same crash.\n\nAt the front, Decathlon CMA CGM lifted the pace beneath the flamme rouge as the sprint trains reorganised; Olav Kooij briefly lost his teammates through a bend before recovering position behind Dylan Groenewegen. Tim Merlier's chances were complicated when lead-out man Bert Van Lerberghe suffered a mechanical with 9 km to go, and Merlier lost further ground amid the jostling inside the final kilometre. Lukas Kubis led the bunch into the final 700 m before Philipsen took control from the front, launching his sprint at around 400 m and holding it to the line for his 65th career win — and his third stage victory in Ardooie.\n\nMilan's collapse reshaped the general classification: Philipsen's stage bonus vaulted him from ninth to the overall lead, four seconds clear of Kooij and De Bondt, with the race turning immediately to Friday's hilly test around Geraardsbergen."
+  },
+  "gcImpact": {
+    "headline": "Philipsen inherits yellow as Milan's race unravels",
+    "body": "Philipsen leads by 4 seconds over both Olav Kooij and Dries De Bondt, with Quinten Hermans a further second back at +5. Tim Merlier and Søren Wærenskjold share sixth at +6 — Wærenskjold the day's biggest mover, up 65 places after avoiding the crash. Mike Teunissen, Arnaud De Lie and Matteo Trentin round out the top nine at +7 on Green Kilometre bonus seconds, with Timo Kielich tenth. Jonathan Milan, who led after stage 1, fell out of GC contention after losing more than six minutes in the crash and being lapped by the peloton before the finish."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Philipsen stayed clear of the crash that wrecked the day for the overnight leader and was perfectly placed for the reduced bunch sprint into Ardooie. He launched from the front at around 400 m to go and held off the chasers to take his 65th career win and third Ardooie stage success. The ten-second winner's bonus, added to his existing GC deficit, vaulted him from ninth overall into the race lead.",
+      "keyMoments": [ { "km": 174, "what": "Launched the sprint from the front inside the final 400 m to win the stage and take the race lead" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": null,
+      "gap": "+6:00 or more",
+      "narrative": "The overnight race leader was caught in a mass crash roughly 67 km from the finish, triggered by a wheel contact involving another rider. Milan remounted but repeatedly examined an injured wrist and struggled to hold the handlebars, falling back alongside teammate Simone Consonni. Their deficit grew past six minutes, and with about 5 km still to race at the front, the peloton caught and lapped the pair on the finishing circuit — an extraordinary end to a one-day defence of the yellow jersey he won in Diest.",
+      "keyMoments": [ { "km": 107, "what": "Caught in a mass crash roughly 67 km from the finish, injuring his wrist" }, { "km": 169, "what": "Lapped by the peloton on the finishing circuit and forced to pull aside" } ],
+      "incident": { "type": "crash", "description": "Caught in a mass crash triggered by a wheel contact involving another rider; injured his wrist, lost the race lead, and was lapped by the peloton before the finish." }
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "s.t.",
+      "narrative": "Kooij briefly lost his lead-out through a bend inside the finale before recovering position behind Dylan Groenewegen and coming through safely in the reduced bunch sprint. Untouched by the day's crash and without bonus seconds, he moves up to second overall, four seconds off the new race lead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "soren-waerenskjold",
+      "name": "Søren Wærenskjold",
+      "team": "Uno-X Mobility",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Wærenskjold avoided the mass crash and contested the reduced bunch sprint into Ardooie, finishing third on the stage. The result, combined with Milan's collapse further back, made him the biggest mover in the general classification — up 65 places to sixth overall, six seconds off the new lead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "s.t.",
+      "narrative": "Merlier's sprint was compromised when lead-out rider Bert Van Lerberghe suffered a mechanical with 9 km to go, and he lost further positions amid the jostling inside the final kilometre, finishing outside the stage top five. He holds fifth overall at six seconds, his placing unchanged after a stage where he gained no bonus seconds.",
+      "keyMoments": [ { "km": 165, "what": "Lost his lead-out man to a mechanical problem, costing him position before the sprint" } ],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto - Intermarché",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": "+0:07",
+      "narrative": "De Lie avoided the mass crash and picked up bonus seconds at the Green Kilometre intermediate sprint, which lifted him seven places into the general classification top ten, eighth overall at seven seconds off the lead.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "jonathan-milan", "km": 107, "location": "roughly 67 km from the finish", "description": "Front-to-rear wheel contact involving Tobias Bayer triggered a mass crash; Milan was among the worst affected, injuring his wrist and eventually losing more than six minutes." }
+    ],
+    "abandons": [
+      { "riderId": null, "reason": "Amaury Capiot (untracked) taken to hospital after the same mass crash" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-renewi-tour-2026-stage-2-jasper-philipsen-wins-in-ardooie-as-crash-hit-race-leader-jonathan-milan-is-lapped-by-peloton", "publication": "CyclingUpToDate", "title": "Results Renewi Tour 2026 Stage 2 - Jasper Philipsen wins in Ardooie as crash-hit race leader Jonathan Milan is lapped by peloton", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/tomorrow-will-tell-us-a-lot-jasper-philipsen-takes-race-lead-with-toughest-renewi-tour-stage-next", "publication": "CyclingUpToDate", "title": "\"Tomorrow will tell us a lot\" – Jasper Philipsen takes race lead with toughest Renewi Tour stage next", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/renewi-tour-2026-classifications-after-stage-2-jasper-philipsen-takes-race-lead-as-mass-crash-costs-jonathan-milan-dearly", "publication": "CyclingUpToDate", "title": "Renewi Tour 2026 Classifications after stage 2 – Jasper Philipsen takes race lead as mass crash costs Jonathan Milan dearly", "lang": "en" },
+    { "url": "https://escapecollective.com/philipsen-wins-a-hectic-stage-2-of-the-renewi-tour/", "publication": "Escape Collective", "title": "Philipsen wins a hectic stage 2 of the Renewi Tour", "lang": "en" }
+  ]
+}

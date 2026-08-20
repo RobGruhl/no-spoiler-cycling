@@ -2,38 +2,53 @@
   "raceId": "renewi-tour-2026",
   "raceName": "Renewi Tour",
   "raceDate": "2026-08-19",
-  "researchedAt": "2026-08-19T19:26:38Z",
+  "researchedAt": "2026-08-20T19:27:09Z",
   "inProgress": true,
-  "tldr": "The 21st Renewi Tour opened with a chaotic, rain-soaked circuit stage around Diest, where a resilient five-man breakaway was caught just inside the final kilometre. Jonathan Milan (Lidl - Trek) won the ensuing photo-finish sprint over Olav Kooij to take stage 1 and the race's first leader's jersey.",
+  "tldr": "The 21st Renewi Tour opened with a chaotic, rain-soaked photo finish in Diest, then blew wide open on stage 2 when a mass crash near Ardooie took down overnight leader Jonathan Milan, who lost more than six minutes and was lapped by the peloton. Jasper Philipsen won the reduced sprint and inherited the race lead heading into Friday's decisive Geraardsbergen stage.",
   "podium": [
-    { "position": 1, "name": "Milan Jonathan", "team": "Lidl - Trek", "gap": "race leader, GC in progress" },
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Philipsen Jasper", "team": "Alpecin - Premier Tech", "gap": "race leader, GC in progress" },
     { "position": 2, "riderId": "olav-kooij", "name": "Kooij Olav", "team": "Decathlon CMA CGM Team", "gap": "+0:04" },
     { "position": 3, "name": "De Bondt Dries", "team": "Team Jayco AlUla", "gap": "+0:04" }
   ],
   "narrative": {
-    "headline": "Milan survives the Diest chaos to take the first yellow jersey",
+    "headline": "Milan's Diest win undone by an Ardooie crash as Philipsen takes over",
     "openingMoves": "The 21st edition of the Renewi Tour set off from Diest on a circuit stage that mixed repeated passages of the finish with short Flemish bergs — Heuvelstraat, Kerkstraat and Grasbos — never hard enough to force a real selection but awkward enough to keep the peloton nervous. Five riders — Lionel Taminiaux, Dries De Bondt, Timo Kielich, Carl-Frederik Bévort and Quinten Hermans — got clear early and built a lead approaching two minutes, banking bonus seconds at the Green KM intermediate sprints in Engsbergen.",
-    "raceUnfolds": "Rain arrived with roughly 67 km to go and turned the finale technical and dangerous: Jonas Abrahamsen, Oliver Naesen and Pier-André Côté all crashed on the wet, narrow closing circuits. Despite the chaos behind them, the five leaders defended their advantage smartly, still 18 seconds clear with 2 km to go — until hesitation among the escapees let the sprinters' trains close the gap and swallow the break just before the flamme rouge.",
-    "decision": "Not yet decided. One stage of five is complete; the race resumes with a flat run and then a 13 km individual time trial in the Netherlands before the Flemish-hills stage 3 finale around Geraardsbergen, historically the race's GC-defining day.",
-    "finale": "Not yet raced. Stages 2 (2026-08-20), 3 (2026-08-21), 4 (2026-08-22) and 5 (2026-08-23) remain."
+    "raceUnfolds": "Rain arrived with roughly 67 km to go on stage 1 and turned the finale technical and dangerous: Jonas Abrahamsen, Oliver Naesen and Pier-André Côté all crashed on the wet, narrow closing circuits. Despite the chaos behind them, the five leaders defended their advantage smartly, still 18 seconds clear with 2 km to go — until hesitation among the escapees let the sprinters' trains close the gap and swallow the break just before the flamme rouge, where Jonathan Milan out-sprinted Olav Kooij by a tyre's width to take the first yellow jersey.\n\nStage 2's flat, crosswind-exposed run from Blankenberge to Ardooie stayed nervous throughout, and with roughly 67 km to go a mass crash — triggered by a wheel contact involving Tobias Bayer — brought down a large section of the bunch, race leader Milan among the worst affected. Milan remounted but struggled to hold his handlebars through an injured wrist; his deficit grew past six minutes, and with about 5 km left at the front, the peloton lapped him and teammate Simone Consonni on the finishing circuit, forcing them to pull aside.",
+    "decision": "Not yet decided. Two of five stages are complete; Philipsen inherited the race lead on bonus seconds after Milan's stage-2 misfortune, four seconds up on Olav Kooij and Dries De Bondt. The race now turns to Friday's 182 km stage from Celles to Geraardsbergen — the highest-rated profile of the week and the traditionally decisive Flemish-hills day.",
+    "finale": "Not yet raced. Stages 3 (2026-08-21), 4 (2026-08-22) and 5 (2026-08-23) remain."
   },
   "decisiveMoments": [
-    { "kmFromFinish": 0, "location": "Diest (Stage 1)", "headline": "Milan wins the photo finish, takes yellow", "description": "A five-man breakaway was caught just inside the final kilometre after leading much of the rain-soaked stage; Jonathan Milan then out-sprinted Olav Kooij by the narrowest of margins to win stage 1 and the race's first leader's jersey." }
+    { "kmFromFinish": 0, "location": "Diest (Stage 1)", "headline": "Milan wins the photo finish, takes yellow", "description": "A five-man breakaway was caught just inside the final kilometre after leading much of the rain-soaked stage; Jonathan Milan then out-sprinted Olav Kooij by the narrowest of margins to win stage 1 and the race's first leader's jersey." },
+    { "kmFromFinish": 67, "location": "Between Blankenberge and Ardooie (Stage 2)", "headline": "Mass crash ends Milan's race lead", "description": "A wheel contact involving Tobias Bayer triggered a mass crash roughly 67 km from the Ardooie finish. Race leader Jonathan Milan was among those most affected, losing more than six minutes and being lapped by the peloton before the finish — handing the lead to stage-2 winner Jasper Philipsen." }
   ],
   "teamStories": [],
   "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Philipsen Jasper",
+      "team": "Alpecin - Premier Tech",
+      "role": "leader",
+      "position": 1,
+      "gap": "race leader",
+      "narrative": "Philipsen stayed clear of stage 2's mass crash and won the reduced bunch sprint into Ardooie for his 65th career victory. The stage bonus, added to his existing deficit, vaulted him from ninth to the overall lead, four seconds up on Olav Kooij and Dries De Bondt with three stages remaining.",
+      "keyMoments": [
+        { "km": 0, "what": "Stage 2: won the reduced bunch sprint in Ardooie and took over the race lead after Milan's crash" }
+      ],
+      "incident": null
+    },
     {
       "riderId": "jonathan-milan",
       "name": "Milan Jonathan",
       "team": "Lidl - Trek",
       "role": "leader",
-      "position": 1,
-      "gap": "race leader",
-      "narrative": "Milan navigated a rain-lashed, crash-affected stage 1 finale and won a chaotic, leadout-less sprint by a tyre's width over Olav Kooij once the day's stubborn breakaway was caught inside the final kilometre. The win, on the heels of his Tour de Pologne form, gives him the race's first leader's jersey.",
+      "position": null,
+      "gap": "+6:00 or more",
+      "narrative": "Milan won stage 1 in a photo finish to take the race's first yellow jersey, then lost it a day later when a mass crash roughly 67 km from the Ardooie finish left him with an injured wrist and unable to hold pace. He fell more than six minutes behind and was lapped by the peloton before the finish, ending his brief race lead.",
       "keyMoments": [
-        { "km": 0, "what": "Stage 1: won a photo-finish sprint in Diest to take the yellow jersey" }
+        { "km": 0, "what": "Stage 1: won a photo-finish sprint in Diest to take the yellow jersey" },
+        { "km": 0, "what": "Stage 2: caught in a mass crash, lost the race lead, and was lapped by the peloton before the finish" }
       ],
-      "incident": null
+      "incident": { "type": "crash", "description": "Caught in a mass crash on stage 2 roughly 67 km from the finish; injured his wrist, lost the race lead, and was lapped by the peloton before the finish." }
     },
     {
       "riderId": "olav-kooij",
@@ -42,22 +57,24 @@
       "role": "stage-hunter",
       "position": 2,
       "gap": "+0:04",
-      "narrative": "Kooij launched a strong sprint once the break was caught but was beaten to the line by Milan in a finish so close it needed the photo — a bonus-seconds swing that leaves him second overall, four seconds off yellow after stage 1.",
+      "narrative": "Kooij was beaten by a tyre's width in the stage 1 photo finish, then came through stage 2's crash-affected reduced sprint safely without bonus seconds. He sits second overall after two stages, four seconds off the lead.",
       "keyMoments": [
-        { "km": 0, "what": "Stage 1: second in the photo-finish sprint in Diest" }
+        { "km": 0, "what": "Stage 1: second in the photo-finish sprint in Diest" },
+        { "km": 0, "what": "Stage 2: came through the reduced bunch sprint safely, unaffected by the crash" }
       ],
       "incident": null
     }
   ],
   "incidents": {},
   "aftermath": {
-    "headline": "Mid-race summary after stage 1 of 5",
+    "headline": "Mid-race summary after stage 2 of 5",
     "quotes": [],
-    "body": "As of the evening of 19 August 2026, after stage 1, Jonathan Milan (Lidl - Trek) leads the Renewi Tour by 4 seconds over Olav Kooij and Dries De Bondt after a rain-soaked, breakaway-heavy opener in Diest. With four stages remaining — including day 2's 13 km time trial in the Netherlands and the traditionally decisive Flemish-hills stage 3 around Geraardsbergen — the overall picture is still wide open."
+    "body": "As of the evening of 20 August 2026, after stage 2, Jasper Philipsen (Alpecin - Premier Tech) leads the Renewi Tour by four seconds over Olav Kooij and Dries De Bondt, having inherited the jersey when a mass crash near Ardooie cost overnight leader Jonathan Milan more than six minutes. With three stages remaining — including Friday's 182 km run from Celles to Geraardsbergen, the highest-rated profile of the week — the overall picture remains unsettled ahead of the race's traditionally decisive finale terrain."
   },
   "sources": [
     { "url": "https://procyclinguk.com/renewi-tour-2026-stage-1-jonathan-milan-beats-olav-kooij-in-photo-finish-after-late-breakaway-caught/", "publication": "ProCyclingUK", "title": "Renewi Tour 2026 stage 1: Jonathan Milan beats Olav Kooij in photo finish after late breakaway caught", "lang": "en" },
-    { "url": "https://radsportaktuell.de/radsport/ergebnisse-renewi-tour-2026-etappe-1-jonathan-milan-gewinnt-den-auftaktsprint-vor-kooij-merlier-und-philipsen", "publication": "Radsport Aktuell", "title": "Ergebnisse Renewi Tour 2026 Etappe 1 – Jonathan Milan gewinnt den Auftaktsprint vor Kooij, Merlier und Philipsen", "lang": "de" },
-    { "url": "https://www.tour-magazin.de/en/renewi-tour-stage-1-milan-wins-the-first-clash-between-the-top-sprinters-in-persistent-rain/", "publication": "Tour Magazin", "title": "Renewi Tour – Stage 1: Milan wins the first clash between the top sprinters in persistent rain", "lang": "en" }
+    { "url": "https://cyclinguptodate.com/cycling/results-renewi-tour-2026-stage-2-jasper-philipsen-wins-in-ardooie-as-crash-hit-race-leader-jonathan-milan-is-lapped-by-peloton", "publication": "CyclingUpToDate", "title": "Results Renewi Tour 2026 Stage 2 - Jasper Philipsen wins in Ardooie as crash-hit race leader Jonathan Milan is lapped by peloton", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/renewi-tour-2026-classifications-after-stage-2-jasper-philipsen-takes-race-lead-as-mass-crash-costs-jonathan-milan-dearly", "publication": "CyclingUpToDate", "title": "Renewi Tour 2026 Classifications after stage 2 – Jasper Philipsen takes race lead as mass crash costs Jonathan Milan dearly", "lang": "en" },
+    { "url": "https://escapecollective.com/philipsen-wins-a-hectic-stage-2-of-the-renewi-tour/", "publication": "Escape Collective", "title": "Philipsen wins a hectic stage 2 of the Renewi Tour", "lang": "en" }
   ]
 }
