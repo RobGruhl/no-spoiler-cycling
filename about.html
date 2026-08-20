@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<meta name="description" content="About No Spoiler Cycling — an AI-assisted content curation system for cycling fans"/>
+<meta name="description" content="About No Spoiler Cycling — a fan-made, spoiler-free cycling calendar built for the love of the sport."/>
 <title>About — No Spoiler Cycling</title>
 <!-- Fonts: system stack (see shared.css); no external font requests. -->
 <link rel="stylesheet" href="shared.css"/>
@@ -79,7 +79,7 @@ table.roadbook td.num{text-align:right;font-family:var(--font-mono);color:var(--
         <div class="mast-meta">
           Édition <b>2026</b><br/>
           Document <b>NSC/ABT/26</b><br/>
-          Updated <b>20 APR 2026</b>
+          Updated <b>20 AUG 2026</b>
         </div>
       </div>
       <nav class="navstrip">
@@ -100,14 +100,14 @@ table.roadbook td.num{text-align:right;font-family:var(--font-mono);color:var(--
       <div>
         <div class="eyebrow">§ 04 · About the Roadbook</div>
         <h1>A Calendar<br/>for Fans Who<br/><span class="em">haven't looked yet</span>.</h1>
-        <p class="lead">An AI-assisted curation system for spoiler-free cycling.</p>
+        <p class="lead">A fan-made roadbook for watching bike racing without spoilers.</p>
       </div>
       <aside>
-        <div class="stat"><span class="k">Races on file</span><span class="v">294</span></div>
-        <div class="stat"><span class="k">Editions</span><span class="v">2026</span></div>
+        <div class="stat"><span class="k">Races on file</span><span class="v">341</span></div>
+        <div class="stat"><span class="k">Stage sheets</span><span class="v">465</span></div>
         <div class="stat"><span class="k">Monuments</span><span class="v">11</span></div>
-        <div class="stat"><span class="k">World Champs</span><span class="v">5</span></div>
-        <div class="stat"><span class="k">Data file</span><span class="v sm">29k lines</span></div>
+        <div class="stat"><span class="k">Grand Tours</span><span class="v">5</span></div>
+        <div class="stat"><span class="k">Riders profiled</span><span class="v">115</span></div>
         <div class="stat"><span class="k">Hosting</span><span class="v sm">GitHub Pages</span></div>
       </aside>
     </section>
@@ -139,128 +139,55 @@ table.roadbook td.num{text-align:right;font-family:var(--font-mono);color:var(--
     </section>
 
     <section class="section">
-      <div class="eyebrow">03 · How It's Built</div>
-      <h2>Human-AI collaboration, conversationally.</h2>
-      <p>The system is built and maintained through conversation with <b>Claude Code</b>, Anthropic's AI coding assistant. Rather than writing the curation scripts by hand, the human describes what they want — <i>"find broadcast links for Tour Down Under for US, Canada, and UK"</i> — and Claude Code orchestrates the work end-to-end.</p>
-
-      <ul class="plain">
-        <li><span class="n">01</span><div><b>Researches</b> race schedules, broadcaster licensing, and content availability via Perplexity.</div></li>
-        <li><span class="n">02</span><div><b>Discovers</b> video content across YouTube, FloBikes, Peacock, Max, and broadcaster sites via Firecrawl.</div></li>
-        <li><span class="n">03</span><div><b>Analyses</b> each candidate for spoiler safety using language understanding, not keyword matching.</div></li>
-        <li><span class="n">04</span><div><b>Updates</b> <span class="mono-code">race-data.json</span> via idempotent scripts that deep-merge broadcast, riders, and race details.</div></li>
-        <li><span class="n">05</span><div><b>Regenerates</b> static HTML for the calendar, rider pages, and race detail pages.</div></li>
-        <li><span class="n">06</span><div><b>Deploys</b> via Git commits to GitHub Pages — no backend, no database.</div></li>
-      </ul>
+      <div class="eyebrow">03 · Who's Behind It</div>
+      <h2>Two fans who watch on delay.</h2>
+      <p class="big">This is a two-person project — my girlfriend and I love watching bike racing together, and almost never live. Grand Tour stages finish while we're at work; the Classics finish before we've had breakfast. Watching on our schedule meant living in fear of push alerts, thumbnails, podium photos, and well-meaning friends.</p>
+      <p>So we built the calendar we wanted: every race worth watching, when it happens, where to legally watch it in your country, and replay links that have actually been checked so the winner is revealed the way it should be — at the finish line, after five hours of racing, not in a video title.</p>
+      <p>It's a labor of love, not a business. No ads, no accounts, no tracking scripts — just a roadbook we use ourselves, every week of the season.</p>
     </section>
 
     <section class="section">
-      <div class="eyebrow">04 · Architecture</div>
-      <h2>Static site. AI-powered pipeline.</h2>
-      <pre class="block diagram">┌─────────────────────────────────────────────────────────────────┐
-│                     CLAUDE CODE (AI Agent)                       │
-│  Orchestrates all tasks via natural language conversation        │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        ▼                     ▼                     ▼
-┌───────────────┐    ┌───────────────┐    ┌───────────────┐
-│  Perplexity   │    │   Firecrawl   │    │   YouTube     │
-│  Research     │    │   Scraping    │    │   Discovery   │
-└───────────────┘    └───────────────┘    └───────────────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              ▼
-                  ┌────────────────────────┐
-                  │  data/race-data.json   │
-                  │  data/broadcasters.json│
-                  │  data/riders*.json     │
-                  └────────────────────────┘
-                              │
-                              ▼
-                  ┌────────────────────────┐
-                  │  generate-*.js         │
-                  │  (static HTML build)   │
-                  └────────────────────────┘
-                              │
-                              ▼
-                  ┌────────────────────────┐
-                  │   GitHub Pages         │
-                  └────────────────────────┘</pre>
-
-      <div class="grid-2" style="margin-top:22px">
-        <div class="panel">
-          <h3><span class="num">§</span>Core Technologies</h3>
-          <table class="roadbook">
-            <tbody>
-              <tr><td>Claude Code</td><td>AI agent that orchestrates the entire workflow.</td></tr>
-              <tr><td>Perplexity API</td><td>AI research with citations for race details and broadcast rights.</td></tr>
-              <tr><td>Firecrawl API</td><td>Web search and scraping across video platforms.</td></tr>
-              <tr><td>Node.js</td><td>Runtime for utility scripts and static site generation.</td></tr>
-              <tr><td>GitHub Pages</td><td>Free static hosting — no backend server.</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="panel">
-          <h3><span class="num">§</span>Key Files</h3>
-          <table class="roadbook">
-            <thead><tr><th>File</th><th class="num">Lines</th></tr></thead>
-            <tbody>
-              <tr><td>CLAUDE.md</td><td class="num">207</td></tr>
-              <tr><td>data/race-data.json</td><td class="num">29,174</td></tr>
-              <tr><td>lib/perplexity-utils.js</td><td class="num">840</td></tr>
-              <tr><td>lib/rider-utils.js</td><td class="num">631</td></tr>
-              <tr><td>lib/youtube-utils.js</td><td class="num">487</td></tr>
-              <tr><td>lib/firecrawl-utils.js</td><td class="num">405</td></tr>
-              <tr><td>generate-page.js</td><td class="num">386</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="eyebrow">05 · What Makes It Interesting</div>
-      <h2>Five ideas in one working system.</h2>
-
+      <div class="eyebrow">04 · House Rules</div>
+      <h2>How we decide a link is safe.</h2>
+      <p>One rule governs everything: <b>the winner is revealed only at the natural finish.</b> Every replay and highlight link on the calendar side is held to it.</p>
       <div class="grid-2" style="margin-top:8px">
         <div class="panel">
-          <h3><span class="num">i.</span>Agentic AI in action</h3>
-          <p>This isn't a chatbot. Claude Code reads files, calls APIs, writes code, makes decisions, executes shell commands. The <span class="mono-code">CLAUDE.md</span> file teaches it how to be a spoiler-safe content researcher — domain knowledge expressed as prompt, not as code.</p>
+          <h3><span class="num">i.</span>Neutral titles only</h3>
+          <p>"Stage 15 — Full Coverage" is safe. "What a ride by [rider] on Stage 15!" is not. If the title, description, or thumbnail leans toward the result, the link doesn't ship.</p>
         </div>
         <div class="panel">
-          <h3><span class="num">ii.</span>Tool use &amp; orchestration</h3>
-          <p>A single request like <i>"update April broadcast deep links"</i> fans out to Perplexity for rights research, Firecrawl for event-page discovery, and YouTube channel trust-tier checks — then reduces back into a single coherent update commit.</p>
+          <h3><span class="num">ii.</span>Chronological cuts</h3>
+          <p>Highlights must run in race order with no podium shots, winner interviews, or celebration frames bleeding in before the finish.</p>
         </div>
         <div class="panel">
-          <h3><span class="num">iii.</span>Natural language as interface</h3>
-          <p>The codebase includes an instruction document that is, effectively, a detailed prompt. It's shorter and more editable than the scripts it governs — and it's where the curation policy actually lives.</p>
+          <h3><span class="num">iii.</span>When in doubt, leave it out</h3>
+          <p>A missing highlight is a non-event; a leaked result is the worst thing this site can do. We skip anything we can't verify.</p>
         </div>
         <div class="panel">
-          <h3><span class="num">iv.</span>Spoiler safety via judgement</h3>
-          <p>"Pogacar wins Stage 15" is a spoiler. "Stage 15 Summit Finish — Full Coverage" is not. No regex can reliably tell those apart; language understanding can. The filter is a judgement call at every link.</p>
+          <h3><span class="num">iv.</span>Results live behind a gate</h3>
+          <p>Post-race analysis exists on the site — but only behind a clearly-marked spoiler gate that remembers your choice. You'll never trip over a result by accident.</p>
         </div>
-      </div>
-
-      <div class="panel" style="margin-top:22px">
-        <h3><span class="num">v.</span>A knowledge base that grows itself</h3>
-        <p><span class="mono-code">data/broadcasters.json</span> expands over time as Claude Code discovers new reliable YouTube channels and broadcaster event-page patterns. Unknown channels get evaluated, added to "emerging," and promoted to "trusted" when they prove themselves across multiple races.</p>
       </div>
     </section>
 
     <section class="section">
-      <div class="eyebrow">06 · Try It Yourself</div>
-      <h2>The whole system is open source.</h2>
-      <p>To see AI-assisted curation in action:</p>
+      <div class="eyebrow">05 · Under the Hood</div>
+      <h2>A static site with no strings attached.</h2>
+      <p>Plain HTML on GitHub Pages — no backend, no database, no accounts, no analytics scripts. The whole thing is <a class="link" href="https://github.com/RobGruhl/no-spoiler-cycling" target="_blank" rel="noopener">open source</a>, and the curation is honest work: broadcast rights get verified against independent listings per country, and every footage link passes a spoiler review before it renders. We use AI tools for the research legwork — checking rights, finding replays across hundreds of races — but the standards above are ours, and the site exists because we wanted to use it.</p>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow">06 · Talk to Us</div>
+      <h2>Spot something wrong? Tell us.</h2>
       <ul class="plain">
-        <li><span class="n">01</span><div>Install <a class="link" href="https://claude.ai/download" target="_blank" rel="noopener">Claude Code</a>.</div></li>
-        <li><span class="n">02</span><div>Clone <a class="link" href="https://github.com/RobGruhl/no-spoiler-cycling" target="_blank" rel="noopener">github.com/RobGruhl/no-spoiler-cycling</a>.</div></li>
-        <li><span class="n">03</span><div>Ask Claude Code: <i>"Research broadcast info for Paris-Roubaix 2026."</i></div></li>
+        <li><span class="n">01</span><div><b>A leaked result anywhere on the calendar side</b> — please report it immediately via <a class="link" href="https://github.com/RobGruhl/no-spoiler-cycling/issues" target="_blank" rel="noopener">GitHub issues</a>. That's the one failure we truly care about.</div></li>
+        <li><span class="n">02</span><div><b>A wrong broadcaster for your country</b> — rights move around constantly (ask us about the week a race showed FloBikes but streamed on Max). Corrections welcome.</div></li>
+        <li><span class="n">03</span><div><b>A race we're missing</b> — if it's on the UCI calendar and worth watching, we want it on here.</div></li>
       </ul>
-      <p>Watch it call Perplexity, search YouTube channels, evaluate results, and update the data files — all through conversation.</p>
 
       <div class="callout">
-        <div class="eyebrow">Key Takeaway</div>
-        <p>AI agents can do real work, not just answer questions. Human-AI collaboration is more powerful than either alone — humans provide judgement and direction, AI provides speed and tireless execution.</p>
+        <div class="eyebrow">The Promise</div>
+        <p>You can open this calendar the morning after any race, find out how to watch it, and still experience every attack, every crosswind split, and every sprint as if it were live. That's the whole point.</p>
       </div>
     </section>
 
@@ -270,7 +197,7 @@ table.roadbook td.num{text-align:right;font-family:var(--font-mono);color:var(--
         <div class="kv">
           <span class="k">Set in</span><span class="v">Inter Tight · JetBrains Mono</span>
           <span class="k">Bands</span><span class="v">Blue · Red · Black · Yellow · Green</span>
-          <span class="k">Edition</span><span class="v">20 APR 2026</span>
+          <span class="k">Edition</span><span class="v">20 AUG 2026</span>
           <span class="k">Source</span><span class="v">UCI calendar · editorial selection</span>
         </div>
       </div>
@@ -297,7 +224,7 @@ table.roadbook td.num{text-align:right;font-family:var(--font-mono);color:var(--
       <div class="foot-row">
         <span>No Spoiler Cycling · 2026 Roadbook</span>
         <span>§ 05 — About</span>
-        <span>Built 2026-04-20</span>
+        <span>Built 2026-08-20</span>
       </div>
       <div class="site-legal">
         <nav class="site-legal-links mono">
