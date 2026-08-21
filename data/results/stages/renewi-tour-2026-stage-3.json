@@ -1,0 +1,106 @@
+{
+  "raceId": "renewi-tour-2026",
+  "stageNumber": 3,
+  "stageName": "Celles → Geraardsbergen",
+  "stageDate": "2026-08-21",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-21T19:35:00Z",
+  "tldr": "Jenno Berckmoes (Lotto Intermarché) attacked inside the final kilometre in Geraardsbergen to win a hilly stage 3, holding off Jasper Philipsen and Olav Kooij, and took the overall lead six seconds clear of Philipsen. Overnight leader Jonathan Milan did not start after struggling with injuries from the previous day's crash.",
+  "podium": [
+    { "position": 1, "name": "Jenno Berckmoes", "team": "Lotto Intermarché", "time": "4h 09m 11s" },
+    { "position": 2, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "gap": "+0:03" },
+    { "position": 3, "riderId": "olav-kooij", "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "+0:03" },
+    { "position": 4, "riderId": "arnaud-de-lie", "name": "Arnaud De Lie", "team": "Lotto Intermarché", "gap": "+0:03" }
+  ],
+  "narrative": {
+    "headline": "Berckmoes steals stage 3 and the lead with a last-gasp Geraardsbergen attack",
+    "body": "The 184.6 km run from Celles took the peloton over the Paterberg, Oude Kruisberg and Berg Ten Houte before a demanding finishing circuit around Geraardsbergen featuring the Muur (Kapelmuur), Bosberg, Onkerzele Berg and Denderoordberg. An earlier high-speed crash on the approach to Geraardsbergen took out several riders, including young-rider leader Vlad Van Mechelen and Netcompany INEOS's Magnus Sheffield, both of whom abandoned; Tiesj Benoot, Paul Lapeira and Huub Artz were also involved.\n\nJenno Berckmoes attacked over the Kapelmuur and was joined by Alec Segaert, the two Belgians opening a slender gap while the chasing group struggled to organise. The pair strengthened their overall positions at the Green Kilometre bonus sprint on the Bosberg, Berckmoes taking eight seconds to Segaert's seven. Laurence Pithie and Tomas Kopecky both tried to bridge across on the run-in but were brought back by the chase, which Pinarello Q36.5 and UAE Team Emirates - XRG helped organise before Daan Hoole dragged the bunch to within a handful of seconds under the red kite.\n\nWith the sprinters' trains bearing down, Berckmoes accelerated clear of Segaert with roughly 700 metres to go and held the gap over the final rise into Geraardsbergen. Arnaud De Lie launched the chase for Lotto Intermarché but could not catch his own teammate; Philipsen came through for second and Kooij took third, with De Lie fourth.\n\nBerckmoes's stage win and bonus seconds vaulted him from 16th to the overall lead, six seconds clear of Philipsen, with the race turning to Saturday's stage 4."
+  },
+  "gcImpact": {
+    "headline": "Berckmoes surges from 16th to the overall lead",
+    "body": "Jenno Berckmoes leads by 6 seconds over Jasper Philipsen, with Olav Kooij third at +12. Arnaud De Lie and Quinten Hermans share fourth at +19, Mike Teunissen sixth at +22, and Søren Wærenskjold seventh at +23 alongside breakaway companion Alec Segaert, who climbed 33 places. Robert Donaldson is ninth at +24 and Matteo Trentin rounds out the top ten at +25. Jonathan Milan, race leader after stage 1, did not start after struggling with injuries sustained in Thursday's mass crash; teammate Simone Consonni had already missed the start with concussion symptoms."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:03",
+      "narrative": "Philipsen was swept up in the closing sprint behind Berckmoes and Segaert's late move, unable to close the gap in the final 700 m but comfortably leading the chasing group home for second on the stage. He surrenders the race lead he took in Ardooie but stays in the fight, six seconds off Berckmoes with two hilly stages still to come.",
+      "keyMoments": [ { "km": 184, "what": "Led the chasing sprint home for second after Berckmoes's late attack held" } ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:03",
+      "narrative": "Kooij followed the reduced group into Geraardsbergen and rounded out the podium behind Berckmoes and Philipsen, moving up to third overall at 12 seconds off the new leader.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarché",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+0:03",
+      "narrative": "De Lie launched the sprint from behind in the closing metres but had no answer for his own Lotto Intermarché teammate Berckmoes, finishing fourth. He climbs to fourth overall, 19 seconds off the lead his team now holds.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "soren-waerenskjold",
+      "name": "Søren Wærenskjold",
+      "team": "Uno-X Mobility",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:08",
+      "narrative": "Wærenskjold came through with the chasing group over the Geraardsbergen climbs to finish seventh on the stage, holding seventh overall at 23 seconds off the new race lead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 31,
+      "gap": "significant",
+      "narrative": "Merlier was distanced on the Geraardsbergen circuit's succession of climbs and finished well back in the 30s on the stage, dropping out of the overall top 25 after holding fifth just a day earlier. He remains level with Wærenskjold on points classification standings entering the weekend.",
+      "keyMoments": [ { "km": 175, "what": "Dropped from the front group on the finishing circuit's climbs" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jonathan-milan",
+      "name": "Jonathan Milan",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": null,
+      "gap": "DNS",
+      "narrative": "Milan, who won stage 1 and lost the race lead in Thursday's mass crash, did not start stage 3 after struggling with the injuries sustained that day. Teammate Simone Consonni had already missed the stage 2 start with concussion symptoms from the same incident, leaving Lidl - Trek without either rider for the Geraardsbergen stage.",
+      "keyMoments": [],
+      "incident": { "type": "withdrawal", "description": "Did not start stage 3 after struggling with injuries sustained in the stage 2 mass crash." }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "km": 165, "location": "approach to Geraardsbergen", "description": "A high-speed crash on the approach to Geraardsbergen took down several riders; young-rider leader Vlad Van Mechelen and Magnus Sheffield both abandoned, and Tiesj Benoot, Paul Lapeira and Huub Artz were also involved." }
+    ],
+    "abandons": [
+      { "riderId": "jonathan-milan", "reason": "Did not start after struggling with injuries sustained in the stage 2 mass crash" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-renewi-tour-2026-stage-3-jenno-berckmoes-stuns-jasper-philipsen-and-olav-kooij-with-last-gasp-attack-in-geraardsbergen", "publication": "CyclingUpToDate", "title": "Results Renewi Tour 2026 Stage 3 - Jenno Berckmoes stuns Jasper Philipsen and Olav Kooij with last-gasp attack in Geraardsbergen", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/renewi-tour-2026-classifications-update-after-stage-3-jenno-berckmoes-takes-overall-lead-as-crash-forces-youth-leader-vlad-van-mechelen-out", "publication": "CyclingUpToDate", "title": "Renewi Tour 2026 Classifications Update after Stage 3 - Jenno Berckmoes takes overall lead as crash forces youth leader Vlad Van Mechelen out", "lang": "en" },
+    { "url": "https://en.wikipedia.org/wiki/2026_Renewi_Tour", "publication": "Wikipedia", "title": "2026 Renewi Tour", "lang": "en" },
+    { "url": "https://cyclingoo.com/en/race/benelux-tour-526/526", "publication": "Cyclingoo", "title": "Renewi Tour 2026 - Results, rankings, teams, maps", "lang": "en" }
+  ]
+}
