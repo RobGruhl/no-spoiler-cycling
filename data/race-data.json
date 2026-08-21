@@ -40524,8 +40524,8 @@
       "id": "deutschland-tour-2026",
       "name": "Deutschland Tour",
       "description": "2.Pro cycling race in Germany",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=e7fo-sayyAY",
       "type": "full-race",
       "raceDate": "2026-08-19",
       "endDate": "2026-08-23",
@@ -40611,12 +40611,17 @@
             "hilly"
           ],
           "date": "2026-08-20",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=e7fo-sayyAY",
           "description": "First road stage — Bad Orb to Schwäbisch Hall.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Hesse to Württemberg transition. Rolling terrain — breakaway or reduced bunch."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-21"
           }
         },
         {
@@ -40709,7 +40714,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-21"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "renewi-tour-2026",
@@ -41049,8 +41063,8 @@
       "id": "tour-of-britain-women-2026",
       "name": "Tour of Britain Women",
       "description": "2.WWT women's cycling race in United Kingdom",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=iNU9S5f5Icw",
       "type": "full-race",
       "raceDate": "2026-08-19",
       "endDate": "2026-08-23",
@@ -41108,12 +41122,17 @@
             "hilly"
           ],
           "date": "2026-08-19",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=iNU9S5f5Icw",
           "description": "Opening day of the Tour of Britain Women — 2026 race expanded to 5 stages.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "British WWT opener. Rolling terrain typical of UK racing."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-21"
           }
         },
         {
@@ -41124,12 +41143,17 @@
             "hilly"
           ],
           "date": "2026-08-20",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=i24S4_CsiJY",
           "description": "Day 2.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-08-21"
           }
         },
         {
@@ -41190,7 +41214,7 @@
           "British Cycling era: British Cycling took over the organisation of the race (formerly the Women's Tour) in 2024 — the 2026 edition is the third under their stewardship.",
           "Top WWT field: As one of the late-summer WWT stops, the start list typically draws WorldTour leaders looking for points and form before the Worlds."
         ],
-        "watchNotes": "Mixed British terrain favours all-round riders — strong climbers AND sprinters can both feature on different stages. The Glasgow final stage tends to produce late breaks or reduced-bunch sprints.",
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results.",
         "historicalContext": "The Lloyds Tour of Britain Women, formerly known as the Women's Tour, is one of the longest-running British women's professional stage races. It was rebranded and taken over by British Cycling in 2024 as the British governing body consolidated organisation of both the men's and women's events. The 2025 edition was the first under the new branding.",
         "keyClimbs": [
           {
@@ -41240,7 +41264,12 @@
           "kind": "broadcast",
           "text": "No dedicated US or CA rights-holder for 2026 (verified 2026-08-19); every stage streams live and free on the official Tour of Britain YouTube channel — the earlier FloBikes placeholder was wrong. Channel link is the intended destination, not a placeholder."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-08-21"
+      }
     },
     {
       "id": "gp-lucien-van-impe-2026",
