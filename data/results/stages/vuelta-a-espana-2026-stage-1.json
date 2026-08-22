@@ -1,0 +1,152 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 1,
+  "stageName": "Monaco → Monaco (ITT)",
+  "stageDate": "2026-08-22",
+  "stageType": "itt",
+  "researchedAt": "2026-08-22T19:50:00Z",
+  "tldr": "Tadej Pogačar (UAE Team Emirates - XRG) won the opening 9.4 km Monaco time trial by just nine hundredths of a second over Ethan Hayter, taking the first red jersey of his home Vuelta on a technical, corner-heavy course that favoured punchy riders over pure specialists.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "10:57" },
+    { "position": 2, "name": "Ethan Hayter", "team": "Soudal Quick-Step", "gap": "+0:00" },
+    { "position": 3, "name": "Joshua Tarling", "team": "Netcompany INEOS", "gap": "+0:04" }
+  ],
+  "narrative": {
+    "headline": "Pogačar wins a nail-biting home time trial by 9 hundredths of a second",
+    "body": "The 9.4 km course through Monaco packed 25 corners into a technical loop from outside the Monte Carlo Casino, favouring explosive riders over pure time-trial specialists. Early benchmarks fell to a string of young riders — Jordan Labrosse, Matthew Brennan, Oscar Chamberlain, Léo Bisiaux and Callum Thornley all briefly held the fastest time — before Netcompany INEOS's Joshua Tarling, racing despite the recent death of his younger brother, set a new mark of 11:01.\n\nNational time-trial champion Ethan Hayter then went four seconds quicker than Tarling to take over the hot seat. Christophe Laporte and Finn Fisher-Black came close but not close enough, while Mads Pedersen and Wout van Aert both conceded time on the technical closing kilometres, finishing 16 and 9 seconds down respectively.\n\nStarting second-to-last, Tadej Pogačar — racing on streets he knows as his adopted home — was only marginally down on Hayter's time through the course before edging the win by nine hundredths of a second at the line, taking the stage and the first red jersey of the race. Primož Roglič, starting last, also produced a strong ride but conceded over 20 seconds to his fellow Slovenian."
+  },
+  "gcImpact": {
+    "headline": "Pogačar leads by the narrowest of margins after stage 1",
+    "body": "Tadej Pogačar leads Ethan Hayter by nine hundredths of a second, with Joshua Tarling third at +0:04. Wout van Aert sits 8th at +0:09, Jay Vine 13th at +0:14, Mads Pedersen 15th and Matthew Brennan 16th both at +0:16, and João Almeida 18th at +0:18. Among the GC favourites further back, Primož Roglič is +0:22, Mattias Skjelmose +0:29, Richard Carapaz +0:33, Felix Gall +0:46 and Oscar Onley +0:50 — all conceding time on a course that suited punchy specialists over three-week climbers."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Racing on the streets of his adopted home city, Pogačar started second-to-last and edged out Ethan Hayter by just nine hundredths of a second to win the opening time trial and take the first red jersey of his Vuelta campaign — an immediate statement of intent on a course built for punchy riders rather than pure specialists.",
+      "keyMoments": [ { "km": 9, "what": "Won the Monaco ITT by 0.09 seconds to take the first red jersey" } ],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": 18,
+      "gap": "+0:18",
+      "narrative": "Riding as Pogačar's key lieutenant after a difficult season, Almeida finished 18th on the technical Monaco course, 18 seconds down — a solid opening effort that keeps him well placed to support his leader through the mountains ahead.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jay-vine",
+      "name": "Jay Vine",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": 13,
+      "gap": "+0:14",
+      "narrative": "Vine, one of UAE Team Emirates - XRG's climbing options, went 13th on the opening time trial, 14 seconds off Pogačar's winning time.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 24,
+      "gap": "+0:22",
+      "narrative": "Starting last of all, Roglič produced a strong ride on the technical Monaco loop but still conceded 22 seconds to fellow Slovenian and long-time rival Pogačar, an early setback in his bid for a maiden Vuelta-Tour-Giro sweep attempt this season.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 8,
+      "gap": "+0:09",
+      "narrative": "Van Aert was among the fastest of the puncheur-type riders on the corner-heavy course, finishing 8th, nine seconds down on Pogačar's winning time.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 15,
+      "gap": "+0:16",
+      "narrative": "Pedersen conceded time steadily through the technical Monaco circuit, finishing 15th, 16 seconds off the pace, as he opens his Vuelta campaign eyeing sprint and classics-style stages later in the race.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 16,
+      "gap": "+0:16",
+      "narrative": "The young Briton briefly held the fastest provisional time on the course before later starters overtook him, ultimately finishing 16th, 16 seconds down — an encouraging start to his Grand Tour debut.",
+      "keyMoments": [ { "km": 9, "what": "Set a new provisional fastest time before later, faster starters went off" } ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 40,
+      "gap": "+0:29",
+      "narrative": "Skjelmose lost 29 seconds to Pogačar on the technical time trial, a course that suited explosive riders over the sustained rhythm he prefers, leaving ground to make up in the mountains as he targets a GC result.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 52,
+      "gap": "+0:33",
+      "narrative": "Carapaz, targeting the GC podium this Vuelta, conceded 33 seconds on the corner-heavy Monaco course — a time trial that never suited his strengths — and will look to claw the deficit back once the race reaches the mountains.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 91,
+      "gap": "+0:46",
+      "narrative": "Not a time-trial specialist, Gall still produced a solid ride relative to fellow climbers, finishing 91st at 46 seconds down as his GC campaign gets underway.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS",
+      "role": "leader",
+      "position": 106,
+      "gap": "+0:50",
+      "narrative": "Onley had the most difficult time trial of the tracked GC contenders, losing 50 seconds to Pogačar on the technical Monaco course — a deficit he'll need to recover once the race turns to the mountains.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.idlprocycling.com/cycling/tadej-pogacar-strikes-immediately-at-vuelta-a-espana-with-monaco-time-trial-victory", "publication": "IDL Pro Cycling", "title": "Tadej Pogačar strikes immediately at Vuelta a España with Monaco time trial victory", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-1-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Pogacar outpowers Hayter by 9/100ths of a second", "lang": "en" },
+    { "url": "https://www.rte.ie/sport/results/cycling/vuelta-a-espana/912751/results/5062982/", "publication": "RTÉ Sport", "title": "Vuelta a Espana 2026 Results - Stage 1", "lang": "en" }
+  ]
+}

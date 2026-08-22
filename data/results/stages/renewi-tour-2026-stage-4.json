@@ -1,0 +1,75 @@
+{
+  "raceId": "renewi-tour-2026",
+  "stageNumber": 4,
+  "stageName": "Riemst → Bilzen-Hoeselt",
+  "stageDate": "2026-08-22",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-22T19:35:00Z",
+  "tldr": "Jasper Philipsen (Alpecin - Premier Tech) beat Olav Kooij in a photo finish to win stage 4 in Bilzen-Hoeselt, retaking the overall lead from Jenno Berckmoes with one stage remaining.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "3h 57m 45s" },
+    { "position": 2, "riderId": "olav-kooij", "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "+0:00" },
+    { "position": 3, "name": "Alessandro Borgo", "team": "Bahrain - Victorious", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Philipsen edges Kooij again to snatch back the lead before Leuven",
+    "body": "The 187.3 km run from Riemst to Bilzen-Hoeselt started with a Green Kilometre sprint won by Lotto Intermarché's Lionel Taminiaux, protecting overnight leader Jenno Berckmoes's slender six-second cushion. Soren Kragh Andersen (Lidl-Trek) attacked after the intermediate sprints and opened a 17-second gap, forcing Netcompany INEOS to organise the chase; he survived being nearly caught on the Letenberg to carry a 12-second lead into the closing two kilometres.\n\nOn the finishing climb, Arnaud De Lie sacrificed his own chances to accelerate for Berckmoes, and Florian Vermeersch drove the pace further, briefly splitting the bunch before Philipsen and Kooij regained contact. Unibet Rose Rockets closed the gap to Kragh Andersen inside the final 600 metres, setting up a bunch finish. Biniam Girmay launched the sprint with Tim Merlier tracking Philipsen's wheel and Dylan Groenewegen also in contention, before Philipsen and Kooij emerged together on the rising finish and threw their bikes for the line.\n\nThe photo finish confirmed Philipsen's win in 3:57:45, his second of the race, with Kooij given the same time. Because Lotto Intermarché's earlier efforts had prevented Philipsen and Kooij from taking bonus seconds at the intermediate sprints, Berckmoes's team could not fully protect the lead once Kragh Andersen was caught, and Philipsen's stage-winning bonus seconds moved him back into the blue-green leader's jersey ahead of Sunday's final stage in Leuven."
+  },
+  "gcImpact": {
+    "headline": "Philipsen retakes the overall lead by 4 seconds",
+    "body": "Jasper Philipsen leads by 4 seconds over Jenno Berckmoes, with Olav Kooij third at +10. Quinten Hermans is fourth at +23, Mike Teunissen fifth at +26, Alec Segaert sixth at +27, and Soren Waerenskjold seventh, also at +27. Matteo Trentin is eighth at +28, Robert Donaldson ninth at +29, and Filippo Fiorelli rounds out the top ten at +30, with Sunday's final stage in Leuven still to decide the race."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Philipsen tracked the closing moves before launching alongside Kooij on the rising finish, throwing his bike for a photo-finish win — his second stage victory of the race. The bonus seconds moved him back into the overall lead by four seconds over Berckmoes with one hilly stage left in Leuven.",
+      "keyMoments": [ { "km": 187, "what": "Won a photo finish against Kooij to reclaim the race lead" } ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Kooij matched Philipsen's finishing kick and was given the same time in the photo finish, but the ranking cost him the overall lead pursuit for now — he sits third overall, ten seconds back, heading into Sunday's final stage.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "biniam-girmay",
+      "name": "Biniam Girmay",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": 7,
+      "gap": "+0:00",
+      "narrative": "Girmay launched the sprint from distance in the closing metres, opening the effort that Philipsen and Kooij ultimately came around, and finished seventh in the same bunch time.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tim-merlier",
+      "name": "Tim Merlier",
+      "team": "Soudal Quick-Step",
+      "role": "stage-hunter",
+      "position": 11,
+      "gap": "+0:00",
+      "narrative": "Merlier sat on Philipsen's wheel through the finale but couldn't get around him in the sprint, finishing 11th in the same time as the winner.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-renewi-tour-2026-stage-4-jasper-philipsen-beats-olav-kooij-in-photo-finish-to-seize-back-overall-lead", "publication": "Cycling Up To Date", "title": "Results Renewi Tour 2026 Stage 4 - Jasper Philipsen beats Olav Kooij in photo finish to seize back overall lead", "lang": "en" },
+    { "url": "https://www.the-sports.org/cycling-renewi-tour-results-2026-epr137758.html", "publication": "The-Sports.org", "title": "Cycling - Renewi Tour 2026 - Results", "lang": "en" },
+    { "url": "https://www.rte.ie/sport/results/cycling/renewi-tour/913413/results/5069042/", "publication": "RTÉ Sport", "title": "Renewi Tour 2026 Results - Stage 4", "lang": "en" }
+  ]
+}

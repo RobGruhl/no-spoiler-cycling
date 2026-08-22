@@ -1,0 +1,64 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "raceName": "Vuelta a España",
+  "raceDate": "2026-08-22",
+  "researchedAt": "2026-08-22T19:55:00Z",
+  "inProgress": true,
+  "tldr": "The 81st Vuelta a España opened with a technical 9.4 km time trial through the streets of Monaco, won by home favourite Tadej Pogačar (UAE Team Emirates - XRG) by just nine hundredths of a second over Ethan Hayter, taking the race's first red jersey.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "gap": "race leader, GC in progress" },
+    { "position": 2, "name": "Ethan Hayter", "team": "Soudal Quick-Step", "gap": "+0:00" },
+    { "position": 3, "name": "Joshua Tarling", "team": "Netcompany INEOS", "gap": "+0:04" }
+  ],
+  "narrative": {
+    "headline": "Pogačar opens his home Vuelta with a photo-finish time trial win",
+    "openingMoves": "The 2026 Vuelta a España began in Monaco with a short, technical 9.4 km individual time trial featuring 25 corners, a course built to reward explosive, punchy riders over pure specialists against the clock. A string of young riders — Jordan Labrosse, Matthew Brennan, Oscar Chamberlain, Léo Bisiaux and Callum Thornley — briefly held the fastest times through the afternoon before Netcompany INEOS's Joshua Tarling, competing despite the recent death of his younger brother, set a new benchmark of 11:01.",
+    "raceUnfolds": "National time-trial champion Ethan Hayter went four seconds quicker than Tarling to take the provisional lead, with Christophe Laporte, Wout van Aert and Finn Fisher-Black all close behind but unable to match it. Starting second-to-last on streets he calls home, Tadej Pogačar edged out Hayter by nine hundredths of a second at the line, taking both the stage and the Vuelta's first red jersey. Primož Roglič, starting last, conceded 22 seconds to his fellow Slovenian.",
+    "decision": "Not yet decided. One of the race's roughly three weeks of stages is complete; Pogačar holds the tightest of overall leads with the race yet to reach the mountains of Andorra and Spain.",
+    "finale": "Not yet raced. The route continues through France, Andorra and Spain before finishing in Madrid on 13 September."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 0,
+      "location": "Monaco (Stage 1, ITT)",
+      "headline": "Pogačar wins the opening time trial by 0.09 seconds",
+      "description": "On a technical, corner-heavy 9.4 km course through Monaco, Tadej Pogačar started second-to-last and edged out Ethan Hayter by nine hundredths of a second to take the stage and the race's first red jersey."
+    }
+  ],
+  "teamStories": [],
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": "race leader",
+      "narrative": "Pogačar opened his home Vuelta campaign with an immediate statement, winning the technical Monaco time trial by just nine hundredths of a second over Ethan Hayter to take the first red jersey, with three weeks of racing still to come.",
+      "keyMoments": [ { "km": 9, "what": "Stage 1: won the Monaco ITT by 0.09 seconds to take the race lead" } ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 24,
+      "gap": "+0:22",
+      "narrative": "Starting last on stage 1, Roglič produced a strong opening time trial but still conceded 22 seconds to fellow Slovenian Pogačar, an early gap to make up as the pair's rivalry resumes over three weeks.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "One stage down, three weeks to go",
+    "quotes": [],
+    "body": "As of the evening of 22 August 2026, after stage 1, Tadej Pogačar leads the Vuelta a España by nine hundredths of a second over Ethan Hayter after the technical Monaco time trial, with Joshua Tarling third. GC favourites Primož Roglič, Mattias Skjelmose, Richard Carapaz, Felix Gall and Oscar Onley all conceded time on a course that suited punchy riders over pure climbers. The race continues through France, Andorra and Spain before finishing in Madrid on 13 September."
+  },
+  "sources": [
+    { "url": "https://www.idlprocycling.com/cycling/tadej-pogacar-strikes-immediately-at-vuelta-a-espana-with-monaco-time-trial-victory", "publication": "IDL Pro Cycling", "title": "Tadej Pogačar strikes immediately at Vuelta a España with Monaco time trial victory", "lang": "en" },
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-1-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Pogacar outpowers Hayter by 9/100ths of a second", "lang": "en" },
+    { "url": "https://www.rte.ie/sport/results/cycling/vuelta-a-espana/912751/results/5062982/", "publication": "RTÉ Sport", "title": "Vuelta a Espana 2026 Results - Stage 1", "lang": "en" }
+  ]
+}
