@@ -1,0 +1,79 @@
+{
+  "raceId": "renewi-tour-2026",
+  "stageNumber": 5,
+  "stageName": "Leuven → Leuven",
+  "stageDate": "2026-08-23",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-23T19:35:00Z",
+  "tldr": "Jasper Philipsen (Alpecin - Premier Tech) won a chaotic bunch sprint in Leuven for his second straight stage victory, sealing the overall Renewi Tour title ahead of Jenno Berckmoes and Olav Kooij.",
+  "podium": [
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "4h 06m 49s" },
+    { "position": 2, "name": "Luca Mozzato", "team": "Tudor Pro Cycling Team", "gap": "+0:00" },
+    { "position": 3, "name": "Mike Teunissen", "team": "XDS Astana Team", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Philipsen doubles up in Leuven to seal the overall title",
+    "body": "The final 183 km stage started and finished in Leuven on a circuit mirroring the 2021 World Championships course, with Dries De Bondt, Hartthijs de Vries, Robert Stannard, Frederik Frison, Emil Herzog and Edward Theuns forming the day's breakaway. Alpecin - Premier Tech controlled the pace behind as the escapees built a lead of several minutes before being reeled in.\n\nWith the GC still live, Florian Vermeersch attacked 20 km from the line, and Jenno Berckmoes followed to test Philipsen's overall lead. Tomas Kopecky and Pavel Bittner joined the move with just over 7 km remaining before the bunch came back together, and Berckmoes attacked Philipsen once more, only for the Belgian to respond immediately.\n\nInside the final 2 km, Matej Mohorič and an Uno-X Mobility rider attacked as a crash behind thinned the peloton and affected Biniam Girmay. With Astana driving the pace and no team able to organise a chase, the Uno-X rider was caught in sight of the line and Philipsen came around to win his second straight sprint of the week, securing the overall Renewi Tour title with the stage bonus seconds."
+  },
+  "gcImpact": {
+    "headline": "Philipsen wins the Renewi Tour overall",
+    "body": "Jasper Philipsen wins the final general classification by 14 seconds over Jenno Berckmoes, with Olav Kooij third at +0:29. Mike Teunissen moves up to fourth at +0:32 and Quinten Hermans is fifth at +0:33. Matteo Trentin, Robert Donaldson, Filippo Fiorelli, Marijn van den Berg and Tim van Dijke round out the top ten; Alec Segaert and Søren Wærenskjold both fell out of the top ten after crashing the day before. Philipsen also won the points classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jasper-philipsen",
+      "name": "Jasper Philipsen",
+      "team": "Alpecin - Premier Tech",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Philipsen matched Berckmoes's late GC-testing attacks before the sprint reformed, then came around a fading Uno-X rider in the closing metres for his second consecutive stage win of the race — a victory that also sealed the overall Renewi Tour title and the points classification.",
+      "keyMoments": [ { "km": 183, "what": "Won the sprint to complete the overall Renewi Tour title" } ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": null,
+      "gap": "+0:29",
+      "narrative": "Kooij held on through the finale to finish third overall in the final Renewi Tour general classification, 29 seconds behind Philipsen.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "soren-waerenskjold",
+      "name": "Søren Wærenskjold",
+      "team": "Uno-X Mobility",
+      "role": "domestique",
+      "position": null,
+      "gap": null,
+      "narrative": "Wærenskjold, who crashed the day before, dropped out of the overall top ten on the final stage as the standings shuffled behind Philipsen.",
+      "keyMoments": [],
+      "incident": { "type": "crash", "detail": "Crashed on stage 4, costing him his overall top-ten placing by the finish in Leuven." }
+    },
+    {
+      "riderId": "biniam-girmay",
+      "name": "Biniam Girmay",
+      "team": "NSN Cycling Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Girmay was caught up in a crash behind the final attacks inside the last 2 km, which thinned the peloton ahead of the finish.",
+      "keyMoments": [],
+      "incident": { "type": "crash", "detail": "Involved in a crash inside the final 2 km of the last stage." }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "biniam-girmay", "detail": "Crash inside the final 2 km affected Girmay and thinned the peloton." }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-renewi-tour-2026-stage-5-jasper-philipsen-wins-in-leuven-and-conquers-overall-win", "publication": "Cycling Up To Date", "title": "Results Renewi Tour 2026 stage 5 - Jasper Philipsen wins in Leuven and conquers overall win", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/renewi-tour-2026-classifications-update-after-stage-5-jasper-philipsen-snatches-overall-lead-in-photo-finish-before-leuven-showdown", "publication": "Cycling Up To Date", "title": "Renewi Tour 2026 Classifications Update after Stage 5 - Jasper Philipsen wins GC over Berckmoes and Kooij", "lang": "en" },
+    { "url": "https://www.idlprocycling.com/cycling/jasper-philipsen-wins-chaotic-renewi-tour-finale-to-seal-overall-victory", "publication": "IDL Pro Cycling", "title": "Jasper Philipsen wins chaotic Renewi Tour finale to seal overall victory", "lang": "en" }
+  ]
+}

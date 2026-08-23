@@ -1,0 +1,98 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 2,
+  "stageName": "Monaco → Manosque",
+  "stageDate": "2026-08-23",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-23T19:50:00Z",
+  "tldr": "Matthew Brennan (Team Visma | Lease a Bike) won his first Grand Tour stage with an explosive uphill sprint in Manosque, out-kicking Mads Pedersen after a late Wout van Aert attack, while Tadej Pogačar held onto the red jersey.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "4h 47m 47s" },
+    { "position": 2, "name": "Pau Miquel", "team": "Bahrain - Victorious", "gap": "+0:00" },
+    { "position": 3, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "gap": "+0:00" },
+    { "position": 4, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Grand Tour debutant Brennan out-sprints the field on the Manosque ramps",
+    "body": "Koen Bouwman, Diego Uriarte, Sinuhé Fernández and Ethan Hayter formed the day's breakaway on the largely flat run from Monaco. Hayter went solo with 49 km to go and crossed the intermediate sprint first, briefly moving into the provisional overall lead on bonus seconds, with Wout van Aert taking second there in his own bid for the jersey. UAE Team Emirates - XRG let the move go without reacting, and the peloton reeled Hayter in with 34 km remaining.\n\nThe finale in Manosque featured uphill ramps rather than a flat run-in. Inside the closing kilometre, Wout van Aert attacked out of a hairpin, drawing an immediate response from Tadej Pogačar; Alessandro Romele bridged across, but the move came back together under the 1 km banner with no cooperation among the three.\n\nFinn Fisher-Black launched the sprint early, then Matthew Brennan came around him. Mads Pedersen kicked late on the rising gradient but could not match Brennan's explosivity, and nobody could follow the 21-year-old to the line — his first Grand Tour stage win. Pau Miquel finished second and Pogačar third, ahead of Pedersen, while Hayter — caught off guard by the sprint after his effort in the breakaway — arrived several seconds down and lost his hold on the race lead."
+  },
+  "gcImpact": {
+    "headline": "Pogačar keeps the red jersey and extends his cushion",
+    "body": "Tadej Pogačar retained the overall lead after Ethan Hayter's provisional breakaway advantage was undone by the finish. Pogačar added 4 bonus seconds at the line and now leads Wout van Aert by 9 seconds and Matthew Brennan by 10, with both having captured bonus seconds of their own during the stage. On the uphill finish, a split cost time to several GC riders including João Almeida, Felix Gall and Matthew Riccitello, who lost 18 seconds at the line."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 1,
+      "gap": null,
+      "narrative": "A day after finishing 16th in the opening time trial, the 21-year-old Brennan produced an explosive uphill kick that nobody could follow, timing his sprint past Finn Fisher-Black to win his first Grand Tour stage on his debut appearance and move to third overall.",
+      "keyMoments": [ { "km": 168, "what": "Won the uphill sprint in Manosque for his first Grand Tour stage victory" } ],
+      "incident": null
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:00",
+      "narrative": "Pogačar answered Van Aert's late attack himself, then finished third in the reformed bunch sprint, taking 4 bonus seconds and keeping the red jersey after Hayter's provisional overnight threat was undone by the finish.",
+      "keyMoments": [ { "km": 168, "what": "Followed Van Aert's late attack before contesting the sprint for third" } ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Van Aert attacked out of a hairpin inside the final kilometre in a bid to snatch the red jersey on bonus seconds, but the move was caught under the 1 km banner; he now sits second overall, 9 seconds behind Pogačar.",
+      "keyMoments": [ { "km": 167, "what": "Attacked inside the final kilometre, caught before the line" } ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "+0:00",
+      "narrative": "Pedersen launched his sprint on the rising gradient but couldn't match Brennan's kick, finishing fourth in the same time as the winner.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": null,
+      "gap": "+0:18",
+      "narrative": "Almeida was among the GC riders caught out by a split on the uphill finish, losing 18 seconds at the line.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": null,
+      "gap": "+0:18",
+      "narrative": "Gall lost 18 seconds in a split on the Manosque uphill finish, an early setback in his GC campaign.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-2-brennan-wins-uphill-sprint-in-manosque-as-van-aert-attacks-and-pogacar-defends", "publication": "Cycling Up To Date", "title": "Results Vuelta a España 2026 stage 2 - Brennan wins uphill sprint in Manosque as Van Aert attacks and Pogacar defends", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/vuelta-a-espana-2026-classifications-stage-2-tadej-pogacar-keeps-red-jersey-under-the-most-unlikely-circumstances", "publication": "Cycling Up To Date", "title": "Vuelta a Espana 2026 classifications stage 2 - Tadej Pogacar keeps red jersey under the most unlikely circumstances", "lang": "en" },
+    { "url": "https://www.cyclingwest.com/news/2026-vuelta-a-espana-stage-2-brennan-blasts-off-in-manosque/", "publication": "Cycling West / Cycling Utah", "title": "2026 Vuelta a España Stage 2: Brennan Blasts off in Manosque", "lang": "en" }
+  ]
+}
