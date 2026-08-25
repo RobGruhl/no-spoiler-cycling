@@ -1,0 +1,125 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 4,
+  "stageName": "Andorra la Vella → Andorra la Vella",
+  "stageDate": "2026-08-25",
+  "stageType": "mountain",
+  "researchedAt": "2026-08-25T19:45:00Z",
+  "tldr": "Tadej Pogačar produced a devastating 50km solo raid over the Collada de Beixalis and Coll d'Ordino to win stage 4 in Andorra, opening up a race-defining 3:21 general classification lead over Primož Roglič with 17 stages still to race.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "2h 40m 35s" },
+    { "position": 2, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto - Intermarché", "gap": "+2:39" },
+    { "position": 3, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+2:39" },
+    { "position": 4, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany INEOS", "gap": "+2:39" },
+    { "position": 5, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+2:39" }
+  ],
+  "narrative": {
+    "headline": "Pogačar blows the Vuelta apart with a 50km Andorran solo raid",
+    "body": "The short but savage 104.8km circuit around Andorra la Vella climbed almost immediately onto the Cat-1 Port d'Envalira, where Sander De Pestel drove a hard pace for Decathlon CMA CGM that shredded the day's breakaway and thinned the peloton, dropping Wout van Aert and Matthew Brennan from the front group early. Decathlon kept pressing on the approach to the Collada de Beixalis, splitting the race into several groups before the GC favourites even reached the steepest climb of the day.\n\nWith 50km still to race and gradients on Beixalis touching 16 percent, Tadej Pogačar attacked. Only Felix Gall could initially respond, but the Austrian was quickly distanced, and by the Beixalis summit Pogačar led alone by around 1:40. He continued to extend the gap on the Coll d'Ordino, collecting the intermediate sprint in Ordino along the way, and by the top of that climb was already close to three minutes clear of the strongest chasers.\n\nBehind, Gall accelerated again with Oscar Onley the only rider able to follow, before Primož Roglič bridged across and Sepp Kuss and Enric Mas joined to form a five-man chase. Even that group made no impression on the gap. Pogačar carried roughly three minutes of advantage onto the final short climb, the Cat-3 Alto de La Comella, where Gall tried once more to force a selection and Mattias Skjelmose lost contact with the group. Pogačar crested with the stage already decided and descended into Andorra la Vella for his fifth La Vuelta stage win, on the same Andorran roads where he won his first-ever Grand Tour stage back in 2019."
+  },
+  "gcImpact": {
+    "headline": "Pogačar seizes a 3:21 GC lead — red, green and polka dots all his",
+    "body": "Tadej Pogačar's solo victory blew the general classification apart just four stages in. He now leads Primož Roglič by 3:21, with Enric Mas at 3:32, Sepp Kuss at 3:44 and Oscar Onley at 3:45. Richard Carapaz (+3:50), Felix Gall (+3:57), Mattias Skjelmose (+4:06) and Jarno Widar (+4:06) round out the group within four minutes. Pogačar also holds the points and mountains classifications after the stage, with 17 stages still to race before Madrid."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Pogačar launched a race-defining attack on the Collada de Beixalis with 50km to go, on gradients reaching 16 percent, and rode away alone over the Coll d'Ordino and Alto de La Comella for his fifth La Vuelta stage win — fittingly on the same Andorran roads where he won his first Grand Tour stage in 2019. The move opened a 3:21 GC lead with 17 stages remaining.",
+      "keyMoments": [
+        { "km": 55, "what": "Attacked alone on the Collada de Beixalis with 50km to go" },
+        { "km": 68, "what": "Led the strongest GC chasers by around three minutes atop the Coll d'Ordino" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 3,
+      "gap": "+2:39",
+      "narrative": "Gall was the only rider who could briefly follow Pogačar's attack on the Beixalis, but the effort was unsustainable and he was reabsorbed by the chase. He tried to force a selection again on the closing Alto de La Comella before finishing in the five-man group, now 3:57 behind on GC.",
+      "keyMoments": [ { "km": 55, "what": "Briefly followed Pogačar's attack before being distanced" } ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 5,
+      "gap": "+2:39",
+      "narrative": "Roglič bridged across to the Gall-Onley group on the Coll d'Ordino to form a five-man chase, but the move made no dent in Pogačar's lead. He finished with the group to sit second overall, 3:21 behind.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS",
+      "role": "leader",
+      "position": 4,
+      "gap": "+2:39",
+      "narrative": "Onley was the first to follow Gall's second acceleration on the Ordino, with Netcompany INEOS helping control the chase on his behalf; he finished in the reformed group of GC contenders, now fifth overall at 3:45.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 8,
+      "gap": "+2:57",
+      "narrative": "Carapaz led the chasers over the top of Beixalis behind Pogačar but lost contact with the front chase group later in the stage, dropping to sixth overall at 3:50.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 9,
+      "gap": "+3:17",
+      "narrative": "Skjelmose lost contact with the group of GC favourites on the closing Alto de La Comella, dropping to eighth overall, 4:06 behind Pogačar.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jarno-widar",
+      "name": "Jarno Widar",
+      "team": "Lotto - Intermarché",
+      "role": "leader",
+      "position": 2,
+      "gap": "+2:39",
+      "narrative": "Widar finished in the front chase group of GC contenders, taking second on the stage and moving into the top 10 overall, 4:06 behind Pogačar.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jay-vine",
+      "name": "Jay Vine",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": null,
+      "gap": null,
+      "narrative": "Vine put in an early domestique pull at the front for Pogačar on the approach to the decisive climbs before Decathlon CMA CGM again lifted the pace for Gall.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-4-race-over-tadej-pogacar-all-but-wins-la-vuelta-already-and-puts-minutes-into-rivals-with-devastating-50km-andorra-raid", "publication": "Cycling Up To Date", "title": "Results Vuelta a Espana 2026 Stage 4 | Race over! Tadej Pogacar all but wins La Vuelta already and puts minutes into rivals with devastating 50km Andorra raid", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/vuelta-a-espana-2026-classifications-update-stage-4-tadej-pogacar-blows-race-apart-with-321-gc-lead-as-red-green-and-polka-dots-all-belong-to-slovenian", "publication": "Cycling Up To Date", "title": "Vuelta a Espana 2026 Classifications Update Stage 4 - Tadej Pogacar blows race apart with 3:21 GC lead as red, green and polka dots all belong to Slovenian", "lang": "en" },
+    { "url": "https://www.theguardian.com/sport/2026/aug/25/vuelta-a-espana-tadej-pogacar-stage-four", "publication": "The Guardian", "title": "Vuelta a España: Tadej Pogacar punishes peloton with mighty solo win on stage four", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/racing/vuelta-a-espana-tadej-pogacar-twists-the-knife-with-solo-raid-in-andorra-to-win-stage-4/", "publication": "Cyclingnews", "title": "Vuelta a España: Tadej Pogačar twists the knife with solo raid in Andorra", "lang": "en" }
+  ]
+}
