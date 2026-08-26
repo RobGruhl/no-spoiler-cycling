@@ -1,0 +1,79 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 5,
+  "stageName": "Falset (Costa Daurada) → Roquetes (Terres de l'Ebre)",
+  "stageDate": "2026-08-26",
+  "stageType": "hilly",
+  "researchedAt": "2026-08-26T19:35:00Z",
+  "tldr": "Matthew Brennan sprinted to his second Vuelta stage win in five days, perfectly led out by Visma | Lease a Bike after a punchy, windy Catalan stage failed to shed the fast men; Tadej Pogačar's GC lead is unchanged.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "3h 47m 02s" },
+    { "position": 2, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:00" },
+    { "position": 3, "name": "Vincenzo Albanese", "team": "EF Education - EasyPost", "gap": "+0:00" }
+  ],
+  "narrative": {
+    "headline": "Brennan doubles up in a reduced Catalan sprint",
+    "body": "Fredrik Dversnes launched the day's break, soon joined by Mattia Gaffuri, Diego Uriarte, Walter Calzoni and Stefan Küng, and the five opened a lead of over two minutes before Küng abandoned the move with a mechanical. The peloton held the gap around a minute until echelons formed in the crosswinds at the halfway point, quickly reeling the remaining four attackers back in.\n\nWith the race back together, Ethan Hayter attacked roughly 15km from the intermediate sprint and took maximum points there, Wout van Aert crossing 22 seconds behind for second before Hayter sat up. Andreas Kron tried next, with 45km still to race, building a 42-second advantage that evaporated at the foot of the Alto de Paüls, the day's lone categorized climb, where Kaden Groves and Mads Pedersen were among those distanced from a peloton that crested roughly 60 riders strong.\n\nXabier Mikel Azparren attacked twice inside the final 20km; Van Aert closed the first move down and Christophe Laporte the second. From there Visma | Lease a Bike took control of the run-in and delivered a picture-perfect lead-out for Matthew Brennan, who came around to win the reduced bunch sprint in Roquetes for his second stage victory in the race's first five days, with Jordi Meeus and Vincenzo Albanese completing the podium."
+  },
+  "gcImpact": {
+    "headline": "No change at the top — Pogačar still commands a 3:21 lead",
+    "body": "The reduced sprint finish left the general classification untouched from stage 4: Tadej Pogačar retains the red jersey 3:21 ahead of Primož Roglič, with Enric Mas third at 3:32, Sepp Kuss fourth at 3:44 and Oscar Onley fifth at 3:45."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Perfectly delivered by his Visma | Lease a Bike train through the closing kilometres, Brennan came around the reduced bunch to win in Roquetes, his second stage victory of the race after also winning three days earlier. The 21-year-old Brit continues a breakout Grand Tour debut.",
+      "keyMoments": [ { "km": 173, "what": "Won the reduced bunch sprint after a perfect Visma lead-out" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "+0:00",
+      "narrative": "Meeus finished second in the sprint, unable to match Brennan's lead-out advantage but confirming his form as one of the fastest men left in the reduced peloton.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout Van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "helper",
+      "position": null,
+      "gap": null,
+      "narrative": "Van Aert was active throughout, taking second at the intermediate sprint behind a breakaway Ethan Hayter attack and later personally closing down Xabier Mikel Azparren's first late attack, before helping set up Brennan's winning sprint.",
+      "keyMoments": [
+        { "km": 158, "what": "Finished second at the intermediate sprint" },
+        { "km": 155, "what": "Closed down Azparren's first late attack" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": null,
+      "gap": null,
+      "narrative": "Pedersen was among the fast men dropped from the peloton on the day's lone climb, the Alto de Paüls, and missed the reduced group that contested the finish.",
+      "keyMoments": [ { "km": 145, "what": "Dropped from the peloton on the Alto de Paüls" } ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-5-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Dominant sprint triumph Brennan, Pogacar still in red", "lang": "en" },
+    { "url": "https://www.reuters.com/sports/briton-brennan-takes-second-vuelta-stage-win-pogacar-control-2026-08-26/", "publication": "Reuters", "title": "Briton Brennan takes second Vuelta stage win, Pogacar in control", "lang": "en" },
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-5-matthew-brennan-wins-again-in-roquetes-as-tadej-pogacar-stays-in-red/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 5: Matthew Brennan wins again in Roquetes as Tadej Pogačar stays in red", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/2026-vuelta-a-espana-stage-5-brennan-completes-another-masterclass-from-visma/", "publication": "Tour Magazin", "title": "Matthew Brennan wins Stage 5 of the Vuelta in a bunch sprint", "lang": "en" }
+  ]
+}
