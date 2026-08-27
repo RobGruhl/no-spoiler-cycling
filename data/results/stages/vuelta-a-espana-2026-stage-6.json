@@ -1,0 +1,113 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 6,
+  "stageName": "Alcossebre → Castelló",
+  "stageDate": "2026-08-27",
+  "stageType": "mountain",
+  "researchedAt": "2026-08-27T19:40:00Z",
+  "tldr": "Tadej Pogačar attacked alone on the gravel of the Puerto de Bartolo, was reeled back in by a fighting Enric Mas just before the summit, and then beat him in a two-up sprint in Castelló for his third stage win of the race, stretching his overall lead to 3:34.",
+  "podium": [
+    { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "4h 12m 40s" },
+    { "position": 2, "name": "Enric Mas", "team": "Movistar Team", "gap": "+0:00" },
+    { "position": 3, "name": "Ramses Debruyne", "team": "Alpecin-Premier Tech", "gap": "+0:46" }
+  ],
+  "narrative": {
+    "headline": "Pogačar survives a gravel scare and a Mas comeback to win alone-turned-two-up",
+    "body": "On the early Coll de la Bandereta, Gijs Leemreize, Andreas Kron and George Bennett jumped clear before Santiago Buitrago bridged across; a group of twelve more, including Wout van Aert and Ramses Debruyne, joined the move on the descent and pushed the advantage past two minutes, with Van Aert dropping out of contention on the Alto de Desierto de las Palmas.\n\nWith the breakaway's lead down to 30 seconds on the gravel section of the Puerto de Bartolo, Tadej Pogačar accelerated. Only Oscar Onley, Richard Carapaz and Felix Gall could follow briefly before the red jersey rode clear alone, catching and passing the last breakaway survivor, Debruyne, with 2.9km still to climb. Just before the summit, Enric Mas fought his way back onto Pogačar's wheel, cresting the climb first.\n\nThe pair descended together — Pogačar briefly running off the road after opening a gap, then easing off to avoid further risk — and reached the flat with a 15-second cushion over the first chasers, Primož Roglič, Felix Gall and Debruyne, with Richard Carapaz and Harold Tejada 15 seconds further back and a group containing Oscar Onley 90 seconds behind. Pogačar and Mas worked together to the line in Castelló, where Pogačar came around Mas to win the sprint for his third stage victory of the race; Debruyne outsprinted the reforming chase group for third."
+  },
+  "gcImpact": {
+    "headline": "Pogačar extends to 3:34 as Mas leapfrogs Roglič into second",
+    "body": "Enric Mas's ride to the finish alongside Pogačar moves him up to second overall at 3:34, ahead of Primož Roglič (third, +4:21) and Richard Carapaz (fourth, +4:50). Felix Gall sits fifth at +4:55, with Oscar Onley seventh at +5:37 and holding the white jersey as best young rider; Jarno Widar lost significant time in the finale and dropped out of the young-rider podium places."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Pogačar lit the race up on the gravel of the Puerto de Bartolo with 2.9km still to climb, riding away from Onley, Carapaz and Gall before catching and passing the last breakaway rider. He briefly ran off the road on the technical descent after opening a gap on Mas, who had fought back to his wheel just before the summit, but recovered without losing time and out-kicked Mas in the finish-line sprint for his third stage win of this Vuelta, pushing his overall lead out to 3:34.",
+      "keyMoments": [
+        { "km": 154, "what": "Attacked alone on the Puerto de Bartolo gravel, caught by Mas just before the summit" },
+        { "km": 158, "what": "Ran off the road on the descent after opening a gap, recovered without losing time" },
+        { "km": 177, "what": "Won the two-up sprint in Castelló for his third stage victory" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 7,
+      "gap": "+0:46",
+      "narrative": "Roglič was distanced when Pogačar attacked on the Puerto de Bartolo but landed in the first chase group with Gall and Debruyne, limiting his losses to 46 seconds on the stage. He holds third overall at 4:21 behind Pogačar and Mas.",
+      "keyMoments": [ { "km": 154, "what": "Dropped by Pogačar's attack, landed in the first chase group" } ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:00",
+      "narrative": "Carapaz followed the early moves of Pogačar's attack before settling into a second chase group with Harold Tejada, then regained contact with the Roglič group in the closing flat kilometres to finish on the same time as the front pair. He sits fourth overall at 4:50.",
+      "keyMoments": [ { "km": 175, "what": "Regained contact with the front chase group in the closing kilometres" } ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:00",
+      "narrative": "Gall was one of the few able to follow Pogačar's initial acceleration before falling back into the first chase group alongside Roglič and Debruyne, ultimately finishing with that group 46 seconds down but rejoined by the line. He is fifth overall at 4:55.",
+      "keyMoments": [ { "km": 154, "what": "Briefly followed Pogačar's attack before falling back to the first chase group" } ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany-INEOS Team",
+      "role": "leader",
+      "position": 12,
+      "gap": "+1:38",
+      "narrative": "Onley was another rider able to briefly follow Pogačar's move on the Puerto de Bartolo before losing contact and dropping into a group roughly 90 seconds back on the descent, finishing 1:38 behind the stage winner. He remains best young rider, seventh overall at 5:37.",
+      "keyMoments": [ { "km": 154, "what": "Briefly followed Pogačar's attack before losing contact" } ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 10,
+      "gap": "+1:38",
+      "narrative": "Skjelmose finished in the same group as Onley, around 90 seconds down on the descent chase, losing 1:38 on the stage but holding station in the top 10 overall.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jarno-widar",
+      "name": "Jarno Widar",
+      "team": "Lotto",
+      "role": "leader",
+      "position": 24,
+      "gap": "+3:48",
+      "narrative": "Widar was dropped well before the finale and lost 3:48 on the stage, a setback that costs him ground in both the general and young-rider classifications.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-6-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Pogacar bests Mas in two-up sprint", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/vuelta-a-espana-2026-classifications-update-stage-6-tadej-pogacar-strengthens-red-as-enric-mas-jumps-primoz-roglic-and-white-jersey-battle-closes-to-3-seconds", "publication": "CyclingUpToDate", "title": "Vuelta a Espana 2026 Classifications Update Stage 6", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/vuelta-a-espana-stage-6-live-fireworks-expected-as-gravel-and-steep-climbs-on-the-menu-in-spain/", "publication": "Cyclingnews", "title": "The red jersey wins again on Vuelta a España gravel", "lang": "en" },
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-6-tadej-pogacar-beats-enric-mas-after-gravel-attack-and-descent-scare/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 6: Tadej Pogačar beats Enric Mas after gravel attack and descent scare", "lang": "en" }
+  ]
+}
