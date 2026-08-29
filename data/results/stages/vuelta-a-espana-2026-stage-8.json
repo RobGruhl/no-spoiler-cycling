@@ -1,0 +1,169 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 8,
+  "stageName": "Puçol → Xeraco",
+  "stageDate": "2026-08-29",
+  "stageType": "flat",
+  "researchedAt": "2026-08-29T19:30:00Z",
+  "tldr": "Bryan Coquard produced the sprint of his career to beat Mads Pedersen and Jordi Meeus in a crash-scrambled finish at Xeraco, but the stage will be remembered for Tadej Pogačar's race-ending crash on the run-in to the Puerto de Barx — the Slovenian abandoned with a suspected broken collarbone, handing the red jersey to Enric Mas.",
+  "podium": [
+    { "position": 1, "name": "Bryan Coquard", "team": "Cofidis", "time": "3h 47m 06s" },
+    { "position": 2, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 3, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Coquard's sprint upset overshadowed by Pogačar's shock abandon",
+    "body": "Sinuhé Fernández attacked from the flag and built a lead of almost six minutes before Visma | Lease a Bike took control at the front and reeled him in ahead of the intermediate sprint at Simat de la Valldigna, where Wout van Aert added to his points-classification lead. Roughly 32km from the finish, at the foot of the Puerto de Barx, Tadej Pogačar hit the tarmac hard in a peloton crash that also caught Ben Tulett. He got up and tried to continue but couldn't, and was taken away by ambulance with a head injury and a suspected broken collarbone, ending his Vuelta.\n\nThe bunch briefly waited before racing resumed once it was clear the race leader was out. Van Aert crested the Puerto de Barx first for more mountains points, and Xabier Mikel Azparren attacked on the descent, opening a gap of around 20 seconds that the bunch closed down with about 1.5km still to race.\n\nFrom there the finish unravelled into chaos. Visma | Lease a Bike again built the leadout around two-time stage winner Matthew Brennan, with Christophe Laporte and Van Aert driving the front, but Brennan lost his teammates' wheel inside the final kilometre. A crash just before the line was followed by another pile-up inside the finishing straight, scattering riders and bikes across the road. Coquard emerged from the survivors to time his effort perfectly, coming around Pedersen right on the line for his biggest win in years, with Meeus completing the podium.\n\nWith Pogačar's overnight abandon, Enric Mas inherits the red jersey for the first time in his career, and a Vuelta that looked settled is thrown wide open."
+  },
+  "gcImpact": {
+    "headline": "Mas inherits red as Pogačar's 3:50 overnight lead vanishes",
+    "body": "With Pogačar's time struck from the classification, Enric Mas becomes the new race leader for the first time in his career. Primož Roglič is second at 1:00 and Felix Gall third at 1:11 — the two finished together in the bunch, so the 11-second gap between them from before the stage carries over unchanged. Sepp Kuss is fourth at 2:15, Oscar Onley fifth at 2:16, Richard Carapaz sixth at 2:22, Mattias Skjelmose seventh at 3:27, Harold Tejada eighth at 3:56, Gregor Mühlberger ninth at 5:39 and Jakob Omrzel tenth at 6:04."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "DNF",
+      "narrative": "Pogačar crashed hard in the peloton roughly 32km from the finish on the approach to the Puerto de Barx, in an incident that also caught Ben Tulett. He got back up and tried to continue but couldn't carry on, and was taken away by ambulance with a head injury and a suspected broken collarbone. He had arrived at the stage with a 3:50 overall lead and three stage wins already banked in the first week; the abandon ends his 2026 Grand Tour campaign there and hands the red jersey to Enric Mas.",
+      "keyMoments": [
+        { "km": 136, "what": "Crashed hard in the peloton approaching the Puerto de Barx" },
+        { "km": 136, "what": "Unable to continue; withdrawn by ambulance" }
+      ],
+      "incident": {
+        "type": "crash",
+        "detail": "Heavy peloton crash ~32km from the finish; suspected broken collarbone and a head injury forced his withdrawal from the race"
+      }
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Lidl - Trek",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Pedersen looked to have timed his effort perfectly, coming off a scrambled leadout to hit the front inside the final 200m, but Coquard came around him right on the line for the narrowest of margins in a finish disrupted by two late crashes.",
+      "keyMoments": [
+        { "km": 168, "what": "Led the sprint into the final metres but was caught on the line by Coquard" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "Meeus navigated the crash-interrupted, chaotic run-in to finish third, salvaging a podium for Red Bull - BORA - hansgrohe on a day the fancied sprint trains were caught out by the finale's disorder.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 10,
+      "gap": "s.t.",
+      "narrative": "Visma | Lease a Bike again built the leadout around the two-time stage winner, with Christophe Laporte and Wout van Aert driving the front of the bunch, but Brennan lost his teammates' wheel inside the final kilometre as the sprint splintered into chaos, and could only finish tenth.",
+      "keyMoments": [
+        { "km": 167, "what": "Lost his leadout train inside the final kilometre" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 22,
+      "gap": "s.t.",
+      "narrative": "Van Aert won the intermediate sprint at Simat de la Valldigna to strengthen his points-classification lead, then took maximum mountains points over the Puerto de Barx before dropping back to help drive Brennan's leadout in the finale.",
+      "keyMoments": [
+        { "km": 130, "what": "Won the intermediate sprint at Simat de la Valldigna" },
+        { "km": 146, "what": "Took maximum KOM points cresting the Puerto de Barx" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 93,
+      "gap": "s.t.",
+      "narrative": "Roglič rolled in safely with the main bunch, untouched by the finale's crashes. With Pogačar out of the race, he moves up to second overall, 1:00 behind new leader Enric Mas and 11 seconds ahead of Felix Gall.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 61,
+      "gap": "s.t.",
+      "narrative": "Gall finished safely in the bunch alongside the other GC contenders. Pogačar's abandon lifts him to third overall at 1:11, 11 seconds behind Roglič.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS",
+      "role": "leader",
+      "position": 45,
+      "gap": "s.t.",
+      "narrative": "Onley came through the chaotic finale unaffected and holds fifth overall at 2:16 after Pogačar's abandon reshuffled the top of the classification.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 65,
+      "gap": "s.t.",
+      "narrative": "Carapaz finished safely with the bunch and sits sixth overall at 2:22 with the race now wide open behind Enric Mas.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 49,
+      "gap": "s.t.",
+      "narrative": "Skjelmose came through the finale unscathed and holds seventh overall at 3:27 as the GC picture resets behind new leader Enric Mas.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      {
+        "riderId": "tadej-pogacar",
+        "name": "Tadej Pogačar",
+        "reason": "Heavy peloton crash ~32km from the finish approaching the Puerto de Barx, also involving Ben Tulett; suffered a head injury and a suspected broken collarbone."
+      }
+    ],
+    "abandons": [
+      {
+        "riderId": "tadej-pogacar",
+        "reason": "Withdrawn by ambulance after a heavy crash ~32km from the finish, with a suspected broken collarbone and a head injury."
+      }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-8-spain-results-2026/", "publication": "CyclingStage.com", "title": "Vuelta 2026: Sprint triumph Coquard, Pogacar abandons, Mas new leader", "lang": "en" },
+    { "url": "https://en.brujulabike.com/coquard-wins-pogacar-withdraws-and-enric-mas-takes-the-vuelta-lead-in-stage-8/", "publication": "Brújula Bike", "title": "Coquard wins, Pogačar withdraws and Enric Mas takes the La Vuelta lead in stage 8", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/vuelta-a-espana-2026-classifications-update-stage-8-pogacar-out-of-the-race-enric-mas-the-red-jersey-for-the-first-time-in-his-career", "publication": "Cycling Up To Date", "title": "Vuelta a Espana 2026 Classifications Update Stage 8", "lang": "en" },
+    { "url": "https://www.lavuelta.es/en/rankings", "publication": "La Vuelta (official)", "title": "Official classifications of La Vuelta - Stage 8", "lang": "en" }
+  ]
+}
