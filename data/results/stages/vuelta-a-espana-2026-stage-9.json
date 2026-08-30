@@ -1,0 +1,86 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 9,
+  "stageName": "La Vila Joiosa → Alto de Aitana (Costa Blanca)",
+  "stageDate": "2026-08-30",
+  "stageType": "mountain",
+  "researchedAt": "2026-08-30T19:30:00Z",
+  "tldr": "Enric Mas answered his first day defending the red jersey in the mountains with an attack inside the final 3km, dropping every GC rival except Oscar Onley and extending his overall lead to 1:18 on the week-1 queen stage to Alto de Aitana.",
+  "podium": [
+    { "position": 1, "name": "Enric Mas", "team": "Movistar Team", "time": "5h 10m 40s" },
+    { "position": 2, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany Ineos Cycling Team", "gap": "s.t." },
+    { "position": 3, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:12" },
+    { "position": 4, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+0:18" }
+  ],
+  "narrative": {
+    "headline": "Mas passes his first mountain test in red, dropping the field bar Onley",
+    "body": "A large breakaway of around two dozen riders went clear from the opening kilometres, with Andrea Romele attacking on his birthday over the Puerto de Benifallim before Pavel Sivakov countered and rode solo into the final climb with roughly five minutes in hand. Decathlon CMA CGM took over pace-setting from Movistar on the lower slopes of Alto de Aitana, using Bastien Tronchon, Jordan Labrosse, Callum Scotson, Matthew Riccitello, Léo Bisiaux and Gregor Mühlberger to shred the peloton in temperatures of 38.5°C. Sivakov was caught with around 4km to go as the GC group swallowed the remnants of the break.\n\nFelix Gall attacked twice inside the final 6km, forcing Mas, Roglič, Onley, Carapaz and Skjelmose to respond each time, while Richard Carapaz briefly rode clear from the group before being reeled back in with 4km left. Mas made the decisive move himself with 3km to go: Onley alone could follow, and when Mas accelerated again inside the final 2km only Onley stayed with him, with Roglič unable to close the gap.\n\nMas won the sprint at the top of Aitana in 5:10:40 for his first stage win of the race, with Onley second on the same time. Roglič came in third at 12 seconds, having lost contact with Mas and Onley's late move, and Gall was fourth at 18 seconds after Decathlon's work on the climb did not translate into a stage result. Mas heads into the rest day having defended his week-old red jersey on the toughest mountain stage of the opening week."
+  },
+  "gcImpact": {
+    "headline": "Mas extends his lead to 1:18 over Roglič on the eve of the rest day",
+    "body": "Enric Mas leads the general classification outright, with Primož Roglič second at 1:18. Felix Gall moved up to third at 1:39, only 21 seconds behind Roglič, after his repeated attacks on Aitana. Oscar Onley's ride to the line with Mas lifted him to fourth overall at 2:20, ahead of Richard Carapaz, who sits fifth at 3:26 after losing time in the finale. Mattias Skjelmose is sixth at 3:55."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany Ineos Cycling Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Onley got the balance right on the first true mountain test since Tadej Pogačar's abandon, following the key moves without wasting energy and staying with Mas through both of the red jersey's late accelerations. He was the only rider able to match Mas's final effort inside the last 2km, and the ride lifted him to fourth overall, ahead of Richard Carapaz and firmly into the podium conversation for Netcompany Ineos Cycling Team.",
+      "keyMoments": [
+        { "km": 184, "what": "Followed Mas's attack with 3km to go" },
+        { "km": 185, "what": "Only rider able to match Mas's second acceleration inside the final 2km" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:12",
+      "narrative": "Roglič followed Gall's attacks and stayed in the front group through most of the final climb, taking bonus seconds for third on the stage, but could not respond when Mas went clear inside the final 2km. He remains second overall but the gap to Mas has grown to 1:18 — the first mountain stage where he could not match the red jersey in the decisive moment.",
+      "keyMoments": [
+        { "km": 185, "what": "Unable to follow Mas's second acceleration, losing 12 seconds at the line" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:18",
+      "narrative": "Gall's Decathlon CMA CGM team drove the pace on the lower slopes of Aitana specifically to isolate the GC favourites and set up his attacks, and Gall obliged with two accelerations inside the final 6km that dropped several rivals and helped bring the last remnants of the breakaway back. He couldn't finish the job himself, finishing fourth on the stage, but moved up to third overall, just 21 seconds behind Roglič.",
+      "keyMoments": [
+        { "km": 181, "what": "First GC attack, forcing Mas, Roglič, Onley and Carapaz to respond" },
+        { "km": 182, "what": "Second attack, joined by Jarno Widar before the group came back together" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education-EasyPost",
+      "role": "leader",
+      "position": 9,
+      "gap": "+0:54",
+      "narrative": "Looking to atone for time lost on stage 7, Carapaz used a lull in the GC group to attack and ride across to the remnants of the breakaway, reaching Sivakov with about 4km to go before being caught. He couldn't hold the pace when Mas and Onley went clear late, finishing ninth on the stage and dropping to fifth overall.",
+      "keyMoments": [
+        { "km": 183, "what": "Attacked from the GC group and rode across to Sivakov" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-9-enric-mas-wins-on-alto-de-aitana-and-extends-red-jersey-lead/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 9: Enric Mas wins on Alto de Aitana and extends red jersey lead", "lang": "en" },
+    { "url": "https://velo.outsideonline.com/road/road-racing/vuelta-a-espana/stage-9-results-mas-wins-atop-alto-aitana/", "publication": "VeloNews (Outside)", "title": "Vuelta a España Stage 9: Mas Wins Atop Alto de Aitana, Tightens Hold on Red Jersey", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/2026-vuelta-a-espana-stage-9-mas-is-flying-high-in-the-red-jersey/", "publication": "Tour Magazin", "title": "Vuelta: Enric Mas wins Stage 9 on the Alto de Aitana", "lang": "en" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "raceId": "uec-gravel-european-championships-2026-men",
+  "raceName": "UEC European Gravel Championships — Men Elite",
+  "raceDate": "2026-08-30",
+  "researchedAt": "2026-08-30T20:00:00Z",
+  "inProgress": false,
+  "tldr": "Mads Würtz Schmidt (Denmark) defended his European gravel title in Houffalize, riding solo off the front of a four-rider break before the final lap to win by over a minute, with Belgians Wout Alleman and Niels Vandeputte taking silver and bronze.",
+  "podium": [
+    { "position": 1, "name": "Mads Würtz Schmidt", "team": "Denmark" },
+    { "position": 2, "name": "Wout Alleman", "team": "Belgium", "gap": "just over 1:00" },
+    { "position": 3, "name": "Niels Vandeputte", "team": "Belgium / Alpecin-Premier Tech", "gap": "approx. 2:30" }
+  ],
+  "narrative": {
+    "headline": "Würtz Schmidt solos to a second straight European gravel title",
+    "openingMoves": "On the technically demanding climbing course in the Ardennes around Houffalize, a four-rider group containing Würtz Schmidt and Wout Alleman broke clear as early as the first of three laps of the course.",
+    "raceUnfolds": "The move held its advantage through the second lap while the rest of the group's other two escapees gradually faded back toward the chase. Approaching the start of the final lap, Würtz Schmidt rode away from his remaining companions alone.",
+    "decision": "The Danish rider, considered the strongest gravel specialist of the moment after also winning Unbound Gravel earlier this season, extended his solo advantage across the closing lap of the 138km race.",
+    "finale": "Würtz Schmidt crossed the line with an advantage of just over a minute to retain his European title. Behind him, marathon mountain biker Wout Alleman held on for second, while cyclocross rider Niels Vandeputte (Alpecin-Premier Tech) came around Frenchman Eddy Le Huitouze in a sprint for bronze. Floris De Tier finished ninth; reigning Belgian national champion Daan Soete was not a factor in the finale."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 138, "location": "Lap 1, Houffalize circuit", "headline": "Four-rider move goes clear", "description": "A break including Würtz Schmidt and Alleman escaped as early as the first of three laps." },
+    { "kmFromFinish": 46, "location": "Start of final lap", "headline": "Würtz Schmidt rides away solo", "description": "The Dane attacked his remaining breakaway companions just before the final lap and was never caught." }
+  ],
+  "teamStories": [],
+  "riderPerformances": [],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Würtz Schmidt confirms his status as gravel's dominant rider",
+    "quotes": [],
+    "body": "The win adds a second consecutive European title to a season in which the 32-year-old former WorldTour pro has also won Unbound Gravel, the sport's biggest one-day race outside the world championships. For the host nation, Alleman and Vandeputte's podium finishes gave Belgium two of the three medals in front of the home Houffalize crowd."
+  },
+  "sources": [
+    { "url": "https://starsporttv.be/content/ek-gravel-alleman-en-vandeputte-nemen-zilver-en-brons-op-ek-in-houffalize-deen-wurtz-schmidt-wint", "publication": "StarSportTV", "title": "EK gravel - Alleman en Vandeputte nemen zilver en brons op EK in Houffalize, Deen Würtz Schmidt wint", "lang": "nl" },
+    { "url": "https://cyclingpro.net/spaziociclismo/tag/europei-gravel-houffalize-2026/", "publication": "SpazioCiclismo", "title": "Europei Gravel Houffalize 2026, il danese Mads Würtz Schmidt si conferma campione", "lang": "it" }
+  ]
+}

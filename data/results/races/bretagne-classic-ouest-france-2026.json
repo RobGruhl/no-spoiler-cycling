@@ -1,0 +1,54 @@
+{
+  "raceId": "bretagne-classic-ouest-france-2026",
+  "raceName": "Bretagne Classic - Ouest France",
+  "raceDate": "2026-08-30",
+  "researchedAt": "2026-08-30T19:45:00Z",
+  "inProgress": false,
+  "tldr": "Alex Aranburu (Cofidis) won the 90th Bretagne Classic with a solo attack 1,100 metres from the line in Plouay, the biggest victory of his career, after a reduced group survived four ascents of the Côte de Ty Marrec.",
+  "podium": [
+    { "position": 1, "name": "Alex Aranburu", "team": "Cofidis", "time": "5h 21m 13s" },
+    { "position": 2, "name": "Alexander Kamp", "team": "Uno-X Mobility", "gap": "+0:04" },
+    { "position": 3, "name": "Alessandro Borgo", "team": "Bahrain Victorious", "gap": "+0:10" }
+  ],
+  "narrative": {
+    "headline": "Aranburu strikes late to claim the biggest win of his career",
+    "openingMoves": "The 228km route from and to Plouay built toward its traditional finale: repeated ascents of the Côte de Ty Marrec on the closing circuit. French riders were the most combative through the finale, with Louis Barré launching repeated attacks in the last 20km across the climb's four ascents, joined by other home riders looking to spring a Breton winner in front of the local crowd.",
+    "raceUnfolds": "On the final ascent of Ty Marrec, the day's remaining breakaway group — which had included Emil Herzog — was initially swallowed by the peloton, and for a while it looked as though the race would again be decided in a bunch sprint, as it had been a year earlier when Arnaud De Lie won. But Herzog, only 21, refused to accept that and attacked again around six kilometres from the finish, driving hard enough that roughly ten riders split clear over the top of the climb.",
+    "decision": "The gap that opened behind Herzog's move grew on the flat run-in as confusion over who should chase let it stretch further. From within the chasing peloton, Aranburu accelerated on a small rise just before the final sprint and was never seen again, soloing to the line for his third win of the season and the twelfth of his career.",
+    "finale": "Aranburu held his lead to the finish, with Alexander Kamp closing fastest for second and Alessandro Borgo taking third from the remnants of the late breakaway; Herzog, whose attack had set up the finale, came home fourth. The French attackers who had animated the finale — Paul Lapeira, Romain Grégoire and Alexandre Delettre among them — went unrewarded, finishing sixth, seventh and ninth. Aranburu called it the biggest win of his career, adding to Cofidis teammate Bryan Coquard's surprise Vuelta a España stage win the day before."
+  },
+  "decisiveMoments": [
+    { "kmFromFinish": 20, "location": "Côte de Ty Marrec (final ascents)", "headline": "French riders animate the finale", "description": "Louis Barré led a series of French attacks across the climb's four ascents in the closing circuit, without success." },
+    { "kmFromFinish": 6, "location": "Côte de Ty Marrec, final crest", "headline": "Herzog's late dig splits the front group", "description": "Emil Herzog attacked again after the remaining breakaway was caught, opening a gap of around ten riders over the top of the climb." },
+    { "kmFromFinish": 1.1, "location": "Final rise before the sprint", "headline": "Aranburu goes clear for good", "description": "Alex Aranburu attacked from the chasing group on a small climb just before the finishing straight and soloed to the win." }
+  ],
+  "teamStories": [
+    { "team": "Cofidis", "verdict": "Perfect week", "verdictClass": "win", "narrative": "A day after Bryan Coquard's surprise Vuelta a España stage win, Cofidis doubled up with Aranburu's biggest career victory. The team was the only one to place two riders in the decisive late breakaway (with Dylan Teuns), setting up Aranburu's winning move.", "riderIds": [] }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "romain-gregoire1",
+      "name": "Romain Grégoire",
+      "team": "Groupama-FDJ",
+      "role": "leader",
+      "position": 7,
+      "gap": null,
+      "narrative": "Grégoire was among the French riders animating the finale on the repeated ascents of the Côte de Ty Marrec, but like his compatriots could not convert the aggression into a result, finishing seventh as Aranburu's late solo move settled the race.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "A career-best win for Aranburu",
+    "quotes": [
+      "\"I'm delighted to be part of this incredible week for Cofidis. It wasn't easy today and I'm absolutely delighted that I was able to bring the team's efforts to a successful conclusion. I think I found the right moment to launch my attack. But that only worked because we were already wide awake on the final climb.\" — Alex Aranburu"
+    ],
+    "body": "Aranburu's win is his third of the season and the most important of a career that has otherwise featured WorldTour stage wins at the Itzulia Basque Country. The result continues a strong week for Cofidis following Coquard's stage win at the Vuelta a España, while the home French contingent — Barré, Lapeira, Grégoire, Delettre and others — left Plouay frustrated after animating the finale without reward."
+  },
+  "sources": [
+    { "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/bretagne-classic-2026-aranburu-catches-the-field-off-guard-with-an-early-attack/", "publication": "Tour Magazin", "title": "Bretagne Classic 2026: Aranburu catches the field off guard with an early attack", "lang": "en" },
+    { "url": "https://www.ouest-france.fr/sport/cyclisme/grand-prix-de-plouay/bretagne-classic-alex-aranburu-simpose-des-places-dhonneur-pour-les-francais-le-classement-a-plouay-96f3eac0-a496-11f1-8465-547a0964275c", "publication": "Ouest-France", "title": "Bretagne Classic. Alex Aranburu s'impose, des places d'honneur pour les Français : le classement à Plouay", "lang": "fr" },
+    { "url": "https://radsport-seite.de/plouay-2026.html", "publication": "Radsport-Seite.de", "title": "Bretagne Classic 2026 — Ergebnis der 90. Auflage", "lang": "de" }
+  ]
+}
