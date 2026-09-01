@@ -1,0 +1,46 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 10,
+  "stageName": "Alcaraz–Elche de la Sierra → Elche de la Sierra",
+  "stageDate": "2026-09-01",
+  "stageType": "hilly",
+  "researchedAt": "2026-09-01T19:25:20Z",
+  "tldr": "Bastien Tronchon stunned the sprinters in a chaotic uphill finale in Elche de la Sierra, beating Magnus Cort Nielsen and Thibau Nys after Visma's lead-out for Wout van Aert unravelled inside the final two kilometres. Enric Mas came through safely to keep the red jersey, with the GC unchanged on the first post-rest-day stage.",
+  "podium": [
+    { "position": 1, "name": "Bastien Tronchon", "team": "Groupama - FDJ United", "time": "4h 07m 41s" },
+    { "position": 2, "name": "Magnus Cort Nielsen", "team": "Uno-X Mobility", "gap": "s.t." },
+    { "position": 3, "name": "Thibau Nys", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 4, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Tronchon steals the sprint after Visma's lead-out for Van Aert falls apart",
+    "body": "A seven-rider break of Enzo Paleni, Michael Gogl, Jasha Sütterlin, Fabian Weiss, Sinuhe Fernández, Iván Cobo and late bridger Fredrik Dversnes went clear early, with Paleni over 58 minutes down on GC letting Movistar leave the chase to Visma and Cofidis. The move was kept within three minutes as Visma, Cofidis and others rode for possible wins for Van Aert, Matthew Brennan and recent stage winner Bryan Coquard.\n\nThe break fractured on the uncategorised ramps before the Puerto de Socovos, with Gogl and Dversnes pushing clear before Dversnes rode on alone and was finally reeled in by the counterattacking pair of Yevgeniy Fedorov and Xabier Mikel Azparren inside the final kilometres. Visma had committed Brennan to close those moves down for Van Aert, and Brennan's prolonged effort on the rising finale brought the race back together with two kilometres to go — but left the green jersey without a conventional lead-out for the sprint.\n\nWalter Calzoni attacked in the lull that followed, and with the chase disorganised and the fast men forced to improvise, Tronchon timed his effort perfectly to hold off Cort Nielsen and Nys on the line. Van Aert, unable to find a wheel to follow, came through fourth. Among the GC group, Sepp Kuss tested the field with an acceleration that drew responses from Richard Carapaz and Mas, but no separation was created and the main red-jersey contenders reached the finish together, with Mas keeping his overall lead unchanged into the next stage."
+  },
+  "gcImpact": {
+    "headline": "Mas retains the red jersey; GC unchanged on the post-rest-day transition stage",
+    "body": "Enric Mas leads the general classification outright, with Primož Roglič second at 1:18. Felix Gall is third at 1:39, Oscar Onley fourth at 2:20, Richard Carapaz fifth at 3:26 and Mattias Skjelmose sixth at 3:55 — all gaps unchanged from before the stage after the bunch reached Elche de la Sierra together."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "Van Aert looked well placed after Mads Pedersen was dropped on the Puerto de Socovos, with Matthew Brennan repeatedly covering moves around the summit and Christophe Laporte driving the chase on the descent to set up a sprint. But when Brennan was forced into a long solo chase to close down late attacks, Visma's lead-out disintegrated in the closing two kilometres, leaving Van Aert to improvise in a disorganised finale. He crossed the line fourth, missing out on what had looked like a strong opportunity, though he retains a healthy lead in the points classification.",
+      "keyMoments": [
+        { "km": 164, "what": "Well positioned after Pedersen dropped on the Puerto de Socovos" },
+        { "km": 182, "what": "Brennan's chase to close the late counterattack leaves Van Aert without a lead-out" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-10-visma-stunned-as-bastien-tronchon-takes-upset-win-in-chaotic-uphill-sprint-with-wout-van-aert-missing-out", "publication": "CyclingUpToDate", "title": "Results Vuelta a Espana 2026 Stage 10 - Visma stunned as Bastien Tronchon takes upset win in chaotic uphill sprint with Wout van Aert missing out", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/vuelta-a-espana-stage-10-live-in-a-post-pogacar-world-will-the-sprinters-control-or-is-it-one-for-the-breakaway/", "publication": "Cyclingnews", "title": "Vuelta a España stage 10 LIVE", "lang": "en" },
+    { "url": "https://supersport.com/cycling/news/b5801371-4d0b-4752-a99e-15fbbb416649/la-vuelta-tronchon-sprints-to-stage-10-win-mas-keeps-red-jersey", "publication": "SuperSport", "title": "La Vuelta: Tronchon sprints to stage 10 win, Mas keeps red jersey", "lang": "en" }
+  ]
+}
