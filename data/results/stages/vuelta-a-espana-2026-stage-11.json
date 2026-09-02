@@ -1,0 +1,64 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 11,
+  "stageName": "Cartagena–Lorca → Lorca",
+  "stageDate": "2026-09-02",
+  "stageType": "flat",
+  "researchedAt": "2026-09-02T19:35:00Z",
+  "tldr": "Matthew Brennan took his third stage win of this Vuelta, finishing off a Team Visma | Lease a Bike lead-out from Wout van Aert to beat Bryan Coquard and Jordi Meeus in a tense reduced bunch sprint into Lorca. Enric Mas came through safely to keep the red jersey on an unchanged GC day, while Mads Pedersen did not start after withdrawing from the race with illness.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "3h 17m 18s" },
+    { "position": 2, "name": "Bryan Coquard", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 5, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Brennan completes Van Aert's lead-out for a hat-trick of Vuelta stage wins",
+    "body": "A four-rider breakaway of Domen Novak, Ethan Hayter, Sinuhé Fernández and Alessandro Covi went clear on a stage that opened hilly before flattening out toward Lorca, with Visma and Cofidis sharing control and keeping the gap on a short leash throughout the 151km run from Cartagena.\n\nThe day's only real obstacle, a 7.8km climb at 4.5%, arrived inside the final hour with the break already reeled in. Pinarello - Q36.5 pushed the pace on its steepest ramps, and Eddie Dunbar attacked near the summit; Wout van Aert answered immediately, taking maximum KOM points and steadying the peloton at the front before a short flurry of counter-attacks was brought back together.\n\nA sharp 180-degree corner in the closing kilometres turned the run-in tense as teams fought for position. Christophe Laporte peeled off to hand the lead-out to Van Aert, who delivered Matthew Brennan into the sprint with the race's best speed on the day — Brennan held off Coquard and Meeus on the line for his third stage win of this Vuelta. Van Aert followed through in fifth, extending his lead in the points classification, while Enric Mas rolled in safely with the bunch to keep his overall lead unchanged."
+  },
+  "gcImpact": {
+    "headline": "Mas retains the red jersey; GC unchanged after a second straight bunch-sprint stage",
+    "body": "Enric Mas leads the general classification outright, with Primož Roglič second at 1:18, Felix Gall third at 1:39, Oscar Onley fourth at 2:20, Richard Carapaz fifth at 3:26 and Mattias Skjelmose sixth at 3:55 — every gap unchanged from before the stage after the sprinters' teams controlled the finale into Lorca."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Brennan was the beneficiary of a full Visma effort built around him from the start, with the team sharing control of the day's four-man break alongside Cofidis and never letting the gap threaten. When Eddie Dunbar attacked on the stage's only climb, it was Van Aert rather than Brennan who answered and took the KOM points, keeping Brennan sheltered for the finale. Through the tense 180-degree final corner, Christophe Laporte and then Van Aert peeled off in sequence to deliver him into the sprint with a clear run, and Brennan had the fastest finish on the road to hold off Coquard and Meeus — his third stage win of this Vuelta.",
+      "keyMoments": [
+        { "km": 143, "what": "Kept sheltered as Van Aert answers Dunbar's attack on the stage's only climb" },
+        { "km": 151, "what": "Finishes off Van Aert's lead-out through the closing 180-degree corner to win the sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "domestique",
+      "position": 5,
+      "gap": "s.t.",
+      "narrative": "Van Aert did the heavy lifting for the win rather than contesting it himself, matching Eddie Dunbar's attack on the day's only climb to take maximum KOM points and hold the peloton together at the front. In the closing kilometres he took over from Christophe Laporte to lead Matthew Brennan through the tense final corner and into the sprint, then followed through himself to finish fifth. The points classification lead was extended in the process, with Van Aert well clear at the top of that competition.",
+      "keyMoments": [
+        { "km": 143, "what": "Answers Dunbar's attack on the climb and takes maximum KOM points" },
+        { "km": 150, "what": "Takes over the lead-out through the final corner to deliver Brennan for the win" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "mads-pedersen", "reason": "did not start (illness)" }
+    ]
+  },
+  "quotes": [],
+  "sources": [
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-11-matthew-brennan-takes-vismas-third-sprint-win-of-the-race", "publication": "CyclingUpToDate", "title": "Results Vuelta a España 2026 stage 11 - Matthew Brennan takes Visma's third sprint win of the race", "lang": "en" },
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-11-matthew-brennan-wins-lorca-sprint-after-team-visma-lease-a-bike-control/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 11: Matthew Brennan wins Lorca sprint after Team Visma | Lease a Bike control", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/medical-reports-withdrawals-vuelta-a-espana-2026-stage-11-mads-pedersen-leaves-the-race-with-illness", "publication": "CyclingUpToDate", "title": "Medical Reports & Withdrawals Vuelta a España 2026 Stage 11 - Mads Pedersen leaves the race with illness", "lang": "en" }
+  ]
+}
