@@ -42016,8 +42016,8 @@
           ],
           "distance": 156,
           "date": "2026-09-02",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Jk4hNtkbwRo",
           "description": "Sprint opportunity with the Alto del Morrón mid-stage.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -42035,6 +42035,11 @@
               "Sprinter target: green jersey battle intensifies."
             ],
             "watchNotes": "Pure bunch sprint expected. Heat (late August in southern Spain) is the wildcard — riders fade if not properly hydrated."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-03"
           }
         },
         {
@@ -42047,8 +42052,8 @@
           ],
           "distance": 166,
           "date": "2026-09-03",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Icf2Ay8GLEU",
           "description": "Andalusian mountain stage to the high-altitude Calar Alto observatory (2,100m+).",
           "stageDetails": {
             "spoilerSafe": true,
@@ -42079,6 +42084,11 @@
               "GC summit selection: third summit finish of the race after Aitana and Andorra."
             ],
             "watchNotes": "Watch the closing 8-10km to Calar Alto — solo attacks from far out typical on this sustained gradient."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-03"
           }
         },
         {
@@ -43608,8 +43618,8 @@
       "id": "tour-of-britain-men-2026",
       "name": "Tour of Britain Men",
       "description": "2.Pro cycling race in United Kingdom",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=_-sK-sao15U",
       "type": "full-race",
       "raceDate": "2026-09-02",
       "endDate": "2026-09-06",
@@ -43676,12 +43686,17 @@
           ],
           "distance": 161.4,
           "date": "2026-09-02",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=_-sK-sao15U",
           "description": "Opening day in Suffolk — Woodbridge to seaside Southwold on the North Sea coast.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Suffolk coast opener — flat 161km. First leader's jersey via bunch sprint."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-03"
           }
         },
         {
@@ -43793,7 +43808,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-03"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "zlm-tour-2026",
