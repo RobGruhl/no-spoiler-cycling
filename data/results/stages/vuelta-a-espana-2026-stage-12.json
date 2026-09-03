@@ -1,0 +1,51 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 12,
+  "stageName": "Vera–Calar Alto → Calar Alto",
+  "stageDate": "2026-09-03",
+  "stageType": "mountain",
+  "researchedAt": "2026-09-03T19:26:53Z",
+  "tldr": "Jakob Omrzel soloed to the biggest win of his young career atop Calar Alto after attacking clear of a 30-man breakaway with 12km to go, while Enric Mas dropped Primož Roglič and Felix Gall on the final climb to extend his overall lead. Oscar Onley lost more time after an early crash and slipped to fifth overall.",
+  "podium": [
+    { "position": 1, "name": "Jakob Omrzel", "team": "Bahrain - Victorious", "time": "4h 29m 53s" },
+    { "position": 2, "name": "Urko Berrade", "team": "Equipo Kern Pharma", "gap": "+1:56" },
+    { "position": 3, "name": "Santiago Buitrago", "team": "Bahrain - Victorious", "gap": "+2:13" }
+  ],
+  "narrative": {
+    "headline": "Omrzel solos to a landmark win as Mas drops Roglič and Gall on Calar Alto",
+    "body": "The stage started aggressively over the Alto del Cabecico, and an early scare hit Oscar Onley, who crashed at a roundabout, remounted with his white jersey covered in dirt and had to chase back behind the team car. A huge breakaway of around 30 riders eventually went clear, including Jakob Omrzel, Santiago Buitrago and Pello Bilbao for Bahrain - Victorious, Wout van Aert for Team Visma | Lease a Bike, João Almeida for UAE Team Emirates-XRG, and Urko Berrade for Equipo Kern Pharma, with the gap swelling toward 7 minutes and Omrzel — 8:05 down on Mas at the start of the day — turning into a real virtual-GC threat.\n\nRichard Carapaz made the first serious move from the GC group on the Alto de Velefique with 39km remaining, forcing Movistar's Iván Romeo into a big chase to bring him back before the final climb. On Calar Alto itself, Decathlon CMA CGM drove the pace to isolate Mas, and Felix Gall attacked with 13km to go; Mas and Roglič followed but Onley could not. At almost the same moment, Omrzel attacked the remnants of the breakaway, dropped Urko Berrade with 12km left and rode the rest of the climb alone.\n\nMas answered Gall's move by attacking himself with 13km to go, riding away from both Roglič and Gall before linking with breakaway teammate Raúl García Pierna, who paced him the rest of the way. Omrzel held on to the line in 4h 29m 53s for his first Grand Tour stage win, with Berrade second and Buitrago third after a long day spent chasing mountains points.\n\nMas crossed sixth on the stage, 2:56 behind Omrzel, but gained 27 seconds on the Roglič-Gall group and over two minutes on Onley, extending his overall lead on the race's highest summit finish."
+  },
+  "gcImpact": {
+    "headline": "Mas extends his overall lead again; Onley drops to fifth after a costly early crash",
+    "body": "Enric Mas leads the general classification outright, with Primož Roglič second at 1:45, Felix Gall third at 2:06, Richard Carapaz fourth at 3:53, Oscar Onley fifth at 4:29 and stage winner Jakob Omrzel sixth at 4:59 after climbing back into the top six overall."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany Ineos Cycling Team",
+      "role": "leader",
+      "position": 12,
+      "gap": "+5:05",
+      "narrative": "Onley's day was compromised early, sliding out on a roundabout with 131km still to race and having to chase back to the bunch behind the team car with his white jersey covered in dirt. He recovered from the crash but was dropped when Felix Gall accelerated 13km from the Calar Alto summit, unable to follow Mas, Roglič and Gall as the GC group split. Teammate Jack Haig, who had been up the road in the day's breakaway, waited to pace him up much of the final climb, and Onley limited the damage to finish 12th on the stage, but the combination of the crash and the late split cost him more than two minutes to Mas and dropped him from fourth to fifth overall.",
+      "keyMoments": [
+        { "km": 35, "what": "Slides out on a roundabout early in the stage, remounts and chases back to the bunch" },
+        { "km": 154, "what": "Dropped when Felix Gall attacks the GC group 13km from the Calar Alto summit" }
+      ],
+      "incident": { "type": "crash", "description": "Slid out on a roundabout roughly 131km from the finish; remounted and rejoined the peloton without further consequence." }
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": "oscar-onley", "description": "Slid out on a roundabout roughly 131km from the finish; remounted and rejoined the peloton." }
+    ]
+  },
+  "quotes": [
+    { "riderId": "oscar-onley", "text": "For now I'm ok, I just slid out on a roundabout. It was pretty hot today, I had to ride my own pace on the last climb. Jack was really good when I caught him on the last climb and he really saved me a lot of energy, so a big thanks to him.", "source": "Netcompany Ineos" }
+  ],
+  "sources": [
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-12-jakob-omrzel-wins-on-calar-alto-as-enric-mas-extends-red-jersey-lead/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 12: Jakob Omrzel wins on Calar Alto as Enric Mas extends red jersey lead", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-12-enric-mas-boosts-red-jersey-lead-as-jakob-omrzel-wins-at-calar-alto", "publication": "CyclingUpToDate", "title": "Results Vuelta a España 2026 stage 12 - Enric Mas boosts red jersey lead as Jakob Omrzel wins at Calar Alto", "lang": "en" },
+    { "url": "https://netcompanyineos.com/news/onley-digs-deep-after-vuelta-crash/", "publication": "Netcompany Ineos", "title": "Onley digs deep after Vuelta crash", "lang": "en" }
+  ]
+}
