@@ -1,0 +1,74 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 13,
+  "stageName": "Almuñécar–Loja → Loja",
+  "stageDate": "2026-09-04",
+  "stageType": "hilly",
+  "researchedAt": "2026-09-04T19:25:53Z",
+  "tldr": "Wout van Aert ended his wait for a Vuelta stage win, outsprinting Valentin Paret-Peintre in a two-man move after teammate Matthew Brennan spent the finale neutralising every rival attack from a huge breakaway. Enric Mas retained the red jersey on a quiet GC day, while Felix Gall lost key mountain lieutenant Gregor Muhlberger to an early abandon ahead of Sunday's Sierra de la Pandera summit finish.",
+  "podium": [
+    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "time": "4h 34m 00s" },
+    { "position": 2, "name": "Valentin Paret-Peintre", "team": "Soudal Quick-Step", "gap": "s.t." },
+    { "position": 3, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "gap": "+0:24" },
+    { "position": 4, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Van Aert ends his wait with a Visma masterclass into Loja",
+    "body": "A 193km transitional stage from the Andalusian coast into the interior blew apart early on the category-one Alto de la Venta de la Cebada, where repeated attacks produced a 43-rider breakaway. Van Aert beat polka-dot jersey Santiago Buitrago to the summit for ten mountain points, and Visma placed both him and Matthew Brennan in the move alongside Bruno Armirail — while Mattias Skjelmose, seventh overall at 7:42, also made the split and immediately became a GC complication. Felix Gall suffered a quieter blow in the same phase when teammate Gregor Muhlberger crashed, remounted, and later abandoned, costing Gall his principal mountain lieutenant for the rest of the race.\n\nThe huge break fractured repeatedly on the rolling middle kilometres. Brennan reached a ten-man front selection and won the intermediate sprint at Tocón to add to his points tally, while the chasing group containing Van Aert closed back on toward the Puerto de Granada. Van Aert accelerated across to Brennan's group just before the summit, and the descent that followed reduced the move to a decisive nine: Van Aert, Brennan, Finn Fisher-Black, Kevin Vermaerke, Léo Bisiaux, Paret-Peintre, Simon Dalby, Vincenzo Albanese and Jarno Widar.\n\nInside the final 7km, Bisiaux and then Dalby attacked in turn and were both brought back by Brennan, before Vermaerke tried to escape with Van Aert marking him. With Visma holding a two-on-seven numerical edge, Brennan's repeated chasing forced the rest of the group to keep attacking rather than sit for a group sprint — work that let Van Aert conserve energy after a day spent attacking across the climbs. With 3.5km to go, Van Aert committed fully; only Paret-Peintre could follow, and the Frenchman's own early sprint attempt beneath the flamme rouge was comfortably covered as Van Aert powered past for his first win of this Vuelta.\n\nBehind, Skjelmose stayed clear of the peloton in the chasing group and finished 24th, 50 seconds down, clawing back time on the GC group. Enric Mas came through with the main contenders to retain the red jersey unchanged, setting up Sunday's HC summit finish at Sierra de la Pandera as the next real GC test."
+  },
+  "gcImpact": {
+    "headline": "Mas retains the red jersey on a stable GC day ahead of Sierra de la Pandera",
+    "body": "Enric Mas leads the general classification outright, with Primož Roglič second at 1:45, Felix Gall third at 2:06, Richard Carapaz fourth at 3:53, Oscar Onley fifth at 4:29 and Jakob Omrzel sixth at 4:59 — all unchanged from before the stage. Mattias Skjelmose closed roughly two minutes on the group by riding in the day's break, moving to 5:32 back in seventh, ahead of Sepp Kuss (7:58) and Harold Tejada (8:33)."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Van Aert attacked from the gun on the opening categorised climb to beat Santiago Buitrago for mountain points, then spent the rest of the day repeatedly bridging across as the huge breakaway split and reformed — first closing to Brennan's front selection before the Puerto de Granada, then marking every dangerous move once the group of nine had formed. With Brennan doing the chasing work in the closing kilometres, Van Aert was able to sit in before launching his own decisive attack 3.5km from the line; only Paret-Peintre could follow, and Van Aert beat him comfortably in the sprint into Loja for his first stage win of this Vuelta.",
+      "keyMoments": [
+        { "km": 20, "what": "Attacks the opening Alto de la Venta de la Cebada and out-climbs Santiago Buitrago for maximum mountain points" },
+        { "km": 189.5, "what": "Launches the winning attack with 3.5km to go, only Paret-Peintre able to follow" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "domestique",
+      "position": 3,
+      "gap": "+0:24",
+      "narrative": "Brennan reached the decisive ten-man front selection on his own before the Puerto de Granada and won the intermediate sprint at Tocón to add to his points classification tally. In the finale he became the enforcer of Visma's numerical advantage, personally chasing back Bisiaux's and Dalby's attacks inside the final 7km so that Van Aert never had to spend energy covering rivals himself. That work paid off directly: with the group forced to keep attacking rather than settle for a sprint, Van Aert launched clear with 3.5km left, and Brennan held on to finish third himself behind the pair.",
+      "keyMoments": [
+        { "km": 175, "what": "Wins the intermediate sprint at Tocón" },
+        { "km": 186, "what": "Chases down attacks from Bisiaux and Dalby to keep the group together for Van Aert" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 24,
+      "gap": "+0:50",
+      "narrative": "Skjelmose used the day's enormous breakaway to go on the offensive for GC, making the split from the gun despite starting the stage seventh overall at 7:42 down on Mas. He stayed with the chasing group behind the decisive nine-rider move all the way to Loja, finishing 24th at 50 seconds and clawing back roughly two minutes on the red-jersey group without needing to attack the main contenders directly. He remains seventh overall but now sits inside 5:32 of Mas ahead of the Sierra de la Pandera summit finish.",
+      "keyMoments": [
+        { "km": 20, "what": "Makes the 43-rider breakaway on the opening climb" },
+        { "km": 193, "what": "Finishes with the chase group, gaining time on the GC contenders left behind in the peloton" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-13-spain-results-2026/", "publication": "CyclingStage", "title": "Vuelta 2026: Van Aert triumphs in thrilling, sweltering stage", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-13-wout-van-aert-ends-victory-wait-as-matthew-brennan-sacrifice-helps-deliver-visma-win", "publication": "CyclingUpToDate", "title": "Results Vuelta a Espana 2026 Stage 13 | Wout van Aert ends victory wait as Matthew Brennan sacrifice helps deliver Visma win", "lang": "en" },
+    { "url": "https://www.flobikes.com/articles/16158357-la-vuelta-standings-after-stage-13-see-whos-leading", "publication": "FloBikes", "title": "Who Won Stage 13 Of The Vuelta a España 2026? See The Full Results Here", "lang": "en" }
+  ]
+}
