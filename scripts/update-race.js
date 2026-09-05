@@ -13,6 +13,8 @@
  *
  * Special handling:
  *   - topRiders: merged by id (existing riders preserved, new riders added)
+ *   - removeTopRiders: array of rider ids to drop from topRiders (a merge can't
+ *     remove — use this when a rider is confirmed absent from the start list)
  *   - broadcast.geos: deep merged (existing geos preserved, new geos added)
  *   - stages: replaced entirely (use with caution)
  *   - raceDetails: deep merged
@@ -154,6 +156,16 @@ function mergeTopRiders(existing, incoming) {
 function applyUpdates(race, updates) {
   // Handle special fields
   let result = { ...race };
+
+  // removeTopRiders: drop by id (applied before any merge)
+  if (Array.isArray(updates.removeTopRiders)) {
+    const drop = new Set(updates.removeTopRiders);
+    const before = (race.topRiders || []).length;
+    result.topRiders = (race.topRiders || []).filter(r => !drop.has(r.id));
+    console.log(`  removeTopRiders: ${before - result.topRiders.length} removed (${[...drop].join(', ')})`);
+    race = { ...race, topRiders: result.topRiders };
+    delete updates.removeTopRiders;
+  }
 
   // topRiders: merge by id
   if (updates.topRiders) {

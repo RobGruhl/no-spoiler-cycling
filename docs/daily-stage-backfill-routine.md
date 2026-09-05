@@ -252,6 +252,17 @@ sources. **If the new research is thinner or you can't reconfirm, leave the
 existing file untouched** and note "refresh skipped (no improvement)" — never
 regress a good page.
 
+**Refresh reason `hub stale` / `race finished`** (stage-race overview hub, emitted by
+the work-list whenever a stage result newer than the hub's `researchedAt` exists): this is
+NOT a "thin page" refresh — the hub is healthy but frozen at an earlier stage. Extend it
+to cover every stage result on disk: rewrite `tldr`, `podium` (current GC top 3 with gaps,
+cross-checked against ≥2 sources as in 2c), `narrative.raceUnfolds`/`decision`, add the new
+`decisiveMoments`, fold abandons/crashes into `incidents` and each tracked rider's
+`riderPerformances` entry, and bump `researchedAt`. Source material is already in the
+repo: read `data/results/stages/<race-id>-stage-N.json` (tldr, gcImpact, riderPerformances)
+before spending on new research. On `race finished`, set `inProgress: false` and write the
+final podium. Never leave a former leader as "race leader" after an abandon.
+
 Repeat 2a–2f for each item in the slice. **An item that fails** (no sources,
 ambiguous GC, scrape error, or a refresh with no improvement) → skip it, keep the
 rest, note it in the commit body.

@@ -36,11 +36,13 @@ docs, and git history cannot tell you.
 
 ## Cross-repo and environment facts (not discoverable from this repo)
 
-- Deep research in LOCAL sessions: the canonical Perplexity client
-  `~/Projects/hello-perplexity/lib/perplexity.js` (`search`, `chat`, `deepResearch`, `reason`),
-  run with `node --env-file=~/Projects/hello-perplexity/.env`. The in-repo
-  `lib/perplexity-utils.js` wraps only the /search endpoint (no synthesis models). Cloud checkouts
-  have no `hello-perplexity` — there, use the in-repo wrapper only.
+- Deep research in LOCAL sessions: the Perplexity client is the Toolbelt tool
+  `~/Toolbelt/tools/perplexity` (read its `CLAUDE.md` first; run
+  `node --env-file=.env ~/Toolbelt/tools/perplexity/pplx.mjs search "<query>"` from the repo root
+  so it picks up `PERPLEXITY_API_KEY` from this repo's `.env`). `~/Projects/hello-perplexity` no
+  longer exists (removed by 2026-09-04). The in-repo `lib/perplexity-utils.js` wraps only the
+  /search endpoint; `lib/firecrawl-utils.js` scrapes (both read `.env` via `node --env-file=.env`).
+  Cloud checkouts have no Toolbelt — there, use the in-repo wrappers only.
 - `.github/scripts/check-paths.mjs` is a COPY; canon is
   `~/Projects/cycling-agent/scripts/check-paths.mjs` (tested there). Change canon first, then
   re-copy. Synced 2026-08-16; no automated drift check exists, so re-sync by hand.

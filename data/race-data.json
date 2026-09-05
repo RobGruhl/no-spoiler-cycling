@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T02:12:24.214Z",
+  "lastUpdated": "2026-09-05T01:16:21.191Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -45051,6 +45051,7 @@
         "spoilerSafe": true,
         "courseSummary": "The Grand Prix Cycliste de Québec is a UCI WorldTour one-day race held on Friday September 11, 2026 in Québec City. The race uses the iconic Quebec city-centre circuit — short laps featuring the punchy Côte de la Montagne and the Côte de la Potasse climbs, repeated approximately 16 times to give a total distance of about 201km with 2,800m+ of elevation gain. Held the same week as its sister race in Montréal and the lead-up to the 2026 UCI Road World Championships in Montréal — making the pair a key Worlds-form indicator for puncheurs and Classics riders.",
         "narratives": [
+          "Open race: Tadej Pogačar is not on the start list this year — Evenepoel, Seixas and Del Toro, the next three from July's Tour, headline a wide-open field.",
           "Quebec city circuit: The Côte de la Montagne and Côte de la Potasse climbs, climbed ~16 times, define every edition — punchy enough to deny pure sprinters but short enough to keep the bunch together.",
           "Worlds form indicator: With the 2026 UCI Road World Championships starting in Montréal the following week, the Québec Grand Prix is a final fitness check for Classics specialists and puncheurs targeting rainbow jerseys.",
           "Sister race to Montréal: Same weekend as the GP de Montréal — historically the same start list, with one race in Québec on Friday and one in Montréal on Sunday.",
@@ -45084,8 +45085,9 @@
         ],
         "favorites": {
           "puncheurs": [
-            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — Quebec circuit suits his climber-puncheur profile perfectly; the World Champion targets these races as Worlds prep.",
-            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion with explosive punchy-climber strength.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion and confirmed starter; with Pogačar absent, the man to beat on the Côte de la Montagne repeats.",
+            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — confirmed starter making his North American debut; explosive climber-puncheur using the Canadian double as his Worlds launchpad.",
+            "DEL TORO Isaac (MEX / UAE Team Emirates - XRG) — confirmed starter and UAE's leader for the week; punchy climber suited to the old-Québec circuit.",
             "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — climber-puncheur ideal for the Côte de la Montagne repeats.",
             "PEDERSEN Mads (DEN / Lidl - Trek) — survives the climbs, contests the reduced sprint at the line.",
             "VAUQUELIN Kévin (FRA / INEOS Grenadiers) — French all-rounder with Worlds-prep motivation.",
@@ -45094,20 +45096,6 @@
         }
       },
       "topRiders": [
-        {
-          "id": "tadej-pogacar",
-          "name": "POGAČAR Tadej",
-          "team": "UAE Team Emirates - XRG",
-          "ranking": 1,
-          "nationality": "Slovenia",
-          "nationalityCode": "SI",
-          "specialties": [
-            "climber",
-            "puncheur",
-            "all-rounder"
-          ],
-          "notes": "Worlds prep on Mont Royal terrain — same circuit as the Worlds road race two weeks later."
-        },
         {
           "id": "mads-pedersen",
           "name": "PEDERSEN Mads",
@@ -45131,7 +45119,8 @@
             "puncheur",
             "time-trial",
             "gc-contender"
-          ]
+          ],
+          "notes": "Confirmed starter — first Canadian GP since 2019; named the man to beat by Seixas."
         },
         {
           "id": "thomas-pidcock",
@@ -45180,6 +45169,34 @@
             "puncheur",
             "gc-contender"
           ]
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "notes": "Confirmed starter — first race in North America; Worlds leader for France two weeks later on the Montréal circuit."
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "MX",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Confirmed starter — UAE's card with Pogačar absent."
         }
       ]
     },
@@ -45834,6 +45851,7 @@
         "spoilerSafe": true,
         "courseSummary": "The Grand Prix Cycliste de Montréal is a UCI WorldTour one-day race held on Sunday September 13, 2026 — sister event to the Québec Grand Prix two days earlier. The race traditionally consists of 18 laps of a 12.3km circuit on Mont Royal, covering approximately 220km with 4,740m of elevation gain. The repeated Côte de la Camillien-Houde and Côte de Polytechnique climbs make it one of the hardest one-day races in the calendar. The 2026 edition runs on essentially the same circuit as the 2026 UCI Road World Championships Elite Men's Road Race, which takes place one week later.",
         "narratives": [
+          "Open race: Tadej Pogačar, the multi-time Montréal winner, is not on the start list — Evenepoel, Seixas and Del Toro, the next three from July's Tour, headline a genuinely open edition.",
           "Worlds dress rehearsal: The 2026 GP de Montréal uses largely the same Mont Royal circuit as the World Championships road race the following week — making this the ultimate Worlds-form test.",
           "4,740m of climbing: Among the highest elevation totals of any one-day race outside Lombardia. The repeated Côte de la Camillien-Houde shapes every edition.",
           "Sister race to Québec: Same weekend as the Québec Grand Prix — historically the same start list, with one race in Québec on Friday and one in Montréal on Sunday.",
@@ -45861,8 +45879,9 @@
         ],
         "favorites": {
           "puncheurs": [
-            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — multi-time GP Montréal winner; the Mont Royal climbs are tailor-made for his climber-puncheur profile.",
-            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion targeting Worlds prep on the same circuit two weeks before the road race.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic champion and confirmed starter, using the Mont Royal circuit as a Worlds dress rehearsal; the designated man to beat with Pogačar absent.",
+            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — confirmed starter who expects the Camillien-Houde repeats to suit him better than Québec; France's Worlds leader on this exact circuit.",
+            "DEL TORO Isaac (MEX / UAE Team Emirates - XRG) — confirmed starter; climber-puncheur and UAE's card for the Canadian double.",
             "PIDCOCK Thomas (GBR / Pinarello-Q36.5) — climber-puncheur ideally suited to Camillien-Houde repeats.",
             "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion who survives the climbs and contests the reduced sprint.",
             "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — 2023 World Champion; the Mont Royal climbs are short enough to follow.",
@@ -45872,20 +45891,6 @@
         }
       },
       "topRiders": [
-        {
-          "id": "tadej-pogacar",
-          "name": "POGAČAR Tadej",
-          "team": "UAE Team Emirates - XRG",
-          "ranking": 1,
-          "nationality": "Slovenia",
-          "nationalityCode": "SI",
-          "specialties": [
-            "climber",
-            "puncheur",
-            "all-rounder"
-          ],
-          "notes": "Mont Royal climbs match Pogačar's strengths — direct Worlds dress rehearsal."
-        },
         {
           "id": "jonas-vingegaard",
           "name": "VINGEGAARD Jonas",
@@ -45921,7 +45926,8 @@
             "puncheur",
             "time-trial",
             "gc-contender"
-          ]
+          ],
+          "notes": "Confirmed starter — Worlds dress rehearsal on the same circuit."
         },
         {
           "id": "thomas-pidcock",
@@ -45970,6 +45976,34 @@
             "puncheur",
             "gc-contender"
           ]
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "notes": "Confirmed starter — says the harder Mont Royal circuit suits him better than Québec; leads France at the Worlds here two weeks later."
+        },
+        {
+          "id": "isaac-del-toro",
+          "name": "DEL TORO Isaac",
+          "team": "UAE Team Emirates - XRG",
+          "ranking": 2,
+          "nationality": "Mexico",
+          "nationalityCode": "MX",
+          "specialties": [
+            "one-day",
+            "climber",
+            "gc-contender"
+          ],
+          "notes": "Confirmed starter — UAE's leader for the Canadian double with Pogačar absent."
         }
       ]
     },
@@ -48227,6 +48261,7 @@
         "spoilerSafe": true,
         "courseSummary": "The 2026 UCI Road World Championships Elite Men's Road Race is the climactic Sunday September 27, 2026 finale of the Worlds week in Montréal, Canada. The race starts in Brossard (south of Montréal) and finishes on the iconic Mont Royal circuit — essentially the same closing course as the GP de Montréal two weeks earlier. Riders contest the rainbow jersey on a punishing climbing-heavy circuit featuring repeated ascents of the Côte de la Camillien-Houde and Côte de Polytechnique. This is the third time the Worlds road race has been held in Canada (after Hamilton 2003) and only the second time North America has hosted since the modern era.",
         "narratives": [
+          "A rainbow jersey up for grabs: Two-time defending champion Tadej Pogačar is doubtful after a late-season injury and surgery — if he cannot start, Montréal will crown a new World Champion for the first time since 2023.",
           "Rainbow jersey: The Elite Men's Road Race is the most coveted single-day title in cycling — winner wears the rainbow jersey in every road race for a full year.",
           "Mont Royal climbing: The repeated Côte de la Camillien-Houde climb is the canonical move-launching point. Punchy climbers dominate this kind of terrain.",
           "Brossard Grand Départ: Starting south of Montréal, the route brings riders up to the city for the punishing finishing circuit — Worlds tradition of long-distance road races (often 250km+).",
@@ -48237,11 +48272,12 @@
         "historicalContext": "First held in 1921 as the amateur World Championship and 1927 as the professional event, the UCI Road World Championship Road Race is the sport's oldest individual title. Notable past winners include Eddy Merckx (three rainbow jerseys), Bernard Hinault, Greg LeMond, Peter Sagan (three consecutive), and Mathieu van der Poel. The 2025 edition was held in Kigali, Rwanda — Africa's first Worlds. The 2026 edition returns the championships to North America for the third time.",
         "favorites": {
           "rainbowFavorites": [
-            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — three-time defending World Champion; Mont Royal's repeated climbs are tailor-made for his climber-puncheur profile.",
-            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic road race champion; the rainbow jersey is the missing major he chases on punchy terrain.",
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — Olympic road race champion; with the defending champion doubtful, the outright favourite on punchy terrain where the rainbow jersey is his missing major.",
+            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — confirmed leader of the French team; the 19-year-old was the last rider dropped by Pogačar at Strade Bianche and Liège and races the Montréal circuit at the GP two weeks earlier.",
             "VAN DER POEL Mathieu (NED / Alpecin-Premier Tech) — 2023 World Champion; the Mont Royal climbs are short enough for him to follow the elite group and unleash his finishing kick.",
             "PIDCOCK Thomas (GBR / Pinarello-Q36.5 Pro Cycling Team) — climber-puncheur ideally suited to the Camillien-Houde repeats; consistent Monument and Worlds podium threat.",
-            "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion who has rebuilt his climbing legs; survives the climbs and out-sprints the reduced bunch."
+            "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion leading Denmark's eight-rider squad; survives the climbs and out-sprints the reduced bunch.",
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — two-time defending champion (2024, 2025), but a doubtful starter after collarbone surgery in early September; his entourage has not ruled him out, his team says recovery in time 'doesn't seem easy'."
           ],
           "darkHorses": [
             "DEL TORO Isaac (MEX / UAE Team Emirates - XRG) — climber-puncheur with a Mexican passport — solo card with no team obligations.",
@@ -48283,7 +48319,7 @@
             "puncheur",
             "all-rounder"
           ],
-          "notes": "Three-time defending World Champion; Mont Royal climbs match his strengths perfectly."
+          "notes": "Two-time defending champion (2024, 2025), but a doubtful starter: recovering from collarbone surgery after a late-season crash; his team has not confirmed whether he can defend the rainbow jersey."
         },
         {
           "id": "remco-evenepoel",
@@ -48297,7 +48333,7 @@
             "time-trial",
             "gc-contender"
           ],
-          "notes": "Olympic road champion chasing the road rainbow jersey."
+          "notes": "Olympic road champion chasing the road rainbow jersey; with Pogačar doubtful, the favourite."
         },
         {
           "id": "mathieu-van-der-poel",
@@ -48416,6 +48452,20 @@
             "puncheur"
           ],
           "notes": "British second card behind Pidcock."
+        },
+        {
+          "id": "paul-seixas",
+          "name": "SEIXAS Paul",
+          "team": "Decathlon - CMA CGM Team",
+          "nationality": "France",
+          "nationalityCode": "FR",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "time-trialist"
+          ],
+          "isOutsider": true,
+          "notes": "Confirmed as France's leader by selector Thomas Voeckler; fourth in his debut Tour, second at Liège, European bronze in 2025."
         }
       ]
     },
@@ -49178,7 +49228,8 @@
             "climber",
             "one-day",
             "gc-contender"
-          ]
+          ],
+          "notes": "Five-time defending winner, but a doubtful starter: recovering from collarbone surgery after a late-season crash."
         },
         {
           "id": "matteo-jorgenson",
@@ -49228,6 +49279,20 @@
           ],
           "isOutsider": true,
           "outsiderNote": "Belgian wonderkid; Giro Next Gen winner, U23 LBL champion, neo-pro 2026"
+        },
+        {
+          "id": "juan-ayuso-pesquera",
+          "name": "AYUSO Juan",
+          "team": "Lidl - Trek",
+          "ranking": 12,
+          "nationality": "Spain",
+          "nationalityCode": "ES",
+          "specialties": [
+            "climber",
+            "gc-contender",
+            "one-day"
+          ],
+          "notes": "Skipped the Vuelta to target the Worlds and Lombardia as his season-closing goals."
         }
       ],
       "discipline": "road",
@@ -49269,6 +49334,7 @@
         "spoilerSafe": true,
         "courseSummary": "The 120th Il Lombardia — the 'race of the falling leaves' — takes place on Saturday October 10, 2026 as the fifth and final Monument of the season. The 2026 route covers approximately 240km through the spectacular autumn scenery of Lombardy, including the lakes Como and Lecco. The course traverses signature climbs — the Madonna del Ghisallo, Muro di Sormano (when included), Sella di Osigo, and the climactic Civiglio + San Fermo della Battaglia finishing pair when the race finishes in Como. Approximately 4,500m+ of climbing makes Il Lombardia the toughest Monument of the season.",
         "narratives": [
+          "A streak in doubt: Tadej Pogačar has won the last five editions, a record for any Monument, but a late-season injury and surgery leave his start uncertain — the Race of the Falling Leaves may be truly open for the first time since 2020.",
           "Last Monument of the season: As the final of cycling's five Monuments, Il Lombardia closes the WorldTour calendar with one of the most dramatic one-day races of the year. Climbers traditionally feature heavily.",
           "Autumn scenery: The race traverses Lake Como and the Lombard foothills as the leaves turn — visually, one of the most iconic days on the calendar.",
           "120th edition: Among the oldest one-day Classics in cycling, Il Lombardia has been continuously contested since 1905 (with WWI interruptions). The 2026 edition is the 120th running.",
@@ -49316,10 +49382,11 @@
         ],
         "favorites": {
           "puncheurs": [
-            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — four-time Lombardia winner; the Lake Como climbs are tailor-made for his climber-puncheur profile.",
+            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — emerging French puncheur-climber whose explosive style fits the Sormano/Civiglio gradients; second to Pogačar at Liège in the spring.",
             "JORGENSON Matteo (USA / Team Visma | Lease a Bike) — Visma's strongest classics-and-Lombardia card with the punchy climber profile.",
-            "CHRISTEN Jan (SUI / UAE Team Emirates - XRG) — Pogačar's likely best teammate for the Italian Monument.",
-            "SEIXAS Paul (FRA / Decathlon - CMA CGM Team) — emerging French puncheur-climber whose explosive style fits the Sormano/Civiglio gradients."
+            "AYUSO Juan (ESP / Lidl - Trek) — built his autumn around the Worlds and Lombardia rather than the Vuelta; a podium target on the Lake Como climbs.",
+            "POGAČAR Tadej (SVK / UAE Team Emirates - XRG) — five-time defending winner, but doubtful after collarbone surgery in early September; the Lake Como climbs are tailor-made for him if he can start.",
+            "CHRISTEN Jan (SUI / UAE Team Emirates - XRG) — UAE's rising puncheur, likely to carry the team's hopes if Pogačar cannot start."
           ],
           "darkHorses": [
             "WIDAR Jarno (BEL / Lotto) — Belgian climber-GC project on terrain that rewards a long-range attack.",

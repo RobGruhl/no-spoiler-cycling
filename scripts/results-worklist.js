@@ -16,6 +16,13 @@
  *     window; its overview hub is also a gap if missing (in-progress hub OK)
  *   - one-day races are "in window" if raceDate falls in the window
  *
+ * Refreshes also include an IN-PROGRESS stage-race hub (data/results/races/<id>.json
+ * with inProgress: true) whose researchedAt is older than the newest stage result
+ * already on disk — the hub's tldr/podium/narrative would otherwise freeze at the
+ * day it was first written (the 2026 Vuelta hub still read "Pogačar leads" five
+ * days after he abandoned). Reason: 'hub stale'. Also flagged: a hub still marked
+ * inProgress after the race's final stage has a result ('race finished').
+ *
  * Refreshes additionally include ANY existing in-window results JSON that is a
  * stub (so women's / already-covered races we've started keep improving), since
  * "refresh thin" should never leave a known-thin page un-revisited.
@@ -79,6 +86,22 @@ const provisional = (data, date) => {
   return TODAY === next.toISOString().slice(0, 10);
 };
 
+// In-progress stage-race hub staleness. Returns a refresh reason or null.
+//  - 'hub stale'      hub.inProgress and a stage result newer than hub.researchedAt exists
+//  - 'race finished'  hub.inProgress but the final stage's result is already on disk
+// Cheap by construction: at most one hub refresh per race per day (a refresh today
+// bumps researchedAt past every stage written today), only while stages are in window.
+function hubStaleReason(race, stages, hub) {
+  if (!hub || !hub.inProgress || stages.length === 0) return null;
+  const hubDay = (hub.researchedAt || '').slice(0, 10);
+  const withResult = stages.filter(s => exists(`data/results/stages/${race.id}-stage-${s.stageNumber}.json`));
+  if (withResult.length === 0) return null;
+  const lastStage = stages.map(s => s.date).sort().pop();
+  if (withResult.some(s => s.date === lastStage)) return 'race finished';
+  const newest = withResult.map(s => s.date).sort().pop();
+  return newest > hubDay ? 'hub stale' : null;
+}
+
 const gaps = [];
 const refreshes = [];
 const pushRefresh = (kind, id, date, data) => {
@@ -113,6 +136,10 @@ for (const race of RACE_DATA.races) {
   if (hasRaceJson) {
     const data = readJson(path.join(ROOT, raceJsonRel));
     pushRefresh('race', race.id, data?.raceDate || race.raceDate, data);
+    const staleReason = hubStaleReason(race, stages, data);
+    if (staleReason && !refreshes.some(r => r.kind === 'race' && r.id === race.id)) {
+      refreshes.push({ kind: 'race', id: race.id, date: TODAY, reason: staleReason });
+    }
   }
 
   // --- Per-stage results (data/results/stages/<id>-stage-N.json) ---
