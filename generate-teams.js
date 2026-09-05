@@ -17,6 +17,7 @@
 import fs from 'fs';
 import path from 'path';
 import { siteLegalFooter } from './lib/site-chrome.js';
+import { canonicalTeam } from './lib/team-names.js';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname));
 const RACE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/race-data.json'), 'utf8'));
@@ -43,42 +44,34 @@ function fmtDate(ymd) {
 function findRider(id) { return ALL_TRACKED.find(r => r.id === id || r.slug === id) || null; }
 function raceMeta(id) { return RACE_DATA.races.find(r => r.id === id) || null; }
 
-// Normalise a team name to a grouping key so naming drift across races collapses
-// to a single card. Drops everything after the first sponsor separator (" | ",
-// " - ", or " / "), strips the filler word "team" (so "Team Visma | Lease a Bike"
-// and "Visma | Lease a Bike" both → "visma"; "UAE Team Emirates - XRG" and
-// "UAE Team Emirates" both → "uae emirates"), and normalises punctuation.
-function teamKey(team) {
-  return team.toLowerCase()
-    .split(/\s*[|/]\s*|\s+-\s+/)[0]
-    .replace(/\bteam\b/g, ' ')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .replace(/\s+/g, ' ');
-}
+// Grouping and display names come from lib/team-names.js (house spelling +
+// known variants + mid-season renames). The old first-sponsor heuristic split
+// "Lidl - Trek" from "Lidl-Trek" and merged unrelated teams sharing a first word.
 
 // ============================================================================
 // Aggregation
 // ============================================================================
 
 function collectTeams() {
-  // genderKey → teamKey → { display, appearances:[] }
-  const byGender = { men: new Map(), women: new Map() };
+  // genderKey → teamKey → { display, appearances:[], alsoAs:Set }
+  const byGender = { men: new Map(), women: new Map(), mixed: new Map() };
   const racesDir = path.join(ROOT, 'data/results/races');
   for (const f of fs.readdirSync(racesDir).filter(f => f.endsWith('.json'))) {
     const result = JSON.parse(fs.readFileSync(path.join(racesDir, f), 'utf8'));
     if (!Array.isArray(result.teamStories) || !result.teamStories.length) continue;
     const raceId = f.replace('.json', '');
     const meta = raceMeta(raceId);
-    const gender = meta?.gender === 'women' ? 'women' : 'men';
+    const gender = meta?.gender === 'women' ? 'women' : meta?.gender === 'mixed' ? 'mixed' : 'men';
     const bucket = byGender[gender];
     for (const t of result.teamStories) {
       if (!t.team || !t.narrative) continue;
-      const key = teamKey(t.team);
-      if (!bucket.has(key)) bucket.set(key, { display: t.team, appearances: [] });
+      const c = canonicalTeam(t.team, { gender, date: result.raceDate || meta?.raceDate });
+      const key = c.key;
+      if (!bucket.has(key)) bucket.set(key, { display: c.name, appearances: [], alsoAs: new Map() });
       const group = bucket.get(key);
-      // Prefer the longest variant of the name as the display label.
-      if (t.team.length > group.display.length) group.display = t.team;
+      // A pre-rename name (e.g. INEOS Grenadiers before May) is shown under the
+      // current name with a note, so one team is one card.
+      if (c.former && c.note) group.alsoAs.set(c.note, true);
       group.appearances.push({
         raceId,
         raceName: meta?.name || raceId,
@@ -94,7 +87,7 @@ function collectTeams() {
   const finalise = (bucket) => [...bucket.values()]
     .map(g => { g.appearances.sort((a, b) => (a.raceDate || '').localeCompare(b.raceDate || '')); return g; })
     .sort((a, b) => b.appearances.length - a.appearances.length || a.display.localeCompare(b.display));
-  return { men: finalise(byGender.men), women: finalise(byGender.women) };
+  return { men: finalise(byGender.men), women: finalise(byGender.women), mixed: finalise(byGender.mixed) };
 }
 
 // ============================================================================
@@ -107,7 +100,7 @@ function renderTeamCard(group) {
   return `<article class="r-team-card t-card">
     <header class="r-team-head">
       <div class="r-team-name">${htmlEscape(group.display)}</div>
-      <div class="t-card-meta mono">${total} race${total !== 1 ? 's' : ''}${wins ? ` · ${wins} marked win${wins !== 1 ? 's' : ''}` : ''}</div>
+      <div class="t-card-meta mono">${total} race${total !== 1 ? 's' : ''}${wins ? ` · ${wins} marked win${wins !== 1 ? 's' : ''}` : ''}${group.alsoAs.size ? ` · ${htmlEscape([...group.alsoAs.keys()].join(' · '))}` : ''}</div>
     </header>
     <div class="t-appearances">
       ${group.appearances.map(a => `<div class="t-appear">
@@ -134,10 +127,10 @@ function renderTeamCard(group) {
 function renderSection(label, gender, groups) {
   const body = groups.length
     ? `<div class="r-teams t-grid">${groups.map(renderTeamCard).join('')}</div>`
-    : `<p class="t-empty mono">No ${label.toLowerCase()} results published yet — these populate as ${gender === 'women' ? "women's" : "men's"} races are raced and analysed.</p>`;
+    : `<p class="t-empty mono">No ${label.toLowerCase()} results published yet — these populate as ${gender === 'women' ? "women's" : gender === 'mixed' ? 'mixed-field' : "men's"} races are raced and analysed.</p>`;
   return `<section class="r-section t-section" data-gender="${gender}">
     <div class="r-section-head">
-      <span class="r-eyebrow mono">§ · ${gender === 'women' ? 'WWT' : 'UWT'}</span>
+      <span class="r-eyebrow mono">§ · ${gender === 'women' ? 'WWT' : gender === 'mixed' ? 'GRAVEL' : 'UWT'}</span>
       <h2 class="r-h2">${htmlEscape(label)}</h2>
     </div>
     ${body}
@@ -145,8 +138,8 @@ function renderSection(label, gender, groups) {
 }
 
 function renderPage() {
-  const { men, women } = collectTeams();
-  const teamCount = men.length + women.length;
+  const { men, women, mixed } = collectTeams();
+  const teamCount = men.length + women.length + mixed.length;
 
   return `<!doctype html>
 <html lang="en">
@@ -260,10 +253,12 @@ function renderPage() {
       <button class="chip on" data-gf="all">All</button>
       <button class="chip" data-gf="men">Men</button>
       <button class="chip" data-gf="women">Women</button>
+      <button class="chip" data-gf="mixed">Mixed</button>
     </div>
 
     ${renderSection("Men's Teams", 'men', men)}
     ${renderSection("Women's Teams", 'women', women)}
+    ${renderSection('Mixed Events (gravel)', 'mixed', mixed)}
 
     <footer class="r-footer">
       <p class="mono">Aggregated from per-race team analysis across the 2026 season. Research via Perplexity (English + native-language press). Synthesis and prose by Claude.</p>

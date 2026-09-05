@@ -7,10 +7,10 @@
   "researchedAt": "2026-05-28T12:00:00Z",
   "tldr": "Jonas Vingegaard soloed to his second stage win of the Giro atop the brutally steep Corno alle Scale, distancing his only real rival Felix Gall just after the flamme rouge. Afonso Eulálio finished fifth in the GC group to retain the maglia rosa, still holding a buffer of well over two minutes ahead of the stage-10 individual time trial.",
   "podium": [
-    { "position": 1, "name": "Jonas Vingegaard", "team": "Visma - Lease a Bike", "time": "4h 20m 21s", "riderId": "jonas-vingegaard" },
-    { "position": 2, "name": "Felix Gall", "team": "Decathlon AG2R La Mondiale", "gap": "+0:12", "riderId": "felix-gall" },
-    { "position": 3, "name": "Davide Piganzoli", "team": "Polti VisitMalta", "gap": "+0:34" },
-    { "position": 4, "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+0:34", "riderId": "thymen-arensman" }
+    { "position": 1, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "time": "4h 20m 21s", "riderId": "jonas-vingegaard" },
+    { "position": 2, "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+0:12", "riderId": "felix-gall" },
+    { "position": 3, "name": "Davide Piganzoli", "team": "Team Polti VisitMalta", "gap": "+0:34" },
+    { "position": 4, "name": "Thymen Arensman", "team": "Netcompany INEOS Cycling Team", "gap": "+0:34", "riderId": "thymen-arensman" }
   ],
   "narrative": {
     "headline": "Vingegaard goes solo on the Corno, Eulálio clings to pink",
@@ -24,7 +24,7 @@
     {
       "riderId": "jonas-vingegaard",
       "name": "Jonas Vingegaard",
-      "team": "Visma - Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "role": "leader",
       "position": 1,
       "gap": null,
@@ -39,7 +39,7 @@
     {
       "riderId": "felix-gall",
       "name": "Felix Gall",
-      "team": "Decathlon AG2R La Mondiale",
+      "team": "Decathlon CMA CGM Team",
       "role": "leader",
       "position": 2,
       "gap": "+0:12",
@@ -53,7 +53,7 @@
     {
       "riderId": "thymen-arensman",
       "name": "Thymen Arensman",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 4,
       "gap": "+0:34",
@@ -66,7 +66,7 @@
     {
       "riderId": "michael-storer",
       "name": "Michael Storer",
-      "team": "Tudor Pro Cycling",
+      "team": "Tudor Pro Cycling Team",
       "role": "leader",
       "position": 10,
       "gap": "+0:50",
@@ -79,7 +79,7 @@
     {
       "riderId": "egan-bernal",
       "name": "Egan Bernal",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 17,
       "gap": "+1:12",

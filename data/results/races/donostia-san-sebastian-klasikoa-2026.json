@@ -10,7 +10,7 @@
     { "position": 2, "riderId": null, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "gap": "s.t." },
     { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Team Visma | Lease a Bike", "gap": "+0:29" },
     { "position": 4, "riderId": null, "name": "Christian Scaroni", "team": "XDS Astana Team", "gap": "+0:29" },
-    { "position": 5, "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain Victorious", "gap": "+0:29" }
+    { "position": 5, "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain - Victorious", "gap": "+0:29" }
   ],
   "narrative": {
     "headline": "Evenepoel's fourth Klasikoa, forged in a mid-race chase",
@@ -32,7 +32,7 @@
       "riderIds": ["giulio-pellizzari"]
     },
     {
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "verdict": "Bilbao fifth in the group sprint",
       "verdictClass": "neutral",
       "narrative": "Pello Bilbao made the front selection over the Murgil-Tontorra and rounded out the chase group's sprint for the minor placings, finishing fifth at 29 seconds — a solid result for the team's local card in a race he'd previously podiumed.",
@@ -41,7 +41,7 @@
   ],
   "riderPerformances": [
     {
-      "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain Victorious",
+      "riderId": "pello-bilbao", "name": "Pello Bilbao", "team": "Bahrain - Victorious",
       "role": "leader", "position": 5, "gap": "+0:29",
       "narrative": "Bilbao made the front group over the decisive Murgil-Tontorra climb and contested the sprint for the minor placings behind Evenepoel and Carapaz, finishing fifth at 29 seconds — his third top-five in this race.",
       "keyMoments": [],
@@ -76,7 +76,7 @@
       "incident": null
     },
     {
-      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto - Intermarché",
+      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto Intermarché",
       "role": "helper", "position": 26, "gap": "+1:56",
       "narrative": "Widar finished outside the main chase groups, coming home 26th at 1:56 down.",
       "keyMoments": [],

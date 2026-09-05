@@ -7,7 +7,7 @@
   "podium": [
     { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "time": "5h 08m 03s" },
     { "position": 2, "riderId": null, "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team", "gap": "s.t." },
-    { "position": 3, "riderId": null, "name": "Christophe Laporte", "team": "Visma | Lease a Bike", "gap": "s.t." }
+    { "position": 3, "riderId": null, "name": "Christophe Laporte", "team": "Team Visma | Lease a Bike", "gap": "s.t." }
   ],
   "narrative": {
     "headline": "Late Van der Poel / Van Aert move caught — Philipsen finishes the day",
@@ -29,7 +29,7 @@
       "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Van Aert in the move, Laporte on the podium",
       "verdictClass": "neutral",
       "narrative": "Van Aert was in the three-man late move with Van der Poel and Segaert, taking the same kind of long-shot that won him Roubaix two weeks later. Caught with metres to go; Laporte then sprinted to third from the catch, his second podium of the spring.",
@@ -52,7 +52,7 @@
       "incident": null
     },
     {
-      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
       "role": "leader", "position": null, "gap": "in front group",
       "narrative": "Joined Van der Poel and Segaert in the late move. Caught at 500 m. Visma's salvage came from Laporte's sprint for third behind.",
       "keyMoments": [{ "km": 35, "what": "Bridged onto Van der Poel's move on the final Kemmelberg" }],

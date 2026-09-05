@@ -9,7 +9,7 @@
   "podium": [
     { "position": 1, "name": "Mauro Schmid", "team": "Team Jayco AlUla", "time": "4h 06m 58s" },
     { "position": 2, "name": "Harold Tejada", "team": "XDS Astana Team", "gap": "s.t." },
-    { "position": 3, "name": "Tom Pidcock", "team": "Pinarello Q36.5 Pro Cycling Team", "gap": "+0:02", "riderId": "thomas-pidcock" },
+    { "position": 3, "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+0:02", "riderId": "thomas-pidcock" },
     { "position": 4, "name": "Maxim Van Gils", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:02" },
     { "position": 5, "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:02", "riderId": "brandon-mcnulty" }
   ],
@@ -25,7 +25,7 @@
     {
       "riderId": "thomas-pidcock",
       "name": "Tom Pidcock",
-      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
       "role": "leader",
       "position": 3,
       "gap": "+0:02",

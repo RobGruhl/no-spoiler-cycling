@@ -8,9 +8,9 @@
   "tldr": "Enric Mas answered his first day defending the red jersey in the mountains with an attack inside the final 3km, dropping every GC rival except Oscar Onley and extending his overall lead to 1:18 on the week-1 queen stage to Alto de Aitana.",
   "podium": [
     { "position": 1, "name": "Enric Mas", "team": "Movistar Team", "time": "5h 10m 40s" },
-    { "position": 2, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany Ineos Cycling Team", "gap": "s.t." },
+    { "position": 2, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany INEOS Cycling Team", "gap": "s.t." },
     { "position": 3, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:12" },
-    { "position": 4, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+0:18" }
+    { "position": 4, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+0:18" }
   ],
   "narrative": {
     "headline": "Mas passes his first mountain test in red, dropping the field bar Onley",
@@ -24,7 +24,7 @@
     {
       "riderId": "oscar-onley",
       "name": "Oscar Onley",
-      "team": "Netcompany Ineos Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 2,
       "gap": "s.t.",
@@ -51,7 +51,7 @@
     {
       "riderId": "felix-gall",
       "name": "Felix Gall",
-      "team": "Decathlon CMA CGM",
+      "team": "Decathlon CMA CGM Team",
       "role": "leader",
       "position": 4,
       "gap": "+0:18",
@@ -65,7 +65,7 @@
     {
       "riderId": "richard-carapaz",
       "name": "Richard Carapaz",
-      "team": "EF Education-EasyPost",
+      "team": "EF Education - EasyPost",
       "role": "leader",
       "position": 9,
       "gap": "+0:54",

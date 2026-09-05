@@ -7,15 +7,15 @@
   "tldr": "Demi Vollering (FDJ United - SUEZ) won the 29th La Flèche Wallonne Femmes, attacking from the foot of the final Mur de Huy and opening a gap on the steepest pitch that defending champion Puck Pieterse (Fenix - Premier Tech) could not quite close, despite a furious late charge that brought her onto Vollering's wheel at the line. It was Vollering's second Flèche Wallonne title (after 2023) and the first leg of an Ardennes double she completed four days later at Liège-Bastogne-Liège. Amstel Gold Race winner Paula Blasi (UAE Team ADQ) took third at three seconds, ahead of Kasia Niewiadoma and Anna van der Breggen.",
   "podium": [
     { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "3h 53m 27s" },
-    { "position": 2, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech", "gap": "s.t." },
+    { "position": 2, "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech", "gap": "s.t." },
     { "position": 3, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "gap": "+0:03" },
     { "position": 4, "riderId": "kasia-niewiadoma", "name": "Kasia Niewiadoma", "team": "CANYON//SRAM zondacrypto", "gap": "+0:06" },
     { "position": 5, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+0:11" },
     { "position": 6, "riderId": "magdeleine-vallieres", "name": "Magdeleine Vallieres", "team": "EF Education-Oatly", "gap": "+0:14" },
-    { "position": 7, "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Visma | Lease a Bike", "gap": "+0:28" },
+    { "position": 7, "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Team Visma | Lease a Bike", "gap": "+0:28" },
     { "position": 8, "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek", "gap": "+0:34" },
     { "position": 9, "riderId": null, "name": "Isabella Holmgren", "team": "Lidl - Trek", "gap": "+0:40" },
-    { "position": 10, "riderId": null, "name": "Nienke Vinke", "team": "Picnic PostNL", "gap": "s.t." }
+    { "position": 10, "riderId": null, "name": "Nienke Vinke", "team": "Team Picnic PostNL", "gap": "s.t." }
   ],
   "narrative": {
     "headline": "Vollering times the Mur de Huy to perfection for her second Flèche",
@@ -39,7 +39,7 @@
       "riderIds": ["demi-vollering"]
     },
     {
-      "team": "Fenix - Premier Tech",
+      "team": "Fenix-Premier Tech",
       "verdict": "Pieterse's defence falls 0.0s short",
       "verdictClass": "neutral",
       "narrative": "Defending champion Puck Pieterse was the only rider with the legs to respond to Vollering's long-range move, producing a storming late surge up the inside of the Mur that brought her right onto the winner's wheel at the line — same time, but second. A near miss in the title defence and confirmation that the mountain-bike convert is now a genuine Ardennes force on the road.",
@@ -74,7 +74,7 @@
       "riderIds": ["magdeleine-vallieres"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Ferrand-Prévot seventh",
       "verdictClass": "neutral",
       "narrative": "Pauline Ferrand-Prévot was Visma | Lease a Bike's best on the day, seventh at twenty-eight seconds on the Mur de Huy. A respectable Ardennes outing for the road-and-MTB all-rounder, just outside the riders fighting for the podium on the steepest section.",
@@ -100,7 +100,7 @@
       "incident": null
     },
     {
-      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix - Premier Tech",
+      "riderId": "puck-pieterse", "name": "Puck Pieterse", "team": "Fenix-Premier Tech",
       "role": "leader", "position": 2, "gap": "s.t.",
       "narrative": "The defending champion was the only rider able to respond to Vollering's long-range move, and she nearly pulled off a remarkable save. Caught out by the early acceleration, Pieterse launched a powerful surge up the inside in the final few hundred metres and clawed back almost all of the gap, ending the day on Vollering's wheel — same time, but second. A near-defence that confirmed her standing among the very best on the Mur.",
       "keyMoments": [
@@ -137,7 +137,7 @@
       "incident": null
     },
     {
-      "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Visma | Lease a Bike",
+      "riderId": "pauline-ferrand-prevot", "name": "Pauline Ferrand-Prévot", "team": "Team Visma | Lease a Bike",
       "role": "leader", "position": 7, "gap": "+0:28",
       "narrative": "Ferrand-Prévot was Visma | Lease a Bike's leader on the day and finished seventh at twenty-eight seconds, in the group fighting just behind the podium contenders on the Mur de Huy. A solid showing on a steep finish that is not her natural specialism.",
       "keyMoments": [],

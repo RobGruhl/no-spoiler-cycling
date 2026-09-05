@@ -17,7 +17,7 @@
     "points": { "name": "Nadav Raisberg", "team": "NSN Cycling Team" },
     "mountains": { "name": "Clément Braz Afonso", "team": "Groupama - FDJ United" },
     "youth": { "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG" },
-    "team": "Visma | Lease a Bike"
+    "team": "Team Visma | Lease a Bike"
   },
   "narrative": {
     "headline": "Del Toro turns it upside down on the final climb",
@@ -56,7 +56,7 @@
       "riderIds": ["juan-ayuso-pesquera", "mattias-skjelmose-jensen"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "TTT + stage 5, Jorgenson 4th, team classification",
       "verdictClass": "win",
       "narrative": "Visma won the stage-3 team time trial and Wout van Aert's stage-5 sprint, and took the team classification. Matteo Jorgenson rode the TTT foundation into a consistent GC week, sitting on the podium fringe before fading to fourth on the final climb. A productive Tour warm-up across multiple objectives.",
@@ -70,14 +70,14 @@
       "riderIds": ["alex-baudin"]
     },
     {
-      "team": "Decathlon - CMA CGM Team",
+      "team": "Decathlon CMA CGM Team",
       "verdict": "Seixas top-6 then crash + abandon",
       "verdictClass": "neutral",
       "narrative": "Decathlon built the race around 19-year-old Paul Seixas, who attacked the favourites on stage 6 and rode into the GC top six. But a stage-7 crash forced a brutal ~70 km chase, and the accumulated cost saw him dropped and abandon on stage 8's Montée de Bisanne. A week that flashed his immense potential against the sport's best, ended by misfortune. Léo Bisiaux supported with a stage-1 podium and aggressive riding.",
       "riderIds": ["paul-seixas", "leo-bisiaux"]
     },
     {
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "verdict": "Vauquelin 2nd after TTT, aggressive finale",
       "verdictClass": "neutral",
       "narrative": "Racing as Netcompany–INEOS, the team led the stage-3 TTT at both checkpoints before settling for second, briefly putting Kévin Vauquelin second overall and Oscar Onley in the top ten. Both lost ground once the mountains arrived; Vauquelin went on the attack on the final stage. A solid if podium-less week.",
@@ -91,7 +91,7 @@
       "riderIds": []
     },
     {
-      "team": "Lotto - Intermarché",
+      "team": "Lotto Intermarché",
       "verdict": "Van Gils wins stage 6",
       "verdictClass": "win",
       "narrative": "Maxim Van Gils made the decisive stage-6 split and timed his sprint perfectly at Crest-Voland to win the day that blew the race apart — the headline result of the team's week.",
@@ -138,7 +138,7 @@
       "incident": null
     },
     {
-      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon - CMA CGM Team",
+      "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team",
       "role": "leader", "position": null, "gap": "DNF",
       "narrative": "The 19-year-old was Decathlon's GC card and rode into the top six, attacking the favourites on stage 6. A stage-7 crash and 70 km chase, then an abandon on stage 8, ended his race — but the week confirmed his exceptional ceiling.",
       "keyMoments": [],
@@ -159,7 +159,7 @@
       "incident": null
     },
     {
-      "riderId": "kevin-vauquelin", "name": "Kévin Vauquelin", "team": "INEOS Grenadiers",
+      "riderId": "kevin-vauquelin", "name": "Kévin Vauquelin", "team": "Netcompany INEOS Cycling Team",
       "role": "leader", "position": null, "gap": null,
       "narrative": "Vauquelin briefly sat second overall after INEOS's strong stage-3 TTT before the mountains moved him down. He attacked on the final stage, finishing an aggressive week without a GC result.",
       "keyMoments": [],

@@ -8,7 +8,7 @@
   "podium": [
     { "position": 1, "riderId": "paula-blasi", "name": "Paula Blasi", "team": "UAE Team ADQ", "time": "9h 02' 21\"" },
     { "position": 2, "riderId": null, "name": "Dominika Włodarczyk", "team": "UAE Team ADQ", "gap": "+1:57" },
-    { "position": 3, "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United-SUEZ", "gap": "+1:57" }
+    { "position": 3, "riderId": "juliette-berthet", "name": "Juliette Berthet", "team": "FDJ United - SUEZ", "gap": "+1:57" }
   ],
   "narrative": {
     "headline": "Blasi tames the Tourmalet to seal a UAE Team ADQ overall 1-2",
@@ -31,21 +31,21 @@
       "riderIds": ["paula-blasi"]
     },
     {
-      "team": "FDJ United-SUEZ",
+      "team": "FDJ United - SUEZ",
       "verdict": "3rd overall, two stage podiums",
       "verdictClass": "neutral",
       "narrative": "The best of the rest behind UAE. Juliette Berthet rode into third overall (same time as Włodarczyk at 1:57), Marie Le Net was third on the Stage 1 sprint, and Léa Curinier was second on the breakaway Stage 3 — a consistent week of podium placings without a stage win, beaten by Blasi's single decisive mountain move.",
       "riderIds": ["juliette-berthet"]
     },
     {
-      "team": "Cofidis",
+      "team": "Cofidis Women Team",
       "verdict": "Stage 1 win + leader's jersey",
       "verdictClass": "win",
       "narrative": "Cofidis got the opening day exactly right: they helped close down Kvasničková's long break and delivered Martina Alzini to the Stage 1 sprint in Mourenx, her first win in three years and the first leader's jersey of the race. With Kristýna Burlová also in the Stage 1 top five it was a strong sprint week, though the mountains were always going to belong to others.",
       "riderIds": []
     },
     {
-      "team": "VolkerWessels Cycling",
+      "team": "VolkerWessels Cycling Team",
       "verdict": "Closing stage win from the break",
       "verdictClass": "win",
       "narrative": "Eline Jansen salvaged the squad's race on the final day, making the decisive 10-rider breakaway to Jurançon, crashing in the closing kilometres, then remounting to win the stage ahead of Léa Curinier — a gritty result on a day the GC riders let the move go.",

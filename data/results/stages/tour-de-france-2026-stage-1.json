@@ -17,14 +17,14 @@
     {
       "position": 2,
       "name": "Filippo Ganna",
-      "team": "Netcompany Ineos Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "gap": "+0:08",
       "riderId": "filippo-ganna"
     },
     {
       "position": 3,
       "name": "Tadej Pogačar",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "gap": "+0:12",
       "riderId": "tadej-pogacar"
     }
@@ -55,7 +55,7 @@
     {
       "riderId": "filippo-ganna",
       "name": "Filippo Ganna",
-      "team": "Netcompany Ineos Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 2,
       "gap": "+0:08",
@@ -69,7 +69,7 @@
     {
       "riderId": "tadej-pogacar",
       "name": "Tadej Pogačar",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 3,
       "gap": "+0:12",
@@ -83,7 +83,7 @@
     {
       "riderId": "remco-evenepoel",
       "name": "Remco Evenepoel",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "role": "leader",
       "position": 5,
       "gap": "+0:19",
@@ -94,7 +94,7 @@
     {
       "riderId": "isaac-del-toro",
       "name": "Isaac del Toro",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 6,
       "gap": "+0:26",
@@ -105,7 +105,7 @@
     {
       "riderId": "florian-lipowitz",
       "name": "Florian Lipowitz",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "role": "leader",
       "position": 8,
       "gap": "+0:35",
@@ -129,7 +129,7 @@
     {
       "riderId": "antonio-tiberi",
       "name": "Antonio Tiberi",
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "role": "leader",
       "position": 13,
       "gap": "+0:47",
@@ -140,7 +140,7 @@
     {
       "riderId": "lenny-martinez",
       "name": "Lenny Martinez",
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "role": "leader",
       "position": 15,
       "gap": "+0:50",
@@ -175,7 +175,7 @@
     "crashes": [],
     "abandons": [],
     "mechanicals": [
-      { "riderId": null, "name": "Kévin Vauquelin", "team": "Netcompany Ineos Cycling Team", "detail": "Puncture near checkpoint 3 forced a bike change, disrupting Ineos's team structure" }
+      { "riderId": null, "name": "Kévin Vauquelin", "team": "Netcompany INEOS Cycling Team", "detail": "Puncture near checkpoint 3 forced a bike change, disrupting Ineos's team structure" }
     ]
   },
   "quotes": [],

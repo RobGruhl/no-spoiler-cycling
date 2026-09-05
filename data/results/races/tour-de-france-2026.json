@@ -9,7 +9,7 @@
     {
       "position": 1,
       "name": "Tadej Pogačar",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "note": "GC leader after Stage 3 — race in progress"
     },
     {
@@ -22,7 +22,7 @@
     {
       "position": 3,
       "name": "Remco Evenepoel",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "gap": "+0:23",
       "note": "After Stage 3"
     }
@@ -68,7 +68,7 @@
   ],
   "teamStories": [
     {
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "verdict": "Back-to-back stage wins, GC at +6\"",
       "verdictClass": "win",
       "narrative": "UAE enter the race with a clear plan for both GC and stage wins and execute it over the first two days: Pogačar's fastest finale split in the TTT earns the polka-dot jersey, and del Toro's Montjuïc attack gives UAE the Stage 2 win despite a mechanical delay. Pogačar sits second at +0:06, del Toro fourth at +0:16 — the team holds two GC cards in the top five.",
@@ -82,14 +82,14 @@
       "riderIds": ["jonas-vingegaard"]
     },
     {
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "verdict": "Solid double stage, Evenepoel on podium",
       "verdictClass": "neutral",
       "narrative": "Red Bull-Bora set the third-fastest TTT on Stage 1 and Evenepoel finishes third on Stage 2, earning a 4-second bonus to move to third in GC at +0:15. Both Evenepoel and Lipowitz remain in the top eight overall. The mountain stages will determine whether the team can challenge for victory.",
       "riderIds": ["remco-evenepoel", "florian-lipowitz"]
     },
     {
-      "team": "Netcompany Ineos Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "verdict": "TTT disrupted but Ganna impresses",
       "verdictClass": "neutral",
       "narrative": "Vauquelin's Stage 1 puncture disrupts Ineos's TTT plan, yet Ganna holds second place individually through pure TT strength. On Stage 2 the team's GC options are less visible as the race shifts to puncheur terrain. Ganna and the team enter France needing to define their overall objectives.",
@@ -114,7 +114,7 @@
     {
       "riderId": "tadej-pogacar",
       "name": "Tadej Pogačar",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 2,
       "gap": "+0:06",
@@ -128,7 +128,7 @@
     {
       "riderId": "isaac-del-toro",
       "name": "Isaac del Toro",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 4,
       "gap": "+0:16",
@@ -142,7 +142,7 @@
     {
       "riderId": "remco-evenepoel",
       "name": "Remco Evenepoel",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "role": "leader",
       "position": 3,
       "gap": "+0:15",
@@ -155,7 +155,7 @@
     {
       "riderId": "florian-lipowitz",
       "name": "Florian Lipowitz",
-      "team": "Red Bull - Bora - Hansgrohe",
+      "team": "Red Bull - BORA - hansgrohe",
       "role": "leader",
       "position": 8,
       "gap": "+0:45",
@@ -166,7 +166,7 @@
     {
       "riderId": "filippo-ganna",
       "name": "Filippo Ganna",
-      "team": "Netcompany Ineos Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": null,
       "gap": null,
@@ -193,7 +193,7 @@
     {
       "riderId": "lenny-martinez",
       "name": "Lenny Martinez",
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "role": "leader",
       "position": 9,
       "gap": "+0:53",
@@ -223,12 +223,12 @@
     "mechanicals": [
       {
         "name": "Kévin Vauquelin",
-        "team": "Netcompany Ineos Cycling Team",
+        "team": "Netcompany INEOS Cycling Team",
         "detail": "Stage 1: Puncture near checkpoint 3 forced bike change, disrupting Ineos TTT plan"
       },
       {
         "name": "Isaac del Toro",
-        "team": "UAE Team Emirates XRG",
+        "team": "UAE Team Emirates - XRG",
         "detail": "Stage 2: Mechanical issue ~60 km from finish; radio miscommunication left him roadside. Rejoined within 10 km and went on to win."
       }
     ]

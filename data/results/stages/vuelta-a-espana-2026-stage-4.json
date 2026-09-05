@@ -8,9 +8,9 @@
   "tldr": "Tadej Pogačar produced a devastating 50km solo raid over the Collada de Beixalis and Coll d'Ordino to win stage 4 in Andorra, opening up a race-defining 3:21 general classification lead over Primož Roglič with 17 stages still to race.",
   "podium": [
     { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "2h 40m 35s" },
-    { "position": 2, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto - Intermarché", "gap": "+2:39" },
-    { "position": 3, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM", "gap": "+2:39" },
-    { "position": 4, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany INEOS", "gap": "+2:39" },
+    { "position": 2, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto Intermarché", "gap": "+2:39" },
+    { "position": 3, "riderId": "felix-gall", "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+2:39" },
+    { "position": 4, "riderId": "oscar-onley", "name": "Oscar Onley", "team": "Netcompany INEOS Cycling Team", "gap": "+2:39" },
     { "position": 5, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+2:39" }
   ],
   "narrative": {
@@ -39,7 +39,7 @@
     {
       "riderId": "felix-gall",
       "name": "Felix Gall",
-      "team": "Decathlon CMA CGM",
+      "team": "Decathlon CMA CGM Team",
       "role": "leader",
       "position": 3,
       "gap": "+2:39",
@@ -61,7 +61,7 @@
     {
       "riderId": "oscar-onley",
       "name": "Oscar Onley",
-      "team": "Netcompany INEOS",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 4,
       "gap": "+2:39",
@@ -94,7 +94,7 @@
     {
       "riderId": "jarno-widar",
       "name": "Jarno Widar",
-      "team": "Lotto - Intermarché",
+      "team": "Lotto Intermarché",
       "role": "leader",
       "position": 2,
       "gap": "+2:39",

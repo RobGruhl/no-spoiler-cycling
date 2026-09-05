@@ -8,9 +8,9 @@
     { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "4h 45m 15s" },
     { "position": 2, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "+1:00" },
     { "position": 3, "riderId": null, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+1:00" },
-    { "position": 7, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling", "gap": "+1:30" },
-    { "position": 8, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike", "gap": "+1:30" },
-    { "position": 10, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "+1:30" }
+    { "position": 7, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+1:30" },
+    { "position": 8, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike", "gap": "+1:30" },
+    { "position": 10, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "+1:30" }
   ],
   "narrative": {
     "headline": "Third Strade in a row, third winner who attacked over Monte Sante Marie",
@@ -40,14 +40,14 @@
       "riderIds": ["paul-seixas"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Top 10 with Jorgenson and Van Aert, never in the move",
       "verdictClass": "neutral",
       "narrative": "Visma rode two leaders in Jorgenson (the day's actual finisher) and Van Aert (returning to gravel after a long absence). Neither could match Pogačar's Monte Sante Marie selection. Jorgenson 8th, Van Aert 10th — clean top-10 ride, no Monument bid.",
       "riderIds": ["wout-van-aert", "matteo-jorgenson"]
     },
     {
-      "team": "Pinarello-Q36.5 Pro Cycling",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
       "verdict": "Pidcock's debut in new colours, top 10",
       "verdictClass": "neutral",
       "narrative": "Tom Pidcock's first major race in Pinarello-Q36.5 kit — formerly INEOS, now riding for the smaller WorldTour outfit. 7th at Strade is a clean opening statement; two weeks later he'd come within centimetres of beating Pogačar at Sanremo.",
@@ -76,7 +76,7 @@
       "incident": null
     },
     {
-      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
       "role": "leader", "position": 8, "gap": "+1:30",
       "narrative": "Visma's actual leader on the day — Van Aert riding gravel for the first time in years. Was in the chase group at +45s with Pidcock and Grégoire with 10-15 km to go but couldn't bridge to Seixas. Eighth place is the maximum return from his position.",
       "keyMoments": [],
@@ -90,14 +90,14 @@
       "incident": null
     },
     {
-      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
       "role": "co-leader", "position": 10, "gap": "+1:30",
       "narrative": "Strade Bianche as a one-day classics tune-up. Tenth was a return-to-gravel test, not a Monument bid; his real target was a month later, at a different Monument, on different terrain.",
       "keyMoments": [],
       "incident": null
     },
     {
-      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling",
+      "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team",
       "role": "leader", "position": 7, "gap": "+1:30",
       "narrative": "First major race in Pinarello-Q36.5 colours; finished seventh from the chase group. A clean opener; the bigger statement would come at Milano-Sanremo two weeks later when he came within centimetres of beating Pogačar.",
       "keyMoments": [],

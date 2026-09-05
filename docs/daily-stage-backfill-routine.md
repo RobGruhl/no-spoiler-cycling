@@ -167,7 +167,7 @@ disagree you've probably conflated a mid-stage and a final report — re-read.
 
 ### 2d. Write `data/results/stages/<race-id>-stage-N.json`
 
-`stageType` must match the stage's type in `race-data.json`. `riderPerformances`
+**Team names: use the house spelling from `lib/team-names.js`** (print it with `node scripts/normalize-team-names.js --list`; e.g. `Lidl - Trek`, `Team Visma | Lease a Bike`, `UAE Team Emirates - XRG`, `Netcompany INEOS Cycling Team`, `Team SD Worx - Protime`). Never copy an article's spelling; the teams page groups by these names and `npm run test:results` warns on drift. `stageType` must match the stage's type in `race-data.json`. `riderPerformances`
 only for tracked riders (`data/riders.json` + `data/outsiders.json`). Schema:
 
 ```jsonc

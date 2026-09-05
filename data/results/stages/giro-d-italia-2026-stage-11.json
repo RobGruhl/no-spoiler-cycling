@@ -7,9 +7,9 @@
   "researchedAt": "2026-05-28T12:00:00Z",
   "tldr": "Jhonatan Narváez (UAE Team Emirates XRG) completes a hat-trick of stage wins on this 195 km hilly day through the Cinque Terre, beating Enric Mas in a two-up sprint at Chiavari after a long breakaway. Afonso Eulálio crosses over three minutes down in the peloton and keeps the pink jersey for a seventh consecutive day, with Jonas Vingegaard at +0:27.",
   "podium": [
-    { "position": 1, "name": "Jhonatan Narváez", "team": "UAE Team Emirates XRG", "time": "4:33:45" },
+    { "position": 1, "name": "Jhonatan Narváez", "team": "UAE Team Emirates - XRG", "time": "4:33:45" },
     { "position": 2, "name": "Enric Mas", "team": "Movistar Team", "gap": "s.t." },
-    { "position": 3, "name": "Diego Ulissi", "team": "XDS Astana", "gap": "+0:11" }
+    { "position": 3, "name": "Diego Ulissi", "team": "XDS Astana Team", "gap": "+0:11" }
   ],
   "narrative": {
     "headline": "Narváez seals hat-trick from the break, Eulálio still in pink",
@@ -23,7 +23,7 @@
     {
       "riderId": "jhonatan-narvaez",
       "name": "Jhonatan Narváez",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "stage-hunter",
       "position": 1,
       "gap": null,
@@ -38,7 +38,7 @@
     {
       "riderId": "christian-scaroni",
       "name": "Christian Scaroni",
-      "team": "XDS Astana",
+      "team": "XDS Astana Team",
       "role": "stage-hunter",
       "position": 6,
       "gap": "+1:13",

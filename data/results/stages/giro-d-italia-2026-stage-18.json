@@ -8,10 +8,10 @@
   "tldr": "Paul Magnier completes a hat-trick of stage wins in a bunch sprint despite the late Muro di Ca' del Poggio; Jonas Vingegaard retains the maglia rosa with three stages to go.",
   "podium": [
     { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "riderId": "paul-magnier", "time": "3:46:50" },
-    { "position": 2, "name": "Edoardo Zambanini", "team": "Bahrain Victorious", "gap": "+0:00" },
-    { "position": 3, "name": "Jonathan Milan", "team": "Lidl-Trek", "riderId": "jonathan-milan", "gap": "+0:00" },
-    { "position": 4, "name": "Francesco Busatto", "team": "Intermarché-Wanty", "gap": "+0:00" },
-    { "position": 5, "name": "Corbin Strong", "team": "Israel-Premier Tech", "riderId": "corbin-strong", "gap": "+0:00" }
+    { "position": 2, "name": "Edoardo Zambanini", "team": "Bahrain - Victorious", "gap": "+0:00" },
+    { "position": 3, "name": "Jonathan Milan", "team": "Lidl - Trek", "riderId": "jonathan-milan", "gap": "+0:00" },
+    { "position": 4, "name": "Francesco Busatto", "team": "Lotto Intermarché", "gap": "+0:00" },
+    { "position": 5, "name": "Corbin Strong", "team": "NSN Cycling Team", "riderId": "corbin-strong", "gap": "+0:00" }
   ],
   "narrative": {
     "headline": "Magnier completes hat-trick, Vingegaard retains pink",
@@ -40,7 +40,7 @@
     {
       "riderId": "jonathan-milan",
       "name": "Jonathan Milan",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "stage-hunter",
       "position": 3,
       "gap": "+0:00",
@@ -53,7 +53,7 @@
     {
       "riderId": "corbin-strong",
       "name": "Corbin Strong",
-      "team": "Israel-Premier Tech",
+      "team": "NSN Cycling Team",
       "role": "stage-hunter",
       "position": 5,
       "gap": "+0:00",
@@ -67,7 +67,7 @@
     {
       "riderId": "jonas-vingegaard",
       "name": "Jonas Vingegaard",
-      "team": "Visma-Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "role": "gc-leader",
       "position": null,
       "gap": null,

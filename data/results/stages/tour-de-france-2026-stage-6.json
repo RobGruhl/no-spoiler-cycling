@@ -7,14 +7,14 @@
   "researchedAt": "2026-07-09T19:23:00.000Z",
   "tldr": "Tadej Pogačar attacks solo on the Col du Tourmalet, rides clear of all rivals for a dominant solo victory and reclaims the yellow jersey from Torstein Træen. Jonas Vingegaard finishes 2:38 behind; Træen crashes on the descent and loses nearly 30 minutes. Stage 7 is a flat day to Bordeaux, giving the GC riders a recovery day before the Massif Central.",
   "podium": [
-    { "position": 1, "name": "Tadej Pogačar", "team": "UAE Team Emirates XRG", "time": "4h 32' 07''", "riderId": "tadej-pogacar" },
+    { "position": 1, "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "4h 32' 07''", "riderId": "tadej-pogacar" },
     { "position": 2, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "gap": "+2:38", "riderId": "jonas-vingegaard" },
-    { "position": 3, "name": "Isaac del Toro", "team": "UAE Team Emirates XRG", "gap": "+2:57", "riderId": "isaac-del-toro" },
+    { "position": 3, "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "gap": "+2:57", "riderId": "isaac-del-toro" },
     { "position": 4, "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t.", "riderId": "remco-evenepoel" },
     { "position": 5, "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "paul-seixas" },
     { "position": 6, "name": "Florian Lipowitz", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t.", "riderId": "florian-lipowitz" },
-    { "position": 7, "name": "Juan Ayuso", "team": "Lidl-Trek", "gap": "s.t.", "riderId": "juan-ayuso-pesquera" },
-    { "position": 8, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "s.t.", "riderId": "mattias-skjelmose-jensen" }
+    { "position": 7, "name": "Juan Ayuso", "team": "Lidl - Trek", "gap": "s.t.", "riderId": "juan-ayuso-pesquera" },
+    { "position": 8, "name": "Mattias Skjelmose", "team": "Lidl - Trek", "gap": "s.t.", "riderId": "mattias-skjelmose-jensen" }
   ],
   "narrative": {
     "headline": "Pogačar rides alone over the Tourmalet to reclaim the maillot jaune",
@@ -28,7 +28,7 @@
     {
       "riderId": "tadej-pogacar",
       "name": "Tadej Pogačar",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 1,
       "gap": null,
@@ -60,7 +60,7 @@
     {
       "riderId": "isaac-del-toro",
       "name": "Isaac del Toro",
-      "team": "UAE Team Emirates XRG",
+      "team": "UAE Team Emirates - XRG",
       "role": "leader",
       "position": 3,
       "gap": "+2:57",
@@ -117,7 +117,7 @@
     {
       "riderId": "juan-ayuso-pesquera",
       "name": "Juan Ayuso",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "leader",
       "position": 7,
       "gap": "s.t.",
@@ -132,7 +132,7 @@
     {
       "riderId": "mattias-skjelmose-jensen",
       "name": "Mattias Skjelmose",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "leader",
       "position": 8,
       "gap": "s.t.",
@@ -145,7 +145,7 @@
     {
       "riderId": "lenny-martinez",
       "name": "Lenny Martinez",
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "role": "leader",
       "position": 9,
       "gap": "+3:02",
@@ -159,7 +159,7 @@
     {
       "riderId": "egan-bernal",
       "name": "Egan Bernal",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "leader",
       "position": 11,
       "gap": "+4:47",
@@ -199,7 +199,7 @@
     {
       "riderId": "thymen-arensman",
       "name": "Thymen Arensman",
-      "team": "Netcompany-INEOS Cycling Team",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "domestique",
       "position": 29,
       "gap": "+16:50",
@@ -213,7 +213,7 @@
     {
       "riderId": "mads-pedersen",
       "name": "Mads Pedersen",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "stage-hunter",
       "position": null,
       "gap": null,

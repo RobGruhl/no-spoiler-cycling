@@ -7,9 +7,9 @@
   "researchedAt": "2026-05-28T12:00:00Z",
   "tldr": "On a 175km day expected to end in a bunch sprint, Bahrain Victorious time-trial specialist Alec Segaert sprang a late solo attack with 3.4km to go and held off the charging peloton for the biggest win of his career, ahead of Toon Aerts and Guillermo Silva. Race leader Afonso Eulálio (Segaert's teammate) grabbed bonus seconds at the intermediate sprint and not only retained the maglia rosa but extended his overall advantage.",
   "podium": [
-    { "position": 1, "name": "Alec Segaert", "team": "Bahrain Victorious", "time": "3:53:00" },
-    { "position": 2, "name": "Toon Aerts", "team": "Intermarché-Wanty", "gap": "+0:03" },
-    { "position": 3, "name": "Guillermo Silva", "team": "Movistar", "gap": "+0:03" }
+    { "position": 1, "name": "Alec Segaert", "team": "Bahrain - Victorious", "time": "3:53:00" },
+    { "position": 2, "name": "Toon Aerts", "team": "Lotto Intermarché", "gap": "+0:03" },
+    { "position": 3, "name": "Guillermo Silva", "team": "Movistar Team", "gap": "+0:03" }
   ],
   "narrative": {
     "headline": "Segaert springs a late solo to upend the sprinters in Novi Ligure",
@@ -21,20 +21,20 @@
     "leader": "Afonso Eulálio",
     "leaderTeam": "Bahrain Victorious",
     "topGaps": [
-      { "position": 1, "name": "Afonso Eulálio", "team": "Bahrain Victorious", "gap": "leader" },
-      { "position": 2, "name": "Jonas Vingegaard", "team": "Visma | Lease a Bike", "gap": "+0:33" },
-      { "position": 3, "name": "Thymen Arensman", "team": "INEOS Grenadiers", "gap": "+2:03" },
-      { "position": 4, "name": "Felix Gall", "team": "Decathlon AG2R", "gap": "+2:30" },
-      { "position": 5, "name": "Ben O'Connor", "team": "Jayco AlUla", "gap": "+2:50" },
-      { "position": 6, "name": "Jai Hindley", "team": "Red Bull-BORA-hansgrohe", "gap": "+3:12" },
-      { "position": 7, "name": "Michael Storer", "team": "Tudor", "gap": "+3:34" }
+      { "position": 1, "name": "Afonso Eulálio", "team": "Bahrain - Victorious", "gap": "leader" },
+      { "position": 2, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "gap": "+0:33" },
+      { "position": 3, "name": "Thymen Arensman", "team": "Netcompany INEOS Cycling Team", "gap": "+2:03" },
+      { "position": 4, "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "gap": "+2:30" },
+      { "position": 5, "name": "Ben O'Connor", "team": "Team Jayco AlUla", "gap": "+2:50" },
+      { "position": 6, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+3:12" },
+      { "position": 7, "name": "Michael Storer", "team": "Tudor Pro Cycling Team", "gap": "+3:34" }
     ]
   },
   "riderPerformances": [
     {
       "riderId": "jonathan-milan",
       "name": "Jonathan Milan",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "stage-hunter",
       "position": null,
       "gap": null,
@@ -62,7 +62,7 @@
     {
       "riderId": "tobias-lund-andresen",
       "name": "Tobias Lund Andresen",
-      "team": "Picnic PostNL",
+      "team": "Team Picnic PostNL",
       "role": "stage-hunter",
       "position": null,
       "gap": null,

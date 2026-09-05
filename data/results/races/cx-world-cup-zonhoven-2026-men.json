@@ -6,8 +6,8 @@
   "inProgress": false,
   "tldr": "On a frozen, snow-dusted Zonhoven course Mathieu van der Poel led the field into the circuit, went clear early and rode flawlessly through the icy sand pit of De Kuil to take his ninth straight win of the season — a 1-2 for Alpecin-Premier Tech as 22-year-old Tibor Del Grosso took second at +0:45 despite a mid-race crash. Emiel Verstrynge (Crelan-Corendon) completed the podium in third. The day's other headline was Thibau Nys flipping over the fencing into the crowd and breaking his handlebars on lap four; he remounted, took a spare bike and salvaged 19th.",
   "podium": [
-    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech", "time": "59:36" },
-    { "position": 2, "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "gap": "+0:45" },
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "59:36" },
+    { "position": 2, "name": "Tibor Del Grosso", "team": "Alpecin-Premier Tech", "gap": "+0:45" },
     { "position": 3, "name": "Emiel Verstrynge", "team": "Crelan - Corendon", "gap": "+1:03" },
     { "position": 4, "name": "Niels Vandeputte", "team": "Alpecin - Premier Tech Development Team", "gap": "+1:18" },
     { "position": 5, "name": "Toon Aerts", "team": "Charles Liégeois - Deschacht", "gap": "+1:18" },
@@ -31,7 +31,7 @@
   ],
   "teamStories": [
     {
-      "team": "Alpecin - Premier Tech",
+      "team": "Alpecin-Premier Tech",
       "verdict": "Win + 2nd (1-2)",
       "verdictClass": "win",
       "narrative": "A complete Alpecin afternoon on the ice. Mathieu van der Poel did what he had done all winter — led into the circuit, went clear early and rode the frozen De Kuil sand flawlessly for his ninth straight win of the season. Behind him, 22-year-old Tibor Del Grosso was the best of the chasers and, even after crashing out of an early second place, regrouped to take second at +0:45, completing a 1-2 for the squad. Development-team rider Niels Vandeputte added fourth.",
@@ -54,7 +54,7 @@
   ],
   "riderPerformances": [
     {
-      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech",
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
       "role": "leader", "position": 1, "gap": "—",
       "narrative": "A flawless ride on the kind of frozen, technical sand course where the smallest error is punished. Van der Poel led the field into the circuit, identified the icy De Kuil sand pit as the day's hardest test and rode it perfectly, extending his lead at the start of the third lap and never being threatened. The win — in 59:36 — was his ninth in a row this season and continued an unbeaten winter that would carry him to the overall World Cup title.",
       "keyMoments": [
@@ -67,7 +67,7 @@
   "incidents": {
     "crashes": [
       { "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "detail": "Flipped over the course fencing into the crowd on lap four and broke the right side of his handlebars; ran with the broken bike, took a spare in the pits and salvaged 19th at +3:22." },
-      { "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "detail": "Crashed while briefly holding second, rejoined the chase group and recovered to finish second at +0:45." }
+      { "name": "Tibor Del Grosso", "team": "Alpecin-Premier Tech", "detail": "Crashed while briefly holding second, rejoined the chase group and recovered to finish second at +0:45." }
     ],
     "abandons": [],
     "controversies": []

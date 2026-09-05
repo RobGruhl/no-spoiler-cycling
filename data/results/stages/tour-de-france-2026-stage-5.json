@@ -8,11 +8,11 @@
   "tldr": "Olav Kooij powers through sprint chaos to win the Tour's first bunch sprint in Pau, in his Grand Tour debut. A late crash fractures the peloton but the Dutchman launches early and rides away cleanly; Torstein Træen retains the yellow jersey after crashing himself but recovering with the GC group.",
   "podium": [
     { "position": 1, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "time": "3h 29' 07''", "riderId": "olav-kooij" },
-    { "position": 2, "name": "Max Kanter", "team": "XDS Astana", "gap": "s.t." },
+    { "position": 2, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "s.t." },
     { "position": 3, "name": "Tim Merlier", "team": "Soudal Quick-Step", "gap": "s.t.", "riderId": "tim-merlier" },
     { "position": 5, "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t.", "riderId": "jasper-philipsen" },
     { "position": 6, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "s.t.", "riderId": "biniam-girmay" },
-    { "position": 7, "name": "Mads Pedersen", "team": "Lidl-Trek", "gap": "s.t.", "riderId": "mads-pedersen" }
+    { "position": 7, "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "s.t.", "riderId": "mads-pedersen" }
   ],
   "narrative": {
     "headline": "Kooij converts chaos into victory on a crash-torn sprint day in Pau.",
@@ -80,7 +80,7 @@
     {
       "riderId": "mads-pedersen",
       "name": "Mads Pedersen",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "stage-hunter",
       "position": 7,
       "gap": "s.t.",

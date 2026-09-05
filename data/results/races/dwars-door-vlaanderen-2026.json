@@ -6,7 +6,7 @@
   "tldr": "Filippo Ganna out-sprinted Wout van Aert to win a reduced-bunch dash to the line in Waregem, after both attacked into the closing 30 km and the catch happened with metres to spare. Van Aert was passed in the final metres after a long-range move. Ganna's spring finally turns a strong tactical pattern into a win.",
   "podium": [
     { "position": 1, "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "INEOS Grenadiers", "time": "3h 48m 27s" },
-    { "position": 2, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "s.t." },
+    { "position": 2, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "s.t." },
     { "position": 3, "riderId": null, "name": "Søren Wærenskjold", "team": "Uno-X Mobility", "gap": "+0:01" },
     { "position": 4, "riderId": null, "name": "Biniam Girmay", "team": "NSN Cycling Team", "gap": "+0:01" },
     { "position": 5, "riderId": null, "name": "Laurence Pithie", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:01" }
@@ -31,7 +31,7 @@
       "riderIds": ["filippo-ganna"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Van Aert's Roubaix dress rehearsal",
       "verdictClass": "neutral",
       "narrative": "Van Aert's long-range attack at Dwars was a near-perfect dress rehearsal for what he'd do at Roubaix eleven days later. Same instinct: don't wait for the sprint, force the move. Same outcome: caught at the line. Eleven days later the move stuck.",
@@ -50,7 +50,7 @@
       "incident": "Double bike change mid-race"
     },
     {
-      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
       "role": "leader", "position": 2, "gap": "s.t.",
       "narrative": "Long-range attack from 30 km, the right move at the wrong race — Ganna had the closing sprint to pass him at the line. Eleven days later the same instinct would win Roubaix.",
       "keyMoments": [{ "km": 30, "what": "Long-range attack from the favourites' group" }],

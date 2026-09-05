@@ -9,11 +9,11 @@
     { "position": 1, "riderId": "tim-merlier", "name": "Tim Merlier", "team": "Soudal Quick-Step", "time": "4h 25m 01s" },
     { "position": 2, "riderId": null, "name": "Pavel Bittner", "team": "Team Picnic PostNL", "gap": "s.t." },
     { "position": 3, "riderId": null, "name": "Emilien Jeannière", "team": "TotalEnergies", "gap": "s.t." },
-    { "position": 4, "riderId": null, "name": "Dušan Rajović", "team": "Solution Tech NIPPO Rali", "gap": "s.t." },
+    { "position": 4, "riderId": null, "name": "Dušan Rajović", "team": "Solution Tech - NIPPO - Rali", "gap": "s.t." },
     { "position": 5, "riderId": null, "name": "Žak Eržen", "team": "Bahrain - Victorious", "gap": "s.t." },
     { "position": 6, "riderId": null, "name": "Hugo Hofstetter", "team": "NSN Cycling Team", "gap": "s.t." },
     { "position": 7, "riderId": null, "name": "David Dekker", "team": "BEAT CC p/b Saxo", "gap": "s.t." },
-    { "position": 8, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "gap": "s.t." },
+    { "position": 8, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "gap": "s.t." },
     { "position": 9, "riderId": null, "name": "Steffen De Schuyteneer", "team": "Lotto Intermarché", "gap": "s.t." },
     { "position": 10, "riderId": null, "name": "Tom Crabbe", "team": "Team Flanders - Baloise", "gap": "s.t." }
   ],
@@ -45,7 +45,7 @@
       "riderIds": []
     },
     {
-      "team": "Alpecin - Premier Tech",
+      "team": "Alpecin-Premier Tech",
       "verdict": "Philipsen eighth, lead-out came up short",
       "verdictClass": "loss",
       "narrative": "Alpecin massed at the front in the final kilometre to deliver Jasper Philipsen, but he had to settle for eighth as Merlier came over the top from the wheels. A flat day that should have suited Philipsen's sprint instead slipped away in the crash-disrupted, scrappy finale.",
@@ -63,7 +63,7 @@
       "incident": null
     },
     {
-      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech",
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
       "role": "sprinter", "position": 8, "gap": "s.t.",
       "narrative": "Alpecin moved to the front inside the final kilometre to launch him, but Philipsen couldn't hold off Merlier and faded to eighth in the reduced bunch. A flat finish that nominally suited him, undone by the crash-hit, chaotic run-in.",
       "keyMoments": [

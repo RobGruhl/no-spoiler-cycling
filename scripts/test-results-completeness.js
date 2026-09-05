@@ -42,6 +42,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { canonicalTeam } from '../lib/team-names.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -262,6 +263,22 @@ function checkTeamCoverage() {
   const errors = [];
   const warnings = [];
   const details = [];
+  // Spelling drift: every team name in teamStories[] should be the house
+  // spelling from lib/team-names.js (the teams page groups by it; the daily
+  // routine writes whatever the source article used). Soft warning only —
+  // fix with: node scripts/normalize-team-names.js --write
+  const drift = new Map();
+  for (const f of fs.readdirSync(path.join(ROOT, 'data/results/races')).filter(f => f.endsWith('.json'))) {
+    const result = readJson(path.join(ROOT, 'data/results/races', f));
+    if (!result?.teamStories) continue;
+    const meta = RACE_DATA.races.find(r => r.id === f.replace('.json', ''));
+    for (const story of result.teamStories) {
+      if (!story.team) continue;
+      const c = canonicalTeam(story.team, { gender: meta?.gender, date: result.raceDate || meta?.raceDate });
+      if (c.name !== story.team && !c.former) drift.set(`${story.team} → ${c.name}`, (drift.get(`${story.team} → ${c.name}`) || 0) + 1);
+    }
+  }
+  for (const [k, n] of drift) warnings.push(`team name not house spelling (${n}×): ${k} — run scripts/normalize-team-names.js --write`);
   for (const team of PRINCIPAL_TEAMS) {
     const appearances = seen.get(team) || [];
     details.push({ team, appearances: appearances.length, racesFeatured: appearances.map(a => a.raceId).slice(0, 6) });

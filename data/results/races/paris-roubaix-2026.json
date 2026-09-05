@@ -8,11 +8,11 @@
   "tldr": "Wout van Aert won his first cobbled Monument by riding the perfect race against the only man left to beat — Tadej Pogačar, who'd already spent his luck on three punctures. The duo formed on Sector 12 with sixty-odd kilometres to go and never came back. On the velodrome, Van Aert refused the cat-and-mouse, launched from half a lap out, and rode away from a champion whose legs had finally run a fraction short. Mathieu van der Poel's bid for a fourth consecutive title was over in the Arenberg, where two punctures inside a single sector buried him almost two minutes behind. Jasper Stuyven exploited the watchful silence between Visma and UAE to claim third, fifteen seconds clear of Van der Poel's salvage ride.",
 
   "podium": [
-    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "time": "5h 16m 52s" },
+    { "position": 1, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "time": "5h 16m 52s" },
     { "position": 2, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "gap": "s.t." },
-    { "position": 3, "riderId": null, "name": "Jasper Stuyven", "team": "Lidl-Trek", "gap": "+0:13" },
+    { "position": 3, "riderId": null, "name": "Jasper Stuyven", "team": "Lidl - Trek", "gap": "+0:13" },
     { "position": 4, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "gap": "+0:15" },
-    { "position": 5, "riderId": null, "name": "Christophe Laporte", "team": "Visma | Lease a Bike", "gap": "+0:18" }
+    { "position": 5, "riderId": null, "name": "Christophe Laporte", "team": "Team Visma | Lease a Bike", "gap": "+0:18" }
   ],
 
   "narrative": {
@@ -70,7 +70,7 @@
 
   "teamStories": [
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Won the day they'd been chasing for years",
       "verdictClass": "win",
       "narrative": "Single-leader Roubaix, ridden as a team plan rather than a free-for-all. Brennan lead-out into Arenberg; Per Strand Hagenes burned on the long mid-race pulls neutralising counter-attacks; Laporte sacrificed before Carrefour to keep the gap open, then survived to fifth. DS Grischa Niermann told Wielerflits: 'We didn't ride anyone as plan B today. It was all about Wout. Everybody knew they had to empty themselves for him.' Van Aert dedicated the victory to Michael Goolaerts, the Belgian who died on the pavé in 2018.",
@@ -91,7 +91,7 @@
       "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
     },
     {
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "verdict": "Pedersen sacrificed, Stuyven stole the podium",
       "verdictClass": "neutral",
       "narrative": "Lidl-Trek arrived with a dual-leader plan — Pedersen the protected card, Stuyven the second option. A bike change put Pedersen on a long lonely chase through the convoy. He never got back to the favourites. With the hierarchy resolved by the road, the team explicitly switched: Pedersen turned domestique for Stuyven. Stuyven, sensing the watchful silence between Visma and UAE after Pogačar's puncture, attacked across to the front of the chase group and held it home. Stuyven to Wielerflits: 'Mads really sacrificed himself for me. The other guys all rode themselves into the ground to keep me in position. It was all worth it.' Milan never had the legs to feature.",
@@ -117,7 +117,7 @@
     {
       "riderId": "wout-van-aert",
       "name": "Wout van Aert",
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "role": "leader",
       "position": 1,
       "gap": "5h 16m 52s",
@@ -168,7 +168,7 @@
     {
       "riderId": "mads-pedersen",
       "name": "Mads Pedersen",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "leader",
       "position": null,
       "gap": "outside top 10",
@@ -222,7 +222,7 @@
     {
       "riderId": "jonathan-milan",
       "name": "Jonathan Milan",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "lieutenant",
       "position": null,
       "gap": "outside selection",
@@ -233,7 +233,7 @@
     {
       "riderId": "matthew-brennan",
       "name": "Matthew Brennan",
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "role": "lieutenant",
       "position": null,
       "gap": "outside selection",
@@ -270,7 +270,7 @@
     {
       "riderId": "matteo-jorgenson",
       "name": "Matteo Jorgenson",
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "role": "not selected",
       "position": "DNS",
       "gap": "—",

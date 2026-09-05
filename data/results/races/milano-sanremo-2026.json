@@ -6,9 +6,9 @@
   "tldr": "Tadej Pogačar crashed at 32 km to go, remounted, attacked on the Cipressa, and won Milano-Sanremo by centimetres — the Monument he'd needed for the career card, taken in the most Pogačar way possible. Pidcock matched him every accelerating metre and lost on the line. Van der Poel was the third man in the move until the Poggio dropped him.",
   "podium": [
     { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "6h 35m 49s" },
-    { "position": 2, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling", "gap": "s.t." },
-    { "position": 3, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike", "gap": "+0:04" },
-    { "position": 4, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek", "gap": "+0:04" },
+    { "position": 2, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "s.t." },
+    { "position": 3, "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "+0:04" },
+    { "position": 4, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek", "gap": "+0:04" },
     { "position": 5, "riderId": null, "name": "Corbin Strong", "team": "NSN Cycling Team", "gap": "+0:04" }
   ],
   "narrative": {
@@ -33,7 +33,7 @@
       "riderIds": ["tadej-pogacar"]
     },
     {
-      "team": "INEOS Grenadiers / Pinarello-Q36.5",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
       "verdict": "A second-place that was a tactical masterclass",
       "verdictClass": "neutral",
       "narrative": "Pidcock — racing for Pinarello-Q36.5 now, not INEOS — read the race correctly: don't wait for the Poggio, follow Pogačar on the Cipressa, save the legs for a two-up sprint. Every step worked except the last one. Losing Sanremo by centimetres to the form rider on the planet is not a failure. It's the closest anyone got to him on a hilly Monument all spring.",
@@ -47,14 +47,14 @@
       "riderIds": ["mathieu-van-der-poel", "jasper-philipsen"]
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Stuck in the bunch, salvaged the podium",
       "verdictClass": "neutral",
       "narrative": "Visma rode reactive on the Cipressa and paid the price — they could not place a rider in the selection and ended up depending on chase cohesion behind. Van Aert had the legs but not the position, and won the bunch sprint for third from the second group on the road. Jorgenson was the day's most visible Visma support; Brennan in the bunch.",
       "riderIds": ["wout-van-aert", "matteo-jorgenson"]
     },
     {
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "verdict": "Pedersen 4th, never in the move",
       "verdictClass": "neutral",
       "narrative": "Lidl-Trek planned for a reduced sprint with Pedersen and got something close to it — but the Cipressa selection happened a layer above them and they spent the descent and run-in trying to bring it back rather than contesting it. Pedersen's fourth is the textbook Monument near-miss; the Skjelmose and Ciccone follow-on cards never had a chance to deploy.",
@@ -82,7 +82,7 @@
       "incident": "Crashed at 32 km to go; remounted without injury"
     },
     {
-      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Visma | Lease a Bike",
+      "riderId": "wout-van-aert", "name": "Wout van Aert", "team": "Team Visma | Lease a Bike",
       "role": "leader", "position": 3, "gap": "+0:04",
       "narrative": "Stuck in the chase group when Pogačar lit the Cipressa, then won the bunch sprint for third — the maximum return given the position he had. A Sanremo where being four seconds off the lead is the difference between losing and contesting.",
       "keyMoments": [
@@ -102,14 +102,14 @@
       "incident": null
     },
     {
-      "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl-Trek",
+      "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Lidl - Trek",
       "role": "leader", "position": 4, "gap": "+0:04",
       "narrative": "The textbook Sanremo near-miss. Strong through the Tre Capi, never in the Cipressa move, sprinted for fourth in the Van Aert bunch. The Monument that gives Pedersen his best chance every year, and again he was a layer below where he needed to be on the Cipressa.",
       "keyMoments": [],
       "incident": null
     },
     {
-      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
       "role": "lieutenant", "position": null, "gap": "in bunch",
       "narrative": "Visma's most visible support across the Tre Capi and into the Cipressa, but couldn't engineer a Van Aert lead-out into the climb that mattered. Finished in the Van Aert group.",
       "keyMoments": [],
@@ -123,7 +123,7 @@
       "incident": null
     },
     {
-      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Visma | Lease a Bike",
+      "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike",
       "role": "lieutenant", "position": null, "gap": "in bunch",
       "narrative": "Sheltered Van Aert through the Aurelia and into the Tre Capi; not present in the front when the Cipressa selection went.",
       "keyMoments": [],

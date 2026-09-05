@@ -6,9 +6,9 @@
   "inProgress": false,
   "tldr": "Jasper Philipsen (Alpecin - Premier Tech) won the second men's Copenhagen Sprint in a chaotic, rain-soaked finale, catching a stubborn breakaway inside the final kilometre and beating Danish home hope Tobias Lund Andresen (Decathlon CMA CGM) and Sam Welsford (Netcompany INEOS). A late crash had split the peloton on the technical city circuit, turning an expected bunch gallop into a reduced sprint.",
   "podium": [
-    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech", "time": "4h 48m 21s" },
+    { "position": 1, "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech", "time": "4h 48m 21s" },
     { "position": 2, "riderId": "tobias-lund-andresen", "name": "Tobias Lund Andresen", "team": "Decathlon CMA CGM Team", "gap": "s.t." },
-    { "position": 3, "riderId": null, "name": "Sam Welsford", "team": "Netcompany INEOS", "gap": "s.t." }
+    { "position": 3, "riderId": null, "name": "Sam Welsford", "team": "Netcompany INEOS Cycling Team", "gap": "s.t." }
   ],
   "narrative": {
     "headline": "Philipsen survives the chaos to deny the Danes at home",
@@ -23,7 +23,7 @@
   ],
   "teamStories": [
     {
-      "team": "Alpecin - Premier Tech",
+      "team": "Alpecin-Premier Tech",
       "verdict": "Philipsen wins the sprint",
       "verdictClass": "win",
       "narrative": "Alpecin drove the reduced chase to bring back the breakaway, then delivered Philipsen into a chaotic, wet finish where he came over the top of Van Poppel's lead-out. A clean WorldTour one-day win in conditions that scrambled the script — exactly the kind of opportunism that defines Philipsen's racing.",
@@ -37,7 +37,7 @@
       "riderIds": ["tobias-lund-andresen"]
     },
     {
-      "team": "Netcompany INEOS",
+      "team": "Netcompany INEOS Cycling Team",
       "verdict": "Welsford rounds out the podium",
       "verdictClass": "neutral",
       "narrative": "Netcompany came forward late for Sam Welsford, who navigated the wet, crash-affected finale to take third. A solid podium for the sprinter on a day that punished hesitation.",
@@ -53,7 +53,7 @@
   ],
   "riderPerformances": [
     {
-      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin - Premier Tech",
+      "riderId": "jasper-philipsen", "name": "Jasper Philipsen", "team": "Alpecin-Premier Tech",
       "role": "leader", "position": 1, "gap": "winner",
       "narrative": "Philipsen kept his composure through a finale of crashes, rain and a breakaway that wouldn't die. With the escape caught inside the final kilometre, he sat on Van Poppel's lead-out and came over the top in the reduced sprint to take the win on wet Copenhagen streets, denying the Danish home crowd.",
       "keyMoments": [

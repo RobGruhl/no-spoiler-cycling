@@ -8,9 +8,9 @@
   "tldr": "Jonas Vingegaard solos to a third stage win on the summit finish at Pila and rips the maglia rosa off Afonso Eulálio, who haemorrhages 2:26 and slips to second overall. Felix Gall is best of the rest at +0:49 and climbs to third in the new GC.",
   "podium": [
     { "position": 1, "name": "Jonas Vingegaard", "team": "Team Visma | Lease a Bike", "riderId": "jonas-vingegaard", "time": "3:53:01" },
-    { "position": 2, "name": "Felix Gall", "team": "Decathlon AG2R La Mondiale Team", "riderId": "felix-gall", "gap": "+0:49" },
+    { "position": 2, "name": "Felix Gall", "team": "Decathlon CMA CGM Team", "riderId": "felix-gall", "gap": "+0:49" },
     { "position": 3, "name": "Jai Hindley", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:58" },
-    { "position": 4, "name": "Davide Piganzoli", "team": "Polti VisitMalta", "gap": "+1:03" },
+    { "position": 4, "name": "Davide Piganzoli", "team": "Team Polti VisitMalta", "gap": "+1:03" },
     { "position": 5, "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "riderId": "giulio-pellizzari", "gap": "s.t. (+1:03)" }
   ],
   "narrative": {
@@ -40,7 +40,7 @@
     {
       "riderId": "felix-gall",
       "name": "Felix Gall",
-      "team": "Decathlon AG2R La Mondiale Team",
+      "team": "Decathlon CMA CGM Team",
       "role": "gc-contender",
       "position": 2,
       "gap": "+0:49",
@@ -67,7 +67,7 @@
     {
       "riderId": "thymen-arensman",
       "name": "Thymen Arensman",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "gc-contender",
       "position": 6,
       "gap": "+1:23",
@@ -93,7 +93,7 @@
     {
       "riderId": "egan-bernal",
       "name": "Egan Bernal",
-      "team": "INEOS Grenadiers",
+      "team": "Netcompany INEOS Cycling Team",
       "role": "gc-contender",
       "position": 10,
       "gap": "+2:08",

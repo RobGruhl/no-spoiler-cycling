@@ -8,7 +8,7 @@
   "tldr": "Tadej Pogacar attacked from the GC group at the foot of Alpe d'Huez, caught and dropped a breakaway group containing Lenny Martinez and Richard Carapaz, then rode the final 800 metres solo to claim his fifth stage win of the Tour — and a new Alpe d'Huez record that broke Marco Pantani's 29-year-old mark. Martinez moved up two places in the GC via the breakaway; Juan Ayuso and Tom Pidcock cracked on the final climb and lost significant time.",
   "podium": [
     { "position": 1, "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG", "time": "3h 17m 57s", "riderId": "tadej-pogacar" },
-    { "position": 2, "name": "Lenny Martínez", "team": "Bahrain Victorious", "gap": "+0:06", "riderId": "lenny-martinez" },
+    { "position": 2, "name": "Lenny Martínez", "team": "Bahrain - Victorious", "gap": "+0:06", "riderId": "lenny-martinez" },
     { "position": 3, "name": "Richard Carapaz", "team": "EF Education - EasyPost", "gap": "+0:09", "riderId": "richard-carapaz" },
     { "position": 4, "name": "Sepp Kuss", "team": "Team Visma | Lease a Bike", "gap": "+1:14" },
     { "position": 5, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+2:07" }
@@ -40,7 +40,7 @@
     {
       "riderId": "lenny-martinez",
       "name": "Lenny Martínez",
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "role": "stage-hunter",
       "position": 2,
       "gap": "+0:06",
@@ -95,7 +95,7 @@
     {
       "riderId": "mattias-skjelmose-jensen",
       "name": "Mattias Skjelmose",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "leader",
       "position": 8,
       "gap": "+2:45",
@@ -121,7 +121,7 @@
     {
       "riderId": "juan-ayuso-pesquera",
       "name": "Juan Ayuso",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "leader",
       "position": 17,
       "gap": "+6:26",
@@ -135,7 +135,7 @@
     {
       "riderId": "thomas-pidcock",
       "name": "Tom Pidcock",
-      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
       "role": "leader",
       "position": 20,
       "gap": "+8:22",
@@ -148,7 +148,7 @@
     {
       "riderId": "mads-pedersen",
       "name": "Mads Pedersen",
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "role": "stage-hunter",
       "position": null,
       "gap": "n/a (finished behind top 20)",

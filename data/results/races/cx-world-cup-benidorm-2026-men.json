@@ -6,10 +6,10 @@
   "inProgress": false,
   "tldr": "Mathieu van der Poel went solo at the end of the opening lap and rode the entire field off his wheel on the dusty Benidorm hills, taking his sixth World Cup round win of the season and clinching the overall 2025–2026 UCI Cyclo-cross World Cup. Thibau Nys dropped home-favourite Felipe Orts on the last lap for second; Orts held on for a Spanish-soil podium in third.",
   "podium": [
-    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech", "time": "1h 01m 04s" },
+    { "position": 1, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech", "time": "1h 01m 04s" },
     { "position": 2, "name": "Thibau Nys", "team": "Baloise Verzekeringen - Het Poetsbureau Lions", "gap": "+0:28" },
     { "position": 3, "name": "Felipe Orts", "team": "Ridley Racing Team", "gap": "+0:32" },
-    { "position": 4, "name": "Tibor Del Grosso", "team": "Alpecin - Premier Tech", "gap": "+0:44" },
+    { "position": 4, "name": "Tibor Del Grosso", "team": "Alpecin-Premier Tech", "gap": "+0:44" },
     { "position": 5, "name": "Niels Vandeputte", "team": "Alpecin-Premier Tech Development Team", "gap": "+0:44" },
     { "position": 6, "name": "Mees Hendrikx", "team": "Heizomat - Cube", "gap": "+0:45" },
     { "position": 7, "name": "Joris Nieuwenhuis", "team": "Ridley Racing Team", "gap": "+0:46" },
@@ -31,7 +31,7 @@
   ],
   "teamStories": [
     {
-      "team": "Alpecin - Premier Tech",
+      "team": "Alpecin-Premier Tech",
       "verdict": "Win + 4th + 5th",
       "verdictClass": "win",
       "narrative": "A total Alpecin show. Mathieu van der Poel did exactly what he had done all winter — turned a single early opening into an unbridgeable gap — and his teammates filled the placings behind: Tibor Del Grosso took the holeshot and finished fourth, while development-squad rider Niels Vandeputte was fifth. Benidorm sealed the world champion's overall World Cup title in a season he never lost a round he started.",
@@ -54,7 +54,7 @@
   ],
   "riderPerformances": [
     {
-      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin - Premier Tech",
+      "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Alpecin-Premier Tech",
       "role": "leader", "position": 1, "gap": "—",
       "narrative": "A signature Van der Poel cyclocross win on terrain — fast, dry, power-based — that suited him perfectly. He used the lap-one hurdles crash to open a gap and simply rode away, soloing from the end of the first lap to the line for his sixth World Cup round win of the season and remaining unbeaten in every round he started. The victory clinched his second career overall UCI Cyclo-cross World Cup title and carried him into the road season in dominant form.",
       "keyMoments": [

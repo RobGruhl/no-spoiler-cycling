@@ -7,7 +7,7 @@
   "tldr": "Demi Vollering (FDJ United - SUEZ) overturned a near-minute deficit on the final day to win the 2026 Giro d'Italia Women, completing the women's Grand Tour Triple Crown (Tour de France Femmes + Vuelta Femenina + Giro) in a single season — only the second woman ever, after Annemiek van Vleuten. Anna van der Breggen had led from her crushing Stage 4 uphill time trial all the way to Stage 9, but a Stage 9 ambush over the Montoso and Colletto di Brondello flipped the race: Antonia Niedermaier (CANYON//SRAM) climbed to 2nd at +0:30, van der Breggen slipped to 3rd at +1:37, and Elisa Longo Borghini won the final stage in Saluzzo. Vollering also took the mountains jersey; Elisa Balsamo (Lidl - Trek) the points (maglia rossa), and Isabella Holmgren (Lidl - Trek) best young rider. Lorena Wiebes won Stage 1 on the road but was disqualified that evening for an underweight bike.",
   "podium": [
     { "position": 1, "riderId": "demi-vollering", "name": "Demi Vollering", "team": "FDJ United - SUEZ", "time": "29h 54m 19s" },
-    { "position": 2, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM", "gap": "+0:30" },
+    { "position": 2, "riderId": "antonia-niedermaier", "name": "Antonia Niedermaier", "team": "CANYON//SRAM zondacrypto", "gap": "+0:30" },
     { "position": 3, "riderId": "anna-van-der-breggen", "name": "Anna van der Breggen", "team": "Team SD Worx - Protime", "gap": "+1:37" },
     { "position": 4, "riderId": "elisa-longo-borghini", "name": "Elisa Longo Borghini", "team": "UAE Team ADQ", "gap": "+2:44" },
     { "position": 5, "riderId": "niamh-fisher-black", "name": "Niamh Fisher-Black", "team": "Lidl - Trek", "gap": "+3:26" },
@@ -57,7 +57,7 @@
       "riderIds": ["elisa-balsamo", "niamh-fisher-black"]
     },
     {
-      "team": "CANYON//SRAM",
+      "team": "CANYON//SRAM zondacrypto",
       "verdict": "2nd overall, final-day aggression",
       "verdictClass": "win",
       "narrative": "Antonia Niedermaier rode the most aggressive GC race of anyone on the final day. After sitting in the top group all week, she attacked over the Montoso on Stage 9 with Longo Borghini and Fisher-Black, building enough of a gap to ride briefly into virtual pink before Vollering bridged across. She held on for 2nd overall at +0:30 — CANYON//SRAM's headline result of the race — with Chiara Consonni adding consistent top-10 sprint placings on the flat stages.",
@@ -118,7 +118,7 @@
     {
       "riderId": "antonia-niedermaier",
       "name": "Antonia Niedermaier",
-      "team": "CANYON//SRAM",
+      "team": "CANYON//SRAM zondacrypto",
       "role": "leader",
       "position": 2,
       "gap": "+0:30",

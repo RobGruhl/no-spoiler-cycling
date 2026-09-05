@@ -9,9 +9,9 @@
   "podium": [
     { "position": 1, "riderId": "tadej-pogacar", "name": "Tadej Pogačar", "team": "UAE Team Emirates - XRG" },
     { "position": 2, "riderId": "lenny-martinez", "name": "Lenny Martinez", "team": "Bahrain - Victorious", "gap": "+0:07" },
-    { "position": 3, "name": "Bart Lemmen", "team": "Visma | Lease a Bike", "gap": "+1:33" },
-    { "position": 4, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto", "gap": "+1:53" },
-    { "position": 5, "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "Israel - Premier Tech", "gap": "+1:55" }
+    { "position": 3, "name": "Bart Lemmen", "team": "Team Visma | Lease a Bike", "gap": "+1:33" },
+    { "position": 4, "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto Intermarché", "gap": "+1:53" },
+    { "position": 5, "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "NSN Cycling Team", "gap": "+1:55" }
   ],
   "narrative": {
     "headline": "Pogačar storms the Queen Stage to cap a Suisse rout",
@@ -44,14 +44,14 @@
       "incident": null
     },
     {
-      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto",
+      "riderId": "jarno-widar", "name": "Jarno Widar", "team": "Lotto Intermarché",
       "role": "stage-hunter", "position": 4, "gap": "+1:53",
       "narrative": "The young Belgian climbed strongly on the Queen Stage to take fourth on the day, a standout ride among the climbers chasing behind the Pogačar–Martinez duel.",
       "keyMoments": [],
       "incident": null
     },
     {
-      "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "Israel - Premier Tech",
+      "riderId": "matthew-riccitello", "name": "Matthew Riccitello", "team": "NSN Cycling Team",
       "role": "leader", "position": 5, "gap": "+1:55",
       "narrative": "Fifth on the stage and seventh overall at +8:46, the American confirmed his form as one of the strongest young GC climbers in the field on the race's decisive mountain day.",
       "keyMoments": [],

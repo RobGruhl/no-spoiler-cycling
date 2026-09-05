@@ -6,10 +6,10 @@
   "tldr": "Paul Seixas timed a textbook Mur de Huy ride to win his first Monument-tier race — held the wheel until 200 m, then exploded clear of the last contenders. Schmid surged past Tulett in the last 50 m for second; Cosnefroy completed UAE's salvage card in fourth without Pogačar on the start sheet. The spring's outsider story now had a one-day Classics win attached.",
   "podium": [
     { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "time": "4h 35m 29s" },
-    { "position": 2, "riderId": null, "name": "Mauro Schmid", "team": "Jayco AlUla", "gap": "+0:03" },
-    { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Visma | Lease a Bike", "gap": "+0:03" },
+    { "position": 2, "riderId": null, "name": "Mauro Schmid", "team": "Team Jayco AlUla", "gap": "+0:03" },
+    { "position": 3, "riderId": null, "name": "Ben Tulett", "team": "Team Visma | Lease a Bike", "gap": "+0:03" },
     { "position": 4, "riderId": null, "name": "Benoît Cosnefroy", "team": "UAE Team Emirates - XRG", "gap": "+0:03" },
-    { "position": 5, "riderId": null, "name": "Mattias Skjelmose", "team": "Lidl-Trek", "gap": "+0:08" }
+    { "position": 5, "riderId": null, "name": "Mattias Skjelmose", "team": "Lidl - Trek", "gap": "+0:08" }
   ],
   "narrative": {
     "headline": "Seixas wins the Mur, 200 m at a time",
@@ -39,21 +39,21 @@
       "riderIds": []
     },
     {
-      "team": "Visma | Lease a Bike",
+      "team": "Team Visma | Lease a Bike",
       "verdict": "Tulett third on the climb where everyone fades",
       "verdictClass": "neutral",
       "narrative": "Ben Tulett — Visma's 22-year-old British climber, ridden to fifth on Itzulia Stage 2 a fortnight earlier — took on Flèche as the team's protected card and rode the wheel beautifully until the gradient eased. Schmid's surge cost him second; the final podium step was still the season's biggest result and a clean validation of Visma's bet on him for the Ardennes block. Jorgenson was the senior support on the day.",
       "riderIds": ["matteo-jorgenson"]
     },
     {
-      "team": "Lidl-Trek",
+      "team": "Lidl - Trek",
       "verdict": "Skjelmose 5th, no Mur kick",
       "verdictClass": "neutral",
       "narrative": "Skjelmose held the second-tier chase group through the closing kilometres without ever threatening the front trio. Fifth on the same time as Baudin; the Ardennes week's two-from-three Skjelmose pursuit (he was second at Amstel, sixth ish-time at Liège to come) made him the most consistently top-10 Lidl-Trek Ardennes rider of the spring.",
       "riderIds": []
     },
     {
-      "team": "EF Education-EasyPost",
+      "team": "EF Education - EasyPost",
       "verdict": "Baudin top 6 — Decathlon's neighbours notice",
       "verdictClass": "neutral",
       "narrative": "Alex Baudin's sixth on the same time as Skjelmose was the season's first top-10 statement from the French climber EF have built around for the Ardennes. The team's quietly-targeted long-shot card lined up against Seixas's overwhelming-favourite card and finished a couple of seconds back.",
@@ -72,14 +72,14 @@
       "incident": null
     },
     {
-      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Visma | Lease a Bike",
+      "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "Team Visma | Lease a Bike",
       "role": "lieutenant", "position": null, "gap": "in front group",
       "narrative": "Visma's senior support for Ben Tulett's debut leader's day; held the front of the chase through the closing 30 km, protected Tulett's positioning into the Mur. The Ardennes-rider's race rather than a winning bid; Jorgenson's Flèche calendar is built around Liège four days later.",
       "keyMoments": [],
       "incident": null
     },
     {
-      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education-EasyPost",
+      "riderId": "alex-baudin", "name": "Alex Baudin", "team": "EF Education - EasyPost",
       "role": "leader", "position": 6, "gap": "+0:08",
       "narrative": "Sixth in the front group, same time as Skjelmose. EF's quietly-targeted Ardennes long-shot, on a day where the favourite happened to be 19 years old. A top-10 statement.",
       "keyMoments": [],

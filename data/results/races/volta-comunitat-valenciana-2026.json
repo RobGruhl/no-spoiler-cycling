@@ -9,7 +9,7 @@
     { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "time": "13h 10m 12s" },
     { "position": 2, "riderId": "joao-almeida", "name": "João Almeida", "team": "UAE Team Emirates - XRG", "gap": "+0:31" },
     { "position": 3, "riderId": "giulio-pellizzari", "name": "Giulio Pellizzari", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:34" },
-    { "position": 4, "riderId": null, "name": "Antonio Tiberi", "team": "Bahrain Victorious", "gap": "+0:36" },
+    { "position": 4, "riderId": null, "name": "Antonio Tiberi", "team": "Bahrain - Victorious", "gap": "+0:36" },
     { "position": 5, "riderId": null, "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:50" }
   ],
   "narrative": {
@@ -60,7 +60,7 @@
       "riderIds": []
     },
     {
-      "team": "Bahrain Victorious",
+      "team": "Bahrain - Victorious",
       "verdict": "Tiberi 4th overall",
       "verdictClass": "neutral",
       "narrative": "Antonio Tiberi was Bahrain Victorious's GC card and finished a close fourth overall, just outside the podium and only two seconds behind Pellizzari — a respectable opener that flagged his early-season climbing form.",
