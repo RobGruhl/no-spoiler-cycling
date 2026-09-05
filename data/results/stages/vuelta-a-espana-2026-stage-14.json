@@ -1,0 +1,108 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 14,
+  "stageName": "Jaén–Sierra de la Pandera → Sierra de la Pandera",
+  "stageDate": "2026-09-05",
+  "stageType": "mountain",
+  "researchedAt": "2026-09-05T19:40:00Z",
+  "tldr": "Marco Brenner countered an attack from KOM leader Santiago Buitrago in the final kilometre of the Sierra de la Pandera to win his first Grand Tour stage, while Felix Gall matched Enric Mas on the HC climb to leapfrog Primož Roglič into second overall.",
+  "podium": [
+    { "position": 1, "name": "Marco Brenner", "team": "Tudor Pro Cycling Team", "time": "4h 15m 09s" },
+    { "position": 2, "name": "Santiago Buitrago", "team": "Bahrain - Victorious", "gap": "+0:01" },
+    { "position": 3, "name": "Cristián Rodríguez", "team": "XDS Astana Team", "gap": "+0:11" }
+  ],
+  "narrative": {
+    "headline": "Brenner powers past Buitrago for a first Grand Tour win on Pandera",
+    "body": "It took a long time for a breakaway to form on the 154.5km run from Jaén, but when it finally went clear it was enormous: 45 riders, including João Almeida, Kevin Vermaerke, Steven Kruijswijk, Jørgen Nordhagen, KOM leader Santiago Buitrago, Valentin Paret-Peintre, Iván Sosa, Filippo Zana, Pello Bilbao and Marco Brenner. The group's advantage swelled past 7 minutes before Vermaerke attacked solo on the descent of the Puerto de Los Villares and stretched it beyond 8.\n\nGeorg Steinhauser bridged up to Vermaerke on the lower slopes of Pandera, and the pair briefly worked together before the real selection began. Mario Aparicio, Brenner, Walter Calzoni, Buitrago, Paret-Peintre, Sosa, Clément Berthet and Cristián Rodríguez all fought their way across in turn on the climb's brutal upper ramps; Aparicio spent 1.5km alone before Buitrago reeled him in, with Brenner arriving just behind the polka-dot jersey.\n\nSosa and Rodríguez briefly closed back to the two leaders, but were dropped again the moment Buitrago accelerated under the flamme rouge. Brenner launched his own pursuit and powered straight past the Colombian, holding on through the final corners for his first Grand Tour victory. Rodríguez outsprinted the rest of the chase for third.\n\nBehind, the GC group blew apart lower down the climb when Richard Carapaz attacked and only Enric Mas and Felix Gall could go with him, with Primož Roglič closing the gap a little later. Roglič was then repeatedly caught out in the finale and had to let Mas and Gall ride clear, conceding 25 seconds and, with it, second place overall to the Austrian. Mas crossed with Gall to retain the red jersey unchanged."
+  },
+  "gcImpact": {
+    "headline": "Gall leapfrogs Roglič into second; Mas's lead over the pair widens to 2:06 / 2:10",
+    "body": "Enric Mas leads outright, with Felix Gall now second at 2:06 after moving above Primož Roglič, who drops to third at 2:10 — just four seconds separating the two challengers. Richard Carapaz holds fourth at 4:24, Oscar Onley fifth at 5:44, Jakob Omrzel sixth at 6:14 and Mattias Skjelmose seventh at 6:49. Cristián Rodríguez climbed three places to eighth after his stage podium, Clément Berthet moved into ninth, and Sepp Kuss slipped from eighth to tenth."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "role": "stage-hunter",
+      "position": 10,
+      "gap": "+1:09",
+      "narrative": "Almeida made the day's enormous 45-rider breakaway from the gun, one of the few genuine GC-class names to get in the move. As the group repeatedly split and reformed on the Puerto de Los Villares and the lower slopes of Pandera, he worked his way through the remnants of the selection behind the Aparicio-Buitrago-Brenner group, ultimately finishing tenth at 1:09 down — his best individual result of the race since Tadej Pogačar's stage 8 abandon left UAE without an overall favourite to ride for.",
+      "keyMoments": [
+        { "km": 20, "what": "Makes the 45-rider breakaway on the opening climbing terrain" },
+        { "km": 154, "what": "Finishes tenth, working through the front group's remnants on the upper slopes of Pandera" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 21,
+      "gap": "+4:12",
+      "narrative": "Gall matched Richard Carapaz's decisive attack on the lower slopes of Sierra de la Pandera, one of only two riders — alongside race leader Enric Mas — able to go with it before Primož Roglič closed back on a little later. In the finale, with Roglič repeatedly caught on the back foot, Gall stayed glued to Mas all the way to the line, riding away from Roglič in the process. The result leapfrogs him above the four-time Vuelta champion into second overall, now 2:06 down on Mas with just four seconds separating him from Roglič in third ahead of the race's final week.",
+      "keyMoments": [
+        { "km": 145, "what": "Follows Carapaz's attack on the lower slopes alongside Mas, one of the first riders able to respond" },
+        { "km": 154, "what": "Finishes with Mas, dropping Roglič to move into second overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 24,
+      "gap": "+4:37",
+      "narrative": "Roglič closed the gap to Carapaz's early move on the lower climb a little later than Mas and Gall, but was repeatedly caught on the back foot as the pace intensified in the finale and eventually had to let the pair ride clear. He conceded 25 seconds on the stage and, with it, second place overall — dropping to third at 2:10 down on Mas, only four seconds behind Gall, with the Vuelta's toughest remaining tests, including another summit finish, still to come.",
+      "keyMoments": [
+        { "km": 148, "what": "Bridges up to Carapaz, Mas and Gall's move slightly later than the others" },
+        { "km": 153, "what": "Dropped by Mas and Gall inside the closing kilometre, losing 25 seconds and second place overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 25,
+      "gap": "+4:43",
+      "narrative": "Carapaz lit the fuse on the GC battle himself, attacking on the lower slopes of Pandera with only Mas, Gall and, a little later, Roglič able to follow. He couldn't match the leading pair's finishing kick once Roglič was dropped, settling for 25th on the stage, six seconds adrift of Roglič's group. He remains fourth overall, now 4:24 down on Mas after ceding a little more ground in the reshuffle behind him.",
+      "keyMoments": [
+        { "km": 145, "what": "Launches the attack that splits the GC group, with only Mas, Gall and later Roglič able to respond" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 29,
+      "gap": "+5:27",
+      "narrative": "Onley lost contact with the Mas-Gall-Roglič-Carapaz group inside the closing kilometres of Pandera, conceding another 50 seconds within the GC reshuffle to finish 29th on the stage. He remains fifth overall but now sits 5:44 down on Mas, further back from the podium places than he was before the stage.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 33,
+      "gap": "+5:29",
+      "narrative": "Skjelmose was dropped from the main GC group on the final climb and finished 33rd, conceding further time in the overall standings after his breakaway gains two days earlier. He remains seventh overall but now trails Mas by 6:49, extending the gap from before the stage.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-14-spain-results-2026/", "publication": "CyclingStage", "title": "Vuelta 2026: Brenner triumphs atop Sierra de la Pandera, Mas tightens grip on red", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/vuelta-a-espana-2026-classifications-update-stage-14-enric-mas-strengthens-red-as-felix-gall-leapfrogs-primoz-roglic", "publication": "CyclingUpToDate", "title": "Vuelta a Espana 2026 Classifications Update Stage 14 - Enric Mas strengthens red as Felix Gall leapfrogs Primoz Roglic", "lang": "en" },
+    { "url": "https://www.cyclingnews.com/pro-cycling/live/vuelta-a-espana-stage-14-live-back-to-the-mountains-for-a-big-test-at-sierra-de-la-pandera/", "publication": "Cyclingnews", "title": "As it happened: A breakaway triumph as the red jersey gains time on Vuelta a España stage 14 summit finish", "lang": "en" }
+  ]
+}
