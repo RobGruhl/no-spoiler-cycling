@@ -1,0 +1,124 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 16,
+  "stageName": "Cortegana → La Rábida (Palos de la Frontera)",
+  "stageDate": "2026-09-08",
+  "stageType": "flat",
+  "researchedAt": "2026-09-08T19:30:00Z",
+  "tldr": "Matthew Brennan out-sprinted the bunch for his fourth stage win of this Vuelta at La Rábida, with Wout van Aert delivering another perfect lead-out; the GC is unchanged, with Enric Mas leading Felix Gall and Primož Roglič into the final week.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "3h 56m 33s" },
+    { "position": 2, "name": "Bryan Coquard", "team": "Cofidis", "gap": "s.t." },
+    { "position": 3, "name": "Vito Braet", "team": "Lotto Intermarché", "gap": "s.t." },
+    { "position": 4, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Brennan destroys the sprint for a fourth win as Van Aert delivers again",
+    "body": "After a run of climbing days, breakaways and brutal heat, stage 16 finally offered the sprinters a clean shot: 181.1km from Cortegana to La Rábida, hilly early on but flat to the finish. Kevin Vermaerke, Valentin Madouas, Simon Dalby, Jasha Sütterlin and Roland Thalmann went clear from the gun and pushed their advantage to nearly three minutes, but Team Visma | Lease a Bike — with Brennan already on three stage wins — controlled the gap all day and reeled the five in with about 24km to go.\n\nA strong coastal crosswind briefly split the peloton in two, raising echelon fears, but the race came back together before real damage was done. Inside the closing kilometres, Soudal Quick-Step moved up for Alberto Dainese, but Visma held its position with its two biggest weapons. Van Aert took over on the front, drove into a headwind that discouraged anyone from coming around him, and delivered Brennan to the line.\n\nBrennan came off Van Aert's wheel in the final metres and opened a gap immediately, sprinting away unchallenged for his fourth win of this Vuelta. Bryan Coquard and Vito Braet took second and third, Jordi Meeus was fourth, and Van Aert kept sprinting all the way to the line for sixth and more green-jersey points. With the bunch finishing together, there were no changes in the general classification, and Enric Mas retains the red jersey ahead of Gall and Roglič heading into the final week."
+  },
+  "gcImpact": {
+    "headline": "GC unchanged: Mas's lead over Gall and Roglič holds",
+    "body": "The bunch sprint finish left the general classification exactly as it was. Enric Mas leads Felix Gall by 2:06 and Primož Roglič by 2:10, with Richard Carapaz fourth at 4:24 and Oscar Onley fifth at 5:44. Mattias Skjelmose sits seventh at 6:49 as the race enters its final week unchanged at the top."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Brennan sat patiently on Van Aert's wheel through the finale, unbothered by the coastal crosswind that briefly split the bunch. When Van Aert peeled off in the final metres, Brennan came around him and opened daylight immediately, sprinting home untouched for his fourth stage win of this Grand Tour debut — an extraordinary tally for a rider who doesn't consider himself a pure sprinter.",
+      "keyMoments": [
+        { "km": 181, "what": "Comes off Van Aert's wheel and sprints clear for his fourth stage win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 6,
+      "gap": "s.t.",
+      "narrative": "Van Aert controlled the closing kilometres into a headwind that discouraged any rival from coming around him, then delivered Brennan to the line with another textbook lead-out before finishing the sprint himself for sixth and more green-jersey points. His team had chased down the day's five-man break all afternoon to set up the finish, extending Visma's dominance of the sprint stages.",
+      "keyMoments": [
+        { "km": 180, "what": "Drives the lead-out into a headwind before peeling off for Brennan" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "Meeus navigated the fast, wind-affected finale to come home fourth, the best result available to the non-Visma sprinters on a day the green jersey team controlled the finish from start to end.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 70,
+      "gap": "s.t.",
+      "narrative": "Gall rolled in safely with the main bunch on a day with no GC implications, keeping his 2:06 deficit to Mas unchanged as the race heads into its final week.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 65,
+      "gap": "s.t.",
+      "narrative": "Roglič came through the crosswind-affected finale untroubled, still third overall at 2:10 behind Mas.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 37,
+      "gap": "s.t.",
+      "narrative": "Carapaz finished safely in the bunch and holds fourth overall at 4:24 with the final week now underway.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 43,
+      "gap": "s.t.",
+      "narrative": "Onley rolled in with the peloton, unaffected by the crosswind splits, and remains fifth overall at 5:44.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 71,
+      "gap": "s.t.",
+      "narrative": "Skjelmose came through the sprint stage safely and sits seventh overall at 6:49.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-16-spain-results-2026/", "publication": "CyclingStage.com", "title": "Vuelta 2026: Brennan powers to his fourth win, Mas still lead", "lang": "en" },
+    { "url": "https://pezcyclingnews.com/racing/vuelta-a-espana-2026-stage-16-matthew-brennan-wins/", "publication": "PEZ Cycling News", "title": "Vuelta'26 Stage 16: Brennan Blasts to Number Four!", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-espana/2026/stage-16", "publication": "ProCyclingStats", "title": "2026 La Vuelta Ciclista a España - Stage 16 Results", "lang": "en" }
+  ]
+}
