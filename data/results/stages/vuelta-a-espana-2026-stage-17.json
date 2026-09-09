@@ -1,0 +1,110 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 17,
+  "stageName": "Dos Hermanas → Sevilla",
+  "stageDate": "2026-09-09",
+  "stageType": "flat",
+  "researchedAt": "2026-09-09T19:35:00Z",
+  "tldr": "Matthew Brennan won the bunch sprint into Sevilla for his fifth stage win of this Vuelta, beating Jordi Meeus and Magnus Cort off a Van Aert lead-out; the GC is unchanged, with Enric Mas leading Felix Gall and Primož Roglič into Thursday's time trial in Jerez.",
+  "podium": [
+    { "position": 1, "riderId": "matthew-brennan", "name": "Matthew Brennan", "team": "Team Visma | Lease a Bike", "time": "4h 07m 15s" },
+    { "position": 2, "riderId": "jordi-meeus", "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t." },
+    { "position": 3, "name": "Magnus Cort", "team": "Uno-X Mobility", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Brennan wins the flattest stage of the Vuelta for a fifth victory",
+    "body": "On the flattest stage of the entire race — 185km from Dos Hermanas to Sevilla — Enzo Paleni, Fredrik Dversnes and Sinuhé Fernández escaped early and built a lead of more than five minutes before Dversnes sat up and the other two pressed on alone. With 15km to go the gap had come down to a minute, prompting Paleni to attack solo, but the peloton swallowed him inside the final 3km.\n\nIn the sprint, Magnus Cort took the initiative first, but Wout van Aert guided Matthew Brennan onto the Dane's wheel before the Brit came around decisively to win going away. Jordi Meeus took second but was never really in contention for the win, with Cort holding on for third.\n\nThere were no changes in the general classification: Enric Mas retains the red jersey ahead of Felix Gall and Primož Roglič as the race moves into Thursday's 32km time trial in Jerez de la Frontera."
+  },
+  "gcImpact": {
+    "headline": "GC unchanged: Mas holds his lead into the Jerez time trial",
+    "body": "The bunch sprint left the general classification exactly as it was. Enric Mas leads Felix Gall by 2:06 and Primož Roglič by 2:10, with Richard Carapaz fourth at 4:24, Oscar Onley fifth at 5:44 and Jakob Omrzel sixth at 6:14. Mattias Skjelmose sits seventh at 6:49 heading into the 32km individual time trial in Jerez de la Frontera, the last real chance for the chasers to make up ground before the Sierra Nevada finale."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 1,
+      "gap": null,
+      "narrative": "Brennan let Magnus Cort go first in the sprint, was guided onto the Dane's wheel by Wout van Aert, and then came around decisively to win clear of the field. It was his fifth stage win of this Vuelta, extending an extraordinary Grand Tour debut on the flattest stage of the race.",
+      "keyMoments": [
+        { "km": 185, "what": "Comes off Van Aert's wheel to beat Cort and Meeus for his fifth stage win" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Meeus finished second in the bunch sprint but was never really in contention for the win once Brennan came around, the best result available to the chasing sprinters on a day Visma again controlled the finale.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 49,
+      "gap": "s.t.",
+      "narrative": "Gall rolled in safely with the bunch on the flattest stage of the race, keeping his 2:06 deficit to Mas unchanged heading into the Jerez time trial.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 36,
+      "gap": "s.t.",
+      "narrative": "Roglič came through the sprint stage untroubled, still third overall at 2:10 behind Mas with the Jerez time trial next.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 34,
+      "gap": "s.t.",
+      "narrative": "Carapaz finished safely in the bunch and holds fourth overall at 4:24 heading into the Jerez time trial.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 60,
+      "gap": "s.t.",
+      "narrative": "Onley rolled in with the peloton on the pan-flat stage and remains fifth overall at 5:44 with the Jerez time trial next.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 63,
+      "gap": "s.t.",
+      "narrative": "Skjelmose came through the sprint stage safely and sits seventh overall at 6:49 heading into the Jerez time trial, where he will look to claw back time on the group ahead.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-17-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Brennan strikes again, Mas retains red", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/2026-vuelta-a-espana-stage-17-brennan-can-do-it-even-without-a-lead-out-man/", "publication": "Tour Magazin", "title": "Matthew Brennan wins the 17th stage of the Vuelta in Seville", "lang": "en" },
+    { "url": "https://www.procyclingstats.com/race/vuelta-a-espana/2026/stage-17", "publication": "ProCyclingStats", "title": "2026 La Vuelta Ciclista a España - Stage 17 Results", "lang": "en" }
+  ]
+}
