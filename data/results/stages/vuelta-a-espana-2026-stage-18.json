@@ -1,0 +1,115 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 18,
+  "stageName": "El Puerto de Santa María → Jerez de la Frontera (ITT)",
+  "stageDate": "2026-09-10",
+  "stageType": "itt",
+  "researchedAt": "2026-09-10T19:35:00Z",
+  "tldr": "Stefan Küng out-rode a stacked start list to win the 32.1km Jerez time trial by three seconds over Callum Thornley, but the day belonged to the GC fight: Primož Roglič moved into second overall at Felix Gall's expense, yet Enric Mas limited his losses to defend a 1:37 lead into the final mountain stages.",
+  "podium": [
+    { "position": 1, "name": "Stefan Küng", "team": "Tudor Pro Cycling Team", "time": "35:23" },
+    { "position": 2, "name": "Callum Thornley", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:03" },
+    { "position": 3, "name": "João Almeida", "team": "UAE Team Emirates - XRG", "gap": "+0:09", "riderId": "joao-almeida" },
+    { "position": 4, "name": "Primož Roglič", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:19", "riderId": "primoz-roglic" },
+    { "position": 5, "name": "Wout van Aert", "team": "Team Visma | Lease a Bike", "gap": "+0:20", "riderId": "wout-van-aert" }
+  ],
+  "narrative": {
+    "headline": "Küng wins the Jerez time trial as the GC contenders play out a closer fight behind",
+    "body": "The 32.1km course from El Puerto de Santa María to Jerez de la Frontera was mostly flat, giving the specialists half an hour of sustained effort before a technical, occasionally slippery run to the line. Ethan Hayter set an early benchmark before Callum Thornley took over, reaching the finish in 35:25 and looking good enough to contend for the win with several favourites still to start.\n\nJoão Almeida briefly threatened Thornley's time before fading in the closing kilometres to finish six seconds slower. Stefan Küng, starting just two minutes after Bruno Armirail, built his winning margin in the 11.7–22.1km middle sector, taking 11 seconds out of Thornley at the second checkpoint. Küng then had to manage a technical, slippery final 10km, but his cushion survived: he stopped the clock at 35:22.82, extending to his second Grand Tour time-trial stage win, both coming at this Vuelta and a previous edition. Wout van Aert briefly looked like the last rider capable of taking the stage off Küng, sitting within eight seconds at the second checkpoint, but lost time in the final section to finish fifth.\n\nBehind the stage result, the GC picture tightened. Roglič, starting third overall 2:10 behind Mas and just four seconds ahead of Gall, went out fast — 22 seconds up on Mas and level on Gall at the first checkpoint, growing to 36 seconds on Mas by 22.1km. Mas, last man on the road, pulled time back over the final 10km to limit his overall deficit to Roglič to 33 seconds on the stage. Gall could not match either rival, conceding 1:28 to Roglič and dropping from second to third overall."
+  },
+  "gcImpact": {
+    "headline": "Mas defends the jersey by 1:37 as Roglič leapfrogs Gall into second",
+    "body": "Enric Mas retains the red jersey with a 1:37 lead over Primož Roglič, who moves up to second overall after taking 33 seconds out of Mas in the time trial. Felix Gall drops to third at 3:01, with Richard Carapaz fourth at 5:17 and Oscar Onley fifth at 6:03 — Onley also strengthened his hold on the young riders' classification by out-riding Jakob Omrzel, who sits sixth overall at 7:00. Mattias Skjelmose is eighth at 7:51 heading into Friday's mountain stage to Peñas Blancas, the next of two remaining summit finishes where Roglič and Gall will look to attack before Sunday's finish in Madrid."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:19",
+      "narrative": "Roglič rode the most aggressive time trial of the GC contenders, going out 22 seconds up on Mas at the first checkpoint and stretching that to 36 seconds by the second before the red-jersey holder clawed some back late. He finished fourth on the stage, 19 seconds behind Küng, and took 33 seconds out of Mas overall — enough to leapfrog Felix Gall into second overall but well short of the roughly 90 seconds he needed to put himself within range of a single mountain-stage attack. He now trails Mas by 1:37 with two summit finishes left to find it.",
+      "keyMoments": [
+        { "km": 11.7, "what": "22 seconds up on Mas at the first checkpoint" },
+        { "km": 22.1, "what": "Extends to 36 seconds over Mas, nearly a minute over Gall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 26,
+      "gap": "+1:47",
+      "narrative": "Gall came into the stage second overall but with only a four-second cushion over Roglič, an almost impossible margin to defend over 32 flat kilometres. He was 22 seconds down on Roglič at the first checkpoint and nearly a minute back by the second, eventually conceding 1:28 to the Slovenian on the stage. That drops him to third overall at 3:01 behind Mas, though he returns to terrain — the Peñas Blancas and Sierra Nevada summit finishes — that should suit him far better than a flat time trial.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 24,
+      "gap": "+1:44",
+      "narrative": "Carapaz lost time to all three riders above him but nothing that changes his position, holding fourth overall at 5:17 behind Mas with two mountain stages remaining to try to close the gap.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 17,
+      "gap": "+1:10",
+      "narrative": "Onley produced one of the stronger GC rides of the day, finishing 27 seconds faster than white-jersey rival Jakob Omrzel to strengthen his hold on the best young rider classification while holding fifth overall at 6:03 behind Mas.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 28,
+      "gap": "+1:53",
+      "narrative": "Skjelmose lost close to two minutes on the stage but holds eighth overall at 7:51 behind Mas heading into the final mountain stages.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "joao-almeida",
+      "name": "João Almeida",
+      "team": "UAE Team Emirates - XRG",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:09",
+      "narrative": "Almeida was the first rider to seriously threaten Thornley's early benchmark, matching him almost exactly at the second checkpoint before finishing six seconds slower over the closing kilometres. Third on the stage was his best result of this Vuelta and confirmed his time-trialling form outside the GC fight.",
+      "keyMoments": [ { "km": 22.1, "what": "Virtually level with Thornley at the second checkpoint" } ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "+0:20",
+      "narrative": "Van Aert was briefly the closest challenger to Küng, sitting within eight seconds at the 22.1km checkpoint before losing time in the technical closing kilometres to finish fifth, 20 seconds down. It capped a Vuelta in which he has combined two stage wins of his own with repeated lead-out work for Matthew Brennan's sprint victories.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    { "speaker": "Stefan Küng", "text": "It doesn't matter how close it is in the end. You have to win. I had a difficult moment after the second climb, but then I got back into my rhythm. That's when I made up the crucial time.", "source": "Tour Magazin" }
+  ],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-18-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Küng storms to glory, Mas retains lead", "lang": "en" },
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-18-stefan-kung-wins-jerez-time-trial-as-enric-mas-limits-losses-to-primoz-roglic/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 18: Stefan Küng wins Jerez time trial as Enric Mas limits losses to Primož Roglič", "lang": "en" },
+    { "url": "https://www.tour-magazin.de/en/2026-vuelta-a-espana-stage-18-mas-fends-off-roglic-s-attack-as-kueng-wins-the-time-trial/", "publication": "Tour Magazin", "title": "2026 Vuelta a España – Stage 18: Mas fends off Roglic's attack as Küng wins the time trial", "lang": "en" }
+  ]
+}
