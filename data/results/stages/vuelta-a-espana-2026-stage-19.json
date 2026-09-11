@@ -1,0 +1,90 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 19,
+  "stageName": "Vélez-Málaga → Peñas Blancas (Estepona)",
+  "stageDate": "2026-09-11",
+  "stageType": "hilly",
+  "researchedAt": "2026-09-11T19:35:00.000Z",
+  "tldr": "Eddie Dunbar caught and dropped Santiago Buitrago inside the final 500m to win solo atop Peñas Blancas, while Enric Mas matched every move from Primož Roglič to keep his GC lead intact ahead of the final mountain stage.",
+  "podium": [
+    { "position": 1, "name": "Eddie Dunbar", "team": "Pinarello-Q36.5 Pro Cycling Team", "time": "5h 00m 54s" },
+    { "position": 2, "name": "Santiago Buitrago", "team": "Bahrain - Victorious", "gap": "+0:14" },
+    { "position": 3, "name": "Thomas Gloag", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+0:23" }
+  ],
+  "narrative": {
+    "headline": "Dunbar runs down Buitrago in the final 500 metres for a third career Vuelta stage win.",
+    "body": "A 16-rider break formed on the day's early climbs and built a lead of over seven minutes before the foot of the closing 18.8km ascent to Peñas Blancas, with Movistar content to let it go. Santiago Buitrago attacked the break with 2.5km to go and looked to have the stage won, opening a gap that had Thomas Gloag losing time by 1.5km to go. But Eddie Dunbar refused to yield, clawing back the gap and drawing level with Buitrago inside the final 500m before powering past for the win, adding a combativity award for his day-long effort. Urko Berrade and Marcel Camprubí completed the top five from the same move. Behind, Red Bull-BORA-hansgrohe set the pace on the climb for Roglič before Movistar and EF Education-EasyPost took over, and the GC favourites stayed together until Roglič launched a probing attack inside the final kilometre. Mas responded immediately, with Gall, Onley and Carapaz also holding the wheel, and the group crossed the line together, 5:11 down on Dunbar. Mattias Skjelmose was the one general-classification rider dropped on the climb, losing 1:15 on the group and slipping from eighth to ninth overall.",
+    "keyMoments": []
+  },
+  "gcImpact": {
+    "headline": "Mas concedes nothing to Roglič, keeps a 1:37 lead into the final mountain stage.",
+    "body": "Enric Mas (Movistar) retains the overall lead unchanged at 1:37 over Primož Roglič (Red Bull-BORA-hansgrohe), with Felix Gall (Decathlon CMA CGM) third at 3:01 and Richard Carapaz (EF Education-EasyPost) fourth at 5:17. Oscar Onley (Netcompany INEOS Cycling Team) holds fifth at 6:03, ahead of Jakob Omrzel (+7:06), Clément Berthet (+7:57) and Cristián Rodríguez (+8:21). Mattias Skjelmose (Lidl-Trek) drops to ninth at 9:06 after losing time on the final climb, with Harold Tejada tenth at 10:27. Only Saturday's brutal finish atop the Collado del Alguacil remains for Roglič, Gall or Carapaz to try to overturn the order before Sunday's finale in Granada."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 14,
+      "gap": "+5:11",
+      "narrative": "Roglič had his team set the early tempo on the Peñas Blancas climb, but it was Movistar and EF Education-EasyPost who controlled the pace deeper into the ascent. He held his probing attack until inside the final kilometre, testing Mas on one of the narrowest sections, but the Movistar leader matched him without visible difficulty. Roglič finished in the same time as the rest of the GC group, 5:11 behind stage winner Dunbar, and remains 1:37 behind Mas overall with only the Collado del Alguacil left to find time.",
+      "keyMoments": [
+        { "km": 1, "what": "Attacks inside the final kilometre; Mas responds immediately" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 12,
+      "gap": "+5:11",
+      "narrative": "Gall stayed with the group of favourites throughout the closing climb, matching Roglič's late attack and finishing in the same time as the other GC contenders. He picked up two bonus seconds along the way and holds third overall, 3:01 behind Mas, heading into Saturday's steeper summit finish at the Collado del Alguacil — the terrain he will need if he is to move further up the standings.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 13,
+      "gap": "+5:11",
+      "narrative": "Carapaz had his team set a harder tempo on the lower slopes of Peñas Blancas via Cristián Rodríguez, but the move did not split the GC group. He finished with the other favourites, 5:11 behind Dunbar, and holds fourth overall at 5:17 behind Mas with one mountain stage remaining to try to close the gap.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 15,
+      "gap": "+5:11",
+      "narrative": "Onley stayed comfortably in the group of GC favourites on the closing climb, finishing in the same time as Mas, Roglič, Gall and Carapaz. He holds fifth overall at 6:03 behind Mas and keeps his grip on the best young rider classification heading into the final mountain stage.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "mattias-skjelmose-jensen",
+      "name": "Mattias Skjelmose",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 26,
+      "gap": "+6:26",
+      "narrative": "Skjelmose was distanced from the group of GC favourites as the pace increased on Peñas Blancas, unable to respond when EF Education-EasyPost lifted the tempo for Carapaz. He lost 1:15 to his GC rivals on the stage and drops from eighth to ninth overall, now 9:06 behind Mas with only Saturday's mountain stage left to defend his top-10 position.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    { "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-19-spain-results-2026/", "publication": "Cycling Stage", "title": "Vuelta 2026: Dunbar conquers Peñas Blancas, Mas retains red", "lang": "en" },
+    { "url": "https://en.brujulabike.com/eddie-dunbar-wins-at-penas-blancas-and-mas-shuts-down-roglics-attack/", "publication": "Brújula Bike", "title": "Eddie Dunbar wins at Peñas Blancas and Mas shuts down Roglič's attack", "lang": "en" },
+    { "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-19-eddie-dunbar-catches-santiago-buitrago-late-to-win-on-penas-blancas/", "publication": "ProCyclingUK", "title": "Vuelta a España 2026 stage 19: Eddie Dunbar catches Santiago Buitrago late to win on Peñas Blancas", "lang": "en" },
+    { "url": "https://www.lavuelta.es/en/rankings/stage-19", "publication": "La Vuelta (official)", "title": "Official classifications of La Vuelta - Stage 19", "lang": "en" }
+  ]
+}
