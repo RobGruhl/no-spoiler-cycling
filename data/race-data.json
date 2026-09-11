@@ -42283,8 +42283,8 @@
           ],
           "distance": 32,
           "date": "2026-09-10",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=aiEa8O2hkaI",
           "description": "32km flat coastal ITT — likely GC-decisive race-of-truth.",
           "stageDetails": {
             "spoilerSafe": true,
@@ -42295,6 +42295,11 @@
               "Sherry country: route through Jerez sherry vineyards adds cultural backdrop to the broadcast.",
               "Final TT before the closing weekend: standings after stage 18 effectively shape the final podium."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-11"
           }
         },
         {
@@ -44958,8 +44963,8 @@
       "id": "coppa-sabatini-2026",
       "name": "Coppa Sabatini",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=I58SEtsYfEg",
       "type": "full-race",
       "raceDate": "2026-09-10",
       "endDate": "2026-09-11",
@@ -45025,14 +45030,21 @@
           "puncheurs": [
             "Italian classics puncheurs lead the field."
           ]
-        }
+        },
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-11"
+      }
     },
     {
       "id": "gp-de-quebec-2026",
