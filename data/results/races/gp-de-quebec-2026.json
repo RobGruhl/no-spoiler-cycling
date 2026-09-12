@@ -1,0 +1,247 @@
+{
+  "raceId": "gp-de-quebec-2026",
+  "raceName": "Grand Prix Cycliste de Québec",
+  "raceDate": "2026-09-11",
+  "researchedAt": "2026-09-12T19:26:12Z",
+  "inProgress": false,
+  "tldr": "Remco Evenepoel (Red Bull - BORA - hansgrohe) won the 15th Grand Prix Cycliste de Québec, attacking with Giulio Ciccone inside the final 30km and beating him in a two-up sprint on the false-flat finish. Anthon Charmig (Uno-X Mobility) completed the podium; the 206km, 20-lap circuit race around the Québec City old town produced a chaotic finale that caught several pre-race favourites out of position.",
+  "podium": [
+    {
+      "position": 1,
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "time": "4h 40m 21s"
+    },
+    {
+      "position": 2,
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "gap": "s.t."
+    },
+    {
+      "position": 3,
+      "riderId": null,
+      "name": "Anthon Charmig",
+      "team": "Uno-X Mobility",
+      "gap": "+0:15"
+    },
+    {
+      "position": 4,
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "gap": "+0:28"
+    },
+    {
+      "position": 5,
+      "riderId": null,
+      "name": "Quinn Simmons",
+      "team": "Lidl - Trek",
+      "gap": "+0:30"
+    },
+    {
+      "position": 6,
+      "riderId": "michael-matthews",
+      "name": "Michael Matthews",
+      "team": "Team Jayco AlUla",
+      "gap": "+0:35"
+    },
+    {
+      "position": 7,
+      "riderId": null,
+      "name": "Paul Lapeira",
+      "team": "Decathlon CMA CGM Team",
+      "gap": "+0:43"
+    },
+    {
+      "position": 8,
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "gap": "s.t."
+    },
+    {
+      "position": 9,
+      "riderId": null,
+      "name": "Alessandro Pinarello",
+      "team": "NSN Cycling Team",
+      "gap": "+0:45"
+    },
+    {
+      "position": 10,
+      "riderId": null,
+      "name": "Maximilian Schachmann",
+      "team": "Red Bull - BORA - hansgrohe",
+      "gap": "+0:47"
+    }
+  ],
+  "narrative": {
+    "headline": "Evenepoel out-sprints Ciccone after a 28km two-up move",
+    "openingMoves": "The 15th Grand Prix Cycliste de Québec covered 206km on the 10.3km old-town circuit, tackled 20 times. A six-man break of Nikias Arndt, Jonas Rutsch, Samuel Boardman, Aivaris Mikutis, Frank van den Broek and Storm Ingebrigtsen went clear early and briefly built more than three minutes, but the gap came down steadily as the WorldTour field jostled for position on the punchy circuit.",
+    "raceUnfolds": "The break was caught with 57km to go and the race turned tactical and fragmented, with Uno-X repeatedly splitting the front group on the circuit's short climbs. With just over eight laps left Quinn Simmons, Ben Healy, Bart Lemmen, Lennert Van Eetvelt and Maxim Van Gils launched a chase move, and with four laps to go Paul Seixas attacked, drawing Simmons, Van Gils, Ben Healy, Juan Ayuso, Matteo Jorgenson and Tom Pidcock across before Remco Evenepoel also bridged. Evenepoel went again with 42km to go alongside Seixas, signalling the start of the decisive phase.",
+    "decision": "With 28km left Evenepoel accelerated on a flat sector of the circuit with Giulio Ciccone on his wheel; Anthon Charmig, Alessandro Pinarello and Alberto Bettiol were the only ones able to react immediately. The move caught several favourites — including Isaac del Toro, Paul Seixas and Tom Pidcock — out of position. Pinarello and Bettiol were dropped from the front trio as Evenepoel and Ciccone drove the pace, with UAE Team Emirates-XRG sending Jhonatan Narváez and Brandon McNulty to the front of the chase to try to bring del Toro back into contention, without success.",
+    "finale": "Evenepoel and Ciccone entered the final lap together with Charmig, who was dropped early on the Côte de la Montagne when Evenepoel accelerated. Evenepoel opened his sprint from distance on the uphill false-flat finish and held off Ciccone to the line. Behind, Tom Pidcock bridged across to Quinn Simmons late to salvage fourth."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 28,
+      "location": "Old-town circuit, flat sector",
+      "headline": "Evenepoel and Ciccone go clear",
+      "description": "Evenepoel attacked on a flat stretch of the circuit with Ciccone the only rider able to follow immediately; Charmig, Pinarello and Bettiol bridged across, but the move caught the group containing Isaac del Toro, Paul Seixas and Tom Pidcock out of position."
+    },
+    {
+      "kmFromFinish": 1.2,
+      "location": "Côte de la Montagne / finish straight",
+      "headline": "Evenepoel drops Charmig, beats Ciccone in the sprint",
+      "description": "Evenepoel accelerated early on the final ascent of the Côte de la Montagne, dropping Charmig, then opened his sprint from long range on the false-flat run-in to beat Ciccone to the line."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Evenepoel wins",
+      "verdictClass": "win",
+      "narrative": "Evenepoel timed the decisive move perfectly, going clear with Ciccone 28km out and controlling the finale before beating him in the two-up sprint — a confidence-building win ahead of the World Championships in nearby Montréal. Schachmann also placed inside the top ten.",
+      "riderIds": ["remco-evenepoel"]
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Ciccone second, Ayuso caught out",
+      "verdictClass": "neutral",
+      "narrative": "Ciccone matched Evenepoel's winning move and held on for second in the sprint, a strong day for the Italian. Teammate Juan Ayuso, however, was among the favourites out of position when the decisive attack went and never got back into podium contention.",
+      "riderIds": ["giulio-ciccone", "juan-ayuso-pesquera"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Del Toro loses contact, finishes 55th",
+      "verdictClass": "loss",
+      "narrative": "Isaac del Toro sat among the favourites for most of the race but was caught out of position when Evenepoel's move went clear 28km from the finish. Jhonatan Narváez and Brandon McNulty worked to pace him back into contention, but the chase lost cohesion on the closing laps and del Toro fell away to finish 55th.",
+      "riderIds": ["isaac-del-toro"]
+    },
+    {
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "verdict": "Pidcock salvages fourth",
+      "verdictClass": "neutral",
+      "narrative": "Pidcock was also dropped when the winning move went clear but fought back through the finale, bridging to Quinn Simmons late on to take fourth, the best result among the group of favourites who missed the decisive split.",
+      "riderIds": ["tom-pidcock"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Evenepoel bridged to the race's key move with 42km to go, then launched the decisive attack himself with 28km left, taking only Ciccone with him. He drove the pace through the finale, distanced Charmig on the Côte de la Montagne, and opened his sprint from long range on the uphill finish to hold off Ciccone for the win — a strong marker ahead of the World Championships road race in Montréal a week later.",
+      "keyMoments": [
+        { "km": 42, "what": "Bridges to the early selective move alongside Paul Seixas" },
+        { "km": 28, "what": "Launches the race-winning attack, taking only Ciccone" },
+        { "km": 1.2, "what": "Drops Charmig on the Côte de la Montagne, then opens the sprint early" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Ciccone was the only rider able to go with Evenepoel's decisive attack 28km from the line and worked with him through the finale to keep the winning move clear. He couldn't match Evenepoel's early sprint on the uphill finish but held second comfortably ahead of Charmig.",
+      "keyMoments": [
+        { "km": 28, "what": "Only rider able to follow Evenepoel's race-winning attack" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 4,
+      "gap": "+0:28",
+      "narrative": "Pidcock was caught out of position along with several other favourites when Evenepoel and Ciccone went clear 28km from the finish. He fought back through the closing laps and bridged across to Quinn Simmons late on, salvaging fourth — the best result among the riders who missed the winning split.",
+      "keyMoments": [
+        { "km": 28, "what": "Caught out of position by Evenepoel's decisive attack" },
+        { "km": 2, "what": "Bridges across to Quinn Simmons in the closing kilometres" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-matthews",
+      "name": "Michael Matthews",
+      "team": "Team Jayco AlUla",
+      "role": "sprinter",
+      "position": 6,
+      "gap": "+0:35",
+      "narrative": "Matthews attacked from the chasing group behind the Evenepoel-Ciccone move but couldn't bridge across, settling for sixth in the group contesting the minor placings.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "role": "domestique",
+      "position": 8,
+      "gap": "s.t.",
+      "narrative": "Jorgenson was part of the selective move that formed with four laps to go but missed the race-winning split when Evenepoel and Ciccone attacked, finishing eighth in the group behind.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 55,
+      "gap": "outside the front group",
+      "narrative": "Del Toro raced among the favourites for most of the 206km but was caught out of position when Evenepoel's decisive move went clear 28km from the finish. Teammates Jhonatan Narváez and Brandon McNulty worked to pace him back up, but the chase group lost cohesion over the closing laps and del Toro slipped away from the contenders, eventually finishing 55th — a rare off day ahead of his World Championships leadership role for Mexico.",
+      "keyMoments": [
+        { "km": 28, "what": "Caught out of position by the race-winning attack" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "domestique",
+      "position": null,
+      "gap": "outside the top 10",
+      "narrative": "Ayuso was part of the selective group that formed inside the final four laps but was among the favourites caught out when Evenepoel and Ciccone went clear 28km from home, finishing outside the top ten.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Evenepoel peaks in Québec ahead of the Worlds",
+    "quotes": [],
+    "body": "The win gives Evenepoel a significant confidence boost heading into the World Championships road race in Montréal, and the peloton heads there next for the second of the Canadian WorldTour double-header on a more climber-friendly course."
+  },
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/gp-quebec-2026/results-gpq-2026/",
+      "publication": "Cycling Stage",
+      "title": "Grand Prix Cycliste de Québec 2026: Evenepoel beats Ciccone in two-up sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-gp-de-quebec-2026-remco-evenepoel-wins-two-up-sprint-against-ciccone-pidcock-and-seixas-outsmarted",
+      "publication": "Cycling Up To Date",
+      "title": "Results GP de Québec 2026 - Remco Evenepoel wins two-up sprint against Ciccone; Pidcock and Seixas outsmarted",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.elimparcial.com/deporte/2026/09/11/isaac-del-toro-se-queda-sin-podio-en-el-gp-de-quebec-remco-evenepoel-fulmina-la-carrera-en-el-cierre/",
+      "publication": "El Imparcial",
+      "title": "Isaac del Toro se queda sin podio en el GP de Québec; Remco Evenepoel fulmina la carrera en el cierre",
+      "lang": "es"
+    }
+  ]
+}

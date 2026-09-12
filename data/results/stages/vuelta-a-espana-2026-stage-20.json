@@ -1,0 +1,116 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 20,
+  "stageName": "Stage 20: La Calahorra → Collado del Alguacil",
+  "stageDate": "2026-09-12",
+  "stageType": "mountain",
+  "researchedAt": "2026-09-12T19:26:12Z",
+  "tldr": "Mikel Landa (Soudal Quick-Step) soloed to a commanding stage win atop the Collado del Alguacil, his first Grand Tour stage victory in five years, dropping breakaway companions Tobias Halland Johannessen and Ramses Debruyne on the final climb. Behind, Enric Mas survived a late attack from Felix Gall to all but seal overall victory, with the GC podium order unchanged heading into Sunday's ceremonial finish in Granada.",
+  "podium": [
+    { "position": 1, "name": "Mikel Landa", "team": "Soudal Quick-Step", "time": "5h 02m 11s" },
+    { "position": 2, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "gap": "+0:47" },
+    { "position": 3, "name": "Ramses Debruyne", "team": "Alpecin-Premier Tech", "gap": "+1:27" }
+  ],
+  "narrative": {
+    "headline": "Landa solos to victory on the queen stage as Mas closes in on overall win",
+    "body": "Wout van Aert and Ivo Oliveira attacked from the gun, soon joined by a twelve-rider chase group, before a large 54-rider move including Mikel Landa, Ramses Debruyne and Tobias Halland Johannessen formed the day's main breakaway roughly 20km in. The GC group, more than 10 minutes back at one point, saw Sepp Kuss and Richard Carapaz launch the first counter-attacks on the Puerto de El Purche, with Enric Mas, Primož Roglič and Felix Gall bridging up to them by the top. Van Aert contested the KOM points twice before dropping back to pace Kuss, ending his bid for the polka-dot jersey. On the descent and the Puerto de El Duque, Landa and Debruyne bridged across to the remnants of the breakaway; Debruyne's acceleration on the run-in to the Collado del Alguacil split the move down to himself, Landa and Johannessen, 35 seconds clear of the chasers with Mas's group a further six minutes back. Early on the final climb Landa attacked alone and powered to a commanding solo win, his first Grand Tour stage victory in five years. Behind, Gall attacked out of the Mas-Roglič-Carapaz group partway up the Alguacil; Mas responded initially but eventually let the Austrian go, while Roglič also lost contact before stabilising the gap. Mas held firm to the finish, extending his overall lead and effectively securing the red jersey with only Sunday's Granada stage remaining."
+  },
+  "gcImpact": {
+    "headline": "Mas all but seals overall victory; podium order holds",
+    "body": "Enric Mas retains the red jersey and extends his overall lead to 2:15 over Primož Roglič, with Felix Gall third at 2:44 after his late attack narrowed the gap slightly without changing the podium order. Richard Carapaz is fourth at 6:54, Sepp Kuss fifth at 8:45, and Oscar Onley sixth at 9:28. With only Sunday's short, sprint-friendly Granada finale remaining, the general classification is effectively decided."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 15,
+      "gap": "+7:32",
+      "narrative": "Roglič bridged to the early GC counter-move on the Puerto de El Purche alongside Mas and Gall, but was dropped when Gall attacked again on the lower slopes of the Collado del Alguacil. He stabilised the gap rather than losing further time, finishing 15th on the stage but holding second overall at 2:15 behind Mas with only the Granada finale remaining.",
+      "keyMoments": [
+        { "km": 20, "what": "Bridges to the Kuss-Carapaz counter-attack on the Puerto de El Purche" },
+        { "km": 8, "what": "Dropped by Gall's attack on the Collado del Alguacil, stabilises the gap" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 13,
+      "gap": "+6:37",
+      "narrative": "Gall launched the most dangerous GC move of the day, attacking out of the Mas group partway up the Collado del Alguacil. Mas responded initially but couldn't hold his wheel, and Gall clawed back time on both Mas and Roglič, though not enough to alter the final podium order — he remains third overall at 2:44.",
+      "keyMoments": [
+        { "km": 8, "what": "Attacks the GC group on the Collado del Alguacil, drops Mas and Roglič" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": 18,
+      "gap": "+8:31",
+      "narrative": "Carapaz combined with Sepp Kuss to launch the first GC attack of the day on the Puerto de El Purche, but was brought back and couldn't follow the later moves from Gall on the Alguacil, finishing 18th on the stage and holding fourth overall.",
+      "keyMoments": [
+        { "km": 20, "what": "Attacks alongside Sepp Kuss on the Puerto de El Purche" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": 19,
+      "gap": "+10:19",
+      "narrative": "Onley rode a steady queen stage within the GC group, finishing 19th on the day and holding sixth overall as the general classification headed into its final day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout Van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "domestique",
+      "position": null,
+      "gap": "outside the top 20",
+      "narrative": "Van Aert was one of the day's first attackers and won the KOM sprint at the top of the Puerto de El Purche on both ascents, closing to within 16 points of Santiago Buitrago in the mountains classification. He then dropped back from the breakaway to pace Sepp Kuss through the GC group, ending his own polka-dot jersey bid to work for his team leader.",
+      "keyMoments": [
+        { "km": 0, "what": "Attacks from the start alongside Ivo Oliveira" },
+        { "km": 60, "what": "Wins the KOM sprint atop the Puerto de El Purche for the second time" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "lorenzo-fortunato",
+      "name": "Lorenzo Fortunato",
+      "team": "XDS Astana Team",
+      "role": "stage-hunter",
+      "position": 10,
+      "gap": "+4:53",
+      "narrative": "Fortunato was part of the large early breakaway and stayed with the main chase group on the Collado del Alguacil, finishing 10th on the stage.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.cyclingstage.com/vuelta-2026-results/stage-20-spain-results-2026/",
+      "publication": "Cycling Stage",
+      "title": "Vuelta 2026: Landa solos to victory, Mas seals GC",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/2026-vuelta-a-espana-stage-20-landa-wins-the-queen-stage-gall-gets-off-to-a-slow-start/",
+      "publication": "TOUR Magazin",
+      "title": "2026 Vuelta a España – Stage 20: Landa wins the queen stage, Gall gets off to a slow start",
+      "lang": "en"
+    }
+  ]
+}
