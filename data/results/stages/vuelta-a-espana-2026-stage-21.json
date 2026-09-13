@@ -1,0 +1,141 @@
+{
+  "raceId": "vuelta-a-espana-2026",
+  "stageNumber": 21,
+  "stageName": "Stage 21: Carrefour Granada → Granada",
+  "stageDate": "2026-09-13",
+  "stageType": "flat",
+  "researchedAt": "2026-09-13T19:27:58Z",
+  "tldr": "Enric Mas rode safely to Granada to complete the 2026 Vuelta a España, Spain's first home winner since Alberto Contador in 2014, while Tobias Halland Johannessen won a three-up sprint over Alessandro Romele and Ramses Debruyne on a finale reshaped by repeated ascents of the Alhambra circuit. Matthew Brennan led the chasing group home in fourth to cap a five-stage debut Vuelta.",
+  "podium": [
+    { "position": 1, "name": "Tobias Halland Johannessen", "team": "Uno-X Mobility", "time": "2h 54m 08s" },
+    { "position": 2, "name": "Alessandro Romele", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 3, "name": "Ramses Debruyne", "team": "Alpecin-Premier Tech", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Mas completes his Vuelta coronation as Johannessen wins a selective Granada finale",
+    "body": "The final stage broke from the traditional Madrid procession, finishing in Granada for the first time in the race's 81 editions. The opening kilometres were ceremonial — Mas and his Movistar teammates posed for photos in red, and the peloton paid tribute to retiring riders including Pello Bilbao, Wout van Aert's teammate Steven Kruijswijk, Jesús Herrada, David de la Cruz and Magnus Cort — before the race reached Granada's finishing circuit with just over 40km remaining and immediately began climbing towards the Alhambra. The 2.2km ascent, repeated several times, gradually shredded the peloton; Jordi Meeus was among the first sprinters dropped. Bastien Tronchon lit the decisive move with 28km to go, sending Matthew Brennan, Thibau Nys, Valentin Paret-Peintre, Axel Laurance, Alessandro Romele and others clear, with Tobias Halland Johannessen bridging across as the race split into separate battles for the stage and for red — Movistar had no interest in helping bring it back since their only job was getting Mas through the point where GC times were fixed. Pello Bilbao, riding his final Grand Tour, attacked with 9km left and dropped Van Aert and Bryan Coquard, before Laurance caught and passed him on the climb; the move came back together inside the final 5km as Brennan and Tronchon regained contact. With around 2km remaining, Johannessen, Romele, Debruyne and Laurance broke clear as the group behind hesitated to chase Brennan back into contention. Laurance couldn't hold the front three into the final kilometre, and Johannessen launched the sprint first, holding off Romele to the line for his first Grand Tour stage win — Debruyne completed the podium, with Brennan leading the chase group home fourth ahead of Tronchon. Mas dropped back through the field to cross the line with his Movistar teammates well behind the stage-winning move, sealing the biggest victory of his career."
+  },
+  "gcImpact": {
+    "headline": "Enric Mas wins the 2026 Vuelta a España — first Spanish winner since 2014",
+    "body": "Enric Mas (Movistar) completes the race as the overall winner, 2:15 ahead of Primož Roglič (Red Bull - BORA - hansgrohe) and 2:44 ahead of Felix Gall (Decathlon CMA CGM Team), converting three previous Vuelta runner-up finishes into his first Grand Tour title and ending Spain's 12-year wait for a home winner since Alberto Contador in 2014. Richard Carapaz (EF Education - EasyPost) finishes fourth overall at 6:54, with Sepp Kuss fifth at 8:45 and Oscar Onley (Netcompany INEOS Cycling Team) sixth at 9:28. Jakob Omržel is seventh at 10:38, Clément Berthet eighth at 11:41, Cristián Rodríguez ninth at 11:59 and Harold Tejada tenth at 12:51. Mas inherited the red jersey after Tadej Pogačar's race-ending crash on stage 8, extended his advantage through the mountains and the stage 18 time trial, and defended it through the final week to secure the title in Granada."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": null,
+      "gap": "same time (final GC: 2nd overall, +2:15)",
+      "narrative": "Roglič rode a protected final stage within the GC bunch, taking no part in the Alhambra-circuit selection that decided the stage. He finishes the Vuelta second overall at 2:15 behind Mas, his best Grand Tour result of the season after being unable to find the time he needed across the final week.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "felix-gall",
+      "name": "Felix Gall",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": null,
+      "gap": "same time (final GC: 3rd overall, +2:44)",
+      "narrative": "Gall rode through the ceremonial-turned-selective finale safely inside the GC group, securing the third step of the final podium at 2:44 after his stage 20 attack narrowed the gap on Mas and Roglič without changing the overall order.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "richard-carapaz",
+      "name": "Richard Carapaz",
+      "team": "EF Education - EasyPost",
+      "role": "leader",
+      "position": null,
+      "gap": "same time (final GC: 4th overall, +6:54)",
+      "narrative": "Carapaz completed the race safely within the GC group to finish fourth overall at 6:54, his highest Grand Tour finish of the season after combining with Sepp Kuss for the race's only serious GC counter-attack on stage 20.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "oscar-onley",
+      "name": "Oscar Onley",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "leader",
+      "position": null,
+      "gap": "same time (final GC: 6th overall, +9:28)",
+      "narrative": "Onley rode a steady final stage within the GC bunch to close out a consistent three weeks, finishing sixth overall at 9:28 after Sepp Kuss's long-range move on stage 20 dropped him one place in the standings.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "matthew-brennan",
+      "name": "Matthew Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "role": "stage-hunter",
+      "position": 4,
+      "gap": "s.t.",
+      "narrative": "Brennan was distanced briefly on the Alhambra climb during Pello Bilbao's late attack but fought back to rejoin the front group inside the final 5km. With the rest of the group reluctant to chase him into the sprint, he was left without support as Johannessen, Romele and Debruyne slipped clear in the final 2km, and he led the remaining group home in fourth — a fitting close to a Vuelta in which he won five stages.",
+      "keyMoments": [
+        { "km": 9, "what": "Briefly distanced by Bilbao's attack on the Alhambra climb, fights back to rejoin" },
+        { "km": 2, "what": "Left without a lead-out as the winning trio of Johannessen, Romele and Debruyne go clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "wout-van-aert",
+      "name": "Wout Van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "role": "domestique",
+      "position": null,
+      "gap": "outside the front group",
+      "narrative": "Van Aert, who had reconnoitred the Granada circuit during a Sierra Nevada training camp and called it tougher than the Tour's Montmartre finale, was dropped along with Bryan Coquard when Pello Bilbao attacked on the Alhambra climb with 9km remaining, finishing outside the group that contested the stage.",
+      "keyMoments": [
+        { "km": 9, "what": "Dropped by Bilbao's attack on the Alhambra climb" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "pello-bilbao",
+      "name": "Pello Bilbao",
+      "team": "Bahrain - Victorious",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "s.t.",
+      "narrative": "Riding his final Grand Tour stage after being honoured in the pre-stage ceremony, Bilbao attacked on the Alhambra climb with 9km remaining, dropping Van Aert and Coquard and opening a useful gap before Axel Laurance caught and passed him. He was brought back with the rest of the group inside the final 5km and finished sixth, crediting a memorable send-off with a genuine attacking effort.",
+      "keyMoments": [
+        { "km": 9, "what": "Attacks on the Alhambra climb, drops Van Aert and Coquard" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "domestique",
+      "position": null,
+      "gap": "outside the front group",
+      "narrative": "Meeus was among the first sprinters distanced as the repeated ascents of the Alhambra circuit whittled the peloton down, playing no part in the finale.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-vuelta-a-espana-2026-stage-21-enric-mas-ends-12-year-spanish-red-jersey-wait-as-tobias-johannessen-wins-dramatic-granada-finale",
+      "publication": "Cycling Up To Date",
+      "title": "Results Vuelta a Espana 2026 Stage 21 | Enric Mas ends 12-year Spanish Red Jersey wait as Tobias Johannessen wins dramatic Granada finale",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/vuelta-a-espana-2026-stage-21-tobias-halland-johannessen-wins-granada-finale-as-enric-mas-seals-overall-victory/",
+      "publication": "ProCyclingUK",
+      "title": "Vuelta a España 2026 stage 21: Tobias Halland Johannessen wins Granada finale as Enric Mas seals overall victory",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.lavuelta.es/en/news/2026/stage-21/granada-crowns-johannessen-and-mas/72045",
+      "publication": "La Vuelta (official)",
+      "title": "Granada crowns Johannessen and Mas",
+      "lang": "en"
+    }
+  ]
+}
