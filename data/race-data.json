@@ -42386,8 +42386,8 @@
           ],
           "distance": 99,
           "date": "2026-09-13",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=P7VUXRqB484",
           "description": "Ceremonial finale on a Granada circuit including the Alhambra climb (raced five times).",
           "stageDetails": {
             "spoilerSafe": true,
@@ -42398,6 +42398,11 @@
               "Short 99km makes for a tactical, attack-friendly final stage rather than a pure parade.",
               "GC battle should be resolved on stage 20, leaving the sprinters to fight the line."
             ]
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-14"
           }
         }
       ],
@@ -45791,8 +45796,8 @@
       "id": "gp-de-fourmies-la-voix-du-nord-2026",
       "name": "GP de Fourmies - La Voix du Nord",
       "description": "1.Pro cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=7oGWowu80X8",
       "type": "full-race",
       "raceDate": "2026-09-13",
       "endDate": "2026-09-14",
@@ -45858,15 +45863,22 @@
           "French Northern hilly classic.",
           "Punchy closing-circuit terrain.",
           "Suits classics puncheurs over pure sprinters."
-        ]
+        ],
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      },
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-14"
       }
     },
     {
       "id": "gp-de-montreal-2026",
       "name": "GP de Montréal",
       "description": "1.UWT cycling race in Canada",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=lcLv7yKcJ9w",
       "type": "full-race",
       "raceDate": "2026-09-13",
       "endDate": "2026-09-14",
@@ -45924,7 +45936,7 @@
           "Sister race to Québec: Same weekend as the Québec Grand Prix — historically the same start list, with one race in Québec on Friday and one in Montréal on Sunday.",
           "Worlds debut at the same venue: Montréal hosts the UCI Road World Championships from September 20-27, 2026 — only the second time the Worlds have come to North America."
         ],
-        "watchNotes": "Decisive moves rarely come before lap 14 or 15 — the climbs gradually shed riders, with the final selection typically on the penultimate lap. Pure climbers and Classics puncheurs both feature.",
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results.",
         "historicalContext": "Founded in 2010 alongside the Québec Grand Prix, the GP de Montréal has been a UCI WorldTour fixture since the series' early years. The 2026 edition takes on added significance as the lead-up race to the UCI Road World Championships, held on essentially the same Montréal circuit.",
         "keyClimbs": [
           {
@@ -46072,14 +46084,19 @@
           ],
           "notes": "Confirmed starter — UAE's leader for the Canadian double with Pogačar absent."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-14"
+      }
     },
     {
       "id": "la-choralis-fourmies-feminine-2026",
       "name": "La Choralis Fourmies Féminine",
       "description": "1.Pro cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=f5Ej3X-nyNQ",
       "type": "full-race",
       "raceDate": "2026-09-13",
       "endDate": "2026-09-14",
@@ -46144,7 +46161,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-14"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      }
     },
     {
       "id": "trofeo-matteotti-2026",
