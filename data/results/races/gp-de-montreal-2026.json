@@ -1,0 +1,198 @@
+{
+  "raceId": "gp-de-montreal-2026",
+  "raceName": "Grand Prix Cycliste de Montréal",
+  "raceDate": "2026-09-13",
+  "researchedAt": "2026-09-14T19:26:28Z",
+  "inProgress": false,
+  "tldr": "Isaac del Toro (UAE Team Emirates - XRG) won the 15th Grand Prix Cycliste de Montréal, bridging to a late Paul Seixas attack on the final ascent of the Côte de la Camillien-Houde and beating him in an uphill two-up sprint. Brandon McNulty completed an all-UAE top two behind the winner in third, as Ben Healy's long-range solo effort set up the finale on the 214.4km, 16-lap Mont Royal circuit.",
+  "podium": [
+    { "position": 1, "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "UAE Team Emirates - XRG", "time": "5h 13m 16s" },
+    { "position": 2, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "gap": "s.t." },
+    { "position": 3, "riderId": "brandon-mcnulty", "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+0:27" },
+    { "position": 4, "riderId": null, "name": "Quinn Simmons", "team": "Lidl - Trek", "gap": "+0:30" },
+    { "position": 5, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "+0:35" },
+    { "position": 6, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+0:36" },
+    { "position": 7, "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Lidl - Trek", "gap": "s.t." },
+    { "position": 8, "riderId": null, "name": "Afonso Eulálio", "team": "Bahrain - Victorious", "gap": "s.t." },
+    { "position": 9, "riderId": "ben-healy", "name": "Ben Healy", "team": "EF Education - EasyPost", "gap": "+0:39" },
+    { "position": 10, "riderId": null, "name": "Lennert Van Eetvelt", "team": "Lotto Intermarché", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Del Toro bridges to Seixas on the final climb, wins the uphill sprint",
+    "openingMoves": "The 15th Grand Prix Cycliste de Montréal covered 214.4km over 16 laps of the 13.5km Mont Royal circuit, which opens every lap with the Côte de la Camillien-Houde (1.7km at 7.9%). A nine-man break — Michal Kwiatkowski, Casper Pedersen, Ådne Holter, Anders Foldager, Pelayo Sánchez, Robbe Dhondt, Jérôme Gauthier, Robin Carpenter and Kieran Haug — went clear early and built a gap of around two minutes, with UAE Team Emirates-XRG, Red Bull-BORA-hansgrohe and Decathlon CMA CGM Team controlling the pace behind.",
+    "raceUnfolds": "The break was caught with eight laps to go, and the race reset. Juan Ayuso launched a fresh attack with 84km left, and EF Education-EasyPost's Michael Leonard bridged across as the pair built a gap of over 20 seconds with five laps remaining. Isaac del Toro spent this phase struggling near the back of a peloton being paced by Team Visma | Lease a Bike and Red Bull-BORA-hansgrohe. With four laps to go Wilco Kelderman attacked and reeled the leaders back within range; Ben Healy then countered on the climb with Adam Yates and Maxim Van Gils, catching Kelderman as Leonard extended the move's gap toward 30 seconds.",
+    "decision": "Inside the final 40km, on the climb, Healy attacked out of the lead group alone as Ayuso and Kelderman were dropped; he crested with Van Gils and Yates over 45 seconds back, while Tom Pidcock's pace in the chase whittled the favourites' group down to around 15 riders. On the penultimate lap's climb, Quinn Simmons kicked off the decisive selection behind Healy; Brandon McNulty bridged and countered, drawing Paul Seixas, Giulio Ciccone, Isaac del Toro, Afonso Eulálio, Tom Pidcock and a re-caught Adam Yates across. Remco Evenepoel missed the split — appearing to be blocked by a Lidl-Trek rider — and had to chase alone from the group behind, rejoining only as the race reached the final lap.",
+    "finale": "Healy held off the regrouped chasers by more than ten seconds onto the final lap before Seixas attacked out of the group on the Côte de la Camillien-Houde, caught and passed him near the top with only McNulty able to respond. Surging late over the summit, del Toro bridged across to Seixas and the pair built a lead of almost 30 seconds with 7km to go as Simmons and McNulty broke away behind in a separate chase for third. Seixas led out the sprint through the final bend, but del Toro came off his wheel to take the win, with McNulty holding off Simmons for third."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 11,
+      "location": "Côte de la Camillien-Houde, final lap",
+      "headline": "Seixas attacks the reduced group, Healy caught",
+      "description": "Paul Seixas attacked out of the regrouped favourites on the final ascent of the Camillien-Houde, caught and passed the long-range leader Ben Healy near the summit, and briefly looked set to go clear alone with only Brandon McNulty able to follow the initial move."
+    },
+    {
+      "kmFromFinish": 7,
+      "location": "Descent off the Camillien-Houde",
+      "headline": "Del Toro bridges to Seixas",
+      "description": "Isaac del Toro surged over the top of the final climb to join Seixas, and the pair built a gap of almost 30 seconds on the chasing group as Quinn Simmons and Brandon McNulty broke clear behind in a separate fight for third."
+    },
+    {
+      "kmFromFinish": 0.1,
+      "location": "Finish straight, downtown Montréal",
+      "headline": "Del Toro out-sprints Seixas",
+      "description": "Seixas led out the two-up sprint through the final bend, but del Toro jumped from his wheel and held him off to the line for his first WorldTour one-day win."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Del Toro wins, McNulty third",
+      "verdictClass": "win",
+      "narrative": "Del Toro spent much of the race struggling near the back of the peloton before timing his winning move perfectly, bridging to Seixas on the final climb and beating him in the sprint — a major statement two weeks before the World Championships on the same circuit. Teammate Brandon McNulty added a third-place finish, giving UAE two of the top three spots.",
+      "riderIds": ["isaac-del-toro", "brandon-mcnulty"]
+    },
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Seixas second",
+      "verdictClass": "neutral",
+      "narrative": "Seixas produced the race's decisive attack on the final climb, catching and passing the long-range leader Ben Healy, but couldn't hold off del Toro's late bridge and was beaten in the uphill sprint for second.",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "EF Education - EasyPost",
+      "verdict": "Healy animates, fades to ninth",
+      "verdictClass": "neutral",
+      "narrative": "Healy launched the race's key long-range move inside the final 40km, riding clear of the favourites and holding a lead of over 45 seconds before the group behind reorganised on the penultimate lap. He was caught and passed on the final climb, eventually finishing ninth after a day spent animating the race.",
+      "riderIds": ["ben-healy"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdict": "Evenepoel missed the split, fifth",
+      "verdictClass": "loss",
+      "narrative": "Evenepoel missed the decisive selection on the penultimate lap after appearing to be blocked by a rival team's rider, then had to chase alone from the group behind, only rejoining as the race reached its final lap — too late to contest the sprint for the win, finishing fifth.",
+      "riderIds": ["remco-evenepoel"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Del Toro spent long stretches of the race struggling near the back of a peloton being driven hard by Visma and Red Bull, but timed his effort perfectly for the finale. He surged over the top of the final ascent of the Camillien-Houde to bridge across to Paul Seixas, then rode a controlled sprint from his wheel to win his first WorldTour one-day race — a major statement two weeks out from the World Championships on the same Montréal circuit.",
+      "keyMoments": [
+        { "km": 7, "what": "Bridges to Seixas's attack over the top of the final climb" },
+        { "km": 0.1, "what": "Comes off Seixas's wheel to win the uphill sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-seixas",
+      "name": "Paul Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Seixas launched the race's decisive move on the final climb, catching and passing long-range leader Ben Healy with only Brandon McNulty briefly able to follow. He led the two-up move with del Toro through to the finish, doing much of the work on the uphill drags, but was beaten in the sprint after leading it out too early — a strong runner-up finish that sets up a rematch with del Toro at the Worlds.",
+      "keyMoments": [
+        { "km": 11, "what": "Attacks the reduced group, catches and passes Ben Healy on the final climb" },
+        { "km": 0.1, "what": "Leads out the sprint but is beaten by del Toro" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": 3,
+      "gap": "+0:27",
+      "narrative": "McNulty was the only rider able to briefly follow Seixas's initial attack on the final climb before del Toro bridged past. He then broke clear with Quinn Simmons in a separate chase for the final podium spot behind the leading two, holding off Simmons to complete an all-UAE result with teammate del Toro.",
+      "keyMoments": [
+        { "km": 11, "what": "Briefly follows Seixas's decisive attack on the final climb" },
+        { "km": 7, "what": "Breaks clear with Quinn Simmons to chase for third" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:35",
+      "narrative": "Evenepoel missed the race's decisive selection on the penultimate lap after appearing to be blocked by a rival rider, reacting angrily in the moment. He chased alone from the group behind and only rejoined the front as the race reached its final lap, too late to contest the finale, and settled for fifth.",
+      "keyMoments": [
+        { "km": 20, "what": "Missed the decisive split, chases alone after appearing blocked" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:36",
+      "narrative": "Pidcock drove the pace in the chase behind Healy's long-range move inside the final 40km, reducing the group of favourites to around 15 riders. He made the decisive selection on the penultimate lap but was distanced on the final climb when Seixas and del Toro went clear, finishing sixth.",
+      "keyMoments": [
+        { "km": 38, "what": "Sets a hard pace in the chase, reducing the favourites' group" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 7,
+      "gap": "s.t.",
+      "narrative": "Ciccone made the decisive selection on the penultimate lap alongside del Toro and Seixas but couldn't go with the winning move on the final climb, finishing seventh in the group behind.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "ben-healy",
+      "name": "Ben Healy",
+      "team": "EF Education - EasyPost",
+      "role": "stage-hunter",
+      "position": 9,
+      "gap": "+0:39",
+      "narrative": "Healy launched the race's key long-range attack inside the final 40km, riding clear of the favourites and building a lead of over 45 seconds with Adam Yates and Maxim Van Gils before going it alone. He held off the regrouped chasers by more than ten seconds onto the final lap before being caught and passed by Seixas on the Camillien-Houde, eventually finishing ninth after a day spent animating the race.",
+      "keyMoments": [
+        { "km": 38, "what": "Attacks alone out of the lead group on the climb" },
+        { "km": 11, "what": "Caught and passed by Seixas on the final ascent" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "Del Toro the form rider heading into the Worlds",
+    "quotes": [],
+    "body": "The win puts del Toro in pole position two weeks out from the World Championships road race, held on essentially the same Mont Royal circuit. Seixas's runner-up finish confirms him as France's leading threat on the same course, while Evenepoel — the pre-race favourite after his GP de Québec win days earlier — will look to bounce back after missing the decisive move."
+  },
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-gp-de-montreal-2026-isaac-del-toro-beats-paul-seixas-as-duo-dominate-with-final-lap-surge-as-focus-turns-to-world-championships",
+      "publication": "Cycling Up To Date",
+      "title": "Results GP de Montreal 2026 - Isaac del Toro beats Paul Seixas as duo dominate with final lap surge as focus turns to World Championships",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingstage.com/gp-montreal-2026/",
+      "publication": "Cycling Stage",
+      "title": "GP Montréal 2026",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.procyclingstats.com/race/gp-montreal/2026/result",
+      "publication": "ProCyclingStats",
+      "title": "2026 15th Grand Prix Cycliste de Montréal",
+      "lang": "en"
+    }
+  ]
+}
