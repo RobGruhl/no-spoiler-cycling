@@ -46560,8 +46560,8 @@
       "id": "gp-de-wallonie-2026",
       "name": "GP de Wallonie",
       "description": "1.Pro cycling race in Belgium",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pvoqNTaQuFw",
       "type": "full-race",
       "raceDate": "2026-09-16",
       "endDate": "2026-09-17",
@@ -46627,7 +46627,14 @@
           "Wallonian one-day classic — Belgian Ardennes punchy character.",
           "Closing-circuit format with repeated short climbs.",
           "Suits Ardennes-style classics specialists."
-        ]
+        ],
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      },
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-17"
       }
     },
     {
