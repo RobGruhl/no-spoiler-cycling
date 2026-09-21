@@ -1,0 +1,148 @@
+{
+  "raceId": "world-championships-men-s-tt-2026",
+  "raceName": "UCI Road World Championships — Men's Elite Individual Time Trial",
+  "raceDate": "2026-09-20",
+  "researchedAt": "2026-09-21T19:26:00Z",
+  "inProgress": false,
+  "tldr": "Remco Evenepoel (Belgium) won the 39.2km Montréal time trial by 57 seconds over Filippo Ganna (Italy), becoming the first rider to win four consecutive World TT titles. Paul Seixas (France) took a surprise bronze, with Brandon McNulty (USA) fourth and Isaac del Toro (Mexico) sixth.",
+  "podium": [
+    { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Belgium", "time": "44:53" },
+    { "position": 2, "riderId": "filippo-ganna", "name": "Filippo Ganna", "team": "Italy", "gap": "+0:57" },
+    { "position": 3, "name": "Paul Seixas", "team": "France", "gap": "+1:13" },
+    { "position": 4, "riderId": "brandon-mcnulty", "name": "Brandon McNulty", "team": "United States", "gap": "+1:25" },
+    { "position": 5, "name": "Jakob Söderqvist", "team": "Sweden", "gap": "+1:26" },
+    { "position": 6, "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "Mexico", "gap": "+1:38" },
+    { "position": 7, "name": "Stefan Küng", "team": "Switzerland", "gap": "+1:44" },
+    { "position": 8, "name": "Kasper Asgreen", "team": "Denmark", "gap": "+1:48" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel obliterates the field for a record fourth straight world TT title",
+    "openingMoves": "The 39.2km course ran from Old Montréal out along the St Lawrence and through the Circuit Gilles Villeneuve before returning to the city for a rising finish into Parc Jeanne-Mance, with a steeper closing ramp around six percent. Remco Evenepoel, the three-time defending champion, was fastest through the first intermediate check in 12:17 — nine seconds up on under-23 world champion Jakob Söderqvist, with Filippo Ganna already 22 seconds back.",
+    "raceUnfolds": "Ganna started slowly, sitting outside the top ten at the first check, while Stefan Küng also shipped time early. Evenepoel kept extending: by the second split he led Söderqvist by 34 seconds, with Ganna fourth and 40 seconds down. Ganna began recovering ground through the technical urban sector, moving into second at the third check but still 48 seconds behind Evenepoel, with Paul Seixas five seconds further back.",
+    "decision": "Söderqvist, in the leader's hot seat, crashed late on course and arrived at the finish bloodied, dropping him out of medal contention. Seixas moved into the provisional lead ahead of Ganna, who then took the fastest time to that point with a 16-second margin over the Frenchman — but both knew Evenepoel was still to come and had been fastest at every checkpoint.",
+    "finale": "Evenepoel powered up the closing ramp to Parc Jeanne-Mance and stopped the clock at 44:53.13, an average of 52.4km/h, finishing 57 seconds clear of Ganna and 1:13 ahead of Seixas. It was Evenepoel's fourth consecutive world time trial title — Glasgow, Zürich, Kigali and now Montréal — making him the first rider in the event's history (since 1994) to win four in a row."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 27,
+      "location": "Second intermediate check",
+      "headline": "Evenepoel opens a 34-second lead",
+      "description": "Evenepoel's advantage grew from 9 seconds to 34 over Söderqvist by the second time check, with Ganna, who had started slowly, still 40 seconds back in fourth."
+    },
+    {
+      "kmFromFinish": 10,
+      "location": "Late technical sector",
+      "headline": "Söderqvist crashes out of medal contention",
+      "description": "Provisional silver-medal contender Jakob Söderqvist crashed late on the course and finished bloodied well outside the podium, clearing the way for Ganna and Seixas to fight for the minor medals."
+    },
+    {
+      "kmFromFinish": 0.2,
+      "location": "Parc Jeanne-Mance finishing ramp",
+      "headline": "Evenepoel seals a historic fourth straight title",
+      "description": "Evenepoel crossed the line in 44:53.13, 57 seconds clear of Ganna and 1:13 over Seixas, becoming the first rider to win four consecutive World TT titles."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Belgium",
+      "verdict": "Evenepoel wins, makes history",
+      "verdictClass": "win",
+      "narrative": "Evenepoel was fastest at every intermediate check and never looked troubled, extending his lead throughout to win by nearly a minute — a fourth consecutive world TT title, a feat no rider had achieved before him.",
+      "riderIds": ["remco-evenepoel"]
+    },
+    {
+      "team": "Italy",
+      "verdict": "Ganna recovers to silver",
+      "verdictClass": "neutral",
+      "narrative": "Ganna started slowly, sitting outside the top ten at the first check, but clawed back time through the technical middle section to secure silver, well clear of the field behind him but well short of Evenepoel.",
+      "riderIds": ["filippo-ganna"]
+    },
+    {
+      "team": "United States",
+      "verdict": "McNulty best of the rest in fourth",
+      "verdictClass": "neutral",
+      "narrative": "McNulty produced the best ride outside the podium three, finishing fourth just 12 seconds behind bronze medallist Seixas and two spots clear of tracked rival Isaac del Toro.",
+      "riderIds": ["brandon-mcnulty"]
+    },
+    {
+      "team": "Mexico",
+      "verdict": "Del Toro sixth",
+      "verdictClass": "neutral",
+      "narrative": "Del Toro, fresh off his GP de Montréal win on the same circuit the week before, backed it up with a top-six TT finish against a field of dedicated specialists.",
+      "riderIds": ["isaac-del-toro"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Belgium",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Evenepoel was fastest through every intermediate check on the 39.2km course, opening a 34-second lead by the second split and extending it to the line. He won by 57 seconds over Ganna and 1:13 over Seixas, becoming the first rider to win four consecutive World TT titles — Glasgow, Zürich, Kigali, and now Montréal. \"It was obviously the goal to come and win here for the fourth time in a row. It was a big motivation,\" he said after crossing the line.",
+      "keyMoments": [
+        { "km": 12, "what": "Fastest at the first check, 9 seconds up on Söderqvist" },
+        { "km": 27, "what": "Extends the lead to 34 seconds at the second split" },
+        { "km": 39, "what": "Wins in 44:53.13, a record fourth consecutive title" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "filippo-ganna",
+      "name": "Filippo Ganna",
+      "team": "Italy",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:57",
+      "narrative": "Ganna started slowly, outside the top ten at the first intermediate check and 22 seconds off Evenepoel's pace, but found his rhythm through the technical urban sector to move up to second by the third split. He set the fastest time on the road late in the race before Evenepoel came through, taking silver 57 seconds behind the winner.",
+      "keyMoments": [
+        { "km": 12, "what": "Only outside the top ten at the first check" },
+        { "km": 34, "what": "Moves into provisional second, still trailing Evenepoel" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "United States",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:25",
+      "narrative": "McNulty rode a steady, consistent time trial to finish fourth, just 12 seconds behind bronze medallist Seixas and ahead of Söderqvist, who had been in podium contention before a late crash.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "Mexico",
+      "role": "leader",
+      "position": 6,
+      "gap": "+1:38",
+      "narrative": "A week after winning GP de Montréal on the same Mont Royal roads, del Toro backed up that form with a top-six finish in the TT against a field of dedicated specialists, finishing just behind Stefan Küng.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "riderId": null, "description": "Jakob Söderqvist (Sweden), a leading contender for silver, crashed late on the course and finished the run bloodied, dropping out of medal contention." }
+    ],
+    "abandons": []
+  },
+  "aftermath": {
+    "headline": "A record fourth straight rainbow jersey",
+    "quotes": [
+      { "rider": "Remco Evenepoel", "quote": "It's amazing. It was obviously the goal to come and win here for the fourth time in a row. It was a big motivation." }
+    ],
+    "body": "Evenepoel's win makes him the first rider in the history of the World TT Championship (contested since 1994) to win four consecutive titles, surpassing the three-in-a-row records held by others and matching Fabian Cancellara and Tony Martin's four career wins overall — now in an unbroken run. He next turns his focus to the elite men's road race in the same city, aiming to become the first rider to win the TT and road race titles at the same Worlds."
+  },
+  "sources": [
+    { "url": "https://www.cyclingnews.com/pro-cycling/record-breaking-remco-evenepoel-makes-it-four-in-a-row-with-blistering-time-trial-performance-in-montreal/", "publication": "Cyclingnews", "title": "Record-breaking Remco Evenepoel makes it four in a row with blistering time trial performance in Montreal", "lang": "en" },
+    { "url": "https://cyclinguptodate.com/cycling/results-world-championships-mens-time-trial-2026-historic-remco-evenepoel-wins-fourth-title-in-a-row", "publication": "CyclingUpToDate", "title": "Results World Championships men's time trial 2026 — HISTORIC Remco Evenepoel wins fourth title in a row", "lang": "en" },
+    { "url": "https://www.domestiquecycling.com/en/cycling-races/world-championship-itt-men/2026/race-results/", "publication": "Domestique", "title": "World Championship ITT Men 2026 - Race results", "lang": "en" },
+    { "url": "https://www.reuters.com/sports/birthday-girl-reusser-retains-world-time-trial-title-montreal-2026-09-20/", "publication": "Reuters", "title": "Birthday girl Reusser retains world time trial title in Montreal", "lang": "en" },
+    { "url": "https://www.cyclingweekly.com/road-world-championships/remco-evenepoel-crushes-world-championships-elite-mens-time-trial-in-montreal-to-win-his-fourth-consecutive-title", "publication": "Cycling Weekly", "title": "Remco Evenepoel crushes World Championships elite men's time trial in Montreal to win his fourth consecutive title", "lang": "en" }
+  ]
+}
