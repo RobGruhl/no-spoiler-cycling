@@ -48072,8 +48072,8 @@
       "id": "tour-de-langkawi-2026",
       "name": "Tour de Langkawi",
       "description": "2.Pro cycling race in Malaysia",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=_JaBuwboHfQ",
       "type": "full-race",
       "raceDate": "2026-09-27",
       "endDate": "2026-10-04",
@@ -48139,12 +48139,17 @@
             "flat"
           ],
           "date": "2026-09-27",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=_JaBuwboHfQ",
           "description": "Grand Départ of the 30th Petronas Le Tour de Langkawi.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Malaysian race opener. Tropical climate, traditionally a sprint day."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-09-27"
           }
         },
         {
@@ -48301,7 +48306,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-09-27"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe stage highlights on YouTube — watch the linked videos directly and in stage order. Disable autoplay and avoid the sidebar, comments, and video descriptions, which can reveal results."
+      }
     },
     {
       "id": "world-championships-men-s-road-race-2026",
