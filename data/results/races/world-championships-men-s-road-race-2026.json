@@ -1,0 +1,279 @@
+{
+  "raceId": "world-championships-men-s-road-race-2026",
+  "raceName": "UCI Road World Championships — Men's Elite Road Race",
+  "raceDate": "2026-09-27",
+  "researchedAt": "2026-09-28T19:26:43Z",
+  "inProgress": false,
+  "tldr": "Brandon McNulty (USA) soloed clear with 33km to go on the Mont-Royal circuit and held on to win the rainbow jersey by 13 seconds, ending a 33-year US drought in the elite men's road race. Michael Matthews (Australia) won the chase group's sprint for silver, with Mathieu van der Poel (Netherlands) taking bronze.",
+  "podium": [
+    { "position": 1, "riderId": "brandon-mcnulty", "name": "Brandon McNulty", "team": "United States", "time": "6:17:04" },
+    { "position": 2, "riderId": "michael-matthews", "name": "Michael Matthews", "team": "Australia", "gap": "+0:13" },
+    { "position": 3, "riderId": "mathieu-van-der-poel", "name": "Mathieu van der Poel", "team": "Netherlands", "gap": "+0:13" },
+    { "position": 4, "name": "Quinn Simmons", "team": "United States", "gap": "+0:13" },
+    { "position": 5, "riderId": "isaac-del-toro", "name": "Isaac del Toro", "team": "Mexico", "gap": "+0:14" },
+    { "position": 6, "riderId": "mads-pedersen", "name": "Mads Pedersen", "team": "Denmark", "gap": "+0:14" },
+    { "position": 7, "riderId": "tom-pidcock", "name": "Tom Pidcock", "team": "Great Britain", "gap": "+0:14" },
+    { "position": 8, "riderId": "matteo-jorgenson", "name": "Matteo Jorgenson", "team": "United States", "gap": "+0:14" },
+    { "position": 9, "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Italy", "gap": "+0:14" },
+    { "position": 10, "riderId": "ben-healy", "name": "Ben Healy", "team": "Ireland", "gap": "+0:14" }
+  ],
+  "narrative": {
+    "headline": "McNulty solos to a stunning first US road title in 33 years",
+    "openingMoves": "The 273km route ran from Brossard to Montréal, finishing with repeated laps of the Mont-Royal circuit and its two climbs, the Côte de la Camillien-Houde and Côte de Polytechnique — essentially the closing circuit used at the GP de Montréal two weeks earlier. A 16-man break containing Biniam Girmay, Andreas Leknessund, Felix Engelhardt, Henok Mulubrhan, Guillaume Boivin, Emils Liepins and Jamie Meehan escaped early and built a lead of roughly eight and a half minutes, with Belgium, the Netherlands, Mexico and Great Britain sharing the chase. Once the race reached the Mont-Royal circuit, France's Bruno Armirail drove the peloton hard on his own, whittling the gap down lap by lap and fragmenting the break to its final survivors — Leknessund, Mulubrhan, Meehan and Liepins — before it was swallowed up.",
+    "raceUnfolds": "With the peloton reset, France went on the attack through Valentin Paret-Peintre, Jordan Jegat and Pavel Sivakov, prompting a series of moves from Oscar Onley, Maxim Van Gils, Giulio Ciccone and Ben Healy. Mathieu van der Poel jumped across, then Wout van Aert attacked in turn, drawing Primoz Roglic and Brandon McNulty into the action. Van Aert went again to stop the group being reeled back in, opening a gap with Van der Poel, Roglic, Anthon Charmig and Oscar Onley before Quinn Simmons bridged to make six. Behind, Isaac del Toro accelerated on the Camillien-Houde with Remco Evenepoel and Paul Seixas responding, dragging Ben Healy, Juan Ayuso, Ciccone and Matteo Jorgenson into a chase that kept threatening to close before stalling again.",
+    "decision": "Van der Poel split the six-man move twice — first shedding Van Aert, Roglic and Charmig with only Simmons and Onley able to follow, then dropping Onley too with just over 50km left to leave himself, Simmons and Roglic clear as Healy chased alone and eventually bridged across. Behind, Evenepoel, Del Toro, Seixas and Van Aert kept attacking and countering each other until a reformed group of around twelve came back together, among them Seixas, Ciccone, Jorgenson, Pidcock, Van der Poel, McNulty and Matthews. From that group, with 33km to go, McNulty attacked. Nobody reacted immediately — his US teammates Simmons and Jorgenson had no reason to chase, and Del Toro was reluctant to tow rivals back toward his own UAE Team Emirates teammate — and the gap passed a minute within a few kilometres.",
+    "finale": "McNulty reached the final lap with around 53 seconds in hand, but Tom Pidcock and Giulio Ciccone cut hard into the gap on the last ascent of the Camillien-Houde, reducing it to roughly 10 seconds as Del Toro, Seixas, Matthews, Jorgenson and Van der Poel stayed close behind. Just as the catch looked inevitable, the chasers hesitated rather than commit their last reserves, and McNulty found more time on the descent and final kilometres. Mauro Schmid, Van der Poel and Evenepoel all launched late moves out of the group, but McNulty held on to cross the line in 6:17:04, 13 seconds clear. Matthews won the sprint from the chase group for silver, with Van der Poel completing the podium in bronze — the first American world road race champion since 1993."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 53,
+      "location": "Mont-Royal circuit",
+      "headline": "Van der Poel splits the elite six",
+      "description": "Attacking out of a leading six-man group, Van der Poel dropped Oscar Onley with just over 50km to go, leaving himself, Quinn Simmons and Primoz Roglic clear at the front as Ben Healy chased alone from behind."
+    },
+    {
+      "kmFromFinish": 33,
+      "location": "Reformed lead group, Mont-Royal circuit",
+      "headline": "McNulty attacks alone",
+      "description": "From a regrouped dozen riders, McNulty attacked. His US teammates Quinn Simmons and Matteo Jorgenson sat on the chase, and with Del Toro unwilling to tow rivals toward his own teammate, the gap passed a minute within a few kilometres."
+    },
+    {
+      "kmFromFinish": 8,
+      "location": "Final ascent of the Côte de la Camillien-Houde",
+      "headline": "Pidcock and Ciccone cut the gap to 10 seconds",
+      "description": "McNulty's lead of 53 seconds at the start of the final lap fell to around 10 seconds as Pidcock and Ciccone drove the chase, before the group behind hesitated rather than spend its last reserves towing rivals back."
+    },
+    {
+      "kmFromFinish": 0.2,
+      "location": "Finish line, downtown Montréal",
+      "headline": "McNulty holds on for the rainbow jersey",
+      "description": "McNulty crossed the line 13 seconds clear of the chase group, in which Matthews won the sprint for silver ahead of Van der Poel — the first American men's road race world champion since 1993."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "United States",
+      "verdict": "McNulty wins, three in the top eight",
+      "verdictClass": "win",
+      "narrative": "McNulty's decisive attack came from a group that already contained two US teammates, Quinn Simmons and Matteo Jorgenson, who had spent the race marking moves and staying fresh rather than chasing. \"Our plan was to keep myself, Quinn and Matteo as fresh as possible,\" McNulty said afterward. \"We had Quinn up in an earlier move, which kind of let me and Matteo play a bit in the back. We came together again and I chose the right moment to go and never looked back.\" Simmons finished fourth in the chase-group sprint and Jorgenson eighth, giving the US three riders in the top eight — its best world road race result in decades before McNulty's win itself broke a 33-year drought.",
+      "riderIds": ["brandon-mcnulty", "matteo-jorgenson"]
+    },
+    {
+      "team": "Australia",
+      "verdict": "Matthews wins the sprint for silver",
+      "verdictClass": "neutral",
+      "narrative": "Matthews survived several moments where he looked close to being distanced from the front group in the finale, then found the strongest finish of the chasers to take silver — his second career runner-up finish at the Worlds road race.",
+      "riderIds": ["michael-matthews"]
+    },
+    {
+      "team": "Netherlands",
+      "verdict": "Van der Poel animates all day, salvages bronze",
+      "verdictClass": "neutral",
+      "narrative": "Van der Poel was one of the race's principal aggressors, launching the key mid-race split that reduced the leading group to himself, Simmons and Roglic, and attacking again in the finale — but he was still in the chase group when McNulty went clear at 33km, and had to settle for bronze after playing much of his hand too early.",
+      "riderIds": ["mathieu-van-der-poel"]
+    },
+    {
+      "team": "Belgium",
+      "verdict": "Evenepoel and Van Aert attack but miss the podium",
+      "verdictClass": "loss",
+      "narrative": "Van Aert attacked early to help force the race open before easing back to support Evenepoel, who struggled through the middle of the race, faded and reappeared repeatedly, and launched a final attack out of the chase group in the closing kilometres — but neither could force their way onto the podium, with Evenepoel finishing 12th, 25 seconds down.",
+      "riderIds": ["remco-evenepoel", "wout-van-aert"]
+    },
+    {
+      "team": "Mexico",
+      "verdict": "Del Toro forces the selection, fifth",
+      "verdictClass": "neutral",
+      "narrative": "Del Toro's repeated accelerations on the Camillien-Houde helped force the finale's decisive selection, and he chased hard on the final lap as McNulty's lead shrank to 10 seconds, but couldn't close it down, finishing fifth in the chase-group sprint.",
+      "riderIds": ["isaac-del-toro"]
+    },
+    {
+      "team": "Great Britain",
+      "verdict": "Pidcock closes hardest, seventh",
+      "verdictClass": "neutral",
+      "narrative": "Recovering from an earlier crash, Pidcock was the most persistent chaser in the finale, repeatedly attacking the group behind McNulty and at one stage distancing Del Toro and Van der Poel, cutting the gap to around 10 seconds on the final climb before it stalled again — finishing seventh.",
+      "riderIds": ["tom-pidcock"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "United States",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "A trusted domestique for the injured Tadej Pogačar for much of the season, McNulty attacked from a regrouped dozen riders with 33km to go and quickly opened a gap of over a minute. His advantage shrank to around 10 seconds on the final ascent of the Camillien-Houde as Pidcock and Ciccone closed hard, but the chase behind him stalled and he held on to win by 13 seconds, ending a 33-year wait for a US men's road race world champion. \"Until the last few hundred metres, I really didn't even believe it,\" he said. \"The last climb up Mount Royal, I don't know how I did it. I was just dying, but I kept pushing.\"",
+      "keyMoments": [
+        { "km": 240, "what": "Attacks alone from the reformed lead group with 33km to go" },
+        { "km": 265, "what": "Lead cut to around 10 seconds on the final Camillien-Houde climb before the chase stalls" },
+        { "km": 273, "what": "Wins solo in 6:17:04, the first American men's road race world champion since 1993" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "michael-matthews",
+      "name": "Michael Matthews",
+      "team": "Australia",
+      "role": "leader",
+      "position": 2,
+      "gap": "+0:13",
+      "narrative": "Matthews remained in contention deep into the finale despite looking close to distanced by the repeated attacks around him, then produced the strongest finish among the chasers to win the sprint for silver as McNulty stayed clear up the road.",
+      "keyMoments": [
+        { "km": 273, "what": "Wins the chase group's sprint for silver, 13 seconds behind McNulty" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Netherlands",
+      "role": "leader",
+      "position": 3,
+      "gap": "+0:13",
+      "narrative": "Van der Poel was among the most aggressive riders of the day, splitting a leading six-man group twice — first shedding Van Aert, Roglic and Charmig, then dropping Onley too with just over 50km left — before being reeled back in ahead of McNulty's winning move. He attacked again in the finale but couldn't force a gap, settling for bronze.",
+      "keyMoments": [
+        { "km": 183, "what": "Attacks a six-man group, initially only Simmons and Onley can follow" },
+        { "km": 223, "what": "Attacks again, drops Onley to leave himself, Simmons and Roglic clear" },
+        { "km": 273, "what": "Finishes third in the chase group, completing the podium" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "Mexico",
+      "role": "leader",
+      "position": 5,
+      "gap": "+0:14",
+      "narrative": "Del Toro's accelerations on the Camillien-Houde repeatedly forced selections through the finale, and he was among the strongest chasers on the final lap as McNulty's lead came down to 10 seconds — but chasing down his own UAE Team Emirates teammate held little appeal, and he couldn't close the gap alone, finishing fifth.",
+      "keyMoments": [
+        { "km": 200, "what": "Attacks on the Camillien-Houde, drawing Evenepoel and Seixas into a chase" },
+        { "km": 265, "what": "Among the strongest chasers as McNulty's lead falls to 10 seconds" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Denmark",
+      "role": "leader",
+      "position": 6,
+      "gap": "+0:14",
+      "narrative": "Pedersen survived the race's long war of attrition to reach the final lap among the 12-rider chase group, finishing sixth in the group sprint behind McNulty's solo win.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "tom-pidcock",
+      "name": "Tom Pidcock",
+      "team": "Great Britain",
+      "role": "leader",
+      "position": 7,
+      "gap": "+0:14",
+      "narrative": "Having recovered from an earlier crash, Pidcock was the most persistent chaser once McNulty went clear, repeatedly attacking the group behind and at one stage distancing both Del Toro and Van der Poel to cut the gap to around 10 seconds on the final climb — but the chase stalled again and he finished seventh.",
+      "keyMoments": [
+        { "km": 265, "what": "Repeated accelerations cut McNulty's lead to around 10 seconds on the final Camillien-Houde" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "United States",
+      "role": "domestique",
+      "position": 8,
+      "gap": "+0:14",
+      "narrative": "Jorgenson spent the finale marking moves alongside teammate Quinn Simmons rather than committing to the chase, helping create the platform for McNulty's winning attack before finishing eighth himself. \"He marked every single move from behind,\" one observer noted of his ride; McNulty credited the pair's positioning as central to the team's tactics on the day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Italy",
+      "role": "leader",
+      "position": 9,
+      "gap": "+0:14",
+      "narrative": "Ciccone was involved in several of the finale's key moves and, alongside Pidcock, drove the chase that cut McNulty's lead to around 10 seconds on the final climb, before finishing ninth in the group sprint.",
+      "keyMoments": [
+        { "km": 265, "what": "Drives the chase with Pidcock on the final Camillien-Houde" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "ben-healy",
+      "name": "Ben Healy",
+      "team": "Ireland",
+      "role": "leader",
+      "position": 10,
+      "gap": "+0:14",
+      "narrative": "Healy chased alone after Van der Poel split the leading group with just over 50km to go, first catching Onley before bridging all the way to the Van der Poel-Simmons-Roglic trio — a race-defining effort that briefly turned the finale into a four-man fight, before he was absorbed into the larger regrouping and finished tenth.",
+      "keyMoments": [
+        { "km": 223, "what": "Solo chase bridges across to the Van der Poel-Simmons-Roglic group" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Belgium",
+      "role": "leader",
+      "position": 12,
+      "gap": "+0:25",
+      "narrative": "The reigning TT world champion struggled through the middle of the race, repeatedly losing contact when Del Toro raised the pace before fighting his way back, and launched a late attack out of the chase group in the closing kilometres that didn't stick, finishing 12th.",
+      "keyMoments": [
+        { "km": 200, "what": "Struggles when Del Toro attacks on the Camillien-Houde, has to chase back" },
+        { "km": 270, "what": "Launches a late attack out of the chase group that is brought back" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "aftermath": {
+    "headline": "The first American rainbow jersey since 1993",
+    "quotes": [
+      {
+        "rider": "Brandon McNulty",
+        "quote": "I'm really at a loss for words. Until the last few hundred metres, I really didn't even believe it."
+      },
+      {
+        "rider": "Brandon McNulty",
+        "quote": "We've said for weeks now that we have a super strong team, and that this is possible. I think we rode crazy well. We marked everything, had guys ahead… I'm seriously at a loss for words."
+      }
+    ],
+    "body": "McNulty's win is only the third US men's road race world title, after Greg LeMond (1983, 1989) and Lance Armstrong (1993), and comes with two-time defending champion Tadej Pogačar absent after late-season collarbone surgery. McNulty, a long-time domestique for Pogačar at UAE Team Emirates - XRG, had flown under the radar all season before his solo ride — his best 2026 result had been third at the GP de Montréal on the same circuit two weeks earlier. With Quinn Simmons fourth, Matteo Jorgenson eighth and McNulty on top, it was the strongest US showing at the Worlds road race in decades, arriving less than two years before the Los Angeles 2028 Olympics."
+  },
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-2026-world-championships-mens-elite-road-race-brandon-mcnulty-survives-race-for-the-ages-to-end-33-year-us-drought-after-van-der-poel-pidcock-evenepoel-and-del-toro-thriller",
+      "publication": "CyclingUpToDate",
+      "title": "Results 2026 World Championships Men's Elite Road Race - Brandon McNulty survives race for the ages",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.olympics.com/en/news/uci-road-world-championships-2026-brandon-mcnulty-pulls-off-miraculous-solo-win-avenging-tokyo-2020-road-race-heartbreak",
+      "publication": "Olympics.com",
+      "title": "Brandon McNulty pulls off \"miraculous\" solo win, avenging Tokyo 2020 road race heartbreak",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.domestiquecycling.com/en/cycling-races/world-championship-rr-men/2026/race-results/",
+      "publication": "Domestique Cycling",
+      "title": "World Championship Road Race Men 2026 - Race results",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.nbcsports.com/olympics/news/brandon-mcnulty-world-championships-road-race-2026",
+      "publication": "NBC Sports",
+      "title": "Brandon McNulty wins U.S.' first road race world title in 33 years",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cbc.ca/sports/olympics/summer/cycling/road-race-world-championships-montreal-sunday-9.7360267",
+      "publication": "CBC Sports",
+      "title": "McNulty first American to win elite road race world title since Lance Armstrong in 1993",
+      "lang": "en"
+    }
+  ]
+}
