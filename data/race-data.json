@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T14:05:48.713Z",
+  "lastUpdated": "2026-10-04T15:23:14.446Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -48912,6 +48912,102 @@
       }
     },
     {
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2026-10-04T15:45:00.000Z",
+      "location": "Slovenia",
+      "category": "CC",
+      "discipline": "road",
+      "broadcast": {
+        "lastUpdated": "2026-10-04T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Eurovision Sport",
+              "type": "free",
+              "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+              "coverage": "live"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com/live/234231-2026-uec-road-european-championships",
+              "coverage": "live"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurovision Sport",
+                "type": "free",
+                "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+                "coverage": "live"
+              }
+            ]
+          }
+        }
+      },
+      "id": "european-championships-women-s-road-race-2026",
+      "name": "European Championships: Women's Road Race",
+      "description": "UEC European Championships elite women's road race in Slovenia",
+      "raceDate": "2026-10-03",
+      "raceDay": "Saturday",
+      "rating": 4,
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly",
+        "circuit"
+      ],
+      "distance": 130,
+      "gender": "women",
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The first UEC Road European Championships held in Slovenia. The 130km elite women's race (1,359m of climbing) starts at Kongresni trg in central Ljubljana, with a 9km neutralised roll past the Triple Bridge to kilometre zero in Šentvid, then runs through Škofja Loka, Kranj, Volčji Potok, Kamnik and Komenda to Šenčur. After 85.8km the race takes on two laps of the 22.1km Šenčur circuit (367m of climbing per lap): a gradual rise through Olševek towards Tupaliče, then Možjanca (2.1km at 10.2%, up to 15.8%, steepest in the final 200m), rolling roads over Štefanja Gora rather than an immediate descent, a technical drop towards Krvavec, and fast valley roads back past Strmol Castle into Šenčur.",
+        "narratives": [
+          "Defending champion: Demi Vollering is the reigning European champion and the rider the rest of the field has to answer.",
+          "Only two ascents of Možjanca: Unlike the men's five laps, there is no slow accumulation of fatigue — the strongest climbers have to attack on the climb rather than wait.",
+          "Dutch tradition: Dutch riders have a long record of success in the elite women's European road race, which began in 2016.",
+          "France's double threat: Juliette Berthet and Cédrine Kerbaol give France two different ways to animate the race."
+        ],
+        "watchNotes": "The second and final ascent of Možjanca is the last real chance to make a decisive gap. What follows — rolling summit roads, a technical descent and a fast 7km run-in past Strmol Castle — decides whether a climb attack survives or a small group comes back together. Start 13:30 CEST in Ljubljana, expected finish around 16:54 CEST.",
+        "historicalContext": "The elite women's road race has been part of the UEC European Championships since 2016. The 2026 championships run 2–7 October across Ljubljana, Šenčur and ten other Central Slovenian municipalities, the largest cycling event ever held in Slovenia.",
+        "favorites": {
+          "titleFavorites": [
+            "VOLLERING Demi (NED / FDJ United - SUEZ) — defending European champion and the clear pre-race favourite; the steep Možjanca ramps suit her.",
+            "NIEWIADOMA Kasia (POL / CANYON//SRAM zondacrypto) — the most likely rider to follow Vollering on the climb.",
+            "LONGO BORGHINI Elisa (ITA / UAE Team ADQ) — experienced climber who will aim to hang on to the strongest climbers; third at the 2016 Euros.",
+            "BERTHET Juliette (FRA / FDJ United - SUEZ) — climber leading a French team built to attack.",
+            "KERBAOL Cédrine (FRA / EF Education-Oatly) — aggressive all-rounder; France's other card.",
+            "BLASI Paula (ESP / UAE Team ADQ) — one to watch for a long-range attack on a circuit that rewards it."
+          ],
+          "darkHorses": [
+            "RÜEGG Noemi (SUI / EF Education-Oatly) — fast finisher if a small group arrives together.",
+            "WŁODARCZYK Dominika (POL / UAE Team ADQ) — Poland's second option behind Niewiadoma.",
+            "KOCH Franziska (GER) — leads Germany's challenge."
+          ]
+        },
+        "keyClimbs": [
+          {
+            "name": "Možjanca",
+            "length": 2.1,
+            "avgGradient": 10.2,
+            "notes": "Climbed twice on the 22.1km Šenčur circuit; ramps up to 15.8%, with the final 200m the steepest. Rolling roads follow the summit before the descent, so attacks have to be held over the top."
+          }
+        ]
+      }
+    },
+    {
       "id": "coppa-agostoni-2026",
       "name": "Coppa Agostoni",
       "description": "1.1 cycling race in Italy",
@@ -49103,7 +49199,15 @@
               "subscription": true,
               "url": "https://www.flobikes.com/live/234231-2026-uec-road-european-championships",
               "coverage": "live"
-            }
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurovision Sport",
+                "type": "free",
+                "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+                "coverage": "live"
+              }
+            ]
           }
         }
       },
@@ -49378,6 +49482,189 @@
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
       ]
+    },
+    {
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2026-10-04T15:45:00.000Z",
+      "location": "Slovenia",
+      "category": "CC",
+      "discipline": "road",
+      "broadcast": {
+        "lastUpdated": "2026-10-04T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Eurovision Sport",
+              "type": "free",
+              "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+              "coverage": "live"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com/live/234231-2026-uec-road-european-championships",
+              "coverage": "live"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurovision Sport",
+                "type": "free",
+                "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+                "coverage": "live"
+              }
+            ]
+          }
+        }
+      },
+      "id": "european-championships-mixed-relay-tt-2026",
+      "name": "European Championships: Mixed Relay TT",
+      "description": "UEC European Championships elite mixed relay team time trial in Slovenia",
+      "raceDate": "2026-10-06",
+      "raceDay": "Tuesday",
+      "rating": 3,
+      "raceFormat": "ttt",
+      "terrain": [
+        "ttt",
+        "hilly"
+      ],
+      "distance": 44,
+      "gender": "mixed",
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The elite mixed relay team time trial starts and finishes in Šenčur over 44.3km with 733m of climbing. Each nation fields three men and three women: the men's trio rides one lap of the 22.1km Šenčur circuit (367m of climbing per lap): a gradual rise through Olševek towards Tupaliče, then Možjanca (2.1km at 10.2%, up to 15.8%, steepest in the final 200m), rolling roads over Štefanja Gora rather than an immediate descent, a technical drop towards Krvavec, and fast valley roads back past Strmol Castle into Šenčur; the women's trio then sets off on the same lap, and the clock stops on the second woman across the line. It's a climbing relay — both trios have to get over Možjanca as a unit.",
+        "narratives": [
+          "A climbing relay: Most mixed relays are power courses. Here each trio has to tackle Možjanca's 10% ramps, which rewards nations whose time triallists can also climb.",
+          "Depth across both squads: With three men and three women, a single star cannot carry a nation — the weakest link in each trio sets the pace.",
+          "Rest-day reset: The relay is held on Tuesday after Monday's rest day, between the road races and Wednesday's individual time trials, so line-ups mix road specialists and TT riders."
+        ],
+        "watchNotes": "Watch the men's trio on Možjanca: the third rider is free to be dropped, but the clock stops on the second, so how teams pace the climb matters. The handover to the women's trio is the second act. Elite start 15:00 CEST.",
+        "historicalContext": "The mixed relay team time trial mirrors the format introduced at the UCI Road World Championships in 2019 — national teams of three men and three women racing as one.",
+        "favorites": {
+          "nationalTeams": [
+            "Switzerland — traditionally strong against the clock in both men's and women's squads.",
+            "Italy — deep time-trial pool across both genders.",
+            "Germany — consistent mixed-relay contender with strong TT depth.",
+            "France — enough climbing time triallists to suit this course.",
+            "Netherlands — strong women's time triallists anchor the second half.",
+            "Belgium — strong men's TT depth for the opening lap."
+          ]
+        },
+        "keyClimbs": [
+          {
+            "name": "Možjanca",
+            "length": 2.1,
+            "avgGradient": 10.2,
+            "notes": "Climbed once by each trio; ramps up to 15.8%. Teams must decide whether to wait for or drop their third rider."
+          }
+        ]
+      }
+    },
+    {
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2026-10-04T15:45:00.000Z",
+      "location": "Slovenia",
+      "category": "CC",
+      "discipline": "road",
+      "broadcast": {
+        "lastUpdated": "2026-10-04T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Eurovision Sport",
+              "type": "free",
+              "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+              "coverage": "live"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com/live/234231-2026-uec-road-european-championships",
+              "coverage": "live"
+            },
+            "alternatives": [
+              {
+                "broadcaster": "Eurovision Sport",
+                "type": "free",
+                "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+                "coverage": "live"
+              }
+            ]
+          }
+        }
+      },
+      "id": "european-championships-men-s-tt-2026",
+      "name": "European Championships: Men's TT",
+      "description": "UEC European Championships elite men's individual time trial in Slovenia",
+      "raceDate": "2026-10-07",
+      "raceDay": "Wednesday",
+      "rating": 3,
+      "raceFormat": "itt",
+      "terrain": [
+        "itt",
+        "hilly"
+      ],
+      "distance": 22,
+      "gender": "men",
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The closing event of the 2026 European Championships: a 22.1km individual time trial starting and finishing in Šenčur, on the 22.1km Šenčur circuit (367m of climbing per lap): a gradual rise through Olševek towards Tupaliče, then Možjanca (2.1km at 10.2%, up to 15.8%, steepest in the final 200m), rolling roads over Štefanja Gora rather than an immediate descent, a technical drop towards Krvavec, and fast valley roads back past Strmol Castle into Šenčur. Možjanca comes early, followed by a plateau, a very fast descent and flat final kilometres — a test that needs both climbing and pure time-trial power.",
+        "narratives": [
+          "A wide-open title: Defending champion Remco Evenepoel (winner in 2019 and 2025) is absent, as is Filippo Ganna — a three-time podium finisher who has never won it — so there is no clear favourite.",
+          "A climber's time trial: 10% ramps on Možjanca early in the effort open the door for climbers like home rider Primož Roglič against the specialists.",
+          "Great Britain's TT-only squad: Britain skipped the road races entirely and sent a small time-trial team, led by Ethan Hayter and Callum Thornley."
+        ],
+        "watchNotes": "Split times at the top of Možjanca show who has paced the climb well, but the fast descent and flat run-in reward riders who still have power left. Elite men start from 16:15 CEST, after the elite women's time trial.",
+        "historicalContext": "The elite men's individual time trial joined the UEC European Championships in 2016. Victor Campenaerts, Stefan Küng and Remco Evenepoel have each won it twice; Stefan Bissegger, Joshua Tarling and Edoardo Affini have also taken the title.",
+        "favorites": {
+          "titleFavorites": [
+            "KÜNG Stefan (SUI) — two-time European TT champion (2020, 2021) and a perennial contender.",
+            "ROGLIČ Primož (SLO / Red Bull - BORA - hansgrohe) — home rider whose climbing suits a course with Možjanca in it.",
+            "SÖDERQVIST Jakob (SWE) — young Swedish time-trial specialist.",
+            "HAYTER Ethan (GBR) — leads Britain's TT-only squad.",
+            "VAN WILDER Ilan (BEL) — climbs well enough to make the most of Možjanca; Belgium's option without Evenepoel.",
+            "ROMEO Iván (ESP) — Spanish time triallist who can handle the climb."
+          ],
+          "darkHorses": [
+            "THORNLEY Callum (GBR) — Britain's second time triallist."
+          ]
+        },
+        "keyClimbs": [
+          {
+            "name": "Možjanca",
+            "length": 2.1,
+            "avgGradient": 10.2,
+            "notes": "Early in the 22.1km effort; ramps up to 15.8%. A plateau then a very fast descent follow, so pacing the climb without blowing up is decisive."
+          }
+        ]
+      }
     },
     {
       "id": "gran-piemonte-2026",
