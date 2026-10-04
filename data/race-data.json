@@ -48832,8 +48832,8 @@
       "id": "sparkassen-munsterland-giro-2026",
       "name": "Sparkassen Münsterland Giro",
       "description": "1.Pro cycling race in Germany",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=kjGeaoHIOVY",
       "type": "full-race",
       "raceDate": "2026-10-03",
       "endDate": "2026-10-04",
@@ -48900,7 +48900,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-04"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      }
     },
     {
       "id": "coppa-agostoni-2026",
