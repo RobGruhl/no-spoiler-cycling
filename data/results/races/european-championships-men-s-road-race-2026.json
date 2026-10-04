@@ -1,0 +1,284 @@
+{
+  "raceId": "european-championships-men-s-road-race-2026",
+  "raceName": "UEC Road European Championships — Men's Elite Road Race",
+  "raceDate": "2026-10-04",
+  "researchedAt": "2026-10-04T19:28:21Z",
+  "inProgress": false,
+  "tldr": "Remco Evenepoel crashed on the penultimate climb of the Šenčur circuit but recovered to attack again with Giulio Ciccone, then beat the Italian in a photo-finish sprint to win the European title by millimetres. Christian Scaroni completed an Italian double podium in third, while home leader Primož Roglič finished 10th with Tadej Pogačar absent.",
+  "podium": [
+    { "position": 1, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Belgium", "time": "4:16:37" },
+    { "position": 2, "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Italy", "gap": "same time" },
+    { "position": 3, "riderId": "christian-scaroni", "name": "Christian Scaroni", "team": "Italy", "gap": "+0:59" },
+    { "position": 4, "name": "Toms Skujiņš", "team": "Latvia", "gap": "+1:13" },
+    { "position": 5, "name": "Iván Romeo", "team": "Spain", "gap": "+1:16" },
+    { "position": 6, "name": "Ramses Debruyne", "team": "Belgium", "gap": "+1:16" },
+    { "position": 7, "name": "Emil Herzog", "team": "Germany", "gap": "+1:16" },
+    { "position": 8, "name": "Maxim Van Gils", "team": "Belgium", "gap": "+1:16" },
+    { "position": 9, "riderId": "leo-bisiaux", "name": "Léo Bisiaux", "team": "France", "gap": "+1:18" },
+    { "position": 10, "riderId": "primoz-roglic", "name": "Primož Roglič", "team": "Slovenia", "gap": "+1:19" }
+  ],
+  "narrative": {
+    "headline": "Evenepoel survives a crash to beat Ciccone by millimetres",
+    "openingMoves": "The 196.3km race left Ljubljana and ran through Škofja Loka, Kranj, Kamnik and Komenda before reaching the Šenčur finishing circuit for five laps including the Možjanca climb (2.1km at around 10%). A five-rider move containing Tiago Antunes, Jakob Söderqvist, Fabian Weiss, Luka Mezgec and Josef Černý built an early lead but never threatened to stay away, with Belgium controlling the peloton through most of the afternoon. The break was caught with 82km to go, and the same phase saw Juan Ayuso lose contact with the front group alongside Julien Bernard and Gijs Leemreize; Ayuso did not finish.",
+    "raceUnfolds": "Jan Christen attacked with 81km left, followed by Giulio Pellizzari, but neither move got clear of the Belgian-controlled bunch. Pavel Sivakov had a brief spell on the front without lasting effect. On the penultimate ascent of Možjanca, Belgium set the pace and Remco Evenepoel attacked with Giulio Ciccone following his wheel.",
+    "decision": "Evenepoel crashed just after the summit of the penultimate climb, losing his front wheel in a corner he had entered too fast. The move briefly left Ciccone isolated at the front, but Belgium's numbers brought the race back together before Evenepoel counter-attacked on the descent a few kilometres later, again with Ciccone in tow. The pair cooperated to the finish, with both of their teammates sitting on the chasing wheels behind. Christian Scaroni attacked twice out of the first chase group in the closing kilometres to secure the bronze medal position on his own.",
+    "finale": "Ciccone attacked on the final corner in Šenčur, taking an inside line for a brief gap and appearing to have the sprint won, but Evenepoel came back around him in the last metres. Neither rider knew the result immediately; both waited several minutes for the photo-finish before Evenepoel's win was confirmed, giving Belgium the title in 4:16:37 with Ciccone credited the same time. Scaroni's second attack held off the first chase group by 59 seconds for third, with Toms Skujiņš leading that group home 14 seconds further back. Primož Roglič, leading Slovenia in Tadej Pogačar's absence, finished 10th at +1:19 without featuring in any of the race's decisive moves."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 44,
+      "location": "Penultimate ascent of Možjanca",
+      "headline": "Evenepoel attacks, then crashes",
+      "description": "Belgium set the pace up the penultimate Možjanca climb and Evenepoel attacked with Ciccone on his wheel, but crashed in a corner just past the summit after entering it too fast. Belgium's numbers brought the race back together before he could be isolated."
+    },
+    {
+      "kmFromFinish": 37,
+      "location": "Descent off Možjanca",
+      "headline": "Evenepoel and Ciccone go clear together",
+      "description": "Evenepoel attacked again on the descent, with Ciccone following; the pair worked together to the line, each sheltered by a teammate in the chase group behind."
+    },
+    {
+      "kmFromFinish": 14,
+      "location": "First chase group, Šenčur circuit",
+      "headline": "Scaroni secures bronze",
+      "description": "Christian Scaroni attacked twice from the first chase group in the final 14km, opening a gap that held to the finish and gave Italy a second podium place."
+    },
+    {
+      "kmFromFinish": 0.1,
+      "location": "Finish line, Šenčur",
+      "headline": "Evenepoel wins the photo finish",
+      "description": "Ciccone took the inside line on the final corner for a brief lead, but Evenepoel came around him in the last metres. Both riders waited several minutes before the photo-finish confirmed Evenepoel as champion, with Ciccone credited the same time."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Belgium",
+      "verdict": "Evenepoel wins after a crash",
+      "verdictClass": "win",
+      "narrative": "Belgium controlled the race for most of the afternoon and set the pace on the penultimate Možjanca climb for Evenepoel's decisive attack. After Evenepoel crashed just past the summit, the team's numbers brought the race back together rather than letting Ciccone escape alone, and Ramses Debruyne (6th) and Maxim Van Gils (8th) both finished in the first chase group behind the winner. \"The race played out exactly as we wanted,\" Evenepoel said afterward, crediting his teammates for the plan around his late attack.",
+      "riderIds": ["remco-evenepoel"]
+    },
+    {
+      "team": "Italy",
+      "verdict": "Silver and bronze, gold slips away",
+      "verdictClass": "neutral",
+      "narrative": "Giulio Ciccone matched Evenepoel's late move and very nearly won the sprint, taking the inside line on the final corner before being passed in the last metres — a defeat decided by a photo finish rather than a gap. Christian Scaroni added a second podium place with two accelerations out of the first chase group in the closing kilometres. It extends Italy's run without the European men's road title since its four-year streak ended in 2021, but the near-miss was as close as a result can be.",
+      "riderIds": ["giulio-ciccone", "christian-scaroni"]
+    },
+    {
+      "team": "Slovenia",
+      "verdict": "Roglič can't fill the host nation's void",
+      "verdictClass": "loss",
+      "narrative": "With Tadej Pogačar absent, Primož Roglič carried Slovenia's hopes on home roads but was never part of the race's decisive moves, finishing 10th at +1:19 alongside the first chase group. Jakob Omrzel, the other Slovenian card, finished further back at +2:08. The home crowd around Ljubljana and Šenčur did not get the result it wanted.",
+      "riderIds": ["primoz-roglic"]
+    },
+    {
+      "team": "France",
+      "verdict": "Bisiaux's day, bigger names miss out",
+      "verdictClass": "neutral",
+      "narrative": "Léo Bisiaux was France's best-placed rider by a wide margin, finishing 9th in the first chase group at +1:18, while senior favourites Romain Grégoire and Kévin Vauquelin both finished in a group at +2:08, well outside the placings that mattered.",
+      "riderIds": ["leo-bisiaux", "romain-gregoire1", "kevin-vauquelin"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Belgium",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Evenepoel attacked on the penultimate ascent of Možjanca with Ciccone on his wheel, then crashed in a corner just past the summit after entering it too fast — a moment that briefly threatened his title bid before Belgium's numbers pulled the race back together. He attacked again on the descent, this time making it stick with Ciccone alongside, and the two cooperated to the finish. Ciccone took the inside line on the final corner and appeared to have won, but Evenepoel came around him in the closing metres; both riders waited several minutes for the photo-finish before his win was confirmed. It completes his collection of major championship jerseys and comes a week after a Worlds result in Montréal he described as having affected him \"more mentally than I let on.\"",
+      "keyMoments": [
+        { "km": 152, "what": "Attacks the penultimate Možjanca climb with Ciccone on his wheel" },
+        { "km": 153, "what": "Crashes in a corner just past the summit after going in too fast" },
+        { "km": 159, "what": "Attacks again on the descent, this time clear with Ciccone" },
+        { "km": 196, "what": "Wins the photo-finish sprint by millimetres" }
+      ],
+      "incident": { "type": "crash", "description": "Lost his front wheel in a corner just past the summit of the penultimate Možjanca climb, around 44km from the finish; remounted without lasting time loss." }
+    },
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Italy",
+      "role": "leader",
+      "position": 2,
+      "gap": "same time",
+      "narrative": "Ciccone matched Evenepoel's attack on the penultimate climb and again on the descent after the Belgian's crash, the two riders cooperating the rest of the way to the finish. He took a brief lead with a well-timed inside line on the final corner, but Evenepoel passed him in the last metres; the margin was close enough that neither rider knew the outcome until the official photo-finish was released. It is his second runner-up finish at a major road title decided by the smallest of margins.",
+      "keyMoments": [
+        { "km": 152, "what": "Follows Evenepoel's attack on the penultimate Možjanca climb" },
+        { "km": 159, "what": "Goes clear with Evenepoel on the descent after the Belgian's crash" },
+        { "km": 196, "what": "Takes the inside line on the final corner, then is passed in the sprint" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "christian-scaroni",
+      "name": "Christian Scaroni",
+      "team": "Italy",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "+0:59",
+      "narrative": "Scaroni was active in the first chase group through the finale and launched two accelerations in the closing 14km, the second of which held off the rest of the group to secure the bronze medal position, giving Italy a second rider on the podium behind Ciccone.",
+      "keyMoments": [
+        { "km": 182, "what": "First acceleration from the chase group with 14km to go" },
+        { "km": 183, "what": "Second attack opens the gap that holds to the finish" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "leo-bisiaux",
+      "name": "Léo Bisiaux",
+      "team": "France",
+      "role": "leader",
+      "position": 9,
+      "gap": "+1:18",
+      "narrative": "Bisiaux stayed with the first chase group through the finale and finished 9th, by far France's best result of the day and ahead of senior teammates Romain Grégoire and Kévin Vauquelin, who finished more than a minute further back.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "primoz-roglic",
+      "name": "Primož Roglič",
+      "team": "Slovenia",
+      "role": "leader",
+      "position": 10,
+      "gap": "+1:19",
+      "narrative": "Leading Slovenia in Tadej Pogačar's absence, Roglič was not part of any of the race's decisive moves on or after Možjanca and finished 10th with the first chase group, missing the home result Slovenian fans had hoped for.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "romain-gregoire1",
+      "name": "Romain Grégoire",
+      "team": "France",
+      "role": "leader",
+      "position": 12,
+      "gap": "+2:08",
+      "narrative": "Grégoire finished 12th in a group at +2:08, well off the pace set by the leaders and outside the placings France had hoped for from one of its main cards.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin",
+      "name": "Kévin Vauquelin",
+      "team": "France",
+      "role": "leader",
+      "position": 14,
+      "gap": "+2:08",
+      "narrative": "Vauquelin finished 14th in the same group as Grégoire at +2:08, unable to feature in the race's decisive moves.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "Switzerland",
+      "role": "leader",
+      "position": 28,
+      "gap": "+3:07",
+      "narrative": "Christen attacked with 81km to go, one of the earlier moves that tried to force the race open, but was brought back without gaining a lasting advantage and finished 28th at +3:07.",
+      "keyMoments": [
+        { "km": 115, "what": "Attacks with 81km remaining, caught without getting clear" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "giulio-pellizzari",
+      "name": "Giulio Pellizzari",
+      "team": "Italy",
+      "role": "domestique",
+      "position": 31,
+      "gap": "+6:49",
+      "narrative": "Pellizzari followed Jan Christen's attack with 81km to go but the move came to nothing, and he finished well back at +6:49 as Italy's title chances rested with Ciccone and Scaroni instead.",
+      "keyMoments": [
+        { "km": 115, "what": "Follows Christen's early attack" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "mads-pedersen",
+      "name": "Mads Pedersen",
+      "team": "Denmark",
+      "role": "leader",
+      "position": 36,
+      "gap": "+8:14",
+      "narrative": "The repeated ascents of Možjanca proved too steep and too frequent for Pedersen, who lost contact with the front groups well before the finale and finished 36th at +8:14.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "alex-baudin",
+      "name": "Alex Baudin",
+      "team": "France",
+      "role": "domestique",
+      "position": 17,
+      "gap": "+2:08",
+      "narrative": "Baudin finished in the same +2:08 group as Grégoire and Vauquelin, 17th on the day.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Spain",
+      "role": "leader",
+      "position": null,
+      "gap": "DNF",
+      "narrative": "Ayuso lost contact with the front group around 82km from the finish, alongside Julien Bernard and Gijs Leemreize, and did not finish — a disappointing end to Spain's bid built around him.",
+      "keyMoments": [
+        { "km": 114, "what": "Loses contact with the front group, 82km from the finish" }
+      ],
+      "incident": { "type": "abandon", "description": "Dropped from the front group around 82km from the finish; did not finish." }
+    }
+  ],
+  "incidents": {
+    "abandons": [
+      { "riderId": "juan-ayuso-pesquera", "reason": "Dropped from the front group around 82km from the finish; did not finish." }
+    ]
+  },
+  "aftermath": {
+    "headline": "A photo-finish title and relief for Evenepoel",
+    "quotes": [
+      {
+        "rider": "Remco Evenepoel",
+        "quote": "I think I launched a strong attack, but I went into the corner too quickly and lost traction. I think I could have gone clear there, but in the end we stayed calm, went back to the plan, and I attacked again just before the descent."
+      },
+      {
+        "rider": "Remco Evenepoel",
+        "quote": "Then, the sprint looked bad... I thought I wouldn't make it anymore, but I saw he was losing a lot of speed with 100 metres to go and I managed to pass him right on the finish line."
+      },
+      {
+        "rider": "Remco Evenepoel",
+        "quote": "It was a mentally very hard week to recover from the disappointment... I hope I made everyone proud today."
+      }
+    ],
+    "body": "Evenepoel had to wait several minutes for the photo-finish to confirm his win, in an arrival so tight that neither he nor Ciccone knew the result immediately. The Belgian said the Montréal Worlds defeat the week before had weighed on him more than he showed publicly, and that completing his set of major championship titles brought major relief. The result came with defending champion Tadej Pogačar not on the Slovenian start list by his own choice, leaving Primož Roglič to lead the home nation; Roglič finished 10th without featuring in the race's decisive moves."
+  },
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-european-championships-mens-elite-road-race-2026-remco-evenepoel-wins-photo-finish-sprint-against-ciccone-following-dramatic-crash",
+      "publication": "CyclingUpToDate",
+      "title": "Results European Championships men's elite road race 2026 - Remco Evenepoel wins photo-finish sprint against Ciccone following dramatic crash",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/remco-evenepoel-wins-2026-european-championships-mens-road-race/",
+      "publication": "ProCyclingUK",
+      "title": "Remco Evenepoel wins 2026 European Championships after late attack and crash",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/the-sprint-looked-bad-remco-evenepoel-makes-a-comeback-with-major-european-championships-win",
+      "publication": "CyclingUpToDate",
+      "title": "\"The sprint looked bad...\" - Remco Evenepoel makes a comeback with major European Championships win",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.domestiquecycling.com/en/cycling-races/europe-rr-men/2026/race-results/",
+      "publication": "Domestique Cycling",
+      "title": "European Championships Road Race Men 2026 - Race results",
+      "lang": "en"
+    }
+  ]
+}
