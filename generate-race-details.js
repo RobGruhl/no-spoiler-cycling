@@ -1149,9 +1149,12 @@ function renderFavourites(race) {
   }
   if (!flat.length) return `<p class="prose">Favourites TBD.</p>`;
   return `<div class="fav">${flat.slice(0, 6).map((f, i) => {
-    const [name, ...rest] = f.text.split(/\s*[-–]\s*/);
-    const teamMatch = name.match(/\(([^)]+)\)/);
-    const team = teamMatch ? teamMatch[1] : '';
+    // "NAME (NAT / Team - With - Hyphens) — note": take the parenthetical whole
+    // before splitting, or hyphenated team names get cut mid-name.
+    const paren = f.text.match(/^([^(—–]+?)\s*\(([^)]+)\)\s*[-–—]?\s*([\s\S]*)$/);
+    const [name, ...rest] = paren ? [paren[1], paren[3]] : f.text.split(/\s*[-–—]\s*/);
+    const teamMatch = paren ? null : name.match(/\(([^)]+)\)/);
+    const team = paren ? paren[2] : (teamMatch ? teamMatch[1] : '');
     const cleanName = name.replace(/\s*\([^)]+\)/, '').trim();
     return `<div class="card">
       <div class="no">№ ${String(i + 1).padStart(2, '0')} · ${f.group.toUpperCase()}</div>
