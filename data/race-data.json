@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T01:29:05.389Z",
+  "lastUpdated": "2026-10-04T14:05:48.713Z",
   "event": {
     "name": "UCI Elite Cycling Calendar 2026",
     "location": "Worldwide",
@@ -49054,6 +49054,98 @@
           "text": "Limited public route/startlist information for this national-tier race in our research window. Course details and rider lists usually firm up 2-3 weeks before race day on the organizer site."
         }
       ]
+    },
+    {
+      "platform": "TBD",
+      "url": "TBD",
+      "type": "full-race",
+      "discoveredAt": "2026-10-04T14:30:00.000Z",
+      "id": "european-championships-men-s-road-race-2026",
+      "name": "European Championships: Men's Road Race",
+      "description": "UEC European Championships elite men's road race in Slovenia",
+      "raceDate": "2026-10-04",
+      "raceDay": "Sunday",
+      "location": "Slovenia",
+      "category": "CC",
+      "rating": 4,
+      "raceFormat": "one-day",
+      "terrain": [
+        "hilly",
+        "circuit"
+      ],
+      "distance": 196,
+      "gender": "men",
+      "discipline": "road",
+      "broadcast": {
+        "lastUpdated": "2026-10-04T00:00:00Z",
+        "geos": {
+          "US": {
+            "primary": {
+              "broadcaster": "Eurovision Sport",
+              "type": "free",
+              "url": "https://eurovisionsport.com/en/explore/competition/20261003uecslovenia",
+              "coverage": "live"
+            }
+          },
+          "UK": {
+            "primary": {
+              "broadcaster": "TNT Sports / Discovery+",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.discoveryplus.com",
+              "coverage": "live"
+            }
+          },
+          "CA": {
+            "primary": {
+              "broadcaster": "FloBikes",
+              "type": "streaming",
+              "subscription": true,
+              "url": "https://www.flobikes.com/live/234231-2026-uec-road-european-championships",
+              "coverage": "live"
+            }
+          }
+        }
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "courseSummary": "The first UEC Road European Championships held in Slovenia. The 196.3km elite men's race (2,571m of climbing) starts at Kongresni trg in central Ljubljana, with a 9km neutralised roll past the Triple Bridge to kilometre zero in Šentvid. The opening 86km run through Škofja Loka, Kranj, Kamnik and Komenda to Šenčur, then the race settles into five laps of a 22.1km finishing circuit near Strmol Castle. Each lap climbs Možjanca (2.1km at 10.2%, steepest in the final 200m), rolls on over Štefanja Gora rather than descending straight away, drops technically towards Krvavec, then races fast valley roads back to Šenčur.",
+        "narratives": [
+          "Home Euros without the home superstar: Tadej Pogačar, the defending European champion, is not on the Slovenian start list — by his own choice, per national coach Uroš Murn — and is attending as a supporter. Slovenia's leadership falls to Primož Roglič.",
+          "Evenepoel's missing title: Remco Evenepoel has won both the road race and time trial at the Olympics and Worlds, plus the European time trial. The European road race is the one major championship title left in his collection.",
+          "Roglič on home roads: At 36, Roglič would become the oldest winner of the elite men's European road race in front of a home crowd.",
+          "Italy's drought: Italy won this race four years running from 2018 to 2021 and has not won it since; Giulio Ciccone leads its challenge.",
+          "One week after Montréal: The Euros come straight after the World Championships, so recovery and freshness matter as much as form."
+        ],
+        "watchNotes": "Five ascents of Možjanca shape the race — expect it to wear the field down lap by lap rather than produce one early decisive attack. The final lap matters most, but because the summit is followed by rolling roads, a technical descent and a fast 7km run-in past Strmol Castle, a move made on the climb still has to survive what comes after. Start 12:30 CEST in Ljubljana, expected finish around 17:10 CEST.",
+        "historicalContext": "The UEC added an elite men's road race to its European Championships in 2016, and it quickly became a prized title for one-day specialists and puncheurs. Italy dominated from 2018 to 2021. The 2026 championships run 2–7 October across Ljubljana, Šenčur and ten other Central Slovenian municipalities — the largest cycling event ever held in Slovenia — with the elite time trials on 7 October closing the week.",
+        "favorites": {
+          "titleFavorites": [
+            "EVENEPOEL Remco (BEL / Red Bull - BORA - hansgrohe) — pre-race favourite; the European road title is the only major championship he has yet to win. Backed by one of the strongest teams in the race.",
+            "ROGLIČ Primož (SLO / Red Bull - BORA - hansgrohe) — home leader with Pogačar absent; a steep, repeated climb like Možjanca suits his punch.",
+            "CICCONE Giulio (ITA / Lidl - Trek) — strong on both long climbs and short steep ones, as he showed winning the 2025 Clásica San Sebastián; the timing of his effort over Možjanca will be key.",
+            "AYUSO Juan (ESP / Lidl - Trek) — leads Spain; Možjanca's gradients suit his climbing.",
+            "GRÉGOIRE Romain (FRA / Groupama - FDJ United) — one of the peloton's best puncheurs and the French rider best suited to making the difference on the steepest ramps.",
+            "PEDERSEN Mads (DEN / Lidl - Trek) — 2019 World Champion; the question is whether he can survive five ascents of a climb longer and steeper than his usual terrain."
+          ],
+          "darkHorses": [
+            "OMRZEL Jakob (SLO / Bahrain - Victorious) — 20-year-old home climber with a fearsome uphill kick; Slovenia's second card behind Roglič.",
+            "VAN GILS Maxim (BEL / Red Bull - BORA - hansgrohe) — Belgian puncheur who gives Belgium a second card if the race is controlled for Evenepoel.",
+            "PELLIZZARI Giulio (ITA / Red Bull - BORA - hansgrohe) — young Italian climber; an alternative if Ciccone is marked.",
+            "VAUQUELIN Kévin (FRA / Netcompany INEOS Cycling Team) — one of several French riders capable of attacking from distance.",
+            "CHRISTEN Jan (SUI / UAE Team Emirates - XRG) — Swiss puncheur; leads Switzerland alongside Marc Hirschi.",
+            "HIRSCHI Marc (SUI / Tudor Pro Cycling Team) — former Worlds medallist with a proven record on short, steep climbs."
+          ]
+        },
+        "keyClimbs": [
+          {
+            "name": "Možjanca",
+            "length": 2.1,
+            "avgGradient": 10.2,
+            "notes": "Climbed five times on the 22.1km Šenčur circuit; ramps up to 15.8%, with the final 200m the steepest. The summit leads into rolling roads over Štefanja Gora rather than an immediate descent, so gaps made on the climb must be held over the top."
+          }
+        ]
+      }
     },
     {
       "id": "coppa-bernocchi-2026",
