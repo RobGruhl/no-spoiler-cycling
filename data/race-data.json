@@ -49270,8 +49270,8 @@
       "id": "coppa-bernocchi-2026",
       "name": "Coppa Bernocchi",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ydj1CxDmBSU",
       "type": "full-race",
       "raceDate": "2026-10-05",
       "endDate": "2026-10-06",
@@ -49337,14 +49337,21 @@
           "puncheurs": [
             "Italian classics specialists and Lombardia hopefuls target this Trittico race."
           ]
-        }
+        },
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-06"
+      }
     },
     {
       "id": "binche-chimay-binche-2026",
