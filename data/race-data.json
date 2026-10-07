@@ -49429,8 +49429,8 @@
       "id": "tre-valle-varesine-2026",
       "name": "Tre Valle Varesine",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=diDW0jzFI2s",
       "type": "full-race",
       "raceDate": "2026-10-06",
       "endDate": "2026-10-07",
@@ -49496,14 +49496,21 @@
           "puncheurs": [
             "Top Lombardia favourites use this as final tune-up."
           ]
-        }
+        },
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-07"
+      }
     },
     {
       "platform": "TBD",
