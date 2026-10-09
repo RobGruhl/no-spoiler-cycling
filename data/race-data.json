@@ -49699,8 +49699,8 @@
       "id": "gran-piemonte-2026",
       "name": "Gran Piemonte",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sxIG4nPFg2o",
       "type": "full-race",
       "raceDate": "2026-10-08",
       "endDate": "2026-10-09",
@@ -49766,7 +49766,14 @@
           "Lombardia warm-up: held the week before Il Lombardia.",
           "Piedmont rolling hills produce a selective finale.",
           "Top-end WT classics riders use this as Lombardia rehearsal."
-        ]
+        ],
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      },
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-09"
       }
     },
     {
