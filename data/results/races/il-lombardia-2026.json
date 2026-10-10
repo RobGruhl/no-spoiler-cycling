@@ -1,0 +1,238 @@
+{
+  "raceId": "il-lombardia-2026",
+  "raceName": "Il Lombardia",
+  "raceDate": "2026-10-10",
+  "researchedAt": "2026-10-10T19:28:50Z",
+  "inProgress": false,
+  "tldr": "Paul Seixas (Decathlon CMA CGM) rode clear alone on the Civiglio and held off the chase to win Il Lombardia, becoming the youngest winner in the Monument's history at 20 and ending Tadej Pogačar and UAE Team Emirates - XRG's five-year run atop the race. Enric Mas took second and Giulio Ciccone held on for third.",
+  "podium": [
+    { "position": 1, "riderId": "paul-seixas", "name": "Paul Seixas", "team": "Decathlon CMA CGM Team", "time": "5:49:28" },
+    { "position": 2, "name": "Enric Mas", "team": "Movistar Team", "gap": "+0:48" },
+    { "position": 3, "riderId": "giulio-ciccone", "name": "Giulio Ciccone", "team": "Lidl - Trek", "gap": "+1:05" },
+    { "position": 4, "riderId": "remco-evenepoel", "name": "Remco Evenepoel", "team": "Red Bull - BORA - hansgrohe", "gap": "+1:20" },
+    { "position": 5, "riderId": "brandon-mcnulty", "name": "Brandon McNulty", "team": "UAE Team Emirates - XRG", "gap": "+1:20" }
+  ],
+  "narrative": {
+    "headline": "A 20-year-old solos to history on the Civiglio",
+    "openingMoves": "Before the start in Bergamo, the peloton delayed the race by five minutes in a safety protest over recent rider deaths and injuries in the sport, with world champion Brandon McNulty and European champion Remco Evenepoel at the front of the bunch; Evenepoel took a microphone to speak on the group's behalf. Once underway, the 239km route to Como settled into an aggressive opening before a 14-rider breakaway — Ben O'Connor, Antonio Tiberi, Victor Campenaerts, George Bennett, Fausto Masnada, Sylvain Moniquet, Louis Vervaeke, Julien Bernard, Michael Leonard, Gijs Leemreize, Pau Marti, Maxime Decomble, Andrea Mifsud and Johannes Kulset — went clear and built a lead of a little over three minutes, kept in check by Red Bull - BORA - hansgrohe, UAE Team Emirates - XRG, Decathlon CMA CGM and Pinarello-Q36.5. O'Connor animated the move hardest, repeatedly lifting the pace on the Giovenzana and the Madonna del Ghisallo and splitting the break apart.",
+    "raceUnfolds": "The Ghisallo produced the first move from the favourites' group as Matteo Jorgenson attacked after being launched by teammate Louis Barré, pulling Quinn Simmons, Brandon McNulty and Christian Scaroni clear and forcing Red Bull - BORA - hansgrohe to chase through Giulio Pellizzari and later Primož Roglič. The quartet was caught on the run into Como, but the effort had already begun to thin the support around the main contenders. On the first ascent of San Fermo della Battaglia, Pellizzari's pace split the favourites' group further, dropping Roglič, Jorgenson and Lenny Martínez as the six survivors of the original break held around 45 seconds through the first pass of the finish line.",
+    "decision": "That gap vanished on the decisive climb of the Civiglio, 18km from the finish. UAE Team Emirates - XRG moved to the front with Adam Yates and McNulty still shepherding Isaac del Toro, but Paul Seixas attacked before the Mexican could use his teammates, sweeping up the remaining escapees and immediately putting Remco Evenepoel into trouble. Thomas Pidcock and Giulio Ciccone briefly matched Seixas's pace while Del Toro slipped backwards, but Seixas kept driving and shed Pidcock, then Ciccone, near the summit. Enric Mas, who had ridden much of the climb at his own pace, passed Pidcock and caught Ciccone just before the top, as Seixas crested with roughly 30 seconds in hand.",
+    "finale": "Seixas defended his margin on the technical descent and extended it again on the short final climb of San Fermo della Battaglia, where Mas attacked Ciccone and rode clear alone to secure second place. Ciccone, with Ben Healy closing to within 12 seconds behind him, held on for third as Pidcock tried and failed to fight his way back into podium contention. Seixas crested the final climb with close to 50 seconds in hand and descended into Como to win solo by 48 seconds over Mas, becoming, at 20, the youngest winner in Il Lombardia's 120-edition history and handing Decathlon CMA CGM its first Monument victory — ending the five-year reign of Tadej Pogačar and UAE Team Emirates - XRG over the race."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 35,
+      "location": "Madonna del Ghisallo",
+      "headline": "Jorgenson's long-range dig",
+      "description": "Launched by teammate Louis Barré, Matteo Jorgenson attacked on the Ghisallo with Quinn Simmons, Brandon McNulty and Christian Scaroni, forcing Red Bull - BORA - hansgrohe into a chase that used up support around the main favourites before the move was caught."
+    },
+    {
+      "kmFromFinish": 18,
+      "location": "Civiglio",
+      "headline": "Seixas rides everyone off his wheel",
+      "description": "Paul Seixas attacked on the Civiglio, absorbing the last of the breakaway and immediately distancing Remco Evenepoel and Isaac del Toro; only Thomas Pidcock and Giulio Ciccone could initially follow before both were shed near the summit."
+    },
+    {
+      "kmFromFinish": 4,
+      "location": "San Fermo della Battaglia",
+      "headline": "Mas drops Ciccone for second",
+      "description": "Having fought back from behind, Enric Mas attacked Giulio Ciccone on the final climb and rode clear to secure second place, with Ciccone holding on for third as Ben Healy closed to within 12 seconds of him from the chase."
+    },
+    {
+      "kmFromFinish": 0,
+      "location": "Finish line, Como",
+      "headline": "Youngest winner in the Monument's history",
+      "description": "Seixas crossed the line solo in 5:49:28, 48 seconds clear of Mas, becoming the youngest Il Lombardia winner ever at 20 and ending Tadej Pogačar and UAE Team Emirates - XRG's five-year hold on the race."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Decathlon CMA CGM Team",
+      "verdict": "Seixas wins the team's first Monument",
+      "verdictClass": "win",
+      "narrative": "Seixas's solo victory, set up by a Ghisallo-area chase that cost rivals their support riders and sealed by his own Civiglio attack, gave Decathlon CMA CGM its first Monument title and closed out a breakout season that already included Classics podiums and stage-race wins.",
+      "riderIds": ["paul-seixas"]
+    },
+    {
+      "team": "Movistar Team",
+      "verdict": "Mas climbs through for second",
+      "verdictClass": "neutral",
+      "narrative": "Enric Mas rode the Civiglio at his own pace rather than chasing immediately, then used that reserve to pass Thomas Pidcock, catch Giulio Ciccone and drop him on the final climb to secure the runner-up spot.",
+      "riderIds": []
+    },
+    {
+      "team": "Lidl - Trek",
+      "verdict": "Ciccone holds on for third",
+      "verdictClass": "neutral",
+      "narrative": "Ciccone was one of only two riders who could initially follow Seixas's Civiglio attack, lost contact near the summit, and then had to defend third against Mas and a fast-closing Ben Healy all the way to Como. Teammate Juan Ayuso, by contrast, never featured among the leaders and finished well down the field.",
+      "riderIds": ["giulio-ciccone", "juan-ayuso-pesquera"]
+    },
+    {
+      "team": "Red Bull - BORA - hansgrohe",
+      "verdictClass": "loss",
+      "verdict": "Evenepoel distanced on the Civiglio",
+      "narrative": "Evenepoel, who had opened the day as the peloton's spokesman in the pre-start safety protest, could not respond when Seixas attacked on the Civiglio and settled into his own rhythm behind, finishing fourth after Giulio Pellizzari and Primož Roglič had already spent themselves chasing earlier moves.",
+      "riderIds": ["remco-evenepoel"]
+    },
+    {
+      "team": "UAE Team Emirates - XRG",
+      "verdict": "Best Lombardia without Pogačar is fifth",
+      "verdictClass": "loss",
+      "narrative": "With Tadej Pogačar sitting out while recovering from late-season collarbone surgery, UAE Team Emirates - XRG arrived at the Civiglio still shepherding Isaac del Toro with Adam Yates and Brandon McNulty, but Seixas attacked before they could use their numbers; Del Toro slipped back and McNulty ended up the team's best finisher in fifth, while Jan Christen did not finish and the team's five-year hold on the Monument ended.",
+      "riderIds": ["brandon-mcnulty", "jan-christen", "tadej-pogacar"]
+    },
+    {
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "verdict": "Pidcock closes but can't hold the podium",
+      "verdictClass": "neutral",
+      "narrative": "Pidcock was one of only two riders who could match Seixas's initial Civiglio acceleration, lost the wheel near the summit, and launched a late attack inside the final 3km trying to fight back into the podium picture, but finished sixth.",
+      "riderIds": ["thomas-pidcock"]
+    },
+    {
+      "team": "Team Visma | Lease a Bike",
+      "verdict": "Jorgenson's long-range move is caught",
+      "verdictClass": "loss",
+      "narrative": "Jorgenson's attack on the Ghisallo forced a response from the main contenders' teams and shaped the race's attrition, but the move itself was brought back before Como and he finished well down the classification, 23rd.",
+      "riderIds": ["matteo-jorgenson"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "giulio-ciccone",
+      "name": "Giulio Ciccone",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 3,
+      "gap": "+1:05",
+      "narrative": "Ciccone was one of just two riders — alongside Thomas Pidcock — who could initially hold Seixas's wheel when the Frenchman attacked on the Civiglio, but he lost contact near the summit as Seixas kept driving the pace. Enric Mas caught and passed him before the top, and Ciccone spent the final climb and descent fending off a fast-closing Ben Healy to defend the final podium spot, crossing the line third.",
+      "keyMoments": [
+        { "km": 221, "what": "Briefly holds Seixas's pace on the lower Civiglio before losing the wheel near the summit" },
+        { "km": 235, "what": "Defends third against Ben Healy's late chase on the final climb to San Fermo" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "remco-evenepoel",
+      "name": "Remco Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "leader",
+      "position": 4,
+      "gap": "+1:20",
+      "narrative": "Evenepoel spent the morning as the peloton's spokesman in a five-minute pre-start safety protest before working his way through a fragmented chase for much of the race, with Giulio Pellizzari and later Primož Roglič pulling for him. He could not respond when Seixas attacked on the Civiglio and settled into his own rhythm, finishing fourth.",
+      "keyMoments": [
+        { "km": 221, "what": "Cannot follow Seixas's decisive Civiglio attack" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "brandon-mcnulty",
+      "name": "Brandon McNulty",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": 5,
+      "gap": "+1:20",
+      "narrative": "McNulty rode in support of Isaac del Toro through the finale, positioned alongside Adam Yates at the foot of the Civiglio, but Seixas attacked before the team could deploy its numbers and Del Toro slipped backwards. McNulty finished as UAE Team Emirates - XRG's best-placed rider, fifth, as the team's five-year run atop the Monument ended.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "thomas-pidcock",
+      "name": "Thomas Pidcock",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "role": "leader",
+      "position": 6,
+      "gap": "+1:20",
+      "narrative": "Pidcock was, with Ciccone, one of the only two riders able to briefly match Seixas's attack on the Civiglio before losing the wheel near the summit. He launched a powerful attack inside the final 3km trying to fight back into podium contention, with Filippo Zana and Ben Healy following, but could not close the gap and finished sixth.",
+      "keyMoments": [
+        { "km": 221, "what": "Briefly matches Seixas's Civiglio attack before losing contact" },
+        { "km": 236, "what": "Launches a late attack inside the final 3km that doesn't close the gap to the podium" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "matteo-jorgenson",
+      "name": "Matteo Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "role": "leader",
+      "position": 23,
+      "gap": "+4:23",
+      "narrative": "Launched by teammate Louis Barré on the Madonna del Ghisallo, Jorgenson attacked with Quinn Simmons, Brandon McNulty and Christian Scaroni, forcing Red Bull - BORA - hansgrohe into a long chase before the move was brought back on the run into Como. The effort left little in reserve for the finale and he finished 23rd.",
+      "keyMoments": [
+        { "km": 56, "what": "Attacks on the Ghisallo after being launched by Louis Barré" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "juan-ayuso-pesquera",
+      "name": "Juan Ayuso",
+      "team": "Lidl - Trek",
+      "role": "leader",
+      "position": 73,
+      "gap": "+10:33",
+      "narrative": "Ayuso, who skipped the Vuelta to target the Worlds and Lombardia as his season-closing goals, never featured among the leaders on the decisive climbs and finished well down the field in 73rd, over 10 minutes behind Seixas.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jan-christen",
+      "name": "Jan Christen",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": null,
+      "gap": "DNF",
+      "narrative": "Christen started as part of UAE Team Emirates - XRG's support for Isaac del Toro and Brandon McNulty but did not finish; available race reports do not confirm a reason.",
+      "keyMoments": [],
+      "incident": { "type": "abandon", "note": "Reason not confirmed in available sources." }
+    },
+    {
+      "riderId": "tadej-pogacar",
+      "name": "Tadej Pogačar",
+      "team": "UAE Team Emirates - XRG",
+      "role": "leader",
+      "position": null,
+      "gap": "DNS",
+      "narrative": "Pogačar, the five-time defending champion, did not start while recovering from late-season collarbone surgery, ending his personal run of consecutive Il Lombardia wins at five.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "aftermath": {
+    "headline": "A new name on the Monument, and a season-long storyline resolved",
+    "quotes": [],
+    "body": "Seixas's win closes out a breakout 2026 that had already included a Strade Bianche podium, an Itzulia Basque Country overall, a maiden Flèche Wallonne victory and a Liège-Bastogne-Liège podium — all behind Pogačar. With Pogačar absent, Seixas converted the form into his first Monument title at 20, the youngest winner in Il Lombardia's 120-year history, and gave Decathlon CMA CGM its first Monument win. The result ends UAE Team Emirates - XRG's five-year stranglehold on the race, with the team's best finisher, McNulty, over a minute behind in fifth and Isaac del Toro well back in 28th. The race was preceded by a five-minute peloton protest over rider safety, led publicly by Remco Evenepoel and world champion Brandon McNulty."
+  },
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-il-lombardia-2026-history-made-as-20-year-old-paul-seixas-becomes-youngest-ever-winner-with-devastating-civiglio-attack",
+      "publication": "CyclingUpToDate",
+      "title": "Results Il Lombardia 2026 - History made as 20-year-old Paul Seixas becomes youngest ever winner with devastating Civiglio attack",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.ilombardia.it/",
+      "publication": "Il Lombardia (official)",
+      "title": "Il Lombardia 2026 | Sito ufficiale",
+      "lang": "it"
+    },
+    {
+      "url": "https://www.rouleur.cc/racing/races/il-lombardia/2026/standings",
+      "publication": "Rouleur",
+      "title": "Il Lombardia 2026 — Results — Rouleur",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.rte.ie/sport/results/cycling/il-lombardia/912759/",
+      "publication": "RTÉ Sport",
+      "title": "Il Lombardia 2026 Results - Race",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.cyclingnews.com/pro-cycling/safety/riders-stage-protest-at-il-lombardia-over-recent-safety-incidents/",
+      "publication": "Cyclingnews",
+      "title": "'We cannot accept the fact that people are dying' – Riders stage protest at Il Lombardia",
+      "lang": "en"
+    }
+  ]
+}
