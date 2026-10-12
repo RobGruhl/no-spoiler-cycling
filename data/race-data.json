@@ -50278,8 +50278,8 @@
       "id": "paris-tours-2026",
       "name": "Paris-Tours",
       "description": "1.Pro cycling race in France",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=718x1w1wLvg",
       "type": "full-race",
       "raceDate": "2026-10-11",
       "endDate": "2026-10-12",
@@ -50336,7 +50336,16 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-12"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      }
     },
     {
       "id": "sun-hung-kai-hong-kong-cyclothon-2026",
@@ -50499,8 +50508,8 @@
       "prestige": [
         "world-championship"
       ],
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=-mnB90rFMVA",
       "description": "UCI Gravel World Championships — rainbow jersey on the line.",
       "raceDetails": {
         "courseSummary": "The 2026 UCI Gravel World Championships Elite Men's race takes place on Sunday October 11, 2026 in Nannup, Western Australia — the first time the Gravel Worlds is held outside Europe, and the first time the championship visits the Southern Hemisphere. The men's elite course is the longest of three official courses unveiled by the UCI in April 2026. Nannup, a small town in the Southern Forests region of WA, has hosted the SEVEN gravel race since 2018, making it familiar terrain for the UCI Gravel World Series ecosystem. Top-25% finishers in each qualifying age category earn rainbow-jersey eligibility through the UCI Gravel World Series qualifier circuit.",
@@ -50511,7 +50520,7 @@
           "Three official courses: The UCI unveiled the championship's three courses (Elite Men, Elite Women, Age Group) on April 15, 2026 — a more substantial route plan than recent editions.",
           "Late-season rainbow jersey: As the gravel calendar's pinnacle event, Nannup 2026 closes the gravel season with the most prestigious title in the discipline."
         ],
-        "watchNotes": "Australian forest gravel is faster and more flowing than European Ardennes-style gravel — expect breakaways that form earlier and stick longer. The race is held alongside the women's elite on Saturday October 10.",
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results.",
         "historicalContext": "The UCI Gravel World Championships were inaugurated in 2022 in Veneto, Italy as the discipline gained UCI recognition. The 2024 and 2025 editions were both held in Houffalize, Belgium. Nannup 2026 is the first non-European edition; the championships return to Europe in subsequent years.",
         "favorites": {
           "rainbowFavorites": [
@@ -50617,7 +50626,12 @@
           ],
           "notes": "Power TT specialist exploring gravel — Nannup's long flat sections suit his engine."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-12"
+      }
     },
     {
       "id": "tour-of-guangxi-2026",
