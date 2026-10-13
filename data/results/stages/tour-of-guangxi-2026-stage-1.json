@@ -1,0 +1,98 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 1,
+  "stageName": "Chongzuo → Chongzuo",
+  "stageDate": "2026-10-13",
+  "stageType": "flat",
+  "researchedAt": "2026-10-13T19:27:23Z",
+  "tldr": "Paul Magnier (Soudal Quick-Step) won a bunch sprint in Chongzuo to open the 2026 Tour of Guangxi, beating Sam Welsford and Max Kanter after Olav Kooij's lead-out fell short. Magnier takes the first race lead; Fredrik Dversnes sits closest on GC after mopping up intermediate bonus seconds in the day's breakaway.",
+  "podium": [
+    { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "time": "3:00:23", "riderId": "paul-magnier" },
+    { "position": 2, "name": "Sam Welsford", "team": "Netcompany INEOS Cycling Team", "gap": "s.t." },
+    { "position": 3, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "s.t." }
+  ],
+  "narrative": {
+    "headline": "Magnier picks up where he left off in China",
+    "body": "Stage 1 ran a flat 149.4km loop out of and back into Chongzuo, with less than 800m of climbing giving the sprinters' teams a clean shot at the day. Neilson Powless (EF Education - EasyPost), Fredrik Dversnes (Uno-X Mobility) and Patrick Gamper (Team Jayco AlUla) formed the main breakaway in the opening kilometres, with Dversnes particularly active at the two intermediate bonus sprints. Soudal Quick-Step and Decathlon CMA CGM Team shared the chase, with Red Bull - BORA - hansgrohe also contributing for Jordi Meeus, and the break's advantage came down steadily through the second half of the stage before being caught with roughly 8km to go. Dries De Bondt and Rune Herregodts both tried late counters after the catch but neither lasted. Decathlon CMA CGM Team produced the strongest lead-out of the finale, delivering Olav Kooij to the front, but he was boxed in during the final kilometre and unable to launch his sprint — in the overhead replay he appears to clip Magnier and lose momentum. Magnier, having to find his own way through from a more isolated position, timed his effort perfectly in the finishing straight to hold off Welsford and Kanter at the line.",
+    "quotes": []
+  },
+  "gcImpact": {
+    "headline": "Magnier leads; Dversnes closest after bonus seconds",
+    "body": "Paul Magnier takes the first overall lead of the race on 3:00:23. Max Kanter and Fredrik Dversnes sit level at +4s — Dversnes' two intermediate-sprint bonuses from the day's breakaway move him above several faster finishers on GC — with Sam Welsford and Neilson Powless at +6s and Patrick Gamper at +8s. Olav Kooij, 12th on the stage, drops to a similar gap outside the top handful."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "A year after sweeping the sprints at the 2025 edition, Magnier opened his 2026 Guangxi campaign the same way. Racing without much support in the finishing straight, he found his own way through the reorganizing bunch and timed his acceleration to hold off Welsford and Kanter, taking both the stage and the race's first leader's jersey.",
+      "keyMoments": [
+        { "km": 149, "what": "Won the bunch sprint in Chongzuo to take the stage and the overall lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 12,
+      "gap": "s.t.",
+      "narrative": "Decathlon CMA CGM Team built the strongest lead-out of the finale to put Kooij into position, but he was boxed in during the final kilometre and could not open his sprint, appearing to clip Magnier and lose his line in the process. He finished 12th, well outside the positions his team's work had set up for him.",
+      "keyMoments": [
+        { "km": 149, "what": "Boxed in during the final kilometre despite a strong Decathlon lead-out" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "neilson-powless",
+      "name": "Neilson Powless",
+      "team": "EF Education - EasyPost",
+      "role": "domestique",
+      "position": null,
+      "gap": "+6s",
+      "narrative": "Continuing his comeback, Powless joined Dversnes and Gamper in the day's main breakaway, helping hold a gap of roughly 1:30 through the first 100km before the sprinters' teams reeled the move in inside the closing 25km. The move earned him a GC spot a few seconds back rather than a result on the day.",
+      "keyMoments": [
+        { "km": 10, "what": "Part of the day's three-man breakaway" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://procyclinguk.com/paul-magnier-wins-tour-of-guangxi-2026-stage-1/",
+      "publication": "ProCyclingUK",
+      "title": "Paul Magnier wins Tour of Guangxi 2026 Stage 1 in Chongzuo sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-1-paul-magnier-dominates-in-china-as-olav-kooij-misses-top-ten-in-bunch-sprint",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 1 - Paul Magnier dominates in China as Olav Kooij misses top ten in bunch sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-of-guangxi-2026-stage-1-magnier-picks-up-where-he-left-off/",
+      "publication": "Tour Magazin",
+      "title": "Tour of Guangxi 2026 – Stage 1: Magnier picks up where he left off",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.esciclismo.com/actualidad/carretera/93512.html",
+      "publication": "EsCiclismo",
+      "title": "Clasificaciones completas de la 1ª etapa del Tour de Guangxi 2026",
+      "lang": "es"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/6-out-of-7-for-magnier-as-he-overcomes-welsford-and-kanter-at-tour-of-guangxi-opener",
+      "publication": "IDL Pro Cycling",
+      "title": "6 out of 7 for Magnier as he overcomes Welsford and Kanter at Tour of Guangxi opener",
+      "lang": "en"
+    }
+  ]
+}

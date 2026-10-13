@@ -1,0 +1,128 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "raceName": "Tour of Guangxi",
+  "raceDate": "2026-10-13",
+  "researchedAt": "2026-10-13T19:27:23Z",
+  "inProgress": true,
+  "tldr": "The final WorldTour stage race of the 2026 season opened in Chongzuo with a flat sprint stage, won by Paul Magnier (Soudal Quick-Step) over Sam Welsford and Max Kanter. Magnier takes the first leader's jersey into five more days across Guangxi, with Fredrik Dversnes closest on GC after cashing in intermediate bonus seconds from the day's breakaway.",
+  "podium": [
+    { "position": 1, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "race leader, GC in progress" },
+    { "position": 2, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "+4s" },
+    { "position": 3, "name": "Fredrik Dversnes", "team": "Uno-X Mobility", "gap": "+4s" }
+  ],
+  "narrative": {
+    "headline": "Magnier opens his Guangxi defence with another sprint win",
+    "openingMoves": "The 2026 Tour of Guangxi, the final WorldTour stage race of the season, began with a flat 149.4km loop out of and back into Chongzuo — the clearest sprint opportunity of the week before the race turns hillier and then mountainous later on. Neilson Powless, Fredrik Dversnes and Patrick Gamper formed the day's breakaway early and held a gap of around 1:30 through the first 100km, with Dversnes mopping up both intermediate bonus sprints along the way.",
+    "raceUnfolds": "Soudal Quick-Step and Decathlon CMA CGM Team shared the chase behind, with Red Bull - BORA - hansgrohe also helping for Jordi Meeus. The break's lead fell below a minute with 23km to go and was caught with about 8km remaining, setting up the expected fight between the sprint trains. Dries De Bondt and Rune Herregodts each tried late counters after the catch, but neither stuck.",
+    "decision": "Decathlon CMA CGM Team delivered the finale's strongest lead-out for Olav Kooij, but he was boxed in during the last kilometre and never got his sprint started, appearing to clip race winner Paul Magnier in the process and lose his line entirely.",
+    "finale": "Racing from a more isolated position, Magnier found his own way through the reorganising bunch and timed his effort perfectly to hold off Sam Welsford and Max Kanter at the line, repeating the dominant form that won him every bunch sprint at the race in 2025. He takes the first race lead; because Dversnes banked both bonus sprints in the break, the overnight GC order isn't a simple copy of the stage result — Kanter and Dversnes share second at +4s, with Welsford and Powless at +6s and Gamper at +8s."
+  },
+  "decisiveMoments": [
+    {
+      "kmFromFinish": 139,
+      "location": "Early kilometres out of Chongzuo",
+      "headline": "Breakaway forms",
+      "description": "Powless, Dversnes and Gamper got clear early and built a lead of around 1:30, with Dversnes targeting both intermediate bonus sprints."
+    },
+    {
+      "kmFromFinish": 8,
+      "location": "Approach to Chongzuo",
+      "headline": "Break caught",
+      "description": "The three-man move was reeled in with roughly 8km to go, setting up the sprint finish."
+    },
+    {
+      "kmFromFinish": 0.3,
+      "location": "Chongzuo finish",
+      "headline": "Magnier holds off Welsford and Kanter",
+      "description": "Isolated in the finishing straight, Magnier timed his sprint to beat Welsford and Kanter, while Decathlon's Kooij was boxed in and missed the top 10 entirely."
+    }
+  ],
+  "teamStories": [
+    {
+      "team": "Soudal Quick-Step",
+      "verdict": "Stage 1 win + first race lead",
+      "verdictClass": "win",
+      "narrative": "Soudal Quick-Step shared the chase of the day's breakaway and then left Magnier to find his own way through the finale, which he did emphatically, repeating his 2025 form to win the opener and take the first leader's jersey of the race.",
+      "riderIds": ["paul-magnier"]
+    }
+  ],
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 1,
+      "gap": "—",
+      "narrative": "Magnier opened his title defence in Guangxi exactly as he finished the 2025 edition — with a stage win. Isolated in the finishing straight after his team's work earlier in the stage, he timed his own sprint to hold off Welsford and Kanter and take the race's first leader's jersey.",
+      "keyMoments": [
+        { "km": 149, "what": "Won the stage 1 bunch sprint in Chongzuo to take the race lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 12,
+      "gap": "s.t.",
+      "narrative": "Kooij had the best lead-out of the finale courtesy of Decathlon CMA CGM Team, but was boxed in during the final kilometre and never opened his sprint, finishing 12th — well below what his team's positioning had set up.",
+      "keyMoments": [
+        { "km": 149, "what": "Boxed in during the final kilometre despite a strong Decathlon lead-out" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "neilson-powless",
+      "name": "Neilson Powless",
+      "team": "EF Education - EasyPost",
+      "role": "domestique",
+      "position": null,
+      "gap": "+6s",
+      "narrative": "Continuing his season comeback, Powless joined the day's three-man breakaway, helping hold a gap of around 1:30 through the first 100km before the sprinters' teams closed it down in the final 25km.",
+      "keyMoments": [
+        { "km": 10, "what": "Part of the day's three-man breakaway" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "aftermath": {
+    "headline": "One stage down, five to go",
+    "quotes": [],
+    "body": "Paul Magnier leads the general classification after stage 1, with Max Kanter and Fredrik Dversnes tied for second at 4 seconds back and Sam Welsford and Neilson Powless at 6 seconds. The race heads from Chongzuo to Jingxi on stage 2, a harder day that gives punchier riders a chance to test the pure sprinters before the terrain turns properly hilly and then mountainous later in the week."
+  },
+  "sources": [
+    {
+      "url": "https://procyclinguk.com/paul-magnier-wins-tour-of-guangxi-2026-stage-1/",
+      "publication": "ProCyclingUK",
+      "title": "Paul Magnier wins Tour of Guangxi 2026 Stage 1 in Chongzuo sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-1-paul-magnier-dominates-in-china-as-olav-kooij-misses-top-ten-in-bunch-sprint",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 1 - Paul Magnier dominates in China as Olav Kooij misses top ten in bunch sprint",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-of-guangxi-2026-stage-1-magnier-picks-up-where-he-left-off/",
+      "publication": "Tour Magazin",
+      "title": "Tour of Guangxi 2026 – Stage 1: Magnier picks up where he left off",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.esciclismo.com/actualidad/carretera/93512.html",
+      "publication": "EsCiclismo",
+      "title": "Clasificaciones completas de la 1ª etapa del Tour de Guangxi 2026",
+      "lang": "es"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/6-out-of-7-for-magnier-as-he-overcomes-welsford-and-kanter-at-tour-of-guangxi-opener",
+      "publication": "IDL Pro Cycling",
+      "title": "6 out of 7 for Magnier as he overcomes Welsford and Kanter at Tour of Guangxi opener",
+      "lang": "en"
+    }
+  ]
+}
