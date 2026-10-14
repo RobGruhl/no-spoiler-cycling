@@ -1,0 +1,101 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 2,
+  "stageName": "Chongzuo → Jingxi",
+  "stageDate": "2026-10-14",
+  "stageType": "flat",
+  "researchedAt": "2026-10-14T19:35:00Z",
+  "tldr": "Frits Biesterbos (Team Picnic PostNL) denied Paul Magnier a second straight win, timing a late move off Magnier's wheel to take his first WorldTour victory in a sprint so tight that the top six riders all shared the stage time. Magnier retains the overall race lead into stage 3.",
+  "podium": [
+    { "position": 1, "name": "Frits Biesterbos", "team": "Team Picnic PostNL", "time": "3:45:19" },
+    { "position": 2, "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "s.t.", "riderId": "paul-magnier" },
+    { "position": 3, "name": "Olav Kooij", "team": "Decathlon CMA CGM Team", "gap": "s.t.", "riderId": "olav-kooij" },
+    { "position": 4, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "s.t." },
+    { "position": 5, "name": "Robin Froidevaux", "team": "Tudor Pro Cycling Team", "gap": "s.t." },
+    { "position": 6, "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "s.t.", "riderId": "jordi-meeus" }
+  ],
+  "narrative": {
+    "headline": "Biesterbos denies Magnier the double in a compressed finish",
+    "body": "The 179.7km run from Chongzuo to Jingxi was shaped less by one lasting breakaway than by a succession of short-lived moves. An early three-rider gap with 178km to go was reduced, counter-attacked and reshuffled repeatedly through the first half of the stage, with riders including Timo De Jong, Dries De Bondt and Jonas Rickaert surfacing at the front before being absorbed back into the peloton. The categorised National Road climb, 8.5km at 3.4%, arrived with 37km left and reduced both the escape and the rear of the bunch at once, dropping Liu Chenglu from the break and splintering the peloton behind. Jhonatan Narváez and Javier Romo countered over the top, and a six-rider Bahrain Victorious-led move featuring Afonso Eulálio went clear with 29km remaining before the race came back together. Kévin Vauquelin and Baptiste Veistroffer each tried late attacks inside the final 10km, but neither created a winning gap, funnelling a reduced front group to the line together. Soudal Quick-Step lost its lead-out before the sprint, forcing Magnier to launch into the headwind with 300m to go; Biesterbos sat on his wheel and came around him at the line, with Kooij charging hardest of all from behind but running out of road for the win. Biesterbos, Magnier, Kooij, Kanter, Froidevaux and Meeus all crossed in the same time, 3:45:19.",
+    "quotes": []
+  },
+  "gcImpact": {
+    "headline": "Magnier retains the race lead; Biesterbos moves to second",
+    "body": "Paul Magnier keeps the overall lead he took on stage 1. Frits Biesterbos's stage win lifts him to second overall, 6 seconds back, with Sam Welsford holding third at +10s. Afonso Eulálio's involvement in the day's late breakaway and the second climb sprint puts him in the race's mountains classification lead."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 2,
+      "gap": "s.t.",
+      "narrative": "Without a lead-out man in the final kilometre, Magnier had to launch his own sprint into a headwind with 300m to go rather than waiting for the ideal moment he had on stage 1. Biesterbos followed his wheel and came around him right at the line, but Magnier's second place was enough to keep the overall race lead heading into stage 3.",
+      "keyMoments": [
+        { "km": 179, "what": "Forced to launch his sprint early after losing his lead-out, finishes 2nd but keeps the race lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "s.t.",
+      "narrative": "A day after missing the top ten boxed in on stage 1, Kooij came from further back than both Magnier and Biesterbos and was still closing fastest of all at the line. Two more metres and he would have taken it; instead he had to settle for third, on the same time as the winner.",
+      "keyMoments": [
+        { "km": 179, "what": "Fastest finisher in the closing metres but out of road, takes 3rd" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "s.t.",
+      "narrative": "Meeus stayed in touch through the National Road climb and the late attacks to contest the sprint from the same reduced group as the podium, crossing sixth on the same time as Biesterbos.",
+      "keyMoments": [
+        { "km": 179, "what": "Finished 6th in the same group as the stage podium" }
+      ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [
+    {
+      "riderId": null,
+      "name": "Frits Biesterbos",
+      "quote": "My first victory in a road race really meant a lot to me. The fact that it was a WorldTour race straight away is pretty crazy. I ended up on Magnier's wheel a bit by chance, but it paid off in the end. He had to make his move early and I was then able to overtake him."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://procyclinguk.com/frits-biesterbos-wins-2026-tour-of-guangxi-stage-2/",
+      "publication": "ProCyclingUK",
+      "title": "Frits Biesterbos wins 2026 Tour of Guangxi stage 2",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-of-guangxi-2026-stage-2-biesterbos-ends-magnier-s-winning-streak/",
+      "publication": "Tour Magazin",
+      "title": "Tour of Guangxi 2026 – Stage 2: Biesterbos ends Magnier's winning streak",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-2-frits-biesterbos-stuns-paul-magnier-to-take-picnics-first-world-tour-win-of-the-year",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 2 - Frits Biesterbos stuns Paul Magnier to take Picnic's first World Tour win of the year",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/picnic-postnl-surprise-paul-magnier-and-bag-a-much-needed-win-at-the-tour-of-guangxi",
+      "publication": "IDL Pro Cycling",
+      "title": "Picnic PostNL surprise Paul Magnier and bag a much needed win at the Tour of Guangxi",
+      "lang": "en"
+    }
+  ]
+}

@@ -2,48 +2,68 @@
   "raceId": "tour-of-guangxi-2026",
   "raceName": "Tour of Guangxi",
   "raceDate": "2026-10-13",
-  "researchedAt": "2026-10-13T19:27:23Z",
+  "researchedAt": "2026-10-14T19:35:00Z",
   "inProgress": true,
-  "tldr": "The final WorldTour stage race of the 2026 season opened in Chongzuo with a flat sprint stage, won by Paul Magnier (Soudal Quick-Step) over Sam Welsford and Max Kanter. Magnier takes the first leader's jersey into five more days across Guangxi, with Fredrik Dversnes closest on GC after cashing in intermediate bonus seconds from the day's breakaway.",
+  "tldr": "The final WorldTour stage race of the 2026 season opened with back-to-back sprint finishes in Chongzuo and Jingxi. Paul Magnier (Soudal Quick-Step) won stage 1, then Frits Biesterbos (Team Picnic PostNL) denied him the double on stage 2 in a six-way photo finish, but Magnier's second place kept him in the race lead heading into stage 3.",
   "podium": [
     { "position": 1, "riderId": "paul-magnier", "name": "Paul Magnier", "team": "Soudal Quick-Step", "gap": "race leader, GC in progress" },
-    { "position": 2, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "+4s" },
-    { "position": 3, "name": "Fredrik Dversnes", "team": "Uno-X Mobility", "gap": "+4s" }
+    { "position": 2, "name": "Frits Biesterbos", "team": "Team Picnic PostNL", "gap": "+6s" },
+    { "position": 3, "name": "Sam Welsford", "team": "Netcompany INEOS Cycling Team", "gap": "+10s" }
   ],
   "narrative": {
-    "headline": "Magnier opens his Guangxi defence with another sprint win",
+    "headline": "Magnier survives Biesterbos' surprise to keep the lead through two stages",
     "openingMoves": "The 2026 Tour of Guangxi, the final WorldTour stage race of the season, began with a flat 149.4km loop out of and back into Chongzuo — the clearest sprint opportunity of the week before the race turns hillier and then mountainous later on. Neilson Powless, Fredrik Dversnes and Patrick Gamper formed the day's breakaway early and held a gap of around 1:30 through the first 100km, with Dversnes mopping up both intermediate bonus sprints along the way.",
-    "raceUnfolds": "Soudal Quick-Step and Decathlon CMA CGM Team shared the chase behind, with Red Bull - BORA - hansgrohe also helping for Jordi Meeus. The break's lead fell below a minute with 23km to go and was caught with about 8km remaining, setting up the expected fight between the sprint trains. Dries De Bondt and Rune Herregodts each tried late counters after the catch, but neither stuck.",
-    "decision": "Decathlon CMA CGM Team delivered the finale's strongest lead-out for Olav Kooij, but he was boxed in during the last kilometre and never got his sprint started, appearing to clip race winner Paul Magnier in the process and lose his line entirely.",
-    "finale": "Racing from a more isolated position, Magnier found his own way through the reorganising bunch and timed his effort perfectly to hold off Sam Welsford and Max Kanter at the line, repeating the dominant form that won him every bunch sprint at the race in 2025. He takes the first race lead; because Dversnes banked both bonus sprints in the break, the overnight GC order isn't a simple copy of the stage result — Kanter and Dversnes share second at +4s, with Welsford and Powless at +6s and Gamper at +8s."
+    "raceUnfolds": "Soudal Quick-Step and Decathlon CMA CGM Team shared the chase behind on stage 1, with Red Bull - BORA - hansgrohe also helping for Jordi Meeus. The break's lead fell below a minute with 23km to go and was caught with about 8km remaining, setting up the expected fight between the sprint trains. Stage 2's 179.7km run from Chongzuo to Jingxi was far less settled: an early three-rider gap was reduced, counter-attacked and reshuffled repeatedly, with Timo De Jong, Dries De Bondt and Jonas Rickaert each surfacing at the front before being pulled back. The categorised National Road climb (8.5km at 3.4%), 37km from the line, reduced both the escape and the rear of the peloton at once, and a late six-rider move featuring Afonso Eulálio went clear before being brought back inside the final 10km.",
+    "decision": "On stage 1, Decathlon CMA CGM Team delivered the finale's strongest lead-out for Olav Kooij, but he was boxed in during the last kilometre and never got his sprint started, clipping race winner Paul Magnier and losing his line entirely. On stage 2, it was Magnier's turn to be caught short: Soudal Quick-Step lost his lead-out man before the sprint, forcing him to launch into a headwind with 300m to go. Frits Biesterbos sat on his wheel and timed his own effort to come around him right at the line, with Kooij charging hardest of all from further back but running out of road.",
+    "finale": "Magnier's stage 1 win, repeating the dominant form that won him every bunch sprint at the 2025 race, took the first leader's jersey; Dversnes' bonus seconds meant the overnight order wasn't a simple copy of the result, with Kanter and Dversnes sharing second at +4s. Stage 2 compressed the whole field at the line — Biesterbos, Magnier, Kooij, Kanter, Froidevaux and Meeus all shared the same time, 3:45:19 — but Magnier's second place was enough to keep the race lead. Biesterbos' maiden WorldTour win moves him to second overall at +6s, with Welsford third at +10s. Afonso Eulálio's involvement in the stage 2 breakaway puts him into the race's mountains jersey.",
+    "quotes": []
   },
   "decisiveMoments": [
     {
       "kmFromFinish": 139,
-      "location": "Early kilometres out of Chongzuo",
+      "location": "Early kilometres out of Chongzuo (stage 1)",
       "headline": "Breakaway forms",
       "description": "Powless, Dversnes and Gamper got clear early and built a lead of around 1:30, with Dversnes targeting both intermediate bonus sprints."
     },
     {
       "kmFromFinish": 8,
-      "location": "Approach to Chongzuo",
+      "location": "Approach to Chongzuo (stage 1)",
       "headline": "Break caught",
       "description": "The three-man move was reeled in with roughly 8km to go, setting up the sprint finish."
     },
     {
       "kmFromFinish": 0.3,
-      "location": "Chongzuo finish",
+      "location": "Chongzuo finish (stage 1)",
       "headline": "Magnier holds off Welsford and Kanter",
       "description": "Isolated in the finishing straight, Magnier timed his sprint to beat Welsford and Kanter, while Decathlon's Kooij was boxed in and missed the top 10 entirely."
+    },
+    {
+      "kmFromFinish": 37,
+      "location": "National Road climb (stage 2)",
+      "headline": "The categorised climb splits the race",
+      "description": "An 8.5km climb at 3.4% dropped riders from both the day's escape and the back of the peloton, narrowing the field able to contest the finish."
+    },
+    {
+      "kmFromFinish": 0.3,
+      "location": "Jingxi finish (stage 2)",
+      "headline": "Biesterbos denies Magnier the double",
+      "description": "Launching early after losing his lead-out, Magnier was passed by Biesterbos right at the line, with Kooij closing hardest of all from further back for third. Six riders shared the same finishing time."
     }
   ],
   "teamStories": [
     {
       "team": "Soudal Quick-Step",
-      "verdict": "Stage 1 win + first race lead",
+      "verdict": "Stage 1 win, stage 2 2nd, keeps the lead",
       "verdictClass": "win",
-      "narrative": "Soudal Quick-Step shared the chase of the day's breakaway and then left Magnier to find his own way through the finale, which he did emphatically, repeating his 2025 form to win the opener and take the first leader's jersey of the race.",
+      "narrative": "Soudal Quick-Step left Magnier to find his own way through the stage 1 finale, which he did emphatically to take the opener and the first leader's jersey. On stage 2, losing his lead-out forced an early sprint, but his second place was still enough to defend the race lead into stage 3.",
       "riderIds": ["paul-magnier"]
+    },
+    {
+      "team": "Team Picnic PostNL",
+      "verdict": "Surprise stage 2 win",
+      "verdictClass": "win",
+      "narrative": "A squad that had recently weighed a voluntary WorldTour withdrawal got its first WorldTour win of the season when Frits Biesterbos, racing in his debut professional year, followed Magnier's wheel and came around him at the line on stage 2.",
+      "riderIds": []
     }
   ],
   "riderPerformances": [
@@ -54,9 +74,10 @@
       "role": "leader",
       "position": 1,
       "gap": "—",
-      "narrative": "Magnier opened his title defence in Guangxi exactly as he finished the 2025 edition — with a stage win. Isolated in the finishing straight after his team's work earlier in the stage, he timed his own sprint to hold off Welsford and Kanter and take the race's first leader's jersey.",
+      "narrative": "Magnier opened his title defence in Guangxi exactly as he finished the 2025 edition — with a stage win, timing his own sprint from an isolated position to hold off Welsford and Kanter and take the race's first leader's jersey. A day later, without a lead-out man in the finale, he had to launch into a headwind with 300m to go and was passed right at the line by Biesterbos — but his second place kept him in the overall lead heading into stage 3.",
       "keyMoments": [
-        { "km": 149, "what": "Won the stage 1 bunch sprint in Chongzuo to take the race lead" }
+        { "km": 149, "what": "Won the stage 1 bunch sprint in Chongzuo to take the race lead" },
+        { "km": 179, "what": "Forced into an early sprint on stage 2, finishes 2nd but retains the race lead" }
       ],
       "incident": null
     },
@@ -67,9 +88,10 @@
       "role": "stage-hunter",
       "position": 12,
       "gap": "s.t.",
-      "narrative": "Kooij had the best lead-out of the finale courtesy of Decathlon CMA CGM Team, but was boxed in during the final kilometre and never opened his sprint, finishing 12th — well below what his team's positioning had set up.",
+      "narrative": "Kooij had the best lead-out of the stage 1 finale courtesy of Decathlon CMA CGM Team, but was boxed in during the final kilometre and never opened his sprint, finishing 12th. He answered a day later on stage 2, closing fastest of all in the final metres from further back than the other sprinters, but ran out of road and had to settle for third on the same time as the winner.",
       "keyMoments": [
-        { "km": 149, "what": "Boxed in during the final kilometre despite a strong Decathlon lead-out" }
+        { "km": 149, "what": "Boxed in during the final kilometre of stage 1 despite a strong Decathlon lead-out" },
+        { "km": 179, "what": "Fastest finisher in the closing metres of stage 2, takes 3rd" }
       ],
       "incident": null
     },
@@ -80,18 +102,31 @@
       "role": "domestique",
       "position": null,
       "gap": "+6s",
-      "narrative": "Continuing his season comeback, Powless joined the day's three-man breakaway, helping hold a gap of around 1:30 through the first 100km before the sprinters' teams closed it down in the final 25km.",
+      "narrative": "Continuing his season comeback, Powless joined the stage 1 breakaway, helping hold a gap of around 1:30 through the first 100km before the sprinters' teams closed it down in the final 25km.",
       "keyMoments": [
-        { "km": 10, "what": "Part of the day's three-man breakaway" }
+        { "km": 10, "what": "Part of the stage 1 three-man breakaway" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 6,
+      "gap": "s.t.",
+      "narrative": "Meeus stayed in touch through stage 2's National Road climb and the late attacks to contest the sprint from the same reduced group as the podium, crossing sixth on the same time as Biesterbos.",
+      "keyMoments": [
+        { "km": 179, "what": "Finished 6th in the same group as the stage 2 podium" }
       ],
       "incident": null
     }
   ],
   "incidents": {},
   "aftermath": {
-    "headline": "One stage down, five to go",
+    "headline": "Two stages down, four to go",
     "quotes": [],
-    "body": "Paul Magnier leads the general classification after stage 1, with Max Kanter and Fredrik Dversnes tied for second at 4 seconds back and Sam Welsford and Neilson Powless at 6 seconds. The race heads from Chongzuo to Jingxi on stage 2, a harder day that gives punchier riders a chance to test the pure sprinters before the terrain turns properly hilly and then mountainous later in the week."
+    "body": "Paul Magnier leads the general classification after two stages, with Frits Biesterbos second at 6 seconds back and Sam Welsford third at 10 seconds. The race heads from Chongzuo into the longest stage of the tour on stage 3, 211km with several climbs in the final third — tough enough that a reduced-peloton sprint is possible but a straightforward bunch kick looks unlikely."
   },
   "sources": [
     {
@@ -113,15 +148,33 @@
       "lang": "en"
     },
     {
-      "url": "https://www.esciclismo.com/actualidad/carretera/93512.html",
-      "publication": "EsCiclismo",
-      "title": "Clasificaciones completas de la 1ª etapa del Tour de Guangxi 2026",
-      "lang": "es"
-    },
-    {
       "url": "https://www.idlprocycling.com/cycling/6-out-of-7-for-magnier-as-he-overcomes-welsford-and-kanter-at-tour-of-guangxi-opener",
       "publication": "IDL Pro Cycling",
       "title": "6 out of 7 for Magnier as he overcomes Welsford and Kanter at Tour of Guangxi opener",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/frits-biesterbos-wins-2026-tour-of-guangxi-stage-2/",
+      "publication": "ProCyclingUK",
+      "title": "Frits Biesterbos wins 2026 Tour of Guangxi stage 2",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-of-guangxi-2026-stage-2-biesterbos-ends-magnier-s-winning-streak/",
+      "publication": "Tour Magazin",
+      "title": "Tour of Guangxi 2026 – Stage 2: Biesterbos ends Magnier's winning streak",
+      "lang": "en"
+    },
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-2-frits-biesterbos-stuns-paul-magnier-to-take-picnics-first-world-tour-win-of-the-year",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 2 - Frits Biesterbos stuns Paul Magnier to take Picnic's first World Tour win of the year",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/picnic-postnl-surprise-paul-magnier-and-bag-a-much-needed-win-at-the-tour-of-guangxi",
+      "publication": "IDL Pro Cycling",
+      "title": "Picnic PostNL surprise Paul Magnier and bag a much needed win at the Tour of Guangxi",
       "lang": "en"
     }
   ]
