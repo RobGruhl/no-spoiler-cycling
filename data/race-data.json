@@ -50725,12 +50725,17 @@
             "flat"
           ],
           "date": "2026-10-14",
-          "platform": "TBD",
-          "url": "TBD",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=gctsY03GhLk",
           "description": "Day 2.",
           "stageDetails": {
             "spoilerSafe": true,
             "courseSummary": "Detail from official roadbook."
+          },
+          "review": {
+            "status": "pending",
+            "addedBy": "auto",
+            "added": "2026-10-15"
           }
         },
         {
@@ -51270,8 +51275,8 @@
       "id": "giro-del-veneto-2026",
       "name": "Giro del Veneto",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=GSsiFM3vGX8",
       "type": "full-race",
       "raceDate": "2026-10-14",
       "endDate": "2026-10-15",
@@ -51337,14 +51342,21 @@
           "puncheurs": [
             "Italian classics specialists and Veneto regional riders."
           ]
-        }
+        },
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-15"
+      }
     },
     {
       "id": "veneto-women-2026",
