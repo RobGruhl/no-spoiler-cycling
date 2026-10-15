@@ -1,0 +1,88 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 3,
+  "stageName": "Jingxi → Bama",
+  "stageDate": "2026-10-15",
+  "stageType": "hilly",
+  "researchedAt": "2026-10-15T19:28:22Z",
+  "tldr": "Milan Fretin (Cofidis) took his first WorldTour win in a chaotic sprint after race leader Paul Magnier popped out of his pedal with 150m to go. Frits Biesterbos's second place moves him into the overall lead, tied on time with Magnier but ahead on the countback.",
+  "podium": [
+    { "position": 1, "name": "Milan Fretin", "team": "Cofidis", "time": "4:31:55" },
+    { "position": 2, "name": "Frits Biesterbos", "team": "Team Picnic PostNL", "gap": "m.t." },
+    { "position": 3, "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "m.t.", "riderId": "jordi-meeus" },
+    { "position": 4, "name": "Fabio Jakobsen", "team": "Team Visma | Lease a Bike", "gap": "m.t." },
+    { "position": 5, "name": "Arvid de Kleijn", "team": "Tudor Pro Cycling Team", "gap": "m.t." }
+  ],
+  "narrative": {
+    "headline": "Magnier's foot slips off the pedal and Fretin steals the longest stage",
+    "body": "The 212.3km run from Jingxi to Bama was the longest and toughest day of the race so far, with over 1,500m of climbing in its second half. Jasha Sütterlin, Tobias Bayer and Ruidong Wang went clear early and built a gap of nearly six minutes, with Wang mopping up the day's mountain points to take the polka-dot jersey from Afonso Eulálio. Soudal Quick-Step and Decathlon CMA CGM Team drove the chase through the categorised climbs, and the escapees were swept up with roughly 19km to go as the bunch crested the final climb together with 13km remaining, setting up a bunch sprint. XDS Astana Team led the technical run into Bama for Max Kanter, with Paul Magnier tucked in behind in position to contest a second stage win of the week. In the final 150 metres, Magnier's foot came out of the pedal as he accelerated, ending his chance instantly. Milan Fretin jumped through the gap to take the win, holding off a fast-finishing Frits Biesterbos — the previous day's winner — with Jordi Meeus completing the podium and Fabio Jakobsen narrowly missing it in fourth for his best result since joining Visma | Lease a Bike. The whole field crossed in the same time as the winner.",
+    "quotes": []
+  },
+  "gcImpact": {
+    "headline": "Biesterbos takes the race lead on countback from Magnier",
+    "body": "Frits Biesterbos moves into the overall lead, level on time with Paul Magnier after three stages but ahead on the sum of his daily placings. Max Kanter sits third overall, 10 seconds back. Magnier's run of stage wins and the overall lead he held since stage 1 ends here, though he remains very much in contention given the time gap is nominal."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 21,
+      "gap": "m.t.",
+      "narrative": "Magnier was perfectly positioned off Kanter's lead-out and in position to contest a second stage win of the week when his foot slipped off the pedal mid-acceleration inside the final 150 metres, ending his sprint before it started. He finished safely in the bunch, losing no time, but the mishap cost him the stage and, on the counting-back tiebreak, the overall lead he'd held since stage 1.",
+      "keyMoments": [ { "km": 212, "what": "Foot comes out of the pedal mid-sprint with 150m to go, loses the chance to contest the win and the race lead on countback" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 3,
+      "gap": "m.t.",
+      "narrative": "Meeus timed his effort well through the chaotic finish, coming through cleanly as Magnier faltered ahead of him to take his second podium in three days, this time third behind Fretin and Biesterbos.",
+      "keyMoments": [ { "km": 212, "what": "Navigates the chaotic sprint for 3rd, his second stage podium in three days" } ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": 64,
+      "gap": "m.t.",
+      "narrative": "Kooij was boxed out of position on the technical run into Bama and never featured in the sprint, finishing deep in the bunch on the same time as the winner after two days of close misses.",
+      "keyMoments": [ { "km": 212, "what": "Loses position on the technical finishing straight, finishes outside the top 10 for the first time this race" } ],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-3-chaotic-sprint-as-milan-fretin-takes-huge-win-after-paul-magnier-comes-out-of-his-pedal",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 3: Chaotic sprint as Milan Fretin takes huge win after Paul Magnier comes out of his pedal",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/a-mistake-from-magnier-sees-fretin-become-the-third-winner-in-three-sprints-at-the-tour-of-guangxi",
+      "publication": "IDL Pro Cycling",
+      "title": "A mistake from Magnier sees Fretin become the third winner in three sprints at the Tour of Guangxi",
+      "lang": "en"
+    },
+    {
+      "url": "https://en.brujulabike.com/milan-fretin-wins-in-guangxi-after-an-ill-fated-sprint-by-magnier-as-biesterbos-takes-the-lead/",
+      "publication": "Brújula Bike",
+      "title": "Milan Fretin wins in Guangxi after an ill-fated sprint by Magnier, as Biesterbos takes the lead",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.esciclismo.com/actualidad/carretera/93544.html",
+      "publication": "EsCiclismo",
+      "title": "Clasificaciones completas de la 3ª etapa del Tour de Guangxi 2026",
+      "lang": "es"
+    }
+  ]
+}
