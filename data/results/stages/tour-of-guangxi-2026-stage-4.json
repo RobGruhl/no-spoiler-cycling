@@ -1,0 +1,91 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 4,
+  "stageName": "Bama → Tian'e",
+  "stageDate": "2026-10-16",
+  "stageType": "mountain",
+  "researchedAt": "2026-10-16T19:40:00Z",
+  "tldr": "Paul Magnier won a reduced sprint in Tian'e to take his second stage of the week and reclaim the overall lead, after Olav Kooij's late attackers were swept up and Cees Bol deputised for the absent Olav Kooij to finish second.",
+  "podium": [
+    { "position": 1, "name": "Paul Magnier", "team": "Soudal Quick-Step", "time": "3:41:55" },
+    { "position": 2, "name": "Cees Bol", "team": "Decathlon CMA CGM Team", "gap": "m.t." },
+    { "position": 3, "name": "Max Kanter", "team": "XDS Astana Team", "gap": "m.t." },
+    { "position": 4, "name": "Frits Biesterbos", "team": "Team Picnic PostNL", "gap": "m.t." },
+    { "position": 5, "name": "Pau Miquel", "team": "Bahrain - Victorious", "gap": "m.t." }
+  ],
+  "narrative": {
+    "headline": "Magnier survives the selection to win again and retake the lead",
+    "body": "The 165.7km stage from Bama to Tian'e was far hillier than its sprint-friendly billing suggested, with roughly 2,700m of climbing including a 2km ramp at 7% inside 50km to go and a sharper 1.7km, 8.5%-average hilltop at 23km from the line. Baptiste Veistroffer, Dries De Bondt, Robbe Ghys and Enzo Paleni formed the early breakaway and managed a gap of up to four minutes through the opening 100km. The peloton's pace steadily thinned the group of pure sprinters well before the finale: a wave of riders including Fabio Jakobsen, Arvid De Kleijn, Matteo Moschetti and Kaden Groves were dropped from around 88km to go, and Paul Magnier and Milan Fretin were themselves briefly distanced at 77km before fighting back to the main group. With 36km to go, Netcompany INEOS Cycling Team's Kévin Vauquelin and Team Visma | Lease a Bike's Louis Barré counter-attacked from the peloton and nearly bridged to the leaders over the final climb, but a fast descent from the chasing bunch reeled in both the break and the counter-move inside the last 14km, setting up a reduced sprint. Soudal Quick-Step led onto the finishing straight in Tian'e, Red Bull - BORA - hansgrohe launched for Jordi Meeus, and Cees Bol — deputising for the absent Olav Kooij as Decathlon CMA CGM Team's sprinter — came through to challenge, but Magnier held the strongest finish to take his second win of the week and the race's points jersey. A crash inside the final kilometre caught up some riders but fell within the stage's 3km safety zone, so no time was lost.",
+    "quotes": []
+  },
+  "gcImpact": {
+    "headline": "Magnier reclaims the overall lead he lost on stage 3",
+    "body": "Paul Magnier is back in the race lead on 14:59:06, with Frits Biesterbos second at +0:10 and Max Kanter third at +0:16. Cees Bol sits fourth at +0:20, and Jordi Meeus's steady run of placings through four stages has him fifth overall at +0:22, just ahead of Pau Miquel (+0:24) and Lionel Taminiaux (+0:26). With two stages remaining, the GC is still separated by seconds rather than minutes."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 1,
+      "gap": "m.t.",
+      "narrative": "Magnier was briefly dropped from the peloton with 77km to go as the pace on the day's climbs thinned the sprinters, but fought his way back to the main group and had the legs to spare in the finale. With Soudal Quick-Step driving the front inside the flamme rouge, he held off a late surge from Cees Bol to take his second stage win of the week and reclaim the overall lead he'd lost on stage 3.",
+      "keyMoments": [
+        { "km": 89, "what": "Momentarily dropped from the peloton as the pace rises on the day's climbs, fights back to the front group" },
+        { "km": 166, "what": "Wins the reduced sprint in Tian'e and retakes the race lead" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 12,
+      "gap": "m.t.",
+      "narrative": "Red Bull - BORA - hansgrohe led the sprint out for Meeus inside the final kilometre, but he faded in the closing metres as Bol and Kanter came through, crossing the line 12th on the same time as the winner. The placing was still enough to move him to fifth overall, his best GC position of the week.",
+      "keyMoments": [ { "km": 166, "what": "Leads out the sprint but fades in the final metres, finishes 12th" } ],
+      "incident": null
+    },
+    {
+      "riderId": "olav-kooij",
+      "name": "Olav Kooij",
+      "team": "Decathlon CMA CGM Team",
+      "role": "stage-hunter",
+      "position": null,
+      "gap": null,
+      "narrative": "Kooij did not start stage 4 following a run of disappointing sprint results earlier in the week, with Decathlon CMA CGM Team turning instead to Cees Bol, who finished second in Kooij's absence.",
+      "keyMoments": [],
+      "incident": { "type": "dns", "detail": "Did not start, after below-par placings on stages 1–3" }
+    }
+  ],
+  "incidents": { "abandons": [ { "riderId": "olav-kooij", "reason": "Did not start stage 4" } ] },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-4-paul-magnier-takes-revenge-as-late-attackers-reeled-in-and-sprinters-get-another-chance",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 Stage 4 - Paul Magnier takes revenge as late attackers reeled in and sprinters get another chance",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/paul-magnier-wins-stage-four-of-2026-tour-of-guangxi/",
+      "publication": "ProCyclingUK",
+      "title": "Paul Magnier wins 2026 Tour of Guangxi stage 4 after attritional finale",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.esciclismo.com/actualidad/carretera/93559.html",
+      "publication": "EsCiclismo",
+      "title": "Clasificaciones completas de la 4ª etapa del Tour de Guangxi 2026",
+      "lang": "es"
+    },
+    {
+      "url": "https://www.tour-magazin.de/en/professional-cycling/latest-news/tour-of-guangxi-2026-stage-4-magnier-back-on-the-winning-track/",
+      "publication": "Tour Magazin",
+      "title": "Tour of Guangxi 2026 – Stage 4: Magnier back on the winning track",
+      "lang": "en"
+    }
+  ]
+}
