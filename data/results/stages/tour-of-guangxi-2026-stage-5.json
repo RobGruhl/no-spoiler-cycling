@@ -1,0 +1,91 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 5,
+  "stageName": "Jinchengjiang → Yizhou",
+  "stageDate": "2026-10-17",
+  "stageType": "hilly",
+  "researchedAt": "2026-10-17T19:45:00Z",
+  "tldr": "Milan Fretin won his second stage of the week in a bunch sprint at Yizhou after overall leader Paul Magnier was brought down in a crash just 500m from the line; the race jury's neutralization let Magnier keep the same finishing time, so he carries a 10-second overall lead into Sunday's summit finish at Nongla.",
+  "podium": [
+    { "position": 1, "name": "Milan Fretin", "team": "Cofidis", "time": "3:44:18" },
+    { "position": 2, "name": "Matteo Moschetti", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "m.t." },
+    { "position": 3, "name": "Erlend Blikra", "team": "Uno-X Mobility", "gap": "m.t." },
+    { "position": 4, "name": "Joshua Giddings", "team": "Lotto Intermarché", "gap": "m.t." },
+    { "position": 5, "name": "Jordi Meeus", "team": "Red Bull - BORA - hansgrohe", "gap": "m.t.", "riderId": "jordi-meeus" }
+  ],
+  "narrative": {
+    "headline": "Fretin doubles up as Magnier crashes out of the sprint but keeps the jersey",
+    "body": "The 170.1km run from Jinchengjiang to Yizhou was lumpier than its sprint-stage billing, with close to 2,400m of climbing packed into the first half and a flat, 20km run to the line. A breakaway took longer than usual to settle: Davide Formolo, Patrick Gamper, Jasha Sütterlin, Brandon Rivera and Baptiste Veistroffer finally got clear after repeated counter-attacks, and Max Walker bridged across later to make it six. Veistroffer swept every KOM sprint on offer, all but sealing the mountains jersey with one stage to go, while Sütterlin took the points at the day's intermediate sprint. The six were reeled in with 14km remaining as Soudal Quick-Step, XDS Astana, Cofidis and Team Visma | Lease a Bike all took turns on the front for the sprinters. Inside the final kilometre, Decathlon CMA CGM, Tudor Pro Cycling Team and Team Visma | Lease a Bike traded the lead before a crowded, elbow-to-elbow run to the flamme rouge. With 500m to go, race leader Paul Magnier was brought down after being clipped from behind by a chasing XDS Astana rider; Frits Biesterbos was also caught up but stayed upright. Ahead of the chaos, Arvid de Kleijn opened the sprint early, but Fretin timed his effort perfectly to come round Moschetti and Blikra for his second win of the week. Magnier remounted, visibly shaken, and crossed the line well back, but the race jury applied the final-kilometre neutralization rule and credited him with the bunch's time, so the result left his overall lead untouched heading into Sunday's decisive stage up the Nongla climb.",
+    "quotes": []
+  },
+  "gcImpact": {
+    "headline": "Magnier keeps his 10-second lead into the Nongla finale",
+    "body": "Paul Magnier remains the overall leader on 18:43:24, with Frits Biesterbos second at +0:10 and Max Kanter third at +0:16 — both positions unchanged by the neutralized finish. Jasha Sütterlin moved up to fourth at +0:18 and Jhonatan Narváez to fifth at +0:19 on the back of the day's breakaway and intermediate-sprint bonuses, with Cees Bol sixth (+0:20) and Enzo Paleni seventh, level on the same gap. Jordi Meeus sits eighth at +0:22, just ahead of Neilson Powless, also +0:22, and Martin Tjøtta rounds out the top ten at +0:23. With the final stage finishing atop the 3.2km, 7.3%-average Nongla climb, Sunday is expected to reshuffle this group significantly — Magnier is not considered a climbing threat to defend the jersey there."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": null,
+      "gap": "m.t.",
+      "narrative": "Magnier went into the sprint as the overall leader and a heavy favourite for a third stage win, but was clipped from behind by a chasing XDS Astana rider and hit the ground hard 500m from the line. He remounted in visible pain and finished well down the field, but the race jury's final-kilometre neutralization credited him with the bunch's time rather than his actual finish, so he loses no ground on GC. He carries his 10-second overall lead into Sunday's summit finish at Nongla, though he is not expected to defend it on that terrain.",
+      "keyMoments": [
+        { "km": 169.6, "what": "Hit from behind and crashes hard inside the final 500m" },
+        { "km": 170.1, "what": "Remounts and finishes well back, but is credited with the bunch's time under the neutralization rule" }
+      ],
+      "incident": { "type": "crash", "detail": "Brought down ~500m from the finish; remounted, finished outside the group but neutralized onto the bunch's time" }
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "stage-hunter",
+      "position": 5,
+      "gap": "m.t.",
+      "narrative": "Meeus was again in the thick of the sprint for Red Bull - BORA - hansgrohe, crossing the line fifth behind Fretin, Moschetti, Blikra and Giddings as the crash behind him played no part in his own run to the line. The placing, combined with time bonuses gained elsewhere in the bunch, nudged him down to eighth overall but kept him inside the top ten with one stage to race.",
+      "keyMoments": [ { "km": 170.1, "what": "Finishes fifth in the bunch sprint at Yizhou" } ],
+      "incident": null
+    }
+  ],
+  "incidents": {
+    "crashes": [
+      { "km": 169.6, "description": "A crash inside the final 500m brings down race leader Paul Magnier, clipped from behind by a chasing XDS Astana rider; Frits Biesterbos is also caught up but stays upright. The race jury applies the final-kilometre neutralization rule, so Magnier loses no time on GC." }
+    ],
+    "abandons": []
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://www.tuttobiciweb.it/article/2026/10/17/1792186974/tour-of-guangxi-2026-stage-5-fretin-victory-magnier-crash-moschetti?lang=en",
+      "publication": "TuttoBiciWeb",
+      "title": "Tour of Guangxi. Magnier crashes in the finale, Fretin takes bis at Yizhou. Moschetti 2nd",
+      "lang": "en"
+    },
+    {
+      "url": "https://dicodusport.fr/blog/le-classement-general-du-tour-de-guangxi-2026-mis-a-jour/",
+      "publication": "Dicodusport",
+      "title": "Classement général du Tour de Guangxi 2026 mis à jour à l'issue de la 5e étape",
+      "lang": "fr"
+    },
+    {
+      "url": "https://fanta-cycling.com/en/news/tour-of-guangxi-fretin-fa-il-bis-nella-tappa-5-magnier-cade-nellultimo-chilometro",
+      "publication": "FantaCycling",
+      "title": "Tour of Guangxi: Fretin doubles victory on stage 5, with Magnier crashing in the final kilometer",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/milan-fretin-wins-tour-of-guangxi-2026-stage-5/",
+      "publication": "ProCyclingUK",
+      "title": "Milan Fretin wins 2026 Tour of Guangxi stage five in same-time finish",
+      "lang": "en"
+    },
+    {
+      "url": "https://dicodusport.fr/blog/le-classement-et-les-resultats-de-la-5e-etape-du-tour-de-guangxi-2026-remportee-par-milan-fretin/",
+      "publication": "Dicodusport",
+      "title": "Le classement et les résultats de la 5e étape du Tour de Guangxi 2026, remportée par Milan Fretin",
+      "lang": "fr"
+    }
+  ]
+}
