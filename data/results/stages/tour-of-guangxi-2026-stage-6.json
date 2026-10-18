@@ -1,0 +1,132 @@
+{
+  "raceId": "tour-of-guangxi-2026",
+  "stageNumber": 6,
+  "stageName": "Yizhou → Nongla",
+  "stageDate": "2026-10-18",
+  "stageType": "flat",
+  "researchedAt": "2026-10-18T19:30:00Z",
+  "tldr": "Jarno Widar countered Tom Pidcock's late attack on the Nongla climb to win the queen stage by six seconds and claim his first WorldTour victory — and with it the overall title by nine seconds over Pidcock, with Louis Barré third — while overnight leader Paul Magnier was dropped early on the final climb and lost the jersey completely, finishing the Tour of Guangxi outside the top 90 overall.",
+  "podium": [
+    { "position": 1, "name": "Jarno Widar", "team": "Lotto Intermarché", "time": "3:39:05" },
+    { "position": 2, "name": "Tom Pidcock", "team": "Pinarello-Q36.5 Pro Cycling Team", "gap": "+0:06" },
+    { "position": 3, "name": "Louis Barré", "team": "Team Visma | Lease a Bike", "gap": "+0:10" },
+    { "position": 4, "name": "Marco Brenner", "team": "Tudor Pro Cycling Team", "gap": "+0:11" },
+    { "position": 5, "name": "Martin Tjøtta", "team": "Uno-X Mobility", "gap": "+0:15" }
+  ],
+  "narrative": {
+    "headline": "Widar out-sprints Pidcock on Nongla to win the stage and the overall title",
+    "body": "The 165.8km run from Yizhou to Nongla closed the season's final WorldTour stage race on a summit finish, and it played out as advertised: a queen stage built to settle the general classification. An early break of Jonas Rickaert, Stan Dewulf, Laurenz Rex and Yutao Shen went clear, with Rex sweeping the third KOM sprint at the 120km mark, but the gap was already shrinking with 67km still to race. The move was dismantled in stages rather than swept up all at once — Rex was caught with 17km left, Shen held on until 13km to go — as Julius Johansen and UAE Team Emirates - XRG kept the peloton's chase organized behind. Arjen Livyns' acceleration with 23km to go added to the pressure, and Jonas Rickaert, the last man from the original break, was finally dropped with 3.8km remaining. On the climb's lower slopes, Rémy Rochas and then Kévin Vauquelin and Peter Øxenberg went on the attack in turn, each briefly reshaping the front group without producing the winning move. The race was finally decided inside the last 400m: Louis Barré jumped first, pulling Tom Pidcock and Jarno Widar clear of the rest. Pidcock, the pre-stage favourite for the overall win, launched with 100m to go, but Widar answered immediately and came round him in the final metres to take the stage by six seconds, with Barré third at ten. It was the 20-year-old Belgian's first WorldTour victory, a week and a half after also beating Pidcock at Tre Valli Varesine.",
+    "quotes": [
+      "\"That climb suited me perfectly. The pace was already very fast for the first two kilometres, but I was still a bit too far back, boxed in behind the trains of the other teams. I knew Pidcock would accelerate about 300 metres from the finish. At 150 metres, I felt I had to pass him.\" — Jarno Widar"
+    ]
+  },
+  "gcImpact": {
+    "headline": "Widar wins the Tour of Guangxi outright; Magnier's lead evaporates on the final climb",
+    "body": "Jarno Widar takes the overall title by 9 seconds over Tom Pidcock, with Louis Barré third at +0:16, Marco Brenner fourth at +0:21 and Martin Tjøtta fifth at +0:22. Juan Ayuso rounds out the top six at +0:26, with Jhonatan Narváez seventh at +0:29 and Kévin Vauquelin 13th at +0:40. Overnight race leader Paul Magnier, who had carried a 10-second lead into the stage, was dropped early on the Nongla climb and lost 12:16 on the day, dropping him to 99th overall at +12:00 — a complete reversal after four days spent at or near the top of the general classification."
+  },
+  "riderPerformances": [
+    {
+      "riderId": "jarno-widar",
+      "name": "Jarno Widar",
+      "team": "Lotto Intermarché",
+      "role": "leader",
+      "position": 1,
+      "gap": "winner",
+      "narrative": "Widar survived the late reshuffling on the Nongla climb to arrive in the winning trio alongside Barré and Pidcock, then answered Pidcock's 100m attack immediately to take the stage by six seconds. It was his first WorldTour victory, coming a week and a half after also beating Pidcock at Tre Valli Varesine, and it carried him to the overall title by nine seconds — the headline result of his first full season as a professional.",
+      "keyMoments": [
+        { "km": 165.4, "what": "Barré's move at 400m to go brings Widar and Pidcock into the decisive trio" },
+        { "km": 165.7, "what": "Counters Pidcock's 100m attack to win the stage and the overall" }
+      ],
+      "incident": null
+    },
+    {
+      "riderId": "paul-magnier",
+      "name": "Paul Magnier",
+      "team": "Soudal Quick-Step",
+      "role": "leader",
+      "position": 136,
+      "gap": "+12:16",
+      "narrative": "Magnier carried his 10-second overall lead into the queen stage but was never a threat on a summit finish, and once the pace rose on the Nongla climb's lower slopes he was dropped from the group of contenders early and could not respond. He rode the rest of the climb in isolation, losing well over twelve minutes on the stage and with it the overall lead he had held for most of the week, finishing the race in 99th place overall at +12:00 — a sharp fall after four days spent leading or just off the top of the general classification.",
+      "keyMoments": [ { "km": 145, "what": "Dropped from the GC group on the lower slopes of the Nongla climb" } ],
+      "incident": null
+    },
+    {
+      "riderId": "jordi-meeus",
+      "name": "Jordi Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "role": "domestique",
+      "position": 121,
+      "gap": "+9:26",
+      "narrative": "Meeus, a sprinter with no business on a summit finish, rode the Nongla climb inside the main gruppetto and lost over nine minutes on the day, ending his consistent week of top-ten stage finishes with a big slide down the final general classification to 91st overall.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "jhonatan-narvaez",
+      "name": "Jhonatan Narváez",
+      "team": "UAE Team Emirates - XRG",
+      "role": "domestique",
+      "position": 11,
+      "gap": "+0:26",
+      "narrative": "Narváez stayed with the main group of GC contenders on the Nongla climb, finishing 11th on the stage, just behind the decisive trio, enough to move him up to seventh overall at +0:29 on the final classification.",
+      "keyMoments": [],
+      "incident": null
+    },
+    {
+      "riderId": "kevin-vauquelin",
+      "name": "Kévin Vauquelin",
+      "team": "Netcompany INEOS Cycling Team",
+      "role": "stage-hunter",
+      "position": 14,
+      "gap": "+0:30",
+      "narrative": "Vauquelin attacked from the GC group with 1.4km to go in a bid to disrupt the sprint for the stage, but was brought back before the Barré-Pidcock-Widar move went clear. He finished 14th on the stage, good enough for 13th overall at +0:40 on the final general classification.",
+      "keyMoments": [ { "km": 164.4, "what": "Attacks from the GC group with 1.4km to go" } ],
+      "incident": null
+    },
+    {
+      "riderId": "neilson-powless",
+      "name": "Neilson Powless",
+      "team": "EF Education - EasyPost",
+      "role": "domestique",
+      "position": 27,
+      "gap": "+0:50",
+      "narrative": "Powless finished with a reduced group behind the main GC contenders, closing out the race 24th overall at +0:56.",
+      "keyMoments": [],
+      "incident": null
+    }
+  ],
+  "incidents": {},
+  "quotes": [],
+  "sources": [
+    {
+      "url": "https://cyclinguptodate.com/cycling/results-tour-of-guangxi-2026-stage-6-jarno-widar-beats-tom-pidcock-to-take-gc-win-on-queen-stage",
+      "publication": "CyclingUpToDate",
+      "title": "Results Tour of Guangxi 2026 stage 6 - Jarno Widar beats Tom Pidcock to take GC win on queen stage",
+      "lang": "en"
+    },
+    {
+      "url": "https://procyclinguk.com/jarno-widar-wins-tour-of-guangxi-2026-stage-6/",
+      "publication": "ProCyclingUK",
+      "title": "Jarno Widar wins Tour of Guangxi Stage 6 and seals 2026 overall title",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.esciclismo.com/actualidad/carretera/93592.html",
+      "publication": "EsCiclismo",
+      "title": "Clasificaciones completas de la 6ª etapa del Tour de Guangxi 2026",
+      "lang": "es"
+    },
+    {
+      "url": "https://www.rouleur.cc/racing/races/tour-of-guangxi/2026/standings",
+      "publication": "Rouleur",
+      "title": "Tour of Guangxi 2026 — Standings",
+      "lang": "en"
+    },
+    {
+      "url": "https://www.idlprocycling.com/cycling/widar-secures-his-first-worldtour-win-and-crushes-the-strava-kom-on-the-final-climb",
+      "publication": "IDL Pro Cycling",
+      "title": "Widar secures his first WorldTour win and crushes the Strava KOM on the final climb",
+      "lang": "en"
+    }
+  ]
+}
