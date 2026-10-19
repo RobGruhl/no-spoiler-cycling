@@ -51515,8 +51515,8 @@
       "id": "utsunomiya-japan-cup-2026",
       "name": "Utsunomiya Japan Cup",
       "description": "1.Pro cycling race in Japan",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=vYB9yRbv0Hs",
       "type": "full-race",
       "raceDate": "2026-10-18",
       "endDate": "2026-10-19",
@@ -51581,14 +51581,23 @@
           "kind": "raceDetails",
           "text": "Race details (favorites, climbs, narratives) will be enriched as we approach race day and startlists / route specifics are confirmed."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-19"
+      },
+      "raceDetails": {
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
+      }
     },
     {
       "id": "veneto-classic-2026",
       "name": "Veneto Classic",
       "description": "1.Pro cycling race in Italy",
-      "platform": "TBD",
-      "url": "TBD",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=9662uZzr8zc",
       "type": "full-race",
       "raceDate": "2026-10-18",
       "endDate": "2026-10-19",
@@ -51654,14 +51663,21 @@
           "puncheurs": [
             "Italian classics specialists target the closing climbs."
           ]
-        }
+        },
+        "spoilerSafe": true,
+        "watchNotes": "Spoiler-safe race highlights on YouTube — watch the linked video directly. Disable autoplay and avoid the sidebar, comments, and video description, which can reveal results."
       },
       "editorialNotes": [
         {
           "kind": "broadcast",
           "text": "FloBikes 2026 event-page deep link not yet published for this race. The root flobikes.com link is provided as a placeholder; check the FloBikes calendar closer to race day for the specific event URL."
         }
-      ]
+      ],
+      "review": {
+        "status": "pending",
+        "addedBy": "auto",
+        "added": "2026-10-19"
+      }
     },
     {
       "id": "tour-of-guangxi-women-2026",
